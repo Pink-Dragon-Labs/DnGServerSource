@@ -1,0 +1,19 @@
+quest  125 #6311-01-525        # Jenri, True Blue Potions, Arimathor, 6814
+
+name  "Speckled Minter"
+type  fedex
+
+proposal  "I've got 'em, plenty of scarabs, so I've got some good pieces.  What I don't have, though, is a bit of speckled minter.  In my traveling days, I used to love a bite of speckled minter and I've a hankering for some.  Best place to find it is Silverbrook.  Whaddya say?  Want to trade for a scarab?" 
+
+declined  "Go your way, then."
+
+accepted  "Glad to hear it."  
+
+reminder   "Find some speckled minter in Silverbrook."
+
+completed  "Ah, a sight for these tired eyes, that speckled minter.  Here's an excellent scarab."
+
+getItem   qSpeckledMinter
+reward    qScarab 
+end
+

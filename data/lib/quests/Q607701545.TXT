@@ -1,0 +1,17 @@
+quest  60 #6077-01-545        # Daria, Fashion Delights, Usk, giant, 8101
+
+name  "Delivery for Daria"
+type  fedex
+
+proposal  "You're just in time.  I was thinking of taking a break.  You do plan to deliver them, don't you?"
+
+declined  "Nitwit!  Stop wasting my time."
+
+accepted  "Then take them and go."
+
+reminder   "Take Bekka's shoes to her."
+
+reward   qBekkaShoes 
+end
+
+

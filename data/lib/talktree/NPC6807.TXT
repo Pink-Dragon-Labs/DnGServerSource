@@ -1,0 +1,51 @@
+id 6807
+
+banner "Welcome to Arimathor Armory.  My name is Georgi. How may I serve you?"
+
+topic "Tell me about Arimathor."
+      	text "We live in an oasis of beauty, and we know the desert well.  We know fighting, too."
+	text "We've got more shops dealing with weapons and weapons training than we have for eating.  That should tell you something."
+end
+
+topic "Who are you?"
+	text "I am Georgi.  I'm the last of my family here in Arimathor.  I've got a cousin in Kurz, though."
+	text "I like the desert myself.  The flat horizon is very satisfying.  One can see miles and miles of miles and miles. It's not like the mountains where you can't see far at all."
+	text "I wouldn't care to move from here permanently.  Traveling is a great treat. And coming home to Arimathor is even greater!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard there's a place you can plant a gold coin and grow a tree of gold coins.  Seems unlikely.  Be nice if it were true, though.  I'd like one of those trees."
+	text "One traveler insisted he visited a city full of giants.  Interesting idea.  I've not had occasion to meet many, but I've liked the giants I've met."
+end      
+
+topic "Can I do anything for you?"
+        text "Soon I expect to have a few . . . how shall I say this . . . projects."
+end
+
+topic  "Do you have a letter for Benoit?" q104:0 #q6308-01-225:0
+	quest 105 #6308-01-230
+	text  "I gave you the letter."
+end
+
+topic  "I want to learn the ways of war." c30:5
+	banner  "If shield use master skills are of interest to you, I can teach you master and grand-master levels.  You've got to know the expert level skills already." 
+
+	topic  "How do I get to be an expert at shield use?" c30:3
+		text  "Buy the skill books and practice.  Try The Learning Emporium in Usk."
+	end
+
+	topic  "I am interested in shield use master skills."  s30:3  
+		quest 200 #6807-01-400
+		text "Friend, you're going to have to study that skill book you have."
+	end
+
+	topic  "I am interested in shield use grand-master skills."  s30:4  
+		quest 204 #6807-01-500
+		text "Friend, the only way you'll gain the skill is to study the book you have."
+	end
+
+	topic  "Is there anything else I can learn from you?"  s30:5
+		text  "You've already learned a very great skill from me.  Check with other shopkeepers.  Some of them teach other skills you might want to learn."  
+		text  "You really should finish the shield use skills."
+	end
+end

@@ -1,0 +1,18 @@
+quest  286 #8021-01-200       #Mara, Wards of War, Kurz, 8021
+
+name  "Fish Spinal Bones"
+type  fedex
+
+proposal  "Huh.  Think you can take on Proficient spells!  Sheesh.  OK.  We'll give it a try.  Get me some Fish Spinal Bones.  And don't bother to ask what I want with them.  That's for me to know.  You just have to say you'll do it or you won't.  Which will it be?"
+
+declined  "You're wasting my time."
+
+accepted  "Take off, then." 
+
+reminder   "Go to the desert and get some Fish Spinal Bones.  Don't bother to come back without them."  
+
+completed  "You sure didn't get many.  Oh well.  Take the spellbook."
+
+getItem   qFishSpines
+reward   skbNecromancyII 
+end

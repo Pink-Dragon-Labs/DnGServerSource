@@ -1,0 +1,10 @@
+object Dragon of NPC
+	properties
+		name "Dragon"
+		view 41900
+	end
+
+	base described
+		text "This is a Dragon."
+	end
+end

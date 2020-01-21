@@ -1,0 +1,19 @@
+quest  386 #80500-01-425        # Kaliri, Anything and Everything, Arimathor, 6801
+
+name  "Wen Cheese for Kaliri"
+type  fedex
+
+proposal  "Does he, now, the scamp.  He know's his old grandmother'll fix him up right.  This is going to take me awhile, dearie.  I've got a lot to gather.  Let me think, now.  I ought to have more cheese.  Yes, that's what I need, some of Fiona's good cheese.  Dearie, would you make a trek for old Kaliri?  Would you go to Wen for me and get some cheese?"
+
+declined  "Well, dearie, if you won't, you won't."
+
+accepted  "It's a special cheese she makes.  Tell Fiona it's for Sandor.  He's a favorite of hers."
+
+reminder   "Go on, now.  Go to Wen and find Fiona.  I need some of her good cheese."
+
+completed  "Mercy sakes, will you look at all this?  These goodies should hold Sandor for awhile. I'll add mine to the basket and off you go."
+
+getItem   qFionaCheese
+reward   qKaliriCare 
+end
+

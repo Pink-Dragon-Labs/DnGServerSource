@@ -1,0 +1,8 @@
+name "D_Greater_Hive"
+title "Greater Hive"
+worldFile "../data/lib/world/D_GREATER_HIVE_01.WLD"
+allowCombat 3
+midiFile 31
+groupChance 100
+isDungeon 1
+entrance movingRock21969-0

@@ -1,0 +1,21 @@
+id 9052
+#--------------- 9052 21998 ascets20 male human Cronus
+
+banner "You look as if you are in need of something. Perhaps I can help?"
+
+topic "Tell me about Ascetos Desert."
+    text "It's a cursed place with cursed creatures."
+    text "Many times when folks are banished this is where they are sent."
+    text "Take me for example, I was banished here with my family."
+ text "You need be careful when walking about in the sands."
+end
+
+topic "Who are you?"
+    text "I am Cronus, husband of Solana and father to Jyotis."
+    text "My daughter caused us to be banished from the city of Arimathor."
+    text "So here I am."
+end
+
+topic "How can I find my way back to town?"
+    text "From my tent entrance you should walk three East and then go North. If you notice the sands are starting to get deeper, you went to far."
+end

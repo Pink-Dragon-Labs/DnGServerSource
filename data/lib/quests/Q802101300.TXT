@@ -1,0 +1,19 @@
+quest  290 #8021-01-300       #Mara, Wards of War, Kurz, 8021
+
+name  "Skeleton Finger Bone"
+type  fedex
+
+proposal  "Would you listen to that?  An apprentice thinks it's ready to study Expert spells. We'll see about that!  You don't look like a Necromancer to me. I won't give you the spellbook until you bring me a Skeleton Finger Bone.  Do you think you want to try for that, apprentice?"
+
+declined  "Doesn't surprise me."
+
+accepted  "Fine.  Go look in Caer Fandry."
+
+reminder   "I want a Skeleton Finger Bone.  Try Caer Fandry."
+
+completed  "I'm truly amazed.  The spellbook for Necromancy Expert spells is yours."
+
+getItem   qFingerBone
+reward   skbNecromancyIII 
+end
+

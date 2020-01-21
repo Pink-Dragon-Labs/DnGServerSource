@@ -1,0 +1,11270 @@
+# Dungeonmaker World File (EnidRose.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 93000
+# Dungeon last room = 93116
+# Number of objects in dungeon = 1300
+# Level 0 information:
+room 93098
+	properties
+		template 30501
+		south 93099
+		east 93097
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93098-0 of GreenCrystalB
+			properties
+				x	95
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93098-1 of GreenCrystalC
+			properties
+				x	536
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93098-2 of GreenCrystalA
+			properties
+				x	180
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93098-3 of CellFloorA
+			properties
+				x	173
+				y	195
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93098-4 of CellFloorA
+			properties
+				x	536
+				y	185
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93097
+	properties
+		template 31301
+		east 93096
+		west 93098
+		flags	0
+	end
+	objects
+		object GreenWaterA-93097-0 of GreenWaterA
+			properties
+				x	256
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93097-1 of GreenWaterC
+			properties
+				x	66
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93097-2 of GreenWaterB
+			properties
+				x	511
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93097-3 of YellowShroomA
+			properties
+				x	471
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93097-4 of YellowShroomD
+			properties
+				x	452
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93097-5 of YellowShroomB
+			properties
+				x	232
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93097-6 of YellowShroomD
+			properties
+				x	205
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93097-7 of YellowShroomA
+			properties
+				x	225
+				y	228
+				loop	1
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93097-8 of YellowShroomB
+			properties
+				x	425
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93096
+	properties
+		template 32401
+		east 93095
+		west 93097
+		flags	0
+	end
+	objects
+		object GreenWaterA-93096-0 of GreenWaterA
+			properties
+				x	-38
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterD-93096-1 of GreenWaterD
+			properties
+				x	132
+				y	354
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93096-2 of GreenWaterB
+			properties
+				x	565
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93096-3 of YellowShroomB
+			properties
+				x	304
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93096-4 of YellowShroomD
+			properties
+				x	283
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93096-5 of GreenCrystalA
+			properties
+				x	346
+				y	343
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93096-6 of GreenCrystalC
+			properties
+				x	534
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93095
+	properties
+		template 30703
+		east 93094
+		west 93096
+		flags	0
+	end
+	objects
+		object GreenWaterA-93095-0 of GreenWaterA
+			properties
+				x	117
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93095-1 of GreenWaterC
+			properties
+				x	306
+				y	325
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93095-2 of GreenWaterB
+			properties
+				x	505
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93095-3 of GreenCrystalB
+			properties
+				x	318
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93094
+	properties
+		template 30601
+		south 93093
+		west 93095
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93094-0 of GreenCrystalA
+			properties
+				x	341
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93094-1 of CellFloorA
+			properties
+				x	352
+				y	198
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93069
+	properties
+		template 30501
+		south 93068
+		east 93070
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93069-0 of GreenCrystalB
+			properties
+				x	227
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93069-1 of GreenCrystalC
+			properties
+				x	164
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93069-2 of GreenCrystalA
+			properties
+				x	130
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93069-3 of GreenCrystalA
+			properties
+				x	75
+				y	337
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93069-4 of CellFloorA
+			properties
+				x	173
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93069-5 of GreenCrystalF
+			properties
+				x	525
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93070
+	properties
+		template 30701
+		west 93069
+		flags	136
+	end
+	objects
+		object Cleric-93070-0 of Cleric
+			properties
+				x	325
+				y	209
+				loop	2
+				color	104
+			end
+			base character
+			end
+			base described
+				text	"The light seems to twist around the figure of this warrior of light"
+			end
+		end
+		object Cleric-93070-1 of Cleric
+			properties
+				x	248
+				y	211
+				loop	2
+				color	104
+			end
+			base character
+			end
+			base described
+				text	"A shimmering phantasm of a devoted servant of Light"
+			end
+		end
+		object Smoke2-93070-2 of Smoke2
+			properties
+				x	598
+				y	349
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke2-93070-3 of Smoke2
+			properties
+				x	522
+				y	301
+				loop	1
+			end
+			base described
+			end
+		end
+		object SmokeB-93070-4 of SmokeB
+			properties
+				x	568
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93070-5 of Smoke2
+			properties
+				x	463
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-93070-6 of Sign
+			properties
+				x	396
+				y	225
+				loop	2
+			end
+			base described
+				text	"You have strayed from the true path, child. Your test continues.... Seek the mark of the gods"
+			end
+		end
+		object GreenWaterA-93070-7 of GreenWaterA
+			properties
+				x	239
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93070-8 of GreenWaterB
+			properties
+				x	-14
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterD-93070-9 of GreenWaterD
+			properties
+				x	420
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93070-10 of GreenCrystalB
+			properties
+				x	373
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93070-11 of GreenCrystalA
+			properties
+				x	429
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93070-12 of GreenCrystalA
+			properties
+				x	452
+				y	292
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93070-13 of GreenCrystalA
+			properties
+				x	575
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93070-14 of GreenCrystalA
+			properties
+				x	593
+				y	342
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93070-15 of GreenCrystalB
+			properties
+				x	539
+				y	357
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93070-16 of GreenCrystalB
+			properties
+				x	505
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93099
+	properties
+		template 31003
+		south 93100
+		north 93098
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93099-0 of GreenCrystalB
+			properties
+				x	565
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93099-1 of GreenCrystalC
+			properties
+				x	454
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93099-2 of GreenCrystalG
+			properties
+				x	565
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93099-3 of GreenCrystalF
+			properties
+				x	540
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93099-4 of GreenCrystalA
+			properties
+				x	131
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93099-5 of GreenCrystalA
+			properties
+				x	542
+				y	347
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93099-6 of CellFloorA
+			properties
+				x	509
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93099-7 of CellFloorA
+			properties
+				x	195
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93093
+	properties
+		template 30402
+		south 93092
+		north 93094
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93093-0 of GreenCrystalB
+			properties
+				x	463
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93093-1 of GreenCrystalC
+			properties
+				x	370
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93093-2 of GreenCrystalA
+			properties
+				x	142
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93093-3 of GreenCrystalA
+			properties
+				x	622
+				y	337
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93093-4 of GreenCrystalA
+			properties
+				x	541
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93093-5 of CellFloorA
+			properties
+				x	158
+				y	208
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93093-6 of CellFloorA
+			properties
+				x	454
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93067
+	properties
+		template 30501
+		south 93066
+		east 93068
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93067-0 of GreenCrystalB
+			properties
+				x	155
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93067-1 of GreenCrystalA
+			properties
+				x	97
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93067-2 of GreenCrystalA
+			properties
+				x	476
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93068
+	properties
+		template 31303
+		west 93067
+		north 93069
+		flags	0
+	end
+	objects
+		object GreenWaterA-93068-0 of GreenWaterA
+			properties
+				x	485
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93068-1 of GreenWaterC
+			properties
+				x	296
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93068-2 of GreenWaterB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93068-3 of GreenCrystalB
+			properties
+				x	537
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93068-4 of GreenCrystalC
+			properties
+				x	100
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93101
+	properties
+		template 30502
+		south 93102
+		east 93100
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93101-0 of GreenCrystalA
+			properties
+				x	457
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93101-1 of GreenCrystalA
+			properties
+				x	392
+				y	254
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93101-2 of GreenCrystalB
+			properties
+				x	286
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93101-3 of GreenCrystalC
+			properties
+				x	157
+				y	275
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93101-4 of GreenCrystalG
+			properties
+				x	145
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93101-5 of GreenCrystalF
+			properties
+				x	223
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93101-6 of GreenCrystalB
+			properties
+				x	115
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93101-7 of GreenCrystalB
+			properties
+				x	100
+				y	327
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93101-8 of GreenCrystalB
+			properties
+				x	599
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93101-9 of CellFloorA
+			properties
+				x	593
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93101-10 of CellFloorA
+			properties
+				x	211
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93101-11 of CellFloorB
+			properties
+				x	445
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93101-12 of CellFloorC
+			properties
+				x	319
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93101-13 of CellFloorC
+			properties
+				x	271
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93100
+	properties
+		template 32201
+		east 93107
+		west 93101
+		north 93099
+		flags	216
+	end
+	objects
+		object Faery-93100-0 of Faery
+			properties
+				x	333
+				y	280
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93100-1 of Faery
+			properties
+				x	598
+				y	257
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93100-2 of Faery
+			properties
+				x	109
+				y	215
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93100-3 of Faery
+			properties
+				x	431
+				y	238
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93100-4 of Faery
+			properties
+				x	234
+				y	224
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object FatColumn-93100-5 of FatColumn
+			properties
+				x	463
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93100-6 of GreenCrystalB
+			properties
+				x	494
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93100-7 of GreenCrystalC
+			properties
+				x	169
+				y	156
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93100-8 of GreenCrystalA
+			properties
+				x	434
+				y	188
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93100-9 of GreenCrystalA
+			properties
+				x	527
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93100-10 of GreenCrystalA
+			properties
+				x	40
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93100-11 of GreenCrystalC
+			properties
+				x	523
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93100-12 of GreenCrystalB
+			properties
+				x	217
+				y	179
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93100-13 of CellFloorA
+			properties
+				x	66
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93100-14 of CellFloorA
+			properties
+				x	73
+				y	115
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93100-15 of CellFloorA
+			properties
+				x	416
+				y	144
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93100-16 of CellFloorB
+			properties
+				x	199
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93100-17 of CellFloorB
+			properties
+				x	458
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93100-18 of YellowShroomA
+			properties
+				x	287
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93100-19 of YellowShroomD
+			properties
+				x	309
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93100-20 of YellowShroomB
+			properties
+				x	340
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93100-21 of GreenWaterA
+			properties
+				x	122
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93100-22 of GreenWaterC
+			properties
+				x	312
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93100-23 of GreenWaterB
+			properties
+				x	506
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93100-24 of YellowShroomC
+			properties
+				x	44
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93100-25 of YellowShroomD
+			properties
+				x	67
+				y	235
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93107
+	properties
+		template 30703
+		east 93108
+		west 93100
+		flags	0
+	end
+	objects
+		object GreenWaterA-93107-0 of GreenWaterA
+			properties
+				x	117
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93107-1 of GreenWaterC
+			properties
+				x	306
+				y	327
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93107-2 of GreenWaterB
+			properties
+				x	505
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93107-3 of GreenCrystalA
+			properties
+				x	343
+				y	240
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93107-4 of GreenCrystalB
+			properties
+				x	149
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93107-5 of GreenCrystalC
+			properties
+				x	544
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93108
+	properties
+		template 30602
+		south 93109
+		west 93107
+		flags	0
+	end
+	objects
+		object CellFloorA-93108-0 of CellFloorA
+			properties
+				x	394
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93108-1 of CellFloorA
+			properties
+				x	310
+				y	175
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93108-2 of GreenCrystalB
+			properties
+				x	189
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93108-3 of GreenCrystalC
+			properties
+				x	384
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93108-4 of GreenCrystalA
+			properties
+				x	222
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93108-5 of GreenCrystalA
+			properties
+				x	299
+				y	221
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93108-6 of GreenCrystalB
+			properties
+				x	448
+				y	235
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93108-7 of GreenCrystalF
+			properties
+				x	301
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93108-8 of GreenCrystalG
+			properties
+				x	244
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93108-9 of GreenCrystalG
+			properties
+				x	482
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93108-10 of CellFloorB
+			properties
+				x	582
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93108-11 of CellFloorA
+			properties
+				x	595
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93108-12 of GreenCrystalC
+			properties
+				x	402
+				y	187
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93108-13 of CellFloorA
+			properties
+				x	394
+				y	108
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93108-14 of CellFloorB
+			properties
+				x	193
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorE-93108-15 of CellFloorE
+			properties
+				x	91
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93108-16 of GreenCrystalB
+			properties
+				x	502
+				y	195
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93108-17 of GreenCrystalA
+			properties
+				x	385
+				y	166
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93108-18 of GreenCrystalA
+			properties
+				x	575
+				y	146
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93108-19 of GreenCrystalA
+			properties
+				x	614
+				y	175
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93108-20 of GreenCrystalC
+			properties
+				x	593
+				y	202
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93108-21 of GreenCrystalB
+			properties
+				x	606
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93108-22 of GreenCrystalC
+			properties
+				x	553
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93108-23 of GreenCrystalA
+			properties
+				x	663
+				y	262
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93108-24 of GreenCrystalC
+			properties
+				x	335
+				y	122
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93108-25 of GreenCrystalB
+			properties
+				x	398
+				y	111
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93108-26 of GreenCrystalB
+			properties
+				x	492
+				y	146
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93108-27 of CellFloorA
+			properties
+				x	488
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93092
+	properties
+		template 31004
+		south 93091
+		north 93093
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93092-0 of GreenCrystalB
+			properties
+				x	345
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93092-1 of CellFloorA
+			properties
+				x	216
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93092-2 of GreenCrystalA
+			properties
+				x	211
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93092-3 of GreenCrystalC
+			properties
+				x	117
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93092-4 of GreenCrystalB
+			properties
+				x	139
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93092-5 of CellFloorB
+			properties
+				x	141
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93092-6 of CellFloorA
+			properties
+				x	580
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93092-7 of GreenCrystalC
+			properties
+				x	551
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93092-8 of GreenCrystalD
+			properties
+				x	590
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93092-9 of GreenCrystalF
+			properties
+				x	559
+				y	181
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93092-10 of CellFloorA
+			properties
+				x	438
+				y	175
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93065
+	properties
+		template 30501
+		south 93064
+		east 93066
+		flags	0
+	end
+	objects
+		object GreenCrystalC-93065-0 of GreenCrystalC
+			properties
+				x	173
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93065-1 of GreenCrystalB
+			properties
+				x	148
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93065-2 of GreenCrystalA
+			properties
+				x	67
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93065-3 of CellFloorA
+			properties
+				x	110
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93065-4 of GreenCrystalB
+			properties
+				x	419
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93065-5 of GreenCrystalE
+			properties
+				x	524
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93065-6 of GreenCrystalG
+			properties
+				x	388
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93066
+	properties
+		template 30804
+		west 93065
+		north 93067
+		flags	0
+	end
+	objects
+		object GreenCrystalG-93066-0 of GreenCrystalG
+			properties
+				x	149
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93066-1 of GreenCrystalG
+			properties
+				x	555
+				y	226
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93066-2 of GreenCrystalC
+			properties
+				x	141
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93066-3 of GreenCrystalB
+			properties
+				x	565
+				y	243
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93102
+	properties
+		template 30402
+		south 93103
+		north 93101
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93102-0 of GreenCrystalB
+			properties
+				x	425
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93102-1 of GreenCrystalD
+			properties
+				x	366
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93102-2 of GreenCrystalG
+			properties
+				x	376
+				y	245
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93102-3 of GreenCrystalC
+			properties
+				x	466
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93102-4 of GreenCrystalA
+			properties
+				x	557
+				y	350
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93102-5 of GreenCrystalB
+			properties
+				x	139
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93102-6 of GreenCrystalC
+			properties
+				x	166
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93102-7 of GreenCrystalE
+			properties
+				x	91
+				y	289
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93102-8 of GreenCrystalD
+			properties
+				x	483
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93102-9 of GreenCrystalA
+			properties
+				x	53
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93109
+	properties
+		template 31004
+		south 93110
+		north 93108
+		flags	0
+	end
+	objects
+		object GreenCrystalC-93109-0 of GreenCrystalC
+			properties
+				x	237
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93109-1 of GreenCrystalA
+			properties
+				x	204
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93109-2 of GreenCrystalA
+			properties
+				x	615
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93109-3 of GreenCrystalB
+			properties
+				x	86
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93109-4 of GreenCrystalC
+			properties
+				x	122
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93109-5 of CellFloorA
+			properties
+				x	113
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93109-6 of CellFloorA
+			properties
+				x	352
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93109-7 of CellFloorA
+			properties
+				x	570
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93109-8 of GreenCrystalC
+			properties
+				x	606
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93109-9 of GreenCrystalC
+			properties
+				x	346
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93091
+	properties
+		template 30802
+		east 93090
+		north 93092
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93091-0 of GreenCrystalB
+			properties
+				x	178
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93091-1 of GreenCrystalC
+			properties
+				x	128
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93091-2 of GreenCrystalB
+			properties
+				x	28
+				y	344
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93091-3 of GreenCrystalA
+			properties
+				x	43
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93091-4 of GreenCrystalA
+			properties
+				x	69
+				y	236
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93091-5 of GreenCrystalA
+			properties
+				x	84
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93091-6 of GreenCrystalC
+			properties
+				x	28
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93091-7 of GreenWaterA
+			properties
+				x	412
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93091-8 of GreenWaterB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93091-9 of GreenWaterC
+			properties
+				x	591
+				y	328
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite4-93091-10 of Stalagmite4
+			properties
+				x	625
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93091-11 of CellFloorA
+			properties
+				x	163
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93090
+	properties
+		template 32302
+		south 93089
+		west 93091
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93090-0 of GreenCrystalB
+			properties
+				x	228
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93090-1 of GreenCrystalD
+			properties
+				x	171
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93090-2 of GreenCrystalF
+			properties
+				x	267
+				y	248
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93090-3 of CellFloorA
+			properties
+				x	237
+				y	201
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93090-4 of GreenCrystalA
+			properties
+				x	556
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93090-5 of GreenCrystalA
+			properties
+				x	515
+				y	282
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93090-6 of GreenCrystalA
+			properties
+				x	502
+				y	373
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93063
+	properties
+		template 30501
+		south 93062
+		east 93064
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93063-0 of GreenCrystalB
+			properties
+				x	195
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93063-1 of GreenCrystalA
+			properties
+				x	73
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93063-2 of GreenCrystalA
+			properties
+				x	37
+				y	289
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93063-3 of GreenCrystalC
+			properties
+				x	138
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93063-4 of CellFloorA
+			properties
+				x	177
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93064
+	properties
+		template 31201
+		west 93063
+		north 93065
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93064-0 of GreenCrystalB
+			properties
+				x	474
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93064-1 of GreenCrystalC
+			properties
+				x	499
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93064-2 of GreenCrystalA
+			properties
+				x	518
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93064-3 of GreenCrystalB
+			properties
+				x	548
+				y	291
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93064-4 of CellFloorA
+			properties
+				x	505
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93064-5 of GreenCrystalF
+			properties
+				x	155
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93064-6 of CellFloorA
+			properties
+				x	359
+				y	180
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93064-7 of CellFloorB
+			properties
+				x	241
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93103
+	properties
+		template 31003
+		south 93104
+		north 93102
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93103-0 of GreenCrystalA
+			properties
+				x	77
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93103-1 of GreenCrystalA
+			properties
+				x	61
+				y	345
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93103-2 of GreenCrystalA
+			properties
+				x	446
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93103-3 of GreenCrystalA
+			properties
+				x	584
+				y	268
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93103-4 of GreenCrystalB
+			properties
+				x	491
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93103-5 of GreenCrystalC
+			properties
+				x	637
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93103-6 of GreenCrystalC
+			properties
+				x	176
+				y	257
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93103-7 of CellFloorA
+			properties
+				x	162
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93103-8 of CellFloorA
+			properties
+				x	461
+				y	200
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93103-9 of CellFloorA
+			properties
+				x	313
+				y	173
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93103-10 of CellFloorC
+			properties
+				x	278
+				y	154
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93103-11 of CellFloorD
+			properties
+				x	318
+				y	147
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93103-12 of CellFloorB
+			properties
+				x	293
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93106
+	properties
+		template 31002
+		south 93105
+		flags	0
+	end
+	objects
+		object Sign-93106-0 of Sign
+			properties
+				x	74
+				y	294
+				loop	0
+			end
+			base described
+				text	"Take heed, brave soul. The time of your testing is at hand. Prepare yourself for judgement. If you would appeal for the blessing of the light, make sure your conscience is clear of all misdeeds."
+			end
+		end
+		object RedRose-93106-1 of RedRose
+			properties
+				x	160
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object RedRose-93106-2 of RedRose
+			properties
+				x	358
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+		object RedRose-93106-3 of RedRose
+			properties
+				x	391
+				y	252
+				loop	3
+			end
+			base described
+			end
+		end
+		object RedRose-93106-4 of RedRose
+			properties
+				x	103
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93106-5 of CellFloorA
+			properties
+				x	273
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object EnidStatue-93106-6 of EnidStatue
+			properties
+				x	281
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-93106-7 of Altar
+			properties
+				x	277
+				y	261
+				loop	0
+			end
+			actions
+				vBeUsed enidMark dobj 
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93106-8 of GreenCrystalB
+			properties
+				x	478
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93106-9 of GreenCrystalC
+			properties
+				x	79
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93106-10 of GreenCrystalA
+			properties
+				x	281
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93106-11 of GreenCrystalA
+			properties
+				x	371
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93106-12 of GreenCrystalA
+			properties
+				x	186
+				y	241
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93106-13 of GreenCrystalA
+			properties
+				x	552
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93106-14 of GreenCrystalA
+			properties
+				x	415
+				y	242
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93106-15 of GreenCrystalB
+			properties
+				x	89
+				y	252
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93106-16 of GreenCrystalC
+			properties
+				x	429
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93106-17 of GreenCrystalD
+			properties
+				x	248
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93106-18 of GreenCrystalF
+			properties
+				x	294
+				y	263
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93106-19 of CellFloorA
+			properties
+				x	106
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93106-20 of CellFloorA
+			properties
+				x	454
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93106-21 of CellFloorC
+			properties
+				x	335
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93106-22 of CellFloorB
+			properties
+				x	166
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93106-23 of CellFloorB
+			properties
+				x	350
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93110
+	properties
+		template 30803
+		east 93111
+		north 93109
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93110-0 of GreenCrystalA
+			properties
+				x	480
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93110-1 of GreenCrystalA
+			properties
+				x	450
+				y	234
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93110-2 of GreenWaterA
+			properties
+				x	122
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93110-3 of GreenWaterB
+			properties
+				x	376
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93110-4 of GreenWaterC
+			properties
+				x	576
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93110-5 of GreenCrystalB
+			properties
+				x	394
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93110-6 of GreenCrystalC
+			properties
+				x	228
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93110-7 of GreenCrystalG
+			properties
+				x	230
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93110-8 of CellFloorA
+			properties
+				x	492
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93110-9 of CellFloorA
+			properties
+				x	176
+				y	176
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93110-10 of GreenCrystalF
+			properties
+				x	141
+				y	175
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93111
+	properties
+		template 32302
+		south 93112
+		west 93110
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93111-0 of GreenCrystalA
+			properties
+				x	244
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93111-1 of GreenCrystalA
+			properties
+				x	611
+				y	322
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93111-2 of GreenCrystalB
+			properties
+				x	288
+				y	265
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93111-3 of GreenCrystalC
+			properties
+				x	466
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93111-4 of GreenCrystalB
+			properties
+				x	525
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93111-5 of CellFloorA
+			properties
+				x	264
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93111-6 of CellFloorA
+			properties
+				x	476
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93089
+	properties
+		template 31003
+		south 93088
+		north 93090
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93089-0 of GreenCrystalA
+			properties
+				x	526
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93089-1 of GreenCrystalA
+			properties
+				x	121
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93089-2 of GreenCrystalA
+			properties
+				x	586
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93089-3 of GreenCrystalC
+			properties
+				x	64
+				y	324
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93089-4 of GreenCrystalB
+			properties
+				x	428
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93089-5 of CellFloorA
+			properties
+				x	180
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93089-6 of CellFloorA
+			properties
+				x	528
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93062
+	properties
+		template 31502
+		south 93061
+		north 93063
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93062-0 of GreenCrystalB
+			properties
+				x	143
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93062-1 of GreenCrystalC
+			properties
+				x	496
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93076
+	properties
+		template 31002
+		south 93075
+		flags	40
+	end
+	objects
+		object FaeryQueen-93076-0 of FaeryQueen
+			properties
+				x	275
+				y	273
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object FaeryQueen-93076-1 of FaeryQueen
+			properties
+				x	367
+				y	249
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object FaeryQueen-93076-2 of FaeryQueen
+			properties
+				x	187
+				y	240
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object Sign-93076-3 of Sign
+			properties
+				x	236
+				y	243
+				loop	0
+			end
+			base described
+				text	"Once again, your quest is stopped short of your goal. Keep forging widdershins and inwards."
+			end
+		end
+		object CellFloorA-93076-4 of CellFloorA
+			properties
+				x	166
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93076-5 of CellFloorA
+			properties
+				x	90
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93076-6 of CellFloorA
+			properties
+				x	319
+				y	178
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93076-7 of CellFloorA
+			properties
+				x	435
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93076-8 of GreenCrystalB
+			properties
+				x	239
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93076-9 of GreenCrystalA
+			properties
+				x	364
+				y	246
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93076-10 of GreenCrystalC
+			properties
+				x	100
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93076-11 of GreenCrystalB
+			properties
+				x	73
+				y	293
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93076-12 of GreenCrystalB
+			properties
+				x	458
+				y	292
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorE-93076-13 of CellFloorE
+			properties
+				x	261
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93104
+	properties
+		template 31302
+		east 93105
+		north 93103
+		flags	0
+	end
+	objects
+		object SmokeA-93104-0 of SmokeA
+			properties
+				x	528
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-93104-1 of SmokeA
+			properties
+				x	380
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-93104-2 of SmokeA
+			properties
+				x	89
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93104-3 of Smoke1
+			properties
+				x	500
+				y	357
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-93104-4 of Smoke1
+			properties
+				x	445
+				y	317
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-93104-5 of Smoke1
+			properties
+				x	619
+				y	314
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-93104-6 of Smoke1
+			properties
+				x	57
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-93104-7 of Column
+			properties
+				x	36
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93104-8 of GreenCrystalB
+			properties
+				x	606
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93104-9 of GreenCrystalC
+			properties
+				x	551
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93104-10 of GreenCrystalD
+			properties
+				x	512
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93104-11 of GreenCrystalA
+			properties
+				x	465
+				y	353
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93104-12 of GreenCrystalA
+			properties
+				x	62
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93104-13 of GreenCrystalB
+			properties
+				x	39
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93104-14 of GreenCrystalG
+			properties
+				x	50
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93104-15 of GreenCrystalC
+			properties
+				x	101
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93104-16 of GreenCrystalC
+			properties
+				x	88
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93104-17 of GreenCrystalF
+			properties
+				x	356
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93104-18 of CellFloorA
+			properties
+				x	124
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93104-19 of CellFloorA
+			properties
+				x	439
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93104-20 of CellFloorA
+			properties
+				x	185
+				y	155
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93104-21 of CellFloorC
+			properties
+				x	288
+				y	142
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93104-22 of CellFloorD
+			properties
+				x	242
+				y	132
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93105
+	properties
+		template 32602
+		west 93104
+		north 93106
+		flags	184
+	end
+	objects
+		object Cleric-93105-0 of Cleric
+			properties
+				x	337
+				y	265
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-93105-1 of LightWiz
+			properties
+				x	507
+				y	248
+				loop	1
+				color	104
+			end
+			base character
+			end
+			base described
+				text	"A simulacrum, summoned by the gods to protect the prize"
+			end
+		end
+		object LightWiz-93105-2 of LightWiz
+			properties
+				x	264
+				y	219
+				loop	0
+				color	104
+			end
+			base character
+			end
+			base described
+				text	"Glittering, sparkling, deadly. Another stands here to be tested..."
+			end
+		end
+		object FatColumn-93105-3 of FatColumn
+			properties
+				x	659
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-93105-4 of FatColumn
+			properties
+				x	97
+				y	142
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-5 of Smoke2
+			properties
+				x	184
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-6 of Smoke2
+			properties
+				x	407
+				y	160
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-7 of Smoke2
+			properties
+				x	104
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-8 of Smoke2
+			properties
+				x	491
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-9 of Smoke2
+			properties
+				x	545
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-10 of Smoke2
+			properties
+				x	601
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93105-11 of Smoke2
+			properties
+				x	36
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-93105-12 of Stalagmite3
+			properties
+				x	566
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object RedRose-93105-13 of RedRose
+			properties
+				x	173
+				y	181
+				loop	0
+			end
+			base described
+			end
+		end
+		object RedRose-93105-14 of RedRose
+			properties
+				x	389
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93105-15 of GreenWaterA
+			properties
+				x	294
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93105-16 of GreenWaterB
+			properties
+				x	41
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93105-17 of GreenWaterB
+			properties
+				x	548
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93105-18 of GreenCrystalA
+			properties
+				x	469
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93105-19 of GreenCrystalA
+			properties
+				x	565
+				y	304
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93105-20 of GreenCrystalA
+			properties
+				x	79
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93105-21 of GreenCrystalB
+			properties
+				x	56
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93105-22 of GreenCrystalC
+			properties
+				x	464
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93105-23 of GreenCrystalD
+			properties
+				x	413
+				y	192
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93105-24 of GreenCrystalD
+			properties
+				x	141
+				y	245
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93105-25 of GreenCrystalF
+			properties
+				x	152
+				y	143
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93105-26 of GreenCrystalF
+			properties
+				x	399
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93105-27 of GreenCrystalC
+			properties
+				x	405
+				y	154
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93105-28 of GreenCrystalB
+			properties
+				x	464
+				y	176
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93105-29 of GreenCrystalC
+			properties
+				x	141
+				y	187
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93105-30 of GreenCrystalF
+			properties
+				x	219
+				y	112
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93105-31 of CellFloorA
+			properties
+				x	169
+				y	115
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93105-32 of CellFloorC
+			properties
+				x	269
+				y	113
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93105-33 of CellFloorD
+			properties
+				x	313
+				y	106
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93105-34 of CellFloorC
+			properties
+				x	211
+				y	103
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93105-35 of CellFloorA
+			properties
+				x	255
+				y	175
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93105-36 of CellFloorA
+			properties
+				x	415
+				y	127
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorE-93105-37 of CellFloorE
+			properties
+				x	182
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93112
+	properties
+		template 30402
+		south 93113
+		north 93111
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93112-0 of GreenCrystalA
+			properties
+				x	544
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93112-1 of GreenCrystalA
+			properties
+				x	526
+				y	312
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93112-2 of GreenCrystalB
+			properties
+				x	436
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93112-3 of GreenCrystalC
+			properties
+				x	471
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93112-4 of GreenCrystalC
+			properties
+				x	180
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93112-5 of GreenCrystalB
+			properties
+				x	154
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93112-6 of GreenCrystalB
+			properties
+				x	107
+				y	296
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93112-7 of GreenCrystalA
+			properties
+				x	47
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93112-8 of CellFloorA
+			properties
+				x	145
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93112-9 of CellFloorA
+			properties
+				x	464
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93112-10 of CellFloorA
+			properties
+				x	386
+				y	191
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93112-11 of GreenCrystalF
+			properties
+				x	361
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93088
+	properties
+		template 31001
+		south 93087
+		north 93089
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93088-0 of GreenCrystalB
+			properties
+				x	420
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93088-1 of GreenCrystalC
+			properties
+				x	436
+				y	315
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93088-2 of GreenCrystalA
+			properties
+				x	535
+				y	341
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93088-3 of GreenCrystalA
+			properties
+				x	472
+				y	347
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93088-4 of GreenCrystalA
+			properties
+				x	55
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93088-5 of GreenCrystalA
+			properties
+				x	79
+				y	267
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93088-6 of CellFloorA
+			properties
+				x	164
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93088-7 of CellFloorA
+			properties
+				x	419
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93088-8 of CellFloorB
+			properties
+				x	272
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93061
+	properties
+		template 31003
+		south 93060
+		north 93062
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93061-0 of GreenCrystalB
+			properties
+				x	438
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93061-1 of GreenCrystalA
+			properties
+				x	565
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93061-2 of GreenCrystalA
+			properties
+				x	71
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93061-3 of GreenCrystalC
+			properties
+				x	579
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93061-4 of CellFloorA
+			properties
+				x	581
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93075
+	properties
+		template 30803
+		east 93074
+		north 93076
+		flags	0
+	end
+	objects
+		object GreenWaterA-93075-0 of GreenWaterA
+			properties
+				x	122
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93075-1 of GreenWaterB
+			properties
+				x	376
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93075-2 of GreenWaterC
+			properties
+				x	573
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93075-3 of GreenCrystalB
+			properties
+				x	485
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93075-4 of GreenCrystalC
+			properties
+				x	218
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93074
+	properties
+		template 30909
+		south 93073
+		west 93075
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93074-0 of GreenCrystalB
+			properties
+				x	518
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93074-1 of GreenCrystalC
+			properties
+				x	504
+				y	162
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93074-2 of GreenCrystalF
+			properties
+				x	466
+				y	128
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93074-3 of GreenCrystalA
+			properties
+				x	485
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93074-4 of GreenCrystalB
+			properties
+				x	581
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93074-5 of YellowShroomA
+			properties
+				x	108
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93074-6 of YellowShroomB
+			properties
+				x	139
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93074-7 of YellowShroomD
+			properties
+				x	169
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93074-8 of YellowShroomC
+			properties
+				x	286
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93074-9 of CellFloorA
+			properties
+				x	479
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93113
+	properties
+		template 30403
+		north 93112
+		flags	24
+	end
+	objects
+		object LightWiz-93113-0 of LightWiz
+			properties
+				x	251
+				y	251
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Faery-93113-1 of Faery
+			properties
+				x	100
+				y	272
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93113-2 of Faery
+			properties
+				x	424
+				y	266
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93113-3 of Faery
+			properties
+				x	107
+				y	239
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93113-4 of Faery
+			properties
+				x	321
+				y	243
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object SmokeA-93113-5 of SmokeA
+			properties
+				x	601
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93113-6 of Smoke1
+			properties
+				x	550
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93113-7 of Smoke1
+			properties
+				x	106
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-93113-8 of SmokeA
+			properties
+				x	411
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93113-9 of Smoke1
+			properties
+				x	581
+				y	314
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-93113-10 of Sign
+			properties
+				x	151
+				y	209
+				loop	0
+			end
+			base described
+				text	"So close, you can feel the hair prickling at the back of your neck. There is great, untapped power here. The very ground trembles with potency.... Unfortunately, this is the wrong way. Your test continues...."
+			end
+		end
+		object GreenCrystalA-93113-11 of GreenCrystalA
+			properties
+				x	546
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93113-12 of GreenCrystalA
+			properties
+				x	581
+				y	337
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93113-13 of GreenCrystalA
+			properties
+				x	69
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93113-14 of GreenCrystalB
+			properties
+				x	602
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93113-15 of GreenCrystalC
+			properties
+				x	551
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93113-16 of GreenCrystalC
+			properties
+				x	21
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93113-17 of GreenCrystalB
+			properties
+				x	78
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93113-18 of GreenCrystalC
+			properties
+				x	117
+				y	337
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93113-19 of GreenCrystalA
+			properties
+				x	56
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93113-20 of GreenCrystalA
+			properties
+				x	580
+				y	220
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93113-21 of GreenCrystalB
+			properties
+				x	468
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93113-22 of GreenCrystalC
+			properties
+				x	465
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93113-23 of GreenCrystalB
+			properties
+				x	548
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93113-24 of GreenWaterA
+			properties
+				x	344
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93113-25 of GreenWaterB
+			properties
+				x	164
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93113-26 of YellowShroomA
+			properties
+				x	326
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93113-27 of YellowShroomC
+			properties
+				x	346
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93113-28 of YellowShroomD
+			properties
+				x	333
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93113-29 of YellowShroomB
+			properties
+				x	349
+				y	253
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93113-30 of GreenCrystalB
+			properties
+				x	373
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93113-31 of GreenCrystalC
+			properties
+				x	435
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93113-32 of GreenCrystalC
+			properties
+				x	174
+				y	208
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93113-33 of CellFloorA
+			properties
+				x	290
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93113-34 of CellFloorA
+			properties
+				x	434
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93113-35 of CellFloorA
+			properties
+				x	94
+				y	200
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93087
+	properties
+		template 31006
+		south 93086
+		north 93088
+		flags	0
+	end
+	objects
+		object GreenCrystalC-93087-0 of GreenCrystalC
+			properties
+				x	563
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93087-1 of GreenCrystalB
+			properties
+				x	98
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93087-2 of CellFloorA
+			properties
+				x	223
+				y	175
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93087-3 of GreenCrystalA
+			properties
+				x	51
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93087-4 of GreenCrystalA
+			properties
+				x	558
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93087-5 of GreenCrystalA
+			properties
+				x	459
+				y	227
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93087-6 of GreenCrystalB
+			properties
+				x	494
+				y	346
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93087-7 of GreenCrystalB
+			properties
+				x	475
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93087-8 of GreenCrystalC
+			properties
+				x	496
+				y	151
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93087-9 of GreenCrystalD
+			properties
+				x	493
+				y	87
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93087-10 of GreenCrystalF
+			properties
+				x	249
+				y	220
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93087-11 of GreenCrystalE
+			properties
+				x	205
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93087-12 of CellFloorA
+			properties
+				x	491
+				y	183
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93087-13 of CellFloorA
+			properties
+				x	73
+				y	244
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorB-93087-14 of CellFloorB
+			properties
+				x	294
+				y	248
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorE-93087-15 of CellFloorE
+			properties
+				x	229
+				y	300
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorC-93087-16 of CellFloorC
+			properties
+				x	302
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93087-17 of CellFloorD
+			properties
+				x	179
+				y	153
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93060
+	properties
+		template 31001
+		south 93059
+		north 93061
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93060-0 of GreenCrystalA
+			properties
+				x	475
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93060-1 of GreenCrystalB
+			properties
+				x	171
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93060-2 of CellFloorA
+			properties
+				x	148
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93060-3 of CellFloorA
+			properties
+				x	473
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93073
+	properties
+		template 30802
+		east 93072
+		north 93074
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93073-0 of GreenCrystalB
+			properties
+				x	152
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93073-1 of GreenCrystalC
+			properties
+				x	31
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93073-2 of GreenCrystalB
+			properties
+				x	37
+				y	187
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93073-3 of GreenCrystalA
+			properties
+				x	49
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93073-4 of GreenCrystalA
+			properties
+				x	27
+				y	347
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93073-5 of GreenCrystalG
+			properties
+				x	158
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93073-6 of GreenCrystalF
+			properties
+				x	202
+				y	231
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93073-7 of GreenWaterA
+			properties
+				x	413
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93073-8 of GreenWaterB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93073-9 of GreenWaterC
+			properties
+				x	596
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93073-10 of GreenCrystalC
+			properties
+				x	351
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93073-11 of GreenCrystalB
+			properties
+				x	336
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93073-12 of CellFloorA
+			properties
+				x	118
+				y	205
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93072
+	properties
+		template 32302
+		south 93071
+		west 93073
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93072-0 of GreenCrystalB
+			properties
+				x	558
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93072-1 of GreenCrystalA
+			properties
+				x	524
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93072-2 of GreenCrystalC
+			properties
+				x	229
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93072-3 of GreenCrystalG
+			properties
+				x	275
+				y	247
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93072-4 of CellFloorA
+			properties
+				x	245
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93072-5 of CellFloorA
+			properties
+				x	532
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93086
+	properties
+		template 31001
+		south 93085
+		north 93087
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93086-0 of GreenCrystalB
+			properties
+				x	473
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93086-1 of GreenCrystalA
+			properties
+				x	456
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93086-2 of GreenCrystalA
+			properties
+				x	81
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93086-3 of CellFloorA
+			properties
+				x	128
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93086-4 of CellFloorA
+			properties
+				x	392
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93086-5 of CellFloorA
+			properties
+				x	263
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93086-6 of CellFloorC
+			properties
+				x	224
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93086-7 of CellFloorC
+			properties
+				x	234
+				y	181
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93086-8 of CellFloorD
+			properties
+				x	250
+				y	169
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93059
+	properties
+		template 30803
+		east 93058
+		north 93060
+		flags	0
+	end
+	objects
+		object GreenWaterA-93059-0 of GreenWaterA
+			properties
+				x	122
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93059-1 of GreenWaterB
+			properties
+				x	376
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93059-2 of GreenWaterC
+			properties
+				x	575
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93059-3 of GreenCrystalB
+			properties
+				x	490
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93059-4 of GreenCrystalF
+			properties
+				x	205
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93059-5 of GreenCrystalA
+			properties
+				x	55
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93058
+	properties
+		template 30601
+		south 93057
+		west 93059
+		flags	0
+	end
+	objects
+		object GreenCrystalF-93058-0 of GreenCrystalF
+			properties
+				x	359
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93071
+	properties
+		template 31402
+		south 93053
+		east 93077
+		north 93072
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93071-0 of GreenCrystalB
+			properties
+				x	303
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93071-1 of GreenCrystalC
+			properties
+				x	429
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93071-2 of GreenCrystalA
+			properties
+				x	361
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93071-3 of GreenCrystalA
+			properties
+				x	63
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93071-4 of GreenCrystalC
+			properties
+				x	370
+				y	255
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93071-5 of CellFloorA
+			properties
+				x	369
+				y	198
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93071-6 of CellFloorA
+			properties
+				x	117
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93071-7 of GreenCrystalB
+			properties
+				x	649
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93077
+	properties
+		template 32401
+		east 93078
+		west 93071
+		flags	0
+	end
+	objects
+		object GreenWaterD-93077-0 of GreenWaterD
+			properties
+				x	133
+				y	354
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93077-1 of GreenWaterA
+			properties
+				x	-37
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93077-2 of GreenWaterB
+			properties
+				x	565
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93077-3 of GreenCrystalA
+			properties
+				x	296
+				y	344
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93077-4 of GreenCrystalB
+			properties
+				x	179
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93078
+	properties
+		template 30906
+		east 93079
+		west 93077
+		flags	72
+	end
+	objects
+		object Faery-93078-0 of Faery
+			properties
+				x	431
+				y	251
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93078-1 of Faery
+			properties
+				x	438
+				y	270
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93078-2 of Faery
+			properties
+				x	475
+				y	248
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object GreenCrystalA-93078-3 of GreenCrystalA
+			properties
+				x	573
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93078-4 of GreenCrystalB
+			properties
+				x	278
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93078-5 of GreenCrystalF
+			properties
+				x	136
+				y	231
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93078-6 of GreenCrystalA
+			properties
+				x	33
+				y	350
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93078-7 of GreenWaterA
+			properties
+				x	124
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93078-8 of GreenWaterB
+			properties
+				x	512
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93078-9 of GreenWaterC
+			properties
+				x	314
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93078-10 of YellowShroomC
+			properties
+				x	315
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93078-11 of YellowShroomB
+			properties
+				x	340
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93078-12 of YellowShroomD
+			properties
+				x	322
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93078-13 of CellFloorA
+			properties
+				x	603
+				y	200
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93078-14 of CellFloorA
+			properties
+				x	247
+				y	196
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93079
+	properties
+		template 30703
+		east 93080
+		west 93078
+		flags	0
+	end
+	objects
+		object GreenWaterA-93079-0 of GreenWaterA
+			properties
+				x	117
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93079-1 of GreenWaterB
+			properties
+				x	505
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93079-2 of GreenWaterC
+			properties
+				x	306
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93079-3 of GreenCrystalA
+			properties
+				x	563
+				y	241
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93079-4 of GreenCrystalB
+			properties
+				x	17
+				y	300
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93079-5 of GreenCrystalC
+			properties
+				x	370
+				y	239
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93079-6 of GreenCrystalD
+			properties
+				x	347
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93079-7 of GreenCrystalF
+			properties
+				x	271
+				y	230
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93080
+	properties
+		template 30601
+		south 93081
+		west 93079
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93080-0 of GreenCrystalA
+			properties
+				x	308
+				y	234
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93080-1 of GreenCrystalC
+			properties
+				x	377
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93080-2 of GreenCrystalB
+			properties
+				x	505
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93080-3 of CellFloorA
+			properties
+				x	407
+				y	187
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93080-4 of CellFloorA
+			properties
+				x	512
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93084
+	properties
+		template 30502
+		south 93083
+		east 93085
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93084-0 of GreenCrystalB
+			properties
+				x	457
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93084-1 of GreenCrystalA
+			properties
+				x	456
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93084-2 of GreenCrystalC
+			properties
+				x	370
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93084-3 of CellFloorA
+			properties
+				x	453
+				y	208
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93085
+	properties
+		template 32303
+		south 93114
+		west 93084
+		north 93086
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93085-0 of GreenCrystalB
+			properties
+				x	530
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93085-1 of GreenCrystalA
+			properties
+				x	518
+				y	270
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93085-2 of GreenCrystalA
+			properties
+				x	67
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93085-3 of GreenCrystalA
+			properties
+				x	469
+				y	166
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93085-4 of GreenCrystalB
+			properties
+				x	452
+				y	178
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93085-5 of GreenCrystalC
+			properties
+				x	496
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93085-6 of GreenCrystalC
+			properties
+				x	599
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93085-7 of CellFloorA
+			properties
+				x	91
+				y	193
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93085-8 of CellFloorA
+			properties
+				x	386
+				y	176
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93085-9 of GreenCrystalF
+			properties
+				x	321
+				y	124
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93085-10 of CellFloorD
+			properties
+				x	293
+				y	124
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93085-11 of CellFloorC
+			properties
+				x	179
+				y	165
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93085-12 of CellFloorA
+			properties
+				x	454
+				y	169
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93085-13 of CellFloorB
+			properties
+				x	226
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93085-14 of CellFloorB
+			properties
+				x	169
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93085-15 of CellFloorB
+			properties
+				x	321
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93085-16 of CellFloorB
+			properties
+				x	23
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93085-17 of CellFloorB
+			properties
+				x	463
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93085-18 of CellFloorA
+			properties
+				x	244
+				y	154
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93085-19 of GreenCrystalC
+			properties
+				x	392
+				y	160
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93057
+	properties
+		template 30804
+		east 93056
+		north 93058
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93057-0 of GreenCrystalA
+			properties
+				x	192
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93057-1 of GreenCrystalA
+			properties
+				x	602
+				y	342
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93057-2 of CellFloorA
+			properties
+				x	202
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93057-3 of GreenCrystalF
+			properties
+				x	529
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93056
+	properties
+		template 30601
+		south 93055
+		west 93057
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93056-0 of GreenCrystalB
+			properties
+				x	337
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93056-1 of GreenCrystalC
+			properties
+				x	474
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93056-2 of CellFloorA
+			properties
+				x	360
+				y	187
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93056-3 of CellFloorA
+			properties
+				x	516
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93052
+	properties
+		template 30102
+		south 93051
+		east 93053
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93052-0 of GreenCrystalA
+			properties
+				x	251
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93052-1 of GreenCrystalB
+			properties
+				x	226
+				y	154
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93052-2 of GreenCrystalC
+			properties
+				x	291
+				y	165
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93052-3 of GreenCrystalC
+			properties
+				x	200
+				y	120
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93052-4 of GreenCrystalB
+			properties
+				x	347
+				y	151
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93052-5 of GreenCrystalC
+			properties
+				x	304
+				y	127
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93052-6 of GreenCrystalC
+			properties
+				x	257
+				y	147
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93052-7 of GreenCrystalF
+			properties
+				x	248
+				y	97
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93052-8 of GreenCrystalF
+			properties
+				x	249
+				y	99
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93052-9 of GreenCrystalD
+			properties
+				x	380
+				y	130
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93052-10 of GreenCrystalB
+			properties
+				x	174
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93052-11 of GreenCrystalC
+			properties
+				x	377
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93052-12 of GreenCrystalF
+			properties
+				x	506
+				y	231
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93052-13 of CellFloorA
+			properties
+				x	200
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93052-14 of CellFloorA
+			properties
+				x	379
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93052-15 of CellFloorB
+			properties
+				x	272
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93052-16 of GreenCrystalB
+			properties
+				x	64
+				y	307
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93052-17 of GreenCrystalA
+			properties
+				x	616
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93052-18 of CellFloorA
+			properties
+				x	606
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93053
+	properties
+		template 31303
+		west 93052
+		north 93071
+		flags	0
+	end
+	objects
+		object GreenWaterA-93053-0 of GreenWaterA
+			properties
+				x	485
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93053-1 of GreenWaterC
+			properties
+				x	297
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93053-2 of GreenWaterB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93053-3 of GreenCrystalB
+			properties
+				x	530
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93053-4 of GreenCrystalA
+			properties
+				x	573
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93053-5 of GreenCrystalC
+			properties
+				x	567
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93081
+	properties
+		template 30803
+		east 93082
+		north 93080
+		flags	0
+	end
+	objects
+		object GreenWaterA-93081-0 of GreenWaterA
+			properties
+				x	122
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93081-1 of GreenWaterB
+			properties
+				x	376
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93081-2 of GreenWaterC
+			properties
+				x	575
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93081-3 of GreenCrystalB
+			properties
+				x	479
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93081-4 of CellFloorA
+			properties
+				x	494
+				y	174
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93081-5 of GreenCrystalC
+			properties
+				x	220
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93082
+	properties
+		template 30906
+		east 93083
+		west 93081
+		flags	0
+	end
+	objects
+		object GreenWaterA-93082-0 of GreenWaterA
+			properties
+				x	122
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93082-1 of GreenWaterB
+			properties
+				x	511
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93082-2 of GreenWaterC
+			properties
+				x	312
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93082-3 of GreenCrystalB
+			properties
+				x	57
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93082-4 of GreenCrystalC
+			properties
+				x	262
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93083
+	properties
+		template 32202
+		east 93114
+		west 93082
+		north 93084
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93083-0 of GreenCrystalB
+			properties
+				x	52
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93083-1 of GreenCrystalC
+			properties
+				x	175
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93083-2 of GreenCrystalC
+			properties
+				x	248
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93083-3 of GreenCrystalD
+			properties
+				x	439
+				y	309
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93083-4 of GreenCrystalF
+			properties
+				x	372
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93083-5 of GreenCrystalB
+			properties
+				x	466
+				y	213
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93083-6 of GreenCrystalA
+			properties
+				x	79
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93083-7 of GreenCrystalA
+			properties
+				x	553
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93083-8 of CellFloorA
+			properties
+				x	104
+				y	183
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93083-9 of CellFloorA
+			properties
+				x	467
+				y	156
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93083-10 of GreenCrystalF
+			properties
+				x	249
+				y	208
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93114
+	properties
+		template 32701
+		west 93083
+		north 93085
+		flags	152
+	end
+	objects
+		object SeraphQueen-93114-0 of SeraphQueen
+			properties
+				x	300
+				y	252
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-93114-1 of SeraphThaumaturgist
+			properties
+				x	339
+				y	226
+				loop	1
+				color	814
+			end
+			base character
+			end
+		end
+		object GreenWaterA-93114-2 of GreenWaterA
+			properties
+				x	240
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93114-3 of GreenWaterB
+			properties
+				x	-13
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93114-4 of GreenWaterB
+			properties
+				x	531
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93114-5 of GreenWaterC
+			properties
+				x	429
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93114-6 of GreenCrystalA
+			properties
+				x	571
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93114-7 of GreenCrystalA
+			properties
+				x	581
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93114-8 of GreenCrystalB
+			properties
+				x	472
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93114-9 of GreenCrystalC
+			properties
+				x	379
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93114-10 of YellowShroomA
+			properties
+				x	146
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93114-11 of YellowShroomA
+			properties
+				x	205
+				y	227
+				loop	1
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93114-12 of YellowShroomC
+			properties
+				x	119
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93114-13 of YellowShroomD
+			properties
+				x	167
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93114-14 of YellowShroomB
+			properties
+				x	187
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93114-15 of CellFloorA
+			properties
+				x	318
+				y	183
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93114-16 of CellFloorC
+			properties
+				x	256
+				y	171
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93114-17 of CellFloorD
+			properties
+				x	221
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93114-18 of GreenCrystalF
+			properties
+				x	415
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93055
+	properties
+		template 32305
+		east 93054
+		north 93056
+		flags	0
+	end
+	objects
+		object GreenWaterA-93055-0 of GreenWaterA
+			properties
+				x	177
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93055-1 of GreenWaterA
+			properties
+				x	419
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93055-2 of GreenWaterA
+			properties
+				x	662
+				y	321
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite3-93055-3 of Stalagmite3
+			properties
+				x	477
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-93055-4 of Stalagmite4
+			properties
+				x	388
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93055-5 of GreenCrystalA
+			properties
+				x	156
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93055-6 of GreenCrystalB
+			properties
+				x	487
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93055-7 of GreenCrystalB
+			properties
+				x	170
+				y	250
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93055-8 of GreenCrystalC
+			properties
+				x	203
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93055-9 of GreenCrystalC
+			properties
+				x	549
+				y	182
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93055-10 of GreenCrystalA
+			properties
+				x	574
+				y	175
+				loop	1
+			end
+			base described
+			end
+		end
+		object FatColumn-93055-11 of FatColumn
+			properties
+				x	587
+				y	153
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93055-12 of CellFloorA
+			properties
+				x	592
+				y	116
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93055-13 of CellFloorA
+			properties
+				x	213
+				y	204
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock3-93055-14 of Rock3
+			properties
+				x	492
+				y	130
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-93055-15 of Column
+			properties
+				x	517
+				y	107
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93055-16 of GreenCrystalC
+			properties
+				x	501
+				y	121
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93054
+	properties
+		template 30906
+		east 93051
+		west 93055
+		flags	0
+	end
+	objects
+		object GreenWaterA-93054-0 of GreenWaterA
+			properties
+				x	122
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93054-1 of GreenWaterC
+			properties
+				x	312
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93054-2 of GreenWaterB
+			properties
+				x	511
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93054-3 of GreenCrystalA
+			properties
+				x	64
+				y	345
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93051
+	properties
+		template 31201
+		south 93050
+		west 93054
+		north 93052
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93051-0 of GreenCrystalA
+			properties
+				x	438
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93051-1 of GreenCrystalA
+			properties
+				x	523
+				y	289
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93051-2 of GreenCrystalB
+			properties
+				x	566
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93051-3 of CellFloorA
+			properties
+				x	561
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93051-4 of CellFloorB
+			properties
+				x	29
+				y	278
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93051-5 of GreenCrystalC
+			properties
+				x	50
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93051-6 of CellFloorA
+			properties
+				x	447
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93051-7 of GreenCrystalF
+			properties
+				x	151
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93018
+	properties
+		template 31002
+		south 93017
+		flags	32
+	end
+	objects
+		object SeraphThaumaturgist-93018-0 of SeraphThaumaturgist
+			properties
+				x	419
+				y	292
+				loop	1
+				color	814
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-93018-1 of SeraphThaumaturgist
+			properties
+				x	148
+				y	283
+				loop	0
+				color	814
+			end
+			base character
+			end
+		end
+		object PerfectRose-93018-2 of PerfectRose
+			properties
+				x	258
+				y	239
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-93018-3 of Sign
+			properties
+				x	249
+				y	232
+				loop	0
+			end
+			base described
+				text	"Many turns there are on the path to righteousness.... You just took a wrong one... Go back, supplicant. Your destiny lies another way."
+			end
+		end
+		object GreenCrystalB-93018-4 of GreenCrystalB
+			properties
+				x	356
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93018-5 of GreenCrystalA
+			properties
+				x	253
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93018-6 of GreenCrystalA
+			properties
+				x	516
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93018-7 of GreenCrystalA
+			properties
+				x	483
+				y	306
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorE-93018-8 of CellFloorE
+			properties
+				x	268
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93018-9 of CellFloorA
+			properties
+				x	273
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93018-10 of GreenCrystalB
+			properties
+				x	28
+				y	336
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93018-11 of GreenCrystalC
+			properties
+				x	88
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93050
+	properties
+		template 32305
+		east 93049
+		north 93051
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93050-0 of GreenCrystalB
+			properties
+				x	440
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93050-1 of GreenWaterA
+			properties
+				x	177
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93050-2 of GreenWaterA
+			properties
+				x	419
+				y	328
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93050-3 of GreenWaterA
+			properties
+				x	662
+				y	321
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite1-93050-4 of Stalagmite1
+			properties
+				x	482
+				y	355
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-93050-5 of Stalagmite4
+			properties
+				x	389
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93050-6 of GreenCrystalA
+			properties
+				x	106
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93050-7 of GreenCrystalC
+			properties
+				x	104
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93050-8 of GreenCrystalB
+			properties
+				x	184
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93050-9 of GreenCrystalC
+			properties
+				x	210
+				y	204
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93050-10 of GreenCrystalD
+			properties
+				x	92
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93050-11 of GreenCrystalB
+			properties
+				x	215
+				y	249
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93050-12 of CellFloorA
+			properties
+				x	238
+				y	204
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-93050-13 of FatColumn
+			properties
+				x	598
+				y	174
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-93050-14 of Column
+			properties
+				x	510
+				y	140
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93050-15 of GreenCrystalA
+			properties
+				x	601
+				y	183
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93050-16 of GreenCrystalB
+			properties
+				x	525
+				y	155
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93049
+	properties
+		template 32302
+		south 93041
+		west 93050
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93049-0 of GreenCrystalB
+			properties
+				x	243
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93049-1 of GreenCrystalB
+			properties
+				x	591
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93049-2 of GreenCrystalA
+			properties
+				x	523
+				y	312
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93049-3 of GreenCrystalA
+			properties
+				x	511
+				y	268
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93049-4 of GreenCrystalC
+			properties
+				x	447
+				y	341
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93049-5 of CellFloorA
+			properties
+				x	468
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93045
+	properties
+		template 30502
+		south 93044
+		east 93046
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93045-0 of GreenCrystalB
+			properties
+				x	288
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93045-1 of GreenCrystalD
+			properties
+				x	529
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93045-2 of GreenCrystalF
+			properties
+				x	509
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93045-3 of GreenCrystalC
+			properties
+				x	283
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93045-4 of CellFloorA
+			properties
+				x	294
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93046
+	properties
+		template 30906
+		east 93047
+		west 93045
+		flags	0
+	end
+	objects
+		object GreenWaterA-93046-0 of GreenWaterA
+			properties
+				x	124
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93046-1 of GreenWaterC
+			properties
+				x	314
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93046-2 of GreenWaterB
+			properties
+				x	511
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93046-3 of GreenCrystalB
+			properties
+				x	298
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93046-4 of GreenCrystalF
+			properties
+				x	539
+				y	230
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93046-5 of GreenCrystalA
+			properties
+				x	60
+				y	345
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93047
+	properties
+		template 31301
+		east 93048
+		west 93046
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93047-0 of GreenCrystalA
+			properties
+				x	270
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93047-1 of YellowShroomB
+			properties
+				x	425
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93047-2 of YellowShroomD
+			properties
+				x	400
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93047-3 of GreenWaterA
+			properties
+				x	255
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93047-4 of GreenWaterC
+			properties
+				x	65
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93047-5 of GreenWaterB
+			properties
+				x	511
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93047-6 of CellFloorA
+			properties
+				x	289
+				y	185
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93048
+	properties
+		template 30701
+		west 93047
+		flags	136
+	end
+	objects
+		object FaeryQueen-93048-0 of FaeryQueen
+			properties
+				x	270
+				y	233
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object SeraphQueen-93048-1 of SeraphQueen
+			properties
+				x	339
+				y	249
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object Seraph-93048-2 of Seraph
+			properties
+				x	375
+				y	236
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object GreenWaterB-93048-3 of GreenWaterB
+			properties
+				x	-15
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93048-4 of GreenWaterA
+			properties
+				x	239
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93048-5 of GreenCrystalA
+			properties
+				x	418
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93048-6 of GreenCrystalA
+			properties
+				x	575
+				y	303
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93048-7 of GreenCrystalA
+			properties
+				x	221
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93048-8 of GreenCrystalB
+			properties
+				x	216
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93048-9 of GreenCrystalB
+			properties
+				x	440
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93048-10 of GreenCrystalC
+			properties
+				x	438
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93048-11 of GreenCrystalC
+			properties
+				x	469
+				y	265
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93048-12 of GreenCrystalB
+			properties
+				x	471
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93048-13 of GreenCrystalD
+			properties
+				x	491
+				y	211
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93048-14 of GreenCrystalG
+			properties
+				x	475
+				y	212
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93048-15 of GreenCrystalG
+			properties
+				x	259
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93017
+	properties
+		template 31007
+		east 93016
+		north 93018
+		flags	16
+	end
+	objects
+		object Paladin-93017-0 of Paladin
+			properties
+				x	237
+				y	212
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-93017-1 of Paladin
+			properties
+				x	325
+				y	195
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-93017-2 of Paladin
+			properties
+				x	285
+				y	156
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object FatColumn-93017-3 of FatColumn
+			properties
+				x	151
+				y	201
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-93017-4 of FatColumn
+			properties
+				x	451
+				y	184
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93017-5 of Smoke2
+			properties
+				x	423
+				y	193
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93017-6 of Smoke2
+			properties
+				x	230
+				y	146
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-93017-7 of SmokeB
+			properties
+				x	367
+				y	135
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-93017-8 of SmokeB
+			properties
+				x	186
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-93017-9 of SmokeB
+			properties
+				x	488
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-93017-10 of Smoke2
+			properties
+				x	113
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93017-11 of GreenCrystalA
+			properties
+				x	55
+				y	345
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93017-12 of GreenCrystalA
+			properties
+				x	1
+				y	302
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93017-13 of GreenCrystalB
+			properties
+				x	174
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93017-14 of GreenCrystalB
+			properties
+				x	606
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93017-15 of GreenCrystalC
+			properties
+				x	441
+				y	186
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93017-16 of GreenCrystalB
+			properties
+				x	447
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93017-17 of GreenCrystalB
+			properties
+				x	156
+				y	251
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93017-18 of CellFloorA
+			properties
+				x	131
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93016
+	properties
+		template 30909
+		south 93015
+		west 93017
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93016-0 of GreenCrystalB
+			properties
+				x	257
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93016-1 of GreenCrystalC
+			properties
+				x	137
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93016-2 of GreenCrystalA
+			properties
+				x	579
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93041
+	properties
+		template 31005
+		south 93040
+		east 93042
+		north 93049
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93041-0 of GreenCrystalB
+			properties
+				x	127
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93041-1 of GreenCrystalA
+			properties
+				x	505
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93041-2 of GreenCrystalA
+			properties
+				x	84
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93041-3 of GreenCrystalC
+			properties
+				x	161
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93041-4 of CellFloorA
+			properties
+				x	173
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93041-5 of CellFloorA
+			properties
+				x	517
+				y	202
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93041-6 of GreenCrystalC
+			properties
+				x	567
+				y	266
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93041-7 of GreenCrystalG
+			properties
+				x	431
+				y	231
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93041-8 of GreenCrystalF
+			properties
+				x	322
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93042
+	properties
+		template 30901
+		east 93043
+		west 93041
+		flags	0
+	end
+	objects
+		object GreenWaterA-93042-0 of GreenWaterA
+			properties
+				x	254
+				y	340
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93042-1 of GreenWaterC
+			properties
+				x	62
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93042-2 of GreenWaterB
+			properties
+				x	507
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93042-3 of GreenCrystalA
+			properties
+				x	215
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93042-4 of GreenCrystalB
+			properties
+				x	131
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93042-5 of GreenCrystalC
+			properties
+				x	470
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93042-6 of GreenCrystalB
+			properties
+				x	451
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93043
+	properties
+		template 31301
+		east 93044
+		west 93042
+		flags	0
+	end
+	objects
+		object GreenWaterB-93043-0 of GreenWaterB
+			properties
+				x	510
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93043-1 of GreenWaterA
+			properties
+				x	256
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93043-2 of GreenWaterC
+			properties
+				x	66
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93043-3 of YellowShroomA
+			properties
+				x	423
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93043-4 of YellowShroomC
+			properties
+				x	401
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93043-5 of YellowShroomD
+			properties
+				x	452
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93043-6 of YellowShroomC
+			properties
+				x	434
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93043-7 of YellowShroomA
+			properties
+				x	272
+				y	218
+				loop	1
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93043-8 of YellowShroomD
+			properties
+				x	253
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93043-9 of YellowShroomB
+			properties
+				x	340
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93044
+	properties
+		template 31303
+		west 93043
+		north 93045
+		flags	0
+	end
+	objects
+		object GreenWaterA-93044-0 of GreenWaterA
+			properties
+				x	485
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93044-1 of GreenWaterB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93044-2 of GreenWaterC
+			properties
+				x	296
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93044-3 of GreenCrystalA
+			properties
+				x	559
+				y	342
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93044-4 of GreenCrystalA
+			properties
+				x	579
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93044-5 of GreenCrystalB
+			properties
+				x	506
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93044-6 of GreenCrystalC
+			properties
+				x	118
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93044-7 of GreenCrystalB
+			properties
+				x	151
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93015
+	properties
+		template 32402
+		south 93014
+		east 93013
+		north 93016
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93015-0 of GreenCrystalA
+			properties
+				x	112
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93015-1 of GreenCrystalA
+			properties
+				x	134
+				y	250
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93015-2 of GreenCrystalA
+			properties
+				x	594
+				y	345
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93015-3 of GreenCrystalB
+			properties
+				x	387
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93015-4 of GreenCrystalC
+			properties
+				x	395
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93015-5 of CellFloorA
+			properties
+				x	159
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93015-6 of CellFloorA
+			properties
+				x	385
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93013
+	properties
+		template 30601
+		south 93012
+		west 93015
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93013-0 of GreenCrystalB
+			properties
+				x	312
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93013-1 of GreenCrystalA
+			properties
+				x	452
+				y	260
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93013-2 of GreenCrystalB
+			properties
+				x	495
+				y	279
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93013-3 of CellFloorA
+			properties
+				x	491
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93039
+	properties
+		template 30502
+		south 93038
+		east 93040
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93039-0 of GreenCrystalB
+			properties
+				x	277
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93039-1 of GreenCrystalC
+			properties
+				x	216
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93039-2 of GreenCrystalA
+			properties
+				x	449
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93039-3 of GreenCrystalC
+			properties
+				x	399
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93039-4 of GreenCrystalF
+			properties
+				x	111
+				y	286
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93039-5 of CellFloorA
+			properties
+				x	453
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93039-6 of CellFloorA
+			properties
+				x	266
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93040
+	properties
+		template 31201
+		west 93039
+		north 93041
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93040-0 of GreenCrystalB
+			properties
+				x	582
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93040-1 of GreenCrystalA
+			properties
+				x	420
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93040-2 of GreenCrystalC
+			properties
+				x	579
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93040-3 of GreenCrystalB
+			properties
+				x	166
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93040-4 of CellFloorA
+			properties
+				x	445
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93040-5 of CellFloorA
+			properties
+				x	196
+				y	184
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93014
+	properties
+		template 31401
+		east 93012
+		north 93015
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93014-0 of GreenCrystalB
+			properties
+				x	281
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93014-1 of GreenCrystalF
+			properties
+				x	259
+				y	315
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93014-2 of GreenCrystalC
+			properties
+				x	189
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93014-3 of GreenCrystalA
+			properties
+				x	43
+				y	347
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93014-4 of GreenCrystalA
+			properties
+				x	559
+				y	230
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93014-5 of GreenCrystalB
+			properties
+				x	625
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93014-6 of GreenCrystalC
+			properties
+				x	546
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93014-7 of GreenCrystalB
+			properties
+				x	41
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93014-8 of CellFloorA
+			properties
+				x	73
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93014-9 of CellFloorC
+			properties
+				x	316
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93014-10 of CellFloorC
+			properties
+				x	576
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93014-11 of GreenCrystalA
+			properties
+				x	132
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93012
+	properties
+		template 31201
+		south 93011
+		west 93014
+		north 93013
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93012-0 of GreenCrystalB
+			properties
+				x	498
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93012-1 of GreenCrystalC
+			properties
+				x	519
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93012-2 of GreenCrystalA
+			properties
+				x	572
+				y	344
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93012-3 of GreenCrystalA
+			properties
+				x	559
+				y	314
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93012-4 of GreenCrystalB
+			properties
+				x	493
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93012-5 of GreenCrystalB
+			properties
+				x	22
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93012-6 of CellFloorA
+			properties
+				x	497
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93012-7 of GreenCrystalE
+			properties
+				x	155
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93012-8 of GreenCrystalG
+			properties
+				x	374
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93038
+	properties
+		template 30402
+		south 93037
+		north 93039
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93038-0 of GreenCrystalB
+			properties
+				x	177
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93038-1 of GreenCrystalC
+			properties
+				x	422
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93038-2 of GreenCrystalA
+			properties
+				x	498
+				y	314
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93038-3 of GreenCrystalA
+			properties
+				x	446
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93038-4 of GreenCrystalA
+			properties
+				x	521
+				y	364
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93038-5 of GreenCrystalB
+			properties
+				x	423
+				y	344
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93038-6 of GreenCrystalC
+			properties
+				x	123
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93038-7 of CellFloorA
+			properties
+				x	424
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93038-8 of CellFloorA
+			properties
+				x	152
+				y	204
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93011
+	properties
+		template 30802
+		east 93010
+		north 93012
+		flags	0
+	end
+	objects
+		object GreenWaterA-93011-0 of GreenWaterA
+			properties
+				x	411
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93011-1 of GreenWaterB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93011-2 of GreenCrystalB
+			properties
+				x	141
+				y	240
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93011-3 of GreenCrystalC
+			properties
+				x	14
+				y	209
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93011-4 of GreenCrystalB
+			properties
+				x	49
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93011-5 of GreenCrystalA
+			properties
+				x	59
+				y	346
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93011-6 of GreenCrystalA
+			properties
+				x	45
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93011-7 of GreenCrystalA
+			properties
+				x	88
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93011-8 of GreenCrystalA
+			properties
+				x	594
+				y	342
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93011-9 of CellFloorA
+			properties
+				x	127
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93011-10 of GreenCrystalF
+			properties
+				x	381
+				y	221
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93010
+	properties
+		template 30601
+		south 93009
+		west 93011
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93010-0 of GreenCrystalA
+			properties
+				x	452
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93010-1 of GreenCrystalA
+			properties
+				x	420
+				y	245
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93010-2 of GreenCrystalB
+			properties
+				x	601
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93036
+	properties
+		template 30502
+		south 93035
+		east 93037
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93036-0 of GreenCrystalB
+			properties
+				x	395
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93036-1 of GreenCrystalC
+			properties
+				x	366
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93036-2 of GreenCrystalA
+			properties
+				x	160
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93036-3 of CellFloorA
+			properties
+				x	181
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93036-4 of CellFloorA
+			properties
+				x	403
+				y	201
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93037
+	properties
+		template 31303
+		west 93036
+		north 93038
+		flags	0
+	end
+	objects
+		object GreenWaterA-93037-0 of GreenWaterA
+			properties
+				x	486
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93037-1 of GreenWaterC
+			properties
+				x	299
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93037-2 of GreenWaterB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93037-3 of GreenCrystalA
+			properties
+				x	486
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93037-4 of GreenCrystalB
+			properties
+				x	560
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93037-5 of GreenCrystalF
+			properties
+				x	122
+				y	235
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93009
+	properties
+		template 30402
+		south 93007
+		north 93010
+		flags	0
+	end
+	objects
+		object GreenCrystalC-93009-0 of GreenCrystalC
+			properties
+				x	468
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93009-1 of GreenCrystalC
+			properties
+				x	169
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93009-2 of GreenCrystalB
+			properties
+				x	142
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93009-3 of GreenCrystalG
+			properties
+				x	465
+				y	297
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93009-4 of GreenCrystalA
+			properties
+				x	559
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93009-5 of GreenCrystalB
+			properties
+				x	519
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93009-6 of GreenCrystalA
+			properties
+				x	52
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93034
+	properties
+		template 30501
+		south 93033
+		east 93035
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93034-0 of GreenCrystalB
+			properties
+				x	81
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93034-1 of GreenCrystalA
+			properties
+				x	152
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93035
+	properties
+		template 31201
+		west 93034
+		north 93036
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93035-0 of GreenCrystalB
+			properties
+				x	146
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93035-1 of GreenCrystalA
+			properties
+				x	124
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93035-2 of GreenCrystalA
+			properties
+				x	536
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93035-3 of GreenCrystalA
+			properties
+				x	586
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93035-4 of GreenCrystalC
+			properties
+				x	473
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93035-5 of GreenCrystalF
+			properties
+				x	395
+				y	225
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93035-6 of CellFloorA
+			properties
+				x	513
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93035-7 of CellFloorA
+			properties
+				x	159
+				y	193
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93007
+	properties
+		template 31003
+		south 93006
+		north 93009
+		flags	0
+	end
+	objects
+		object CellFloorA-93007-0 of CellFloorA
+			properties
+				x	583
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93007-1 of GreenCrystalC
+			properties
+				x	573
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93007-2 of GreenCrystalB
+			properties
+				x	423
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93007-3 of GreenCrystalF
+			properties
+				x	419
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93007-4 of GreenCrystalE
+			properties
+				x	442
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93007-5 of GreenCrystalA
+			properties
+				x	61
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93007-6 of GreenCrystalA
+			properties
+				x	95
+				y	315
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93007-7 of GreenCrystalC
+			properties
+				x	155
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93032
+	properties
+		template 30502
+		south 93020
+		east 93033
+		flags	96
+	end
+	objects
+		object Faery-93032-0 of Faery
+			properties
+				x	301
+				y	268
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93032-1 of Faery
+			properties
+				x	199
+				y	294
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object SeraphQueen-93032-2 of SeraphQueen
+			properties
+				x	256
+				y	254
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object CellFloorA-93032-3 of CellFloorA
+			properties
+				x	130
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93032-4 of CellFloorA
+			properties
+				x	260
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93032-5 of GreenCrystalB
+			properties
+				x	119
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93032-6 of GreenCrystalA
+			properties
+				x	453
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93032-7 of GreenCrystalB
+			properties
+				x	399
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93032-8 of CellFloorB
+			properties
+				x	194
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93032-9 of CellFloorA
+			properties
+				x	466
+				y	200
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-93032-10 of YellowShroomA
+			properties
+				x	170
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93032-11 of YellowShroomB
+			properties
+				x	201
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-93032-12 of YellowShroomC
+			properties
+				x	219
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+		object YellowShroomD-93032-13 of YellowShroomD
+			properties
+				x	299
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-93032-14 of YellowShroomB
+			properties
+				x	283
+				y	250
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93033
+	properties
+		template 30704
+		south 93021
+		west 93032
+		north 93034
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93033-0 of GreenCrystalB
+			properties
+				x	448
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93033-1 of GreenCrystalC
+			properties
+				x	575
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93033-2 of GreenCrystalA
+			properties
+				x	513
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93033-3 of GreenCrystalA
+			properties
+				x	577
+				y	288
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93033-4 of CellFloorA
+			properties
+				x	420
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93033-5 of CellFloorA
+			properties
+				x	61
+				y	158
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93033-6 of GreenCrystalF
+			properties
+				x	14
+				y	213
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93033-7 of CellFloorA
+			properties
+				x	479
+				y	174
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93033-8 of GreenCrystalC
+			properties
+				x	486
+				y	174
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93033-9 of GreenCrystalC
+			properties
+				x	552
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93006
+	properties
+		template 31005
+		south 93004
+		east 93008
+		north 93007
+		flags	0
+	end
+	objects
+		object CellFloorA-93006-0 of CellFloorA
+			properties
+				x	150
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93006-1 of CellFloorA
+			properties
+				x	315
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93006-2 of CellFloorA
+			properties
+				x	494
+				y	186
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93006-3 of GreenCrystalA
+			properties
+				x	517
+				y	245
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93006-4 of GreenCrystalA
+			properties
+				x	61
+				y	306
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93006-5 of GreenCrystalB
+			properties
+				x	105
+				y	275
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorB-93006-6 of CellFloorB
+			properties
+				x	350
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93006-7 of CellFloorC
+			properties
+				x	224
+				y	182
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93008
+	properties
+		template 30906
+		east 93019
+		west 93006
+		flags	0
+	end
+	objects
+		object GreenWaterA-93008-0 of GreenWaterA
+			properties
+				x	123
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93008-1 of GreenWaterB
+			properties
+				x	512
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93008-2 of GreenWaterC
+			properties
+				x	313
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93008-3 of GreenCrystalA
+			properties
+				x	59
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93019
+	properties
+		template 30901
+		east 93020
+		west 93008
+		flags	0
+	end
+	objects
+		object GreenWaterA-93019-0 of GreenWaterA
+			properties
+				x	254
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93019-1 of GreenWaterC
+			properties
+				x	64
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93019-2 of GreenWaterB
+			properties
+				x	507
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93019-3 of GreenCrystalA
+			properties
+				x	130
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93019-4 of GreenCrystalB
+			properties
+				x	121
+				y	249
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93019-5 of GreenCrystalF
+			properties
+				x	235
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93019-6 of GreenCrystalC
+			properties
+				x	494
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93020
+	properties
+		template 30702
+		east 93021
+		west 93019
+		north 93032
+		flags	0
+	end
+	objects
+		object GreenWaterA-93020-0 of GreenWaterA
+			properties
+				x	122
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93020-1 of GreenWaterC
+			properties
+				x	312
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93020-2 of GreenWaterB
+			properties
+				x	510
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93020-3 of GreenCrystalA
+			properties
+				x	530
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93020-4 of GreenCrystalB
+			properties
+				x	455
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93020-5 of GreenCrystalC
+			properties
+				x	329
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93020-6 of GreenCrystalC
+			properties
+				x	605
+				y	225
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93021
+	properties
+		template 32101
+		east 93022
+		west 93020
+		north 93033
+		flags	0
+	end
+	objects
+		object GreenWaterA-93021-0 of GreenWaterA
+			properties
+				x	122
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93021-1 of GreenWaterB
+			properties
+				x	376
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93021-2 of GreenWaterC
+			properties
+				x	576
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93021-3 of GreenCrystalB
+			properties
+				x	503
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93021-4 of GreenCrystalC
+			properties
+				x	119
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93021-5 of GreenCrystalG
+			properties
+				x	123
+				y	176
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93021-6 of GreenCrystalF
+			properties
+				x	515
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93021-7 of CellFloorA
+			properties
+				x	119
+				y	147
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorB-93021-8 of CellFloorB
+			properties
+				x	82
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93021-9 of CellFloorA
+			properties
+				x	476
+				y	172
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93022
+	properties
+		template 30601
+		south 93023
+		west 93021
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93022-0 of GreenCrystalA
+			properties
+				x	451
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93022-1 of GreenCrystalA
+			properties
+				x	536
+				y	323
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93022-2 of GreenCrystalB
+			properties
+				x	468
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93022-3 of GreenCrystalC
+			properties
+				x	378
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93022-4 of CellFloorA
+			properties
+				x	454
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93003
+	properties
+		template 32301
+		east 93004
+		flags	0
+	end
+	objects
+		object EnidBackDoor-93003-0 of EnidBackDoor
+			properties
+				x	321
+				y	234
+				loop	0
+				linkTo	EnidBackDoor-93002-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93003-1 of GreenCrystalA
+			properties
+				x	260
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93003-2 of GreenCrystalB
+			properties
+				x	231
+				y	279
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93003-3 of GreenCrystalC
+			properties
+				x	250
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93003-4 of GreenCrystalA
+			properties
+				x	130
+				y	298
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93003-5 of GreenCrystalB
+			properties
+				x	112
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93004
+	properties
+		template 32101
+		east 93005
+		west 93003
+		north 93006
+		flags	0
+	end
+	objects
+		object GreenWaterA-93004-0 of GreenWaterA
+			properties
+				x	122
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93004-1 of GreenWaterB
+			properties
+				x	376
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93004-2 of GreenWaterC
+			properties
+				x	575
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93004-3 of CellFloorA
+			properties
+				x	98
+				y	172
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93004-4 of GreenCrystalB
+			properties
+				x	118
+				y	201
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93004-5 of GreenCrystalC
+			properties
+				x	117
+				y	231
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93004-6 of GreenCrystalF
+			properties
+				x	523
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93004-7 of CellFloorA
+			properties
+				x	287
+				y	149
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93004-8 of CellFloorC
+			properties
+				x	316
+				y	129
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93004-9 of CellFloorB
+			properties
+				x	247
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93005
+	properties
+		template 30201
+		west 93004
+		flags	0
+	end
+	objects
+		object GreenWaterA-93005-0 of GreenWaterA
+			properties
+				x	122
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93005-1 of GreenWaterB
+			properties
+				x	509
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93005-2 of GreenWaterC
+			properties
+				x	310
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93005-3 of GreenCrystalA
+			properties
+				x	584
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93005-4 of GreenCrystalB
+			properties
+				x	599
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93005-5 of GreenCrystalC
+			properties
+				x	582
+				y	277
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93005-6 of GreenCrystalE
+			properties
+				x	511
+				y	312
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93023
+	properties
+		template 30802
+		east 93024
+		north 93022
+		flags	0
+	end
+	objects
+		object GreenWaterA-93023-0 of GreenWaterA
+			properties
+				x	412
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93023-1 of GreenWaterB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93023-2 of GreenWaterC
+			properties
+				x	601
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93023-3 of GreenCrystalA
+			properties
+				x	58
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93023-4 of GreenCrystalA
+			properties
+				x	59
+				y	295
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93023-5 of GreenCrystalA
+			properties
+				x	84
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93023-6 of GreenCrystalB
+			properties
+				x	42
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93023-7 of GreenCrystalC
+			properties
+				x	152
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93023-8 of GreenCrystalB
+			properties
+				x	621
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93023-9 of GreenCrystalF
+			properties
+				x	380
+				y	220
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93023-10 of CellFloorA
+			properties
+				x	138
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93023-11 of GreenCrystalC
+			properties
+				x	617
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93024
+	properties
+		template 31105
+		south 93025
+		east 93026
+		west 93023
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93024-0 of GreenCrystalB
+			properties
+				x	517
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93024-1 of GreenCrystalC
+			properties
+				x	456
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93024-2 of GreenCrystalA
+			properties
+				x	563
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93024-3 of GreenCrystalA
+			properties
+				x	581
+				y	336
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93024-4 of CellFloorA
+			properties
+				x	542
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93024-5 of GreenCrystalE
+			properties
+				x	234
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93026
+	properties
+		template 30909
+		south 93027
+		west 93024
+		flags	0
+	end
+	objects
+		object GreenCrystalC-93026-0 of GreenCrystalC
+			properties
+				x	161
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93026-1 of GreenCrystalB
+			properties
+				x	298
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93026-2 of GreenCrystalE
+			properties
+				x	99
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93026-3 of GreenCrystalF
+			properties
+				x	83
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93026-4 of GreenCrystalA
+			properties
+				x	536
+				y	323
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93026-5 of GreenCrystalC
+			properties
+				x	497
+				y	201
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93026-6 of GreenCrystalB
+			properties
+				x	523
+				y	155
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93026-7 of GreenCrystalC
+			properties
+				x	497
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93026-8 of GreenCrystalF
+			properties
+				x	488
+				y	105
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93000
+	properties
+		template 30805
+		east 93001
+		flags	0
+	end
+	objects
+		object Sign-93000-0 of Sign
+			properties
+				x	36
+				y	278
+				loop	0
+			end
+			base described
+				text	"So, you wish to take the test? To be marked by gods and men, to stand firm and bare your innermost soul to that which could destroy you? Walk on, brave hearted one..."
+			end
+		end
+		object EnidBackArch-93000-1 of EnidBackArch
+			properties
+				x	229
+				y	226
+				loop	2
+				linkTo	hollowTree3337-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93000-2 of GreenWaterB
+			properties
+				x	400
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93000-3 of GreenWaterA
+			properties
+				x	178
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterD-93000-4 of GreenWaterD
+			properties
+				x	591
+				y	345
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93000-5 of GreenWaterC
+			properties
+				x	-11
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93000-6 of CellFloorA
+			properties
+				x	173
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-93000-7 of CellFloorB
+			properties
+				x	236
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93000-8 of GreenCrystalB
+			properties
+				x	74
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93000-9 of GreenCrystalF
+			properties
+				x	552
+				y	170
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93000-10 of GreenCrystalC
+			properties
+				x	106
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93000-11 of GreenCrystalG
+			properties
+				x	140
+				y	127
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93000-12 of GreenCrystalG
+			properties
+				x	-1
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93000-13 of GreenCrystalE
+			properties
+				x	2
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93000-14 of GreenCrystalB
+			properties
+				x	548
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-93000-15 of CellFloorD
+			properties
+				x	53
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93001
+	properties
+		template 30703
+		east 93002
+		west 93000
+		flags	64
+	end
+	objects
+		object Seraph-93001-0 of Seraph
+			properties
+				x	540
+				y	258
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object GreenWaterA-93001-1 of GreenWaterA
+			properties
+				x	117
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-93001-2 of GreenWaterC
+			properties
+				x	306
+				y	327
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93001-3 of GreenWaterB
+			properties
+				x	505
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93002
+	properties
+		template 30701
+		west 93001
+		flags	0
+	end
+	objects
+		object EnidBackDoor-93002-0 of EnidBackDoor
+			properties
+				x	287
+				y	203
+				loop	2
+				linkTo	EnidBackDoor-93003-0
+			end
+			actions
+				vBeAnswered unlock self 
+				vBeAnswered open self 
+			end
+			base lockable
+			end
+			base described
+				riddleFile	"../data/riddles/riddle05.txt"
+			end
+		end
+		object GreenCrystalB-93002-1 of GreenCrystalB
+			properties
+				x	447
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93002-2 of GreenCrystalA
+			properties
+				x	478
+				y	306
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93002-3 of GreenCrystalC
+			properties
+				x	464
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93002-4 of GreenCrystalD
+			properties
+				x	387
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93002-5 of GreenCrystalF
+			properties
+				x	479
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93002-6 of GreenCrystalC
+			properties
+				x	384
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93002-7 of GreenCrystalG
+			properties
+				x	285
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93002-8 of GreenWaterB
+			properties
+				x	-13
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93002-9 of GreenWaterA
+			properties
+				x	241
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93002-10 of GreenCrystalD
+			properties
+				x	356
+				y	345
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93002-11 of GreenCrystalA
+			properties
+				x	529
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93025
+	properties
+		template 30801
+		east 93027
+		north 93024
+		flags	0
+	end
+	objects
+		object GreenCrystalB-93025-0 of GreenCrystalB
+			properties
+				x	168
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93025-1 of GreenCrystalA
+			properties
+				x	63
+				y	341
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93025-2 of GreenCrystalA
+			properties
+				x	13
+				y	279
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93025-3 of GreenCrystalC
+			properties
+				x	36
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93025-4 of GreenWaterA
+			properties
+				x	414
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93025-5 of GreenWaterB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93025-6 of GreenCrystalC
+			properties
+				x	78
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorC-93025-7 of CellFloorC
+			properties
+				x	178
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93027
+	properties
+		template 31008
+		south 93028
+		east 93029
+		west 93025
+		north 93026
+		flags	104
+	end
+	objects
+		object Cleric-93027-0 of Cleric
+			properties
+				x	424
+				y	243
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-93027-1 of Cleric
+			properties
+				x	199
+				y	242
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SmokeA-93027-2 of SmokeA
+			properties
+				x	303
+				y	126
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93027-3 of Smoke1
+			properties
+				x	544
+				y	177
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-93027-4 of SmokeA
+			properties
+				x	87
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93027-5 of GreenCrystalB
+			properties
+				x	57
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93027-6 of GreenCrystalC
+			properties
+				x	627
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93027-7 of GreenCrystalB
+			properties
+				x	350
+				y	74
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93027-8 of GreenCrystalF
+			properties
+				x	123
+				y	70
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-93027-9 of GreenCrystalE
+			properties
+				x	376
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93027-10 of GreenCrystalG
+			properties
+				x	452
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93027-11 of GreenCrystalD
+			properties
+				x	240
+				y	232
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93027-12 of GreenCrystalG
+			properties
+				x	179
+				y	230
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-93027-13 of CellFloorA
+			properties
+				x	436
+				y	189
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93027-14 of CellFloorA
+			properties
+				x	205
+				y	189
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93029
+	properties
+		template 32302
+		south 93030
+		west 93027
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93029-0 of GreenCrystalA
+			properties
+				x	562
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 93028
+	properties
+		template 30403
+		north 93027
+		flags	24
+	end
+	objects
+		object Faery-93028-0 of Faery
+			properties
+				x	161
+				y	256
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93028-1 of Faery
+			properties
+				x	243
+				y	254
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93028-2 of Faery
+			properties
+				x	354
+				y	255
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93028-3 of Faery
+			properties
+				x	390
+				y	266
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Sign-93028-4 of Sign
+			properties
+				x	157
+				y	216
+				loop	0
+			end
+			base described
+				text	"Turn back, turn back. There is nothing for you here. Seek balance and judgement in the centre of the whorl. There you find if you are a canker or a pearl."
+			end
+		end
+		object SmokeA-93028-5 of SmokeA
+			properties
+				x	71
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93028-6 of Smoke1
+			properties
+				x	210
+				y	138
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93028-7 of Smoke1
+			properties
+				x	315
+				y	125
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93028-8 of Smoke1
+			properties
+				x	264
+				y	356
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93028-9 of Smoke1
+			properties
+				x	551
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-93028-10 of SmokeA
+			properties
+				x	454
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93028-11 of GreenCrystalA
+			properties
+				x	493
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93028-12 of GreenCrystalA
+			properties
+				x	23
+				y	322
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93028-13 of GreenCrystalA
+			properties
+				x	40
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93028-14 of GreenCrystalA
+			properties
+				x	551
+				y	252
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93028-15 of GreenCrystalB
+			properties
+				x	621
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93028-16 of GreenCrystalC
+			properties
+				x	434
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93028-17 of GreenCrystalA
+			properties
+				x	587
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-93028-18 of GreenWaterB
+			properties
+				x	163
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-93028-19 of GreenWaterA
+			properties
+				x	344
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93030
+	properties
+		template 31006
+		south 93031
+		north 93029
+		flags	0
+	end
+	objects
+		object GreenCrystalA-93030-0 of GreenCrystalA
+			properties
+				x	51
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93030-1 of GreenCrystalB
+			properties
+				x	34
+				y	266
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93030-2 of GreenCrystalB
+			properties
+				x	624
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93030-3 of GreenCrystalC
+			properties
+				x	574
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-93030-4 of GreenCrystalF
+			properties
+				x	205
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-93030-5 of GreenCrystalG
+			properties
+				x	225
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-93030-6 of GreenCrystalD
+			properties
+				x	520
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93030-7 of CellFloorA
+			properties
+				x	90
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-93030-8 of CellFloorA
+			properties
+				x	595
+				y	243
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93030-9 of GreenCrystalC
+			properties
+				x	77
+				y	237
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 93031
+	properties
+		template 32502
+		north 93030
+		flags	24
+	end
+	objects
+		object Faery-93031-0 of Faery
+			properties
+				x	391
+				y	257
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-93031-1 of Faery
+			properties
+				x	276
+				y	259
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object LightWiz-93031-2 of LightWiz
+			properties
+				x	318
+				y	256
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object FatColumn-93031-3 of FatColumn
+			properties
+				x	44
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-93031-4 of FatColumn
+			properties
+				x	563
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-93031-5 of Stalagmite4
+			properties
+				x	294
+				y	366
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-93031-6 of Stalagmite4
+			properties
+				x	382
+				y	358
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-93031-7 of Stalagmite3
+			properties
+				x	325
+				y	359
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-93031-8 of Stalagmite1
+			properties
+				x	205
+				y	411
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-93031-9 of Sign
+			properties
+				x	212
+				y	245
+				loop	0
+			end
+			base described
+				text	"Your actions, and intents, are becoming clearer to those that will judge you. However, here is not the place of judgement. Seek farther, and you shall be rewarded."
+			end
+		end
+		object SmokeA-93031-10 of SmokeA
+			properties
+				x	89
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-93031-11 of Smoke1
+			properties
+				x	513
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object PerfectRose-93031-12 of PerfectRose
+			properties
+				x	230
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93031-13 of GreenCrystalA
+			properties
+				x	56
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93031-14 of GreenCrystalA
+			properties
+				x	551
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-93031-15 of GreenCrystalA
+			properties
+				x	255
+				y	377
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93031-16 of GreenCrystalB
+			properties
+				x	397
+				y	341
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-93031-17 of GreenCrystalC
+			properties
+				x	382
+				y	361
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93031-18 of GreenCrystalB
+			properties
+				x	556
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-93031-19 of GreenCrystalB
+			properties
+				x	242
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorE-93031-20 of CellFloorE
+			properties
+				x	242
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

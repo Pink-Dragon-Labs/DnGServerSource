@@ -1,0 +1,19 @@
+quest  341 #8307-01-525        # Sirk, The Fashion Statement, Asgard, 6907
+
+name  "The Antiquated Broach"
+type  fedex
+
+proposal  "Friend, I have the Amulet you seek, though I do not know how you heard of it.  When it first came into my hands I realized that perhaps it would be a means to realizing a fond dream of mine.  I have a longing to complete a collection begun long ago which needs only an antiquated broach.  Now I have heard of one, somewhere is the desert town of Arimathor.  Find it and bring it to me, and the Amulet is yours.  Will you do this?"
+
+declined  "I regret this decision."
+
+accepted  "I hope you have success, my friend."
+
+reminder   "An antiquated broach that may be somewhere in Arimathor is your quest."
+
+completed  "You have done it!  Bravo.  In turn, here is the Amulet of Lemelion the Great."
+
+getItem   qAntiquatedBroach
+reward   qAmuletLemelion 
+end
+

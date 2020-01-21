@@ -1,0 +1,18 @@
+quest  283 #8021-01-100       #Mara, Wards of War, Kurz, 8021
+
+name  "Fenri Fang"
+type  fedex
+
+proposal  "You dare come to me to learn Necromancy!  You expect me to teach you!  Hmfph. I might guide you through the first level.  Just to see if you can do it.  Get me a Fenri Fang.  Don't just stand there gaping.  Will you do it or not?
+
+declined  "Just as I thought."
+
+accepted  "Then do it!"
+
+reminder   "Do I have to spell it out?  Look for a Fenri Fang in Drune."
+
+completed  "Astonishing!  You did it.  Very well, here's the first spellbook for Necromancy."
+
+getItem   qFenriFang
+reward   skbNecromancyI 
+end

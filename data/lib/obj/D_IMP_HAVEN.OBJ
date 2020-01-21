@@ -1,0 +1,37 @@
+object ImpHavenKey01 of Key
+	properties
+		name "Iron Key"
+		toss
+		drop
+		special
+	end
+
+	base described
+		text "You see an iron key."
+	end
+
+	base key
+		unlockValue 891380
+	end
+end
+
+object ImpHavenKey02 of Key
+	properties
+		name "Iron Key"
+		toss
+		drop
+		special
+	end
+
+	base described
+		text "You see an iron key."
+	end
+
+	base use
+		uses 1
+	end
+
+	base key
+		unlockValue 89008
+	end
+end

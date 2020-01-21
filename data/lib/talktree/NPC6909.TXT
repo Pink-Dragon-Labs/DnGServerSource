@@ -1,0 +1,18 @@
+id 6909
+
+banner "You have come to the right place if you wish to become versed in warfare."
+
+topic "Tell me about Asgard."
+	text "We Asgardians pride ourselves on our courage."
+	text "Finvarra gives us strength."
+end	
+
+topic "Have you heard any interesting rumors?"
+	text "I have heard stories of baby dragons growing in the desert."
+	text "If you come across one in your journeys come back and tell me of it."
+	text "If you survive the encounter that is." 
+end      
+
+topic "Can I do anything for you?"
+	text "I would like one of those baby dragon skins, should you find one. I would pay well for one."
+end

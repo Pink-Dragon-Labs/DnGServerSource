@@ -1,0 +1,19 @@
+quest 254 #6902-01-435  #(Devo, Food Cart, Wen, 5109)
+
+name  "Devo's Book"
+type  fedex
+
+proposal "Marti wants her lunch, does she.  And did she give you a book for me?  She must have forgotten.  I need that book today.  Do me a huge favor.  Go get the book while I pack up her lunch.  I'll owe you one."  
+
+declined  "I wouldn't cross Marti if I were you."
+
+accepted  "Go get it while I fix her lunch.  Don't tell her I haven't started it yet."
+
+reminder   "Have you got the book from Marti?"
+
+completed  "Thanks, pal.  Here's the lunch for Marti."
+
+getItem  qDevoBook
+reward  qMartiLunch
+end
+

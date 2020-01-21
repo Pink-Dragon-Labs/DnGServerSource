@@ -1,0 +1,19 @@
+quest   45 # 6073-01-525        # Aimie, The Tub, tavern, Usk, 8108
+
+name  "Bolla Brew"
+type  fedex
+
+proposal  "Just ask Aimie.  That's what they say around here.  It's true, too.  I've got connections to get you anything you want.  This amulet, for example.  I can get it for you.  Amulet of Protection, you say?  Sure thing.  How about a trade, friend.  I've got a hankering for some genuine bolla brew from Monmouth.  Ever tasted the stuff?  Whooee!!  It's really got a kick to it.  What about it?  Is it a deal?"
+
+declined  "Too bad.  The thought of that brew makes my ears tingle."
+
+accepted  "Soon as you're back, that amulet is yours, even if I have to make it.  Just kidding, just kidding.  I'll get it for you."
+
+reminder   "Get some bolla brew from Monmouth."
+
+completed  "Whooee!  This is something of all right!  Got the amulet you wanted right here."
+
+getItem   qBollaBrew
+reward   qAmuletProtection 
+end
+

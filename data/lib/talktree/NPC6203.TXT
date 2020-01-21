@@ -1,0 +1,28 @@
+id 6203
+
+banner "Welcome to the Bend Sinister. What might I do for you?"
+
+topic "Tell me about Murias."
+        text "There's not much to tell, Friend. Murians are a simple people who live in peace when possible, but we'll fight when necessary."
+        text "We're farmers for the most part. Have you been here for one of our feis? We have many celebrations, for we have much to celebrate."
+end
+
+topic "Who are you?"
+        text "I am Gwynna, daughter of The Realm's herald. I also own this tavern, the Bend Sinister. In heraldry, a bend sinister, or left diagonal, often represents evil. I named it that because I'm left-handed."
+	"I cannot be out in the sunlight very long without getting badly burned, so I'm an indoorswoman.  Most of my family are outdoorsmen."
+end      
+
+topic "Can I do something for you?"
+        text "I may have something for you on another day, but for now I've nothing. Thank you for asking."
+end                     
+
+topic  "I'm looking for Zuzu's antique purchase." q296:0 #q8021-01-425:0
+	quest 297 #8021-01-430
+	text  "You picked it up already."
+end
+
+topic  "I need a genuine hieroglyphic." q402:0 #q8100-01-500:0
+	quest 403 #8100-01-525
+	text  "I gave it to you."
+end
+

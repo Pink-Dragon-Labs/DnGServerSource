@@ -1,0 +1,19 @@
+quest  140 #6403-01-100        #Wonduri, Silverbrook Charms, Silverbrook, 6403
+
+name  "Amulet of Tamen the Mighty"
+type  fedex
+
+proposal  "You express interest in theurgism, interest in the art of conjuring, the art of enchantments, in short, interest in the Art of Magic.  Excellent!  You come to me, an elf of Silverbrook, for instruction. This portends well for your future in Theurgism.  Attend! We will begin at the beginning, the level of Familiar Theurgism, with a quest. You will seek and find the Amulet of Tamen the Mighty, so called for the great feats he performed.  Do you accept this assignment?"
+
+declined  "Your interest is not as strong as it appeared."
+
+accepted  "To recapitulate, you will depart at once on a quest to seek and find the Amulet of Tamen the Mighty.  A query in Asgard would be wise."   
+
+reminder   "Journey to Asgard and inquire about the Amulet of Ramen the Mighty."
+
+completed  "I salute your return with the Amulet of Tamen the Mighty.  A spellbook for the study of Familiar Theurgism is now yours.
+
+getItem   qAmuletTamen
+reward   skbTheurgismI 
+end
+

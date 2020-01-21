@@ -1,0 +1,16 @@
+quest  165 #6501-01-440        # Lireen, Healing Magic, Drune, 8303
+
+name  "Errand for Lireen"
+type  fedex
+
+proposal  "Poor Ygior.  It's always something with him.  He really does hurt himself, and his knee was considerable banged up.  Though I must say, good has come of that.  I rather like this popping corn myself.  If you haven't tried it yet, you should.  Will you deliver the ointment to Ygior?"
+
+declined  "I'll take it then.  I'd like some more popping corn."
+
+accepted  "Here you are."
+
+reminder   "Aren't you going to take that ointment to Ygior?"
+
+reward   qKneeOintment 
+end
+

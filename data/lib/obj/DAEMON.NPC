@@ -1,0 +1,336 @@
+#
+# Updated on 12-17-2000...
+#
+
+object Daemon of NPC
+	properties
+		name "Daemon"
+		view 40500
+		alignment 0
+		color 768
+
+		minLevel 80
+		maxLevel 100
+
+		minDamage 20
+		maxDamage 150
+
+		intelligence 15
+		endurance 15
+		strength 15
+		quickness 15
+
+		armor 30
+
+		# damage normal
+		affect 0 0 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# weak to cold damage
+		affect 2 3 0 -1
+
+		# fire immolated
+		affect 23 0 0 -1
+
+		soundGroup 4
+
+		damageType 1
+		armorType 3
+		range 4
+		treasure 4
+	end
+
+	base container
+		object RandomMonsterWand
+		object RandomMonsterTome
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics grandmaster
+		skill 9 5
+
+		## elementalism master
+		skill 12 4
+
+		## necromancy master
+		skill 15 4
+
+		## meditation master
+		skill 28 4
+
+		## critical striking grandmaster
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4	# daemons are immune to necromancy
+		vBeBorn changeSpellResistance self 50 2		# daemons are 50% immune to mysticism
+		vBeBorn changeSpellResistance self 25 1		# daemons are 25% immune to elementalism
+		vBeBorn changeSDM self 100 0 1 2 3 4		# double SDM in all spell circles
+	end
+
+	base described
+		text "Daemon -- 100% necromancy resistance, 50% mysticism resistance, 25% elementalism resistance.  20 - 150 melee damage.\n\n"
+	end
+
+	base npc
+		code daemon
+	end
+end
+
+
+object FlameDaemon of Daemon
+	properties
+		name "Flame Daemon"
+		clutStart -1
+		color 789
+
+		minLevel 100
+		maxLevel 150
+
+		minDamage 40
+		maxDamage 200
+
+		intelligence 17
+		endurance 17
+		strength 17
+
+		# do fire + normal damage
+		affect 1 0 0 -1
+	end
+
+	actions
+		vBeBorn changeSDM self 25 0 1 2 3 4		# 125% SDM in all spell circles (add 25 to base daemon)
+		vBeBorn changeSpellResistance self 10 1	# elemental-specific daemons are 35% resistant to elementalism (+10 to base)
+	end
+
+	base character
+		# elementalism grandmaster
+		skill 12 5
+	end
+
+	base described
+		text "Flame Daemon -- 100% necromancy resistance, 50% mysticism resistance, 35% elementalism resistance.  40 - 200 melee damage.\n\n"
+	end
+end
+
+
+object SnowDaemon of Daemon
+	properties
+		name "Snow Daemon"
+		clutStart -1
+		color 790
+
+		minLevel 100
+		maxLevel 150
+
+		minDamage 40
+		maxDamage 200
+
+		intelligence 17
+		endurance 18
+		strength 18
+
+		# do fire + cold damage
+		affect 2 0 0 -1
+
+		# cold immolated - remove fire
+		caffect 23
+		affect 24 0 0 -1
+	end
+
+	base character
+		# elementalism grandmaster
+		skill 12 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 10 1	# elemental-specific daemons are 35% resistant to elementalism (+10 to base)
+		vBeBorn changeSDM self 25 0 1 2 3 4		# 125% SDM in all spell circles (add 25 to base daemon)
+	end
+
+	base described
+		text "Snow Daemon -- 100% necromancy resistance, 50% mysticism resistance, 35% elementalism resistance.  40 - 200 melee damage.\n\n"
+	end
+end
+
+
+object DaemonKing of Daemon
+	properties
+		name "Daemon King"
+
+		clutStart -1
+		color 784
+
+		minLevel 300
+		maxLevel 800
+
+		minDamage 190
+		maxDamage 300
+
+		intelligence 20
+		endurance 18
+		strength 18
+
+		armor 50
+
+		# do fire + bludgeoning damage
+		affect 1 0 0 -1
+		affect 13 0 0 -1
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 1		# daemon kings are 50% immune to elementalism (add 25% to base daemon)
+		vBeBorn changeSDM self 150 0 1 2 3 4		# 250% SDM in all spell circles (add 150 to base daemon)
+	end
+
+	base character
+		# grandmaster combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+
+		# grandmaster elementalist
+		skill 12 5
+
+		# grandmaster necromancer
+		skill 15 5
+
+		# grandmaster meditation
+		skill 28 5
+	end
+
+	base container
+		object RandomRareHelmet 
+	end
+
+	base described
+		text "Daemon King -- 100% necromancy resistance, 50% mysticism resistance, 50% elementalism resistance.  190 - 200 melee damage.\n\n"
+	end
+end
+
+
+object Kilrog of NPC
+	properties
+		name "Kilrog"
+		view 40500
+		alignment 0
+		color 787
+		clutStart -1
+
+		minLevel 250
+		maxLevel 350
+
+		minDamage 190
+		maxDamage 300
+
+		intelligence 18
+		dexterity 18
+		endurance 18
+		strength 18
+		quickness 18
+
+		armor 60
+
+		# damage bludgeoning
+		affect 13 0 0 -1
+
+		soundGroup 4
+
+		damageType 2
+		armorType 3
+		treasure 4
+	end
+
+	base container
+		object RandomMonsterMegaTreasure
+		object RandomSemiRareHelmet 
+	end
+
+	base character
+		## unarmed combat grandmaster
+		skill 7 5
+
+		## acrobatics grandmaster
+		skill 9 5
+
+		## critical striking grandmaster
+		skill 29 5
+
+	end
+
+	base described
+		text "Kilrog -- 100% necromancy resistance, 25% mysticism resistance, 25% elementalism resistance.  190 - 300 melee damage.\n\n"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4	# kilrogs are immune to necromancy
+		vBeBorn changeSpellResistance self 25 2		# kilrogs are 25% immune to mysticism
+		vBeBorn changeSpellResistance self 25 1		# kilrogs are 25% immune to elementalism...
+	end
+end
+
+
+object KingKilrog of Kilrog
+	properties
+		name "King Kilrog"
+		alignment 0
+		clutStart -1
+		color 788
+
+		armor 70
+
+		minLevel 300
+		maxLevel 900
+
+		minDamage 240
+		maxDamage 400
+
+		intelligence 20
+		dexterity 18
+		endurance 18
+		strength 20
+		quickness 20
+
+		armor 80
+	end
+
+	base container
+		object RandomMonsterMegaTreasure
+		object RandomMonsterAmulet
+	end
+
+	base character
+		# grandmaster combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+
+		# grandmaster elementalist
+		skill 12 5
+
+		# grandmaster necromancer
+		skill 15 5
+	end
+
+	base described
+		text "King Kilrog -- 100% necromancy resistance, 75% mysticism resistance, 35% elementalism resistance.  240 - 400 melee damage.\n\n"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2		# kilrogs are 75% immune to mysticism (add 50 to base kilrog)
+		vBeBorn changeSpellResistance self 10 1		# kilrogs are 35% immune to elementalism (add 10 to base kilrog)
+		vBeBorn changeSDM self 300 0 1 2 3 4		# 300% sdm increase in all circles...
+	end
+
+	base npc
+		code daemon
+	end
+end

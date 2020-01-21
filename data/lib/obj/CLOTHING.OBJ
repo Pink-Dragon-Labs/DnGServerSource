@@ -1,0 +1,37 @@
+#
+# clothing.obj: basic clothing objects
+#
+
+object Clothing
+	properties
+		name "Clothing"
+		basicName "clothing"
+		armor 10
+		health 40
+		endurance 5
+		strength 1
+		skill armorer
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base wearable
+		areaWorn 0
+		layer 0
+	end
+
+	base described
+		text "You see some clothing."
+	end
+end

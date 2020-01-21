@@ -1,0 +1,494 @@
+#
+# Swap-N-Shop items.
+# 
+#
+
+object SNSWeb1
+	properties
+		name "Web"
+		view 2790
+		value 15
+		enchantResistance 100
+		worthless
+	end
+
+	base described
+		text "You see a spider web."
+		shopText "If you want to make your home look dusty, this sure is a fine way to do it."
+	end
+
+	base carryable
+		restrict homeowner
+		weight .5
+		bulk .5
+	end
+end
+
+object SNSWeb2
+	properties
+		name "Web"
+		view 2791
+		value 17
+		enchantResistance 100
+		worthless
+	end
+
+	base described
+		text "You see a spider web."
+		shopText "If you want to make your home look dusty, this sure is a fine way to do it."
+	end
+
+	base carryable
+		restrict homeowner
+		weight .5
+		bulk .5
+	end
+end
+
+object SNSWeb3
+	properties
+		name "Web"
+		view 2792
+		value 20
+		enchantResistance 100
+		worthless
+	end
+
+	base described
+		text "You see a spider web."
+		shopText "If you want to make your home look dusty, this sure is a fine way to do it."
+	end
+
+	base carryable
+		restrict homeowner
+		weight .5
+		bulk .5
+	end
+end
+
+object SNSSkull
+	properties
+		name "Skull"
+		view 2901
+		value 29
+		enchantResistance 100
+		worthless
+	end
+
+	base described
+		text "You see a skull. Upon closer examination, you find two holes, likely eye sockets."
+		shopText "Don't worry about where it came from. It's just for decoration."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 1
+		bulk 1
+	end
+end
+
+object SNSAltar
+	properties
+		name "Altar"
+		view 62050
+		value 50
+		enchantResistance 100
+		worthless
+	end
+
+	base described
+		text "This is an altar."
+		shopText "This is a magnificent altar that would be perfect right outside your home."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 5
+		bulk 2
+	end
+end
+
+
+object SNSTorch
+	properties
+		view 61800
+		name "Torch"
+		value 85
+		enchantResistance 100
+		worthless
+	end
+
+	base cycler
+	end
+
+	base described
+		text "This is a torch."
+		shopText "A torch, to light the dark hallways in your home."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 3
+		bulk 2
+	end
+end
+
+object SNSFountain
+	properties
+		name "Fountain"
+		view 54750
+		value 150
+		enchantResistance 100
+		worthless
+	end
+
+	base cycler
+	end
+
+	base described
+		text "You see a water fountain, bubbling and gurgling like water fountains do."
+		shopText "A magnificent fountain that is sure to make your neighbors jealous."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 8
+		bulk 2
+	end
+end
+
+object SNSMushroom 
+	properties
+		view 61900
+		name "Mushroom"
+		value 170
+		loop 2
+		enchantResistance 100
+		worthless
+	end
+
+	base sit
+	end
+
+	base described
+		text "You see a large mushroom. In fact, it's so large that you could sit on it!"
+		shopText "You see a large mushroom. In fact, it's so large that you could sit on it!"
+	end
+
+	base carryable
+		restrict homeowner
+		weight 5
+		bulk 2
+	end
+end
+
+object SNSSittingRock
+	properties
+		name "Sitting Rock"
+		view 56200
+		value 190
+		enchantResistance 100
+		worthless
+	end
+
+	base sit
+	end
+
+	base described
+		text "You see a fine sitting rock."
+		shopText "This is a sitting rock, perfect for those lazy days spent in your yard."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 6
+		bulk 2
+	end
+end
+
+object SNSStool
+	properties
+		name "Stool"
+		view 62550
+		value 215
+		loop 2
+		enchantResistance 100
+		worthless
+	end
+
+	base sit
+	end
+
+	base described
+		text "It's a stool."
+		shopText "A lovely stool for a lovely home."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 2
+		bulk 2
+	end
+end
+
+object SNSChair
+	properties
+		name "Chair"
+		view 60500
+		value 245
+		loop 2
+		enchantResistance 100
+		worthless
+	end
+
+	base sit
+	end
+
+	base described
+		text "And now...  Love of Chair!"
+		shopText "A lovely chair for a lovely home."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 2
+		bulk 2		
+	end
+end
+
+object SNSStoneBench
+	properties
+		name "Stone Bench"
+		view 62100
+		value 280
+		loop 2
+		enchantResistance 100
+		worthless
+	end
+
+	base sit
+	end
+
+	base described
+		text "You see a stone bench."
+		shopText "A stone bench that you may place in your home."
+	end
+	
+	base carryable
+		restrict homeowner
+		weight 4
+		bulk 2
+	end
+end
+
+object SNSBasket
+	properties
+		name "Basket"
+		view 55700
+		value 325
+		enchantResistance 100
+		worthless
+	end
+
+	base container
+		weightCapacity 50.0
+		bulkCapacity 50.0
+	end
+
+	base openable
+		isOpen 0
+	end
+
+	base described
+		text "This is a basket. Please note that you cannot lock this object."
+		shopText "A basket that you can use to store things in. Please note that you cannot lock this object, but you should buy it anyway!"
+	end
+
+	base carryable
+		restrict homeowner
+		weight 3
+		bulk 2
+	end
+end
+
+object SNSDresser
+	properties
+		name "Dresser"
+		view 55800
+		value 395
+		enchantResistance 100
+		worthless
+	end
+
+	base container
+		weightCapacity 125.0
+		bulkCapacity 50.0
+	end
+
+	base openable
+		isOpen 0
+	end
+
+	base described
+		text "This is a dresser. Please note that you cannot lock this object."
+		shopText "A dresser for your clothing and other belongings. It cannot be locked, but that shouldn't stop you from buying one, or two."
+	end
+
+	base carryable
+		restrict homeowner
+		weight 7
+		bulk 4
+	end
+end
+
+object SNSStorage
+	properties 
+		name "Storage Box"
+		view 55100
+		value 462
+		enchantResistance 100
+		worthless
+	end
+
+	base openable
+		isOpen 0
+	end
+
+	base described
+		text "You see a storage box. Please note that you cannot lock this object."
+		shopText "A big strongbox to stash even more good stuff! Naturally, it cannot be locked, but don't let that get you down."
+	end
+
+	base container
+		weightCapacity 200.0
+		bulkCapacity 100.0
+	end
+
+	base carryable
+		restrict homeowner
+		weight 7
+		bulk 4
+	end
+end
+
+object SNSCloset
+	properties 
+		name "Closet"
+		view 55600
+		value 512
+		enchantResistance 100
+		worthless
+	end
+
+	base openable
+		isOpen 0
+	end
+
+	base described
+		text "You see a closet for storing items. Please note that you cannot lock this object."
+		shopText "You see a closet for storing items. It can't be locked, but judging from your looks, I don't think many will want to break in."
+		
+	end
+
+	base container
+		weightCapacity 250.0
+		bulkCapacity 250.0
+	end
+
+	base carryable
+		restrict homeowner
+		weight 7
+		bulk 4
+	end
+end
+
+object SNSBigStrongBox
+	properties 
+		name "Strong Box"
+		view 55500
+		value 1021
+		enchantResistance 100
+		worthless
+	end
+
+	base openable
+		isOpen 0
+	end
+
+	base described
+		text "You see a Strong Box. Please note that you cannot lock this object."
+		shopText "A great strongbox to stash even more valuables! Who cares if you can't lock it, you know you need a few of these!"
+	end
+
+	base container
+		weightCapacity 1250.0
+		bulkCapacity 500.0
+	end
+
+	base carryable
+		restrict homeowner
+		weight 10
+		bulk 4
+	end
+end
+
+
+
+#--------------------------------------------
+
+object CopperShop of Shop
+    properties
+	    name "Eldrin"
+		x 566
+		y 202
+		loop 2
+    end
+    
+    base described
+		text "You see Eldrin, shopkeeper of the Swap-N-Shop."
+    end
+
+    base talk
+	    talkTreeID	6041
+    end
+    
+    base character
+		properName	"Eldrin (NPC)"
+		title	"the Shopkeeper"
+		sex	0
+    end
+    
+    base container
+		worn	WhiteBaldric
+		worn	BlackTunic
+		worn	BluePants
+		head	0 2 6 2 6 4 5 1 3 6 3 1 
+    end
+
+	base shop
+		currency copper
+
+		buyMarkup  0
+		sellMarkup 100
+
+		inventory
+			object SNSWeb1
+			object SNSWeb2
+			object SNSWeb3
+			object SNSSkull
+			object SNSAltar
+			object SNSTorch
+			object SNSFountain
+			object SNSMushroom
+			object SNSSittingRock
+			object SNSStool
+			object SNSChair
+			object SNSStoneBench
+			object SNSBasket
+			object SNSDresser
+			object SNSStorage
+			object SNSCloset
+			object SNSBigStrongBox
+		end
+	end
+end

@@ -1,0 +1,58 @@
+#
+# required.obj: required object classifications
+#
+
+object Player
+	base player
+	end
+end
+
+object CombatCloud
+	properties
+		view 8037
+		name "Combat Cloud"
+		action 0
+		makePolygon 0
+	end
+
+	base described
+		text "You see a combat cloud.  People are fighting in there."
+	end
+
+	base cycler
+	end
+end
+
+object MoneyBag
+	properties
+		view 50500
+		name "Coin Purse"
+	end
+
+	base described
+		text "You see a coin purse."
+	end
+
+	base carryable
+		bulk  0 
+		weight 0 
+	end
+end
+
+object ManaBag
+	properties
+		view 50600
+		name "Mana Crystals"
+		value 5
+	end
+
+	base described
+		text "You see a mana crystal purse."
+		shopText "These are mana crystals.  A necessity of any mage.  We allow you to buy these in bulk."
+	end
+
+	base carryable
+		bulk  0 
+		weight 0 
+	end
+end

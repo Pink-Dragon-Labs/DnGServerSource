@@ -1,0 +1,56 @@
+id 8111
+
+banner "Greetings, Friend. Welcome to Mabon's Magic Shop. May I help you?"
+
+topic "Tell me about Usk."
+        text "Usk is a place of magic, if you know where to look."
+	text "Of course, if you honor Mabon as I do, he tells you where to find the magic."
+end
+
+topic	"Who are you?"
+	text  "Loyaro is my name.  I'm skilled in the magic of the Realm.  Practice makes perfect is a familiar saying, but in the learning of magic skill it should be a motto."
+	text  "I've trained many a magician, and the best are always those who take their craft seriously and who practice.  I can't say it enough--practice!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard some say that the aurora incantata will cast enough magic upon those standing under it that they don’t need my spells."
+	text "They are wrong. One needs a potion which will channel the magic."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, Friend. Not today, but perhaps another time."
+end
+
+topic  "I want to learn spells."
+	banner  "If sorcery skills interest you, I can teach you. The beginning level is, of course, the Familiar skills." 
+
+	topic  "I am interested in Sorcery Familiar skills."  s11:0  
+		quest 306 #8111-01-100
+		text  "Now you know you have the book.  You've got to study it."
+	end
+
+	topic  "I am interested in Sorcery Proficient skills."  s11:1  
+		quest 309 #8111-01-200
+		text  "You have the skill book, you just haven't studied it."
+	end
+
+	topic  "I am interested in Sorcery Expert skills."  s11:2  
+		quest 312 #8111-01-300
+		text  "I'm disappointed in you.  You've got to study the book you already have."
+	end
+ 
+	topic  "I am interested in Sorcery Master skills."  s11:3  
+		quest 316 #8111-01-400
+		text  "This is annoying. You have the skill book.  What you've got to do now is study it!"
+	end
+
+	topic  "I am interested in Sorcery Grand-Master skills."  s11:4  
+		quest 320 #8111-01-500
+		text  "Don't come to me with that tale.  I know you already have the skill book.  Go away and study it!"
+	end
+
+	topic  "What else can you teach me?"  s11:5
+		text  "My own expertise is Sorcery.  If you're interested in Meditation spells, go talk to Gracia in Drune.  Come to think of it, I believe they call her Wanda there."
+		text  "You'd be smart to finish your sorcery training."
+	end
+end

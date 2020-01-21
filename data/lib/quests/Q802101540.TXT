@@ -1,0 +1,15 @@
+quest  304 #8021-01-540        #Andrea, Leinster Limited, West Leinster, 6019
+
+name  "A Lost Scarf"
+type  fedex
+
+proposal  "Oh, yes. I have his scarf right here.  I don't want to go out on the streets myself to deliver it.  Ever since the smiting I've not wanted to go anywhere except straight home, and even that makes me jumpy.  I don't know if I'll ever get over it, and some say it was just the beginning, that another smiting could happen. I don't want to think of it. But I'd be mighty relieved if you would take Skon's scarf back to him. You will deliver it to him?"
+
+declined  "Then I'll hang on to it."
+
+accepted  "I'm glad.  Be careful out on the streets."  
+
+reminder   "Aren't you going to take that scarf back to Skon?"
+
+reward   qSkonScarf 
+end

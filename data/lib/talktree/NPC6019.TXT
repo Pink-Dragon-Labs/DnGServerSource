@@ -1,0 +1,35 @@
+id 6019
+
+banner "Good day. Welcome to Leinster Limited. Might I help you find something?"
+
+topic "Tell me about Leinster."
+        text "West Leinster is certainly better than East Leinster which is full of riff raff."
+	text "Even at that, we're not safe on the streets here in West Leinster.  I don't even feel safe at home these days.  And the sounds in the night you wouldn't believe!"
+	text  "I'm that nervous since the smiting I can't tell you."
+	text  "Would you believe it?  A customer came in and spoke to me the other day and I near jumped out of my skin, not having heard him come in."	 
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that Duach has additional plans for Leinster, and that Despothes is hard pressed to prevent his wrath."
+	text "Ohhhh, I wish this whole smiting had never happened.  I wish it would all go away."
+end      
+
+topic "Can I do anything for you?"
+        text "Not unless you know how to avert Duach's vengeance."
+end
+
+topic  "Skon sent me." q303:0 #q8021-01-535:0
+	quest 304 #8021-01-540
+	text  "You've already been here for Skon's scarf."
+end
+
+topic  "I'm looking for Bidosk's order of thread." q81000-01-430:0
+	quest 81000-01-435
+	text  "You took it."
+end
+
+topic  "I'm looking for the boots missing from Liuja's order." q173:0 #q6504-01-430:0
+	quest 174 #6504-01-435
+	text  "You have them.  I've got enough worries without your jokes."
+end
+

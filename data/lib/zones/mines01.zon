@@ -1,0 +1,9 @@
+name "mines01"
+title "Mine Sharona"
+worldFile "../data/lib/world/mine01.wld"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 29
+groupChance 30
+monster Miner 10

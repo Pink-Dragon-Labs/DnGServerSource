@@ -1,0 +1,65 @@
+#
+# NPC declarations
+#
+
+object BaseDingo of NPC
+	properties
+		name "Dingo"
+		view 40300
+
+		color		104
+		alignment 128
+
+		minLevel 200
+		maxLevel 300
+
+		minDamage 500
+		maxDamage 1000
+
+		dexterity 50
+		endurance 50
+		intelligence 4
+
+		# do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 15
+		armorType 1
+		damageType 0
+		range 2
+		quickness 30
+	end
+
+	base character
+		# unarmed combat expert
+		skill 7 5
+
+		# acrobatics expert
+		skill 9 5
+	end
+
+	base described
+		text "You see a potentially deadly Dingo."
+	end
+end
+
+object DingoPup of BaseDingo
+	properties
+		name "Dingo Puppy"
+
+		minLevel 1
+		maxLevel 1
+
+		height	50
+		girth	50
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 0 1 2 3 4
+	end
+
+	base described
+		text "You see a cute cuddly little dingo puppy."
+	end
+end
+

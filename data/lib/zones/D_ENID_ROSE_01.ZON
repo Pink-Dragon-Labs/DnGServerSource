@@ -1,0 +1,35 @@
+name "D_Enid_Rose"
+title "Test of the Soul"
+worldFile "../data/lib/world/D_ENID_ROSE_01.WLD"
+allowCombat 2
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance hollowTree3337-0
+noAlignmentChange
+noTreasureDrop
+ambushInterval 180
+ambush 100 Faery
+ambush 100 Faery Faery
+ambush 100 Faery Faery Faery
+ambush 100 Faery Faery Faery Faery
+ambush 100 Faery Faery Faery Faery Faery
+ambush 100 FaeryQueen Faery
+ambush 100 FaeryQueen Faery Faery
+ambush 100 FaeryQueen Faery Faery Faery
+ambush 100 FaeryQueen Faery Faery Faery Faery
+ambush 100 FaeryQueen WoodNymph
+ambush 100 FaeryQueen WoodNymph WoodNymph
+ambush 100 FaeryQueen WoodNymph WoodNymph WoodNymph
+ambush 100 FaeryQueen WoodNymph WoodNymph WoodNymph WoodNymph
+ambush 100 FaeryQueen FaeryQueen FaeryQueen FaeryQueen
+ambush 50 SeraphThaumaturgist 
+ambush 50 Priestess SeraphWarrior
+ambush 50 SeraphThaumaturgist SeraphWarrior
+ambush 50 SeraphThaumaturgist SeraphWarrior SeraphWarrior
+ambush 50 SeraphThaumaturgist SeraphWarrior SeraphWarrior SeraphWarrior
+ambush 50 SeraphThaumaturgist SeraphThaumaturgist SeraphThaumaturgist SeraphThaumaturgist
+ambush 20 Priestess
+ambush 20 Priestess Priestess
+ambush 20 Priestess Priestess Priestess
+ambush 10 LightWiz

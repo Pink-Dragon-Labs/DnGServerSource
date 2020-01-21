@@ -1,0 +1,19 @@
+quest  144 #6403-01-225        #Stench, Caer Fandry Curses, magic, 6608
+
+name  "Stench's Tools"
+type  fedex
+
+proposal  "Yes, and I'm looking for the pot of gold under the gum tree.  Who are you to come walking in here, asking for the Amulet of Nemat?  They called him The Magnificent! Drivel!  Magnificent liar he was, if you ask me.  Don't see why an amulet with his big nose carved on it would be worth much.  But if you really want it, I'll get it for you.  First however, you've got to do what I ask, which is an errand to Drune.  What'll it be?"
+
+declined  "Saves me some work getting the amulet."
+
+accepted  "This is what you'll do.  Go to the Nosh Shop, which is what that crazy elf Fenemi named his place.  Tell him that Stench wants the tools he borrowed.  And I want them yesterday!"
+
+reminder   "Go to Fenemi in Drune and get my tools!"
+
+completed  "I thought you got lost!  Here's the amulet you wanted."
+
+getItem   qStenchTools
+reward   qAmuletNemat
+end
+

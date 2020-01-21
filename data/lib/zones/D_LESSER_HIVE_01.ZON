@@ -1,0 +1,9 @@
+name "D_Lesser_Hive"
+title "Lesser Hive"
+worldFile "../data/lib/world/D_LESSER_HIVE_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance hollowTree1008-0

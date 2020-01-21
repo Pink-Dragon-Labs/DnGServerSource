@@ -1,0 +1,32 @@
+id 8014
+
+banner "Welcome to Remedies and Cures, Friend. What would you like?"
+
+topic "Tell me about Kurz."
+        text "Kurz? Kurz is a town of cutthroats and thieves, ready to harm anyone at the slightest provocation."
+	text "Aaah, business has never been better."
+	text  "Although if I had a family, I don't know that I'd want to stay in Kurz."
+	text  "I like to invent new potions, and I get plenty of chance to try 'em out, what with all the injuries that crop up here."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that the best weapons shop in town is Spiked Glove. The forger, Corea, is a giant, and everyone knows they make the best weapons."
+	text  "Kind of odd to have a giant running a business here in town, but one gets used to it."
+	text  "Corea's a nice guy, actually.  I've never known a giant very well before."
+end      
+
+topic "Can I do anything for you?"
+        text "I don't think so, Friend. At least, not today."
+end
+
+topic  "I'm looking for Wirkkala's special remedy. " q103:0 #q6308-01-200:0
+	quest 104 #6308-01-225
+	text  "I gave it to you."
+end
+
+topic  "Lireen wants to try the new pain potion." q20:0 #q6043-01-435:0
+	quest 21 #6043-01-440
+	text  "I gave you a big supply for her."
+end
+
+

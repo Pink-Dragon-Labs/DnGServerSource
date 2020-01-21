@@ -1,0 +1,19 @@
+quest 321 #8111-01-525  # (Miriam, Healer in West Leinster, 6018)
+
+name  "Burn Ointment"
+type  fedex
+
+proposal  "Welcome, Friend.  I perceive you are a Master Sorcerer.  You have been on many quests to gain your skills.  And now you are on your last quest, am I not right?  I do not know if you are here after many weary queries or whether by some art you have come directly to me, but I have the item you need, the Mystical Black Diamond. In exchange, I would ask one boon. Our poor Leinster is still burning, and I have need for more ointment to treat the burns of our people.  Pasco, the healer in Silverbrook, has a supply for me.  A trustworthy courier is needed.  Will you do this service?"
+
+declined  "Return if you reconsider."
+
+accepted  "First you must go to Pindar in Asgard and pick up a supply of special cheese for Pasco."  
+
+reminder  "Did you forget his name?  Pindar in Asgard.  Get the cheese for Pasco. Please hasten so you may return with the healing balms."
+
+completed  "Bless you, dear Friend, for these sorely needed balms.  Take the Mystical Black Diamond with my thanks."
+
+getItem  qBurnOintment
+reward  qBlackDiamond
+end
+

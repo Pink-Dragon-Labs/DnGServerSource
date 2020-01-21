@@ -1,0 +1,9 @@
+name "D_Church_01"
+title "Church of Damnation"
+worldFile "../data/lib/world/D_CHURCH_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock4636-0

@@ -1,0 +1,19 @@
+quest  280 #8010-01-535        # Kaliri, Anything and Everything, Arimathor, 6801
+
+name  "Cinnamon Oil for Kaliri"
+type  fedex
+
+proposal  "Mercy sakes, dearie, do you have the second sight, I wonder?  I was just looking at my desert rocks and noticed exactly that on one of them.  The fossil of a sea snail, plain as the nose on your face.  The desert around here used to be part of the sea in ancient time, so they say.  Covered completely over with water!   I'm sure I don't know, but it's hard to account for all the sea critter remains that we find otherwise.  Tell you what, dearie, I'm needing a really special errand.  Would you be willing to journey to Asgard for me in exchange for this fossil?  These old bones just don't want to be making a trip like that.  Would you go?"
+
+declined  "That's all right, dearie.  I'll find somebody."
+
+accepted  "I'm fond of the scent of cinnamon oil, and there's a shop in Asgard that carries a supply."
+
+reminder   "You were going to go to Asgard for me and find some cinnamon oil."
+
+completed  "Thank'ee, dearie.  I do like the scent of this.  I've packed your fossil carefully."
+
+getItem   qCinnamonOil
+reward   qSeaSnail 
+end
+

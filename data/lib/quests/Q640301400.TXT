@@ -1,0 +1,18 @@
+quest  151 #6403-01-400        #Wonduri, Silverbrook Charms, Silverbrook, 6403
+
+name  "Amulet of Romen the Marvelous"
+type  fedex
+
+proposal  "You wish to study master skills of Theurgism.  You are indeed among the fortunate.  These skills you are working to acquire are the most worthy of all.  That is my own opinion, which many value. It is my pleasure to accept you as apprentice in this. Your next quest will be for the Amulet of Romen the Marvelous, called thus because of his wonderful inventions."
+
+declined  "You should reconsider."
+
+accepted  "Very well, please begin your quest in Leinster."
+
+reminder   "Seek in Leinster for the Amulet of Romen the Marvelous."
+
+completed  "Well done.  Well done.  The spellbook for master skills is now yours."
+
+getItem   qAmuletRomen
+reward   skbTheurgismIV 
+end

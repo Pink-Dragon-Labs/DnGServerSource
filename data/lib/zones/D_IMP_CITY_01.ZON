@@ -1,0 +1,9 @@
+name "D_Imp_City"
+title "Imp City"
+worldFile "../data/lib/world/D_IMP_CITY_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 21
+isDungeon 1
+groupChance 20
+entrance hollowTree2100-0

@@ -1,0 +1,37 @@
+id 6046
+
+banner "Greetings, Friend. Welcome to Good Grub Grocers. I am Astrid. May I help you?"
+
+topic "Tell me about Leinster."
+        text "I don't know much about Leinster. I've only recently arrived from Asgard, my town of origin."
+	text "I wasn't even here when the gods divided the town into east and west."
+	text  "It's one thing to hear about it in another part of the Realm, and another thing entirely to see it."
+	text  "I couldn't believe my eyes when I first saw all the burned buildings."
+	text  "And the rats!! Ugh.  I dislike rats.  Immensely!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that there is a town in The Realm that worships the moon as their primary god."
+	text "I've heard that they make sacrifices to the moon. Human, giant, elven ... they aren't choosy."
+	text "I wonder if that's really true?"
+end      
+
+topic "Can I do anything for you?"
+        text "If you go to Asgard, be sure to say hello to everyone."
+end
+
+topic  "I'm looking for vegetable leftovers." q293:0 #q8021-01-335:0
+	quest 294 #8021-01-340
+	text  "I gave you the whole supply."
+end
+
+topic  "I'm hoping to find some salldii sweatmeats." q404:0 #q8100-01-530:0
+	quest 405 #8100-01-535
+	text  "Don't be silly.  You took them."
+end
+
+topic  "I'm here for Andrea's lunch." q174:0 #q6504-01-435:0
+	quest 175 #6504-01-440
+	text  "You did decide to take it, you know."
+end
+

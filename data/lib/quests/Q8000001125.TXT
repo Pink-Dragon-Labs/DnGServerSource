@@ -1,0 +1,14 @@
+quest  347 #80000-01-125        # Muir, Dirty Dagger tavern, Kurz, 8013
+
+name  "Muir Makes a Deal"
+type  fedex
+
+proposal  "A magic rock of Kurz?  So you come to my tavern.  What makes you think there is a magic rock of Kurz?  What makes you think it's in my tavern?  What makes you think you can walk in here and carry off a magic rock?  No answers, huh.  Thought not.  I should just throw you out.  Ha.  Well, you've got guts, stranger.  I like that.  Some people just run right out when I start in on them.  Funny sight.  But you didn't so I'll tell you what I'm going to do.  I'm going to give you this rock.  No guarantees understand.  I don't know that it's anything but a rock.  I was told it was more, but I'm not ready to believe that.  Great Mabon, if I believed that, I'd keep the danged rock.  But I'm going to give it to you.  What do you say about that, stranger?  Do you want this rock?"
+
+declined  "Probably not worth the bother."
+
+accepted  "Then take it.  But don't tell anybody where you got it."
+
+reward   qMagicRock 
+end
+

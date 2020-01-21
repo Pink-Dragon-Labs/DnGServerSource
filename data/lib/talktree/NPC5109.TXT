@@ -1,0 +1,34 @@
+id 5109
+
+banner "Greetings, Friend. I am Devo. How may I help you?"
+
+topic "Tell me about Wen."
+        text "Wen is a mainly human town. I guess it's on the small side. I've been told we're pretty backwoods."
+	text "Most folk living here like the rural setting."
+	text "Now and then someone comes through who didn't even know Wen was here!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard of a town called Asgard where almost everyone is a courageous fighter."
+	text "One day I hope to travel, and meet the fighters of Asgard."
+end      
+
+topic "Can I do anything for you?"
+	text "Not today, but I may have something soon."
+end
+
+topic  "Marti sent me to get her lunch." q253:0 #q6902-01-430:0
+	quest 254 #6902-01-435
+	text  "I already gave you her lunch."
+end
+
+topic  "I'm looking for Wirkkala's Orc Amulet. " q100:0 #q6308-01-100:0
+	quest 101 #6308-01-125
+	text  "You got it, friend.  Just take it back."
+end
+
+topic  "Do you have Legotia's snack?" q358:0 #q80000-01-435:0
+	quest 359 #80000-01-440
+	text  "What did you do, eat it youself?"
+end
+

@@ -1,0 +1,16 @@
+quest  255 #6902-01-440   #(Marti, Dragontooth Clothing, Wen, 6112)
+
+name  "Devo's Book"
+type  fedex
+
+proposal  "His book!  He wouldn't send my lunch without it, I suppose.  Probably hasn't even started my lunch yet.  Sheesh.  I'll get his book if you'll take it to him."
+
+declined  "Now how will I get my lunch?"
+
+accepted  "Hurry.  I'm going to starve if I don't get my lunch soon."
+
+reminder   "Take that book to Devo and bring me my lunch."
+
+reward   qDevoBook
+end
+

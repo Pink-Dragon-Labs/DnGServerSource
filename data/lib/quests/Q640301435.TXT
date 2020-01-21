@@ -1,0 +1,19 @@
+quest  154 #6403-01-435        # Daria, Fashion Delights, Usk, 8101
+
+name  "Daria's New Belt"
+type  fedex
+
+proposal  "You're going to Arimathor!  How I envy you.  I wish I were out traveling around instead of working in a shop all day.  I haven't been able to go anywhere for ages.  I need to get to Drune to pick up my . . .  Oh.  You could do it for me, couldn't you?  You could go to Drune and bring back my new belt.  Would you, while I get Alysa's wool together?"
+
+declined  "Oh fiddle.  I do so want that belt."
+
+accepted  "Hooray.  Manonor has the dreamiest new belts, and is holding one for me."
+
+reminder   "Manonor in Drune has a new belt for me."
+
+completed  "Dreamy isn't the word for this belt.  It's gorgeous!  Here's the wool for Alysa.  Tell her hello for me."
+
+getItem   qDariaBelt
+reward   qWoolSkein 
+end
+

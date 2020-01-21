@@ -1,0 +1,19 @@
+quest 344 #8307-01-540        # Liuja, The Emperor's Clothes, Murias, 6202
+
+name  "A Token of Enid"
+type  fedex
+
+proposal  "A living cotton plant? I did hear you right?  I'll say this for you, that's a first.  Come to think of it though, I might be able to help you at that.  My brother grows cotton and I could get a small plant from him.  He'd know how to pack it carefully.  Tell you what.  You do a favor for me and I'll do this one for you.  What do you say?"
+
+declined  "Carry on, then."
+
+accepted  "What I want is a small token of Enid.  A friend of mine got one in Wen, and I've longed for one since." 
+
+reminder   "Bring me a token of Enid from Wen.
+
+completed  "Oh thank you, thank you.  My brother packed a small cotton plant very carefully for you."
+
+getItem   qEnidToken
+reward   qCottonPlant 
+end
+

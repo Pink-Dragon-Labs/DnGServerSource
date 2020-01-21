@@ -1,0 +1,18 @@
+quest 11 #6013-01
+	name "Getting Crow's Diary"
+	type fedex
+
+	proposal "Now that you mention it, I could use some assistance.  You see, my diary is in a chest down in the cellar and I need to get it.  I would get it myself, but there are just oodles of rats down there.  I just can't stand the sight of rats... I'm petrified, you know.  Could you go down there and get my diary for me?  You can have everything else in that chest down there and I'll give you a free drink when you get back.  Sorry, that's all I can afford.  What do you say?"
+
+	accepted "Great!  I'm so glad that you can help me out.  Just go down that trap door over there, you can't miss the chest!"
+
+	declined "I understand...  It's a task that's probably too difficult for someone like you.  Thanks anyway."
+
+	reminder "Did you get my diary yet?"
+
+	completed "Thank you very much!  You don't know how much this means to me.  Here, have this drink on the house along with my thanks!"
+
+	getItem Dng8Book
+	reward Ambrosia
+end 
+

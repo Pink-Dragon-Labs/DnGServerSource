@@ -1,0 +1,69 @@
+id 5200
+
+banner "I am the gatekeeper of the homes of Murias. What is it you wish?"
+
+topic "Tell me about Murias."
+        text "Murias? Oh, it's the finest town in The Realm by far. Have you attended any of our feis?"
+	text "They're really wonderful.  We have food, music, dancing, and then more food.  Always more food."
+	text "Anyone can participate.  Many vendors set up booths, so it's a good idea to bring gold coins."
+	text "Unfortunately, we don't have one scheduled just now."  
+end
+
+topic  "Who are you?"
+	text "I'm Malina.  Gatekeeper is a sort of family tradition here in Murias.  My mother and mother's mother served here before me."
+	text "I understand other towns in the Realm don't do it that way."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I'm terribly sorry, but gatekeepers are not allowed to indulge in idle gossip. Is that all?"
+end      
+
+topic  "I need help finding shops."
+	banner  "I'll provide directions.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "The Emperor's Clothes is right two."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is right two, down one.  Tasty Morsels is down three, right one."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Mystic Magic is down two, right two. Goddess Dreams is down one."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Murias Armorers is down two, right one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Frick's General Store is down one, right one."
+	end
+
+	topic  "Do you have a chapel?"
+		text "No, we don't. Sorry. Go to Wen or Asgard."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Hard Knocks, a warrior's academy, is down two, right three."
+	end
+
+	topic  "Where can I find a healer?"
+		text "What Ails You is down three, right two."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "Thresher's Roost is down two.  The Bend Sinister is right three."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Type in the individual's name. Heavens, haven't you ever gone to anyone's house before?"
+end
+
+topic  "Jolie sent me for her wrapping paper." q196:0 #q6610-01-525:0
+	quest 197 #6610-01-530
+	text  "I gave it to you."
+end
+

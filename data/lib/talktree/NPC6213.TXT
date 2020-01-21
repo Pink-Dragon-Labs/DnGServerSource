@@ -1,0 +1,18 @@
+id #6213
+
+banner "Is there anything I can help you find?  I am called Arthur."
+
+topic "Tell me about Murias."
+        text "This is a town that enjoys its festivals.  Almost anything is considered a good reason, or perhaps an excuse, for a fete."
+	text "I'm interested in the historical beginnings of Murias, myself.  I have only begun my reserach, though, so I don't know much yet."
+	text "Currently I'm attempting to discover if the story of a tramp called Muriaset naming the town after himself is true.  Some swear it is, but I've found no documentation."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard a seer predict our moon will explode into small fragments.  This event is said to be far, far, far into the future so it's not an immediate worry."
+        text "The same seer also says that there are friendly lifeforms on some of the stars in the heavens.  I like the idea, myself."
+end      
+
+topic "Can I do anything for you?"
+        text "Just be sure to read and study."
+end

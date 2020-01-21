@@ -1,0 +1,41 @@
+id 6212
+
+banner "Welcome to Mystic Magic. I am Jolie. What would you like?"
+
+topic "Tell me about Murias."
+	text "Oh my.  Now let me see.  What would interest you?  We're a farming community here, but I don't know if that's really interesting."
+	text "I could tell you about Mystic Magic.  I've been running this shop for years.  There's another magic shop in town, but mine is the oldest."
+	text  "Now I come to think of it, you might be interested in our grain bread.  It's famous all over the Realm.  Talk to Mok or Setta."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "I've heard there are rats running wild in Leinster since the gods fought there."
+   text "I wouldn't like to have rats all over the streets!"
+	text "I hope we don't have a smiting here. I don't know why the gods in Leinster were so mad. Mabon is a better god to have.  He doesn't lose his temper."
+	text "At least I don't think he does. Oh dear."
+end      
+
+topic "Can I do anything for you?"
+   text "Tell your friends about my shop."
+end
+
+topic  "Have you heard of a Seraph Scroll Fragment?" q256:0 #q6902-01-500:0
+	quest 257 #6902-01-525
+	text  "Don't say that name out loud.  It's in that package I gave you.  Take it away from here.  Oh dear."
+end
+
+topic  "I need an Orc Amulet." q195:0 #q6610-01-500:0
+	quest 196 #6610-01-525
+	text  "Go away. You have it.  Just go away."
+end
+
+topic  "I'm trying to find a bottle shaped like a boot." q201:0 #q6807-01-425:0
+	quest  202 #6807-01-430
+	text  "Now traveller, you know I gave it to you already."
+end
+
+topic  "Kaliri sent me to get the package." q208:0 #q6807-01-540:0
+	quest  209 #6807-01-545
+	text  "Don't try to scare me like that.  I gave it to you."
+end
+

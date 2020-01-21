@@ -1,0 +1,17 @@
+quest 14 #100
+	name "Kolanar's Ancient Amulet" 
+	type fedex
+
+	proposal "Actually, I think that I can do something for you.  In the town of Kurz lives a man by the name of Garon.  Garon has been adventuring in The Realm since long before your time here and knows a great many things about this land.  Go to him and befriend him.  If you can prove your loyalty to Garon, I will give you an ancient artifact of great power.  You can find Garon in the Dirty Dagger tavern on the west side of Kurz.  What do you say?"
+
+	accepted "I'm glad that you have accepted this little challenge.  Remember, the name is Garon.  You should be able to find him in the Dirty Dagger tavern on the west side of Kurz.  Hurry along now, he'll be expecting you."
+
+	declined "I see.  Well, maybe later then."
+
+	reminder "Are you having problems finding Garon?  Remember, he's in the Dirty Dagger tavern on the west side of Kurz."
+
+	completed "I am impressed!  You must have gone through quite an ordeal to prove your loyalty to Garon.  Here is the ancient amulet that I promised.  When worn, this amulet will help protect you against magical cold.  Use it in good health!"
+
+	getItem GaronScroll
+	reward CRAmulet
+end

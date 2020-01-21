@@ -1,0 +1,18 @@
+quest  87 #6205-01-530        #Litula, Litula's sundries, elf of Silverbrook, 6410
+
+name  "Xangrifthe"
+type  fedex
+
+proposal  "In that case, you must go to Meego.  Will you do this?"
+
+declined  "Then you'd best go."
+
+accepted  "Say this, and only this, to him.  Xangrifthe."
+
+reminder   "The word to say to Meego is Xangrifthe."
+
+completed  "You are back.  Good.  Give me a moment.  Now, take this envelope to Holiph."
+
+getItem   qMeegoEnvelope
+reward   qHoliphEnvelope 
+end

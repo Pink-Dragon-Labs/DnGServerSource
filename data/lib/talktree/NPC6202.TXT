@@ -1,0 +1,39 @@
+id 6202
+
+banner "Greetings, Friend. Welcome to The Emperor's Clothes. May I help you?"
+
+topic "Tell me about Murias."
+        text "So you're curious about our town, eh? Murias is a farming community where just about anything will grow."
+	text "In fact, the cotton grown in this area makes beautiful fabrics. Would you care to purchase anything?"
+end
+
+topic  "Who are you?"
+	text "My name is Liuja, but my friends call me Lee.  I own this shop."
+	text "I've got a twin brother who farms and another brother who travels about the Realm.  No sisters, though."
+	text "We're all three good friends.  I don't really understand brother and sisters who bicker with each other all the time.  Seems such a waste." 
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that somewhere close by Murias, there are castle ruins haunted by the ghost of a woman murdered long ago in this very valley!"
+        text "It's said she's Lady Murias, killed long ago by a townswoman named Lotta."
+end      
+
+topic "Can I do anything for you?"
+        text "Thank you kindly, but not today. Check with me another time, though."
+end
+
+topic  "I need to find a cotton plant, a living one." q343:0 #q8307-01-535:0
+	quest 344 #8307-01-540
+	text  "You've got one already."
+end
+
+topic  "I'm looking for the Talisman of Arnold the Swift." q210:0 #q6817-01-400:0
+	quest 211 #6817-01-425
+	text  "You have it, friend."
+end
+
+topic  "I'm looking for Manonor's order of boots." q172:0 #q6504-01-425:0
+	quest 173 #6504-01-430
+	text  "You came for them.  Don't joke about such a serious matter."
+end
+

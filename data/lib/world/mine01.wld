@@ -1,0 +1,1327 @@
+room 14028
+   properties
+      picture	3071
+      north	14024 
+      west	14022 
+   end
+   atpinfo
+      171  274 317
+   end
+   objects
+      object mineDropper-14028-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+
+      object fatColumn30-0 of FatColumn
+         properties
+            x	313
+            y	126
+            loop	0
+         end
+      end
+      object fatColumn30-1 of FatColumn
+         properties
+            x	578
+            y	223
+            loop	0
+         end
+      end
+      object stalagmite130-2 of Stalagmite1
+         properties
+            x	629
+            y	329
+            loop	0
+         end
+      end
+      object rock130-3 of Rock1
+         properties
+            x	208
+            y	328
+            loop	0
+         end
+      end
+      object column30-4 of Column
+         properties
+            x	35
+            y	183
+            loop	0
+         end
+      end
+      object greenCrystalA30-5 of GreenCrystalA
+         properties
+            x	84
+            y	190
+            loop	0
+         end
+         base described
+			text "Look at the pretty green crystals.  No, I don't think they'd be a comfortable seat, but thanks for offering!"
+		 end
+      end
+      object shroom630-6 of Shroom6
+         properties
+            x	506
+            y	224
+            loop	0
+         end
+         
+         base described
+			text "You see a yellow mushroom.  Maybe it has a fungus."
+         end
+
+      end
+      object cellFloorA30-7 of CellFloorA
+         properties
+            x	281
+            y	76
+            loop	0
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object cellFloorA30-8 of CellFloorA
+         properties
+            x	345
+            y	75
+            loop	1
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object rock330-9 of Rock3
+         properties
+            x	14
+            y	321
+            loop	0
+         end
+      end
+      object rock130-10 of Rock1
+         properties
+            x	340
+            y	316
+            loop	0
+         end
+      end
+      object stalagmite330-11 of Stalagmite3
+         properties
+            x	494
+            y	325
+            loop	0
+         end
+      end
+      object greenWaterA30-12 of GreenWaterA
+         properties
+            x	103
+            y	309
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object greenWaterA30-13 of GreenWaterA
+         properties
+            x	316
+            y	313
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+   end
+end
+room 14022
+   properties
+      picture	3071
+      north	14020 
+      east	14028 
+      west	14027 
+   end
+   atpinfo
+      171  290 319
+      7907  468 316
+   end
+   objects
+      object mineDropper-14022-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+
+      object fatColumn33-0 of FatColumn
+         properties
+            x	154
+            y	243
+            loop	0
+         end
+      end
+      object stalagmite133-1 of Stalagmite1
+         properties
+            x	540
+            y	184
+            loop	0
+         end
+      end
+      object stalagmite233-2 of Stalagmite2
+         properties
+            x	227
+            y	315
+            loop	0
+         end
+      end
+      object stalagmite333-3 of Stalagmite3
+         properties
+            x	167
+            y	330
+            loop	0
+         end
+      end
+      object stalagmite433-4 of Stalagmite4
+         properties
+            x	9
+            y	330
+            loop	0
+         end
+      end
+      object rock133-5 of Rock1
+         properties
+            x	21
+            y	305
+            loop	0
+         end
+      end
+      object rock233-6 of Rock2
+         properties
+            x	365
+            y	316
+            loop	0
+         end
+      end
+      object rock333-7 of Rock3
+         properties
+            x	469
+            y	320
+            loop	0
+         end
+      end
+      object rock233-8 of Rock2
+         properties
+            x	321
+            y	179
+            loop	0
+         end
+      end
+      object rock333-9 of Rock3
+         properties
+            x	628
+            y	325
+            loop	0
+         end
+      end
+      object rock133-10 of Rock1
+         properties
+            x	460
+            y	240
+            loop	0
+         end
+      end
+      object greenWaterA33-11 of GreenWaterA
+         properties
+            x	581
+            y	308
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object greenWaterA33-12 of GreenWaterA
+         properties
+            x	335
+            y	310
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object greenWaterA33-13 of GreenWaterA
+         properties
+            x	125
+            y	310
+            loop	1
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object shroom333-14 of Shroom3
+         properties
+            x	519
+            y	185
+            loop	0
+         end
+      end
+   end
+end
+room 14023
+   properties
+      picture	3071
+      north	14026 
+      south	14027 
+      east	14020 
+      flags	2
+   end
+   objects
+      object mineDropper-14023-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+
+      object stalagmite135-0 of Stalagmite1
+         properties
+            x	24
+            y	171
+            loop	0
+         end
+      end
+      object column35-1 of Column
+         properties
+            x	33
+            y	134
+            loop	1
+         end
+      end
+      object column35-2 of Column
+         properties
+            x	0
+            y	221
+            loop	1
+         end
+      end
+      object fatColumn35-3 of FatColumn
+         properties
+            x	78
+            y	115
+            loop	0
+         end
+      end
+      object stalagmite135-4 of Stalagmite1
+         properties
+            x	0
+            y	273
+            loop	0
+         end
+      end
+      object cellFloorA35-5 of CellFloorA
+         properties
+            x	20
+            y	264
+            loop	0
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object rock335-6 of Rock3
+         properties
+            x	303
+            y	302
+            loop	0
+         end
+      end
+      object rock235-7 of Rock2
+         properties
+            x	349
+            y	74
+            loop	0
+         end
+      end
+      object rock135-8 of Rock1
+         properties
+            x	176
+            y	225
+            loop	0
+         end
+      end
+      object stalagmite235-9 of Stalagmite2
+         properties
+            x	515
+            y	263
+            loop	0
+         end
+      end
+      object stalagmite135-10 of Stalagmite1
+         properties
+            x	629
+            y	332
+            loop	0
+         end
+      end
+      object fatColumn35-11 of FatColumn
+         properties
+            x	502
+            y	197
+            loop	0
+         end
+      end
+      object yellowShroomB35-12 of YellowShroomB
+         properties
+            x	566
+            y	259
+            loop	0
+         end
+         
+         base described
+			text "You see a yellow mushroom.  Maybe it has a fungus."
+         end
+
+      end
+      object yellowShroomC35-13 of YellowShroomC
+         properties
+            x	97
+            y	218
+            loop	0
+         end
+         
+         base described
+			text "You see a yellow mushroom.  Maybe it has a fungus."
+         end
+
+      end
+      object fire135-14 of Fire1
+         properties
+            x	193
+            y	155
+            loop	0
+         end
+      end
+      object chair35-15 of Chair
+         properties
+            x	138
+            y	156
+            loop	0
+         end
+      end
+      object chair35-16 of Chair
+         properties
+            x	246
+            y	158
+            loop	1
+         end
+      end
+      object smoke235-17 of Smoke2
+         properties
+            x	195
+            y	145
+            loop	0
+         end
+      end
+   end
+end
+room 14026
+   properties
+      picture	3071
+      south	14023 
+      east	14021 
+      flags	2
+   end
+   objects
+      object mineDropper-14026-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+
+      object fatColumn36-0 of FatColumn
+         properties
+            x	61
+            y	141
+            loop	0
+         end
+      end
+      object column36-1 of Column
+         properties
+            x	144
+            y	112
+            loop	0
+         end
+      end
+      object fatColumn36-2 of FatColumn
+         properties
+            x	240
+            y	121
+            loop	0
+         end
+      end
+      object column36-3 of Column
+         properties
+            x	332
+            y	126
+            loop	0
+         end
+      end
+      object column36-4 of Column
+         properties
+            x	395
+            y	124
+            loop	1
+         end
+      end
+      object fatColumn36-5 of FatColumn
+         properties
+            x	486
+            y	122
+            loop	0
+         end
+      end
+      object fatColumn36-6 of FatColumn
+         properties
+            x	608
+            y	139
+            loop	0
+         end
+      end
+      object column36-7 of Column
+         properties
+            x	45
+            y	178
+            loop	0
+         end
+      end
+      object column36-8 of Column
+         properties
+            x	16
+            y	217
+            loop	0
+         end
+      end
+      object column36-9 of Column
+         properties
+            x	0
+            y	256
+            loop	1
+         end
+      end
+      object stalagmite136-10 of Stalagmite1
+         properties
+            x	0
+            y	297
+            loop	0
+         end
+      end
+      object greenCrystalB36-11 of GreenCrystalB
+         properties
+            x	25
+            y	326
+            loop	0
+         end
+         base described
+			text "Look at the pretty green crystals.  No, I don't think they'd be a comfortable seat, but thanks for offering!"
+		 end
+      end
+      object stool36-12 of Stool
+         properties
+            x	204
+            y	187
+            loop	2
+         end
+      end
+      object stool36-13 of Stool
+         properties
+            x	555
+            y	268
+            loop	2
+         end
+      end
+      object shroom336-14 of Shroom3
+         properties
+            x	197
+            y	280
+            loop	0
+         end
+      end
+      object stalagmite236-15 of Stalagmite2
+         properties
+            x	222
+            y	279
+            loop	0
+         end
+      end
+      object skull36-16 of Skull
+         properties
+            x	408
+            y	210
+            loop	0
+         end
+      end
+      object fire236-17 of Fire2
+         properties
+            x	392
+            y	208
+            loop	0
+         end
+      end
+      object fire236-18 of Fire2
+         properties
+            x	420
+            y	209
+            loop	1
+         end
+      end
+   end
+end
+room 14021
+   properties
+      picture	3071
+      west	14026 
+      east	14025 
+      south	14020 
+      flags	2
+   end
+   atpinfo
+      20  134 209
+      32788  209 210
+   end
+   objects
+      object mineDropper-14021-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+
+      object column37-0 of Column
+         properties
+            x	33
+            y	116
+            loop	0
+         end
+      end
+      object fatColumn37-1 of FatColumn
+         properties
+            x	589
+            y	100
+            loop	0
+         end
+      end
+      object column37-2 of Column
+         properties
+            x	496
+            y	110
+            loop	0
+         end
+      end
+      object fatColumn37-3 of FatColumn
+         properties
+            x	124
+            y	106
+            loop	0
+         end
+      end
+      object column37-4 of Column
+         properties
+            x	211
+            y	115
+            loop	1
+         end
+      end
+      object fatColumn37-5 of FatColumn
+         properties
+            x	298
+            y	107
+            loop	1
+         end
+      end
+      object column37-6 of Column
+         properties
+            x	399
+            y	110
+            loop	1
+         end
+      end
+      object fatColumn37-7 of FatColumn
+         properties
+            x	448
+            y	97
+            loop	0
+         end
+      end
+      object greenCrystalA37-8 of GreenCrystalA
+         properties
+            x	460
+            y	125
+            loop	0
+         end
+         base described
+			text "Look at the pretty green crystals.  No, I don't think they'd be a comfortable seat, but thanks for offering!"
+		 end
+      end
+      object fatColumn37-9 of FatColumn
+         properties
+            x	170
+            y	241
+            loop	0
+         end
+      end
+      object yellowShroomB37-11 of YellowShroomB
+         properties
+            x	186
+            y	252
+            loop	0
+         end
+         
+         base described
+			text "You see a yellow mushroom.  Maybe it has a fungus."
+         end
+
+      end
+      object yellowShroomC37-12 of YellowShroomC
+         properties
+            x	167
+            y	254
+            loop	0
+         end
+         base described
+			text "You see a yellow mushroom.  Maybe it has a fungus."
+         end
+
+      end
+      object stalagmite337-13 of Stalagmite3
+         properties
+            x	534
+            y	198
+            loop	0
+         end
+      end
+      object stalagmite437-14 of Stalagmite4
+         properties
+            x	421
+            y	323
+            loop	0
+         end
+      end
+      object rock237-15 of Rock2
+         properties
+            x	333
+            y	175
+            loop	0
+         end
+      end
+      object rock137-16 of Rock1
+         properties
+            x	42
+            y	321
+            loop	0
+         end
+      end
+      object cellFloorB37-17 of CellFloorB
+         properties
+            x	451
+            y	88
+            loop	0
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+   end
+end
+room 14020
+   properties
+      picture	3071
+      south	14022 
+      north	14021 
+      east	14024 
+      west	14023 
+      flags	2
+   end
+   objects
+	object fatColumn38-0 of FatColumn
+         properties
+            x	228
+            y	224
+            loop	0
+         end
+      end
+      object fatColumn38-1 of FatColumn
+         properties
+            x	394
+            y	225
+            loop	1
+         end
+      end
+      object enidBackArch38-2 of EnidBackArch
+         properties
+            x	317
+            y	226
+            loop	0
+            linkTo	movingRock4716-0
+         end
+      end
+      object sittingMushroom38-4 of SittingMushroom
+         properties
+            x	168
+            y	225
+            loop	2
+         end
+      end
+      object sittingMushroom38-5 of SittingMushroom
+         properties
+            x	466
+            y	226
+            loop	2
+         end
+      end
+      object torch38-6 of Torch
+         properties
+            x	227
+            y	226
+            loop	0
+         end
+      end
+      object torch38-7 of Torch
+         properties
+            x	408
+            y	226
+            loop	0
+         end
+      end
+      object cellFloorA38-8 of CellFloorA
+         properties
+            x	222
+            y	173
+            loop	0
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object cellFloorA38-9 of CellFloorA
+         properties
+            x	416
+            y	174
+            loop	1
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object sign14020-3 of Sign
+         properties
+            x	218
+            y	231
+            loop	0
+         end
+         
+	base described
+		text "Welcome to the Mine Sharona."
+		 end
+      end
+   end
+end
+room 14027
+   properties
+      picture	3071
+      north	14023 
+      east	14022 
+      flags	2
+   end
+   atpinfo
+      171  284 319
+      7907  578 317
+      7907  473 317
+   end
+   objects
+      object mineDropper-14027-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+
+      object greenWaterA14027-0 of GreenWaterA
+         properties
+            x	101
+            y	310
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object greenWaterA14027-1 of GreenWaterA
+         properties
+            x	314
+            y	314
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object greenWaterA14027-2 of GreenWaterA
+         properties
+            x	557
+            y	310
+            loop	0
+         end
+         base described
+			text "You see green water.  Not fit for drinking."
+		 end
+      end
+      object yellowShroomA14027-3 of YellowShroomA
+         properties
+            x	5
+            y	323
+            loop	0
+         end
+         base described
+			text "You see a yellow mushroom.  Maybe it has a fungus."
+         end
+
+      end
+      object shroom314027-4 of Shroom3
+         properties
+            x	117
+            y	120
+            loop	0
+         end
+      end
+      object stalagmite214027-5 of Stalagmite2
+         properties
+            x	369
+            y	330
+            loop	0
+         end
+      end
+      object rock314027-6 of Rock3
+         properties
+            x	220
+            y	322
+            loop	0
+         end
+      end
+      object column14027-7 of Column
+         properties
+            x	9
+            y	188
+            loop	0
+         end
+      end
+      object column14027-8 of Column
+         properties
+            x	0
+            y	241
+            loop	0
+         end
+      end
+      object stalagmite214027-9 of Stalagmite2
+         properties
+            x	142
+            y	119
+            loop	0
+         end
+      end
+      object rock314027-10 of Rock3
+         properties
+            x	519
+            y	146
+            loop	0
+         end
+      end
+      object smokeA14027-11 of SmokeA
+         properties
+            x	153
+            y	115
+            loop	0
+         end
+      end
+      object smokeB14027-12 of SmokeB
+         properties
+            x	522
+            y	138
+            loop	0
+         end
+      end
+      object stalagmite114027-13 of Stalagmite1
+         properties
+            x	260
+            y	232
+            loop	0
+         end
+      end
+      object shroom114027-14 of Shroom1
+         properties
+            x	273
+            y	235
+            loop	0
+         end
+      end
+      object stalagmite214027-15 of Stalagmite2
+         properties
+            x	289
+            y	233
+            loop	0
+         end
+      end
+   end
+end
+
+room 14025
+   properties
+      picture	3071
+      south	14024 
+      west	14021 
+   end
+   atpinfo
+      20  585 134
+      20  572 157
+      20  592 177
+      20  592 202
+      20  607 122
+      20  608 222
+      20  607 240
+      20  588 251
+      20  587 268
+      20  604 277
+      7906  617 443
+      7906  575 446
+   end
+   objects
+      object mineDropper-14025-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+      object fatColumn14025-0 of FatColumn
+         properties
+            x	66
+            y	95
+            loop	0
+         end
+      end
+      object column14025-1 of Column
+         properties
+            x	168
+            y	90
+            loop	0
+         end
+      end
+      object column14025-2 of Column
+         properties
+            x	247
+            y	92
+            loop	0
+         end
+      end
+      object fatColumn14025-3 of FatColumn
+         properties
+            x	349
+            y	106
+            loop	0
+         end
+      end
+      object fatColumn14025-4 of FatColumn
+         properties
+            x	454
+            y	86
+            loop	0
+         end
+      end
+      object column14025-5 of Column
+         properties
+            x	554
+            y	89
+            loop	0
+         end
+      end
+      object column14025-6 of Column
+         properties
+            x	594
+            y	132
+            loop	1
+         end
+      end
+      object column14025-7 of Column
+         properties
+            x	630
+            y	190
+            loop	1
+         end
+      end
+      object column14025-8 of Column
+         properties
+            x	658
+            y	244
+            loop	1
+         end
+      end
+      object stalagmite114025-9 of Stalagmite1
+         properties
+            x	631
+            y	294
+            loop	0
+         end
+      end
+      object stalagmite114025-10 of Stalagmite1
+         properties
+            x	616
+            y	328
+            loop	0
+         end
+      end
+      object spring14025-11 of Spring
+         properties
+            x	607
+            y	265
+            loop	0
+         end
+      end
+      object spring14025-12 of Spring
+         properties
+            x	599
+            y	227
+            loop	0
+         end
+      end
+      object spring14025-13 of Spring
+         properties
+            x	579
+            y	209
+            loop	0
+         end
+      end
+      object spring14025-14 of Spring
+         properties
+            x	569
+            y	180
+            loop	1
+         end
+      end
+      object spring14025-15 of Spring
+         properties
+            x	579
+            y	290
+            loop	1
+         end
+      end
+      object spring14025-16 of Spring
+         properties
+            x	578
+            y	244
+            loop	1
+         end
+      end
+      object spring14025-17 of Spring
+         properties
+            x	596
+            y	319
+            loop	0
+         end
+      end
+      object rock114025-18 of Rock1
+         properties
+            x	124
+            y	135
+            loop	0
+         end
+      end
+      object stoneBench14025-19 of StoneBench
+         properties
+            x	468
+            y	145
+            loop	2
+         end
+      end
+      object stoneBench14025-20 of StoneBench
+         properties
+            x	136
+            y	131
+            loop	2
+         end
+      end
+      object rock214025-21 of Rock2
+         properties
+            x	459
+            y	145
+            loop	0
+         end
+      end
+      object column14025-22 of Column
+         properties
+            x	229
+            y	222
+            loop	0
+         end
+      end
+      object stalagmite214025-23 of Stalagmite2
+         properties
+            x	387
+            y	271
+            loop	0
+         end
+      end
+      object rock214025-24 of Rock2
+         properties
+            x	72
+            y	246
+            loop	0
+         end
+      end
+   end
+end
+room 14024
+   properties
+      picture	3071
+      north	14025 
+      south	14028 
+      west	14020 
+   end
+   objects
+      object mineDropper-14024-0 of MineDropper1
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+      object column14024-0 of Column
+         properties
+            x	466
+            y	145
+            loop	1
+         end
+      end
+      object fatColumn14024-1 of FatColumn
+         properties
+            x	546
+            y	190
+            loop	0
+         end
+      end
+      object column14024-2 of Column
+         properties
+            x	619
+            y	240
+            loop	0
+         end
+      end
+      object stalagmite114024-3 of Stalagmite1
+         properties
+            x	630
+            y	285
+            loop	0
+         end
+      end
+      object stalagmite114024-4 of Stalagmite1
+         properties
+            x	634
+            y	330
+            loop	0
+         end
+      end
+      object cellFloorA14024-5 of CellFloorA
+         properties
+            x	554
+            y	136
+            loop	0
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object cellFloorA14024-6 of CellFloorA
+         properties
+            x	468
+            y	175
+            loop	0
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object fountain14024-7 of Fountain
+         properties
+            x	477
+            y	231
+            loop	0
+         end
+      end
+      object cellFloorA14024-8 of CellFloorA
+         properties
+            x	490
+            y	175
+            loop	1
+         end
+         base described
+			text "You see green floor tiles.  Don't spill anything on them, you can't afford to replace them!"
+		 end
+      end
+      object stalagmite114024-9 of Stalagmite1
+         properties
+            x	30
+            y	328
+            loop	0
+         end
+      end
+      object rock114024-10 of Rock1
+         properties
+            x	364
+            y	323
+            loop	0
+         end
+      end
+      object stalagmite314024-11 of Stalagmite3
+         properties
+            x	86
+            y	123
+            loop	0
+         end
+      end
+      object fatColumn14024-12 of FatColumn
+         properties
+            x	245
+            y	229
+            loop	0
+         end
+      end
+      object greenCrystalA14024-13 of GreenCrystalA
+         properties
+            x	477
+            y	228
+            loop	0
+         end
+         base described
+			text "Look at the pretty green crystals.  No, I don't think they'd be a comfortable seat, but thanks for offering!"
+		 end
+      end
+      object greenCrystalC14024-14 of GreenCrystalC
+         properties
+            x	69
+            y	133
+            loop	0
+         end
+         base described
+			text "Look at the pretty green crystals.  No, I don't think they'd be a comfortable seat, but thanks for offering!"
+		 end
+      end
+   end
+end

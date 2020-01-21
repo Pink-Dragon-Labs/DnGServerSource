@@ -1,0 +1,19 @@
+quest  388 #80500-01-435        # Misha, Eaterie, Wen, 6101
+
+name  "Jellied Berries for Misha"
+type  fedex
+
+proposal  "Such a one, that Sandor.  He used to come to Wen when he was growing up and was always teasing for a bit of fresh bread.  'Somebody has to check it for you, Mishy-dear,' is what he'd say with a twinkle.  I've got the very thing right here, but let's do something else as well.  He always liked jellied berries from Usk.  Will you make a quick trip and get some?"
+
+declined  "Now, don't say that."
+
+accepted  "Hurry now.  Say they are for Kaliri."
+
+reminder   "Just go to Usk for jellied berries.  Be sure to mention Kaliri."
+
+completed  "Such abundance.  Won't Kaliri be pleased, and Sandor is in for a surprise.  I'll add my bread to the basket."   
+
+getItem   qInilaBerries
+reward   qMishaBread 
+end
+

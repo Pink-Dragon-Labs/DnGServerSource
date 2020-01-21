@@ -1,0 +1,19 @@
+quest  35 # 6045-01-530        # Inila, Ambrosia of Usk, food, Usk, giant, 8104
+
+name  "Inila's Supplies"
+type  fedex
+
+proposal  "This is the right place, then.  Our jellied berries are justly famous all over the Realm.  I have a good supply.  You've come just at the peak of the season.  Would you be willing to fetch some supplies I have on order over in Wen?  I'll give you the berries if you'll do that?"
+
+declined  "Well then, never mind."
+
+accepted  "Good.  They should be ready for pick up now."
+
+reminder   "Please fetch my order of supplies from Wen."
+
+completed  "My thanks.  I packed a good selection of jellied berries."
+
+getItem   qInilaSupplies
+reward   qJelliedBerries 
+end
+

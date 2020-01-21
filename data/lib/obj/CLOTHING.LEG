@@ -1,0 +1,1546 @@
+object OlivePants of Pants
+	properties
+		color 48
+		special
+	end
+end
+
+object LimePants of ExoticPants
+	properties
+                color 49
+		special
+	end
+end
+
+object BluePants of Pants
+	properties
+		color 53
+		special
+	end
+end
+
+object AzurePants of ExoticPants
+	properties
+                color 54
+		special
+	end
+end
+
+object RedPants of Pants
+	properties
+		color 58
+		special
+	end
+	
+end
+
+object PinkPants of ExoticPants
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldPants of ExoticPants
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowPants of ExoticPants
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletPants of ExoticPants
+	properties
+                color 68
+		special
+	end
+	
+end
+
+object MagentaPants of ExoticPants
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownPants of Pants
+	properties
+                color 73
+		special
+	end
+end
+
+object TanPants of Pants
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaPants of ExoticPants
+	properties
+                color 78
+		special
+	end
+	
+end
+
+object TealPants of ExoticPants
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenPants of Pants
+	properties
+                color 83
+		special
+	end
+end
+
+object JadePants of ExoticPants
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangePants of Pants
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberPants of Pants
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalPants of Pants
+	properties
+		color 93
+		special
+	end
+end
+
+object PurplePants of ExoticPants
+	properties
+                color 69
+		special
+	end
+end
+
+object BlackPants of Pants
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayPants of Pants
+	properties
+                color 99
+		special
+	end
+end
+
+object WhitePants of Pants
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveLongSkirt of LongSkirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLongSkirt of ExoticLongSkirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLongSkirt of LongSkirt
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureLongSkirt of ExoticLongSkirt
+	properties
+		color 54
+		special
+	end
+end
+
+object RedLongSkirt of LongSkirt
+	properties
+                color 58
+		special
+	end
+end
+
+object PinkLongSkirt of ExoticLongSkirt
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldLongSkirt of ExoticLongSkirt
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowLongSkirt of ExoticLongSkirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLongSkirt of ExoticLongSkirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLongSkirt of ExoticLongSkirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLongSkirt of LongSkirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLongSkirt of LongSkirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLongSkirt of ExoticLongSkirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLongSkirt of ExoticLongSkirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLongSkirt of LongSkirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLongSkirt of ExoticLongSkirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLongSkirt of LongSkirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLongSkirt of LongSkirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLongSkirt of LongSkirt
+	properties
+		color 93
+		special
+	end
+end
+
+object PurpleLongSkirt of ExoticLongSkirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLongSkirt of LongSkirt
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLongSkirt of LongSkirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLongSkirt of LongSkirt
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveShortSkirt of ShortSkirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeShortSkirt of ExoticShortSkirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueShortSkirt of ShortSkirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureShortSkirt of ExoticShortSkirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedShortSkirt of ShortSkirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkShortSkirt of ExoticShortSkirt
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldShortSkirt of ExoticShortSkirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowShortSkirt of ExoticShortSkirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletShortSkirt of ExoticShortSkirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaShortSkirt of ExoticShortSkirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownShortSkirt of ShortSkirt
+	properties
+                color 73
+		special
+	end
+	
+end
+
+object TanShortSkirt of ShortSkirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaShortSkirt of ExoticShortSkirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealShortSkirt of ExoticShortSkirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenShortSkirt of ShortSkirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeShortSkirt of ExoticShortSkirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeShortSkirt of ShortSkirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberShortSkirt of ShortSkirt
+	properties
+                color 89
+		special
+	end
+	
+end
+
+object RoyalShortSkirt of ShortSkirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleShortSkirt of ExoticShortSkirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackShortSkirt of ShortSkirt
+	properties
+		color 98
+		special
+ 	end
+end
+
+object GrayShortSkirt of ShortSkirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteShortSkirt of ShortSkirt
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveCowl of Cowl
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeCowl of ExoticCowl
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueCowl of Cowl
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureCowl of ExoticCowl
+	properties
+		color 54
+		special
+	end
+end
+
+object RedCowl of Cowl
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkCowl of ExoticCowl
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldCowl of ExoticCowl
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowCowl of ExoticCowl
+	properties
+                color 64
+		special
+	end
+end
+
+
+object VioletCowl of ExoticCowl
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaCowl of ExoticCowl
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownCowl of Cowl
+	properties
+                color 73
+		special
+	end
+end
+
+object TanCowl of Cowl
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaCowl of ExoticCowl
+	properties
+		color 78
+		special
+	end
+end
+
+object TealCowl of ExoticCowl
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenCowl of Cowl
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeCowl of ExoticCowl
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeCowl of Cowl
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberCowl of ExoticCowl
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalCowl of Cowl
+	properties
+		color 93
+		special
+	end
+end
+
+object PurpleCowl of ExoticCowl
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackCowl of Cowl
+	properties
+		color 98
+		special
+ 	end
+end
+
+object GrayCowl of Cowl
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteCowl of Cowl
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveShirt of Shirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeShirt of ExoticShirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueShirt of Shirt
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureShirt of ExoticShirt
+	properties
+		color 54
+		special
+	end
+end
+
+object RedShirt of Shirt
+	properties
+                color 58
+		special
+	end
+end
+
+object PinkShirt of ExoticShirt
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldShirt of ExoticShirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowShirt of ExoticShirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletShirt of ExoticShirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaShirt of ExoticShirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownShirt of Shirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanShirt of Shirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaShirt of Shirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealShirt of ExoticShirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenShirt of Shirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeShirt of ExoticShirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeShirt of Shirt
+	properties
+		color 88
+		special
+	end
+end
+
+object AmberShirt of Shirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalShirt of Shirt
+	properties
+		color 93
+		special
+	end
+end
+
+object PurpleShirt of ExoticShirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackShirt of Shirt
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayShirt of Shirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteShirt of Shirt
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveTunic of Tunic
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTunic of ExoticTunic
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTunic of Tunic
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureTunic of ExoticTunic
+	properties
+		color 54
+		special
+	end
+end
+
+object RedTunic of Tunic
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTunic of ExoticTunic
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldTunic of ExoticTunic
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowTunic of ExoticTunic
+	properties
+                color 64
+		special
+	end
+end
+
+
+object VioletTunic of ExoticTunic
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTunic of ExoticTunic
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTunic of Tunic
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTunic of Tunic
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTunic of ExoticTunic
+	properties
+		color 78
+		special
+	end
+end
+
+object TealTunic of ExoticTunic
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTunic of Tunic
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTunic of Tunic
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTunic of Tunic
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTunic of Tunic
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTunic of Tunic
+	properties
+		color 93
+		special
+	end
+end
+
+object PurpleTunic of ExoticTunic
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTunic of Tunic
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayTunic of Tunic
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTunic of Tunic
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveRobe of Robe
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeRobe of ExoticRobe
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueRobe of Robe
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureRobe of ExoticRobe
+	properties
+		color 54
+		special
+	end
+end
+
+object RedRobe of Robe
+        properties
+		color 58
+		special
+	end
+end
+
+object PinkRobe of ExoticRobe
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldRobe of ExoticRobe
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowRobe of ExoticRobe
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletRobe of ExoticRobe
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaRobe of ExoticRobe
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownRobe of Robe
+	properties
+		color 73
+		special
+	end
+end
+
+object TanRobe of Robe
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaRobe of ExoticRobe
+	properties
+		color 78
+		special
+	end
+end
+
+object TealRobe of ExoticRobe
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenRobe of Robe
+	properties
+                color 83
+		special
+	end
+end
+
+object JadeRobe of ExoticRobe
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeRobe of Robe
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberRobe of Robe
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalRobe of Robe
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleRobe of ExoticRobe
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackRobe of Robe
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayRobe of Robe
+	properties
+		color 99
+		special
+	end
+end
+
+object WhiteRobe of Robe
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveBoots of HighBoots
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeBoots of ExoticBoots
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueBoots of HighBoots
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureBoots of ExoticBoots
+	properties
+                color 54
+		special
+	end
+end
+
+object RedBoots of HighBoots
+	properties
+                color 58
+		special
+	end
+end
+
+object PinkBoots of ExoticBoots
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldBoots of ExoticBoots
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowBoots of ExoticBoots
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletBoots of ExoticBoots
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaBoots of ExoticBoots
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownBoots of HighBoots
+	properties
+                color 73
+		special
+	end
+end
+
+object TanBoots of HighBoots
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaBoots of ExoticBoots
+	properties
+                color 78
+		special
+	end
+end
+
+object TealBoots of ExoticBoots
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenBoots of HighBoots
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeBoots of ExoticBoots
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeBoots of HighBoots
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberBoots of HighBoots
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalBoots of HighBoots
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleBoots of ExoticBoots
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackBoots of HighBoots
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayBoots of HighBoots
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteBoots of HighBoots
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLowBoots of LowBoots
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLowBoots of ExoticLowBoots
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLowBoots of LowBoots
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureLowBoots of ExoticLowBoots
+	properties
+		color 54
+		special
+	end
+end
+
+object RedLowBoots of LowBoots
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLowBoots of ExoticLowBoots
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldLowBoots of ExoticLowBoots
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLowBoots of ExoticLowBoots
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLowBoots of ExoticLowBoots
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLowBoots of ExoticLowBoots
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLowBoots of LowBoots
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLowBoots of LowBoots
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLowBoots of ExoticLowBoots
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLowBoots of ExoticLowBoots
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLowBoots of LowBoots
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLowBoots of ExoticLowBoots
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLowBoots of LowBoots
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLowBoots of LowBoots
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLowBoots of LowBoots
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLowBoots of ExoticLowBoots
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLowBoots of LowBoots
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLowBoots of LowBoots
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLowBoots of LowBoots
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveBelt of Belt
+	properties
+                color   48
+		special
+	end
+end
+
+object BlueBelt of Belt
+	properties
+                color   53
+		special
+	end
+end
+
+object RedBelt of Belt
+	properties
+		color	58
+		special
+	end
+end
+
+object GoldBelt of Belt
+	properties
+		color	63
+		special
+	end
+end
+
+object VioletBelt of Belt
+	properties
+                color   68
+		special
+	end
+end
+
+object BrownBelt of Belt
+	properties
+                color   73
+		special
+	end
+end
+
+object AquaBelt of Belt
+	properties
+                color   78
+		special
+	end
+end
+
+object GreenBelt of Belt
+	properties
+                color   83
+		special
+	end
+end
+
+object OrangeBelt of Belt
+	properties
+                color   88
+		special
+	end
+end
+
+object RoyalBelt of Belt
+	properties
+		color	93
+		special
+	end
+end
+
+object BlackBelt of Belt
+	properties
+                color   98
+		special
+	end
+end
+
+object GrayBelt of Belt
+	properties
+                color   99
+		special
+	end
+end
+
+object WhiteBelt of Belt
+	properties
+                color   103
+		special
+	end
+end

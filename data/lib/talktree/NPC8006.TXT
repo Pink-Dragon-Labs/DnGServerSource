@@ -1,0 +1,23 @@
+id 8006
+
+banner "You've entered the Broken Jug Pub. I suppose you want something?"
+
+topic "Tell me about Kurz."
+        text "It's a town of very bad people. Most travellers don't stay very long. I guess they're afraid.  I'm sure I don't know."
+	text "Kurz has six taverns and two food shops.  Does that mean anything?  Maybe not.  I'm sure I don't know."
+	text "I just run the business and then go home.  I don't mingle much.  Don't see any good to come of it."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "There's a rumor of the gods destroying Leinster, but it may not be true.  I'm sure I don't know."
+	text "If they did, I suppose they had a reason.  I don't know, though."
+end
+
+topic "Who are you?"
+	text "My name is Roger.  I inherited this pub, so I started running it."
+	text "My uncle owned it before me.  He was killed out in the woods.  I don't know just how it happened. I don't go to the woods myself."
+end      
+
+topic "Can I do anything for you?"
+        text "Can't think of anything."
+end

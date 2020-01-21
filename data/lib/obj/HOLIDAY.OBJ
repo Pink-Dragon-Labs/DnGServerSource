@@ -1,0 +1,1297 @@
+object EasterEgg of Food
+	properties
+		name "Ratling Egg"
+		view  62650 
+		value  10 
+		clutStart  89
+ 		toss
+	end
+	base carryable
+		bulk 1.0			 
+		weight 0.1
+	end
+	base container
+		bulkCapacity 1
+		weightCapacity 20
+	end
+	base described
+		text "You see a ratling egg."
+		shopText "This is a ratling egg."
+	end
+end
+
+object OliveEasterEgg of EasterEgg
+	properties
+		name "Olive Ratling Egg"
+		color 48 
+		toss
+	end
+	base described
+		text "You see an olive ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LimeEasterEgg of EasterEgg
+	properties
+		name "Lime Ratling Egg"
+		color 49 
+		toss
+	end
+	base described
+		text "You see a lime ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object ExtraLimeEasterEgg of EasterEgg
+	properties
+		name "Extra Lime Ratling Egg"
+		color  50 
+		toss
+	end
+	base described
+		text "You see an extra lime ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LimeBlueEasterEgg of EasterEgg
+	properties
+      name "Lime Blue Ratling Egg"
+      color  52 
+		toss
+	end
+	base described
+		text "You see a lime-blue ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object BlueEasterEgg of EasterEgg
+	properties
+		name "Blue Ratling Egg"
+		color 53 
+		toss
+	end
+	base described
+		text "You see a blue ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object AzureEasterEgg of EasterEgg
+	properties
+		name "Azure Ratling Egg"
+		color 54 
+		toss
+	end
+	base described
+		text "You see an azure ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LightAzureEasterEgg of EasterEgg
+	properties
+		name "Light Azure Ratling Egg"
+		color  55 
+		toss
+	end
+	base described
+		text "You see a light azure ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object BlueRedEasterEgg of EasterEgg
+	properties
+		name "Blue Red Ratling Egg"
+      color  57 
+		toss
+	end
+	base described
+		text "You see a blue red ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object RedEasterEgg of EasterEgg
+	properties
+		name "Red Ratling Egg"
+		color 58 
+		toss
+	end
+	base described
+		text "You see a red ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object PinkEasterEgg of EasterEgg
+	properties
+		name "Pink Ratling Egg"
+		color 59 
+		toss
+	end
+	base described
+		text "You see a pink ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object HotPinkEasterEgg of EasterEgg
+	properties
+		name "Hot Pink Ratling Egg"
+		color  60 
+		toss
+	end
+	base described
+		text "You see a hot pink ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object PinkGoldEasterEgg of EasterEgg
+	properties
+		name "Pink Gold Ratling Egg"
+      color 62
+		toss
+	end
+	base described
+		text "You see a pink gold ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object GoldEasterEgg of EasterEgg
+	properties
+		name "Gold Ratling Egg"
+		color 63 
+		toss
+	end
+	base described
+		text "You see a gold ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object YellowEasterEgg of EasterEgg
+	properties
+		name "Yellow Ratling Egg"
+		color 64 
+		toss
+	end
+	base described
+		text "You see a yellow ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LightYellowEasterEgg of EasterEgg
+	properties
+		name "Light Yellow Ratling Egg"
+		color  65 
+		toss
+	end
+	base described
+		text "You see a light yellow ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object YellowVioletEasterEgg of EasterEgg
+	properties
+		name "Yellow Violet Ratling Egg"
+      color  67
+		toss
+	end
+	base described
+		text "You see a yellow violet ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object VioletEasterEgg of EasterEgg
+	properties
+		name "Violet Ratling Egg"
+		color 68 
+		toss
+	end
+	base described
+		text "You see a violet ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object MagentaEasterEgg of EasterEgg
+	properties
+		name "Magenta Ratling Egg"
+		color 69 
+		toss
+	end
+	base described
+		text "You see a magenta ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LightMagentaEasterEgg of EasterEgg
+	properties
+		name "Light Magenta Ratling Egg"
+		color  70 
+		toss
+	end
+	base described
+		text "You see a light magenta ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+
+object BrownEasterEgg of EasterEgg
+	properties
+		name "Brown Ratling Egg"
+		color 73 
+		toss
+	end
+	base described
+		text "You see a brown ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object TanEasterEgg of EasterEgg
+	properties
+		name "Tan Ratling Egg"
+		color 74 
+		toss
+	end
+	base described
+		text "You see a tan ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LightTanEasterEgg of EasterEgg
+	properties
+		name "Light Tan Ratling Egg"
+		color  75 
+		toss
+	end
+	base described
+		text "You see a light tan ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object TanAquaEasterEgg of EasterEgg
+	properties
+		name "Tan Aqua Ratling Egg"
+      color  76 
+		toss
+	end
+	base described
+		text "You see a tan aqua ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object AquaEasterEgg of EasterEgg
+	properties
+		name "Aqua Ratling Egg"
+		color 78 
+		toss
+	end
+	base described
+		text "You see an aqua ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object TealEasterEgg of EasterEgg
+	properties
+		name "Teal Ratling Egg"
+		color 79 
+		toss
+	end
+	base described
+		text "You see a teal ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LightTealEasterEgg of EasterEgg
+	properties
+		name "Light Teal Ratling Egg"
+		color  80 
+		toss
+	end
+	base described
+		text "You see a light teal ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object TealGreenEasterEgg of EasterEgg
+	properties
+		name "Teal Green Ratling Egg"
+      color  82 
+		toss
+	end
+	base described
+		text "You see a teal green ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object GreenEasterEgg of EasterEgg
+	properties
+		name "Green Ratling Egg"
+		color 83 
+		toss
+	end
+	base described
+		text "You see a green ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object JadeEasterEgg of EasterEgg
+	properties
+		name "Jade Ratling Egg"
+		color 84 
+		toss
+	end
+	base described
+		text "You see a jade ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object OrangeEasterEgg of EasterEgg
+	properties
+		name "Orange Ratling Egg"
+		color 88 
+		toss
+	end
+	base described
+		text "You see an orange ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object AmberEasterEgg of EasterEgg
+	properties
+		name "Amber Ratling Egg"
+		color 89 
+		toss
+	end
+	base described
+		text "You see an amber ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object RoyalEasterEgg of EasterEgg
+	properties
+		name "Royal Ratling Egg"
+		color 93 
+		toss
+	end
+	base described
+		text "You see a royal ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object PurpleEasterEgg of EasterEgg
+	properties
+		name "Purple Ratling Egg"
+		color 94 
+		toss
+	end
+	base described
+		text "You see a purple ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object LightPurpleEasterEgg of EasterEgg
+	properties
+		name "Light Purple Ratling Egg"
+		color  95 
+		toss
+	end
+	base described
+		text "You see a light purple ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object PurpleBlackEasterEgg of EasterEgg
+	properties
+		name "Purple Black Ratling Egg"
+		color  96 
+		toss
+	end
+	base described
+		text "You see a purple black ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object BlackEasterEgg of EasterEgg
+	properties
+		name "Black Ratling Egg"
+		color 98 
+		toss
+	end
+	base described
+		text "You see a black ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object GrayEasterEgg of EasterEgg
+	properties
+      name "Gray Ratling Egg"
+		color 99 
+		toss
+	end
+	base described
+		text "You see a gray ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+object WhiteEasterEgg of EasterEgg
+	properties
+      name "White Ratling Egg"
+		color 100 
+		toss
+	end
+	base described
+		text "You see a white ratling egg."
+		shopText "You're in luck. These are in great demand and we've just received a huge shipment!"
+	end
+end
+
+object Easter2003YellowRose of YellowRose
+	properties
+		special
+		name "Easter 2003 Yellow Rose"
+	end
+
+	base described
+		text "You see a yellow Easter rose magically perserved for all time from Easter 2003."
+	end
+end
+
+object Easter2003PinkRose of PinkRose
+	properties
+		special
+		name "Easter 2003 Pink Rose"
+	end
+
+	base described
+		text "You see a pink Easter rose magically perserved for all time from Easter 2003."
+	end
+end
+
+object Easter2003JellyBeanBag of LeatherPouch
+	properties
+		special
+		color 69
+		name "Easter 2003 Jelly Bean Bag"
+		value 15
+	end
+
+	base described
+		text "You see an Easter 2003 pink leather pouch filled with delicious Elven Jelly Beans."
+	end
+end
+
+object Bouquet
+	properties
+		view 53150
+      name "Bouquet"
+      value 450
+	end
+
+	base carryable
+      bulk   1.2
+      weight 0.4
+	end
+
+	base described
+      text "You see a beautiful bouquet of flowers.  They smell nice too."
+      shopText "Nothing says 'I'm sorry, I've been a jerk' Like flowers."
+	end
+end
+
+object GiftBox 
+	properties
+		name "Gift Box"
+		view  62750 
+		value  10 
+ 		toss
+	end
+	base carryable
+		bulk 0.1			 
+		weight 0.1
+	end
+	base container
+		bulkCapacity 0
+		weightCapacity 0
+	end
+	base described
+		text "You see a box that has been carefully wrapped by the faeries.  Open it up and see what you have gotten!"
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox1 of GiftBox
+	properties
+		name "Gift Box"
+		view  62751
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox2 of GiftBox
+	properties
+		name "Gift Box"
+		view  62752
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox3 of GiftBox
+	properties
+		name "Gift Box"
+		view  62753
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox4 of GiftBox
+	properties
+		name "Gift Box"
+		view  62758
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox5 of GiftBox
+	properties
+		name "Gift Box"
+		view  62759
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox6 of GiftBox
+	properties
+		name "Gift Box"
+		view  62760
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox7 of GiftBox
+	properties
+		name "Gift Box"
+		view  62761
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox8 of GiftBox
+	properties
+		name "Gift Box"
+		view  62766
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox9 of GiftBox
+	properties
+		name "Gift Box"
+		view  62767
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox10 of GiftBox
+	properties
+		name "Gift Box"
+		view  62768
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox11 of GiftBox
+	properties
+		name "Gift Box"
+		view  62769
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox12 of GiftBox
+	properties
+		name "Gift Box"
+		view  62774
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GiftBox13 of GiftBox
+	properties
+		name "Gift Box"
+		view  62775
+	end
+	base described
+		text "You see a gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object GMGiftBox of GiftBox
+	properties
+		name "GM Quest Box"
+		view  62700 
+	end
+	base described
+		text "You see a special Quest box that has been carefully wrapped by the GMs."
+		shopText "This is a gift box."
+	end
+end
+
+object GMGiftBox1 of GiftBox
+	properties
+		name "GM Quest Box"
+		view  62701 
+	end
+	base described
+		text "You see a special Quest box that has been carefully wrapped by the GMs."
+		shopText "This is a gift box."
+	end
+end
+
+object GMGiftBox2 of GiftBox
+	properties
+		name "GM Quest Box"
+		view  62702 
+	end
+	base described
+		text "You see a special Quest box that has been carefully wrapped by the GMs."
+		shopText "This is a gift box."
+	end
+end
+
+object GMGiftBox3 of GiftBox
+	properties
+		name "GM Quest Box"
+		view  62703 
+	end
+	base described
+		text "You see a special Quest box that has been carefully wrapped by the GMs."
+		shopText "This is a gift box."
+	end
+end
+
+object TallGiftBox of GiftBox
+	properties
+		name "Tall Gift Box"
+		view  62708
+	end
+	base described
+		text "You see a large gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object TallGiftBox1 of GiftBox
+	properties
+		name "Tall Gift Box"
+		view  62709
+	end
+	base described
+		text "You see a large gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object TallGiftBox2 of GiftBox
+	properties
+		name "Tall Gift Box"
+		view  62710
+	end
+	base described
+		text "You see a large gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object FlatGiftBox of GiftBox
+	properties
+		name "Flat Gift Box"
+		view  62711
+	end
+	base described
+		text "You see a flat gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object FlatGiftBox1 of GiftBox
+	properties
+		name "Flat Gift Box"
+		view  62716
+	end
+	base described
+		text "You see a flat gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+
+object FlatGiftBox2 of GiftBox
+	properties
+		name "Flat Gift Box"
+		view  62717
+	end
+	base described
+		text "You see a flat gift box that has been carefully wrapped."
+		shopText "This is a gift box."
+	end
+end
+
+object ChristmasTree
+	properties
+		name "Christmas Tree"
+		view  9600
+		value  10000
+	end
+	base carryable
+		bulk 50.0
+		weight 50.0
+	end
+	base described
+		text "You see a beautiful Christmas Tree."
+		shopText "This is a beautiful Christmas Tree."
+	end
+end
+			
+object DeadChristmasTree of ChristmasTree
+	properties
+		name "Dead Christmas Tree"
+		view  9700
+		value  1000
+	end
+	base carryable
+		bulk 50.0
+		weight 25.0
+	end
+	base described
+		text "You see a dead Christmas Tree."
+		shopText "This is a dead Christmas Tree."
+	end
+end
+
+object Snowman
+	properties
+		name "Snowman"
+		view  9800
+		value  20000
+	end
+	base carryable
+		bulk 50.0
+		weight 50.0
+	end
+	base described
+		text "You see a beautiful Snowman."
+		shopText "This is a beautiful Snowman."
+	end
+end
+
+object Pumpkin
+	properties
+		name "Pumpkin"
+		view	9650
+		value	1000
+	end
+	base carryable
+		bulk	1.0
+		weight	1.0
+	end
+	base described
+		text "You see a beautiful pumpkin."
+		shopText "This is a beautiful pumpkin."
+	end
+end
+
+object SMHolidayBaldric of Baldric
+	properties
+		name "Sentinel's Holiday Baldric"
+		color 84
+		armorFlat 150
+		value 0
+                #Staff affect
+                affect 99 0 5 -1
+	end
+
+	base described
+		text "A special Holiday Baldric.  GM's Only."
+		shopText "This isn't sold anywhere so if you're reading this, it's a bug."
+	end
+
+	base shop
+		buyMarkup  0 
+		sellMarkup 0
+
+		inventory
+			category "Holiday Stuff"  10133
+				category "St Patrick's Day"  
+					object GreenRose
+				end
+				category "Easter"  62683
+					object OliveEasterEgg
+					object LimeEasterEgg
+					object ExtraLimeEasterEgg
+					object LimeBlueEasterEgg
+					object BlueEasterEgg
+					object AzureEasterEgg
+					object LightAzureEasterEgg
+					object BlueRedEasterEgg
+					object RedEasterEgg
+					object PinkEasterEgg
+					object HotPinkEasterEgg
+					object PinkGoldEasterEgg
+					object GoldEasterEgg
+					object YellowEasterEgg
+					object LightYellowEasterEgg
+					object YellowVioletEasterEgg
+					object VioletEasterEgg
+					object MagentaEasterEgg
+					object LightMagentaEasterEgg
+					object BrownEasterEgg
+					object TanEasterEgg
+					object LightTanEasterEgg
+					object TanAquaEasterEgg
+					object AquaEasterEgg
+					object TealEasterEgg
+					object LightTealEasterEgg
+					object TealGreenEasterEgg
+					object GreenEasterEgg
+					object JadeEasterEgg
+					object OrangeEasterEgg
+					object AmberEasterEgg
+					object RoyalEasterEgg
+					object PurpleEasterEgg
+					object LightPurpleEasterEgg
+					object PurpleBlackEasterEgg
+					object BlackEasterEgg
+					object GrayEasterEgg
+					object WhiteEasterEgg
+				end
+				category "Mother's Day" 62683 
+					object Bouquet
+					object RedRose 
+					object WhiteRose 
+					object BlueRose 
+					object Chrysanthenum
+					object Daisy
+				end
+				category "Halloween" 62683
+					object Pumpkin
+					object BlackRose
+				end
+			end
+		end
+	end
+end
+
+#------------------------------------------------------------
+object LargePumpkin
+	properties
+		name "Large Pumpkin"
+		view	59650
+		value	1500
+		enchantResistance 100
+	end
+
+	base carryable
+		bulk	1.0
+		weight	1.0
+	end
+
+	base described
+		text "You see a beautiful large pumpkin suitable for carving."
+		shopText "This is a beautiful large pumpkin."
+	end
+end
+
+#------------------------------------------------------------
+
+object PumpkinDropper of Ratling
+	properties
+		name "Ratling"
+		special
+	end
+
+	base described
+	  text ""
+	end
+
+	base npc
+	  code pumpkin-dropper
+	end
+end
+
+#------------------------------------------------------------
+object MeanJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59550
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a mean looking Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object HappyJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59551
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a happy looking Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+		speed 11
+		type 0
+        end
+end
+
+#------------------------------------------------------------
+object ManicalJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59552
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a manical looking Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object WitchJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59553
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a witch Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object CatJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59600
+		value	3000
+		enchantResistance 100
+	end
+
+	base described
+		text "You see a pumpkin carved into a cat face Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object HowlJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59601
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a howling Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object Wheatbale
+	properties
+		name "Festival of Souls Wheat Bale"
+		view	59450
+		value	1
+		enchantResistance 100
+	end
+	base described
+		text "You see bales of wheat and a pumpkin used to mark the parade route for the Festival of Souls."
+		shopText "It's a bunch of wheat. With some work you might be able to bake some bread."
+	end
+end
+
+#------------------------------------------------------------
+object EventMarker of Wheatbale
+            properties
+                        name "Event Marker"
+                        view      59450
+                        value     1
+                        enchantResistance 100
+            end
+            base described
+                        text "You see a collection of harvest items.  There must be a harvest event nearby."
+                        shopText "It's a bunch of wheat. With some work you might be able to bake some bread."
+            end
+end
+
+
+#------------------------------------------------------------
+object CandyHeal
+	properties
+		name "Candy"
+		view	59500
+		value	35
+	end
+
+	actions
+		vBeConsumed castSpell 86 dobj
+	end
+
+	base described
+		text "You see a small handful of sweets."
+		idText "You see Candy of Greater Health.  Eating the candy will heal you."
+		shopText "This is candy. Yum!"
+	end
+        base carryable
+                weight 0.1
+        end
+        base consumable
+                state 1
+        end
+end
+
+#------------------------------------------------------------
+object CandySeeInvis
+	properties
+		name "Candy"
+		view	59500
+		value	10
+	end
+
+	actions
+		vBeConsumed castSpell 12 dobj
+	end
+
+	base described
+		text "You see a small handful of sweets."
+		idText "You see Candy of See Invisible.  Eating it will allow you to temporarily sense invisible players and creatures."
+		shopText "This is candy. Yum!"
+	end
+        base carryable
+                weight 0.1
+        end
+        base consumable
+                state 1
+        end
+end
+
+#------------------------------------------------------------
+object CandyInvis
+	properties
+		name "Candy"
+		view	59500
+		value	35
+	end
+
+	actions
+		vBeConsumed castSpell 14 dobj
+	end
+
+	base described
+		text "You see a small handful of sweets."
+		idText "You see Candy of Invisibility.  Eating this will render you temporarily invisible."
+		shopText "This is candy. Yum!"
+	end
+        base carryable
+                weight 0.1
+        end
+        base consumable
+                state 1
+        end
+end
+
+#------------------------------------------------------------
+object OwlJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59602
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into an owl Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object ShockJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59603
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a shocked faced Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+object SkullJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59700
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a death head Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+#------------------------------------------------------------
+object BatJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59701
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a bat Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+#------------------------------------------------------------
+object FangJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59702
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a fang faced Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+#------------------------------------------------------------
+object SpiderJackolantern of LargePumpkin
+	properties
+		name "Jack O' Lantern"
+		view	59703
+		value	3000
+		enchantResistance 100
+	end
+	base described
+		text "You see a pumpkin carved into a spider Jack O' Lantern."
+		shopText "This is a Jack O' Lantern."
+	end
+        base cycler
+                speed 11
+                type 0
+        end
+end
+
+#------------------------------------------------------------
+
+object RandomJackolantern of LargePumpkin
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+#        MeanJackolantern 		2003
+#        HappyJackolantern 		2003
+#        ManicalJackolantern	2003 
+#        WitchJackolantern 		2003
+#        CatJackolantern 		2003
+#        HowlJackolantern 		2003
+        OwlJackolantern 	#2004
+        SkullJackolantern  	#2004
+        BatJackolantern  	#2004
+        FangJackolantern  	#2004
+        SpiderJackolantern 	#2004
+
+# this Shock Jackolantern is given out randomly in the pumpkin patch
+#       ShockJackolantern  	#2004
+	end
+end
+#------------------------------------------------------------
+

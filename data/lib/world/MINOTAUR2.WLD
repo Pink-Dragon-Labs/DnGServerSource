@@ -1,0 +1,39 @@
+room 800
+   properties
+      picture	3001
+	east 801
+	south 802
+   end
+   atpinfo
+   end
+end
+
+room 801
+   properties
+      picture	3001
+	west 800
+	south 803
+   end
+   atpinfo
+   end
+end
+
+room 802
+   properties
+      picture	3001
+	north 800
+	east 803
+   end
+   atpinfo
+   end
+end
+
+room 803
+   properties
+      picture	3001
+	north 801
+	west 802
+   end
+   atpinfo
+   end
+end

@@ -1,0 +1,19 @@
+quest  152 #6403-01-425        # Deanna, Straight Off the Loom, East Leinster, 6044
+
+name  "A New Pattern"
+type  fedex
+
+proposal  "Romen the Marvelous invented many small items that make our lives easier.  Did you know that?  I wish I could have been a mouse in the corner to watch him work.  I think of inventing a bobbin threader for a loom.  Perhaps I will someday.  Then I might be known as Deanna the Mm-mm-marvelous.  Oh dear, I can't even say that without laughing!  Curious that you are here asking for that amulet because it came into my possession last week.  I'll let you have it if you'll do me a favor.  It would require a trip to Arimathor. Would you consider that?"  
+
+declined  "Come back if you change your mind."
+
+accepted  "My cousin Alysa has a new pattern for me to try on my loom.  I'm absolutely longing to see it, but I can't leave the shop.  Please bring it to me."
+
+reminder   "Alysa in Arimathor has a pattern for me."
+
+completed  "You're back with my pattern!  Thank you, thank you, thank you.  And look at this rose wool!  Before I forget, though, here's the amulet you want."
+
+getItem   qNewPattern
+reward   qAmuletRomen 
+end
+

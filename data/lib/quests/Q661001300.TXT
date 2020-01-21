@@ -1,0 +1,19 @@
+quest  186 #6610-01-300        #Rant, Vlador's Tavern, Caer Fandry, dark elf, 6610
+
+name  "Wasp's Wing"
+type  fedex
+
+proposal  "Want to be an Expert, do we?  Aren't we getting a swell head on us?  There's a book on the topic, dolt-head, a book called Expert Discourse on Traps.  It takes intelligence to understand.  We'll see if you can.  But first, go get me a Wasp's Wing, and mind that it isn't a ragged one, either.  That's the price of the book you need.  Are you going to do it?"
+
+declined  "Huh!  I'm not surprised at anything a dolt-head says."
+
+accepted  "I want a desert type of Wasp's Wing."
+
+reminder   "Get over to Arimathor and find me a Wasp's Wing.  In good condition!"
+
+completed  "You actually got a good one for me, huh.  Take the book and see if you can understand it."
+
+getItem   qWaspWing
+reward   skbTrapsIII 
+end
+

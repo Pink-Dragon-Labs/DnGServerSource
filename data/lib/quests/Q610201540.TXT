@@ -1,0 +1,17 @@
+quest 71 #6102-01-540        # Vigo, Weaponry of Drune, elf, 8305
+
+name  "Advertising for Vigo"
+type  fedex
+
+proposal  "I've got a whole handful of those, friend.  Picked 'em up as a giveaway to my best customers.  I'll give you one if you'll mention my shop in your travels.  What about it?"
+
+declined  "I give good value on all purchases here."
+
+accepted  "Here you are then.  Remember to mention Weaponry of Drune."
+
+reminder   "You're going to remember to mention my shop, aren't you, friend?"
+
+reward  qCarvedGoblin
+end
+
+

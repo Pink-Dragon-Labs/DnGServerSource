@@ -1,0 +1,19 @@
+quest  90 #6211-01-400        #Siei, Murias Armorers, Murias, 6211
+
+name  "Luck Piece of Ancient Warrior"
+type  fedex
+
+proposal  "The maul is a tool few really master, which is a great pity for it is a very important tool.  A warrior with maul skill is invaluable in any situation of danger. The maul requires strength. Further, proper use of the maul bestows more strength.  If you are really serious about this, I will assist you.  First I require you to perform a service.  I wish to secure the luck piece of an ancient warrior recently discovered in Caer Fandry.  Will you do this?" 
+
+declined  "That is not an impressive answer."
+
+accepted  "Begin at once."
+
+reminder   "Go to Caer Fandry and seek the luck piece of an ancient warrior."
+
+completed  "Your success pleases me.  Here is the master skill book you need."
+
+getItem   qLuckPiece
+reward    skbMaulIV
+end
+

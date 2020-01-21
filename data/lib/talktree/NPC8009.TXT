@@ -1,0 +1,17 @@
+id 8009
+
+banner "You've entered the Bloodspot Tavern. What would you like?"
+
+topic "Tell me about Kurz."
+        text "Kurz? Nothing much to tell, I guess. It's no better or worse than most towns. Well, maybe it's worse than some."
+        text "All right, I admit it. It's the worst town in The Realm."
+end
+
+topic "Who are you?"
+        text "I'm no one. I mean, I'm Nanz, wife of the owner of the Bloodspot Tavern."
+        text "I'm expecting him back any minute now, so kindly tell me what you want so's I can get back to work. He's a black temper, he does, and you'll not want to be crossing him."
+end      
+
+topic "Can I do something for you?"
+        text "Do you mean you'd like to perform a quest for which I will reward you? No, not today. Perhaps some other time."
+end

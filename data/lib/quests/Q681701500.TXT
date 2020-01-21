@@ -1,0 +1,19 @@
+quest  215 #6817-01-500       #Aligar, Ali's Weaponry, Arimathor, 6817
+
+name  "Talisman of Freddie the Mellow"
+type  fedex
+
+proposal  "So you're going all the way with this.  Good for you.  I salute your perseverance.  You'll be a credit to the profession.  I'll ask you to seek for an item I've wanted for a long time but have never had the leisure to find. Would you seek the Talisman of Freddie the Mellow for me?"
+
+declined  "I hope you'll reconsider this decision, friend."
+
+accepted  "Good.  Seek in Asgard."
+
+reminder   "Go to Asgard and find the Talisman of Freddie the Mellow."
+
+completed  "This pleases me.  I had a very mellow white pig as a boy, and this talisman reminds me of happy times with him.  Here is the final skill book you require." 
+
+getItem   qTalismanFreddie
+reward    skbThrowingWeaponV 
+end
+

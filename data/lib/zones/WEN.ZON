@@ -1,0 +1,9 @@
+name "wen"
+title "Wen"
+worldFile "../data/lib/world/WENX.WLD"
+worldFile "../data/lib/world/WENINT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 9
+midiFile 9

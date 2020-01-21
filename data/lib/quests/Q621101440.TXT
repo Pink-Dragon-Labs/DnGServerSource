@@ -1,0 +1,16 @@
+quest  94 #6211-01-440        # Iviona, Gatekeeper, Wen, 5105
+
+name  "Delivery for Iviona"
+type  fedex
+
+proposal  "Indeed I do.  She's going to be surprised.  She thinks it is just information, but there is a small blue gemstone in there, the exact color of blue that she likes.  Will you take it to her?"
+
+declined  "That was a strange question, then."
+
+accepted  "Here it is."
+
+reminder   "Don't forget to take that package to Nika."
+
+reward   qNikaPackage 
+end
+

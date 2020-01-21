@@ -1,0 +1,28 @@
+object Sandor of NPC
+	properties
+		name "Sandor"
+		special
+		maxLevel 400
+		minLevel 400
+	end
+	base described	
+		text "You see Sandor, inhabitant of the desert caves."
+	end	
+	base character
+		properName	"Sandor"
+		title "The Cave Dweller"
+	end
+	base talk
+		talkTreeID	8050
+	end
+	base container
+		worn	BlackChainTunic
+		worn	BlackChainPants
+		worn	BlackChainCowl
+		worn	RoyalBoots
+		worn	BlackBelt
+		worn	mwWrath
+		worn	Goldband
+		head	0 1 2 0 6 4 0 0 4 4 1 3 
+	end
+end

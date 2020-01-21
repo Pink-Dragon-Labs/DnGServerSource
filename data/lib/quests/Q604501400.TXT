@@ -1,0 +1,19 @@
+quest  28 # 6045-01-400        #Randa, The Cutting Edge, West Leinster, 6045
+
+name  "Cold Drink Holster"
+type  fedex
+
+proposal  "That's good to hear.  There aren't enough skilled members of our craft, and that's a fact.  With all the smiting that's going on, I figure we're in for a lot of trouble.  We need every weaponsmith we can get.  I'll take you on as apprentice.  Definitely.  First, I want you to go find a new cold drink holster.  I cannot work without my cold water, and I need a new holster.  Will you do that?" 
+
+declined  "You didn't last long."
+
+accepted  "They aren't easy to find.  Look in Monmouth."
+
+reminder   "Fetch a new cold drink holster from Monmouth."
+
+completed  "That's a good holster.  Thanks.  Here's the book you need to study."
+
+getItem   qDrinkHolster
+reward    skbWeaponsmithingIV
+end
+

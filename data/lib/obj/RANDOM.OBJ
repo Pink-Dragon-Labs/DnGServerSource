@@ -1,0 +1,3219 @@
+object RandomStuff of SpellComponent
+	properties
+		random 50
+	end
+
+	base treasure
+		dOlive
+		dLime
+		dBlue
+		dAzure
+		dRed
+		dPink
+		dGold
+		dYellow
+		dViolet
+		dMagenta
+		dBrown
+		dTan
+		dAqua
+		dTeal
+		dGreen
+		dJade
+		dOrange
+		dAmber
+		dRoyal
+		dPurple
+		dBlack
+		dGray
+		dWhite
+		RatGuano
+		RatGuano
+		eLife
+		ePurify
+		eSpoiled
+		Tooth
+		Tooth
+		Finger
+		Finger
+		Rock
+		Rock
+		Rock
+		Leaf
+		Leaf
+		Leaf
+		Clump
+		Clump
+		Clump
+		Basalt
+		Basalt
+		Basalt
+		Basalt
+		Tobac
+		Tobac
+		Tobac
+		Tobac
+		pSwampWater
+		pSwampWater
+		eLife
+		ePurify
+		eSpoiled
+		Pigweed
+		Pigweed
+		Pigweed
+		ElderOak
+		ElderOak
+		ZombieFinger
+		ZombieFinger
+		ZombieFinger
+		GoldNugget
+		GoldNugget
+		ImpGuano
+		ImpGuano
+		eLife
+		ePurify
+		eSpoiled
+		Crystal
+		Crystal
+		Sulfur
+		Sulfur
+		Sulfur
+		Marble
+		Marble
+		Marble
+		RubyChip
+		RubyChip
+		RubyChip
+		Goldenberries
+		Goldenberries
+		Aquamarine
+		Aquamarine
+		Silverthorn
+		Silverthorn
+		Silvergrass
+		Silvergrass
+		Turquoise
+		Turquoise
+		Jet
+		Jet
+		baFire
+		baCold
+		baAcid
+		baLightning
+		baShield
+		baHealth
+		baExperience
+		JawBone
+		JawBone
+		Corbalite
+		Devilweed
+		Devilweed
+		OgreEyeball
+		AmberRod
+		DaemonGuano
+		KilrogEyeball
+		Topaz
+		Emerald
+		Ruby
+		ObsidianDust
+		Diamond
+		MoneyBag 50 100
+		MoneyBag 100 200
+		ManaBag 2 40
+		ManaBag 2 40
+	end
+end
+
+object RandomJunk of Bowl
+	properties
+		random 30
+	end
+
+	base treasure
+		BackPack
+		LeatherPouch
+		Mirror
+		Bowl
+		RedRose
+		WhiteRose
+		BlueRose
+		Chrysanthenum
+		Daisy
+		Drum
+		Flute
+		Strynx
+		Lyre
+		Lute
+		Plate
+		Candle
+		Mug
+		MoneyBag 50 100
+		ManaBag 2 40
+		ManaBag 2 40
+		WeaponsmithTool
+		ArmorerTool
+		AlchemyTool
+#		TrackingTool
+#		HealingTool
+#		TrapDetectTool
+#		Lockpicks
+	end
+end
+
+
+
+object RandomMaterial of Bar
+	properties
+		random 33
+	end
+
+	base treasure
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		ClothBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		LeatherBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		TrollHideBolt
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		MythrilBar
+		MythrilBar
+		ObsidianiteBar
+		AdmantiumBar
+	end
+end
+
+
+object RandomBelt of Belt
+	properties
+		random 50
+	end
+
+	base treasure
+		bStrength
+		bWeakness
+		bLoad
+		bCarrying
+		OliveBelt
+		BlueBelt
+		RedBelt
+		GoldBelt
+		VioletBelt
+		BrownBelt
+		AquaBelt
+		GreenBelt
+		OrangeBelt
+		RoyalBelt
+		BlackBelt
+		GrayBelt
+		WhiteBelt
+		OliveBelt
+		BlueBelt
+		RedBelt
+		GoldBelt
+		VioletBelt
+		BrownBelt
+		AquaBelt
+		GreenBelt
+		OrangeBelt
+		RoyalBelt
+		BlackBelt
+		GrayBelt
+		WhiteBelt
+		OliveBelt
+		BlueBelt
+		RedBelt
+		GoldBelt
+		VioletBelt
+		BrownBelt
+		AquaBelt
+		GreenBelt
+		OrangeBelt
+		RoyalBelt
+		BlackBelt
+		GrayBelt
+		WhiteBelt
+		OliveBelt
+		BlueBelt
+		RedBelt
+		GoldBelt
+		VioletBelt
+		BrownBelt
+		AquaBelt
+		GreenBelt
+		OrangeBelt
+		RoyalBelt
+		BlackBelt
+		GrayBelt
+		WhiteBelt
+		OliveBelt
+		BlueBelt
+		RedBelt
+		GoldBelt
+		VioletBelt
+		BrownBelt
+		AquaBelt
+		GreenBelt
+		OrangeBelt
+		RoyalBelt
+		BlackBelt
+		GrayBelt
+		WhiteBelt
+	end
+end
+
+
+object RandomBoots of HighBoots
+	properties
+		random 50
+	end
+
+	base treasure
+		bDexterity
+		bClumsiness
+		IronSollerets
+		IronSollerets
+		IronSollerets
+		IronSollerets
+		SteelSollerets
+		SteelSollerets
+		SteelSollerets
+		TemperedSteelSollerets
+		OliveBoots
+		LimeBoots
+		BlueBoots
+		AzureBoots
+		RedBoots
+		PinkBoots
+		GoldBoots
+		YellowBoots
+		VioletBoots
+		MagentaBoots
+		BrownBoots
+		TanBoots
+		AquaBoots
+		TealBoots
+		GreenBoots
+		JadeBoots
+		OrangeBoots
+		AmberBoots
+		RoyalBoots
+		PurpleBoots
+		BlackBoots
+		GrayBoots
+		WhiteBoots
+		OliveLeatherBoots
+		LimeLeatherBoots
+		BlueLeatherBoots
+		AzureLeatherBoots
+		RedLeatherBoots
+		PinkLeatherBoots
+		GoldLeatherBoots
+		YellowLeatherBoots
+		VioletLeatherBoots
+		MagentaLeatherBoots
+		BrownLeatherBoots
+		TanLeatherBoots
+		AquaLeatherBoots
+		TealLeatherBoots
+		GreenLeatherBoots
+		JadeLeatherBoots
+		OrangeLeatherBoots
+		AmberLeatherBoots
+		RoyalLeatherBoots
+		PurpleLeatherBoots
+		BlackLeatherBoots
+		GrayLeatherBoots
+		WhiteLeatherBoots
+		RedTrollBoots
+		GoldTrollBoots
+		YellowTrollBoots
+		BrownTrollBoots
+		TanTrollBoots
+		GreenTrollBoots
+		JadeTrollBoots
+		RoyalTrollBoots
+		BlackTrollBoots
+		GrayTrollBoots
+		WhiteTrollBoots
+	end
+end
+
+object RandomCowl of Cowl
+	properties
+		random 50
+	end
+
+	base treasure
+		IronCowl
+		IronCowl
+		IronCowl
+		IronCowl
+		SteelCowl
+		SteelCowl
+		SteelCowl
+		TemperedSteelCowl
+		OliveCowl
+		LimeCowl
+		BlueCowl
+		AzureCowl
+		RedCowl
+		PinkCowl
+		GoldCowl
+		YellowCowl
+		VioletCowl
+		MagentaCowl
+		BrownCowl
+		TanCowl
+		AquaCowl
+		TealCowl
+		GreenCowl
+		JadeCowl
+		OrangeCowl
+		AmberCowl
+		RoyalCowl
+		PurpleCowl
+		BlackCowl
+		GrayCowl
+		WhiteCowl
+		OliveLeatherCowl
+		LimeLeatherCowl
+		BlueLeatherCowl
+		AzureLeatherCowl
+		RedLeatherCowl
+		PinkLeatherCowl
+		GoldLeatherCowl
+		YellowLeatherCowl
+		VioletLeatherCowl
+		MagentaLeatherCowl
+		BrownLeatherCowl
+		TanLeatherCowl
+		AquaLeatherCowl
+		TealLeatherCowl
+		GreenLeatherCowl
+		JadeLeatherCowl
+		OrangeLeatherCowl
+		AmberLeatherCowl
+		RoyalLeatherCowl
+		PurpleLeatherCowl
+		BlackLeatherCowl
+		GrayLeatherCowl
+		WhiteLeatherCowl
+	end
+end
+
+object RandomPants of Pants
+	properties
+		random 80
+	end
+
+	base treasure
+		BluePants
+		RedPants
+		PinkPants
+		GoldPants
+		YellowPants
+		VioletPants
+		MagentaPants
+		BrownPants
+		TanPants
+		TealPants
+		JadePants
+		OrangePants
+		RoyalPants
+		PurplePants
+		BlackPants
+		GrayPants
+		WhitePants
+		OliveLongSkirt
+		AzureLongSkirt
+		RedLongSkirt
+		GoldLongSkirt
+		YellowLongSkirt
+		VioletLongSkirt
+		MagentaLongSkirt
+		TanLongSkirt
+		AquaLongSkirt
+		TealLongSkirt
+		GreenLongSkirt
+		JadeLongSkirt
+		AmberLongSkirt
+		RoyalLongSkirt
+		PurpleLongSkirt
+		GrayLongSkirt
+		OliveShortSkirt
+		AzureShortSkirt
+		RedShortSkirt
+		PinkShortSkirt
+		GoldShortSkirt
+		YellowShortSkirt
+		VioletShortSkirt
+		TanShortSkirt
+		AquaShortSkirt
+		TealShortSkirt
+		AmberShortSkirt
+		RoyalShortSkirt
+		PurpleShortSkirt
+		BlackShortSkirt
+		GrayShortSkirt
+		OliveLeatherPants
+		LimeLeatherPants
+		BlueLeatherPants
+		RedLeatherPants
+		PinkLeatherPants
+		GoldLeatherPants
+		VioletLeatherPants
+		MagentaLeatherPants
+		BrownLeatherPants
+		TanLeatherPants
+		AquaLeatherPants
+		TealLeatherPants
+		GreenLeatherPants
+		JadeLeatherPants
+		OrangeLeatherPants
+		RoyalLeatherPants
+		PurpleLeatherPants
+		BlackLeatherPants
+		WhiteLeatherPants
+		OliveLeatherLongSkirt
+		LimeLeatherLongSkirt
+		BlueLeatherLongSkirt
+		AzureLeatherLongSkirt
+		RedLeatherLongSkirt
+		PinkLeatherLongSkirt
+		YellowLeatherLongSkirt
+		VioletLeatherLongSkirt
+		MagentaLeatherLongSkirt
+		BrownLeatherLongSkirt
+		TanLeatherLongSkirt
+		AquaLeatherLongSkirt
+		GreenLeatherLongSkirt
+		JadeLeatherLongSkirt
+		OrangeLeatherLongSkirt
+		RoyalLeatherLongSkirt
+		PurpleLeatherLongSkirt
+		BlackLeatherLongSkirt
+		WhiteLeatherLongSkirt
+		OliveTrollPants
+		LimeTrollLongSkirt
+		BlueTrollPants
+		AzureTrollPants
+		RedTrollPants
+		PinkTrollLongSkirt
+		VioletTrollPants
+		BrownTrollPants
+		TanTrollPants
+		AquaTrollPants
+		TealTrollLongSkirt
+		GreenTrollLongSkirt
+		JadeTrollLongSkirt
+		OrangeTrollLongSkirt
+		AmberTrollLongSkirt
+		RoyalTrollLongSkirt
+		PurpleTrollLongSkirt
+		BlackTrollPants
+		GrayTrollPants
+		IronChainPants
+		IronChainPants
+		IronChainPants
+		SteelChainPants
+		SteelChainPants
+		SteelChainPants
+		TemperedSteelChainPants
+		TemperedSteelChainPants
+		IronPlatePants
+		IronPlatePants
+		IronPlatePants
+		SteelPlatePants
+		SteelPlatePants
+		SteelPlatePants
+		TemperedSteelPlatePants
+		TemperedSteelPlatePants
+	end
+end
+
+object RandomShirt of Shirt
+	properties
+		random 80
+	end
+
+	base treasure
+		OliveShirt
+		BlueShirt
+		AzureShirt
+		RedShirt
+		PinkShirt
+		GoldShirt
+		YellowShirt
+		MagentaShirt
+		BrownShirt
+		TanShirt
+		AquaShirt
+		GreenShirt
+		JadeShirt
+		OrangeShirt
+		RoyalShirt
+		PurpleShirt
+		BlackShirt
+		GrayShirt
+		WhiteShirt
+		OliveRobe
+		BlueRobe
+		RedRobe
+		GoldRobe
+		YellowRobe
+		MagentaRobe
+		BrownRobe
+		TanRobe
+		AquaRobe
+		TealRobe
+		GreenRobe
+		JadeRobe
+		AmberRobe
+		RoyalRobe
+		BlackRobe
+		GrayRobe
+		WhiteRobe
+		LimeTunic
+		BlueTunic
+		AzureTunic
+		RedTunic
+		PinkTunic
+		YellowTunic
+		VioletTunic
+		BrownTunic
+		AquaTunic
+		TealTunic
+		OrangeTunic
+		PurpleTunic
+		BlackTunic
+		GrayTunic
+		WhiteTunic
+		OliveLeatherShirt
+		BlueLeatherShirt
+		AzureLeatherShirt
+		PinkLeatherShirt
+		GoldLeatherShirt
+		YellowLeatherShirt
+		MagentaLeatherShirt
+		TanLeatherShirt
+		GreenLeatherShirt
+		JadeLeatherShirt
+		RoyalLeatherShirt
+		BlackLeatherShirt
+		GrayLeatherShirt
+		WhiteLeatherShirt
+		LimeTrollTunic
+		BlueTrollTunic
+		AzureTrollTunic
+		RedTrollTunic
+		PinkTrollTunic
+		GoldTrollTunic
+		YellowTrollTunic
+		VioletTrollTunic
+		BrownTrollTunic
+		TanTrollTunic
+		GreenTrollTunic
+		JadeTrollTunic
+		AmberTrollTunic
+		PurpleTrollTunic
+		BlackTrollTunic
+		GrayTrollTunic
+		OliveLeatherTunic
+		LimeLeatherTunic
+		AzureLeatherTunic
+		RedLeatherTunic
+		PinkLeatherTunic
+		GoldLeatherTunic
+		TanLeatherTunic
+		AquaLeatherTunic
+		TealLeatherTunic
+		GreenLeatherTunic
+		AmberLeatherTunic
+		RoyalLeatherTunic
+		GrayLeatherTunic
+		WhiteLeatherTunic
+		IronChainTunic
+		IronChainTunic
+		IronChainTunic
+		IronChainTunic
+		SteelChainTunic
+		SteelChainTunic
+		TemperedSteelChainTunic
+		TemperedSteelChainTunic
+		IronPlateTunic
+		IronPlateTunic
+		IronPlateTunic
+		IronPlateTunic
+		SteelPlateTunic
+		SteelPlateTunic
+		TemperedSteelPlateTunic
+		TemperedSteelPlateTunic
+	end
+end
+
+
+object RandomArmorShirt of SteelChainTunic
+	properties
+		random 50
+	end
+
+	base treasure
+		IronChainTunic
+		IronChainTunic
+		IronChainTunic
+		IronChainTunic
+		SteelChainTunic
+		SteelChainTunic
+		TemperedSteelChainTunic
+		TemperedSteelChainTunic
+		IronPlateTunic
+		IronPlateTunic
+		IronPlateTunic
+		IronPlateTunic
+		SteelPlateTunic
+		SteelPlateTunic
+		TemperedSteelPlateTunic
+		TemperedSteelPlateTunic
+	end
+end
+
+object RandomArmorPants of SteelChainPants
+	properties
+		random 50
+	end
+
+	base treasure
+		IronChainPants
+		IronChainPants
+		IronChainPants
+		SteelChainPants
+		SteelChainPants
+		SteelChainPants
+		TemperedSteelChainPants
+		TemperedSteelChainPants
+		IronPlatePants
+		IronPlatePants
+		IronPlatePants
+		SteelPlatePants
+		SteelPlatePants
+		SteelPlatePants
+		TemperedSteelPlatePants
+		TemperedSteelPlatePants
+	end
+end
+
+object RandomWeapon of Weapon
+	properties
+		random 40
+	end
+
+	base treasure
+		IronThrowingDagger
+		IronClaw
+		IronLongSword
+		IronBroadSword
+		IronTwoHandSword
+		IronShortSword
+		IronDagger
+		IronAxe
+		WoodenClub
+		WoodenMaul
+		IronThrowingDagger
+		IronClaw
+		IronLongSword
+		IronBroadSword
+		IronTwoHandSword
+		IronShortSword
+		IronDagger
+		IronAxe
+		WoodenClub
+		WoodenMaul
+		IronThrowingDagger
+		IronClaw
+		IronLongSword
+		IronBroadSword
+		IronTwoHandSword
+		IronShortSword
+		IronDagger
+		IronAxe
+		WoodenClub
+		WoodenMaul
+		IronThrowingDagger
+		IronClaw
+		IronLongSword
+		IronBroadSword
+		IronTwoHandSword
+		IronShortSword
+		IronDagger
+		IronAxe
+		WoodenClub
+		WoodenMaul
+		SteelThrowingDagger
+		SteelClaw
+		SteelLongSword
+		SteelBroadSword
+		SteelTwoHandSword
+		SteelShortSword
+		SteelDagger
+		SteelAxe
+		SteelClub
+		SteelMaul
+		SteelLongSword
+		SteelBroadSword
+		SteelTwoHandSword
+		SteelShortSword
+		SteelDagger
+		SteelAxe
+		SteelClub
+		SteelMaul
+		TemperedSteelThrowingDagger
+		TemperedSteelClaw
+		TemperedSteelLongSword
+		TemperedSteelBroadSword
+		TemperedSteelTwoHandSword
+		TemperedSteelShortSword
+		TemperedSteelDagger
+		TemperedSteelAxe
+		TemperedSteelClub
+		TemperedSteelMaul
+	end
+end
+
+
+object RandomBand of Wristband
+	properties
+		random 30
+	end
+
+	base treasure
+		Ironband
+		Ironband
+		Ironband
+		Ironband
+		Ironband
+		Ironband
+		Ironband
+		Ironband
+		Steelband
+		Steelband
+		Silverband
+		Silverband
+		Goldband
+		TemperedSteelband
+	end
+end
+
+
+object RandomShield of Shield
+	properties
+		random 30
+	end
+
+	base treasure
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		IronRoundShield
+		SteelRoundShield
+		SteelRoundShield
+		SteelRoundShield
+		TemperedSteelRoundShield
+		IronLargeShield
+		IronLargeShield
+		IronLargeShield
+		IronLargeShield
+		IronLargeShield
+		SteelLargeShield
+		SteelLargeShield
+		TemperedSteelLargeShield
+		LesserWardingShield
+		GreaterWardingShield
+	end
+end
+
+
+object RandomAmulet of Amulet
+	properties
+		random 5
+	end
+
+	base treasure
+		aChoking
+		aClumsiness
+		aColdProtection
+		aCombat
+		aDexterity
+		aDodging
+		aEndurance
+		aFireProtection
+		aGrounding
+		aIntelligence
+		aRetention
+		aStrength
+		aStupidity
+		aWeakness
+		aFreeWill
+		aChoking
+		aDeathProtection
+		ElementalAmuletI
+		ElementalAmuletII
+		ElementalAmuletIII
+		ElementalAmuletIV
+		ThaumaturgyAmuletI
+		ThaumaturgyAmuletII
+		ThaumaturgyAmuletIII
+		ThaumaturgyAmuletIV
+		NecromancyAmuletI
+		NecromancyAmuletII
+		NecromancyAmuletIII
+		NecromancyAmuletIV
+	end
+end
+
+object RandomOrb of Orb
+	properties
+		random 10
+	end
+
+	base treasure
+		oGlass
+		oGlass
+		oGlass
+		oGlass
+		oGroupTeleport
+		oImmolation
+		oFlame
+		oHolding
+		oHealing
+		oGreaterHealing
+		oExtension
+	end
+end
+
+
+object RandomPotion of Potion
+	properties
+		random 50
+	end
+
+	base treasure
+		pWater
+		pWater
+		pWater
+		pSwampWater
+		pSwampWater
+		pSwampWater
+		pClumsiness
+		pCurePoison
+		pCurePoison
+		pDexterity
+		pGreaterHealth
+		pHealth
+		pInvisibility
+		pPain
+		pPoison
+		pRegeneration
+		pSeeInvisibility
+		pStrength
+		pWeakness
+		eLife
+		ePurify
+		eSpoiled
+		eLife
+		ePurify
+		eSpoiled
+		pInvulnerability
+		pFireShield
+		pAcidShield
+		pColdShield
+		pLightningShield
+		pPoisonShield
+		pShift
+		pGreaterInvisibility
+		pDeath
+		pAcidCurse
+		pFireCurse
+		pPoisonCurse
+		pColdCurse
+		pLightningCurse
+		#DuachGem
+		#DespothesGem 
+		#EnidGem 
+	end
+end
+
+
+object RandomRing of Ring
+	properties
+		random 5
+	end
+
+	base treasure
+		rCopper
+		rCopper
+		rCopper
+		rCopper
+		rCopper
+		rEngagement
+		rWedding
+		rWedding2
+		rWedding3
+		rClumsiness
+		rDexterity
+		rEndurance
+		rEternalNourishment
+		rIntelligence
+		rRegeneration
+		rStrength
+		rStupidity
+		rUgly
+		rWeakness
+		#DuachGem
+		#DespothesGem 
+		#EnidGem 
+	end
+end
+
+object RandomScroll of Scroll
+	properties
+		random 30
+	end
+
+	base treasure
+		sPaper
+		sPaper
+		sPaper
+		sPaper
+		sPaper
+		sGreaterShield
+		sIdentify
+		sImmolation
+		sMissileResistance
+		sMonsterSummoningI
+		sMonsterSummoningII
+		sMonsterSummoningIII
+		sResistCold
+		sResistFire
+		sResistLightning
+		sRusting
+		sShield
+		sWraithform
+		#DuachGem
+		#DespothesGem 
+		#EnidGem 
+	end
+end
+
+object RandomBauble of Bauble
+	properties
+		random 30
+	end
+
+	base treasure
+		baFire
+		baCold
+		baAcid
+		baLightning
+		baShield
+		baHealth
+		#DuachGem
+		#DespothesGem 
+		#EnidGem 
+	end
+end
+
+object RandomSkillbook of Skillbook
+	properties
+		random 20
+	end
+
+	base treasure
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		skbShortSwordI
+		skbShortSwordII
+		skbShortSwordIII
+		skbLongSwordI
+		skbLongSwordII
+		skbLongSwordIII
+		skbTwoHandedSwordI
+		skbTwoHandedSwordII
+		skbTwoHandedSwordIII
+		skbDaggerI
+		skbDaggerII
+		skbDaggerIII
+		skbAxeI
+		skbAxeII
+		skbAxeIII
+		skbClubI
+		skbClubII
+		skbClubIII
+		skbMaceI
+		skbMaceII
+		skbMaceIII
+		skbUnarmedCombatI
+		skbUnarmedCombatII
+		skbUnarmedCombatIII
+		skbThrowingWeaponI
+		skbThrowingWeaponII
+		skbThrowingWeaponIII
+		skbAcrobaticI
+		skbAcrobaticII
+		skbAcrobaticIII
+		skbMaulI
+		skbMaulII
+		skbMaulIII
+		skbSorceryI
+		skbSorceryII
+		skbSorceryIII
+		skbElementalismI
+		skbElementalismII
+		skbElementalismIII
+		skbMysticismI
+		skbMysticismII
+		skbMysticismIII
+		skbThaumaturgyI
+		skbThaumaturgyII
+		skbThaumaturgyIII
+		skbNecromancyI
+		skbNecromancyII
+		skbNecromancyIII
+		skbTheurgismI
+		skbTheurgismII
+		skbTheurgismIII
+		skbAlchemyI
+		skbAlchemyII
+		skbAlchemyIII
+		skbWeaponsmithingI
+		skbWeaponsmithingII
+		skbWeaponsmithingIII
+		skbArmorcraftingI
+		skbArmorcraftingII
+		skbArmorcraftingIII
+#		skbTrackingI
+#		skbTrackingII
+#		skbTrackingIII
+#		skbHealingI
+#		skbHealingII
+#		skbHealingIII
+		skbPickpocketingI
+		skbPickpocketingII
+		skbPickpocketingIII
+		skbTrapsI
+		skbTrapsII
+		skbTrapsIII
+		skbLockpickingI
+		skbLockpickingII
+		skbLockpickingIII
+		skbMeditationI
+		skbMeditationII
+		skbMeditationIII
+		skbCriticalStrikingI
+		skbCriticalStrikingII
+		skbCriticalStrikingIII
+		skbShieldUseI
+		skbShieldUseII
+		skbShieldUseIII
+	end
+end
+
+object RandomSorceryI of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbHome
+		spbKillStar
+		spbDispelMagic
+		spbEngrave
+		spbMultiBlade
+		spbGatherTheFellowship
+		spbCornucopia
+		spbImproveArmor
+		spbTeleport
+		spbExtension
+		spbSeeInvisibility
+		spbShift
+		spbInvisibility
+	end
+end
+
+
+object RandomSorceryII of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbUnlock
+		spbCombatTeleport
+		spbTeleportGroup
+		spbPermanency
+		spbRust
+		spbWraithform
+		spbImprovedInvisibility
+		spbEnchantItem
+		spbGreaterIdentify
+		spbElphamesJustice
+		spbMassRust
+	end
+end
+
+object RandomElementalismI of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbFireGrasp
+		spbFlameOrb
+		spbArticGrasp
+		spbIceOrb
+		spbGustOfWind
+		spbSandstorm
+		spbIncinerate
+		spbImmolation
+		spbFlameBlade
+		spbArticCharge
+		spbColdSteel
+		spbSpark
+		spbIceStorm
+		spbStoning
+	end
+end
+
+object RandomElementalismII of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbFireball
+		spbLightningBolt
+		spbFreeze
+		spbCrushingBoulder
+		spbElectricFury
+		spbColdSnap
+		spbEarthquake
+	end
+end
+
+object RandomMysticismI of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbHoldMonster
+		spbPsychicOrb
+		spbConfusion
+		spbMindShackle
+		spbBerserk
+		spbStun
+		spbFumble
+		spbLoyaltyShift
+		spbWarpMind
+		spbSpellBlast
+	end
+end
+
+object RandomMysticismII of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbMassHold
+		spbFear
+		spbMassFumble
+		spbIronChains
+		spbMassBerserk
+		spbMassStun
+		spbMassLoyaltyShift
+	end
+end
+
+object RandomThaumaturgyI of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbLightDart
+		spbNimbility
+		spbEmpower
+		spbMissileResistance
+		spbHeal
+		spbSummonPixie
+		spbPurify
+		spbCurePoison
+		spbGreaterHeal
+		spbRemoveCurse
+		spbSummonFaery
+		spbShield
+	end
+end
+
+object RandomThaumaturgyII of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbGreaterShield
+		spbWrathOfTheGods
+		spbFireShield
+		spbColdShield
+		spbLightningShield
+		spbPoisonShield
+		spbAcidShield
+		spbSummonNymph
+		spbRegeneration
+		spbIndestruction
+		spbInvulnerability
+		spbBanishment
+		spbSummonFaeryQueen
+	end
+end
+
+object RandomNecromancyI of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbAcidSphere
+		spbVenomousTouch
+		spbClumsiness
+		spbPoisonBolt
+		spbEnfeeble
+		spbDrainLife
+		spbSummonZombie
+		spbVenom
+		spbSummonUndead
+		spbAcidRain
+		spbPoisonCurse
+		spbAcidCurse
+		spbFireCurse
+		spbColdCurse
+		spbElectricCurse
+		spbNightFriends
+		spbStealLife
+	end
+end
+
+object RandomNecromancyII of Spellbook
+	properties
+		random 20
+	end
+
+	base treasure
+		spbBlank
+		skbBasketWeaving
+		skbFriends
+		skbPsychology
+		spbDeathTouch
+		spbBanish
+		spbShadowWarrior
+		spbSummonDaemon
+		spbDeathWish
+		spbMassDrain
+	end
+end
+
+object RandomTome of Tome
+	properties
+		random 10
+	end
+
+	base treasure
+		tBook
+		tBook
+		tBook
+		tBook
+	end
+end
+
+object RandomWand of Wand
+	properties
+		random 10
+	end
+
+	base treasure
+		wStick
+		wStick
+		wStick
+		wStick
+		wBerserk
+		wFireballs
+		wLightning
+		wPoisonBolts
+		wRust
+		wStoning
+	end
+end
+
+object RandomRareMegaTreasure of AdmantiumMaul
+	properties
+		random 10
+		special
+	end
+
+	base treasure
+		FinvarraHighBoots
+		FinvarraPack
+		bFinvarra
+		maFinvarraBracers
+		maFinvarraCowl
+		mwDefender
+		mwExecutionersAxe
+		mwBonecrusher
+		mwLifeLeech
+		mwNullsword
+		mwTiwazSword
+		mwUruzDagger
+		mwVulcanEdge
+		mwWrath
+		mwFinvarraClaw
+		mwThiefBlade
+		FinvarraBaldric
+	end
+end
+
+
+object RandomMegaTreasure of AdmantiumMaul
+	properties
+		random 15
+	end
+
+	base treasure
+		WizardCap
+		AdmantiumThrowingDagger
+		AdmantiumClaw
+		AdmantiumLongSword
+		AdmantiumBroadSword
+		AdmantiumTwoHandSword
+		AdmantiumShortSword
+		AdmantiumDagger
+		AdmantiumAxe
+		AdmantiumClub
+		AdmantiumMaul
+		AdmantiumChainTunic
+		AdmantiumPlateTunic
+		AdmantiumCowl
+		AdmantiumRoundShield
+		AdmantiumLargeShield
+		Admantiumband
+		DaemonTooth
+		wRust
+		aChoking
+		mwStinger
+		mwFangblade
+		mwLifeLeech
+		mwVulcanEdge
+		mwNullsword
+		mwWrath
+		mwExecutionersAxe
+		mwBonecrusher
+		mwDefender
+		maDragonPlate
+		maInsulPlate
+		maDensePlate
+		maDenseCowl
+		maDenseGreaves
+		maDenseBoots
+		maDenseBands
+		maBracersOfDefense
+		maInvulPlate
+		ElementalAmuletV
+		ElementalAmuletVI
+		ElementalAmuletVII
+		ElementalAmuletVIII
+		ThaumaturgyAmuletV
+		ThaumaturgyAmuletVI
+		ThaumaturgyAmuletVII
+		ThaumaturgyAmuletVIII
+		NecromancyAmuletV
+		NecromancyAmuletVI
+		NecromancyAmuletVII
+		NecromancyAmuletVIII
+		SlicingBlade
+		HolyMace
+		LesserWardingShield
+		GreaterWardingShield
+		PiercingTine
+		PhasingHelm
+		NightSoulHelmet
+		Hood
+		VikingHelmet
+		NourishHelmet
+		mwTiwazSword
+		mwUruzDagger
+		maFinvarraBracers	#SemiRare
+		FinvarraLowBoots	#SemiRare
+		RandomRareMegaTreasure
+	end
+end
+
+# ***********************************************************
+
+object RandomMazeTreasure of AdmantiumMaul
+	properties
+		random 50
+		special
+	end
+
+	base treasure
+		WizardCap
+		AdmantiumThrowingDagger
+		AdmantiumClaw
+		AdmantiumLongSword
+		AdmantiumBroadSword
+		AdmantiumTwoHandSword
+		AdmantiumShortSword
+		AdmantiumDagger
+		AdmantiumAxe
+		AdmantiumClub
+		AdmantiumMaul
+		AdmantiumChainTunic
+		AdmantiumPlateTunic
+		AdmantiumCowl
+		AdmantiumRoundShield
+		AdmantiumLargeShield
+		Admantiumband
+		DaemonTooth
+		wRust
+		aChoking
+		mwStinger
+		mwFangblade
+		mwLifeLeech
+		mwVulcanEdge
+		mwNullsword
+		mwWrath
+		mwExecutionersAxe
+		mwDefender
+		maDragonPlate
+		maInsulPlate
+		maDensePlate
+		maDenseCowl
+		maDenseGreaves
+		maDenseBoots
+		maDenseBands
+		maBracersOfDefense
+		maInvulPlate
+		ElementalAmuletV
+		ElementalAmuletVI
+		ElementalAmuletVII
+		ElementalAmuletVIII
+		ThaumaturgyAmuletV
+		ThaumaturgyAmuletVI
+		ThaumaturgyAmuletVII
+		ThaumaturgyAmuletVIII
+		NecromancyAmuletV
+		NecromancyAmuletVI
+		NecromancyAmuletVII
+		NecromancyAmuletVIII
+		SlicingBlade
+		HolyMace
+		LesserWardingShield
+		GreaterWardingShield
+		PiercingTine
+		PhasingHelm
+		NightSoulHelmet
+		Hood
+		VikingHelmet
+		NourishHelmet
+		mwTiwazSword
+		mwUruzDagger
+		maFinvarraBracers	#SemiRare
+		FinvarraLowBoots	#SemiRare
+		RandomRareMegaTreasure
+	end
+end
+
+# ************************************************************
+
+object RandomSmallMoney of MoneyBag
+	properties
+		random 25
+	end
+
+	base treasure
+		MoneyBag 10 50
+		MoneyBag 10 50
+		MoneyBag 10 50
+		MoneyBag 10 50
+		MoneyBag 50 150
+		ManaBag 2 10
+		ManaBag 2 15
+		ManaBag 2 15
+		ManaBag 2 15
+		ManaBag 10 30
+	end
+end
+
+object RandomMoreMoney of MoneyBag
+	properties
+		random 25
+	end
+
+	base treasure
+		MoneyBag 100 200
+		MoneyBag 100 200
+		MoneyBag 100 200
+		MoneyBag 100 200
+		MoneyBag 200 500
+		ManaBag 10 30
+		ManaBag 10 35
+		ManaBag 10 35
+		ManaBag 10 35
+		ManaBag 30 50
+	end
+end
+
+object RandomMegaMoney of MoneyBag
+	properties
+		random 25
+	end
+
+	base treasure
+		MoneyBag 200 500
+		MoneyBag 200 500
+		MoneyBag 200 500
+		MoneyBag 200 500
+		MoneyBag 500 1000
+		ManaBag 20 150
+		ManaBag 20 150
+		ManaBag 20 150
+		ManaBag 20 150
+		ManaBag 100 300
+	end
+end
+
+object RandomGem of Diamond
+	properties
+		random 25
+	end
+
+	base treasure
+		Crystal
+		RubyChip
+		Aquamarine
+		Turquoise
+		Topaz
+		Emerald
+		Ruby
+		Jet
+		Diamond
+		#DuachGem
+		#DespothesGem 
+		#EnidGem 
+	end
+end
+
+
+object RandomMonsterBauble of RandomBauble
+	properties
+		random 1
+	end
+end
+
+object RandomMonsterWand of RandomWand
+	properties
+		random 1
+	end
+end
+
+object RandomMonsterRing of RandomRing
+	properties
+		random 1
+	end
+end
+
+object RandomMonsterOrb of RandomOrb
+	properties
+		random 1
+	end
+end
+
+object RandomMonsterTome of RandomTome
+	properties
+		random 1
+	end
+end
+
+object RandomMonsterMegaTreasure of RandomMegaTreasure
+	properties
+		random 1
+	end
+end
+
+object RandomMonsterAmulet of RandomAmulet
+	properties
+		random 1
+	end
+end
+
+object RandomLeatherPants of Pants
+	properties
+		random 100
+	end
+
+	base treasure
+		BrownLeatherPants
+		TanLeatherPants
+		GrayLeatherPants
+		BlackLeatherPants
+	end
+end
+
+object RandomLeatherShirt of Shirt
+	properties
+		random 100
+	end
+
+	base treasure
+		GoldLeatherShirt
+		TanLeatherShirt
+		GreenLeatherShirt
+		GoldLeatherShirt
+		TanLeatherShirt
+		GreenLeatherShirt
+		RoyalLeatherShirt
+		GrayLeatherShirt
+		WhiteLeatherShirt
+		GrayLeatherShirt
+		WhiteLeatherShirt
+		GrayLeatherShirt
+		WhiteLeatherShirt
+		OliveLeatherTunic
+		BlueLeatherTunic
+		RedLeatherTunic
+		GoldLeatherTunic
+		BrownLeatherTunic
+		BrownLeatherTunic
+		TanLeatherTunic
+		TealLeatherTunic
+		GreenLeatherTunic
+		GreenLeatherTunic
+		BlackLeatherTunic
+		GrayLeatherTunic
+		WhiteLeatherTunic
+		OliveTrollTunic
+		BlueTrollTunic
+		RedTrollTunic
+		GoldTrollTunic
+		BrownTrollTunic
+		BrownTrollTunic
+		TanTrollTunic
+		TealTrollTunic
+		GreenTrollTunic
+		GreenTrollTunic
+		BlackTrollTunic
+		GrayTrollTunic
+		WhiteTrollTunic
+	end
+end
+
+object RandomLeatherBoots of HighBoots
+	properties
+		random 100
+	end
+
+	base treasure
+		BrownLeatherBoots
+		TanLeatherBoots
+		BlackLeatherBoots
+		GrayLeatherBoots
+	end
+end
+
+object RandomBracers of Ironband
+	properties
+		random 60
+	end
+
+	base treasure
+		Ironband
+		Steelband
+		Steelband
+		Silverband
+		Silverband
+		Goldband 
+		Goldband 
+		TemperedSteelband
+		TemperedSteelband
+		Mythrilband 
+	end
+end
+
+object RandomChainCowl of Cowl
+	properties
+		random 70
+	end
+
+	base treasure
+		IronCowl
+		SteelCowl
+		TemperedSteelCowl
+	end
+end
+
+object RandomChainPants of Pants
+	properties
+		random 100
+	end
+
+	base treasure
+		IronChainPants
+		SteelChainPants
+		TemperedSteelChainPants
+	end
+end
+
+object RandomChainShirt of Shirt
+	properties
+		random 100
+	end
+
+	base treasure
+		IronChainTunic
+		SteelChainTunic
+		TemperedSteelChainTunic
+	end
+end
+
+object RandomPlateCowl of Cowl
+	properties
+		random 60
+	end
+
+	base treasure
+		MythrilCowl
+		ObsidianiteCowl
+	end
+end
+object RandomPlatePants of Pants
+	properties
+		random 100
+	end
+
+	base treasure
+		IronPlatePants
+		SteelPlatePants
+		TemperedSteelPlatePants
+	end
+end
+
+object RandomPlateShirt of Shirt
+	properties
+		random 100
+	end
+
+	base treasure
+		IronPlateTunic
+		SteelPlateTunic
+		TemperedSteelPlateTunic
+	end
+end
+
+object RandomPlateBoots of HighBoots
+	properties
+		random 100
+	end
+
+	base treasure
+		IronSollerets
+		SteelSollerets
+		TemperedSteelSollerets
+	end
+end
+
+object RandomPoorThiefWeapon of Dagger
+	properties
+		random 100
+	end
+
+	base treasure
+		SteelDagger
+		SteelThrowingDagger
+		SteelShortSword
+	end
+end
+
+object RandomRichThiefWeapon of Dagger
+	properties
+		random 100
+	end
+
+	base treasure
+		TemperedSteelDagger
+		TemperedSteelThrowingDagger
+		TemperedSteelShortSword
+		MythrilDagger
+		MythrilThrowingDagger
+		MythrilShortSword
+		ObsidianiteDagger
+		ObsidianiteThrowingDagger
+		ObsidianiteShortSword
+	end
+end
+
+object RandomPoorWarriorWeapon of LongSword
+	properties
+		random 100
+	end
+
+	base treasure
+		SteelLongSword
+		SteelTwoHandSword
+		SteelAxe
+		SteelMaul
+		TemperedSteelLongSword
+		TemperedSteelTwoHandSword
+		TemperedSteelAxe
+		TemperedSteelMaul
+	end
+end
+
+object RandomRichWarriorWeapon of LongSword
+	properties
+		random 100
+	end
+
+	base treasure
+		MythrilLongSword
+		MythrilTwoHandSword
+		MythrilAxe
+		MythrilMaul
+		ObsidianiteLongSword
+		ObsidianiteTwoHandSword
+		ObsidianiteAxe
+		ObsidianiteMaul
+	end
+end
+
+object RandomRareMagicHelm of Helmet
+	properties
+		special
+		random 3
+	end
+
+	base treasure
+		Bandanna  		#non-magical
+		Bandanna  		#non-magical
+		Bandanna  		#non-magical
+		Bandanna  		#non-magical
+		Bandanna  		#non-magical
+		Hood 			#non-magical
+		Hood 			#non-magical
+		Hood 			#non-magical
+		Hood 			#non-magical
+		Hood 			#non-magical
+		HuntressHelmet  	#non-magical
+		HuntressHelmet  	#non-magical
+		HuntressHelmet  	#non-magical
+		HuntressHelmet  	#non-magical
+		HuntressHelmet  	#non-magical
+		NightSoulHelmet  	#non-magical
+		NightSoulHelmet  	#non-magical
+		NightSoulHelmet  	#non-magical
+		NightSoulHelmet  	#non-magical
+		NightSoulHelmet  	#non-magical
+		RaptorHelmet  		#non-magical
+		RaptorHelmet  		#non-magical
+		RaptorHelmet  		#non-magical
+		RaptorHelmet  		#non-magical
+		RaptorHelmet  		#non-magical
+		KhanHelmet
+		FiannaHelmet 
+		ConquererHelmet 
+		BerserkHelmet
+		RandomRareMegaTreasure
+	end
+end
+
+object RandomSemiRareMagicHelm of Helmet
+	properties
+		special
+		random 5
+	end
+
+	base treasure
+		Bandanna 	#non-magical
+		Bandanna 	#non-magical
+		Bandanna 	#non-magical
+		Hood 		#non-magical
+		Hood 		#non-magical
+		Hood 		#non-magical
+		Hood 		#non-magical
+		HuntressHelmet 	#non-magical
+		HuntressHelmet 	#non-magical
+		HuntressHelmet 	#non-magical
+		HuntressHelmet 	#non-magical
+		NightSoulHelmet #non-magical
+		NightSoulHelmet #non-magical
+		NightSoulHelmet #non-magical
+		NightSoulHelmet #non-magical
+		RaptorHelmet 	#non-magical
+		RaptorHelmet 	#non-magical
+		RaptorHelmet 	#non-magical
+		RaptorHelmet 	#non-magical
+		ShiftHood
+		MageHat 
+		IntellHelmet 
+		JesterHat 
+		LadyRealmHat 
+		LegionWarriorHelmet 
+		MinervaWarriorHelmet 
+		RandomRareMagicHelm
+        NightmareHelmet
+	end
+end
+
+object RandomCommonMagicHelm of Helmet
+	properties
+		special
+		random 7
+	end
+
+	base treasure
+		Bandanna 	#non-magical
+		Bandanna 	#non-magical
+		Hood 		#non-magical
+		Hood 		#non-magical
+		HuntressHelmet 	#non-magical
+		HuntressHelmet 	#non-magical
+		NightSoulHelmet	#non-magical
+		NightSoulHelmet	#non-magical
+		RaptorHelmet 	#non-magical
+		RaptorHelmet 	#non-magical
+		NourishHelmet
+		NourishHelmet
+		DefenseHelmet
+		RangerHelmet 
+		PredatorHelmet 
+		RandomSemiRareMagicHelm
+	end
+end
+
+object RandomRareHelmet of Helmet
+# Rare helms
+	properties
+		special
+		random 4
+	end
+
+	base treasure
+		Bandanna 
+		Bandanna 
+		Hood
+		Hood
+		HuntressHelmet 
+		HuntressHelmet 
+		NightSoulHelmet 
+		NightSoulHelmet 
+		RaptorHelmet 
+		RaptorHelmet 
+		UplanderHelmet 
+		UplanderHelmet 
+		RandomCommonMagicHelm
+	end
+end
+
+object RandomSemiRareHelmet of Helmet
+# Semi-rare helms
+	properties
+		special
+		random 7
+	end
+ 
+	base treasure
+		AdmantiumLegionHelmet #1
+		AdmantiumLegionHelmet #2
+		AdmantiumLegionHelmet #3
+		AdmantiumLegionHelmet #4
+		AdmantiumLegionHelmet #5
+		AdmantiumLegionHelmet #6
+		AdmantiumLegionHelmet #7
+		AdmantiumLegionHelmet #8
+		AdmantiumLegionHelmet #9
+		AdmantiumLegionHelmet #10
+		AdmantiumLegionHelmet #11
+		AdmantiumMinervaHelmet #1
+		AdmantiumMinervaHelmet #2
+		AdmantiumMinervaHelmet #3
+		AdmantiumMinervaHelmet #4
+		AdmantiumMinervaHelmet #5
+		AdmantiumMinervaHelmet #6
+		AdmantiumMinervaHelmet #7
+		AdmantiumMinervaHelmet #8
+		AdmantiumMinervaHelmet #9
+		AdmantiumMinervaHelmet #10
+		AdmantiumMinervaHelmet #11
+		CenturionHelmet  #1
+		CenturionHelmet  #2
+		CenturionHelmet  #3
+		CenturionHelmet  #4
+		CenturionHelmet  #5
+		CenturionHelmet  #6
+		CenturionHelmet  #7
+		CenturionHelmet  #8
+		CenturionHelmet  #9
+		CenturionHelmet  #10
+		CenturionHelmet  #11
+		DruidHelmet  #1
+		DruidHelmet  #2
+		DruidHelmet  #3
+		DruidHelmet  #4
+		DruidHelmet  #5
+		DruidHelmet  #6
+		DruidHelmet  #7
+		DruidHelmet  #8
+		DruidHelmet  #9
+		DruidHelmet  #10
+		ObsidianiteLegionHelmet  #1
+		ObsidianiteLegionHelmet  #2
+		ObsidianiteLegionHelmet  #3
+		ObsidianiteLegionHelmet  #4
+		ObsidianiteLegionHelmet  #5
+		ObsidianiteLegionHelmet  #6
+		ObsidianiteLegionHelmet  #7
+		ObsidianiteLegionHelmet  #8
+		ObsidianiteLegionHelmet  #9
+		ObsidianiteLegionHelmet  #10
+		ObsidianiteLegionHelmet  #11
+		ObsidianiteMinervaHelmet #1
+		ObsidianiteMinervaHelmet #2
+		ObsidianiteMinervaHelmet #3
+		ObsidianiteMinervaHelmet #4
+		ObsidianiteMinervaHelmet #5
+		ObsidianiteMinervaHelmet #6
+		ObsidianiteMinervaHelmet #7
+		ObsidianiteMinervaHelmet #8
+		ObsidianiteMinervaHelmet #9
+		ObsidianiteMinervaHelmet #10
+		ObsidianiteMinervaHelmet #11
+		SaurianHelmet #1
+		SaurianHelmet #2
+		SaurianHelmet #3
+		SaurianHelmet #4
+		SaurianHelmet #5
+		SaurianHelmet #6
+		SaurianHelmet #7
+		SaurianHelmet #8
+		SaurianHelmet #9
+		SaurianHelmet #10
+		TribuneHelmet #1
+		TribuneHelmet #2
+		TribuneHelmet #3
+		TribuneHelmet #4
+		TribuneHelmet #5
+		TribuneHelmet #6
+		TribuneHelmet #7
+		TribuneHelmet #8
+		TribuneHelmet #9
+		TribuneHelmet #10
+		TribuneHelmet #11
+		VikingHelmet #1
+		VikingHelmet #2
+		VikingHelmet #3
+		VikingHelmet #4
+		VikingHelmet #5
+		VikingHelmet #6
+		VikingHelmet #7
+		VikingHelmet #8
+		VikingHelmet #9
+		VikingHelmet #10
+		VikingHelmet #11
+		IdiotHat #1
+		IdiotHat #2
+		IdiotHat #3
+		IdiotHat #4
+		CourtierHat #1
+		CourtierHat #2
+		CourtierHat #3
+		CourtierHat #4
+		RandomRareHelmet
+	end
+end
+ 
+object RandomCommonHelmet of Helmet
+# Common helms
+	properties
+		special
+		random 10
+	end
+ 
+	base treasure
+		IronHelmet  #1
+		IronHelmet  #2
+		IronHelmet  #3
+		IronHelmet  #4
+		IronHelmet  #5
+		IronHelmet  #6
+		IronHelmet  #7
+		IronHelmet  #8
+		IronHelmet  #9
+		IronHelmet  #10
+		IronLegionHelmet  #1
+		IronLegionHelmet  #2
+		IronLegionHelmet  #3
+		IronLegionHelmet  #4
+		IronLegionHelmet  #5
+		IronLegionHelmet  #6
+		IronLegionHelmet  #7
+		IronLegionHelmet  #8
+		IronLegionHelmet  #9
+		IronLegionHelmet  #10
+		IronMinervaHelmet  #1
+		IronMinervaHelmet  #2
+		IronMinervaHelmet  #3
+		IronMinervaHelmet  #4
+		IronMinervaHelmet  #5
+		IronMinervaHelmet  #6
+		IronMinervaHelmet  #7
+		IronMinervaHelmet  #8
+		IronMinervaHelmet  #9
+		IronMinervaHelmet  #10
+		MythrilHelmet  #1
+		MythrilHelmet  #2
+		MythrilHelmet  #3
+		MythrilHelmet  #4
+		MythrilHelmet  #5
+		MythrilHelmet  #6
+		MythrilHelmet  #7
+		MythrilHelmet  #8
+		MythrilHelmet  #9
+		MythrilHelmet  #10
+		MythrilLegionHelmet #1
+		MythrilLegionHelmet #2
+		MythrilLegionHelmet #3
+		MythrilLegionHelmet #4
+		MythrilLegionHelmet #5
+		MythrilLegionHelmet #6
+		MythrilLegionHelmet #7
+		MythrilLegionHelmet #8
+		MythrilLegionHelmet #9
+		MythrilLegionHelmet #10
+		MythrilMinervaHelmet #1
+		MythrilMinervaHelmet #2
+		MythrilMinervaHelmet #3
+		MythrilMinervaHelmet #4
+		MythrilMinervaHelmet #5
+		MythrilMinervaHelmet #6
+		MythrilMinervaHelmet #7
+		MythrilMinervaHelmet #8
+		MythrilMinervaHelmet #9
+		MythrilMinervaHelmet #10
+		TemperedSteelHelmet  #1
+		TemperedSteelHelmet  #2
+		TemperedSteelHelmet  #3
+		TemperedSteelHelmet  #4
+		TemperedSteelHelmet  #5
+		TemperedSteelHelmet  #6
+		TemperedSteelHelmet  #7
+		TemperedSteelHelmet  #8
+		TemperedSteelHelmet  #9
+		TemperedSteelHelmet  #10
+		TemperedSteelLegionHelmet  #1
+		TemperedSteelLegionHelmet  #2
+		TemperedSteelLegionHelmet  #3
+		TemperedSteelLegionHelmet  #4
+		TemperedSteelLegionHelmet  #5
+		TemperedSteelLegionHelmet  #6
+		TemperedSteelLegionHelmet  #7
+		TemperedSteelLegionHelmet  #8
+		TemperedSteelLegionHelmet  #9
+		TemperedSteelLegionHelmet  #10
+		TemperedSteelMinervaHelmet #1
+		TemperedSteelMinervaHelmet #2
+		TemperedSteelMinervaHelmet #3
+		TemperedSteelMinervaHelmet #4
+		TemperedSteelMinervaHelmet #5
+		TemperedSteelMinervaHelmet #6
+ 		TemperedSteelMinervaHelmet #7
+		TemperedSteelMinervaHelmet #8
+		TemperedSteelMinervaHelmet #9
+		TemperedSteelMinervaHelmet #10
+		WizardCap  #1
+		WizardCap  #2
+		WizardCap  #3
+		WizardCap  #4
+		WizardCap  #5
+		WizardCap  #6
+		WizardCap  #7
+		WizardCap  #8
+		WizardCap  #9
+		WizardCap  #10
+		RandomSemiRareHelmet
+	end
+end
+
+object EvilMinionTreasure of Shirt
+	properties
+		special
+		random 75
+	end
+
+	base treasure
+		#EvilMinionTunic
+		AdmantiumAxe
+		AdmantiumBroadSword
+		AdmantiumChainPants
+		AdmantiumChainTunic
+		AdmantiumClaw
+		AdmantiumClub
+		AdmantiumCowl
+		AdmantiumDagger
+		AdmantiumLargeShield
+		AdmantiumLongSword
+		AdmantiumMace
+		AdmantiumMaul
+		AdmantiumPlatePants
+		AdmantiumPlateTunic
+		AdmantiumRoundShield
+		AdmantiumShortSword
+		AdmantiumSollerets
+		AdmantiumThrowingDagger
+		AdmantiumTwoHandSword
+		MythrilAxe
+		MythrilChainPants
+		MythrilChainTunic
+		MythrilCowl
+		MythrilDagger
+		MythrilLargeShield
+		MythrilLongSword
+		MythrilMaul
+		MythrilPlatePants
+		MythrilPlateTunic
+		MythrilRoundShield
+		MythrilShortSword
+		MythrilSollerets
+		MythrilThrowingDagger
+		MythrilTwoHandSword
+		ObsidianiteAxe
+		ObsidianiteChainPants
+		ObsidianiteChainTunic
+		ObsidianiteCowl
+		ObsidianiteDagger
+		ObsidianiteLargeShield
+		ObsidianiteLongSword
+		ObsidianiteMaul
+		ObsidianitePlatePants
+		ObsidianitePlateTunic
+		ObsidianiteRoundShield
+		ObsidianiteShortSword
+		ObsidianiteSollerets
+		ObsidianiteThrowingDagger
+		ObsidianiteTwoHandSword
+		RandomCommonHelmet
+		RandomMegaMoney
+		RandomMegaMoney
+		RandomMegaTreasure
+		RandomRareMegaTreasure
+		RandomSemiRareHelmet
+		mwFinvarraClaw
+		mwThiefBlade
+		FinvarraBaldric
+	end
+end
+
+object ProtectorTreasure of Shirt
+	properties
+		special
+		random 75
+	end
+
+	base treasure
+		#ProtectorTunic
+		AdmantiumAxe
+		AdmantiumBroadSword
+		AdmantiumChainPants
+		AdmantiumChainTunic
+		AdmantiumClaw
+		AdmantiumClub
+		AdmantiumCowl
+		AdmantiumDagger
+		AdmantiumLargeShield
+		AdmantiumLongSword
+		AdmantiumMace
+		AdmantiumMaul
+		AdmantiumPlatePants
+		AdmantiumPlateTunic
+		AdmantiumRoundShield
+		AdmantiumShortSword
+		AdmantiumSollerets
+		AdmantiumThrowingDagger
+		AdmantiumTwoHandSword
+		MythrilAxe
+		MythrilChainPants
+		MythrilChainTunic
+		MythrilCowl
+		MythrilDagger
+		MythrilLargeShield
+		MythrilLongSword
+		MythrilMaul
+		MythrilPlatePants
+		MythrilPlateTunic
+		MythrilRoundShield
+		MythrilShortSword
+		MythrilSollerets
+		MythrilThrowingDagger
+		MythrilTwoHandSword
+		ObsidianiteAxe
+		ObsidianiteChainPants
+		ObsidianiteChainTunic
+		ObsidianiteCowl
+		ObsidianiteDagger
+		ObsidianiteLargeShield
+		ObsidianiteLongSword
+		ObsidianiteMaul
+		ObsidianitePlatePants
+		ObsidianitePlateTunic
+		ObsidianiteRoundShield
+		ObsidianiteShortSword
+		ObsidianiteSollerets
+		ObsidianiteThrowingDagger
+		ObsidianiteTwoHandSword
+		RandomCommonHelmet
+		RandomMegaMoney
+		RandomMegaMoney
+		RandomMegaTreasure
+		RandomRareMegaTreasure
+		RandomSemiRareHelmet
+		mwFinvarraClaw
+		mwThiefBlade
+		FinvarraBaldric
+	end
+end
+
+object ChampionTreasure of Shirt
+	properties
+		special
+		random 75
+	end
+
+	base treasure
+		#ChampionTunic
+		AdmantiumAxe
+		AdmantiumBroadSword
+		AdmantiumChainPants
+		AdmantiumChainTunic
+		AdmantiumClaw
+		AdmantiumClub
+		AdmantiumCowl
+		AdmantiumDagger
+		AdmantiumLargeShield
+		AdmantiumLongSword
+		AdmantiumMace
+		AdmantiumMaul
+		AdmantiumPlatePants
+		AdmantiumPlateTunic
+		AdmantiumRoundShield
+		AdmantiumShortSword
+		AdmantiumSollerets
+		AdmantiumThrowingDagger
+		AdmantiumTwoHandSword
+		MythrilAxe
+		MythrilChainPants
+		MythrilChainTunic
+		MythrilCowl
+		MythrilDagger
+		MythrilLargeShield
+		MythrilLongSword
+		MythrilMaul
+		MythrilPlatePants
+		MythrilPlateTunic
+		MythrilRoundShield
+		MythrilShortSword
+		MythrilSollerets
+		MythrilThrowingDagger
+		MythrilTwoHandSword
+		ObsidianiteAxe
+		ObsidianiteChainPants
+		ObsidianiteChainTunic
+		ObsidianiteCowl
+		ObsidianiteDagger
+		ObsidianiteLargeShield
+		ObsidianiteLongSword
+		ObsidianiteMaul
+		ObsidianitePlatePants
+		ObsidianitePlateTunic
+		ObsidianiteRoundShield
+		ObsidianiteShortSword
+		ObsidianiteSollerets
+		ObsidianiteThrowingDagger
+		ObsidianiteTwoHandSword
+		RandomCommonHelmet
+		RandomSemiRareHelmet
+		RandomMegaMoney
+		RandomMegaMoney
+		RandomMegaTreasure
+		RandomRareMegaTreasure
+		mwFinvarraClaw
+		mwThiefBlade
+		FinvarraBaldric
+	end
+end
+
+object MistTreasureI of Shirt
+	properties
+		special
+		random 60
+	end
+
+	base treasure
+		ManaBag 200 900
+		ManaBag 90 150
+		ManaBag 90 150
+		MoneyBag 300 800
+		MoneyBag 300 800
+		MoneyBag 900 4500
+		MythrilAxe
+		MythrilChainPants
+		MythrilChainTunic
+		MythrilCowl
+		MythrilDagger
+		MythrilLargeShield
+		MythrilLongSword
+		MythrilMaul
+		MythrilPlatePants
+		MythrilPlateTunic
+		MythrilRoundShield
+		MythrilShortSword
+		MythrilSollerets
+		MythrilThrowingDagger
+		MythrilTwoHandSword
+		ObsidianiteAxe
+		ObsidianiteChainPants
+		ObsidianiteChainTunic
+		ObsidianiteCowl
+		ObsidianiteDagger
+		ObsidianiteLargeShield
+		ObsidianiteLongSword
+		ObsidianiteMaul
+		ObsidianitePlatePants
+		ObsidianitePlateTunic
+		ObsidianiteRoundShield
+		ObsidianiteShortSword
+		ObsidianiteSollerets
+		ObsidianiteThrowingDagger
+		ObsidianiteTwoHandSword
+		RandomCommonHelmet
+		RandomMegaTreasure
+		mwFinvarraClaw
+		mwThiefBlade
+	end
+end
+
+object MistTreasureII of Shirt
+	properties
+		special
+		random 50
+	end
+
+	base treasure
+		AdmantiumAxe
+		AdmantiumBroadSword
+		AdmantiumChainPants
+		AdmantiumChainTunic
+		AdmantiumClaw
+		AdmantiumClub
+		AdmantiumCowl
+		AdmantiumDagger
+		AdmantiumLargeShield
+		AdmantiumLongSword
+		AdmantiumMace
+		AdmantiumMaul
+		AdmantiumPlatePants
+		AdmantiumPlateTunic
+		AdmantiumRoundShield
+		AdmantiumShortSword
+		AdmantiumSollerets
+		AdmantiumThrowingDagger
+		AdmantiumTwoHandSword
+		ManaBag 120 250
+		ManaBag 120 250
+		ManaBag 250 1500
+		MoneyBag 1000 5000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MythrilAxe
+		MythrilChainPants
+		MythrilChainTunic
+		MythrilCowl
+		MythrilDagger
+		MythrilLargeShield
+		MythrilLongSword
+		MythrilMaul
+		MythrilPlatePants
+		MythrilPlateTunic
+		MythrilRoundShield
+		MythrilShortSword
+		MythrilSollerets
+		MythrilThrowingDagger
+		MythrilTwoHandSword
+		ObsidianiteAxe
+		ObsidianiteChainPants
+		ObsidianiteChainTunic
+		ObsidianiteCowl
+		ObsidianiteDagger
+		ObsidianiteLargeShield
+		ObsidianiteLongSword
+		ObsidianiteMaul
+		ObsidianitePlatePants
+		ObsidianitePlateTunic
+		ObsidianiteRoundShield
+		ObsidianiteShortSword
+		ObsidianiteSollerets
+		ObsidianiteThrowingDagger
+		ObsidianiteTwoHandSword
+		RandomMegaTreasure
+		RandomRareMegaTreasure
+		RandomSemiRareHelmet
+		mwFinvarraClaw
+		mwThiefBlade
+	end
+end
+
+#------------------------------------------------------------
+object RandomPack of BackPack
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		OlivePack
+		LimePack
+		BluePack
+		AzurePack
+		RedPack
+		PinkPack
+		GoldPack
+		YellowPack
+		VioletPack
+		MagentaPack
+		BrownPack
+		TanPack
+		AquaPack
+		GreenPack
+		JadePack
+		OrangePack
+		AmberPack
+		PurplePack
+		GrayPack
+		WhitePack
+		RoyalPack
+		BlackPack
+		TealPack
+	end
+end
+
+#------------------------------------------------------------
+object RandomIdiotHat of IdiotHat
+	properties
+		special
+		random 100
+	end
+
+	base treasure
+		OliveIdiotHat
+		LimeIdiotHat
+		BlueIdiotHat
+		AzureIdiotHat
+		RedIdiotHat
+		PinkIdiotHat
+		GoldIdiotHat
+		YellowIdiotHat
+		VioletIdiotHat
+		MagentaIdiotHat
+		BrownIdiotHat
+		TanIdiotHat
+		AquaIdiotHat
+		GreenIdiotHat
+		JadeIdiotHat
+		OrangeIdiotHat
+		AmberIdiotHat
+		PurpleIdiotHat
+		GrayIdiotHat
+		WhiteIdiotHat
+		RoyalIdiotHat
+		BlackIdiotHat
+		TealIdiotHat
+	end
+end
+
+#------------------------------------------------------------
+object AnvilBrassTreasureChest of AdmantiumMaul
+	properties
+		random 20
+		special
+	end
+
+	base treasure
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		MoneyBag 500 1000
+		mwBonecrusher
+		mwExecutionersAxe
+		mwExecutionersAxe
+		mwExecutionersAxe
+		mwTiwazSword
+		mwTiwazSword
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomRareMegaTreasure
+		RandomRareMegaTreasure
+		RandomRareMegaTreasure
+		RandomRareMegaTreasure
+		RandomMegaTreasure
+		RandomMegaTreasure
+		RandomMegaTreasure
+		RandomMegaTreasure
+		RandomRareMagicHelm
+		RandomRareMagicHelm
+		RandomRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+	end
+end
+
+#------------------------------------------------------------
+object AnvilBronzeTreasureChest of AdmantiumMaul
+	properties
+		random 20
+		special
+	end
+
+	base treasure
+		HolyMace
+		HolyMace
+		HolyMace
+		HolyMace
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		ManaBag 100 300
+		mwFinvarraClaw
+		mwFinvarraClaw
+		mwThiefBlade
+		mwFinvarraDefender
+		mwFinvarraDefender
+		mwUruzDagger
+		mwUruzDagger
+		mwUruzDagger
+		RandomAmulet
+		RandomAmulet
+		RandomAmulet
+		RandomAmulet
+		RandomRing      
+		RandomRing      
+		RandomRing      
+		RandomRing      
+		RandomRing      
+		RandomRareMegaTreasure
+		RandomRareMegaTreasure
+		RandomMegaTreasure
+		RandomMegaTreasure
+		RandomMegaTreasure
+		RandomRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomSemiRareMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomCommonMagicHelm
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomRareHelmet
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		RandomSemiRareHelmet 
+		FinvarraBaldric
+	end
+end
+
+#------------------------------------------------------------
+object AnvilBrassHelmTreasure of AdmantiumMaul
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		Bandanna 
+		BerserkHelmet
+		CenturionHelmet
+		CenturionHelmet
+		ConquererHelmet 
+		CourtierHat
+		DefenseHelmet
+		DruidHelmet
+		FiannaHelmet 
+		Hood
+		HuntressHelmet
+		IdiotHat
+		IdiotHat
+		IntellHelmet 
+		JesterHat 
+		KhanHelmet
+		LadyRealmHat 
+		LegionWarriorHelmet 
+		MinervaWarriorHelmet 
+		NightSoulHelmet
+		NightSoulHelmet
+        NightmareHelmet
+		NourishHelmet
+		PredatorHelmet 
+		RangerHelmet 
+		RaptorHelmet
+		RandomRareHelmet
+        RandomCommonMagicHelm
+		RandomSemiRareMagicHelm
+		RandomRareMagicHelm
+	end
+end
+
+#------------------------------------------------------------
+object AnvilBronzeHelmTreasure of AdmantiumMaul
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		Bandanna 
+		CenturionHelmet
+		CourtierHat
+        SaurianHelmet
+		DefenseHelmet
+		DruidHelmet
+		Hood
+		HuntressHelmet
+		IdiotHat
+		IntellHelmet 
+		JesterHat 
+		LadyRealmHat 
+		LegionWarriorHelmet 
+		MinervaWarriorHelmet 
+		MageHat 
+		NightSoulHelmet
+        NightmareHelmet
+		NourishHelmet
+		PredatorHelmet 
+		RangerHelmet 
+		RaptorHelmet
+		ShiftHood
+		RandomRareHelmet
+        RandomCommonMagicHelm
+		RandomSemiRareMagicHelm
+		RandomRareMagicHelm
+	end
+end
+
+#------------------------------------------------------------
+# (Anvil Mid-Point Through Treasure)
+object MidPointTreasureChest of AdmantiumMaul
+	properties
+		random 75
+		special
+	end
+
+	base treasure
+		GreaterWardingShield
+		CenturionHelmet
+		IdiotHat
+		CourtierHat
+		Hood
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		RandomAmulet
+		RandomRing      
+		mwDefender
+		mwLifeLeech
+		mwNullsword
+		mwStinger 
+		mwVulcanEdge
+		mwWrath
+		PiercingTine
+		SlicingBlade
+		LesserWardingShield
+		maBracersOfDefense
+		maDenseBands
+		maDenseBoots
+		maDenseCowl
+		maInvulPlate
+		MythrilLegionHelmet
+		ObsidianiteLegionHelmet
+		ObsidianiteMinervaHelmet
+	end
+end
+
+#------------------------------------------------------------
+object RandomDye of Dye
+	properties
+		random 100
+        special
+	end
+
+	base treasure
+		dOlive
+		dLime
+		dBlue
+		dAzure
+		dRed
+		dPink
+		dGold
+		dYellow
+		dViolet
+		dMagenta
+		dBrown
+		dTan
+		dAqua
+		dTeal
+		dGreen
+		dJade
+		dOrange
+		dAmber
+		dRoyal
+		dPurple
+		dBlack
+		dGray
+		dWhite
+	end
+end
+
+#------------------------------------------------------------
+object RandomTutorCowl of Cowl
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		OliveCowl
+		LimeCowl
+		BlueCowl
+		AzureCowl
+		RedCowl
+		PinkCowl
+		GoldCowl
+		YellowCowl
+		VioletCowl
+		MagentaCowl
+		BrownCowl
+		TanCowl
+		AquaCowl
+		TealCowl
+		GreenCowl
+		JadeCowl
+		OrangeCowl
+		AmberCowl
+		RoyalCowl
+		PurpleCowl
+		BlackCowl
+		GrayCowl
+		WhiteCowl
+	end
+end
+
+#------------------------------------------------------------
+object RandomTutorPants of Pants
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		BluePants
+		RedPants
+		PinkPants
+		GoldPants
+		YellowPants
+		VioletPants
+		MagentaPants
+		BrownPants
+		TanPants
+		TealPants
+		JadePants
+		OrangePants
+		RoyalPants
+		PurplePants
+		BlackPants
+		GrayPants
+		WhitePants
+	end
+end
+
+#------------------------------------------------------------
+object RandomTutorShirt of Shirt
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		OliveShirt
+		BlueShirt
+		AzureShirt
+		RedShirt
+		PinkShirt
+		GoldShirt
+		YellowShirt
+		MagentaShirt
+		BrownShirt
+		TanShirt
+		AquaShirt
+		GreenShirt
+		JadeShirt
+		OrangeShirt
+		RoyalShirt
+		PurpleShirt
+		BlackShirt
+		GrayShirt
+		WhiteShirt
+	end
+end
+
+#------------------------------------------------------------
+object RandomMaleHat of Helmet
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		ObsidianiteLegionHelmet 
+		ObsidianiteHelmet 
+		NightmareHelmet 
+		CenturionHelmet 
+		Bandanna 
+		Hood 
+		VikingHelmet 
+		SaurianHelmet 
+		TribuneHelmet 
+		RaptorHelmet 
+		UplanderHelmet 
+		IdiotHat 
+	end
+end
+#------------------------------------------------------------
+object RandomFemaleHat of Helmet
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		ObsidianiteMinervaHelmet 
+		ObsidianiteHelmet 
+		NightmareHelmet 
+		CenturionHelmet 
+		Bandanna 
+		Hood 
+		VikingHelmet 
+		SaurianHelmet 
+		DruidHelmet 
+		HuntressHelmet 
+		UplanderHelmet 
+		CourtierHat 
+	end
+end
+#------------------------------------------------------------
+

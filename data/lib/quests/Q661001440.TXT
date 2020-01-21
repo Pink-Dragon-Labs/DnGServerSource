@@ -1,0 +1,16 @@
+quest  194 #6610-01-440        # Fiona, The Ladyslipper, tavern, Wen, 6104
+
+name  "Fiona's Customer"
+type  fedex
+
+proposal  "One of my regular customers, he is.  All the way from Kurz.  Sometimes I wonder if I shouldn't go into the cheese business full time.  Perhaps I will.  You'll deliver it to him?"
+
+declined  "Isn't that why you came?"
+
+accepted  "Good.  Give him my regards, too."
+
+reminder   "You better get started delivering that cheese to Randolf in Kurz."
+
+reward   qWenCheese 
+end
+

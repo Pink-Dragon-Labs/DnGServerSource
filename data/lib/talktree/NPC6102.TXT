@@ -1,0 +1,43 @@
+id 6102
+
+banner "Hello, and welcome to Wen's Weapons. I am Rothos."
+
+topic "Tell me about Wen."
+        text "We're smaller than many of The Realm's townships. We prefer to live peaceably; we don't like trouble."
+	text "You'll find, I believe, that this is the finest armory in all of Wen."
+	text "Of course, it's the only armory here!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Oh, yes. Now that you mention it, I heard there's a fei coming up in Murias that will celebrate Murian history."
+        text "I personally don't approve of a celebration of such macabre events, do you?"
+	text "Maybe they just use it as an occasion for a big festival."
+end      
+
+topic "Can I do anything for you?"
+        text "My horse's stall needs shoveling. I'll give you a copper for it, if you supply your own pitchfork. Otherwise, I've nothing."
+end
+
+topic  "I want to learn the ways of war." c4:5
+	banner  "Do you now?  I can be of help if you're interested in the axe.  You've got to be an expert already, though.  I'll only teach you master and grand-master skills." 
+
+	topic  "How do I get to be an expert?" c4:3
+		text  "Buy the skill books and practice. You start with familiar, then proficient, and then expert.  Go over to the Book Nook. For that matter, any book store carries them."
+	end
+
+	topic  "I am interested in axe master skills."  s4:3  
+		quest 61 #6102-01-400
+		text "Master skills in the axe only come through studying the skill book you have."
+	end
+
+	topic  "I am interested in axe grand-master skills."  s4:4  
+		quest 67 #6102-01-500
+		text "You're going to have to study that skill book you have to gain the Grand-master skills."
+	end
+
+	topic  "What else can I learn from you?"  s4:5
+		text  "I just take on apprentices for skill with the axe.  If you're interested in learning more about shield use, go see a fellow by name of Georgi in Arimathor."
+		text  "Now, now.  You haven't learned the axe, yet."
+	end
+end
+

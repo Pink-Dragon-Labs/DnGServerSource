@@ -1,0 +1,41 @@
+name "southhavenwood"
+title "South Havenwood"
+worldFile "../data/lib/world/FOR4.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 11
+groupChance 30
+monster DarkFaery 6
+monster BountyHunterA 10
+monster BountyHunterB 10
+monster WarriorA 10
+monster WarriorB 10
+monster WarriorC 10
+monster ThiefA 5
+monster ThiefB 3
+monster ThiefC 2
+monster EntombedOne 10
+monster DamnedOne 5
+monster Wraith 5
+monster Cyclops 3
+monster AlphaWolf 15
+monster YoungFenris 10
+monster Fenris 3
+monster DemonRat 10
+monster PlagueRat 5
+monster FlameRat 5
+monster Imp 10
+monster ImpCitizen 10
+monster ImpGuard 10
+monster Ogre 10
+monster OgreChild 10
+monster Troll 5
+monster TrollArmsman 5
+monster ScreechingHorror 3
+monster StormBat 2
+monster VampireBat 5
+monster WaspWarrior 5
+monster Faery 10
+monster WoodNymph 10
+# Southhavenwood	Area 03		Player Level 11-40	Alignment: Mixed	Monsters/Room: 3.87

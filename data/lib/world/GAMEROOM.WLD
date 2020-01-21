@@ -1,0 +1,482 @@
+room 6071
+   properties
+      picture	3000
+      roomName	"Snake Charmer"
+   end
+   atpinfo
+      35575  628 320 200
+      35575  636 317 200
+      35575  620 319 200
+      145  85 111
+      60  37 331
+      60  590 327
+      102  -6 308
+      106  637 316
+      141  95 102
+      142  114 102
+      145  555 114
+      145  594 104
+      145  57 103
+      163  332 108 -20
+      26  426 253
+      32794  189 250
+      241  101 35
+      241  545 45
+      33009  261 44
+      197  526 106
+      197  163 76 -30
+      63  322 182
+      64  276 200
+      63  303 183
+      63  289 190
+      63  288 199
+      63  313 203
+      63  340 202
+      63  356 197
+      63  358 191
+      63  347 184
+      63  336 183
+      64  300 183
+      64  323 185
+      64  338 186
+      64  348 195
+      64  338 203
+      64  315 205
+      64  294 205
+      64  270 193
+      64  283 185
+      64  491 304
+      64  509 309
+      64  489 318
+      64  514 298
+      21  75 199
+      21  110 234
+      21  635 226
+      32789  437 231
+      113  136 138
+      113  573 177
+      104  133 137
+      184  525 200
+      184  428 157
+      184  438 238
+      184  324 142
+      184  238 156
+      184  141 190
+      32952  206 237
+      184  338 292
+      2807  22 289 170
+      2796  4 321 210
+      2710  8 309 250
+      35478  635 331 270
+      2807  6 314 200
+      2807  15 317 200
+      35564  638 327 210
+      7908  29 316
+      7908  631 324
+      7900  316 125
+      7900  64 125
+      7900  569 125
+   end
+   objects
+      object homeBasket6071-1 of HomeBasket
+         properties
+            x	207
+            y	236
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object homeBasket6071-2 of HomeBasket
+         properties
+            x	419
+            y	237
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object homeBasket6071-3 of HomeBasket
+         properties
+            x	130
+            y	190
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object homeBasket6071-4 of HomeBasket
+         properties
+            x	318
+            y	140
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object homeBasket6071-5 of HomeBasket
+         properties
+            x	509
+            y	199
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object homeBasket6071-6 of HomeBasket
+         properties
+            x	234
+            y	155
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object homeBasket6071-7 of HomeBasket
+         properties
+            x	413
+            y	156
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object fountain6071-8 of Fountain
+         properties
+            x	324
+            y	197
+            loop	0
+         end
+         base described
+            text	"You see a fountain that contains snake skins!"
+         end
+      end
+      object homeBasket6071-0 of HomeBasket
+         properties
+            x	312
+            y	289
+            loop	0
+         end
+         base described
+            text	"You see a basket that may contain a snake!"
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 6075
+   properties
+      picture	4000
+      roomName	"Greed"
+   end
+   atpinfo
+      2340  648 76 -50
+      2312  474 132 30
+      2340  539 76 -50
+      7908  472 148
+      2101  343 460
+      34910  605 403
+      34989  -82 232
+      34911  559 392
+      2310  184 122 -20
+      2310  472 131 -10
+      35095  191 142 50
+      2340  211 73 -50
+      35095  468 145 50
+      2330  39 140 50
+      2340  320 73 -50
+      2340  429 73 -50
+      7900  594 143
+      2312  186 131 30
+      35048  551 311
+      2330  328 140 50
+      2330  615 139 50
+      2103  554 308
+      2340  101 73 -50
+      2340  -9 73 -50
+      2327  178 144 50
+      35095  484 142 50
+      2333  448 117 -30
+      35101  204 118 -30
+      2334  121 142 60
+      35102  518 142 60
+      2252  38 150 -10
+      2252  530 147 -10
+      2252  278 150 -10
+      2262  184 234 -20
+      7908  188 148
+      2252  133 244 -10
+      7900  90 143
+      7900  342 143
+      7907  585 318
+      7907  528 318
+      3  478 302
+      3  478 278
+      3  478 255
+   end
+   objects
+      object homeBasket6075-0 of HomeBasket
+         properties
+            x	177
+            y	242
+            loop	0
+         end
+         base described
+            text	"You see a basket that holds a prize."
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bigStrongBox6075-1 of BigStrongBox
+         properties
+            x	93
+            y	162
+            loop	0
+         end
+         base described
+            text	"You see a chest that may be filled with prizes."
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bigStrongBox6075-2 of BigStrongBox
+         properties
+            x	336
+            y	162
+            loop	0
+            loop	0
+         end
+         base described
+            text	"You see a chest that may be filled with prizes."
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bigStrongBox6075-3 of BigStrongBox
+         properties
+            x	583
+            y	162
+            loop	0
+         end
+         base described
+            text	"You see a chest that may be filled with prizes."
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 6078
+   properties
+      picture	4000
+      roomName	"Shopkeeper Wars"
+   end
+   atpinfo
+      2338  165 63 -100
+      2339  468 61 -100
+      2340  314 46 -100
+      2340  107 64 -100
+      2340  5 114 -50
+      2340  519 64 -100
+      2340  617 114 -50
+      2389  113 66 -60
+      2389  532 71 -50
+      63  118 92
+      64  88 100 15
+      63  521 95
+      63  536 94
+      32831  109 95
+      32831  103 90
+      63  118 102
+      63  109 120 15
+      63  111 81
+      63  101 82 -20
+      63  529 116 15
+      63  529 105 15
+      63  523 99 15
+      63  536 97 15
+      63  529 90 15
+      63  520 93 15
+      63  537 91 15
+      63  528 80 15
+      63  105 76
+      63  118 77
+      63  110 67
+      64  524 93 10
+      64  102 113 10
+      64  505 109 10
+      64  523 103 10
+      64  105 81 10
+      64  89 74 10
+      64  519 86 15
+      64  503 95 15
+      64  504 76 10
+      64  88 112 15
+      64  518 76 10
+      32831  98 101
+      2284  110 109 -10
+      2284  528 104 -10
+      7900  18 182
+      35575  102 320
+      7900  606 182
+      2252  316 174 -20
+      32782  164 188
+      2252  316 203 -20
+      2101  69 302
+      2102  581 305
+      2252  316 233 -20
+      2808  549 316
+      14  469 188
+      2252  316 266 -20
+      2695  391 86
+      35463  244 86
+      2797  535 328
+      2798  44 321 5
+      7900  314 165
+      16  635 340
+      32784  7 338
+      3  164 171
+      3  461 171
+      3  151 312
+      3  490 314
+      3  151 288
+      3  151 265
+      3  139 255
+      3  490 293
+      3  490 271
+      3  496 257
+   end
+end
+room 6070
+   properties
+      roomName	"Winner's Circle"
+      picture	3000
+   end
+   atpinfo
+      7900  353 149
+      7900  100 149
+      7900  -89 325
+      7900  716 311
+      2714  177 63
+      7900  605 149
+      63  210 267
+      64  456 231
+      63  231 272
+      63  199 259
+      63  203 248
+      63  213 238
+      63  244 236
+      63  274 234
+      63  300 232
+      63  329 231
+      63  360 233
+      63  389 236
+      63  413 239
+      63  421 245
+      63  430 255
+      63  422 265
+      63  399 272
+      64  473 230
+      64  493 227
+      64  503 220
+      64  494 213
+      64  478 210
+      64  460 209
+      64  442 213
+      64  419 218
+      64  415 226
+      64  159 228
+      64  428 230
+      64  440 231
+      64  176 227
+      64  143 229
+      64  124 230
+      64  188 222
+      64  182 216
+      64  169 212
+      64  157 208
+      64  141 207
+      64  124 210
+      64  106 214
+      64  92 223
+      64  103 230
+      64  1 322
+      156  596 86 -50
+      175  307 52 -50
+      165  494 67 -50
+      168  82 94 -50
+      152  530 75 -50
+      154  95 95 -50
+      153  20 135 -50
+      153  628 179
+      102  650 318
+      107  -13 314
+      114  57 313
+      2713  603 322 240
+      2713  261 71
+      2713  446 93
+      2713  603 116
+      2714  504 96
+      2714  347 95
+      21  440 214
+      32789  187 215
+      22  333 226
+      23  300 223
+   end
+   objects
+      object fountain6070-0 of Fountain
+         properties
+            x	156
+            y	226
+            loop	0
+         end
+         base described
+            text	"You see a fountain containing a few gold coins."
+         end
+      end
+      object fountain6070-1 of Fountain
+         properties
+            x	473
+            y	226
+            loop	0
+         end
+         base described
+            text	"You see a fountain containing a few gold coins."
+         end
+      end
+   end
+end

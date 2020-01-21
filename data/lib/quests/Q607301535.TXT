@@ -1,0 +1,19 @@
+quest  47 #6073-01-535        # Kaliri, Anything and Everything, Arimathor, 6801
+
+name  "Treat for Kaliri"
+type  fedex
+
+proposal  "You've come to the right place, dearie.  Just look at this one.  I found it yesterday, and it's the prettiest of the lot.  You're welcome to it, dearie.  I've got plenty and more where that came from.  Would you be willing to step over to Sanria and bring me back a treat while I wrap this up?"
+
+declined  "Never mind, then, dearie."
+
+accepted  "She always saves something for me.  It would disappoint her if I didn't send for it.  Of course, I really do like my treats."
+
+reminder   "Just step over to Sanria for my treat."
+
+completed  "Cinnamon rolls!  These are her speciality, and extraordinarily delicious.  Here's your rock."
+
+getItem   qKaliriRolls
+reward   qDesertRock 
+end
+

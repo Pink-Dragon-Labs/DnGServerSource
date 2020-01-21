@@ -1,0 +1,63 @@
+id 5014
+
+banner "Howdy. Who're you here to see?"
+
+topic "Tell me about East Leinster."
+	text "It's a good enough place to live. Once we were joined with West Leinster, but Duach put a stop to that."
+	text "Although I hear that the city is recovering from it." 
+	text "The people passing through here tell me the city is clean."
+	text "Now how can that happen over night?  It is not humanly possible, but I am so busy here I have not been able to go see."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "I did hear that there's a town up north what's run by dark elves."
+ 	text "I hate them things."
+end      
+
+topic  "I need help finding shops."
+	banner  "Just tell me what you're looking for and I'll tell you how to get there."
+
+	topic  "Where can I find a clothing store?"
+		text "That'll be Straight Off the Loom, down two."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Ivory Moon Cafe is down one, left one. Madge's Plaza Eatery is down four, left three.  Her stand was almost burned out, but she's still there."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "You've got two to visit.  The Ebony Crystal is left two.  Spells of Fire is down four, left two."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Got two of them. To the Hilt is down two, left one. The Forge is down four, left one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "All Things Useful is down three, left three."
+	end
+
+	topic  "Do you have a chapel?"
+		text "The smiting burned 'er up, but I Usk has a chapel. There are others in the Realm as well. But perhaps the gardens of central Leinster will serve your purpose. There are gardens dedicated to Despothes, Enid, and Duach, as well as several useful for quiet contemplation. There's even a garden specially made for weddings and such."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Cut Purse Academy, a thief's academy, is down three.\n\n  Academy Arcanus, a wizard's academy, is down three, left four.\n\n If you are seeking a warrior's academy then go to West Leinster and ask for directions.\n\n If you want smithing skills then go to Kurz and ask for directions."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Holistic Healers is down two, left two."
+	end
+
+	topic  "Do you have a music cart?"
+		text "Yes.  Go down four."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "There are two of them. Troll Spit Tavern is left one. Bloated Swine Tavern is down three, left one."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Just put in the name of the person you want to visit. You can get to anyone's house from here."
+end

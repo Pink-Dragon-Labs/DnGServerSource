@@ -1,0 +1,19 @@
+quest  97 #6211-01-530       #Lari, Food Emporium, Monmouth, 6303
+
+name  "Lari's Supplies"
+type  fedex
+
+proposal  "Look no more, then, friend.  I'll soon have a supply of smoked stripe.  My sister is an expert at the preparation, and she's just started a new batch.  You've not lived until you've tasted her smoked stripe.  I've an order of supplies I need in the worst way from Asgard and I cannot make the trip right now.  If you'll do it for me, I'll give you a good portion of smoked stripe.  Will you?" 
+
+declined  "Your loss, really."
+
+accepted  "Hurry, then."
+
+reminder   "Go to Asgard and ask for Lari's supplies."
+
+completed  "Perfect timing, friend.  Take your smoked stripe."
+
+getItem   qLariSupplies
+reward   qSmokedStripe 
+end
+

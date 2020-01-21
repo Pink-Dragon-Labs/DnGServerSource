@@ -1,0 +1,41 @@
+name "wildbeyond"
+title "The Wild Beyond"
+worldFile "../data/lib/world/WILD1.WLD"
+worldFile "../data/lib/world/WILD2.WLD"
+worldFile "../data/lib/world/WILD3.WLD"
+worldFile "../data/lib/world/WILD4.WLD"
+worldFile "../data/lib/world/WILD5.WLD"
+worldFile "../data/lib/world/WILD6.WLD"
+worldFile "../data/lib/world/WILD7.WLD"
+worldFile "../data/lib/world/WILD8.WLD"
+worldFile "../data/lib/world/WILD9.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 18
+groupChance 600
+monster Imp 140
+monster ImpCitizen 200
+monster ImpGuard 140
+monster ImpKing 140
+monster ImpNecromancer 170
+monster ImpSlaveMaster 170
+monster ImpThaumaturgist 170
+monster ImpWarrior 200
+monster StormBat 30
+monster ScreechingHorror 40
+monster Fenris 70
+monster BloodFenris 60
+monster YoungFenris 60
+monster HellHound 50
+monster HowlingTerror 50
+monster DemonRat 40
+monster PlagueRat 40
+monster DarkFaery 25
+monster Faery 70
+monster Seraph 40
+monster SeraphThaumaturgist 30
+monster SeraphWarrior 35
+monster ThiefD 20
+monster ThiefE 20
+monster ThiefE 20

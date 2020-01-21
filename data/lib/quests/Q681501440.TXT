@@ -1,0 +1,16 @@
+quest  234 #6815-01-440        # Mok, Foodcart, Murias, 5207
+
+name  "Mok's Bread"
+type  fedex
+
+proposal  "You've come to the right place.  Murias is in the heart of farm country, and we grow the best grain in the Realm.  I grind my own, and bake a special bread that I sell on the side.  You won't find it on the menu, but it's a sideline of mine.  I can see you're a traveler.  I'd like to give you a supply, if you'll tell folks about it.  Will you do it?"
+
+declined  "It's a good offer, friend."
+
+accepted  "Great.  Tell them Mok of Murias made it."
+
+reminder   "Remember, tell people that Mok of Murias made the bread."
+
+reward   qGrainBread 
+end
+

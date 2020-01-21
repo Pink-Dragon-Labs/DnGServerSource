@@ -1,0 +1,15 @@
+quest  129 #6311-01-545        # Pindar, Finvarra's Foods, Asgard, 6901
+
+name  "Delivery for Pindar"
+type  fedex
+
+proposal  "Of course, of course.  It's right here.  You are willing to deliver it, I take it?"
+
+declined  "Never mind."
+
+accepted  "Good, good.  Away you go, now."
+
+reward   qTroelsSnack 
+end
+
+

@@ -1,0 +1,43 @@
+id 8104
+
+banner "Welcome to Ambrosia of Usk. My name is Inila."
+
+topic "Tell me about Usk."
+        text "We have the best foodstuffs in the entire Realm."
+	text "I do believe some people move here just for the good eating!"
+	text "Of course, lots of places in the Realm have their specialities."
+	text "Strange to tell, you don't find some of the best food on the menus in shops.  You find it in the homes."
+	text "Someday maybe there'll be a food shop that serves these special items, and the owner will make a lot of gold."
+	text "What a challenge that would be!  Most family recipes are guarded like you wouldn't believe."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that the fellow in the magic shop follows Mabon. That's unusual in Usk."
+        text "Of course, I suppose it is not so unusual among magicians."
+	text "I've never fully trusted magicians, but our local fellow is a good guy."
+end      
+
+topic "Can I do anything for you?"
+        text "I do have tasks from time to time, but I have nothing today. Thanks anyway."
+end
+
+topic  "I'm seeking jellied berries." q231:0 #q6815-01-425:0
+	quest 232 #6815-01-430
+	text  "You already got them."
+end
+
+topic  "I'm looking for some jellied berries." q148:0 #q6403-01-325:0
+	quest 149 #6403-01-330
+	text  "You've got them, friend."
+end
+
+topic  "I'm looking for jellied berries." q34:0 #q6045-01-525:0
+	quest 35 #6045-01-530
+	text  "I gave you some."
+end
+
+topic  "Misha wants jellied berries to send to Kaliri for her grandson." q388:0 #q80500-01-435:0
+	quest  389 #80500-01-440
+	text  "What did you say?  Oh, a joke.  You know you already have them."
+end
+

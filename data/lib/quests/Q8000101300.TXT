@@ -1,0 +1,19 @@
+quest  371 #80001-01-300      #Spidey, Cave of Thieves, 80001
+
+name  "Gooey Buns for Spidey"
+type  fedex
+
+proposal  "The expert level of pick pocketing is something you've gotta work at.  But I guess you'll do OK, since you've come this far.  Surprises me sometimes, the one's who are good and the one's that don't get it.  I got started early, so I'm pretty good now.  But you work hard and you'll get it.   You're doing OK.  Now you've gotta do a job for me.  I want some gooey buns, not just any gooey buns, either.  I heard of some really good ones that are made in the desert.  There's a town there.  I don't know the name.  I haven't traveled that far yet.  Will you get some for me?"
+
+declined  "Hmmm."
+
+accepted  "If you like gooey buns, you'll be glad to know about this place.  These are supposed to something of all right!"
+
+reminder   "Gooey buns from the desert."
+
+completed  "Good-O!  Do those ever look scrumptious!  Thanks.  Here's your book."
+
+getItem   qGooeyBuns
+reward   skbPickpocketingIII 
+end
+

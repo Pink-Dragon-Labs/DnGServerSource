@@ -1,0 +1,20 @@
+quest 19 # 6043-01-430        # Ygior, Sundries World, Drune, general, 8310
+
+name  "Ygior Needs Something for Pain"
+type  fedex
+
+proposal "Yipes, my knee! Come in, come in.  Sorry for yelping at you.  I bumped my knee just as you came in.  You've heard about my discovery of popping corn.  As a matter of fact, my poor knee brought it about, in a way, if you're interested in the story.  There I was laden with packages, always trying to make one trip do, but I had a second trip after all, because I tripped going in (awful pun, I know, but I couldn't resist) and landed on my knee.  While I was diverted by adversity (whoops, there I go again) meaning my poor knee, there was suddenly an explosion of noise.  Well, I'm here to tell you I thought it was another smiting, that I did, and my elf heart near to stopped, then the white puffs started flying everywhere.  To make a long story short, my package of corn fell into the fire and those kernels popped into puffs.  Why I put those puffs into my mouth I don't know, but I did, and the rest is history.  Friend, I'll give you a bag of the popping corn if you'll just go fetch me something for the pain in my knee.  Will you be so good?"
+
+declined  "Wonder if I can limp that far?"
+
+accepted  "Good.  Just call in at the healers."
+
+reminder   "Go to the healer and get help for me."
+
+completed  "Thank you, friend.  Here's your popping corn."
+
+getItem   qPainPotion
+reward   qPoppingCorn 
+end
+
+

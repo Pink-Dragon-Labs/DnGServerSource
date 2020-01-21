@@ -1,0 +1,19 @@
+quest  173 #6504-01-430       # Liuja, The Emperor's Clothes, Murias, 6202
+
+name  "Missing Pair of Boots"
+type  fedex
+
+proposal  "I'm glad to see you.  They're here, friend, or at least most of them are. One pair was left out of the shipment.  I've got to have that last pair. The order isn't complete without them. Would you be able to journey to Leinster?"
+
+declined  "Pity."
+
+accepted  "That's great.  Somewhere in Leinster, West Leinster I think, is the missing pair of boots.  Inquire about Liuja's order."
+
+reminder   "Seek in West Leinster for the missing pair of boots."
+
+completed  "Great work.  You've saved the day.  Now the order is complete for Manonor."
+
+getItem   qMissingBoots
+reward   qManonorOrder 
+end
+

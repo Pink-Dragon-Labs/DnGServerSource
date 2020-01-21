@@ -1,0 +1,3370 @@
+# Dungeonmaker World File (DNG13.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 76000
+# Dungeon last room = 76235
+# Number of objects in dungeon = 304
+# Level 0 information:
+room 76036
+	properties
+		template 30502
+		south 76035
+		east 76037
+		flags	0
+	end
+end
+room 76037
+	properties
+		template 30904
+		south 76039
+		east 76038
+		west 76036
+		flags	0
+	end
+	objects
+		object vampireBat-76037-0 of vampireBat
+			properties
+				x	169
+				y	221
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-76037-1 of vampireBat
+			properties
+				x	76
+				y	293
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object Bones-76037-2 of Bones
+			properties
+				x	135
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76037-3 of Shroom3
+			properties
+				x	197
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76037-4 of Shroom3
+			properties
+				x	121
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-76037-5 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76037-2
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-76037-6 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76037-2
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-76037-7 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76037-2
+			end
+			base described
+			end
+		end
+		object RandomWeapon-76037-8 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76037-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 76038
+	properties
+		template 30601
+		south 76031
+		west 76037
+		flags	0
+	end
+	objects
+		object Shroom1-76038-0 of Shroom1
+			properties
+				x	261
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-76038-1 of Shroom2
+			properties
+				x	282
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76038-2 of Shroom3
+			properties
+				x	373
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76038-3 of Shroom3
+			properties
+				x	294
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-76038-4 of Column
+			properties
+				x	364
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-76038-5 of Button
+			properties
+				x	327
+				y	245
+				loop	0
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-76053-3 
+			end
+			base described
+			end
+		end
+	end
+end
+room 76035
+	properties
+		template 31402
+		south 76034
+		east 76039
+		north 76036
+		flags	0
+	end
+	objects
+		object Shroom3-76035-0 of Shroom3
+			properties
+				x	133
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-76035-1 of Shroom1
+			properties
+				x	159
+				y	312
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76039
+	properties
+		template 31503
+		south 76033
+		east 76031
+		west 76035
+		north 76037
+		flags	0
+	end
+	objects
+		object Bat-76039-0 of Bat
+			properties
+				x	167
+				y	297
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object FatColumn-76039-1 of FatColumn
+			properties
+				x	227
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-76039-2 of Column
+			properties
+				x	474
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76031
+	properties
+		template 31008
+		south 76032
+		east 76006
+		west 76039
+		north 76038
+		flags	0
+	end
+	objects
+		object Bat-76031-0 of Bat
+			properties
+				x	396
+				y	283
+				loop	3
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76031-1 of Bat
+			properties
+				x	297
+				y	244
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object FlyingRat-76031-2 of FlyingRat
+			properties
+				x	312
+				y	328
+				loop	0
+				color	89
+			end
+			base character
+			end
+		end
+		object cryptBat-76031-3 of cryptBat
+			properties
+				x	214
+				y	293
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 76006
+	properties
+		template 32403
+		east 76005
+		west 76031
+		flags	0
+	end
+	objects
+		object CaveRat-76006-0 of CaveRat
+			properties
+				x	331
+				y	135
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object Bat-76006-1 of Bat
+			properties
+				x	235
+				y	183
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Shroom3-76006-2 of Shroom3
+			properties
+				x	397
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76006-3 of Shroom3
+			properties
+				x	403
+				y	213
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76005
+	properties
+		template 32302
+		south 76004
+		west 76006
+		flags	0
+	end
+	objects
+		object CaveRat-76005-0 of CaveRat
+			properties
+				x	308
+				y	287
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object FlyingRat-76005-1 of FlyingRat
+			properties
+				x	260
+				y	293
+				loop	2
+				color	89
+			end
+			base character
+			end
+		end
+		object Bat-76005-2 of Bat
+			properties
+				x	187
+				y	276
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 76034
+	properties
+		template 32305
+		east 76033
+		north 76035
+		flags	8
+	end
+	objects
+		object CaveRat-76034-0 of CaveRat
+			properties
+				x	305
+				y	253
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object FlyingRat-76034-1 of FlyingRat
+			properties
+				x	469
+				y	282
+				loop	0
+				color	89
+			end
+			base character
+			end
+		end
+		object Bat-76034-2 of Bat
+			properties
+				x	411
+				y	222
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76034-3 of Bat
+			properties
+				x	369
+				y	299
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76034-4 of Bat
+			properties
+				x	318
+				y	230
+				loop	3
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76034-5 of Bat
+			properties
+				x	267
+				y	276
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object SittingMushroom-76034-6 of SittingMushroom
+			properties
+				x	345
+				y	215
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76033
+	properties
+		template 32102
+		east 76032
+		west 76034
+		north 76039
+		flags	0
+	end
+	objects
+		object Bat-76033-0 of Bat
+			properties
+				x	531
+				y	276
+				loop	3
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76033-1 of Bat
+			properties
+				x	200
+				y	317
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76033-2 of Bat
+			properties
+				x	64
+				y	315
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Shroom1-76033-3 of Shroom1
+			properties
+				x	316
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76032
+	properties
+		template 31303
+		west 76033
+		north 76031
+		flags	0
+	end
+	objects
+		object Bat-76032-0 of Bat
+			properties
+				x	333
+				y	317
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object FlyingRat-76032-1 of FlyingRat
+			properties
+				x	283
+				y	315
+				loop	0
+				color	89
+			end
+			base character
+			end
+		end
+		object Shroom2-76032-2 of Shroom2
+			properties
+				x	471
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-76032-3 of Shroom1
+			properties
+				x	507
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76004
+	properties
+		template 30402
+		south 76002
+		north 76005
+		flags	0
+	end
+	objects
+		object Shroom3-76004-0 of Shroom3
+			properties
+				x	472
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76002
+	properties
+		template 31005
+		south 76003
+		east 76001
+		north 76004
+		flags	0
+	end
+	objects
+		object Bat-76002-0 of Bat
+			properties
+				x	226
+				y	282
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 76001
+	properties
+		template 30901
+		east 76000
+		west 76002
+		flags	0
+	end
+end
+room 76000
+	properties
+		template 30201
+		west 76001
+		flags	0
+	end
+	objects
+		object DungeonBackUp-76000-0 of DungeonBackUp
+			properties
+				x	180
+				y	231
+				loop	2
+				linkTo	sarcophagusDoor13100-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76027
+	properties
+		template 30102
+		south 76026
+		east 76028
+		flags	8
+	end
+	objects
+		object cryptBat-76027-0 of cryptBat
+			properties
+				x	245
+				y	219
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object FlyingRat-76027-1 of FlyingRat
+			properties
+				x	499
+				y	271
+				loop	2
+				color	89
+			end
+			base character
+			end
+		end
+		object FlyingRat-76027-2 of FlyingRat
+			properties
+				x	363
+				y	241
+				loop	2
+				color	89
+			end
+			base character
+			end
+		end
+		object Bat-76027-3 of Bat
+			properties
+				x	282
+				y	282
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76027-4 of Bat
+			properties
+				x	432
+				y	279
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76027-5 of Bat
+			properties
+				x	231
+				y	252
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Button-76027-6 of Button
+			properties
+				x	156
+				y	268
+				loop	0
+			end
+			actions
+				vBeActivated enable LeverDisabled-76016-3 
+			end
+			base described
+			end
+		end
+		object Shroom3-76027-7 of Shroom3
+			properties
+				x	189
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-76027-8 of Shroom1
+			properties
+				x	147
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76027-9 of Shroom3
+			properties
+				x	169
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76028
+	properties
+		template 31105
+		south 76029
+		east 76030
+		west 76027
+		flags	0
+	end
+	objects
+		object Bat-76028-0 of Bat
+			properties
+				x	187
+				y	296
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76028-1 of Bat
+			properties
+				x	442
+				y	293
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76028-2 of Bat
+			properties
+				x	361
+				y	277
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76028-3 of Bat
+			properties
+				x	240
+				y	289
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76028-4 of Bat
+			properties
+				x	152
+				y	259
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Shroom2-76028-5 of Shroom2
+			properties
+				x	487
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76028-6 of Shroom3
+			properties
+				x	490
+				y	263
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-76028-7 of Shroom3
+			properties
+				x	470
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76030
+	properties
+		template 30202
+		south 76022
+		west 76028
+		flags	0
+	end
+	objects
+		object CaveRat-76030-0 of CaveRat
+			properties
+				x	449
+				y	282
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object FlyingRat-76030-1 of FlyingRat
+			properties
+				x	217
+				y	244
+				loop	1
+				color	89
+			end
+			base character
+			end
+		end
+		object FlyingRat-76030-2 of FlyingRat
+			properties
+				x	345
+				y	225
+				loop	2
+				color	89
+			end
+			base character
+			end
+		end
+		object Bat-76030-3 of Bat
+			properties
+				x	452
+				y	227
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76030-4 of Bat
+			properties
+				x	280
+				y	254
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76030-5 of Bat
+			properties
+				x	105
+				y	220
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Shroom3-76030-6 of Shroom3
+			properties
+				x	199
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76030-7 of Shroom3
+			properties
+				x	519
+				y	305
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom2-76030-8 of Shroom2
+			properties
+				x	387
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76003
+	properties
+		template 31003
+		south 76007
+		north 76002
+		flags	0
+	end
+end
+room 76026
+	properties
+		template 31402
+		south 76025
+		east 76029
+		north 76027
+		flags	0
+	end
+	objects
+		object Bat-76026-0 of Bat
+			properties
+				x	501
+				y	317
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76026-1 of Bat
+			properties
+				x	383
+				y	249
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object FlyingRat-76026-2 of FlyingRat
+			properties
+				x	209
+				y	292
+				loop	0
+				color	89
+			end
+			base character
+			end
+		end
+	end
+end
+room 76029
+	properties
+		template 31008
+		south 76024
+		east 76022
+		west 76026
+		north 76028
+		flags	0
+	end
+	objects
+		object CaveRat-76029-0 of CaveRat
+			properties
+				x	159
+				y	268
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object Bat-76029-1 of Bat
+			properties
+				x	302
+				y	275
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object cryptBat-76029-2 of cryptBat
+			properties
+				x	409
+				y	272
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76029-3 of cryptBat
+			properties
+				x	184
+				y	272
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 76022
+	properties
+		template 31008
+		south 76023
+		east 76020
+		west 76029
+		north 76030
+		flags	0
+	end
+	objects
+		object FlyingRat-76022-0 of FlyingRat
+			properties
+				x	239
+				y	269
+				loop	2
+				color	89
+			end
+			base character
+			end
+		end
+		object Shroom1-76022-1 of Shroom1
+			properties
+				x	372
+				y	95
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76022-2 of Shroom3
+			properties
+				x	176
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76020
+	properties
+		template 30901
+		east 76007
+		west 76022
+		flags	0
+	end
+	objects
+		object CaveRat-76020-0 of CaveRat
+			properties
+				x	213
+				y	282
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 76007
+	properties
+		template 32202
+		east 76008
+		west 76020
+		north 76003
+		flags	0
+	end
+	objects
+		object Shroom3-76007-0 of Shroom3
+			properties
+				x	92
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76007-1 of Shroom3
+			properties
+				x	485
+				y	212
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76008
+	properties
+		template 30902
+		south 76010
+		east 76009
+		west 76007
+		flags	0
+	end
+	objects
+		object CaveRat-76008-0 of CaveRat
+			properties
+				x	286
+				y	307
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-76008-1 of CaveRat
+			properties
+				x	373
+				y	291
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 76009
+	properties
+		template 30201
+		west 76008
+		flags	0
+	end
+	objects
+		object DemonRat-76009-0 of DemonRat
+			properties
+				x	149
+				y	284
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object CaveRat-76009-1 of CaveRat
+			properties
+				x	218
+				y	282
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-76009-2 of CaveRat
+			properties
+				x	266
+				y	284
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object RandomStuff-76009-3 of RandomStuff
+			properties
+				x	309
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-76009-4 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	DemonRat-76009-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-76009-5 of RandomStuff
+			properties
+				x	193
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-76009-6 of RawMeat
+			properties
+				x	336
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-76009-7 of RawMeat
+			properties
+				x	168
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingCheese-76009-8 of RatlingCheese
+			properties
+				x	164
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-76009-9 of RandomJunk
+			properties
+				x	194
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76025
+	properties
+		template 32305
+		east 76024
+		north 76026
+		flags	0
+	end
+	objects
+		object cryptBat-76025-0 of cryptBat
+			properties
+				x	574
+				y	266
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object FlyingRat-76025-1 of FlyingRat
+			properties
+				x	260
+				y	216
+				loop	1
+				color	89
+			end
+			base character
+			end
+		end
+		object Bat-76025-2 of Bat
+			properties
+				x	517
+				y	199
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76025-3 of Bat
+			properties
+				x	251
+				y	268
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Column-76025-4 of Column
+			properties
+				x	432
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76024
+	properties
+		template 32101
+		east 76023
+		west 76025
+		north 76029
+		flags	0
+	end
+	objects
+		object Bat-76024-0 of Bat
+			properties
+				x	257
+				y	228
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Shroom3-76024-1 of Shroom3
+			properties
+				x	127
+				y	192
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-76024-2 of Skull
+			properties
+				x	121
+				y	195
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-76024-3 of RandomStuff
+			properties
+				x	148
+				y	191
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76023
+	properties
+		template 32701
+		west 76024
+		north 76022
+		flags	0
+	end
+	objects
+		object Bat-76023-0 of Bat
+			properties
+				x	484
+				y	412
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76023-1 of Bat
+			properties
+				x	231
+				y	275
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76023-2 of Bat
+			properties
+				x	318
+				y	241
+				loop	3
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-76023-3 of Bat
+			properties
+				x	116
+				y	279
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bones-76023-4 of Bones
+			properties
+				x	505
+				y	290
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76010
+	properties
+		template 31003
+		south 76011
+		north 76008
+		flags	0
+	end
+	objects
+		object vampireBat-76010-0 of vampireBat
+			properties
+				x	295
+				y	288
+				loop	3
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 76012
+	properties
+		template 30502
+		south 76014
+		east 76011
+		flags	0
+	end
+	objects
+		object cryptBat-76012-0 of cryptBat
+			properties
+				x	394
+				y	284
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76012-1 of cryptBat
+			properties
+				x	168
+				y	317
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 76011
+	properties
+		template 31503
+		south 76015
+		east 76013
+		west 76012
+		north 76010
+		flags	8
+	end
+	objects
+		object cryptBat-76011-0 of cryptBat
+			properties
+				x	289
+				y	216
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76011-1 of cryptBat
+			properties
+				x	532
+				y	300
+				loop	3
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76011-2 of cryptBat
+			properties
+				x	436
+				y	212
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76011-3 of cryptBat
+			properties
+				x	105
+				y	271
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object Sarcophagus-76011-4 of Sarcophagus
+			properties
+				x	423
+				y	300
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76011-5 of Sarcophagus
+			properties
+				x	458
+				y	217
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76011-6 of Sarcophagus
+			properties
+				x	497
+				y	144
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76011-7 of Sarcophagus
+			properties
+				x	183
+				y	225
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76011-8 of Sarcophagus
+			properties
+				x	214
+				y	159
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite1-76011-9 of Stalagmite1
+			properties
+				x	483
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock3-76011-10 of Rock3
+			properties
+				x	216
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-76011-11 of Stalagmite3
+			properties
+				x	131
+				y	181
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-76011-12 of Column
+			properties
+				x	543
+				y	173
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-76011-13 of SarcophagusDoor
+			properties
+				x	146
+				y	290
+				loop	0
+				linkTo	DungeonBackUp-76050-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object JawBone-76011-14 of JawBone
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-4
+			end
+			base described
+			end
+		end
+		object JawBone-76011-15 of JawBone
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-7
+			end
+			base described
+			end
+		end
+		object Tooth-76011-16 of Tooth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-4
+			end
+			base described
+			end
+		end
+		object Tooth-76011-17 of Tooth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-8
+			end
+			base described
+			end
+		end
+		object RandomBoots-76011-18 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-5
+			end
+			base described
+			end
+		end
+		object RandomBoots-76011-19 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-8
+			end
+			base described
+			end
+		end
+		object RandomShirt-76011-20 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-4
+			end
+			base described
+			end
+		end
+		object RandomShirt-76011-21 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	cryptBat-76011-2
+			end
+			base described
+			end
+		end
+		object RandomPotion-76011-22 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-6
+			end
+			base described
+			end
+		end
+		object RandomPotion-76011-23 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-7
+			end
+			base described
+			end
+		end
+		object RandomPotion-76011-24 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-4
+			end
+			base described
+			end
+		end
+		object RandomPotion-76011-25 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76011-8
+			end
+			base described
+			end
+		end
+	end
+end
+room 76013
+	properties
+		template 30601
+		south 76016
+		west 76011
+		flags	0
+	end
+	objects
+		object vampireBat-76013-0 of vampireBat
+			properties
+				x	291
+				y	274
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-76013-1 of cryptBat
+			properties
+				x	130
+				y	273
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 76014
+	properties
+		template 31402
+		south 76017
+		east 76015
+		north 76012
+		flags	0
+	end
+	objects
+		object cryptBat-76014-0 of cryptBat
+			properties
+				x	282
+				y	312
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object Shroom3-76014-1 of Shroom3
+			properties
+				x	114
+				y	312
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76015
+	properties
+		template 31503
+		south 76018
+		east 76016
+		west 76014
+		north 76011
+		flags	8
+	end
+	objects
+		object screechingHorror-76015-0 of screechingHorror
+			properties
+				x	287
+				y	207
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-76015-1 of StormBat
+			properties
+				x	436
+				y	258
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-76015-2 of StormBat
+			properties
+				x	106
+				y	254
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object vampireBat-76015-3 of vampireBat
+			properties
+				x	261
+				y	289
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-76015-4 of vampireBat
+			properties
+				x	364
+				y	267
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-76015-5 of cryptBat
+			properties
+				x	183
+				y	302
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object Sarcophagus-76015-6 of Sarcophagus
+			properties
+				x	427
+				y	283
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76015-7 of Sarcophagus
+			properties
+				x	485
+				y	150
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76015-8 of Sarcophagus
+			properties
+				x	147
+				y	276
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76015-9 of Sarcophagus
+			properties
+				x	182
+				y	210
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-76015-10 of Sarcophagus
+			properties
+				x	212
+				y	145
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Column-76015-11 of Column
+			properties
+				x	522
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-76015-12 of Column
+			properties
+				x	163
+				y	172
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-76015-13 of SarcophagusDoor
+			properties
+				x	457
+				y	202
+				loop	0
+				linkTo	DungeonBackUp-76040-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+		object JawBone-76015-14 of JawBone
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-9
+			end
+			base described
+			end
+		end
+		object JawBone-76015-15 of JawBone
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-7
+			end
+			base described
+			end
+		end
+		object JawBone-76015-16 of JawBone
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	vampireBat-76015-3
+			end
+			base described
+			end
+		end
+		object Tooth-76015-17 of Tooth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	vampireBat-76015-4
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-76015-18 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	vampireBat-76015-4
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-76015-19 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	vampireBat-76015-3
+			end
+			base described
+			end
+		end
+		object RandomBand-76015-20 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-8
+			end
+			base described
+			end
+		end
+		object RandomWeapon-76015-21 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-7
+			end
+			base described
+			end
+		end
+		object RandomWeapon-76015-22 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-10
+			end
+			base described
+			end
+		end
+		object RandomAmulet-76015-23 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-6
+			end
+			base described
+			end
+		end
+		object RandomPotion-76015-24 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-76015-6
+			end
+			base described
+			end
+		end
+		object RandomPotion-76015-25 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	screechingHorror-76015-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76016
+	properties
+		template 30704
+		south 76019
+		west 76015
+		north 76013
+		flags	0
+	end
+	objects
+		object cryptBat-76016-0 of cryptBat
+			properties
+				x	124
+				y	287
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76016-1 of cryptBat
+			properties
+				x	334
+				y	295
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object vampireBat-76016-2 of vampireBat
+			properties
+				x	234
+				y	265
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object LeverDisabled-76016-3 of LeverDisabled
+			properties
+				x	493
+				y	274
+				loop	0
+			end
+			actions
+				vBeActivated unlock SarcophagusDoor-76015-13 
+			end
+			base described
+			end
+		end
+	end
+end
+room 76040
+	properties
+		template 30101
+		east 76041
+		flags	0
+	end
+	objects
+		object DungeonBackUp-76040-0 of DungeonBackUp
+			properties
+				x	477
+				y	218
+				loop	2
+				linkTo	SarcophagusDoor-76015-13
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76041
+	properties
+		template 32302
+		south 76042
+		west 76040
+		flags	0
+	end
+	objects
+		object Basalt-76041-0 of Basalt
+			properties
+				x	345
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76017
+	properties
+		template 30803
+		east 76018
+		north 76014
+		flags	0
+	end
+	objects
+		object cryptBat-76017-0 of cryptBat
+			properties
+				x	454
+				y	262
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76017-1 of cryptBat
+			properties
+				x	322
+				y	287
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 76018
+	properties
+		template 32202
+		east 76019
+		west 76017
+		north 76015
+		flags	0
+	end
+	objects
+		object cryptBat-76018-0 of cryptBat
+			properties
+				x	450
+				y	267
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76018-1 of cryptBat
+			properties
+				x	339
+				y	274
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object Shroom3-76018-2 of Shroom3
+			properties
+				x	119
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76018-3 of Shroom3
+			properties
+				x	105
+				y	228
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76019
+	properties
+		template 32701
+		west 76018
+		north 76016
+		flags	0
+	end
+	objects
+		object vampireBat-76019-0 of vampireBat
+			properties
+				x	377
+				y	310
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-76019-1 of cryptBat
+			properties
+				x	221
+				y	276
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-76019-2 of cryptBat
+			properties
+				x	332
+				y	223
+				loop	3
+				color	73
+			end
+			base character
+			end
+		end
+		object Stalagmite1-76019-3 of Stalagmite1
+			properties
+				x	566
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-76019-4 of Stalagmite1
+			properties
+				x	539
+				y	299
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-76019-5 of Shroom3
+			properties
+				x	470
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76019-6 of Shroom3
+			properties
+				x	481
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76019-7 of RandomPotion
+			properties
+				x	418
+				y	209
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76042
+	properties
+		template 31001
+		south 76043
+		north 76041
+		flags	0
+	end
+end
+room 76043
+	properties
+		template 31004
+		south 76044
+		north 76042
+		flags	0
+	end
+end
+room 76052
+	properties
+		template 30102
+		south 76053
+		east 76051
+		flags	40
+	end
+	objects
+		object UndeadNecromancer-76052-0 of UndeadNecromancer
+			properties
+				x	282
+				y	284
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DamnedOne-76052-1 of DamnedOne
+			properties
+				x	350
+				y	311
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DamnedOne-76052-2 of DamnedOne
+			properties
+				x	388
+				y	269
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76051
+	properties
+		template 30703
+		east 76050
+		west 76052
+		flags	136
+	end
+	objects
+		object DamnedOne-76051-0 of DamnedOne
+			properties
+				x	343
+				y	266
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DamnedOne-76051-1 of DamnedOne
+			properties
+				x	285
+				y	248
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76050
+	properties
+		template 30701
+		west 76051
+		flags	128
+	end
+	objects
+		object DamnedOne-76050-0 of DamnedOne
+			properties
+				x	67
+				y	261
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76050-1 of DungeonBackUp
+			properties
+				x	301
+				y	204
+				loop	2
+				linkTo	SarcophagusDoor-76011-13
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76045
+	properties
+		template 30101
+		east 76044
+		flags	0
+	end
+	objects
+		object DungeonBackDown-76045-0 of DungeonBackDown
+			properties
+				x	475
+				y	220
+				loop	2
+				linkTo	DungeonBackUp-76046-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76044
+	properties
+		template 32602
+		west 76045
+		north 76043
+		flags	0
+	end
+	objects
+		object Devilweed-76044-0 of Devilweed
+			properties
+				x	496
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76057
+	properties
+		template 30101
+		east 76059
+		flags	72
+	end
+	objects
+		object UndeadNecromancer-76057-0 of UndeadNecromancer
+			properties
+				x	480
+				y	271
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76057-1 of UndeadNecromancer
+			properties
+				x	421
+				y	266
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76057-2 of UndeadNecromancer
+			properties
+				x	361
+				y	260
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-76057-3 of EntombedOne
+			properties
+				x	332
+				y	254
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-76057-4 of Lich
+			properties
+				x	262
+				y	242
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-76057-5 of CryptKeeper
+			properties
+				x	352
+				y	280
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76057-6 of DungeonBackUp
+			properties
+				x	92
+				y	219
+				loop	2
+				linkTo	DungeonBackDoor-76049-4
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Smoke1-76057-7 of Smoke1
+			properties
+				x	146
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-76057-8 of Smoke1
+			properties
+				x	559
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-76057-9 of SmokeC
+			properties
+				x	545
+				y	354
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-76057-10 of SmokeC
+			properties
+				x	134
+				y	353
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-76057-11 of SmokeC
+			properties
+				x	347
+				y	354
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76059
+	properties
+		template 30201
+		west 76057
+		flags	0
+	end
+	objects
+		object Bones-76059-0 of Bones
+			properties
+				x	366
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-76059-1 of Shroom1
+			properties
+				x	169
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-76059-2 of Shroom1
+			properties
+				x	194
+				y	246
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom1-76059-3 of Shroom1
+			properties
+				x	217
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-76059-4 of Shroom2
+			properties
+				x	229
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76059-5 of Shroom3
+			properties
+				x	262
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76059-6 of Shroom3
+			properties
+				x	521
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76059-7 of Shroom3
+			properties
+				x	521
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76059-8 of Shroom3
+			properties
+				x	533
+				y	274
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-76059-9 of Shroom3
+			properties
+				x	535
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-76059-10 of Smoke1
+			properties
+				x	538
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-76059-11 of Smoke1
+			properties
+				x	38
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-76059-12 of SmokeC
+			properties
+				x	518
+				y	353
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-76059-13 of SmokeC
+			properties
+				x	320
+				y	352
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-76059-14 of SmokeC
+			properties
+				x	112
+				y	352
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-76059-15 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-76059-16 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-76059-17 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-76059-18 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomWand-76059-19 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomWand-76059-20 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomGem-76059-21 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomGem-76059-22 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomGem-76059-23 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomGem-76059-24 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-76059-25 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-76059-26 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-76059-27 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76059-28 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76059-29 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76059-30 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76059-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76053
+	properties
+		template 32304
+		north 76052
+		flags	8
+	end
+	objects
+		object UndeadNecromancer-76053-0 of UndeadNecromancer
+			properties
+				x	163
+				y	273
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-76053-1 of EntombedOne
+			properties
+				x	198
+				y	238
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-76053-2 of EntombedOne
+			properties
+				x	253
+				y	256
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76053-3 of DungeonBackDoor
+			properties
+				x	417
+				y	242
+				loop	2
+				linkTo	DungeonBackUp-76054-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 76046
+	properties
+		template 30805
+		east 76047
+		flags	72
+	end
+	objects
+		object Zombie-76046-0 of Zombie
+			properties
+				x	391
+				y	273
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76046-1 of Zombie
+			properties
+				x	125
+				y	256
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76046-2 of DungeonBackUp
+			properties
+				x	251
+				y	213
+				loop	2
+				linkTo	DungeonBackDown-76045-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Devilweed-76046-3 of Devilweed
+			properties
+				x	550
+				y	195
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76047
+	properties
+		template 31301
+		east 76048
+		west 76046
+		flags	72
+	end
+	objects
+		object Ghoul-76047-0 of Ghoul
+			properties
+				x	307
+				y	276
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76047-1 of Ghoul
+			properties
+				x	213
+				y	276
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76047-2 of UndeadNecromancer
+			properties
+				x	274
+				y	253
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76048
+	properties
+		template 30906
+		east 76049
+		west 76047
+		flags	72
+	end
+	objects
+		object Zombie-76048-0 of Zombie
+			properties
+				x	537
+				y	271
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76048-1 of Zombie
+			properties
+				x	490
+				y	262
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76048-2 of Zombie
+			properties
+				x	476
+				y	271
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76048-3 of Zombie
+			properties
+				x	427
+				y	253
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76048-4 of Zombie
+			properties
+				x	397
+				y	272
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76049
+	properties
+		template 30201
+		west 76048
+		flags	8
+	end
+	objects
+		object Ghoul-76049-0 of Ghoul
+			properties
+				x	338
+				y	279
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76049-1 of Ghoul
+			properties
+				x	232
+				y	272
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76049-2 of Ghoul
+			properties
+				x	298
+				y	264
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Sign-76049-3 of Sign
+			properties
+				x	75
+				y	244
+				loop	0
+			end
+			base described
+				text	"The sign reads: "Lord Targoth Is Buried Here, Guarded for Eternity.  May He Never Rise Again.""
+			end
+		end
+		object DungeonBackDoor-76049-4 of DungeonBackDoor
+			properties
+				x	178
+				y	233
+				loop	2
+				linkTo	DungeonBackUp-76057-6
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+		object RandomStuff-76049-5 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Ghoul-76049-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-76049-6 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Ghoul-76049-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76056
+	properties
+		template 30101
+		east 76055
+		flags	0
+	end
+	objects
+		object Lever-76056-0 of Lever
+			properties
+				x	105
+				y	280
+				loop	0
+				level 10
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-76049-4
+				vBeActivated castSpell 25 dobj
+				vBeDisarmed clearAffect 1
+			end
+			base described
+			end
+		end
+		object Sign-76056-1 of Sign
+			properties
+				x	166
+				y	241
+				loop	0
+			end
+			base described
+				text	"Beware.  Touch the lever and burn."
+			end
+		end
+	end
+end
+room 76055
+	properties
+		template 31301
+		east 76054
+		west 76056
+		flags	0
+	end
+end
+room 76054
+	properties
+		template 30201
+		west 76055
+		flags	0
+	end
+	objects
+		object DungeonBackUp-76054-0 of DungeonBackUp
+			properties
+				x	178
+				y	232
+				loop	2
+				linkTo	DungeonBackDoor-76053-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end

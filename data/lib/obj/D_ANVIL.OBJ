@@ -1,0 +1,164 @@
+object AnvilKey01 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79523
+	end
+end
+
+object AnvilKey02 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79528
+	end
+end
+
+object AnvilKey03 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79533
+	end
+end
+
+object AnvilKey04 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79562
+	end
+end
+
+object AnvilKey05 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79567
+	end
+end
+
+object AnvilKey06 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79572
+	end
+end
+
+object AnvilKey07 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79577
+	end
+end
+
+object AnvilKey08 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79582
+	end
+end
+
+object AnvilKey09 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key."
+	end
+	base key
+		unlockValue 79587
+	end
+end
+
+object AnvilKey10 of Key
+	properties
+		toss
+		drop
+		special
+		name "Bronze Key"
+	end
+	base described
+		text "You see a bronze key."
+	end
+	base key
+		unlockValue 795960
+	end
+end
+
+object AnvilKey11 of Key
+	properties
+		toss
+		drop
+		special
+		name "Brass Key"
+	end
+	base described
+		text "You see a brass key."
+	end
+	base key
+		unlockValue 795961
+	end
+end

@@ -1,0 +1,19 @@
+quest  235 #6815-01-500        #Meta, Desert Breeze Exilirs, Arimathor, 6815
+
+name  "Green Glass Globe"
+type  fedex
+
+proposal  "This is really wonderful.  You're ready for the last stage of training as a Healer.  It's my pleasure to assist you by obtaining the skillbook that you'll need.  I know you're anxious to be about your quest, so here it is.  I've heard of a most unusual Green Glass Globe.  It is described as clear by some, and as full of stars by others.  I'm very curious to see it and to have it for my collection of pretty baubles.  Would you seek this for me?"
+
+declined  "I'm sorry to hear it."
+
+accepted  "Excellent.  I'd suggest Drune as a starting place.  While I do not know if this is elven work, it certainly sounds that way to me."
+
+reminder   "A green glass globe.  Look in Drune first."
+
+completed  "This globe is more beautiful than I imagined.  Many thanks, apprenctice, and here is the final skillbook for your Healing career."
+
+getItem   qGreenGlobe
+reward   skbHealingV 
+end
+

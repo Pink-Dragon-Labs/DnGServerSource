@@ -1,0 +1,61 @@
+id 8021
+
+banner "Greetings, stranger. You've entered Wards of War. I'm Mara. What's your business here?"
+
+topic "Tell me about Kurz."
+        text "Kurz is not a town that tolerates curiosity from strangers."
+	text "You might want to keep that in mind while you're here."
+	text "I'm a patient person, stranger, very patient.  Every one knows that.  But I'm just a mite testy with people who waste my time with questions!"
+	text "That's it!!  No more questions about Kurz.  Just stop with the questions."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that Duach crushed Leinster because he was angry at Despothes."
+	text "I think I know how he felt!"
+end      
+
+topic "Can I do anything for you?"
+        text "No. Check with me again."
+end
+
+#npc8021.txt  Mara of Kurz
+
+topic  "I want to learn spells."
+	banner  "Spells!  The likes of you?  I, myself, know everything there is to know about Necromancy.  Sometimes I agree to accept a student." 
+
+	topic  "I'm interested in Necromancy Familiar skills "  s15:0
+		quest 283 #8021-01-100
+		text "I can't believe this.  You've already got the book.  You'll never get the skills if you don't study it!"
+	end
+
+	topic  "I am interested in Necromancy Proficient skills."  s15:1  
+		quest 286 #8021-01-200
+		text "Sheesh, this is ridiculous. You'll never get the skills if you don't study the book you have!"
+	end
+
+	topic  "I am interested in Necromancy Expert skills."  s15:2  
+		quest 290 #8021-01-300
+		text "You nitwit, you've got the book.  Can't you understand that you've got to study that."
+	end
+ 
+	topic  "I am interested in Necromancy Master skills."  s15:3  
+		quest 295 #8021-01-400
+		text "You will NEVER get those skills unless you STUDY the book you have!!!"
+	end
+
+	topic  "I am interested in Necromancy Grand-Master skills."  s15:4  
+		quest 300 #8021-01-500
+		text "Listen to me carefully.  I will use simple words.  The skill book is in your possession.  You must study it.  NOW DO YOU UNDERSTAND?"
+	end
+
+	topic  "What else can I learn from you?"  s15:5
+		text  "You overestimate yourself.  I accepted you for Necromancy and that is enough.  No more!  Do you understand?"
+		text  "You make me laugh!  You haven't yet finished learning Necromancy!"
+	end
+end
+
+topic  "I'm seeking a Banshee Relic" q81:0 #q6205-01-400:0
+	quest 82 #6205-01-425
+	text  "I gave it to you. Don't come back here pretending otherwise."
+end
+

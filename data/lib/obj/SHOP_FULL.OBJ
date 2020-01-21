@@ -1,0 +1,944 @@
+object FullShop of Shop
+	properties
+		name "Super Shopkeeper"
+		special
+	end
+
+	base described
+		text "The Shopkeeper with the most."
+	end
+
+	base character
+		title "Super Shopkeeper"
+	end
+
+	base shop
+		buyMarkup 0
+		sellMarkup 0
+
+		inventory
+			category "Equipment" 50233
+				object BackPack
+				object LeatherPouch
+				object Lockpick
+				object Mirror
+				object Bowl
+				object Chalice
+				object Mug
+				object Candle
+				object Plate
+			end 	#-------------- End Equipment ----------------
+
+			category "Food and Drink" 52133
+				object Meat
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object RatlingCheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end 	#-------------- End Food ----------------
+
+			category "Dyes" 51583
+				object dOlive
+				object dLime
+				object dBlue
+				object dAzure
+				object dRed
+				object dPink
+				object dGold
+				object dYellow
+				object dViolet
+				object dMagenta
+				object dBrown
+				object dTan
+				object dAqua
+				object dTeal
+				object dGreen
+				object dJade
+				object dOrange
+				object dAmber
+				object dRoyal
+				object dPurple
+				object dBlack
+				object dGray
+				object dWhite
+				object dOrangeMedium
+				object dLightOrange
+				object dFlesh
+				object dLightFlesh
+				category "Hair Dyes" 51583
+					object hdLightRed
+					object hdRed
+					object hdLightGrey
+					object hdGrey
+					object hdDarkGrey
+					object hdOrange
+					object hdLightOrange
+					object hdReddishBrown
+					object hdBrown
+					object hdLightYellow
+					object hdYellow
+					object hdLightBlue
+					object hdBlue
+					object hdWhite
+					object hdOlive
+					object hdLightOlive
+					object hdMagenta
+					object hdLightMagenta
+					object hdDarkBrown
+					object hdLightBrown
+					object hdAqua
+					object hdLightAqua
+					object hdGreen
+					object hdLightGreen
+					object hdPurple
+					object hdLightPurple
+					object hdPaleBrown
+					object hdPalePaleBrown
+				end 	#-------------- End Hair Dyes ----------------
+			end 	#-------------- End Dyes ----------------
+
+			category "Clothes"  10133
+				category "Pants" 10533
+					object OlivePants
+					object LimePants
+					object BluePants
+					object AzurePants
+					object RedPants
+					object PinkPants
+					object GoldPants
+					object YellowPants
+					object VioletPants
+					object MagentaPants
+					object BrownPants
+					object TanPants
+					object AquaPants
+					object TealPants
+					object GreenPants
+					object JadePants
+					object OrangePants
+					object AmberPants
+					object RoyalPants
+					object PurplePants
+					object BlackPants
+					object GrayPants
+					object WhitePants
+				end
+				category "Long Skirts" 21033
+					object OliveLongSkirt
+					object LimeLongSkirt
+					object BlueLongSkirt
+					object AzureLongSkirt
+					object RedLongSkirt
+					object PinkLongSkirt
+					object GoldLongSkirt
+					object YellowLongSkirt
+					object VioletLongSkirt
+					object MagentaLongSkirt
+					object BrownLongSkirt
+					object TanLongSkirt
+					object AquaLongSkirt
+					object TealLongSkirt
+					object GreenLongSkirt
+					object JadeLongSkirt
+					object OrangeLongSkirt
+					object AmberLongSkirt
+					object RoyalLongSkirt
+					object PurpleLongSkirt
+					object BlackLongSkirt
+					object GrayLongSkirt
+					object WhiteLongSkirt
+				end
+				category "Short Skirts" 21533
+					object OliveShortSkirt
+					object LimeShortSkirt
+					object BlueShortSkirt
+					object AzureShortSkirt
+					object RedShortSkirt
+					object PinkShortSkirt
+					object GoldShortSkirt
+					object YellowShortSkirt
+					object VioletShortSkirt
+					object MagentaShortSkirt
+					object BrownShortSkirt
+					object TanShortSkirt
+					object AquaShortSkirt
+					object TealShortSkirt
+					object GreenShortSkirt
+					object JadeShortSkirt
+					object OrangeShortSkirt
+					object AmberShortSkirt
+					object RoyalShortSkirt
+					object PurpleShortSkirt
+					object BlackShortSkirt
+					object GrayShortSkirt
+					object WhiteShortSkirt
+				end
+				category "Shirts" 10133
+					object OliveShirt
+					object LimeShirt
+					object BlueShirt
+					object AzureShirt
+					object RedShirt
+					object PinkShirt
+					object GoldShirt
+					object YellowShirt
+					object VioletShirt
+					object MagentaShirt
+					object BrownShirt
+					object TanShirt
+					object AquaShirt
+					object TealShirt
+					object GreenShirt
+					object JadeShirt
+					object OrangeShirt
+					object AmberShirt
+					object RoyalShirt
+					object PurpleShirt
+					object BlackShirt
+					object GrayShirt
+					object WhiteShirt
+				end
+				category "Tunics" 10433
+					object OliveTunic
+					object LimeTunic
+					object BlueTunic
+					object AzureTunic
+					object RedTunic
+					object PinkTunic
+					object GoldTunic
+					object YellowTunic
+					object VioletTunic
+					object MagentaTunic
+					object BrownTunic
+					object TanTunic
+					object AquaTunic
+					object TealTunic
+					object GreenTunic
+					object JadeTunic
+					object OrangeTunic
+					object AmberTunic
+					object RoyalTunic
+					object PurpleTunic
+					object BlackTunic
+					object GrayTunic
+					object WhiteTunic
+				end
+				category "Robes" 11533
+					object OliveRobe
+					object LimeRobe
+					object BlueRobe
+					object AzureRobe
+					object RedRobe
+					object PinkRobe
+					object GoldRobe
+					object YellowRobe
+					object VioletRobe
+					object MagentaRobe
+					object BrownRobe
+					object TanRobe
+					object AquaRobe
+					object TealRobe
+					object GreenRobe
+					object JadeRobe
+					object OrangeRobe
+					object AmberRobe
+					object RoyalRobe
+					object PurpleRobe
+					object BlackRobe
+					object GrayRobe
+					object WhiteRobe
+				end
+				category "High Boots" 10633
+					object OliveBoots
+					object LimeBoots
+					object BlueBoots
+					object AzureBoots
+					object RedBoots
+					object PinkBoots
+					object GoldBoots
+					object YellowBoots
+					object VioletBoots
+					object MagentaBoots
+					object BrownBoots
+					object TanBoots
+					object AquaBoots
+					object TealBoots
+					object GreenBoots
+					object JadeBoots
+					object OrangeBoots
+					object AmberBoots
+					object RoyalBoots
+					object PurpleBoots
+					object BlackBoots
+					object GrayBoots
+					object WhiteBoots
+				end
+				category "Low Boots" 20733
+					object OliveLowBoots
+					object LimeLowBoots
+					object BlueLowBoots
+					object AzureLowBoots
+					object RedLowBoots
+					object PinkLowBoots
+					object GoldLowBoots
+					object YellowLowBoots
+					object VioletLowBoots
+					object MagentaLowBoots
+					object BrownLowBoots
+					object TanLowBoots
+					object AquaLowBoots
+					object TealLowBoots
+					object GreenLowBoots
+					object JadeLowBoots
+					object OrangeLowBoots
+					object AmberLowBoots
+					object RoyalLowBoots
+					object PurpleLowBoots
+					object BlackLowBoots
+					object GrayLowBoots
+					object WhiteLowBoots
+				end
+				category "Belts"  10233
+					object OliveBelt
+					object BlueBelt
+					object RedBelt
+					object GoldBelt
+					object VioletBelt
+					object BrownBelt
+					object AquaBelt
+					object GreenBelt
+					object OrangeBelt
+					object RoyalBelt
+					object BlackBelt
+					object GrayBelt
+					object WhiteBelt
+				end
+				category "Cowls"  10033
+					object OliveCowl
+					object LimeCowl
+					object BlueCowl
+					object AzureCowl
+					object RedCowl
+					object PinkCowl
+					object GoldCowl
+					object YellowCowl
+					object VioletCowl
+					object MagentaCowl
+					object BrownCowl
+					object TanCowl
+					object AquaCowl
+					object TealCowl
+					object GreenCowl
+					object JadeCowl
+					object OrangeCowl
+					object AmberCowl
+					object RoyalCowl
+					object PurpleCowl
+					object BlackCowl
+					object GrayCowl
+					object WhiteCowl
+				end
+				category "Baldrics"  10933
+					object DarkKnightBaldric 
+					object ScepterKnightBaldric
+					object EnidKnightBaldric
+					object BlueBaldric      #level 03
+					object RedBaldric       #level 07
+					object BrownBaldric     #level 15
+					object GrayBaldric      #level 25
+					object GoldBaldric      #level 50
+				end
+			end 	#-------------- End Clothes ----------------
+
+			category "Armor" 13633
+				category "Tempered-Steel Armor" 13633
+					object TemperedSteelSollerets
+					object TemperedSteelCowl
+					object TemperedSteelChainPants
+					object TemperedSteelPlatePants
+					object TemperedSteelChainTunic
+					object TemperedSteelPlateTunic
+					object TemperedSteelband
+				end
+				category "Mythril Armor" 13733
+					object MythrilSollerets
+					object MythrilCowl
+					object MythrilChainPants
+					object MythrilPlatePants
+					object MythrilChainTunic
+					object MythrilPlateTunic
+					object Mythrilband
+				end
+				category "Helms"  62683
+					object MythrilHelmet 
+					object NightSoulHelmet 
+					object CenturionHelmet 
+					object TribuneHelmet
+					object Hood
+					object VikingHelmet 
+					object SaurianHelmet 
+					object MythrilLegionHelmet
+					object Bandanna 
+					object RaptorHelmet
+					object DruidHelmet
+					object MythrilMinervaHelmet
+					object HuntressHelmet
+					object UplanderHelmet 
+					object WizardCap 
+					object IdiotHat
+					object CourtierHat
+					object MythrilHelmet
+					object MythrilLegionHelmet
+					object MythrilMinervaHelmet
+					object TemperedSteelHelmet
+					object TemperedSteelLegionHelmet
+					object TemperedSteelMinervaHelmet
+				end
+				category "Shields" 16533
+					object TemperedSteelRoundShield
+					object MythrilRoundShield
+					object TemperedSteelLargeShield
+					object MythrilLargeShield
+				end
+			end 	#-------------- End Armor ----------------
+
+			category "Weapons" 15133
+				category "Single-Handed Weapons" 15233
+					object TemperedSteelDagger
+					object TemperedSteelClaw
+					object TemperedSteelShortSword
+					object TemperedSteelLongSword
+					object TemperedSteelBroadSword
+					object MythrilDagger
+					object MythrilClaw
+					object MythrilShortSword
+					object MythrilLongSword
+					object MythrilBroadSword
+					object mwSpecialNullsword
+				end
+				category "Two-Handed Weapons" 15933
+					object TemperedSteelClub
+					object TemperedSteelMaul
+					object TemperedSteelTwoHandSword
+					object TemperedSteelMace
+					object TemperedSteelAxe
+					object MythrilClub
+					object MythrilMaul
+					object MythrilTwoHandSword
+					object MythrilMace
+					object MythrilAxe
+					object FuloranMaul
+				end
+				category "Throwing Weapons" 15333
+					object TemperedSteelThrowingDagger
+					object MythrilThrowingDagger
+					object MythrilThrowingDagger
+					object AdmantiumThrowingDagger 
+				end
+			end 	#-------------- End Weapons ----------------
+
+			category "Magic Items" 51033
+				mana
+
+				category "Amulets" 51533
+					category "General" 51533
+						object aFreeWill
+						object aDeathProtection
+						object aCombat
+						object aEndurance
+						object aIntelligence
+					end
+					category "Elementalism" 51533
+						object ElementalAmuletI
+						object ElementalAmuletII
+						object ElementalAmuletIII
+						object ElementalAmuletIV
+						object ElementalAmuletV
+						object ElementalAmuletVI
+						object ElementalAmuletVII
+						object ElementalAmuletVIII
+					end
+					category "Thaumaturgy" 51533
+						object ThaumaturgyAmuletI
+						object ThaumaturgyAmuletII
+						object ThaumaturgyAmuletIII
+						object ThaumaturgyAmuletIV
+						object ThaumaturgyAmuletV
+						object ThaumaturgyAmuletVI
+						object ThaumaturgyAmuletVII
+						object ThaumaturgyAmuletVIII
+					end
+					category "Necromancy" 51533
+						object NecromancyAmuletI
+						object NecromancyAmuletII
+						object NecromancyAmuletIII
+						object NecromancyAmuletIV
+						object NecromancyAmuletV
+						object NecromancyAmuletVI
+						object NecromancyAmuletVII
+						object NecromancyAmuletVIII
+					end
+				end 	#-------------- End Amulets ----------------
+
+				category "Potions" 51583
+					object eLife
+					object ePurify
+					object pAcidShield
+					object pColdShield
+					object pCurePoison
+					object pDexterity
+					object pFireShield
+					object pGreaterHealth
+					object pGreaterInvisibility
+					object pHealth
+					object pInvisibility
+					object pInvulnerability
+					object pLightningShield
+					object pPain
+					object pPoison
+					object pPoisonShield
+					object pRegeneration
+					object pSeeInvisibility
+					object pShift
+					object pStrength
+					object pWeakness
+				end 	#-------------- End Potions ----------------
+
+				category "Scrolls" 51033
+					object sIdentify
+					object sImmolation
+					object sMissileResistance
+					object sResistCold
+					object sResistFire
+					object sResistLightning
+					object sShield
+					object sGreaterShield
+					object sMonsterSummoningI
+					object sMonsterSummoningII
+				end 	#-------------- End Scrolls ----------------
+			end 		#-------------- Magic Items ----------------
+
+			category "Spellbooks"
+				category "Sorcery" 51083
+					object spbHome
+					object spbKillStar
+					object spbDispelMagic
+					object spbEngrave
+					object spbMultiBlade
+					object spbGatherTheFellowship
+					object spbCornucopia
+					object spbImproveArmor
+					object spbTeleport
+					object spbExtension
+					object spbSeeInvisibility
+					object spbShift
+					object spbInvisibility
+					object spbCombatTeleport
+					object spbTeleportGroup
+					object spbPermanency
+					object spbRust
+					object spbWraithform
+					object spbImprovedInvisibility
+					object spbEnchantItem
+					object spbMassRust
+				end
+				category "Elementalism" 51083
+					object spbFireGrasp
+					object spbFlameOrb
+					object spbArticGrasp
+					object spbIceOrb
+					object spbIncinerate
+					object spbImmolation
+					object spbFlameBlade
+					object spbArticCharge
+					object spbColdSteel
+					object spbSpark
+					object spbIceStorm
+					object spbStoning
+					object spbFireball
+					object spbLightningBolt
+					object spbFreeze
+					object spbCrushingBoulder
+					object spbElectricFury
+					object spbColdSnap
+					object spbEarthquake
+				end
+				category "Mysticism" 51083
+					object spbHoldMonster
+					object spbPsychicOrb
+					object spbIdentify
+					object spbConfusion
+					object spbMindShackle
+					object spbBerserk
+					object spbStun
+					object spbLoyaltyShift
+					object spbWarpMind
+					object spbSpellBlast
+					object spbMassHold
+					object spbFear
+					object spbIronChains
+					object spbMassBerserk
+					object spbMassStun
+					object spbMassLoyaltyShift
+				end
+				category "Thaumaturgy" 51083
+					object spbLightDart
+					object spbNimbility
+					object spbEmpower
+					object spbMissileResistance
+					object spbHeal
+					object spbSummonPixie
+					object spbPurify
+					object spbCurePoison
+					object spbGreaterHeal
+					object spbRemoveCurse
+					object spbSummonFaery
+					object spbShield
+					object spbGreaterShield
+					object spbWrathOfTheGods
+					object spbFireShield
+					object spbColdShield
+					object spbLightningShield
+					object spbPoisonShield
+					object spbAcidShield
+					object spbSummonNymph
+					object spbRegeneration
+					object spbIndestruction
+					object spbInvulnerability
+					object spbBanishment
+					object spbSummonFaeryQueen
+				end
+				category "Necromancy" 51083
+					object spbAcidSphere
+					object spbVenomousTouch
+					object spbClumsiness
+					object spbPoisonBolt
+					object spbEnfeeble
+					object spbDrainLife
+					object spbSummonZombie
+					object spbVenom
+					object spbSummonUndead
+					object spbAcidRain
+					object spbPoisonCurse
+					object spbAcidCurse
+					object spbFireCurse
+					object spbColdCurse
+					object spbElectricCurse
+					object spbNightFriends
+					object spbStealLife
+					object spbDeathTouch
+					object spbBanish
+					object spbShadowWarrior
+					object spbSummonDaemon
+					object spbDeathWish
+					object spbMassDrain
+				end
+			end 	#-------------- End Spell Books ----------------
+
+			category "Skill Books"  10133
+				category "Daggers" 51083
+					object skbDaggerI
+					object skbDaggerII
+					object skbDaggerIII
+					object skbDaggerIV
+					object skbDaggerV
+				end
+				category "Short Swords" 51083
+					object skbShortSwordI
+					object skbShortSwordII
+					object skbShortSwordIII
+					object skbShortSwordIV
+					object skbShortSwordV
+				end
+				category "Long Swords" 51083
+					object skbLongSwordI
+					object skbLongSwordII
+					object skbLongSwordIII
+					object skbLongSwordIV
+					object skbLongSwordV
+				end
+				category "Two Handed Swords" 51083
+					object skbTwoHandedSwordI
+					object skbTwoHandedSwordII
+					object skbTwoHandedSwordIII
+					object skbTwoHandedSwordIV
+					object skbTwoHandedSwordV
+				end
+				category "Clubs" 51083
+					object skbClubI
+					object skbClubII
+					object skbClubIII
+					object skbClubIV
+					object skbClubV
+				end
+				category "Maces" 51083
+					object skbMaceI
+					object skbMaceII
+					object skbMaceIII
+					object skbMaceIV
+					object skbMaceV
+				end
+				category "Axes" 51083
+					object skbAxeI
+					object skbAxeII
+					object skbAxeIII
+					object skbAxeIV
+					object skbAxeV
+				end
+				category "Mauls" 51083
+					object skbMaulI
+					object skbMaulII
+					object skbMaulIII
+					object skbMaulIV
+					object skbMaulV
+				end
+				category "Throwing Weapons" 51083
+					object skbThrowingWeaponI
+					object skbThrowingWeaponII
+					object skbThrowingWeaponIII
+					object skbThrowingWeaponIV
+					object skbThrowingWeaponV
+				end
+				category "Shield Usage" 51083
+					object skbShieldUseI
+					object skbShieldUseII
+					object skbShieldUseIII
+					object skbShieldUseIV
+					object skbShieldUseV
+				end
+				category "Sorcery" 51083
+					object skbSorceryI
+					object skbSorceryII
+					object skbSorceryIII
+					object skbSorceryIV
+					object skbSorceryV
+				end
+				category "Elementalism" 51083
+					object skbElementalismI
+					object skbElementalismII
+					object skbElementalismIII
+					object skbElementalismIV
+					object skbElementalismV
+				end
+				category "Mysticism" 51083
+					object skbMysticismI
+					object skbMysticismII
+					object skbMysticismIII
+					object skbMysticismIV
+					object skbMysticismV
+				end
+				category "Thaumaturgy" 51083
+					object skbThaumaturgyI
+					object skbThaumaturgyII
+					object skbThaumaturgyIII
+					object skbThaumaturgyIV
+					object skbThaumaturgyV
+				end
+				category "Necromancy" 51083
+					object skbNecromancyI
+					object skbNecromancyII
+					object skbNecromancyIII
+					object skbNecromancyIV
+					object skbNecromancyV
+				end
+				category "Theurgism" 51083
+					object skbTheurgismI
+					object skbTheurgismII
+					object skbTheurgismIII
+					object skbTheurgismIV
+					object skbTheurgismV
+				end
+				category "Meditation" 51083
+					object skbMeditationI
+					object skbMeditationII
+					object skbMeditationIII
+					object skbMeditationIV
+					object skbMeditationV
+				end
+				category "Pickpocketing" 51083
+					object skbPickpocketingI
+					object skbPickpocketingII
+					object skbPickpocketingIII
+					object skbPickpocketingIV
+					object skbPickpocketingV
+				end
+				category "Trap Detection" 51083
+					object skbTrapsI
+					object skbTrapsII
+					object skbTrapsIII
+					object skbTrapsIV
+					object skbTrapsV
+				end
+				category "Lock picking" 51083
+					object skbLockpickingI
+					object skbLockpickingII
+					object skbLockpickingIII
+					object skbLockpickingIV
+					object skbLockpickingV
+				end
+				category "Unarmed Combat" 51083
+					object skbUnarmedCombatI
+					object skbUnarmedCombatII
+					object skbUnarmedCombatIII
+					object skbUnarmedCombatIV
+					object skbUnarmedCombatV
+				end
+				category "Acrobatics" 51083
+					object skbAcrobaticI
+					object skbAcrobaticII
+					object skbAcrobaticIII
+					object skbAcrobaticIV
+					object skbAcrobaticV
+				end
+				category "Critical Striking" 51083
+					object skbCriticalStrikingI
+					object skbCriticalStrikingII
+					object skbCriticalStrikingIII
+					object skbCriticalStrikingIV
+					object skbCriticalStrikingV
+				end
+				category "Alchemy" 51083
+					object skbAlchemyI
+					object skbAlchemyII
+					object skbAlchemyIII
+					object skbAlchemyIV
+					object skbAlchemyV
+				end
+				category "Weapon Smithing" 51083
+					object skbWeaponsmithingI
+					object skbWeaponsmithingII
+					object skbWeaponsmithingIII
+					object skbWeaponsmithingIV
+					object skbWeaponsmithingV
+				end
+				category "Armor Smithing" 51083
+					object skbArmorcraftingI
+					object skbArmorcraftingII
+					object skbArmorcraftingIII
+					object skbArmorcraftingIV
+					object skbArmorcraftingV
+				end
+			end 		#-------------- End Skill Books----------------
+
+			category "Smithing" 50233
+				object WeaponsmithTool
+				object ArmorerTool
+				object AlchemyTool
+				category "Materials" 58283
+					object WoodBlock
+					object AdmantiumBar
+					object ObsidianiteBar
+					object MythrilBar
+					object TemperedSteelBar
+					object SteelBar
+					object IronBar
+					object ClothBolt  
+					object LeatherBolt
+					object TrollHideBolt
+				end 	#-------------- End Materials ----------------
+				category "Ingredients" 57983
+					object ZombieFinger
+					object GoldNugget
+					object RatGuano
+					object ImpGuano
+					object DaemonGuano
+					object JawBone
+					object OgreEyeball
+					object AmberRod
+					object ObsidianDust
+					object Silvergrass
+					object Goldenberries
+					object Pigweed
+					object Devilweed
+					object Corbalite
+					object Basalt
+					object Sulfur
+					object Marble
+					object ElderOak
+					object Silverthorn
+					object Tobac
+					object pSwampWater
+				end 	#-------------- End Ingredients ----------------
+				category "Gems" 50883
+					object Crystal
+					object RubyChip
+					object Aquamarine
+					object Turquoise
+					object Topaz
+					object Emerald
+					object Ruby
+					object Jet
+					object Diamond
+				end 	#-------------- End Gems ----------------
+			end 		#-------------- End Smithing ----------------
+
+			category "Mementos" 54733
+				object ChristmasTree
+				object Chrysanthenum
+				object Daisy
+				object Mirror
+				object RedRose
+				object Ring
+				object Snowman
+				object Statue
+				object WhiteRose
+				object GreenDragonscale
+				object BrownDragonscale
+				category "Eggs"  62683
+					object OliveEasterEgg
+   					object LimeEasterEgg
+   					object ExtraLimeEasterEgg
+   					object LimeBlueEasterEgg
+   					object BlueEasterEgg
+   					object AzureEasterEgg
+   					object LightAzureEasterEgg
+   					object BlueRedEasterEgg
+   					object RedEasterEgg
+   					object PinkEasterEgg
+   					object HotPinkEasterEgg
+   					object PinkGoldEasterEgg
+   					object GoldEasterEgg
+   					object YellowEasterEgg
+   					object LightYellowEasterEgg
+   					object YellowVioletEasterEgg
+   					object VioletEasterEgg
+   					object MagentaEasterEgg
+   					object LightMagentaEasterEgg
+   					object BrownEasterEgg
+   					object TanEasterEgg
+   					object LightTanEasterEgg
+   					object TanAquaEasterEgg
+   					object AquaEasterEgg
+   					object TealEasterEgg
+   					object LightTealEasterEgg
+   					object TealGreenEasterEgg
+   					object GreenEasterEgg
+   					object JadeEasterEgg
+   					object OrangeEasterEgg
+   					object AmberEasterEgg
+   					object RoyalEasterEgg
+   					object PurpleEasterEgg
+   					object LightPurpleEasterEgg
+   					object PurpleBlackEasterEgg
+   					object BlackEasterEgg
+   					object GrayEasterEgg
+   					object WhiteEasterEgg
+				end 	#-------------- End Eggs ----------------
+			end 		#-------------- End Mementos ----------------
+
+			category "Musical Instruments" 54033
+				object Drum
+				object Flute
+				object Lute
+				object Lyre
+				object Strynx
+			end 	#-------------- End Musical ----------------
+
+		end 		#-------------- End Inventory ----------------
+	end 			#-------------- End Base Shop ----------------
+end 				#-------------- End FullShop ----------------

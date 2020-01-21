@@ -1,0 +1,17 @@
+quest 10 #3326-01
+	name "Holy Symbol Quest"
+	type fedex
+
+	proposal "Well, come to think of it, a capable person such as yourself could perhaps aid our cause.  Recently, a symbol of our order came into the hands of the evil Daemon King Ezelberoth.  This artifact was recently uncovered in a distant land and was being transported here by a small order of our knights.  Unfortunately, all of the knights were killed and the symbol was lost.  If you could perhaps recover it, I can assure you Enid would be grateful."
+
+	accepted "Wonderful!  All I can tell you is that the Daemon King resides in some catecombs located in the Barrens.  May Enid be with you, my friend."
+
+	declined "I understand.  The Daemon King is quite fearsome and only the most pure of heart could hope to survive such a quest anyway."
+
+	reminder "Do you have the symbol?"
+
+	completed "Thank you so much!  I can feel that Enid is pleased.  Here, take this rose.  Use it and call on Enid, and she will heal you and your party."
+
+	getItem Dng17Symbol
+	reward PerfectRose
+end

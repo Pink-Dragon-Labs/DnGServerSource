@@ -1,0 +1,9 @@
+name "D_Fester"
+title "Festering Hate Pool"
+worldFile "../data/lib/world/D_FESTER_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor4234-0

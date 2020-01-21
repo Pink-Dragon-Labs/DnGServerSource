@@ -1,0 +1,51 @@
+id 6902
+
+banner "Greetings, you've entered Magic and More. May I help you?"
+
+topic "Tell me about Asgard."
+        text "Asgard is not a town which savors the art of magic, but rather the art of war."
+	text "My primary god is Mabon, but I am in the minority. Most Asgarders favor Finvarra, and he rewards them with strength and courage."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that there is a quest one can complete which will allow one to interpret runes correctly. Unfortunately, I can tell you no more."
+end      
+
+topic "Can I do anything for you?"
+        text "You might buy something. I don't get much business."
+end
+
+topic  "I am a GrandMaster at Mysticism. What else can I learn from you?"  s13:5
+	text  "Apprentice, the spells of Mysticism are my speciality.  Do not insult me by suggesting I teach some of the lesser skills."
+	text  "Practice the ways of Mysticism." 
+	text  "It is always wise to finish what you start before taking on more projects."
+end
+
+topic  "I want to learn spells.  Can you help me?" c13:5
+	banner  "I can teach you all the skills of Mysticism, if these are of interest to you." 
+
+	topic  "I am interested in Mysticism Familiar skills."  s13:0  
+		quest 241 #6902-01-100
+		text "To gain these skills, the skill book in your possession must be studied diligently."
+	end
+
+	topic  "I am interested in Mysticism Proficient skills."  s13:1  
+		quest 244 #6902-01-200
+		text "You should know that you must study the skill book in your possession to gain the skill."
+	end
+
+	topic  "I am interested in Mysticism Expert skills."  s13:2  
+		quest 247 #6902-01-300
+		text "I do not like this display of ignorance.  You must study the skill book already in your possession."
+	end
+ 
+	topic  "I am interested in Mysticism Master skills."  s13:3  
+		quest 251 #6902-01-400
+		text "Go and study the skill book in your possession.  You should know that."
+	end
+
+	topic  "I am interested in Mysticism Grand-Master skills."  s13:4  
+		quest 256 #6902-01-500
+		text "Diligent study of the skill book in your possession is required for these skills. I'm disappointed in you.  You should know that."
+	end
+end

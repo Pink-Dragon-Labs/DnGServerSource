@@ -1,0 +1,9 @@
+name "D_Daemon_Home"
+title "Daemon Home"
+worldFile "../data/lib/world/D_DAEMON_HOME_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor12132-0

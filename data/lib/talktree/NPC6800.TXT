@@ -1,0 +1,31 @@
+id 6800
+
+banner "Welcome to the Scimitar Tavern. No matter how parched you are, we'll quench your thirst."
+
+topic "Tell me about Arimathor."
+        text "I can't tell you too much. We all took a vow. This you may know. We were long ago visited by a holy man who came from distant lands. He changed our region from rich farmland to dry desert."
+        text "Still, we have plenty to drink, and no Arimathean ever goes hungry."
+        text "Our cactus gardens are famed throughout The Realm. Be sure to visit them before you depart."
+end
+
+topic "Who are you?"
+        text "I am Aldonzo, my friend, the proprietor of this establishment. I am a teller of fortunes."
+        text "I can see that many adventures await you, my friend. You are bold, brave, and loyal. But you must be careful of treachery. Some you consider your friends may not be so faithful as you might believe."
+	text "You do have true friends, however, so use care not to wound their affection."
+	text "None can see ahead clearly in this life, my friend, but I believe you will make the best choice possible when crossroads open before you.  Doubt will sometimes creep into your thoughts. Do your best to follow your creed and have faith in yourself."
+end      
+
+topic "Can I do something for you?"
+        text "There is nothing you can do for me. Not at this time, anyway."
+end
+
+topic  "I need to find a Fossilized Toad." q74 #q6205-01-200:0
+	quest 75 #6205-01-225
+	text  "How many do you need, traveler.  I already gave you one."
+end
+
+topic  "I'm looking for dragonlizard oil." q52 # q6077-01-435:0
+	quest 53 #6077-01-440
+	text  "You took it, friend."
+end
+

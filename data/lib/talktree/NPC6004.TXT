@@ -1,0 +1,37 @@
+id 6004
+
+banner "Greetings, Friend. Welcome to the Gnarled Leg Tavern. May I help you?"
+
+topic "Tell me about West Leinster."
+        text "The history of Leinster is a tragic one, my friend. At one time, Leinster was under the protection of Despothes, King of the gods."
+        text "Then Despothes and Duach fought and, in a fit of rage, Duach did smite Leinster, dividing it in twain."
+        text "For a long time Leinster was divided into two sections, with ruins separating us from our brethren."
+        text "But with the coming of the hordes from the Mists, the gods made peace with one another and healed our shattered village with glorious new gardens."
+end
+
+topic "Who are you?"
+        text "I am Skon, the Gnarled Leg's tavernkeeper. The Gnarled Leg was named after my mother's leg. No, truly, Friend."
+        text "One day long ago Mother was walking in the woods, when a troll caught her and bit her savagely on the leg. She named this tavern to commemorate the event."
+	text  "My family roots go back to the beginnings of Leinster.  Skon's a name that's been in each generation of our family since, in an unbroken line.  It's an honor to bear the name."
+	text  "Leinster was but a small village in those early days but it grew to be the largest and most magnificent town in the Realm."
+end      
+
+topic "Can I do something for you?"
+        text "Not today. Come back and ask again, for I do have odd jobs from time to time."
+end
+
+topic  "Geezer said you might know where I could get a Wolf's Tail." q301:1 #q8021-01-525:1
+	quest 303 #8021-01-535
+	text  "You've been here and said that."
+end
+
+topic  "I'm looking for a sash Despothes discarded here." q278:0 #q8010-01-525:0
+	quest 279 #8010-01-530
+	text  "Get on with you.  We've already done our deal."
+end
+
+topic  "Would you by any chance have a bit of club fragment from the battleground of the gods?" q266:0 #q6905-01-500:0
+	quest 267 #6905-01-525
+	text  "Oh, now, don't be daft.  You took it."
+end
+

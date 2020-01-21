@@ -1,0 +1,19 @@
+id #8015
+
+banner "Greetings. I am Ellen, the proprietor. How may I serve you?"
+
+topic "Tell me about Kurz."
+        text "If you have to ask, I pity you.  Let me hasten to enlighten you."
+	text "Kurz is a dangerous place for the unwary.  Many rogues of the Realm lurk around here.  Once you know how to handle yourself among the denizens, however, you will find Kurz a comfortable place. It has been my home for many years."
+	text "You may wonder how Kurz became home to so many rogues.  I do not have an answer.  This is a question I have asked myself, but I do not know."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors fascinate me.  A little fact, a little fiction, and many an interesting tale is spread around.  Most are not reliable, of course, even if a smidgen of fact is admixed."
+        text "If you just listen to rumors about absurd happenings for amusement they cause no harm."
+	text "But when they involve a person's life, it is not so amusing.  You may know this.  A rumor is so hard to defend against."   
+end      
+
+topic "Can I do anything for you?"
+        text "Not a thing right now."
+end

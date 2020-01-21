@@ -1,0 +1,42 @@
+id 8010
+banner "Greetings, Friend. I am Oberon, chief forger here at Weapons of Thunder. How may I help you?"
+
+topic "Tell me about Kurz."
+   text "So, it's information you want. One thing about Kurz that you should know, we don't much care for strangers coming around asking questions."
+	text  "The more you stick strictly to your own business, the better off you are."
+	text   "You go around poking your nose into the wrong person's business, and you'll end up without a nose."
+	text "Now, are you going to buy something or not?"
+end
+
+topic "Have you heard any interesting rumors?"
+   text "If I have heard any rumors, I'm certainly not going to spread them around."
+	text "It's not a safe thing to do here, spread rumors."
+	text  "And if you had any sense, you wouldn't be asking."
+end      
+
+topic "Can I do anything for you?"
+   text "Not at present."
+end
+
+topic  "I'm already a grand-master in short sword.  What else can I learn?"  s0:5
+	text  "For one thing, I've heard there's a magical amulet that can help you.  Don't know much about that."
+end
+
+topic  "I want to learn the ways of war." c0:5
+	banner  "If short sword skills are what you want, I can teach you.  You've got to be an expert already, though.  I'll only teach you master and grand-master skills." 
+
+	topic  "How do I get to be an expert?" c0:3
+		text  "Buy the skill books and practice.  Go see Parker in the Learning Emporium in Usk."
+	end
+
+	topic  "I am interested in short sword master skills."  s0:3  
+		quest 272 #8010-01-400
+		text "To gain these skills, apprentice, you must study the skill book you already have."
+	end
+
+	topic  "I am interested in short sword grand-master skills."  s0:4  
+		quest 277 #8010-01-500
+		text "Apprentice, you must study the skill book you already have to gain these skills."
+	end
+
+end	

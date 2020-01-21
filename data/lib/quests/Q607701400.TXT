@@ -1,0 +1,19 @@
+quest  49 # 6077-01-400        #Ciobhan, Ethereal Outlet, West Leinster, 6077
+
+name  "Carved Wizard"
+type  fedex
+
+proposal  "Glad to hear it, glad to hear it.  Alchemy is a pleasure.  I do so like using it.  I dare say you do too since you're here for more.  Master level is work and requires intelligence, of course, but I think it's fun, too.  There are those who think I'm odd, but I disregard them.  I'd advise you to do the same.  To begin, I'd like you to find me a small carving of a wizard.  Would you do that?" 
+
+declined  "Pity."
+
+accepted  "Glad to hear you say it.  Look somewhere in Asgard, from what I hear."
+
+reminder   "Go to Asgard for the carving of a wizard."
+
+completed  "Exquisite little piece of art, isn't it?  By the way, here's your skill book."
+
+getItem   qCarvedWizard
+reward    skbAlchemyIV 
+end
+

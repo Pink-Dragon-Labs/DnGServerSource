@@ -1,0 +1,9 @@
+name "D_Naktos_Morgue"
+title "Naktos' Morgue"
+worldFile "../data/lib/world/D_NAKTOS_MORGUE_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor4046-0

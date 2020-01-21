@@ -1,0 +1,7 @@
+id 0
+
+banner "Hail!  What can I tell you?"
+
+topic "What's New?"
+	text "Many things are changing in this land.  With the lifting of The Mists close at hand, nothing is safe."
+end

@@ -1,0 +1,22 @@
+id 9061
+#---------------	9061	3132	devon1	male	elf	Prent
+
+banner "By the light of Enid! A visitor!"
+
+topic "Tell me about Devon Forest."
+    text "It is a most blessed place. Filled with some of the beings of light."
+    text "Along with some of the riff raff from the local town."
+    text "It is mostly a peaceful forest. That is why I chose to set up shop here."
+end
+
+topic "Who are you?"
+    text "I am Prent, keeper of the Wilderness shop in Devon Forest."
+    text "Town life was becoming dull and boring. To many people loitering outside the shops and never buying anything."
+    text "I'm sure you know it costs a pretty gold coin to keep a shop open in town. So I closed up my shop and moved here."
+end
+
+topic "Why here?"
+    text "Why not? Can you think of any place more perfect than this location?"
+	text "I fear nothing out here, except the earthquakes."
+	text "I trust in the goddess and I know she shall keep me safe."
+end

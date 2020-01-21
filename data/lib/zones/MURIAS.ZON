@@ -1,0 +1,9 @@
+name "murias"
+title "Murias"
+worldFile "../data/lib/world/MURIASX.WLD"
+worldFile "../data/lib/world/MURIASIN.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 6
+midiFile 23

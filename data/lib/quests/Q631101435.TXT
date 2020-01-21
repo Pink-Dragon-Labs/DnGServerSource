@@ -1,0 +1,19 @@
+quest  122 #6311-01-435        # Svetlana, Gatekeeper of Asgard, 5908
+
+name  "Grain Bread for Svetlana"
+type  fedex
+
+proposal  "It's curious that you ask.  I do have a supply, although normally I wouldn't.  If you want some, I'll give it to you in exchange for an errand.  Are you interested?"
+
+declined  "As you wish."
+
+accepted  "My friend, Mok, in Murias, bakes a special grain bread and is holding a couple of loaves for me.  Would you go get them while they are fresh?"
+
+reminder   "Go to Mok in Murias for some special grain bread."
+
+completed  "Thank you, friend.  Here is a supply of pulverized wasp's belly for you."
+
+getItem   qGrainBread
+reward   qWaspBelly 
+end
+

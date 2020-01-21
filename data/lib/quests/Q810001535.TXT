@@ -1,0 +1,19 @@
+quest  405 #8100-01-535        # Astrid, Good Grub Grocers, Leinster West, 6046
+
+name  "Supplies for Astrid"
+type  fedex
+
+proposal  "My goodness.  I didn't know people even remembered salldii sweatmeats.  They've gone out of fashion, it seems.  My old granddad used to crave them, though, so I keep a small supply around.  I'll be glad to trade you for picking up some supplies I ordered.  What about it?"
+
+declined  "You're a strange creature, you are."
+
+accepted  "I've got some supplies waiting in Kurz.  Ask for the Good Grub Grocers order."
+
+reminder   "Pick up the Good Grub Grocers order in Kurz."
+
+completed  "Thank you, friend.  I hope you enjoy the salldii sweatmeats."
+
+getItem   qSupplies
+reward   qSalldii 
+end
+

@@ -1,0 +1,19 @@
+quest  202 #6807-01-430        # Jolie, Mystic Magic, Murias, 6212
+
+name  "Carved Squirrel"
+type  fedex
+
+proposal  "That's an interesting bottle, to be sure.  I can't think how they did it, I mean got the shape like that.  Not much use, that I can see.  Anything you put in it would likely get stuck in the toe.  If you want that bottle, traveler, I'll be glad to make a deal with you.  I happen to want a little item from Asgard.  Would you be willing to go for it?"
+
+declined  "Never mind, then."
+
+accepted  "I want a little present for a friend of mine.  There's a fellow as carves things, and I sent word to save me a carving of a little squirrel.  Please get it for me."
+
+reminder   "You're to get my little carving of a squirrel in Asgard."
+
+completed  "My stars, you gave me a start.  I didn't notice you come in.  Thanks for the favor.  Here's that bottle you wanted."
+
+getItem   qCarvedSquirrel
+reward   qBootBottle 
+end
+

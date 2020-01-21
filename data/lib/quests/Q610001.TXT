@@ -1,0 +1,18 @@
+quest 12 #6100-01
+	name "Helping Hana With Her Rat Problem"
+	type fedex
+
+	proposal "Yes, indeed!  You can help me a great deal.  I have the most horrible rat infestation that anyone has ever seen.  I've lost three exterminators already to those foul rats.  They died in my cellar!  One exterminator barely escaped with his life.  He ran out of there sreaming something about 'the biggest rat I've ever seen...'  I'm so terrified to go down there.  You've just got to help me rid myself of these rats!  I'll give you my most valuable posession if you can just rid me of these rats!  Will you do that for me?"
+
+	accepted "Thank you, bring back some proof that you've killed those rats and I'll give you my wedding ring.  If you can do it, it will be worth the expense!"
+
+	declined "*sob* What ever am I to do?  The rats will ruin me!"
+
+	reminder "Have you been able to kill all of those foul rats yet?  They're ruining my business."
+
+	completed "May Enid bless you and keep you!  You are wonderful!  I am so glad that you killed those rats for me.  Here, take this ring, it's very valuable and is the least I can do for you."
+
+	getItem Dng10Meat
+	reward rWedding
+end 
+

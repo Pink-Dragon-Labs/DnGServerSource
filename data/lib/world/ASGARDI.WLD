@@ -1,0 +1,1497 @@
+room 6906
+   properties
+      picture	4000
+      roomName	"Feel Your Best Interior"
+   end
+   atpinfo
+      2108  507 187
+      2001  595 45
+      2013  350 20
+      2001  447 22
+      2013  158 19
+      2002  517 46
+      2001  254 20
+      2014  69 47
+      2014  -2 59
+      2101  343 460
+      34910  554 188 -13
+      34910  605 403
+      2102  361 213
+      34911  558 188 45
+      2165  424 75
+      34989  -82 232
+      2110  63 124
+      2165  620 107
+      2165  252 81
+      34911  559 392
+      34911  554 188 15
+      2080  334 128
+      2595  335 128 6
+   end
+   objects
+      object temple6906-1 of Temple
+         properties
+            x	396
+            y	210
+            loop	1
+            name	"Minka"
+         end
+         base talk
+            talkTreeID	6906
+         end
+         base character
+            sex	1
+            properName	"Minka (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	WhiteShirt
+            worn	FleshCowl
+            worn	AquaShortSkirt
+            worn	BrownBoots
+            object	HealElixir
+            head	1 1 5 4 2 4 6 9 9 3 2 0
+         end
+      end
+      object plankDoor6906-2 of PlankDoor
+         properties
+            x	156
+            y	183
+            loop	0
+            link	plankDoor5906-0
+         end
+      end
+   end
+end
+room 6903
+   properties
+      picture	4000
+      roomName	"The Chapel Interior"
+   end
+   atpinfo
+      2004  567 5 55
+      2026  296 4
+      2026  420 4
+      2026  172 3
+      2025  509 2 7
+      2025  148 2 8
+      2016  94 4 55
+      2082  195 46
+      2082  324 47
+      2163  525 80
+      2081  627 137
+      2082  195 126
+      2082  324 128
+      2082  457 128
+      2597  303 136 10
+      2597  436 136 10
+      2597  174 134 10
+      2163  241 94
+      2163  131 74
+      2103  324 297
+      2163  407 94
+      2163  274 62
+      2163  376 61
+      2082  457 48
+      2597  174 54 10
+      2597  303 55 10
+      2597  436 56 10
+   end
+   objects
+      object simpleDoor6903-0 of SimpleDoor
+         properties
+            x	45
+            y	164
+            loop	0
+            linkTo	simpleDoor5903-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6903-1 of Chair
+         properties
+            x	182
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-2 of Chair
+         properties
+            x	127
+            y	163
+            loop	2
+         end
+      end
+      object chair6903-3 of Chair
+         properties
+            x	149
+            y	212
+            loop	0
+         end
+      end
+      object chair6903-4 of Chair
+         properties
+            x	237
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-5 of Chair
+         properties
+            x	292
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-6 of Chair
+         properties
+            x	346
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-7 of Chair
+         properties
+            x	524
+            y	165
+            loop	2
+         end
+      end
+      object chair6903-8 of Chair
+         properties
+            x	399
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-9 of Chair
+         properties
+            x	448
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-10 of Chair
+         properties
+            x	495
+            y	205
+            loop	2
+         end
+      end
+      object chair6903-11 of Chair
+         properties
+            x	568
+            y	227
+            loop	1
+         end
+      end
+      object chair6903-12 of Chair
+         properties
+            x	612
+            y	246
+            loop	1
+         end
+      end
+      object chair6903-13 of Chair
+         properties
+            x	528
+            y	212
+            loop	1
+         end
+      end
+      object chair6903-14 of Chair
+         properties
+            x	63
+            y	247
+            loop	0
+         end
+      end
+      object chair6903-15 of Chair
+         properties
+            x	106
+            y	228
+            loop	0
+         end
+      end
+   end
+end
+room 6907
+   properties
+      picture	4000
+      roomName	"The Fashion Statement Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  93 113
+      2103  468 343
+      2101  208 223
+      2101  56 238
+      2020  170 28
+      2028  243 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  1 239 45
+      34904  702 378
+      2118  469 344 63
+      2136  150 224 45
+      2594  207 123
+      2594  407 123
+      2082  227 105 -20
+      2082  427 105 -20
+      2112  324 84
+      2109  328 205
+      34886  331 205 64
+      34886  330 206 2
+      2118  330 206 33
+      2165  609 117
+   end
+   objects
+      object door6907-0 of Door
+         properties
+            x	533
+            y	209
+            loop	1
+            linkTo	door5907-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Christi6907-1 of ExoticClothesShop
+         properties
+            x	152
+            y	209
+            name	"Sirk"
+            loop	0
+         end
+         base talk
+            talkTreeID	6907
+         end
+         base character
+            sex	0
+            properName	"Sirk (NPC)"
+         end
+         base container
+            worn	BlueCowl
+            worn	BrownTunic
+            worn	BluePants
+            worn	RedBelt
+            worn	RedBoots
+            object	LeatherPouch
+            object	Lockpick
+            head	0 0 6 6 5 6 6 11 1 5 3 0
+         end
+      end
+   end
+end
+room 6905
+   properties
+      picture	4000
+      roomName	"Northlander Weaponry Interior"
+   end
+   atpinfo
+      2025  205 17
+      2013  308 8
+      2025  410 2
+      2221  570 177
+      2013  102 23
+      2014  16 50
+      2026  495 11
+      2109  433 169
+      2119  440 170 33
+      34888  434 170 60
+      2119  440 170 4
+      2139  20 191 15
+      2117  350 61
+      2164  124 107
+      2164  14 122
+      2107  71 190
+      2103  332 252
+   end
+   objects
+      object firePlace6905-0 of FirePlace
+         properties
+            x	615
+            y	192
+            loop	0
+         end
+      end
+      object weaponArmorShop6905-1 of WeaponArmorShop
+         properties
+            x	333
+            y	238
+            loop	2
+            name	"Nattan"
+         end
+         base talk
+            talkTreeID	6905
+         end
+         base character
+            sex	0
+            properName	"Nattan (NPC)"
+         end
+         base container
+            worn	WhiteShirt
+            worn	BrownPants
+            worn	BrownLowBoots
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	0 0 1 4 0 8 0 0 9 11 5 0
+         end
+      end
+      object simpleDoor6905-2 of SimpleDoor
+         properties
+            x	204
+            y	179
+            loop	2
+            link	simpleDoor5905-0
+         end
+      end
+   end
+end
+room 6902
+   properties
+      picture	4000
+      roomName	"Magic and More Interior"
+   end
+   atpinfo
+      2118  261 385
+      2116  117 130
+      2117  345 99
+      2103  332 217
+      2020  172 28
+      2028  242 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      34904  702 378
+      2111  559 144
+      2112  328 108
+      2163  217 52
+      2163  449 52
+      2041  24 120 -20
+      2102  446 213
+      2042  528 95 -20
+      2142  1 224 50
+      2148  -131 303
+      2125  335 218 65
+      34911  607 145 14
+      2130  331 109 20
+      2101  54 223
+      2161  141 55
+      2553  36 124
+      2554  580 104
+   end
+   objects
+      object door6902-0 of Door
+         properties
+            x	146
+            y	206
+            loop	0
+            linkTo	door5902-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Millie6902-1 of MagicShop
+         properties
+            x	476
+            y	206
+            loop	1
+            name	"Nassoula"
+         end
+         base talk
+            talkTreeID	6902
+         end
+         base character
+            sex	1
+            properName	"Nassoula (NPC)"
+         end
+         base container
+            worn	FleshCuffs
+            worn	RedShirt
+            worn	RedLongSkirt
+            worn	BlueBelt
+            worn	LeatherBoots
+            head	1 1 4 4 1 4 6 6 9 1 2 4
+         end
+      end
+      object trapDoor6902-2 of TrapDoor
+         properties
+            x	96
+            y	295
+            loop	0
+			enchantResistance 100
+         end
+      end
+   end
+end
+room 6904
+   properties
+      picture	4000
+      roomName	"Asgard General Goods Interior"
+   end
+   atpinfo
+      2013  40 1
+      2025  143 1 8
+      2026  229 3
+      2026  338 3
+      2026  461 3
+      2026  585 3
+      2109  266 244
+      2103  533 213
+      2241  621 323
+      2241  582 333
+      2241  583 312
+      2241  629 204
+      2112  373 152
+      2112  277 152
+      2112  179 152
+      2241  115 160
+      2116  507 87
+      2112  377 81
+      2112  280 81
+      2112  183 81
+      2163  534 61
+      2163  493 76
+      2163  117 72
+      2163  575 76
+      34928  267 245 2
+      2160  279 82 18
+      2244  143 167
+      2127  272 153 20
+   end
+   objects
+      object chair6904-1 of Chair
+         properties
+            x	532
+            y	176
+            loop	2
+         end
+      end
+      object Tallie6904-2 of GeneralShop
+         properties
+            x	533
+            y	196
+            loop	2
+            name	"Ghoud"
+         end
+         base talk
+            talkTreeID	6904
+         end
+         base character
+            sex	0
+            properName	"Ghoud (NPC)"
+         end
+         base container
+            worn	BlueTunic
+            worn	BrownBelt
+            worn	GoldPants
+            worn	Wristband
+            worn	LeatherBoots
+            object	LeatherPouch
+            object	Lockpick
+            head	0 1 6 2 0 5 14 18 9 8 5 0
+         end
+      end
+      object plankDoor6904-3 of PlankDoor
+         properties
+            x	38
+            y	165
+            loop	0
+            link	plankDoor5904-0
+         end
+      end
+   end
+end
+room 6901
+   properties
+      picture	4000
+      roomName	"Finvarra's Foods Interior"
+   end
+   atpinfo
+      2122  316 287 4
+      34890  333 177 32
+      34891  323 177
+      2141  46 289 47
+      34908  579 247 40
+      2102  524 246
+      2109  328 176
+      2111  593 117
+      2109  315 286
+      2001  574 15
+      2002  607 33
+      2013  38 40
+      2013  199 15
+      2014  111 42
+      2025  301 9
+      2025  471 9
+      2026  414 19
+      2080  163 126
+      2128  330 177 65
+      2241  431 178
+      2241  579 186
+      2082  460 102
+      2161  17 95
+      2161  136 76
+      2162  604 75
+      34910  644 118 10
+      2123  324 287 30
+      2101  112 288
+   end
+   objects
+      object Mary6901-1 of GeneralShop
+         properties
+            x	554
+            y	241
+            loop	1
+            name	"Pindar"
+         end
+         base talk
+            talkTreeID	6901
+         end
+         base character
+            sex	0
+            properName	"Pindar (NPC)"
+         end
+         base container
+            worn	BlueTunic
+            worn	GoldPants
+            worn	BrownBelt
+            worn	BrownLowBoots
+            object	LeatherPouch
+            head	0 0 1 3 0 3 6 4 10 0 1 4
+         end
+      end
+      object plankDoor6901-2 of PlankDoor
+         properties
+            x	75
+            y	199
+            loop	0
+            link	plankDoor5901-0
+         end
+      end
+   end
+end
+room 6909
+   properties
+      picture	4000
+      roomName	"Institute of Warfare Interior"
+   end
+   atpinfo
+      2107  44 177
+      2108  587 192
+      2001  590 36
+      2013  492 36
+      2001  398 36
+      2013  125 9
+      2002  311 46 10
+      2001  220 10
+      2014  39 36
+      2102  222 229
+      2147  -48 385
+      34915  724 369
+      2148  -40 423
+      2149  -38 394
+      2153  -32 326
+      2164  148 68
+      2164  509 99
+      2164  18 90
+      2149  -8 178 15
+      2042  183 124
+      2042  373 154
+      2147  193 230 50
+      2148  0 178 -13
+      34917  639 193 13
+      2153  257 230 40
+      34916  637 193 -13
+   end
+   objects
+      object simpleDoor6909-0 of SimpleDoor
+         properties
+            x	308
+            y	188
+            loop	1
+            linkTo	door5909-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Peter6909-1 of WarriorAcademy
+         properties
+            x	246
+            y	260
+            name	"Valkyiri"
+            loop	0
+         end
+         base talk
+            talkTreeID	6909
+         end
+         base character
+            sex	1
+            properName	"Valkyiri (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	BlueCowl
+            worn	BlackBoots
+            worn	AquaShortSkirt
+            worn	PurpleShirt
+            head	1 1 0 1 2 2 15 8 2 4 8 0
+         end
+      end
+   end
+end
+room 6900
+   properties
+      picture	4000
+      roomName	"The Pig and Kettle Lobby"
+   end
+   atpinfo
+      2592  48 160 6
+      2028  500 10
+      2028  176 10
+      2127  287 128 150
+      2029  231 51
+      2005  597 115 100
+      2028  335 9
+      2103  188 235
+      2112  418 268 170
+      2128  423 297 220
+      2017  71 14
+      2241  517 188 -20
+      2029  439 52
+      2018  3 63
+      2164  16 140 20
+      2600  446 305
+      2117  425 86
+      2166  323 104
+      2594  178 153 6
+      2080  47 159
+      2082  199 150
+   end
+   objects
+      object chair6900-0 of Chair
+         properties
+            x	321
+            y	291
+            loop	0
+         end
+      end
+      object chair6900-1 of Chair
+         properties
+            x	349
+            y	282
+            loop	0
+         end
+      end
+      object chair6900-2 of Chair
+         properties
+            x	558
+            y	296
+            loop	1
+         end
+      end
+      object chair6900-3 of Chair
+         properties
+            x	532
+            y	281
+            loop	1
+         end
+      end
+      object chair6900-4 of Chair
+         properties
+            x	419
+            y	280
+            loop	2
+         end
+      end
+      object chair6900-5 of Chair
+         properties
+            x	379
+            y	280
+            loop	2
+         end
+      end
+      object chair6900-6 of Chair
+         properties
+            x	455
+            y	280
+            loop	2
+         end
+      end
+      object chair6900-7 of Chair
+         properties
+            x	495
+            y	280
+            loop	2
+         end
+      end
+      object bartender6900-8 of Bartender
+         properties
+            x	196
+            y	228
+            loop	2
+         end
+         base talk
+            talkTreeID	6900
+         end
+         base character
+            sex	1
+            properName	"Faldora (NPC)"
+            title	"the Barkeep"
+         end
+         base container
+            worn	BlueChainCowl
+            worn	BlueChainTunic
+            worn	AquaPants
+            worn	BrownBoots
+            head	1 1 8 1 8 3 -1 8 5 2 12 2
+         end
+      end
+      object simpleDoor6900-10 of SimpleDoor
+         properties
+            x	588
+            y	208
+            loop	1
+            linkTo	simpleDoor5900-0
+         end
+      end
+   end
+end
+room 6911
+   properties
+      picture	3500
+      west	6912 627 292
+      roomName	"The Valhalla Inn Lobby"
+   end
+   atpinfo
+      2598  157 312
+      2109  306 180 10
+      2124  282 196 60
+      2127  287 128 150
+      226  97 166
+      2598  479 312
+      2128  264 135 60
+      2103  305 218
+      2109  306 129 20
+      34895  336 135 60
+      226  33 176
+      2755  37 141
+      2756  57 131
+      34989  61 70 -100
+      2757  16 104
+      2588  400 153 20
+      2525  157 11
+      2506  593 36
+      2525  461 12
+      2505  566 1
+      2526  350 17
+      2526  244 17
+      2629  654 187 -10
+      2629  651 106 50
+      2662  517 175
+      2662  517 86
+      2588  141 153 20
+      2597  157 125 20
+      2597  416 125 20
+      2762  111 154
+      2761  113 118
+      2760  107 67
+      2759  132 119
+      2762  174 171
+      2761  130 168
+      2761  193 169
+      2759  149 170
+      2759  132 65
+      2760  212 159
+      2761  210 128
+      2762  211 79
+      2759  232 64
+      2760  258 71
+      2761  281 72
+      2762  301 68
+      2759  321 54
+      2760  348 61
+      2761  375 173
+      2762  396 174
+      2759  377 122
+      2760  373 69
+      2761  417 172
+      2762  438 174
+      2759  472 175
+      2760  454 173
+      2761  399 90
+      2762  396 62
+      2759  471 156
+      35528  521 173
+      35529  517 122
+      35530  517 72
+      2759  468 103
+      2760  469 51
+      2761  448 64
+      2762  419 67
+      2631  187 175
+      2631  442 178
+      2631  439 78 40
+      2631  187 88 50
+      2633  318 94 55
+      2751  516 174
+      2752  541 165
+      2753  516 82
+      2754  517 125
+      2751  535 115
+      2752  604 62
+      2753  620 191
+      2754  620 142
+      2751  598 115
+      2752  622 90
+      2753  561 79
+      2754  581 82
+      2751  536 62
+      2752  515 46
+      2753  582 40
+      2754  562 61
+      2758  34 87
+      2755  56 102
+      2756  77 88
+      2757  56 75
+      2755  94 174
+      2756  94 121
+      2757  96 93
+      2758  75 145
+      2758  93 74
+      2624  -18 184 -10
+      2624  -19 106 50
+      2755  -5 182
+      2756  -3 130
+      2757  -4 80
+      2758  16 155
+      2104  411 208
+      2105  214 205
+      34895  280 185 80
+      2124  337 186 80
+      34896  352 196 60
+      2642  104 175
+      2642  104 101
+      2648  389 210 -10
+      7906  321 224
+      2629  760 208 -10
+      2670  164 208 -10
+      32994  586 174
+      32782  -8 211
+      226  -13 232
+      3  237 208
+      3  162 197
+      3  628 213
+      14  230 230
+      3  628 193
+      3  76 186
+      3  376 210
+      32782  377 230
+      32782  409 225
+      7906  288 224
+      3  640 174
+   end
+   objects
+      object chair6911-0 of Chair
+         properties
+            x	383
+            y	305
+            loop	0
+         end
+      end
+      object chair6911-1 of Chair
+         properties
+            x	578
+            y	303
+            loop	1
+         end
+      end
+      object chair6911-2 of Chair
+         properties
+            x	180
+            y	284
+            loop	2
+         end
+      end
+      object chair6911-3 of Chair
+         properties
+            x	132
+            y	284
+            loop	2
+         end
+      end
+      object chair6911-4 of Chair
+         properties
+            x	58
+            y	303
+            loop	0
+         end
+      end
+      object chair6911-5 of Chair
+         properties
+            x	251
+            y	302
+            loop	1
+         end
+      end
+      object chair6911-6 of Chair
+         properties
+            x	451
+            y	284
+            loop	2
+         end
+      end
+      object chair6911-7 of Chair
+         properties
+            x	499
+            y	284
+            loop	2
+         end
+      end
+      object firePlace6911-8 of FirePlace
+         properties
+            x	13
+            y	191
+            loop	1
+         end
+      end
+      object door6911-9 of Door
+         properties
+            x	588
+            y	192
+            loop	1
+            linkTo	door5911-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object torch6911-10 of Torch
+         properties
+            x	16
+            y	201
+            loop	1
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object crest6911-11 of Crest
+         properties
+            x	54
+            y	144
+            loop	0
+         end
+         base described
+            text	"The harder the challenge,\nthe more glorious the victory.\nWhat is easily obtained,\nis often lightly esteemed."
+         end
+      end
+      object torch6911-12 of Torch
+         properties
+            x	89
+            y	189
+            loop	0
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object bartender6911-5 of DespothesTavern
+         properties
+            x	306
+            y	200
+            loop	2
+            name	"Troels"
+         end
+         base talk
+            talkTreeID	6911
+         end
+         base character
+            sex	0
+            properName	"Troels (NPC)"
+            title	"the Barkeep"
+         end
+         base container
+            head	0 1 0 4 4 0 -1 13 8 3 5 2
+            worn	GrayTunic
+            worn	GrayPants
+            worn	BlackCowl
+            worn	ScepterKnightBaldric
+            worn	ObsidianiteSollerets
+            worn	GrayBelt
+            object	LongSword
+         end
+      end
+   end
+end
+room 6912
+   properties
+      picture	3500
+      #north	6913 309 180
+      east	6911
+      roomName	"Valhalla Shops"
+   end
+   atpinfo
+      2596  552 167 30
+      2104  437 212
+      2151  17 257
+      2595  132 148 30
+      2595  40 163 30
+      2587  463 170 30
+      2102  488 221
+      2104  600 237
+      2505  629 27
+      2501  452 7 -10
+      2586  65 181 30
+      2513  164 8 -10
+      2517  35 10 -10
+      2518  129 28 -10
+      2525  244 1 -10
+      2525  354 2 -10
+      2526  315 6 -10
+      2759  367 31
+      35527  256 139
+      2760  254 129
+      35528  257 86
+      2761  328 41
+      35529  279 101
+      2762  306 41
+      35530  279 42
+      35530  304 25
+      2759  340 105
+      2760  363 173
+      2761  346 173
+      35530  278 171
+      2759  210 170
+      2760  342 125 -6
+      2761  210 119
+      2760  212 62
+      35529  408 120
+      2761  235 169
+      35528  390 123
+      2760  234 51
+      35530  406 171
+      35530  407 50
+      2760  347 34
+      2755  148 181
+      2756  190 69
+      2757  169 176
+      2758  179 168
+      2751  424 179
+      2752  405 72
+      2753  406 123
+      2754  406 55
+      2763  320 94
+      35531  298 95
+      2757  190 121
+      2753  405 173
+      2755  66 195
+      2757  88 194
+      2756  26 152
+      2758  107 187
+      2756  87 183 30
+      2755  107 153
+      2757  27 203
+      2758  45 199
+      2756  8 167
+      2596  453 151 30
+      2758  104 100
+      2756  128 183
+      2586  157 166 30
+      2758  126 133
+      2755  149 146
+      2757  -10 205
+      2756  -4 50
+      2758  -13 155
+      2756  174 125
+      2757  170 75
+      2758  7 204
+      2757  67 141
+      2758  149 93
+      2587  563 187 30
+      2758  46 111
+      2755  127 80
+      2757  -7 101
+      2758  7 117
+      2757  168 40
+      2758  146 44
+      2757  86 102
+      2755  26 101
+      2758  64 90
+      2755  126 56
+      2756  105 48
+      2757  86 52
+      2758  43 56
+      2758  64 38
+      2757  23 47
+      2755  4 66
+      2761  364 81
+      2506  521 40
+      2751  426 96
+      2753  451 130
+      2752  429 58
+      2754  429 129
+      2754  450 184
+      2753  472 185
+      2754  493 192
+      2751  514 195
+      2754  541 201
+      2754  587 207
+      2751  608 210
+      2754  452 81
+      2753  564 201
+      2753  474 86
+      2751  471 139
+      2754  497 145
+      2753  520 141
+      2754  543 149
+      2751  565 153
+      2754  496 92
+      2753  592 155
+      2754  613 159
+      2753  546 96
+      2751  518 91
+      2753  615 106
+      2754  569 100
+      2751  589 104
+      2754  472 41
+      2754  496 61
+      2754  523 41
+      2753  571 46
+      2754  593 52
+      2753  546 45
+      2754  616 78
+      2754  618 27
+      2105  24 237
+      2649  570 255
+      3  371 158
+      3  257 153
+      2147  77 243 60
+      30829  162 210 60
+      2101  138 223
+      34910  49 243 60
+      34888  566 245 60
+      2105  188 210
+      34914  198 213 60
+      2634  346 79 40
+      2628  660 126 50
+      3  256 203
+      2623  46 111 50
+      2628  583 115 50
+      2642  200 151
+      3  362 178
+      2631  284 78 40
+      3  256 181
+      2648  179 226
+      2629  546 97 40
+      2624  75 95 40
+      2662  408 174
+      2642  200 173
+      2661  408 110
+      2623  -15 120 50
+      2649  39 249
+      2649  114 236
+      2668  373 230
+      2669  427 246
+      2670  508 254
+      2670  -23 250
+      14  645 279
+      14  510 257
+      32782  -12 274
+      32782  101 256
+      3  362 200
+      226  312 161
+      2634  403 176 -5
+      2631  278 175 -5
+      226  637 278
+   end
+   objects
+      object simpleDoor6912-0 of SimpleDoor
+         properties
+            x	309
+            y	177
+            loop	2
+            link	simpleDoor6913-0
+         end
+         base entry
+            room	6913
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"This is a big wooden door."
+         end
+      end
+      object exoticWeaponArmorShop6912-1 of RareWeaponArmorShop
+         properties
+            x	521
+            y	219
+            loop	2
+            name	"Arild"
+         end
+         base talk
+            talkTreeID	691201
+         end
+         base character
+            sex	0
+            properName	"Arild (NPC)"
+            title	"Commander of the Army"
+         end
+         base container
+            head	0 3 4 2 7 1 11 4 9 9 6 3
+            worn	GrayTunic
+            worn	GrayPants
+            worn	BlackCowl
+            worn	ScepterKnightBaldric
+            worn	BlackTrollBoots
+            worn	BlackBelt
+            object	LongSword
+         end
+      end
+      object magicShop6912-2 of MagicShop
+         properties
+            x	106
+            y	221
+            loop	2
+            name	"Avaldamon"
+         end
+         base talk
+            talkTreeID	691202
+         end
+         base character
+            sex	0
+            properName	"Avaldamon (NPC)"
+            title	"the Destined"
+         end
+         base container
+            head	0 1 4 2 5 0 6 14 6 7 0 0
+            worn	GrayTunic
+            worn	GrayPants
+            worn	BlackCowl
+            worn	ScepterKnightBaldric
+            worn	BlackTrollBoots
+            worn	BlackBelt
+            object	LongSword
+         end
+      end
+      object torch6912-3 of Torch
+         properties
+            x	376
+            y	180
+            loop	0
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object torch6912-4 of Torch
+         properties
+            x	243
+            y	180
+            loop	1
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+   end
+end
+room 6913
+   properties
+      picture	3500
+      #north	6912 310 280
+      south	6914 321 128
+      roomName	"Valhalla Hall"
+   end
+   atpinfo
+      2586  97 164 30
+      2597  516 128 20
+      2517  45 16
+      2595  72 146 30
+      2597  254 128 20
+      2517  138 1
+      2518  92 42
+      2525  237 14
+      2526  412 19
+      2526  530 19
+      2525  613 14
+      2758  119 165
+      2763  416 92
+      2526  315 19
+      2758  161 176
+      2757  142 180
+      2756  122 177
+      2755  101 179
+      2758  61 185
+      2757  83 180
+      2756  43 195
+      2755  22 200
+      2758  1 205
+      2757  0 154
+      2756  161 77
+      2755  142 128
+      2758  119 141
+      2757  163 126
+      2756  18 146
+      2755  119 89
+      2756  141 93
+      2755  160 43
+      2758  39 163
+      2588  500 156 20
+      2588  238 156 20
+      35531  395 92
+      2758  -2 104
+      2757  40 111
+      2756  99 122
+      2755  59 90
+      2758  79 89
+      2757  99 59
+      2756  140 58
+      2755  20 114
+      2758  37 65
+      2757  18 62
+      2756  -1 53
+      2756  118 44
+      2755  78 43
+      2757  59 52
+      2759  303 174
+      2760  279 174
+      2761  306 122
+      2762  308 159
+      2759  435 175
+      2760  350 173
+      2761  329 174
+      2762  349 127
+      2759  325 126
+      2760  347 78
+      2761  328 83
+      2762  442 122
+      2759  433 87
+      2760  460 174
+      2761  463 122
+      2762  485 126
+      2759  455 72
+      2760  484 174
+      2761  507 174
+      2762  257 174 -3
+      2759  183 174
+      2760  528 174
+      2761  183 119
+      2762  184 68
+      2759  206 121
+      2760  208 173
+      2761  234 174
+      2762  231 146
+      2759  230 93
+      2760  206 69
+      2761  265 60
+      2762  249 63
+      2759  280 64
+      2760  327 62
+      2761  305 58
+      2762  229 49
+      2759  480 54
+      2760  506 60
+      2761  552 173
+      2762  530 64
+      2759  549 62
+      2760  572 172
+      2761  572 159
+      2762  570 109
+      2759  593 140
+      2760  618 172
+      2761  591 88
+      2762  596 173
+      2759  616 122
+      2760  572 60
+      2761  593 37
+      2762  614 69
+      2631  562 73 40
+      2631  255 72 40
+      2633  426 83 50
+      2633  328 83 50
+      2631  568 175
+      2631  256 176
+      2633  310 177
+      2633  504 176
+      2623  -14 207
+      2623  -44 115 50
+      2624  51 195
+      2624  49 90 40
+      2101  180 242
+      32782  86 217
+      32782  -23 235
+      2648  85 258 -10
+      2649  119 252 -10
+      2650  177 243 -10
+      226  331 300
+      2670  14 259 -10
+      2105  66 256
+      7900  572 183
+      7900  229 183
+      226  407 168
+      3  233 175
+      3  131 192
+      3  87 200
+      2642  172 177
+      2641  172 101
+   end
+   objects
+      object simpleDoor6913-0 of SimpleDoor
+         properties
+            x	404
+            y	179
+            loop	2
+            link	simpleDoor6912-0
+         end
+         base entry
+            room	6912
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6913-1 of Chair
+         properties
+            x	128
+            y	223
+            loop	0
+         end
+      end
+      object torch6913-2 of Torch
+         properties
+            x	340
+            y	179
+            loop	0
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object torch6913-3 of Torch
+         properties
+            x	470
+            y	182
+            loop	1
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+      end
+      object chair6913-4 of Chair
+         properties
+            x	27
+            y	280
+            loop	0
+         end
+      end
+   end
+end

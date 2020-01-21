@@ -1,0 +1,28 @@
+name "D_Duach"
+title "The Dark Gauntlet"
+worldFile "../data/lib/world/D_DUACH_01.WLD"
+allowCombat 2
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor4446-0
+noAlignmentChange
+noTreasureDrop
+ambushInterval 90
+ambush 100 DemonRat
+ambush 100 DemonRat DemonRat
+ambush 100 DemonRat DemonRat DemonRat
+ambush 100 DemonRat DemonRat DemonRat DemonRat
+ambush 100 DemonRat DemonRat DemonRat DemonRat DemonRat
+ambush 100 YoungFenris
+ambush 100 BloodFenris YoungFenris
+ambush 100 BloodFenris YoungFenris YoungFenris
+ambush 100 BloodFenris BloodFenris
+ambush 100 BloodFenris BloodFenris YoungFenris YoungFenris
+ambush 100 HowlingTerror HowlingTerror
+ambush 50 UndeadNecromancer UndeadNecromancer 
+ambush 50 UndeadNecromancer UndeadNecromancer UndeadNecromancer 
+ambush 50 UndeadNecromancer UndeadNecromancer UndeadNecromancer Lich Lich
+ambush 10 Fury 
+ambush 10 Fury Fury
+ambush 10 Fury Fury Ghost Ghost

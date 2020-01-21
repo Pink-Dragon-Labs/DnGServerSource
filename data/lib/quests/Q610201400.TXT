@@ -1,0 +1,19 @@
+quest  61 #6102-01-400        #Rothos, Wen's Weapons, 6102
+
+name  "Ancient Flint Axehead"
+type  fedex
+
+proposal  "Are you now?   I'm glad to hear it.  Good weapon, the axe.  Very trusty companion in my experience.  I'll help you toward mastery gladly.  You'll do a mission for me first, if you please.  I've heard of an ancient flint axehead, and it would please me to have it.  Will you go in search?"
+
+declined  "Can I interest you in any weaponry?  Look around and let me know if you want to buy."
+
+accepted  "I've heard it turned up in Murias."
+
+reminder   "You're in quest of an ancient flint axehead.  Look in Murias."
+
+completed  "Nice piece of work, very nice.  Here's the skill book you need."
+
+getItem   qAncientAxehead
+reward    skbAxeIV
+end
+

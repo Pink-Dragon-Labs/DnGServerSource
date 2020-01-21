@@ -1,0 +1,18 @@
+quest 26 # 6043-01-540        # Litula, Litula's Sundries, Silverbrook, elf, 6410
+name  "Mixed Vegetable Drink"
+type  fedex
+
+proposal  "Yes, indeed. They aren't on the regular shelves, but I have a small supply.   Painters especially like them.  They are handy for holding paint, or for painting the outside and using as holders.  I wonder if you would do one very small errand for me in exchange?" 
+
+declined  "Never mind, then."
+
+accepted  "Would you run over to Bodi at Comestibles and ask for my vegetable drink?"
+
+reminder   "Go to Bodi at comestibles and pick up my mixed vegetable drink."
+
+completed  "Many thanks.  In the meantime I packaged up the clay pots."
+
+getItem   qVegetableDrink
+reward   qClayPots 
+end
+

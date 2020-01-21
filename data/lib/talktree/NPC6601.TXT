@@ -1,0 +1,37 @@
+id 6601
+
+banner "You're in Take It or Leave It General Store. Our motto is: Take it or leave it!"
+
+topic "Tell me about Caer Fandry."
+        text "Caer Fandry is the best town in The Realm. So there!"
+	text "We don't take any gunk!"
+	text "Not from giants, elves or humans."
+	text "We're dark elves and we're the best."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that for terrifying 25 humies you get the key to the city!"
+	text "For scaring off 25 elves you get a key to the town dump."
+	text "For stomping on 25 giants, you get a key to the town trophy."
+	text "For making a monkey of you, I get 25 cheers.  I've been stringing you on, and you're still here?  Dunderhead!"  
+end      
+
+topic "Can I do anything for you?"
+        text "What could such a dunderhead do for me, huh?"
+end
+
+topic  "I need a Vial of Loch Dread Water" q313:0 #q8111-01-325:0
+	quest 314 #8111-01-330
+	text  "I gave it to you, dunderhead."
+end
+
+topic  "I'm looking for a segment of ancient chain mail." q161:0 #q6501-01-400:0
+	quest 162 #6501-01-425
+	text  "Out, dunderhead!  You took it."
+end
+
+topic  "I'm looking for Morgana's dagger." q51:0 #q6077-01-430:0
+	quest 52 #6077-01-435
+	text  "You took the thing.  Get out."
+end
+

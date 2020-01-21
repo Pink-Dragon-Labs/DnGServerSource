@@ -1,0 +1,35 @@
+id 6900
+
+banner "Welcome to the Pig and Kettle Tavern. What would you have, Stranger?"
+
+topic "Tell me about Asgard."
+        text "Certainly. In Asgard, as in nature, it is survival of the fittest. If you crave order, you should visit towns like Arimathor and Cambria."
+        text "Other towns impose unnatural restrictions on people. Asgarders believe that those restrictions are yokes under which only cowards can live."
+        text "Asgarders revere strength, bravery, ferocity, and ruthlessness in battle. Still, we love and encourage beauty, truth, and knowledge. We do not, however, appreciate excessive curiosity."
+end
+
+topic "Who are you?"
+        text "I am Faldora, current proprietor of the Pig and Kettle. My mother was proprietor before me, and her mother before her, and so on and on into the mists."
+        text "The Pig and Kettle has the reputation of being a lively place, and that's just the way I like it. The other taverns in town are dull, lifeless places where nothing ever happens."
+        text "Make your needs known, stranger.  I don't wish to spend all day standing here talking to you."
+end      
+
+topic "Can I do something for you?"
+        text "It would be well if you curbed your curiosity. And perhaps not continue asking questions."
+end
+
+topic  "I'm seeking the Amulet of Tamen the Mighty." q140:0 #q6403-01-100:0
+	quest 141 #6403-01-125
+	text  "And you received it, Stranger."
+end
+
+topic  "I need some blackbird feathers." q355:0 #q80000-01-400:0
+	quest 356 #80000-01-425
+	text  "I gave you one bunch, stranger, and that's enough."
+end
+
+topic  "I'm looking for fresh fruit." q29:0 #q6045-01-425:0
+	quest 30 #6045-01-430
+	text  "I gave you the best of my supply."
+end
+

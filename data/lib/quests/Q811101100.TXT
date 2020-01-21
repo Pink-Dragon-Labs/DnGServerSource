@@ -1,0 +1,19 @@
+quest 306 #8111-01-100
+
+name  "Pulverized Wasp's Belly"
+type:  fedex
+
+proposal  "I'm looking for an apprentice.  In exchange for doing my errands, I'll guide you through the Circle of Sorcery until you are a bona fide Grand Master Sorcerer.   My needs are small, quite small.  To get you started as a Familiar Sorcerer, I'll give you the spell book when you bring me some Pulverized Wasp's Belly.  What do you say?"
+
+accepted  "Good.  The Pulverized Wasp's Belly that I need is available in Asgard.  It's a rare ingredient.  Now be off."
+
+declined  "If you change your mind, come back."
+
+reminder  "Haven't you gone yet?  Get yourself to Asgard and find me some Pulverized Wasp's Belly.  Show me you are worthy to be my apprentice."
+
+completed  "So, Apprentice.  You've brought me the Pulverized Wasp's Belly.  Here is your book on Familiar Sorceries.  Study it carefully, and practice.  When you're ready to try for Proficient level, come tell me."
+
+getItem qWaspBelly
+reward  skbSorceryI
+
+end

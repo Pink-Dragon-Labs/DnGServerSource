@@ -1,0 +1,15 @@
+object Dng3Key1 of Key
+	properties
+		special
+		toss
+		name "Junk Key"
+	end
+
+	base described
+		text "You see a shabby iron key."
+	end
+
+	base key
+		unlockValue 1013
+	end
+end

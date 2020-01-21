@@ -1,0 +1,19 @@
+quest  343 #8307-01-535        # Levon, Pleasure's Fabric, Kurz, 8008
+
+name  "A Cotton Plant"
+type  fedex
+
+proposal  "That I have, and you're interested in it, I take it.  Well, I'm sure we can work something out.  For example, I have the fabric and you want it. I want something from Murias, and you could go get it.  What about a trade?  Are you interested?"
+
+declined  "You don't even know what I want, yet."
+
+accepted  "Good.  I want a cotton plant.  Don't tell anybody.  People in Kurz wouldn't understand.  But I want to try and grow a cotton plant here.  They grow cotton around Murias, so you should be able to get one for me there."
+
+reminder   "Shhhh.  Get me a cotton plant from Murias."
+
+completed  "You really did it!  Here's the embroidered fabric.  Now don't tell anyone on your way out of town.  Please."
+
+getItem   qCottonPlant
+reward   qEmbroideredFabric 
+end
+

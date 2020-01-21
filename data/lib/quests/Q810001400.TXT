@@ -1,0 +1,19 @@
+quest  396 #8100-01-400        #Monji, Excellent Weaponry, Usk, 8100
+
+name  "Petrified Peat"
+type  fedex
+
+proposal  "Hmpfhh.  I suppose if you've become an expert with the mace you know something about it.  Takes strength and dexterity.  Amazing the number of warriors who think they can just pick up a mace and use it.  They find out pretty darn fast it doesn't work that way.  Hah.  I'll take you on.  To get the master level skill book you're going to have to find me a chunk of petrified peat.  Don't look at me like I'm daft.  There's one spot in the Realm where you can get it.  Will you?"
+
+declined  "Makes me no never mind."
+
+accepted  "Go to Caer Fandry."
+
+reminder   "Go to Caer Fandry and find me some petrified peat."
+
+completed  "Pretty rare stuff.  Here's your skill book.  Don't just put it on the shelf.  See that you study it."
+
+getItem   qPetrifiedPeat
+reward    skbMaceIV
+end
+

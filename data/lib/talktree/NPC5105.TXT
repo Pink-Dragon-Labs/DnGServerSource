@@ -1,0 +1,70 @@
+id 5105
+
+banner "Hello, and welcome to Wen. Who would you like to visit?"
+
+topic "Tell me about Wen."
+        text "Wen? We're just a simple town with simple people."
+	text "We are small enough for all the locals to know each other.  It's really like a large family."
+	text "New people are moving in now.  I don't know how that will change things."
+end
+
+topic "Who are you?"
+        text "I'm Iviona, gatekeeper."
+	text "I retired from Wen Clothing, but when our former gatekeeper moved away, I came to help out temporarily."
+	text "I discovered I really like talking to people, though, so here I am."
+end      
+
+topic  "I need help finding shops."
+	banner  "I can help. Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "Wen Clothing is left one, up one.  Dragontooth Clothing is left one, down two, left two."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is down one, left one.  The Eaterie is up one."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Cures and Curses is left one, down two, left one."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Wen's Weapons is up one, right one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "I'm sorry, but we don't have a general store in Wen."
+	end
+
+	topic  "Do you have a chapel?"
+		text "You'll find it down one."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Academy Arcanus, a wizard's academy, is down one, left two."
+	end
+
+	topic  "Where can I find a healer?"
+		text "The Soothing Touch is down one, right one."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "Wen has two.\n The Ladyslipper is left one.\n The Light in the Forest, ourmost celebrated inn, is left one, down two."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Just type in the name of the person you're visiting. You can get to any cottage in Wen."
+end
+
+topic  "I'm looking for the Hair of an Ancient Bat." q251:0 #q6902-01-400:0
+	quest 252 #6902-01-425
+	text  "You already received the Hair of an Ancient Bat."
+end
+
+topic  "Do you have a package for Nika?" q93:0 #q6211-01-435:0
+	quest 94 #6211-01-440
+	text  "Gracious, you already took it."
+end
+

@@ -1,0 +1,42 @@
+id 6045
+
+banner "You've entered The Cutting Edge Weapons Shop. I am Randa, chief armorer."
+
+topic "Tell me about Leinster."
+        text "I don't like to mention Leinster's troubles for fear that the gods will smite us again."
+	text "One has but to see the ruins at the center of town to understand what another blow would mean to us."
+	text "I inherited this shop from my granny.  She was way ahead of her time, a woman running a weapons shop.  She was excellent at the craft, though, and won acceptance."
+	text  "I sometimes wonder what she would make of this smiting business."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that Wen is a friendly town, full of rural farm-folk."
+	text "It sounds like such a peaceful place.  I hope they appreciate what they have." 
+end      
+
+topic "Can I do anything for you?"
+        text "Not right now, but perhaps another time."
+end
+
+topic  "I want to learn everything I can about the ways of war." c18:5
+	banner  "Then you should be interested in weaponsmithing.  The ability to repair or manufacture weapons is very useful.  I can teach you master and grand-master skills in weaponsmithing, but you've got to be an expert in the craft first." 
+
+	topic  "How do I get to be an expert in weaponsmithing?" c18:3 
+		text  "Buy the skill books and be diligent in studying them.  Here in West Leinster you could go to Hard Knocks to buy skill books, but all the book stores have them."
+	end
+
+	topic  "I am interested in weaponsmithing master skills."  s18:3  
+		quest 28 #6045-01-400
+		text "You do know that you've got to study the book you have to gain the skill, don't you?"
+	end
+
+	topic  "I am interested in weaponsmithing grand-master skills."  s18:4  
+		quest 33 #6045-01-500
+		text "I'm amazed.  Don't you know that you've got to study the book you have to gain the skill?"
+	end
+
+	topic  "What else can you teach me?"  s18:5
+		text  "I'll only take on apprentices for weaponsmithing.  Ask around in the shops.  There are specialists ready to impart instruction."
+		text  "You really ought to finish your weaponsmithing studies."
+	end
+end

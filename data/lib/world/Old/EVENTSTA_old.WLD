@@ -1,0 +1,1031 @@
+room 6069
+   properties
+      picture	4000
+      south	6068 328 126 
+      flags	2
+      roomName	"Event Meeting Hall"
+   end
+   atpinfo
+      2340  493 146 -20
+      2390  146 157 130
+      2360  258 148 80
+      2383  584 160 -20
+      2358  258 157 50
+      2340  291 147 -20
+      2359  258 149 15
+      2350  108 364
+      2358  487 157 50
+      2358  487 158 70
+      2355  618 180 31
+      2358  149 157 70
+      2387  4 169 -20
+      2340  83 147 -20
+      2340  192 147 -20
+      2384  56 161 -20
+      2388  247 150 -19
+      2358  374 157 50
+      2338  -3 151 -20
+      2390  180 157 130
+      2360  374 149 80
+      2388  333 150 -19
+      2392  51 184 144
+      2390  383 157 130
+      2358  374 156 30
+      2358  258 156 30
+      2390  492 157 130
+      2386  639 168 -20
+      2354  618 173 72
+      2354  618 172 52
+      2358  374 158 70
+      2391  596 186 145
+      2390  272 157 130
+      2354  618 173 33
+      2359  487 148 12
+      2339  648 142 -20
+      2385  489 149 -20
+      2358  487 156 30
+      2385  153 149 -20
+      2340  386 146 -20
+      2388  404 150 -19
+      2359  374 151 15
+      2360  149 148 80
+      2358  258 158 70
+      3  172 180
+      2359  149 148 12
+      2358  149 156 30
+      2358  149 156 50
+      2360  487 149 80
+      2356  618 162 80
+      3  172 161
+      3  154 223
+      14  691 213
+      35091  544 149 10
+      32782  -24 268
+      35090  102 313 200
+      7900  251 181
+      3  137 225
+      2241  161 206
+      2106  619 251
+      2101  100 222
+      3  536 172
+      3  590 243
+      2244  -6 253
+      2105  572 239
+      2106  12 240
+      3  172 203
+      3  172 212
+      3  168 218
+      7900  390 181
+      3  513 233
+      3  513 211
+      16  673 278
+   end
+   objects
+      object chair6069-0 of Chair
+         properties
+            x	286
+            y	251
+            loop	2
+         end
+      end
+      object chair6069-1 of Chair
+         properties
+            x	613
+            y	291
+            loop	1
+         end
+      end
+      object chair6069-2 of Chair
+         properties
+            x	340
+            y	213
+            loop	2
+         end
+      end
+      object chair6069-3 of Chair
+         properties
+            x	397
+            y	251
+            loop	2
+         end
+      end
+      object chair6069-4 of Chair
+         properties
+            x	321
+            y	253
+            loop	2
+         end
+      end
+      object chair6069-5 of Chair
+         properties
+            x	358
+            y	250
+            loop	2
+         end
+      end
+      object chair6069-6 of Chair
+         properties
+            x	306
+            y	213
+            loop	2
+         end
+      end
+      object chair6069-7 of Chair
+         properties
+            x	272
+            y	214
+            loop	2
+         end
+      end
+      object chair6069-8 of Chair
+         properties
+            x	375
+            y	212
+            loop	2
+         end
+      end
+      object chair6069-9 of Chair
+         properties
+            x	412
+            y	213
+            loop	2
+         end
+      end
+      object EventShop6069-10 of Shop
+         properties
+            name	"Host Georgie"
+            x	43
+            y	221
+            loop	2
+         end
+         base described
+            text	"You see Host Georgie. He is here to teach you all about being an Event Host. He will also sell you supplies you may need."
+         end
+         base talk
+            talkTreeID	6069
+         end
+         base character
+            sex	0
+            properName	"Host Georgie (NPC)"
+         end
+         base container
+            worn	OrangeBaldric
+            worn	BlueTunic
+            worn	BluePants
+            head	0 2 6 2 6 4 5 1 3 6 3 1 
+         end
+		 base shop
+			buyMarkup   50
+			sellMarkup 100
+				inventory
+					category "Equipment" 50233
+						object BackPack
+						object LeatherPouch
+						object WeaponsmithTool
+						object ArmorerTool
+						object AlchemyTool
+						object Lockpick
+						object Mirror
+						object Bowl
+						object Chalice
+						object Mug
+						object Candle
+						object Plate
+					end
+
+					category "Weapons" 15133
+						object IronShortSword
+						object SteelLongSword
+						object IronBroadSword
+						object SteelThrowingDagger
+						object SteelTwoHandSword
+						object MythrilDagger
+						object IronMace
+						object IronAxe
+						object WoodenMaul
+						object SteelClub
+						object TemperedSteelClaw
+					end
+
+					category "Mana Crystals" 50883
+						mana
+					end
+
+					category "Potions" 51583
+						object eLife
+						object ePurify
+						object pHealth
+						object pCurePoison
+						object pSeeInvisibility
+						object pDexterity
+						object pGreaterHealth
+						object pStrength
+						object pAcidShield
+						object pColdShield
+						object pLightningShield
+						object pFireShield
+						object pPoisonShield
+						object pInvulnerability
+						object pShift
+						object pGreaterInvisibility
+					end
+
+					category "Scrolls" 51033
+						object sIdentify
+						object sImmolation
+						object sMissileResistance
+						object sResistCold
+						object sResistFire
+						object sResistLightning
+						object sShield
+						object sGreaterShield
+						object sMonsterSummoningI
+						object sMonsterSummoningII
+					end
+
+					category "Spells"
+						category "Sorcery" 51083
+							object spbHome
+							object spbKillStar
+							object spbDispelMagic
+							object spbEngrave
+							object spbMultiBlade
+							object spbGatherTheFellowship
+							object spbCornucopia
+							object spbImproveArmor
+							object spbTeleport
+							object spbExtension
+							object spbSeeInvisibility
+							object spbShift
+							object spbInvisibility
+							object spbCombatTeleport
+							object spbTeleportGroup
+							object spbPermanency
+							object spbRust
+							object spbWraithform
+							object spbImprovedInvisibility
+							object spbEnchantItem
+							object spbMassRust
+						end
+
+						category "Elementalism" 51083
+							object spbFireGrasp
+							object spbFlameOrb
+							object spbArticGrasp
+							object spbIceOrb
+							object spbIncinerate
+							object spbImmolation
+							object spbFlameBlade
+							object spbArticCharge
+							object spbColdSteel
+							object spbSpark
+							object spbIceStorm
+							object spbStoning
+							object spbFireball
+							object spbLightningBolt
+							object spbFreeze
+							object spbCrushingBoulder
+							object spbElectricFury
+							object spbColdSnap
+							object spbEarthquake
+						end
+
+						category "Mysticism" 51083
+							object spbHoldMonster
+							object spbPsychicOrb
+							object spbIdentify
+							object spbConfusion
+							object spbMindShackle
+							object spbBerserk
+							object spbStun
+							object spbLoyaltyShift
+							object spbWarpMind
+							object spbSpellBlast
+							object spbMassHold
+							object spbFear
+							object spbIronChains
+							object spbMassBerserk
+							object spbMassStun
+							object spbMassLoyaltyShift
+						end
+
+						category "Thaumaturgy" 51083
+							object spbLightDart
+							object spbNimbility
+							object spbEmpower
+							object spbMissileResistance
+							object spbHeal
+							object spbSummonPixie
+							object spbPurify
+							object spbCurePoison
+							object spbGreaterHeal
+							object spbRemoveCurse
+							object spbSummonFaery
+							object spbShield
+							object spbGreaterShield
+							object spbWrathOfTheGods
+							object spbFireShield
+							object spbColdShield
+							object spbLightningShield
+							object spbPoisonShield
+							object spbAcidShield
+							object spbSummonNymph
+							object spbRegeneration
+							object spbIndestruction
+							object spbInvulnerability
+							object spbBanishment
+							object spbSummonFaeryQueen
+						end
+
+						category "Necromancy" 51083
+							object spbAcidSphere
+							object spbVenomousTouch
+							object spbClumsiness
+							object spbPoisonBolt
+							object spbEnfeeble
+							object spbDrainLife
+							object spbSummonZombie
+							object spbVenom
+							object spbSummonUndead
+							object spbAcidRain
+							object spbPoisonCurse
+							object spbAcidCurse
+							object spbFireCurse
+							object spbColdCurse
+							object spbElectricCurse
+							object spbNightFriends
+							object spbStealLife
+							object spbDeathTouch
+							object spbBanish
+							object spbShadowWarrior
+							object spbSummonDaemon
+							object spbDeathWish
+							object spbMassDrain
+						end
+					end
+
+					category "Food" 52133
+						object Meat
+						object Cheese
+						object Bread
+						object Veggies
+					end
+
+					category "Drink" 52233
+						object AleJug
+						object WineFlask
+						object Ambrosia
+					end
+
+					category "Clothes"  10133
+						category "Baldrics"  10933
+							object BlueBaldric
+							object RedBaldric
+						end
+
+						category "Pants" 10533
+							object OlivePants
+							object LimePants
+							object BluePants
+							object AzurePants
+							object RedPants
+							object PinkPants
+							object GoldPants
+							object YellowPants
+							object VioletPants
+							object MagentaPants
+							object BrownPants
+							object TanPants
+							object AquaPants
+							object TealPants
+							object GreenPants
+							object JadePants
+							object OrangePants
+							object AmberPants
+							object RoyalPants
+							object PurplePants
+							object BlackPants
+							object GrayPants
+							object WhitePants
+						end
+
+						category "Long Skirts" 21033
+							object OliveLongSkirt
+							object LimeLongSkirt
+							object BlueLongSkirt
+							object AzureLongSkirt
+							object RedLongSkirt
+							object PinkLongSkirt
+							object GoldLongSkirt
+							object YellowLongSkirt
+							object VioletLongSkirt
+							object MagentaLongSkirt
+							object BrownLongSkirt
+							object TanLongSkirt
+							object AquaLongSkirt
+							object TealLongSkirt
+							object GreenLongSkirt
+							object JadeLongSkirt
+							object OrangeLongSkirt
+							object AmberLongSkirt
+							object RoyalLongSkirt
+							object PurpleLongSkirt
+							object BlackLongSkirt
+							object GrayLongSkirt
+							object WhiteLongSkirt
+						end
+
+						category "Short Skirts" 21533
+							object OliveShortSkirt
+							object LimeShortSkirt
+							object BlueShortSkirt
+							object AzureShortSkirt
+							object RedShortSkirt
+							object PinkShortSkirt
+							object GoldShortSkirt
+							object YellowShortSkirt
+							object VioletShortSkirt
+							object MagentaShortSkirt
+							object BrownShortSkirt
+							object TanShortSkirt
+							object AquaShortSkirt
+							object TealShortSkirt
+							object GreenShortSkirt
+							object JadeShortSkirt
+							object OrangeShortSkirt
+							object AmberShortSkirt
+							object RoyalShortSkirt
+							object PurpleShortSkirt
+							object BlackShortSkirt
+							object GrayShortSkirt
+							object WhiteShortSkirt
+						end
+
+						category "Shirts" 10133
+							object OliveShirt
+							object LimeShirt
+							object BlueShirt
+							object AzureShirt
+							object RedShirt
+							object PinkShirt
+							object GoldShirt
+							object YellowShirt
+							object VioletShirt
+							object MagentaShirt
+							object BrownShirt
+							object TanShirt
+							object AquaShirt
+							object TealShirt
+							object GreenShirt
+							object JadeShirt
+							object OrangeShirt
+							object AmberShirt
+							object RoyalShirt
+							object PurpleShirt
+							object BlackShirt
+							object GrayShirt
+							object WhiteShirt
+						end
+
+						category "Tunics" 10433
+							object OliveTunic
+							object LimeTunic
+							object BlueTunic
+							object AzureTunic
+							object RedTunic
+							object PinkTunic
+							object GoldTunic
+							object YellowTunic
+							object VioletTunic
+							object MagentaTunic
+							object BrownTunic
+							object TanTunic
+							object AquaTunic
+							object TealTunic
+							object GreenTunic
+							object JadeTunic
+							object OrangeTunic
+							object AmberTunic
+							object RoyalTunic
+							object PurpleTunic
+							object BlackTunic
+							object GrayTunic
+							object WhiteTunic
+						end
+
+						category "Robes" 11533
+							object OliveRobe
+							object LimeRobe
+							object BlueRobe
+							object AzureRobe
+							object RedRobe
+							object PinkRobe
+							object GoldRobe
+							object YellowRobe
+							object VioletRobe
+							object MagentaRobe
+							object BrownRobe
+							object TanRobe
+							object AquaRobe
+							object TealRobe
+							object GreenRobe
+							object JadeRobe
+							object OrangeRobe
+							object AmberRobe
+							object RoyalRobe
+							object PurpleRobe
+							object BlackRobe
+							object GrayRobe
+							object WhiteRobe
+						end
+
+						category "High Boots" 10633
+							object OliveBoots
+							object LimeBoots
+							object BlueBoots
+							object AzureBoots
+							object RedBoots
+							object PinkBoots
+							object GoldBoots
+							object YellowBoots
+							object VioletBoots
+							object MagentaBoots
+							object BrownBoots
+							object TanBoots
+							object AquaBoots
+							object TealBoots
+							object GreenBoots
+							object JadeBoots
+							object OrangeBoots
+							object AmberBoots
+							object RoyalBoots
+							object PurpleBoots
+							object BlackBoots
+							object GrayBoots
+							object WhiteBoots
+						end
+
+						category "Low Boots" 20733
+							object OliveLowBoots
+							object LimeLowBoots
+							object BlueLowBoots
+							object AzureLowBoots
+							object RedLowBoots
+							object PinkLowBoots
+							object GoldLowBoots
+							object YellowLowBoots
+							object VioletLowBoots
+							object MagentaLowBoots
+							object BrownLowBoots
+							object TanLowBoots
+							object AquaLowBoots
+							object TealLowBoots
+							object GreenLowBoots
+							object JadeLowBoots
+							object OrangeLowBoots
+							object AmberLowBoots
+							object RoyalLowBoots
+							object PurpleLowBoots
+							object BlackLowBoots
+							object GrayLowBoots
+							object WhiteLowBoots
+						end
+
+						category "Belts"  10233
+							object OliveBelt
+							object BlueBelt
+							object RedBelt
+							object GoldBelt
+							object VioletBelt
+							object BrownBelt
+							object AquaBelt
+							object GreenBelt
+							object OrangeBelt
+							object RoyalBelt
+							object BlackBelt
+							object GrayBelt
+							object WhiteBelt
+						end
+
+						category "Cowls"  10033
+							object OliveCowl
+							object LimeCowl
+							object BlueCowl
+							object AzureCowl
+							object RedCowl
+							object PinkCowl
+							object GoldCowl
+							object YellowCowl
+							object VioletCowl
+							object MagentaCowl
+							object BrownCowl
+							object TanCowl
+							object AquaCowl
+							object TealCowl
+							object GreenCowl
+							object JadeCowl
+							object OrangeCowl
+							object AmberCowl
+							object RoyalCowl
+							object PurpleCowl
+							object BlackCowl
+							object GrayCowl
+							object WhiteCowl
+						end
+					end
+
+					category "Dyes" 51583
+						object dOlive
+						object dLime
+						object dBlue
+						object dAzure
+						object dRed
+						object dPink
+						object dGold
+						object dYellow
+						object dViolet
+						object dMagenta
+						object dBrown
+						object dTan
+						object dAqua
+						object dTeal
+						object dGreen
+						object dJade
+						object dOrange
+						object dAmber
+						object dRoyal
+						object dPurple
+						object dBlack
+						object dGray
+						object dWhite
+					end
+
+					category "Weapons" 15133
+						category "Single-Handed Weapons" 15233
+							object TemperedSteelDagger
+							object TemperedSteelClaw
+							object TemperedSteelShortSword
+							object TemperedSteelLongSword
+							object TemperedSteelBroadSword
+							object MythrilDagger
+							object MythrilClaw
+							object MythrilShortSword
+							object MythrilLongSword
+							object MythrilBroadSword
+						end
+
+						category "Two-Handed Weapons" 15933
+							object TemperedSteelClub
+							object TemperedSteelMaul
+							object TemperedSteelTwoHandSword
+							object TemperedSteelMace
+							object TemperedSteelAxe
+							object MythrilClub
+							object MythrilMaul
+							object MythrilTwoHandSword
+							object MythrilMace
+							object MythrilAxe
+						end
+
+						category "Throwing Weapons" 15333
+							object TemperedSteelThrowingDagger
+							object MythrilThrowingDagger
+						end
+					end
+
+					category "Armor" 13633
+						category "Tempered-Steel Armor" 13633
+							object TemperedSteelHelmet
+							object TemperedSteelLegionHelmet
+							object TemperedSteelMinervaHelmet
+							object TemperedSteelSollerets
+							object TemperedSteelCowl
+							object TemperedSteelChainPants
+							object TemperedSteelPlatePants
+							object TemperedSteelChainTunic
+							object TemperedSteelPlateTunic
+							object TemperedSteelband
+						end
+
+						category "Mythril Armor" 13733
+							object MythrilHelmet
+							object MythrilLegionHelmet
+							object MythrilMinervaHelmet
+							object MythrilSollerets
+							object MythrilCowl
+							object MythrilChainPants
+							object MythrilPlatePants
+							object MythrilChainTunic
+							object MythrilPlateTunic
+							object Mythrilband
+						end
+
+						category "Shields" 16533
+							object TemperedSteelRoundShield
+							object MythrilRoundShield
+							object TemperedSteelLargeShield
+							object MythrilLargeShield
+						end #------------------ End Shields ------------------
+					end		#------------------ End Armor Shop ------------------
+				end			#------------------ End Inventory ------------------
+			end				#------------------ End Base Shop ------------------
+		end					#------------------ End Shop Object ------------------
+	end						#------------------ End Objects ------------------
+end							#------------------ End Room 6069 ------------------
+
+room 6068
+   properties
+      picture	4000
+      north	6069 335 318 
+      south	5014 458 215 
+      roomName	"Host's Hollow"
+   end
+   atpinfo
+      35765  204 171 -20
+      35765  160 175 -20
+      2997  653 192 -20
+      2997  154 153 -20
+      2711  56 150
+      2339  461 109
+      21  636 225 -10
+      32789  108 147
+      32791  519 104
+      21  639 125
+      32789  544 98
+      32789  27 108
+      2997  243 165 -20
+      21  409 279 -10
+      63  434 149 -10
+      23  351 107
+      22  224 113
+      35765  0 155 -25
+      2340  72 140
+      2997  542 178 -20
+      21  192 196 -10
+      21  471 192 -10
+      2340  580 140
+      2340  515 140
+      63  543 152 -10
+      32790  280 250 -10
+      22  471 216 -10
+      35765  212 139 -20
+      2997  554 161 -20
+      22  29 196 -10
+      32790  48 185
+      21  486 125
+      21  90 262
+      2956  200 151
+      32791  197 261
+      22  274 167
+      2997  40 193 -20
+      43  11 147
+      2997  688 163 -20
+      35107  124 134
+      2997  279 153 -20
+      22  639 172
+      2340  -15 140
+      21  281 121 -10
+      63  424 146 -5
+      63  216 143
+      63  624 151 -10
+      2997  417 171 -20
+      21  294 184 -10
+      21  595 149
+      2956  387 132
+      63  610 151 -10
+      63  495 151 -10
+      2997  77 177 -20
+      22  421 177 -10
+      21  625 202 -10
+      22  490 160
+      2997  365 163 -20
+      2997  498 158 -20
+      63  588 156
+      2997  382 145 -20
+      35765  52 283 -20
+      32790  411 240 -10
+      35765  592 175 -20
+      23  561 274
+      2997  316 128 -20
+      32790  219 279
+      21  544 251 -10
+      63  567 150 -10
+      63  53 153
+      63  79 154
+      63  37 151 -5
+      63  127 154
+      63  383 149
+      63  105 154
+      2997  220 120 -20
+      63  461 150 -5
+      63  197 135
+      63  521 158
+      63  360 134 -10
+      2997  173 168 -20
+      63  14 155
+      63  205 154
+      63  178 155
+      63  150 151 -5
+      63  625 155
+      2359  60 141 20
+      2997  453 170 -20
+      2997  155 299 -20
+      21  109 71 -10
+      21  61 64 -10
+      2711  571 148
+      2711  101 150
+      2711  15 150
+      2711  160 148
+      2711  609 146
+      2711  496 149
+      2711  437 145
+      2997  51 231 -20
+      43  115 147
+      7900  101 141
+      7900  480 148
+      7908  633 151
+      2997  240 66 -50
+      2997  379 70 -50
+      32874  529 145
+      32872  23 308
+      2997  398 111 -20
+      2997  402 119 -20
+      2997  57 214 -20
+      35765  608 213 -20
+      35765  -45 258 -20
+      3  378 70
+      3  379 58
+      3  381 25
+      2997  283 112 -20
+      35765  584 251 -20
+      2381  297 72 -50
+      35765  623 231 -20
+      2953  70 146
+      2953  582 148
+      32790  -22 146
+      32790  29 165
+      43  177 147 10
+      43  160 145 10
+      2997  317 100 -20
+      2953  679 372
+      2953  464 143
+      64  351 145
+      104  385 142
+      106  15 302
+      104  203 140
+      32872  212 141
+      64  388 149
+      64  426 147
+      64  468 151
+      64  200 152
+      64  167 148
+      64  145 153
+      64  106 152
+      64  522 155
+      64  580 154
+      64  64 153
+      64  23 152
+      64  494 153
+      64  612 154
+      64  195 142
+      64  20 308
+      35765  43 187 -20
+      2997  107 266 -20
+      2997  110 248 -20
+      2997  593 304 -20
+      35765  537 286 -20
+      35765  606 267 -20
+      35765  2 309 -20
+      7903  432 114
+      7903  159 116
+      63  344 129 -10
+      64  340 129
+      63  376 119
+      63  391 116
+      64  358 116
+      63  232 140
+      63  222 130
+      63  206 123
+      63  234 147
+      64  225 141
+      64  214 138
+      2956  387 115
+      35724  213 116
+      21  297 218 -10
+      21  248 230 -10
+   end
+   objects
+      object homeStorageOutside6068-1 of HomeStorageOutside
+         properties
+            x	613
+            y	171
+            loop	0
+         end
+         base openable
+            isOpen	1
+         end
+         base described
+            text	"You see a storage chest for event items. Place important event items inside this chest instead of on the ground."
+         end
+      end
+   end
+end
+room 6070
+   properties
+      roomName	"Winner's Circle"
+      picture	3000
+   end
+   atpinfo
+      7900  353 149
+      7900  100 149
+      7900  -89 325
+      7900  716 311
+      2714  177 63
+      7900  605 149
+      63  210 267
+      64  456 231
+      63  231 272
+      63  199 259
+      63  203 248
+      63  213 238
+      63  244 236
+      63  274 234
+      63  300 232
+      63  329 231
+      63  360 233
+      63  389 236
+      63  413 239
+      63  421 245
+      63  430 255
+      63  422 265
+      63  399 272
+      64  473 230
+      64  493 227
+      64  503 220
+      64  494 213
+      64  478 210
+      64  460 209
+      64  442 213
+      64  419 218
+      64  415 226
+      64  159 228
+      64  428 230
+      64  440 231
+      64  176 227
+      64  143 229
+      64  124 230
+      64  188 222
+      64  182 216
+      64  169 212
+      64  157 208
+      64  141 207
+      64  124 210
+      64  106 214
+      64  92 223
+      64  103 230
+      64  1 322
+      156  596 86 -50
+      175  307 52 -50
+      165  494 67 -50
+      168  82 94 -50
+      152  530 75 -50
+      154  95 95 -50
+      153  20 135 -50
+      153  628 179
+      102  650 318
+      107  -13 314
+      114  57 313
+      2713  603 322 240
+      2713  261 71
+      2713  446 93
+      2713  603 116
+      2714  504 96
+      2714  347 95
+      21  440 214
+      32789  187 215
+      22  333 226
+      23  300 223
+   end
+   objects
+      object fountain6070-0 of Fountain
+         properties
+            x	156
+            y	226
+            loop	0
+         end
+         base described
+            text	"You see a fountain containing a few gold coins."
+         end
+      end
+      object fountain6070-1 of Fountain
+         properties
+            x	473
+            y	226
+            loop	0
+         end
+         base described
+            text	"You see a fountain containing a few gold coins."
+         end
+      end
+   end
+end

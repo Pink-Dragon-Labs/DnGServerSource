@@ -1,0 +1,19 @@
+quest  128 #6311-01-540        # Troels, Valhalla Inn, Asgard, 6911
+
+name  "A Snack for Troels"
+type  fedex
+
+proposal  "Well, now, who would have thought people would be interested in these little things.  I do like to carve and I stumbled across this idea while experimenting.  I made several for the kiddies, and they seem to like them.  I'll be glad to let you have one of them.  They're just little carvings.  Would you be willing to run an errand for me in exchange?"
+
+declined  "That's fine, too."
+
+accepted  "Pindar put up a little snack for me, and I haven't had time to go get it."
+
+reminder   "Pick up my snack from Pindar."
+
+completed  "Thank you, friend.  Here's one of those flutes for you."
+
+getItem   qTroelsSnack
+reward   qCarvedFlute 
+end
+

@@ -1,0 +1,28 @@
+name "westhavenwood"
+title "West Havenwood"
+worldFile "../data/lib/world/FOR1.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 12
+groupChance 10
+monster Pixie 3
+monster Faery 1
+monster WaspDrone 5
+monster WaspWorker 4
+monster WaspWarrior 3
+monster Wolf 6
+monster SwampRat 5
+monster DesertRat 10
+monster Guardian 20
+monster ThiefA 1
+monster ThiefB 1
+monster ThiefC 1
+monster WarriorA 1
+monster WarriorB 1
+monster WarriorC 1
+monster BountyHunterA 1
+monster BountyHunterB 1
+monster BountyHunterC 1
+monster BountyHunterD 1
+

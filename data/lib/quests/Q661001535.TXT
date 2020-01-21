@@ -1,0 +1,19 @@
+quest  198 #6610-01-535        # Ghoud, Asgard General Goods, Asgard, 6904
+
+name  "Cinnamon Oil"
+type  fedex
+
+proposal  "Hello, hello and welcome.  Malina sent word you were coming.  Yes, indeed.  And everything is in order.  It's all here, but let me just check it over one last time.  Um. Um. Yes.  Oh shards!  Just look at this.  She ordered some cinnamon oil, and I'm all out.  Double dratted shards.  I've got to have that.  Would you be a good sort and scout round to find some?"
+
+declined  "I can't finish her order without it.
+
+accepted  "Just put it on my tab when you find it.  Everyone knows me."
+
+reminder   "Find some cinnamon oil."
+
+completed  "Good, good.  I see you found it.  Good, good.  Let me just tuck some in Malina's order, and here you are.  Ship shape and ready to go."
+
+getItem   qCinnamonOil
+reward   qMalinaSupplies 
+end
+

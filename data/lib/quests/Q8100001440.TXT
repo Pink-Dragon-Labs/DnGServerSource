@@ -1,0 +1,15 @@
+quest  81000-01-440        # Morin, Natural Healing, West Leinster, 6061
+name  "Delivery for Morin"
+type  fedex
+
+proposal  "She's really in a dither, isn't she?  I'm not too thrilled about staying in Leinster, but she's got a real case.   Ever notice how people tend to 'view with alarm' or 'point with pride.'  She views with alarm and then some.  I'll package up a supply.  We'll see if a good night's sleep calms her down any.  You'll take it back to her?"  
+
+declined  "Just delivering the news, huh, but not the potion."
+
+accepted  "It's ready to take over there."
+
+reminder   "You better take that sleeping potion back to Andrea."
+
+reward   qSleepingPotion 
+end
+

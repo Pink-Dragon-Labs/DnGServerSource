@@ -1,0 +1,18 @@
+quest  133 #6401-01-435        # Pia, Good Health Potions, Usk, giant, 8110
+name  "Fresh Fruit for Pia"
+type  fedex
+
+proposal  "Glad to hear it.  I'm always pleased to support people who want to eat fresh grains, fresh grains and fresh fruits.  I have a very nice grinding stone that just came in.  I'll let you have it if you will go to Asgard for me.  I want a supply of fresh fruit, and they have a good supply just at the moment.  Will you go?"
+
+declined  "Too bad."
+
+accepted  "Then be on your way so you can return."
+
+reminder   "You are going to Asgard for fresh fruit."
+
+completed  "Excellent.  I am well pleased.  I hope the grinding stone is all you want it to be."
+
+getItem   qFreshFruit
+reward   qGrindingStone 
+end
+

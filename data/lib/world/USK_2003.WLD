@@ -1,0 +1,1137 @@
+room 7109
+   properties
+      picture	3500
+      north	7105 
+      south	7112 
+      east	7110 
+      west	7108 
+   end
+   atpinfo
+      2606  161 91 150
+      2501  364 84 60
+      35481  605 165 50
+      2542  391 137
+      20  232 62
+      20  129 204
+      35485  322 82 -74
+      154  275 57
+      49  313 79 -68
+      2717  42 237
+      2501  466 41
+      2720  422 188 -5
+      3  549 200
+      45  79 162
+      2502  446 184 131
+      2717  56 214
+      2535  714 336
+      2535  717 176
+      2715  613 201
+      2520  609 23
+      2614  519 188 136
+      2614  407 197 164
+      35483  638 141
+      35721  8 224
+      7901  29 227
+      2954  280 74
+      35485  605 214
+      2547  544 159
+      2556  561 133
+      16  463 216
+   end
+   objects
+      object Nika7109-1 of GateKeeper
+         properties
+            x	385
+            y	176
+            loop	1
+            name	"Nika"
+         end
+         base talk
+            talkTreeID	7109
+         end
+         base character
+            properName	"Nika (NPC)"
+            sex	1
+         end
+         base container
+            worn	BlueShirt
+            worn	BlueShortSkirt
+            worn	RedBelt
+            worn	RedBoots
+            object	LeatherPouch
+            object	Diamond
+            object	Emmerald
+            head	1 1 1 5 3 0 3 0 1 0 4 1 
+         end
+      end
+      object door7109-2 of Door
+         properties
+            x	452
+            y	203
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+         base lockable
+            isLocked	1
+         end
+      end
+   end
+end
+room 7112
+   properties
+      picture	3500
+      north	7109 
+      south	12206 
+      east	7113 
+      west	12201 
+   end
+   atpinfo
+      35483  386 201
+      2717  120 57
+      2714  410 210 25
+      2717  4 195
+      2717  133 177
+      35383  500 205 150
+      2516  716 44 40
+      2613  532 142
+      2524  583 144 100
+      2511  446 165 150
+      2509  487 133
+      2509  412 122
+      2613  474 133
+      2510  381 189
+      2592  624 149
+      2536  442 2 75
+      35724  567 205
+      2717  485 217
+      2718  18 173
+      2742  21 36
+      2586  649 167
+      2717  633 207
+      2717  47 211
+      35485  398 203
+      2717  65 186
+      21  88 119
+      2743  407 50
+      32791  116 77
+      26  92 265
+      32793  175 9
+      21  90 204
+      32792  190 277
+      184  378 316
+      184  72 212
+      32952  49 297
+      32952  170 12
+      32952  260 11
+      25  329 23
+      26  0 221
+      32789  210 8
+      32792  7 23
+   end
+end
+room 7113
+   properties
+      picture	3500
+      north	7110 
+      south	12207 
+      east	7114 
+      west	7112 
+      roomName	"The Usk Boutique"
+   end
+   atpinfo
+      2516  150 16
+      2613  -47 169
+      35383  -46 206 150
+      2524  47 192 150
+      2525  207 32
+      2617  229 52
+      2525  412 32
+      2617  424 51
+      2594  211 147
+      2717  388 204
+      2588  195 174
+      2588  351 175
+      35484  -1 212
+      49  470 198
+      2594  367 148
+      2955  28 211
+      35484  304 182
+      2713  434 192 80
+      2715  421 191
+      2714  444 192 30
+      2714  226 194 30
+      2715  193 193
+      2717  480 203
+      2526  304 38
+      2617  321 54
+      2244  163 202
+      2241  214 195
+      2737  314 129
+      35516  540 49 -67
+      2711  497 127
+      181  554 9
+      182  543 114
+      180  587 15
+      32949  544 30
+      44  519 110
+      32784  141 224
+   end
+   objects
+      object door7113-0 of Door
+         properties
+            x	103
+            y	205
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7108
+   properties
+      picture	3500
+      north	7104 
+      south	12201 
+      east	7109 
+      flags	0
+      roomName	"The Tub"
+   end
+   atpinfo
+      2743  9 78
+      2502  271 72
+      2501  207 47
+      2513  456 65
+      2514  481 66
+      2649  441 67
+      2668  204 176 30
+      2661  347 196 49
+      2663  347 229
+      2641  447 138
+      2641  494 130
+      2648  408 238
+      2656  406 216 -10
+      2651  410 130
+      2653  491 195
+      2654  487 100
+      2711  153 216
+      2670  174 212
+      2649  426 234
+      2644  407 166
+      2648  448 235 133
+      2648  447 233 58
+      2613  425 201 133
+      2953  503 238
+      2642  447 224
+      2642  494 215
+      2595  458 161
+      2954  435 251
+      2515  501 18
+      35511  47 41
+      2661  398 175 20
+      2743  624 47
+      2663  398 225
+      2653  485 100 49
+      43  157 196
+      2717  538 244
+      2668  161 209
+      35485  591 71
+      2670  342 239
+      2642  408 233
+      2614  325 80 29
+      35485  601 226
+      2717  549 235
+      2671  162 102
+      2670  293 218 60
+      2673  350 226
+      2674  350 129
+      2676  154 184
+      2669  246 213 -16
+      2663  204 207
+      2661  205 155 31
+      2501  359 70
+      2626  288 81 19
+      2628  311 75 9
+      2629  279 61
+      2614  259 82 42
+      2699  327 198 65
+      21  74 54
+      21  151 16
+      32792  124 284
+      181  95 285
+      186  256 218
+      16  274 233
+      16  452 264
+   end
+   objects
+      object plankDoor7108-0 of PlankDoor
+         properties
+            x	272
+            y	222
+            loop	1
+         end
+      end
+   end
+end
+room 7105
+   properties
+      picture	3500
+      north	7101 
+      south	7109 
+      east	7106 
+      west	7104 
+   end
+   atpinfo
+      35480  11 210
+      2716  514 207
+      2716  582 206
+      2716  588 225
+      35723  560 116
+      32818  561 204
+      152  18 39
+      49  617 203
+      32889  65 204
+      154  606 101
+      153  630 51
+      35724  534 108
+      2955  142 54
+      2955  92 37
+      35724  88 199
+      35723  330 82
+      35480  591 115
+      35724  488 106
+      2509  349 2
+      2510  367 77
+      2509  492 25
+      2614  526 83 47
+      2524  618 2
+      2614  424 85 66
+      180  65 200
+      181  547 115
+      35480  122 48
+      2521  38 104
+      35381  -27 118
+   end
+end
+room 7102
+   properties
+      picture	3500
+      south	7106 
+      east	7103 
+      west	7101 
+   end
+   atpinfo
+      3  357 194
+      2718  633 304
+      2711  489 202
+      2737  228 112
+      3  71 179
+      3  82 196
+      2713  194 57
+      2737  357 113
+      35485  98 189
+      2717  105 6 -117
+      2618  439 52
+      2717  412 206
+      2717  474 206
+      2618  146 48
+      2717  122 203
+      20  105 181
+      21  612 2 -22
+      32790  346 19 -263
+      23  10 8 -47
+      24  520 262
+      180  60 8 -117
+      32949  516 260
+      182  51 2 -117
+      24  139 3
+      2527  147 10
+      20  -4 92
+      22  70 2
+      32949  271 194
+      182  629 10
+      44  473 186
+      45  484 9 -183
+      49  111 189
+      123  490 188
+      2951  91 9 -157
+      2711  620 322
+      2558  436 131
+      2702  144 70
+      2528  208 9
+      2527  439 11
+      2528  374 8
+      2529  283 46
+      35470  440 68
+      2549  147 136
+      2549  437 134
+      2558  146 133
+      3  500 200
+      149  633 48
+      164  -39 30
+   end
+   objects
+      object plankDoor7102-0 of PlankDoor
+         properties
+            x	291
+            y	195
+            loop	2
+         end
+      end
+   end
+end
+room 7101
+   properties
+      picture	3500
+      south	7105 
+      east	7102 
+      west	7100 
+      roomName	"Fashion Delights"
+   end
+   atpinfo
+      2501  124 35
+      2502  214 64
+      2501  300 62
+      2520  442 45
+      2613  337 71
+      2614  221 51
+      2614  160 40
+      2626  201 66
+      2629  174 62
+      2628  251 74
+      2547  362 206
+      2548  178 163
+      2553  379 179
+      2554  178 157
+      2956  102 206
+      35484  467 218
+      35484  376 238
+      35511  590 6 -51
+      2743  -6 3 -136
+      149  34 8 -85
+      2743  609 10 -99
+      35724  521 209
+      2716  173 83 -117
+      35484  586 3 -99
+      2547  451 198
+      2553  468 171
+      2652  472 54
+      2653  495 59
+      60  387 236
+      2799  201 143 45
+      2807  186 137
+      32790  612 13 -81
+      2953  40 205
+      20  45 200
+      2956  21 192
+      2956  78 191
+      45  523 205
+      35724  527 189 176
+      16  248 241
+   end
+   objects
+      object plankDoor7101-0 of PlankDoor
+         properties
+            x	277
+            y	224
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7107
+   properties
+      picture	3500
+      south	7111 
+      west	7106 
+      roomName	"The Farthing Inn"
+   end
+   atpinfo
+      2520  318 41
+      2501  73 43
+      2508  503 46
+      2502  118 64
+      2501  176 59
+      2513  654 64
+      2613  225 89 3
+      2614  132 151 82
+      35381  605 86
+      2626  90 80
+      2621  741 82
+      2629  145 88
+      2593  57 177 20
+      32814  11 202
+      35485  -20 98
+      2593  110 186 20
+      2593  165 195 20
+      35485  218 240
+      2717  20 215
+      2581  149 189
+      2712  15 72
+      2581  40 171
+      2581  94 180
+      35723  594 236
+      2593  435 124 -38
+      2581  420 115 -61
+      2581  475 185
+      2593  491 191 20
+      2581  531 193
+      2593  548 199 20
+      2795  353 125 -20
+      2794  368 121 -2
+      2710  356 166 90
+      49  416 120 -67
+      2711  426 210
+      32790  527 278
+      32789  583 239
+      23  479 273
+      16  504 244
+   end
+   objects
+      object simpleDoor7107-0 of SimpleDoor
+         properties
+            x	308
+            y	219
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7103
+   properties
+      picture	3500
+      west	7102 
+      roomName	"Marvelous Armory"
+   end
+   atpinfo
+      2501  8 45
+      2801  114 98 29
+      2520  148 27
+      181  183 207
+      2545  558 165
+      32950  221 196
+      2621  727 55
+      2626  -80 50
+      2793  133 78
+      2745  55 -1 -99
+      2717  36 242
+      35485  357 202
+      2717  275 198
+      2717  519 224
+      35485  93 228
+      35485  595 237
+      3  9 244
+      3  136 214
+      182  316 211
+      3  86 226
+      2613  53 56
+      3  408 185
+      3  233 184
+      2954  -22 233
+      35722  320 194
+      2548  558 171
+      16  55 231
+      2547  66 189
+      2548  22 168
+      2545  23 162
+      2544  83 162
+      24  567 217 -46
+      32812  326 197
+      32789  602 151 -81
+      43  620 314
+      24  310 290 -46
+      32794  599 31 -150
+      25  567 233
+      182  408 197
+      2528  300 5
+      2508  489 32
+      35381  592 62
+      2513  638 51
+      2547  605 193
+      2544  619 167
+      2528  351 6
+      2529  319 44
+      32784  591 237
+      2954  676 231
+      7903  321 202
+      32949  460 208
+      2241  483 289
+   end
+   objects
+      object door7103-0 of Door
+         properties
+            x	184
+            y	199
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object door7103-1 of Door
+         properties
+            x	448
+            y	200
+            loop	1
+		enchantResistance 100
+         end
+         base openable
+            isOpen	0
+         end
+         base lockable
+            isLocked    1
+         end
+         base described
+            text	"Welcome to Farmer Antern's Pumpkin Patch."
+         end
+      end
+      object chair7103-2 of Chair
+         properties
+            x	525
+            y	285
+            loop	1
+         end
+      end
+      object chair7103-3 of Chair
+         properties
+            x	511
+            y	262
+            loop	1
+         end
+      end
+      object chair7103-4 of Chair
+         properties
+            x	481
+            y	263
+            loop	2
+         end
+      end
+   end
+end
+room 7110
+   properties
+      picture	3500
+      south	7113 
+      east	7111 
+      west	7109 
+      flags	2
+      roomName	"Good Health Potions"
+   end
+   atpinfo
+      2508  123 77
+      2513  274 95
+      2514  337 96
+      2514  424 82
+      2513  508 59
+      2956  196 260
+      46  43 239
+      2956  310 290 -139
+      2623  351 105
+      2621  382 101
+      2956  37 76 -139
+      2717  610 166
+      2956  0 188
+      35381  249 106
+      2717  613 217
+      32814  205 258
+      2623  471 86
+      35381  373 109 22
+      2718  11 229
+      49  555 216
+      45  584 190
+      2712  583 220
+      2951  614 181
+      2951  635 180
+      2717  13 247
+      35381  496 89 21
+      2809  261 264 146
+      16  231 285
+      2716  591 222
+      2728  101 147
+      2547  382 216
+      2554  118 197
+      2553  399 189
+      2548  118 203
+      35484  478 220
+      32784  224 280
+   end
+   objects
+      object plankDoor7110-0 of PlankDoor
+         properties
+            x	284
+            y	259
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7106
+   properties
+      picture	3500
+      north	7102 
+      east	7107 
+      west	7105 
+   end
+   atpinfo
+      2606  161 91 150
+      2718  477 12 -99
+      35481  93 6 -99
+      2745  4 8 -99
+      2745  158 8 -99
+      2745  224 8 -99
+      2745  466 8 -99
+      2745  620 7 -99
+      2712  223 113
+      2715  17 119
+      2714  46 122
+      35485  549 121
+      2717  444 116
+      2717  -8 139
+      35485  620 198
+      2717  606 209
+      2598  171 180
+      2951  636 189
+      2598  177 268
+      2598  455 282
+      32854  516 171 50
+      32853  521 169
+      49  607 174
+   end
+   objects
+      object chair7106-0 of Chair
+         properties
+            x	266
+            y	163
+            loop	1
+         end
+      end
+      object chair7106-1 of Chair
+         properties
+            x	98
+            y	245
+            loop	0
+         end
+      end
+      object chair7106-3 of Chair
+         properties
+            x	374
+            y	262
+            loop	0
+         end
+      end
+      object chair7106-4 of Chair
+         properties
+            x	177
+            y	230
+            loop	2
+         end
+      end
+      object chair7106-5 of Chair
+         properties
+            x	537
+            y	263
+            loop	1
+         end
+      end
+      object chair7106-6 of Chair
+         properties
+            x	80
+            y	162
+            loop	0
+         end
+      end
+      object chair7106-7 of Chair
+         properties
+            x	246
+            y	243
+            loop	1
+         end
+      end
+      object chair7106-8 of Chair
+         properties
+            x	216
+            y	231
+            loop	2
+         end
+      end
+      object chair7106-9 of Chair
+         properties
+            x	412
+            y	247
+            loop	2
+         end
+      end
+      object chair7106-10 of Chair
+         properties
+            x	461
+            y	247
+            loop	2
+         end
+      end
+      object chair7106-11 of Chair
+         properties
+            x	127
+            y	138
+            loop	2
+         end
+      end
+      object chair7106-12 of Chair
+         properties
+            x	172
+            y	142
+            loop	2
+         end
+      end
+      object chair7106-13 of Chair
+         properties
+            x	222
+            y	143
+            loop	2
+         end
+      end
+      object bartender7106-16 of Bartender
+         properties
+            x	518
+            y	165
+            loop	2
+         end
+         base talk
+            talkTreeID	7106
+         end
+         base character
+            properName	"Bekka (NPC)"
+            title	"the Server"
+            sex	1
+         end
+         base shop
+			inventory
+				category "Gift Boxes" 62783
+					object GiftBox
+					object GiftBox1
+					object GiftBox2
+					object GiftBox3
+					object GiftBox4
+					object GiftBox5
+					object GiftBox6
+					object GiftBox7
+					object GiftBox8
+					object GiftBox9
+					object GiftBox10
+					object GiftBox11
+					object GiftBox12
+					object GiftBox13
+					object TallGiftBox
+					object TallGiftBox1
+					object TallGiftBox2
+					object FlatGiftBox
+					object FlatGiftBox1
+					object FlatGiftBox2
+				end
+			end
+         end
+         base container
+            worn	BlueCowl
+            worn	BlueShirt
+            worn	RedShortSkirt
+            worn	GreenBelt
+            worn	GreenBoots
+            head	1 0 5 1 8 0 10 8 2 8 2 5 2 
+         end
+      end
+      object chair7106-17 of Chair
+         properties
+            x	506
+            y	247
+            loop	2
+         end
+      end
+      object chair7106-18 of Chair
+         properties
+            x	129
+            y	232
+            loop	2
+         end
+      end
+   end
+end
+room 7111
+   properties
+      picture	3500
+      north	7107 
+      east	12200 
+      west	7110 
+      flags	2
+      roomName	"Mabon's Magic"
+   end
+   atpinfo
+      2501  367 44
+      2502  454 71
+      2501  465 58
+      2515  280 20
+      2501  176 42
+      2515  569 38
+      2502  164 60
+      2501  156 44
+      2548  381 162
+      2547  522 203
+      2547  236 184
+      2556  253 157
+      2556  539 176
+      2557  382 156
+      32879  303 207
+      2627  99 65 11
+      2614  225 55
+      2614  506 79 20
+      2627  381 73 18
+      2614  442 76 28
+      2629  450 74 8
+      2713  328 82
+      2714  578 214 99
+      2717  580 237
+      32879  348 205
+      111  211 206
+      2712  625 220
+      35480  669 168
+      2712  667 128
+      35480  668 83
+      63  389 212
+      111  305 199
+      2717  130 18 -165
+      104  312 202
+      104  294 205
+      32872  335 205
+      63  180 205
+      23  563 268
+      2694  141 114
+      2952  111 5 -162
+      32879  263 205
+      32879  152 207
+      111  128 200
+      111  107 199
+      32831  160 202
+      186  50 41
+      181  0 25
+      32949  98 3
+      16  245 235
+   end
+   objects
+      object simpleDoor7111-0 of SimpleDoor
+         properties
+            x	444
+            y	222
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7114
+   properties
+      picture	3500
+      south	12208 
+      east	12202 
+      west	7113 
+      flags	2
+      roomName	"The Learning Emporium"
+   end
+   atpinfo
+      2505  341 42
+      2506  416 84
+      2506  513 73
+      2516  274 33
+      2509  45 160
+      2516  656 75
+      2509  434 175 -29
+      2717  324 230
+      46  295 215
+      2794  -3 213
+      35482  419 190 -75
+      2802  2 216 18
+      2613  500 178 -36
+      2714  635 251 48
+      2713  97 221
+      2954  576 286
+      2613  90 171
+      123  611 249
+      2547  579 243
+      2548  368 176
+      2548  460 102 -91
+      2548  427 94 42
+      2545  368 170
+      2545  462 184
+      2545  427 87 40
+      2544  596 219
+      23  558 270
+      35723  -108 219
+      3  631 277
+      3  609 279
+      3  629 264
+      3  627 257
+      2506  608 35
+      2713  66 210
+      16  411 257
+      16  514 316
+      16  116 264
+   end
+   objects
+      object simpleDoor7114-0 of SimpleDoor
+         properties
+            x	216
+            y	224
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7100
+   properties
+      picture	3500
+      east	7101 
+      flags	2
+      roomName	"Excellent Weaponry"
+   end
+   atpinfo
+      2525  90 82
+      2526  197 88
+      2525  545 79
+      2526  325 86
+      2526  450 86
+      2617  90 69
+      35385  208 69
+      2617  339 70
+      35385  458 70
+      2617  551 70
+      2631  93 92
+      2633  238 92
+      2634  552 94
+      2633  368 92
+      2633  433 93
+      2582  207 195
+      2582  138 195
+      2582  67 195
+      2710  384 125
+      60  618 231
+      2717  441 248
+      35559  418 170
+      2803  413 179 23
+      2717  187 253
+      2953  571 236
+      2718  15 251
+      2955  106 258
+      35723  532 237
+      2954  52 252
+      2594  221 210 29
+      2594  151 211 29
+      2594  80 211 29
+      32792  135 257
+      7907  425 254
+      7907  540 261
+      7907  629 267
+   end
+   objects
+      object simpleDoor7100-0 of SimpleDoor
+         properties
+            x	318
+            y	245
+            loop	2
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 7104
+   properties
+      picture	3500
+      south	7108 
+      east	7105 
+      roomName	"Ambrosia of Usk"
+   end
+   atpinfo
+      2501  86 43
+      2501  133 50
+      2502  112 61
+      2520  275 32
+      2504  380 -13
+      2521  608 142
+      2504  380 8
+      2713  340 141 80
+      2954  47 213
+      2545  451 162 20
+      2542  97 149
+      2542  160 157
+      2545  97 164 20
+      2545  160 172 20
+      2714  64 25 -99
+      2737  396 98
+      2714  623 194
+      3  30 202
+      3  9 202
+      3  4 185
+      2542  452 146
+      35381  565 151
+      2614  183 63
+      2614  137 56
+      35381  620 143
+      35559  303 97
+      2710  269 53
+      2805  287 101 16
+      2241  364 204
+      2715  603 181 -36
+      32971  581 226
+      20  577 212
+      111  610 211
+      111  529 216
+      32795  615 202
+      26  95 215
+      32792  135 260
+      186  254 278
+      2716  38 214
+      32794  -59 108
+      24  -104 69
+   end
+   objects
+      object plankDoor7104-0 of PlankDoor
+         properties
+            x	231
+            y	216
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object stool7104-1 of Stool
+         properties
+            x	322
+            y	211
+            loop	2
+         end
+      end
+      object stool7104-2 of Stool
+         properties
+            x	422
+            y	209
+            loop	2
+         end
+      end
+   end
+end

@@ -1,0 +1,19 @@
+quest  262 #6905-01-425        # Holiph, The Farthing Inn, Usk, giant, 8107
+
+name  "Family Heirloom Ring"
+type  fedex
+
+proposal  "Odd coincidence, you asking that.  My cousin and I were just going through a box of odds and ends the family has collected over the years.  There were numerous small warrior statues and one of them did have a club.  I brought it in as an interesting little curiosity, but I'd let you have it in return for a favor.  What do you say?"
+
+declined  "Come again, friend."
+
+accepted  "Another cousin, several times removed, lives in Kurz now.  He has a family heirloom ring to send back to us.  You'll be doing us a great favor to return it."
+
+reminder   "Go to Kurz and find a family heirloom ring for Holiph."
+
+completed  "Isn't that a beauty?  Thanks for the favor, friend, and here is the small statue."
+
+getItem   qHeirloomRing
+reward    qClubStatue 
+end
+

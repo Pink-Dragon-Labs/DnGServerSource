@@ -1,0 +1,23 @@
+id 73000
+
+banner "Welcome to my zoo!  What can I do for you?"
+
+topic "Who are you?"
+	text "My name is Zelbic!  I have lived in The Realm for more years than I care to remember.  This zoo has been in my family for generations..."
+	text "My father had to give up his work in the zoo because that terrible devil ate him one fine morning.  'Twas a shame.  We still have that darn devil in here too.  You should see him... quite a sight!"
+end
+
+topic "Why are you here?"
+	text "I like standing about in my zoo.  It gives me comfort... er... well actually it's kinda boring... but boring is better than devil bait!"
+	text "Don't let me get you down about the zoo, it's wonderful!  Just mind the devil... he's a biter."
+end
+
+topic "Where did all these... um... 'animals' come from?"
+	text "Oh, most of the beasts we have here are nothing short of freakish creatures... you can call them animals... all of them but that darn devil.  My father made that mistake once... rest his soul."
+	text "Most of the animals were collected by my great, great, great gandfather.  He was quite the hunter.  I'm too afraid to hunt for any more beasts.  If it was not for the protective spell over the zoo, I'd be too afraid to stand here talking to you!"
+	text "Yes, that protective magic is a blessing.  Did you know that Enid cast that wonderful spell for my great, great, great grandfather?  He must have done something real nice for her to do that for him."
+end
+
+topic "Can I do anything for you?"
+	text "Nope, nothing I can think of right now.  Thanks for asking!"
+end

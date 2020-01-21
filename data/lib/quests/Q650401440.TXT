@@ -1,0 +1,16 @@
+quest  175 #6504-01-440        # Astrid, Good Grub Grocers, Leinster West, 6046
+
+name  "Delivery for Astrid"
+type  fedex
+
+proposal  "No doubt she importuned you so she would not have to leave her store.  She is becoming a bit fanatical about that.  At any rate, her lunch is ready.  Since you're here, will you take it?"
+
+declined  "I cannot blame you."
+
+accepted  "Take it, then."
+
+reminder   "You still have Andrea's lunch, you know."
+
+reward   qAndreaLunch 
+end
+

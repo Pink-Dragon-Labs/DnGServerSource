@@ -1,0 +1,53 @@
+id 6905
+
+banner "Welcome to Northlander Weaponry. I am Nattan, the owner. How may I help you?"
+
+topic "Tell me about Asgard."
+   text "I know a great deal, for my family has been forging weapons here since the time of the northern invasions."
+	text "No matter how powerful the weaponry at that time, the inhabitants were no match for the aggressors." 
+	text "Over the years, the weaponry has stayed much the same, but the inhabitants have gotten stronger." 
+	text "Today, Asgarders are strong and fierce. It would be difficult to vanquish us."
+end
+
+topic "Have you heard any interesting rumors?"
+   text "I have heard that the god Finvarra favors Asgard over all other towns in The Realm."
+	text "There are those who say the gods plan more smitings.  I hope that is merely more mouthings.  Rumors usually are wrong.  I hope this one is."
+end      
+
+topic "Can I do anything for you?"
+    text "Not this day, but perhaps another."
+end
+
+topic  "Is Troels' carving knife ready?" q158:0 #q6403-01-530:0
+	quest 159 #6403-01-535
+	text  "You already picked it up for him."
+end
+
+topic  "I want to learn the ways of war." c5:5
+	banner  "If skills with the club are what you want, I can teach you.  You've got to be an expert already, though.  I'll only teach you master and grand-master skills." 
+
+	topic  "How do I get to be an expert with the club?" c5:3
+		text  "Buy the skill books and practice.  Asgard doesn't have a good book store, but you could go over to The School of Hard Knocks in Caer Fandry."
+	end
+	
+	topic  "I am interested in club master skills."  s5:3  
+		quest 261 #6905-01-400
+		text "You've already got the skill book.  Surely you realize that to gain the skills you must study diligently."
+	end
+
+	topic  "I am interested in club grand-master skills."  s5:4  
+		quest 266 #6905-01-500
+		text "I'm disappointed in you.  To gain the grand master skills you must study the skill book you already have."
+	end
+
+	topic  "What else can you teach me?"  s5:5
+		text  "The club is my special weapon.  I stick to that.  If you'd like to improve your movements in combat, dodging and all that, there's an elf in Silverbrook who can help you."
+		text  "You haven't finished mastering your club skill yet."
+	end
+end
+
+topic  "Sandor sent me." q391:0 #q80500-01-500:0
+	quest  392 #80500-01-525
+	text  "You took the package.  This is serious business you're doing."
+end
+

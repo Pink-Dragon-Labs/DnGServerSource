@@ -1,0 +1,19 @@
+quest  376 #80001-01-425        # Lari, Food Emporium, Monmouth, 6303
+
+name  "Dried Lavender"
+type  fedex
+
+proposal  "Indeed I do.  Just take a whiff from this container.  My customers who love coffee insist these are the very best.  Even those who do not like coffee enjoy this aroma.  You're here for a sack of these beans, I take it.  I'll pack them up, but I would like to ask a favor of you. I'll give you the beans in exchange.  Would you go to my cousin, Fenia, and fetch some lavender she has for me?"  
+
+declined  "It's not really that far."
+
+accepted  "She is quite a gardener, my cousin, and she dried some of her lavender for me."
+
+reminder   "Fenia is also the local healer, and she has some dried lavender for me."
+
+completed  "The lavender aroma is as pleasant as the vanilla beans, isn't it?  Thanks, friend, and here are the coffee beans."
+
+getItem   qLavender
+reward   qCoffeeBeans 
+end
+

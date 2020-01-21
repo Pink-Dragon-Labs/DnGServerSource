@@ -1,0 +1,41 @@
+id 6602
+
+banner "It's Dinnertime! I am Slug, your host."
+
+topic "Tell me about Caer Fandry."
+        text "Mistress Varno picked the site of the town. After she cut out her husband's heart! Hahaha!"
+	text "They say she still roams . . . Look out!!!!"
+	text "Ha Ha. Fooled you!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors? I don't believe in rumors, and neither should you!"
+	text "Especially the one that I serve orc innards!"
+	text "Or that I sneak in imp eyeballs and rat leavings!"
+	text "Maybe you'd like to order something, now. Hmmm."
+end      
+
+topic "Can I do anything for you?"
+        text "You? Hahahaha!"
+end
+
+topic  "I'm looking for a vial of Loch Dread Water, a vial of cobra venom and a cobra skin. " q312:0 #q8111-01-300:0
+	quest 313 #8111-01-325
+	text  "I packaged up all three of them and gave them to you.  What do you take me for?"
+end
+
+topic  "Szumi wants her pouch." q314:0 #q8111-01-330:0
+	quest 315 #8111-01-335
+	text  "I already gave you the pouch for Szumi."
+end
+
+topic  "Have you any beef jerky?" q223:0 #q6815-01-225:0
+	quest 224 #6815-01-230
+	text  "You took it already."
+end
+
+topic  "I'm looking for some beef jerky." q69:0 #q6102-01-530:0
+	quest 70 #6102-01-535
+	text  "You got one package, and that's it."
+end
+

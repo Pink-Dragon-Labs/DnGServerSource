@@ -1,0 +1,10 @@
+name "caerfawdry"
+title "Caer Fandry"
+worldFile "../data/lib/world/CAERFX.WLD"
+worldFile "../data/lib/world/CAERINT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 10
+midiFile 23
+monster Mouse 10

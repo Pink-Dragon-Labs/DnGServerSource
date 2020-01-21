@@ -1,0 +1,19 @@
+quest  63 #6102-01-430        # Bijou, The Usk Boutique, healer, Usk, giant
+
+name  "Bijou Hates Rats"
+type  fedex
+
+proposal  "Giants with headaches are not a pretty sight.  I've got a remedy that has been working around here.  I'll wrap it up for you if you'll go do a small errand for me.  Will you?"
+
+declined  "Bother."
+
+accepted  "Somebody in Leinster has developed a potent deterrent against rats.  I despise rats.  Would you get me some."
+
+reminder   "Find some rat deterrent in Leinster."
+
+completed  "I hope this works.  I hate rats.  Here's the headache remedy you wanted."
+
+getItem   qRatDeterrent
+reward   qFrickHeadMed 
+end
+

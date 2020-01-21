@@ -1,0 +1,146 @@
+# Dungeonmaker World File (Rend01b.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 94010
+# Dungeon last room = 94019
+# Number of objects in dungeon = 6
+# Level 0 information:
+room 94015
+	properties
+		template 32301
+		east 94012
+		flags	0
+	end
+	objects
+		object Sign-94015-0 of Sign
+			properties
+				x	463
+				y	214
+				loop	0
+			end
+			base described
+				text	"Welcome to the Rendezvous, an open dungeon with areas for explorers from 50 to 500 and, at the end, rewards worthy of a king."
+			end
+		end
+		object DungeonBackUp-94015-1 of DungeonBackUp
+			properties
+				x	314
+				y	231
+				loop	0
+				linkTo	trapDoor6608-2
+				enchantResistance 100
+			end
+			base described
+			end
+		end
+	end
+end
+room 94012
+	properties
+		template 30906
+		east 94010
+		west 94015
+		flags	0
+	end
+end
+room 94010
+	properties
+		template 31102
+		south 94013
+		east 94011
+		west 94012
+		flags	0
+	end
+end
+room 94011
+	properties
+		template 30906
+		east 94014
+		west 94010
+		flags	0
+	end
+end
+room 94014
+	properties
+		template 30701
+		west 94011
+		flags	0
+	end
+	objects
+		object Sign-94014-0 of Sign
+			properties
+				x	174
+				y	227
+				loop	0
+			end
+			base described
+				text	"Welcome to the Rendezvous, an open dungeon with areas for explorers from 50 to 500 and, at the end, rewards worthy of a king."
+			end
+		end
+		object DungeonBackUp-94014-1 of DungeonBackUp
+			properties
+				x	327
+				y	209
+				loop	2
+				linkTo	trapDoor8111-3
+				enchantResistance 100
+			end
+			base described
+			end
+		end
+	end
+end
+room 94013
+	properties
+		template 31003
+		south 94016
+		north 94010
+		flags	0
+	end
+end
+room 94016
+	properties
+		template 31001
+		south 94017
+		north 94013
+		flags	0
+	end
+end
+room 94017
+	properties
+		template 31003
+		south 94018
+		north 94016
+		flags	0
+	end
+end
+room 94018
+	properties
+		template 30401
+		north 94017
+		flags	0
+	end
+	objects
+		object Sign-94018-0 of Sign
+			properties
+				x	487
+				y	246
+				loop	0
+			end
+			base described
+				text	"Enter the Waiting Rooms. Enjoy the company of fellow explorers as you wait your turn for a chance at the treasure."
+			end
+		end
+		object DungeonBackDoor-94018-1 of DungeonBackDoor
+			properties
+				x	573
+				y	253
+				loop	1
+				linkTo	DungeonBackDoor-26262-0
+				enchantResistance 100
+			end
+			base described
+			end
+		end
+	end
+end

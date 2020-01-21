@@ -1,0 +1,2168 @@
+# Dungeonmaker World File (DNG9.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 74000
+# Dungeon last room = 74288
+# Number of objects in dungeon = 178
+# Level 0 information:
+room 74055
+	properties
+		template 30501
+		south 74054
+		east 74228
+		flags	72
+	end
+	objects
+		object OgreChief-74055-0 of OgreChief
+			properties
+				x	324
+				y	273
+				loop	2
+				color	792
+			end
+			base character
+				properName	"Gukag"
+				title	"the Ogre King"
+			end
+		end
+		object UglyOgre-74055-1 of UglyOgre
+			properties
+				x	494
+				y	311
+				loop	1
+				color	794
+			end
+			base character
+			end
+		end
+		object UglyOgre-74055-2 of UglyOgre
+			properties
+				x	173
+				y	307
+				loop	0
+				color	794
+			end
+			base character
+			end
+		end
+		object Torch-74055-3 of Torch
+			properties
+				x	205
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-74055-4 of Chair
+			properties
+				x	323
+				y	257
+				loop	2
+			end
+			base described
+			end
+		end
+		object Stool-74055-5 of Stool
+			properties
+				x	113
+				y	294
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stool-74055-6 of Stool
+			properties
+				x	555
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fountain-74055-7 of Fountain
+			properties
+				x	175
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object WolfPelt-74055-8 of WolfPelt
+			properties
+				x	144
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object WolfPelt-74055-9 of WolfPelt
+			properties
+				x	541
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object WhiteWolfPelt-74055-10 of WhiteWolfPelt
+			properties
+				x	330
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74228
+	properties
+		template 30201
+		west 74055
+		flags	0
+	end
+	objects
+		object Chest-74228-0 of Chest
+			properties
+				x	347
+				y	277
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomRing-74228-1 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-74228-2 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-74228-3 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-74228-4 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-74228-5 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-74228-6 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-74228-7 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74228-8 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74228-9 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74228-10 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74228-11 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomShirt-74228-12 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-74228-13 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-74228-14 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomBand-74228-15 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-74228-16 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-74228-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74227
+	properties
+		template 32301
+		east 74226
+		flags	0
+	end
+	objects
+		object RandomMaterial-74227-0 of RandomMaterial
+			properties
+				x	331
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-1 of RandomMaterial
+			properties
+				x	412
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-2 of RandomMaterial
+			properties
+				x	444
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-3 of RandomMaterial
+			properties
+				x	451
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-4 of RandomMaterial
+			properties
+				x	478
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-5 of RandomMaterial
+			properties
+				x	528
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-6 of RandomMaterial
+			properties
+				x	369
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74227-7 of RandomMaterial
+			properties
+				x	488
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-74227-8 of RandomWeapon
+			properties
+				x	386
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-74227-9 of RandomWeapon
+			properties
+				x	402
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-74227-10 of RandomArmorShirt
+			properties
+				x	446
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-74227-11 of RandomArmorPants
+			properties
+				x	471
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74226
+	properties
+		template 30201
+		west 74227
+		flags	136
+	end
+	objects
+		object UglyOgre-74226-0 of UglyOgre
+			properties
+				x	129
+				y	279
+				loop	0
+				color	794
+			end
+			base character
+			end
+		end
+		object UglyOgre-74226-1 of UglyOgre
+			properties
+				x	89
+				y	268
+				loop	0
+				color	794
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-74226-2 of DungeonBackUp
+			properties
+				x	394
+				y	249
+				loop	1
+				linkTo	DungeonBackDoor-74018-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 74054
+	properties
+		template 31006
+		south 74053
+		north 74055
+		flags	0
+	end
+	objects
+		object Torch-74054-0 of Torch
+			properties
+				x	234
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-74054-1 of Torch
+			properties
+				x	404
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fountain-74054-2 of Fountain
+			properties
+				x	315
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-74054-3 of Spring
+			properties
+				x	338
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74053
+	properties
+		template 31003
+		south 74052
+		north 74054
+		flags	24
+	end
+	objects
+		object UglyOgre-74053-0 of UglyOgre
+			properties
+				x	252
+				y	302
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object UglyOgre-74053-1 of UglyOgre
+			properties
+				x	485
+				y	300
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object UglyOgre-74053-2 of UglyOgre
+			properties
+				x	323
+				y	279
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object Torch-74053-3 of Torch
+			properties
+				x	212
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-74053-4 of Torch
+			properties
+				x	378
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-74053-5 of Sign
+			properties
+				x	399
+				y	264
+				loop	0
+			end
+			base described
+				text	"You not listen very well."
+			end
+		end
+	end
+end
+room 74052
+	properties
+		template 30402
+		south 74051
+		north 74053
+		flags	0
+	end
+	objects
+		object Torch-74052-0 of Torch
+			properties
+				x	214
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-74052-1 of Torch
+			properties
+				x	372
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74050
+	properties
+		template 30302
+		south 74049
+		flags	8
+	end
+	objects
+		object OgreChild-74050-0 of OgreChild
+			properties
+				x	173
+				y	271
+				loop	2
+				color	24
+			end
+			base character
+			end
+		end
+		object OgreMage-74050-1 of OgreMage
+			properties
+				x	404
+				y	295
+				loop	2
+				color	793
+			end
+			base character
+			end
+		end
+		object UglyOgre-74050-2 of UglyOgre
+			properties
+				x	294
+				y	279
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object Torch-74050-3 of Torch
+			properties
+				x	471
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74017
+	properties
+		template 30305
+		south 74016
+		flags	8
+	end
+	objects
+		object PlagueRat-74017-0 of PlagueRat
+			properties
+				x	404
+				y	310
+				loop	1
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-74017-1 of PlagueRat
+			properties
+				x	143
+				y	306
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object SwampRat-74017-2 of SwampRat
+			properties
+				x	330
+				y	290
+				loop	2
+				color	47
+			end
+			base character
+			end
+		end
+		object CaveRat-74017-3 of CaveRat
+			properties
+				x	252
+				y	302
+				loop	2
+				color	808
+			end
+			base character
+			end
+		end
+		object Column-74017-4 of Column
+			properties
+				x	368
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-74017-5 of FatColumn
+			properties
+				x	174
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74051
+	properties
+		template 31004
+		south 74019
+		north 74052
+		flags	0
+	end
+	objects
+		object StoneBench-74051-0 of StoneBench
+			properties
+				x	190
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-74051-1 of Torch
+			properties
+				x	387
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-74051-2 of Sign
+			properties
+				x	371
+				y	257
+				loop	0
+			end
+			base described
+				text	"Cheif be busy. No disturb."
+			end
+		end
+	end
+end
+room 74049
+	properties
+		template 30402
+		south 74025
+		north 74050
+		flags	0
+	end
+end
+room 74016
+	properties
+		template 31402
+		south 74013
+		east 74018
+		north 74017
+		flags	0
+	end
+	objects
+		object Torch-74016-0 of Torch
+			properties
+				x	114
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74018
+	properties
+		template 30901
+		east 74019
+		west 74016
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-74018-0 of DungeonBackDoor
+			properties
+				x	562
+				y	230
+				loop	2
+				linkTo	DungeonBackUp-74226-2
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object Sign-74018-1 of Sign
+			properties
+				x	469
+				y	250
+				loop	0
+			end
+			base described
+				text	"Storge rum.  You no enter."
+			end
+		end
+	end
+end
+room 74019
+	properties
+		template 32102
+		east 74020
+		west 74018
+		north 74051
+		flags	0
+	end
+	objects
+		object CaveRat-74019-0 of CaveRat
+			properties
+				x	164
+				y	287
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object Torch-74019-1 of Torch
+			properties
+				x	290
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74020
+	properties
+		template 30906
+		east 74025
+		west 74019
+		flags	0
+	end
+end
+room 74025
+	properties
+		template 31503
+		south 74027
+		east 74026
+		west 74020
+		north 74049
+		flags	8
+	end
+	objects
+		object OgreMage-74025-0 of OgreMage
+			properties
+				x	253
+				y	266
+				loop	2
+				color	793
+			end
+			base character
+			end
+		end
+		object AlphaWolf-74025-1 of AlphaWolf
+			properties
+				x	176
+				y	258
+				loop	2
+				color	1538
+			end
+			base character
+			end
+		end
+		object FatColumn-74025-2 of FatColumn
+			properties
+				x	297
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74026
+	properties
+		template 30201
+		west 74025
+		flags	0
+	end
+	objects
+		object PlagueRat-74026-0 of PlagueRat
+			properties
+				x	396
+				y	285
+				loop	1
+				color	82
+			end
+			base character
+			end
+		end
+		object Stalagmite2-74026-1 of Stalagmite2
+			properties
+				x	219
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74015
+	properties
+		template 32301
+		east 74014
+		flags	0
+	end
+	objects
+		object Ogre-74015-0 of Ogre
+			properties
+				x	461
+				y	263
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Skull-74015-1 of Skull
+			properties
+				x	86
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-74015-2 of Web1
+			properties
+				x	77
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-74015-3 of Web2
+			properties
+				x	104
+				y	305
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-74015-4 of Web3
+			properties
+				x	149
+				y	306
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74015-5 of RandomMaterial
+			properties
+				x	314
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74014
+	properties
+		template 32403
+		east 74013
+		west 74015
+		flags	0
+	end
+	objects
+		object Torch-74014-0 of Torch
+			properties
+				x	430
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-74014-1 of RandomWeapon
+			properties
+				x	544
+				y	118
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74013
+	properties
+		template 30704
+		south 74012
+		west 74014
+		north 74016
+		flags	0
+	end
+	objects
+		object Shroom3-74013-0 of Shroom3
+			properties
+				x	460
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-74013-1 of Shroom1
+			properties
+				x	483
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74027
+	properties
+		template 31004
+		south 74024
+		north 74025
+		flags	0
+	end
+end
+room 74012
+	properties
+		template 30402
+		south 74011
+		north 74013
+		flags	0
+	end
+end
+room 74022
+	properties
+		template 30501
+		south 74021
+		east 74023
+		flags	0
+	end
+	objects
+		object UglyOgre-74022-0 of UglyOgre
+			properties
+				x	308
+				y	304
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+	end
+end
+room 74023
+	properties
+		template 30906
+		east 74024
+		west 74022
+		flags	0
+	end
+end
+room 74024
+	properties
+		template 32202
+		east 74028
+		west 74023
+		north 74027
+		flags	24
+	end
+	objects
+		object UglyOgre-74024-0 of UglyOgre
+			properties
+				x	359
+				y	240
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object OgreMage-74024-1 of OgreMage
+			properties
+				x	347
+				y	216
+				loop	2
+				color	793
+			end
+			base character
+			end
+		end
+		object Torch-74024-2 of Torch
+			properties
+				x	106
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74028
+	properties
+		template 31104
+		south 74029
+		west 74024
+		flags	0
+	end
+end
+room 74011
+	properties
+		template 31004
+		south 74003
+		north 74012
+		flags	16
+	end
+	objects
+		object UglyOgre-74011-0 of UglyOgre
+			properties
+				x	273
+				y	277
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+	end
+end
+room 74021
+	properties
+		template 30402
+		south 74004
+		north 74022
+		flags	0
+	end
+	objects
+		object Torch-74021-0 of Torch
+			properties
+				x	155
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74029
+	properties
+		template 31003
+		south 74030
+		north 74028
+		flags	0
+	end
+end
+room 74048
+	properties
+		template 30302
+		south 74047
+		flags	8
+	end
+	objects
+		object UglyOgre-74048-0 of UglyOgre
+			properties
+				x	336
+				y	307
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object OgreChild-74048-1 of OgreChild
+			properties
+				x	488
+				y	291
+				loop	2
+				color	24
+			end
+			base character
+			end
+		end
+		object OgreChild-74048-2 of OgreChild
+			properties
+				x	171
+				y	272
+				loop	2
+				color	24
+			end
+			base character
+			end
+		end
+		object Torch-74048-3 of Torch
+			properties
+				x	107
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-74048-4 of RandomJunk
+			properties
+				x	245
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-74048-5 of RandomJunk
+			properties
+				x	437
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-74048-6 of RandomJunk
+			properties
+				x	81
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-74048-7 of RandomWeapon
+			properties
+				x	222
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74005
+	properties
+		template 30102
+		south 74006
+		east 74003
+		flags	8
+	end
+	objects
+		object screechingHorror-74005-0 of screechingHorror
+			properties
+				x	274
+				y	309
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object vampireBat-74005-1 of vampireBat
+			properties
+				x	358
+				y	269
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-74005-2 of vampireBat
+			properties
+				x	187
+				y	263
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object Shroom1-74005-3 of Shroom1
+			properties
+				x	302
+				y	186
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74005-4 of Shroom3
+			properties
+				x	365
+				y	157
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-74005-5 of Shroom1
+			properties
+				x	241
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74005-6 of Shroom3
+			properties
+				x	201
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74003
+	properties
+		template 32201
+		east 74002
+		west 74005
+		north 74011
+		flags	0
+	end
+	objects
+		object Torch-74003-0 of Torch
+			properties
+				x	29
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74002
+	properties
+		template 30902
+		south 74001
+		east 74004
+		west 74003
+		flags	200
+	end
+	objects
+		object Ogre-74002-0 of Ogre
+			properties
+				x	455
+				y	306
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object Ogre-74002-1 of Ogre
+			properties
+				x	231
+				y	311
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object Sign-74002-2 of Sign
+			properties
+				x	311
+				y	253
+				loop	0
+			end
+			base described
+				text	"You still here? Not for long."
+			end
+		end
+	end
+end
+room 74004
+	properties
+		template 32202
+		east 74007
+		west 74002
+		north 74021
+		flags	0
+	end
+end
+room 74007
+	properties
+		template 31104
+		south 74008
+		west 74004
+		flags	0
+	end
+end
+room 74030
+	properties
+		template 31004
+		south 74031
+		north 74029
+		flags	8
+	end
+	objects
+		object OgreChild-74030-0 of OgreChild
+			properties
+				x	334
+				y	265
+				loop	0
+				color	24
+			end
+			base character
+			end
+		end
+		object Wolf-74030-1 of Wolf
+			properties
+				x	230
+				y	275
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-74030-2 of Torch
+			properties
+				x	386
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74047
+	properties
+		template 31003
+		south 74046
+		north 74048
+		flags	0
+	end
+end
+room 74010
+	properties
+		template 30805
+		east 74009
+		flags	8
+	end
+	objects
+		object Ogre-74010-0 of Ogre
+			properties
+				x	311
+				y	259
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Ogre-74010-1 of Ogre
+			properties
+				x	197
+				y	270
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 74009
+	properties
+		template 32403
+		east 74006
+		west 74010
+		flags	0
+	end
+	objects
+		object Torch-74009-0 of Torch
+			properties
+				x	438
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74006
+	properties
+		template 32602
+		west 74009
+		north 74005
+		flags	0
+	end
+	objects
+		object OgreMage-74006-0 of OgreMage
+			properties
+				x	264
+				y	264
+				loop	3
+				color	793
+			end
+			base character
+			end
+		end
+	end
+end
+room 74001
+	properties
+		template 31003
+		south 74000
+		north 74002
+		flags	0
+	end
+	objects
+		object Torch-74001-0 of Torch
+			properties
+				x	555
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-74001-1 of Sign
+			properties
+				x	393
+				y	259
+				loop	0
+			end
+			base described
+				text	"Me warned you!  You go away now."
+			end
+		end
+	end
+end
+room 74008
+	properties
+		template 31004
+		south 74034
+		north 74007
+		flags	0
+	end
+	objects
+		object CaveRat-74008-0 of CaveRat
+			properties
+				x	180
+				y	257
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 74032
+	properties
+		template 32301
+		east 74031
+		flags	0
+	end
+	objects
+		object Stalagmite1-74032-0 of Stalagmite1
+			properties
+				x	86
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-74032-1 of Column
+			properties
+				x	74
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74032-2 of Shroom3
+			properties
+				x	300
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-74032-3 of Shroom2
+			properties
+				x	271
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-74032-4 of Shroom1
+			properties
+				x	298
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74032-5 of RandomStuff
+			properties
+				x	317
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74031
+	properties
+		template 31007
+		south 74041
+		east 74033
+		west 74032
+		north 74030
+		flags	0
+	end
+	objects
+		object CaveRat-74031-0 of CaveRat
+			properties
+				x	183
+				y	218
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 74033
+	properties
+		template 31301
+		east 74046
+		west 74031
+		flags	0
+	end
+	objects
+		object Torch-74033-0 of Torch
+			properties
+				x	88
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-74033-1 of Sign
+			properties
+				x	226
+				y	232
+				loop	0
+			end
+			base described
+				text	"Nursry"
+			end
+		end
+	end
+end
+room 74046
+	properties
+		template 31303
+		west 74033
+		north 74047
+		flags	0
+	end
+	objects
+		object CaveRat-74046-0 of CaveRat
+			properties
+				x	467
+				y	281
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object RandomStuff-74046-1 of RandomStuff
+			properties
+				x	508
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74000
+	properties
+		template 30401
+		north 74001
+		flags	0
+	end
+	objects
+		object DungeonBackUp-74000-0 of DungeonBackUp
+			properties
+				x	447
+				y	246
+				loop	1
+				linkTo	movingRock12262-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-74000-1 of Sign
+			properties
+				x	241
+				y	243
+				loop	0
+			end
+			base described
+				text	"You go away or else."
+			end
+		end
+	end
+end
+room 74034
+	properties
+		template 30402
+		south 74035
+		north 74008
+		flags	0
+	end
+end
+room 74041
+	properties
+		template 30402
+		south 74040
+		north 74031
+		flags	0
+	end
+	objects
+		object CaveRat-74041-0 of CaveRat
+			properties
+				x	172
+				y	294
+				loop	2
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 74035
+	properties
+		template 31402
+		south 74036
+		east 74039
+		north 74034
+		flags	0
+	end
+	objects
+		object CaveRat-74035-0 of CaveRat
+			properties
+				x	330
+				y	244
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 74039
+	properties
+		template 30906
+		east 74040
+		west 74035
+		flags	0
+	end
+end
+room 74040
+	properties
+		template 32201
+		east 74042
+		west 74039
+		north 74041
+		flags	0
+	end
+	objects
+		object Torch-74040-0 of Torch
+			properties
+				x	606
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-74040-1 of Web3
+			properties
+				x	439
+				y	170
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74042
+	properties
+		template 30906
+		east 74043
+		west 74040
+		flags	0
+	end
+	objects
+		object SmokeA-74042-0 of SmokeA
+			properties
+				x	565
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74043
+	properties
+		template 32401
+		south 74045
+		east 74044
+		west 74042
+		flags	0
+	end
+	objects
+		object Torch-74043-0 of Torch
+			properties
+				x	213
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-74043-1 of SmokeA
+			properties
+				x	75
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-74043-2 of SmokeA
+			properties
+				x	454
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74044
+	properties
+		template 30201
+		west 74043
+		flags	0
+	end
+	objects
+		object SmokeA-74044-0 of SmokeA
+			properties
+				x	330
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74037
+	properties
+		template 30102
+		south 74038
+		east 74036
+		flags	8
+	end
+	objects
+		object RandomCritter-74037-0 of RandomCritter
+			properties
+				x	387
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCritter-74037-1 of RandomCritter
+			properties
+				x	237
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-74037-2 of Torch
+			properties
+				x	147
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-74037-3 of Web1
+			properties
+				x	259
+				y	76
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-74037-4 of Web2
+			properties
+				x	286
+				y	76
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-74037-5 of Web3
+			properties
+				x	331
+				y	76
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-74037-6 of Web4
+			properties
+				x	377
+				y	147
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-74037-7 of Web5
+			properties
+				x	314
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-74037-8 of Web6
+			properties
+				x	250
+				y	189
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web7-74037-9 of Web7
+			properties
+				x	206
+				y	141
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74036
+	properties
+		template 32502
+		west 74037
+		north 74035
+		flags	0
+	end
+end
+room 74045
+	properties
+		template 32304
+		north 74043
+		flags	0
+	end
+	objects
+		object SmokeA-74045-0 of SmokeA
+			properties
+				x	35
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-74045-1 of SmokeA
+			properties
+				x	467
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74038
+	properties
+		template 30403
+		north 74037
+		flags	0
+	end
+	objects
+		object UglyOgre-74038-0 of UglyOgre
+			properties
+				x	274
+				y	273
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object Spring-74038-1 of Spring
+			properties
+				x	607
+				y	360
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-74038-2 of Spring
+			properties
+				x	659
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74038-3 of RandomStuff
+			properties
+				x	180
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBand-74038-4 of RandomBand
+			properties
+				x	358
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShield-74038-5 of RandomShield
+			properties
+				x	338
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74038-6 of RandomMaterial
+			properties
+				x	258
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74038-7 of RandomMaterial
+			properties
+				x	217
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

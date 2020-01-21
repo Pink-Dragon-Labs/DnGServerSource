@@ -1,0 +1,18 @@
+id 6506
+
+banner "Welcome to the House of Eleni.  I, myself, am Eleni.  Let me show you my specialities."
+
+topic "Tell me about Guennor."
+        text "To live in Guennor you will need a warm wardrobe.  Very warm.  We have cold weather, oh so cold.  But the warm clothes, they keep you snug."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Oh my yes.  Rumors, they fly around here.  When the cold is very bad, people meet to eat and talk, talk, talk.  Lots of talk."
+	text "One traveler tells of a monastery somewhere in the Crystal Hills.  Very mysterious, but a blessing from those monks is quite a good thing.  Me, I've never been there. I only know what I hear."
+	text "There is another city to avoid.  It is bad.  Ach, so very, very bad.  The name will come to me.  Ah, yes.  Kurz.  A place to stay away from, this Kurz."
+end      
+
+topic "Can I do anything for you?"
+        text "No, no, nothing for me.  But I can do something for you when you want the good clothes, yes?"
+end
+

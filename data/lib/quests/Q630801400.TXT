@@ -1,0 +1,18 @@
+quest 110 #6308-01-400  #(Wirkkala, Magical Monmouth, 6308)
+
+name  "Carved Salt Crystal"
+type  fedex
+
+proposal  "Welcome, Apprentice.  I see you're ready to learn Elementalist Mastery.  Excellent work so far.  I want you to bring me a Carved Salt Crystal.  Will you take on this quest?"
+
+declined  "It's your decision."
+
+accepted  "You'll find one somewhere in Murias.  Sorry I can't be more specific.  That's all I know.
+
+reminder  "A Carved Salt Crystal from somewhere in Murias.  That's what you're after."
+
+completed  "Great work, Apprentice.   And here's the spellbook for you, Elementalism Mastery.  Good luck." 
+
+getItem  qCarvedSalt
+reward  skbElementalismIV
+end

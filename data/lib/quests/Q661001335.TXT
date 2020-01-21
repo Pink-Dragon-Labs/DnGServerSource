@@ -1,0 +1,16 @@
+quest  189 #6610-01-335        # Fenia, To Your Health, Monmouth, 6309
+
+name  "Fenia's Seed"
+type  fedex
+
+proposal  "I hope these will grow for Lari.  I find it so easy to grow beautiful flowers, but some people have trouble.  I don't really understand why.  I do understand health, though, and you look well, friend.  I perceive you travel a lot. The exercise is good for you.  Here are the seeds.  You'll take them back to her?"
+
+declined  "I'll run over there later."
+
+accepted  "Good.  Give her my greetings."
+
+reminder   "Are you going to take that seed to Lari soon?"
+
+reward   qFlowerSeed 
+end
+

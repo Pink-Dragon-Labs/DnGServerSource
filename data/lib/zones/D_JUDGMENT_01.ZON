@@ -1,0 +1,28 @@
+name "Judgment"
+title "Judgment of the Scepter"
+worldFile "../data/lib/world/D_JUDGMENT_01.WLD"
+allowCombat 3
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock1243-1
+noAlignmentChange
+noTreasureDrop
+ambushInterval 90
+ambush 100 BountyHunterB
+ambush 100 BountyHunterB BountyHunterB
+ambush 100 BountyHunterB BountyHunterB BountyHunterB
+ambush 100 BountyHunterB BountyHunterB BountyHunterB BountyHunterB
+ambush 100 BountyHunterB BountyHunterB BountyHunterB BountyHunterB BountyHunterB
+ambush 100 TrollElementalist
+ambush 100 BloodFenris TrollElementalist
+ambush 100 BloodFenris TrollElementalist TrollElementalist
+ambush 100 BloodFenris BloodFenris
+ambush 100 BloodFenris BloodFenris TrollElementalist TrollElementalist
+ambush 50 PlagueRat PlagueRat 
+ambush 50 PlagueRat PlagueRat PlagueRat 
+ambush 50 PlagueRat PlagueRat PlagueRat Shade Shade
+ambush 10 Fury 
+ambush 10 Fury Fury
+ambush 10 Fury Fury TrollSorcerer TrollSorcerer
+

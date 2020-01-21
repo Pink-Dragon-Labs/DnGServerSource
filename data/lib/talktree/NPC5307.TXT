@@ -1,0 +1,26 @@
+id 5307
+
+banner "Hello, Stranger. I'm Upa. Welcome to my cafe al fresco." 
+
+topic "Tell me about Monmouth."
+        text "Monmouth? An ancient town, extending back into the mists of time."
+	text "Many of us worship the old gods and goddesses. We're a very pious town."
+	text "I worship Mabon myself."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that some of the old gods were very bloodthirsty."
+	text "Some of the contemporary gods are pretty ruthless.  Did you hear what happened at Leinster?"
+	text "The stories are a little confused, but it's a fact the center of town is destroyed. What I hear is that a couple of gods did it in a fight.  I cannot imagine such a thing."
+  
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, but call again."
+end
+
+topic  "Is Lalana's lunch ready?" q378:0 #q80001-01-435:0
+	quest 379 #80001-01-440
+	text  "Don't be silly.  You know you picked it up."
+end
+

@@ -1,0 +1,79 @@
+id 9058
+#--------------- 9058 4511 wild3 female giant Zaliki
+
+banner "WHATCHA WANNA BUY?\nI GOTS THE BESTEST POTIONS.\nYOU BE WANT'N POTIONS?"
+
+topic "Why are you shouting?"
+    banner "WHAT AM I SPOUT'N? I AIN'T SPOUT'N NOTH'N! WHAT YOU TALK'N 'BOUT?\nYOU EVEN KNOW WHAT YOU BE TALK'N 'BOUT?"
+	topic "Of course I know"
+		topic "I asked why you are shouting."
+			banner "SHOUTING?\nI BE SHOUTING?"
+			topic "Yes. You are shouting."
+		    	text "Sorry 'bout that. I don't hear so good."
+		    	text "It be the ring'n in me ears."
+			end
+			topic "Why can't you hear well?"
+				banner "HER WELL?\nWHO HER?\nSHE SICK?\nI GOTS SOME REALLY GOOD POTIONS.\nMADE 'EM MESELF!\nFIX HER RIGHT UP THEY WILL."
+				topic "Hear! Why can't you h-e-a-r?"
+					text "OH! HEAR!\nWHY DIDN'T YOU SAY SO?"
+			    	text "'SPLOSION."
+			    	text "BIG 'SPLOSION!"
+			    	text "BOOM!"
+			    	text "HURT ME EARS."
+				end
+				topic "No thank you. I don't need any potions."
+					text "YOU SURE?\nI MAKE 'EM REAL GOOD."
+			    	text "SOME FOLKS THINK GIANTS CAN'T DO MAGIC GOOD."
+			    	text "BUT I'M REAL GOOD.\nI MAKE POWERFULIST POTIONS."
+			    	text "SOMETIMES THEY GO BOOM BUT THAT'S JUST CUZ THEY THE MOST POWERFULIST."
+			    	text "YOU BE WANT'N POTIONS?"
+				end
+			end
+		end
+		topic "Nevermind."
+			    text "OH. I SEE.\nYOU WAS JUS' SPOUTIN' OFF.\nREAL FUNNY.\nNOW WHATCHA GONNA BUY?"
+		end
+	end
+	topic "Nevermind."
+		    text "NEVERMIND?\nAW RIGHT, BE THAT WAY.\nMAKES NO MATTER TO ME.\nWHATCHA GONNA BUY?"
+	end
+end
+
+topic "Who are you?"
+    banner "PARDON? WHAT'S THAT YOU SAY?
+		topic "Who are you?"
+    		text "WHO ARE YOU?\nTHAT WHAT YOU ASK'N?" 
+		    text "WHO ARE YOU!\nHOW SHOULD I KNOW WHO YOU ARE?\nYOU THINK YOU FAMOUS OR SUMTHIN THAT I SHOULD BE KNOW'N WHO YOU BE?"
+			text "People wander'n in here, not buy'n noth'n, don't even know the'r own name."
+		end
+		topic "What is your name?"
+			text "ME? MY NAME?"
+			text "GREAT DUACH!\nDON'T YOU EVEN KNOW WHERE YOU ARE?"
+			text "I AM ZALIKI!\nTHIS IS THE SHOP OF ZALIKI.\nIT'S RUN BY ME, ZALIKI, POTION MAKER EXTRA-BESTEST."
+			text "Strange folk, com'n in here, not buy'n noth'n, don't even know where'n they be."
+		end
+end
+
+topic "Why are you out here in the wilderness?"
+    text "HERE IN THE WILDERNESS?"
+    text "CUZ I'M TOO GOOD AT MAK'N POTIONS!"
+    text "PEOPLE BE JEALOUS OF ME SEE?\nSO THEY DON'T BE WANT'N ME AROUND.\nON ACCOUNT OF ME POTIONS ARE SO POWERFULIST.\nTHAT BE WHY THEY SOMETIMES GO BOOM, CUZ THEY SO POWERFULIST."
+	text "BUT THEM TOWN FOLK, THEY NOT UNDERSTAND.\nTHEY AFEARED OF THE POWERFULNESS OF ME POTIONS."
+	text "SO, AFTERS ME HOUSE WAS WRECKED IN A 'SPLOSION THEY DIDN'T WANT ME NO MORE IN USK."
+	text "SO'S I MOVED TO DRUNE. BUT THEM LITTLE ELFS THINK ONLY THEY BE GOOD AT MAGIC, SO WHENS ME HOUSE THERE BLEW UP I HAD TO LEAVE."
+	text "WEN WEREN'T NO BETTER. I MADE ME SOME REAL GOOD POTIONS THERE. SO THEY CHASED ME OUTTA TOWN."
+	text "SO'S I FIGURED MURIAS WAS THE PLACE FER ME, CUZ THEY GOTS TWO MAGIC SHOPS THERE YA SEE. BUT, NO, THEY WAS MORE JEALOUS THAN ANY 'O THE OTHERS."
+	text "TOWNS FOLK DON'T LIKE HOW POWERFULIST ME POTIONS BE. SO'S I GOTS ME THIS TENT AND MOVED OUT HERE FIGURE'N THE BRAVE DAEMON HUNTERS WOULD'N BE AFEARED OF ME POWERFULIST POTIONS CUZ THEY BE NEEDED THE MOST POWERFULIST POTIONS FOR KILL'N THEM DAEMONS."
+	text "YOU A DAEMON HUNTER?\nYOU SHOULD TRY ME POTIONS."
+	text "NOW WHATCHA GONNA BUY? OR DO YOU THINK YOU CAN STAND HERE ALL DAY TAK'N UP ME TIME?"
+end
+
+topic "Tell me about the Wild Beyond?"
+    text "THE WHILE BE GONE?"
+    text "THE WHILE BE GONE?\nOH...THE WORLD BE GONE!"
+    text "THE WORLD BE GONE!?"
+    text "HEY, I AIN'T MADE NO POTIONS T'DAY!"
+    text "IF'N THE WORLD BLEWED UP IT WASN'T CUZ OF ME POTIONS ON ACCOUNT OF I WEREN'T EVEN MAK'N ANY."
+    text "NOT T'DAY ANYWAYS."
+    text "MEBBE YOU BEST JUST BE GET'N THE POTIONS YOU BE NEED'N AND GET'N ON YOUR WAY."
+end 

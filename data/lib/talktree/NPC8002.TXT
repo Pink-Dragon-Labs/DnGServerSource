@@ -1,0 +1,31 @@
+id 8002
+
+banner "You've come to Kurz Mercantile. May I help you?"
+
+topic "Tell me about Kurz."
+        text "There's nothing much to tell. Kurz is a town of evil and of dark magic. Many here honor Elphame, and others honor Duach."
+	text "If you worship another god, I'd suggest you keep it to yourself."
+	text "My best advice is to keep all your thoughts to yourself."
+	text "I follow my own advice, and I've got nothing more to say."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that Duach got even with Despothes and his meddling by crushing Leinster."
+        text "It's said that none in Leinster survived Duach's wrath. Don't really know if that's so!"
+end      
+
+topic "Can I do anything for you?"
+        text "Not at the moment. Ask me another time."
+end
+
+topic  "I'm here for the receipt for Neela's tobac leaf." q116:0 #q6308-01-530:0
+	quest 117 #6308-01-535
+	text  "You've got it.  Don't try to con me."
+end
+
+topic  "I've come for the Good Grub Grocers order." q405:0 #q8100-01-535:0
+	quest 406 #8100-01-540
+	text  "Don't con me, chum.  You took it."
+end
+
+

@@ -1,0 +1,19 @@
+quest   335 #8307-01-400        #Wanda, Elven Enchantment, Drune, 8307
+
+name  "Strange Curio from the Downs"
+type  fedex
+
+proposal  "You display commendable sagacity in coming to me, for none can guide you better in this matter.  Achieving this level, ready for the Master spells of Meditation, demonstrates your acumen. I have a rather curious quest for you.  I've received word that a strange curio from the Downs turned up in Silverbrook.  It is my wish that you acquire it for me.  Will you attempt this?" 
+
+declined  "No?  Did you say no!"
+
+accepted  "Use discretion, but acquire that curio."
+
+reminder   "A strange curio from the Downs has turned up in Silverbrook."
+
+completed  "Well done.  In fact, very well done.  Accept the skillbook for Master level of Meditation."
+
+getItem   qDownsCurio
+reward   skbMeditationIV 
+end
+

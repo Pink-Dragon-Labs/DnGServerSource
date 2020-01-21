@@ -1,0 +1,40 @@
+name "ascetosdd"
+title "Ascetos Deep Desert"
+worldFile "../data/lib/world/ASCETS01.WLD"
+worldFile "../data/lib/world/ASCETS02.WLD"
+worldFile "../data/lib/world/ASCETS03.WLD"
+worldFile "../data/lib/world/ASCETS04.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 18
+# Ascetos Desert	Area 12		Player Level 500+	Alignment: Mixed	Monsters/Room: 4.96
+groupChance 500
+monster BigWasp 40
+monster EvilBee 25
+monster FireWasp 40
+monster StingingFury 40
+monster WaspHealer 50
+monster FlameDaemon 80
+monster DaemonKing 40
+monster Kilrog 95
+monster KingKilrog 90
+monster BabyDragon 120
+monster HellSnake 130
+monster KingCobra 130
+monster Berserker 50
+monster Servant 10
+monster EvilMinion 100
+monster Champion 100
+monster Protector 100
+
+ambushInterval 40
+ambush 10 EvilWizard EvilMinion EvilMinion 
+ambush 10 NeutralWizard Protector Protector 
+ambush 10 GoodWizard Champion Champion 
+ambush 10 EvilWizard EvilMinion EvilMinion EvilMinion 
+ambush 10 NeutralWizard Protector Protector Protector 
+ambush 10 GoodWizard Champion Champion Champion 
+ambush 10 KingKilrog Kilrog BabyDragon BabyDragon BabyDragon 
+ambush 10 Servant Servant
+ambush 10 BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon BabyDragon 

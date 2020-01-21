@@ -1,0 +1,19 @@
+quest  332 #8307-01-325        # Bijou, The Usk Boutique, general, Usk, 8113
+
+name  "Rattle of Snake"
+type  fedex
+
+proposal  "Certainly it's adequate information.  What makes you think it isn't?  The Torn Papyrus Fragments of Usk are of immense interest to historians.  We get many requests.   In point of fact, there are several such fragments and I happen to have access to one.  If you are interested in it, you'll have to scramble.  I've heard that some snakes near the desert have a tail apparatus that actually rattles.  I want to see it.  Will you attempt to get me one?" 
+
+declined  "It's your loss."
+
+accepted  "Good.  If you're here in time, you'll get the papyrus fragment."
+
+reminder   "I want the rattling apparatus from a snake."
+
+completed  "I'll be hornswoggled.  I thought that was just another tall tale.  Well, now, you've earned that papyrus fragment for sure."
+
+getItem   qSnakeRattle
+reward   qUskPapyrus 
+end
+

@@ -1,0 +1,45 @@
+id 6607
+
+banner "What a horrible outfit! You had better buy something from me!"
+
+topic "Tell me about Caer Fandry."
+        text "Here's a secret about Caer Fandry that you might not know. Ready?"
+	text "It's not safe to be in our town on the Night of the Dark Elf Shuffle."
+	text "But you'll never hear the date from a dark elf!"
+	text "Maybe you should just stay out of town after sundown."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that Bath is a nice place to be. Plenty of interesting goings-on there!"
+	text "There are too many rumors. Tales spread by idiots. I'm a reasonable dark elf, but how can anyone be reasonable surrounded by idiots."
+end      
+
+topic	"Is there anything you can tell me?"
+	text "I heard a limerick I could tell you."
+	text "The limerick packs laughs anatomical"
+	text "Into space that is quite economical"
+	text "But the good ones I've seen"
+	text "So seldom are clean,"
+	text "And the clean ones so seldom are comical!"
+	text "Fooled you, didn't I.  That one's kind of clever, don't you think.  Goes straight to the point, hey?"
+end
+
+topic "Can I do anything for you?"
+        text "Not today."
+end
+
+topic  "Misha sent me for her belt." q78:0 #q6205-01-325:0
+	quest 79 #6205-01-330
+	text  "I only made one belt for her, and you already took it."
+end
+
+topic  "I've come for Slug's shirt." q224:0 #q6815-01-230:0
+	quest 225 #6815-01-235
+	text  "I gave it to you, and good riddance."
+end
+
+topic  "I'm looking for an elven broach of birch leaves." q81000-01-425:0
+	quest 81000-01-430
+	text  "You already took it."
+end
+

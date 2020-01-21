@@ -1,0 +1,18 @@
+quest 245 #6902-01-225 #(Geezer, Potions, Monmouth, 6xxx)
+name  "Old Geezer's Coat"
+type  fedex
+
+proposal "Geezer's the name and potions' the game.  That's me motto.  By the looks of ye, however, ye be on a quest.  Mebbe it's fer this tooth and claw of an ancient bird.  Happens I got 'em in stock.  But a sturdy adventurer such as yerself could do me a favor.  Monmouth weather be cold at times, and a warm coat be waitin' at the garment shop.  Fetch it here and ye'll get yer bit of ancient bird." 
+
+declined  "Don't matter to me."
+
+accepted  "Scat and get me coat."
+
+reminder   "The garment shop, the garment shop.  Be ye addle-pated?  Fetch me coat."
+
+completed  "Me old bones be needin' this coat.  Thank'ee kindly.  Yer bird bits be in the packet."  
+
+getItem  qGiftCoat
+reward  qAncientBird
+end
+

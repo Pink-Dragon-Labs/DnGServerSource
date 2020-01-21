@@ -1,0 +1,1724 @@
+object CTCHorn
+	properties
+		name "Call to Conflict Horn"
+		view 59900
+		value 1000
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+	base dye
+	end
+	base carryable
+		weight 1.0
+	end
+	base described
+		text "You see a rugged ogre hunter’s horn.  The bearer of this horn answered the call for all brave competitors to participate in the Call to Conflict player verses player tournament.  This item weighs 1.0 stones. "
+	end
+end
+
+object Ribbon
+	properties
+		name "Ribbon"
+		view 59901
+		value 1000
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+	base dye
+	end
+	base carryable
+		weight 0.1
+	end
+	base described
+		text "You see a ribbon."
+	end
+end
+	
+object BlueRibbon of Ribbon
+	properties
+		name "Blue Ribbon"
+		view	59901
+	end
+	base described
+		text "You see a first place blue ribbon."
+	end
+end
+
+object RedRibbon of Ribbon
+	properties
+		name "Red Ribbon"
+		view	59902
+	end
+	base described
+		text "You see a second place red ribbon."
+	end
+end
+
+object WhiteRibbon of Ribbon
+	properties
+		name "White Ribbon"
+		view	59951
+	end
+	base described
+		text "You see a third place white ribbon."
+	end
+end
+
+object GreenRibbon of Ribbon
+	properties
+		name "Green Ribbon"
+		view	59903
+	end
+	base described
+		text "You see a fourth place green ribbon."
+	end
+end
+
+object YellowRibbon of Ribbon
+	properties
+		name "Yellow Ribbon"
+		view	59950
+	end
+	base described
+		text "You see a fifth place yellow ribbon."
+	end
+end
+
+
+object CTCYellowRibbon of YellowRibbon
+	properties
+		name "CTC Yellow Ribbon"
+		special
+	end
+	base described
+		text "You see a beautiful consolation ribbon award.  The bearer of this ribbon suffered great adversity during the Call to Conflict player verses player tournament and though they did not win, they deserved special recognition.  This item weighs 0.1 stones."
+		shopText "CTC Yellow Ribbon"
+	end
+end
+ 
+
+object CTCGreenRibbon of GreenRibbon
+	properties
+		name "CTC Green Ribbon"
+		special
+	end
+	base described
+		text "You see a gorgeous green ribbon award.  The bearer of this ribbon has sacrificed many hours of time and/or honorably served as referee in the Call to Conflict player verses player tournament.  This item weighs 0.1 stones."
+		shopText "CTC Green Ribbon"
+	end
+end
+
+#  Warrior Ribbons 
+object CTCBlueRibbonWar50 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 50"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 1- 50 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 50"
+	end
+end
+
+object CTCBlueRibbonWar100 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 100"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 51-100 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 100"
+	end
+end
+
+object CTCBlueRibbonWar150 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 150"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 101-150 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 150"
+	end
+end
+
+object CTCBlueRibbonWar199 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 199"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 151-199 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 199"
+	end
+end
+
+object CTCBlueRibbonWar300 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 300"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 200-300 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 300"
+	end
+end
+
+object CTCBlueRibbonWar400 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 400"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 301-400 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 400"
+	end
+end
+
+object CTCBlueRibbonWar500 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 500"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 401-500 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 500"
+	end
+end
+
+object CTCBlueRibbonWar750 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 750"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 501-749 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 750"
+	end
+end
+
+object CTCBlueRibbonWar1000 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon War 1000"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 751-1000 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon War 1000"
+	end
+end
+
+object CTCRedRibbonWar50 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 50"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 50"
+	end
+end
+
+object CTCRedRibbonWar100 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 100"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 100"
+	end
+end
+
+object CTCRedRibbonWar150 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 150"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 150"
+	end
+end
+
+object CTCRedRibbonWar199 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 199"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 199"
+	end
+end
+
+object CTCRedRibbonWar300 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 300"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 300"
+	end
+end
+
+object CTCRedRibbonWar400 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 400"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 400"
+	end
+end
+
+object CTCRedRibbonWar500 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 500"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 500"
+	end
+end
+
+object CTCRedRibbonWar750 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 750"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 750"
+	end
+end
+
+object CTCRedRibbonWar1000 of RedRibbon
+	properties
+		name "CTC Red Ribbon War 1000"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 warrior division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon War 1000"
+	end
+end
+
+object CTCWhiteRibbonWar50 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 50"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 50"
+	end
+end
+
+object CTCWhiteRibbonWar100 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 100"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 100"
+	end
+end
+
+object CTCWhiteRibbonWar150 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 150"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 150"
+	end
+end
+
+object CTCWhiteRibbonWar199 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 199"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 199"
+	end
+end
+
+object CTCWhiteRibbonWar300 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 300"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 300"
+	end
+end
+
+object CTCWhiteRibbonWar400 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 400"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 400"
+	end
+end
+
+object CTCWhiteRibbonWar500 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 500"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 500"
+	end
+end
+
+object CTCWhiteRibbonWar750 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 750"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 750"
+	end
+end
+
+object CTCWhiteRibbonWar1000 of WhiteRibbon
+	properties
+		name "CTC White Ribbon War 1000"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 warrior division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon War 1000"
+	end
+end
+
+# -----------------------------------------------------------------------------------------------------------------
+#  Wizard Ribbons 
+object CTCBlueRibbonWiz50 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 50"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 1- 50 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 50"
+	end
+end
+
+object CTCBlueRibbonWiz100 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 100"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 51-100 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 100"
+	end
+end
+
+object CTCBlueRibbonWiz150 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 150"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 101-150 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 150"
+	end
+end
+
+object CTCBlueRibbonWiz199 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 199"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 151-199 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 199"
+	end
+end
+
+object CTCBlueRibbonWiz300 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 300"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 200-300 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 300"
+	end
+end
+
+object CTCBlueRibbonWiz400 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 400"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 301-400 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 400"
+	end
+end
+
+object CTCBlueRibbonWiz500 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 500"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 401-500 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 500"
+	end
+end
+
+object CTCBlueRibbonWiz750 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 750"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 501-749 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 750"
+	end
+end
+
+object CTCBlueRibbonWiz1000 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Wiz 1000"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 751-1000 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Wiz 1000"
+	end
+end
+
+object CTCRedRibbonWiz50 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 50"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 50"
+	end
+end
+
+object CTCRedRibbonWiz100 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 100"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 100"
+	end
+end
+
+object CTCRedRibbonWiz150 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 150"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 150"
+	end
+end
+
+object CTCRedRibbonWiz199 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 199"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 199"
+	end
+end
+
+object CTCRedRibbonWiz300 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 300"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 300"
+	end
+end
+
+object CTCRedRibbonWiz400 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 400"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 400"
+	end
+end
+
+object CTCRedRibbonWiz500 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 500"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 500"
+	end
+end
+
+object CTCRedRibbonWiz750 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 750"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 750"
+	end
+end
+
+object CTCRedRibbonWiz1000 of RedRibbon
+	properties
+		name "CTC Red Ribbon Wiz 1000"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 wizard division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Wiz 1000"
+	end
+end
+
+object CTCWhiteRibbonWiz50 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 50"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 50"
+	end
+end
+
+object CTCWhiteRibbonWiz100 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 100"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 100"
+	end
+end
+
+object CTCWhiteRibbonWiz150 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 150"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 150"
+	end
+end
+
+object CTCWhiteRibbonWiz199 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 199"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 199"
+	end
+end
+
+object CTCWhiteRibbonWiz300 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 300"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 300"
+	end
+end
+
+object CTCWhiteRibbonWiz400 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 400"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 400"
+	end
+end
+
+object CTCWhiteRibbonWiz500 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 500"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 500"
+	end
+end
+
+object CTCWhiteRibbonWiz750 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 750"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 750"
+	end
+end
+
+object CTCWhiteRibbonWiz1000 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Wiz 1000"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 wizard division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Wiz 1000"
+	end
+end
+
+# ----------------------------------------------------
+#  Adventurer Ribbons 
+object CTCBlueRibbonAdv50 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 50"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 1- 50 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 50"
+	end
+end
+
+object CTCBlueRibbonAdv100 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 100"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 51-100 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 100"
+	end
+end
+
+object CTCBlueRibbonAdv150 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 150"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 101-150 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 150"
+	end
+end
+
+object CTCBlueRibbonAdv199 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 199"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 151-199 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 199"
+	end
+end
+
+object CTCBlueRibbonAdv300 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 300"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 200-300 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 300"
+	end
+end
+
+object CTCBlueRibbonAdv400 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 400"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 301-400 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 400"
+	end
+end
+
+object CTCBlueRibbonAdv500 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 500"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 401-500 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 500"
+	end
+end
+
+object CTCBlueRibbonAdv750 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 740"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 501-749 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 750"
+	end
+end
+
+object CTCBlueRibbonAdv1000 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Adv 1000"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 751-1000 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Adv 1000"
+	end
+end
+
+object CTCRedRibbonAdv50 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 50"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 50"
+	end
+end
+
+object CTCRedRibbonAdv100 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 100"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 100"
+	end
+end
+
+object CTCRedRibbonAdv150 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 150"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 150"
+	end
+end
+
+object CTCRedRibbonAdv199 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 199"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 199"
+	end
+end
+
+object CTCRedRibbonAdv300 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 300"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 300"
+	end
+end
+
+object CTCRedRibbonAdv400 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 400"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 400"
+	end
+end
+
+object CTCRedRibbonAdv500 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 500"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 500"
+	end
+end
+
+object CTCRedRibbonAdv750 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 750"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 750"
+	end
+end
+
+object CTCRedRibbonAdv1000 of RedRibbon
+	properties
+		name "CTC Red Ribbon Adv 1000"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Adv 1000"
+	end
+end
+
+object CTCWhiteRibbonAdv50 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 50"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 50"
+	end
+end
+
+object CTCWhiteRibbonAdv100 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 100"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 100"
+	end
+end
+
+object CTCWhiteRibbonAdv150 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 150"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 150"
+	end
+end
+
+object CTCWhiteRibbonAdv199 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 199"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 199"
+	end
+end
+
+object CTCWhiteRibbonAdv300 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 300"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 300"
+	end
+end
+
+object CTCWhiteRibbonAdv400 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 400"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 400"
+	end
+end
+
+object CTCWhiteRibbonAdv500 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 500"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 500"
+	end
+end
+
+object CTCWhiteRibbonAdv750 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 750"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 750"
+	end
+end
+
+object CTCWhiteRibbonAdv1000 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Adv 1000"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 adventurer division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Adv 1000"
+	end
+end
+
+# -----------------------------------------------------------------------------------------------------
+#  Thief Ribbons 
+object CTCBlueRibbonThief50 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 50"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 1- 50 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 50"
+	end
+end
+
+object CTCBlueRibbonThief100 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 100"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 51-100 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 100"
+	end
+end
+
+object CTCBlueRibbonThief150 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 150"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 101-150 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 150"
+	end
+end
+
+object CTCBlueRibbonThief199 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 199"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 151-199 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 199"
+	end
+end
+
+object CTCBlueRibbonThief300 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 300"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 200-300 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 300"
+	end
+end
+
+object CTCBlueRibbonThief400 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 400"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 301-400 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 400"
+	end
+end
+
+object CTCBlueRibbonThief500 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 500"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 401-500 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 500"
+	end
+end
+
+object CTCBlueRibbonThief750 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 750"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 501-749 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 750"
+	end
+end
+
+object CTCBlueRibbonThief1000 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Thief 1000"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 751-1000 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Thief 1000"
+	end
+end
+
+object CTCRedRibbonThief50 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 50"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 50"
+	end
+end
+
+object CTCRedRibbonThief100 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 100"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 100"
+	end
+end
+
+object CTCRedRibbonThief150 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 150"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 150"
+	end
+end
+
+object CTCRedRibbonThief199 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 199"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 199"
+	end
+end
+
+object CTCRedRibbonThief300 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 300"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 300"
+	end
+end
+
+object CTCRedRibbonThief400 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 400"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 400"
+	end
+end
+
+object CTCRedRibbonThief500 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 500"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 500"
+	end
+end
+
+object CTCRedRibbonThief750 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 750"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 750"
+	end
+end
+
+object CTCRedRibbonThief1000 of RedRibbon
+	properties
+		name "CTC Red Ribbon Thief 1000"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 thief division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Thief 1000"
+	end
+end
+
+object CTCWhiteRibbonThief50 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 50"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-50 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 50"
+	end
+end
+
+object CTCWhiteRibbonThief100 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 100"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 51-100 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 100"
+	end
+end
+
+object CTCWhiteRibbonThief150 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 150"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 101-150 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 150"
+	end
+end
+
+object CTCWhiteRibbonThief199 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 199"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 151-199 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 199"
+	end
+end
+
+object CTCWhiteRibbonThief300 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 300"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-300 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 300"
+	end
+end
+
+object CTCWhiteRibbonThief400 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 400"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 301-400 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 400"
+	end
+end
+
+object CTCWhiteRibbonThief500 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 500"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-500 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 500"
+	end
+end
+
+object CTCWhiteRibbonThief750 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 750"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 501-750 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 750"
+	end
+end
+
+object CTCWhiteRibbonThief1000 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Thief 1000"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 751-1000 thief division, during the Call to Conflict Tournament, by winning this prestigious award.  This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Thief 1000"
+	end
+end
+
+# ---------------------------------------------------------------------
+# Team
+
+object CTCBlueRibbonTeam199 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Team 199"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 1-199 team division, during the Call to Conflict Tournament, by winning this prestigious award.   This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Team 199"
+	end
+end
+
+object CTCBlueRibbonTeam400 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Team 400"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 200-400 team division, during the Call to Conflict Tournament, by winning this prestigious award.   This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Team 400"
+	end
+end
+
+object CTCBlueRibbonTeam600 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Team 600"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 401-600 team division, during the Call to Conflict Tournament, by winning this prestigious award.   This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Team 600"
+	end
+end
+
+object CTCBlueRibbonTeam800 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Team 800"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 601-800 team division, during the Call to Conflict Tournament, by winning this prestigious award.   This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Team 800"
+	end
+end
+
+object CTCBlueRibbonTeam1000 of BlueRibbon
+	properties
+		name "CTC Blue Ribbon Team 1000"
+		special
+	end
+	base described
+		text "You see a magnificent first place ribbon award.  The bearer of this ribbon has shown great courage and the highest skills in the 801-1000 team division, during the Call to Conflict Tournament, by winning this prestigious award.   This item weighs 0.1 stones."
+		shopText "CTC Blue Ribbon Team 1000"
+	end
+end
+
+object CTCRedRibbonTeam199 of RedRibbon
+	properties
+		name "CTC Red Ribbon Team 199"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-199 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Team 199"
+	end
+end
+
+object CTCRedRibbonTeam400 of RedRibbon
+	properties
+		name "CTC Red Ribbon Team 400"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-400 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Team 400"
+	end
+end
+
+object CTCRedRibbonTeam600 of RedRibbon
+	properties
+		name "CTC Red Ribbon Team 600"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-600 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Team 600"
+	end
+end
+
+object CTCRedRibbonTeam800 of RedRibbon
+	properties
+		name "CTC Red Ribbon Team 800"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 601-800 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Team 800"
+	end
+end
+
+object CTCRedRibbonTeam1000 of RedRibbon
+	properties
+		name "CTC Red Ribbon Team 1000"
+		special
+	end
+	base described
+		text "You see a glorious second place ribbon award.  The bearer of this ribbon has shown courage and skill in the 801-1000 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC Red Ribbon Team 1000"
+	end
+end
+
+object CTCWhiteRibbonTeam199 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Team 199"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 1-199 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Team 199"
+	end
+end
+
+object CTCWhiteRibbonTeam400 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Team 400"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 200-400 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Team 400"
+	end
+end
+
+object CTCWhiteRibbonTeam600 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Team 600"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 401-600 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Team 600"
+	end
+end
+
+object CTCWhiteRibbonTeam800 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Team 800"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 601-800 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Team 800"
+	end
+end
+
+object CTCWhiteRibbonTeam1000 of WhiteRibbon
+	properties
+		name "CTC White Ribbon Team 1000"
+		special
+	end
+	base described
+		text "You see an honorable third place ribbon award.  The bearer of this ribbon has shown courage and skill in the 801-1000 team division, during the Call to Conflict Tournament, by winning this prestigious award. This item weighs 0.1 stones."
+		shopText "CTC White Ribbon Team 1000"
+	end
+end
+
+# ---------------------------------------------------------------------
+# Carnival Ribbons (16 Jul 2000)
+
+object July2000BlueRibbon of BlueRibbon
+	properties
+		name "Carnival Blue Ribbon"
+		special
+	end
+	base described
+		text "You see a magnificent First place ribbon award. The bearer of this ribbon has put forth a tremendous effort during the Realm Carnival and earned this prestigious award.\n\n This item has an armor rating 0.0."
+		shopText "Carnival Blue Ribbon"
+	end
+end
+
+object July2000RedRibbon of RedRibbon
+	properties
+		name "Carnival Red Ribbon"
+		special
+	end
+	base described
+		text "You see a glorious Second place ribbon award. The bearer of this ribbon has shown incredible talent during the Realm Carnival and earned this prestigious award.\n\n This item has an armor rating 0.0."
+		shopText "Carnival Red Ribbon"
+	end
+end
+ 
+object July2000WhiteRibbon of WhiteRibbon
+	properties
+		name "Carnival White Ribbon"
+		special
+	end
+	base described
+		text "You see an honorable Third place ribbon award. The bearer of this ribbon has put in a significant performance during the Realm Carnival and has won this prestigious award.\n\n This item has an armor rating 0.0."
+		shopText "Carnival White Ribbon"
+	end
+end
+ 
+object July2000YellowRibbon of YellowRibbon
+	properties
+		name "Carnival Yellow Ribbon"
+		special
+	end
+	base described
+		text "You see a beautiful Consolation ribbon award.  The bearer of this ribbon participated during the Realm Carnival and deserves this recognition.\n\n This item has an armor rating 0.0."
+		shopText "Carnival Yellow Ribbon"
+	end
+end
+
+object July2000GreenRibbon of GreenRibbon
+	properties
+		name "Carnival Green Ribbon"
+		special
+	end
+	base described
+		text "You see a gorgeous green ribbon award.  The bearer of this ribbon has sacrificed many hours of time and/or honorably served time during the Realm Carnival.\n\n This item has an armor rating 0.0."
+		shopText "Carnival Green Ribbon"
+	end
+end
+
+# -----------------------------------------------------
+# ribbon store
+object GMCTCHorn of CTCHorn
+	properties
+		name "Call to Conflict Horn Store"
+	end
+	base dye
+	end
+	base carryable
+		weight 1.0
+	end
+	base described
+		text "You see a store chest of ribbons"
+	end
+	base shop
+		buyMarkup  0
+		sellMarkup 0
+
+		inventory
+			category "Consolation Ribbons"  10133
+				object CTCYellowRibbon
+				object CTCGreenRibbon
+			end
+
+		# -------------------------------------------------------------
+		#  Warrior Ribbons 
+			category "Warrior Ribbons"  10133
+				object CTCBlueRibbonWar50
+				object CTCBlueRibbonWar100
+				object CTCBlueRibbonWar150
+				object CTCBlueRibbonWar199
+				object CTCBlueRibbonWar300
+				object CTCBlueRibbonWar400
+				object CTCBlueRibbonWar500
+				object CTCBlueRibbonWar750
+				object CTCBlueRibbonWar1000
+				object CTCRedRibbonWar50
+				object CTCRedRibbonWar100
+				object CTCRedRibbonWar150
+				object CTCRedRibbonWar199
+				object CTCRedRibbonWar300
+				object CTCRedRibbonWar400
+				object CTCRedRibbonWar500
+				object CTCRedRibbonWar750
+				object CTCRedRibbonWar1000
+				object CTCWhiteRibbonWar50
+				object CTCWhiteRibbonWar100
+				object CTCWhiteRibbonWar150
+				object CTCWhiteRibbonWar199
+				object CTCWhiteRibbonWar300
+				object CTCWhiteRibbonWar400
+				object CTCWhiteRibbonWar500
+				object CTCWhiteRibbonWar750
+				object CTCWhiteRibbonWar1000
+			end
+
+		# -------------------------------------------------------------
+		#  Wizard Ribbons 
+			category "Wizard Ribbons"  10133
+				object CTCBlueRibbonWiz50 
+				object CTCBlueRibbonWiz100 
+				object CTCBlueRibbonWiz150 
+				object CTCBlueRibbonWiz199 
+				object CTCBlueRibbonWiz300 
+				object CTCBlueRibbonWiz400 
+				object CTCBlueRibbonWiz500 
+				object CTCBlueRibbonWiz750 
+				object CTCBlueRibbonWiz1000 
+				object CTCRedRibbonWiz50 
+				object CTCRedRibbonWiz100 
+				object CTCRedRibbonWiz150 
+				object CTCRedRibbonWiz199 
+				object CTCRedRibbonWiz300 
+				object CTCRedRibbonWiz400 
+				object CTCRedRibbonWiz500 
+				object CTCRedRibbonWiz750 
+				object CTCRedRibbonWiz1000 
+				object CTCWhiteRibbonWiz50 
+				object CTCWhiteRibbonWiz100 
+				object CTCWhiteRibbonWiz150 
+				object CTCWhiteRibbonWiz199 
+				object CTCWhiteRibbonWiz300 
+				object CTCWhiteRibbonWiz400 
+				object CTCWhiteRibbonWiz500 
+				object CTCWhiteRibbonWiz750 
+				object CTCWhiteRibbonWiz1000 
+			end
+
+		# -------------------------------------------------------------
+		#  Adventurer Ribbons 
+			category "Adventurer Ribbons"  10133
+				object CTCBlueRibbonAdv50 
+				object CTCBlueRibbonAdv100 
+				object CTCBlueRibbonAdv150 
+				object CTCBlueRibbonAdv199 
+				object CTCBlueRibbonAdv300 
+				object CTCBlueRibbonAdv400 
+				object CTCBlueRibbonAdv500 
+				object CTCBlueRibbonAdv750 
+				object CTCBlueRibbonAdv1000 
+				object CTCRedRibbonAdv50 
+				object CTCRedRibbonAdv100 
+				object CTCRedRibbonAdv150 
+				object CTCRedRibbonAdv199 
+				object CTCRedRibbonAdv300 
+				object CTCRedRibbonAdv400 
+				object CTCRedRibbonAdv500 
+				object CTCRedRibbonAdv750 
+				object CTCRedRibbonAdv1000 
+				object CTCWhiteRibbonAdv50 
+				object CTCWhiteRibbonAdv100 
+				object CTCWhiteRibbonAdv150 
+				object CTCWhiteRibbonAdv199 
+				object CTCWhiteRibbonAdv300 
+				object CTCWhiteRibbonAdv400 
+				object CTCWhiteRibbonAdv500 
+				object CTCWhiteRibbonAdv750 
+				object CTCWhiteRibbonAdv1000 
+			end
+
+		# -------------------------------------------------------------
+		#  Thief Ribbons 
+			category "Thief Ribbons"  10133
+				object CTCBlueRibbonThief50 
+				object CTCBlueRibbonThief100 
+				object CTCBlueRibbonThief150 
+				object CTCBlueRibbonThief199 
+				object CTCBlueRibbonThief300 
+				object CTCBlueRibbonThief400 
+				object CTCBlueRibbonThief500 
+				object CTCBlueRibbonThief750 
+				object CTCBlueRibbonThief1000 
+				object CTCRedRibbonThief50 
+				object CTCRedRibbonThief100 
+				object CTCRedRibbonThief150 
+				object CTCRedRibbonThief199 
+				object CTCRedRibbonThief300 
+				object CTCRedRibbonThief400 
+				object CTCRedRibbonThief500 
+				object CTCRedRibbonThief750 
+				object CTCRedRibbonThief1000 
+				object CTCWhiteRibbonThief50 
+				object CTCWhiteRibbonThief100 
+				object CTCWhiteRibbonThief150 
+				object CTCWhiteRibbonThief199 
+				object CTCWhiteRibbonThief300 
+				object CTCWhiteRibbonThief400 
+				object CTCWhiteRibbonThief500 
+				object CTCWhiteRibbonThief750 
+				object CTCWhiteRibbonThief1000 
+			end
+
+		# -------------------------------------------------------------
+		# Team
+
+			category "Team Ribbons"  10133
+				object CTCBlueRibbonTeam199 
+				object CTCBlueRibbonTeam400 
+				object CTCBlueRibbonTeam600 
+				object CTCBlueRibbonTeam800 
+				object CTCBlueRibbonTeam1000 
+				object CTCRedRibbonTeam199 
+				object CTCRedRibbonTeam400 
+				object CTCRedRibbonTeam600 
+				object CTCRedRibbonTeam800 
+				object CTCRedRibbonTeam1000 
+				object CTCWhiteRibbonTeam199 
+				object CTCWhiteRibbonTeam400 
+				object CTCWhiteRibbonTeam600 
+				object CTCWhiteRibbonTeam800 
+				object CTCWhiteRibbonTeam1000 
+			end
+		# -------------------------------------------------------------
+		# Carnival 
+			category "Carnival Ribbons"  10133
+				object July2000BlueRibbon
+				object July2000RedRibbon
+				object July2000WhiteRibbon
+				object July2000YellowRibbon
+				object July2000GreenRibbon
+			end
+		end
+	end
+end
+

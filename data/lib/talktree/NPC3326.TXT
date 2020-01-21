@@ -1,0 +1,30 @@
+id 3326
+
+banner "Greetings, traveller.  I am Iliana.  May Enid be with you."
+
+topic "Who are you?"
+	text "I am Iliana, high priestess of Enid.  I have dedicated my life to serving the goddess of peace, love, and nature."
+end
+
+topic "What do you do?"
+	text "Mostly I just keep the temple in order and tend to Enid's gardens.  It is quite a peaceful life."
+end
+
+topic "How may I serve Enid?" a0
+	quest 10 #3326-01
+	text "Thank you kindly for the offer but there is nothing else."
+end
+
+topic "What is the secret word for Test of the Soul" a0
+	text "I don't know, but I've heard that it has something to do with paradise."
+	text "Sorry, that's all I know."
+end
+
+topic "How may I serve Enid?" a1
+	text "I'm dreadfully sorry, but Enid only accepts the purest of heart into her service."
+end
+
+topic "How may I serve Enid?" a2
+	text "You may best serve Enid by removing your evil soul from her presence!  Begone, dark one!"
+end
+

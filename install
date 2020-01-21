@@ -1,0 +1,3 @@
+cp datamgr/datamgr.exe /realm/datamgr
+cp router/router.exe /realm/router
+cp updates/updatesrv.exe /realm/update

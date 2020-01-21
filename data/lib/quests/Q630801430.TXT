@@ -1,0 +1,18 @@
+quest  112 #6308-01-430  #(Kaliri, Anything & Everything, Arimathor, 6801)
+
+name  "Kaliri's Treat"
+type  fedex
+
+proposal  "Welcome, dearie.  I've got anything you might want here.  Named m'shop to get folks in.  Is it perhaps a bit of our famous cactus gardens you're wantin'?"
+
+declined  "Well, just look around, then."
+
+accepted  "Happens I have a fine little cactus plant.  Normally old Kaliri would sell it to you, but I wonder if you'd run an errand for me in exchange.  If you would just run over to Fantastic Meals and fetch a treat for me.  Sanria, such a dear child, knows I've got a sweet tooth.  You just bring it to me and the cactus is yours."
+
+reminder  "Sanria runs Fantastic Meals.  She has a treat ready for me."
+
+completed  "Now look at you.  Back already with a treat for old Kaliri.  Thank'ee kindly.  And here's that bit of cactus I promised you."
+
+getItem  qKaliriTreat
+reward  qCactusBit
+end

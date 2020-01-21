@@ -1,0 +1,41 @@
+id #81000
+
+banner "What might you be doing in here?"
+
+topic "Tell me about this place."
+        text "It's called the Dungeon."
+	text "If you've business here, you'll know what we do."
+	text "If you don't have business here, I'd advise you to tread softly."
+end
+
+topic "I'm curious to know what kind of business?"
+        text "My name is Sarge.  I'm here to handle training sessions, among other responsibilities."
+        text "Dungeons have developed a reputation.  This one lives up to all those stories."
+end      
+
+topic "Can I do anything for you?"
+        text "Not now."
+end
+
+topic  "I want to learn fighting skills."
+	banner  "I can teach you anything you want to know about unarmed combat. I'll only teach you master and grand-master skills, though.  You've got to become an expert in unarmed combat before I'll take you on." 
+
+	topic  "How do I get to be an expert?"
+		text  "Start at the bottom and practice.  Buy the skill books in one of the book stores.  The Athenaeum in Murias, for example."
+	end
+
+	topic  "I am interested in unarmed combat master skills."  s7:3  
+		quest 81000-01-400
+		text "Look, you. That skill book in your possession has to be studied and applied to get the skills."
+	end
+
+	topic  "I am interested in unarmed combat grand-master skills."  s7:4  
+		quest 81000-01-500
+		text "I don't believe that question.  You've got the skill book.  You're not going to get the skills until you study it."
+	end
+
+	topic  "What else can you teach me?"  s7:5
+		text  "There are some magical methods of increasing your ability, but I can't help you with that."
+		text  "You better concentrate on learning the unarmed combat skills."
+	end
+end

@@ -1,0 +1,18 @@
+quest 13 #76535-01
+	name "Getting Bread for Jobo"
+	type fedex
+
+	proposal "Well, as a matter o' fact, I'd really 'preciate it if ya'd be kind enough to get me a piece o' bread.  Ain't had any bread fur years, an' ratlin' meat sandwiches are mighty tasty."
+
+	accepted "Great!  I'll be waitin right 'ere!"
+
+	declined "Are ya sure?  Ratlin' meat sandwiches are mighty tasty, and I gots plenty o' meat!"
+
+	reminder "Do ya got some bread?"
+
+	completed "Thank ya very much!  Here, I got this here key... I think it opens up cell block B but I ain't sure.  Mebbe it'll help ye out."
+
+	getItem Bread
+	reward Dng14Key2
+end
+

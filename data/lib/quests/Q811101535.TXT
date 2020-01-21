@@ -1,0 +1,16 @@
+quest  323 #8111-01-535        #Monji, Excellent Weaponry, Usk
+
+name  "A Clue from Monji"
+type  fedex
+
+proposal  "Yes, I fear that I do.  It was a gift that I gave to the nephew of a friend of ours. What a sorry excuse for a warrior he turned out to be.  A scoundrel if there ever was one.  He's been up to no good again, I'd guess.  He usually turns up at our friend's place when he's in trouble.  If you will leave the broken amulet with me and take this note to our friend you could inquire about this rascal.  Will you?"
+
+declined  "Too much trouble, I see."
+
+accepted  "Our friend is in Murias."
+
+reminder   "Go talk Murias."
+
+getItem  qBrokenAmulet
+reward   qNoteSiei
+end

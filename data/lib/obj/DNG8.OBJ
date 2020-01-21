@@ -1,0 +1,10 @@
+object Dng8Book of Book
+	properties
+		special
+		name "Crow's Diary"
+	end
+
+	base described
+		text "You see crow's diary."
+	end
+end

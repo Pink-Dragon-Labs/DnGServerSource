@@ -1,0 +1,20 @@
+quest  166 #6501-01-500        #Lopier, Marvelous Armory, Usk, 8103 (Formerly Jocko, Guennor Armory, 6501) Leaving Guennor number, 6501, to avoid changing whole chain of quest numbers.
+
+
+name  "Talisman of Baroq the Bald"
+type  fedex
+
+proposal  "Glad to see you.  Long swords are a fine weapon, a really fine weapon.  We need more grand masters.  I hope you'll learn the skill.  While I'm arranging for the skill book, I want you to fetch me a Talisman of Baroq the Bald.  Are you familiar with him, friend?  Bald from youth he was, and though he did mighty exploits, he never had any title but 'the Bald.'  Kinda admire his attitude, you know?  It's a change from all those fancy titles.  Will you find me the amulet?"
+
+declined  "Too bad.
+
+accepted  "I've heard it's in Wen."
+
+reminder   "Find a Talisman of Baroq the Bald.  Search in Wen."
+
+completed  "Excellent.  I look forward to following your exploits as a swordsman.  Here is your book."
+
+getItem   qTalismanBaroq
+reward   skbLongSwordV 
+end
+

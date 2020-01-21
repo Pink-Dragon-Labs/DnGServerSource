@@ -1,0 +1,19 @@
+quest  204 #6807-01-500        #Georgi, Arimathor Armory, 6807
+
+name  "Miniature Copy of the Shield of Despothes"
+type  fedex
+
+proposal  "Glad to have you here for grand-mastery in shield use.  There aren't many of us in the whole of the Realm.  Shield use hasn't come into its own as a valued skill, more's the pity.  You've got the vision to see it's a real tool.   It's a symbol of stalwart behavior, you know.  My granddad, a real grand-master, used to encourage all apprentice warriors to valor by saying 'come back with your shield or on it, my boy, with your shield or on it.'  You've heard that, no doubt.  It just proves my point that shields are understood as a symbol.  But, to work.  Will you make a quest to find me a miniature copy of the shield of Despothes?"
+
+declined  "I hope you'll reconsider."
+
+accepted  "Somewhere in Monmouth you may find one."
+
+reminder   "Go to Monmouth for a copy of the shield of Despothes."
+
+completed  "What an exquisite little piece of work.  Many thanks.  Here's the skill book for you."
+
+getItem   qMiniatureShield
+reward    skbShieldUseV
+end
+

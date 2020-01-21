@@ -1,0 +1,18 @@
+quest 317 #8111-01-425   # (Surian, Gatekeeper of Drune, 7311)
+
+name  "Authorization from the Council of Drune"
+type  fedex
+
+proposal  "The Ancient Rune from Devon is in my possession, but I cannot release it without permission from our ruling Council.  I could send you to speak to another.  Do you wish to go?"
+
+declined  "Very well."
+
+accepted  "Speak to Wanda at the Elven Enchantment."
+
+reminder  "Wanda is in her shop, Elven Enchantment.  Do go talk to her."
+
+completed  "Traveler, you have been tested and approved by members of our council.  Therefore I am authorized to give the Ancient Rune from Devon to you.  Use great care in transporting it, for it is very old."
+
+getItem	qParchment
+reward	qAncientRune
+end

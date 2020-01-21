@@ -1,0 +1,62 @@
+id 7000
+
+banner "I am the gatekeeper of Kurz. Whose home do you wish to visit?"
+
+topic "Tell me about Kurz."
+        text "Kurz is a very pleasant little burg if you like cutthroats. I've got no complaints."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that the farther east you go, the tougher and more aggressive the monsters get."
+	text "I'll have to check that out sometime."
+end      
+
+topic  "I need help finding shops."
+	banner  "What are you looking for?  I know them all."
+
+	topic  "Where can I find a clothing store?"
+		text "Pleasure's Fabric is right two, down one."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is right four, two down.  Elise's Substance is right one, down three, right three."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "We have two. Wards of War is right one, down three, right two. Battling Mage is right one, down two, right four. "
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "You've got a choice of three weapon shops here in Kurz.  Bloodforge is right three.  Weapons of Thunder is right four, down one.  Spiked Glove is right one, down two, left one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Kurz Mercantile is right two."
+	end
+
+	topic  "Do you have a chapel?"
+		text "Not here.  I think you can find one over in Usk."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Ah yes! You must have heard about Kurz's famous training academy. It's the only academy in all the land that teaches the smithing skills. It's called the Traveller's Union and it's one right, two down, and then two right."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Remedies and Cures is right one, down two and right one.  Certified Leechers is right four, down one, right one."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "We've got six taverns in Kurz.  Dog's Breath is right one. Bloodspot is right two, down one, right one.  Dirty Dagger is right one, down two.   Filthy Beggar is right one, down three, right one. Stillwater is right one, down three, right four.  Broken Jug Pub is right one, down one, left one."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "I'm not running a school here. Oh, all right. Just put in the name of the person you want to visit."
+end
+
+topic  "Can you tell me where to find a Ratling Toenail?" q72:0 #q6205-01-100:0
+	quest 73 #6205-01-125
+	text  "I only had one, and you already have it."
+end
+

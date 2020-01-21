@@ -1,0 +1,47 @@
+id 8003
+
+banner "You've entered Bloodforge, the finest weapons shop in The Realm. How may I help you?"
+
+topic "Tell me about Kurz."
+        text "Kurz? 'Tis a dangerous place, sure. You'd best make some purchases; you don't want to go out there unprepared."
+	text  "I've lived my life here, and I know how to take care of myself."
+	text  "If I had the leisure, I'd tell you about the time a couple of punks thought they'd help themselves to my stock. I'd have to tell the tale, though, because those two tough guys didn't live to tell it."
+	text  "Took care of them myself.  Ha!  They thought an old woman was an easy mark.  They thought wrong!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that Asgard is a town of fighters skilled in war's arts."
+        text "Of course, they honor the god Finvarra, so he rewards them with skills they have perhaps not earned on the fields of blood."
+end      
+
+topic "Can I do anything for you?"
+        text "No, I have no tasks. Check with me again, however."
+end
+
+topic  "I'm looking for an image of the god Duach." q50 #q6077-01-425:0
+	quest 51 #6077-01-430
+	text  "I only had one, and you took it."
+end
+
+topic  "I want to learn all the the ways of war." c19:5
+	banner  "That's an ambitious plan.  You'll need to study each craft one at a time. If armorcrafting skills are what you want, I can teach you.  You've got to be an expert armorcrafter, though.  I'll only teach master and grand-master skills." 
+
+	topic  "How do I get to be an expert at armorcrafting?" c19:3
+		text  "Buy the skill books and practice.  Be sure to practice.  Any book store sells what you'll need.  Here in Kurz you can go to the Traveller's Union and Books."
+	end
+
+	topic  "I am interested in armorcrafting master skills."  s19:3  
+		quest 171 #6504-01-400
+		text "You already have the skill book, but you've got to study it to master the craft."
+	end
+
+	topic  "I am interested in armorcrafting grand-master skills."  s19:4  
+		quest 176 #6504-01-500
+		text "You've got to study! Don't you know that?  Possessing the skill book isn't enough to master the craft!"
+	end
+
+	topic  "What else can I learn here?"  s19:5
+		text  "Armorcrafting is a skill that demands attention.  I don't go scattering my time around other crafts.  Armorcrafting is what I teach, and that's it."
+		text  "First you'd do well to learn armorcrafting properly."
+	end
+end

@@ -1,0 +1,34 @@
+id 8110
+
+banner "You've entered Good Health Potions. How might I serve you, Friend?"
+
+topic "Tell me about Usk."
+        text "Certainly, certainly. Uskers are descended from a group of giants who left the town of Bath."
+	text "We consider ourselves artisans, and can therefore be a bit ... what's the word? ... arrogant."
+end
+
+topic  "Who are you?"
+	text "I'm Pia, the healer.  My family has been in Usk from back into the Mist."
+	text "I'm out of favor with my father at the moment.  He thinks I a good healer but he doesn't hold with what he calls the 'new-fangled hair styles' of my generation.  He'll come around though.  Eventually.  I hope."
+	text "I've worked hard at my craft.  Healing is very important."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard it said that Bath is powered by a giant forge located beneath the surface of the earth."
+        text "It is said that the forge is operated by wicked children who didn't mind their parents, but that must be a story made up to get children to behave."
+end      
+
+topic "Can I do anything for you?"
+        text "Thank you, but today I have everything I need. Check with me again sometime."
+end
+
+topic  "I came from Frick." q298:0 #q8021-01-435:0
+	quest 299 #8021-01-440
+	text  "You already came for Frick's medicine and supply order."
+end
+
+topic  "I'm looking for a grinding stone." q132:0 #q6401-01-430:0
+	quest 133 #6401-01-435
+	text  "I gave it to you."
+end
+

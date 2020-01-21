@@ -1,0 +1,12 @@
+#!/bin/csh
+
+if ( $#argv == 0 ) then
+	echo "usage: $0:t <filespec>"
+	exit 1
+endif
+
+foreach file ($*)
+	(cat $file | tr -d '\015') > /tmp/xxx
+	mv /tmp/xxx $file
+end
+

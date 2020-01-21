@@ -1,0 +1,17 @@
+quest  74 #6205-01-200        #Xolina, Goddess Dreams, magic, Murias, 6205
+name  "Fossilized Toad 	quest"
+type  fedex
+
+proposal  "You're ready to start Thaumaturgy Proficient spell study, are you?  I, Xolina, will undertake to assist you.  To qualify for my assistance, however, you must bring me a Fossilized Toad.  Will you do this?"
+
+declined  "You must be mad."
+
+accepted  "You might start looking in the desert."
+
+reminder   "Have you forgotten already?  A fossilized toad is your quest."
+
+completed  "So you did it.  Here is the Proficient spellbook for Thaumaturgy."
+
+getItem   qFossilizedToad
+reward   skbThaumaturgyII 
+end

@@ -1,0 +1,16 @@
+quest  390 #80500-01-445        # Lari, Food Emporium, Monmouth, 6303
+
+name  "Smoked Stripe"
+type  fedex
+
+proposal  "But of course.  Kaliri is a dear soul, and that Sandor!  Such a tease he is.  You are right to come for smoked stripe because he has a fondness for it.  Oh, yes.  He and my brother many times fish together, and always rejoice when it is stripe they catch.  My sister smokes it, then we all feast.  Sandor, he is outrageous when he is teasing.  There, it is all packaged.  You will take it?"
+
+declined  "This is not amusing."
+
+accepted  "Convey my greetings."  
+
+reminder   "Hurry back with that smoked stipe."
+
+reward   qLariStripe 
+end
+

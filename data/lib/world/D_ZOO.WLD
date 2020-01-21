@@ -1,0 +1,3044 @@
+# Dungeonmaker World File (DNG7.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 73000
+# Dungeon last room = 74098
+# Number of objects in dungeon = 134
+# Level 0 information:
+room 73000
+	properties
+		template 30303
+		south 73001
+		flags	0
+	end
+	objects
+		object NPC-73000-0 of Dng7NPC1
+			properties
+				x	244
+				y	277
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-73000-1 of DungeonBackUp
+			properties
+				x	476
+				y	217
+				loop	2
+				linkTo	tent2527-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-73000-2 of Sign
+			properties
+				x	324
+				y	252
+				loop	0
+			end
+			base described
+				text	"Welcome to the Zoo!"
+			end
+		end
+		object Torch-73000-3 of Torch
+			properties
+				x	322
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-73000-4 of Chair
+			properties
+				x	192
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74073
+	properties
+		template 30805
+		east 74072
+      	roomName	"Thief"
+		flags	0
+	end
+	objects
+		object ThiefE-74073-0 of ThiefE
+			properties
+				x	231
+				y	248
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74072
+	properties
+		template 31301
+		east 74071
+		west 74073
+      	roomName	"Thief"
+		flags	0
+	end
+	objects
+		object ThiefD-74072-0 of ThiefD
+			properties
+				x	289
+				y	261
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74071
+	properties
+		template 30703
+		east 74070
+		west 74072
+      	roomName	"Thief"
+		flags	0
+	end
+	objects
+		object ThiefC-74071-0 of ThiefC
+			properties
+				x	299
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74070
+	properties
+		template 30906
+		east 74069
+		west 74071
+      	roomName	"Thief"
+		flags	0
+	end
+	objects
+		object ThiefB-74070-0 of ThiefB
+			properties
+				x	218
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74069
+	properties
+		template 30901
+		east 73001
+		west 74070
+      	roomName	"Thief"
+		flags	0
+	end
+	objects
+		object ThiefA-74069-0 of ThiefA
+			properties
+				x	158
+				y	254
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73001
+	properties
+		template 30804
+		south 73002
+		east 73005
+		west 74069
+		north 73000
+		flags	0
+	end
+	objects
+		object Sign-73001-0 of Sign
+			properties
+				x	509
+				y	244
+				loop	0
+			end
+			base described
+				text	"Faeries -->"
+			end
+		end
+		object Sign-73001-1 of Sign
+			properties
+				x	274
+				y	234
+				loop	0
+			end
+			base described
+				text	"Please Do Not Feed The Animals."
+			end
+		end
+		object Sign-73001-2 of Sign
+			properties
+				x	108
+				y	254
+				loop	0
+			end
+			base described
+				text	"<-- Thieves"
+			end
+		end
+	end
+end
+room 73005
+	properties
+		template 30901
+		east 73006
+		west 73001
+      	roomName	"Pixie"
+		flags	0
+	end
+	objects
+		object Pixie-73005-0 of Pixie
+			properties
+				x	181
+				y	259
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end
+room 73006
+	properties
+		template 31301
+		east 73007
+		west 73005
+      	roomName	"Faery"
+		flags	0
+	end
+	objects
+		object Faery-73006-0 of Faery
+			properties
+				x	277
+				y	245
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 73007
+	properties
+		template 30703
+		east 73017
+		west 73006
+      	roomName	"Wood Nymph"
+		flags	0
+	end
+	objects
+		object WoodNymph-73007-0 of WoodNymph
+			properties
+				x	303
+				y	267
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+	end
+end
+room 73017
+	properties
+		template 30906
+		east 73018
+		west 73007
+      	roomName	"Dark Faery"
+		flags	0
+	end
+	objects
+		object DarkFaery-73017-0 of DarkFaery
+			properties
+				x	293
+				y	233
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 73018
+	properties
+		template 30701
+		west 73017
+      	roomName	"Faery Queen"
+		flags	0
+	end
+	objects
+		object FaeryQueen-73018-0 of FaeryQueen
+			properties
+				x	277
+				y	244
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+	end
+end
+room 74078
+	properties
+		template 30805
+		east 74077
+      	roomName	"Warrior"
+		flags	0
+	end
+	objects
+		object WarriorE-74078-0 of WarriorE
+			properties
+				x	250
+				y	259
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74077
+	properties
+		template 30901
+		east 74076
+		west 74078
+      	roomName	"Warrior"
+		flags	0
+	end
+	objects
+		object WarriorD-74077-0 of WarriorD
+			properties
+				x	165
+				y	251
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74076
+	properties
+		template 30703
+		east 74075
+		west 74077
+      	roomName	"Warrior"
+		flags	0
+	end
+	objects
+		object WarriorC-74076-0 of WarriorC
+			properties
+				x	308
+				y	255
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74075
+	properties
+		template 30906
+		east 74074
+		west 74076
+      	roomName	"Warrior"
+		flags	0
+	end
+	objects
+		object WarriorB-74075-0 of WarriorB
+			properties
+				x	214
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74074
+	properties
+		template 30703
+		east 73002
+		west 74075
+      	roomName	"Warrior"
+		flags	0
+	end
+	objects
+		object WarriorA-74074-0 of WarriorA
+			properties
+				x	307
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73002
+	properties
+		template 31302
+		south 73003
+		east 73008
+		west 74074
+		north 73001
+		flags	0
+	end
+	objects
+		object Sign-73002-0 of Sign
+			properties
+				x	536
+				y	239
+				loop	0
+			end
+			base described
+				text	"Fenri -->"
+			end
+		end
+		object Sign-73002-1 of Sign
+			properties
+				x	39
+				y	243
+				loop	0
+			end
+			base described
+				text	"<-- Warriors"
+			end
+		end
+	end
+end
+room 73008
+	properties
+		template 31301
+		east 73009
+		west 73002
+      	roomName	"Young Fenris"
+		flags	0
+	end
+	objects
+		object YoungFenris-73008-0 of YoungFenris
+			properties
+				x	191
+				y	263
+				loop	0
+				color	1536
+			end
+			base character
+			end
+		end
+	end
+end
+room 73009
+	properties
+		template 30703
+		east 73010
+		west 73008
+      	roomName	"Fenris"
+		flags	0
+	end
+	objects
+		object Fenris-73009-0 of Fenris
+			properties
+				x	209
+				y	271
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 73010
+	properties
+		template 30901
+		east 73019
+		west 73009
+      	roomName	"Blood Fenris"
+		flags	0
+	end
+	objects
+		object BloodFenris-73010-0 of BloodFenris
+			properties
+				x	258
+				y	271
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 73019
+	properties
+		template 30901
+		east 73020
+		west 73010
+      	roomName	"Howling Terror"
+		flags	0
+	end
+	objects
+		object HowlingTerror-73019-0 of HowlingTerror
+			properties
+				x	293
+				y	276
+				loop	0
+				color	770
+			end
+			base character
+			end
+		end
+	end
+end
+room 73020
+	properties
+		template 30201
+		west 73019
+      	roomName	"Hell Hound"
+		flags	0
+	end
+	objects
+		object HellHound-73020-0 of HellHound
+			properties
+				x	264
+				y	270
+				loop	0
+				color	769
+			end
+			base character
+			end
+		end
+	end
+end
+room 73003
+	properties
+		template 31302
+		south 73004
+		east 73011
+		north 73002
+		west 74080
+		flags	0
+	end
+	objects
+		object Sign-73003-0 of Sign
+			properties
+				x	515
+				y	241
+				loop	0
+			end
+			base described
+				text	"Snakes -->"
+			end
+		end
+		object Torch-73003-1 of Torch
+			properties
+				x	568
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-73003-2 of Sign
+			properties
+				x	39
+				y	243
+				loop	0
+			end
+			base described
+				text	"<-- Wardens"
+			end
+		end
+	end
+end
+room 73011
+	properties
+		template 30901
+		east 73012
+		west 73003
+      	roomName	"Cobra"
+		flags	0
+	end
+	objects
+		object Cobra-73011-0 of Cobra
+			properties
+				x	310
+				y	280
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 73012
+	properties
+		template 30703
+		east 73013
+		west 73011
+      	roomName	"Spitting Cobra"
+		flags	0
+	end
+	objects
+		object SpittingCobra-73012-0 of SpittingCobra
+			properties
+				x	296
+				y	271
+				loop	0
+				color	49
+			end
+			base character
+			end
+		end
+	end
+end
+room 73013
+	properties
+		template 30906
+		east 73021
+		west 73012
+      	roomName	"Lava Serpent"
+		flags	0
+	end
+	objects
+		object LavaSerpent-73013-0 of LavaSerpent
+			properties
+				x	334
+				y	279
+				loop	0
+				color	58
+			end
+			base character
+			end
+		end
+	end
+end
+room 73021
+	properties
+		template 31301
+		east 73022
+		west 73013
+      	roomName	"King Cobra"
+		flags	0
+	end
+	objects
+		object KingCobra-73021-0 of KingCobra
+			properties
+				x	279
+				y	277
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 73022
+	properties
+		template 30701
+		west 73021
+      	roomName	"Hell Snake"
+		flags	0
+	end
+	objects
+		object HellSnake-73022-0 of HellSnake
+			properties
+				x	206
+				y	267
+				loop	2
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end
+room 73004
+	properties
+		template 31008
+		south 73025
+		east 73014
+		north 73003
+		west 74090
+		flags	0
+	end
+	objects
+		object Sign-73004-0 of Sign
+			properties
+				x	407
+				y	246
+				loop	0
+			end
+			base described
+				text	"Zombies & Liches -->"
+			end
+		end
+		object Sign-73003-1 of Sign
+			properties
+				x	139
+				y	243
+				loop	0
+			end
+			base described
+				text	"<-- Paladins"
+			end
+		end
+	end
+end
+room 73014
+	properties
+		template 30901
+		east 73015
+		west 73004
+		flags	0
+	end
+end
+room 73015
+	properties
+		template 30906
+		east 73016
+		west 73014
+      	roomName	"Zombie"
+		flags	0
+	end
+	objects
+		object Zombie-73015-0 of Zombie
+			properties
+				x	164
+				y	260
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73016
+	properties
+		template 30703
+		east 73023
+		west 73015
+      	roomName	"Ghoul"
+		flags	0
+	end
+	objects
+		object Ghoul-73016-0 of Ghoul
+			properties
+				x	208
+				y	267
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73023
+	properties
+		template 30901
+		east 73024
+		west 73016
+      	roomName	"Undead Necromancer"
+		flags	0
+	end
+	objects
+		object UndeadNecromancer-73023-0 of UndeadNecromancer
+			properties
+				x	159
+				y	257
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73024
+	properties
+		template 31301
+		east 73043
+		west 73023
+      	roomName	"Entombed One"
+		flags	0
+	end
+	objects
+		object EntombedOne-73024-0 of EntombedOne
+			properties
+				x	280
+				y	242
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73043
+	properties
+		template 30906
+		east 73044
+		west 73024
+      	roomName	"Lich"
+		flags	0
+	end
+	objects
+		object Lich-73043-0 of Lich
+			properties
+				x	198
+				y	254
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73044
+	properties
+		template 30201
+		west 73043
+      	roomName	"Crypt Keeper"
+		flags	0
+	end
+	objects
+		object CryptKeeper-73044-0 of CryptKeeper
+			properties
+				x	212
+				y	267
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73025
+	properties
+		template 31302
+		south 73029
+		east 73026
+		north 73004
+#		west 74093
+		flags	0
+	end
+	objects
+		object Sign-73025-0 of Sign
+			properties
+				x	484
+				y	248
+				loop	0
+			end
+			base described
+				text	"Assorted Wraiths -->"
+			end
+		end
+#		object Sign-73025-1 of Sign
+#			properties
+#				x	39
+#				y	243
+#				loop	0
+#			end
+#			base described
+#				text	"<-- Soldiers"
+#			end
+#		end
+	end
+end
+room 73026
+	properties
+		template 30703
+		east 73027
+		west 73025
+      	roomName	"Wraith"
+		flags	0
+	end
+	objects
+		object Wraith-73026-0 of Wraith
+			properties
+				x	230
+				y	265
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 73027
+	properties
+		template 30906
+		east 73028
+		west 73026
+      	roomName	"Wraith"
+		flags	0
+	end
+	objects
+		object Wraith-73027-0 of Wraith
+			properties
+				x	219
+				y	253
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 73028
+	properties
+		template 30703
+		east 73037
+		west 73027
+      	roomName	"Wraith"
+		flags	0
+	end
+	objects
+		object Wraith-73028-0 of Wraith
+			properties
+				x	314
+				y	237
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 73037
+	properties
+		template 30703
+		east 73038
+		west 73028
+      	roomName	"Wraith"
+		flags	0
+	end
+	objects
+		object Wraith-73037-0 of Wraith
+			properties
+				x	319
+				y	248
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 73038
+	properties
+		template 30701
+		west 73037
+      	roomName	"Wraith"
+		flags	0
+	end
+	objects
+		object Wraith-73038-0 of Wraith
+			properties
+				x	281
+				y	239
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 73029
+	properties
+		template 31302
+		south 73033
+		east 73030
+		north 73025
+		west 74096
+		flags	0
+	end
+	objects
+		object Mouse-73029-0 of Mouse
+			properties
+				x	407
+				y	277
+				loop	0
+				color	2088
+			end
+			base character
+			end
+		end
+		object Sign-73029-1 of Sign
+			properties
+				x	502
+				y	243
+				loop	0
+			end
+			base described
+				text	"Ratlings -->"
+			end
+		end
+		object Sign-73029-2 of Sign
+			properties
+				x	39
+				y	243
+				loop	0
+			end
+			base described
+				text	"<-- Maze Denizens"
+			end
+		end
+	end
+end
+room 73030
+	properties
+		template 31301
+		east 73031
+		west 73029
+      	roomName	"Ratling"
+		flags	0
+	end
+	objects
+		object Ratling-73030-0 of Ratling
+			properties
+				x	192
+				y	263
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73031
+	properties
+		template 30703
+		east 73032
+		west 73030
+      	roomName	"Wood Rat"
+		flags	0
+	end
+	objects
+		object WoodRat-73031-0 of WoodRat
+			properties
+				x	252
+				y	275
+				loop	0
+				color	40
+			end
+			base character
+			end
+		end
+	end
+end
+room 73032
+	properties
+		template 30906
+		east 73039
+		west 73031
+      	roomName	"Desert Rat"
+		flags	0
+	end
+	objects
+		object DesertRat-73032-0 of DesertRat
+			properties
+				x	232
+				y	274
+				loop	0
+				color	41
+			end
+			base character
+			end
+		end
+	end
+end
+room 73039
+	properties
+		template 30703
+		east 73040
+		west 73032
+      	roomName	"Swamp Rat"
+		flags	0
+	end
+	objects
+		object SwampRat-73039-0 of SwampRat
+			properties
+				x	261
+				y	269
+				loop	0
+				color	47
+			end
+			base character
+			end
+		end
+	end
+end
+room 73040
+	properties
+		template 31301
+		east 73045
+		west 73039
+      	roomName	"Cave Rat"
+		flags	0
+	end
+	objects
+		object CaveRat-73040-0 of CaveRat
+			properties
+				x	278
+				y	241
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 73045
+	properties
+		template 30901
+		east 73046
+		west 73040
+      	roomName	"Arctic Rat"
+		flags	0
+	end
+	objects
+		object ArcticRat-73045-0 of ArcticRat
+			properties
+				x	254
+				y	282
+				loop	0
+				color	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 73046
+	properties
+		template 30703
+		east 73047
+		west 73045
+      	roomName	"Flame Rat"
+		flags	0
+	end
+	objects
+		object FlameRat-73046-0 of FlameRat
+			properties
+				x	266
+				y	282
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+	end
+end
+room 73047
+	properties
+		template 31301
+		east 73048
+		west 73046
+      	roomName	"Plague Rat"
+		flags	0
+	end
+	objects
+		object PlagueRat-73047-0 of PlagueRat
+			properties
+				x	301
+				y	277
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+	end
+end
+room 73048
+	properties
+		template 30201
+		west 73047
+      	roomName	"Demon Rat"
+		flags	0
+	end
+	objects
+		object DemonRat-73048-0 of DemonRat
+			properties
+				x	224
+				y	274
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 73033
+	properties
+		template 32402
+		south 73049
+		east 73034
+		north 73029
+		flags	0
+	end
+	objects
+		object Sign-73033-0 of Sign
+			properties
+				x	486
+				y	160
+				loop	0
+			end
+			base described
+				text	"Ghosts"
+			end
+		end
+	end
+end
+room 73034
+	properties
+		template 30901
+		east 73035
+		west 73033
+      	roomName	"Ghost"
+		flags	0
+	end
+	objects
+		object Ghost-73034-0 of Ghost
+			properties
+				x	225
+				y	278
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+	end
+end
+room 73035
+	properties
+		template 30901
+		east 73036
+		west 73034
+      	roomName	"Shade"
+		flags	0
+	end
+	objects
+		object Shade-73035-0 of Shade
+			properties
+				x	175
+				y	280
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+	end
+end
+room 73036
+	properties
+		template 30703
+		east 73041
+		west 73035
+      	roomName	"Banshee"
+		flags	0
+	end
+	objects
+		object Banshee-73036-0 of Banshee
+			properties
+				x	268
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73041
+	properties
+		template 30201
+		west 73036
+      	roomName	"Fury"
+		flags	0
+	end
+	objects
+		object Fury-73041-0 of Fury
+			properties
+				x	312
+				y	253
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+	end
+end
+room 73049
+	properties
+		template 31502
+		south 73056
+		east 73050
+		north 73033
+		flags	0
+	end
+	objects
+		object Sign-73049-0 of Sign
+			properties
+				x	429
+				y	245
+				loop	0
+			end
+			base described
+				text	"Wasps"
+			end
+		end
+	end
+end
+room 73050
+	properties
+		template 30906
+		east 73051
+		west 73049
+      	roomName	"Wasp Drone"
+		flags	0
+	end
+	objects
+		object WaspDrone-73050-0 of WaspDrone
+			properties
+				x	199
+				y	260
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73051
+	properties
+		template 30906
+		east 73052
+		west 73050
+      	roomName	"Wasp Worker"
+		flags	0
+	end
+	objects
+		object WaspWorker-73051-0 of WaspWorker
+			properties
+				x	184
+				y	263
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+	end
+end
+room 73052
+	properties
+		template 30703
+		east 73054
+		west 73051
+      	roomName	"Wasp Warrior"
+		flags	0
+	end
+	objects
+		object WaspWarrior-73052-0 of WaspWarrior
+			properties
+				x	276
+				y	274
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 73054
+	properties
+		template 30201
+		west 73052
+      	roomName	"Wasp Queen"
+		flags	0
+	end
+	objects
+		object WaspQueen-73054-0 of WaspQueen
+			properties
+				x	332
+				y	280
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 73056
+	properties
+		template 31005
+		south 73062
+		east 73057
+		north 73049
+		flags	0
+	end
+	objects
+		object Sign-73056-0 of Sign
+			properties
+				x	386
+				y	246
+				loop	0
+			end
+			base described
+				text	"Skeletons"
+			end
+		end
+		object Torch-73056-1 of Torch
+			properties
+				x	511
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 73057
+	properties
+		template 30901
+		east 73058
+		west 73056
+      	roomName	"Skeleton"
+		flags	0
+	end
+	objects
+		object Skeleton-73057-0 of Skeleton
+			properties
+				x	164
+				y	283
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+	end
+end
+room 73058
+	properties
+		template 30901
+		east 73059
+		west 73057
+      	roomName	"Lost Sailor"
+		flags	0
+	end
+	objects
+		object LostSailor-73058-0 of LostSailor
+			properties
+				x	216
+				y	267
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+	end
+end
+room 73059
+	properties
+		template 30201
+		west 73058
+      	roomName	"Damned One"
+		flags	0
+	end
+	objects
+		object DamnedOne-73059-0 of DamnedOne
+			properties
+				x	283
+				y	284
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 73062
+	properties
+		template 31402
+		south 73068
+		east 73063
+		north 73056
+		flags	0
+	end
+	objects
+		object Sign-73062-0 of Sign
+			properties
+				x	396
+				y	233
+				loop	0
+			end
+			base described
+				text	"Bats"
+			end
+		end
+	end
+end
+room 73063
+	properties
+		template 30906
+		east 73064
+		west 73062
+      	roomName	"Bat"
+		flags	0
+	end
+	objects
+		object Bat-73063-0 of Bat
+			properties
+				x	242
+				y	272
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 73064
+	properties
+		template 30901
+		east 73065
+		west 73063
+      	roomName	"Flying Rat"
+		flags	0
+	end
+	objects
+		object FlyingRat-73064-0 of FlyingRat
+			properties
+				x	201
+				y	276
+				loop	0
+				color	89
+			end
+			base character
+			end
+		end
+	end
+end
+room 73065
+	properties
+		template 30703
+		east 73066
+		west 73064
+      	roomName	"Crypt Bat"
+		flags	0
+	end
+	objects
+		object cryptBat-73065-0 of cryptBat
+			properties
+				x	258
+				y	268
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 73066
+	properties
+		template 31301
+		east 73067
+		west 73065
+      	roomName	"Vampire Bat"
+		flags	0
+	end
+	objects
+		object vampireBat-73066-0 of vampireBat
+			properties
+				x	251
+				y	270
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 73067
+	properties
+		template 30701
+		west 73066
+      	roomName	"Screeching Horror"
+		flags	0
+	end
+	objects
+		object screechingHorror-73067-0 of screechingHorror
+			properties
+				x	217
+				y	270
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 73068
+	properties
+		template 31005
+		south 73072
+		east 73069
+		north 73062
+		flags	0
+	end
+	objects
+		object Sign-73068-0 of Sign
+			properties
+				x	492
+				y	244
+				loop	0
+			end
+			base described
+				text	"Wolves"
+			end
+		end
+	end
+end
+room 73069
+	properties
+		template 31301
+		east 73070
+		west 73068
+      	roomName	"Wolf"
+		flags	0
+	end
+	objects
+		object Wolf-73069-0 of Wolf
+			properties
+				x	229
+				y	263
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73070
+	properties
+		template 30703
+		east 73071
+		west 73069
+      	roomName	"Rabid Wolf"
+		flags	0
+	end
+	objects
+		object RabidWolf-73070-0 of RabidWolf
+			properties
+				x	265
+				y	280
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+	end
+end
+room 73071
+	properties
+		template 30201
+		west 73070
+      	roomName	"Alpha Wolf"
+		flags	0
+	end
+	objects
+		object AlphaWolf-73071-0 of AlphaWolf
+			properties
+				x	183
+				y	260
+				loop	0
+				color	1538
+			end
+			base character
+			end
+		end
+	end
+end
+room 73072
+	properties
+		template 31007
+		south 73078
+		east 73073
+		north 73068
+		flags	0
+	end
+	objects
+		object Sign-73072-0 of Sign
+			properties
+				x	541
+				y	268
+				loop	0
+			end
+			base described
+				text	"Ogres"
+			end
+		end
+		object Fountain-73072-1 of Fountain
+			properties
+				x	166
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-73072-2 of Torch
+			properties
+				x	541
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 73073
+	properties
+		template 30703
+		east 73074
+		west 73072
+      	roomName	"Ogre"
+		flags	0
+	end
+	objects
+		object Ogre-73073-0 of Ogre
+			properties
+				x	237
+				y	271
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 73074
+	properties
+		template 30703
+		east 73075
+		west 73073
+      	roomName	"Ogre Child"
+		flags	0
+	end
+	objects
+		object OgreChild-73074-0 of OgreChild
+			properties
+				x	231
+				y	270
+				loop	0
+				color	24
+			end
+			base character
+			end
+		end
+	end
+end
+room 73075
+	properties
+		template 30703
+		east 73076
+		west 73074
+      	roomName	"Ugly Ogre"
+		flags	0
+	end
+	objects
+		object UglyOgre-73075-0 of UglyOgre
+			properties
+				x	249
+				y	273
+				loop	0
+				color	794
+			end
+			base character
+			end
+		end
+	end
+end
+room 73076
+	properties
+		template 30703
+		east 73077
+		west 73075
+      	roomName	"Ogre Mage"
+		flags	0
+	end
+	objects
+		object OgreMage-73076-0 of OgreMage
+			properties
+				x	293
+				y	275
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+	end
+end
+room 73077
+	properties
+		template 30201
+		west 73076
+      	roomName	"Ogre Chief"
+		flags	0
+	end
+	objects
+		object OgreChief-73077-0 of OgreChief
+			properties
+				x	245
+				y	274
+				loop	0
+				color	792
+			end
+			base character
+			end
+		end
+	end
+end
+room 73078
+	properties
+		template 31401
+		south 73085
+		east 73079
+		north 73072
+		flags	0
+	end
+	objects
+		object Sign-73078-0 of Sign
+			properties
+				x	520
+				y	252
+				loop	0
+			end
+			base described
+				text	"Trolls"
+			end
+		end
+	end
+end
+room 73079
+	properties
+		template 30906
+		east 73080
+		west 73078
+      	roomName	"Troll"
+		flags	0
+	end
+	objects
+		object Troll-73079-0 of Troll
+			properties
+				x	208
+				y	274
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73080
+	properties
+		template 30906
+		east 73081
+		west 73079
+      	roomName	"Troll Armsman"
+		flags	0
+	end
+	objects
+		object TrollArmsman-73080-0 of TrollArmsman
+			properties
+				x	202
+				y	283
+				loop	0
+				color	24
+			end
+			base character
+			end
+		end
+	end
+end
+room 73081
+	properties
+		template 30901
+		east 73082
+		west 73080
+      	roomName	"Troll Warrior"
+		flags	0
+	end
+	objects
+		object TrollWarrior-73081-0 of TrollWarrior
+			properties
+				x	208
+				y	268
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+	end
+end
+room 73082
+	properties
+		template 30703
+		east 73083
+		west 73081
+      	roomName	"Troll Elementalist "
+		flags	0
+	end
+	objects
+		object TrollElementalist-73082-0 of TrollElementalist
+			properties
+				x	227
+				y	283
+				loop	0
+				color	26
+			end
+			base character
+			end
+		end
+	end
+end
+room 73083
+	properties
+		template 30901
+		east 73084
+		west 73082
+      	roomName	"Troll Sorcerer"
+		flags	0
+	end
+	objects
+		object TrollSorcerer-73083-0 of TrollSorcerer
+			properties
+				x	226
+				y	287
+				loop	0
+				color	26
+			end
+			base character
+			end
+		end
+	end
+end
+room 73084
+	properties
+		template 30201
+		west 73083
+      	roomName	"Troll King"
+		flags	0
+	end
+	objects
+		object TrollKing-73084-0 of TrollKing
+			properties
+				x	256
+				y	261
+				loop	0
+				color	1814
+			end
+			base character
+			end
+		end
+	end
+end
+room 73085
+	properties
+		template 31402
+		south 73094
+		east 73086
+		north 73078
+		flags	0
+	end
+	objects
+		object Sign-73085-0 of Sign
+			properties
+				x	362
+				y	235
+				loop	0
+			end
+			base described
+				text	"Imps"
+			end
+		end
+	end
+end
+room 73086
+	properties
+		template 31301
+		east 73087
+		west 73085
+      	roomName	"Imp"
+		flags	0
+	end
+	objects
+		object Imp-73086-0 of Imp
+			properties
+				x	188
+				y	265
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73087
+	properties
+		template 30906
+		east 73088
+		west 73086
+      	roomName	"Imp Citizen"
+		flags	0
+	end
+	objects
+		object ImpCitizen-73087-0 of ImpCitizen
+			properties
+				x	227
+				y	280
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+	end
+end
+room 73088
+	properties
+		template 31301
+		east 73089
+		west 73087
+      	roomName	"Imp Guard"
+		flags	0
+	end
+	objects
+		object ImpGuard-73088-0 of ImpGuard
+			properties
+				x	246
+				y	259
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+	end
+end
+room 73089
+	properties
+		template 30906
+		east 73090
+		west 73088
+      	roomName	"Imp Slavemaster"
+		flags	0
+	end
+	objects
+		object ImpSlaveMaster-73089-0 of ImpSlaveMaster
+			properties
+				x	203
+				y	283
+				loop	0
+				color	16
+			end
+			base character
+			end
+		end
+	end
+end
+room 73090
+	properties
+		template 31301
+		east 73091
+		west 73089
+      	roomName	"Imp Thaumaturgist"
+		flags	0
+	end
+	objects
+		object ImpThaumaturgist-73090-0 of ImpThaumaturgist
+			properties
+				x	157
+				y	260
+				loop	0
+				color	16
+			end
+			base character
+			end
+		end
+	end
+end
+room 73091
+	properties
+		template 30906
+		east 73092
+		west 73090
+      	roomName	"Imp Necromancer"
+		flags	0
+	end
+	objects
+		object ImpNecromancer-73091-0 of ImpNecromancer
+			properties
+				x	201
+				y	266
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+	end
+end
+room 73092
+	properties
+		template 30703
+		east 73093
+		west 73091
+      	roomName	"Imp Warrior"
+		flags	0
+	end
+	objects
+		object ImpWarrior-73092-0 of ImpWarrior
+			properties
+				x	233
+				y	269
+				loop	0
+				color	21
+			end
+			base character
+			end
+		end
+	end
+end
+room 73093
+	properties
+		template 30201
+		west 73092
+      	roomName	"Imp King"
+		flags	0
+	end
+	objects
+		object ImpKing-73093-0 of ImpKing
+			properties
+				x	233
+				y	253
+				loop	0
+				color	20
+			end
+			base character
+			end
+		end
+	end
+end
+room 73094
+	properties
+		template 31005
+		south 73099
+		east 73095
+		north 73085
+		flags	0
+	end
+	objects
+		object Sign-73094-0 of Sign
+			properties
+				x	496
+				y	242
+				loop	0
+			end
+			base described
+				text	"Seraphs"
+			end
+		end
+		object Torch-73094-1 of Torch
+			properties
+				x	510
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 73095
+	properties
+		template 30906
+		east 73096
+		west 73094
+      	roomName	"Seraph"
+		flags	0
+	end
+	objects
+		object Seraph-73095-0 of Seraph
+			properties
+				x	202
+				y	271
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 73096
+	properties
+		template 30703
+		east 73097
+		west 73095
+      	roomName	"Seraph Warrior"
+		flags	0
+	end
+	objects
+		object SeraphWarrior-73096-0 of SeraphWarrior
+			properties
+				x	229
+				y	274
+				loop	0
+				color	867
+			end
+			base character
+			end
+		end
+	end
+end
+room 73097
+	properties
+		template 30703
+		east 73098
+		west 73096
+      	roomName	"Seraph Thaumaturgist"
+		flags	0
+	end
+	objects
+		object SeraphThaumaturgist-73097-0 of SeraphThaumaturgist
+			properties
+				x	245
+				y	274
+				loop	0
+				color	851
+			end
+			base character
+			end
+		end
+	end
+end
+room 73098
+	properties
+		template 30201
+		west 73097
+      	roomName	"Seraph Queen"
+		flags	0
+	end
+	objects
+		object SeraphQueen-73098-0 of SeraphQueen
+			properties
+				x	235
+				y	271
+				loop	0
+				color	822
+			end
+			base character
+			end
+		end
+	end
+end
+room 73099
+	properties
+		template 32402
+		south 73306
+		east 73199
+		north 73094
+		flags	0
+	end
+	objects
+		object Sign-73099-0 of Sign
+			properties
+				x	488
+				y	161
+				loop	0
+			end
+			base described
+				text	"Daemons"
+			end
+		end
+		object Torch-73099-1 of Torch
+			properties
+				x	212
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 73199
+	properties
+		template 31301
+		east 73200
+		west 73099
+      	roomName	"Daemon"
+		flags	0
+	end
+	objects
+		object Daemon-73199-0 of Daemon
+			properties
+				x	179
+				y	280
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 73200
+	properties
+		template 30901
+		east 73201
+		west 73199
+      	roomName	"Flame Daemon"
+		flags	0
+	end
+	objects
+		object FlameDaemon-73200-0 of FlameDaemon
+			properties
+				x	182
+				y	264
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+	end
+end
+room 73201
+	properties
+		template 30703
+		east 73202
+		west 73200
+      	roomName	"Snow Daemon"
+		flags	0
+	end
+	objects
+		object SnowDaemon-73201-0 of SnowDaemon
+			properties
+				x	254
+				y	272
+				loop	0
+				color	790
+			end
+			base character
+			end
+		end
+	end
+end
+room 73202
+	properties
+		template 30906
+		east 73203
+		west 73201
+      	roomName	"Daemon King"
+		flags	0
+	end
+	objects
+		object DaemonKing-73202-0 of DaemonKing
+			properties
+				x	190
+				y	271
+				loop	0
+				color	784
+			end
+			base character
+			end
+		end
+	end
+end
+room 73203
+	properties
+		template 31301
+		east 73204
+		west 73202
+      	roomName	"Kilrog"
+		flags	0
+	end
+	objects
+		object Kilrog-73203-0 of Kilrog
+			properties
+				x	244
+				y	279
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+	end
+end
+room 73204
+	properties
+		template 30701
+		west 73203
+      	roomName	"King Kilrog"
+		flags	0
+	end
+	objects
+		object KingKilrog-73204-0 of KingKilrog
+			properties
+				x	234
+				y	281
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+	end
+end
+room 73306
+	properties
+		template 31005
+		south 73309
+		east 73307
+		north 73099
+		flags	0
+	end
+	objects
+		object Sign-73306-0 of Sign
+			properties
+				x	474
+				y	248
+				loop	0
+			end
+			base described
+				text	"Mythic Creatures"
+			end
+		end
+	end
+end
+room 73307
+	properties
+		template 31301
+		east 73308
+		west 73306
+      	roomName	"Medusa"
+		flags	0
+	end
+	objects
+		object Medusa-73307-0 of Medusa
+			properties
+				x	267
+				y	260
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73308
+	properties
+		template 32403
+		east 73311
+		west 73307
+      	roomName	"Cyclops"
+		flags	0
+	end
+	objects
+		object Cyclops-73308-0 of Cyclops
+			properties
+				x	251
+				y	233
+				loop	2
+				color	1536
+			end
+			base character
+			end
+		end
+	end
+end
+room 73311
+	properties
+		template 30703
+		east 73312
+		west 73308
+      	roomName	"Devil"
+		flags	0
+	end
+	objects
+		object Devil-73311-0 of Devil
+			properties
+				x	301
+				y	259
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 73312
+	properties
+		template 30201
+		west 73311
+		flags	0
+	end
+end
+room 73309
+	properties
+		template 31004
+		south 73310
+		north 73306
+		flags	0
+	end
+	objects
+		object Chair-73309-0 of Chair
+			properties
+				x	195
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-73309-1 of Chair
+			properties
+				x	258
+				y	246
+				loop	2
+			end
+			base described
+			end
+		end
+		object Chair-73309-2 of Chair
+			properties
+				x	151
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-73309-3 of Chair
+			properties
+				x	329
+				y	252
+				loop	1
+			end
+			base described
+			end
+		end
+		object Chair-73309-4 of Chair
+			properties
+				x	371
+				y	274
+				loop	1
+			end
+			base described
+			end
+		end
+		object Chair-73309-5 of Chair
+			properties
+				x	124
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-73309-6 of Embers
+			properties
+				x	271
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-73309-7 of FireA
+			properties
+				x	261
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-73309-8 of Torch
+			properties
+				x	441
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-73309-9 of Torch
+			properties
+				x	190
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 73310
+	properties
+		template 30403
+		north 73309
+		flags	0
+	end
+	objects
+		object Sign-73310-0 of Sign
+			properties
+				x	165
+				y	245
+				loop	0
+			end
+			base described
+				text	"The End. Pull the lever to go back."
+			end
+		end
+		object Lever-73310-1 of Lever
+			properties
+				x	343
+				y	276
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 73000 0 
+				vBeDeactivated teleport dobj 73000 0 
+			end
+			base described
+			end
+		end
+	end
+end
+# New Monster Additions as of 11 Dec 2003 
+room 74080
+	properties
+		template 30901
+		east 73003
+		west 74081
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA06-74080-0 of WardenHA06
+			properties
+				x	158
+				y	254
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74081
+	properties
+		template 30906
+		east 74080
+		west 74082
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA07-74081-0 of WardenHA07
+			properties
+				x	218
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74082
+	properties
+		template 30703
+		east 74081
+		west 74083
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA08-74082-0 of WardenHA08
+			properties
+				x	299
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74083
+	properties
+		template 31301
+		east 74082
+		west 74084
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA09-74083-0 of WardenHA09
+			properties
+				x	289
+				y	261
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74084
+	properties
+		template 30703
+		east 74083
+		west 74085
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA10-74084-0 of WardenHA10
+			properties
+				x	231
+				y	248
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74085
+	properties
+		template 30906
+		east 74084
+		west 74086
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA11-74085-0 of WardenHA11
+			properties
+				x	218
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74086
+	properties
+		template 30703
+		east 74085
+      	roomName	"Warden"
+		flags	0
+	end
+	objects
+		object WardenHA12-74086-0 of WardenHA12
+			properties
+				x	299
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+
+room 74090
+	properties
+		template 30703
+		east 73004
+		west 74091
+      	roomName	"Paladin"
+		flags	0
+	end
+	objects
+		object Paladin-74090-0 of Paladin
+			properties
+				x	308
+				y	255
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74091
+	properties
+		template 30906
+		east 74090
+		west 74092
+      	roomName	"Paladin"
+		flags	0
+	end
+	objects
+		object PaladinA-74091-0 of PaladinA
+			properties
+				x	214
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74092
+	properties
+		template 30703
+		east 74091
+      	roomName	"Paladin"
+		flags	0
+	end
+	objects
+		object PaladinB-74092-0 of PaladinB
+			properties
+				x	307
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+
+#room 74093
+#	properties
+#		template 30703
+#		east 73025
+#		west 74094
+#      	roomName	"Soldier"
+#		flags	0
+#	end
+#	objects
+#		object SoldierE-74093-0 of SoldierE
+#			properties
+#				x	308
+#				y	255
+#				loop	2
+#				color	104
+#			end
+#			base character
+#			end
+#		end
+#	end
+#end
+#room 74094
+#	properties
+#		template 30906
+#		east 74093
+#		west 74095
+#      	roomName	"Soldier"
+#		flags	0
+#	end
+#	objects
+#		object SoldierN-74094-0 of SoldierN
+#			properties
+#				x	214
+#				y	250
+#				loop	2
+#				color	104
+#			end
+#			base character
+#			end
+#		end
+#	end
+#end
+#room 74095
+#	properties
+#		template 30703
+#		east 74094
+#      	roomName	"Soldier"
+#		flags	0
+#	end
+#	objects
+#		object SoldierG-74095-0 of SoldierG
+#			properties
+#				x	307
+#				y	246
+#				loop	2
+#				color	104
+#			end
+#			base character
+#			end
+#		end
+#	end
+#end
+
+room 74096
+	properties
+		template 30703
+		east 73029
+		west 74097
+      	roomName	"Harlequin"
+		flags	0
+	end
+	objects
+		object HarlequinEvil-74096-0 of HarlequinEvil
+			properties
+				x	308
+				y	255
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74097
+	properties
+		template 30906
+		east 74096
+		west 74098
+      	roomName	"Gremlin"
+		flags	0
+	end
+	objects
+		object GremlinEvil-74097-0 of GremlinEvil
+			properties
+				x	214
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74098
+	properties
+		template 30703
+		east 74097
+      	roomName	"Rapscallion"
+		flags	0
+	end
+	objects
+		object RapscallionEvil-74098-0 of RapscallionEvil
+			properties
+				x	307
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end

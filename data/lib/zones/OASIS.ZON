@@ -1,0 +1,7 @@
+name "TheOasis"
+title "The Oasis"
+worldFile "../data/lib/world/OASIS2.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 17

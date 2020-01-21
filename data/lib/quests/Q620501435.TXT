@@ -1,0 +1,15 @@
+quest  84 #6205-01-435        # Minka, Feel Your Best, Asgard, 6906
+
+name  "Minka's Remedy
+type  fedex
+
+proposal  "Ghoud?  My dear friend, Ghoud?  But he never has a headache.  I am very concerned about this. Perhaps I should go over . . .   Uh oh.  This must be about Mara and that wretched key.  That's the only subject that sends him into paroxysms of anger.  It's a long story, stranger, and I shan't relate it because I dislike gossip.  I will assure you, however, that there is no disgrace to Ghoud in the saga.  As for Mara, that's another story altogether.  However, if you've come for the key perhaps we can put it behind us, once and for all.  Will you wait a moment while I prepare a remedy for the good Ghoud?"
+
+declined  "No matter.  I'll take it to him myself."
+
+accepted  "Good.  It is, in fact, ready now so you may return to him at once."
+
+reminder   "Take the headache remedy to Ghoud at once.  He is in great need of it."
+
+reward   qHeadacheCure 
+end

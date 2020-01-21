@@ -1,0 +1,18 @@
+quest  82 #6205-01-425        # Mara, Wards of War, magic, Kurz, 8021
+
+name  "Mara's Small Request"
+type  fedex
+
+proposal  "Zounds!  Do I hear correctly?  You want a Banshee Relic, and you seek in Wards of War.  You come to MY shop of magic!  I do NOT deal is such items!  I do not care to deal in such items!  It is an insult that you come to me!  Ahem.  However, since you are a stranger and do not know these things, I will help you.  As a special favor to you . . . note what I say, a favor . . . I know where I can procure this item.  I will get it for you if you will also do a favor for me.  It's a small thing, really.  Just go to Asgard and get my key. Will you do this small chore?"  
+
+declined  "Then you will NOT find the Banshee Relic.  Do you hear me?  Never!"
+
+accepted  "My key is in Asgard with a shopkeeper there."
+
+reminder   "Go to Asgard and get my key from a shopkeeper."
+
+completed  "So you have my key.  I'm amazed that I agreed to let the Banshee Relic go for such a small task.  But, as I did, here it is."
+
+getItem  qMaraKey
+reward   qBansheeRelic 
+end

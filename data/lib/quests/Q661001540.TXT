@@ -1,0 +1,14 @@
+quest  199 #6610-01-540        # Minka, Feel Your Best, healer, Asgard, 6906
+name  "Package for Ghoud"
+type  fedex
+
+proposal  "Of course.  I always have a supply.  It's good for so many ills.  Have you ever tried it?  Perhaps you should consider a small container for yourself.  But first let us service the good Ghoud.  You will take it to him, won't you?" 
+
+declined  "Surely you could reconsider."
+
+accepted  "Here you are."
+
+reminder   "Hadn't you better get that cinnamon oil over to Ghoud?"
+
+reward   qCinnamonOil 
+end

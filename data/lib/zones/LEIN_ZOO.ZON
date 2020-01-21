@@ -1,0 +1,11 @@
+name "LEIN_ZOO"
+title "Leinster Zoo"
+worldFile "../data/lib/world/ZOO-NEW1.WLD"
+worldFile "../data/lib/world/ZOO-NEW2.WLD"
+worldFile "../data/lib/world/ZOO-NEW3.WLD"
+worldFile "../data/lib/world/ZOO-NEW4.WLD"
+allowCombat 0
+#resetInterval 120
+midiFile 23
+#isDungeon 2		# non-exclusive reset logic
+entrance simpleDoor5000-0

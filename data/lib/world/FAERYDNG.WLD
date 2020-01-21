@@ -1,0 +1,2175 @@
+# Dungeonmaker World File (faerydng.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 85000
+# Dungeon last room = 85207
+# Number of objects in dungeon = 197
+# Level 0 information:
+room 85019
+	properties
+		template 32301
+		east 85010
+		flags	8
+	end
+	objects
+		object RandomCritter-85019-0 of RandomCritter
+			properties
+				x	433
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCritter-85019-1 of RandomCritter
+			properties
+				x	432
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85019-2 of Torch
+			properties
+				x	512
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-85019-3 of Stalagmite2
+			properties
+				x	66
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-85019-4 of Stalagmite4
+			properties
+				x	112
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85010
+	properties
+		template 32401
+		south 85009
+		east 85011
+		west 85019
+		flags	0
+	end
+	objects
+		object SeraphThaumaturgist-85010-0 of SeraphThaumaturgist
+			properties
+				x	523
+				y	268
+				loop	1
+				color	814
+			end
+			base character
+			end
+		end
+		object Seraph-85010-1 of Seraph
+			properties
+				x	143
+				y	294
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Seraph-85010-2 of Seraph
+			properties
+				x	151
+				y	260
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Torch-85010-3 of Torch
+			properties
+				x	310
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-85010-4 of FireC
+			properties
+				x	79
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-85010-5 of SmokeA
+			properties
+				x	77
+				y	324
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85011
+	properties
+		template 30602
+		south 85026
+		west 85010
+		flags	0
+	end
+	objects
+		object RandomCritter-85011-0 of RandomCritter
+			properties
+				x	393
+				y	301
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-85011-1 of Torch
+			properties
+				x	77
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-85011-2 of Stalagmite4
+			properties
+				x	420
+				y	190
+				loop	2
+			end
+			base described
+			end
+		end
+		object Rock3-85011-3 of Rock3
+			properties
+				x	369
+				y	188
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-85011-4 of Rock2
+			properties
+				x	353
+				y	145
+				loop	1
+			end
+			base described
+			end
+		end
+		object Rock1-85011-5 of Rock1
+			properties
+				x	492
+				y	169
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-85011-6 of Stalagmite2
+			properties
+				x	455
+				y	150
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85009
+	properties
+		template 31005
+		south 85005
+		east 85026
+		north 85010
+		flags	0
+	end
+	objects
+		object RandomCritter-85009-0 of RandomCritter
+			properties
+				x	200
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85009-1 of Torch
+			properties
+				x	511
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-85009-2 of Rock2
+			properties
+				x	504
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85026
+	properties
+		template 32201
+		east 85027
+		west 85009
+		north 85011
+		flags	0
+	end
+	objects
+		object Faery-85026-0 of Faery
+			properties
+				x	154
+				y	299
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85026-1 of Torch
+			properties
+				x	321
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-85026-2 of Shroom1
+			properties
+				x	354
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-85026-3 of Shroom2
+			properties
+				x	293
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-85026-4 of Shroom3
+			properties
+				x	269
+				y	268
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-85026-5 of Shroom3
+			properties
+				x	340
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-85026-6 of Shroom3
+			properties
+				x	224
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-85026-7 of Shroom1
+			properties
+				x	249
+				y	258
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 85027
+	properties
+		template 31104
+		south 85028
+		west 85026
+		flags	8
+	end
+	objects
+		object FaeryQueen-85027-0 of FaeryQueen
+			properties
+				x	342
+				y	247
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object WoodNymph-85027-1 of WoodNymph
+			properties
+				x	398
+				y	312
+				loop	1
+				color	83
+			end
+			base character
+			end
+		end
+		object Pixie-85027-2 of Pixie
+			properties
+				x	452
+				y	291
+				loop	1
+				color	74
+			end
+			base character
+			end
+		end
+		object Faery-85027-3 of Faery
+			properties
+				x	237
+				y	271
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-85027-4 of Faery
+			properties
+				x	208
+				y	268
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85027-5 of Torch
+			properties
+				x	276
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85000
+	properties
+		template 30303
+		south 85001
+		flags	0
+	end
+	objects
+		object SeraphWarrior-85000-0 of SeraphWarrior
+			properties
+				x	274
+				y	313
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-85000-1 of SeraphWarrior
+			properties
+				x	323
+				y	271
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object Faery-85000-2 of Faery
+			properties
+				x	379
+				y	314
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85000-3 of Torch
+			properties
+				x	317
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-85000-4 of DungeonBackUp
+			properties
+				x	469
+				y	227
+				loop	2
+				linkTo	movingRock2155-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Fountain-85000-5 of Fountain
+			properties
+				x	273
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-85000-6 of Stool
+			properties
+				x	95
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-85000-7 of Stool
+			properties
+				x	127
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-85000-8 of Stool
+			properties
+				x	185
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-85000-9 of Stool
+			properties
+				x	246
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85005
+	properties
+		template 31001
+		south 85003
+		north 85009
+		flags	0
+	end
+	objects
+		object Faery-85005-0 of Faery
+			properties
+				x	193
+				y	306
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85005-1 of Torch
+			properties
+				x	366
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-85005-2 of Stalagmite4
+			properties
+				x	487
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-85005-3 of Stalagmite3
+			properties
+				x	109
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85028
+	properties
+		template 30401
+		north 85027
+		flags	0
+	end
+	objects
+		object DarkFaery-85028-0 of DarkFaery
+			properties
+				x	502
+				y	273
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object RandomCritter-85028-1 of RandomCritter
+			properties
+				x	170
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85028-2 of Torch
+			properties
+				x	481
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85030
+	properties
+		template 30805
+		east 85029
+		flags	0
+	end
+	objects
+		object SeraphWarrior-85030-0 of SeraphWarrior
+			properties
+				x	384
+				y	239
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object Bat-85030-1 of Bat
+			properties
+				x	281
+				y	266
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-85030-2 of Bat
+			properties
+				x	264
+				y	265
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bones-85030-3 of Bones
+			properties
+				x	128
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85030-4 of Torch
+			properties
+				x	247
+				y	209
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-85030-5 of Rock1
+			properties
+				x	46
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-85030-6 of Shroom3
+			properties
+				x	182
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-85030-7 of Shroom2
+			properties
+				x	165
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-85030-8 of Shroom1
+			properties
+				x	110
+				y	245
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-85030-9 of Shroom3
+			properties
+				x	182
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomJunk-85030-10 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85030-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-85030-11 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85030-3
+			end
+			base described
+			end
+		end
+		object RandomCowl-85030-12 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85030-3
+			end
+			base described
+			end
+		end
+		object Web5-85030-13 of Web5
+			properties
+				x	531
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-85030-14 of Web3
+			properties
+				x	539
+				y	78
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85029
+	properties
+		template 30901
+		east 85001
+		west 85030
+		flags	0
+	end
+	objects
+		object RandomCritter-85029-0 of RandomCritter
+			properties
+				x	198
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85029-1 of Torch
+			properties
+				x	355
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-85029-2 of Rock1
+			properties
+				x	220
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-85029-3 of Rock2
+			properties
+				x	154
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85001
+	properties
+		template 31502
+		south 85004
+		east 85002
+		west 85029
+		north 85000
+		flags	8
+	end
+	objects
+		object SeraphThaumaturgist-85001-0 of SeraphThaumaturgist
+			properties
+				x	518
+				y	279
+				loop	1
+				color	814
+			end
+			base character
+			end
+		end
+		object Seraph-85001-1 of Seraph
+			properties
+				x	168
+				y	283
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Faery-85001-2 of Faery
+			properties
+				x	155
+				y	265
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85001-3 of Torch
+			properties
+				x	201
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-85001-4 of Stalagmite2
+			properties
+				x	151
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-85001-5 of Stalagmite4
+			properties
+				x	556
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-85001-6 of Stalagmite1
+			properties
+				x	481
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85002
+	properties
+		template 30901
+		east 85003
+		west 85001
+		flags	0
+	end
+	objects
+		object Torch-85002-0 of Torch
+			properties
+				x	350
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85003
+	properties
+		template 30704
+		south 85006
+		west 85002
+		north 85005
+		flags	0
+	end
+	objects
+		object RandomCritter-85003-0 of RandomCritter
+			properties
+				x	223
+				y	286
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-85003-1 of Torch
+			properties
+				x	266
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-85003-2 of Rock1
+			properties
+				x	547
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85023
+	properties
+		template 30304
+		south 85022
+		flags	8
+	end
+	objects
+		object LockedChest-85023-0 of LockedChest
+			properties
+				x	402
+				y	266
+				loop	0
+			end
+			base lockable
+				isLocked	1
+				autoLock	1
+			end
+			base described
+			end
+		end
+		object FaeryQueen-85023-1 of FaeryQueen
+			properties
+				x	133
+				y	286
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object DarkFaery-85023-2 of DarkFaery
+			properties
+				x	204
+				y	286
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-85023-3 of Torch
+			properties
+				x	320
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomLeatherPants-85023-4 of RandomLeatherPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-85023-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterBauble-85023-5 of RandomMonsterBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-85023-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-85023-6 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-85023-0
+			end
+			base described
+			end
+		end
+		object Crest-85023-7 of Crest
+			properties
+				x	341
+				y	227
+				loop	0
+			end
+			actions
+				vBeAnswered unlock LockedChest-85023-0 
+				vBeAnswered open LockedChest-85023-0 
+			end
+			base described
+				riddleFile	"../data/riddles/riddle03.txt"
+			end
+		end
+	end
+end
+room 85004
+	properties
+		template 30403
+		north 85001
+		flags	0
+	end
+	objects
+		object TrapDoor-85004-0 of TrapDoor
+			properties
+				x	210
+				y	255
+				loop	0
+				linkTo	DungeonBackUp-85031-4
+			end
+			actions
+				vBeAnswered unlock TrapDoor-85004-0 
+				vBeAnswered open TrapDoor-85004-0 
+			end
+			base lockable
+				isLocked	1
+				autoLock	1
+			end
+			base described
+				riddleFile	"../data/riddles/riddle03.txt"
+			end
+		end
+	end
+end
+room 85006
+	properties
+		template 31402
+		south 85007
+		east 85020
+		north 85003
+		flags	8
+	end
+	objects
+		object SeraphWarrior-85006-0 of SeraphWarrior
+			properties
+				x	389
+				y	294
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object Shade-85006-1 of Shade
+			properties
+				x	254
+				y	293
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+		object Torch-85006-2 of Torch
+			properties
+				x	353
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85020
+	properties
+		template 30703
+		east 85021
+		west 85006
+		flags	0
+	end
+	objects
+		object Torch-85020-0 of Torch
+			properties
+				x	320
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85021
+	properties
+		template 32403
+		east 85022
+		west 85020
+		flags	8
+	end
+	objects
+		object WoodNymph-85021-0 of WoodNymph
+			properties
+				x	232
+				y	258
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-85021-1 of WoodNymph
+			properties
+				x	203
+				y	254
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+	end
+end
+room 85022
+	properties
+		template 32601
+		west 85021
+		north 85023
+		flags	0
+	end
+	objects
+		object DarkFaery-85022-0 of DarkFaery
+			properties
+				x	307
+				y	283
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-85022-1 of Torch
+			properties
+				x	262
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-85022-2 of Web3
+			properties
+				x	443
+				y	129
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-85022-3 of Web4
+			properties
+				x	493
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-85022-4 of Web2
+			properties
+				x	400
+				y	129
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85031
+	properties
+		template 30304
+		south 85032
+		flags	32
+	end
+	objects
+		object Seraph-85031-0 of Seraph
+			properties
+				x	424
+				y	291
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Bat-85031-1 of Bat
+			properties
+				x	177
+				y	302
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object RandomCritter-85031-2 of RandomCritter
+			properties
+				x	176
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85031-3 of Torch
+			properties
+				x	213
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-85031-4 of DungeonBackUp
+			properties
+				x	329
+				y	230
+				loop	2
+				linkTo	TrapDoor-85004-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite2-85031-5 of Stalagmite2
+			properties
+				x	98
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85024
+	properties
+		template 30805
+		east 85007
+		flags	8
+	end
+	objects
+		object Faery-85024-0 of Faery
+			properties
+				x	181
+				y	250
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-85024-1 of Faery
+			properties
+				x	143
+				y	243
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85024-2 of Torch
+			properties
+				x	416
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85007
+	properties
+		template 31201
+		south 85008
+		west 85024
+		north 85006
+		flags	0
+	end
+	objects
+		object Torch-85007-0 of Torch
+			properties
+				x	346
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85036
+	properties
+		template 30302
+		south 85035
+		flags	8
+	end
+	objects
+		object Sarcophagus-85036-0 of Sarcophagus
+			properties
+				x	452
+				y	310
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bat-85036-1 of Bat
+			properties
+				x	433
+				y	303
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-85036-2 of Bat
+			properties
+				x	371
+				y	299
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Medusa-85036-3 of Medusa
+			properties
+				x	181
+				y	298
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-85036-4 of Torch
+			properties
+				x	328
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-85036-5 of Shroom1
+			properties
+				x	246
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-85036-6 of Shroom2
+			properties
+				x	307
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-85036-7 of Shroom3
+			properties
+				x	244
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-85036-8 of Shroom1
+			properties
+				x	270
+				y	275
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-85036-9 of Shroom3
+			properties
+				x	283
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-85036-10 of Shroom3
+			properties
+				x	298
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-85036-11 of Shroom3
+			properties
+				x	355
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-85036-12 of Shroom1
+			properties
+				x	119
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-85036-13 of Shroom3
+			properties
+				x	144
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-85036-14 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-85036-0
+			end
+			base described
+			end
+		end
+		object RandomWand-85036-15 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-85036-0
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-85036-16 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-85036-0
+			end
+			base described
+			end
+		end
+		object RandomJunk-85036-17 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-85036-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85032
+	properties
+		template 31004
+		south 85033
+		north 85031
+		flags	0
+	end
+	objects
+		object SeraphWarrior-85032-0 of SeraphWarrior
+			properties
+				x	331
+				y	268
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-85032-1 of SeraphWarrior
+			properties
+				x	341
+				y	301
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-85032-2 of SeraphWarrior
+			properties
+				x	414
+				y	267
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-85032-3 of SeraphThaumaturgist
+			properties
+				x	229
+				y	258
+				loop	0
+				color	814
+			end
+			base character
+			end
+		end
+		object SeraphQueen-85032-4 of SeraphQueen
+			properties
+				x	151
+				y	282
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Torch-85032-5 of Torch
+			properties
+				x	388
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-85032-6 of Rock1
+			properties
+				x	337
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-85032-7 of Stalagmite1
+			properties
+				x	195
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-85032-8 of Stalagmite2
+			properties
+				x	250
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85008
+	properties
+		template 30402
+		south 85014
+		north 85007
+		flags	0
+	end
+	objects
+		object Pixie-85008-0 of Pixie
+			properties
+				x	134
+				y	283
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+		object Torch-85008-1 of Torch
+			properties
+				x	367
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85013
+	properties
+		template 30502
+		south 85012
+		east 85015
+		flags	0
+	end
+	objects
+		object WoodNymph-85013-0 of WoodNymph
+			properties
+				x	252
+				y	294
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Torch-85013-1 of Torch
+			properties
+				x	452
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85015
+	properties
+		template 30201
+		west 85013
+		flags	8
+	end
+	objects
+		object Faery-85015-0 of Faery
+			properties
+				x	303
+				y	267
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-85015-1 of Faery
+			properties
+				x	253
+				y	278
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85015-2 of Torch
+			properties
+				x	182
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85035
+	properties
+		template 32402
+		south 85037
+		east 85034
+		north 85036
+		flags	8
+	end
+	objects
+		object RandomCritter-85035-0 of RandomCritter
+			properties
+				x	261
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object Seraph-85035-1 of Seraph
+			properties
+				x	264
+				y	306
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-85035-2 of SeraphThaumaturgist
+			properties
+				x	232
+				y	297
+				loop	0
+				color	814
+			end
+			base character
+			end
+		end
+		object Torch-85035-3 of Torch
+			properties
+				x	372
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-85035-4 of Stalagmite3
+			properties
+				x	83
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85034
+	properties
+		template 30703
+		east 85033
+		west 85035
+		flags	0
+	end
+	objects
+		object Bat-85034-0 of Bat
+			properties
+				x	367
+				y	278
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-85034-1 of Bat
+			properties
+				x	343
+				y	275
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Torch-85034-2 of Torch
+			properties
+				x	313
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-85034-3 of FireA
+			properties
+				x	164
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-85034-4 of SmokeB
+			properties
+				x	166
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-85034-5 of Rock1
+			properties
+				x	70
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85033
+	properties
+		template 31303
+		west 85034
+		north 85032
+		flags	8
+	end
+	objects
+		object RandomCritter-85033-0 of RandomCritter
+			properties
+				x	198
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCritter-85033-1 of RandomCritter
+			properties
+				x	193
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-85033-2 of Torch
+			properties
+				x	162
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-85033-3 of FireC
+			properties
+				x	546
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-85033-4 of Smoke1
+			properties
+				x	542
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-85033-5 of Stalagmite4
+			properties
+				x	549
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85025
+	properties
+		template 32301
+		east 85016
+		flags	8
+	end
+	objects
+		object RandomCritter-85025-0 of RandomCritter
+			properties
+				x	430
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object WoodNymph-85025-1 of WoodNymph
+			properties
+				x	359
+				y	266
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Torch-85025-2 of Torch
+			properties
+				x	494
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85016
+	properties
+		template 30901
+		east 85014
+		west 85025
+		flags	0
+	end
+	objects
+		object Seraph-85016-0 of Seraph
+			properties
+				x	233
+				y	284
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Seraph-85016-1 of Seraph
+			properties
+				x	232
+				y	293
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Torch-85016-2 of Torch
+			properties
+				x	353
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85014
+	properties
+		template 31302
+		south 85017
+		east 85012
+		west 85016
+		north 85008
+		flags	0
+	end
+	objects
+		object Faery-85014-0 of Faery
+			properties
+				x	410
+				y	267
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-85014-1 of Torch
+			properties
+				x	446
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85012
+	properties
+		template 32601
+		west 85014
+		north 85013
+		flags	8
+	end
+	objects
+		object Bones-85012-0 of Bones
+			properties
+				x	431
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cyclops-85012-1 of Cyclops
+			properties
+				x	300
+				y	276
+				loop	1
+				color	1536
+			end
+			base character
+			end
+		end
+		object RandomCritter-85012-2 of RandomCritter
+			properties
+				x	243
+				y	292
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomCritter-85012-3 of RandomCritter
+			properties
+				x	222
+				y	265
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-85012-4 of Torch
+			properties
+				x	256
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShield-85012-5 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85012-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-85012-6 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85012-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterMegaTreasure-85012-7 of RandomMonsterMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85012-0
+			end
+			base described
+			end
+		end
+		object RandomGem-85012-8 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-85012-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85037
+	properties
+		template 32304
+		north 85035
+		flags	8
+	end
+	objects
+		object SeraphWarrior-85037-0 of SeraphWarrior
+			properties
+				x	308
+				y	281
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-85037-1 of SeraphWarrior
+			properties
+				x	256
+				y	266
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphQueen-85037-2 of SeraphQueen
+			properties
+				x	197
+				y	265
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Torch-85037-3 of Torch
+			properties
+				x	424
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 85017
+	properties
+		template 30403
+		north 85014
+		flags	8
+	end
+	objects
+		object FaeryQueen-85017-0 of FaeryQueen
+			properties
+				x	203
+				y	263
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object Pixie-85017-1 of Pixie
+			properties
+				x	210
+				y	248
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end

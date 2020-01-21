@@ -1,0 +1,88 @@
+# Dungeonmaker World File (D_SUPPLY_W.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 90000
+# Dungeon last room = 90002
+# Number of objects in dungeon = 5
+# Level 0 information:
+room 90000
+	properties
+		template 31002
+		south 90001
+		flags	0
+	end
+	objects
+		object Sign-90000-0 of Sign
+			properties
+				x	167
+				y	271
+				loop	0
+			end
+			base described
+				text	"Welcome to The Supply Store West! My stand is southwest from here. I await your visit. - Beral"
+			end
+		end
+		object DungeonBackUp-90000-1 of DungeonBackUp
+			properties
+				x	284
+				y	216
+				loop	2
+				linkTo	movingRock1471-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 90001
+	properties
+		template 30402
+		south 90002
+		north 90000
+		flags	0
+	end
+end
+room 90003
+	properties
+		template 30805
+		east 90002
+		flags	0
+	end
+	objects
+		object ClothesShop-90003-0 of Beral
+			properties
+				x	236
+				y	239
+				loop	2
+				color	106
+			end
+			base character
+			end
+			base described
+				text	"You see one of the brothers Beral. Other than his brother, Beral is the only shopkeeper in all The Realm who sells materials used for making objects."
+			end
+			base talk
+				talkTreeID	90000
+			end
+		end
+		object Stand-90003-1 of Stand
+			properties
+				x	231
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 90002
+	properties
+		template 31303
+		west 90003
+		north 90001
+		flags	0
+	end
+end

@@ -1,0 +1,21 @@
+id 9059
+#--------------- 9059 4815 wild9 male giant Ferris
+
+banner "Welcome to my shop! I offer many fine products at low, low prices friend. Care to browse?"
+
+topic "Tell me about the Wild Beyond."
+    text "It is a dangerous place. The temple of darkness rests in these woods."
+    text "Many travelers who dare to venture to far from civilization become lost...."
+    text "...never to be heard from again."
+end
+
+topic "Who are you?"
+    text "My name is Ferris, keeper of Ferris's Wilderness Shop. I've tried other places, so far this is the best."
+    text "Any ole person can set up a shop in some city. It takes a real giant to run one out in the wilderness."
+    text "Fortunately, I learned the teleport spell before I ventured out here. At the first sign of danger I'm out of here."
+end
+
+topic "How can I find my way back to town?"
+    text "Oh, that's easy! Just follow the path outside my tent west and north. You'll end up in Wen in no time."
+    text "Well, provided the wild beasts don't get you."
+end

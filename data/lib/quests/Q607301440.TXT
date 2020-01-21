@@ -1,0 +1,16 @@
+quest  43 #6073-01-440        #Nika, Gatekeeper, Usk, (formerly Darjel, Gatekeeper, Guennor, 5502
+
+name  "Delivery for Nika"
+type  fedex
+
+proposal  "Indeed I do. I'd begun to wonder if arrangements had gone awry.  Do you want to take it to her?"
+
+declined  "Ok."
+
+accepted  "I'm very glad.  I really like to see packages on their way instead of sitting around."
+
+reminder   "Hadn't you better get that package back to Wonduri?"
+
+reward   qWonduriPackage 
+end
+

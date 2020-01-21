@@ -1,0 +1,30 @@
+id 6005
+
+banner "Greetings, Friend. Welcome to the Gnarled Leg Tavern. May I help you?"
+
+topic "Tell me about West Leinster."
+        text "The history of Leinster is a tragic one, my friend. At one time, Leinster was under the protection of Despothes, King of the gods."
+        text "Then Despothes and Duach fought and, in a fit of rage, Duach did smite Leinster, dividing it in twain."
+        text "For a long time Leinster was divided into two sections, with ruins separating us from our brethren."
+        text "But with the coming of the hordes from the Mists, the gods made peace with one another and healed our shattered village with glorious new gardens."
+	text  "My family roots go back to the beginnings of Leinster.  Skon's a name that's been in each generation of our family since, in an unbroken line.  It's an honor to bear the name."
+	text  "Leinster was but a small village in those early days but it grew to be the largest and most magnificent town in the Realm."
+end
+
+topic "Tell me about your tavern."
+        text "I have added some additional space hoping to attract more business.."
+        text "Only time will tell if it worked."
+        text "Would you like something to drink?"
+end
+
+
+topic "Can I do something for you?"
+        text "Not today. Come back and ask again, for I do have odd jobs from time to time."
+end
+
+topic "Tell me about the gods."
+        text "It's the gods you want to know about, eh?  Well just so you know there are six of them in this land."
+        text "Of course I ain't gonna go on about them right now."
+        text "Check back later. I should have something more to tell you then."
+end
+

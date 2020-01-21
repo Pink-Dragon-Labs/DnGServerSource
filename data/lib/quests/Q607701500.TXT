@@ -1,0 +1,19 @@
+quest  55 #6077-01-500        #Ciobhan, Ethereal Outlet, West Leinster, 6077
+
+name  "Vial of Ascetos Desert Sand"
+type  fedex
+
+proposal  "You won't regret acquiring this skill.  One of the joys of existence here in the Realm is an expertise in making potions.  There's always room for the skilled artisan.  Well, well.  I am pleased to assist.  You'll need to fetch me a vial of Ascetos Desert sand.  Got an idea I'm working out.  Will you do it?"
+
+declined  "Now that's a disappointment."
+
+accepted  "Hurry back. I want to experiment."
+
+reminder   "Fetch me a vial of Ascetos Desert sand."
+
+completed  "My thanks.  Here's the skill book you need.  Hasten off and study it now, you hear?"
+
+getItem   qAscetosSand
+reward    skbAlchemyV
+end
+

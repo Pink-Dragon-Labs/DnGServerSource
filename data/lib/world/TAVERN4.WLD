@@ -1,0 +1,162 @@
+room 6076
+   properties
+      picture	4000
+      roomName	"Troll Bragger Inn Interior"
+   end
+   atpinfo
+      3599  295 344
+      2028  442 105 100
+      2028  176 40 35
+      2127  287 128 150
+      2029  241 97 50
+      2005  540 110 100
+      2103  213 222
+      2112  233 251 170
+      2128  238 280 220
+      2017  70 109 100
+      2166  325 308 200
+      59529  467 230
+      59529  417 234
+      59529  364 262
+      59529  416 292
+      59529  536 236
+      59529  588 243
+      59529  586 282
+      2221  -9 54 -99
+      2241  380 212
+      59529  398 275
+      59529  456 262
+      59529  501 262
+      59529  559 276
+      2596  511 157 20
+      2006  612 113 50
+      2166  144 155 50
+      2112  169 156 170
+      2104  315 191 -20
+      3599  547 273
+      2117  381 138 50
+      2087  570 162
+      2018  24 204 150
+      2029  365 148 100
+      2599  188 291
+      2599  501 292
+      34989  67 205
+   end
+   objects
+      object chair6076-0 of Chair
+         properties
+            x	98
+            y	291
+            loop	0
+         end
+      end
+      object chair6076-1 of Chair
+         properties
+            x	148
+            y	277
+            loop	0
+         end
+      end
+      object chair6076-2 of Chair
+         properties
+            x	277
+            y	291
+            loop	1
+         end
+      end
+      object chair6076-3 of Chair
+         properties
+            x	229
+            y	276
+            loop	1
+         end
+      end
+      object chair6076-4 of Chair
+         properties
+            x	188
+            y	274
+            loop	2
+         end
+      end
+      object chair6076-5 of Chair
+         properties
+            x	590
+            y	289
+            loop	1
+         end
+      end
+      object chair6076-6 of Chair
+         properties
+            x	540
+            y	275
+            loop	1
+         end
+      end
+      object chair6076-7 of Chair
+         properties
+            x	458
+            y	275
+            loop	0
+         end
+      end
+      object chair6076-8 of Chair
+         properties
+            x	410
+            y	288
+            loop	0
+         end
+      end
+      object chair6076-9 of Chair
+         properties
+            x	499
+            y	273
+            loop	2
+         end
+      end
+      object door6076-10 of Door
+         properties
+            x	596
+            y	212
+            loop	1
+            linkTo	door5076-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Clark6076-11 of FoodShop
+         properties
+            x	187
+            y	209
+            loop	0
+            name	"Yondo"
+         end
+	   base talk
+			talkTreeID 6076
+		end
+         base character
+            sex	0
+            properName	"Yondo (NPC)"
+         end
+         base shop
+            buyMarkup	50
+            sellMarkup	100
+         end
+         base container
+            worn	BlueShirt
+            worn	BluePants
+            worn	RedCowl
+            worn	RedBoots
+            worn	GoldCowl
+            head	0 0 1 13 1 4 3 2 2 4 8 0 
+         end
+      end
+      object firePlace6076-12 of FirePlace
+         properties
+            x	22
+            y	222
+            loop	1
+         end
+      end
+   end
+end

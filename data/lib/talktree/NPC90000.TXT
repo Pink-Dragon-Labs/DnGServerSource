@@ -1,0 +1,20 @@
+id 90000
+
+banner "Hail and well met!  What can I do for you?"
+
+topic "Who are you?"
+	text "My name is Beral and I own and operate this underground supply store.  I only have one rule about my business... you buy it, not I."
+end
+
+topic "Why is your shop way down here?"
+	text "I like a bit of privacy in my daily life.  The towns are just getting too crowded for my tastes.  So, I built my shop right here in the ground.  It's cozy all season long and not too far out of the way for everyone."
+end
+
+topic "Why don't you sell metal bars and gems anymore?"
+	text "Funny you should ask!  I used to sell every material one could think of.  Recently the costs to import these items became too much for a small businessman such as myself.  If it is metal or wood you seek, explore the world.  I used to get my supplies from the Mines.
+end
+
+topic "The Mines? You want to know where they are, eh?"
+	text "It's my understanding they are in roughly the 4 corners of the world, but I heard a rumor a long time ago that there were not any supplies to be harvested in the deserts.  I heard the mines occasionally produce gems as well, it might be worthy of a young adventurer's time to find them."
+end
+	

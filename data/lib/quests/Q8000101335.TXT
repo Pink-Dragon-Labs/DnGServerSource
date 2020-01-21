@@ -1,0 +1,15 @@
+quest  374 #80001-01-335        # Kaliri, Anything and Everything, Arimathor, 6801
+name  "A Visit with Kaliri"
+type  fedex
+
+proposal  "I've got exactly what she needs right here.  Just let me put this gooey bun down, dearie, and I'll get them.  Sanria was baking again.  Oh, I see you know that.  Both those girls are such dears.  And they look exactly alike.  Did you notice that, being a stranger?  Now let me see, where did I put those needles.  Oh, of course, here they are.  Right in front of my nose.  If they'd been a snake, they'd a bit me, as my old grandmother used to say.  I wonder if my grandchildren'll quote me as much as I quote my own grandmother.  You'll carry these needles to Janria for me, won't you?"
+
+declined  "Well, look around then.  See if there's anything you can't live without."
+
+accepted  "Here you are.  Enjoy your stay here in Arimathor, dearie."
+
+reminder   "Janria is probably wonderin' where you are with those needles, dearie."
+
+reward   qNeedlePacket 
+end
+

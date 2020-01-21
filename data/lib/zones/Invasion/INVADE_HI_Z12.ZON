@@ -1,0 +1,31 @@
+name "invade_hi_z12"
+title "Arimathor Battlefront"
+worldFile "../data/lib/world/01_INVADE_HI_Z12.WLD"
+worldFile "../data/lib/world/02_INVADE_HI_Z12.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 29
+groupChance 90
+monster MinotaurWarriorD 100
+monster MinotaurWarriorE 90
+monsterGroup 2 4 MinotaurWarriorD
+monsterGroup 2 3 MinotaurWarriorE
+monsterGroup 2 4 MinotaurWarriorE
+monsterGroup 2 2 MinotaurMageD 2 MinotaurWarriorE
+monsterGroup 2 1 MinotaurMageE 3 MinotaurWarriorD
+monsterGroup 2 2 MinotaurMageE 2 MinotaurWarriorC 1 MinotaurWarriorD
+monsterGroup 1 2 MinotaurMageE 3 MinotaurWarriorD
+
+#To specify GROUPS:
+#monsterGroup population quantity className [quantity className]...
+#
+#example:
+#monsterGroup 5 2 Troll 3 WoodRat 2 Ratling
+#monsterGroup 4 1 Ogre 3 Troll 1 Wolf
+#
+#this means, there are 2 group types, the first group type consists of 2 Trolls, 3 WoodRat’s, and 2 Ratlings, and there are 5 of these such groups to #be in the zone.
+#
+#Same with the second definition: 1 Ogre, 3 trolls, and 1 wolf in the group, and there should be 4 of these such groups in the zone.
+#The first monster type specified will be the leader of the group.
+

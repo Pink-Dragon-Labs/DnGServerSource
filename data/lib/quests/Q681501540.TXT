@@ -1,0 +1,16 @@
+quest  239 #6815-01-540        # Tallie, You Name It, Leinster West, 6033
+
+name  "Delivery for Pasco"
+type  fedex
+
+proposal  "Yes, indeed, it's right here.  Driftwood, that's the wood I stock for whittlers and carvers.  They seem to favor it.  A friend of Pasco came through here and ordered a supply to be held for him.  It's all paid for, so all you need do is just deliver this package.  Tell Pasco if he likes this wood, I'd appreciate his custom.  Will you take the package to him?" 
+
+declined  "I thought you said you came for it."
+
+accepted  "Good, good.  Take it straight away."
+
+reminder   "Hadn't you better take that wood to Pasco?"
+
+reward   qDriftwoodSupply 
+end
+

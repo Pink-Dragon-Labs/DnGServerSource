@@ -1,0 +1,19 @@
+quest  164 #6501-01-435         # Ygior, Sundries World, Drune, general, 8310
+
+name  "Ygior's Knee Hurts"
+type  fedex
+
+proposal  "Welcome, welcome.  This is the home of the popping corn and I, Ygior, am the elf who discovered the phenomenon.  Fascinating to watch.   I almost forgot my banged up knee watching.  Because it was when I tripped and dropped my bags and hurt my knee that it happened.  Popping and white puffs going every which way.  I was one startled elf, I can tell you that.  Thought at first maybe it was another smiting, may Enid protect us!  But it was the corn that had fallen in the fire.  I put a few puffs in my mouth without thinking, and there are those who claim I don't think at all.  But it was good luck this time that I didn't stop to think.  Because now there is popping corn!  Friend, I'll give you a bag if you'll just go fetch me some ointment for my poor knee.  It still hurts!  Will you?"
+
+declined  "Oh dear.  My poor knee."
+
+accepted  "Excellent.  Just step over and ask our healer.  I've got an account with her."
+
+reminder   "My knee ointment from the healer.  Please fetch it."
+
+completed  "Ah, thanks, good stranger.  Here is your popping corn."
+
+getItem   qKneeOintment
+reward   qPoppingCorn 
+end
+

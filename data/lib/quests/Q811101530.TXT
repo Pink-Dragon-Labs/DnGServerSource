@@ -1,0 +1,15 @@
+quest  322 #8111-01-530      #Pindar, Finvarra's Foods, Asgard
+
+name  "The Broken Amulet"
+type  fedex
+
+proposal  "We've been robbed!  The whole supply I had ready for Pasco has been taken.  Our only clue is a broken piece of amulet from Usk.  The thieves may be headed there.  Take it and go quickly to Usk, and seek for the other piece of amulet.  My whole shipment of cheese!!!  What impudence!  What gall!!  Only a rogue of unspeakable ancestry would do this act.  Will you follow the trail?"
+
+declined  "You miss an opportunity for valor."
+
+accepted  "May Finvarra give you speed."  
+
+reminder   "Take that amulet piece to Usk and look for the other half."
+
+reward   qBrokenAmulet
+end

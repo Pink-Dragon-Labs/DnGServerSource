@@ -1,0 +1,7 @@
+Msg#	Message	Count	Inbound	Total_Time	Average_Time	Count	Outbound	Acked	Naked
+
+	Total)	0	0	0.000000	-nan	0	0	0	0
+
+Slowest Msg #-1 took  0.000000 seconds.
+Total process time =  0.114921
+Total run time =     1490758638

@@ -1,0 +1,34 @@
+cd obj
+chmod 660 *.OBJ
+chmod 660 *.NPC
+chmod 660 *.LEG
+#chmod 660 *.dir
+#../stripCR *.OBJ *.NPC *.LEG *.dir
+../tokenize *.OBJ *.NPC *.LEG
+cd ..
+cd world
+chmod 660 *.WLD
+chmod 660 *.wld
+#chmod 660 *.dir
+#../stripCR *.WLD *.wld *.dir
+../tokenize *.WLD *.wld
+cd ..
+cd zones
+chmod 660 *.ZON *.zon
+#chmod 660 *.dir
+#../stripCR *.ZON *.zon *.dir
+../tokenize *.ZON *.zon
+cd ..
+cd quests
+chmod 660 *.TXT
+#chmod 660 *.dir
+#../stripCR *.TXT *.dir
+../tokenize *.TXT
+cd ..
+cd talktree
+chmod 660 *.TXT
+chmod 660 *.txt
+#chmod 660 *.dir
+#../stripCR *.TXT *.txt *.dir
+../tokenize *.TXT *.txt
+cd ..

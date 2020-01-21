@@ -1,0 +1,52 @@
+id 8309
+
+banner "Welcome to the Nosh Shop. I hope you're hungry!"
+
+topic "Tell me about Drune."
+        text "So it's hungry for knowledge you are, eh, Friend? Drune is a town that honors Enid for the most part."
+	text "I myself honor Enid, for she is gentle and good, and loves nature."
+	text "Elves enjoy nature, too.  Our hunters and warriors can go so quietly none can detect their passing."
+	text "I've done my bit of quiet treking.  It's really a challenge to make a silent passage close by the animals, since they detect scents as well as sounds."
+	text  "I've done it with humans and giants, too.  They never knew I was there."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that there is a tree in the deepest heart of a forest near Drune, and in this tree Enid's daughter Dyana dwells."
+	text  "Don't know if it's true."
+end      
+
+topic "Heard any good limericks?"
+	text "Limericks, is it?  As it happens I do have a favorite.  Have you heard this one?"
+	text "There was a young elfmaid of Niger"
+	text "Who smiled as she rode on a tiger."
+	text "They returned from the ride"
+	text "With the elfmaid inside"
+	text "And the smile on the face of the tiger."
+	text "I know it's an oldie, but it's a goodie, don't you think?  I've got another one for you."
+	text "A elf by the name of Birt Long"
+	text "Sat down and composed a new song."
+	text "It was all in one note,"
+	text "This song that he wrote,"
+	text "But it sounded superb on a gong."
+	text "Yeah, yeah.  But I liked it.  Heh.  Heh."
+end
+
+topic "Can I do anything for you?"
+        text "Thank you, but I have no tasks for you today."
+end
+
+topic  "Stench sent me for his tools." q144:0 #q6403-01-225:0
+	quest 145 #6403-01-230
+	text  "Don't scare me like that.  I gave them to you."
+end
+
+topic  "Wanda asked me to pick up her lunch." q383:0 #q80001-01-535:0
+	quest 384 #80001-01-540
+	text  "Don't scare me like that.  You took it already."
+end
+
+topic  "I'm looking for toasted sunberry seeds." q57:0 #q6077-01-530:0
+	quest 58 #6077-01-535
+	text  "You took all I'm willing to share."
+end
+

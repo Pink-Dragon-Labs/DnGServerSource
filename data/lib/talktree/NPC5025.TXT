@@ -1,0 +1,21 @@
+id 5025
+
+banner "Hello friend."
+
+topic "Tell me about yourself?"
+	text "I am not from around here.  I've come to town with two gentlemen that look strikingly similar to me.  In fact some people say identical.  We must have had similar looking parents.  The resemblance is uncanny."
+end
+
+topic "What brings you to Leinster?"
+	text "My feet, of course."
+end
+
+topic "Can I do anything for you?"
+	text "Know of any available women???"
+	text "Beautiful women, of course."
+	text "Or wealthy."
+end      
+
+topic "What happened last night?"
+	text "Ah, The ground shook and rolled.  She was wonderful, and so ....  Whoops.  Ah nothing happened."
+end

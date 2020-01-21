@@ -1,0 +1,18 @@
+quest  297 #8021-01-430        #Gwynna, The Bend Sinister, tavern, Murias, 6203
+
+name  "Supplies from Usk"
+type  fedex
+
+proposal  "That Zuzu had trouble understanding me, and said it was my fault.  His antique is here and boxed.  It's rather a small piece so you shouldn't have trouble carrying it.  I don't know why he wouldn't take it with him, but he was adamant.  I wish to ask a small favor in return.  I placed an order with Frick for some supplies from Usk.  He has relatives there, you know.  All his kin, being giants, live in Usk but he settled here.  I don't know why a giant would wish to run a shop here in Murias, but I never asked him.  Will you go get my supplies?"  
+
+declined  "That's OK.  I'll run over there later."
+
+accepted  "That will save me a trip later."
+
+reminder   "Frick runs the General Store.  Please get my supplies."
+
+completed  "Thank you, and here is the packaged antique for Zuzu."
+
+getItem   qUskSupplies
+reward   qZuzuAntique 
+end

@@ -1,0 +1,19 @@
+quest  33 #6045-01-500        #Randa, The Cutting Edge, West Leinster, 6045
+
+name  "Randa's Hand Drill"
+type  fedex
+
+proposal  "Delighted to hear of your interest.  Grand-mastery for weaponsmithing is a noble calling.  Noble, I tell you.  No time to lose though.  You've got to finish your training.  First you'll have to go collect my hand drill from Arimathor.  Will you do that?"
+
+declined  "Drat"
+
+accepted  "Lent it to a young scamp who carted it off to Arimathor and left it there.  'Sorry' he said.  'Forgot it' he said.  Sheesh."
+
+reminder   "My hand drill is somewhere in Arimathor and I need it."
+
+completed  "Thanks.  Doesn't look like it was damaged, thank the gods.  Here's the grand-master skill book.  Hurry and finish."
+
+getItem   qHandDrill
+reward    skbWeaponsmithingV 
+end
+

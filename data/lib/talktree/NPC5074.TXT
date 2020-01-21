@@ -1,0 +1,16 @@
+id 5074
+
+banner "Hi there! Welcome to my little corner of Leinster."
+
+topic "What do you know about Leinster?"
+	text "I know lots.  Leinster is the oldest city in The Realm.  It's been here as long as anyone can remember.  In ancient times it was nothing but a bunch of huts, but it kept growing.  Now look at it.  It's been smashed by that monsterous fireball hurled by Duach.  Someone must have made him real angry to do that.  But then again, if you were omnipotent would you need a reason?"
+	text "There is a song in the ground now.  Ever since that cleaning of the city, I have felt a pulsing. I guess.  I do not know a better word to describe it."
+end
+
+topic "Have you any interesting rumors?"
+	text "Actually, now that you mention it.  I've heard that music, when played properly, will put a troll to sleep.  I don't know if it's true, but it's neat to ponder such things."
+end      
+
+topic "Can I do anything for you?"
+	text "Yes, buy one of my instruments."
+end

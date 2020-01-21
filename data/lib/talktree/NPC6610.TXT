@@ -1,0 +1,53 @@
+id 6610
+
+banner "You're in Vlador's Tavern. What do you want here? And it better be good!"
+
+topic "Tell me about Caer Fandry."
+
+        text "Caer Fandry is orc-town. Some call us goblins, others call us dark elves. You'll call me Sir!"
+        text "Town was founded by orcs on the run from the humies. That's humans to you, dolt-head."
+end
+
+topic "Who are you?"
+        text "My name is Rant. I'm a dark elf. I own Vlador's.  Want to make something of it?"
+        text "I won this tavern in a game of Nine Men's Morris from a drunken lout named Xanosz."
+	text "I'm no good at Nine Men's Morris, so I cheated!"
+end      
+
+topic "Can I do something for you?"
+	text "Yes. Stop asking questions.  Either buy something or get out!"
+end
+
+topic  "I want to learn how to detect traps."
+	banner  "Yeah?  It's easy to say, but not so easy to do.  I should know, because I'm as good as they get at trap detection and disarming.  I might take on an apprentice or two, but only the most likely to succeed." 
+
+	topic  "I'm interested in the basics of trap detection and disarming skills."  s26:0   #Basics of Trap Detection and Disarming
+		quest 181 #6610-01-100
+		text "Listen, dolt-head.  You've got to study the book you already have to gain these skills.  Now get out!"
+	end
+
+	topic  "I'm interested in proficient trap manipulation skills."  s26:1  
+		quest 184 #6610-01-200
+		text "Ok, dolt-head.  Quit the games.  You've got the book.  Study it!"
+	end
+
+	topic  "I'm interested in expert trap manipulation skills."  s26:2   #Expert Discourse on Traps
+		quest 186 #6610-01-300
+		text "Listen, dolt-head.  What do you think that book is for?  Go study it!"
+	end
+ 
+	topic  "I'm interested in mastery of traps skills."  s26:3  
+		quest 190 #6610-01-400
+		text "This is what I agreed to help?  Sheesh.  Go study the book you have, dolt-head."
+	end
+
+	topic  "I'm interested in grand-mastery of traps skills."  s26:4   # Disarming Traps: A Grand-Master Treatment
+		quest 195 #6610-01-500
+		text "Listen, dolt-head.  You've got the book.  So study it!  Now get out!"
+	end
+
+	topic  "What else can I learn from you?"  s26:5
+		text  "I'm not teaching you one more thing.  And that's that."
+		text  "Let's get one thing straight, dolt-head.  You haven't finished what you started with me, yet, and I'm losing patience with you."
+	end
+end

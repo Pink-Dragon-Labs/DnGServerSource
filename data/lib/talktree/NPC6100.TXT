@@ -1,0 +1,29 @@
+id 6100
+
+banner "Greetings, Friend. I am Hana; welcome to Wen Clothing. How may I serve you?"
+
+topic "Tell me about Wen."
+        text "Wen is a rural village, pleasant and pastoral. We most of us honor the goddess Enid. Otherwise, there's nothing much to say of us."
+	text "I've lived here all my life, but I'm fairly new as a shopkeeper.  I took over Wen Clothing after Iviona retired."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Let us see. I did hear that the gods Despothes and Duach got into a fight, and Duach smote Leinster in two."
+        text "Fortunately, Enid keeps Wen above such frays."
+end      
+
+topic "Can I do anything for you?"
+	quest 12 #6100-01
+	text "Thank you, but not at present."
+end
+
+topic  "I'm looking for some fabric gem sacs." q81000-01-535:0
+	quest 81000-01-540
+	text  "I supplied them already."
+end
+
+topic  "I've come for Setta's scarf." q393:0 #q80500-01-530:0
+	quest  394 #80500-01-535
+	text  "Mercy sakes.  What do you mean?  You took it."
+end
+

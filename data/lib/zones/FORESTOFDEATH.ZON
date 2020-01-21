@@ -1,0 +1,16 @@
+name "forestofdeath"
+title "Forest of Death"
+worldFile "../data/lib/world/DEATH1.WLD"
+worldFile "../data/lib/world/DEATH2.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 11
+midiFile 9
+# Forest of Death	Area 08		Player Level 200-300	Alignment: Evil		Monsters/Room: 3.66
+groupChance 80
+monster DarkFaery 6
+monster Devil 60
+monster LavaSerpent 120
+monster SpittingCobra 120
+monster WardenHA08 60
+

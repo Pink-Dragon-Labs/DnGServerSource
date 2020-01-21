@@ -1,0 +1,11 @@
+name "Mine01"
+title "The Mines"
+worldFile "../data/lib/world/mine00.wld"
+worldFile "../data/lib/world/mine01.wld"
+worldFile "../data/lib/world/mine02.wld"
+worldFile "../data/lib/world/mine03.wld"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 29
+groupChance 30

@@ -1,0 +1,19 @@
+quest  156 #6403-01-500        #Wonduri, Silverbrook Charms, Silverbrook, 6403
+
+name  "Amulet of Baroq the Bald"
+type  fedex
+
+proposal  "What an occasion!  You are ready to start study for the Grand-Master skills of Theurgism.  You have done wonderfully well so far.  Your final quest is for the Amulet of Baroq the Bald, so known because the people would call him nothing else.  An odd name, but I understand he rather liked it!  However, that's neither here nor there.  Will you undertake this quest?"
+
+declined  "You come this far, to go no further?"
+
+accepted  "I knew you would.  Go forth on your last Theurgism quest.  Begin your search in Wen."
+
+reminder   "Seek the Amulet of Baroq the Bald in Wen."
+
+completed  "You come victorious!  Congratulations!  And now, accept from me the spellbook for Grand-Master Skills of Theurgism!"
+
+getItem   qAmuletBaroq
+reward   skbTheurgismV 
+end
+

@@ -1,0 +1,7 @@
+name "zone"
+title "zone"
+worldFile "../data/lib/world/CAERFX.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 9

@@ -1,0 +1,19 @@
+quest  337 #8307-01-430        # Kaliri, Anything and Everything, Arimathor, general, 6801
+
+name  "Cookies for Kaliri"
+type  fedex
+
+proposal  "Do I have desert rocks?  Mercy sakes, I just guess I have.  I've been picking up rocks all my life, and now my grandson keeps sending more.  I've always liked the look of 'em.  No two alike to me.  If that's what you're wanting, dearie, a desert rock, we'll fix that in the swish of a cat's tail.  I'm always glad to see young folks take an interest in such things.  I trust you're not wanting it to throw at somebody?  Of course not.  I can see that.  Would you just run over to Sanria for me, while I'm wrapping it, and bring me some of the cookies she just baked?"
+
+declined  "Changed your mind, dearie?  Well, that's all right."
+
+accepted  "Thank'ee kindly.  This'll only take a moment, so hurry back."
+
+reminder   "Sanria has some cookies ready for me."
+
+completed  "Thank you, dearie.  Here's your rock."
+
+getItem   qKaliriCookies
+reward   qCuriousRock 
+end
+

@@ -1,0 +1,56 @@
+id 6817
+
+banner "Enter, friend.  This is Ali's Weaponry, and I'm Ali, which is short for Aligar.  I've all sorts of weapons.  Whatever you're looking for, I've got it."
+
+topic "Tell me about Arimathor."
+      	text "Arimathor's a smallish town, but a good one.  I've been here more years that I can count.  Stopped counting when I got beyond a certain age, if you know what I mean."
+	text "Most of the people here are related to each other, one way or another.  Good Gypsy stock here.  Families go way back."
+	text "The Gatekeeper is my sister's youngest daughter.  She's a joy to have in the family.  Great sense of humor, but she never lets it show when she's working.  I imagine she'll lighten up as she gets older."   
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've been hearing about good fighters among the giants.  Have you seen any giants in combat?  I haven't, but I sure would like to participate in a practice some time.  Not to fight.  Too old for that.  Just to watch and say hey."
+	text "Then again, there are good fighters among the elves, too, apparently.  Sure would like to see some of their weapon practice.  I've never found a human who had an elf weapon.  If I were younger, I'd try to get one myself."
+end      
+
+topic "Can I do anything for you?"
+        text "Could you?  Well, I'm likely to be able to put you on to a good thing soon.  Come back and see me.  I'll be sure to give you a good tip, when I can."
+end
+
+topic  "I'm here to pick up Aldonzo's dagger." q75 #q6205-01-225:0
+	quest 76 #6205-01-230
+	text  "You already have it.  Probably you've been enjoying our desert oasis and just forgot, didn't you."
+end
+
+topic  "Do you know where I can find a snake rattle?" q332:0 #q8307-01-325:0
+	quest 333 #8307-01-330
+	text  "You've got it."
+end
+
+topic  "I'm looking for an old braided leather belt." q67 #q6102-01-500:0
+	quest 68 #6102-01-525
+	text  "I gave it to you when you were in here earlier."
+end
+
+topic  "I want to learn warrior's skills." c8:5
+	banner  "I can teach you master and grand-master skills in throwing weapons.  If you're not an expert in the craft yet, come back when you're ready." 
+	
+	topic  "How do I get to be an expert?" c8:3
+		text  "Buy the skill books and practice.  Try the Learning Emporium in Usk."
+	end
+
+	topic  "I am interested in throwing weapons master skills."  s8:3  
+		quest 210 #6817-01-400
+		text  "You're not going to learn anything until you study that skill book you have."
+	end
+
+	topic  "I am interested in throwing weapons grand-master skills."  s8:4  
+		quest 215 #6817-01-500
+		text  "That skill will come only after you study the skill book you already have."
+	end
+
+	topic  "What else can I learn?"  s8:5
+		text  "You're an ambitious one aren't you?  If you want to develop your skills in shield use, go see Georgi right here in Arimathor."
+		text  "I'd advise you to stick to one thing at a time.  Finish developing your skill in throwing weapons."
+	end
+end

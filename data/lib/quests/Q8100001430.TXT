@@ -1,0 +1,19 @@
+quest  81000-01-430      # Bidosk, Pretty Nice Clothing, Caer Fandry, dark elf, 6607
+
+name  "Thread for Bidosk"
+type  fedex
+
+proposal  "I'm glad somebody wants it.  It isn't just the image a dark elf would want as adornment, if you know what I mean.  I'll be glad to get rid of it, although I do require a favor in return.  I need a supply of thread, and it's ordered from a shop in Leinster.  Will you go get it?"
+
+declined  "Well, then, do you want to buy something?  Let me know."
+
+accepted  "Fine.  You'll have to find it yourself, because I've mislaid the name of the shop."
+
+reminder   "Look through Leinster and find the shop with my thread order."
+
+completed  "That wasn't too difficult, was it?  Here's the broach."
+
+getItem   qThread
+reward   qElvenBroach 
+end
+

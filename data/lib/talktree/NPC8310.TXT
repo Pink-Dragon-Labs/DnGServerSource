@@ -1,0 +1,59 @@
+id 8310
+
+banner "Another discriminating customer! Welcome to Sundries World. How might I help you?"
+
+topic "Tell me about Drune."
+        text "Have you heard the story of the founding of our town? If you have, you know why we dislike orcs."
+	text "I dislike them to such an extent that I charge them a lot more for my goods."
+	text "You needn't mention that, though.  It can be our little secret."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that Kurz is about the worst town in The Realm."
+        text "It's full of killers, thieves, and crummy general stores."
+	text "If you're going to Kurz, you'd better stock up here."
+	text "To change the subject, you don't mind I hope, I banged my knee up something awful.  If you run across any new salves in your travels, please send me word.  Throbs like a drum, it does."
+end      
+
+topic "Do you know any limericks."
+	text "Do I know limericks?  Indeed I do.  Great fun.  Here's my favorite."
+	text "I sat next to the duchess at tea"
+	text "It was worse than I thought it would be"
+	text "Her rumblings abdominal"
+	text "Were simply abominable"
+	text "And everyone thought it was me!"
+	text "Heh. Heh."
+	text "Reminds me just a little of our local great elf-lady, who shall remain nameless!"
+	text "Here's another I like."
+	text "There was a young elf of Devizes"
+	text "Whose ears were of different sizes."
+	text "The one that was small"
+	text "Was of no use at all,"
+	text "But the other won several prizes."
+	text  "Better get back to work.  Can't stand around swapping limericks all day, even though I'd like to."
+end      
+
+topic "Can I do anything for you?"
+        text "I don't think so, not today. Check with me again, however."
+end
+
+topic  "Fenemi needs Stench's fembrel wrench quickly." q145:0 #q6403-01-230:0
+	quest 146 #6403-01-235
+	text  "You already picked it up."
+end
+
+topic  "I'm looking for popping corn." q380:0 #q80001-01-500:0
+	quest 381 #80001-01-525
+	text  "You've got your package, friend.  Thanks again for the ointment."
+end
+
+topic  "I'm looking for popping corn." q163:0 #q6501-01-430:0
+	quest 164 #6501-01-435
+	text  "You're just testing me, aren't you?  I know you picked it up already."
+end
+
+topic  "I'm looking for some popping corn." q18:0 #q6043-01-425:0
+	quest 19 #6043-01-430
+	text  "But friend, you already took it."
+end
+

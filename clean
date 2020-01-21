@@ -1,0 +1,43 @@
+rm -rf CMakeFiles
+rm CMakeCache.txt
+rm -rf lib
+rm cmake_install.cmake
+rm ./bin/*
+
+cd updates
+rm -rf CMakeFiles
+rm updatesrv
+rm *.o
+rm cmake_install.cmake
+
+cd ../tokenize
+rm -rf CMakeFiles
+rm *.o
+rm tokenizer
+rm cmake_install.cmake
+
+cd ../router
+rm -rf CMakeFiles
+rm router
+rm *.o
+rm cmake_install.cmake
+
+cd ../global
+rm -rf CMakeFiles
+rm libglobal.a
+rm *.o
+rm cmake_install.cmake
+
+cd ../datamgr
+rm -rf CMakeFiles
+rm *.o
+rm datamgr
+rm cmake_install.cmake
+
+cd ../roommgr
+rm -rf CMakeFiles
+rm *.o
+rm roommgr
+rm cmake_install.cmake
+
+cd ..

@@ -1,0 +1,16 @@
+quest  324 #8111-01-540       #Siei, Murias Armorers, 6211
+
+name  "Pasco's Cheese"
+type  fedex
+
+proposal  "Now that's a sad tale, that boy.  He was here with a wild tale about a band of thieves trying to fix a robbery on him.  He disappeared again after leaving a package here for me to send on to the rightful owner.  If you're traveling anywhere near Silverbrook, would you be willing to take charge of the package?"
+
+declined  "Suppose I don't blame you."
+
+accepted  "I'll be glad to get it out of here.  It's a package of cheese addressed to someone named Pasco in Silverbrook. Just leave me the note and I'll give you the cheese to take with you."
+
+reminder   "Hadn't you better take that package to Pasco in Silverbrook." 
+
+getItem   qNoteSiei
+reward   qPascoCheese
+end

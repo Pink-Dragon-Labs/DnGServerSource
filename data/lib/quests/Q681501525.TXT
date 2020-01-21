@@ -1,0 +1,19 @@
+quest  236 #6815-01-525        # Dark Jana, Emerald Forest, tavern, Drune, 8314
+
+name  "Unusual Green Bottle"
+type  fedex
+
+proposal  "So you've come to the Emerald Forest to seek it, have you?  A good thing, too. I like green things, and the more I collect 'em the more folks bring 'em in.  I venture to say I've got the very item you seek, a green globe that shimmers in the light.  I'll make you a deal, hon.  I've been wantin' time to get away, but just haven't found it yet.  There's a fellow over in Kurz, a human, called Douf.  I hear he's got a very unusual bottle.  Now old bottles are a particular hobby of mine, and I'd like to have this one.  It's a green bottle, of course.  Would you see if you could find if for me? 
+
+declined  "That's OK, hon."
+
+accepted  "I'm glad to hear it, hon.  I've been worried that someone else will get that bottle."
+
+reminder   "Did you forget, hon?  You're looking for an unusual bottle from Douf somewhere in Kurz."
+
+completed  "Now that is an unusual shaped bottle, and a treat to these elven eyes.  Here's the green glass globe in return, hon."
+
+getItem   qGreenBottle
+reward   qGreenGlobe 
+end
+

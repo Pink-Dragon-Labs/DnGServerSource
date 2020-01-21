@@ -1,0 +1,14 @@
+quest  225 #6815-01-235        # Bidosk, Pretty Nice Clothing, Caer Fandry, 6607
+name  "Bidosk is Unhappy"
+type  fedex
+
+proposal  "I'll be glad to get it out of here.  That crazy old elf-coot ought to buy some new clothes.  He has the money.  But will he do it?  Oh, no.  Nothing will do but that I've got to repair and repair and repair his old garb.  But I charge him for it.  Oh yes.  He pays.  Someday he'll figure out that he could have had several new shirts for the prices he paid for repair.  You'll take the relic back to him, I presume."
+
+declined  "You should consider purchasing some new clothes."
+
+accepted  "Good riddance."
+
+reminder   "Take that shirt out of my sight and give it to Slug."
+
+reward   qSlugShirt 
+end

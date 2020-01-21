@@ -1,0 +1,19 @@
+quest  362 #80000-01-530       # Meta, Desert Breeze Exilirs, Arimathor, 6815
+
+name  "Meta Takes Charge"
+type  fedex
+
+proposal  "Ratt is the dark elf, isn't he, from Caer Fandry.  I've heard of him.   He's cranky, but a good healer.  Hmmm.  I will need some help for this.  Just let me talk to myself for a moment.  How shall I do this?  I'll need Lireen.  But I'd better protect Ratt's identity to protect his reputation.  People can be so unkind in their idle rash comments, and a healer needing healing would tempt the pundits.  Hmmmm.   Yes, that will do.  Lireen will help.  I'm ready for you now.  Go to Lireen in Drune.  Say that Meta needs help on the Elfa Project.  Will you do that?"
+
+declined  "I'll have to do it myself, then."
+
+accepted  "Good.  She will have another errand almost certainly."
+
+reminder   "Go to Lireen in Drune.  Say Meta needs help on Elfa."
+
+completed  "Excellent.  Give it to me and let me have a moment to prepare a potion.  Now take this packet to Ratt.  It will ease his pain."
+
+getItem   qElfaHelp
+reward   qRattHelp 
+end
+

@@ -1,0 +1,468 @@
+room 8002
+   properties
+      picture	4000
+      roomName	"Kurz Mercantile Interior"
+   end
+   atpinfo
+      2013  40 1
+      2025  143 1 8
+      2026  249 2
+      2026  338 3
+      2026  461 3
+      2026  585 3
+      2109  188 256
+      2109  328 255 -1
+      2103  544 208
+      2241  621 323
+      2241  582 333
+      2241  583 312
+      2241  634 203
+      2112  288 152
+      2112  191 152
+      2241  115 160
+      2116  507 87
+      2112  289 76
+      2112  191 77
+      2163  534 61
+      2163  493 76
+      2163  117 72
+      2163  575 76
+      2160  191 256 2
+      2160  252 78 20
+      2244  154 166
+      2043  382 115
+   end
+   objects
+      object chair6033-1 of Chair
+         properties
+            x	532
+            y	176
+            loop	2
+         end
+      end
+      object plankDoor8002-2 of PlankDoor
+         properties
+            x	40
+            y	166
+            loop	0
+            linkTo	plankDoor7002-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Jann8002-3 of GeneralShop
+         properties
+            x	532
+            y	185
+            loop	2
+            name	"Jann"
+         end
+         base talk
+            talkTreeID	8002
+         end
+         base shop
+            buyMarkup	45
+            sellMarkup	110
+         end
+         base character
+            sex	0
+            properName	"Jann (NPC)"
+         end
+         base container
+            worn	OliveTunic
+            worn	MagentaBelt
+            worn	OlivePants
+            worn	MagentaLowBoots
+            head	0 2 1 1 7 8 9 3 8 8 5 1 
+         end
+      end
+   end
+end
+room 8001
+   properties
+      picture	4000
+      roomName	"Dog's Breath Lobby"
+   end
+   atpinfo
+      2164  43 183 50
+      2165  541 148 50
+      2028  472 11
+      2028  176 8
+      2127  287 128 150
+      2029  242 52
+      2005  569 115 100
+      2103  235 247
+      2112  249 54 -38
+      2128  249 87 15
+      2017  72 15
+      2166  369 68 -23
+      2080  62 163
+      2241  529 190 -20
+      2104  341 218 -20
+      2105  145 217 -20
+      2109  236 179 -20
+      2128  245 199 63
+      2127  241 192 25
+      2117  406 117 30
+      2018  6 63
+      2599  480 287
+      2006  599 115 50
+      2029  358 53
+      2080  -21 176
+   end
+   objects
+      object chair8001-0 of Chair
+         properties
+            x	479
+            y	268
+            loop	2
+         end
+      end
+      object chair8001-1 of Chair
+         properties
+            x	434
+            y	268
+            loop	0
+         end
+      end
+      object chair8001-2 of Chair
+         properties
+            x	391
+            y	293
+            loop	0
+         end
+      end
+      object chair8001-3 of Chair
+         properties
+            x	524
+            y	269
+            loop	1
+         end
+      end
+      object chair8001-4 of Chair
+         properties
+            x	568
+            y	295
+            loop	1
+         end
+      end
+      object door8001-5 of Door
+         properties
+            x	593
+            y	216
+            loop	1
+            linkTo	door7001-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bartender8001-8 of Bartender
+         properties
+            x	238
+            y	231
+            loop	2
+            name	"Randolf"
+         end
+         base talk
+            talkTreeID	8001
+         end
+         base character
+            sex	0
+            properName	"Randolf (NPC)"
+         end
+         base container
+            worn	OrangeTunic
+            worn	RedPants
+            worn	OliveBelt
+            worn	OliveBoots
+            object	AleJug
+            object	WineFlask
+            object	Ambrosia
+            head	0 1 6 6 8 3 10 8 2 2 7 2 
+         end
+      end
+   end
+end
+room 8003
+   properties
+      picture	4000
+      roomName	"Bloodforge Interior"
+   end
+   atpinfo
+      2025  180 33
+      2013  280 23
+      2025  381 17
+      34989  -64 239
+      2013  79 39
+      2014  33 60
+      2101  122 281
+      2026  491 26
+      2109  449 183
+      34887  446 184 33
+      2119  453 184 2
+      2139  53 282 45
+      2117  267 91
+      2001  618 22
+      2025  515 16
+      2106  177 206
+      2166  361 70
+      2166  535 70
+      2105  608 200
+      34906  600 201 55
+      2082  179 126
+      2082  451 106
+      2594  158 128 5
+      2594  430 109 5
+   end
+   objects
+      object plankDoor8003-0 of PlankDoor
+         properties
+            x	281
+            y	187
+            loop	0
+            linkTo	plankDoor7003-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object exoticWeaponArmorShop8003-1 of ExoticArmaments
+         properties
+            x	80
+            y	280
+            loop	0
+            name	"Morgana"
+         end
+         base talk
+            talkTreeID	8003
+         end
+         base character
+            sex	1
+            properName	"Morgana (NPC)"
+         end
+         base container
+            worn	AzureChainTunic
+            worn	GrayChainPants
+            worn	BlackChainCowl
+            worn	AzureBoots
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	1 0 6 7 5 6 7 11 3 5 3 0 
+         end
+      end
+   end
+end
+room 8006
+   properties
+      picture	4000
+      roomName	"Broken Jug Lobby"
+   end
+   atpinfo
+      2164  46 64 -36
+      2028  436 16
+      2127  287 128 150
+      2005  531 122 100
+      2103  155 230
+      2112  424 64 -24
+      2128  154 302 220
+      2017  45 9 -11
+      2166  336 62 -35
+      2043  232 168
+      2241  402 211
+      2081  588 109 -30
+      2029  240 57
+      2028  147 14
+      2029  339 58
+      2221  629 217
+      2598  475 297
+      2599  111 313
+      2112  160 57 -43
+      2126  156 231 63
+      2117  334 194 80
+      2006  626 138 82
+   end
+   objects
+      object chair8006-0 of Chair
+         properties
+            x	382
+            y	277
+            loop	0
+         end
+      end
+      object chair8006-1 of Chair
+         properties
+            x	420
+            y	259
+            loop	0
+         end
+      end
+      object chair8006-2 of Chair
+         properties
+            x	559
+            y	278
+            loop	1
+         end
+      end
+      object chair8006-3 of Chair
+         properties
+            x	532
+            y	261
+            loop	1
+         end
+      end
+      object chair8006-4 of Chair
+         properties
+            x	496
+            y	262
+            loop	2
+         end
+      end
+      object chair8006-5 of Chair
+         properties
+            x	457
+            y	261
+            loop	2
+         end
+      end
+      object chair8006-6 of Chair
+         properties
+            x	40
+            y	310
+            loop	0
+         end
+      end
+      object chair8006-7 of Chair
+         properties
+            x	71
+            y	292
+            loop	0
+         end
+      end
+      object chair8006-8 of Chair
+         properties
+            x	185
+            y	309
+            loop	1
+         end
+      end
+      object chair8006-9 of Chair
+         properties
+            x	152
+            y	295
+            loop	1
+         end
+      end
+      object chair8006-10 of Chair
+         properties
+            x	113
+            y	285
+            loop	2
+         end
+      end
+      object firePlace8006-11 of FirePlace
+         properties
+            x	673
+            y	233
+            loop	0
+         end
+      end
+      object door8006-12 of Door
+         properties
+            x	526
+            y	213
+            loop	1
+            linkTo	door7006-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bartender8006-15 of Bartender
+         properties
+            x	152
+            y	213
+            loop	2
+            name	"Roger"
+         end
+         base character
+            sex	0
+            properName	"Roger (NPC)"
+         end
+         base container
+            worn	AzureRobe
+            worn	LeatherBoots
+            worn	BlackBelt
+            object	AleJug
+            object	WineFlask
+            object	Ambrosia
+            head	0 0 4 17 2 4 13 2 8 4 3 0 
+         end
+      end
+   end
+end
+room 8008
+   properties
+      picture	4000
+      roomName	"Pleasure's Fabric Interior"
+   end
+   atpinfo
+      2118  511 343 65
+      2164  108 102
+      2116  390 123
+      2117  290 147 50
+      2103  327 207
+      2101  154 205
+      2020  170 28
+      2028  243 8
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  80 206 49
+      34904  702 378
+      2118  52 474 75
+      2103  329 290
+      2103  507 342
+      2103  150 342
+      34886  152 342 65
+      34886  332 208 65
+      2082  227 110 -20
+      2082  436 112 -20
+   end
+   objects
+      object simpleDoor8008-0 of SimpleDoor
+         properties
+            x	578
+            y	218
+            loop	1
+            linkTo	simpleDoor7008-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object exoticClothesShop8008-1 of ExoticClothesShop
+         properties
+            x	324
+            y	274
+            loop	2
+         end
+         base talk
+            talkTreeID	8008
+         end
+         base character
+            properName	"Levon (NPC)"
+         end
+         base container
+            worn	RedCowl
+            worn	BlueShirt
+            worn	FleshCuffs
+            worn	GreenPants
+            worn	BlueBoots
+            head	0 1 0 0 5 7 7 2 6 7 5 1 
+         end
+      end
+   end
+end

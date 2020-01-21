@@ -1,0 +1,29 @@
+id 7106
+
+banner "Greetings, Friend. I am Bekka. May I help you?"
+
+topic "Tell me about Usk."
+        text "I don't really know much about Usk. I've just recently relocated from Bath."
+	text "Many from Bath have come here. I can tell you that it's a lot better than it was there."
+	text "Usk is a very neighborly town. On of my fellow shopkeepers sent food the first night.  What a help that was!  I didn't have anything unpacked and I was exhausted."
+	text "If you've ever moved, you know what I mean."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard horrible things about Bath. I believe them. That's why I left there."
+	text "I've heard of a monster in the swamps around Caer Fandry.  I wonder if that's true?"
+end      
+
+topic "Can I do anything for you?"
+        text "That is kind of you. But I need nothing at present."
+end
+
+topic  "I'm looking Nattan's sharpening stone." q159:0 #q6403-01-535:0
+	quest 160 #6403-01-540
+	text  "I gave it to you."
+end
+
+topic  "I'm looking for Usk tea leaves." q58:0 #q6077-01-535:0
+	quest 59 #6077-01-540
+	text  "I gave you some."
+end

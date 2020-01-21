@@ -1,0 +1,385 @@
+room 6046
+   properties
+      picture	4000
+      roomName	"Good Grub Grocers Interior"
+   end
+   atpinfo
+      2122  316 287 4
+      34890  333 177 32
+      34891  323 177
+      2141  46 289 47
+      34908  579 247 40
+      2102  524 246
+      2109  328 176
+      2111  593 117
+      2109  315 286
+      2001  574 15
+      2002  607 33
+      2013  38 40
+      2013  199 15
+      2014  111 42
+      2025  301 9
+      2025  471 9
+      2026  414 19
+      2086  156 139
+      2128  330 177 65
+      2241  431 178
+      2241  579 186
+      2088  471 121
+      2161  17 95
+      2161  136 76
+      2162  604 75
+      2595  169 113
+      2597  450 105
+      2101  112 288
+      2123  324 287 30
+      34910  644 118 10
+   end
+   objects
+      object simpleDoor6046-0 of SimpleDoor
+         properties
+            x	80
+            y	198
+            loop	0
+            linkTo	simpleDoor5046-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Mary6046-1 of GeneralShop
+         properties
+            x	554
+            y	241
+            loop	1
+            name	"Astrid"
+         end
+         base talk
+            talkTreeID	6046
+         end
+         base character
+            sex	1
+            properName	"Astrid (NPC)"
+         end
+         base container
+            worn	OliveShortSkirt
+            worn	OliveShirt
+            worn	FleshCowl
+            worn	BlueBelt
+            worn	BlueBoots
+            head	1 1 4 5 1 4 14 8 10 8 4 3 
+         end
+      end
+   end
+end
+room 6072
+   properties
+      picture	4000
+      roomName	"Spells of Fire"
+   end
+   atpinfo
+      2118  261 385
+      2103  321 266 -30
+      2101  111 180 -30
+      2020  170 28
+      2028  243 6
+      2029  344 49
+      2028  421 8
+      2008  484 40
+      2082  435 116 -20
+      34904  702 378
+      2082  225 117 -20
+      2112  328 59
+      2125  332 127 90
+      34911  463 396
+      34916  684 415
+      34917  684 386
+      34921  688 195 90
+      2148  43 201 40
+      2162  328 106
+      2161  140 117
+      2163  263 106
+      2163  394 105
+      2124  355 273 40
+      2146  251 273 40
+      2594  204 134
+      2594  414 133
+      2109  330 198
+      2125  332 199 3
+      34893  330 199 35
+      2129  335 200 60
+      7907  340 296
+      7907  305 293
+      7907  301 263
+      7907  347 261
+   end
+   objects
+      object simpleDoor6072-0 of SimpleDoor
+         properties
+            x	544
+            y	212
+            loop	1
+            linkTo	simpleDoor5072-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Al6072-1 of MagicShop
+         properties
+            x	317
+            y	262
+            loop	2
+            name	"Cozenor"
+         end
+         base talk
+            talkTreeID	6072
+         end
+         base character
+            sex	0
+            properName	"Cozenor (NPC)"
+         end
+         base container
+            worn	BrownTunic
+            worn	AquaPants
+            worn	GreenBelt
+            worn	BrownLowBoots
+            head	0 1 5 6 6 7 15 10 4 10 8 4 
+         end
+      end
+   end
+end
+room 6099
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool6099-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool6099-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool6099-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+      object Morty6099-3 of MusicCart
+         properties
+            x	327
+            y	234
+            loop	2
+            name	"Morty"
+         end
+         base shop
+            sellMarkup	95
+            inventory
+               category "Flowers" 54583
+                  object RedRose
+                  object WhiteRose
+                  object Chrysanthenum
+                  object Daisy
+               end
+
+               category "Mementos" 54733
+                  object Statue
+                  object Mirror
+                  object WineFlask
+                  object Ambrosia
+                  object Ring
+               end
+            end
+         end
+         base character
+            sex	0
+            properName	"Morty (NPC)"
+         end
+         base container
+            worn	BlackShirt
+            worn	LeatherPants
+            worn	RedCowl
+            worn	BlackBoots
+            head	0 5 2 14 6 6 2 2 2 3 6 0 
+         end
+      end
+   end
+end
+room 6077
+   properties
+      picture	4000
+      roomName	"Ethereal Outlet Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  75 106
+      2108  552 172 -30
+      2101  68 285
+      2020  158 28
+      2028  231 9
+      2029  328 50
+      2028  429 8
+      2008  491 40
+      2597  416 139
+      34904  702 378
+      2597  199 139
+      2103  176 284
+      2109  325 180 -20
+      2112  325 90
+      2088  220 155
+      2088  436 155
+      2595  8 154
+      2086  -5 180
+      2125  330 161 90
+      2125  199 285 65
+      2129  323 194 -10
+      2130  324 186 15
+      2131  85 286 50
+      2143  190 405
+      34911  448 364
+      34916  657 421
+      34917  605 203 -15
+      34911  602 199 10
+      2165  558 104
+   end
+   objects
+      object chair6077-0 of Chair
+         properties
+            x	440
+            y	209
+            loop	2
+         end
+      end
+      object simpleDoor6077-1 of SimpleDoor
+         properties
+            x	129
+            y	206
+            loop	0
+            linkTo	simpleDoor5077-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Millie6077-2 of MagicShop
+         properties
+            name	"Ciobhan"
+            x	25
+            y	282
+            loop	0
+         end
+         base talk
+            talkTreeID	6077
+         end
+         base character
+            sex	1
+            properName	"Ciobhan (NPC)"
+         end
+         base container
+            worn	BrownCowl
+            worn	GrayShirt
+            worn	BrownPants
+            worn	GrayBoots
+            head	1 0 4 7 8 4 -1 14 0 8 11 0 
+         end
+      end
+   end
+end
+room 6056
+   properties
+      picture	4000
+      roomName	"All Things Useful"
+   end
+   atpinfo
+      2008  464 15
+      2016  145 5 35
+      2028  201 5 20
+      2028  401 3 20
+      2029  288 47 20
+      2042  550 155
+      2545  602 164 20
+      2043  338 127
+      2043  200 126
+      2546  236 130 20
+      2546  374 132 20
+      2101  158 280
+      2103  268 282
+      2109  305 163 -20
+      2127  330 179
+      34928  305 167 20
+      2241  618 225
+      2241  637 261
+      2241  595 302
+      2241  169 182
+      2244  115 192
+      2166  303 91
+      2164  96 92
+      2131  259 183
+   end
+   objects
+      object door6056-0 of Door
+         properties
+            x	492
+            y	181
+            loop	1
+            linkTo	door5056-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6056-1 of Chair
+         properties
+            x	97
+            y	264
+            loop	0
+         end
+      end
+      object generalShop6056-2 of GeneralShop
+         properties
+            name	"Pali"
+            x	114
+            y	276
+            loop	0
+         end
+         base character
+            properName	"Pali (NPC)"
+            sex	1
+         end
+         base container
+            worn	BlueShirt
+            worn	WhiteLongSkirt
+            worn	WhiteCowl
+            worn	Wristband
+            worn	LeatherBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 3 5 3 4 5 0 5 3 3 9 3 
+         end
+         base talk
+            talkTreeID	6056
+         end
+      end
+   end
+end

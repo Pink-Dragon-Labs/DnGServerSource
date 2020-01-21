@@ -1,0 +1,263 @@
+object DungeonBackArch of Doorway
+	properties
+                view 61000
+	end
+end
+
+object DungeonBackDown of Doorway
+	properties
+                view 61050
+                name "Stairway Down"
+	end
+end
+
+object DungeonBackUp of Doorway
+	properties
+                view 61100
+                name "Stairway Up"
+	end
+end
+
+object DungeonBackDoor of Door
+	properties
+                view 61150
+	end
+end
+
+object DungeonSideDoorway of Doorway
+	properties
+                view 61200
+	end
+end
+
+object DungeonDoorDown of Doorway
+	properties
+                view 61250
+                name "Stairway going down"
+	end
+end
+
+object DungeonDoorUp of Doorway
+	properties
+                view 61300
+                name "Stairway going up"
+	end
+end
+
+object DungeonDoor of Door
+	properties
+                view 61350
+	end
+end
+
+object CaveBack of Door
+	properties
+		view 61400
+	end
+end
+
+object CaveSide of Door
+	properties
+		view 61450
+	end
+end
+
+object TrapDoor of Door
+	properties
+		view 61500
+	end
+
+	base described
+		text "You see a trap door in the floor here.  You wonder where it leads."
+	end
+end
+
+object DungeonBackExit of Door
+	properties
+		view 61550
+	end
+end
+
+object Button 
+	properties
+		view 61600
+		name "Button"
+	end
+
+	base described
+		text "You see a button, and wonder if you should push it."
+	end
+
+	base switch
+	end
+end
+
+object Lever
+	properties
+		view 61650
+		name "Lever"
+	end
+
+	base described
+		text "You see a lever, and wonder what it does."
+	end
+
+	base switch
+	end
+end
+
+object ButtonDisabled
+	properties
+		view 61600
+		name "Button"
+	end
+
+	base described
+		text "You see a button, and wonder if you should push it."
+	end
+
+	base switch
+		enabled 0
+	end
+end
+
+object LeverDisabled
+	properties
+		view 61650
+		name "Lever"
+	end
+
+	base described
+		text "You see a lever, and wonder what it does."
+	end
+
+	base switch
+		enabled 0
+	end
+end
+
+
+
+object Torch
+	properties
+		view 61800
+		name "Torch"
+	end
+
+	base cycler
+	end
+end
+
+object Drip
+	properties
+		view 61850
+		name "Drip"
+	end
+
+	base cycler
+	end
+end
+
+object SittingMushroom 
+	properties
+		view 61900
+		name "Mushroom"
+	end
+
+	base sit
+	end
+
+	base described
+		text "You see a large mushroom.  In fact, it's so large that you could sit on it!"
+	end
+end
+
+object Sarcophagus of Chest
+	properties
+		name "Sarcophagus"
+		view 62000
+        strength 20
+	end
+
+	base described
+		text "You see a sarcophagus.  It has a heavy lid, but you could probably move it if you tried."
+	end
+end
+
+object SarcophagusDoor of Door
+	properties
+		name "Sarcophagus"
+		view 62000
+	end
+
+	base described
+		text "You see a sarcophagus here.  It has a heavy lid, but you could probably move it if you tried."
+	end
+end
+
+object Altar
+	properties
+		name "Altar"
+		view 62050
+	end
+
+	base use
+		verb 3
+		uses -1
+	end
+
+	base described
+		text "You see a mystical altar here."
+	end
+
+	actions
+#		vBeUsed teleport dobj 6067
+#		vBeUsed damage dobj 0 3 20 
+	end
+end
+
+object TeleportAltar of Altar
+	properties
+		name "Teleport Altar"
+	end
+
+	base use
+		verb 2
+		spell 10
+	end
+
+	base described
+		text "You see an Altar of Teleportation here.  Touch it to teleport to any town in The Realm."
+	end
+end
+
+object StoneBench
+	properties
+		name "Stone Bench"
+		view 62100
+	end
+
+	base sit
+	end
+
+	base described
+		text "How thoughtful of someone to leave a stone bench here for passing adventurers to rest their weary feet."
+	end
+end
+
+object TempleDoor of Door
+	properties
+		view 60950
+	end
+end
+
+object MovingRock of Door
+	properties
+		view 62150
+		name "Cave Entrance"
+	end
+
+	base described
+		text "You see a cave entrance here."
+	end
+end	

@@ -1,0 +1,18 @@
+quest 312 #8111-01-300
+
+name  "Mission to the Dark Elves"
+type  fedex
+
+proposal  "Want to learn Expert Sorceries, do you?  First you must complete a task, and it may not be easy.  I need several items: a vial of Loch Dread Water, a vial of distilled cobra venom and a cobra skin. Interested?"
+
+declined  "If you change your mind, let me know."
+
+accepted  "Go to the Dark Elves in Caer Fandry, and don't bother to come back till you have all of them.  Those dark elves are rude, every one of them.  So be prepared."
+
+reminder  "If you haven't all three items, I won't even talk to you.  I require a vial of Loch Dread Water, a vial of distilled cobra venom and a cobra skin."
+
+completed  "So you did it.  I'm amazed.  Here's your Expert Sorceries book.  Come back when you think you're good enough to try for Master."
+
+getItem  qDarkElvesPackage  
+reward   skbSorceryIII
+end 

@@ -1,0 +1,18 @@
+quest  295 #8021-01-400        #Mara, Wards of War, Kurz, 8021
+
+name  "Bat's Whisker"
+type  fedex
+
+proposal  "So you're an Expert Necromancy Apprentice, are you, and interested in the Master skills.  Maybe you can do it.  You've lasted this long.  I'll see.  You'll have to bring me a Bat's Whisker.  Are you going to try?"
+
+declined  "I'm not surprised."
+
+accepted  "Go to Monmouth."
+
+reminder   "I want a Bat's Whisker.  Start in Monmouth."
+
+completed  "Here's the spellbook.  Let's see if you really are ready for Master skills."
+
+getItem  qBatWhisker
+reward   skbNecromancyIV 
+end

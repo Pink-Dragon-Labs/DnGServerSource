@@ -1,0 +1,19 @@
+quest  132 #6401-01-430        # Setta, Tasty Morsels, Murias, 6215
+
+name  "A Grinding Stone for Setta"
+type  fedex
+
+proposal  "You're talking to the right person, then.  I have the best supply of grains in the Realm.  And they are all fresh, very fresh.  I can offer you a mix of all the grains recently harvested in Murias and beyond.  Would you be interested in a tit for tat, a trade?  I'd like to have a new grinding stone.  I prefer to mill my own grain by hand, but my stone is getting worn.  Would you do that?'
+
+declined  "I though it was a good offer."
+
+accepted  "Good.  The best stones are in Usk.  The giants have a special skill."
+
+reminder   "Go to Usk and find a new grinding stone for me."
+
+completed  "Beautiful stone, absolutely beautiful. My thanks.  Here is a supply of grains I prepared personally."
+
+getItem   qGrindingStone
+reward   qMixedGrain 
+end
+

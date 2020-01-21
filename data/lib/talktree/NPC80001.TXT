@@ -1,0 +1,56 @@
+id #80001
+
+banner "This isn't a safe place to wander into, stranger. Whaddaya want?"
+
+topic "Where am I?"
+        text "You're in our cave.  Dag and I operate outta here."
+	Text "We sometimes call it the Hideout.  It's been called the Thieve's Cave, too."
+end
+
+topic "Who are you?"
+        text "Some call me Spidey."
+	Text "My partner's name is Dag."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard a rumor that you might not be safe here."
+        text "I know some facts, but I'd hafta know you better to divulge them."
+end      
+
+topic "Can I do anything for you?"
+        text "Not likely, stranger."
+end
+
+topic  "I want to learn spells."
+	banner  "That's a good thing to do.  If pick pocketing skills are what you want, lemme know." 
+
+	topic  "I'm interested in familiar pick pocketing skills."  s25:0   
+		quest 366 #80001-01-100
+		text "Lemme explain somethin' to you.  You've got the skill book.  Now you've gotta study it, see?"
+	end
+
+	topic  "I'm interested in proficient pick pocketing skills."  s25:1  
+		quest 368 #80001-01-200
+		text "Look.  You've got the skill book.  Now you've gotta study it, see?"
+	end
+
+	topic  "I'm interested in expert pick pocketing skills."  s25:2   
+		quest 371 #80001-01-300
+		text "Lemme explain somethin' to you.  You've gotta study that skill book you have."
+	end
+ 
+	topic  "I'm interested in master pick pocketing skills."  s25:3  
+		quest 375 #80001-01-400
+		text "You're never gonna get good if you don't study that spell book,  see?"
+	end
+
+	topic  "I'm interested in grand-master pick pocketing skills."  s25:4   
+		quest 380 #80001-01-500
+		text "I wish you would listen.  You gotta study that book you have or you'll never get better."
+	end
+
+	topic  "What else can I learn from you?"  s0:5
+		text  "You could learn lock picking from my partner Dag. That's him over yonder."
+		text  "Come on, you've gotta learn what you started, first."
+	end
+end

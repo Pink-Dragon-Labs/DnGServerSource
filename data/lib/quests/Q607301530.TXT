@@ -1,0 +1,19 @@
+quest  46 #6073-01-530        # Lalana, The Last Call, Monmouth, 6304
+
+name  "Pretty Desert Rock for Lalana"
+type  fedex
+
+proposal  "This is the home of the bolla brew.  I developed it myself to serve at the last call.  You noticed my tavern is named The Last Call, didn't you.  I decided I needed something to live up to the name.  Apparently I succeeded.  Patrons seem to like my bolla brew.  At first I tried to reserve it for the last call, but that didn't last long.  I'll package you a few bottles if you'll do an errand to Arimathor for me.  Interested?"  
+
+declined  "That's fine."
+
+accepted  "I want a pretty desert rock.  I've heard they can be pretty spectacular."
+
+reminder   "Go to Arimathor and get me a pretty desert rock."
+
+completed  "Thanks.  This rock is rather amazing, and attractive.  Here's your supply of bolla brew."
+
+getItem   qDesertRock
+reward   qBollaBrew 
+end
+

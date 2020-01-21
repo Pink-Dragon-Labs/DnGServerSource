@@ -1,0 +1,52 @@
+id 6205
+
+banner "A customer! The stars spoke the truth. Welcome, Friend, to Goddess Dreams."
+
+topic "Tell me about Murias."
+        text "What might I tell you?  Murians don’t use much magic, except for me, of course.  We’re fighters, mostly."
+	text "That means I don’t do much of a business, so I hope you’ll make many purchases."
+        text "It's a bad idea to attack a Murian, for we fight more fiercely than anyone else in The Realm."
+end      
+
+topic "Who are you?"
+	text  "Me?  I am Xolina!  You will have heard of me, of course, the foremost practitioner of Thaumaturgy in the Realm."
+	text  "This is not pride, you understand, just fact.  Many will tell you this."
+end
+
+topic "Can I do anything for you?"
+        text "Not today. Check again tomorrow, though, I've tasks from time to time."
+end
+
+topic  "I want to learn the art of spellcrafting."
+	banner  "Excellent.  I am a teacher of the highest calibre in Thaumaturgy.  If this interests you, please let me know." 
+
+	topic  "I'm interested in Thaumaturgy Familiar Spells "  s14:0
+		quest 72 #6205-01-100
+		text "You have the skill book.  What you've got to do now is study it."
+	end
+
+	topic  "I am interested in Thaumaturgy Proficient skills."  s14:1  
+		quest 74 #6205-01-200
+		text "Go study the skill book.  You already have it."
+	end
+
+	topic  "I am interested in Thaumaturgy Expert skills."  s14:2  
+		quest 77 #6205-01-300
+		text "What you've got to do now is study the skill book you have."
+	end
+	 
+	topic  "I am interested in Thaumaturgy Master skills."  s14:3  
+		quest 81 #6205-01-400
+		text "You should know by now that you've got to study the skill book you have."
+	end
+
+	topic  "I am interested in Thaumaturgy Grand-Master skills."  s14:4  
+		quest 85 #6205-01-500
+		text "You've got to study the skill book which you have!"
+	end
+
+	topic  "What else can you teach me?"  s14:5
+		text  "I, Xolina, teach Thaumaturgy.  I do not concern myself with the teaching of other crafts.  Speak to another about this."
+		text  "Concentrate on completing your study of Thaumaturgy!"
+	end
+end

@@ -1,0 +1,361 @@
+# NPC declarations
+#
+
+object Ratling of NPC
+	properties
+		name "Ratling"
+		view 40100
+		alignment 128
+
+		level 1
+
+		dexterity 20
+		endurance 8
+		intelligence 2
+
+		minDamage 1
+		maxDamage 6
+
+		## do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 10
+		quickness 10
+		treasure 0
+
+		damageType 0
+		armorType 1
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## familiar at acrobatics
+		skill 9 1
+	end
+
+	base described
+	  text "You see a ratling... staple of the diets of many in The Realm."
+	end
+end
+
+object Mouse of Ratling
+	properties
+		name "Mouse"
+		clutStart -1
+		color 2088
+	end
+
+	base npc
+		code mouse
+	end
+
+	base described
+		text "You see a common rodent of the type that generally plague cities."
+	end
+end
+
+object WoodRat of Ratling
+	properties
+		name "Wood Ratling"
+		clutStart -1
+		color 40
+		minLevel 2
+		maxLevel 4
+
+		minDamage 2
+		maxDamage 8
+	end
+
+	base character
+		## proficient unarmed combat expert
+		skill 7 2
+
+		## familiar at acrobatics
+		skill 9 1
+	end
+
+	base described
+	  text "You see a wood ratling.  Wood ratlings have exceptionally large teeth."
+	end
+end
+
+
+object DesertRat of Ratling
+	properties
+		name "Desert Ratling"
+		clutStart -1
+		color 41
+		minLevel 3
+		maxLevel 5
+
+		minDamage 2
+		maxDamage 10
+	end
+
+	base character
+		## proficient unarmed combat expert
+		skill 7 2
+
+		## proficient at acrobatics
+		skill 9 2
+	end
+
+	base described
+	  text "You see a desert ratling, one of the few creatures that can survive in the wastes."
+	end
+end
+
+
+object SwampRat of Ratling
+	properties
+		name "Swamp Ratling"
+
+		color 47
+
+		minLevel 4
+		maxLevel 7
+
+		minDamage 3
+		maxDamage 15
+
+		## do poison + normal damage
+		affect 5 0 0 -1
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## proficient at acrobatics
+		skill 9 2
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base described
+	  text "You see a swamp ratling.  These nasty little beasts live near water and have a poisonous bite!"
+	end
+end
+
+
+object CaveRat of Ratling
+	properties
+		name "Cave Ratling"
+		clutStart -1
+		color 808
+
+		minLevel 8
+		maxLevel 12
+
+		minDamage 5
+		maxDamage 25
+
+		intelligence 5
+	end
+
+	base character
+		## expert unarmed combat
+		skill 7 3
+
+		## expert at acrobatics
+		skill 9 3
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base described
+	  text "You see a cave ratling.  These underground dwellers are tough and nimble."
+	end
+end
+
+
+object ArcticRat of Ratling
+	properties
+		name "Arctic Ratling"
+
+		clutStart -1
+		color 2
+
+		minLevel 10
+		maxLevel 15
+		minDamage 5
+		maxDamage 25
+
+		intelligence 6
+
+		## do cold damage
+		affect 2 0 0 -1
+
+		## resist all cold
+		affect 2 2 0 -1
+
+		## weakness to fire damage
+		affect 1 3 0 -1
+
+		dexterity 15
+		quickness 15
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics expert
+		skill 9 3
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base described
+		text "You see an arctic ratling standing here.  Arctic ratlings are quite an interesting breed.  They are totally resistant to cold based attacks, but can't stand heat."
+	end
+end
+
+
+object FlameRat of Ratling
+	properties
+		name "Flame Ratling"
+
+		clutStart -1
+		color 1
+
+		minLevel 12
+		maxLevel 18
+		minDamage 5
+		maxDamage 25
+
+		intelligence 6
+
+		## do fire damage
+		affect 1 0 0 -1
+
+		## resist all fire
+		affect 1 2 0 -1
+
+		## weakness to cold damage
+		affect 2 3 0 -1
+
+		quickness 15
+	end
+
+	base container
+		object RandomMonsterRing
+		object RandomMonsterRing
+	end
+
+	base character
+		## expert unarmed combat
+		skill 7 3
+
+		## expert at acrobatics
+		skill 9 3
+	end
+
+	base described
+	  text "You see a flame ratling standing here.  Flame ratlings are totally resistant to fire based attacks but can't stand the cold!"
+	end
+end
+
+
+object PlagueRat of Ratling
+	properties
+		name "Plague Ratling"
+
+		color 82
+
+		minLevel 15
+		maxLevel 20
+		minDamage 6
+		maxDamage 30
+
+		intelligence 6
+
+		## evil
+		alignment 0
+
+		# do poison only damage
+		affect 5 0 0 -1
+
+		# resist poison
+		affect 5 2 0 -1
+
+		quickness 15
+	end
+
+	base container
+		object RandomMonsterRing
+		object RandomMonsterRing
+	end
+
+	base character
+		## master unarmed combat
+		skill 7 4
+
+		## expert at acrobatics
+		skill 9 3
+	end
+
+	base described
+	  text "You see a plague rat here.  Disgusting."
+	end
+end
+
+
+object DemonRat of Ratling
+	properties
+		name "Daemon Ratling"
+
+		clutStart -1
+		color 771
+
+		## evil
+		alignment 0
+
+		minLevel 20
+		maxLevel 30
+
+		minDamage 8
+		maxDamage 35
+
+		intelligence 10
+
+		# do acid only damage
+		affect 4 0 0 -1
+
+		# 25% resistant to all magic
+		affect 48 2 0 -1
+
+		dexterity 25
+		quickness 20
+	end
+
+	base container
+		object RandomMonsterRing
+		object RandomMonsterRing
+		object RandomMonsterRing
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## expert at acrobatics
+		skill 9 3
+	end
+
+	base described
+	  text "That is a daemon ratling... the lowest underling of the god Duach.  Having innate magical resistance and an acidic attack makes this a most formidible opponent."
+	end
+end

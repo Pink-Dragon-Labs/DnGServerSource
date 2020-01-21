@@ -1,0 +1,2432 @@
+# Dungeonmaker World File (DNG14.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 76500
+# Dungeon last room = 76808
+# Number of objects in dungeon = 230
+# Level 0 information:
+room 76544
+	properties
+		template 30501
+		south 76545
+		east 76543
+		flags	0
+	end
+	objects
+		object Ghoul-76544-0 of Ghoul
+			properties
+				x	232
+				y	309
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76544-1 of Ghoul
+			properties
+				x	231
+				y	261
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76544-2 of Ghoul
+			properties
+				x	190
+				y	289
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76543
+	properties
+		template 30601
+		south 76542
+		west 76544
+		flags	0
+	end
+	objects
+		object Ghoul-76543-0 of Ghoul
+			properties
+				x	97
+				y	269
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76543-1 of Ghoul
+			properties
+				x	168
+				y	255
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76543-2 of Ghoul
+			properties
+				x	229
+				y	278
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76543-3 of Ghoul
+			properties
+				x	156
+				y	299
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object IronKey-76543-4 of Dng14Key1
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Ghoul-76543-0
+			end
+			base described
+			end
+		end
+		object IronKey-76543-5 of Dng14Key3
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Ghoul-76543-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 76545
+	properties
+		template 32305
+		east 76542
+		north 76544
+		flags	0
+	end
+	objects
+		object Zombie-76545-0 of Zombie
+			properties
+				x	361
+				y	254
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76545-1 of Zombie
+			properties
+				x	422
+				y	219
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76545-2 of Ghoul
+			properties
+				x	480
+				y	259
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76542
+	properties
+		template 32601
+		west 76545
+		north 76543
+		flags	0
+	end
+	objects
+		object Zombie-76542-0 of Zombie
+			properties
+				x	241
+				y	273
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76542-1 of DungeonBackUp
+			properties
+				x	356
+				y	218
+				loop	0
+				linkTo	DungeonBackDoor-76540-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76528
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object Bones-76528-0 of Bones
+			properties
+				x	199
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-76528-1 of DungeonBackDoor
+			properties
+				x	333
+				y	351
+				loop	3
+				linkTo	DungeonBackDoor-76516-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-76528-2 of Bed
+			properties
+				x	153
+				y	315
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-76528-3 of Chair
+			properties
+				x	319
+				y	259
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomPotion-76528-4 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76528-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76528-5 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76528-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76522
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object LostSailor-76522-0 of LostSailor
+			properties
+				x	374
+				y	277
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76522-1 of DungeonBackDoor
+			properties
+				x	323
+				y	350
+				loop	3
+				linkTo	DungeonBackDoor-76517-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-76522-2 of Bed
+			properties
+				x	144
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-76522-3 of Chair
+			properties
+				x	324
+				y	258
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76523
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object Bones-76523-0 of Bones
+			properties
+				x	301
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-76523-1 of DungeonBackDoor
+			properties
+				x	435
+				y	348
+				loop	3
+				linkTo	DungeonBackDoor-76518-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-76523-2 of Bed
+			properties
+				x	156
+				y	313
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76524
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object LostSailor-76524-0 of LostSailor
+			properties
+				x	352
+				y	273
+				loop	1
+				color	39
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76524-1 of DungeonBackDoor
+			properties
+				x	325
+				y	350
+				loop	3
+				linkTo	DungeonBackDoor-76519-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-76524-2 of Bed
+			properties
+				x	157
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-76524-3 of Chair
+			properties
+				x	419
+				y	280
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76541
+	properties
+		template 30501
+		south 76565
+		east 76540
+		flags	0
+	end
+end
+room 76540
+	properties
+		template 30703
+		east 76539
+		west 76541
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76540-0 of DungeonBackDoor
+			properties
+				x	312
+				y	227
+				loop	2
+				linkTo	DungeonBackUp-76542-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-76540-1 of Sign
+			properties
+				x	359
+				y	243
+				loop	0
+			end
+			base described
+				text	"You can barely read the words: 'Guard room'"
+			end
+		end
+	end
+end
+room 76539
+	properties
+		template 31301
+		east 76538
+		west 76540
+		flags	0
+	end
+	objects
+		object Sign-76539-0 of Sign
+			properties
+				x	222
+				y	232
+				loop	0
+			end
+			base described
+				text	"The sign has almost faded.  You can make out the following: 'J??l c?ll bl?c?s A-C'"
+			end
+		end
+		object DungeonBackDoor-76539-1 of DungeonBackDoor
+			properties
+				x	352
+				y	219
+				loop	2
+				linkTo	DungeonBackDoor-76502-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76538
+	properties
+		template 30201
+		west 76539
+		flags	0
+	end
+	objects
+		object CaveRat-76538-0 of CaveRat
+			properties
+				x	239
+				y	279
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 76516
+	properties
+		template 30501
+		south 76515
+		east 76517
+		flags	0
+	end
+	objects
+		object Ghoul-76516-0 of Ghoul
+			properties
+				x	338
+				y	296
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76516-1 of DungeonBackDoor
+			properties
+				x	476
+				y	218
+				loop	2
+				linkTo	DungeonBackDoor-76528-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	141
+			end
+			base described
+			end
+		end
+		object Sign-76516-2 of Sign
+			properties
+				x	162
+				y	248
+				loop	0
+			end
+			base described
+				text	"You can barely read: 'Cell Block A'"
+			end
+		end
+	end
+end
+room 76517
+	properties
+		template 30901
+		east 76518
+		west 76516
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76517-0 of DungeonBackDoor
+			properties
+				x	562
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-76522-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	141
+			end
+			base described
+			end
+		end
+	end
+end
+room 76518
+	properties
+		template 30703
+		east 76519
+		west 76517
+		flags	0
+	end
+	objects
+		object Zombie-76518-0 of Zombie
+			properties
+				x	331
+				y	268
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object CaveRat-76518-1 of CaveRat
+			properties
+				x	464
+				y	272
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76518-2 of DungeonBackDoor
+			properties
+				x	312
+				y	225
+				loop	2
+				linkTo	DungeonBackDoor-76523-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	141
+			end
+			base described
+			end
+		end
+	end
+end
+room 76519
+	properties
+		template 30201
+		west 76518
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76519-0 of DungeonBackDoor
+			properties
+				x	180
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-76524-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76565
+	properties
+		template 31004
+		south 76563
+		north 76541
+		flags	0
+	end
+	objects
+		object Shroom3-76565-0 of Shroom3
+			properties
+				x	154
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76515
+	properties
+		template 31001
+		south 76514
+		north 76516
+		flags	0
+	end
+end
+room 76531
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76531-0 of DungeonBackDoor
+			properties
+				x	323
+				y	348
+				loop	3
+				linkTo	DungeonBackDoor-76505-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-76531-1 of Bed
+			properties
+				x	143
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-76531-2 of Chair
+			properties
+				x	422
+				y	274
+				loop	1
+			end
+			base described
+			end
+		end
+		object TrapDoor-76531-3 of TrapDoor
+			properties
+				x	329
+				y	273
+				loop	0
+				linkTo	DungeonBackUp-76549-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76549
+	properties
+		template 30805
+		east 76550
+		flags	0
+	end
+	objects
+		object Wraith-76549-0 of Wraith
+			properties
+				x	245
+				y	266
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76549-1 of DungeonBackUp
+			properties
+				x	251
+				y	209
+				loop	2
+				linkTo	TrapDoor-76531-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SmokeA-76549-2 of SmokeA
+			properties
+				x	318
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76550
+	properties
+		template 30703
+		east 76551
+		west 76549
+		flags	72
+	end
+	objects
+		object UndeadNecromancer-76550-0 of UndeadNecromancer
+			properties
+				x	315
+				y	283
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Wraith-76550-1 of Wraith
+			properties
+				x	356
+				y	256
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 76551
+	properties
+		template 30909
+		south 76552
+		west 76550
+		flags	0
+	end
+end
+room 76563
+	properties
+		template 31003
+		south 76562
+		north 76565
+		flags	0
+	end
+	objects
+		object CaveRat-76563-0 of CaveRat
+			properties
+				x	377
+				y	306
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 76500
+	properties
+		template 30303
+		south 76501
+		flags	0
+	end
+	objects
+		object DungeonBackUp-76500-0 of DungeonBackUp
+			properties
+				x	477
+				y	217
+				loop	2
+				linkTo	movingRock9109-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-76500-1 of Sign
+			properties
+				x	384
+				y	252
+				loop	0
+			end
+			base described
+				text	"A sign reads: 'This dungeon has been condemned by the King.  Guards should escort prisoners to the city jail.'"
+			end
+		end
+		object Web1-76500-2 of Web1
+			properties
+				x	377
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-76500-3 of FatColumn
+			properties
+				x	182
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-76500-4 of Column
+			properties
+				x	131
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76514
+	properties
+		template 31004
+		south 76504
+		north 76515
+		flags	0
+	end
+end
+room 76552
+	properties
+		template 32305
+		east 76553
+		north 76551
+		flags	72
+	end
+	objects
+		object Ghoul-76552-0 of Ghoul
+			properties
+				x	461
+				y	261
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Wraith-76552-1 of Wraith
+			properties
+				x	325
+				y	248
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76552-2 of UndeadNecromancer
+			properties
+				x	395
+				y	230
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object SmokeA-76552-3 of SmokeA
+			properties
+				x	285
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76553
+	properties
+		template 30703
+		east 76554
+		west 76552
+		flags	0
+	end
+	objects
+		object DungeonBackDown-76553-0 of DungeonBackDown
+			properties
+				x	317
+				y	232
+				loop	2
+				linkTo	DungeonBackUp-76555-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76554
+	properties
+		template 30201
+		west 76553
+		flags	0
+	end
+end
+room 76562
+	properties
+		template 30803
+		east 76501
+		north 76563
+		flags	0
+	end
+	objects
+		object Shroom1-76562-0 of Shroom1
+			properties
+				x	431
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-76562-1 of Shroom2
+			properties
+				x	459
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-76562-2 of Shroom3
+			properties
+				x	464
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76501
+	properties
+		template 32701
+		west 76562
+		north 76500
+		flags	0
+	end
+end
+room 76502
+	properties
+		template 30805
+		east 76503
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76502-0 of DungeonBackDoor
+			properties
+				x	250
+				y	207
+				loop	2
+				linkTo	DungeonBackDoor-76539-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76503
+	properties
+		template 30703
+		east 76504
+		west 76502
+		flags	0
+	end
+	objects
+		object Ghoul-76503-0 of Ghoul
+			properties
+				x	469
+				y	273
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76504
+	properties
+		template 30804
+		south 76508
+		east 76505
+		west 76503
+		north 76514
+		flags	120
+	end
+	objects
+		object UndeadNecromancer-76504-0 of UndeadNecromancer
+			properties
+				x	471
+				y	277
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76504-1 of UndeadNecromancer
+			properties
+				x	449
+				y	291
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-76504-2 of Zombie
+			properties
+				x	379
+				y	278
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-76504-3 of Ghoul
+			properties
+				x	431
+				y	267
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Chair-76504-4 of Chair
+			properties
+				x	200
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-76504-5 of Chair
+			properties
+				x	516
+				y	253
+				loop	1
+			end
+			base described
+			end
+		end
+		object Sign-76504-6 of Sign
+			properties
+				x	578
+				y	248
+				loop	0
+			end
+			base described
+				text	"The sign reads: 'Cell Block B'"
+			end
+		end
+	end
+end
+room 76505
+	properties
+		template 30906
+		east 76506
+		west 76504
+		flags	8
+	end
+	objects
+		object Wraith-76505-0 of Wraith
+			properties
+				x	85
+				y	249
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-76505-1 of Wraith
+			properties
+				x	263
+				y	244
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76505-2 of DungeonBackDoor
+			properties
+				x	177
+				y	233
+				loop	2
+				linkTo	DungeonBackDoor-76531-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	142
+			end
+			base described
+				text	"This door glows with a strange red aura."
+			end
+		end
+	end
+end
+room 76506
+	properties
+		template 30703
+		east 76507
+		west 76505
+		flags	0
+	end
+	objects
+		object Zombie-76506-0 of Zombie
+			properties
+				x	401
+				y	269
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76506-1 of DungeonBackDoor
+			properties
+				x	313
+				y	225
+				loop	2
+				linkTo	DungeonBackDoor-76529-2
+			end
+			base lockable
+				isLocked	1
+				unlockValue	142
+			end
+			base described
+			end
+		end
+	end
+end
+room 76507
+	properties
+		template 30201
+		west 76506
+		flags	0
+	end
+	objects
+		object CaveRat-76507-0 of CaveRat
+			properties
+				x	365
+				y	280
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76507-1 of DungeonBackDoor
+			properties
+				x	180
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-76532-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	142
+			end
+			base described
+			end
+		end
+	end
+end
+room 76529
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object LostSailor-76529-0 of LostSailor
+			properties
+				x	282
+				y	267
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object CaveRat-76529-1 of CaveRat
+			properties
+				x	437
+				y	281
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76529-2 of DungeonBackDoor
+			properties
+				x	319
+				y	348
+				loop	3
+				linkTo	DungeonBackDoor-76506-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Chair-76529-3 of Chair
+			properties
+				x	165
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object Aquamarine-76529-4 of Aquamarine
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LostSailor-76529-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76508
+	properties
+		template 30402
+		south 76509
+		north 76504
+		flags	0
+	end
+	objects
+		object Zombie-76508-0 of Zombie
+			properties
+				x	283
+				y	285
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 76555
+	properties
+		template 32301
+		east 76556
+		flags	72
+	end
+	objects
+		object Wraith-76555-0 of Wraith
+			properties
+				x	520
+				y	276
+				loop	3
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-76555-1 of Wraith
+			properties
+				x	446
+				y	269
+				loop	3
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-76555-2 of Wraith
+			properties
+				x	385
+				y	256
+				loop	0
+				color	7
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76555-3 of DungeonBackUp
+			properties
+				x	508
+				y	204
+				loop	2
+				linkTo	DungeonBackDown-76553-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomScroll-76555-4 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Wraith-76555-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-76555-5 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Wraith-76555-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-76555-6 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Wraith-76555-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 76556
+	properties
+		template 30901
+		east 76557
+		west 76555
+		flags	72
+	end
+	objects
+		object UndeadNecromancer-76556-0 of UndeadNecromancer
+			properties
+				x	461
+				y	261
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76556-1 of UndeadNecromancer
+			properties
+				x	376
+				y	282
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Wraith-76556-2 of Wraith
+			properties
+				x	431
+				y	275
+				loop	0
+				color	7
+			end
+			base character
+			end
+		end
+		object SmokeA-76556-3 of SmokeA
+			properties
+				x	197
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76557
+	properties
+		template 31301
+		east 76558
+		west 76556
+		flags	0
+	end
+	objects
+		object DungeonBackDown-76557-0 of DungeonBackDown
+			properties
+				x	346
+				y	216
+				loop	2
+				linkTo	DungeonBackUp-76561-5
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SmokeA-76557-1 of SmokeA
+			properties
+				x	331
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76558
+	properties
+		template 30201
+		west 76557
+		flags	0
+	end
+end
+room 76509
+	properties
+		template 31004
+		south 76510
+		north 76508
+		flags	0
+	end
+end
+room 76532
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object Bones-76532-0 of Bones
+			properties
+				x	171
+				y	293
+				loop	1
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-76532-1 of DungeonBackDoor
+			properties
+				x	319
+				y	353
+				loop	3
+				linkTo	DungeonBackDoor-76507-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomScroll-76532-2 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76532-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-76532-3 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76532-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-76532-4 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76532-0
+			end
+			base described
+			end
+		end
+		object RandomShirt-76532-5 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76532-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76510
+	properties
+		template 30803
+		east 76511
+		north 76509
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76510-0 of DungeonBackDoor
+			properties
+				x	476
+				y	219
+				loop	2
+				linkTo	DungeonBackDoor-76536-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	143
+			end
+			base described
+			end
+		end
+		object Sign-76510-1 of Sign
+			properties
+				x	171
+				y	240
+				loop	0
+			end
+			base described
+				text	"You can barely read the sign: 'Cell Block C'"
+			end
+		end
+	end
+end
+room 76511
+	properties
+		template 30901
+		east 76512
+		west 76510
+		flags	0
+	end
+	objects
+		object CaveRat-76511-0 of CaveRat
+			properties
+				x	284
+				y	273
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76511-1 of DungeonBackDoor
+			properties
+				x	554
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-76535-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	143
+			end
+			base described
+			end
+		end
+	end
+end
+room 76512
+	properties
+		template 31301
+		east 76513
+		west 76511
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76512-0 of DungeonBackDoor
+			properties
+				x	343
+				y	218
+				loop	2
+				linkTo	DungeonBackDoor-76534-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	143
+			end
+			base described
+			end
+		end
+	end
+end
+room 76513
+	properties
+		template 30201
+		west 76512
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76513-0 of DungeonBackDoor
+			properties
+				x	175
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-76533-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	143
+			end
+			base described
+			end
+		end
+	end
+end
+room 76561
+	properties
+		template 30805
+		east 76560
+		flags	72
+	end
+	objects
+		object Wraith-76561-0 of Wraith
+			properties
+				x	416
+				y	272
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-76561-1 of Wraith
+			properties
+				x	474
+				y	265
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76561-2 of UndeadNecromancer
+			properties
+				x	475
+				y	252
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-76561-3 of UndeadNecromancer
+			properties
+				x	391
+				y	250
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DamnedOne-76561-4 of DamnedOne
+			properties
+				x	449
+				y	272
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-76561-5 of DungeonBackUp
+			properties
+				x	251
+				y	211
+				loop	2
+				linkTo	DungeonBackDown-76557-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SmokeA-76561-6 of SmokeA
+			properties
+				x	233
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRing-76561-7 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Wraith-76561-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-76561-8 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	UndeadNecromancer-76561-3
+			end
+			base described
+			end
+		end
+	end
+end
+room 76560
+	properties
+		template 31301
+		east 76559
+		west 76561
+		flags	72
+	end
+	objects
+		object EntombedOne-76560-0 of EntombedOne
+			properties
+				x	343
+				y	256
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Wraith-76560-1 of Wraith
+			properties
+				x	221
+				y	268
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-76560-2 of Wraith
+			properties
+				x	266
+				y	247
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object RandomPotion-76560-3 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EntombedOne-76560-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76560-4 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Wraith-76560-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 76559
+	properties
+		template 30201
+		west 76560
+		flags	8
+	end
+	objects
+		object EntombedOne-76559-0 of EntombedOne
+			properties
+				x	65
+				y	243
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-76559-1 of EntombedOne
+			properties
+				x	281
+				y	250
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76559-2 of DungeonBackDoor
+			properties
+				x	175
+				y	230
+				loop	2
+				linkTo	DungeonBackDoor-76566-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76536
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object CaveRat-76536-0 of CaveRat
+			properties
+				x	269
+				y	267
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76536-1 of DungeonBackDoor
+			properties
+				x	332
+				y	350
+				loop	3
+				linkTo	DungeonBackDoor-76510-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Chair-76536-2 of Chair
+			properties
+				x	156
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76535
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object MaleCharacter-76535-0 of Dng14NPC1
+			properties
+				x	182
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-76535-1 of DungeonBackDoor
+			properties
+				x	316
+				y	349
+				loop	3
+				linkTo	DungeonBackDoor-76511-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-76535-2 of Bed
+			properties
+				x	488
+				y	318
+				loop	1
+			end
+			base described
+			end
+		end
+		object Chair-76535-3 of Chair
+			properties
+				x	155
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object AleJug-76535-4 of AleJug
+			properties
+				x	202
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingMeat-76535-5 of RatlingMeat
+			properties
+				x	235
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingMeat-76535-6 of RatlingMeat
+			properties
+				x	226
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingMeat-76535-7 of RatlingMeat
+			properties
+				x	245
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingMeat-76535-8 of RatlingMeat
+			properties
+				x	251
+				y	238
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-76535-9 of Spring
+			properties
+				x	629
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76534
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object LostSailor-76534-0 of LostSailor
+			properties
+				x	254
+				y	275
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76534-1 of DungeonBackDoor
+			properties
+				x	309
+				y	351
+				loop	3
+				linkTo	DungeonBackDoor-76512-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Chair-76534-2 of Chair
+			properties
+				x	155
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bed-76534-3 of Bed
+			properties
+				x	407
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76533
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object CaveRat-76533-0 of CaveRat
+			properties
+				x	201
+				y	297
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-76533-1 of DungeonBackDoor
+			properties
+				x	314
+				y	350
+				loop	3
+				linkTo	DungeonBackDoor-76513-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object TrapDoor-76533-2 of TrapDoor
+			properties
+				x	328
+				y	283
+				loop	0
+				linkTo	DungeonBackUp-76546-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76567
+	properties
+		template 32301
+		east 76566
+		flags	8
+	end
+	objects
+		object Lich-76567-0 of Lich
+			properties
+				x	468
+				y	294
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-76567-1 of Lich
+			properties
+				x	446
+				y	229
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-76567-2 of CryptKeeper
+			properties
+				x	360
+				y	264
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object RandomMegaTreasure-76567-3 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CryptKeeper-76567-2
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-76567-4 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CryptKeeper-76567-2
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-76567-5 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-76567-0
+			end
+			base described
+			end
+		end
+		object RandomWand-76567-6 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CryptKeeper-76567-2
+			end
+			base described
+			end
+		end
+		object RandomScroll-76567-7 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-76567-1
+			end
+			base described
+			end
+		end
+		object RandomScroll-76567-8 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-76567-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76567-9 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-76567-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76567-10 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CryptKeeper-76567-2
+			end
+			base described
+			end
+		end
+		object RandomPotion-76567-11 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-76567-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76567-12 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-76567-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76566
+	properties
+		template 30701
+		west 76567
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-76566-0 of DungeonBackDoor
+			properties
+				x	287
+				y	204
+				loop	2
+				linkTo	DungeonBackDoor-76559-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76546
+	properties
+		template 30101
+		east 76547
+		flags	0
+	end
+	objects
+		object DungeonBackUp-76546-0 of DungeonBackUp
+			properties
+				x	474
+				y	219
+				loop	2
+				linkTo	TrapDoor-76533-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76547
+	properties
+		template 30906
+		east 76548
+		west 76546
+		flags	0
+	end
+	objects
+		object CaveRat-76547-0 of CaveRat
+			properties
+				x	185
+				y	279
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 76548
+	properties
+		template 30201
+		west 76547
+		flags	0
+	end
+	objects
+		object CaveRat-76548-0 of CaveRat
+			properties
+				x	88
+				y	274
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-76548-1 of CaveRat
+			properties
+				x	126
+				y	254
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object Bones-76548-2 of Bones
+			properties
+				x	241
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-76548-3 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76548-2
+			end
+			base described
+			end
+		end
+		object RandomStuff-76548-4 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76548-2
+			end
+			base described
+			end
+		end
+		object RandomStuff-76548-5 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76548-2
+			end
+			base described
+			end
+		end
+		object RandomWeapon-76548-6 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76548-2
+			end
+			base described
+			end
+		end
+		object RandomJunk-76548-7 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-76548-2
+			end
+			base described
+			end
+		end
+	end
+end

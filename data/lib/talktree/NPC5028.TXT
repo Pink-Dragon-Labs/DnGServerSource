@@ -1,0 +1,26 @@
+id 5028
+
+banner "Greetings, Friend. Welcome to my food cart. May I help you?"
+
+topic "Tell me about Leinster."
+	text "Wow, something is happening.  There is no way I could sleep through that.  The place is clean, but I do not know if I will stay around here.  There is something in the air that just does not feel right."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that Duach is planning another smiting. Pray it isn't true."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, but call again."
+end
+
+topic  "I need compost worms for Tallie." q108:0 #q6308-01-330:0
+	quest 109 #6308-01-335
+	text  "You have them, and you'd better take to her while they're still alive."
+end
+
+topic  "I'm looking for a private stock of ale." q23:0 #q6043-01-525:0
+	quest 24 #6043-01-530
+	text  "You're kidding me, aren't you?  I gave you six bottles."
+end
+

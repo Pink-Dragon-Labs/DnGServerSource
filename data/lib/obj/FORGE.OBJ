@@ -1,0 +1,3933 @@
+#
+# Items produced by the Magic Forge
+#
+#-----------------------------------------------------------------------------
+object ForgedRing of Ring
+	properties
+		name "Forged Ring"
+		basicName "Ring"
+		value 110
+		color -1
+	end
+
+	base described
+		text "You see a glistening ring of some sort."
+		idText "Although this ring has been reworked in the Magic Forge, it is just a plain copper ring."
+		shopText "It's just a plain copper ring. Looks like someone wasted a trip to the Magic Forge though, since it has clearly been reworked."
+	end
+end
+
+#----------------------------------------- Forged Clumsiness Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rClumsinessDexterity of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+
+
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessEndurance of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessEngagement of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessEternalNourishment of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessGender of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessIntelligence of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessNakedness of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessRegeneration of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessStrength of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessStupidity of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessUgly of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessWeakness of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessWedding of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessWedding2 of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rClumsinessWedding3 of ForgedRing
+	properties
+		name "Ring of Clumsiness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness.  You will lose dexterity if you wear it."
+		shopText "This cursed ring will make you clumsy."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Dexterity Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rDexterityEndurance of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityEngagement of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityEternalNourishment of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityGender of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityIntelligence of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityNakedness of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityRegeneration of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityStrength of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityStupidity of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityUgly of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityWeakness of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityWedding of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityWedding2 of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rDexterityWedding3 of ForgedRing
+	properties
+		name "Ring of Dexterity"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this."
+		shopText "This wonderful ring infuses the wearer with speed."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Endurance Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rEnduranceEngagement of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceEternalNourishment of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceGender of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceIntelligence of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceNakedness of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceRegeneration of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceStrength of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceStupidity of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceUgly of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceWeakness of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceWedding of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceWedding2 of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEnduranceWedding3 of ForgedRing
+	properties
+		name "Ring of Endurance"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance.  You will gain endurance while wearing this."
+		shopText "This ring will give you endurance for those long journeys."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Engagement Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rEngagementEternalNourishment of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementGender of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementIntelligence of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementNakedness of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementRegeneration of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementStrength of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementStupidity of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementUgly of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementWeakness of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementWedding of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+ end
+#-----------------------------------------------------------------------------
+object rEngagementWedding2 of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEngagementWedding3 of ForgedRing
+	properties
+		name "Engagement Ring"
+		value 500
+		view 51900
+	end
+
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond."
+		shopText "This is one of the finer engagement rings available."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged EternalNourishment Rings --------------------------------------
+#-----------------------------------------------------------------------------
+object rEternalNourishmentGender of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentIntelligence of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentNakedness of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentRegeneration of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentStrength of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentStupidity of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentUgly of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentWeakness of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentWedding of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentWedding2 of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rEternalNourishmentWedding3 of ForgedRing
+	properties
+		name "Ring of Eternal Nourishment"
+		value 2000
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment.  You will not have to eat or drink as long as you wear this ring."
+		shopText "This is a fine magical Ring of Eternal Nourishment.  It will provide your body with sustenance as long as you wear it."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Gender Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rGenderIntelligence of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderNakedness of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderRegeneration of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderStrength of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderStupidity of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderUgly of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderWeakness of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderWedding of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderWedding2 of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rGenderWedding3 of ForgedRing
+	properties
+		name "Ring of Gender"
+		value 500
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender.  You will become the opposite sex when you wear it."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Intelligence Rings ---------------------------------------
+#-----------------------------------------------------------------------------
+object rIntelligenceNakedness of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceRegeneration of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceStrength of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceStupidity of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceUgly of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceWeakness of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceWedding of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceWedding2 of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rIntelligenceWedding3 of ForgedRing
+	properties
+		name "Ring of Intelligence"
+		value 3500
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence.  Wearing it will make you somewhat smarter."
+		shopText "This wonderful ring of intelligence is a must for spellcasters!"
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Nakedness Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rNakednessRegeneration of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessStrength of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessStupidity of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessUgly of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessWeakness of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessWedding of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessWedding2 of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rNakednessWedding3 of ForgedRing
+	properties
+		name "Ring of Nakedness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness."
+		shopText "Wear this fine ring only while at home, please."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Regeneration Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rRegenerationStrength of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+end
+#-----------------------------------------------------------------------------
+object rRegenerationStupidity of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rRegenerationUgly of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rRegenerationWeakness of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rRegenerationWedding of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rRegenerationWedding2 of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rRegenerationWedding3 of ForgedRing
+	properties
+		name "Ring of Regeneration"
+		value 3000
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration.  Wearing this ring will cause you to heal much more rapidly."
+		shopText "Here is a Ring of Regeneration.  This ring will allow you to heal much quicker than normal."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Strength Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rStrengthStupidity of ForgedRing
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStrengthUgly of ForgedRing
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStrengthWeakness of ForgedRing
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStrengthWedding of ForgedRing
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStrengthWedding2 of ForgedRing
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStrengthWedding3 of ForgedRing
+	properties
+		name "Ring of Strength"
+		value 2500
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength.  This ring will increase your strength attribute when worn."
+		shopText "This wonderful Ring of Strength will make you much stronger."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+#----------------------------------------- Forged Stupidity Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rStupidityUgly of ForgedRing
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStupidityWeakness of ForgedRing
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStupidityWedding of ForgedRing
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStupidityWedding2 of ForgedRing
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rStupidityWedding3 of ForgedRing
+	properties
+		name "Ring of Stupidity"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity.  This ring will lower the intelligence of the wearer."
+		shopText "This ring will make you stupid if you aren't already."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Ugly Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rUglyWeakness of ForgedRing
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+	properties
+		name "Ring of Weakness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness."
+		shopText "This ring will weaken you if you put it on."
+	end
+end
+#-----------------------------------------------------------------------------
+object rUglyWedding of ForgedRing
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+	properties
+		name "Wedding Ring"
+		value 1500
+	end
+
+	base described
+		idText "You see a fine golden wedding ring."
+		shopText "This is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rUglyWedding2 of ForgedRing
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+	properties
+		name "Expensive Wedding Ring"
+		value 15000
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft."
+	end
+end
+#-----------------------------------------------------------------------------
+object rUglyWedding3 of ForgedRing
+	properties
+		name "Ring of Ugliness"
+		value 100
+
+		# cursed
+		affect 46 0 0 -1
+	end
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+	base described
+		idText "You see a Ring of Ugliness.  This ring will give the wearer a hideous aspect."
+		shopText "This strange artifact will give you a most hideous aspect."
+	end
+	properties
+		name "Royal Wedding Ring"
+		value 30000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals."
+	end
+end
+#----------------------------------------- Forged Weakness Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rWeaknessWedding of ForgedRing
+	properties
+		name "Forged Wedding Ring of Weakness"
+		value 1650
+
+		# cursed
+		affect 46 0 0 -1
+	end
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+	base described
+		idText "You see a fine golden wedding Ring of Weakness. It has survived the Magic Forge."
+		shopText "This fine wedding ring will weaken you if you put it on. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rWeaknessWedding2 of ForgedRing
+	properties
+		name "Forged Expensive Wedding Ring of Weakness"
+		value 16500
+		view 51900
+
+		# cursed
+		affect 46 0 0 -1
+	end
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+	base described
+		idText "You see an intricately worked wedding Ring of Weakness. It has survived the Magic Forge."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft but it will weaken you if you put it on. It has survived the Magic Forge."
+	end
+end
+
+#-----------------------------------------------------------------------------
+object rWeaknessWedding3 of ForgedRing
+	properties
+		name "Forged Royal Wedding Ring of Weakness"
+		value 33000
+		view 51950
+
+		# cursed
+		affect 46 0 0 -1
+	end
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+	base described
+		idText "You see the finest wedding ring that money can buy. Unfortunately, it has been cursed with Weakness in the Magic Forge."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals. Unfortunately, it has been cursed with Weakness in the Magic Forge."
+	end
+end
+#----------------------------------------- Forged Copper Rings -----------------------------------------------
+#-----------------------------------------------------------------------------
+object rCopperCopper of ForgedRing
+	properties
+		name "Forged Ring of Copper"
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperClumsiness of ForgedRing
+	properties
+		name "Forged Ring of Clumsiness"
+		value 110
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see a ring of Clumsiness. You will lose dexterity if you wear it. It has survived the Magic Forge."
+		shopText "This cursed ring will make you clumsy. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperDexterity of ForgedRing
+	properties
+		name "Forged Ring of Dexterity"
+		value 2750
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a Ring of Dexterity.  You will gain dexterity while wearing this. It has survived the Magic Forge."
+		shopText "This wonderful ring infuses the wearer with speed. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperEndurance of ForgedRing
+	properties
+		name "Forged Ring of Endurance"
+		value 2750
+	end
+
+	actions
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+	end
+
+	base described
+		idText "You see a Ring of Endurance. You will gain endurance while wearing this. It has survived the Magic Forge."
+		shopText "This ring will give you endurance for those long journeys. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperEngagement of ForgedRing
+	properties
+		name "Forged Engagement Ring"
+		value 550
+		view 51900
+	end
+	base described
+		idText "You see a fine golden engagement ring with a tiny diamond that has survived the Magic Forge."
+		shopText "This has survived the Magic Forge and is one of the finer engagement rings available."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperEternalNourishment of ForgedRing
+	properties
+		name "Forged Ring of Eternal Nourishment"
+		value 2200
+	end
+
+	actions
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		idText "You see a Ring of Eternal Nourishment. You will not have to eat or drink as long as you wear this ring. It has survived the Magic Forge."
+		shopText "This is a fine magical Ring of Eternal Nourishment. It will provide your body with sustenance as long as you wear it. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperGender of ForgedRing
+	properties
+		name "Forged Ring of Gender"
+		value 550
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 68 0 0 -1
+		vBeTakenOff clearAffect dobj 68 0 0
+	end
+
+	base described
+		idText "You see a Ring of Gender. You will become the opposite sex when you wear it. It has survived the Magic Forge."
+		shopText "This fine ring will allow you to become the opposite sex if you are in to that sort of stuff. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperIntelligence of ForgedRing
+	properties
+		name "Forged Ring of Intelligence"
+		value 3850
+	end
+
+	actions
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+	end
+
+	base described
+		idText "You see a Ring of Intelligence. Wearing it will make you somewhat smarter. It has survived the Magic Forge."
+		shopText "This wonderful ring of intelligence is a must for spellcasters! It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperNakedness of ForgedRing
+	properties
+		name "Forged Ring of Nakedness"
+		value 110
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 69 0 0 -1
+		vBeTakenOff clearAffect dobj 69 0 0
+	end
+
+	base described
+		idText "You see a ring of Nakedness. It has survived the Magic Forge."
+		shopText "Wear this fine ring only while at home, please. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperRegeneration of ForgedRing
+	properties
+		name "Forged Ring of Regeneration"
+		value 3300
+	end
+
+	actions
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+	end
+
+	base described
+		idText "You see a Ring of Regeneration. Wearing this ring will cause you to heal much more rapidly. It has survived the Magic Forge."
+		shopText "Here is a Ring of Regeneration. This ring will allow you to heal much quicker than normal. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperStrength of ForgedRing
+	properties
+		name "Forged Ring of Strength"
+		value 2750
+	end
+
+	actions
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	base described
+		idText "You see a Ring of Strength. This ring will increase your strength attribute when worn. It has survived the Magic Forge."
+		shopText "This wonderful Ring of Strength will make you much stronger. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperStupidity of ForgedRing
+	properties
+		name "Forged Ring of Stupidity"
+		value 110
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+	end
+
+	base described
+		idText "You see a Ring of Stupidity. This ring will lower the intelligence of the wearer. It has survived the Magic Forge."
+		shopText "This ring will make you stupid if you aren't already. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperUgly of ForgedRing
+	properties
+		name "Forged Ring of Ugliness"
+		value 110
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+	end
+
+	base described
+		idText "You see a Ring of Ugliness. This ring will give the wearer a hideous aspect. It has survived the Magic Forge."
+		shopText "This strange artifact will give you a most hideous aspect. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperWeakness of ForgedRing
+	properties
+		name "Forged Ring of Weakness"
+		value 110
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+	end
+
+	base described
+		idText "You see a Ring of Weakness. It has survived the Magic Forge."
+		shopText "This ring will weaken you if you put it on. It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperWedding of ForgedRing
+	properties
+		name "Forged Wedding Ring"
+		value 1650
+	end
+
+	base described
+		idText "You see a fine golden wedding ring that has survived the Magic Forge."
+		shopText "This has survived the Magic Forge and is a fine wedding ring, suitable for those on a budget."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperWedding2 of ForgedRing
+	properties
+		name "Expensive Forged Wedding Ring"
+		value 16500
+		view 51900
+	end
+
+	base described
+		idText "You see an intricately worked wedding ring with a sparkling diamond that has survived the Magic Forge."
+		shopText "This extraordinary wedding ring took our finest artisans more than three months to craft and has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------
+object rCopperWedding3 of ForgedRing
+	properties
+		name "Forged Royal Wedding Ring"
+		value 33000
+		view 51950
+	end
+
+	base described
+		idText "You see the finest wedding ring that money can buy. It has survived the Magic Forge."
+		shopText "This masterpiece has a 5 carat diamond and has been crafted with the finest of metals.  It has survived the Magic Forge."
+	end
+end
+#-----------------------------------------------------------------------------

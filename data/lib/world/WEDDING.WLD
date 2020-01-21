@@ -1,0 +1,145 @@
+room 6000
+   properties
+      picture	3000
+	roomName "Stephen's Garden"
+   end
+   atpinfo
+      240  523 27
+      33013  564 58
+      242  251 34
+      33010  325 23
+      33011  82 68
+      2539  215 191
+      2539  415 193
+      112  220 190
+      32880  408 193
+      181  318 266
+      62  601 327
+      63  296 281
+      32831  318 277
+      63  339 280
+      163  77 134
+      32925  190 130
+      165  272 119
+      32923  274 125
+      177  377 101
+      156  328 128
+      145  226 115
+      168  511 139
+      102  -5 319
+      106  627 324
+      64  423 196
+      64  375 195
+      32832  409 195
+      32832  458 195
+      64  184 192
+      64  175 192
+      32832  255 194
+      32832  245 194
+      2712  36 303
+      201  106 339
+      63  82 321
+      63  226 191 65
+      63  208 191 65
+      63  201 192 65
+      32831  405 194 65
+      32831  412 195 65
+      32831  419 195 65
+      32831  426 194 65
+      32831  424 192 65
+      63  211 240
+      63  184 287
+      63  216 298
+      63  216 254
+      63  205 259
+      63  233 243
+      63  197 264
+      63  208 277
+      63  194 254
+      64  427 258
+      64  454 266
+      64  446 268
+      64  468 280
+      64  443 288
+      64  432 280
+      64  446 247
+      64  407 252
+      64  419 267
+      64  422 302
+      64  312 280
+      64  280 279
+      64  283 261
+      63  335 268
+      64  306 267
+      63  395 195
+      63  391 193
+      63  241 193
+      63  192 193
+      63  440 196
+   end
+   objects
+      object altar6000-0 of Altar
+         properties
+            x	318
+            y	276
+            loop	0
+         end
+      end
+      object chair6000-1 of Chair
+         properties
+            x	91
+            y	245
+            loop	0
+         end
+      end
+      object chair6000-2 of Chair
+         properties
+            x	153
+            y	220
+            loop	0
+         end
+      end
+      object chair6000-3 of Chair
+         properties
+            x	124
+            y	233
+            loop	0
+         end
+      end
+      object chair6000-4 of Chair
+         properties
+            x	451
+            y	210
+            loop	1
+         end
+      end
+      object chair6000-5 of Chair
+         properties
+            x	515
+            y	233
+            loop	1
+         end
+      end
+      object chair6000-6 of Chair
+         properties
+            x	479
+            y	220
+            loop	1
+         end
+      end
+      object chair6000-7 of Chair
+         properties
+            x	181
+            y	210
+            loop	0
+         end
+      end
+      object chair6000-8 of Chair
+         properties
+            x	555
+            y	245
+            loop	1
+         end
+      end
+   end
+end

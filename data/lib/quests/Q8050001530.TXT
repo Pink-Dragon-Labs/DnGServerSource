@@ -1,0 +1,19 @@
+quest  393 #80500-01-530        # Setta, Tasty Morsels, Murias, 6215
+
+name  "Setta's Scarf"
+type  fedex
+
+proposal  "Surely.  I have a small supply, and I'll gladly share.  In fact, I will give you some in exchange for a small favor.  Would you go to Wen for me?"
+
+declined  "It wasn't important."
+
+accepted  "Thank you.  I've a scarf on order there, and it should be ready."
+
+reminder   "Fetch my scarf from Wen."
+
+completed  "My thanks.  I prepared a supply of beeswax for you."
+
+getItem   qSettaScarf
+reward   qBeeswax 
+end
+

@@ -1,0 +1,19 @@
+quest  181 #6610-01-100        #Rant, Vlador's Tavern, Caer Fandry, dark elf, 6610
+
+name  "Powdered Imp"
+type  fedex
+
+proposal  "You've got your nerve, don't you?  If you expected to impress me, forget it.  I'm not impressed by the likes of you.  You're not going to back down, I see.  OK, I'll try you out.  We'll see how you do with the basics of trap detection and disarming.  But before I do a thing for you, you'll do something for me.   Any apprentice of mine works hard.  I want some Powdered Imp.  How does that strike you?  Too morbid?  Too gruesome?  Too bad!  Those are my terms.  Are you going to try it, dolt-head? 
+
+declined  "I thought so."
+
+accepted  "If those creeps in Leinster haven't all run away, ask them.  Don't come back empty-handed."
+
+reminder   "I told you to get out of here.  Go to Leinster and find some Powdered Imp."    
+
+completed  "So you did it.  Am I supposed to be dazzled?  Take this book, Basics of Trap Detection and Disarming, and see if you can understand it."
+
+getItem   qPowderedImp
+reward   skbTrapsI 
+end
+

@@ -1,0 +1,510 @@
+room 6008
+   properties
+      picture	4000
+      roomName	"The Good Weavers Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  93 113
+      2103  468 343
+      2101  208 223
+      2101  56 238
+      2020  170 28
+      2028  243 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  1 239 45
+      34904  702 378
+      2118  469 344 63
+      2136  150 224 45
+      2594  207 123
+      2594  407 123
+      2082  227 105 -20
+      2082  427 105 -20
+      2112  324 84
+      2109  328 205
+      34886  331 205 64
+      34886  330 206 2
+      2118  330 206 33
+      2165  609 117
+   end
+   objects
+      object door6008-0 of Door
+         properties
+            x	533
+            y	209
+            loop	1
+            linkTo	door5008-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Christi6008-1 of ExoticClothesShop
+         properties
+            x	152
+            y	209
+            name	"Christi"
+            loop	0
+         end
+         base character
+            sex	1
+            properName	"Christi (NPC)"
+         end
+         base container
+            worn	BlackShirt
+            worn	BlackPants
+            worn	BlackBelt
+            worn	Wristband
+            worn	BlackBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 1 0 14 5 5 3 3 4 16 10 2 
+         end
+      end
+   end
+end
+room 6019
+   properties
+      picture	4000
+      roomName	"Leinster Limited Interior"
+   end
+   atpinfo
+      2118  261 385
+      2117  134 268 200
+      2103  343 214
+      2111  593 164
+      2020  169 26
+      2028  239 7
+      2029  329 50
+      2028  421 8
+      2008  484 40
+      2136  -15 167 10
+      2118  347 215 65
+      2118  420 331 60
+      2102  460 211
+      34886  417 330 70
+      2103  285 329
+      2103  430 330
+      34886  289 330 70
+      2118  289 330 60
+      2110  42 166
+      2161  49 105
+      2162  515 99
+      34904  645 165 10
+      2043  253 123
+      2043  358 123
+      2163  342 89
+      2546  289 124 16
+      2546  394 124 16
+   end
+   objects
+      object door6019-0 of Door
+         properties
+            x	137
+            y	207
+            loop	0
+            linkTo	door5019-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Andrea6019-1 of ClothesShop
+         properties
+            x	468
+            y	202
+            name	"Andrea"
+            loop	1
+         end
+         base character
+            sex	1
+            properName	"Andrea (NPC)"
+         end
+	 base talk
+	 	talkTreeID 6019
+	 end
+         base container
+            worn	GreenShirt
+            worn	GreenLongSkirt
+            worn	BlackBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 1 4 10 4 6 2 2 8 0 8 0 
+         end
+      end
+   end
+end
+room 6044
+   properties
+      picture	4000
+      roomName	"Straight Off The Loom Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  64 101
+      2103  323 334
+      2108  551 200
+      2111  562 116
+      2101  51 227
+      2020  169 26
+      2028  243 6
+      2029  346 49
+      2028  421 8
+      2008  483 39
+      2082  430 108 -20
+      2136  1 228 48
+      34904  702 378
+      2082  226 108 -20
+      2118  322 335 65
+      2594  205 125
+      2594  409 126
+      34904  600 201 -15
+      34904  601 201 11
+      2166  270 100
+      2166  387 110 10
+      34904  613 117 10
+      2103  317 214
+      2118  321 215 65
+   end
+   objects
+      object simpleDoor6044-0 of SimpleDoor
+         properties
+            x	137
+            y	206
+            loop	0
+            linkTo	simpleDoor5044-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object exoticClothesShop6044-1 of ExoticClothesShop
+         properties
+            name        "Deanna"
+            x	317
+            y	196
+            loop	2
+         end
+         base talk
+                talkTreeID 6044
+         end
+         base character
+            sex	1
+            properName  "Deanna (NPC)"
+         end
+         base container
+            worn        PurpleCowl
+            worn        BlueShirt
+            worn        PurpleLongSkirt
+            worn        BlueLowBoots
+            worn        GoldBelt
+            head        1 0 1 3 8 1 14 2 6 4 12 3 
+         end
+      end
+   end
+end
+room 6002
+   properties
+      picture	4000
+      roomName	"Anson's Armory Interior"
+   end
+   atpinfo
+      2025  205 17
+      2013  308 8
+      2025  410 2
+      2221  570 177
+      2013  102 23
+      2014  16 50
+      2026  495 11
+      2109  433 169
+      2119  440 170 33
+      34888  434 170 60
+      2119  440 170 4
+      2139  20 191 15
+      2117  350 61
+      2164  124 107
+      2164  14 122
+      2107  71 190
+      2047  34 173
+      2047  271 152
+      2553  50 145
+      2553  287 124
+      2103  332 252
+   end
+   objects
+      object door6002-0 of Door
+         properties
+            x	207
+            y	179
+            loop	2
+            linkTo      door5002-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6002-1 of FirePlace
+         properties
+            x	615
+            y	192
+            loop	0
+         end
+      end
+      object weaponArmorShop6002-2 of WeaponArmorShop
+         properties
+            x	333
+            y	238
+            loop	2
+            name "Anson"
+         end
+         base talk
+                talkTreeID 6002
+         end
+         base character
+            sex 0
+            properName "Anson (NPC)"
+         end
+         base container
+            worn GrayChainTunic
+            worn GrayChainPants
+            worn MagentaLowBoots
+            head 0 1 5 7 0 0 5 4 7 3 6 1
+         end
+      end
+   end
+end
+room 6027
+   properties
+      picture	4000
+      roomName	"Emperor's Clothes Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  108 102
+      2116  390 123
+      2117  290 147 50
+      2103  328 211
+      2101  135 204
+      2020  170 28
+      2028  243 8
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  75 205 45
+      34904  702 378
+      2118  517 343 65
+      2103  326 293
+      2103  514 342
+      2103  152 342
+      34886  152 343 65
+      34886  332 212 65
+      2082  227 110 -20
+      2082  436 112 -20
+      2594  206 127
+      2594  416 129
+   end
+   objects
+      object simpleDoor6027-0 of SimpleDoor
+         properties
+            x	578
+            y	218
+            loop	1
+            linkTo      simpleDoor5027-1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object clothesShop6027-1 of ClothesShop
+         properties
+            x	331
+            y	275
+            loop	2
+            name "Andi"
+         end
+         base character
+            sex 1
+            properName "Andi (NPC)"
+         end
+         base container
+            worn GrayShirt
+            worn TealLongSkirt
+            worn WhiteBoots
+            object LeatherPouch
+            object Mirror
+            object Lockpick
+            head 1 0 3 11 5 7 1 1 7 0 8 0
+         end
+      end
+   end
+end
+room 6037
+   properties
+      picture	3500
+      south	5037 176 146 
+      roomName	"Gregory's Metalworks"
+   end
+   atpinfo
+      2849  170 157
+      2835  556 199
+      34989  70 159
+      2933  546 183
+      2829  621 176
+      2865  467 130
+      2908  374 179
+      2930  608 197
+      35634  37 320
+      2933  593 199
+      2117  429 193
+      2103  345 337 -90
+      2919  432 182
+      2829  616 179
+      35596  273 163
+      2839  520 155
+      2839  381 164
+      2882  639 142
+      35651  608 197
+      35634  236 145
+      2933  518 171
+      2866  285 103
+      2883  571 194
+      2835  361 178
+      35601  576 131
+      35634  566 129
+      2832  515 147
+      2834  274 103
+      2866  256 92
+      2866  351 137
+      2865  126 332
+      35634  225 331
+      2109  438 184
+      2835  129 180
+      35651  405 172
+      2930  158 166
+      2933  79 182
+      2930  90 177
+      2933  10 195
+      2930  38 185
+      35652  125 163
+      2835  452 108
+      2835  331 243
+      2836  363 250
+      2836  333 255
+      35603  290 257
+      2934  381 222
+      2934  318 228
+      2934  283 224
+      2934  192 129
+      2934  577 159
+      2935  19 165
+      2935  43 159
+      2934  104 154
+      2936  431 154
+      35704  502 160
+      2948  536 281
+      2949  572 256
+      35717  509 291
+      35717  340 183
+      35717  575 300
+      2949  602 279
+      35672  622 180
+      2908  356 105
+      7907  321 256
+      3  291 119
+      3  250 246
+      3  389 246
+   end
+   objects
+      object ruinDoorA6037-0 of RuinDoorA
+         properties
+            x	299
+            y	165
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 6043
+   properties
+      picture	4000
+      roomName	"To The Hilt Interior"
+   end
+   atpinfo
+      2025  183 2
+      2025  389 16
+      34989  49 172
+      2013  81 8
+      2026  477 25
+      2166  474 77
+      2109  429 183
+      2119  433 184 63
+      2120  428 183
+      2109  141 291
+      2109  279 291
+      2119  142 292 5
+      34888  283 292 60
+      2121  140 292 34
+      2121  289 292 4
+      2108  599 182
+      2001  287 7
+      2001  591 41 20
+      34907  652 183 -15
+      34905  650 183 13
+      2081  619 97 -20
+      2082  385 84 -20
+      2596  583 111
+      2597  364 101
+      2082  182 96 -10
+      2597  161 103
+      2106  181 185
+   end
+   objects
+      object door6043-0 of Door
+         properties
+            x	284
+            y	170
+            loop	1
+            linkTo	door5043-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6043-1 of FirePlace
+         properties
+            x	2
+            y	188
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop6043-2 of ExoticArmaments
+         properties
+            x	182
+            y	166
+            loop	2
+            name "Melkoro"
+         end
+         base talk
+                talkTreeID 6043
+         end
+         base character
+            sex 0
+            properName "Melkoro (NPC)"
+         end
+         base container
+            worn MagentaTunic
+            worn GreenPants
+            worn BrownBelt
+            worn MagentaLowBoots
+            head 0 0 1 1 8 1 13 1 2 4 7 3
+         end
+      end
+   end
+end

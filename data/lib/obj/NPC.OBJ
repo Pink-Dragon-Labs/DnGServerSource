@@ -1,0 +1,22 @@
+#
+# NPC declarations
+#
+
+object NPC of Character
+	properties
+		color 0
+		loop 2
+		strength 10
+		intelligence 10
+		endurance 10
+		dexterity 10
+	end
+
+	base npc
+		code wolf
+	end
+
+	base described
+		text "You see a computer controlled character."
+	end
+end

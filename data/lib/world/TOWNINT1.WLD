@@ -1,0 +1,354 @@
+room 6034
+   properties
+      picture	4000
+      roomName	"Hard Knocks Interior"
+   end
+   atpinfo
+      2107  44 177
+      2108  587 192
+      2001  590 36
+      2013  492 36
+      2001  398 36
+      2013  125 9
+      2002  311 46 10
+      2001  220 10
+      2014  39 36
+      2102  222 229
+      2147  -48 385
+      34915  724 369
+      2148  -40 423
+      2149  -38 394
+      2153  -32 326
+      2164  148 68
+      2164  509 99
+      2164  18 90
+      2149  -8 178 15
+      2042  183 124
+      2042  373 154
+      2147  193 230 50
+      2148  0 178 -13
+      34917  639 193 13
+      2153  257 230 40
+      34916  637 193 -13
+   end
+   objects
+      object simpleDoor6034-0 of SimpleDoor
+         properties
+            x	308
+            y	188
+            loop	1
+            linkTo	simpleDoor5034-2
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Peter6034-1 of WarriorAcademy
+         properties
+            x	246
+            y	219
+            name	"Peter"
+            loop	1
+         end
+         base talk
+            talkTreeID	6034
+         end
+         base character
+            sex	0
+            properName	"Peter (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	BlueCowl
+            worn	BlackBoots
+            worn	PurplePants
+            worn	PurpleShirt
+            head	0 1 0 1 2 2 15 8 2 4 8 0 
+         end
+      end
+   end
+end
+room 6018
+   properties
+      picture	4000
+      roomName	"Bright Touch Interior"
+   end
+   atpinfo
+      2108  507 187
+      2001  595 45
+      2013  350 20
+      2001  447 22
+      2013  158 19
+      2002  517 46
+      2001  254 20
+      2014  69 47
+      2014  -2 59
+      2101  343 460
+      34910  554 188 -13
+      34910  605 403
+      2102  361 213
+      34911  558 188 45
+      2165  424 75
+      34989  -82 232
+      2110  63 124
+      2165  620 107
+      2165  252 81
+      34911  559 392
+      34911  554 188 15
+      2041  321 124 -20
+      2544  332 128
+   end
+   objects
+      object simpleDoor6018-0 of SimpleDoor
+         properties
+            x	156
+            y	185
+            loop	0
+            linkTo	simpleDoor5018-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object temple6018-1 of Temple
+         properties
+            x	396
+            y	210
+            loop	1
+            name	"Miriam"
+         end
+         base talk
+            talkTreeID	6018
+         end
+         base character
+            sex	1
+            properName	"Miriam (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	RedShirt
+            worn	BluePants
+            worn	RedCowl
+            worn	BrownLowBoots
+            head	1 1 2 4 3 3 1 15 7 7 12 4 
+         end
+      end
+   end
+end
+room 6010
+   properties
+      picture	4000
+      roomName	"Chloe's Healing Interior"
+   end
+   atpinfo
+      2107  160 162
+      2108  466 151
+      2013  358 18 20
+      2001  455 16 20
+      2013  165 6
+      2002  504 17
+      2001  262 17 20
+      2014  89 31
+      2164  192 75
+      2164  107 88
+      2014  -3 46
+      2101  343 460
+      2142  262 354 -40
+      34910  361 398
+      2143  119 163 17
+      2102  237 239
+      34911  514 152 13
+      2165  480 71
+      2221  599 185 15
+      2101  419 238
+      2080  337 90 -20
+      2081  285 91 -20
+      2595  339 104
+      2596  250 105
+   end
+   objects
+      object simpleDoor6010-0 of SimpleDoor
+         properties
+            x	38
+            y	191
+            loop	0
+            linkTo	simpleDoor5010-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6010-1 of FirePlace
+         properties
+            x	643
+            y	186
+            loop	0
+         end
+      end
+      object temple6010-2 of Temple
+         properties
+            x	392
+            y	233
+            loop	2
+            name	"Chloe"
+         end
+         base character
+            sex	1
+            properName	"Chloe (NPC)"
+         end
+         base container
+            worn	WhiteShirt
+            worn	AzureLongSkirt
+            worn	BlackBelt
+            worn	TanBoots
+            head	1 1 5 8 8 7 11 4 3 11 8 0 
+         end
+      end
+   end
+end
+room 6036
+   properties
+      picture	4000
+      roomName	"Soothers Interior"
+   end
+   atpinfo
+      2107  103 184
+      2013  350 20
+      2001  521 40 30
+      2013  158 19
+      2001  254 20
+      2014  69 47
+      2164  155 96
+      2164  35 117
+      2014  -2 59
+      2101  343 460
+      2142  218 406
+      34910  351 408
+      2143  56 185 -13
+      2102  365 280
+      2143  364 168 15
+      2221  593 188 15
+      2142  55 185 16
+      2014  426 21
+      2107  413 167
+      2041  65 117 -20
+      2041  320 109 -20
+      2042  477 95 -20
+      2556  77 122
+      2556  331 114
+      2557  530 104
+   end
+   objects
+      object simpleDoor6036-0 of SimpleDoor
+         properties
+            x	250
+            y	185
+            loop	1
+            linkTo	simpleDoor5036-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6036-1 of FirePlace
+         properties
+            x	639
+            y	189
+            loop	0
+         end
+      end
+      object temple6036-2 of Temple
+         properties
+            x	377
+            y	274
+            loop	1
+            name	"Weston"
+         end
+         base character
+            sex	0
+            properName	"Weston (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	RedRobe
+            worn	BlueLowBoots
+            object	HealElixir
+            head	0 0 2 8 9 7 13 4 3 11 8 0 
+         end
+      end
+   end
+end
+room 6042
+   properties
+      picture	4000
+      roomName	"Holistic Healers Interior"
+   end
+   atpinfo
+      2107  82 193
+      2108  589 191
+      2001  599 38
+      2013  350 20
+      2013  158 19
+      2002  526 39
+      2001  254 20
+      2014  74 46
+      2164  116 89
+      2164  11 107
+      2014  -2 59
+      2101  343 460
+      2142  185 422
+      34910  511 425
+      2143  38 194 17
+      2102  391 283
+      34911  637 192 -15
+      2165  605 104
+      2221  452 172
+      2134  579 192 52 
+      2133  92 194 57
+      2047  27 140 -20
+      2553  43 132
+   end
+   objects
+      object simpleDoor6042-0 of SimpleDoor
+         properties
+            x	251
+            y	184
+            loop	1
+            linkTo	simpleDoor5042-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6042-1 of FirePlace
+         properties
+            x	497
+            y	188
+            loop	0
+         end
+      end
+      object temple6042-2 of Temple
+         properties
+            x	417
+            y	273
+            loop	1
+            name	"Miriam"
+         end
+         base talk
+            talkTreeID	6042
+         end
+         base character
+            sex	1
+            properName	"Birka (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	BlueShirt
+            worn	BlueLongSkirt
+            worn	PurpleCowl
+            worn	PurpleLowBoots
+            head	1 1 0 0 7 8 13 1 1 4 5 3 
+         end
+      end
+   end
+end

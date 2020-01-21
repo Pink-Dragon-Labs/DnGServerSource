@@ -1,0 +1,19 @@
+quest  268 #6905-01-530        # Doforth, Gatekeeper, Monmouth, 5301
+
+name  "Doforth's Order To Go"
+type  fedex
+
+proposal  "Mekian glue?  You don't look that discriminating, but if you can appreciate the merits of mekian glue I'll have to revise my first impression of you.  Yes.  I happen to have a supply.  Normally I would not release it, but I can't leave my post and my food-to-go is ready.  Will you go for it in exchange?"
+
+declined  "Well!!!!"
+
+accepted  "Then go."
+
+reminder   "Do I have to spell it out?  The only eating establishment in town worth anything has my order ready."
+
+completed  "What took you so long!  It's probably cold now."
+
+getItem   qDoforthFood
+reward   qMekianGlue 
+end
+

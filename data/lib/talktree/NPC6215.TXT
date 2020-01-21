@@ -1,0 +1,41 @@
+id 6215
+
+banner "Hello, I'm Setta, owner of Tasty Morsels. What would you like today?"
+
+topic "Tell me about Murias."
+        text "Murias is a farming community, so everything in my shop is absolutely fresh."
+	text "I've been thinking of preparing a book of Murias recipes.  There are some good cooks living here."
+	text "The problem would be getting each cook to give me the real recipe.  Most of the best cooks have little secrets to getting a really tasty result.  They don't like to tell their little tricks."
+	text  "Of course, I have my little secrets, too, and I don't think I'd give them away.  I'd better forget about that cookbook."  
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors? Yes, I did hear something about the ghost of Lady Murias wandering around the castle ruins."
+        text "She's probably trying to find Lotta to beg forgiveness."
+end      
+
+topic "Can I do anything for you?"
+        text "Yes, you can eat up. You're skin and bones!"
+end
+
+topic  "I need some grain bread for Inila. " q149:0 #q6403-01-330:0
+	quest 150 #6403-01-335
+	text  "You already have it."
+end
+
+topic  "I'm looking for a supply of mixed grains." q131:0 #q6401-01-425:0
+	quest 132 #6401-01-430
+	text  "But, friend, I gave it to you for the grinding stone.""
+end
+
+topic  "I've come for Frick's lunch." q37:0 #q6045-01-540:0
+	quest 38 #6045-01-545
+	text  "I gave it to you.  Don't tease."
+end
+
+topic  "I'm looking for beeswax." q392:0 #q80500-01-525:0
+	quest  393 #80500-01-530
+	text  "Surely you recall coming for it earlier."
+end
+
+

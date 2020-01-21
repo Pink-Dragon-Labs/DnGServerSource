@@ -1,0 +1,481 @@
+room 2118
+   properties
+      picture	4000
+      north	2111 
+      east	2119 
+      south	2124 
+      west	2117 
+      flags	2
+      roomName	"Mabon's Temple"
+   end
+   atpinfo
+      32817  607 83
+      32879  391 190
+      230  574 270
+      32879  487 224
+      225  385 305
+      225  488 285
+      32998  519 284
+      226  546 270
+      225  576 290
+      32993  413 301
+      225  420 290
+      35107  120 273 146
+      14  209 291
+      35107  -8 292 146
+      35106  112 258
+      35107  42 285 146
+      2370  -1 12
+      32795  208 51
+      32796  235 16 18
+      110  617 84
+      45  625 174
+      111  422 186
+      60  603 188
+      32828  312 284
+      2718  397 190
+      45  198 247
+      35130  5 297 -8
+      14  126 278
+      2716  456 213
+      2716  378 186
+      2716  499 200
+      2716  575 219
+      2716  565 214
+      114  578 211
+      32828  528 196
+      60  447 195
+      32828  405 190
+      32811  593 192
+      43  556 188
+      43  523 188
+      43  456 191
+      43  490 188
+      43  430 188
+      27  277 57
+      35138  186 67
+      35138  694 86
+      32796  260 172
+      35484  445 196
+      35484  552 196
+      35484  638 200
+      35484  639 220
+      111  517 226
+      111  566 232
+      7902  498 204 18
+      2310  15 283 -3
+      7907  271 284
+      123  230 206
+      35130  206 268
+      153  425 43
+      2956  14 304
+      35106  192 269
+      2310  158 271 -3
+      204  8 319
+      35122  139 290 213
+      35122  139 286 190
+      35122  35 312 259
+      35122  35 305 213
+      35122  35 302 190
+      35122  35 305 232
+      35122  139 289 232
+      35123  139 289 184
+      35122  139 297 259
+      35123  35 470 349
+      35125  35 307 274
+      35125  139 293 274
+      2955  292 272 6
+      2711  207 278
+      2712  252 271
+      154  246 38
+      154  582 68
+      153  531 45
+      153  291 54
+      154  341 43
+      154  484 56
+      32811  245 275
+      204  251 275
+      3  26 285
+   end
+   objects
+      object torch2118-0 of Torch
+         properties
+            x	75
+            y	265
+            loop	1
+         end
+         base described
+            text	"You see a torch burning brightly."
+         end
+         base described
+         end
+      end
+      object stoneBench2118-1 of StoneBench
+         properties
+            x	497
+            y	293
+            loop	2
+         end
+      end
+      object stoneBench2118-2 of StoneBench
+         properties
+            x	594
+            y	294
+            loop	2
+         end
+      end
+# ********************* Teleport to 5023 ************
+      object altar2118-3 of Altar
+         properties
+            x	543
+            y	213
+            loop	0
+         end
+         base described
+            text	"Portal to the Garden of Prayer"
+         end
+         actions
+            vBeUsed teleport dobj 5023
+         end
+      end
+   end
+end
+room 2116
+   properties
+      picture	4000
+      east	2117 
+      roomName	"Incantation Athenaeum"
+   end
+   atpinfo
+      34898  155 166 120
+      2133  119 221 62
+      2133  22 292 62
+      2221  577 144 5
+      2133  39 295 62
+      2338  -57 129 -30
+      34901  8 290 62
+      34898  144 151 10
+      2101  119 214
+      2132  139 215 60
+      3  514 166
+      2338  10 119 -30
+      34898  404 145 5
+      2340  370 114 -20
+      34898  472 147 5
+      34898  432 168 120
+      2109  177 152 70
+      2107  34 146
+      2340  180 114 -20
+      2340  275 114 -20
+      2340  93 114 -20
+      34898  468 168 120
+      34918  94 221 60
+      2148  -7 176 80
+      2599  350 273
+      34898  212 150 40
+      3  200 175
+      2107  51 150 70
+      34898  349 150 40
+      2129  448 155 40
+      3  201 193
+      3  261 164
+      34898  242 152 10
+      2128  133 166 58
+      2142  -2 183 120
+      2149  -74 196 80
+      2147  66 159 40
+      2340  474 114 -20
+      2149  -59 178 40
+      2147  63 232 62
+      34896  290 159 80
+      34898  366 157 80
+      34898  254 150 40
+      34898  467 157 80
+      34898  215 157 80
+      3  201 213
+      34898  330 151 10
+      2149  -15 161
+      34898  157 156 80
+      2109  175 144
+      2109  311 144
+      2109  447 144
+      2109  308 152 70
+      2109  447 152 70
+      34898  250 167 120
+      34898  342 168 120
+      14  657 205
+      7900  386 173
+      7900  134 173
+      32782  55 255
+      32782  -58 273
+      7908  32 317
+   end
+   objects
+      object fireB2116-1 of FireB
+         properties
+            x	594
+            y	144
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB2116-2 of FireB
+         properties
+            x	578
+            y	144
+            loop	1
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB2116-3 of FireB
+         properties
+            x	561
+            y	144
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB2116-4 of FireB
+         properties
+            x	586
+            y	147
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB2116-5 of FireB
+         properties
+            x	602
+            y	149
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object fireB2116-6 of FireB
+         properties
+            x	591
+            y	146
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object embers2116-7 of Embers
+         properties
+            x	580
+            y	144
+            loop	0
+         end
+         base described
+            text	"Burning embers that warm the room."
+         end
+      end
+      object embers2116-8 of Embers
+         properties
+            x	611
+            y	149
+            loop	0
+         end
+         base described
+            text	"Burning embers that warm the room."
+         end
+      end
+      object smokeB2116-9 of SmokeB
+         properties
+            x	132
+            y	185
+            loop	0
+         end
+      end
+      object fireC2116-11 of FireC
+         properties
+            x	576
+            y	146
+            loop	0
+         end
+         base described
+            text	"You see the flames of a burning hearth."
+         end
+      end
+      object smokeB2116-12 of SmokeB
+         properties
+            x	138
+            y	167
+            loop	0
+         end
+      end
+      object chair2116-13 of Chair
+         properties
+            x	295
+            y	251
+            loop	0
+         end
+      end
+      object chair2116-14 of Chair
+         properties
+            x	401
+            y	252
+            loop	1
+         end
+      end
+      object chair2116-15 of Chair
+         properties
+            x	373
+            y	248
+            loop	2
+         end
+      end
+      object chair2116-16 of Chair
+         properties
+            x	324
+            y	248
+            loop	2
+         end
+      end
+      object chair2116-17 of Chair
+         properties
+            x	265
+            y	263
+            loop	0
+         end
+      end
+      object chair2116-18 of Chair
+         properties
+            x	430
+            y	263
+            loop	1
+         end
+      end
+   end
+end
+room 2117
+   properties
+      picture	4000
+      east	2118 50 260 
+      west	2116 
+      roomName	"Mabon's Temple"
+   end
+   atpinfo
+      2304  364 186 30
+      2338  202 157
+      2339  440 160
+      2341  161 186 150
+      2342  468 180 144
+      3  421 212
+      2350  108 364
+      2351  189 186 40
+      2352  190 213 152
+      2355  449 187 41
+      2356  449 206 146
+      2350  190 207 108
+      2350  190 205 88
+      2350  190 196 60
+      2350  190 188 108
+      2339  525 172
+      2342  360 156 150
+      2338  118 169
+      2251  277 197 100
+      2354  449 182 102
+      2354  449 182 82
+      2354  449 181 62
+      35090  127 213 50
+      2354  449 181 43
+      7900  43 225
+      2305  364 183 30
+      2338  107 171
+      2343  582 184 150
+      3  179 214
+      7900  296 224
+      2312  524 175 -40
+      2312  123 175 -40
+      2310  121 206
+      2310  522 206
+      2111  422 186 18
+      2110  218 188 18
+      2309  318 214 50
+      7900  549 224
+      2340  51 172
+      2340  574 172
+      2340  644 171
+      2343  60 185 150
+      2389  57 193 50
+      2389  590 193 50
+      2252  318 169
+      2339  507 123
+      2146  176 205 45
+      2146  218 198 45
+      34914  425 190 40
+      34914  467 193 35
+      2322  519 208 50
+      2340  310 146
+      2340  594 123
+      2340  54 139
+   end
+   objects
+      object stoneBench2117-0 of StoneBench
+         properties
+            x	254
+            y	293
+            loop	0
+         end
+         base described
+            text	"You see a comfortable looking stone bench."
+         end
+      end
+      object stoneBench2117-1 of StoneBench
+         properties
+            x	368
+            y	293
+            loop	1
+         end
+         base described
+            text	"You see a comfortable looking stone bench."
+         end
+      end
+      object torch2117-2 of Torch
+         properties
+            x	56
+            y	197
+            loop	0
+         end
+      end
+      object torch2117-3 of Torch
+         properties
+            x	586
+            y	198
+            loop	1
+         end
+      end
+      object stoneBench2117-4 of StoneBench
+         properties
+            x	177
+            y	264
+            loop	0
+         end
+         base described
+            text	"You see a comfortable looking stone bench."
+         end
+      end
+      object stoneBench2117-5 of StoneBench
+         properties
+            x	460
+            y	264
+            loop	1
+         end
+         base described
+            text	"You see a comfortable looking stone bench."
+         end
+      end
+   end
+end

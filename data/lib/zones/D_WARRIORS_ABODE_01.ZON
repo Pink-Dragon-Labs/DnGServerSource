@@ -1,0 +1,9 @@
+name "D_Warriors_Abode"
+title "Warriors Abode"
+worldFile "../data/lib/world/D_WARRIORS_ABODE_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance tent3198-0

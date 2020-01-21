@@ -1,0 +1,37 @@
+id 8108
+
+banner "Welcome to the Tub Tavern. What can I do for you?"
+
+topic "Tell me about Usk."
+        text "Oh, certainly, Friend. Usk is a place of much magic. Some say, though I've never myself witnessed it, that the Mendulan Faerie Armada sometimes appears on a lake nearby."
+        text "If it's true, and I'm not saying it is, then it's a ghost armada sure, for the Mendulan Armada was captured, ransacked and sunk by one of the western navies long, long ago."
+end
+
+topic "Who are you?"
+        text "I am Aimie.  If you want to locate anything just come to me.  Around here they say 'ask Aimie' because I have plenty of contacts." 
+	text "I work here at the Tub in addition to forging weaponry in my mother's forge."
+        text "Our family is well known for making high-quality weaponry. We've been making weapons for many generations."
+	text  "I took a beauty prize once . . . "
+	text ". . . but they made me give it back!  Heh. Heh."
+end      
+
+topic "Can I do something for you?"
+        text "No, I have nothing for you to do at present. I do have tasks from time to time; you should check with me another day."
+end
+
+topic  "I'm looking for an Empty Insect Skin." q247:0 #q6902-01-300:0
+	quest 248 #6902-01-325
+	text  "One Empty Insect Skin to a customer, and you have yours."
+end
+
+topic  "I need a fossilized scorpion." q351:0 #q80000-01-300:0
+	quest 352 #80000-01-325
+	text  "You took it when you were here last, friend."
+end
+
+topic  "I'm seeking the Amulet of Protection." q44:0 #q6073-01-500:0
+	quest  45 #6073-01-525
+	text  "Want me to make up another one?  Just kidding, just kidding.  I gave you a real one."
+end
+
+	

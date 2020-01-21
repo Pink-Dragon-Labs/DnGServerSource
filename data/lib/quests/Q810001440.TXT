@@ -1,0 +1,19 @@
+quest  400 #8100-01-440       # Troels, Valhalla Inn, tavern, Asgard, 6911
+
+name  "Poultice for Troels"
+type  fedex
+
+proposal  "I carved a bear not too long ago.   Surprises me more people don't do carving.  Seems like its getting to be a lost art.  I like doing it.  It's very soothing.  Time and patience, that's what it takes to be a carver.  Time and patience.  I need a poultice from the healer for a cut on my hand.  Didn't cut it carving, don't think that.  Cut it clearing up a mess of broken glass.  Stupid thing to do, of course, but that didn't stop me.  Would you fetch me a poultice while I get the little bear?"
+
+declined  "That's all right."
+
+accepted  "Thank you, friend."
+
+reminder   "Just step over to the healer for a poultice."
+
+completed  "That's a welcome sight.  My hand bothers more than I thought it would.  Here's the little bear.  I hope you enjoy it, friend."
+
+getItem   qPoultice
+reward   qCarvedBear 
+end
+

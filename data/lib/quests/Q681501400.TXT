@@ -1,0 +1,19 @@
+quest  230 #6815-01-400        #Meta, Desert Breeze Exilirs, Arimathor, 6815
+
+name  "Ancient Oil Lamp"
+type  fedex
+
+proposal  "Ah.  You are here to begin the Mastery of Healing.  I congratulate you.  This is excellent progress.  My daughter, Alysa, laughs at me for my enthusiam over apprentices, but to me you are the future of the Realm.  Healing the folk of the Realm is one of the very highest callings.  However, you're here for your assignment, not for an oration from me.  I should like for you to seek an Ancient Oil Lamp.  Will you do this?"
+
+declined  "Rest if you wish, but please don't quit."
+
+accepted  "Good.  I believe the best place to start is in Leinster."
+
+reminder   "Seek for an Ancient Oil Lamp in Leinster."
+
+completed  "Marvelous.  An excellent specimen.  My thanks.  The spellbook for Mastery of Healing is yours."
+
+getItem   qOilLamp
+reward   skbHealingIV 
+end
+

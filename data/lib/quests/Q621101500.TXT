@@ -1,0 +1,19 @@
+quest  95 #6211-01-500        #Siei, Murias Armorers, Murias, 6211
+
+name  "Finvarra Spike Fragment"
+type  fedex
+
+proposal  "Maul grand-mastery is a skill few can aspire to attain.  Only the best and strongest warriors even attempt it.  I'm glad to assist you and I hope you prove worthy.  I will require you to obtain a fragment of  spike reputed to be from Finvarra's weapon.  Will you accept this quest?" 
+
+declined  "If you're not willing, that's the end of it."
+
+accepted  "Try looking in Monmouth."
+
+reminder   "Seek in Monmouth for a fragment of Finvarra's spike."
+
+completed  "So this is the fragment, eh?  Interesting.  Here is the final book.  Go and prove yourself."
+
+getItem   qFinvarraSpike
+reward    skbMaulV 
+end
+

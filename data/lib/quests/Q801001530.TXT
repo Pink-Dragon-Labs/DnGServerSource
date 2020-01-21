@@ -1,0 +1,19 @@
+quest  279 #8010-01-530        # Skon, Gnarled Leg Tavern, West Leinster, 6004
+
+name  "Fossil of a Sea Snail
+type  fedex
+
+proposal  "Now where did you hear that old tale?  It's so old it's got a beard, as they say.  I put no stock in it myself, and I've collected more odd bits of this and that from the battle than anyone else.   Wasn't much else to do in those early days but wander around and look at the destruction.  I took to carrying a pouch and picking up broken bits I found.  Now, mind you, I did pick up an old torn sash.  And it was in the general area.  But I'm not the one to say it's the sash of Despothes.  Not I, nosiree.  Ummm.  However, 'tis true it was discarded in the battle, and 'tis true it's of an odd pattern not normally seen.  Now if you were to want it, friend, with no guarantees, I'd see my way clear to let you have it for, let me see, for a fossil of a sea snail.  Yep, that'll do.  What do you say, friend, are you interested?"
+
+declined  "Not a problem.  Not a problem.  Look at the menu and let me know if you want to buy."
+
+accepted  "Well, now, that's fine.  I'd like to see one of those fossils.  I hear they find them in the desert, although that's a strange place for a snail."
+
+reminder   "You're questing for a sea snail fossil.  Look in the desert."
+
+completed  "By jingo.  You did it.  Strange looking creature.  Ok, here's the sash.  No guarantees of origin, understand, but who's to know."
+
+getItem   qSeaSnail
+reward   qDespothesSash 
+end
+

@@ -1,0 +1,19 @@
+quest 20 # 6043-01-435        # Lireen, Healing Magic, Drune, 8303
+
+name  "A New Pain Potion"
+type  fedex
+
+proposal  "It's a mercy he didn't break his head.  The way he launches himself into a room I'm surprised he has any whole elf parts left in his body.  I want to try a new potion on him.  I just heard of it.  Somebody in Kurz came up with it.  Would you be willing to go fetch some for me?"
+
+declined  "Poor Ygior.  Perhaps I'll take him some fendril."
+
+accepted  "That will be a kindness, friend."
+
+reminder   "Go seek in Kurz for a new pain potion."
+
+completed  "Excellent.  Just let me repackage a bit for Ygior and you'll be on your way with his pain potion."
+
+getItem   qNewPotion
+reward   qPainPotion
+end
+

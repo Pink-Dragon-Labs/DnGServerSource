@@ -1,0 +1,56 @@
+id 6311
+
+banner "Welcome, Adventurer, to the Monmouth House of Combat!"
+
+topic "Tell me about Monmouth."
+        text "Dangerous, very dangerous. You'd better buy some weapons from me."
+	text "Just browse around and let me know when you're ready to buy."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that all sorts of cutthroats lurk in alleys, ready to sacrifice visitors to the goddess!"
+        text "You'd better buy some weapons."
+end      
+
+topic "Can I do anything for you?"
+        text "Yes. If you have any money left, you should buy weaponry from me."
+end
+
+topic  "I'm seeking a bat's whisker." q295:0 #q8021-01-400:0
+	quest 296 #8021-01-425
+	text  "I gave you one whisker, and that's it."
+end
+
+topic  "I want to learn a warrior's skill." c2:5 
+	banner  "Warriors kill?  Of course they do, ninny.  Oh, you mean warrior's skill?  You'll have to learn to speak clearly.  That's the first thing you'll have to learn.  I can teach you two-handed sword skill, but I'll only teach you master and grand-master skills.  You've got to learn 'em up to expert level first." 
+
+	topic  "How do I get to be an expert?" c2:3 
+		text  "Buy the skill books and practice.  Any book store catering to warriors has them.  Try the Learning Emporium in Usk." 
+	end
+
+	topic  "I am interested in Two-Handed Sword Master skills."  s2:3  
+		quest 119 #6311-01-400
+		text "Look here, ninny. Just having the skill book isn't enough.  You've got to study it."
+	end
+
+	topic  "I am interested in Two-Handed Grand-Master skills."  s2:4  
+		quest 124 #6311-01-500
+		text "You ninny, you've got to study the skill book to get anywhere."
+	end
+
+	topic  "What else can I learn from you?"  s2:5
+		text  "Two handed sword is my weapon.  That's all I'm going to teach." 
+	end
+end
+
+topic  "I'm looking for a book about Walther the Wizard." q403:0 #q8100-01-525:0
+	quest 404 #8100-01-530
+	text  "Go away.  If you won't speak up I don't want you in here."
+end
+
+topic  "I'm looking for a copy of the shield of Despothes, a miniature copy." q204:0 #q6807-01-500:0
+	quest  205 #6807-01-525
+	text  "Get on!  You know I gave it to you."
+end
+
+

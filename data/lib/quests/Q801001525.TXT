@@ -1,0 +1,19 @@
+quest  278 #8010-01-525       # Daria, Fashion Delights, Usk, 8101
+
+name  "Sash of Despothes"
+type  fedex
+
+proposal  "Now that is truly a beautiful piece of art.  I do have it, friend, but I intend to keep it.  It will look absolutely stunning on my new outfit!  It's the perfect touch.  I couldn't think of letting it go, not for anything in . . . .  Oh my.  I just thought of something.  There just might be one thing I would trade it for, one item in the whole Realm.  I've heard that during the smiting in Leinster, Despothes discarded a sash.  Now, if you could get your hands on that sash for me, I'd let you have the Amulet of Blue Steel.  If I had that sash, even if it's been torn, I could remake it into a really distinctive bit of apparel.  Wouldn't the rest of the Realm be impressed if Daria, the giantess of Usk, wore something that had belonged to Despothes?  Oh my.  Would you try for that, friend?"
+
+declined  "I suppose it's a silly idea."
+
+accepted  "Hooray.  Go quickly so you can come back quickly."
+
+reminder   "Hurry off to Leinster and see if you can get the sash of Despothes."
+
+completed  "I'm speechless.  You did it!  You really did it!!  Just wait.  I'll be the envy of all.  Here's the amulet, friend."
+
+getItem   qDespothesSash
+reward   qAmuletBlue 
+end
+

@@ -1,0 +1,1779 @@
+# Dungeonmaker World File (impdng.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 89000
+# Dungeon last room = 89139
+# Number of objects in dungeon = 161
+# Level 0 information:
+room 89015
+	properties
+		template 30102
+		south 89014
+		east 89016
+		flags	0
+	end
+	objects
+		object ImpWarrior-89015-0 of ImpWarrior
+			properties
+				x	205
+				y	294
+				loop	0
+				color	21
+			end
+			base character
+			end
+		end
+	end
+end
+room 89016
+	properties
+		template 32302
+		south 89017
+		west 89015
+		flags	8
+	end
+	objects
+		object ImpCitizen-89016-0 of ImpCitizen
+			properties
+				x	237
+				y	306
+				loop	1
+				color	19
+			end
+			base character
+			end
+		end
+		object ImpCitizen-89016-1 of ImpCitizen
+			properties
+				x	223
+				y	277
+				loop	1
+				color	19
+			end
+			base character
+			end
+		end
+	end
+end
+room 89003
+	properties
+		template 30805
+		east 89002
+		flags	0
+	end
+	objects
+		object DarkFaery-89003-0 of DarkFaery
+			properties
+				x	147
+				y	271
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-89003-1 of DungeonBackDoor
+			properties
+				x	245
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-89000-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite4-89003-2 of Stalagmite4
+			properties
+				x	534
+				y	179
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-89003-3 of Stalagmite3
+			properties
+				x	554
+				y	185
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-89003-4 of Stalagmite2
+			properties
+				x	613
+				y	160
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89002
+	properties
+		template 30903
+		south 89001
+		east 89004
+		west 89003
+		flags	0
+	end
+end
+room 89004
+	properties
+		template 30701
+		west 89002
+		flags	8
+	end
+	objects
+		object Medusa-89004-0 of Medusa
+			properties
+				x	189
+				y	253
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Cyclops-89004-1 of Cyclops
+			properties
+				x	283
+				y	269
+				loop	1
+				color	1536
+			end
+			base character
+			end
+		end
+		object FireC-89004-2 of FireC
+			properties
+				x	529
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-89004-3 of SmokeA
+			properties
+				x	529
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89014
+	properties
+		template 31001
+		south 89013
+		north 89015
+		flags	0
+	end
+	objects
+		object ImpNecromancer-89014-0 of ImpNecromancer
+			properties
+				x	151
+				y	290
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+	end
+end
+room 89017
+	properties
+		template 32304
+		north 89016
+		flags	0
+	end
+	objects
+		object Bones-89017-0 of Bones
+			properties
+				x	313
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomZombieRobe-89017-1 of RandomZombieRobe
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-89017-0
+			end
+			base described
+			end
+		end
+		object RandomOgreTreasureII-89017-2 of RandomOgreTreasureII
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-89017-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89001
+	properties
+		template 30401
+		north 89002
+		flags	8
+	end
+	objects
+		object ImpCitizen-89001-0 of ImpCitizen
+			properties
+				x	106
+				y	262
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+		object ImpCitizen-89001-1 of ImpCitizen
+			properties
+				x	455
+				y	272
+				loop	1
+				color	19
+			end
+			base character
+			end
+		end
+		object ImpSlaveMaster-89001-2 of ImpSlaveMaster
+			properties
+				x	214
+				y	253
+				loop	0
+				color	16
+			end
+			base character
+			end
+		end
+		object Imp-89001-3 of Imp
+			properties
+				x	528
+				y	267
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-89001-4 of Imp
+			properties
+				x	159
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 89012
+	properties
+		template 30501
+		east 89013
+		flags	0
+	end
+	objects
+		object Imp-89012-0 of Imp
+			properties
+				x	291
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-89012-1 of DungeonBackUp
+			properties
+				x	476
+				y	224
+				loop	2
+				linkTo	DungeonBackDown-89009-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite2-89012-2 of Stalagmite2
+			properties
+				x	406
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-89012-3 of Stalagmite3
+			properties
+				x	414
+				y	239
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 89013
+	properties
+		template 32601
+		west 89012
+		north 89014
+		flags	8
+	end
+	objects
+		object Ghost-89013-0 of Ghost
+			properties
+				x	446
+				y	274
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+		object Wraith-89013-1 of Wraith
+			properties
+				x	367
+				y	273
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 89007
+	properties
+		template 32301
+		east 89117
+		flags	0
+	end
+	objects
+		object TrollKing-89007-0 of TrollKing
+			properties
+				x	376
+				y	263
+				loop	0
+				color	1814
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-89007-1 of DungeonBackDoor
+			properties
+				x	581
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-89045-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-89007-2 of Torch
+			properties
+				x	481
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89117
+	properties
+		template 30906
+		east 89006
+		west 89007
+		flags	0
+	end
+	objects
+		object Torch-89117-0 of Torch
+			properties
+				x	186
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89006
+	properties
+		template 31301
+		east 89005
+		west 89117
+		flags	0
+	end
+	objects
+		object DarkFaery-89006-0 of DarkFaery
+			properties
+				x	253
+				y	262
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 89005
+	properties
+		template 30701
+		west 89006
+		flags	0
+	end
+	objects
+		object ImpGuard-89005-0 of ImpGuard
+			properties
+				x	109
+				y	263
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-89005-1 of DungeonBackUp
+			properties
+				x	279
+				y	212
+				loop	2
+				linkTo	DungeonBackDown-89000-5
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 89000
+	properties
+		template 31301
+		flags	8
+	end
+	objects
+		object ImpGuard-89000-0 of ImpGuard
+			properties
+				x	350
+				y	255
+				loop	2
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-89000-1 of ImpGuard
+			properties
+				x	486
+				y	261
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-89000-2 of DungeonBackUp
+			properties
+				x	428
+				y	223
+				loop	2
+				linkTo	movingRock4736-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-89000-3 of DungeonBackDoor
+			properties
+				x	273
+				y	223
+				loop	2
+				linkTo	DungeonBackDoor-89003-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object TrapDoor-89000-4 of TrapDoor
+			properties
+				x	584
+				y	272
+				loop	1
+				linkTo	DungeonBackUp-89009-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDown-89000-5 of DungeonBackDown
+			properties
+				x	94
+				y	233
+				loop	0
+				linkTo	DungeonBackUp-89005-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FatColumn-89000-6 of FatColumn
+			properties
+				x	-2
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-89000-7 of Column
+			properties
+				x	3
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-89000-8 of Stalagmite1
+			properties
+				x	44
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-89000-9 of Torch
+			properties
+				x	576
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-89000-10 of Stalagmite2
+			properties
+				x	170
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-89000-11 of Stalagmite4
+			properties
+				x	144
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-89000-12 of Column
+			properties
+				x	-20
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-89000-13 of Rock2
+			properties
+				x	76
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-89000-14 of Rock2
+			properties
+				x	58
+				y	271
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite4-89000-15 of Stalagmite4
+			properties
+				x	353
+				y	229
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 89009
+	properties
+		template 30101
+		east 89010
+		flags	8
+	end
+	objects
+		object ImpGuard-89009-0 of ImpGuard
+			properties
+				x	300
+				y	269
+				loop	2
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-89009-1 of DungeonBackUp
+			properties
+				x	476
+				y	224
+				loop	2
+				linkTo	TrapDoor-89000-4
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDown-89009-2 of DungeonBackDown
+			properties
+				x	92
+				y	222
+				loop	2
+				linkTo	DungeonBackUp-89012-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 89010
+	properties
+		template 30901
+		east 89011
+		west 89009
+		flags	0
+	end
+	objects
+		object DarkFaery-89010-0 of DarkFaery
+			properties
+				x	175
+				y	273
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-89010-1 of DungeonBackDoor
+			properties
+				x	543
+				y	238
+				loop	2
+				linkTo	DungeonBackDoor-89018-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite2-89010-2 of Stalagmite2
+			properties
+				x	462
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89011
+	properties
+		template 30201
+		west 89010
+		flags	8
+	end
+	objects
+		object Kilrog-89011-0 of Kilrog
+			properties
+				x	345
+				y	274
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object FlameDaemon-89011-1 of FlameDaemon
+			properties
+				x	195
+				y	251
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+	end
+end
+room 89042
+	properties
+		template 30305
+		south 89043
+		flags	0
+	end
+	objects
+		object WaspWarrior-89042-0 of WaspWarrior
+			properties
+				x	132
+				y	297
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-89042-1 of WaspWarrior
+			properties
+				x	155
+				y	296
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object StoneBench-89042-2 of StoneBench
+			properties
+				x	264
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-89042-3 of Stool
+			properties
+				x	201
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-89042-4 of Stool
+			properties
+				x	352
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-89042-5 of Embers
+			properties
+				x	444
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-89042-6 of Smoke1
+			properties
+				x	432
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-89042-7 of Torch
+			properties
+				x	289
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89018
+	properties
+		template 31002
+		south 89019
+		flags	8
+	end
+	objects
+		object FlameDaemon-89018-0 of FlameDaemon
+			properties
+				x	417
+				y	284
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+		object ImpGuard-89018-1 of ImpGuard
+			properties
+				x	155
+				y	266
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-89018-2 of DungeonBackDoor
+			properties
+				x	265
+				y	218
+				loop	2
+				linkTo	DungeonBackDoor-89010-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-89018-3 of Torch
+			properties
+				x	369
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89044
+	properties
+		template 30101
+		east 89043
+		flags	0
+	end
+	objects
+		object Fury-89044-0 of Fury
+			properties
+				x	200
+				y	278
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Fire1-89044-1 of Fire1
+			properties
+				x	67
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-89044-2 of SmokeB
+			properties
+				x	70
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89043
+	properties
+		template 31302
+		south 89046
+		east 89045
+		west 89044
+		north 89042
+		flags	0
+	end
+	objects
+		object Torch-89043-0 of Torch
+			properties
+				x	574
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89045
+	properties
+		template 30701
+		west 89043
+		flags	0
+	end
+	objects
+		object RandomCritter-89045-0 of RandomCritter
+			properties
+				x	136
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-89045-1 of DungeonBackDoor
+			properties
+				x	275
+				y	213
+				loop	2
+				linkTo	DungeonBackDoor-89007-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-89045-2 of Torch
+			properties
+				x	381
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-89045-3 of FireC
+			properties
+				x	80
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-89045-4 of Smoke1
+			properties
+				x	75
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89019
+	properties
+		template 32305
+		east 89020
+		north 89018
+		flags	72
+	end
+	objects
+		object ImpWarrior-89019-0 of ImpWarrior
+			properties
+				x	541
+				y	224
+				loop	1
+				color	21
+			end
+			base character
+			end
+		end
+		object ImpWarrior-89019-1 of ImpWarrior
+			properties
+				x	562
+				y	254
+				loop	2
+				color	21
+			end
+			base character
+			end
+		end
+		object ImpGuard-89019-2 of ImpGuard
+			properties
+				x	302
+				y	210
+				loop	2
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-89019-3 of ImpGuard
+			properties
+				x	319
+				y	259
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+	end
+end
+room 89020
+	properties
+		template 30901
+		east 89138
+		west 89019
+		flags	72
+	end
+	objects
+		object ImpKing-89020-0 of ImpKing
+			properties
+				x	318
+				y	269
+				loop	1
+				color	20
+			end
+			base character
+			end
+		end
+		object KingKilrog-89020-1 of KingKilrog
+			properties
+				x	219
+				y	280
+				loop	1
+				color	788
+			end
+			base character
+			end
+		end
+	end
+end
+room 89138
+	properties
+		template 30701
+		west 89020
+		flags	0
+	end
+	objects
+		object Sarcophagus-89138-0 of Sarcophagus
+			properties
+				x	216
+				y	267
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomWeapon-89138-1 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-89138-2 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-89138-3 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-89138-4 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-89138-5 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomRing-89138-6 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomRing-89138-7 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomRing-89138-8 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-9 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-10 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-11 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-12 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-13 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-14 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-89138-15 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-89138-16 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-89138-17 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-89138-18 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-89138-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89046
+	properties
+		template 31006
+		south 89001
+		north 89043
+		flags	8
+	end
+	objects
+		object RandomCritter-89046-0 of RandomCritter
+			properties
+				x	220
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCritter-89046-1 of RandomCritter
+			properties
+				x	142
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object StoneBench-89046-2 of StoneBench
+			properties
+				x	151
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-89046-3 of Stool
+			properties
+				x	442
+				y	251
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stool-89046-4 of Stool
+			properties
+				x	111
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-89046-5 of Embers
+			properties
+				x	503
+				y	305
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-89046-6 of Smoke1
+			properties
+				x	491
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-89046-7 of Torch
+			properties
+				x	43
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89001
+	properties
+		template 30803
+		east 89047
+		north 89046
+		flags	0
+	end
+	objects
+		object RandomCritter-89001-0 of RandomCritter
+			properties
+				x	241
+				y	287
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-89001-1 of Torch
+			properties
+				x	476
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89047
+	properties
+		template 30909
+		south 89049
+		west 89001
+		flags	0
+	end
+	objects
+		object Bat-89047-0 of Bat
+			properties
+				x	342
+				y	291
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-89047-1 of Bat
+			properties
+				x	311
+				y	275
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object screechingHorror-89047-2 of screechingHorror
+			properties
+				x	406
+				y	290
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object Stalagmite1-89047-3 of Stalagmite1
+			properties
+				x	555
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-89047-4 of Stalagmite3
+			properties
+				x	534
+				y	288
+				loop	1
+			end
+			base described
+			end
+		end
+		object Column-89047-5 of Column
+			properties
+				x	588
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-89047-6 of FatColumn
+			properties
+				x	349
+				y	179
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-89047-7 of Stalagmite1
+			properties
+				x	227
+				y	174
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-89047-8 of Stalagmite3
+			properties
+				x	103
+				y	172
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-89047-9 of Stalagmite2
+			properties
+				x	443
+				y	159
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-89047-10 of Stalagmite4
+			properties
+				x	441
+				y	150
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-89047-11 of Rock1
+			properties
+				x	487
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89051
+	properties
+		template 30304
+		south 89050
+		flags	8
+	end
+	objects
+		object FaeryQueen-89051-0 of FaeryQueen
+			properties
+				x	327
+				y	327
+				loop	2
+				color	100
+			end
+			base character
+			end
+		end
+		object KingKilrog-89051-1 of KingKilrog
+			properties
+				x	267
+				y	282
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object Torch-89051-2 of Torch
+			properties
+				x	328
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-89051-3 of Rock1
+			properties
+				x	112
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89049
+	properties
+		template 30801
+		east 89050
+		north 89047
+		flags	0
+	end
+	objects
+		object Smoke1-89049-0 of Smoke1
+			properties
+				x	171
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire3-89049-1 of Fire3
+			properties
+				x	173
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-89049-2 of Torch
+			properties
+				x	258
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89050
+	properties
+		template 31201
+		south 89052
+		west 89049
+		north 89051
+		flags	0
+	end
+	objects
+		object RandomCritter-89050-0 of RandomCritter
+			properties
+				x	457
+				y	294
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-89050-1 of Torch
+			properties
+				x	100
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-89050-2 of Torch
+			properties
+				x	433
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 89052
+	properties
+		template 30403
+		north 89050
+		flags	8
+	end
+	objects
+		object DarkFaery-89052-0 of DarkFaery
+			properties
+				x	174
+				y	269
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-89052-1 of DarkFaery
+			properties
+				x	317
+				y	287
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object Devil-89052-2 of Devil
+			properties
+				x	238
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Fire2-89052-3 of Fire2
+			properties
+				x	252
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-89052-4 of SmokeA
+			properties
+				x	245
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-89052-5 of Spring
+			properties
+				x	632
+				y	312
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire1-89052-6 of Fire1
+			properties
+				x	394
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-89052-7 of Smoke2
+			properties
+				x	397
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-89052-8 of FireC
+			properties
+				x	134
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-89052-9 of Smoke1
+			properties
+				x	133
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

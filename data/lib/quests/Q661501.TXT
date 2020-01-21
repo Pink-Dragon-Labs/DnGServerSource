@@ -1,0 +1,18 @@
+quest 410
+	name "Fetching a pumpkin for Farmer Ollie"
+	type fedex
+
+	proposal "Ah sure will, I'll carve it so's ye can sees the monster that took me leg!"
+
+	accepted "Hand me tha pumpkin ye be wantin' carved."
+
+	declined "Aye, I understand. Tis a foul visage and not for the faint 'o heart."
+
+	reminder "Do ya have nice large pumpkin?"
+
+	completed "There ye go, ye very own Jackol Antern pumpkin. Jus like the critter that took me leg. Scarey, ain't it?"
+
+	getItem LargePumpkin
+	reward RandomJackolantern
+end 
+

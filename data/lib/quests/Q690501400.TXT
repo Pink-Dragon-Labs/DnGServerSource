@@ -1,0 +1,19 @@
+quest  261 #6905-01-400        #Nattan, Northlander Weaponry, Asgard, 6905
+
+name  "Ancient Statue of Warrior with Club"
+type  fedex
+
+proposal  "Ah!  The club is a tool, and a very good tool.  There are times when it's the best tool for the job.  Strength is a prerequisite and, I might add, increased strength comes with increased skill.  But you know this already from your own experience.  I'm very pleased to take a new apprentice for the master skills.  Your quest to qualify for this level will be to find an ancient statue of a warrior using a club.  Will you accept this?"  
+
+declined  "Ah well."
+
+accepted  "Somewhere in Usk I believe you may find this.  Good luck, apprentice."
+
+reminder  "Your quest is to seek in Usk for an ancient statue of a warrior using a club."
+
+completed  "Ah.  Very nice little statue, very nice.  Here is your skill book for club mastery."
+
+getItem   qClubStatue
+reward    skbClubIV
+end
+

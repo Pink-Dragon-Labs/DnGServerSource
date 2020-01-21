@@ -1,0 +1,27 @@
+id 6063
+
+banner "What a day! Are we having fun yet?"
+
+topic "Common Teleport Destinations (Copy 'N Paste)"
+   topic "Temples:"
+	text " Despothes: /teleport 1237\n Duach: /teleport 4440\n Elphame: /teleport 12312\n Enid: /teleport 3326\n Finvarra: /teleport 13217"
+   end
+   topic "God Gardens:"
+	text " Despothes: /teleport 5022\n Duach: /teleport 5036\n Enid: /teleport 5038\n Smiting Memorial: /teleport 5037"
+   end
+   topic "God Taverns:"
+	text " Enid: /teleport 6114\n Despothes: /teleport 6911\n Duach: /teleport 6800"
+   end
+   topic "Areas:"
+	text " Downs: /teleport 16657\n Winter Wold: /teleport 12347\n Wander Wood: /teleport 1340\n Wild Beyond: /teleport 4640\n Oasis: /teleport 21150\n Isle Park, Caer Fandry: /teleport 5614\n Silver Park, Silverbrook: /teleport 5414\n Zenders: /teleport 4169\n Barrens: /teleport 20248"
+   end
+   topic "Hidden Rooms:"
+	text " Steve's Garden: /teleport 6000\n Arcane Emporium: /teleport 6021\n Emperors Clothes /teleport 6027\n The Good Weavers: /teleport 6008\n Chloes Healing: /teleport 6010\n Sorcerers Supply: /teleport 6016\n Soothers: /teleport 6036\n Gregorys Metalworks: /teleport 6037\n Chapel: /teleport 6041\n Where Clothes?: /teleport 6049"
+   end
+   topic "Jail:"
+	text " Jail 1: /teleport 6051\n Jail 2: /teleport 6052"
+   end
+   topic "Gamemaster's Complex:"
+	text " Implementor's Square: /teleport 6066\n Moderator's Campfire: /teleport 6064\n Guide's Garden: /teleport 6065\n Service Hall: /teleport 6067\n "
+   end
+end

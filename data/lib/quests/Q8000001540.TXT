@@ -1,0 +1,19 @@
+quest  364 #80000-01-540        # Morin, Natural Healing, Leinster West, 6061
+
+name  "A ZKGB Container"
+type  fedex
+
+proposal  "Ginkaroo bark.  You don't want much, do you?  This is a very rare substance.  I hope you understand that.  Lireen wouldn't ask unless she really needed it, though, so I'll send it to her.  I need a special container for shipping it.  Only another healer would stock it.  You'll have to find me a ZKGB container.  Will you do that?" 
+
+declined  "At a time like this you refuse?"
+
+accepted  "Find me a ZKGB container."  
+
+reminder   "Haven't you gone yet?  Find a ZKGB container."
+
+completed  "I see that Birka sent this.  I'll have to thank her for it.  Now carry this gently to Lireen."
+
+getItem   qZkgbContainer
+reward   qGinkarooBark 
+end
+

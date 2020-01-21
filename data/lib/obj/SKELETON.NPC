@@ -1,0 +1,155 @@
+#
+# Skeletons
+#
+
+object Skeleton of NPC
+	properties
+		name "Skeleton"
+		view 41300
+		clutStart -1
+		color 37
+		alignment 0
+
+		minLevel 3
+		maxLevel 6
+
+		minDamage 6
+		maxDamage 12
+
+		armor 25
+
+		intelligence 6
+
+		# resistant to cold and fire damage
+		affect 1 2 0 -1
+		affect 2 2 0 -1
+
+		# weak to bludgeon damage
+		affect 13 3 0 -1
+
+		# do bludgeon damage only
+		affect 13 0 0 -1
+
+		# regenerate 25% of the time
+		affect 53 0 0 -1
+
+		soundGroup 12
+		damageType 2
+		armorType 3
+		quickness 8
+		treasure 2
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base character
+		# unarmed combat proficient
+		skill 7 2
+
+		# acrobatics proficient
+		skill 9 2
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 2 4  # immune to mysticism and necromancy
+	end
+
+	base described
+		text "Skeleton -- 100% necromancy resistance, 100% mysticism resistance, 6 - 12 melee damage.\n\n"
+	end
+end
+
+
+object LostSailor of Skeleton
+	properties
+		name "Lost Sailor"
+		color 39
+
+		minLevel 6
+		maxLevel 15
+
+		minDamage 8
+		maxDamage 20
+
+		armor 35
+
+		# 50% regenerate
+		caffect 53
+		affect 54 0 0 -1
+	end
+
+	base container
+#		object RandomSkeletonTreasureI
+	end
+
+	base character
+		# unarmed combat expert
+		skill 7 3
+	end
+
+	base described
+		text "Lost Sailor -- 100% necromancy resistance, 100% mysticism resistance, 8 - 20 melee damage.\n\n"
+	end
+end
+
+
+object DamnedOne of NPC
+	properties
+		name "Damned One"
+		color 84
+		view 100
+		alignment 0
+
+		minLevel 10
+		maxLevel 24
+
+		minDamage 15
+		maxDamage 30
+
+		endurance 13
+		intelligence 8
+
+		# do normal damage
+		affect 0 0 0 -1
+
+		# 50% regenerate
+		caffect 53
+		affect 54 0 0 -1
+
+		soundGroup 12
+
+		damageType 2
+		armorType 1
+		treasure 7
+	end
+
+	base container
+		head 0 0 1 0 0 0 0 31 2 0 0 0
+		worn RandomZombieRobe
+		worn RandomCowl
+		object RandomSteelMonsterWeapon
+		object RandomMonsterWand
+	end
+
+	base character
+		# combat expert
+		skill 7 3
+		skill 0 3
+		skill 1 3
+		skill 2 3
+		skill 3 3
+		skill 4 3
+		skill 5 3
+		skill 6 3
+		skill 10 3
+
+		# acrobatics expert
+		skill 9 3
+	end
+
+	base described
+		text "Damned One -- 100% necromancy resistance, 100% mysticism resistance, 15 - 30 melee damage.\n\n"
+	end
+end

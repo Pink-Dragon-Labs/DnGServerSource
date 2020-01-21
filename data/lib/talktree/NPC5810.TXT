@@ -1,0 +1,73 @@
+id 5810
+
+banner "Welcome, Traveller. I am gatekeeper of Arimathor. I'll help you find any house in the town."
+
+topic "Tell me about Arimathor."
+        text "Arimathor is a desert town.  But I guess you noticed that.  Of course you know that our fountains and cactus gardens are famous throughout the Realm."
+	text "We're a beautiful green oasis surrounded by desert. Our natural springs are strong, so we have plenty of water."
+	text "The gods have seen fit to place us here, my friend, and we must show them we know how to live honorably wherever we serve."
+end
+
+topic  "Who are you."
+	text "My name is Mellie.  My whole family is from around here."
+	text "Half the population is probably related. My Uncle Ali runs the weapons shop."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Gypsies pretty much live and let live.  Not much trade in rumors here."
+end      
+
+topic  "I need help finding shops."
+	banner  "Certainly.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "Desert Rose is right one. Fantastic Togs is left one, up one, left two."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is left one. Fantastic Meals is left one, up one, and left one more."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "True Blue potions is left two, down one, right one."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Ali's Armory is right two and down one.  Arimathor Armory is left three."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Old Kaliri's shop is left one, up two, and left one more."
+	end
+
+	topic  "Do you have a chapel?"
+		text "No, we don't. I can refer you to Asgard, Usk or Wen."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Desert Spells, a wizard's academy, is up one."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Desert Breeze Exilirs is right one, down one, and left one."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "We have three.\n Desert Wind is right two.\n Sand and Roses is left two, down one.\n And our most renowned tavern, The Scimitar, is one left, two up, then two left."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Just type in the name, Traveller.  I'll do the rest."
+end
+
+topic  "I'm here to pick up the apricots." q333:0 #q8307-01-330:0
+	quest 334 #8307-01-335
+	text  "You already got them."
+end
+
+topic  "I want a fossil rock.  Do you know where I can find one?" q212:0 #q6817-01-430:0
+	quest 213 #6817-01-435
+	text  "I already gave you one."
+end
+

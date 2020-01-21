@@ -1,0 +1,19 @@
+quest  145 #6403-01-230        # Fenemi, Nosh Shop, Drune, elf, 8309
+
+name  "Fembrel Wrench"
+type  fedex
+
+proposal  "Great Enid's Ghost!  Oops, sorry.  I hope to heavens Enid didn't hear that, it slipped out.  I wake at night dreaming about those tools.  Why I ever borrowed them I'll never know.  I thought I would just use them and get them right back to him.  But you know how things go.  And now Ygior has borrowed the fembrel wrench.  Listen, do me a favor and go over there and fetch it while I get the rest of the tools together.  You will do that for me, won't you?" 
+
+declined  "You HAVE to.  Stench'll stomp on my toes!"
+
+accepted  "Do it quickly.  Dear Enid Preserve Me."
+
+reminder   "Get the fembrel wrench from Ygior!"
+
+completed  "May Enid smile on you and your kin!  Now hurry these back to Stench."  
+
+getItem   qFembrelWrench
+reward   qStenchTools 
+end
+

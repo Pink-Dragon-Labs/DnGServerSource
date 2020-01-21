@@ -1,0 +1,14 @@
+quest  219 #6817-01-540        # Troels, Valhalla Inn, tavern, Asgard, 6911
+
+name  "A Gift from Troels"
+type  fedex
+
+proposal  "Well, now, I did make some little lamps one day while I was just fooling around with a new carving knife.  They're just little doodles.  You can have one.  Do you want it?"
+
+declined  "Well, well, you did ask."
+
+accepted  "Here you are then."
+
+reward   qCarvedLamp 
+end
+

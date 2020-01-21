@@ -1,0 +1,14 @@
+quest  367 #80001-01-125        # Misha, Eaterie, Wen, 6101
+
+name  "Misha's Policy"
+type  fedex
+
+proposal  "You are right to come to Misha's Eaterie.  You can probably tell for yourself by the aroma that fresh baked bread is available here.  As a hobby, I also have petrified wood, so keep that in mind.  But for now, you seek the fresh bread.  You are a new customer for my bread.  I have a good memory for faces. I also have a policy of giving the first loaf of bread to a customer.  This is a wise move of mine, this free loaf, because I gain regular customers out of it.  Will you accept this free loaf, friend?"
+
+declined  "You are the first, the very first, to refuse!"
+
+accepted  "But, of course.  Who would refuse."
+
+reward   qFreshBread 
+end
+

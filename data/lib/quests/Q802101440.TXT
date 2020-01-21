@@ -1,0 +1,16 @@
+quest  299 #8021-01-440        #Pia, Good Health Potions, Usk, 8110
+
+name  "Medicine for Frick"
+type  fedex
+
+proposal  "Poor Frick.  He suffers so from allergies. The climate in Murias is supposed to be better for him, but my remedies are more suited to giants. Here's everything you need in one box.  The supplies he ordered for Gwynna are in with his medicine.  You'll take them all with you?"
+
+declined  "I'll find a way."
+
+accepted  "You're ready to go, then."
+
+reminder   "Hurry back to Murias with those supplies for Frick."
+
+reward   qFrickMed 
+end
+

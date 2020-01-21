@@ -1,0 +1,19 @@
+quest  130 #6401-01-400        #Mikial, Shop of Defense, Silverbrook, 6401
+
+name  "Polished Golden Amulet"
+type  fedex
+
+proposal  "Friend, I applaud  your insight.  Acrobatics is one of the most useful skills a warrior can develop, if not the most useful.   Your weapons are little use to you if you cannot dodge another's thrusts.  It takes intelligence and dexterity to be successful.  Gladly will I assist in your development.  For the master skills you will require the skill book.  I will provide it to you.  First you must procure for me a polished golden amulet.  Will you do this?"
+
+declined  "I regret this decision."
+
+accepted  "Begin your quest in Drune."
+
+reminder   "Go to Drune and seek the polished golden amulet."
+
+completed  "Excellent.  Here is the skill book you require."
+
+getItem   qAmuletGolden
+reward    skbAcrobaticIV 
+end
+

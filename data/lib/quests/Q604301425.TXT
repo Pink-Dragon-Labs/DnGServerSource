@@ -1,0 +1,20 @@
+quest 18 # 6043-01-425        # Lopier, Marvelous Armory, Usk, giant, 8103
+
+name  "Lopier wants Popping Corn"
+type  fedex
+
+proposal  "Nasty bit of work, trolls.  Not at all intelligent and always looking for a fight.  Giants as a rule avoid them if possible.  If not, then of course it's another story.  Giants aren't afraid of trolls, just not interested in indiscriminate fighting.  If you'll take a piece of advice from me, you'll avoid trolls.  As to an ancient troll knife, I happen to have one.  Not a very sophisticated tool, but what can you expect from trolls.  If you're interested in it, I'll trade you.  As a matter of fact, there's one thing I'd like to have.  Some elf has invented popping corn.  It seems you eat it.  I'm curious.  Would you get me some?" 
+
+declined  "Remember what I said about trolls."
+
+accepted  "Ask in Drune.  I'll hang on to this troll knife for you."
+
+reminder   "Look for some popping corn in Drune."
+
+completed  "Doesn't look like much, does it.  However, I thank you and here's the troll knife."
+
+getItem   qPoppingCorn
+reward   qTrollKnife 
+end
+
+

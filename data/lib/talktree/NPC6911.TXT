@@ -1,0 +1,55 @@
+id 6911
+
+banner "Greetings, Friend. Welcome to the Valhalla Tavern. May I help you?"
+
+topic "Tell me about Asgard."
+        text "Certainly, Friend. Asgard is an ancient town, established in The Realm since before time's counting. Asgard is famed for its beauty and culture."
+        text "Northmen invaded the region in waves over hundreds of years, affecting our culture and beliefs. Eventually, however, the invaders could not overpower the race their fathers had fathered."
+        text "When several of the invading armadas in the heat of battle were sunk by blood-soaked Asgarders, the Northmen gave up on Asgard as a source of plunder. Ha!"
+end
+
+topic "Who are you?"
+        text "Me? I am Troels, son of Valhalla's proprietor. You'll find me perhaps a tad less eager for a fight than other Asgarders you've met."
+        text "When I was younger, I sought out combat. But one summer day I watched four of my brothers and my best friend die on the battlefield. One might say it sated my blood-wish."
+	text  "I'm well content to operate the Valhalla and enjoy my hobby."
+end      
+
+topic "Can I do something for you?"
+       text "I admire your determination, Friend. No, I have no tasks for you. Perhaps later I will."
+end
+
+topic  "I'm looking for a small carved stone castle." q291:0 #q8021-01-325:0
+	quest 292 #8021-01-330
+	text  "You already took it, friend."
+end
+
+topic  "I'm looking for a carved stork." q157:0 #q6403-01-525:0
+	quest 158 #6403-01-530
+	text  "You already got it."
+end
+
+topic  "I'm looking for a musical instrument called a flute." q127:0 #q6311-01-535:0
+	quest 128 #6311-01-540
+	text  "I gave you one of them."
+end
+
+topic  "I'm looking for a carving of a bear." q399:0 #q8100-01-435:0
+	quest 400 #8100-01-440
+	text  "You took it, friend."
+end
+
+topic  "I'm hoping you have a carved lamp." q218:0 #q6817-01-535:0
+	quest 219 #6817-01-540
+	text  "I gave it to you."
+end
+
+topic  "Carved Wizard" q49:0 #q6077-01-400:0
+	quest 50 #6077-01-425
+	text  "You took the only one."
+end
+
+topic  "Jolie sent me for her carved squirrel." q202:0 #q6807-01-430:0
+	quest  203 #6807-01-435
+	text  "You picked it up already, friend."
+end
+

@@ -1,0 +1,847 @@
+# Dungeonmaker World File (storeage.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 80500
+# Dungeon last room = 80543
+# Number of objects in dungeon = 62
+# Level 0 information:
+room 80511
+	properties
+		template 30101
+		east 80512
+		flags	0
+	end
+	objects
+		object Chest-80511-0 of Chest
+			properties
+				x	145
+				y	268
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80511-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80511-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80511-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80511-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80511-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80511-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80511-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80511-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80511-5 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80511-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80511-6 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80511-0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-80511-7 of DungeonBackDoor
+			properties
+				x	488
+				y	216
+				loop	2
+				linkTo	DungeonBackDoor-80503-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 80512
+	properties
+		template 32302
+		south 80513
+		west 80511
+		flags	0
+	end
+	objects
+		object Chest-80512-0 of Chest
+			properties
+				x	248
+				y	266
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-5 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-6 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80512-7 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80512-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 80503
+	properties
+		template 32301
+		east 80502
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-80503-0 of DungeonBackDoor
+			properties
+				x	503
+				y	203
+				loop	2
+				linkTo	DungeonBackDoor-80511-7
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 80502
+	properties
+		template 30901
+		east 80500
+		west 80503
+		flags	0
+	end
+end
+room 80500
+	properties
+		template 31301
+		east 80504
+		west 80502
+		flags	0
+	end
+	objects
+		object DungeonBackUp-80500-0 of DungeonBackUp
+			properties
+				x	357
+				y	217
+				loop	2
+				linkTo	movingRock2175-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 80504
+	properties
+		template 30703
+		east 80505
+		west 80500
+		flags	0
+	end
+end
+room 80505
+	properties
+		template 30901
+		east 80506
+		west 80504
+		flags	0
+	end
+end
+room 80506
+	properties
+		template 30201
+		west 80505
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-80506-0 of DungeonBackDoor
+			properties
+				x	197
+				y	230
+				loop	2
+				linkTo	DungeonBackDoor-80507-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 80514
+	properties
+		template 32301
+		east 80513
+		flags	0
+	end
+	objects
+		object Chest-80514-0 of Chest
+			properties
+				x	408
+				y	261
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-5 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-6 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80514-7 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80514-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 80513
+	properties
+		template 32701
+		west 80514
+		north 80512
+		flags	0
+	end
+	objects
+		object Chest-80513-0 of Chest
+			properties
+				x	132
+				y	243
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-5 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-6 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80513-7 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80513-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 80507
+	properties
+		template 30101
+		east 80508
+		flags	0
+	end
+	objects
+		object Chest-80507-0 of Chest
+			properties
+				x	141
+				y	262
+				loop	2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-80507-1 of DungeonBackDoor
+			properties
+				x	490
+				y	217
+				loop	2
+				linkTo	DungeonBackDoor-80506-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-5 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-6 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-7 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80507-8 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80507-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 80508
+	properties
+		template 32302
+		south 80509
+		west 80507
+		flags	0
+	end
+	objects
+		object Chest-80508-0 of Chest
+			properties
+				x	333
+				y	288
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80508-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80508-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80508-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80508-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80508-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80508-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80508-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80508-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 80510
+	properties
+		template 32301
+		east 80509
+		flags	0
+	end
+	objects
+		object Chest-80510-0 of Chest
+			properties
+				x	370
+				y	265
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80510-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80510-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80510-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80510-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80510-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80510-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80510-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80510-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80510-5 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80510-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 80509
+	properties
+		template 31303
+		west 80510
+		north 80508
+		flags	0
+	end
+	objects
+		object Chest-80509-0 of Chest
+			properties
+				x	243
+				y	275
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80509-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80509-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80509-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80509-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80509-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80509-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-80509-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-80509-0
+			end
+			base described
+			end
+		end
+	end
+end

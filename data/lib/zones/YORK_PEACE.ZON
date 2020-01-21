@@ -1,0 +1,7 @@
+name "YorkPeace"
+title "York"
+worldFile "../data/lib/world/YORK_PEACE.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 23

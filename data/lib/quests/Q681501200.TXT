@@ -1,0 +1,18 @@
+quest  222 #6815-01-200        #Meta, Desert Breeze Exilirs, Arimathor, 6815
+
+name  "Pot Shard of Drune"
+type  fedex
+
+proposal  "So you're ready for the second step of training as a healer.  I wish there were more like you.  We certainly seem to have a surplus of warriors going into combat.   Of course, healers are needed for more than combat wounds. Here in the desert there are always cobras for us to deal with.  I will ask you to seek for a Pot Shard of Drune while I arrange for the second book of skills.  Will you do this?"
+
+declined  "Very well."
+
+accepted  "Oddly enough, the best starting place may be Monmouth."
+
+reminder   "A Pot Shard of Drune is your quest."
+
+completed  "I am pleased to see you.  Here is the second book of healing skills.  And thank you very much for the pot shard."
+
+getItem   qPotShard
+reward   skbHealingII 
+end

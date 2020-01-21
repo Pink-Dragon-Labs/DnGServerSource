@@ -1,0 +1,13 @@
+name "AchrenNorth"
+title "North Achren"
+worldFile "../data/lib/world/ACHREN01.WLD"
+worldFile "../data/lib/world/ACHREN02.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 11
+midiFile 31
+groupChance 100
+monster Seraph 75
+monster SeraphWarrior 75
+monster SeraphThaumaturgist 75
+monster SeraphQueen 50

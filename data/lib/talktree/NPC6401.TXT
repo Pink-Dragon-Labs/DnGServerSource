@@ -1,0 +1,57 @@
+id 6401
+
+banner "Greetings, Friend. You've entered the Shop of Defense. How may I help you?"
+
+topic "Tell me about Silverbrook."
+        text "Certainly, Friend. Silverbrook, as you probably know, is a town comprised mostly of elves. However, some of our denizens are orcan in heritage."
+	text "You can't really tell by looking anymore.  That strain is far back in the past."
+	text "Elves prefer a pastoral lifestyle, and Silverbrook suits us very well."
+	text "We don't just hold to ourselves.  Humans and giants are welcome here.  In fact, one of our shopkeepers is human. He makes wooden puzzles.  Odd little things, those."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "You will find, Friend, that elves seldom concern themselves with the private affairs of others."
+end      
+
+topic	"Do you like limericks."
+	text  "Sure.  They're fun."
+	text  "How about this one."
+	text  "I'm bored to extinction with Harrison."
+	text  "His lim'ricks and puns are embarrassin."
+	text  "But I'm fond of the bum"
+	text  "For, through dull as they come,"
+	text  "He makes me seem bright by comparison!"
+	text  "I really get a kick out of that one.  I'm not even sure why."
+end
+
+topic "Can I do anything for you?"
+        text "Not today, Friend. Perhaps another time, if you will come again."
+end
+
+topic  "I'm here for Bakali's carving knife." q275:0 #q8010-01-435:0
+	quest 276 #8010-01-440
+	text  "You already collected it."
+end
+
+topic  "I want to learn the skills of war." c9:5
+	banner  "If acrobatic skills interest you, I can teach you.  You've got to be an expert already, though.  I'll only teach you master and grand-master skills." 
+
+	topic  "How do I get to be an expert in acrobatics?" c9:3
+		text  "Buy the skill books and practice.  Any book store that carries instructions on the art of agility and stealth should have them." 
+	end
+
+	topic  "I am interested in acrobatics master skills."  s9:3  
+		quest 130 #6401-01-400
+		text "It's study of the skill book you have and practice that will gain you the skill."
+	end
+
+	topic  "I am interested in acrobatics grand-master skills."  s9:4  
+		quest 135 #6401-01-500
+		text "You won't gain that skill until you study the skill book you already have."
+	end
+
+	topic  "Can you teach me anything else?"  s9:5
+		text  "Acrobatics is my specialty.  If unarmed combat interests you at all, I heard that an expert teacher is in one of the dungeons.  That's all I know, though."
+		text  "You should finish developing your skill in acrobatics."
+	end
+end

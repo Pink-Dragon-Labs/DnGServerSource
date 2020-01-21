@@ -1,0 +1,19 @@
+quest 320 #8111-01-500
+
+name  "Mystical Black Diamond"
+type  fedex
+
+proposal  "Sorcerer Master Apprentice, you have come far and done well.  I fear I have appeared angry with you at times, for which I apologize.  Sometimes my back hurts badly, and I am short with people. You are now ready for Sorcery Grand-Mastery.  One last quest will gain you the all-important tome.  And that quest is for the Mystical Black Diamond.  When you bring it, the most potent of all spells will be in your hands. Will you accept this quest?"
+
+declined  "It is, of course, your choice."
+
+accepted  "I am pleased. As to where the Mystical Black Diamond will be found, it is hard to say.  The last known location was in Leinster before the wrath of the Gods divided it."
+
+reminder  "Leinster.  Go to Leinster.  Find me the Mystical Black Diamond."
+
+completed  "Ah. The Mystical Black Diamond.  A treasure, indeed!!  And congratulations.  You have earned your Sorcery Grand Master spell book.  I'm proud of you.  Come back and visit now and again."
+
+getItem  qBlackDiamond
+reward   skbSorceryV
+end
+

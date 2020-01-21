@@ -1,0 +1,279 @@
+#
+# Bats
+#
+
+object Bat of NPC
+	properties
+		name "Bat"
+		view 41400
+		clutStart 98
+
+		alignment 128
+		intelligence 6
+
+		dexterity 15
+		endurance 5
+
+		minLevel 1
+		maxLevel 3
+
+		minDamage 1
+		maxDamage 6
+
+		#do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 2
+		quickness 12
+		treasure 0
+
+		damageType 0
+		armorType 1
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## acrobatics expert
+		skill 9 3
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base described
+		text "Bat -- 1 - 6 melee damage.\n\n"
+	end
+end
+
+
+object FlyingRat of Bat
+	properties
+		name "Flying Rat"
+		color 89
+
+		minLevel 3
+		maxLevel 6
+
+		minDamage 4
+		maxDamage 8
+	end
+
+	base character
+		# unarmed combat proficient
+		skill 7 2
+	end
+
+	base described
+		text "Flying Rat -- 4 - 8 melee damage.\n\n"
+	end
+end
+
+
+object cryptBat of Bat
+	properties
+		name "Crypt Bat"
+		color 73
+
+		minLevel 6
+		maxLevel 12
+
+		minDamage 8
+		maxDamage 12
+
+		endurance 7
+
+		# do poison + stamina drain damage
+		affect 5 0 0 -1
+	end
+
+	base container
+#		object RandomBatTreasureII
+	end
+
+	base character
+		# unarmed combat expert
+		skill 7 3
+
+		# acrobatics master
+		skill 9 4
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4
+	end
+
+	base described
+		text "Crypt Bat -- 100% necromancy resistance, 8 - 12 melee damage.\n\n"
+	end
+end
+
+object CryptBat of cryptBat
+	properties
+		special
+	end
+end
+
+
+object vampireBat of Bat
+	properties
+		name "Vampire Bat"
+		color 48
+
+		alignment 0
+
+		minLevel 12
+		maxLevel 18
+
+		intelligence 8
+
+		minDamage 12
+		maxDamage 16
+
+		endurance 8
+
+		# do life-stealing damage
+		affect 10 0 0 -1
+
+		# immune to stamina drain / stamina steal / life stealing attacks.
+		affect 10 2 0 -1
+	end
+
+	base container
+		object RandomCommonHelmet 
+#		object RandomBatTreasureI
+#		object RandomBatTreasureII
+	end
+
+	base character
+		# unarmed combat master
+		skill 7 4
+
+		# acrobatics master
+		skill 9 4
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4
+	end
+
+	base described
+		text "Vampire Bat -- 100% necromancy resistance, 12 - 16 melee damage.\n\n"
+	end
+end
+
+object VampireBat of vampireBat
+	properties
+		special
+	end
+end
+
+object StormBat of Bat
+	properties
+		name "Storm Bat"
+		color 64
+
+		alignment 0
+
+		minLevel 18
+		maxLevel 24
+
+		intelligence 8
+
+		minDamage 16
+		maxDamage 24
+
+		endurance 8
+
+		# do electrical + normal damage
+		affect 3 0 0 -1
+
+		# immune to electrical attacks.
+		affect 3 2 0 -1
+	end
+
+	base container
+#		object RandomBatTreasureI
+#		object RandomBatTreasureI
+#		object RandomBatTreasureII
+	end
+
+	base character
+		# unarmed combat grandmaster
+		skill 7 5
+
+		# acrobatics master
+		skill 9 4
+
+		# elementalism master
+		skill 12 4
+
+		# necromancy master
+		skill 15 4 
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 1
+	end
+
+	base described
+		text "Storm Bat -- 75% elementalism resistance, 16 - 24 melee damage.\n\n"
+	end
+
+	base npc
+		code stormBat
+	end
+end
+
+object screechingHorror of Bat
+	properties
+		name "Screeching Horror"
+		color 99
+
+		minLevel 25
+		maxLevel 35
+
+		minDamage 20
+		maxDamage 40
+
+		endurance 8
+		intelligence 10
+
+		# do life steal + poison damage
+		affect 5 0 0 -1
+		affect 10 0 0 -1
+
+		# immune to stamina drain / stamina steal / life stealing attacks.
+		affect 10 2 0 -1
+	end
+
+	base character
+		# unarmed combat grand master
+		skill 7 5
+
+		# acrobatics grand master
+		skill 9 5
+	end
+
+	base container
+#		object RandomBatTreasureI
+#		object RandomBatTreasureII
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 100 4
+		vBeBorn changeSpellResistance self 50 1
+	end
+
+	base described
+		text "Screeching Horror -- 100% necromancy resistance, 50% elementalism resistance, 20 - 40 melee damage.\n\n"
+	end
+end
+
+object ScreechingHorror of screechingHorror
+	properties
+		special
+	end
+end

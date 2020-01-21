@@ -1,0 +1,31 @@
+name "downs"
+title "The Downs"
+worldFile "../data/lib/world/DOWN2.WLD"
+worldFile "../data/lib/world/DOWN4.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+groupChance 40
+monster UglyOgre 2
+monster Ogre 4
+monster Troll 8
+monster TrollArmsman 6
+monster TrollWarrior 4
+monster TrollElementalist 2
+monster TrollSorcerer 2
+monster Skeleton 2
+monster DamnedOne 2
+monster WaspDrone 2
+monster WaspWorker 2
+monster Wolf 3
+monster WarriorB 1
+monster WarriorC 1
+monster WarriorD 1
+monster WarriorE 1
+monster ThiefC 1
+monster ThiefD 1
+monster ThiefE 1
+monster BountyHunterC 1
+monster BountyHunterD 1
+monster BountyHunterE 1

@@ -1,0 +1,117 @@
+#
+# NPC declarations
+#
+
+object BaseWolf of NPC
+	properties
+		name "Wolf"
+		view 40300
+
+		alignment 128
+
+		minLevel 5
+		maxLevel 9
+
+		minDamage 1
+		maxDamage 12
+
+		dexterity 13
+		endurance 11
+		intelligence 4
+
+		# do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 15
+		armorType 1
+		damageType 0
+		range 2
+		quickness 14
+	end
+
+	base character
+		# unarmed combat expert
+		skill 7 3
+
+		# acrobatics expert
+		skill 9 3
+	end
+
+	base described
+		text "You see a potentially deadly Wolf."
+	end
+end
+
+
+object Wolf of BaseWolf
+	base container
+		object RandomFictionBook
+		object WolfPelt
+	end
+end
+
+
+object RabidWolf of BaseWolf
+	properties
+		name "Rabid Wolf"
+		color 82
+		minLevel 8
+		maxLevel 12
+
+		minDamage 3
+		maxDamage 15
+
+		# do normal + poison damage
+		affect 5 0 0 -1
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics proficient
+		skill 9 2
+	end
+
+	base container
+		object WolfPelt
+	end
+
+	base described
+		text "You see a Rabid Wolf.  It looks at you and begins to foam at the mouth."
+	end
+end
+
+
+object AlphaWolf of BaseWolf
+	properties
+		name "Alpha Wolf"
+		clutStart -1
+		color 1538
+
+		minLevel 11
+		maxLevel 15
+
+		minDamage 5
+		maxDamage 25
+
+		intelligence 6
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics master
+		skill 9 4
+	end
+
+	base container
+		object WhiteWolfPelt
+	end
+
+	base described
+		text "You see an Alpha Wolf.  Be careful, they are very territorial."
+	end
+end
+

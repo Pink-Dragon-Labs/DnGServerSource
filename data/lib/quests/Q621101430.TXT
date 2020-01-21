@@ -1,0 +1,19 @@
+quest  92 #6211-01-430        # Corea, Spiked Glove, weapons, Kurz, giant, 8012
+
+name  "Acorns from Home"
+type  fedex
+
+proposal  "Do you know what you ask?  Nothing touched by a troll should be handled by an amateur, not by giant, elf, or human amateur.  Even in Kurz, I'm the only person who dares keep it on hand, and that's because I'm a giant.  We know best how to handle such objects.  If you really wish to have it, I'll pack it right.  There is something I really want, and can't take time to fetch.  If you will bring them to me, I'll let you have the troll stone.  If you dare.  Do you?"
+
+declined  "Probably a wise move."
+
+accepted  "I want some acorns from home.  Don't ask questions, either."
+
+reminder   "Acorns from Usk!  Don't you know anything?"
+
+completed  "Ok.  I packaged the troll sacred stone, but I'll make no guarantees about your safety."
+
+getItem   qUskAcorns
+reward   qTrollStone 
+end
+

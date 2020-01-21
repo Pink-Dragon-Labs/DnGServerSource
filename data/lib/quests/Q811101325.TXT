@@ -1,0 +1,18 @@
+quest 313 #8111-01-325   #(Slug, Dinnertime, 6602)
+
+name  "Loch Dread Water"
+type  fedex
+
+proposal  "Loyaro has you out doing his errands, doesn't he?  Lazy, no-good, so-and-so.  Thinks he can order people around.  I don't like him, which means I'll help you to spite him.  He always wants distilled cobra venom and a cobra skin.  I've got 'em both here, but you're gonna have to find that vial of Loch Dread water somewhere else.  Bring it back and I'll package them all up for you.  I'll show that louse Loyaro."
+
+declined  "Suits me."
+
+accepted  "If you happen to see my cousin, Szumi, watch your step.  What a cranky excuse for an elf!"
+
+reminder  "Are you still running around here?  Did you go see my cousin, Szumi?"
+
+completed   "Ok, I'll package the Loch Dread Water with the cobra venom and cobra skin for you."
+
+getItem  qLochDreadWater
+reward  qDarkElvesPackage
+end

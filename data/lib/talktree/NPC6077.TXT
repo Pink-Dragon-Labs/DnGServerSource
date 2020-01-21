@@ -1,0 +1,52 @@
+id 6077
+
+banner "Praise to the gods. A customer! Welcome, Friend. How may I help you?"
+
+topic "Tell me about Leinster."
+        text "You want information? I hope you'll make some purchases. Magic has many fine qualities, and one can't use it enough."
+	text  "Leinster is divided in two because of that dreadful smiting. There's a lot of bad feeling now between East and West Leinster, which makes me sad."
+	text  "I've a relative over there I haven't met.  I didn't even know he was there until after the smiting, and now I'm not sure I'd even be welcome to pay a visit.  It's a great pity to have such division."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard the more you use magic, the better you get."
+        text "I've also heard that if you don't use it, you lose it."
+	text "Oh, wait. I didn't hear that about magic. Skip that last bit."
+end      
+
+topic "Can I do anything for you?"
+        text "Just remember my shop when you're in need of potions."
+end
+
+topic  "I'm looking for a Daemon Token." q190:0 #q6610-01-400:0
+	quest 191 #6610-01-425
+	text  "I told you not to breathe that name aloud.  You've got it.  Go!"
+end
+
+topic  "Do you have a package for Cozenor?" q64 #q6102-01-435:0
+	quest 65 #6102-01-440
+	text  "You took it already."
+end
+
+topic  "I want to learn the about making potions." c17:5
+	banner  "If you're interested in alchemy skills, I can teach you.  I'll only teach master and grand-master skills, though. You've got to be an expert alchemist already." 
+
+	topic  "How do I get to be an expert in alchemy?" c17:3 
+		text  "Go to a shop that sells skill books and buy what you need to learn.  The nearest shop is probably Hard Knocks. You'll start with familiar, work up to proficient, then proceed to expert level.  After that, come see me." s17:0
+	end
+
+	topic  "I am interested in alchemy master skills."  s17:3  
+		quest 49 #6077-01-400
+		text "It's study and practice from the skill book you have that gains you the skill."
+	end
+
+	topic  "I am interested in alchemy grand-master skills."  s17:4  
+		quest 55 #6077-01-500
+		text "Don't you understand? It's study and practice from the skill book you have that gains you the skill."
+	end
+
+	topic  "Can you teach me anything else?"  s17:5
+		text  "Not I.  Alchemy is my great interest.  There are many specialists around the Realm, though.  Ask in the shops."
+		text  "Don't you think it would be a good idea to finish alchemy?"
+	end
+end

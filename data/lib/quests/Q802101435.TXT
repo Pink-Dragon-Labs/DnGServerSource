@@ -1,0 +1,18 @@
+quest  298 #8021-01-435        #Frick, Frick's General Store, Murias, 6206
+
+name  "Frick is Miserable"
+type  fedex
+
+proposal  "Nod yet.  'xcuthuthe be.  By allergy ith bad.  I'b mitherable.  W'ud you go to Uthk ad ged by medithine ad Gwynna'th thtuff?"
+
+declined  "I'b mitherable.  I th'ud be in bed."
+
+accepted  "Oh, thang you.  I'b gradeful.  Go thee Pia."  
+
+reminder   "Pia ith the healer id Uthk.  
+
+completed  "Aaachooo.  Thorry.  Thang you. Here'th Gwynna'th thtuff.  I th'ud be in bed."
+
+getItem   qFrickMed
+reward   qUskSupplies 
+end

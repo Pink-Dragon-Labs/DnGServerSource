@@ -1,0 +1,18 @@
+quest  329 #8307-01-225        #Minka, Feel Your Best, Asgard, 6906  (formerly Blythe, Health Helpers, Guennor, 6511
+
+name  "Boots for Minka"
+type  fedex
+
+proposal  "What possessed you to look in a health shop, I wonder?  Even if it was just a lucky guess, you came to the correct shop, because I do have an Ancient Faerie Parchment.   It came into my hands through a long, complicated process that I need not trouble you with other than to assure you it is not contraband.  I have been wondering whether to advertise it, but since you ask, let us make an agreement.  If you will make a small trip on my behalf, I will give you the parchment.  What do you say?"
+
+declined  "No?  Oh well."
+
+accepted  "Good.   I ordered a new pair of boots from the cobbler in Monmouth when I was visiting, but I've been unable to collect them.  Would you do that for me?"
+
+reminder   "My boots are in Monmouth, friend."
+
+completed  "Thank you very much.  Meanwhile, I prepared the Ancient Faerie Parchment for you to take."
+
+getItem   qBlytheBoots   #really now for Minka
+reward   qFaerieParchment 
+end

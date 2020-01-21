@@ -1,0 +1,19 @@
+quest  333 #8307-01-330        # Aligar, Arimathor, Ali's Weaponry, 6817
+
+name  "Apricots for Aligar"
+type  fedex
+
+proposal  "That I do, that I do.  'Tis a strange request, but as it happens, I've got one.  Old Kaliri gave it to me.  Her grandson works out in the desert and finds them.  I can always get another, so I'll give it to you and welcome, if you'll do a short errand for me.  A niece of mine is Gatekeeper here in Arimathor.  Mellie's her name, and she has a sack of apricots for me.  She knows they're a favorite of mine.  My bum knee is bothering me today and I don't want to hobble that far.  Would you be willing to fetch them for me?"
+
+declined  "Not to worry."
+
+accepted  "Good."
+
+reminder   "Fetch the apricots from Mellie and the snake rattle is yours."
+
+completed  "Thank you very much, friend.  I hope you enjoy this snake rattle."
+
+getItem   qAliApricots
+reward   qSnakeRattle 
+end
+

@@ -1,0 +1,15 @@
+id 5078
+
+banner "Welcome to my flower stand!  Please, take your time, and choose your favorites."
+
+topic "Tell me about Leinster"
+	 text "I do not know what to say about it.  Other than it has changed." 
+end
+
+topic "Have you heard any interesting rumors?"
+	text "I've heard some people say that there are some caverns that run between all the cities in The Realm.  I don't know if it's true, but it sure would save some walking."
+end      
+
+topic "Can I do anything for you?"
+	text "Not at the moment, no.  Try another time."
+end

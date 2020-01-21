@@ -1,0 +1,30 @@
+id 6112
+
+banner "Oh, my dear, just look at that outfit. Tsk-tsk! It's all wrong for you, silly. You're a summer!"
+
+topic "Tell me about Wen."
+        text "Wen? Ugh! Provincial, rural ... they look at you funny if you wear pumps. They don't know ANYTHING about current fashion."
+	text "I actually heard one woman say that new fashions always look weird to her!  Weird! Can you believe it?"
+	text "And her friend agreed!  The situation here is dire, I tell you, dire!"
+	text "I despair of making an impact in fashion.  Absolutely despair! My talent is wasted."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Well. I did, but you have to promise you won't tell. I hear that the constable's wife wore PLAID TAFFETA to the summer ball!"
+        text "Did you ever heard of such a thing?"
+end      
+
+topic "Can I do anything for you?"
+	text "If you find a double-mocha half-caf cappucino with nonfat cream, I'd just love it if you'd bring it to me. Thanks!"
+end
+
+topic  "Your Gatekeeper sent me here for a parchment." q252:0 #q6902-01-425:0
+	quest 253 #6902-01-430
+	text  "You've got the parchment, dunderhead!"
+end
+
+topic  "Devo wants his book." q254:0 #q6902-01-435:0
+	quest 255 #6902-01-440
+	text  "You've got Devo's book, but I don't have my lunch."
+end
+

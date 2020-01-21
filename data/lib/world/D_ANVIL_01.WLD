@@ -1,0 +1,6199 @@
+# Dungeonmaker World File (Anvil.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 79500
+# Dungeon last room = 79597
+# Number of objects in dungeon = 1201
+# Level 0 information:
+room 79594
+	properties
+		template 30502
+		south 79595
+		east 79593
+		flags	120
+	end
+	objects
+		object EvilMinion-79594-0 of EvilMinion
+			properties
+				x	217
+				y	294
+				loop	0
+			end
+			base character
+			end
+		end
+		object Protector-79594-1 of Protector
+			properties
+				x	229
+				y	278
+				loop	0
+			end
+			base character
+			end
+		end
+		object EvilMinion-79594-2 of EvilMinion
+			properties
+				x	198
+				y	313
+				loop	0
+			end
+			base character
+			end
+		end
+		object EvilMinion-79594-3 of EvilMinion
+			properties
+				x	209
+				y	262
+				loop	0
+			end
+			base character
+			end
+		end
+		object EvilWizard-79594-4 of EvilWizard
+			properties
+				x	150
+				y	298
+				loop	0
+			end
+			base character
+			end
+		end
+		object EvilWizard-79594-5 of EvilWizard
+			properties
+				x	161
+				y	276
+				loop	0
+			end
+			base character
+			end
+		end
+		object Torch-79594-6 of Torch
+			properties
+				x	465
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79593
+	properties
+		template 32403
+		east 79592
+		west 79594
+		flags	248
+	end
+	objects
+		object Torch-79593-0 of Torch
+			properties
+				x	613
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Champion-79593-1 of Champion
+			properties
+				x	277
+				y	222
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79593-2 of EvilMinion
+			properties
+				x	220
+				y	219
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79593-3 of Protector
+			properties
+				x	168
+				y	215
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79593-4 of Protector
+			properties
+				x	334
+				y	215
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79593-5 of NeutralWizard
+			properties
+				x	276
+				y	188
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79593-6 of NeutralWizard
+			properties
+				x	215
+				y	189
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79592
+	properties
+		template 30601
+		south 79591
+		west 79593
+		flags	184
+	end
+	objects
+		object GoodWizard-79592-0 of GoodWizard
+			properties
+				x	21
+				y	266
+				loop	0
+			end
+			base character
+			end
+		end
+		object GoodWizard-79592-1 of GoodWizard
+			properties
+				x	5
+				y	284
+				loop	0
+			end
+			base character
+			end
+		end
+		object EvilMinion-79592-4 of EvilMinion
+			properties
+				x	62
+				y	273
+				loop	0
+			end
+			base character
+			end
+		end
+		object Protector-79592-5 of Protector
+			properties
+				x	46
+				y	284
+				loop	0
+			end
+			base character
+			end
+		end
+		object Champion-79592-2 of Champion
+			properties
+				x	28
+				y	303
+				loop	0
+			end
+			base character
+			end
+		end
+		object Champion-79592-3 of Champion
+			properties
+				x	44
+				y	259
+				loop	0
+			end
+			base character
+			end
+		end
+		object Torch-79592-6 of Torch
+			properties
+				x	214
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79595
+	properties
+		template 30803
+		east 79596
+		north 79594
+		flags	248
+	end
+	objects
+		object NeutralWizard-79595-0 of NeutralWizard
+			properties
+				x	635
+				y	258
+				loop	1
+			end
+			base character
+			end
+		end
+		object GoodWizard-79595-1 of GoodWizard
+			properties
+				x	635
+				y	270
+				loop	1
+			end
+			base character
+			end
+		end
+		object EvilWizard-79595-2 of EvilWizard
+			properties
+				x	632
+				y	246
+				loop	1
+			end
+			base character
+			end
+		end
+		object BabyDragon-79595-7 of BabyDragon
+			properties
+				x	638
+				y	243
+				loop	1
+				color	817
+			end
+			base character
+			end
+		end
+		object FireWasp-79595-8 of FireWasp
+			properties
+				x	642
+				y	252
+				loop	1
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79595-6 of SeraphQueen
+			properties
+				x	636
+				y	287
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object EvilMinion-79595-3 of EvilMinion
+			properties
+				x	601
+				y	246
+				loop	1
+			end
+			base character
+			end
+		end
+		object Protector-79595-4 of Protector
+			properties
+				x	603
+				y	259
+				loop	1
+			end
+			base character
+			end
+		end
+		object Champion-79595-5 of Champion
+			properties
+				x	602
+				y	272
+				loop	1
+			end
+			base character
+			end
+		end
+		object Torch-79595-9 of Torch
+			properties
+				x	318
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Key-79595-10 of AnvilKey10
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	GoodWizard-79595-1
+			end
+			base described
+			end
+		end
+		object Key-79595-11 of AnvilKey11
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EvilWizard-79595-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 79596
+	properties
+		template 30901
+		west 79595
+		flags	0
+	end
+	objects
+		object Chest-79596-0 of Chest
+			properties
+				name "Bronze Chest"
+				x	175
+				y	246
+				loop	0
+				enchantResistance 100
+			end
+			actions
+			#	vBeOpened teleport dobj 79515 0 
+			end
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	795960
+			end
+			base described
+				text	"You see a chest made of bronze."
+			end
+		end
+		object Chest-79596-1 of Chest
+			properties
+				name "Brass Chest"
+				x	580
+				y	248
+				loop	0
+				enchantResistance 100
+			end
+			actions
+			#	vBeOpened teleport dobj 79515 0 
+			end
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	795961
+			end
+			base described
+				text	"You see a chest made of brass."
+			end
+		end
+		object Torch-79596-2 of Torch
+			properties
+				x	583
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79596-3 of Torch
+			properties
+				x	51
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object TeleportAltar-790096-4 of TeleportAltar
+			properties
+				x	356
+				y	258
+				loop	0
+			end
+			actions
+				vBeUsed  teleport dobj 79515
+			end
+			base described
+				text	"Careful: One use only."
+			end
+		end
+		object AnvilBrassTreasureChest-79596-5 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassTreasureChest-79596-6 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassTreasureChest-79596-7 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassTreasureChest-79596-8 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassTreasureChest-79596-9 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassTreasureChest-79596-10 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassTreasureChest-79596-11 of AnvilBrassTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+		object AnvilBrassHelmTreasure-79596-12 of AnvilBrassHelmTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-1
+			end
+			base described
+			end
+		end
+
+		object AnvilBronzeTreasureChest-79596-13 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeTreasureChest-79596-14 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeTreasureChest-79596-15 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeTreasureChest-79596-16 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeTreasureChest-79596-17 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeTreasureChest-79596-18 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeTreasureChest-79596-19 of AnvilBronzeTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+		object AnvilBronzeHelmTreasure-79596-20 of AnvilBronzeHelmTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79596-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79591
+	properties
+		template 31001
+		south 79590
+		north 79592
+		flags	56
+	end
+	objects
+		object NeutralWizard-79591-0 of NeutralWizard
+			properties
+				x	317
+				y	216
+				loop	2
+			end
+			base character
+			end
+		end
+		object GoodWizard-79591-1 of GoodWizard
+			properties
+				x	257
+				y	217
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79591-3 of EvilMinion
+			properties
+				x	341
+				y	248
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79591-4 of Protector
+			properties
+				x	288
+				y	250
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79591-2 of Champion
+			properties
+				x	233
+				y	251
+				loop	2
+			end
+			base character
+			end
+		end
+		object Torch-79591-5 of Torch
+			properties
+				x	153
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79588
+	properties
+		template 30901
+		east 79589
+		flags	72
+	end
+	objects
+		object Torch-79588-0 of Torch
+			properties
+				x	353
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79589
+	properties
+		template 32401
+		east 79590
+		west 79588
+		flags	200
+	end
+	objects
+		object EvilWizard-79589-0 of EvilWizard
+			properties
+				x	612
+				y	286
+				loop	1
+			end
+			base character
+			end
+		end
+		object GoodWizard-79589-1 of GoodWizard
+			properties
+				x	593
+				y	254
+				loop	1
+			end
+			base character
+			end
+		end
+		object Champion-79589-3 of Champion
+			properties
+				x	551
+				y	260
+				loop	1
+			end
+			base character
+			end
+		end
+		object Protector-79589-4 of Protector
+			properties
+				x	567
+				y	278
+				loop	1
+			end
+			base character
+			end
+		end
+		object EvilMinion-79589-2 of EvilMinion
+			properties
+				x	585
+				y	300
+				loop	1
+			end
+			base character
+			end
+		end
+		object Torch-79589-5 of Torch
+			properties
+				x	214
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79590
+	properties
+		template 32701
+		west 79589
+		north 79591
+		flags	248
+	end
+	objects
+		object EvilWizard-79590-0 of EvilWizard
+			properties
+				x	328
+				y	182
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79590-1 of NeutralWizard
+			properties
+				x	266
+				y	182
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79590-3 of EvilMinion
+			properties
+				x	357
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79590-4 of Protector
+			properties
+				x	292
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79590-2 of Champion
+			properties
+				x	232
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object Torch-79590-5 of Torch
+			properties
+				x	85
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79562
+	properties
+		template 30305
+		south 79561
+		flags	0
+	end
+	objects
+		object Chest-79562-0 of Chest
+			properties
+				x	477
+				y	285
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79562
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79562-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79562-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79562-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79562-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79562-9 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79562-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79562-1 of Ambrosia
+			properties
+				x	140
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79562-2 of Ambrosia
+			properties
+				x	127
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79562-3 of Ambrosia
+			properties
+				x	107
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79562-4 of Ambrosia
+			properties
+				x	124
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79562-5 of Lever
+			properties
+				x	289
+				y	264
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79562-6 of Torch
+			properties
+				x	372
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79567
+	properties
+		template 30305
+		south 79566
+		flags	0
+	end
+	objects
+		object Chest-79567-0 of Chest
+			properties
+				x	419
+				y	258
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79567
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79567-5 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79567-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79567-6 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79567-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79567-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79567-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79567-1 of Ambrosia
+			properties
+				x	95
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79567-2 of Ambrosia
+			properties
+				x	478
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79567-3 of Lever
+			properties
+				x	278
+				y	261
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79567-4 of Torch
+			properties
+				x	157
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79572
+	properties
+		template 31002
+		south 79571
+		flags	0
+	end
+	objects
+		object Chest-79572-0 of Chest
+			properties
+				x	298
+				y	237
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79572
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79572-6 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79572-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79572-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79572-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79572-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79572-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79572-1 of Ambrosia
+			properties
+				x	209
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79572-2 of Ambrosia
+			properties
+				x	175
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79572-3 of Ambrosia
+			properties
+				x	147
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79572-4 of Lever
+			properties
+				x	411
+				y	296
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79572-5 of Torch
+			properties
+				x	156
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79561
+	properties
+		template 31006
+		south 79560
+		north 79562
+		flags	56
+	end
+	objects
+		object NeutralWizard-79561-0 of NeutralWizard
+			properties
+				x	322
+				y	197
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79561-1 of NeutralWizard
+			properties
+				x	289
+				y	207
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79561-2 of NeutralWizard
+			properties
+				x	348
+				y	206
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79561-3 of Protector
+			properties
+				x	474
+				y	198
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79561-4 of Protector
+			properties
+				x	158
+				y	205
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79561-5 of AnvilKey04
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	NeutralWizard-79561-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79566
+	properties
+		template 30402
+		south 79565
+		north 79567
+		flags	56
+	end
+	objects
+		object NeutralWizard-79566-0 of NeutralWizard
+			properties
+				x	317
+				y	211
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79566-1 of NeutralWizard
+			properties
+				x	264
+				y	211
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79566-2 of Protector
+			properties
+				x	238
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79566-3 of Protector
+			properties
+				x	328
+				y	248
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79566-4 of Protector
+			properties
+				x	285
+				y	261
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79566-5 of AnvilKey05
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	NeutralWizard-79566-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79571
+	properties
+		template 31004
+		south 79570
+		north 79572
+		flags	56
+	end
+	objects
+		object NeutralWizard-79571-0 of NeutralWizard
+			properties
+				x	546
+				y	207
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79571-4 of Protector
+			properties
+				x	503
+				y	250
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79571-1 of Protector
+			properties
+				x	581
+				y	232
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79571-2 of Protector
+			properties
+				x	555
+				y	251
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79571-3 of Protector
+			properties
+				x	528
+				y	232
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79571-4 of AnvilKey06
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	NeutralWizard-79571-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79523
+	properties
+		template 30301
+		south 79522
+		flags	0
+	end
+	objects
+		object Chest-79523-0 of Chest
+			properties
+				x	595
+				y	271
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79523
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79523-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79523-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79523-9 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79523-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79523-10 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79523-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79523-1 of Ambrosia
+			properties
+				x	329
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79523-2 of Ambrosia
+			properties
+				x	283
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79523-3 of Ambrosia
+			properties
+				x	257
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79523-4 of Ambrosia
+			properties
+				x	377
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79523-5 of Lever
+			properties
+				x	477
+				y	245
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79523-6 of Torch
+			properties
+				x	187
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79528
+	properties
+		template 30302
+		south 79527
+		flags	0
+	end
+	objects
+		object Chest-79528-0 of Chest
+			properties
+				x	475
+				y	259
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79528
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79528-6 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79528-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79528-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79528-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79528-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79528-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79528-1 of Ambrosia
+			properties
+				x	125
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79528-2 of Ambrosia
+			properties
+				x	89
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79528-3 of Ambrosia
+			properties
+				x	98
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79528-4 of Lever
+			properties
+				x	310
+				y	241
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79528-5 of Torch
+			properties
+				x	324
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79533
+	properties
+		template 30303
+		south 79532
+		flags	0
+	end
+	objects
+		object Chest-79533-0 of Chest
+			properties
+				x	204
+				y	236
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base container
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79533
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79533-6 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79533-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79533-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79533-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79533-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79533-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79533-1 of Ambrosia
+			properties
+				x	85
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79533-2 of Ambrosia
+			properties
+				x	62
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79533-3 of Ambrosia
+			properties
+				x	96
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79533-4 of Lever
+			properties
+				x	473
+				y	238
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79533-5 of Torch
+			properties
+				x	320
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79560
+	properties
+		template 31003
+		south 79559
+		north 79561
+		flags	56
+	end
+	objects
+		object NeutralWizard-79560-0 of NeutralWizard
+			properties
+				x	265
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79560-1 of NeutralWizard
+			properties
+				x	322
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79560-2 of Protector
+			properties
+				x	323
+				y	238
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79560-3 of Protector
+			properties
+				x	264
+				y	240
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79565
+	properties
+		template 31003
+		south 79564
+		north 79566
+		flags	56
+	end
+	objects
+		object NeutralWizard-79565-0 of NeutralWizard
+			properties
+				x	298
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79565-1 of Protector
+			properties
+				x	332
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79565-2 of Protector
+			properties
+				x	262
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79565-3 of EvilMinion
+			properties
+				x	298
+				y	265
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79570
+	properties
+		template 31003
+		south 79569
+		north 79571
+		flags	56
+	end
+	objects
+		object NeutralWizard-79570-0 of NeutralWizard
+			properties
+				x	298
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79570-1 of Protector
+			properties
+				x	332
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79570-2 of Protector
+			properties
+				x	262
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79570-3 of Protector
+			properties
+				x	298
+				y	265
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79577
+	properties
+		template 30304
+		south 79576
+		flags	0
+	end
+	objects
+		object Chest-79577-0 of Chest
+			properties
+				x	584
+				y	295
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79577
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79577-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79577-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79577-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79577-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79577-9 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79577-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79577-1 of Ambrosia
+			properties
+				x	125
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79577-2 of Ambrosia
+			properties
+				x	91
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79577-3 of Ambrosia
+			properties
+				x	90
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79577-4 of Ambrosia
+			properties
+				x	60
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79577-5 of Lever
+			properties
+				x	306
+				y	241
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79577-6 of Torch
+			properties
+				x	216
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79582
+	properties
+		template 31002
+		south 79581
+		flags	0
+	end
+	objects
+		object Chest-79582-0 of Chest
+			properties
+				x	430
+				y	295
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79582
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79582-6 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79582-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79582-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79582-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79582-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79582-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79582-1 of Ambrosia
+			properties
+				x	142
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79582-2 of Ambrosia
+			properties
+				x	108
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79582-3 of Ambrosia
+			properties
+				x	145
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79582-4 of Lever
+			properties
+				x	278
+				y	244
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79582-5 of Torch
+			properties
+				x	158
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79587
+	properties
+		template 30303
+		south 79586
+		flags	0
+	end
+	objects
+		object Chest-79587-0 of Chest
+			properties
+				x	178
+				y	235
+				loop	0
+				enchantResistance 100
+			end
+			actions
+				vBeOpened teleport dobj 79588 0 
+			end
+			base lockable
+				isLocked	1
+				unlockValue	79587
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79587-7 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79587-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79587-8 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79587-0
+			end
+			base described
+			end
+		end
+		object MidPointTreasureChest-79587-9 of MidPointTreasureChest
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-79587-0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79587-1 of Ambrosia
+			properties
+				x	67
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79587-2 of Ambrosia
+			properties
+				x	568
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79587-3 of Ambrosia
+			properties
+				x	578
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-79587-4 of Ambrosia
+			properties
+				x	527
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79587-5 of Lever
+			properties
+				x	473
+				y	252
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79588 1 
+				vBeDeactivated teleport dobj 79588 1 
+			end
+			base described
+			end
+		end
+		object Torch-79587-6 of Torch
+			properties
+				x	320
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79522
+	properties
+		template 31003
+		south 79521
+		north 79523
+		flags	56
+	end
+	objects
+		object GoodWizard-79522-0 of GoodWizard
+			properties
+				x	321
+				y	211
+				loop	2
+			end
+			base character
+			end
+		end
+		object GoodWizard-79522-1 of GoodWizard
+			properties
+				x	296
+				y	207
+				loop	2
+			end
+			base character
+			end
+		end
+		object GoodWizard-79522-2 of GoodWizard
+			properties
+				x	264
+				y	215
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79522-3 of Champion
+			properties
+				x	320
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79522-4 of Champion
+			properties
+				x	266
+				y	236
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79522-5 of AnvilKey01
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	GoodWizard-79522-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79527
+	properties
+		template 30402
+		south 79526
+		north 79528
+		flags	56
+	end
+	objects
+		object GoodWizard-79527-0 of GoodWizard
+			properties
+				x	318
+				y	210
+				loop	2
+			end
+			base character
+			end
+		end
+		object GoodWizard-79527-1 of GoodWizard
+			properties
+				x	263
+				y	214
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79527-2 of Champion
+			properties
+				x	322
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79527-3 of Champion
+			properties
+				x	290
+				y	238
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79527-4 of Champion
+			properties
+				x	257
+				y	249
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79527-5 of AnvilKey02
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	GoodWizard-79527-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79532
+	properties
+		template 31003
+		south 79531
+		north 79533
+		flags	56
+	end
+	objects
+		object GoodWizard-79532-0 of GoodWizard
+			properties
+				x	291
+				y	205
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79532-1 of Champion
+			properties
+				x	321
+				y	228
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79532-2 of Champion
+			properties
+				x	332
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79532-3 of Champion
+			properties
+				x	263
+				y	228
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79532-4 of Champion
+			properties
+				x	254
+				y	249
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79532-5 of AnvilKey03
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	GoodWizard-79532-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79559
+	properties
+		template 30402
+		south 79558
+		north 79560
+		flags	56
+	end
+	objects
+		object NeutralWizard-79559-0 of NeutralWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79559-1 of Protector
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79559-2 of Champion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79564
+	properties
+		template 30402
+		south 79563
+		north 79565
+		flags	56
+	end
+	objects
+		object NeutralWizard-79564-0 of NeutralWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79564-1 of Protector
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79564-2 of Protector
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79569
+	properties
+		template 30402
+		south 79568
+		north 79570
+		flags	56
+	end
+	objects
+		object NeutralWizard-79569-0 of NeutralWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79569-1 of Protector
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79569-2 of EvilMinion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79576
+	properties
+		template 31003
+		south 79575
+		north 79577
+		flags	56
+	end
+	objects
+		object EvilWizard-79576-0 of EvilWizard
+			properties
+				x	323
+				y	209
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilWizard-79576-1 of EvilWizard
+			properties
+				x	282
+				y	204
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilWizard-79576-2 of EvilWizard
+			properties
+				x	245
+				y	208
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79576-3 of EvilMinion
+			properties
+				x	308
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79576-4 of EvilMinion
+			properties
+				x	252
+				y	232
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79576-5 of AnvilKey07
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EvilWizard-79576-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79581
+	properties
+		template 30804
+		south 79580
+		north 79582
+		flags	56
+	end
+	objects
+		object EvilWizard-79581-0 of EvilWizard
+			properties
+				x	398
+				y	199
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilWizard-79581-4 of EvilWizard
+			properties
+				x	353
+				y	199
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79581-1 of EvilMinion
+			properties
+				x	375
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79581-2 of EvilMinion
+			properties
+				x	419
+				y	233
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79581-3 of EvilMinion
+			properties
+				x	330
+				y	232
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79581-4 of AnvilKey08
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EvilWizard-79581-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79586
+	properties
+		template 30402
+		south 79585
+		north 79587
+		flags	56
+	end
+	objects
+		object EvilWizard-79586-0 of EvilWizard
+			properties
+				x	282
+				y	205
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79586-1 of EvilMinion
+			properties
+				x	346
+				y	261
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79586-2 of EvilMinion
+			properties
+				x	309
+				y	252
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79586-3 of EvilMinion
+			properties
+				x	261
+				y	252
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79586-4 of EvilMinion
+			properties
+				x	230
+				y	263
+				loop	2
+			end
+			base character
+			end
+		end
+		object Key-79586-5 of AnvilKey09
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EvilWizard-79586-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79521
+	properties
+		template 31003
+		south 79520
+		north 79522
+		flags	56
+	end
+	objects
+		object GoodWizard-79521-0 of GoodWizard
+			properties
+				x	265
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object GoodWizard-79521-1 of GoodWizard
+			properties
+				x	322
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79521-2 of Champion
+			properties
+				x	323
+				y	238
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79521-3 of Champion
+			properties
+				x	264
+				y	240
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79526
+	properties
+		template 31003
+		south 79525
+		north 79527
+		flags	56
+	end
+	objects
+		object GoodWizard-79526-0 of GoodWizard
+			properties
+				x	298
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79526-1 of Champion
+			properties
+				x	332
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79526-2 of Champion
+			properties
+				x	262
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79526-3 of Protector
+			properties
+				x	298
+				y	265
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79531
+	properties
+		template 31003
+		south 79530
+		north 79532
+		flags	56
+	end
+	objects
+		object GoodWizard-79531-0 of GoodWizard
+			properties
+				x	298
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79531-1 of Champion
+			properties
+				x	332
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79531-2 of Champion
+			properties
+				x	262
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79531-3 of Champion
+			properties
+				x	298
+				y	265
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79558
+	properties
+		template 30401
+		north 79559
+		flags	56
+	end
+	objects
+		object NeutralWizard-79558-0 of NeutralWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79558-1 of Protector
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79563
+	properties
+		template 30401
+		north 79564
+		flags	56
+	end
+	objects
+		object NeutralWizard-79563-0 of NeutralWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79563-1 of Protector
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79568
+	properties
+		template 30401
+		north 79569
+		flags	56
+	end
+	objects
+		object NeutralWizard-79568-0 of NeutralWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79568-1 of Protector
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79575
+	properties
+		template 31003
+		south 79574
+		north 79576
+		flags	56
+	end
+	objects
+		object EvilWizard-79575-0 of EvilWizard
+			properties
+				x	265
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilWizard-79575-1 of EvilWizard
+			properties
+				x	322
+				y	213
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79575-2 of EvilMinion
+			properties
+				x	323
+				y	238
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79575-3 of EvilMinion
+			properties
+				x	264
+				y	240
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79580
+	properties
+		template 31003
+		south 79579
+		north 79581
+		flags	56
+	end
+	objects
+		object EvilWizard-79580-0 of EvilWizard
+			properties
+				x	298
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79580-1 of Protector
+			properties
+				x	332
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79580-2 of EvilMinion
+			properties
+				x	262
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79580-3 of EvilMinion
+			properties
+				x	298
+				y	265
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79585
+	properties
+		template 31003
+		south 79584
+		north 79586
+		flags	56
+	end
+	objects
+		object EvilWizard-79585-0 of EvilWizard
+			properties
+				x	298
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79585-1 of EvilMinion
+			properties
+				x	332
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79585-2 of EvilMinion
+			properties
+				x	262
+				y	245
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79585-3 of EvilMinion
+			properties
+				x	298
+				y	265
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79520
+	properties
+		template 30402
+		south 79519
+		north 79521
+		flags	56
+	end
+	objects
+		object GoodWizard-79520-0 of GoodWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79520-1 of Champion
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79520-2 of Champion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79525
+	properties
+		template 30402
+		south 79524
+		north 79526
+		flags	56
+	end
+	objects
+		object GoodWizard-79525-0 of GoodWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79525-1 of Protector
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79525-2 of Champion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79530
+	properties
+		template 30402
+		south 79529
+		north 79531
+		flags	56
+	end
+	objects
+		object GoodWizard-79530-0 of GoodWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79530-1 of Champion
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79530-2 of EvilMinion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79574
+	properties
+		template 30402
+		south 79573
+		north 79575
+		flags	56
+	end
+	objects
+		object EvilWizard-79574-0 of EvilWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79574-1 of EvilMinion
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79574-2 of Champion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79579
+	properties
+		template 30402
+		south 79578
+		north 79580
+		flags	56
+	end
+	objects
+		object EvilWizard-79579-0 of EvilWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object Protector-79579-1 of Protector
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79579-2 of EvilMinion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79584
+	properties
+		template 30402
+		south 79583
+		north 79585
+		flags	56
+	end
+	objects
+		object EvilWizard-79584-0 of EvilWizard
+			properties
+				x	289
+				y	226
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79584-1 of EvilMinion
+			properties
+				x	256
+				y	247
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79584-2 of EvilMinion
+			properties
+				x	316
+				y	246
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79519
+	properties
+		template 30401
+		north 79520
+		flags	56
+	end
+	objects
+		object GoodWizard-79519-0 of GoodWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79519-1 of Champion
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79524
+	properties
+		template 30401
+		north 79525
+		flags	56
+	end
+	objects
+		object GoodWizard-79524-0 of GoodWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79524-1 of Champion
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79529
+	properties
+		template 30401
+		north 79530
+		flags	56
+	end
+	objects
+		object GoodWizard-79529-0 of GoodWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object Champion-79529-1 of Champion
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79545
+	properties
+		template 32301
+		east 79543
+		flags	0
+	end
+	objects
+		object Lever-79545-0 of Lever
+			properties
+				x	355
+				y	269
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79558 1 
+				vBeDeactivated teleport dobj 79558 1 
+			end
+			base described
+			end
+		end
+		object Torch-79545-1 of Torch
+			properties
+				x	540
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79543
+	properties
+		template 32401
+		south 79542
+		east 79544
+		west 79545
+		flags	0
+	end
+	objects
+		object Torch-79543-0 of Torch
+			properties
+				x	106
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79543-1 of Torch
+			properties
+				x	608
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79543-2 of Lever
+			properties
+				x	284
+				y	270
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79563 1 
+				vBeDeactivated teleport dobj 79563 1 
+			end
+			base described
+			end
+		end
+		object Sign-79543-3 of Sign
+			properties
+				x	196
+				y	233
+				loop	0
+			end
+			base described
+				text	"Of three one. Choose thee wisely."
+			end
+		end
+		object Shroom4-79543-4 of Shroom4
+			properties
+				x	144
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79544
+	properties
+		template 30201
+		west 79543
+		flags	0
+	end
+	objects
+		object Lever-79544-0 of Lever
+			properties
+				x	425
+				y	278
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79568 1 
+				vBeDeactivated teleport dobj 79568 1 
+			end
+			base described
+			end
+		end
+		object Torch-79544-1 of Torch
+			properties
+				x	180
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79573
+	properties
+		template 30401
+		north 79574
+		flags	56
+	end
+	objects
+		object EvilWizard-79573-0 of EvilWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79573-1 of EvilMinion
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79578
+	properties
+		template 30401
+		north 79579
+		flags	56
+	end
+	objects
+		object EvilWizard-79578-0 of EvilWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79578-1 of EvilMinion
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79583
+	properties
+		template 30401
+		north 79584
+		flags	56
+	end
+	objects
+		object EvilWizard-79583-0 of EvilWizard
+			properties
+				x	372
+				y	195
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilMinion-79583-1 of EvilMinion
+			properties
+				x	322
+				y	224
+				loop	2
+			end
+			base character
+			end
+		end
+	end
+end
+room 79542
+	properties
+		template 30802
+		east 79541
+		north 79543
+		flags	88
+	end
+	objects
+		object Protector-79542-0 of Protector
+			properties
+				x	473
+				y	221
+				loop	2
+			end
+			base character
+			end
+		end
+		object NeutralWizard-79542-1 of NeutralWizard
+			properties
+				x	473
+				y	173
+				loop	2
+			end
+			base character
+			end
+		end
+		object Kilrog-79542-2 of Kilrog
+			properties
+				x	428
+				y	209
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object BabyDragon-79542-3 of BabyDragon
+			properties
+				x	389
+				y	126
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object WaspHealer-79542-4 of WaspHealer
+			properties
+				x	530
+				y	164
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object KingKilrog-79542-5 of KingKilrog
+			properties
+				x	522
+				y	202
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+	end
+end
+room 79541
+	properties
+		template 30906
+		east 79540
+		west 79542
+		flags	200
+	end
+	objects
+		object Guardian-79541-0 of Guardian
+			properties
+				x	70
+				y	282
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79541-1 of Guardian
+			properties
+				x	77
+				y	253
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79541-2 of Paladin
+			properties
+				x	86
+				y	268
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object BabyDragon-79541-3 of BabyDragon
+			properties
+				x	63
+				y	271
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-79541-4 of BabyDragon
+			properties
+				x	64
+				y	254
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 79540
+	properties
+		template 30601
+		south 79539
+		west 79541
+		flags	136
+	end
+	objects
+		object Fury-79540-0 of Fury
+			properties
+				x	60
+				y	248
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-79540-1 of Fury
+			properties
+				x	15
+				y	255
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object KingCobra-79540-2 of KingCobra
+			properties
+				x	-7
+				y	269
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-79540-3 of KingCobra
+			properties
+				x	-7
+				y	308
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-79540-4 of KingCobra
+			properties
+				x	5
+				y	282
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-79540-5 of KingCobra
+			properties
+				x	2
+				y	295
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object FireWasp-79540-6 of FireWasp
+			properties
+				x	19
+				y	288
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 79517
+	properties
+		template 32301
+		east 79516
+		flags	0
+	end
+	objects
+		object Lever-79517-0 of Lever
+			properties
+				x	361
+				y	266
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79519 1 
+				vBeDeactivated teleport dobj 79519 1 
+			end
+			base described
+			end
+		end
+		object Torch-79517-1 of Torch
+			properties
+				x	536
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79516
+	properties
+		template 30902
+		south 79514
+		east 79518
+		west 79517
+		flags	0
+	end
+	objects
+		object Lever-79516-0 of Lever
+			properties
+				x	324
+				y	258
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79524 1 
+				vBeDeactivated teleport dobj 79524 1 
+			end
+			base described
+			end
+		end
+		object Torch-79516-1 of Torch
+			properties
+				x	442
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-79516-2 of Sign
+			properties
+				x	423
+				y	250
+				loop	0
+			end
+			base described
+				text	"Of three one. Choose thee wisely."
+			end
+		end
+	end
+end
+room 79518
+	properties
+		template 30902
+		south 79513
+		west 79516
+		flags	0
+	end
+	objects
+		object Lever-79518-0 of Lever
+			properties
+				x	331
+				y	283
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79529 1 
+				vBeDeactivated teleport dobj 79524 1 
+			end
+			base described
+			end
+		end
+		object Torch-79518-1 of Torch
+			properties
+				x	558
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79518-2 of Torch
+			properties
+				x	214
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79537
+	properties
+		template 30501
+		south 79536
+		east 79538
+		flags	104
+	end
+	objects
+		object SpittingCobra-79537-0 of SpittingCobra
+			properties
+				x	645
+				y	299
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object LavaSerpent-79537-1 of LavaSerpent
+			properties
+				x	645
+				y	279
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object KingCobra-79537-2 of KingCobra
+			properties
+				x	619
+				y	288
+				loop	1
+				color	93
+			end
+			base character
+			end
+		end
+		object FireWasp-79537-3 of FireWasp
+			properties
+				x	630
+				y	286
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object BountyHunterE-79537-4 of BountyHunterE
+			properties
+				x	566
+				y	274
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterE-79537-5 of BountyHunterE
+			properties
+				x	564
+				y	311
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79537-6 of BountyHunterF
+			properties
+				x	604
+				y	287
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79537-7 of BountyHunterF
+			properties
+				x	580
+				y	300
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79537-8 of BountyHunterF
+			properties
+				x	610
+				y	307
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79538
+	properties
+		template 30906
+		east 79539
+		west 79537
+		flags	72
+	end
+	objects
+		object KingCobra-79538-0 of KingCobra
+			properties
+				x	524
+				y	289
+				loop	1
+				color	93
+			end
+			base character
+			end
+		end
+		object LavaSerpent-79538-1 of LavaSerpent
+			properties
+				x	545
+				y	279
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object FireWasp-79538-2 of FireWasp
+			properties
+				x	613
+				y	288
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object FireWasp-79538-3 of FireWasp
+			properties
+				x	565
+				y	280
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 79539
+	properties
+		template 32602
+		west 79538
+		north 79540
+		flags	152
+	end
+	objects
+		object FireWasp-79539-0 of FireWasp
+			properties
+				x	155
+				y	190
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object FireWasp-79539-1 of FireWasp
+			properties
+				x	377
+				y	195
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object BountyHunterE-79539-2 of BountyHunterE
+			properties
+				x	269
+				y	203
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LavaSerpent-79539-3 of LavaSerpent
+			properties
+				x	64
+				y	169
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79539-4 of BountyHunterF
+			properties
+				x	330
+				y	228
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79539-5 of BountyHunterF
+			properties
+				x	206
+				y	226
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79539-6 of BountyHunterF
+			properties
+				x	271
+				y	243
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79556
+	properties
+		template 32301
+		east 79555
+		flags	0
+	end
+	objects
+		object Torch-79556-0 of Torch
+			properties
+				x	540
+				y	204
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79556-1 of Lever
+			properties
+				x	336
+				y	269
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79573 1 
+				vBeDeactivated teleport dobj 79573 1 
+			end
+			base described
+			end
+		end
+	end
+end
+room 79555
+	properties
+		template 30902
+		south 79554
+		east 79557
+		west 79556
+		flags	0
+	end
+	objects
+		object Lever-79555-0 of Lever
+			properties
+				x	255
+				y	280
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79578 1 
+				vBeDeactivated teleport dobj 79578 1 
+			end
+			base described
+			end
+		end
+		object Torch-79555-1 of Torch
+			properties
+				x	562
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-79555-2 of Sign
+			properties
+				x	417
+				y	251
+				loop	0
+			end
+			base described
+				text	"Of three one. Choose thee wisely."
+			end
+		end
+	end
+end
+room 79557
+	properties
+		template 30701
+		west 79555
+		flags	0
+	end
+	objects
+		object Torch-79557-0 of Torch
+			properties
+				x	87
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-79557-1 of Lever
+			properties
+				x	304
+				y	259
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79583 1 
+				vBeDeactivated teleport dobj 79583 1 
+			end
+			base described
+			end
+		end
+	end
+end
+room 79514
+	properties
+		template 32305
+		east 79513
+		north 79516
+		flags	88
+	end
+	objects
+		object Priestess-79514-0 of Priestess
+			properties
+				x	417
+				y	203
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79514-1 of SeraphQueen
+			properties
+				x	397
+				y	198
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object WaspHealer-79514-2 of WaspHealer
+			properties
+				x	436
+				y	173
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspHealer-79514-3 of WaspHealer
+			properties
+				x	337
+				y	168
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object Champion-79514-4 of Champion
+			properties
+				x	400
+				y	234
+				loop	2
+			end
+			base character
+			end
+		end
+		object GoodWizard-79514-5 of GoodWizard
+			properties
+				x	385
+				y	200
+				loop	2
+			end
+			base character
+			end
+		end
+		object Guardian-79514-6 of Guardian
+			properties
+				x	357
+				y	212
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79514-7 of Guardian
+			properties
+				x	470
+				y	197
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79514-8 of Guardian
+			properties
+				x	310
+				y	198
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79513
+	properties
+		template 32102
+		east 79512
+		west 79514
+		north 79518
+		flags	200
+	end
+	objects
+		object SeraphQueen-79513-0 of SeraphQueen
+			properties
+				x	4
+				y	283
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79513-1 of SeraphQueen
+			properties
+				x	27
+				y	251
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Paladin-79513-2 of Paladin
+			properties
+				x	17
+				y	281
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspHealer-79513-3 of WaspHealer
+			properties
+				x	25
+				y	260
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object Paladin-79513-4 of Paladin
+			properties
+				x	19
+				y	257
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79513-5 of Paladin
+			properties
+				x	17
+				y	303
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79513-6 of SeraphQueen
+			properties
+				x	34
+				y	299
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Guardian-79513-7 of Guardian
+			properties
+				x	53
+				y	267
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79513-8 of Guardian
+			properties
+				x	50
+				y	292
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79512
+	properties
+		template 32302
+		south 79510
+		west 79513
+		flags	136
+	end
+	objects
+		object Paladin-79512-0 of Paladin
+			properties
+				x	63
+				y	264
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspHealer-79512-1 of WaspHealer
+			properties
+				x	24
+				y	279
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object Guardian-79512-2 of Guardian
+			properties
+				x	105
+				y	278
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79512-3 of SeraphQueen
+			properties
+				x	27
+				y	303
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79512-4 of SeraphQueen
+			properties
+				x	35
+				y	267
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Paladin-79512-5 of Paladin
+			properties
+				x	89
+				y	291
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79512-6 of Guardian
+			properties
+				x	73
+				y	279
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79512-7 of Guardian
+			properties
+				x	55
+				y	298
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79536
+	properties
+		template 30801
+		east 79535
+		north 79537
+		flags	88
+	end
+	objects
+		object Fury-79536-0 of Fury
+			properties
+				x	165
+				y	220
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object KingCobra-79536-1 of KingCobra
+			properties
+				x	303
+				y	181
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-79536-2 of KingCobra
+			properties
+				x	506
+				y	196
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object BountyHunterE-79536-3 of BountyHunterE
+			properties
+				x	427
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79536-4 of BountyHunterF
+			properties
+				x	481
+				y	241
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79536-5 of BountyHunterF
+			properties
+				x	374
+				y	240
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object FireWasp-79536-6 of FireWasp
+			properties
+				x	426
+				y	205
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 79535
+	properties
+		template 30601
+		south 79534
+		west 79536
+		flags	168
+	end
+	objects
+		object KingCobra-79535-0 of KingCobra
+			properties
+				x	4
+				y	267
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-79535-1 of KingCobra
+			properties
+				x	15
+				y	296
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79535-2 of BountyHunterF
+			properties
+				x	50
+				y	283
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79535-3 of BountyHunterF
+			properties
+				x	6
+				y	263
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79535-4 of BountyHunterF
+			properties
+				x	8
+				y	303
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object StingingFury-79535-5 of StingingFury
+			properties
+				x	30
+				y	273
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+	end
+end
+room 79552
+	properties
+		template 30502
+		south 79551
+		east 79553
+		flags	72
+	end
+	objects
+		object KingKilrog-79552-0 of KingKilrog
+			properties
+				x	605
+				y	270
+				loop	1
+				color	788
+			end
+			base character
+			end
+		end
+		object BabyDragon-79552-1 of BabyDragon
+			properties
+				x	609
+				y	282
+				loop	1
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-79552-2 of BabyDragon
+			properties
+				x	597
+				y	257
+				loop	1
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 79553
+	properties
+		template 30703
+		east 79554
+		west 79552
+		flags	200
+	end
+	objects
+		object Kilrog-79553-0 of Kilrog
+			properties
+				x	572
+				y	277
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79553-1 of Kilrog
+			properties
+				x	570
+				y	264
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79553-2 of Kilrog
+			properties
+				x	575
+				y	294
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object BabyDragon-79553-3 of BabyDragon
+			properties
+				x	621
+				y	280
+				loop	1
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-79553-4 of BabyDragon
+			properties
+				x	618
+				y	252
+				loop	1
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 79554
+	properties
+		template 32602
+		west 79553
+		north 79555
+		flags	152
+	end
+	objects
+		object KingKilrog-79554-0 of KingKilrog
+			properties
+				x	311
+				y	245
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+		object Kilrog-79554-1 of Kilrog
+			properties
+				x	220
+				y	252
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object EvilMinion-79554-2 of EvilMinion
+			properties
+				x	247
+				y	230
+				loop	2
+			end
+			base character
+			end
+		end
+		object EvilWizard-79554-3 of EvilWizard
+			properties
+				x	283
+				y	211
+				loop	2
+			end
+			base character
+			end
+		end
+		object BabyDragon-79554-4 of BabyDragon
+			properties
+				x	339
+				y	209
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-79554-5 of BabyDragon
+			properties
+				x	235
+				y	218
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 79508
+	properties
+		template 30502
+		south 79507
+		east 79509
+		flags	104
+	end
+	objects
+		object Guardian-79508-0 of Guardian
+			properties
+				x	552
+				y	289
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79508-1 of Guardian
+			properties
+				x	550
+				y	277
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspHealer-79508-2 of WaspHealer
+			properties
+				x	623
+				y	249
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object Paladin-79508-3 of Paladin
+			properties
+				x	572
+				y	260
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-79508-4 of LightWiz
+			properties
+				x	602
+				y	267
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79508-5 of Paladin
+			properties
+				x	578
+				y	289
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79508-6 of SeraphQueen
+			properties
+				x	607
+				y	289
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+	end
+end
+room 79509
+	properties
+		template 30703
+		east 79510
+		west 79508
+		flags	200
+	end
+	objects
+		object WaspHealer-79509-0 of WaspHealer
+			properties
+				x	628
+				y	241
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspHealer-79509-1 of WaspHealer
+			properties
+				x	618
+				y	260
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object Paladin-79509-2 of Paladin
+			properties
+				x	581
+				y	255
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79509-3 of Guardian
+			properties
+				x	581
+				y	277
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79510
+	properties
+		template 32701
+		west 79509
+		north 79512
+		flags	152
+	end
+	objects
+		object Guardian-79510-0 of Guardian
+			properties
+				x	368
+				y	230
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79510-1 of Paladin
+			properties
+				x	337
+				y	251
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspHealer-79510-2 of WaspHealer
+			properties
+				x	294
+				y	170
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79510-3 of SeraphQueen
+			properties
+				x	361
+				y	208
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object Guardian-79510-4 of Guardian
+			properties
+				x	308
+				y	230
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79510-5 of Guardian
+			properties
+				x	248
+				y	230
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79510-6 of Paladin
+			properties
+				x	277
+				y	252
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79534
+	properties
+		template 30401
+		north 79535
+		flags	24
+	end
+	objects
+		object KingCobra-79534-0 of KingCobra
+			properties
+				x	346
+				y	174
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object BountyHunterE-79534-1 of BountyHunterE
+			properties
+				x	264
+				y	242
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterE-79534-2 of BountyHunterE
+			properties
+				x	381
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79534-3 of BountyHunterF
+			properties
+				x	348
+				y	213
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-79534-4 of BountyHunterF
+			properties
+				x	294
+				y	213
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Fury-79534-5 of Fury
+			properties
+				x	484
+				y	195
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-79534-6 of Fury
+			properties
+				x	161
+				y	213
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object KingCobra-79534-7 of KingCobra
+			properties
+				x	300
+				y	182
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-79534-8 of KingCobra
+			properties
+				x	160
+				y	184
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 79551
+	properties
+		template 30801
+		east 79550
+		north 79552
+		flags	88
+	end
+	objects
+		object SeraphQueen-79551-0 of SeraphQueen
+			properties
+				x	297
+				y	162
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79551-1 of SeraphQueen
+			properties
+				x	596
+				y	172
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object KingKilrog-79551-2 of KingKilrog
+			properties
+				x	415
+				y	194
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+		object KingKilrog-79551-3 of KingKilrog
+			properties
+				x	482
+				y	195
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+		object Kilrog-79551-4 of Kilrog
+			properties
+				x	378
+				y	216
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79551-5 of Kilrog
+			properties
+				x	514
+				y	221
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79551-6 of Kilrog
+			properties
+				x	445
+				y	224
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+	end
+end
+room 79550
+	properties
+		template 30906
+		east 79549
+		west 79551
+		flags	200
+	end
+	objects
+		object Kilrog-79550-0 of Kilrog
+			properties
+				x	84
+				y	261
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79550-1 of Kilrog
+			properties
+				x	81
+				y	287
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+		object BabyDragon-79550-2 of BabyDragon
+			properties
+				x	69
+				y	243
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-79550-3 of BabyDragon
+			properties
+				x	70
+				y	301
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 79549
+	properties
+		template 30909
+		south 79548
+		west 79550
+		flags	168
+	end
+	objects
+		object HellSnake-79549-0 of HellSnake
+			properties
+				x	31
+				y	271
+				loop	0
+				color	1584
+			end
+			base character
+			end
+		end
+		object HellSnake-79549-1 of HellSnake
+			properties
+				x	34
+				y	307
+				loop	0
+				color	1584
+			end
+			base character
+			end
+		end
+		object BabyDragon-79549-2 of BabyDragon
+			properties
+				x	73
+				y	287
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+		object Kilrog-79549-3 of Kilrog
+			properties
+				x	13
+				y	283
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+	end
+end
+room 79507
+	properties
+		template 30801
+		east 79506
+		north 79508
+		flags	88
+	end
+	objects
+		object SeraphQueen-79507-0 of SeraphQueen
+			properties
+				x	600
+				y	206
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79507-1 of SeraphQueen
+			properties
+				x	304
+				y	201
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object WaspHealer-79507-2 of WaspHealer
+			properties
+				x	439
+				y	181
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object Paladin-79507-3 of Paladin
+			properties
+				x	509
+				y	230
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79507-4 of Paladin
+			properties
+				x	441
+				y	228
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79507-5 of Paladin
+			properties
+				x	375
+				y	231
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-79507-6 of LightWiz
+			properties
+				x	380
+				y	189
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-79507-7 of LightWiz
+			properties
+				x	497
+				y	189
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79506
+	properties
+		template 30703
+		east 79504
+		west 79507
+		flags	200
+	end
+	objects
+		object Cleric-79506-0 of Cleric
+			properties
+				x	14
+				y	267
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-79506-1 of Guardian
+			properties
+				x	80
+				y	259
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspHealer-79506-2 of WaspHealer
+			properties
+				x	25
+				y	250
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object LightWiz-79506-3 of LightWiz
+			properties
+				x	64
+				y	262
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-79506-4 of LightWiz
+			properties
+				x	54
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79506-5 of Paladin
+			properties
+				x	88
+				y	274
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79506-6 of Paladin
+			properties
+				x	70
+				y	290
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79504
+	properties
+		template 30908
+		west 79506
+		flags	200
+	end
+	objects
+		object Priestess-79504-0 of Priestess
+			properties
+				x	5
+				y	255
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspHealer-79504-1 of WaspHealer
+			properties
+				x	21
+				y	252
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79504-2 of SeraphQueen
+			properties
+				x	16
+				y	311
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79504-3 of SeraphQueen
+			properties
+				x	30
+				y	248
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object LightWiz-79504-4 of LightWiz
+			properties
+				x	13
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79504-5 of Paladin
+			properties
+				x	48
+				y	271
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-79504-6 of Paladin
+			properties
+				x	35
+				y	294
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 79546
+	properties
+		template 32301
+		east 79547
+		flags	72
+	end
+	objects
+		object Devil-79546-0 of Devil
+			properties
+				x	623
+				y	264
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Kilrog-79546-1 of Kilrog
+			properties
+				x	621
+				y	287
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object KingKilrog-79546-2 of KingKilrog
+			properties
+				x	608
+				y	254
+				loop	1
+				color	788
+			end
+			base character
+			end
+		end
+		object HellSnake-79546-3 of HellSnake
+			properties
+				x	616
+				y	267
+				loop	1
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 79547
+	properties
+		template 30906
+		east 79548
+		west 79546
+		flags	200
+	end
+	objects
+		object Kilrog-79547-0 of Kilrog
+			properties
+				x	596
+				y	290
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79547-1 of Kilrog
+			properties
+				x	586
+				y	249
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-79547-2 of Kilrog
+			properties
+				x	619
+				y	264
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object HellSnake-79547-3 of HellSnake
+			properties
+				x	599
+				y	281
+				loop	1
+				color	1584
+			end
+			base character
+			end
+		end
+		object HellSnake-79547-4 of HellSnake
+			properties
+				x	573
+				y	255
+				loop	1
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 79548
+	properties
+		template 32602
+		west 79547
+		north 79549
+		flags	152
+	end
+	objects
+		object DaemonKing-79548-0 of DaemonKing
+			properties
+				x	284
+				y	203
+				loop	2
+				color	784
+			end
+			base character
+			end
+		end
+		object HellSnake-79548-1 of HellSnake
+			properties
+				x	344
+				y	201
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+		object BabyDragon-79548-2 of BabyDragon
+			properties
+				x	225
+				y	218
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 79505
+	properties
+		template 30101
+		east 79501
+		flags	0
+	end
+	objects
+		object Lever-79505-0 of Lever
+			properties
+				x	138
+				y	263
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79504 1 
+				vBeDeactivated teleport dobj 79504 1 
+			end
+			base described
+			end
+		end
+		object Torch-79505-1 of Torch
+			properties
+				x	324
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79505-2 of Torch
+			properties
+				x	606
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-79505-3 of Sign
+			properties
+				x	365
+				y	243
+				loop	0
+			end
+			base described
+				text	"The path of virtue demands a rough and thorny road."
+			end
+		end
+	end
+end
+room 79501
+	properties
+		template 30906
+		east 79500
+		west 79505
+		flags	0
+	end
+	objects
+		object Torch-79501-0 of Torch
+			properties
+				x	190
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79501-1 of Torch
+			properties
+				x	580
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-79501-2 of FireA
+			properties
+				x	176
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-79501-3 of Stool
+			properties
+				x	233
+				y	262
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stool-79501-4 of Stool
+			properties
+				x	129
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-79501-5 of Stool
+			properties
+				x	194
+				y	238
+				loop	2
+			end
+			base described
+			end
+		end
+	end
+end
+room 79500
+	properties
+		template 30905
+		south 79511
+		east 79502
+		west 79501
+		flags	0
+	end
+	objects
+		object Lever-79500-0 of Lever
+			properties
+				x	200
+				y	266
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79534 1 
+				vBeDeactivated teleport dobj 79534 1 
+			end
+			base described
+			end
+		end
+		object Torch-79500-1 of Torch
+			properties
+				x	59
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79500-2 of Torch
+			properties
+				x	339
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79500-3 of Torch
+			properties
+				x	542
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-79500-4 of Sign
+			properties
+				x	416
+				y	226
+				loop	0
+			end
+			base described
+				text	"Every stroke of virtue or vice leaves its scar."
+			end
+		end
+	end
+end
+room 79502
+	properties
+		template 32401
+		east 79503
+		west 79500
+		flags	0
+	end
+	objects
+		object Torch-79502-0 of Torch
+			properties
+				x	91
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79502-1 of Torch
+			properties
+				x	495
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-79502-2 of FireA
+			properties
+				x	226
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-79502-3 of Stool
+			properties
+				x	162
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-79502-4 of Stool
+			properties
+				x	237
+				y	251
+				loop	2
+			end
+			base described
+			end
+		end
+		object Stool-79502-5 of Stool
+			properties
+				x	294
+				y	265
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 79503
+	properties
+		template 30701
+		west 79502
+		flags	0
+	end
+	objects
+		object Lever-79503-0 of Lever
+			properties
+				x	323
+				y	235
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 79546 1 
+				vBeDeactivated teleport dobj 79546 1 
+			end
+			base described
+			end
+		end
+		object Torch-79503-1 of Torch
+			properties
+				x	75
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-79503-2 of Torch
+			properties
+				x	333
+				y	209
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-79503-3 of Sign
+			properties
+				x	127
+				y	225
+				loop	0
+			end
+			base described
+				text	"Good tortured by its hunger and thrist."
+			end
+		end
+	end
+end
+room 79511
+	properties
+		template 31006
+		south 79515
+		north 79500
+		flags	56
+	end
+	objects
+		object ImpKing-79511-0 of ImpKing
+			properties
+				x	316
+				y	215
+				loop	2
+				color	20
+			end
+			base character
+			end
+		end
+		object SeraphQueen-79511-1 of SeraphQueen
+			properties
+				x	151
+				y	227
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object Banshee-79511-2 of Banshee
+			properties
+				x	460
+				y	206
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Kilrog-79511-3 of Kilrog
+			properties
+				x	464
+				y	228
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Guardian-79511-4 of Guardian
+			properties
+				x	174
+				y	230
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object KingCobra-79511-5 of KingCobra
+			properties
+				x	322
+				y	198
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object Bones-79511-6 of Bones
+			properties
+				x	291
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 79515
+	properties
+		template 30401
+		north 79511
+		flags	0
+	end
+	objects
+		object Sign-79515-0 of Sign
+			properties
+				x	447
+				y	250
+				loop	0
+			end
+			base described
+				text	"This old anvil laughs at many a broken hammer.\n There are those who shall not yield."
+			end
+		end
+		object Stalagmite4-79515-1 of Stalagmite4
+			properties
+				x	577
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-79515-2 of Skull
+			properties
+				x	553
+				y	285
+				loop	1
+			end
+			base described
+			end
+		end
+		object SittingMushroom-79515-3 of SittingMushroom
+			properties
+				x	177
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-79515-4 of Shroom2
+			properties
+				x	168
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-79515-5 of DungeonBackUp
+			properties
+				x	190
+				y	256
+				loop	0
+				linkTo sarcophagusDoor21016-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FatColumn-79515-6 of FatColumn
+			properties
+				x	156
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-79515-7 of FatColumn
+			properties
+				x	575
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-79515-8 of Column
+			properties
+				x	100
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

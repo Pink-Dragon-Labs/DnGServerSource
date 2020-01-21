@@ -1,0 +1,365 @@
+object specialKey-00 of Key
+	properties
+		special
+		toss
+	end
+
+	base key 
+		lockValue 666
+		unlockValue 666
+	end
+
+	base described
+		text "You see a key of unusal quality... it must be special."
+	end
+end
+
+object alustraSign-00 of Sign
+	properties
+		special
+	end
+
+	base described
+		text "'Dear Alustra,  I'm so very sorry for the immense delay in getting to your problem. I should have been more responsive to your needs but alas, I was not aware of them. Please accept this dedicated Fountain of Alustra as my personal apology to you.'  -- Stephen the Implementor"
+	end
+end
+
+object alustraFountain-00 of Fountain
+	properties
+		special
+	end
+
+	base described
+		text "This fountain's endless waters signify Stephen's heart pouring out his undying apology to Alustra."
+	end
+end
+
+object GaronScroll of Scroll
+	properties
+		special
+	end
+
+	base described
+		text "The scroll reads: 'Kolanar, this person has performed services for me that prove their worth beyond a shadow of a doubt. This person has my full support in every way. --Garon'"
+	end
+end
+
+object CheapSword of LongSword
+	properties
+		special
+	end
+end
+
+object HandHalfSword of TwoHandSword
+	properties
+		special
+	end
+end
+
+object Knife of Dagger
+	properties
+		special
+	end
+end
+
+object FleshCowl of Cowl
+	properties
+		special
+		color 104
+	end
+end
+
+object FleshCuffs of Wristband
+	properties
+		special
+		color 104
+	end
+end
+
+object PurpleBelt of VioletBelt
+	properties
+		special
+	end
+end
+
+object MagentaBelt of VioletBelt
+	properties
+		special
+	end
+end
+
+object LeatherBelt of Belt
+	properties
+		special
+	end
+end
+
+object TanBelt of Belt
+	properties
+		special
+	end
+end
+
+object Beral of Shop
+	properties
+		level 100
+		name "Beral"
+		special
+	end
+
+	base npc
+		code shopkeeper
+	end
+
+	base container
+		worn BlackRobe
+		worn BlackBoots
+		worn BlackBaldric
+		worn BlackBelt
+		head 0 1 1 6 0 8 11 13 9 8 8 0
+	end
+
+	base shop
+		buyMarkup 0
+		sellMarkup 100
+
+		inventory 
+		#	category "Materials" 58283
+			#	object WoodBlock
+			#	object IronBar
+			#	object SteelBar
+			#	object TemperedSteelBar
+			#	object MythrilBar
+			#	object ObsidianiteBar
+			#	object AdmantiumBar
+			#	object ClothBolt  
+			#	object LeatherBolt
+			#	object TrollHideBolt
+			#end
+
+			#category "Ingredients" 57983
+				object ZombieFinger
+				object GoldNugget
+				object RatGuano
+				object ImpGuano
+				object DaemonGuano
+				object JawBone
+				object OgreEyeball
+				object AmberRod
+				object ObsidianDust
+				object Silvergrass
+				object Goldenberries
+				object Pigweed
+				object Devilweed
+				object Corbalite
+				object Basalt
+				object Sulfur
+				object Marble
+				object ElderOak
+				object Silverthorn
+				object Tobac
+				object pSwampWater
+			#end
+
+			#category "Gems" 50883
+			#	object Crystal
+			#	object RubyChip
+			#	object Aquamarine
+			#	object Turquoise
+			#	object Topaz
+			#	object Emerald
+			#	object Ruby
+			#	object Jet
+			#	object Diamond
+			#end
+		end
+	end
+end
+
+object Crest 
+	properties
+		name "Crest"
+		view 62500
+	end
+
+	base described
+		text "The crest reads: 'The player who lives here is one of the original citizens of this land.  A devoted player who deserves respect and acknowledgement for their love of The Realm.'"
+	end
+end
+
+object TombstoneA
+	properties
+		name "Tombstone"
+		view 1250
+		action 0
+	end
+
+	base described
+		text "The tombstone reads: Revenge of the 'Head of Death'. A hacker's untimely demise."
+	end
+end
+
+object TombstoneAA of TombstoneA
+	properties
+		special
+	end
+
+	base described
+		text "Hacking 'Engrave' led this damned soul to an early grave."
+	end
+end
+
+object TombstoneAB of TombstoneA
+	properties
+		special
+	end
+
+	base described
+		text "The inscription reads: 'Eternal Peace. There is no Magic Mail in hell.'"
+	end
+end
+
+object TombstoneAC of TombstoneA
+	properties
+		special
+	end
+
+	base described
+		text "The end of the adventure for a hacker. Written on the stone is: 'Received Elphame's final judgement.'"
+	end
+end
+
+object TombstoneB 
+	properties
+		name "Cross Tombstone"
+		view 1251
+		action 0
+	end
+
+	base described
+		text "The grave of a hacker. An untimely demise from the Magic Trainer."
+	end
+end
+
+object TombstoneBA of TombstoneB
+	properties
+		special
+	end
+
+	base described
+		text "Yet another poor soul who collapsed after uttering 'CheatOMatic'."
+	end
+end
+
+object TombstoneBB of TombstoneB
+	properties
+		special
+	end
+
+	base described
+		text "Here lies the demised. A hacker crushed by Conan."
+	end
+end
+
+object TombstoneBC of TombstoneB
+	properties
+		special
+	end
+
+	base described
+		text "A hacker laid to rest by The Realm Team."
+	end
+end
+
+object TombstoneC 
+	properties
+		name "Dragon Tombstone"
+		view 1252
+		action 0
+	end
+	base described
+		text "Place flowers for the departed. Suggested offering, a small black lotus."
+	end
+end
+
+object TombstoneCA of TombstoneC
+	properties
+		special
+	end
+
+	base described
+		text "A small puddle of water lies burbling from the ground. Enscribed on the stone you see: 'The evil is gone forever.'"
+	end
+end
+
+object TombstoneCB of TombstoneC
+	properties
+		special
+	end
+
+	base described
+		text "Here lies what's left of a hacker.. a little dust."
+	end
+end
+
+object TombstoneCC of TombstoneC
+	properties
+		special
+	end
+
+	base described
+		text "A 30 Day Blunder. The fate of a failed hacker."
+	end
+end
+
+object TombstoneCD of TombstoneB
+	properties
+		special
+	end
+
+	base described
+		text "A vaporized hacker. The fate of all those alike."
+	end
+end
+
+object Dragonscale
+	properties
+		view 41951
+		clutStart 98
+		health 900
+		name "unusual token"
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		wholesale
+		worthless
+	end
+
+	base carryable
+		weight 0.5
+	end
+	base described
+		text "An odd leathery item with a strange sheen that shimmers in the light."
+		shopText "That's a strange thing. I've never seen anything like it before."
+	end
+end
+
+object GreenDragonscale of Dragonscale
+ 	properties
+		view 41950
+		# immune to poison
+		affect 5 2 0 -1
+	end
+end
+
+ 
+object BrownDragonscale of Dragonscale
+ 	properties
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+end

@@ -1,0 +1,18 @@
+quest  291 #8021-01-325        #Bray, Treachery Weapons, Caer Fandry, 6609
+
+name  "Carved Castle"
+type  fedex
+
+proposal  "I suppose it's for Mara in Kurz.  She's been looking for a lot of Skeleton Finger Bones.  I wouldn't ask her why if I were you.  Take care around that one.  She's got a sharp tongue, and rumor has it she's not above a shady deal.  But, to business.  I've got a few Skeleton Finger Bones here.  I also need a favor.  I'll trade you one of the bones if you'll travel to Asgard for me.  What do you say?"
+
+declined  "Remember what I said about Mara."
+
+accepted  "Somewhere in Asgard there's a fellow named Troels.  He has a little carved stone castle that I'd like to own.  See if you can get it for me."
+
+reminder   "Find Troels in Asgard.  I want a small carved castle."
+
+completed  "Great.  To tell you the truth, friend, if you won't spread it around, I want this for my fish tank.  Those fish of mine are pretty special.  Here's the Skeleton Finger Bone you wanted."
+
+getItem   qCarvedCastle
+reward   qFingerBone 
+end

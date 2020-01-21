@@ -1,0 +1,18 @@
+quest  79 #6205-01-330        #Bidosk, Pretty Nice Clothing, Caer Fandry, 6607
+
+name  "Special Order"
+type  fedex
+
+proposal  "Misha?  Misha?  Oh, yes.  The human from Wen.  She said my belts were unique in the whole of the Realm.   I don't know about that, but I made a good one for her.  Since you are travelling around, I would ask a boon of you.  I need more fabric and there is a special order ready for me over in Guennor.  Will you bring it to me in exchange for this Misha's belt?"
+
+declined  "Ok."
+
+accepted  "Good.  Here's a slight problem.  I've lost the receipt and I don't remember the shop name.  But you should be able to find it."
+
+reminder   "Get my special order from Leinster."
+
+completed  "I'm glad you found the right shop.  Here's the belt you want."
+
+getItem  qSpecialOrder
+reward   qMishaBelt 
+end

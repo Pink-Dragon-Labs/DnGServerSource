@@ -1,0 +1,19 @@
+quest 251 #6902-01-400  #(Nassoula of Asgard)
+
+name  "Hair of Ancient Bat"
+type  fedex
+
+proposal  "Do you wish to begin Mysticism Mastery?  I acknowledge that you are doing satisfactory work in this field."
+
+declined  "Very well."
+
+accepted  "I shall entrust you with a quest for the Hair of an Ancient Bat.  Although there are many sources, the best location is Wen."
+
+reminder   "Your quest is for the Hair of an Ancient Bat from Wen."
+
+completed  "Well done.  I begin to be proud of you, Apprentice.  Accept your spellbook of Mysticism Mastery."
+
+getItem  qBatHair
+reward  skbMysticismIV
+end
+

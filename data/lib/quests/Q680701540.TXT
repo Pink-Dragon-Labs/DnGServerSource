@@ -1,0 +1,19 @@
+quest  208 #6807-01-540       # Kaliri, Anything and Everything, Arimathor, 6801
+
+name  "Errand to Murias"
+type  fedex
+
+proposal  "I know just what he wants, dearie.  I'll have to get it out of my stores, though.  It'll take me a bit.  I wonder if you'd do an errand to Murias for me while you're waiting?" 
+
+declined  "That's all right, dearie."
+
+accepted  "My friend sent word she has something for me.  She lives in Murias."
+
+reminder   "Go to Murias and see what my friend has for me."
+
+completed  "Why look what Jolie sent.  She know's I love the squirrels.  Thank 'ee, friend.  Here's your white string for Jenri."
+
+getItem   qJoliePackage
+reward   qWhiteThread 
+end
+

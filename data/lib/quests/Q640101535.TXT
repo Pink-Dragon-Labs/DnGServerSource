@@ -1,0 +1,19 @@
+quest  138 #6401-01-535        # Volzer, Volzer's Weapons, Monmouth, 6314
+
+name  "Armor Polish"
+type  fedex
+
+proposal  "Well, then, your quest is successful.  I have oil of mimosa.  Further, I will propose a speedy transfer from my care to yours if you will do one small errand for me.  I need my order of special armor polish picked up in Leinster.  Would you do that for me?"  
+
+declined  "I suppose it is a bit far."
+
+accepted  "Good.  Hurry back."
+
+reminder   "Go to Leinster, East Leinster, and seek for armor polish."
+
+completed  "My thanks.  Here is the oil of mimosa."
+
+getItem   qArmorPolish
+reward   qMimosaOil 
+end
+

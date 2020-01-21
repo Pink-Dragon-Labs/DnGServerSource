@@ -1,0 +1,19 @@
+quest  342 #8307-01-530        # Janria, Fantastic Togs, Arimathor, clothes, 6803
+
+name  "Embroidered Fabric"
+type  fedex
+
+proposal  "Well you might, friend, for it is beautiful.  Truly beautiful.  I knew there would be interest in this broach when I first set eyes on it.  My sister would have it that there is mystery behind it, and in this case I'm somewhat inclined to agree with her.  I would willingly offer this broach to one who would travel to Kurz for me.  I am truly afraid to venture there, but I desire to have a bolt of embroidered fabric available only in Kurz.  Will you undertake this journey?"  
+
+declined  "I cannot really blame you."
+
+accepted  "I hope no ill befalls you."
+
+reminder   "There is a bolt of embroidered fabric in Kurz."
+
+completed  "Ah, you are safely back.  I am so glad.  The antiquated broach is yours."
+
+getItem   qEmbroideredFabric
+reward   qAntiquatedBroach 
+end
+

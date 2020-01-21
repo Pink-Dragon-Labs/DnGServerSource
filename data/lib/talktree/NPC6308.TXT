@@ -1,0 +1,50 @@
+id 6308
+
+banner "Greetings. I am Wirkkala. How might I help you?"
+
+topic "Tell me about Monmouth."
+       	text "Luna is demanding, but she gives us much in return."
+	text "She asks that we show our love, then provides us with rich soil in which anything will grow."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "I have heard that there are certain locations in The Realm where one's spellcasting ability increases greatly."
+	text "It sounds a bit improbable to me."
+end      
+
+topic "Can I do anything for you?"
+        text "No, nothing at present. But do check back with me at your convenience."
+end
+
+topic  "I'm interested in learning spells."
+	banner  "If you are interested in Elementalism, I can be of assistance to you." 
+	
+	topic  "I am interested in Elementalism Familiar skills."  s12:0  
+		quest 100 #6308-01-100
+		text "You've already got the skill book.  Now you need to study it."
+	end
+
+	topic  "I am interested in Elementalism Proficient skills."  s12:1  
+		quest 103 #6308-01-200
+		text  "You've got the skill book.  You just haven't studied it."
+	end
+
+	topic  "I am interested in Elementalism Expert skills."  s12:2  
+		quest 106 #6308-01-300
+		text  "You've already got the skill book.  You'll never get anywhere until you study it, though."
+	end
+ 
+	topic  "I am interested in Elementalism Master skills."  s12:3  
+		quest 110 #6308-01-400
+		text  "You've got to study the book you have to gain Elementalism master skills."  
+	end
+
+	topic  "I am interested in Elementalism Grand-Master skills."  s12:4  
+		quest 114 #6308-01-500
+		text  "I see.  Well, you already have the skill book.  What you must do now is study it."
+	end
+	topic  "What else can I learn from you?"  s12:5
+		text  "From me, nothing more.  If you're interested in Mysticism, go to Nassoula in Asgard."
+		text  "You had better concentrate on finishing your Elementalism training, apprentice."
+	end
+end

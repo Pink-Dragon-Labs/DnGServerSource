@@ -1,0 +1,30 @@
+name "wildbeyond"
+title "The Wild Beyond"
+worldFile "../data/lib/world/WILD1.WLD"
+worldFile "../data/lib/world/WILD2.WLD"
+worldFile "../data/lib/world/WILD3.WLD"
+worldFile "../data/lib/world/WILD4.WLD"
+worldFile "../data/lib/world/WILD5.WLD"
+worldFile "../data/lib/world/WILD6.WLD"
+worldFile "../data/lib/world/WILD7.WLD"
+worldFile "../data/lib/world/WILD8.WLD"
+worldFile "../data/lib/world/WILD9.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 18
+# Wild Beyond		Area 06		Player Level 75-150	Alignment: Evil		Monsters/Room: 2.99
+groupChance 40
+monster BountyHunterE 60
+monster BountyHunterF 50
+monster Cobra 50
+monster CryptKeeper 270
+monster Daemon 240
+monster DarkFaery 45
+monster FlameDaemon 160
+monster Fury 50
+monster Medusa 240
+monster SnowDaemon 200
+monster ThiefE 15
+monster WardenHA06 45
+

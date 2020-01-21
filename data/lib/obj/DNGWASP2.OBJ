@@ -1,0 +1,514 @@
+object MagicChair of Chair
+	properties
+		special
+		level 1000
+		intelligence 30
+		health 10000
+		# invisible
+		affect 18 0 0 -1
+	end
+end
+
+object MagicSittingStump of SittingStump
+	properties
+		special
+		level 1000
+		intelligence 50
+		health 10000
+		# invisible
+		affect 18 0 0 -1
+	end
+end
+
+
+object strongChest of Chest
+	properties
+		special	
+		level 500
+		intelligence 50
+	end
+end
+
+object strongLever of Lever
+	properties	
+		special
+		level 500
+		intelligence 50
+	end
+end
+			
+object MagicButton of Button 
+	properties
+		special
+		name "Magical Button"
+		intelligence 30
+		level 1000
+	end
+
+	base described
+		text "You see a magical button and wonder if you should push it."
+	end
+end
+	
+object MagicButton2 of Button 
+	properties
+		special
+		name "Magical Button"
+		intelligence 40
+		level 1000
+	end
+
+	base described
+		text "You see a magical button and wonder if you should push it."
+	end
+end
+
+object MagicSittingRock of SittingRock
+	properties
+		    special
+                name "Sitting Rock"
+		    level 5000
+		    intelligence 50
+	end
+end
+
+object InvisibleTrapDoor of TrapDoor
+	properties
+		special
+		# is invisible
+		affect 18 0 0 -1
+	end
+end
+
+
+object BigWasp of WaspDrone
+	properties
+		special
+		armor 100
+		name "Hornet"
+		height 140
+		girth 140
+
+		minLevel 600
+		maxLevel 1000
+
+		minDamage 200
+		maxDamage 900
+
+		treasure 5
+
+		dexterity 30
+		endurance 20
+	end
+
+	base character
+		# grandmaster unarmed combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+
+		## critical striking grandmaster
+		skill 29 5
+
+		# grandmaster necromancer
+		skill 15 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 33 2
+	end
+
+	base described
+		text "You see a very big Wasp. It must have very big wings."
+	end
+end
+
+
+object FireWasp of WaspWarrior
+	properties
+		special
+		name "Fire Wasp"
+		height 130
+		girth 130
+
+		minLevel 600
+		maxLevel 1000
+
+		minDamage 200
+		maxDamage 500
+
+		endurance 17
+		intelligence 20
+
+		# fire + normal damage
+		affect 1 0 0 -1
+
+		# immunities 
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to electrical 
+		affect 3 2 0 -1		
+		
+		# see invisible
+		affect 17 0 0 -1
+
+		# weaknesses
+
+		# cold 
+		affect 2 3 0 -1
+
+		# cold immol
+		affect 24 3 0 -1
+
+		treasure 5
+	end
+
+	base character
+		# grandmaster unarmed combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+	
+		## sorcery grandmaster
+		skill 11 5
+
+		## elementalism grandmaster
+		skill 12 5
+
+		## necromancy grandmaster
+		skill 15 5
+
+		## critical striking grandmaster
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeSDM self 500 0 1 4
+	end
+
+	base described
+		text "You see a Fire Wasp. It burns."
+	end
+
+	base npc
+		code fireElemental
+	end
+end
+
+object StingingFury of WaspWorker
+	properties
+		special
+		name "Stinging Fury"
+		special
+		name "Stinging Fury"
+		height 70
+		girth 70
+
+		minLevel 600
+		maxLevel 1000
+
+		minDamage 200
+		maxDamage 500
+
+		endurance 17
+		intelligence 20
+
+		# invisible
+		affect 18 0 0 -1
+		
+		# see invisible
+		affect 17 0 0 -1
+
+		# fire + normal damage
+		affect 1 0 0 -1
+
+		# immunities 
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# weaknesses
+
+	end
+
+	base character
+		# grandmaster unarmed combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+	
+		## sorcery grandmaster
+		skill 11 5
+
+		## elementalism grandmaster
+		skill 12 5
+
+		## necromancy grandmaster
+		skill 15 5
+
+		## critical striking grandmaster
+		skill 29 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 0 1 2 4
+		vBeBorn changeSDM self 500 0 1 4
+	end
+
+	base described
+		text "You see a Stinging Fury and shudder.  Might they be cousins of the ghost?"
+	end
+
+	base npc
+		code fury
+	end
+end
+
+object WaspHealer of WaspQueen
+	properties
+		special
+		minLevel 100
+		maxLevel 1000
+		name "Wasp Healer"
+		intelligence 40
+		endurance 25
+		alignment 255
+	
+		## weak to fire damage
+		affect 1 3 0 -1
+
+		##bludgeoning damage
+		affect 13 0 0 -1
+
+		#damage normal, no poison
+		affect 0 0 0 -1
+		affect 5 0 0 0
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+	end
+	base character
+		## thaumaturgy grand-master
+		skill 14 5
+
+		## meditation grand-master
+		skill 28 5
+
+		## acrobatics grand-master
+		skill 9 5
+
+		sex 1
+
+		## unarmed combat expert
+		skill 7 3
+	end
+	base npc	
+		code goodFaery
+	end
+	actions
+		vBeBorn changeSDM self 500 0 1 4
+	end
+
+	base described
+		text "You see a wasp with unusual healing powers."
+	end
+end
+
+object HealerWasp of WaspHealer
+	properties
+		special
+	end
+end
+
+object TheQueen of WaspQueen
+	properties
+		special
+		name "The Queen"
+
+		alignment 0
+		height 135
+		girth 135
+		
+		armor 100
+
+		# see invisible
+		affect 17 0 0 -1
+
+		minLevel 2000
+		maxLevel 2000
+
+		minDamage 1000
+		maxDamage 1500
+
+		range 5
+	
+		# free will
+		affect 86 0 0 -1
+
+		intelligence 30
+		endurance 30
+		strength 30
+		dexterity 30
+
+		# poison + bludgeoning damage
+		affect 13 0 0 -1
+
+		#damage normal+poison
+		affect 0 0 0 -1
+		affect 5 0 0 -1
+
+		# immune to death touch
+		affect 85 0 0 -1
+
+
+	end
+
+	base container
+#		object RandomWaspTreasureII
+#		object RandomWaspTreasureI
+#		object RandomWaspTreasureII
+	end
+
+	base character
+		# grandmaster combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+
+		# grandmaster mysticist
+		skill 13 5
+		
+		# grandmaster thaumaturgist
+		skill 14 5
+
+		## grandmaster meditation
+		skill 28 5
+
+		## grandmaster elementalist
+		skill 12 5
+	end
+	base container
+
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	actions
+		vBeBorn changeSDM self 750 0 1 4
+	end
+
+	base described
+		text "You see the Queen of all wasps. Rather plump, isn't she?"
+	end
+	base npc
+		code powerWiz
+	end
+end
+
+object BabyWasp of WaspDrone
+	properties
+		special
+		minLevel 1
+		maxLevel 1
+		name "Baby Wasp"
+		height 40
+		girth 40
+	end
+end
+
+object EvilBee of WaspWorker
+	properties
+		alignment 0
+		special
+		name "Evil Bee"
+		height 50
+		girth 50
+		alignment 0
+
+		armor 70
+
+		minLevel 300
+		maxLevel 900
+
+		minDamage 240
+		maxDamage 400
+
+		intelligence 20
+		dexterity 48
+		endurance 18
+		strength 20
+		quickness 50
+		treasure 5
+		armor 80
+	end
+
+	base container
+#		object RandomDaemonTreasureI
+#		object RandomDaemonTreasureII
+#		object RandomDaemonTreasureII
+		object RandomMonsterMegaTreasure
+		object RandomMonsterAmulet
+	end
+
+	base character
+		# grandmaster combat
+		skill 7 5
+
+		# grandmaster acrobat
+		skill 9 5
+
+		# grandmaster elementalist
+		skill 12 5
+
+		# grandmaster necromancer
+		skill 15 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeSpellResistance self 100 4
+		vBeBorn changeSDM self 500 0 1 4
+	end
+
+	base described
+		text "An evil bee. Be afraid. Be very afraid."
+	end
+
+	base npc
+		code daemon
+	end
+end
+
+object Xilan of EntombedOne
+	properties
+		special
+		name "Xilan"
+		level 1000
+	end
+	base container
+		object RandomMonsterWand
+		object RandomMonsterWand
+		object RandomMonsterWand
+	end
+	base character
+
+		# grandmaster necromancer
+		skill 15 5
+	end
+end

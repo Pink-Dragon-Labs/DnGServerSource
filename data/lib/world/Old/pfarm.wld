@@ -1,0 +1,610 @@
+
+room 6081
+   properties
+      picture	3500
+      north	6080 
+      south	6082 
+      east	6085 
+      west	5203 
+      roomName	"The Pumpkin Farm"
+   end
+   atpinfo
+      2501  359 52
+      2501  207 30
+      2513  458 52
+      2514  481 61
+      2649  444 57
+      2668  203 196 58
+      2729  360 198
+      16  275 214
+      2668  178 79
+      2650  476 216
+      2595  458 154
+      2669  294 104
+      2743  658 57
+      2607  395 399 298
+      2607  277 367 284
+      2515  501 18
+      2609  433 103 38
+      1521  216 200
+      106  609 307
+      106  -28 315
+      2653  485 100 49
+      2656  397 101
+      2654  438 60
+      2668  160 197
+      3  335 212
+      2670  341 104
+      49  590 193
+      49  161 72
+      2671  161 121
+      2670  187 196 116
+      32784  412 231
+      2510  238 190 50
+      2676  157 171
+      2663  204 183
+      2661  204 177 31
+      49  171 217
+      49  623 153
+      35722  630 182
+      2954  -20 49
+      35722  594 212
+      45  545 208
+      35485  -26 200
+      80  606 317
+      3  433 218
+      1521  359 211
+      82  28 206
+      2123  512 328 50
+      34909  565 327 40
+      2123  503 308 40
+      2123  506 324 50
+      1521  615 311
+      1521  65 311
+      1521  619 219
+      1521  17 53
+      1521  163 200
+      1521  175 220
+      1521  148 210
+      1521  419 216
+      1521  11 204
+      3  414 308
+      3  425 299
+      3  462 310
+      3  499 307
+      3  552 308
+      3  357 213
+      3  373 214
+      3  394 220
+      3  412 219
+      3  323 211
+      3  313 209
+      3  314 211
+      3  376 217
+   end
+   objects
+      object plankDoor6081-0 of PlankDoor
+         properties
+            x	285
+            y	209
+            loop	1
+            link	PlankDoor
+         end
+      end
+      object stand6081-2 of Stand
+         properties
+            x	494
+            y	323
+            loop	0
+         end
+      end
+      object chair6081-3 of Chair
+         properties
+            x	170
+            y	235
+            loop	2
+         end
+      end
+      object chair6081-4 of Chair
+         properties
+            x	499
+            y	303
+            loop	2
+         end
+      end
+      object sign6081-5 of Sign
+         properties
+            x	406
+            y	308
+            loop	0
+         end
+         base described
+            text	"Fresh Veggies for sale.  Farmer's special - Buy vegetables and pick a pumpkin from our patch for only 10 gold"
+!"
+         end
+      end
+   end
+end
+room 6085
+   properties
+      picture	3500
+      west	6081 
+      roomName	"Pumpkin Patch East"
+   end
+   atpinfo
+      1523  396 264
+      2716  592 306
+      49  209 395
+      150  120 35
+      151  517 69
+      152  119 43
+      2742  324 29
+      2743  597 50
+      154  595 71
+      153  580 337
+      1520  414 293
+      1520  455 49
+      2955  92 37
+      1520  552 80
+      1520  102 60
+      1522  130 43
+      1522  233 308
+      35723  553 57
+      50  67 362
+      35480  569 80
+      49  468 71
+      20  99 79
+      32789  491 99
+      32790  583 77
+      20  562 65
+      23  405 56
+      32789  296 34
+      1522  437 70
+      1522  249 313
+      45  27 376
+      230  214 119 5
+      230  409 120 5
+      230  572 120 5
+      32998  553 148 5
+      32998  360 148 5
+      32998  167 135 5
+      32998  8 124 5
+      32998  338 136 5
+      32998  504 139 5
+      32998  76 141 5
+      32998  207 153 5
+      32998  49 165 5
+      32998  56 175 5
+      32998  249 171 5
+      32998  391 174 5
+      32998  533 165 5
+      32998  541 189 5
+      32998  552 199 5
+      32998  369 198 5
+      230  247 190 5
+      230  92 191 5
+      230  585 211 5
+      230  420 211 5
+      230  263 208 5
+      230  133 199 5
+      230  77 222 5
+      230  264 229 5
+      230  419 231 5
+      230  568 231 5
+      32789  546 254
+      1522  182 260
+      1522  358 48
+      1523  345 60
+      32789  38 246
+      32789  53 276
+      1523  423 281
+      1523  511 312
+      1522  201 36
+      32789  534 289
+      32789  329 74
+      32789  260 68
+      32789  179 29
+      32789  48 35
+      32789  95 45
+      230  90 101 5
+      230  82 86 5
+      230  280 99 5
+      230  409 101 5
+      230  563 107 5
+      230  569 93 5
+      230  430 88 5
+      230  337 83 5
+      230  227 74 5
+      230  80 67 5
+      51  588 297
+      51  482 74
+      51  256 56
+      51  100 327
+      106  623 319
+      106  60 296
+      153  147 336
+      49  464 374
+      1523  269 277
+      1523  259 58
+      1523  275 265
+      1522  352 35
+      1520  362 274
+      1520  254 50
+      1520  450 308
+      1520  399 315
+      1520  320 301
+      1520  310 290
+   end
+   objects
+      object sign6085-0 of Sign
+         properties
+            x	308
+            y	82
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crop.  It's harvest time."
+         end
+      end
+      object sign6085-1 of Sign
+         properties
+            x	110
+            y	250
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden.  Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign6085-2 of Sign
+         properties
+            x	532
+            y	258
+            loop	0
+         end
+         base described
+            text	"This is a community garden.  Currently pumpkins are growing here!"
+         end
+      end
+      object sittingRock6085-3 of SittingRock
+         properties
+            x	169
+            y	305
+            loop	0
+         end
+         base described
+            text	"You see a plow stone."
+         end
+      end
+      object sittingStump6085-4 of SittingStump
+         properties
+            x	508
+            y	310
+            loop	0
+         end
+         base described
+            text	"You see a dead Oak tree.  This tree was plowed from the fields and is now used as a seat for tired farmers."
+            	0
+         end
+      end
+   end
+end
+room 6083
+   properties
+      picture	4000
+      roomName	"Farmer's Market"
+   end
+   atpinfo
+      2122  316 287 4
+      34890  333 177 32
+      34891  323 177
+      2141  46 289 47
+      34908  579 247 40
+      2102  524 246
+      2109  328 176
+      2111  593 117
+      2109  315 286
+      2001  574 15
+      2002  607 33
+      2013  38 40
+      2013  199 15
+      2014  111 42
+      2025  301 9
+      2025  471 9
+      2026  414 19
+      2086  156 139
+      2594  450 105
+      2241  431 178
+      2241  579 186
+      2088  471 121
+      2161  17 95
+      2161  136 76
+      2162  604 75
+      34910  644 118 10
+      2123  324 287 30
+      2101  112 288
+      2592  169 113
+      2123  338 179 60
+   end
+   objects
+      object plankDoor6083-0 of PlankDoor
+         properties
+            x	76
+            y	199
+            loop	0
+            link	PlankDoor
+         end
+         base described
+            text	"You see a message scribbled on the door.  It reads 'Thank you!  Come again.' "
+         end
+      end
+   end
+end
+room 6082
+   properties
+      picture	3000
+      north	6081 
+      roomName	"Pumpkin Patch South"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      106  615 313
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      106  23 294
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+   end
+   objects
+      object sign6082-0 of Sign
+         properties
+            x	298
+            y	307
+            loop	0
+         end
+         base described
+            text	"This is a community garden.  Currently pumpkins are growing here!"
+         end
+      end
+      object sign6082-1 of Sign
+         properties
+            x	514
+            y	286
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden.  Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign6082-2 of Sign
+         properties
+            x	92
+            y	299
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crops.  It's harvest time."
+         end
+      end
+   end
+end
+room 6080
+   properties
+      picture	3500
+      south	6081 
+      roomName	"Pumpkin Patch North"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2954  65 329
+      35722  576 327
+      233  458 4 10
+      233  428 5 10
+      33001  430 5 10
+      33001  524 50 10
+      33001  557 51 10
+      33001  588 55 10
+      33001  616 51 10
+      33001  645 53 10
+      229  539 203
+      230  554 214
+      230  560 234
+      230  613 186
+      230  439 193
+      230  541 245 10
+      230  544 209 10
+      230  541 248
+      230  528 268
+      230  413 210
+      230  396 234
+      230  364 263
+      230  240 204
+      230  213 230
+      230  118 205
+      230  68 226
+      230  45 251
+      33001  401 4 10
+      33001  367 1 10
+      33001  330 3 10
+      33001  299 4 10
+      33001  273 2 10
+      33001  243 1 10
+      33001  213 4 10
+      33001  183 2 10
+      33001  155 4 10
+      33001  122 3 10
+      33001  83 7 10
+      33001  470 49 10
+      33001  427 53 10
+      230  496 221
+      230  483 258
+      230  344 77
+      230  429 119
+      230  341 96
+      230  253 101
+      230  202 81
+      230  89 72
+      230  37 2
+      230  13 33
+      230  25 57
+      230  62 101
+      230  96 116
+      230  275 115
+      230  581 124
+      230  60 138
+      230  220 140
+      230  383 144
+      230  565 142
+      230  589 166
+      230  413 168
+      230  434 152
+      230  248 147
+      230  265 153
+      230  265 177
+      230  119 164
+      230  72 186
+      230  82 165
+      230  183 254
+      106  -19 319
+      106  52 318
+      1520  118 182
+      1520  566 177
+      1520  164 291
+      33001  504 3 10
+      1520  592 10
+      1520  566 25
+      1520  643 20
+      1520  597 37
+      1520  523 310
+      1522  159 306
+      1522  570 27
+   end
+   objects
+      object sign6080-0 of Sign
+         properties
+            x	296
+            y	176
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden.  Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign6080-1 of Sign
+         properties
+            x	523
+            y	180
+            loop	0
+         end
+         base described
+            text	"Please do not water the current crops.  It's harvest time."
+         end
+      end
+      object sign6080-2 of Sign
+         properties
+            x	84
+            y	181
+            loop	0
+         end
+         base described
+            text	"This is a community garden.  Currently pumpkins are growing here!"
+         end
+      end
+   end
+end

@@ -1,0 +1,2131 @@
+# Dungeonmaker World File (D_CHURCH_01.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 71000
+# Dungeon last room = 71449
+# Number of objects in dungeon = 273
+# Level 0 information:
+room 71016
+	properties
+		template 30501
+		south 71017
+		east 71015
+		flags	8
+	end
+	objects
+		object Shroom3-71016-0 of Shroom3
+			properties
+				x	18
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71016-1 of Shroom3
+			properties
+				x	46
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-71016-2 of Rock1
+			properties
+				x	38
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-71016-3 of Bones
+			properties
+				x	122
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object FlameRat-71016-4 of FlameRat
+			properties
+				x	345
+				y	269
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+		object FlameRat-71016-5 of FlameRat
+			properties
+				x	271
+				y	284
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+		object FlameRat-71016-6 of FlameRat
+			properties
+				x	354
+				y	303
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+		object PlagueRat-71016-7 of PlagueRat
+			properties
+				x	396
+				y	283
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object DemonRat-71016-8 of DemonRat
+			properties
+				x	490
+				y	307
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-71016-9 of DemonRat
+			properties
+				x	473
+				y	273
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object RandomStuff-71016-10 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71016-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-71016-11 of RandomStuff
+			properties
+				x	112
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71016-12 of RandomStuff
+			properties
+				x	197
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-71016-13 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71016-3
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71016-14 of RandomMaterial
+			properties
+				x	221
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71016-15 of RandomMaterial
+			properties
+				x	158
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBelt-71016-16 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71016-3
+			end
+			base described
+			end
+		end
+		object RandomBoots-71016-17 of RandomBoots
+			properties
+				x	199
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCowl-71016-18 of RandomCowl
+			properties
+				x	215
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-71016-19 of RandomPants
+			properties
+				x	179
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-71016-20 of RandomShirt
+			properties
+				x	130
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71016-21 of RandomWeapon
+			properties
+				x	174
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71016-22 of RandomStuff
+			properties
+				x	158
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71015
+	properties
+		template 31301
+		east 71014
+		west 71016
+		flags	0
+	end
+	objects
+		object Torch-71015-0 of Torch
+			properties
+				x	78
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object FlameRat-71015-1 of FlameRat
+			properties
+				x	296
+				y	261
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+	end
+end
+room 71014
+	properties
+		template 30201
+		west 71015
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-71014-0 of DungeonBackDoor
+			properties
+				x	174
+				y	230
+				loop	2
+				linkTo	DungeonBackDoor-71013-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 71017
+	properties
+		template 31004
+		south 71018
+		north 71016
+		flags	0
+	end
+	objects
+		object FlameRat-71017-0 of FlameRat
+			properties
+				x	304
+				y	298
+				loop	2
+				color	1
+			end
+			base character
+			end
+		end
+	end
+end
+room 71011
+	properties
+		template 30502
+		south 71012
+		east 71010
+		flags	0
+	end
+	objects
+		object Embers-71011-0 of Embers
+			properties
+				x	481
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-71011-1 of FireB
+			properties
+				x	474
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71011-2 of Smoke1
+			properties
+				x	340
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-71011-3 of Stool
+			properties
+				x	271
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-71011-4 of Stool
+			properties
+				x	425
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Daemon-71011-5 of Daemon
+			properties
+				x	299
+				y	285
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object FlameDaemon-71011-6 of FlameDaemon
+			properties
+				x	392
+				y	287
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+		object Torch-71011-7 of Torch
+			properties
+				x	462
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object StoneBench-71011-8 of StoneBench
+			properties
+				x	344
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71011-9 of RandomStuff
+			properties
+				x	270
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71011-10 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	FlameDaemon-71011-6
+			end
+			base described
+			end
+		end
+		object RandomStuff-71011-11 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Daemon-71011-5
+			end
+			base described
+			end
+		end
+	end
+end
+room 71010
+	properties
+		template 30901
+		east 71009
+		west 71011
+		flags	0
+	end
+	objects
+		object Web1-71010-0 of Web1
+			properties
+				x	147
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-71010-1 of Web2
+			properties
+				x	173
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-71010-2 of Torch
+			properties
+				x	542
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71009
+	properties
+		template 31301
+		east 71008
+		west 71010
+		flags	72
+	end
+	objects
+		object Torch-71009-0 of Torch
+			properties
+				x	256
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-71009-1 of Altar
+			properties
+				x	257
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-71009-2 of Altar
+			properties
+				x	352
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-71009-3 of Altar
+			properties
+				x	448
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object Daemon-71009-4 of Daemon
+			properties
+				x	348
+				y	281
+				loop	3
+				color	768
+			end
+			base character
+			end
+		end
+		object Daemon-71009-5 of Daemon
+			properties
+				x	265
+				y	275
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Daemon-71009-6 of Daemon
+			properties
+				x	430
+				y	272
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Torch-71009-7 of Torch
+			properties
+				x	448
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-71009-8 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Daemon-71009-4
+			end
+			base described
+			end
+		end
+	end
+end
+room 71008
+	properties
+		template 31104
+		south 71007
+		west 71009
+		flags	0
+	end
+end
+room 71018
+	properties
+		template 30402
+		south 71019
+		north 71017
+		flags	0
+	end
+	objects
+		object RandomStuff-71018-0 of RandomStuff
+			properties
+				x	429
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71013
+	properties
+		template 30101
+		east 71012
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-71013-0 of DungeonBackDoor
+			properties
+				x	477
+				y	217
+				loop	2
+				linkTo	DungeonBackDoor-71014-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	1013
+			end
+			base described
+			end
+		end
+	end
+end
+room 71012
+	properties
+		template 31008
+		west 71013
+		north 71011
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-71012-0 of DungeonBackDoor
+			properties
+				x	314
+				y	348
+				loop	3
+				linkTo	DungeonBackDoor-71003-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object StoneBench-71012-1 of StoneBench
+			properties
+				x	468
+				y	319
+				loop	0
+			end
+			base described
+			end
+		end
+		object StoneBench-71012-2 of StoneBench
+			properties
+				x	182
+				y	319
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71012-3 of RandomStuff
+			properties
+				x	515
+				y	306
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71007
+	properties
+		template 30403
+		north 71008
+		flags	8
+	end
+	objects
+		object CryptKeeper-71007-0 of CryptKeeper
+			properties
+				x	209
+				y	280
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object Bones-71007-1 of Bones
+			properties
+				x	199
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-71007-2 of Bones
+			properties
+				x	36
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-71007-3 of Bones
+			properties
+				x	524
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-71007-4 of Web6
+			properties
+				x	574
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-71007-5 of Web5
+			properties
+				x	638
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-71007-6 of Column
+			properties
+				x	632
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-71007-7 of RandomShirt
+			properties
+				x	531
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-71007-8 of RandomShirt
+			properties
+				x	7
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-71007-9 of RandomPants
+			properties
+				x	29
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71007-10 of RandomWeapon
+			properties
+				x	593
+				y	305
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBand-71007-11 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-3
+			end
+			base described
+			end
+		end
+		object RandomCowl-71007-12 of RandomCowl
+			properties
+				x	475
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBoots-71007-13 of RandomBoots
+			properties
+				x	32
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBoots-71007-14 of RandomBoots
+			properties
+				x	378
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71007-15 of RandomWeapon
+			properties
+				x	232
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-71007-16 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-1
+			end
+			base described
+			end
+		end
+		object RandomPants-71007-17 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-1
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71007-18 of RandomMaterial
+			properties
+				x	266
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71007-19 of RandomMaterial
+			properties
+				x	540
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBoots-71007-20 of RandomBoots
+			properties
+				x	314
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-21 of RandomStuff
+			properties
+				x	278
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-22 of RandomStuff
+			properties
+				x	354
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-23 of RandomStuff
+			properties
+				x	249
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-24 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-1
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-25 of RandomStuff
+			properties
+				x	9
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-26 of RandomStuff
+			properties
+				x	376
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-71007-27 of RandomJunk
+			properties
+				x	264
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRing-71007-28 of RandomRing
+			properties
+				x	310
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71007-29 of RandomPotion
+			properties
+				x	297
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShield-71007-30 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-1
+			end
+			base described
+			end
+		end
+		object Sign-71007-31 of Sign
+			properties
+				x	135
+				y	249
+				loop	0
+			end
+			base described
+				text	"The Dump"
+			end
+		end
+		object Skull-71007-32 of Skull
+			properties
+				x	410
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-71007-33 of Web5
+			properties
+				x	62
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71007-34 of Shroom3
+			properties
+				x	560
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-71007-35 of Shroom2
+			properties
+				x	67
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Key-71007-36 of Dng3Key1
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-1
+			end
+			base described
+			end
+		end
+		object DamnedOne-71007-37 of DamnedOne
+			properties
+				x	237
+				y	292
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object RandomBelt-71007-38 of RandomBelt
+			properties
+				x	210
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71007-39 of RandomWeapon
+			properties
+				x	336
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71007-40 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71007-1
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71007-41 of RandomMaterial
+			properties
+				x	219
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71007-42 of RandomMaterial
+			properties
+				x	338
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCowl-71007-43 of RandomCowl
+			properties
+				x	210
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71007-44 of RandomStuff
+			properties
+				x	232
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71000
+	properties
+		template 31002
+		south 71004
+		flags	0
+	end
+	objects
+		object Torch-71000-0 of Torch
+			properties
+				x	156
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-71000-1 of DungeonBackUp
+			properties
+				x	297
+				y	217
+				loop	2
+				linkTo	movingRock4636-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 71019
+	properties
+		template 31001
+		south 71021
+		north 71018
+		flags	0
+	end
+	objects
+		object FlameRat-71019-0 of FlameRat
+			properties
+				x	280
+				y	293
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+	end
+end
+room 71004
+	properties
+		template 31003
+		south 71001
+		north 71000
+		flags	0
+	end
+	objects
+		object Web1-71004-0 of Web1
+			properties
+				x	166
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-71004-1 of SittingMushroom
+			properties
+				x	204
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-71004-2 of Shroom1
+			properties
+				x	167
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71004-3 of Shroom3
+			properties
+				x	135
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-71004-4 of Shroom1
+			properties
+				x	119
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71004-5 of Shroom3
+			properties
+				x	172
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71004-6 of Shroom3
+			properties
+				x	150
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-71004-7 of Torch
+			properties
+				x	151
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71021
+	properties
+		template 31003
+		south 71023
+		north 71019
+		flags	0
+	end
+	objects
+		object Shroom3-71021-0 of Shroom3
+			properties
+				x	531
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object JawBone-71021-1 of JawBone
+			properties
+				x	544
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71447
+	properties
+		template 30101
+		east 71006
+		flags	0
+	end
+	objects
+		object LockedChest-71447-0 of LockedChest
+			properties
+				x	165
+				y	272
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71447-1 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-71447-0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-71447-2 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-71447-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-71447-3 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-71447-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71447-4 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-71447-0
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-71447-5 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-71447-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71006
+	properties
+		template 30703
+		east 71005
+		west 71447
+		flags	200
+	end
+	objects
+		object PlagueRat-71006-0 of PlagueRat
+			properties
+				x	520
+				y	270
+				loop	1
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-71006-1 of PlagueRat
+			properties
+				x	280
+				y	266
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object Smoke2-71006-2 of Smoke2
+			properties
+				x	158
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71006-3 of Smoke2
+			properties
+				x	359
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71006-4 of Smoke2
+			properties
+				x	529
+				y	345
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71006-5 of Smoke1
+			properties
+				x	490
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDown-71006-6 of DungeonBackDown
+			properties
+				x	473
+				y	217
+				loop	2
+				linkTo	DungeonBackUp-71028-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Lever-71006-7 of Lever
+			properties
+				x	311
+				y	285
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 71003 1 
+				vBeDeactivated teleport dobj 71003 1 
+			end
+			base described
+			end
+		end
+		object Sign-71006-8 of Sign
+			properties
+				x	253
+				y	281
+				loop	0
+			end
+			base described
+				text	"One Way Ride"
+			end
+		end
+		object DaemonKing-71006-9 of DaemonKing
+			properties
+				x	386
+				y	265
+				loop	2
+				color	784
+			end
+			base character
+			end
+		end
+		object DemonRat-71006-10 of DemonRat
+			properties
+				x	438
+				y	284
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 71005
+	properties
+		template 30906
+		east 71003
+		west 71006
+		flags	0
+	end
+	objects
+		object Column-71005-0 of Column
+			properties
+				x	437
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-71005-1 of Stalagmite1
+			properties
+				x	456
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-71005-2 of Stalagmite3
+			properties
+				x	420
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-71005-3 of Stalagmite4
+			properties
+				x	428
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-71005-4 of Stalagmite1
+			properties
+				x	410
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-71005-5 of Stalagmite2
+			properties
+				x	458
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-71005-6 of Stalagmite4
+			properties
+				x	397
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-71005-7 of Torch
+			properties
+				x	183
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-71005-8 of SmokeB
+			properties
+				x	217
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71005-9 of Smoke2
+			properties
+				x	425
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71005-10 of Smoke2
+			properties
+				x	524
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71003
+	properties
+		template 31301
+		east 71002
+		west 71005
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-71003-0 of DungeonBackDoor
+			properties
+				x	347
+				y	216
+				loop	2
+				linkTo	DungeonBackDoor-71012-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SmokeB-71003-1 of SmokeB
+			properties
+				x	500
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-71003-2 of SmokeB
+			properties
+				x	283
+				y	343
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71003-3 of Smoke2
+			properties
+				x	118
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71003-4 of Smoke1
+			properties
+				x	283
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71003-5 of Smoke1
+			properties
+				x	24
+				y	359
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71002
+	properties
+		template 31301
+		east 71001
+		west 71003
+		flags	0
+	end
+	objects
+		object Torch-71002-0 of Torch
+			properties
+				x	324
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71002-1 of Smoke1
+			properties
+				x	263
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-71002-2 of SmokeB
+			properties
+				x	269
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-71002-3 of SmokeB
+			properties
+				x	488
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-71002-4 of SmokeB
+			properties
+				x	124
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71002-5 of Smoke1
+			properties
+				x	571
+				y	368
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71001
+	properties
+		template 31303
+		west 71002
+		north 71004
+		flags	0
+	end
+	objects
+		object Rock1-71001-0 of Rock1
+			properties
+				x	418
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-71001-1 of Smoke1
+			properties
+				x	62
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71001-2 of Smoke2
+			properties
+				x	497
+				y	350
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71001-3 of Smoke2
+			properties
+				x	294
+				y	341
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-71001-4 of Smoke2
+			properties
+				x	99
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71023
+	properties
+		template 30801
+		east 71024
+		north 71021
+		flags	8
+	end
+	objects
+		object FlyingRat-71023-0 of FlyingRat
+			properties
+				x	367
+				y	265
+				loop	2
+				color	89
+			end
+			base character
+			end
+		end
+		object cryptBat-71023-1 of cryptBat
+			properties
+				x	234
+				y	254
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object Bat-71023-2 of Bat
+			properties
+				x	299
+				y	274
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Stalagmite4-71023-3 of Stalagmite4
+			properties
+				x	-9
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-71023-4 of Column
+			properties
+				x	-27
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-71023-5 of Web5
+			properties
+				x	26
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71024
+	properties
+		template 30602
+		south 71025
+		west 71023
+		flags	8
+	end
+	objects
+		object vampireBat-71024-0 of vampireBat
+			properties
+				x	419
+				y	313
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-71024-1 of vampireBat
+			properties
+				x	444
+				y	266
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-71024-2 of vampireBat
+			properties
+				x	519
+				y	307
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-71024-3 of vampireBat
+			properties
+				x	487
+				y	350
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-71024-4 of vampireBat
+			properties
+				x	493
+				y	274
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object screechingHorror-71024-5 of screechingHorror
+			properties
+				x	464
+				y	307
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object FatColumn-71024-6 of FatColumn
+			properties
+				x	418
+				y	139
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-7 of Spring
+			properties
+				x	316
+				y	166
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-8 of Spring
+			properties
+				x	376
+				y	191
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-9 of Spring
+			properties
+				x	438
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-10 of Spring
+			properties
+				x	503
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-11 of Spring
+			properties
+				x	554
+				y	186
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-12 of Spring
+			properties
+				x	584
+				y	166
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-13 of Spring
+			properties
+				x	570
+				y	138
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-14 of Spring
+			properties
+				x	520
+				y	110
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-15 of Spring
+			properties
+				x	467
+				y	81
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-16 of Spring
+			properties
+				x	315
+				y	134
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-17 of Spring
+			properties
+				x	308
+				y	103
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-71024-18 of Spring
+			properties
+				x	329
+				y	87
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-71024-19 of Column
+			properties
+				x	587
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71024-20 of RandomStuff
+			properties
+				x	271
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71025
+	properties
+		template 30803
+		east 71026
+		north 71024
+		flags	8
+	end
+	objects
+		object Bat-71025-0 of Bat
+			properties
+				x	88
+				y	287
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object FlyingRat-71025-1 of FlyingRat
+			properties
+				x	195
+				y	273
+				loop	1
+				color	89
+			end
+			base character
+			end
+		end
+		object cryptBat-71025-2 of cryptBat
+			properties
+				x	144
+				y	288
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 71026
+	properties
+		template 30906
+		east 71027
+		west 71025
+		flags	0
+	end
+end
+room 71027
+	properties
+		template 30703
+		east 71028
+		west 71026
+		flags	0
+	end
+	objects
+		object Torch-71027-0 of Torch
+			properties
+				x	316
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71027-1 of RandomStuff
+			properties
+				x	270
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71028
+	properties
+		template 30201
+		west 71027
+		flags	0
+	end
+	objects
+		object DungeonBackUp-71028-0 of DungeonBackUp
+			properties
+				x	175
+				y	230
+				loop	2
+				linkTo	DungeonBackDown-71006-6
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end

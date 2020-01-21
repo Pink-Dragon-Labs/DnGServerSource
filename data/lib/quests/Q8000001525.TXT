@@ -1,0 +1,19 @@
+quest  361 #80000-01-525        # Ratt, Fit as a Fiddle, healer, Caer Fandry, dark elf, 6603
+
+name  "Ratt Needs Help"
+type  fedex
+
+proposal  "Ohhhhh, my ribs!  I've wrenched them so badly.  Ohhhh.  Did you say you wanted the Amulet of Stealth?   I've got it in the back room.  Ouch.  I need some help, here, though.  If you say one thing about me being a healer and healing myself, I'll rise from my pain and deck you.  Don't think I couldn't.  It might be just the exercise I need to heal.  Owww.  But what I really want is help from a woman I've heard of named Meta.  She lives in the desert.  Find her and get help for me and I'll give you the amulet.  Will you?"
+
+declined  "Ouch.  Go away."
+
+accepted  "Owwww.  Go now and quickly.  I'm in serious shape, here."
+
+reminder   "Haven't you found Meta and help for me yet?  Go to that desert city."
+
+completed  "Ouch, ouch.  Here's the amulet.  Leave me."
+
+getItem   qRattHelp
+reward   qAmuletStealth 
+end
+

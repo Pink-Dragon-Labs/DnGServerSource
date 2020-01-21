@@ -1,0 +1,15 @@
+quest 113 #6308-01-435  #(Sanria, Fantastic Meals, Arimathor, 6804)
+
+name  "Brownies for Kaliri"
+type  fedex
+
+proposal  "She's an old dear, and she does love her sweets.  I made some brownies for her.  They're all packaged and ready to go.  Will you carry them to her?" 
+
+declined  "I'll do it, then."
+
+accepted  "Convey my regards to her."
+
+reminder  "Don't forget to deliver Kaliri's brownies."
+
+reward  qKaliriTreat
+end

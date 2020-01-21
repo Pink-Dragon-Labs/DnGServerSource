@@ -1,0 +1,24 @@
+id 9064
+#--------------- 9064 20057 barren2 female elf Qwen Ryche
+
+banner "Hello, welcome to the shop. Blah, blah, blah, yadda, yadda, yadda, buy something."
+
+topic "What's wrong with you?"
+    text "I am to busy to sit and greet people all day. Either you are going to buy something or you aren't." 
+    text "It tends to put me in a foul mood when people don't buy things from me. It's a waste of time."
+    text "So please buy something...."
+ text "Or else..."
+end
+
+topic "Who are you?"
+    text "I am Qwen Ryche, helper for this tent where people like to talk instead of shop."
+    text "Honestly friend, would you please buy something. I am trying to hurry and close so I can go hunting with my friends."
+    text "There is a Berserker in these parts that I want to introduce my sword to."
+end
+
+topic "Why did you set up a shop here if you don't want customers?"
+    text "I was watching the store for my sister.. she left to get more supplies and I have not seen her since."
+ text "I changed the sign name to display mine so it would stop the thousands of questions about it's name."
+ text "If I leave the shop here, people will steal from it. So I have to watch it off and on all day while I wait for her to come back."
+ text "If you see her, tell her to hurry it up. I am tired of waiting."
+end

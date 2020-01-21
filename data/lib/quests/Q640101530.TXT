@@ -1,0 +1,19 @@
+quest  137 #6401-01-530        # Lireen, Healing Magic, Drune, 8303
+
+name  "Oil of Mimosa"
+type  fedex
+
+proposal  "I'm glad to see you.  This is going to be such a special naming day for Meta, Alysa's mother.  I'm sure she doesn't suspect a thing, either.  There is one more item needed, though.  Will you go quickly for me to Monmouth?"
+
+declined  "Oh dear."
+
+accepted  "I'm so glad.  Seek for oil of mimosa."
+
+reminder   "Seek for oil of mimosa in Monmouth."
+
+completed  "Perfect timing.  Let me just transfer some into the package for Alysa and you'll be on your way.  There you are."
+
+getItem   qMimosaOil
+reward   qAlysaPresent 
+end
+

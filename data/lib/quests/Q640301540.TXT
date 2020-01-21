@@ -1,0 +1,18 @@
+quest  160 #6403-01-540        # Bekka, FoodCart, Usk, 7106
+
+name  "Nattan's Package"
+type  fedex
+
+proposal  "Yes, yes.  It is here for pick up.  I wondered when someone would come for it.  Are you going to take it to him?"
+
+declined  "I'll keep it then."
+
+accepted  "Good.  I've been concerned."
+
+reminder   "Take that sharpening stone back to Nattan."
+
+reward   qSharpeningStone 
+end
+
+
+

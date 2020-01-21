@@ -1,0 +1,16 @@
+quest  32 # 6045-01-440        # Lukila, Gatekeeper, Silverbrook, 5405
+
+name  "Delivery for Lukila"
+type  fedex
+
+proposal  "Why certainly, friend.  I've birch bark and to spare, though it's not many that want it.  Have you a special purpose in mind?  Oh, pardon.  I should not be so inquisitive.  I'll give you some right now if you wish?"
+
+declined  "How strange you are."
+
+accepted  "Here you are, friend."
+
+reminder   "I hope you appreciate that birch bark."
+
+reward   qBirchBark
+end
+

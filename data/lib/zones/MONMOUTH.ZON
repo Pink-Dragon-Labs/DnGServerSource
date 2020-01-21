@@ -1,0 +1,10 @@
+name "monmouth"
+title "Monmouth"
+worldFile "../data/lib/world/MONMTHX.WLD"
+worldFile "../data/lib/world/MONMOUTH.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 11
+midiFile 23
+monster Mouse 10

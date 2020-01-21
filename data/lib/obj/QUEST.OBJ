@@ -1,0 +1,3604 @@
+object QuestObject 
+	properties
+		value 0
+		health 200
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base carryable
+		weight 0.4
+	end
+
+	base described
+	end
+end
+
+# ELEMENTALISM I QUEST
+object qOrcAmulet of QuestObject
+	properties
+		name "Orc Amulet"
+		view 51500
+	        clutStart 122
+		color 69
+	end
+
+	base described
+		text "You see an Orc Amulet."
+	end
+end
+
+# ELEMENTALISM II QUEST
+object qWirkkalaRemedy of QuestObject
+	properties
+		name "Wirkkala's Remedy"
+		view 51600
+	        clutStart 68
+		color 94
+	end
+
+	base described
+		text "You see a small vial containing Wirkkala's remedy."
+	end
+end
+
+object qGrandmothersLetter of QuestObject
+	properties
+		name "Grandmother's Letter"
+		view 51100
+	        clutStart 104
+		color 74
+	end
+
+	base described
+		text "You see a letter."
+	end
+end
+
+# ELEMENTALISM III QUEST
+object qFenriTuft of QuestObject
+	properties
+		name "Tuft of Fenri Fur"
+		view 58800
+	end
+
+	base described
+		text "You see a box containing a tuft of fenri fur."
+	end
+end
+
+object qEugenieCandles of QuestObject
+	properties
+		name "Eugenie's Candles"
+		view 58800
+	end
+
+	base described
+		text "You see a box containing Eugenie's candles."
+	end
+end
+
+object qCompostWorms of QuestObject
+	properties
+		name "Compost Worms"
+		view 50400
+	end
+
+	base described
+		text "You see a tube containing compost worms."
+	end
+end
+
+# ELEMENTALISM IV QUEST
+object qCarvedSalt of QuestObject
+	properties
+		name "Carved Salt Crystal"
+		view 50700
+        	clutStart 58
+		color 100
+	end
+
+	base described
+		text "You see a small crystal of salt."
+	end
+
+	base carryable
+		weight 0.2
+	end
+end
+
+object qCactusBit of QuestObject
+	properties
+		name "Bit of Cactus"
+		view 58800
+	end
+
+	base described
+		text "You see a box containing a small cactus plant."
+	end
+end
+
+object qKaliriTreat of QuestObject
+	properties
+		name "Kaliri's Treat"
+		view 58900
+	end
+
+	base described
+		text "You see a box containing some brownies."
+	end
+end
+
+# ELEMENTALISM V QUEST
+object qFaerieScrap of QuestObject
+	properties
+		name "Scrap of Faerie Mantle"
+		view 58850
+	end
+
+	base described
+		text "You see a small box containing a scrap of faerie mantle."
+	end
+end
+
+object qGoldNugget of QuestObject
+	properties
+		name "The Gold Nugget"
+		view 50950
+	end
+
+	base described
+		text "You see a golden nugget."
+	end
+end
+
+object qTobacReceipt of QuestObject
+	properties
+name "Tobac Leaf Delivery Receipt"
+		view 51100
+	        clutStart 104
+		color 64
+	end
+
+	base described
+text "You see a delivery receipt."
+	end
+
+	base carryable
+		weight 0.1
+	end
+end
+
+object qJannVoucher of QuestObject
+	properties
+		name "Jann's Voucher"
+		color 88
+	        clutStart 104
+		view 51100
+	end
+
+	base described
+		text "You see Jann's voucher."
+	end
+
+	base carryable
+		weight 0.1
+	end
+end
+
+# SORCERY I QUEST
+object qWaspBelly of QuestObject
+	properties
+		name "Pulverized Wasp's Belly"
+		view 51800
+	        clutStart 63
+		color 48
+	end
+
+	base described
+		text "You see a small container of pulverized wasp's belly."
+	end
+
+	base carryable
+		weight 0.1
+	end
+end
+
+object qSharkTooth of QuestObject
+	properties
+		name "Shark Tooth"
+		view 57800
+	end
+
+	base described
+		text "You see a white shark's tooth."
+	end
+end
+
+object qJaqqarsRing of QuestObject
+	properties
+		name "Ring of Jaqqar's Father"
+		view 51850
+	        clutStart 112
+		color 54
+	end
+
+	base described
+		text "You see the ring of Jaqqar's father."
+	end
+
+	base carryable
+		weight 0.2
+	end
+end
+
+object qDarkElvesPackage of QuestObject
+	properties
+		name "Package from the Dark Elves"
+		view 58900
+	        clutStart 63
+		color 98
+	end
+
+	base described
+		text "You see a parcel containing your items from the Dark Elves."
+	end
+
+	base carryable
+		weight 2.0
+	end
+end
+
+object qLochDreadWater of QuestObject
+	properties
+		name "Loch Dread Water"
+		view 51550
+		color 99
+	end
+
+	base described
+		text "You see a bottle of Loch Dread water."
+	end
+end
+
+object qSzumiPouch of QuestObject
+	properties
+		name "Szumi's Pouch"
+		view  50450
+	end
+
+	base described
+		text "You see Szumi's pouch."
+	end
+
+	base carryable
+		weight 0.1
+	end
+end
+
+object qAncientRune of QuestObject
+	properties
+		name "Ancient Rune from Drune"
+		view 51000
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a scroll inscribed with an ancient rune from Drune."
+	end
+end
+
+object qAuthorization of QuestObject
+	properties
+		name "Authorization"
+		view 51000
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see an authorization from the council of Drune."
+	end
+end
+
+object qParchment of QuestObject
+	properties
+		name "Parchment"
+		view 51000
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see Vigo's parchment."
+	end
+end
+
+object qBlackDiamond of QuestObject
+	properties
+		name "Black Diamond"
+		view 50800
+		value 100
+	        clutStart 58
+		color 98
+	end
+
+	base described
+		text "You see a black diamond."
+	end
+end
+
+object qBrokenAmulet of QuestObject
+	properties
+		name "Broken Amulet"
+		view 51500
+		  clutStart 122 
+		color 78 
+	end
+
+	base described
+		text "You see a broken amulet."
+	end
+end
+
+object qNoteSiei of QuestObject
+	properties
+		name "Information from Siei"
+		view 51100
+	        clutStart 104
+		color 83
+	end
+
+	base described
+		text "You see a piece of paper with some writing on it."
+	end
+end
+
+object qPascoCheese of QuestObject
+	properties
+		name "Pasco's Cheese"
+		view 58800
+	end
+
+	base described
+		text "You see package containing Pasco's cheese."
+	end
+end
+
+object qBurnOintment of QuestObject
+	properties
+		name "Burn Ointment"
+		view 51800
+		clutStart 83
+		color 53
+	end
+
+	base carryable
+		weight 0.2
+	end
+
+	base described
+		text "You see a container of burn ointment."
+	end
+end
+
+# LONGSWORD IV QUEST
+
+object qAncientChainMail of QuestObject
+	properties
+		name "Ancient Chain Mail Segment"
+		view 10000
+	        clutStart 93
+		color 93
+	end
+
+	base described
+		text "You see a segment of ancient chain mail."
+	end
+
+	base carryable
+		weight 2.0
+	end
+end
+
+object qTrollToenail of QuestObject
+	properties
+		name "Troll Toe"
+		view  57850
+		color 64
+	    	clutStart 104
+	end
+
+	base described
+		text "You see a withered troll toe."
+	end
+end
+
+object qPoppingCorn of QuestObject
+	properties
+		name "Flask of Popping Corn"
+		view 59000
+		color 63
+	    	clutStart 83
+	end
+
+	base described
+		text "You see a flask containing kernels of popping corn."
+	end
+
+	base carryable
+		weight 1.0
+	end
+end
+
+# LONGSWORD V QUEST
+
+object qTalismanBaroq of QuestObject
+	properties
+		name "Talisman of Baroq the Bald"
+		view 51450
+		color 98
+	    	clutStart 53
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base described
+		text "You see the Talisman of Baroq the Bald."
+	end
+end
+
+object qPascoKnife of QuestObject
+	properties
+		name "Pasco Knife"
+		view 15300
+		color 100
+		clutStart 29
+	end
+
+	base described
+		text "You see a carving knife."
+	end
+end
+
+# NECROMANCY I QUEST
+
+object qFenriFang of QuestObject
+	properties
+		name "Fenri Fang"
+		view  57850   #Steve, using toe object
+	        clutStart 104 
+		color 69 
+	end
+
+	base described
+		text "You see a yucky Fenri fang."
+	end
+end
+
+object qVigoLunch of QuestObject
+	properties
+		name "Vigo's Lunch"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Vigo's lunch."
+	end
+end
+
+# NECROMANCY II QUEST
+
+object qFishSpines of QuestObject
+	properties
+		name "Fish Spinal Bones"
+		view  58800
+	end
+
+	base described
+		text "You see a package containing fish spinal bones."
+	end
+end
+
+object qHerbSeed of QuestObject
+	properties
+		name "Herb Seed"
+		view  51800
+	        clutStart 63 
+		color 63 
+	end
+
+	base described
+		text "You see a small container of herb seed."
+	end
+end
+
+object qKaliriSweet of QuestObject
+	properties
+		name "Kaliri's Sweet"
+		view  58900
+	end
+
+	base described
+		text "You see a package containing fresh baked cinnamon rolls for Kaliri. What a yummy aroma!"
+	end
+end
+
+# NECROMANCY III QUEST
+
+object qFingerBone of QuestObject
+	properties
+		name "Skeleton Finger Bone"
+		view  57850
+		color 64
+	    	clutStart 104
+	end
+
+	base described
+		text "You see a skeleton finger bone."
+	end
+end
+
+object qCarvedCastle of QuestObject
+	properties
+		name "Carved Stone Castle"
+		view  50450
+	end
+
+	base described
+		text "You see a soft pouch containing the carved stone castle."
+	end
+end
+
+object qDriftwood of QuestObject
+	properties
+		name "Driftwood"
+		view  58150
+	end
+
+	base described
+		text "You see a piece of driftwood."
+	end
+end
+
+object qLeftovers of QuestObject
+	properties
+		name "Vegetable Leftovers"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing vegetable leftovers.  Some worm is going to love getting those."
+	end
+end
+
+# NECROMANCY IV QUEST
+
+object qBatWhisker of QuestObject
+	properties
+		name "Bat's Whisker"
+		view  50400
+	end
+
+	base described
+		text "You see a tube containing the bat's whisker."
+	end
+end
+
+object qZuzuAntique of QuestObject
+	properties
+		name "Zuzu's antique"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing Zuzu's antique."
+	end
+end
+
+object qUskSupplies of QuestObject
+	properties
+		name "Supplies from Usk"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing supplies from Usk."
+	end
+end
+
+object qFrickMed of QuestObject
+	properties
+		name "Frick's Allergy Medicine"
+		view  51550
+	        clutStart 68 
+		color 89 
+	end
+
+	base described
+		text "You see a bottle containing Frick's allergy medicine."
+	end
+end
+
+# NECROMANCY V QUEST
+
+object qGeezerNote of QuestObject
+	properties
+		name "Note from Geezer"
+		view  51100
+	end
+
+	base described
+		text "You see a piece of paper with a note from Geezer."
+	end
+end
+
+object qGeezerAle of QuestObject
+	properties
+		name "Ale for Geezer"
+		view  59000
+	        clutStart 83 
+		color 63 
+	end
+
+	base described
+		text "You see a flask of ale for Geezer."
+	end
+end
+
+object qSkonPackage of QuestObject
+	properties
+		name "Skon's Package"
+		view  50400
+	end
+
+	base described
+		text "You see the package Skon wants you to deliver."
+	end
+end
+
+object qSkonScarf of QuestObject
+	properties
+		name "Scon's Scarf"
+		view  58850
+	end
+
+	base described
+		text "You see Skon's scarf."
+	end
+end
+
+object qWolfTail of QuestObject
+	properties
+		name "Wolf's Tail"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing the wolf's tail."
+	end
+end
+
+# THEURGISM I QUEST
+
+object qAmuletTamen of QuestObject
+	properties
+		name "The Amulet of Tamen"
+		view  51500
+	        clutStart 122 
+		color  48
+	end
+
+	base described
+		text "You see the Amulet of Tamen the Mighty."
+	end
+end
+
+object qJeweledDagger of QuestObject
+	properties
+		name "Jeweled Dagger"
+		view 15300
+	        clutStart  29  
+		color  100
+	end
+
+	base described
+		text "You see Faldora's jeweled dagger."
+	end
+end
+
+# THEURGISM II QUEST
+
+object qAmuletNemat of QuestObject
+	properties
+		name "Amulet of Nemat"
+		view  51500
+	        clutStart 122 
+		color 63 
+
+end
+
+	base described
+		text "You see the Amulet of Nemat the Magnificent."
+	end
+end
+
+object qStenchTools of QuestObject
+	properties
+		name "Stench's Tools"
+		view  59250	#Steve  59279.v56 is a tool box, 59229.v56 is a jug.
+	end
+
+	base described
+		text "You see a tool box containing Stench's Tools."
+	end
+end
+
+object qFembrelWrench of QuestObject
+	properties
+		name "Fembrel Wrench"
+		view  58500	#Steve, used chisel number
+	end
+
+	base described
+		text "You see a fembrel wrench."
+	end
+end
+
+# THEURGISM III QUEST
+
+object qAmuletNemor of QuestObject
+	properties
+		name "Amulet of Nemor"
+		view  51500
+	        clutStart 122 
+		color 78 
+
+end
+
+	base described
+		text "You see the Amulet of Nemor the Noble"
+	end
+end
+
+object qJelliedBerries of QuestObject
+	properties
+		name "Jellied Berries"
+		view  59400
+	end
+
+	base described
+		text "You see a basket full of jellied berries."
+	end
+end
+
+object qGrainBread of QuestObject
+	properties
+		name "Grain Bread of Murias"
+		view  52050
+	end
+
+	base described
+		text "You see the special grain bread of Murias."
+	end
+end
+
+# THEURGISM IV QUEST
+
+object qAmuletRomen of QuestObject
+	properties
+		name "Amulet of Romen"
+		view  51500
+	        clutStart 122 
+		color 84 
+end
+
+	base described
+		text "You see the Amulet of Romen the Marvelous."
+	end
+end
+
+object qNewPattern of QuestObject
+	properties
+		name "New Pattern"
+		view  58800
+	end
+
+	base described
+		text "You see the package containing the new pattern and wool skein."
+	end
+end
+
+object qWoolSkein of QuestObject
+	properties
+		name "Wool Skeins"
+		view  58900
+	end
+
+	base described
+		text "You see the parcel containing skeins of wool."
+	end
+end
+
+object qDariaBelt of QuestObject
+	properties
+		name "Daria's Belt"
+		view  10200
+	        clutStart 78 
+		color 94 
+	end
+
+	base described
+		text "You see Daria's belt."
+	end
+end
+
+# THEURGISM V QUEST
+
+object qAmuletBaroq of QuestObject
+	properties
+		name "Amulet of Baroq"
+		view  51500
+	        clutStart 122 
+		color 49 
+	end
+
+	base described
+		text "You see the Amulet of Baroq the Bald."
+	end
+end
+
+object qCarvedStork of QuestObject
+	properties
+		name "Carved Stork"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing the carved stork."
+	end
+end
+
+object qSharpeningStone of QuestObject
+	properties
+		name "Nattan's Sharpening Stone"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing the sharpening stone for Nattan."
+	end
+end
+
+# THAUMATURGY I QUEST
+
+object qRatlingToenail of QuestObject
+	properties
+		name "Ratling Toenail"
+		view  57850
+	        clutStart 104 
+		color 69 
+	end
+
+	base described
+		text "You see a ratling toenail still on a withered ratling toe."
+	end
+end
+
+# THAUMATURGY II QUEST
+
+object qFossilizedToad of QuestObject
+	properties
+		name "Fossilized Toad"
+		view  57750		#used dung
+	end
+
+	base described
+		text "You see a fine small specimen of fossilized toad."
+	end
+end
+
+object qAldonzoDagger of QuestObject
+	properties
+		name "Aldonzo's Dagger"
+		view  15300
+	end
+
+	base described
+		text "You see Aldonzo's dagger."
+	end
+end
+
+# THAUMATURGY III QUEST
+
+object qPetrifiedWood of QuestObject
+	properties
+		name "Petrified Wood"
+		view  58150
+	end
+
+	base described
+		text "You see a nice piece of petrified wood."
+	end
+end
+
+object qMishaBelt of QuestObject
+	properties
+		name "Misha's Belt"
+		view  10200
+	        clutStart 78 
+		color 79 
+	end
+
+	base described
+		text "You see Misha's belt."
+	end
+end
+
+object qSpecialOrder of QuestObject
+	properties
+		name "Special Order of Fabric"
+		view  58200
+	end
+
+	base described
+		text "You see the bolt of fabric special order for Bidosk."
+	end
+end
+
+# THAUMATURGY IV QUEST
+
+object qBansheeRelic of QuestObject
+	properties
+		name "Banshee Relic"
+		view  57850
+	        clutStart 104 
+		color 84 
+	end
+
+	base described
+		text "You see the banshee relic.  It looks like a withered toe to you."
+	end
+end
+
+object qMaraKey of QuestObject
+	properties
+		name "Mara's Key"
+		view  54300
+	end
+
+	base described
+		text "You see Mara's key and wonder what all the shouting is about."
+	end
+end
+
+object qHeadacheCure of QuestObject
+	properties
+		name "Headache Cure"
+		view  51800
+	        clutStart 63 
+		color 64 
+	end
+
+	base described
+		text "You see a small packet containing the headache cure."
+	end
+end
+
+# THAUMATURGY V QUEST
+
+object qImpBloodstone of QuestObject
+	properties
+		name "Imp Bloodstone"
+		view 51750 #Steve, used orb at 51779, 51700 is wand
+	        clutStart 79 
+		color 58 	
+	end
+
+	base described
+		text "You see the Imp Bloodstone."
+	end
+end
+
+object qHoliphEnvelope of QuestObject
+	properties
+		name "Envelope for Holiph"
+		view  51100
+	end
+
+	base described
+		text "You see the envelope Litula gave you."
+	end
+end
+
+object qMeegoEnvelope of QuestObject
+	properties
+		name "Envelope for Litula"
+		view  51100
+	end
+
+	base described
+		text "You see the envelope Meego gave you."
+	end
+end
+
+object qMeegoCheese of QuestObject
+	properties
+		name "Meego's Cheese"
+		view  58800
+	end
+
+	base described
+		text "You see the package of cheese for Meego."
+	end
+end
+
+# MYSTICISM I QUEST
+
+object qGnatsEar of QuestObject
+	properties
+		name "Giant Gnat's Ear"
+		view  57850   #Steve, using toe object
+	        clutStart 104 
+		color  49 
+	end
+
+	base described
+		text "You see a Giant Gnat's Ear."
+	end
+end
+
+# MYSTICISM II QUEST
+
+object qAncientBird of QuestObject
+	properties
+		name "Ancient Bird Bits"
+		view 50400 
+	end
+
+	base described
+		text "You see the package containing the tooth and claw of an ancient bird."
+	end
+end
+
+object qGiftCoat of QuestObject
+	properties
+		name "Coat for Geezer"
+		view  10400
+	        clutStart 54 
+		color  48
+	end
+
+	base described
+		text "You see a coat for Geezer."
+	end
+end
+
+# MYSTICISM III QUEST
+
+object qEmptySkin of QuestObject
+	properties
+		name "Empty Insect Skin"
+		view  57900  #used jawbone 
+	        clutStart 99 
+		color 89 	
+	end
+
+	base described
+		text "You see an empty insect skin and wonder what sort of creature it was."
+	end
+end
+
+object qKombalWine of QuestObject
+	properties
+		name "Kombal's Wine"
+		view  59000
+	        clutStart 83 
+		color 84 
+	end
+
+	base described
+		text "You see a flask of Kombal's private wine stock."
+	end
+end
+
+object qKombalBag of QuestObject
+	properties
+		name "Kombal's Bag"
+		view  50100	#Steve, this is bag of gold.  Need view w/o gold coins.
+	end
+
+	base described
+		text "You see Kombal's bag."
+	end
+end
+
+# MYSTICISM IV QUEST
+
+object qBatHair of QuestObject
+	properties
+		name "Hair of Ancient Bat"
+		view  50400
+	end
+
+	base described
+		text "You see a wrapped parcel containing the hair of an ancient bat."
+	end
+end
+
+object qMartiParchment of QuestObject
+	properties
+		name "Parchment from Marti"
+		view 51100 
+	end
+
+	base described
+		text "You see the parchment Marti gave you."
+	end
+end
+
+object qMartiLunch of QuestObject
+	properties
+		name "Marti's Lunch"
+		view  59300 
+	end
+
+	base described
+		text "You see a basket with Marti's lunch."
+	end
+end
+
+object qDevoBook of QuestObject
+	properties
+		name "Devo's Book"
+		view  51050
+	end
+
+	base described
+		text "You see Devo's book."
+	end
+end
+
+# MYSTICISM V QUEST
+
+object qSeraphScroll of QuestObject
+	properties
+		name "Seraph Scroll Fragment"
+		view  50400
+	end
+
+	base described
+		text "You see a tube with the seraph scroll fragment securely hidden  inside."
+	end
+end
+
+object qJolieScarf of QuestObject
+	properties
+		name "Jolie's Scarf"
+		view  58800
+	end
+
+	base described
+		text "You see a small box containing Jolie's scarf."
+	end
+end
+
+object qFoodBasket of QuestObject
+	properties
+		name "Food Basket"
+		view  59400
+	end
+
+	base described
+		text "You see a basket full of treats for Sandor."
+	end
+end
+
+# MEDITATION I QUEST
+
+object qAsgardHieroglyphic of QuestObject
+	properties
+		name "Ancient Hieroglyphic"
+		view  51450  #Steve, using talisman object
+	        clutStart 53 
+		color 105 
+end
+
+	base described
+		text "You see a hieroglyphic from ancient Asgard."
+	end
+end
+
+
+# MEDITATION II QUEST
+
+object qFaerieParchment of QuestObject
+	properties
+		name "Ancient Faerie Parchment"
+		view  51000
+	end
+
+	base described
+		text "You see the ancient faerie parchment."
+	end
+end
+
+object qBlytheBoots of QuestObject	#now these are for Minka
+	properties
+		name "Minka's Boots"
+		view  10600
+	        clutStart 58 
+		color 94 
+	end
+
+	base described
+		text "You see the new boots for Minka."
+	end
+end
+
+# MEDITATION III QUEST
+
+object qUskPapyrus of QuestObject
+	properties
+		name "Torn Papyrus"
+		view  51000
+	end
+
+	base described
+		text "You see the torn papyrus fragment from Usk."
+	end
+end
+
+object qSnakeRattle of QuestObject
+	properties
+		name "Rattle of Snake"
+		view  57850   #Steve, using toe object
+	        clutStart 104 
+		color 49 
+	end
+
+	base described
+		text "You see the snake's rattle."
+	end
+end
+
+object qAliApricots of QuestObject
+	properties
+		name "Apricots"
+		view  59300
+	end
+
+	base described
+		text "You see a basket of apricots for Aligar."
+	end
+end
+
+# MEDITATION IV QUEST
+
+object qDownsCurio of QuestObject
+	properties
+		name "Strange Curio"
+		view  57900 #Steve, I used the jawbone.
+		   clutStart 99 
+		color 84 
+	end
+
+	base described
+		text "You see the strange curio from Downs."
+	end
+end
+
+object qCuriousRock of QuestObject
+	properties
+		name "Curious Desert Rock"
+		view  58800
+	end
+
+	base described
+		text "You see a small box containing a curiously shaped desert rock."
+	end
+end
+
+object qKaliriCookies of QuestObject
+	properties
+		name "Cookies for Kaliri"
+		view  58800
+	end
+
+	base described
+		text "You see a small box containing cookies for Kaliri."
+	end
+end
+
+object qSanriaDill of QuestObject
+	properties
+		name "Dill for Sanria"
+		view  50400
+	end
+
+	base described
+		text "You see a package containing dill for Sanria."
+	end
+end
+
+# MEDITATION V QUEST
+
+object qAmuletLemelion of QuestObject
+	properties
+		name "Amulet of Lemelion"
+		view  51500
+		   clutStart 122 
+		color 63 
+	end
+
+	base described
+		text "You see the Amulet of Lemelion the Great"
+	end
+end
+
+object qAntiquatedBroach of QuestObject
+	properties
+		name "Antiquated Broach"
+		view  50800
+	end
+
+	base described
+		text "You see the antiquated broach."
+	end
+end
+
+object qEmbroideredFabric of QuestObject
+	properties
+		name "Bolt of Embroidered Fabric"
+		view 58200 
+	end
+
+	base described
+		text "You see a bolt of embroidered fabric."
+	end
+end
+
+object qCottonPlant of QuestObject
+	properties
+		name "Cotton Plant"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing a carefully packed cotton plant."
+	end
+end
+
+object qEnidToken of QuestObject
+	properties
+		name "Token of Enid"
+		view  51450
+		   clutStart 53 
+		color 83 
+	end
+
+	base described
+		text "You see the token of Enid."
+	end
+end
+
+# HEALING I QUEST
+
+object qPotionHolder of QuestObject
+	properties
+		name "Potion Holder"
+		view  50450
+		   clutStart 73 
+		color 69 
+	end
+
+	base described
+		text "You see the small embroidered potion holder."
+	end
+end
+
+# HEALING II QUEST
+
+object qPotShard of QuestObject
+	properties
+		name "Pot Shard"
+		view  57850   #Steve, using toe object
+		   clutStart 104 
+		color 63 
+	end
+
+	base described
+		text "You see a pot shard from Drune."
+	end
+end
+
+object qSlugShirt of QuestObject
+	properties
+		name "Slug's Shirt"
+		view  10100
+	        clutStart 53 
+		color 89 
+	end
+
+	base described
+		text "You see Slug's old shirt."
+	end
+end
+
+# HEALING III QUEST
+
+object qPolishedStone of QuestObject
+	properties
+		name "Polished Stone"
+		view  50700
+	        clutStart 58 
+		color 78 
+	end
+
+	base described
+		text "You see a small highly polished stone."
+	end
+end
+
+object qBlackMushrooms of QuestObject
+	properties
+		name "Black Mushrooms"
+		view  59400
+	end
+
+	base described
+		text "You see a basket containing black mushrooms."
+	end
+end
+
+object qMeulenSupplies of QuestObject
+	properties
+		name "Muelen's Supplies"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing Meulen's supplies."
+	end
+end
+
+# HEALING IV QUEST
+
+object qOilLamp of QuestObject
+	properties
+		name "Ancient Oil Lamp"
+		view  59300
+	end
+
+	base described
+		text "You see a basket with the ancient oil lamp carefully packed in the bottom."
+	end
+end
+
+#object qJelliedBerries of QuestObject
+#	properties
+#		name "Jellied Berries"
+#		view  59400
+#	end
+#
+#	base described
+#		text "You see a basket full of jellied berries."
+#	end
+#end
+
+# HEALING V QUEST
+
+object qGreenGlobe of QuestObject
+	properties
+		name "Green Globe"
+		view 51750	#Steve using orb 51779
+	        clutStart 79 
+		color 83
+	end
+
+	base described
+		text "You see a beautiful green globe."
+	end
+end
+
+object qGreenBottle of QuestObject
+	properties
+		name "Green Bottle"
+		view  59100
+	        clutStart 88 
+		color 83 
+	end
+
+	base described
+		text "You see a green bottle of unusual shape."
+	end
+end
+
+object qWoodenPuzzle of QuestObject
+	properties
+		name "Wooden Puzzle"
+		view 58800 
+	end
+
+	base described
+		text "You see a small box containing the puzzle."
+	end
+end
+
+object qDriftwoodSupply of QuestObject
+	properties
+		name "Driftwood"
+		view 58900 
+	end
+
+	base described
+		text "You see a large box containing your driftwood."
+	end
+end
+
+# TRAP DETECTION I QUEST
+
+object qPowderedImp of QuestObject
+	properties
+		name "Powdered Imp"
+		view  51550
+		   clutStart 68 
+		color 84 
+end
+
+	base described
+		text "You see a small container of powdered imp."
+	end
+end
+
+object qDinglebean of QuestObject
+	properties
+		name "Dinglebean Extract"
+		view  59200
+		   clutStart 88 
+		color 58 
+	end
+
+	base described
+		text "You see a jug of dinglebean extract."
+	end
+end
+
+# TRAP DETECTION II QUEST
+
+object qGravestoneChip of QuestObject
+	properties
+		name "Gravestone Chip"
+		view  57850
+		   clutStart 104 
+		color 100 
+	end
+
+	base described
+		text "You see an odd-looking chip off an old gravestone."
+	end
+end
+
+# TRAP DETECTION III QUEST
+
+object qWaspWing of QuestObject
+	properties
+		name "Wasp's Wing"
+		view  58000
+	        clutStart 48 
+		color 63 
+	end
+
+	base described
+		text "You see a wasp's wing."
+	end
+end
+
+object qSmokedStripe of QuestObject
+	properties
+		name "Smoked Stripe"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing smoked stripe."
+	end
+end
+
+object qFlowerSeed of QuestObject
+	properties
+		name "Flower Seed"
+		view  51800
+	end
+
+	base described
+		text "You see a small container of flower seed."
+	end
+end
+
+# TRAP DETECTION IV QUEST
+
+object qDaemonToken of QuestObject
+	properties
+		name "Daemon Token"
+		view  58800
+	end
+
+	base described
+		text "You see a small box, very carefully packaged, containing the daemon token."
+	end
+end
+
+object qMetalShielding of QuestObject
+	properties
+		name "Metal Shielding"
+		view 58900 
+	end
+
+	base described
+		text "You see a package containing the metal shielding pieces."
+	end
+end
+
+object qBeakerWater of QuestObject
+	properties
+		name "Distilled Water"
+		view 59000 
+		   clutStart 83 
+		color 64 
+	end
+
+	base described
+		text "You see a beaker of distilled water."
+	end
+end
+
+# TRAP DETECTION V QUEST
+
+object qBrownPaper of QuestObject
+	properties
+		name "Brown Wrapping Paper"
+		view  58800
+	end
+
+	base described
+		text "You see a small box containing Jolie's wrapping paper."
+	end
+end
+
+object qMalinaSupplies of QuestObject
+	properties
+		name "Supplies for Malina"
+		view  58900
+	end
+
+	base described
+		text "You see a large box containing Malina's supplies."
+	end
+end
+
+# LOCK PICKING I QUEST
+
+object qMagicRock of QuestObject
+	properties
+		name "Magic Rock"
+		view  58800
+	end
+
+	base described
+		text "You see a small box containing the magic rock of Kurz."
+	end
+end
+
+# LOCK PICKING II QUEST
+
+object qPetrifiedSnail of QuestObject
+	properties
+		name "Petrified Snail"
+		view  59200
+	end
+
+	base described
+		text "You see a petrified snail."
+	end
+end
+
+object qEmptyJar of QuestObject
+	properties
+		name "Empty Jar"	
+		view  59200
+	end
+
+	base described
+		text "You see the empty jug from Brindal."
+	end
+end
+
+# LOCK PICKING III QUEST
+
+object qFossilScorpion of QuestObject
+	properties
+		name "Fossilized Scorpion"
+		view  57750
+	end
+
+	base described
+		text "You see a small fossilized scorpion."
+	end
+end
+
+object qAimiePackage of QuestObject
+	properties
+		name "Aimie's package."
+		view  58800
+	end
+
+	base described
+		text "You see the package of Aimie's stuff."
+	end
+end
+
+object qFrickMedicine of QuestObject
+	properties
+		name "Medicine for Frick"
+		view 51550 
+		   clutStart 68 
+		color 59 
+end
+
+	base described
+		text "You see Frick's allergy medicine."
+	end
+end
+
+# LOCK PICKING IV QUEST
+
+object qBlackbirdFeathers of QuestObject
+	properties
+		name "Blackbird Feathers"
+		view  50400
+	end
+
+	base described
+		text "You see the package of blackbird feathers."
+	end
+end
+
+object qDriftwoodFrame of QuestObject
+	properties
+		name "Driftwood Frame"
+		view  58800
+	end
+
+	base described
+		text "You see the package containing your driftwood frame."
+	end
+end
+
+object qSalve of QuestObject
+	properties
+		name "Salve for Misha"
+		view  51800
+		   clutStart 63 
+		color 84 
+end
+
+	base described
+		text "You see a small vial of salve for Misha."
+	end
+end
+
+object qLegotiaFood of QuestObject
+	properties
+		name "Legotia's Snack"
+		view 58800 
+	end
+
+	base described
+		text "You see the snack for Legotia."
+	end
+end
+
+# LOCK PICKING V QUEST
+
+object qAmuletStealth of QuestObject
+	properties
+		name "Amulet of Stealth"
+		view  51500
+	        clutStart 122 
+		color 98 
+	end
+
+	base described
+		text "You see the Amulet of Stealth."
+	end
+end
+
+object qRattHelp of QuestObject
+	properties
+		name "Packet for Ratt"
+		view  50450
+		   clutStart 73 
+		color 94 
+end
+
+	base described
+		text "You see the bag containing the powder to help Ratt."
+	end
+end
+
+object qElfaHelp of QuestObject
+	properties
+		name "Lireen's Medicinal Powder"
+		view  50450
+		   clutStart 73 
+		color 54 
+end
+
+	base described
+		text "You see the bag containing the powder Lireen prepared."
+	end
+end
+
+object qGinkarooBark of QuestObject
+	properties
+		name "Ginkaroo Bark"
+		view 58800 
+	end
+
+	base described
+		text "You see the container of Ginkaroo Bark."
+	end
+end
+
+object qZkgbContainer of QuestObject
+	properties
+		name "ZKGB Contained"
+		view  58000
+	end
+
+	base described
+		text "You see the ZKGB container."
+	end
+end
+
+# PICK POCKETING I QUEST
+
+object qFreshBread of QuestObject
+	properties
+		name "Fresh Baked Bread"
+		view  52050
+	end
+
+	base described
+		text "You see the fresh baked bread for Spidey."
+	end
+end
+
+# PICK POCKETING II QUEST
+
+object qFishLine of QuestObject
+	properties
+		name "Fishing Line"
+		view  58300
+	        clutStart 54 
+		color  99
+	end
+
+	base described
+		text "You see a ball of fishing line."
+	end
+end
+
+# PICK POCKETING III QUEST
+
+object qGooeyBuns of QuestObject
+	properties
+		name "Gooey Buns for Spidey"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing gooey buns."
+	end
+end
+
+object qSanriaPackage of QuestObject
+	properties
+		name "Sanria's Package"
+		view  58900
+	end
+
+	base described
+		text "You see the package Janria prepared for Sanria."
+	end
+end
+
+object qNeedlePacket of QuestObject
+	properties
+		name "Packet of Needles"
+		view  60611
+	end
+
+	base described
+		text "You see a small packet of needles."
+	end
+end
+
+# PICK POCKETING IV QUEST
+
+object qCoffeeBeans of QuestObject
+	properties
+		name "Coffee Beans"
+		view  59200
+		   clutStart 88 
+		color 59 
+end
+
+	base described
+		text "You see a jug filled with vanilla coffee beans."
+	end
+end
+
+object qLavender of QuestObject
+	properties
+		name "Dried Lavender"
+		view  50400
+	end
+
+	base described
+		text "You see a tube filled with dried lavender."
+	end
+end
+
+object qInterestingPlant of QuestObject
+	properties
+		name "An Interesting Plant"
+		view 58100 
+	end
+
+	base described
+		text "You see the plant Lalana found for Fenia."
+	end
+end
+
+object qLunch of QuestObject
+	properties
+		name "Lalana's Lunch"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Lalana's lunch."
+	end
+end
+
+# PICK POCKETING V QUEST
+
+object qKneeOintment of QuestObject
+	properties
+		name "Knee Ointment"
+		view  51550
+		   clutStart 68 
+		color 84 
+end
+
+	base described
+		text "You see a bottle of knee ointment."
+	end
+end
+
+object qLireenPackage of QuestObject
+	properties
+		name "Package for Lireen"
+		view  50400
+	end
+
+	base described
+		text "You see the package for Lireen."
+	end
+end
+
+object qWandaLunch of QuestObject
+	properties
+		name "Wanda's Lunch"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Wanda's lunch."
+	end
+end
+
+# SHORT SWORD IV QUEST
+
+object qDecrepitScabbard of QuestObject
+	properties
+		name "Scrap of Decrepit Scabbard"
+		view  57750
+	end
+
+	base described
+		text "You see a small scrap of decrepit scabbard."
+	end
+end
+
+object qRennet of QuestObject
+	properties
+		name "Packet of Rennet"
+		view  59200
+	end
+
+	base described
+		text "You see a small packet of rennet."
+	end
+end
+
+# SHORT SWORD V QUEST
+
+object qAmuletBlue of QuestObject
+	properties
+		name "Amulet of Blue Steel"
+		view  51500
+	        clutStart 122
+		color 53 
+	end
+
+	base described
+		text "You see the Amulet of Blue Steel."
+	end
+end
+
+object qDespothesSash of QuestObject
+	properties
+		name "Sash of Despothes"
+		view 50400 
+	end
+
+	base described
+		text "You see a package containing the sash that belonged to Despothes.  Maybe."
+	end
+end
+
+object qSeaSnail of QuestObject
+	properties
+		name "Sea Snail Fossil"
+		view  58800
+	end
+
+	base described
+		text "You see a small box containing a rock with a sea snail fossil imprinted."
+	end
+end
+
+object qCinnamonOil of QuestObject
+	properties
+		name "Cinnamon Oil"
+		view  51550
+	        clutStart 68 
+		color  58
+	end
+
+	base described
+		text "You see a container of cinnamon oil."
+	end
+end
+
+object qGhoudLunch of QuestObject
+	properties
+		name "Ghoud's Lunch"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Ghoud's lunch."
+	end
+end
+
+# TWO HANDED SWORD IV QUEST
+
+object qFeatherKurz of QuestObject
+	properties
+		name "Feather from Kurz"
+		view  50400
+	end
+
+	base described
+		text "You see a feather from the large winged creature from Kurz."
+	end
+end
+
+object qDeterrent of QuestObject
+	properties
+		name "Pest Deterrent"
+		view  59200
+		   clutStart 88 
+		color 79 
+end
+
+	base described
+		text "You see a jug of pest deterrent."
+	end
+end
+
+# TWO HANDED SWORD V QUEST
+
+object qScarab of QuestObject
+	properties
+		name "Scarab"
+		view 50700 
+	        clutStart 84 
+		color 88 
+	end
+
+	base described
+		text "You see the scarab for Zuzu."
+	end
+end
+
+object qSpeckledMinter of QuestObject
+	properties
+		name "Speckled Minter"
+		view  58800
+	end
+
+	base described
+		text "You see a box packed with speckled minter."
+	end
+end
+
+object qElfCream of QuestObject
+	properties
+		name "Elf Soothing Cream"
+		view  51550
+		   clutStart 68 
+		color 49 
+end
+
+	base described
+		text "You see a container of elf soothing cream."
+	end
+end
+
+object qCarvedFlute of QuestObject
+	properties
+		name "Carved Flute"
+		view 53900 
+	end
+
+	base described
+		text "You see a carved flute from Troels."
+	end
+end
+
+object qTroelsSnack of QuestObject
+	properties
+		name "Snack for Troels"
+		view  58800
+	end
+
+	base described
+		text "You see the snack for Troels."
+	end
+end
+
+# DAGGER IV QUEST
+
+object qTrollKnife of QuestObject
+	properties
+		name "Prehistoric Troll Knife"
+		view 15300
+	end
+
+	base described
+		text "You see a container holding the prehistoric troll knife."
+	end
+end
+
+object qPainPotion of QuestObject
+	properties
+		name "Pain Potion for Ygior"
+		view  51800
+		   clutStart 63 
+		color 94 
+end
+
+	base described
+		text "You see a small container of pain potion."
+	end
+end
+
+object qNewPotion of QuestObject
+	properties
+		name "Benoit's New Potion"
+		view  51550
+		   clutStart 68 
+		color 63 
+end
+
+	base described
+		text "You see the new potion Benoit gave you."
+	end
+end
+
+# DAGGER V QUEST
+
+object qBoneDagger of QuestObject
+	properties
+		name "Ancient Bone Dagger"
+		view 15300
+		   clutStart 104 
+		color 69 
+end
+
+	base described
+		text "You see a very old bone dagger."
+	end
+end
+
+object qPrivateAle of QuestObject
+	properties
+		name "Private Stock Ale"
+		view  58900
+end
+
+	base described
+		text "You see a box containing six bottles of Andala's private stock."
+	end
+end
+
+object qRedPaint of QuestObject
+	properties
+		name "Tube of Red Paint"
+		view  50400
+	end
+
+	base described
+		text "You see a package containing the red paint from Legotia."
+	end
+end
+
+object qClayPots of QuestObject
+	properties
+		name "Clay Pots"
+		view  58800
+	end
+
+	base described
+		text "You see a package containing the small clay pots."
+	end
+end
+
+object qVegetableDrink of QuestObject
+	properties
+		name "Vegetable Drink"
+		view 59200 
+	end
+
+	base described
+		text "You see a jug containing the vegetable drink."
+	end
+end
+
+# AXE IV QUEST
+
+object qAncientAxehead of QuestObject
+	properties
+		name "Ancient Flint Axehead"
+		view  57850	
+		   clutStart 104 
+		color 99 
+end
+
+	base described
+		text "You see the ancient flint axehead."
+	end
+end
+
+object qFrickHeadMed of QuestObject
+	properties
+		name "Headache Remedy"
+		view  51800
+	end
+
+	base described
+		text "You see a small vial of headache remedy."
+	end
+end
+
+object qRatDeterrent of QuestObject
+	properties
+		name "Rat Deterrent"
+		view  51550
+		   clutStart 68 
+		color 58 
+end
+
+	base described
+		text "You see a container of rat deterrent potion."
+	end
+end
+
+object qCozenorPackage of QuestObject
+	properties
+		name "Gift for Cozenor"
+		view  62750
+	end
+
+	base described
+		text "You see a gift for Cozenor."
+	end
+end
+
+# AXE V QUEST
+
+object qBraidedBelt of QuestObject
+	properties
+		name "Braided Leather Belt"
+		view  10200
+	        clutStart 78 
+		color 73 
+	end
+
+	base described
+		text "You see a braided leather belt."
+	end
+end
+
+object qBlueGlobe of QuestObject
+	properties
+		name "Blue Globe"
+		view  51750
+		color 53 
+	end
+
+	base described
+		text "You see a blue globe."
+	end
+end
+
+object qBeefJerky of QuestObject
+	properties
+		name "Beef Jerky"
+		view  59300
+	end
+
+	base described
+		text "You see a basket with beef jerky inside."
+	end
+end
+
+object qCarvedGoblin of QuestObject
+	properties
+		name "Goblin Letter Opener"
+		view  50400
+	end
+
+	base described
+		text "You see a package containing the carved goblin letter opener."
+	end
+end
+
+# CLUB IV QUEST
+
+object qClubStatue of QuestObject
+	properties
+		name "Warrior Statue"
+		view  58800
+	end
+
+	base described
+		text "You see a package containing the ancient statue of a warrior with a club."
+	end
+end
+
+object qHeirloomRing of QuestObject
+	properties
+		name "Heirloom Ring"
+		view  51900
+	end
+
+	base described
+		text "You see Holiph's family heirloom ring."
+	end
+end
+
+object qKaliriTart of QuestObject
+	properties
+		name "Apricot Tart"
+		view  58800
+	end
+
+	base described
+		text "You see a box with the apricot tart for Kaliri."
+	end
+end
+
+# CLUB V QUEST
+
+object qClubFragment of QuestObject
+	properties
+		name "Fragment of Club"
+		view  50400
+	end
+
+	base described
+		text "You see a package containing the fragment of club."
+	end
+end
+
+object qMekianGlue of QuestObject
+	properties
+		name "Mekian Glue"
+		view  51800
+	end
+
+	base described
+		text "You see a small container of mekian glue."
+	end
+end
+
+object qDoforthFood of QuestObject
+	properties
+		name "Doforth's Lunch"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Doforth's lunch."
+	end
+end
+
+object qWenCheese of QuestObject
+	properties
+		name "Special Wen Cheese"
+		view  52150
+	end
+
+	base described
+		text "You see the special cheese from Wen."
+	end
+end
+
+object qHeadachePotion of QuestObject
+	properties
+		name "Headache Potion"
+
+		view  51800	
+end
+
+	base described
+		text "You see a small vial of headache potion for Fiona."
+	end
+end
+
+# MACE IV QUEST
+
+object qPetrifiedPeat of QuestObject
+	properties
+		name "Petrified Peat"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing petrified peat."
+	end
+end
+
+object qTwotailedScorpion of QuestObject
+	properties
+		name "Fossil of Scorpion"
+		view  58800
+	end
+
+	base described
+		text "You see a small box with a rock with the fossil of a scorpion and two tails."
+	end
+end
+
+object qFlint of QuestObject
+	properties
+		name "Piece of Flint"
+		view  57850
+		   clutStart 104 
+		color 79 
+end
+
+	base described
+		text "You see a nice piece of flint."
+	end
+end
+
+object qCarvedBear of QuestObject
+	properties
+		name "Carved Bear"
+		view  50450
+		   clutStart 73 
+		color 53 
+end
+
+	base described
+		text "You see a soft pouch containing the carved bear."
+	end
+end
+
+object qPoultice of QuestObject
+	properties
+		name "Poultice"
+		view  51800
+	end
+
+	base described
+		text "You see a small container with a poultice for Troels."
+	end
+end
+
+# MACE V QUEST
+
+object qHieroglyphic of QuestObject
+	properties
+		name "Hieroglyphic from Murias"
+		view  51450
+	end
+
+	base described
+		text "You see a genuine hieroglyphic from Murias."
+	end
+end
+
+object qWaltherBook of QuestObject
+	properties
+		name "Walther the Wizard"
+		view  51050
+	end
+
+	base described
+		text "You see a book about Walther the Wizard."
+	end
+end
+
+object qSalldii of QuestObject
+	properties
+		name "Salldii Sweetmeats"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing salldii sweetmeats."
+	end
+end
+
+object qSupplies of QuestObject
+	properties
+		name "Supplies for Astrid"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing the supplies for Astrid."
+	end
+end
+
+# UNARMED COMBAT IV QUEST
+
+object qHeroSash of QuestObject
+	properties
+		name "Sash of the Unnamed Hero"
+		view  50400
+	end
+
+	base described
+		text "You see a package containing the sash of the unnamed hero."
+	end
+end
+
+object qElvenBroach of QuestObject
+	properties
+		name "Elven Broach"
+		view  50450
+		   clutStart 73 
+		color 84 
+end
+
+	base described
+		text "You see a soft pouch containing the elven broach of birch leaves."
+	end
+end
+
+object qThread of QuestObject
+	properties
+		name "Thread"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing the thread for Bidosk."
+	end
+end
+
+object qSleepingPotion of QuestObject
+	properties
+		name "Sleeping Potion"
+		view  51550
+		   clutStart 68 
+		color 94 
+end
+
+	base described
+		text "You see the sleeping potion for Andrea."
+	end
+end
+
+# UNARMED COMBAT V QUEST
+
+object qAmuletFrederick of QuestObject
+	properties
+		name "Amulet of Frederick"
+		view  51500
+	        clutStart 122 
+		color 94 
+	end
+
+	base described
+		text "You see the Amulet of Frederick."
+	end
+end
+
+object qGoatWool of QuestObject
+	properties
+		name "Wool"
+		view 58900 
+	end
+
+	base described
+		text "You see a box of wool from the long-haired mountain goat."
+	end
+end
+
+object qColoredGems of QuestObject
+	properties
+		name "Colored Gems"
+		view  50450
+	end
+
+	base described
+		text "You see a soft fabric sac containing colored gems from Silverbrook."
+	end
+end
+
+object qFabricSacs of QuestObject
+	properties
+		name "Fabric Sacs"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing fabric sacs."
+	end
+end
+
+object qHanaSurprise of QuestObject
+	properties
+		name "Surprise for Hana"
+		view  52040
+	end
+
+	base described
+		text "You see a loaf of bread baked especially for Hana."
+	end
+end
+
+# THROWING WEAPONS IV QUEST
+
+object qTalismanArnold of QuestObject
+	properties
+		name "Talisman of Arnold "
+		view  51500
+	        clutStart 122  
+		color 79
+	end
+
+	base described
+		text "You see the Talisman of Arnold the Swift."
+	end
+end
+
+object qEmbroideredShawl of QuestObject
+	properties
+		name "Embroidered Shawl"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing the shawl with an embroidered peacock."
+	end
+end
+
+object qFossilRock of QuestObject
+	properties
+		name "Fossil Rock"
+		view  58800
+	end
+
+	base described
+		text "You see a small box with a rock with an embedded fossil."
+	end
+end
+
+object qScentedCandles of QuestObject
+	properties
+		name "Scented Candles"
+		view 58800 
+	end
+
+	base described
+		text "You see a box with the scented tallow candles for Mellie."
+	end
+end
+
+# THROWING WEAPONS V QUEST
+
+object qTalismanFreddie of QuestObject
+	properties
+		name "Talisman of Freddie"
+		view  51500
+	        clutStart 122  
+		color 79
+	end
+
+	base described
+		text "You see the Talisman of Freddie the Mellow."
+	end
+end
+
+object qAmuletFinvarra of QuestObject
+	properties
+		name "Amulet of Finvarra"
+		view  51500
+	        clutStart 122 
+		color 69 
+	end
+
+	base described
+		text "You see the Amulet of Finvarra."
+	end
+end
+
+object qEnidEmerald of QuestObject
+	properties
+		name "Emerald of Enid"
+		view  51750
+	        clutStart 79 
+		color 83 
+	end
+
+	base described
+		text "You see the beautiful emerald of Enid."
+	end
+end
+
+object qCarvedLamp of QuestObject
+	properties
+		name "Carved Lamp"
+		view  50450
+		   clutStart 73 
+		color 49 
+end
+
+	base described
+		text "You see a soft pouch containing the carved lamp."
+	end
+end
+
+# ACROBATICS IV QUEST
+
+object qAmuletGolden of QuestObject
+	properties
+		name "Polished Golden Amulet"
+		view  51500
+	        clutStart 122 
+		color 63 
+	end
+
+	base described
+		text "You see the polished golden amulet."
+	end
+end
+
+object qMixedGrain of QuestObject
+	properties
+		name "Mixed Grain"
+		view  59400
+	end
+
+	base described
+		text "You see a basket of selected mixed grain from Setta."
+	end
+end
+
+object qGrindingStone of QuestObject
+	properties
+		name "Grinding Stone"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing the new grinding stone."
+	end
+end
+
+# ACROBATICS V QUEST
+
+object qAmuletRuby of QuestObject
+	properties
+		name "Polished Ruby Amulet"
+		view  51500
+	        clutStart 122 
+		color 58 
+	end
+
+	base described
+		text "You see the polished ruby amulet."
+	end
+end
+
+object qAlysaPresent of QuestObject
+	properties
+		name "Alysa's Present"
+		view  62750
+	end
+
+	base described
+		text "You see the present for Alysa's mother."
+	end
+end
+
+object qMimosaOil of QuestObject
+	properties
+		name "Oil of Mimosa"
+		view  51550
+		   clutStart 68 
+		color 89 
+end
+
+	base described
+		text "You see the container of mimosa oil."
+	end
+end
+
+object qArmorPolish of QuestObject
+	properties
+		name "Armor Polish"
+		view  59000
+		   clutStart 83 
+		color 84 
+end
+
+	base described
+		text "You see a flask of armor polish."
+	end
+end
+
+# MAUL IV QUEST
+
+object qLuckPiece of QuestObject
+	properties
+		name "Luck Piece"
+		view  50700
+	        clutStart 58 
+		color 84 
+	end
+
+	base described
+		text "You see the luck piece of an ancient warrior."
+	end
+end
+
+object qTrollStone of QuestObject
+	properties
+		name "Troll Sacred Stone"
+		view  58800
+	end
+
+	base described
+		text "You see the securely fastened box containing the troll sacred stonel."
+	end
+end
+
+object qUskAcorns of QuestObject
+	properties
+		name "Acorns from Usk"
+		view 59300 
+	end
+
+	base described
+		text "You see a basket with acorns in it."
+	end
+end
+
+object qNikaPackage of QuestObject
+	properties
+		name "Package for Nika"
+		view  58800
+	end
+
+	base described
+		text "You see a package for Nika."
+	end
+end
+
+# MAUL V QUEST
+
+object qFinvarraSpike of QuestObject
+	properties
+		name "Finvarra Spike Fragment"
+		view  57850
+	        clutStart 104 
+		color 104 
+	end
+
+	base described
+		text "You see the fragment reputed to be from Finvarra's spike."
+	end
+end
+
+object qLariSupplies of QuestObject
+	properties
+		name "Supplies for Lari"
+		view  58900
+	end
+
+	base described
+		text "You see the box of supplies for Lari."
+	end
+end
+
+object qBlackberryRoots of QuestObject
+	properties
+		name "Blackberry Roots"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing blackberry roots."
+	end
+end
+
+# ALCHEMY IV QUEST
+
+object qCarvedWizard of QuestObject
+	properties
+		name "Carved Wizard"
+		view  50450
+		   clutStart 73 
+		color 89 
+end
+
+	base described
+		text "You see a soft pouch containing the carved wizard."
+	end
+end
+
+object qDuachImage of QuestObject
+	properties
+		name "Image of Duach"
+		view  51000
+	end
+
+	base described
+		text "You see a scroll containing an image of the God Duach."
+	end
+end
+
+object qMorganaDagger of QuestObject
+	properties
+		name "Morgana's Dagger"
+		view 15300
+	end
+
+	base described
+		text "You see Morgana's lost dagger."
+	end
+end
+
+object qDragonlizardOil of QuestObject
+	properties
+		name "Dragonlizard Oil"
+		view  51550
+		   clutStart 68 
+		color 64 
+end
+
+	base described
+		text "You see a container of dragonlizard oil."
+	end
+end
+
+object qAldonzoLunch of QuestObject
+	properties
+		name "Aldonzo's Lunch"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Aldonzo's lunch."
+	end
+end
+
+# ALCHEMY V QUEST
+
+object qAscetosSand of QuestObject
+	properties
+		name "Ascetos Desert Sand"
+		view  51800
+	end
+
+	base described
+		text "You see a vial of Ascetos Desert sand."
+	end
+end
+
+object qSunberrySeeds of QuestObject
+	properties
+		name "Sunberry Seeds"
+		view  59400
+	end
+
+	base described
+		text "You see a basket of sunberry seeds."
+	end
+end
+
+object qUskTealeaf of QuestObject
+	properties
+		name "Usk Tea Leaves"
+		view  50400
+	end
+
+	base described
+		text "You see a tube containing tea leaves from Usk."
+	end
+end
+
+object qBekkaShoes of QuestObject
+	properties
+		name "Bekka's New Shoes"
+		view  10700
+	        clutStart 58 
+		color 94 
+	end
+
+	base described
+		text "You see Bekka's pretty new shoes."
+	end
+end
+
+# WEAPONSMITH IV QUEST
+
+object qDrinkHolster of QuestObject
+	properties
+		name "Cold Drink Holster"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing the cold drink holster."
+	end
+end
+
+object qFreshFruit of QuestObject
+	properties
+		name "Fresh Fruit"
+		view  59400
+	end
+
+	base described
+		text "You see a basket full of fresh fruit."
+	end
+end
+
+object qCarvingKnife of QuestObject
+	properties
+		name "Carving Knife"
+		view  15300
+	end
+
+	base described
+		text "You see a carving knife."
+	end
+end
+
+object qBirchBark of QuestObject
+	properties
+		name "Birch Bark"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing birch bark from Silverbrook."
+	end
+end
+
+# WEAPONSMITH V QUEST
+
+object qHandDrill of QuestObject
+	properties
+		name "Randa's Hand Drill"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Randa's hand drill."
+	end
+end
+
+#object qJelliedBerries of QuestObject
+#	properties
+#		name "Jellied Berries"
+#		view  59400
+#	end
+#
+#	base described
+#		text "You see a basket containing jellied berries of Usk."
+#	end
+#end
+
+object qInilaSupplies of QuestObject
+	properties
+		name "Inila's Supplies"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Inila's supplies."
+	end
+end
+
+object qCloveNuggets of QuestObject
+	properties
+		name "Nuggets of Clove"
+		view  50450
+		   clutStart 73 
+		color 68 
+end
+
+	base described
+		text "You see a pouch full of nuggets of clove."
+	end
+end
+
+object qFrickLunch of QuestObject
+	properties
+		name "Frick's Lunch"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Frick's lunch."
+	end
+end
+
+# ARMORCRAFTING IV QUEST
+
+object qPolishingCloth of QuestObject
+	properties
+		name "Polishing Cloth"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing polishing cloth."
+	end
+end
+
+object qManonorOrder of QuestObject
+	properties
+		name "Manonor's Order"
+		view  58900
+	end
+
+	base described
+		text "You see a large box containing Manonor's order."
+	end
+end
+
+object qMissingBoots of QuestObject
+	properties
+		name "Missing Boots"
+		view  10600
+	        clutStart 58 
+		color 84 
+	end
+
+	base described
+		text "You see the boots missing from Mananor's order."
+	end
+end
+
+object qAndreaLunch of QuestObject
+	properties
+		name "Andrea's Lunch"
+		view 59300 
+	end
+
+	base described
+		text "You see a basket containing Andrea's lunch."
+	end
+end
+
+# ARMORCRAFTING V QUEST
+
+object qScrollAstilrades of QuestObject
+	properties
+		name "Scroll of Astilrades"
+		view  51000
+	end
+
+	base described
+		text "You see the Scroll of Astilrades."
+	end
+end
+
+object qPewterPolish of QuestObject
+	properties
+		name "Pewter Polish"
+		view  51550
+	        clutStart 68 
+		color 99 
+	end
+
+	base described
+		text "You see a container of pewter polish."
+	end
+end
+
+object qNewLotion of QuestObject
+	properties
+		name "New Lotion"
+		view  51800
+	end
+
+	base described
+		text "You see a small vial of new lotion from Lompoc."
+	end
+end
+
+object qLemonBalm of QuestObject
+	properties
+		name "Lemon Balm"
+		view  59200
+		   clutStart 88 
+		color 64 
+end
+
+	base described
+		text "You see a jug of lemon balm."
+	end
+end
+
+# TRACKING IV QUEST
+
+object qKaliriCare of QuestObject
+	properties
+		name "Care Basket for Sandor"
+		view  59400
+	end
+
+	base described
+		text "You see a basket packed with goodies from Kaliri, Fiona's cheese, Misha's bread, Inila's jellied berries, and Lari's smoked stripe."
+	end
+end
+
+object qFionaCheese of QuestObject
+	properties
+		name "Wen Cheese"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Fiona's cheese, Misha's bread, Inila's jellied berries, and Lari's smoked stripe."
+	end
+end
+
+object qMishaBread of QuestObject
+	properties
+		name "Misha's Bread"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Misha's bread, Inila's jellied berries, and Lari's smoked stripe."
+	end
+end
+
+object qInilaBerries of QuestObject
+	properties
+		name "Inila's Jellied Berries"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Inila's jellied berries and Lari's smoked stripe."
+	end
+end
+
+object qLariStripe of QuestObject
+	properties
+		name "Lari's Smoked Stripe"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing Lari's smoked stripe in the bottom."
+	end
+end
+
+# TRACKING V QUEST
+
+object qSandorPackage of QuestObject
+	properties
+		name "Package for Sandor"
+		view  58800
+	end
+
+	base described
+		text "You see a package for Sandor."
+	end
+end
+
+object qBeeswax of QuestObject
+	properties
+		name "Beeswax"
+		view  50400
+	end
+
+	base described
+		text "You see a tube containing beeswax."
+	end
+end
+
+object qSettaScarf of QuestObject
+	properties
+		name "Setta's Scarf"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Setta's new scarf."
+	end
+end
+
+object qHanaBrush of QuestObject
+	properties
+		name "Hana's Brush"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing Hana's special new brush."
+	end
+end
+
+# CRITICAL STRIKING IV QUEST
+
+object qToolFragment of QuestObject
+	properties
+		name "Primitive Tool Fragment"
+		view  57850
+	        clutStart 104 
+		color 54 
+	end
+
+	base described
+		text "You see the fragment of a primitive tool."
+	end
+end
+
+object qSpecialAle of QuestObject
+	properties
+		name "Gnarl's Special Ale "
+		view  59000
+		   clutStart 83 
+		color 94 
+end
+
+	base described
+		text "You see a flask of Gnarl's special ale."
+	end
+end
+
+object qCopperheadExtract of QuestObject
+	properties
+		name "Copperhead Extract"
+		view  51550
+	        clutStart 68 
+		color 88 
+	end
+
+	base described
+		text "You see the container of copperhead extract."
+	end
+end
+
+object qWonduriPackage of QuestObject
+	properties
+		name "Wonduri's Package"
+		view  50400
+	end
+
+	base described
+		text "You see Wonduri's package."
+	end
+end
+
+# CRITICAL STRIKING V QUEST
+
+object qAmuletProtection of QuestObject
+	properties
+		name "Amulet of Protection"
+		view  51500
+	        clutStart 122 
+		color 79 
+	end
+
+	base described
+		text "You see the Amulet of Protection."
+	end
+end
+
+object qBollaBrew of QuestObject
+	properties
+		name "Bolla Brew"
+		view  58900
+	end
+
+	base described
+		text "You see a box containing several bottles of bolla brew."
+	end
+end
+
+object qDesertRock of QuestObject
+	properties
+		name "Desert Rock"
+		view  58800
+	        clutStart 165 
+		color 89 
+	end
+
+	base described
+		text "You see a small box containing a beautiful desert rock."
+	end
+end
+
+object qKaliriRolls of QuestObject
+	properties
+		name "Cinnamon Rolls"
+		view  58800
+	end
+
+	base described
+		text "You see the box containing fresh cinnamon rolls."
+	end
+end
+
+# SHIELD USE IV QUEST
+
+object qShieldRelic of QuestObject
+	properties
+		name "Shield Relic"
+		view  57850
+	        clutStart 104 
+		color 99 
+	end
+
+	base described
+		text "You see a shield relic from the Dark Forest."
+	end
+end
+
+object qBootBottle of QuestObject
+	properties
+		name "Boot Shaped Bottle"
+		view  50450
+	        clutStart 73 
+		color 84 
+	end
+
+	base described
+		text "You see a soft pouch containing the boot shaped bottle."
+	end
+end
+
+object qCarvedSquirrel of QuestObject
+	properties
+		name "Carved Squirrel"
+		view  58800
+	end
+
+	base described
+		text "You see a box containing the carefully packed carved squirrel."
+	end
+end
+
+# SHIELD USE V QUEST
+
+object qMiniatureShield of QuestObject
+	properties
+		name "Miniature Shield"
+		view  50450
+	        clutStart 73 
+		color 53
+	end
+
+	base described
+		text "You see a soft pouch containing the miniature copy of the shield of Despothes."
+	end
+end
+
+object qFenibretta of QuestObject
+	properties
+		name "Fenibretta"
+		view  59300
+	end
+
+	base described
+		text "You see a basket containing fenibretta."
+	end
+end
+
+object qFishHooks of QuestObject
+	properties
+		name "Fish Hooks"
+		view  51800
+	end
+
+	base described
+		text "You see a small container full of fish hooks."
+	end
+end
+
+object qWhiteThread of QuestObject
+	properties
+		name "White Thread"
+		view  58300
+	        clutStart 54 
+		color 100 
+	end
+
+	base described
+		text "You see a roll of white thread for Jenri."
+	end
+end
+
+object qJoliePackage of QuestObject
+	properties
+		name "Gift from Jolie"
+		view  62750
+	end
+
+	base described
+		text "You see the gift box from Jolie."
+	end
+end
+
+
+
+
+
+

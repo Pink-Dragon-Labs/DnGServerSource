@@ -1,0 +1,71 @@
+id 7311
+
+banner "Greetings, Friend. Whose home may I help you visit?"
+
+topic "Tell me about Drune."
+        text "Drune is an elf-town here on the edge of the Devon Forest. It's been here so long the beginning is lost in the mists."
+	text "Elves can go so quietly in the Devon Forest that even animals cannot detect their passing."  
+	text "My grandfather knows as much about the forest as any living elf.  When we were young elves he would entertain us for hours with his stories."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors? Elves generally pay little attention to matters that do not concern them directly."
+end      
+
+topic	"Do you like limericks?"
+	text  "I haven't paid attention to them.  I may have to, though, since it's such a rage here."
+end 
+
+topic  "I need help finding shops."
+	banner  "I can help.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "Clothes Make the Elf is one right."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is up one, right one.  The Nosh Shop is up one, right two."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Elven Enchantment is up one"
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Weaponry of Drune is up two and right two."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Sundries World is up one, right three"
+	end
+
+	topic  "Do you have a chapel?"
+		text "Not in Drune, but there are several in The Realm. Wen has a nice one."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Academy of Drune, a wizard's academy, is up two and right one."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Healing Magic is up two."
+	end
+
+	topic  "Where is the flower vendor?"
+		text "Rosemary's flower cart is two right.."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "Broken Jug West is up one, left one.  Emerald Forest is right three."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Simply put in the name of the person you want to visit."
+end
+
+topic  "I'm seeking an Ancient Rune from Devon." q316:0 #q8111-01-400:0
+	quest 317 #8111-01-425
+	text  "Traveler, I gave you the Rune."
+end
+

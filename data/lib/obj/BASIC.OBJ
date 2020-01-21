@@ -1,0 +1,141 @@
+#
+# basic.obj : standard object classifications
+#
+
+object Chest
+	properties
+		name "Chest"
+		view 50000
+	end
+
+	base container
+		weightCapacity 1250.0
+		bulkCapacity 500.0
+	end
+
+	base openable
+		isOpen 0
+	end
+
+	base described
+		text "You see a wooden chest."
+	end
+end
+
+object LockedChest of Chest
+	base lockable
+		lockValue 0
+		unlockValue 0
+		skeletonLock 1
+		skeletonUnlock 1
+	end
+end
+
+object Key
+	properties
+		name "Key"
+		view 54450
+		health 200
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		bulk 0.1
+		weight 0.1
+	end
+
+	base key
+		lockValue 0
+		unlockValue 0
+		skeletonLock 0
+		skeletonUnlock 0
+	end
+
+	base described
+		text "You see a key."
+	end
+end
+
+object Sign
+	properties
+		name	"Sign"
+		view	54350
+	end
+
+	base described
+		text "The sign reads: <NOTHING>"
+	end
+end
+
+
+object Hut
+	properties
+		name "Tent"
+		view 54850
+	end
+
+	base entry
+		room 0
+	end
+
+	base described
+		text "You see a tent.  It's open, go on in!"
+	end
+end
+
+object Stand
+	properties
+		name "Stand"
+		view 54900
+	end
+
+	base described
+		text "You see a vendor's product stand."
+	end
+end
+
+object Fountain
+	properties
+		name "Fountain"
+		view 54750
+	end
+
+	base cycler
+	end
+
+	base described
+		text "You see a water fountain, bubbling and gurgling like water fountains do."
+	end
+end
+
+object FountainA
+	properties
+		name "Fountain"
+		view 54750
+	end
+
+	base cycler
+	end
+end
+
+object GargoyleFountain
+	properties
+		name "Gargoyle Fountain"
+		view 62350
+	end
+
+	base described
+		text "It's a gargoyle fountain."
+	end
+
+	base cycler
+	end
+end

@@ -1,0 +1,16 @@
+quest  334 #8307-01-335        # Mellie, Gatekeeper, Arimathor, 5810
+
+name  "Delivery for Mellie"
+type  fedex
+
+proposal  "I'm glad you'll do the running between us.  I just haven't had time today, and that's a fact. Uncle Ali does dote on apricots, and I want him to have these while they're at their peak.  You will take them over to him, won't you?"
+
+declined  "What a pity."
+
+accepted  "You're a good person."
+
+reminder   "Don't wait too long to take those apricots to Uncle Ali."
+
+reward   qAliApricots 
+end
+

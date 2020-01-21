@@ -1,0 +1,35 @@
+quest 1
+	name "Tuan's Mushroom" 
+	type fedex
+
+	proposal "I am in great need of an Ascet Mushroom.  You can find one of these mushrooms along the eastern edge of the Ascetos Desert near the town of Guennor.  I would go and get one myself, but the journey is too long for me to take.  If you can bring one back to me I will give you 500 gold coins."
+
+	accepted "Indeed you are a kind soul!  Remember, you can find Ascet mushrooms on the eastern edge of the Ascetos Desert near the town of Guennor."
+
+	declined "It's a pity...  I thought you may have been able to help me." 
+
+	reminder "I really do need the Ascet Mushroom.  Remember I'll give you 500 gold coins if you get it for me."
+
+	completed "Thank you so much for getting the Ascet Mushroom for me.  Here is the 500 gold coins as I promised."
+
+	getItem Daisy
+	reward gold 500
+end
+
+quest 2
+	name "Tuan's Bowl"
+	type fedex
+
+	proposal "Because you did such a good job in getting the Ascet Mushroom for me I think that I can trust you with another errand.  Marial, a long time friend of mine, borrowed one of my special preparation bowls.  She is a bit forgetful and it's return has probably slipped her mind.  Could you please go and get it from her for me?  She runs the healer shop in Asgard.  If you can get it for me I'll give you a scroll that can teach you a spell for healing your wounds."
+
+	accepted "Many thanks!  Marial can be a bit forgetful.  Have a safe journey!"
+
+	declined "Indeed!  I see!  Maybe another adventurer will be kind enough to help me."
+
+	reminder "I hope you can get that preperation bowl from Marial soon."
+
+	completed "Again, I thank you for your service to me.  Here is the scroll as I promised."
+
+	getItem Bowl
+	reward skbHealing
+end

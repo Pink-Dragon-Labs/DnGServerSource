@@ -1,0 +1,79 @@
+object Dng14Key1 of Key
+	properties
+		special
+		name "Iron Jailer's Key"
+	end
+
+	base described
+		text "You see a heavy wrought iron key.  Inscribed on the key you read 'Cellblock A'"
+	end
+
+	base key
+		unlockValue 141
+	end
+end
+
+object Dng14Key2 of Key
+	properties
+		special
+		name "Iron Jailer's Key"
+	end
+
+	base described
+		text "You see a heavy wrought iron key.  Inscribed on the key you read 'Cellblock B'"
+	end
+
+	base key
+		unlockValue 142
+	end
+end
+
+object Dng14Key3 of Key
+	properties
+		special
+		name "Iron Jailer's Key"
+	end
+
+	base described
+		text "You see a heavy wrought iron key.  Inscribed on the key you read 'Cellblock C'"
+	end
+
+	base key
+		unlockValue 143
+	end
+end
+
+object Dng14NPC1 of NPC
+	properties
+		name "Jobo"
+		strength 15
+		endurance 15
+		level 40
+		special
+	end
+
+	base described
+		text "You see Jobo the Prisoner."
+	end
+
+	base talk
+		talkTreeID 76535
+	end
+
+	base character
+		title "the Prisoner"
+		properName "Jobo"
+		skill 7 5
+		skill 8 5
+		skill 9 5
+	end
+
+	base container
+		head 0 0 0 3 8 6 9 1 7 6 6 4
+		worn BrownShirt
+		worn BrownCowl
+		worn BrownLeatherPants
+		worn BrownBoots
+		worn SteelThrowingDagger
+	end
+end

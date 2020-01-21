@@ -1,0 +1,19 @@
+quest  360 #80000-01-500      #Dag, Cave of Thieves, 80000
+
+name  "Amulet of Stealth"
+type  fedex
+
+proposal  "You finished the book Picking Masterful Locks, did you?  And you want the grand-mastery skills.  OK, pal.  I guess you have come far enough in the craft.  I get so weary of wannabe lock pickers who just don't care about their craft.  It's giving us in the trade a bad name to have so many novices running around and ruining things.  OK, to get your last book, you'll have to find the Amulet of Stealth for me.  Will you?"
+
+declined  "Another wannabe finking out on me?"
+
+accepted  "I last heard of it in Caer Fandry.  Watch your step with those dark elves."
+
+reminder   "Go to Caer Fandry and seek the Amulet of Stealth."
+
+completed  "I guess you'll do in the trade.  Study this book."
+
+getItem   qAmuletStealth
+reward   skbLockpickingV 
+end
+

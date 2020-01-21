@@ -1,0 +1,18 @@
+quest  293 #8021-01-335        #Tallie, You Name It, West Leinster, 6033
+
+name  "Worm Food"
+type  fedex
+
+proposal  "Loch Dread Driftwood?  I've got a good supply.  Whittlers seem to favor it, so I keep it on hand.  I've one piece that's particularly nice.  You can have it if you'll do me a favor.  I need some vegetable leftovers for my worms.  I'm very proud of my compost and worm farm.  Would you pick up some leftovers for me?"
+
+declined  "I can't keep that driftwood forever.  You won't be able to come back for it."
+
+accepted  "Try the food stores."
+
+reminder   "Get me some vegetable leftovers for my compost worms."
+
+completed  "Thanks ever so much.   Here's a choice piece of driftwood.  I packaged it for safe transport."
+
+getItem  qLeftovers
+reward   qDriftwood 
+end

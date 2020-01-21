@@ -1,0 +1,30 @@
+id 8107
+
+banner "Greetings, Friend. Welcome to the Farthing Inn. What can I do for you?"
+
+topic "Tell me about Usk."
+   text "Usk is populated mostly by giant-folk, which means we're much larger and stronger than humans. And many of us are skilled at the art of fashioning weapons."
+   text "Though I'm a tavernkeeper, many of my relatives and friends are smiths. Uskers are well-known as the most skilled artisans of non-magical weapons and armor in the entire Realm."
+end
+
+topic "Who are you?"
+   text "I am Holiph, tavernkeeper of the Farthing Inn."
+   text "I'm a giant, and proud of it. And I'm an Usker, and proud of that, too."
+	text "Giants have always been clannish.  We tended to stick together, although there were a few of us who went off to human towns to live."
+	text "That's beginning to change. Giants are starting to roam more.  Nowadays you'll see giants in every town of the Realm, I'm told."
+end      
+
+topic "Can I do something for you?"
+   text "It's good of you to offer, but I've nothing for you today. Perhaps another day."
+end
+
+topic  "I seek an Imp Bloodstone." q85:0 #q6205-01-500:0
+	quest 86 #6205-01-525
+	text  "You have it, and you'd do well to leave Usk at once."
+end
+
+topic  "Have you an ancient statue of a warrior using a club?" q261:0 #q6905-01-400:0
+	quest 262 #6905-01-425
+	text  "You can't have forgotten already that you have it?"
+end
+

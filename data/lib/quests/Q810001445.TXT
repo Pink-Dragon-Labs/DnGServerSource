@@ -1,0 +1,16 @@
+quest  401 #8100-01-445        # Minka, Feel Your Best, healer, Asgard, 6906
+
+name  "Delivery for Minka"
+type  fedex
+
+proposal  "But of course.  We must take care of his hands.  He is an artist with his carving, and he doesn't realize it.  Such a gentle person.  I'll check on him later to be sure he is doing well.  He's not a complainer and might downplay an injury.  Meanwhile, you'll return at once with this poultice?"
+
+declined  "Then I will."
+
+accepted  "Good."
+
+reminder   "Go to Troels at once with that poultice.
+
+reward   qPoultice 
+end
+

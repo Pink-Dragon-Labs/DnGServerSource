@@ -1,0 +1,17 @@
+object Dng17Symbol of QuestObject
+	properties
+		view 51450
+		color 98
+		clutStart 53
+		name "Holy Symbol of Enid"
+		value 500
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base described
+		text "You see the lost holy symbol of Enid."
+	end
+end

@@ -1,0 +1,29 @@
+id 611501
+
+banner "Hail noble adventurer. I am Elek, Defender of the Faithful and Guardian of Light."
+
+topic "What does it mean to be a Knight of Enid?"
+	text "A Knight of Enid is one who has dedicated themselves to the Goddess of Peace, Romance, Nature, and all things good."
+	text "A Knight of Enid listens to the Prophet of Light and in so doing understands and follows the word of the Goddess of Light, Enid."
+	text "A Knight of Enid pursues a life of duty and devotion to the Goddess. They act, at all times, with honor, dignity, and chivalry."
+	text "Honor, staying true to the respect of self and others."
+	text "Dignity, that quality whereby one is worthy of the respect and honor of others."
+	text "Chivalry, the free offer of generosity and courtesy, the gracious manner by which one interacts with others."
+end
+
+topic "Tell me about the training grounds."
+	text "It is comforting to see so many making use of the training grounds. We shall have great need of their skills when the time comes."
+	text "The training grounds are a place where you can practice the arts of combat with your brethren. Just head to your left and follow the sounds of battle."
+	text "But, of course, not everyone cares to engage in combat with their fellows. Such persons should train by hunting the creatures of the wild."
+end
+
+
+topic "Elek? What does your name mean?"
+        text "Elek is a name of duty and responsibility."
+        text "It means Defender."
+        text "As many do, I adopted the name when it was given to me by the followers of the goddess."
+end 
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors? By Enid, what care we about rumors? Are not the prophecies enough to worry about?"
+end      

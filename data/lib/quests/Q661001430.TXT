@@ -1,0 +1,19 @@
+quest  192 #6610-01-430        # Kyluri, Battling Mage, magic, Kurz, 8017
+
+name  "Beaker of Distilled Water"
+type  fedex
+
+proposal  "Does she?  Very well.  We won't need to go into detail.  I do have some pieces that are probably the right size.  I'll assemble them.  I have a need you can fill in the meantime.  I need a beaker of distilled water.  Somewhere in this town you should find some.  Will you do that?"
+
+declined  "You don't want that shielding very badly, do you?"
+
+accepted  "Good.  And come straight back, will you."
+
+reminder   "Find a beaker of distilled water."
+
+completed  "Your timing is excellent.  Take your package and go swiftly."
+
+getItem   qBeakerWater
+reward   qMetalShielding 
+end
+

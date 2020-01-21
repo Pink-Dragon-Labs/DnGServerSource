@@ -1,0 +1,19 @@
+quest  41 #6073-01-430        # Gnarl, Daemon's Delight, tavern, Caer Fandry, 6604
+
+name  "Copperhead Extract"
+type  fedex
+
+proposal  "Who wants to know?  It's not for the likes of you, I'll say that.  But maybe I'll make an exception this once.  I need something from Silverbrook.   If you'll go fetch it, I'll give you some of my special brand of ale, not that you know how to appreciate it.  What about it?"
+
+declined  "Stop asking stupid questions, then."
+
+accepted  "Some of those elves don't like dark elves.  Don't mention me.  Just fetch me some copperhead extract."
+
+reminder   "Copperhead extract from Silverbrook."
+
+completed  "You better hadn't of mentioned my name.  Take this special ale and get out." 
+
+getItem   qCopperheadExtract
+reward   qSpecialAle 
+end
+

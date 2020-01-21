@@ -1,0 +1,441 @@
+object GMEasterEgg of Food
+	properties
+		name "GM Egg"
+		view  62650 
+		value  10 
+		clutStart  89
+ 		toss
+	end
+	base carryable
+		bulk 1.0			 
+		weight 0.1
+	end
+	base container
+		bulkCapacity 1
+		weightCapacity 20
+	end
+	base described
+		text "You see a GM egg."
+		shopText "This is a GM egg."
+	end
+end
+
+
+object GMOliveEasterEgg of GMEasterEgg
+	properties
+		name "Olive GM Egg"
+		color 48 
+		toss
+	end
+	base described
+		text "You see an olive GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLimeEasterEgg of GMEasterEgg
+	properties
+		name "Lime GM Egg"
+		color 49 
+		toss
+	end
+	base described
+		text "You see a lime GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMExtraLimeEasterEgg of GMEasterEgg
+	properties
+		name "Extra Lime GM Egg"
+		color  50 
+		toss
+	end
+	base described
+		text "You see an extra lime GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLimeBlueEasterEgg of GMEasterEgg
+	properties
+      name "Lime Blue GM Egg"
+      color  52 
+		toss
+	end
+	base described
+		text "You see a lime-blue GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMBlueEasterEgg of GMEasterEgg
+	properties
+		name "Blue GM Egg"
+		color 53 
+		toss
+	end
+	base described
+		text "You see a blue GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMAzureEasterEgg of GMEasterEgg
+	properties
+		name "Azure GM Egg"
+		color 54 
+		toss
+	end
+	base described
+		text "You see an azure GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLightAzureEasterEgg of GMEasterEgg
+	properties
+		name "Light Azure GM Egg"
+		color  55 
+		toss
+	end
+	base described
+		text "You see a light azure GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMBlueRedEasterEgg of GMEasterEgg
+	properties
+		name "Blue Red GM Egg"
+      color  57 
+		toss
+	end
+	base described
+		text "You see a blue red GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMRedEasterEgg of GMEasterEgg
+	properties
+		name "Red GM Egg"
+		color 58 
+		toss
+	end
+	base described
+		text "You see a red GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMPinkEasterEgg of GMEasterEgg
+	properties
+		name "Pink GM Egg"
+		color 59 
+		toss
+	end
+	base described
+		text "You see a pink GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMHotPinkEasterEgg of GMEasterEgg
+	properties
+		name "Hot Pink GM Egg"
+		color  60 
+		toss
+	end
+	base described
+		text "You see a hot pink GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMPinkGoldEasterEgg of GMEasterEgg
+	properties
+		name "Pink Gold GM Egg"
+      color 62
+		toss
+	end
+	base described
+		text "You see a pink gold GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMGoldEasterEgg of GMEasterEgg
+	properties
+		name "Gold GM Egg"
+		color 63 
+		toss
+	end
+	base described
+		text "You see a gold GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMYellowEasterEgg of GMEasterEgg
+	properties
+		name "Yellow GM Egg"
+		color 64 
+		toss
+	end
+	base described
+		text "You see a yellow GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLightYellowEasterEgg of GMEasterEgg
+	properties
+		name "Light Yellow GM Egg"
+		color  65 
+		toss
+	end
+	base described
+		text "You see a light yellow GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMYellowVioletEasterEgg of GMEasterEgg
+	properties
+		name "Yellow Violet GM Egg"
+      color  67
+		toss
+	end
+	base described
+		text "You see a yellow violet GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMVioletEasterEgg of GMEasterEgg
+	properties
+		name "Violet GM Egg"
+		color 68 
+		toss
+	end
+	base described
+		text "You see a violet GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMMagentaEasterEgg of GMEasterEgg
+	properties
+		name "Magenta GM Egg"
+		color 69 
+		toss
+	end
+	base described
+		text "You see a magenta GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLightMagentaEasterEgg of GMEasterEgg
+	properties
+		name "Light Magenta GM Egg"
+		color  70 
+		toss
+	end
+	base described
+		text "You see a light magenta GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMBrownEasterEgg of GMEasterEgg
+	properties
+		name "Brown GM Egg"
+		color 73 
+		toss
+	end
+	base described
+		text "You see a brown GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMTanEasterEgg of GMEasterEgg
+	properties
+		name "Tan GM Egg"
+		color 74 
+		toss
+	end
+	base described
+		text "You see a tan GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLightTanEasterEgg of GMEasterEgg
+	properties
+		name "Light Tan GM Egg"
+		color  75 
+		toss
+	end
+	base described
+		text "You see a light tan GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMTanAquaEasterEgg of GMEasterEgg
+	properties
+		name "Tan Aqua GM Egg"
+      color  76 
+		toss
+	end
+	base described
+		text "You see a tan aqua GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMAquaEasterEgg of GMEasterEgg
+	properties
+		name "Aqua GM Egg"
+		color 78 
+		toss
+	end
+	base described
+		text "You see an aqua GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMTealEasterEgg of GMEasterEgg
+	properties
+		name "Teal GM Egg"
+		color 79 
+		toss
+	end
+	base described
+		text "You see a teal GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLightTealEasterEgg of GMEasterEgg
+	properties
+		name "Light Teal GM Egg"
+		color  80 
+		toss
+	end
+	base described
+		text "You see a light teal GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMTealGreenEasterEgg of GMEasterEgg
+	properties
+		name "Teal Green GM Egg"
+      color  82 
+		toss
+	end
+	base described
+		text "You see a teal green GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMGreenEasterEgg of GMEasterEgg
+	properties
+		name "Green GM Egg"
+		color 83 
+		toss
+	end
+	base described
+		text "You see a green GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMJadeEasterEgg of GMEasterEgg
+	properties
+		name "Jade GM Egg"
+		color 84 
+		toss
+	end
+	base described
+		text "You see a jade GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMOrangeEasterEgg of GMEasterEgg
+	properties
+		name "Orange GM Egg"
+		color 88 
+		toss
+	end
+	base described
+		text "You see an orange GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMAmberEasterEgg of GMEasterEgg
+	properties
+		name "Amber GM Egg"
+		color 89 
+		toss
+	end
+	base described
+		text "You see an amber GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMRoyalEasterEgg of GMEasterEgg
+	properties
+		name "Royal GM Egg"
+		color 93 
+		toss
+	end
+	base described
+		text "You see a royal GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMPurpleEasterEgg of GMEasterEgg
+	properties
+		name "Purple GM Egg"
+		color 94 
+		toss
+	end
+	base described
+		text "You see a purple GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMLightPurpleEasterEgg of GMEasterEgg
+	properties
+		name "Light Purple GM Egg"
+		color  95 
+		toss
+	end
+	base described
+		text "You see a light purple GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMPurpleBlackEasterEgg of GMEasterEgg
+	properties
+		name "Purple Black GM Egg"
+		color  96 
+		toss
+	end
+	base described
+		text "You see a purple black GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMBlackEasterEgg of GMEasterEgg
+	properties
+		name "Black GM Egg"
+		color 98 
+		toss
+	end
+	base described
+		text "You see a black GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMGrayEasterEgg of GMEasterEgg
+	properties
+      name "Gray GM Egg"
+		color 99 
+		toss
+	end
+	base described
+		text "You see a gray GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end
+object GMWhiteEasterEgg of GMEasterEgg
+	properties
+      name "White GM Egg"
+		color 100 
+		toss
+	end
+	base described
+		text "You see a white GM egg"
+		shopText "Special eggs to be used only as GM gifts to the players."
+	end
+end

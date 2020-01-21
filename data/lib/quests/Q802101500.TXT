@@ -1,0 +1,18 @@
+quest  300 #8021-01-500   #Mara, Wards of War, Kurz, 8021
+
+name  "Tail of Wolf"
+type  fedex
+
+proposal  "Grand-Mastery in Necromancy is only for the very best.  You think you qualify?  We'll find out.  I'm sending you to get a Wolf's Tail.  How do you like that?  You'll get the crucial spellbook if you bring one back.  Are you going to try?"
+
+declined  "It figures."
+
+accepted  "I'll tell you this.  Monmouth's a good starting place."
+
+reminder   "A wolf's tail.  A wolf's tail.  Look in Monmouth."
+
+completed  "I'll be.  Who would have thought you'd really do it.  Here's the Grand-Master spellbook for Necromancy."
+
+getItem   qWolfTail
+reward   skbNecromancyV 
+end

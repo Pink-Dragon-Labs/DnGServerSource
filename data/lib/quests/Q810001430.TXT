@@ -1,0 +1,19 @@
+quest  398 #8100-01-430        # Sandor, Ascetos Cave, 80500
+
+name  "Flint for Sandor"
+type  fedex
+
+proposal  "You're brave to venture out here, mate, I'll say that for you.  I find odd things in the desert and I found a fossil scorpion that appears to have two tails.  It's probably just two scorpions all layered together.  I trust you realize that?  You arrive in time to do an important errand for me.  I'll give you the fossil if you'll undertake it.  Will you?"
+
+declined  "Then you better make tracks, mate.  This is a dangerous place."
+
+accepted  "I need a good piece of flint.  The best ones are found in Silverbrook."
+
+reminder   "Get me a piece of flint from Silverbrook."
+
+completed  "Good show, mate.  Take your fossil and forget you ever talked to me."
+
+getItem  qFlint
+reward   qTwotailedScorpion 
+end
+

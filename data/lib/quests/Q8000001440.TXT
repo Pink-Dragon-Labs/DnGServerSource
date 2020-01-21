@@ -1,0 +1,14 @@
+quest  359 #80000-01-440         # Devo, Food Cart, Wen, 5109
+
+name  "Devo is Rushed"
+type  fedex
+
+proposal  "Of course I do.  Who are you?  Oh, never mind.  You wouldn't know about it if he hadn't sent you I suppose.  Why would you want to kid about his snack?  Here you go.  I'm sorry to be so brusk, but I'm in a great rush.  You are going to take it to him, aren't you?"
+
+declined  "I don't have time for jokes right now."
+
+accepted  "Good.  Take it.  Bye."
+
+reward   qLegotiaFood 
+end
+

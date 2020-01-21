@@ -1,0 +1,411 @@
+room 23031
+   properties
+      picture	3500
+      north	23030 
+      south	23032 
+      west	23190 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23032
+   properties
+      picture	3500
+      north	23031 
+      south	23033 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23033
+   properties
+      picture	3500
+      north	23032 
+      east	23034 
+      west	23215 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23034
+   properties
+      picture	3500
+      east	23035 
+      west	23033 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23035
+   properties
+      picture	3500
+      east	23036 
+      west	23034 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23036
+   properties
+      picture	3500
+      east	23037 
+      west	23035 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23037
+   properties
+      picture	3500
+      east	23038 
+      west	23036 
+      roomName	"Water Elemental"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23038
+   properties
+      picture	3500
+      east	23039 
+      west	23036 
+      roomName	"Air Elemental"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23039
+   properties
+      picture	3500
+      east	23040 
+      west	23038 
+      roomName	"Earth Elemental"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23040
+   properties
+      picture	3500
+      east	23041 
+      west	23039 
+      roomName	"Fire Elemental"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23041
+   properties
+      picture	3500
+      east	23042 
+      west	23040 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23042
+   properties
+      picture	3500
+      east	23043 
+      west	23041 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23190
+   properties
+      picture	3500
+      east	23031 
+      west	23191 
+      roomName	"Thieves"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23191
+   properties
+      picture	3500
+      east	23190 
+      west	23192 
+      roomName	"Bounty Hunters"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23192
+   properties
+      picture	3500
+      east	23193 
+      west	23191 
+      roomName	"Warriors"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23193
+   properties
+      picture	3500
+      east	23194 
+      west	23192 
+      roomName	"Cyclops"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23195
+   properties
+      picture	3500
+      east	23194 
+      west	23196 
+      roomName	"Medusa"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23196
+   properties
+      picture	3500
+      north	23198 
+      east	23195 
+      west	23197 
+      roomName	"Devil"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23197
+   properties
+      picture	3500
+      east	23196 
+      west	23205 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23198
+   properties
+      picture	3500
+      north	23199 
+      south	23196 
+      roomName	"Champion"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23199
+   properties
+      picture	3500
+      north	23200 
+      south	23198 
+      roomName	"Protector"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23200
+   properties
+      picture	3500
+      west	23201 
+      south	23199 
+      roomName	"Evil Minion"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23201
+   properties
+      picture	3500
+      east	23200 
+      west	23202 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23202
+   properties
+      picture	3500
+      east	23201 
+      south	23203 
+      roomName	"Evil Mage"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23203
+   properties
+      picture	3500
+      north	23202 
+      south	23204 
+      roomName	"Ancient One"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23204
+   properties
+      picture	3500
+      north	23203 
+      south	23205 
+      roomName	"Mist Mage"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23205
+   properties
+      picture	3500
+      north	23204 
+      east	23197 
+      south	23206 
+      roomName	"Seeker"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23206
+   properties
+      picture	3500
+      north	23205 
+      south	23207 
+      roomName	"Servant of the Mists"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23207
+   properties
+      picture	3500
+      north	23206 
+      east	23208 
+      roomName	"Berserker"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23208
+   properties
+      picture	3500
+      east	23209 
+      west	23207 
+      roomName	"Cleric"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23209
+   properties
+      picture	3500
+      east	23210 
+      west	23208 
+      roomName	"LightWiz"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23210
+   properties
+      picture	3500
+      east	23211 
+      west	23209 
+      roomName	"Priestess"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23211
+   properties
+      picture	3500
+      east	23212 
+      west	23210 
+      roomName	"Paladin"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23212
+   properties
+      picture	3500
+      east	23213 
+      west	23211 
+      roomName	"Guardian"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23213
+   properties
+      picture	3500
+      east	23214 
+      west	23212 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23214
+   properties
+      picture	3500
+      east	23215 
+      west	23213 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23215
+   properties
+      picture	3500
+      east	23033 
+      west	23214 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end

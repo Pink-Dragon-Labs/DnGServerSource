@@ -1,0 +1,16 @@
+quest  155 #6403-01-440        # Mananor, Clothes Make the Elf, Drune, 8312
+
+name  "Mission Accomplished"
+type  fedex
+
+proposal  "Yes, indeed.  It is ready for her.  I presume you'll deliver it?"
+
+declined  "Too bad."
+
+accepted  "Excellent. Goodbye."
+
+reminder   "Hadn't you better take Daria's belt to her?"
+
+reward   qDariaBelt 
+end
+

@@ -1,0 +1,5382 @@
+# Dungeonmaker World File (DNGWASP2.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 100000
+# Dungeon last room = 100056
+# Number of objects in dungeon = 536
+# Level 0 information:
+room 100054
+	properties
+		template 30805
+		east 100053
+		flags	0
+	end
+	objects
+		object RandomCritter-100054-0 of RandomCritter
+			properties
+				x	458
+				y	261
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomCritter-100054-1 of RandomCritter
+			properties
+				x	281
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100054-2 of Torch
+			properties
+				x	425
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100053
+	properties
+		template 30602
+		south 100052
+		west 100054
+		flags	0
+	end
+	objects
+		object RandomCritter-100053-0 of RandomCritter
+			properties
+				x	245
+				y	257
+				loop	2
+			end
+			base described
+			end
+		end
+		object Torch-100053-1 of Torch
+			properties
+				x	84
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-100053-2 of Web3
+			properties
+				x	416
+				y	126
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-100053-3 of Web6
+			properties
+				x	377
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-100053-4 of Web5
+			properties
+				x	410
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-100053-5 of Web4
+			properties
+				x	457
+				y	172
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-100053-6 of Web1
+			properties
+				x	396
+				y	121
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-100053-7 of Web2
+			properties
+				x	390
+				y	112
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web7-100053-8 of Web7
+			properties
+				x	338
+				y	159
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100013
+	properties
+		template 32301
+		east 100052
+		flags	0
+	end
+	objects
+		object WaspDrone-100013-0 of WaspDrone
+			properties
+				x	431
+				y	307
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100013-1 of WaspDrone
+			properties
+				x	429
+				y	226
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Ratling-100013-2 of Ratling
+			properties
+				x	578
+				y	253
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Ratling-100013-3 of Ratling
+			properties
+				x	339
+				y	262
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomBelt-100013-4 of RandomBelt
+			properties
+				x	417
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-100013-5 of RandomStuff
+			properties
+				x	469
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-100013-6 of RandomJunk
+			properties
+				x	537
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBoots-100013-7 of RandomBoots
+			properties
+				x	497
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCowl-100013-8 of RandomCowl
+			properties
+				x	424
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-100013-9 of RandomPants
+			properties
+				x	329
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-100013-10 of RandomShirt
+			properties
+				x	460
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-100013-11 of RandomArmorShirt
+			properties
+				x	537
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-100013-12 of RandomArmorPants
+			properties
+				x	540
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBand-100013-13 of RandomBand
+			properties
+				x	356
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShield-100013-14 of RandomShield
+			properties
+				x	425
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-100013-15 of RandomAmulet
+			properties
+				x	348
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomOrb-100013-16 of RandomOrb
+			properties
+				x	490
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomScroll-100013-17 of RandomScroll
+			properties
+				x	480
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRing-100013-18 of RandomRing
+			properties
+				x	359
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRing-100013-19 of RandomRing
+			properties
+				x	351
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-100013-20 of RandomPotion
+			properties
+				x	452
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBauble-100013-21 of RandomBauble
+			properties
+				x	502
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-100013-22 of RandomSkillbook
+			properties
+				x	354
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWand-100013-23 of RandomWand
+			properties
+				x	462
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-100013-24 of RandomMegaTreasure
+			properties
+				x	529
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMonsterMegaTreasure-100013-25 of RandomMonsterMegaTreasure
+			properties
+				x	326
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMonsterAmulet-100013-26 of RandomMonsterAmulet
+			properties
+				x	498
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMonsterOrb-100013-27 of RandomMonsterOrb
+			properties
+				x	528
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100013-28 of RandomMegaMoney
+			properties
+				x	458
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100013-29 of RandomMegaMoney
+			properties
+				x	351
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPlateShirt-100013-30 of RandomPlateShirt
+			properties
+				x	459
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-100013-31 of RandomRichWarriorWeapon
+			properties
+				x	528
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomZombieRobe-100013-32 of RandomZombieRobe
+			properties
+				x	532
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object maDenseBoots-100013-33 of maDenseBoots
+			properties
+				x	420
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object maDenseBands-100013-34 of maDenseBands
+			properties
+				x	337
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object AleJug-100013-35 of AleJug
+			properties
+				x	384
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ambrosia-100013-36 of Ambrosia
+			properties
+				x	520
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object WineFlask-100013-37 of WineFlask
+			properties
+				x	451
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object WaterBottle-100013-38 of WaterBottle
+			properties
+				x	431
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingCheese-100013-39 of RatlingCheese
+			properties
+				x	426
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bread-100013-40 of Bread
+			properties
+				x	429
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object Veggies-100013-41 of Veggies
+			properties
+				x	573
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object pSwampWater-100013-42 of pSwampWater
+			properties
+				x	477
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object pWeakness-100013-43 of pWeakness
+			properties
+				x	522
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object pPoison-100013-44 of pPoison
+			properties
+				x	334
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+		object pDeath-100013-45 of pDeath
+			properties
+				x	434
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Crystal-100013-46 of Crystal
+			properties
+				x	428
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object RubyChip-100013-47 of RubyChip
+			properties
+				x	562
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object Aquamarine-100013-48 of Aquamarine
+			properties
+				x	402
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ruby-100013-49 of Ruby
+			properties
+				x	504
+				y	209
+				loop	0
+			end
+			base described
+			end
+		end
+		object Turquoise-100013-50 of Turquoise
+			properties
+				x	547
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Topaz-100013-51 of Topaz
+			properties
+				x	321
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Emmerald-100013-52 of Emmerald
+			properties
+				x	400
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object Emerald-100013-53 of Emerald
+			properties
+				x	558
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ruby-100013-54 of Ruby
+			properties
+				x	518
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Jet-100013-55 of Jet
+			properties
+				x	491
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100013-56 of Diamond
+			properties
+				x	387
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100013-57 of Diamond
+			properties
+				x	320
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100013-58 of Torch
+			properties
+				x	303
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object GargoyleFountain-100013-59 of GargoyleFountain
+			properties
+				x	496
+				y	202
+				loop	0
+			end
+			base described
+			end
+		end
+		object BlueRose-100013-60 of BlueRose
+			properties
+				x	523
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-100013-61 of Sign
+			properties
+				x	596
+				y	229
+				loop	0
+			end
+			base described
+				text	"The Stash."
+			end
+		end
+	end
+end
+room 100052
+	properties
+		template 32701
+		west 100013
+		north 100053
+		flags	248
+	end
+	objects
+		object BabyDragon-100052-0 of BabyDragon
+			properties
+				x	290
+				y	151
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-100052-1 of BabyDragon
+			properties
+				x	273
+				y	262
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+		object Torch-100052-2 of Torch
+			properties
+				x	84
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-100052-3 of SittingMushroom
+			properties
+				x	344
+				y	271
+				loop	0
+			end
+			actions
+				vBeSatOn teleport dobj 100000 
+			end
+			base described
+			end
+		end
+	end
+end
+room 100000
+	properties
+		template 31002
+		south 100001
+		flags	0
+	end
+	objects
+		object DungeonBackUp-100000-0 of DungeonBackUp
+			properties
+				x	284
+				y	215
+				loop	2
+				linkTo	hollowTree2124-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-100000-1 of Torch
+			properties
+				x	30
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100000-2 of Torch
+			properties
+				x	624
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-100000-3 of Sign
+			properties
+				x	85
+				y	306
+				loop	0
+			end
+			base described
+				text	"Welcome to Greater Hive, home of mutated and malicious wasps.  Enter, if you dare."
+			end
+		end
+		object Torch-100000-4 of Torch
+			properties
+				x	444
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100000-5 of Torch
+			properties
+				x	149
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100001
+	properties
+		template 30402
+		south 100002
+		north 100000
+		flags	40
+	end
+	objects
+		object WaspDrone-100001-0 of BigWasp
+			properties
+				x	97
+				y	347
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100001-1 of BigWasp
+			properties
+				x	506
+				y	324
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100001-2 of BigWasp
+			properties
+				x	306
+				y	362
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100001-3 of BigWasp
+			properties
+				x	377
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100001-4 of BigWasp
+			properties
+				x	172
+				y	288
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 100007
+	properties
+		template 32301
+		east 100004
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-100007-0 of DungeonBackDoor
+			properties
+				x	511
+				y	202
+				loop	2
+				linkTo	DungeonBackDoor-100008-6
+			end
+			base lockable
+				isLocked	1
+				lockValue	-22
+				unlockValue	-22
+			end
+			base described
+			end
+		end
+		object Torch-100007-1 of Torch
+			properties
+				x	400
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100004
+	properties
+		template 30703
+		east 100003
+		west 100007
+		flags	200
+	end
+	objects
+		object LockedChest-100004-0 of LockedChest
+			properties
+				x	320
+				y	257
+				loop	0
+			end
+			actions
+				vBeOpened close self 
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object WaspDrone-100004-1 of StingingFury
+			properties
+				x	494
+				y	250
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100004-2 of BigWasp
+			properties
+				x	370
+				y	228
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100004-3 of WaspHealer
+			properties
+				x	269
+				y	229
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100004-4 of FireWasp
+			properties
+				x	174
+				y	254
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomAmulet-100004-5 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-100004-6 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomBand-100004-7 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-100004-8 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomGem-100004-9 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterOrb-100004-10 of RandomMonsterOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100004-11 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100004-12 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-100004-13 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100004-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100003
+	properties
+		template 30906
+		east 100002
+		west 100004
+		flags	192
+	end
+	objects
+		object WaspWarrior-100003-0 of EvilBee
+			properties
+				x	547
+				y	269
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100003-1 of EvilBee
+			properties
+				x	320
+				y	244
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100003-2 of EvilBee
+			properties
+				x	175
+				y	269
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 100002
+	properties
+		template 32201
+		east 100005
+		west 100003
+		north 100001
+		flags	192
+	end
+	objects
+		object WaspQueen-100002-0 of WaspHealer
+			properties
+				x	322
+				y	284
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100002-1 of WaspHealer
+			properties
+				x	58
+				y	329
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspDrone-100002-2 of BigWasp
+			properties
+				x	498
+				y	297
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspWorker-100002-3 of BigWasp
+			properties
+				x	183
+				y	252
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object SittingMushroom-100002-4 of SittingMushroom
+			properties
+				x	418
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-100002-5 of SmokeC
+			properties
+				x	117
+				y	54
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-100002-6 of SmokeC
+			properties
+				x	223
+				y	106
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100005
+	properties
+		template 30901
+		east 100006
+		west 100002
+		flags	200
+	end
+	objects
+		object WaspQueen-100005-0 of BigWasp
+			properties
+				x	540
+				y	303
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100005-1 of BigWasp
+			properties
+				x	325
+				y	264
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100005-2 of BigWasp
+			properties
+				x	184
+				y	242
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object SittingMushroom-100005-3 of SittingMushroom
+			properties
+				x	145
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-100005-4 of Smoke2
+			properties
+				x	596
+				y	313
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-100005-5 of SmokeA
+			properties
+				x	109
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100006
+	properties
+		template 30701
+		west 100005
+		flags	0
+	end
+	objects
+		object DungeonBackArch-100006-0 of DungeonBackArch
+			properties
+				x	311
+				y	204
+				loop	0
+				linkTo	DungeonBackArch-100009-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-100006-1 of Torch
+			properties
+				x	86
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100006-2 of Spring
+			properties
+				x	494
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100006-3 of Spring
+			properties
+				x	464
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100006-4 of Spring
+			properties
+				x	393
+				y	349
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-100006-5 of Spring
+			properties
+				x	463
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100006-6 of Spring
+			properties
+				x	405
+				y	314
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-100006-7 of Spring
+			properties
+				x	383
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100006-8 of Spring
+			properties
+				x	309
+				y	352
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100006-9 of Spring
+			properties
+				x	185
+				y	357
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-100006-10 of Spring
+			properties
+				x	136
+				y	350
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-100006-11 of Spring
+			properties
+				x	89
+				y	349
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-100006-12 of Spring
+			properties
+				x	53
+				y	352
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100050
+	properties
+		template 32301
+		east 100049
+		flags	248
+	end
+	objects
+		object WaspWorker-100050-0 of EvilBee
+			properties
+				x	459
+				y	238
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100050-1 of EvilBee
+			properties
+				x	538
+				y	271
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100050-2 of EvilBee
+			properties
+				x	346
+				y	255
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object TrapDoor-100050-3 of TrapDoor
+			properties
+				x	468
+				y	260
+				loop	0
+				linkTo	TrapDoor-100051-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Button-100050-4 of Button
+			properties
+				x	567
+				y	221
+				loop	0
+			end
+			actions
+				vBeActivated kill dobj 
+			end
+			base described
+			end
+		end
+	end
+end
+room 100049
+	properties
+		template 32401
+		south 100048
+		east 100051
+		west 100050
+		flags	248
+	end
+	objects
+		object WaspQueen-100049-0 of WaspHealer
+			properties
+				x	335
+				y	314
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100049-1 of WaspHealer
+			properties
+				x	188
+				y	317
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100049-2 of WaspHealer
+			properties
+				x	264
+				y	253
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100049-3 of WaspHealer
+			properties
+				x	356
+				y	273
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100049-4 of WaspHealer
+			properties
+				x	159
+				y	280
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object Fountain-100049-5 of Fountain
+			properties
+				x	269
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100049-6 of Spring
+			properties
+				x	529
+				y	349
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100049-7 of Spring
+			properties
+				x	589
+				y	350
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100049-8 of Spring
+			properties
+				x	594
+				y	352
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 100051
+	properties
+		template 30701
+		west 100049
+		flags	248
+	end
+	objects
+		object WaspQueen-100051-0 of EvilBee
+			properties
+				x	271
+				y	288
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100051-1 of EvilBee
+			properties
+				x	336
+				y	230
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100051-2 of EvilBee
+			properties
+				x	140
+				y	270
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object TrapDoor-100051-3 of TrapDoor
+			properties
+				x	244
+				y	265
+				loop	0
+				linkTo	TrapDoor-100050-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Button-100051-4 of Button
+			properties
+				x	114
+				y	238
+				loop	0
+			end
+			actions
+				vBeActivated clearActions LockedChest-100004-0 vBeOpened 
+			end
+			base described
+			end
+		end
+	end
+end
+room 100015
+	properties
+		template 30102
+		south 100016
+		east 100014
+		flags	40
+	end
+	objects
+		object WaspWorker-100015-0 of WaspHealer
+			properties
+				x	375
+				y	300
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100015-1 of BigWasp
+			properties
+				x	487
+				y	278
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100015-2 of BigWasp
+			properties
+				x	296
+				y	202
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100015-3 of EvilBee
+			properties
+				x	184
+				y	289
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+	end
+end
+room 100014
+	properties
+		template 30906
+		east 100011
+		west 100015
+		flags	232
+	end
+	objects
+		object WaspQueen-100014-0 of WaspHealer
+			properties
+				x	556
+				y	231
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100014-1 of WaspHealer
+			properties
+				x	426
+				y	279
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100014-2 of WaspHealer
+			properties
+				x	325
+				y	304
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100014-3 of WaspHealer
+			properties
+				x	180
+				y	260
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 100011
+	properties
+		template 31301
+		east 100008
+		west 100014
+		flags	0
+	end
+end
+room 100008
+	properties
+		template 31503
+		east 100012
+		west 100011
+		flags	248
+	end
+	objects
+		object WaspWarrior-100008-0 of FireWasp
+			properties
+				x	407
+				y	294
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100008-1 of FireWasp
+			properties
+				x	416
+				y	215
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100008-2 of FireWasp
+			properties
+				x	280
+				y	292
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100008-3 of FireWasp
+			properties
+				x	492
+				y	286
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100008-4 of FireWasp
+			properties
+				x	261
+				y	220
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100008-5 of FireWasp
+			properties
+				x	160
+				y	284
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-100008-6 of DungeonBackDoor
+			properties
+				x	342
+				y	355
+				loop	3
+				linkTo	DungeonBackDoor-100007-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-100008-7 of Torch
+			properties
+				x	84
+				y	349
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100008-8 of Torch
+			properties
+				x	142
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100008-9 of Torch
+			properties
+				x	330
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100008-10 of Torch
+			properties
+				x	518
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100008-11 of Torch
+			properties
+				x	606
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-100008-12 of FireB
+			properties
+				x	273
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-100008-13 of FireB
+			properties
+				x	410
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-100008-14 of Smoke1
+			properties
+				x	414
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-100008-15 of SmokeA
+			properties
+				x	264
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100012
+	properties
+		template 30703
+		east 100018
+		west 100008
+		flags	0
+	end
+end
+room 100018
+	properties
+		template 30703
+		east 100019
+		west 100012
+		flags	248
+	end
+	objects
+		object WaspQueen-100018-0 of EvilBee
+			properties
+				x	150
+				y	276
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100018-1 of StingingFury
+			properties
+				x	555
+				y	275
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100018-2 of StingingFury
+			properties
+				x	411
+				y	274
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100018-3 of EvilBee
+			properties
+				x	253
+				y	257
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 100019
+	properties
+		template 31104
+		south 100020
+		west 100018
+		flags	248
+	end
+	objects
+		object WaspQueen-100019-0 of WaspHealer
+			properties
+				x	485
+				y	291
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100019-1 of WaspHealer
+			properties
+				x	333
+				y	246
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100019-2 of WaspHealer
+			properties
+				x	144
+				y	252
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 100009
+	properties
+		template 30303
+		south 100010
+		flags	0
+	end
+	objects
+		object Bones-100009-0 of Bones
+			properties
+				x	136
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackArch-100009-1 of DungeonBackArch
+			properties
+				x	474
+				y	226
+				loop	0
+				linkTo	DungeonBackArch-100006-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object TombstoneA-100009-2 of TombstoneA
+			properties
+				x	98
+				y	281
+				loop	0
+			end
+			base described
+				text	"Here lie the remains of Buckwheat and Jhyad, victims of fatal stings."
+			end
+		end
+		object Torch-100009-3 of Torch
+			properties
+				x	324
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-100009-4 of Web5
+			properties
+				x	116
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-100009-5 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-100009-0
+			end
+			base described
+			end
+		end
+		object RandomJunk-100009-6 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-100009-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-100009-7 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-100009-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-100009-8 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-100009-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-100009-9 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-100009-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100048
+	properties
+		template 30402
+		south 100047
+		north 100049
+		flags	248
+	end
+	objects
+		object WaspWarrior-100048-0 of FireWasp
+			properties
+				x	323
+				y	222
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100048-1 of FireWasp
+			properties
+				x	250
+				y	220
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object Torch-100048-2 of Torch
+			properties
+				x	204
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100048-3 of Torch
+			properties
+				x	378
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100048-4 of Torch
+			properties
+				x	99
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100048-5 of Torch
+			properties
+				x	507
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100016
+	properties
+		template 31003
+		south 100017
+		north 100015
+		flags	40
+	end
+	objects
+		object WaspWarrior-100016-0 of FireWasp
+			properties
+				x	317
+				y	347
+				loop	3
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100016-1 of FireWasp
+			properties
+				x	294
+				y	184
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100016-2 of FireWasp
+			properties
+				x	433
+				y	300
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100016-3 of FireWasp
+			properties
+				x	204
+				y	288
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object FireB-100016-4 of FireB
+			properties
+				x	152
+				y	297
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke2-100016-5 of Smoke2
+			properties
+				x	160
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke3-100016-6 of Smoke3
+			properties
+				x	188
+				y	121
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke3-100016-7 of Smoke3
+			properties
+				x	302
+				y	84
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100020
+	properties
+		template 30402
+		south 100021
+		north 100019
+		flags	0
+	end
+end
+room 100010
+	properties
+		template 31006
+		south 100032
+		north 100009
+		flags	248
+	end
+	objects
+		object WaspDrone-100010-0 of BigWasp
+			properties
+				x	423
+				y	282
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100010-1 of BigWasp
+			properties
+				x	203
+				y	265
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100010-2 of BigWasp
+			properties
+				x	454
+				y	190
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100010-3 of BigWasp
+			properties
+				x	539
+				y	273
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100010-4 of BigWasp
+			properties
+				x	313
+				y	248
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100010-5 of BigWasp
+			properties
+				x	125
+				y	301
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Shroom3-100010-6 of Shroom3
+			properties
+				x	85
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100010-7 of Shroom3
+			properties
+				x	134
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100010-8 of Shroom3
+			properties
+				x	93
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100010-9 of Shroom3
+			properties
+				x	80
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-100010-10 of Shroom2
+			properties
+				x	113
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-100010-11 of Shroom1
+			properties
+				x	147
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100047
+	properties
+		template 30402
+		south 100035
+		north 100048
+		flags	248
+	end
+	objects
+		object WaspDrone-100047-0 of EvilBee
+			properties
+				x	388
+				y	251
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100047-1 of EvilBee
+			properties
+				x	288
+				y	193
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100047-2 of EvilBee
+			properties
+				x	196
+				y	247
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object SittingMushroom-100047-3 of SittingMushroom
+			properties
+				x	117
+				y	303
+				loop	0
+			end
+			actions
+				vBeStoodUpOn teleport dobj 100000 1 
+			end
+			base described
+			end
+		end
+	end
+end
+room 100017
+	properties
+		template 30801
+		east 100022
+		north 100016
+		flags	200
+	end
+	objects
+		object WaspDrone-100017-0 of BigWasp
+			properties
+				x	458
+				y	297
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100017-1 of BigWasp
+			properties
+				x	548
+				y	267
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100017-2 of BigWasp
+			properties
+				x	394
+				y	209
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100017-3 of BigWasp
+			properties
+				x	292
+				y	253
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 100022
+	properties
+		template 30909
+		south 100023
+		west 100017
+		flags	232
+	end
+	objects
+		object WaspQueen-100022-0 of StingingFury
+			properties
+				x	268
+				y	293
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100022-1 of StingingFury
+			properties
+				x	114
+				y	355
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100022-2 of WaspHealer
+			properties
+				x	402
+				y	273
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWorker-100022-3 of StingingFury
+			properties
+				x	460
+				y	328
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100022-4 of WaspHealer
+			properties
+				x	504
+				y	236
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100022-5 of WaspHealer
+			properties
+				x	204
+				y	285
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object SittingMushroom-100022-6 of SittingMushroom
+			properties
+				x	66
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100025
+	properties
+		template 30502
+		south 100026
+		east 100021
+		flags	248
+	end
+	objects
+		object WaspWarrior-100025-0 of FireWasp
+			properties
+				x	344
+				y	345
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100025-1 of FireWasp
+			properties
+				x	462
+				y	389
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100025-2 of FireWasp
+			properties
+				x	410
+				y	337
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100025-3 of FireWasp
+			properties
+				x	244
+				y	387
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100025-4 of FireWasp
+			properties
+				x	269
+				y	311
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object Embers-100025-5 of Embers
+			properties
+				x	353
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-100025-6 of FireA
+			properties
+				x	342
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-100025-7 of Smoke2
+			properties
+				x	344
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-100025-8 of FireB
+			properties
+				x	78
+				y	323
+				loop	1
+			end
+			base described
+			end
+		end
+		object FireC-100025-9 of FireC
+			properties
+				x	603
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object FirePlace-100025-10 of FirePlace
+			properties
+				x	525
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100025-11 of Torch
+			properties
+				x	161
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100025-12 of Torch
+			properties
+				x	580
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100025-13 of Torch
+			properties
+				x	309
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-100025-14 of Button
+			properties
+				x	147
+				y	295
+				loop	0
+			end
+			actions
+				vBeActivated clearActions Button-100030-7 vBeActivated 
+				vBeActivated addAction Button-100030-7 vBeActivated unlock DungeonBackDoor-100030-6 
+				vBeActivated addAction  Button-100030-7 vBeActivated open DungeonBackDoor-100030-6 
+			end
+			base described
+			end
+		end
+	end
+end
+room 100021
+	properties
+		template 32602
+		west 100025
+		north 100020
+		flags	0
+	end
+	objects
+		object WaspWarrior-100021-0 of BigWasp
+			properties
+				x	280
+				y	222
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-100021-1 of DungeonBackUp
+			properties
+				x	159
+				y	149
+				loop	0
+				linkTo	TrapDoor-100030-13
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 100032
+	properties
+		template 32305
+		east 100033
+		north 100010
+		flags	248
+	end
+	objects
+		object EntombedOne-100032-0 of Xilan
+			properties
+				x	435
+				y	247
+				loop	2
+				color	84
+			end
+			base character
+				properName	"Xilan"
+				title	"Keeper of Wasps"
+			end
+			base described
+				text	"You see Xilan, the keeper of the Wasps."
+			end
+		end
+		object WaspWorker-100032-1 of StingingFury
+			properties
+				x	473
+				y	214
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100032-2 of StingingFury
+			properties
+				x	387
+				y	211
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object Stalagmite3-100032-3 of Stalagmite3
+			properties
+				x	175
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100032-4 of Spring
+			properties
+				x	104
+				y	317
+				loop	1
+			end
+			base described
+			end
+		end
+		object SittingMushroom-100032-5 of SittingMushroom
+			properties
+				x	234
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stand-100032-6 of Stand
+			properties
+				x	433
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-100032-7 of Web5
+			properties
+				x	358
+				y	180
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-100032-8 of Web3
+			properties
+				x	461
+				y	150
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100033
+	properties
+		template 30703
+		east 100034
+		west 100032
+		flags	0
+	end
+	objects
+		object RandomCritter-100033-0 of RandomCritter
+			properties
+				x	410
+				y	246
+				loop	3
+			end
+			base described
+			end
+		end
+		object RandomCritter-100033-1 of RandomCritter
+			properties
+				x	169
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Mouse-100033-2 of Mouse
+			properties
+				x	245
+				y	252
+				loop	1
+				color	2088
+			end
+			base character
+			end
+		end
+		object Mouse-100033-3 of Mouse
+			properties
+				x	550
+				y	288
+				loop	2
+				color	2088
+			end
+			base character
+			end
+		end
+		object Mouse-100033-4 of Mouse
+			properties
+				x	75
+				y	252
+				loop	0
+				color	2088
+			end
+			base character
+			end
+		end
+		object Mouse-100033-5 of Mouse
+			properties
+				x	460
+				y	273
+				loop	1
+				color	2088
+			end
+			base character
+			end
+		end
+		object Mouse-100033-6 of Mouse
+			properties
+				x	306
+				y	254
+				loop	0
+				color	2088
+			end
+			base character
+			end
+		end
+	end
+end
+room 100034
+	properties
+		template 32403
+		east 100035
+		west 100033
+		flags	248
+	end
+	objects
+		object WaspDrone-100034-0 of StingingFury
+			properties
+				x	542
+				y	308
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspQueen-100034-1 of EvilBee
+			properties
+				x	470
+				y	191
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100034-2 of HealerWasp
+			properties
+				x	391
+				y	266
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWorker-100034-3 of FireWasp
+			properties
+				x	258
+				y	269
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspDrone-100034-4 of BigWasp
+			properties
+				x	183
+				y	200
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object SittingRock-100034-5 of MagicSittingRock
+			properties
+				x	332
+				y	165
+				loop	0
+			end
+			actions
+				vBeSatOn castSpell 44 dobj 
+			end
+			base described
+			end
+		end
+		object Gem-100034-6 of Gem
+			properties
+				x	290
+				y	182
+				loop	0
+			end
+			base described
+			end
+		end
+		object Statue-100034-7 of Statue
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	WaspWarrior-100034-2
+			end
+			base described
+			end
+		end
+		object SittingMushroom-100034-8 of SittingMushroom
+			properties
+				x	91
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100034-9 of Spring
+			properties
+				x	549
+				y	153
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100034-10 of Torch
+			properties
+				x	84
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenRose-100034-11 of GreenRose
+			properties
+				x	121
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-100034-12 of RandomWeapon
+			properties
+				x	221
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100035
+	properties
+		template 31008
+		south 100036
+		east 100044
+		west 100034
+		north 100047
+		flags	248
+	end
+	objects
+		object WaspDrone-100035-0 of BigWasp
+			properties
+				x	222
+				y	356
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100035-1 of EvilBee
+			properties
+				x	406
+				y	304
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100035-2 of BigWasp
+			properties
+				x	485
+				y	275
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100035-3 of WaspHealer
+			properties
+				x	318
+				y	209
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100035-4 of StingingFury
+			properties
+				x	280
+				y	275
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100035-5 of FireWasp
+			properties
+				x	152
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 100044
+	properties
+		template 30906
+		east 100045
+		west 100035
+		flags	248
+	end
+	objects
+		object WaspDrone-100044-0 of EvilBee
+			properties
+				x	540
+				y	257
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100044-1 of EvilBee
+			properties
+				x	409
+				y	299
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100044-2 of EvilBee
+			properties
+				x	274
+				y	288
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100044-3 of EvilBee
+			properties
+				x	159
+				y	233
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Shroom2-100044-4 of Shroom2
+			properties
+				x	169
+				y	245
+				loop	0
+			end
+			actions
+				vBeStoodUpOn teleport dobj 100046 
+			end
+			base described
+			end
+		end
+		object Candle-100044-5 of Candle
+			properties
+				x	542
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100044-6 of Torch
+			properties
+				x	431
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100045
+	properties
+		template 30901
+		east 100046
+		west 100044
+		flags	248
+	end
+	objects
+		object WaspDrone-100045-0 of EvilBee
+			properties
+				x	496
+				y	271
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100045-1 of StingingFury
+			properties
+				x	291
+				y	274
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 100046
+	properties
+		template 30701
+		west 100045
+		flags	248
+	end
+	objects
+		object BabyDragon-100046-0 of BabyDragon
+			properties
+				x	158
+				y	234
+				loop	1
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-100046-1 of BabyDragon
+			properties
+				x	179
+				y	257
+				loop	0
+				color	817
+			end
+			base character
+			end
+		end
+		object WaspWorker-100046-2 of StingingFury
+			properties
+				x	260
+				y	204
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100046-3 of StingingFury
+			properties
+				x	380
+				y	231
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100046-4 of StingingFury
+			properties
+				x	122
+				y	234
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object LockedChestJeweled-100046-5 of LockedChestJeweled
+			properties
+				x	267
+				y	263
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomAmulet-100046-6 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomRing-100046-7 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomScroll-100046-8 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-100046-9 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomPotion-100046-10 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomGem-100046-11 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomGem-100046-12 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomMonsterWand-100046-13 of RandomMonsterWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100046-14 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100046-5
+			end
+			base described
+			end
+		end
+		object Torch-100046-15 of Torch
+			properties
+				x	68
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100023
+	properties
+		template 30802
+		east 100024
+		north 100022
+		flags	0
+	end
+	objects
+		object SittingMushroom-100023-0 of SittingMushroom
+			properties
+				x	172
+				y	248
+				loop	0
+			end
+			actions
+				vBeSatOn unlock DungeonBackDoor-100030-6 
+				vBeStoodUpOn lock DungeonBackDoor-100030-6 
+			end
+			base described
+			end
+		end
+	end
+end
+room 100024
+	properties
+		template 30602
+		south 100029
+		west 100023
+		flags	0
+	end
+	objects
+		object WaspWarrior-100024-0 of StingingFury
+			properties
+				x	393
+				y	301
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100024-1 of StingingFury
+			properties
+				x	189
+				y	254
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object SittingMushroom-100024-2 of SittingMushroom
+			properties
+				x	331
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-100024-3 of Fire2
+			properties
+				x	335
+				y	150
+				loop	1
+			end
+			base described
+			end
+		end
+		object SmokeA-100024-4 of SmokeA
+			properties
+				x	341
+				y	127
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100024-5 of Spring
+			properties
+				x	614
+				y	304
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-100024-6 of Spring
+			properties
+				x	639
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100027
+	properties
+		template 30102
+		south 100028
+		east 100026
+		flags	0
+	end
+	objects
+		object WaspWarrior-100027-0 of BigWasp
+			properties
+				x	293
+				y	276
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object Web3-100027-1 of Web3
+			properties
+				x	328
+				y	116
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-100027-2 of Web6
+			properties
+				x	262
+				y	195
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-100027-3 of Web5
+			properties
+				x	307
+				y	192
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-100027-4 of Web4
+			properties
+				x	367
+				y	162
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web7-100027-5 of Web7
+			properties
+				x	217
+				y	159
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-100027-6 of Web1
+			properties
+				x	276
+				y	107
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-100027-7 of Web2
+			properties
+				x	290
+				y	99
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100027-8 of Shroom3
+			properties
+				x	159
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100026
+	properties
+		template 32601
+		west 100027
+		north 100025
+		flags	248
+	end
+	objects
+		object WaspQueen-100026-0 of FireWasp
+			properties
+				x	334
+				y	271
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100026-1 of BigWasp
+			properties
+				x	159
+				y	266
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 100036
+	properties
+		template 31001
+		south 100037
+		north 100035
+		flags	40
+	end
+	objects
+		object WaspWorker-100036-0 of EvilBee
+			properties
+				x	319
+				y	251
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100036-1 of EvilBee
+			properties
+				x	260
+				y	251
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object Torch-100036-2 of Torch
+			properties
+				x	195
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100036-3 of Torch
+			properties
+				x	374
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-100036-4 of SittingMushroom
+			properties
+				x	109
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100029
+	properties
+		template 30803
+		east 100030
+		north 100024
+		flags	0
+	end
+	objects
+		object WaspQueen-100029-0 of StingingFury
+			properties
+				x	453
+				y	220
+				loop	1
+				color	1580
+			end
+			base character
+			end
+		end
+		object WaspQueen-100029-1 of EvilBee
+			properties
+				x	74
+				y	179
+				loop	0
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 100030
+	properties
+		template 30907
+		west 100029
+		flags	0
+	end
+	objects
+		object FatColumn-100030-0 of FatColumn
+			properties
+				x	642
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-100030-1 of FatColumn
+			properties
+				x	639
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-100030-2 of Column
+			properties
+				x	642
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-100030-3 of Column
+			properties
+				x	635
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100030-4 of Shroom3
+			properties
+				x	117
+				y	87
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100030-5 of Shroom3
+			properties
+				x	141
+				y	82
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-100030-6 of DungeonBackDoor
+			properties
+				x	300
+				y	354
+				loop	3
+				linkTo	DungeonBackArch-100039-6
+			end
+			base lockable
+				isLocked	1
+				lockValue	-99
+				unlockValue	-99
+			end
+			base described
+			end
+		end
+		object Button-100030-7 of MagicButton2
+			properties
+				x	182
+				y	250
+				loop	0
+			end
+			actions
+				vBeActivated castSpell 127 dobj 
+				vBeActivated castSpell 58 dobj 
+				vBeActivated summon 100030 1 6 BabyDragon 205 205 1 BabyDragon 205 205 1 BabyDragon 205 205 1 BabyDragon 205 205 1 BabyDragon 205 205 1 BabyDragon 205 205 1
+				vBeActivated clearActions Button-100030-7 vBeActivated 
+			end
+			base described
+			end
+		end
+		object Torch-100030-8 of Torch
+			properties
+				x	54
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100030-9 of Torch
+			properties
+				x	232
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100030-10 of Torch
+			properties
+				x	413
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-100030-11 of FireC
+			properties
+				x	532
+				y	175
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-100030-12 of Smoke1
+			properties
+				x	531
+				y	150
+				loop	0
+			end
+			base described
+			end
+		end
+		object TrapDoor-100030-13 of TrapDoor
+			properties
+				x	363
+				y	116
+				loop	0
+				linkTo	DungeonBackUp-100021-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SmokeC-100030-14 of SmokeC
+			properties
+				x	137
+				y	351
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-100030-15 of SmokeC
+			properties
+				x	311
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-100030-16 of SmokeC
+			properties
+				x	488
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chalice-100030-17 of Chalice
+			properties
+				x	251
+				y	118
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chalice-100030-18 of Chalice
+			properties
+				x	475
+				y	87
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-100030-19 of RandomAmulet
+			properties
+				x	223
+				y	65
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100028
+	properties
+		template 32304
+		north 100027
+		flags	248
+	end
+	objects
+		object WaspWorker-100028-0 of EvilBee
+			properties
+				x	333
+				y	160
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100028-1 of EvilBee
+			properties
+				x	265
+				y	190
+				loop	3
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100028-2 of EvilBee
+			properties
+				x	321
+				y	263
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100028-3 of EvilBee
+			properties
+				x	154
+				y	244
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100028-4 of EvilBee
+			properties
+				x	418
+				y	302
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-100028-5 of EvilBee
+			properties
+				x	129
+				y	146
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+	end
+end
+room 100038
+	properties
+		template 32301
+		east 100037
+		flags	0
+	end
+	objects
+		object Lever-100038-0 of strongLever
+			properties
+				x	397
+				y	260
+				loop	0
+			end
+			actions
+				vBeActivated castSpell 54 dobj 
+				vBeActivated summon 100038 1 4 LavaSerpent 200 200 1 HellSnake 201 201 1 BabyDragon 250 250 1 Cobra 100 100 1 
+				vBeActivated clearActions self vBeActivated 
+			end
+			base described
+			end
+		end
+		object Lever-100038-1 of strongLever
+			properties
+				x	474
+				y	221
+				loop	0
+			end
+			actions
+				vBeActivated unlock  DungeonBackDoor-100007-0 
+				vBeActivated open DungeonBackDoor-100007-0 
+				vBeDeactivated teleport dobj 100002 1 
+				vBeActivated clearActions self vBeActivated 
+			end
+			base described
+			end
+		end
+		object Lever-100038-2 of strongLever
+			properties
+				x	508
+				y	280
+				loop	0
+			end
+			actions
+				vBeActivated clearActions SittingRock-100034-5 vBeSatOn 
+				vBeActivated addAction SittingRock-100034-5 vBeStoodUpOn teleport dobj 100054 
+				vBeActivated castSpell 18 dobj 
+				vBeActivated clearActions self vBeActivated 
+			end
+			base described
+			end
+		end
+		object Torch-100038-3 of Torch
+			properties
+				x	309
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Emerald-100038-4 of Emerald
+			properties
+				x	86
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object Emerald-100038-5 of Emerald
+			properties
+				x	66
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Emerald-100038-6 of Emerald
+			properties
+				x	66
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-100038-7 of RandomAmulet
+			properties
+				x	82
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100038-8 of Spring
+			properties
+				x	251
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100038-9 of Spring
+			properties
+				x	282
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-100038-10 of Spring
+			properties
+				x	308
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100037
+	properties
+		template 31303
+		west 100038
+		north 100036
+		flags	248
+	end
+	objects
+		object WaspWarrior-100037-0 of StingingFury
+			properties
+				x	286
+				y	180
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100037-1 of StingingFury
+			properties
+				x	120
+				y	246
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100037-2 of StingingFury
+			properties
+				x	347
+				y	156
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100037-3 of StingingFury
+			properties
+				x	378
+				y	315
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100037-4 of StingingFury
+			properties
+				x	357
+				y	218
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100037-5 of StingingFury
+			properties
+				x	192
+				y	240
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object OgreEyeball-100037-6 of OgreEyeball
+			properties
+				x	239
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-100037-7 of SittingMushroom
+			properties
+				x	525
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-100037-8 of Skull
+			properties
+				x	131
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-100037-9 of Shroom3
+			properties
+				x	513
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100039
+	properties
+		template 31002
+		south 100040
+		flags	40
+	end
+	objects
+		object WaspWarrior-100039-0 of StingingFury
+			properties
+				x	466
+				y	330
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100039-1 of StingingFury
+			properties
+				x	117
+				y	319
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100039-2 of FireWasp
+			properties
+				x	290
+				y	255
+				loop	2
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100039-3 of FireWasp
+			properties
+				x	405
+				y	298
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-100039-4 of FireWasp
+			properties
+				x	196
+				y	289
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object SittingMushroom-100039-5 of SittingMushroom
+			properties
+				x	155
+				y	269
+				loop	0
+			end
+			actions
+				vBeSatOn enable ButtonDisabled-100040-3 
+				vBeStoodUpOn disable ButtonDisabled-100040-3 
+			end
+			base described
+			end
+		end
+		object DungeonBackArch-100039-6 of DungeonBackArch
+			properties
+				x	293
+				y	215
+				loop	0
+				linkTo	DungeonBackDoor-100030-6
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-100039-7 of Torch
+			properties
+				x	214
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100039-8 of Torch
+			properties
+				x	376
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100040
+	properties
+		template 30401
+		north 100039
+		flags	0
+	end
+	objects
+		object RandomCritter-100040-0 of RandomCritter
+			properties
+				x	426
+				y	161
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomCritter-100040-1 of RandomCritter
+			properties
+				x	240
+				y	92
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-100040-2 of MagicButton
+			properties
+				x	184
+				y	265
+				loop	0
+			end
+			actions
+				vBeActivated castSpell  44 dobj 
+				vBeActivated castSpell 44 dobj 
+				vBeActivated castSpell 44 dobj 
+				vBeActivated enable ButtonDisabled-100040-3 
+			end
+			base described
+				text	"Push this button if you wish to slay the Queen!"
+			end
+		end
+		object ButtonDisabled-100040-3 of ButtonDisabled
+			properties
+				x	496
+				y	275
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 100041 
+			end
+			base described
+			end
+		end
+		object Ruby-100040-4 of Ruby
+			properties
+				x	137
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object RubyChip-100040-5 of RubyChip
+			properties
+				x	233
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object RubyChip-100040-6 of RubyChip
+			properties
+				x	178
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object RubyChip-100040-7 of RubyChip
+			properties
+				x	179
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Turquoise-100040-8 of Turquoise
+			properties
+				x	445
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Turquoise-100040-9 of Turquoise
+			properties
+				x	494
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Turquoise-100040-10 of Turquoise
+			properties
+				x	535
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Turquoise-100040-11 of Turquoise
+			properties
+				x	493
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100040-12 of Torch
+			properties
+				x	214
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100040-13 of Torch
+			properties
+				x	477
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100043
+	properties
+		template 30303
+		south 100042
+		flags	0
+	end
+	objects
+		object LockedChest-100043-0 of LockedChest
+			properties
+				x	321
+				y	302
+				loop	0
+			end
+			base lockable
+				isLocked	1
+				lockValue	-22
+				unlockValue	-22
+			end
+			base described
+			end
+		end
+		object LockedChestJeweled-100043-1 of LockedChestJeweled
+			properties
+				x	447
+				y	273
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Chest-100043-2 of Chest
+			properties
+				x	200
+				y	279
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-100043-3 of Torch
+			properties
+				x	81
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100043-4 of Torch
+			properties
+				x	324
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100043-5 of Torch
+			properties
+				x	588
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingStump-100043-6 of MagicSittingStump
+			properties
+				x	566
+				y	312
+				loop	1
+			end
+			actions
+				vBeSatOn castSpell 125 dobj 
+				vBeSatOn unlock LockedChest-100043-0 
+				vBeStoodUpOn lock LockedChest-100043-0 
+			end
+			base described
+			end
+		end
+		object GargoyleFountain-100043-7 of GargoyleFountain
+			properties
+				x	312
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-100043-8 of FireB
+			properties
+				x	266
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-100043-9 of FireB
+			properties
+				x	352
+				y	298
+				loop	1
+			end
+			base described
+			end
+		end
+		object Emerald-100043-10 of Emerald
+			properties
+				x	102
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100043-11 of Diamond
+			properties
+				x	245
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100043-12 of Diamond
+			properties
+				x	388
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ruby-100043-13 of Ruby
+			properties
+				x	432
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Ruby-100043-14 of Ruby
+			properties
+				x	216
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Topaz-100043-15 of Topaz
+			properties
+				x	138
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Topaz-100043-16 of Topaz
+			properties
+				x	486
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Topaz-100043-17 of Topaz
+			properties
+				x	51
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100043-18 of Diamond
+			properties
+				x	171
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100043-19 of Diamond
+			properties
+				x	389
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Diamond-100043-20 of Diamond
+			properties
+				x	548
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-100043-21 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomBand-100043-22 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-100043-23 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomRing-100043-24 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-100043-25 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomGem-100043-26 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-100043-27 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterOrb-100043-28 of RandomMonsterOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object RandomMonsterTome-100043-29 of RandomMonsterTome
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object RandomGem-100043-30 of RandomGem
+			properties
+				x	141
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomGem-100043-31 of RandomGem
+			properties
+				x	244
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomGem-100043-32 of RandomGem
+			properties
+				x	388
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomGem-100043-33 of RandomGem
+			properties
+				x	479
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-100043-34 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-100043-35 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-100043-36 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object RandomPlateCowl-100043-37 of RandomPlateCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object RandomChainCowl-100043-38 of RandomChainCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-100043-39 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-100043-40 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object RandomShield-100043-41 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object RandomAmulet-100043-42 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-100043-43 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterBauble-100043-44 of RandomMonsterBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object AdmantiumTwoHandSword-100043-45 of AdmantiumTwoHandSword
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object AdmantiumClaw-100043-46 of AdmantiumClaw
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object MythrilMaul-100043-47 of MythrilMaul
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object mwFangblade-100043-48 of mwFangblade
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object AdmantiumHelmet-100043-49 of AdmantiumHelmet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-100043-2
+			end
+			base described
+			end
+		end
+		object aMemory-100043-50 of aMemory
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100043-51 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-100043-52 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChestJeweled-100043-1
+			end
+			base described
+			end
+		end
+		object RandomMonsterRing-100043-53 of RandomMonsterRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-100043-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100042
+	properties
+		template 30402
+		south 100041
+		north 100043
+		flags	16
+	end
+	objects
+		object Bones-100042-0 of Bones
+			properties
+				x	167
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object WaspQueen-100042-1 of TheQueen
+			properties
+				x	291
+				y	261
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+		object Torch-100042-2 of Torch
+			properties
+				x	33
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100042-3 of Torch
+			properties
+				x	107
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100042-4 of Torch
+			properties
+				x	159
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100042-5 of Torch
+			properties
+				x	371
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100042-6 of Torch
+			properties
+				x	455
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-100042-7 of Torch
+			properties
+				x	543
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-100042-8 of Skull
+			properties
+				x	134
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 100041
+	properties
+		template 32304
+		north 100042
+		flags	0
+	end
+	objects
+		object WaspDrone-100041-0 of BabyWasp
+			properties
+				x	226
+				y	285
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-1 of BabyWasp
+			properties
+				x	155
+				y	375
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-2 of BabyWasp
+			properties
+				x	368
+				y	390
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-3 of BabyWasp
+			properties
+				x	519
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-4 of BabyWasp
+			properties
+				x	445
+				y	242
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-5 of BabyWasp
+			properties
+				x	278
+				y	146
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-6 of BabyWasp
+			properties
+				x	133
+				y	143
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-7 of BabyWasp
+			properties
+				x	115
+				y	314
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-8 of BabyWasp
+			properties
+				x	296
+				y	335
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-9 of BabyWasp
+			properties
+				x	569
+				y	339
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-10 of BabyWasp
+			properties
+				x	308
+				y	238
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-11 of BabyWasp
+			properties
+				x	322
+				y	207
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-12 of BabyWasp
+			properties
+				x	224
+				y	208
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-100041-13 of BabyWasp
+			properties
+				x	146
+				y	255
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Sign-100041-14 of Sign
+			properties
+				x	94
+				y	159
+				loop	0
+			end
+			base described
+				text	"The Queen's Lair. "
+			end
+		end
+		object SittingRock-100041-15 of SittingRock
+			properties
+				x	424
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-100041-16 of SmokeC
+			properties
+				x	154
+				y	57
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-100041-17 of SmokeC
+			properties
+				x	337
+				y	94
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

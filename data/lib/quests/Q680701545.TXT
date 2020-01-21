@@ -1,0 +1,17 @@
+quest  209 #6807-01-545        # Jolie, Mystic Magic, Murias, 6212
+
+name  "Delivery for Jolie"
+type  fedex
+
+proposal  "Good, good.  It's really a present for Kaliri.  She loves squirrels, and I had a little squirrel carved specially for her.  You will take it back to her, won't you?"
+
+declined  "Mercy sakes, why ever did you ask?"
+
+accepted  "Here it is.  Mind you treat it carefully."
+
+reminder   "Treat that squirrel for Kaliri carefully."
+
+reward   qJoliePackage 
+end
+
+

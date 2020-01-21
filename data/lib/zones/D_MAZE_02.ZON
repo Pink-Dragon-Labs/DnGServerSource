@@ -1,0 +1,25 @@
+name "maze"
+title "The Maze"
+worldFile "../data/lib/world/D_MAZE_02.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 14
+groupChance 35
+monster HarlequinEvil 30
+monster HarlequinNeutral 30 
+monster HarlequinGood 30
+monster GremlinEvil 30
+monster GremlinNeutral 30
+monster GremlinGood 30
+monster RapscallionEvil 30
+monster RapscallionNeutral 30
+monster RapscallionGood 30
+monster MazeMaster 1
+
+ambushInterval 40
+ambush 10 RapscallionEvil RapscallionEvil RapscallionEvil RapscallionEvil 
+ambush 10 GremlinEvil GremlinEvil GremlinEvil GremlinEvil GremlinGood GremlinGood GremlinGood GremlinGood  
+ambush 10 HarlequinEvil HarlequinNeutral HarlequinGood 
+ambush 10 HarlequinEvil HarlequinGood RapscallionEvil RapscallionEvil GremlinEvil GremlinEvil GremlinGood GremlinGood 
+# Maze	Area 01	Player Level 200 and up	

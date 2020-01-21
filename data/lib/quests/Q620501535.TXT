@@ -1,0 +1,19 @@
+quest  88 #6205-01-535        #Meego, The Cock's Crow tavern, Silverbrook, 6412
+
+name  "Meego's Errand
+type  fedex
+
+proposal  "I see.  Will you go to the Food Cart in Drune on an errand for me?"
+
+declined  "My mistake."
+
+accepted  "If an elf runs it, ask for Meego's cheese."
+
+reminder   "The Food Cart in Drune.  If an elf is running it, ask for Meego's cheese.
+
+completed  "I see you have succeeded.  Wait just a moment while I check this cheese package and prepare an envelope for you to take to Litula."
+
+getItem   qMeegoCheese
+reward   qMeegoEnvelope 
+end
+

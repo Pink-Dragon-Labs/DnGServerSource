@@ -1,0 +1,19 @@
+quest  207 #6807-01-535        # Jenri, Potions, Arimathor, 6814
+
+name  "Fish Hooks for Jenri"
+type  fedex
+
+proposal  "Look no more then.  I've got the best.  I make 'em myself.  Before I lived here in the desert I used to fish a lot, and I know what the fish like. I just kind of figured it out. Y'know what I mean?  Sat down one day and said to myself, 'Jenri, just think like a fish.'  So I did, and the result was my special hooks.  Bait 'em with bits of egg yolk, and the fish go wild for 'em.  Someday I'll move back to a country that has water with fish in it.   Want to do a quick errand for me in exchange for these hooks?" 
+
+declined  "Now that's no way to be."
+
+accepted  "Old Kaliri has a special kind of white thread I need for my fish hooks.  She's just over the way."
+
+reminder   "Go to Kaliri for some white thread."
+
+completed  "That's the stuff.  Thanks.  Here's a nice packet of fish hooks."
+
+getItem   qWhiteThread
+reward   qFishHooks 
+end
+

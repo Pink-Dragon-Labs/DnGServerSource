@@ -1,0 +1,19 @@
+quest  348 #80000-01-200      #Dag, Cave of Thieves, 80000
+
+name  "Petrified Snail"
+type  fedex
+
+proposal  "OK, pal.  We'll try you on the proficiency skills.  You did the first level just fine, I'll have to admit.  Maybe you'll work out.  Here's the plan.  I want a petrified snail.  Don't even think about asking me why.  Just go find one, if you want to qualify for the lock picking proficiency skills.  What'll it be, pal?  Are you going to try?"
+
+declined  "Hmph."
+
+accepted  "Right.  I heard about one found in Monmouth."
+
+reminder   "Find me a petrified snail, pal."
+
+completed  "Odd looking thing.  Here's your second skill book."
+
+getItem   qPetrifiedSnail
+reward    skbLockpickingII
+end
+

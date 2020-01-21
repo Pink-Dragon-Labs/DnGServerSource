@@ -1,0 +1,19 @@
+quest  244 #6902-01-200  #( Nassoula of Asgard)
+
+name  "Tooth and Claw of an Ancient Bird"
+type  fedex
+
+proposal "I see you are ready for Proficiency training in Mysticism.  Very well, in return for the Mysticism Proficiency spellbook you will bring me the Tooth and Claw of an Ancient Bird.  Conduct yourself properly as befits my Apprentice."
+
+declined  "Very well"
+
+accepted  "Then depart.  Go to a farming town."
+
+reminder   "The Tooth and Claw of a Ancient Bird should be found in Monmouth."
+
+completed  "I anticipated a satisfactory result.  This book of spells is now yours."
+
+getItem  qAncientBird
+reward  skbMysticismII
+end
+

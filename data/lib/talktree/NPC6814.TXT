@@ -1,0 +1,33 @@
+id 6814
+
+banner "I'm Jenri, proprietor of True Blue Potions.  What can I sell you today?"
+
+topic "Tell me about Arimathor."
+      	text "If you like a flat landscape, this is the place.  I'm thinking of relocating, myself."
+	text "The climate is always the same, hot.  What I wouldn't give for a howling blizzard or thundering downpour."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "The Gods are on a rampage.  But they don't seem to want to trouble us here in the desert.  Only reason I'm staying."
+	text "In my wandering days, I heard many a fine tale.  But stuck here, I don't hear anything.  What about you?"
+end      
+
+topic "Can I do anything for you?"
+        text "If I got my wish, I wouldn't be living here but you can't change that, worse luck."
+end
+
+topic  "Would you have any Spinal Fish Bones?" q286:0 #q8021-01-200:0
+	quest 287 #8021-01-225
+	text  "Hey, you already got your fish bones."
+end
+
+topic  "I need a scarab, a really good specimen." q124:0 #q6311-01-500:0
+	quest 125 #6311-01-525
+	text  "Hey, now.  You took it already."
+end
+
+topic  "I'm looking for some fish hooks." q206:0 #q6807-01-530:0
+	quest  207 #6807-01-535
+	text  "I gave you some."
+end
+

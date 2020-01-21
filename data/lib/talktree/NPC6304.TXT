@@ -1,0 +1,34 @@
+id 6304
+
+banner "Welcome to The Last Call, my friend. What would you like?"
+
+topic "Tell me about Monmouth."
+        text "Certainly. Monmouthers are farmers for the most part. The rich Drear Valley soil favors farming."
+	text "We worship the moon goddess, Luna.  For that she especially favors us."
+        text "I think you'll find Monmouthers among the kindliest, friendliest folk in the entire Realm."
+end
+
+topic "Who are you?"
+        text "I am Lalana, and you're standing in my tavern, the Last Call. It's said that the Last Call was built on an altar to the goddess Luna."
+	text "I don't know who named this tavern. I'm been trying to find an oldtimer who  can tell me, but none of them seem to know either."
+	text "Which just goes to show how long this tavern's been here."
+end      
+
+topic "Can I do something for you?"
+        text "Not at the moment, thank you kindly."
+end
+
+topic  "Fenia sent me for the plant." q377 #q80001-01-430:0
+	quest 378 #80001-01-435
+	text  "Now my friend, you know you already took it."
+end
+
+topic  "I'm looking for some bolla brew." q45:0 #q6073-01-525:0
+	quest  46 #6073-01-530
+	text  "Didn't drink all that I gave you, did you?"
+end
+
+topic  "I need a troll's toenail." q162:0 #q6501-01-425:0
+	quest 163 #6501-01-430
+	text  "Yech, I'm not getting another one for you."
+end

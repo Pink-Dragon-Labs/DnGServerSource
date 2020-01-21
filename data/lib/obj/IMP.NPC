@@ -1,0 +1,404 @@
+#
+# NPC declarations
+#
+
+object Imp of NPC
+	properties
+		name "Imp Slave"
+		view 40500
+		alignment 127
+
+		minLevel 10
+		maxLevel 20
+
+		minDamage 7
+		maxDamage 17
+
+		# normal damage
+		affect 0 0 0 -1
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		treasure 4
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics proficient
+		skill 9 2
+
+		## critical strike proficient
+		skill 29 2
+	end
+
+	base container
+#		object RandomImpTreasureI
+		object RandomMonsterRing
+	end
+
+	base described
+		text "Imp Slave -- 7 - 17 melee damage.\n\n"
+	end
+
+	base npc
+		code imp
+	end
+end
+
+object ImpCitizen of Imp
+	properties
+		name "Imp Citizen"
+		alignment 127
+		clutStart -1
+		color 19
+
+		minLevel 20
+		maxLevel 30
+
+		minDamage 15
+		maxDamage 25
+
+		armor 10
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics expert
+		skill 9 3
+
+		## sorcery master
+		skill 11 4
+
+		# thaumaturgy expert
+		skill 14 3
+	end
+
+	base described
+		text "Imp Citizen -- 15 - 25 melee damage.\n\n"
+	end
+end
+
+object ImpGuard of Imp
+	properties
+		name "Imp Guard"
+		clutStart -1
+		alignment 127
+		view 40500
+		color 17
+
+		minLevel 30
+		maxLevel 40
+
+		minDamage 25
+		maxDamage 35
+
+		armor 10
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics expert
+		skill 9 3
+
+		## critical strike master
+		skill 29 4
+	end
+
+	base described
+		text "Imp Guard -- 25 - 35 melee damage.\n\n"
+	end
+end
+
+
+object ImpSlaveMaster of Imp
+	properties
+		name "Imp Slavemaster"
+		alignment 0
+		clutStart -1
+		color 16
+
+		minLevel 40
+		maxLevel 50
+
+		minDamage 35
+		maxDamage 45
+
+		armor 15
+	end
+
+	base character
+		## unarmed combat grand-master
+		skill 7 5
+
+		## acrobatics expert
+		skill 9 3
+
+		## sorcery expert
+		skill 11 3
+
+		## elementalsm master
+		skill 12 4
+	end
+
+	base container
+#		object RandomImpTreasureII
+		object RandomMonsterWand
+	end
+
+	base described
+		text "Imp Slavemaster -- 35 - 45 melee damage.\n\n"
+	end
+end
+
+
+object ImpThaumaturgist of Imp
+	properties
+		name "Imp Thaumaturgist"
+		alignment 255
+		clutStart -1
+		color 16
+
+		minLevel 40
+		maxLevel 50
+
+		minDamage 20
+		maxDamage 25
+
+		armor 10
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		treasure 1
+	end
+
+	base container
+#		object RandomImpTreasureII
+		object RandomMonsterWand
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics expert
+		skill 9 3
+
+		# thaumaturgy master
+		skill 14 4
+	end
+
+	base described
+		text "Imp Thaumaturgist -- 25% necromancy resistance, +100% melee damage vs. evil, 20 - 25 melee damage.\n\n"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 4
+		vBeBorn changeSDM self 75 0 1 2 3 4
+		vBeBorn changeEvilMDMMod self 100
+	end
+end
+
+object ImpNecromancer of Imp
+	properties
+		name "Imp Necromancer"
+		alignment 0
+		clutStart -1
+		color 18
+
+		minLevel 40
+		maxLevel 50
+
+		minDamage 20
+		maxDamage 25
+
+		# life stealing attack
+		affect 10 0 0 -1
+		treasure 7
+	end
+
+	base container
+#		object RandomImpTreasureII
+		object RandomMonsterWand
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics expert
+		skill 9 3
+
+		## necromancer master
+		skill 15 4
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 3 2
+		vBeBorn changeSDM self 75 0 1 2 3 4
+	end
+
+	base described
+		text "Imp Necromancer -- 25% mysticism resistance, +25% thaumaturgy resistance, 20 - 25 melee damage.\n\n"
+	end
+end
+
+object ImpWarrior of Imp
+	properties
+		name "Imp Warrior"
+		alignment 127
+		clutStart -1
+		color 21
+
+		minLevel 50
+		maxLevel 60
+
+		minDamage 45
+		maxDamage 55
+
+		armor 25
+
+		damageType 2
+		armorType 3
+	end
+
+	base character
+		## unarmed combat grand-master
+		skill 7 5
+
+		## acrobatics grand-master
+		skill 9 5
+
+		## crit strike grand-master
+		skill 29 5
+	end
+
+	base container
+#		object RandomImpTreasureII
+		object RandomMonsterMegaTreasure
+	end
+
+	base described
+		text "Imp Warrior -- 45 - 55 melee damage.\n\n"
+	end
+end
+
+object ImpKing of Imp
+	properties
+		name "Imp King"
+		alignment 127
+		clutStart -1
+		color 20
+
+		minLevel 70
+		maxLevel 80
+
+		minDamage 65
+		maxDamage 75
+
+		armor 35
+
+		# do bludgeoning damage
+		affect 13 0 0 -1
+
+		damageType 2
+		armorType 3
+	end
+
+	base character
+		## unarmed combat grand-master
+		skill 7 5
+
+		## acrobatics grand-master
+		skill 9 5
+
+		## critical strike grandmaster
+		skill 29 5
+
+		## elementalism grand-master
+		skill 12 5
+
+		## sorcery grand-master
+		skill 11 5
+
+		## thaumaturgy grand-master
+		skill 14 5
+	end
+
+	base container
+		object RandomCommonHelmet
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	base described
+		text "Imp King -- 75% mysticism resistance, 65 - 75 melee damage.\n\n"
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 75 2
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end
+
+#------------------------------------------------------------
+object TutorImp of NPC
+	properties
+		name "Weakened Imp"
+		view 40500
+		alignment 127
+		special
+
+		endurance 1
+		level 5
+
+		minDamage 1
+		maxDamage 3
+
+		# normal damage
+		affect 0 0 0 -1
+
+		soundGroup 7
+		armorType 1
+		damageType 1
+		treasure 4
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## acrobatics familiar
+		skill 9 1
+	end
+
+	base container
+		object RandomMonsterAmulet
+	end
+
+	base described
+		text "A weakened Imp. Careful, even weakened imps can be dangerous.\n\n"
+	end
+
+	base npc
+		code imp
+	end
+end
+
+#------------------------------------------------------------

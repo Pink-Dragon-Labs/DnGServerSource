@@ -1,0 +1,426 @@
+room 4440
+   properties
+      picture	4000
+      east	4441 
+      west	4439 
+      flags	2
+      roomName	"Temple of Duach"
+      allowAmbush	0
+   end
+   atpinfo
+      7900  73 208
+      32986  354 -5
+      7900  578 208
+      7903  325 218
+      2390  549 193
+      2261  70 199 70
+      2252  293 190 -10
+      2310  193 200
+      2338  149 188 -3
+      2339  494 188 -2
+      2381  324 180 -20
+      2395  36 192
+      35029  574 199 70
+      35029  378 182 50
+      2272  319 201
+      2252  376 179 -10
+      2392  202 191
+      35080  446 199 -10
+      2269  320 209 56
+      7900  326 208
+      35028  259 184
+      35108  99 191
+      2389  72 194 57
+      2338  151 180 129
+      2340  98 143
+      2339  494 131
+      2340  544 143
+      35108  553 191
+      2252  305 204 -10
+      2252  336 204 -10
+      35108  3 191
+      2340  5 143
+      2340  615 133
+      35108  605 191
+      2261  259 181 50
+      2312  195 199 -10
+      2390  97 192
+      2252  348 190 -10
+      2391  449 192
+      2389  575 194 57
+      2252  264 179 -10
+      2395  614 193
+      2260  378 185
+      35078  448 200
+   end
+   objects
+      object fireB4440-4 of FireB
+         properties
+            x	304
+            y	205
+            loop	1
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object fireB4440-5 of FireB
+         properties
+            x	336
+            y	207
+            loop	0
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object stoneBench4440-6 of StoneBench
+         properties
+            x	98
+            y	280
+            loop	0
+         end
+      end
+      object stoneBench4440-7 of StoneBench
+         properties
+            x	542
+            y	282
+            loop	1
+         end
+      end
+      object stoneBench4440-8 of StoneBench
+         properties
+            x	465
+            y	255
+            loop	1
+         end
+      end
+      object stoneBench4440-9 of StoneBench
+         properties
+            x	171
+            y	253
+            loop	0
+         end
+      end
+      object fireC4440-10 of FireC
+         properties
+            x	322
+            y	205
+            loop	0
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object skull4440-11 of Skull
+         properties
+            x	323
+            y	208
+            loop	0
+         end
+         base described
+            text	"Fate of the Betrayer."
+         end
+      end
+      object fireB4440-12 of FireB
+         properties
+            x	333
+            y	213
+            loop	1
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object fireB4440-13 of FireB
+         properties
+            x	309
+            y	212
+            loop	0
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object fireB4440-14 of FireB
+         properties
+            x	334
+            y	201
+            loop	1
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object fireB4440-15 of FireB
+         properties
+            x	306
+            y	202
+            loop	0
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object fireB4440-16 of FireB
+         properties
+            x	306
+            y	195
+            loop	0
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+      object fireB4440-17 of FireB
+         properties
+            x	336
+            y	193
+            loop	1
+         end
+         base described
+            text	"The perpetual flame of Duach's evil rage."
+         end
+      end
+#      object Chest-4440-18 of Chest
+#         properties
+#            x	333
+#            y	317
+#            loop	0
+#         end
+#         base lockable
+#         end
+#         base described
+#            acceptText "Place your gathered Hearts within to free the trapped souls and strengthen the god Duach.\n\n%d souls released to Duach." 1 0 0 0 0 0 0 0 0 0
+#         end
+#         base container
+#            accept MinotaurSoulA 1 1
+#            accept MinotaurSoulB 1 5
+#            accept MinotaurSoulC 1 10
+#            accept MinotaurSoulD 1 15
+#            accept MinotaurSoulE 1 20
+#         end
+#      end
+   end
+end
+room 4441
+   properties
+      picture	4000
+      north	4434 
+      south	4448 321 114 
+      east	4442 
+      west	4440 628 286 
+      flags	2
+   end
+# ------------------------------------Teleport Altar to Duach's Grotto
+   objects
+      object Altar-4441-1 of Altar
+         properties
+            x	156
+            y	208
+            loop	0
+         end
+         actions
+            vBeUsed teleport dobj 5036
+         end
+         base described
+            text	"Portal to Duach's Grotto"
+         end
+      end
+   end
+   atpinfo
+      35090  34 260 101
+      226  205 208
+      26  79 115
+      25  181 131
+      32998  74 225
+      32795  244 86
+      231  82 278
+      2340  37 150
+      32794  267 106
+      26  193 65
+      225  158 230
+      35108  45 188
+      156  28 125
+      32817  504 248
+      25  26 108
+      24  507 85
+      32818  514 137
+      49  565 299 -10
+      2952  535 255
+      22  201 16
+      203  630 495
+      45  606 190
+      113  632 270
+      32795  165 96
+      23  463 187
+      32994  494 265
+      226  536 294
+      226  602 275
+      226  38 166
+      225  45 185
+      184  310 172
+      229  32 180
+      112  286 187
+      32789  203 151
+      32793  144 166
+      32794  360 26
+      32795  106 115
+      7909  8 233
+      7906  53 199
+      231  37 214
+      32998  133 254
+      229  94 290
+      2310  25 206
+      2324  47 190
+      32789  504 221
+      28  199 114
+      44  393 227
+      32896  93 186
+      110  609 312
+      111  528 248
+      112  343 180
+      113  629 260
+      180  516 165
+      181  89 207
+      182  52 271
+      184  603 274
+      2716  582 295
+      226  29 248
+      225  384 227
+      32796  292 112
+      24  417 55
+      23  380 126
+      32789  570 157
+      32813  131 138
+      113  608 190
+      32795  597 131
+      32795  481 136
+      184  147 138
+      111  342 120
+      32879  155 118
+      32789  179 47
+      21  662 202
+      35720  469 113
+      24  517 2
+      26  256 1
+      28  299 6
+      32796  401 7
+      28  370 13
+      28  358 2
+      28  244 1
+      113  298 100
+      32881  463 115
+   end
+   objects
+      object sittingRock4441-0 of SittingRock
+         properties
+            x	466
+            y	175
+            loop	1
+         end
+      end
+   end
+end
+room 4439
+   properties
+      picture	4000
+      north	4432 
+      south	4446 365 111 
+      east	4440 13 286 
+      west	4438 
+   end
+   atpinfo
+      32817  302 139
+      2718  216 165
+      50  181 120
+      154  556 162
+      35486  261 151
+      153  573 150
+      50  325 133
+      32792  481 3
+      22  114 7
+      32792  110 61
+      32792  117 246
+      113  217 166
+      49  408 188
+      21  275 150
+      50  110 146
+      49  28 247
+      2952  130 204
+      203  630 495
+      32791  78 214
+      2951  542 160
+      35720  488 190
+      2952  514 154
+      32792  376 56
+      22  321 92
+      49  104 122
+      2951  583 201
+      35484  62 153
+      32792  131 163
+      32793  205 153
+      32881  299 143
+      27  118 142
+      32796  80 130
+      123  586 192
+      2715  631 217
+      2716  390 65
+      111  571 181
+      112  105 215
+      113  543 202
+      180  577 183
+      181  567 231
+      182  592 139
+      184  121 265
+      186  545 235
+      186  587 282
+      93  311 1 -102
+      226  462 282
+      225  414 305
+      32997  553 254
+      230  569 290
+      231  553 277
+      32998  604 237
+      32994  617 174
+      32999  619 225
+      32997  663 203
+      226  657 149
+      21  86 140
+      26  217 100
+      22  395 110
+      21  190 215
+      22  432 141
+      26  528 142
+      230  470 197
+      186  377 196
+      182  426 227
+      32792  414 163
+      2310  292 96
+      35078  617 212
+      35091  626 239 80
+      2340  604 188
+      2340  605 169
+      2326  295 100
+      2326  580 210 143
+      7906  591 196
+      7909  615 213
+      26  96 88
+      22  113 288
+      32792  498 91
+      2718  447 175
+      35720  151 136
+      32790  70 22
+      22  107 42
+      32792  310 290
+   end
+   objects
+      object sittingRock4439-0 of SittingRock
+         properties
+            x	65
+            y	223
+            loop	0
+         end
+      end
+   end
+end

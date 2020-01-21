@@ -1,0 +1,523 @@
+room 23013
+   properties
+      picture	3500
+      north	23112 
+      east	23012 
+      west	23014 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23014
+   properties
+      picture	3500
+      north	23120 
+      east	23013 
+      west	23015 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23015
+   properties
+      picture	3500
+      east	23014 
+      west	23016 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23016
+   properties
+      picture	3500
+      north	23128 
+      east	23015 
+      west	23017 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23017
+   properties
+      picture	3500
+      north	23130 
+      east	23016 
+      west	23018 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23018
+   properties
+      picture	3500
+      east	23017 
+      west	23019 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23019
+   properties
+      picture	3500
+      north	23138 
+      east	23018 
+      west	23020 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23020
+   properties
+      picture	3500
+      north	23140 
+      east	23019 
+      west	23021 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23021
+   properties
+      picture	3500
+      east	23020 
+      west	23022 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23100
+   properties
+      picture	3500
+      north	23101 
+      south	23011 
+      roomName	"Troll"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23101
+   properties
+      picture	3500
+      north	23102 
+      south	23100 
+      roomName	"Troll Armsman"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23102
+   properties
+      picture	3500
+      north	23103 
+      south	23101 
+      roomName	"Troll Warrior"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23103
+   properties
+      picture	3500
+      north	23104 
+      south	23102 
+      roomName	"Troll Elementalist"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23104
+   properties
+      picture	3500
+      north	23105 
+      south	23103 
+      roomName	"Troll Sorcerer"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23105
+   properties
+      picture	3500
+      south	23104 
+      west	23106 
+      roomName	"Troll King"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23106
+   properties
+      picture	3500
+      east	23105 
+      west	23107 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23107
+   properties
+      picture	3500
+      east	23106 
+      south	23108 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23108
+   properties
+      picture	3500
+      north	23107 
+      south	23109 
+      roomName	"Ogre Child"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23109
+   properties
+      picture	3500
+      north	23108 
+      south	23110 
+      roomName	"Ogre"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23110
+   properties
+      picture	3500
+      north	23109 
+      south	23111 
+      roomName	"Ugly Ogre"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23111
+   properties
+      picture	3500
+      north	23110 
+      south	23112 
+      roomName	"Ogre Mage"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23112
+   properties
+      picture	3500
+      north	23111 
+      south	23013 
+      roomName	"Ogre Chief"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23120
+   properties
+      picture	3500
+      north	23121 
+      south	23014 
+      roomName	"Imp Slave"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23121
+   properties
+      picture	3500
+      north	23122 
+      south	23120 
+      roomName	"Imp Citizen"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23122
+   properties
+      picture	3500
+      north	23123 
+      south	23121 
+      roomName	"Imp Guard"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23123
+   properties
+      picture	3500
+      west	23124 
+      south	23122 
+      roomName	"Imp Slavemaster"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23124
+   properties
+      picture	3500
+      west	23125 
+      east	23123 
+      roomName	"Imp Thaumaturgist"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23125
+   properties
+      picture	3500
+      south	23126 
+      east	23124 
+      roomName	"Imp Necromancer"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23126
+   properties
+      picture	3500
+      north	23125 
+      south	23127 
+      roomName	"Imp Warrior"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23127
+   properties
+      picture	3500
+      north	23126 
+      south	23128 
+      roomName	"Imp King"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23128
+   properties
+      picture	3500
+      north	23127 
+      south	23016 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23130
+   properties
+      picture	3500
+      north	23131 
+      south	23017 
+      roomName	"Wolf"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23131
+   properties
+      picture	3500
+      north	23132 
+      south	23130 
+      roomName	"Rapid Wolf"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23132
+   properties
+      picture	3500
+      north	23133 
+      south	23131 
+      roomName	"Alpha Wolf"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23133
+   properties
+      picture	3500
+      west	23134 
+      south	23132 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23134
+   properties
+      picture	3500
+      west	23135 
+      east	23133 
+      roomName	"Young Fenris"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23135
+   properties
+      picture	3500
+      south	23136 
+      east	23134 
+      roomName	"Gray Fenris"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23136
+   properties
+      picture	3500
+      north	23135 
+      south	23137 
+      roomName	"Blood Fenris"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23137
+   properties
+      picture	3500
+      north	23136 
+      south	23138 
+      roomName	"Howling Terror"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23138
+   properties
+      picture	3500
+      north	23137 
+      south	23019 
+      roomName	"Hell Hound"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23140
+   properties
+      picture	3500
+      north	23141 
+      south	23020 
+      roomName	"Ghost"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23141
+   properties
+      picture	3500
+      north	23142 
+      south	23140 
+      roomName	"Shade"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23142
+   properties
+      picture	3500
+      west	23143 
+      south	23141 
+      roomName	"Banshee"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23143
+   properties
+      picture	3500
+      east	23142 
+      west	23144 
+      roomName	"Fury"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23144
+   properties
+      picture	3500
+      east	23143 
+      south	23145 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23145
+   properties
+      picture	3500
+      north	23144 
+      south	23146 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23146
+   properties
+      picture	3500
+      north	23145 
+      south	23022 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end

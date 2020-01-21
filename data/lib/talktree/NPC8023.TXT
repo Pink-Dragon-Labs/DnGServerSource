@@ -1,0 +1,28 @@
+id 8023
+
+banner "Greetings. Welcome to The Stillwater. May I help you?"
+
+topic "Tell me about Kurz."
+        text "Kurz is a wicked place, and that's how we like it."
+        text "The goddess Elphame is our patron saint. If you want to get along in Kurz, you have to accept her as your primary goddess. Otherwise, forget it."
+end
+
+topic "Who are you?"
+        text "I'm Douf. I work here for my uncle, who owns the Stillwater and also makes weapons."
+        text "You should be careful asking that here in Kurz.  Some folks might take it wrong."
+end      
+
+topic "Can I do something for you?"
+        text "You can't do anything today. You should come back another time.  I might have a request for you then."
+end
+
+topic  "I'm looking for a green bottle with an unusual shape." q236:0 #q6815-01-525:0
+	quest 237 #6815-01-530
+	text  "You already have it."
+end
+
+topic  "Do you have a ring belonging to Jaqqar's father?" q310:0 #q8111-01-225:0
+	quest 311 #8111-01-230
+	text  "You've already got it.  Are you trying to pull something?"
+end
+

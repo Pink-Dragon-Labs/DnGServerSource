@@ -1,0 +1,19 @@
+quest 39 # 6073-01-400        #Titania, The Forge, East Leinster, 6073
+
+name  "Primitive Tool Fragment"
+type  fedex
+
+proposal  "I see.  Critical striking is the most useful skill you can develop to do real damage.  You've gotten to expert level, I presume, or you wouldn't be here, so you've displayed dexterity and intelligence.  You'll need all that and more for the master level.  The Realm is in a mess.  I suppose you've looked at the state Leinster is in after the smiting?  You'll need every bit of skill you can develop.  Before I assist you in the master level, I want you to fetch me a primitive tool fragment found in Kurz.  Will you do this?"
+
+declined  "Not an auspicious start."
+
+accepted  "Somewhere in Kurz, or so I heard, they found some fragments."
+
+reminder   "Fetch a primitive tool fragment from Kurz."
+
+completed  "Doesn't look like much.  Oh well, nothing does these days.  Here's the book you need."
+
+getItem   qToolFragment
+reward    skbCriticalStrikingIV
+end
+

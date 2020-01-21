@@ -1,0 +1,74 @@
+id 6403
+
+banner "Welcome. Enid told me that a customer would enter Silverbrook Charms today."
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook is a unique elf-town, do you not think so? We celebrate the intertwining of orcan and elven heritage."
+	text "Pay attention to our architecture. The gargoyles you see were certainly not created by elves, and yet still they stand as a monument to our past."
+	text "Elves are expert in the use of magic.  None can surpass our skill."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I am glad you ask, for I heard just yesterday that a water nymph was seen in the waters of a nearby lake."
+        text "Do you believe in such creatures? I certainly do."
+end      
+
+topic  "Do you care for limericks?"
+	text  "It would be difficult to live in Silverbrook and dislike limericks.  Possible, perhaps, but not desirable."
+	text  "I don't always remember them. However I did hear one that I memorized."
+	text "There was an elf lady named Bright,"
+	text "Whose speed was much faster than light."
+	text "She went out one day"
+	text "In a relative way"
+	text "And returned on the previous night."
+	text "That's neatly done, isn't it?"
+end
+
+topic "Can I do anything for you?"
+        text "You are kind to ask, but I have nothing at present."
+end
+
+topic  "I'm interested in learning spells."
+	banner  "I see.  As it happens, I can assist you if you find yourself drawn to the craft of Theurgism." 
+
+	topic  "I am interested in Theurgism Familiar skills."  s16:0  
+		quest 140 #6403-01-100
+		text "Apprentice, you must study the skill book in your possession to gain these skills."
+	end
+	
+	topic  "I am interested in Theurgism Proficient skills."  s16:1  
+		quest 143 #6403-01-200
+		text "Apprentice, I thought you understood you must study the skill book in your possession to gain these skills."
+	end
+
+	topic  "I am interested in Theurgism Expert skills."  s16:2  
+		quest 147 #6403-01-300
+		text "Apprentice, you should by now clearly understand that you must study the skill book in your possession to gain these skills."
+	end
+ 
+	topic  "I am interested in Theurgism Master skills."  s16:3  
+		quest 151 #6403-01-400
+		text "Apprentice, I am distressed that it is necessary to tell you to study the skill book in your possession to gain these skills."
+	end
+
+	topic  "I am interested in Theurgism Grand-Master skills."  s16:4  
+		quest 156 #6403-01-500
+		text "Apprentice, I am disturbed.  You surely should know that you must study the skill book in your possession to gain these skills."
+	end
+
+	topic  "What else can I learn about spells?"  s16:5
+		text  "For this I must refer you to others.  Are you at all interested in Alchemy?  If you are, there is a teacher who accepts students for advanced studies.  Her name is Ciobhan.  You will find her in West Leinster."
+		text  "I really feel that you must concentrate on your theurgism training before starting any other studies."
+	end
+end
+
+topic  "I'm seeking some colored gemstones." q81000-01-530:0
+	quest 81000-01-535
+	text  "You received them already."
+end
+
+topic  "I need some copperhead extract." q41:0 #q6073-01-430:0
+	quest  42 #6073-01-435
+	text  "Not again.  I regret giving you the first batch."
+end
+

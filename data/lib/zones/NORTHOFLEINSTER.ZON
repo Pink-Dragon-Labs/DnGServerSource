@@ -1,0 +1,17 @@
+name "northhavenwood"
+title "North Havenwood"
+worldFile "../data/lib/world/FOR2.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 11
+groupChance 10
+monster Pixie 25
+monster Faery 20
+monster DesertRat 30
+monster FlyingRat 35
+monster Skeleton 30
+monster Ghoul 25
+monster Wolf 35
+# North of Leinster	Area 01		Player Level 5-10	Alignment: Mixed	Monsters/Room: 3.33
+

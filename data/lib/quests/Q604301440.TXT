@@ -1,0 +1,15 @@
+quest 21 # 6043-01-440        # Benoit, Remedies and Cures, Kurz, 8014
+
+name  "Benoit Sends a Gift"
+type  fedex
+
+proposal  "Well, now, this is a day for the record books when an elf healer sends to a human for a new potion.  Come to think of it though, I've heard of this Lireen.  She's a good sort, for an elf.  I'll be interested to know what she thinks of it.  It's my own formula.  Did you know that?  Anyhow, I'll send some to her, free of charge.  Will you deliver it?" 
+
+declined  "Someone else will."
+
+accepted  "Ok.  Here's a big supply for her."
+
+reminder   "Aren't you going to take that potion back to Lireen?"
+
+reward   qNewPotion 
+end

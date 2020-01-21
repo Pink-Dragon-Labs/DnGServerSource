@@ -1,0 +1,9 @@
+name "Barracks"
+title "The Barracks"
+worldFile "../data/lib/world/D_BARRACKS_02.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 31
+groupChance 30
+isDungeon 1
+entrance tent12363-0

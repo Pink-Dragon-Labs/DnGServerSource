@@ -1,0 +1,30 @@
+id 6609
+
+banner "This is Treachery Weapons. I am Bray, the armorer."
+
+topic "Tell me about Caer Fandry."
+        text "This is a town where many bad things happen. I'd recommend that you buy lots of weapons and equipment from me."
+	text  "I like it here myself.  I grew up here, and if you're a dark elf, its a great place."
+	text  "If you're not a dark elf, it's a different story."
+	text  "I'm telling you this for your own good."  
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that if you go walking along the banks of the loch, you might hear something slithering along behind you."
+        text "And if you don't start running, you might never come back!"
+end      
+
+topic "Can I do anything for you?"
+        text "Not today."
+end
+
+topic  "I'm looking for a Skeleton Finger Bone." q290:0 #q8021-01-300:0
+	quest 291 #8021-01-325
+	text  "You got it already."
+end
+
+topic  "I'm looking for Pasco's new carving knife." q169:0 #q6501-01-535:0
+	quest 170 #6501-01-540
+	text  "If you lost that knife, I'll carve out your gizzard!"
+end
+

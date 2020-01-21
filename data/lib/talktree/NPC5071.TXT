@@ -1,0 +1,15 @@
+id 5071
+
+banner "You must be hungry, see anything you like?"
+
+topic "What are you still doing here?"
+	text "You know, I've been asking myself that very question as of late.  My food cart survived the terrible smiting that Duach let loose on Leinster, and now the noise and rumbling in the ground.  It is enough to drive one crazy."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "I've heard no rumors at all."
+end      
+
+topic "Can I do anything for you?"
+	text "Comfort me, I am so afraid."
+end

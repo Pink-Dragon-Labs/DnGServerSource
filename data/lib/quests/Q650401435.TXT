@@ -1,0 +1,19 @@
+quest  174 #6504-01-435        # Andrea, Leinster Limited, Leinster West, clothes, 6019
+
+name  "Andrea's Lunch"
+type  fedex
+
+proposal  "I've got them.  They were found on the street in front, and I recognized them.  Stolen from the order somehow.  Crime in our streets is out of control, way out of control.  There's no safe place.  I don't even want to venture out.  In fact, if you'll pick up my lunch in exchange for the shoes then I won't have to go out.  Will you."
+
+declined  "You're going out anyway, aren't you?"
+
+accepted  "That's a relief."
+
+reminder   "Go get my lunch and I'll give you Liuja's boots."
+
+completed  "Thank you.  I would be happy if I never had to go out in the streets again."
+
+getItem   qAndreaLunch
+reward   qMissingBoots 
+end
+

@@ -1,0 +1,22 @@
+id 9056
+#--------------- 9056 2242 emfor3 male elf Earc
+
+banner "Welcome, welcome! Please, come in and browse."
+
+topic "Why are you here?"
+	text "I'd heard the stream outside my tent was washing up emeralds so I quickly packed my things and moved here! It took some time to find the 	stream, as it is not listed on any maps I own."
+	text "Sad to say, about the only thing I have found here is difficulty."
+	text "I constantly have to worry about the strange sounds at night and whether it's a monster that is going to eat me."
+	text "I think I may just pack up and move home. I miss my family and I move often."
+end
+
+topic "Who are you?"
+	text "I am Earc, I tend to scare easy, so please, try not to make sudden moves."
+	text "My family wanted me to start my own shop, but there was little space left in our home town. I moved out here because the land was free. I can see why now."
+	text "Oh my! Did you hear that sound?"
+end
+
+topic "Is this all you sell?"
+	text "Yes. I may offer something else at another time. That is... if I am still here."
+	text "Too many goings on that frighten me."
+end

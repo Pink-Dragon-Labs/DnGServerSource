@@ -1,0 +1,13 @@
+quest  365 #80000-01-545        # Birka, Holistic Healers, Leinster East, healer, 6042
+
+name  "Birka Fills A Need"
+type  fedex
+
+proposal  "Morin actually needs something from me!  Well, praise Mabon.  I never thought I'd see the day.  Ever since the great war of the Gods Morin hasn't had much use for East Leinster.  I'll give the box to you, friend, if you will promise to leave my tag in plain sight on the box. He must know who provided it.  Will you do this?"
+
+declined  "I'll take it to him myself, then."
+
+accepted  "Good.  What an opportunity for me!  Take it now, friend."
+
+reward   qZkgbContainer 
+end

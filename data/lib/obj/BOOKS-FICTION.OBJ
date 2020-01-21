@@ -1,0 +1,129 @@
+#* The Letter - Sapp Jaime <bonesgrrl2000@yahoo.com> - SHADOWEDPRINCESS
+object FictionBookI of Book
+	properties
+		name "The Letter - ShadowedPrincess"
+		value 500
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-theletter.txt"
+		shopText "This is a tale titled 'The Letter' by ShadowedPrincess."
+	end
+end
+
+#* Wanderer Diary - "Scott Bemis" <bemis@hotmail.com> - GOLRIN
+object FictionBookII of Book
+	properties
+		name "Diary of a Wanderer - Golrin"
+		value 500
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-wanderer.txt"
+		shopText "This is a written tale of an adventurer that wandered into the mists."
+	end
+end
+
+#* Just In Fun - ladyelspeth_1992000@yahoo.com - FAEWYND
+object FictionBookIII of Book
+	properties
+		name "Just In Fun - Faewynd"
+		value 250
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-justinfun.txt"
+		shopText "This is a poem titled 'Just in Fun' written by Faewynd."
+	end
+end
+
+#* Thieving of the Temple of Elphame - "Ben" <ben.fox@virgin.net> - Bennybalboa
+object FictionBookIV of Book
+	properties
+		name "Thieving of the Temple of Elphame - BennyBalboa"
+		value 250
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-elphame.txt"
+		shopText "This is a tale of a thief in the Temple of Elphame, as told by Bennybalboa."
+	end
+end
+
+#* Dark Angel Awakens - "Roman, Michael P." <roman_mip@students.ccsu.edu> - Aelig
+object FictionBookV of Book
+	properties
+		name "The Dark Angel Awakens - Aelig"
+		value 250
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-darkangel.txt"
+		shopText "This is a tale titled 'The Dark Angel Awakens'."
+	end
+end
+
+#* Myn's Diary - JayeMarsh@blueyonder.co.uk - MYN
+object FictionBookVI of Book
+	properties
+		name "Myn's Diary"
+		value 250
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-myndiary.txt"
+		shopText "This is the diary of Myn, and her starting adventures in The Realm."
+	end
+end
+
+#* Ghost of Lady Murias - hellcat@intcon.net - VERAGEMINI
+object FictionBookVII of Book
+	properties
+		name "The Ghost of Lady Murias - VeraGemini"
+		value 250
+		special
+	end
+
+	base described
+		book "../data/lib/obj/book-ghostlady.txt"
+		shopText "This is the tale of the Ghost of Lady Murias."
+	end
+end
+
+object RandomFictionBook of Book
+        properties
+                random 40
+                special
+        end
+        base treasure
+                FictionBookI
+                FictionBookII
+                FictionBookIII
+                FictionBookIII
+                FictionBookIII
+                FictionBookIII
+                FictionBookIV
+                FictionBookIV
+                FictionBookIV
+                FictionBookIV
+                FictionBookV
+                FictionBookV
+                FictionBookV
+                FictionBookV
+                FictionBookVI
+                FictionBookVI
+                FictionBookVI
+                FictionBookVI
+                FictionBookVII
+                FictionBookVII
+                FictionBookVII
+                FictionBookVII
+        end
+end
+

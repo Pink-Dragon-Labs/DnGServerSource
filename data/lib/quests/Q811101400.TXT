@@ -1,0 +1,18 @@
+quest 316 #8111-01-400
+
+name  "Ancient Rune from Devon"
+type  fedex
+
+proposal  "Apprentice, you're just in time.  There's not a moment to lose.  One of the elves in Drune has an Ancient Rune from Devon.  I need it.  Go get it.  You'll get your Sorcery Mastery book when you return."
+
+declined  "You're no help!"
+
+accepted  "Go. Go now!"
+
+reminder  "Don't waste time.  Go get the Ancient Rune from Devon from one of the elves in Drune."
+
+completed  "Ah, you've got it.  Good, very, very good.  Here's the Sorcery Mastery book.  You're almost ready to move on to Grand Master.  If you stay the course, you'll be one of the best.  Return when you're ready."
+
+getItem  qAncientRune
+reward   skbSorceryIV
+end

@@ -1,0 +1,14 @@
+object FrankKey01 of Key
+	properties
+		toss
+		drop
+		special
+		name "Iron Key"
+	end
+	base described
+		text "You see an iron key with the likeness of a winged daemon engraved upon it."
+	end
+	base key
+		unlockValue 79523
+	end
+end

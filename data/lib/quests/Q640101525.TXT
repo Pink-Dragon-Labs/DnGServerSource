@@ -1,0 +1,19 @@
+quest  136 #6401-01-525        # Alysa, Desert Rose, clothes, Arimathor, 6811
+
+name  "Present for Alysa's Mother"
+type  fedex
+
+proposal  "When things like this happen, I dare not disbelieve in the gods.  I want a wonderful present for my mother's naming day, and was in despair over getting it.  But you may be the answer to supplications for help.  I have the amulet you seek.  It will be yours if you will go quickly to Drune and return with my mother's present.  Will you do this?"
+
+declined  "Oh, no!"
+
+accepted  "I'm so glad, glad, glad.  Go quickly."  
+
+reminder   "Go to Drune.  Say that Alysa sent you for the present."
+
+completed  "Oh, friend, I'm so grateful to you.  Here is the amulet you seek."
+
+getItem   qAlysaPresent
+reward    qAmuletRuby 
+end
+

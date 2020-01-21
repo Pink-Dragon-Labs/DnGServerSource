@@ -1,0 +1,19 @@
+quest  119 #6311-01-400        #Zuzu, House of Combat, Monmouth, 6311
+
+name  "Feather from the large winged creature of Kurz"
+type  fedex
+
+proposal  "Two-handed sword kills?  Of course it does, ninny.  Oh, you mean skills.  You should learn to speak clearly.  If you don't handle a sword any better than you talk, it's hopeless.  Don't try to put anything over on me about this subject, either, because the two-handed sword is MY weapon.  I'll try you out, but I don't have a lot of confidence.  Here's what I want.  There's a great winged creature in Kurz, and I want one of the feathers.  A big feather, mind you, not a dinky one.  Go get it and I'll give you the spell book you need.  Are you going?"
+
+declined  "Huh!  Don't know why I wasted my breath."
+
+accepted  "Then be off."
+
+reminder   "Fetch me a feather from a large winged creature of Kurz or you don't get my help."
+
+completed  "Is that the best you could get?   Take your skill book."
+
+getItem   qFeatherKurz
+reward   skbTwoHandedSwordIV 
+end
+

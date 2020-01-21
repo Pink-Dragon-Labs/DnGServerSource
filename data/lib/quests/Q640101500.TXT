@@ -1,0 +1,19 @@
+quest  135 #6401-01-500        #Mikial, Shop of Defense, Silverbrook, 6401
+
+name  "Polished Ruby Amulet"
+type  fedex
+
+proposal  "Grand-mastery of Acrobatics is a skill to be treasured and valued.  Never, never let the fine edge of your skill falter.  The quality of your entire life will be better for this.  I shan't hold you back.  Procure for me a polished ruby amulet and I will obtain the last skill book for you.  Will you do this?"
+
+declined  "Ah!"
+
+accepted  "Go at once to Arimathor and begin your quest."
+
+reminder   "You seek for a polished ruby amulet.  Start in Arimathor."
+
+completed  "Well done, apprentice.  Accept your skill book.  Diligent study and practice will reward you beyond your dreams."
+
+getItem   qAmuletRuby
+reward    skbAcrobaticV
+end
+

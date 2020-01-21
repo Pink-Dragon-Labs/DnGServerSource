@@ -1,0 +1,19 @@
+quest  75 #6205-01-225        #Aldonzo, The Scimitar tavern, Arimathor, 6800
+
+name  "Aldonzo's Errand"
+type  fedex
+
+proposal  "Fossilized Toad, is it?  You wouldn't rather have your fortune told?  No, I suppose not.  Fossilized Toad. Hmmmm.  I hate to turn a customer away.  Tell you what I'll do.  I'll look into this a bit and see if I can locate one.  Meantime, you can do an errand for me.  What do you say to that?"
+
+declined  "Hang around and have a drink, if you're a mind to."
+
+accepted  "Good.  Ali repaired my favorite dagger.  Run over to his shop and pick it up for me."
+
+reminder   "Go pick up my dagger at Ali's."
+
+completed  "Ah, you're here with my dagger.  And I managed to get what you wanted, a nice example of Fossilized Toad."
+
+getItem   qAldonzoDagger
+reward   qFossilizedToad 
+end
+

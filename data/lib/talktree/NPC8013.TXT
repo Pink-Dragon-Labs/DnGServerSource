@@ -1,0 +1,24 @@
+id 8013
+
+banner "Greetings, and welcome to the Dirty Dagger. What do you want?"
+
+topic "Tell me about Kurz."
+        text "Kurz? Sure. Kurz is aligned with darkness and death. You'll get your throat cut by a Kurzian if you're careless."
+        text "We worship the goddess Elphame, who is served by the Sisterhood. You'd best watch for them sisters, 'cause they'll make short work of the likes of you."
+end
+
+topic "Who are you?"
+        text "My name is Muir, and I happen to own the Dirty Dagger, if it's any of your business."
+        text "Curiosity killed the rat, you know. You'd best mind that if you want to make it out of Kurz alive."
+	text "I don't really mind your questions.  I've lived long enough to mellow.  But they's others around not so genial as me."
+end      
+
+topic "Can I do something for you?"
+        text "You don't much look like you can take care of yourself, let alone help me. Besides, I've nothing for you. Now you'd best go away."
+end
+
+topic  "I'm looking for a magic rock of Kurz." q346:0 #q80000-01-100:0
+	quest 347 #80000-01-125
+	text  "Get outta here."
+end
+

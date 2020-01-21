@@ -1,0 +1,19 @@
+id 6059
+
+banner "Psst... Come over here..."
+
+topic "Tell me about Leinster"
+	text "People in Leinster are whining constantly about the huge fireball that smote the town into two.  I think it was the best thing that ever happened to this town... it was so boring before."
+end
+
+topic "What do you sell?"
+	text "Me?  I sell things useful to the, how shall I say, discriminating buyer.  If you know what I mean."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "The only interesting rumor I've heard is that the bounty hunters are getting rowdy.  You'd better mind your manners around them."
+end      
+
+topic "Can I do anything for you?"
+	text "It's kind of you to ask, but I've nothing for you today."
+end

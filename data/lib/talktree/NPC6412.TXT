@@ -1,0 +1,43 @@
+id 6412
+
+banner "Welcome to the Cock's Crow tavern, Adventurer."
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook was once an orcan town, but elven warriors took it from the orcs during the Continuum War."
+        text "Silverbrook elves are much like any other elf-tribe. We are courteous folk, self-confident and independent. We are skilled at magic, of course, and fight ably."
+	text "We are also a nature loving folk.  There's a lot of interest in fishing and hunting in the woods around here."
+	text "Most times there are more elves in the woods than there are in the town."
+end                                                             
+
+topic "Who are you?"
+        text "I am Meego, and this is the Cock's Crow tavern. The Cock's Crow has stood on this spot since the orcs founded Silverbrook."
+	text "My kin have owned this place for many generations.  I spent a lot of my younger years playing in the back room."
+        text "Note the quaint orcan trim along the tops of the walls. In fact, there's a gargoyle in the basement that would frighten you out of your wits, I'll warrant."
+end      
+
+topic	"What about limericks?  Do you like them?"
+	text  "I can take them or leave them."
+	text  "There are a few that I like."
+	text  "Here's one."
+	text  "Said the mate of a sailboat unique"
+	text  "To the cp'n, 'What port shall we sique?'"
+	text  "Said the cap'n, 'We'll dock'er"
+	text  "In Davy Jones locker."
+	text  "This blasted old tub's sprung a lique.'"
+	text  "I don't have to explain 'Davy Jones locker' do I?  It's from an old legend out of the Mists.  Means the bottom of the sea."
+end
+
+topic "Can I do something for you?"
+        text "Thanks, Adventurer. I like your initiative. I've nothing for you at present; check again later, won't you?"
+end
+
+topic  "Xangrifthe." q87:0 #q6205-01-530:0
+	quest 88 #6205-01-535
+	text  "The code works only once."
+end
+
+topic  "I'm looking for the Scroll of Astilrades." q176:0 #q6504-01-500:0
+	quest 177 #6504-01-525
+	text  "You should be looking wherever you put it, because you took it."
+end
+

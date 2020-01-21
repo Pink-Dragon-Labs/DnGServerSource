@@ -1,0 +1,6 @@
+quest 101 #6308-01-125  #(Devo, Wen FoodCart, 5109)
+
+proposal  "Wirkkala's Orc Amulet?  Am I ever glad to see you. Her amulet's here, and I've been watching for a chance to send it back.  She's an impressive lady and this orc amulet is an important object.  I don't like being responsible for something like that, and I sure don't want to risk getting on her bad side.  Not that I'm saying she holds a grudge, not at all.  I shouldn't talk so much.  I just get myself into more hot water. Take the amulet and go."
+
+reward  qOrcAmulet
+end

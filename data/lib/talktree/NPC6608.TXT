@@ -1,0 +1,32 @@
+id 6608
+
+banner "You've entered Caer Fandry Curses. My name is Stench. What do you want?"
+
+topic "Tell me about Caer Fandry."
+        text "Caer Fandry is the most cursed town in The Realm. And this shop sells the best curses in the entire Realm!"
+	text "Caer Fandry doesn't suffer fools lightly."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard your father was a hamster!"
+        text "Stop asking silly questions, or I'll be forced to turn you into a hamster!"
+end      
+
+topic "Can I do anything for you?"
+        text "Cut down the tallest tree in the forest with a herring. Sheesh. You're probably stupid enough to try! Just Get out."
+end
+
+topic  "I'm looking for the Amulet of Nemat the Magnificent." q143:0 #q6403-01-200:0
+	quest 144 #6403-01-225
+	text  "You already took it.  Get out."
+end
+
+topic  "I need a pest deterrent spray." q120:0 #q6311-01-425:0
+	quest 121 #6311-01-430
+	text  "You took it.  Get out."
+end
+
+topic  "I want some petrified peat." q396:0 #q8100-01-400:0
+	quest 397 #8100-01-425
+	text  "I'm tired of your face.  Get out."
+end

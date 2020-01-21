@@ -1,0 +1,155 @@
+#
+# Wasps
+#
+
+object WaspDrone of NPC
+	properties
+		name "Wasp Drone"
+		view 40400
+		alignment 128
+
+		minLevel 4
+		maxLevel 8
+
+		minDamage 6
+		maxDamage 10
+
+		dexterity 30
+		endurance 12
+		intelligence 3
+
+		#weak to fire damage
+		affect 1 3 0 -1
+
+		# poison + normal damage
+		affect 0 0 0 -1
+		affect 5 0 0 -1
+
+		soundGroup 14
+		quickness 14
+		treasure 0
+
+		damageType 0
+		armorType 1
+	end
+
+	base container
+		object RandomMonsterBauble
+		object RandomMonsterBauble
+	end
+
+	base character
+		# unarmed combat proficient
+		skill 7 2
+
+		# acrobatics expert
+		skill 9 3
+	end
+
+	base described
+		text "Wasp Drone -- 6 - 10 melee damage.  Poisoned attack.  Immune to poison.\n\n"
+	end
+end
+
+
+object WaspWorker of WaspDrone
+	properties
+		name "Wasp Worker"
+		clutStart -1
+		color 42
+
+		minLevel 8
+		maxLevel 12
+
+		minDamage 10
+		maxDamage 14
+	end
+
+	base described
+		text "Wasp Worker -- 10 - 14 melee damage.  Poisoned attack.  Immune to poison.\n\n"
+	end
+end
+
+
+object WaspWarrior of WaspDrone
+	properties
+		name "Wasp Warrior"
+
+		clutStart -1
+		color 43
+
+		minLevel 12
+		maxLevel 16
+
+		minDamage 14
+		maxDamage 18
+
+		# poison + bludgeoning damage
+		affect 13 0 0 -1
+	end
+
+	base container
+#		object RandomWaspTreasureII
+	end
+
+	base character
+		# expert combat
+		skill 7 3
+
+		# master acrobat
+		skill 9 4
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 25 1
+	end
+
+	base described
+		text "Wasp Warrior -- 25% elementalism resistance, 14 - 18 melee damage.  Poisoned attack.  Immune to poison."
+	end
+end
+
+
+object WaspQueen of WaspDrone
+	properties
+		name "Wasp Queen"
+
+		clutStart -1
+		color 1580
+
+		minLevel 16
+		maxLevel 32
+
+		minDamage 18
+		maxDamage 36
+
+		intelligence 8
+
+		# poison + bludgeoning damage
+		affect 13 0 0 -1
+	end
+
+	base container
+		object RandomCommonHelmet 
+#		object RandomWaspTreasureII
+#		object RandomWaspTreasureI
+#		object RandomWaspTreasureII
+	end
+
+	base character
+		# master combat
+		skill 7 4
+
+		# grandmaster acrobat
+		skill 9 5
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 1
+		vBeBorn changeSpellResistance self 75 2
+	end
+
+	base described
+		text "Wasp Queen -- 50% elementalism resistance, 75% mysticism resistance, 18 - 36 melee damage.  Poisoned attack.  Immune to poison."
+	end
+end

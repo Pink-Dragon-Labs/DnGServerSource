@@ -1,0 +1,26 @@
+id 7016
+
+banner "I am Basial, and this is my food cart. May I help you?"
+
+topic "Tell me about Kurz."
+        text "It's a wicked town. I've been robbed repeatedly by the same individuals, and the constable just laughs when I report it!"
+	text "It's a scandal, the things that are allowed to happen here."
+	text "Personally, I think there's graft in high places."
+	text "What can a mere shopkeeper do?"
+	text "Just watch your step around here, stranger.  That's my final word."  
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that Duach watches over Kurz. Me, I worship Enid."
+	text "But don't tell anyone!"
+end      
+
+topic "Can I do anything for you?"
+        text "Thanks, stranger, but there's nothing you can do for me except pray I make my next birthday."
+end
+
+topic  "I need a feather from the large winged creature of Kurz." q119:0 #q6311-01-400:0
+	quest 120 #6311-01-425
+	text  "One is enough, and you've got it."
+end
+

@@ -1,0 +1,19 @@
+quest  193 #6610-01-435        # Randolf, Dog's Breath, tavern, Kurz, 8001
+
+name  "Wen Cheese for Randolf"
+type  fedex
+
+proposal  "As it happens, I do.  I don't care for folks poking their noses into my business, so I won't ask into yours.  I'll trade for picking up an order of cheese from Wen for me.  Is the distilled water worth that jaunt to you?"   
+
+declined  "Your choice."
+
+accepted  "Good.  It's paid for.  Find Fiona."
+
+reminder   "Go to Wen for some of Fiona's cheese."
+
+completed  "I've been hoping you would return soon.  I do enjoy this cheese."
+
+getItem   qWenCheese
+reward   qBeakerWater 
+end
+

@@ -1,0 +1,29 @@
+id 5207
+
+banner "Greetings, Friend. I'm Mok, and this is my cafe. What may I get you?"
+
+topic "Tell me about Murias."
+        text "Oh, we're the best-known farm-town in the entire Realm. Our food is very fresh. You should try some."
+	text "Some of the best cooks in the Realm live here, too.  Our eating habits are healthy, so most inhabitants are very fit."
+	text "Nice, peaceful place to live, if you're thinking of settling."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard of a town in the north next to a swamp that's inhabited by goblins. Can you imagine?"
+	text "They say the goblins would stick a knife in your back as soon as look at you."
+end      
+
+topic "Can I do anything for you?"
+        text "That's kind of you, but I've nothing for you to do today."
+end
+
+topic  "I'm hoping to find some special grain bread of Murias." q233:0 #q6815-01-435:0
+	quest 234 #6815-01-440
+	text  "You already got it, friend."
+end
+
+topic  "Svetlana asked me to pick up her grain bread." q122:0 #q6311-01-435:0
+	quest 123 #6311-01-440
+	text  "You picked it up, friend."
+end
+

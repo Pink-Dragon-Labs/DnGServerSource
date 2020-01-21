@@ -1,0 +1,546 @@
+room 6062
+   properties
+      picture	4000
+      flags	2
+      roomName	"Implementor's Chamber"
+   end
+   atpinfo
+      2269  220 184 20
+      2358  121 185 30
+      2340  482 156 -20
+      2390  133 167 130
+      2151  105 322 50
+      2391  391 170 -10
+      34897  83 323
+      2262  368 181
+      2359  121 180 15
+      2125  70 324 50
+      2350  108 364
+      2358  121 185 50
+      2358  495 187 50
+      2358  495 187 70
+      2133  132 323 50
+      2358  121 186 70
+      2111  600 173 80
+      2299  333 183 20
+      2340  277 172
+      2340  127 157 -20
+      2262  257 181
+      2392  241 168 -10
+      2262  296 181
+      2338  -16 171 -20
+      2390  488 179
+      2361  495 198 100
+      2391  392 156 120
+      2392  38 194 144
+      2390  282 181 150
+      2309  370 185 20
+      2128  39 308 50
+      2390  489 167 130
+      2392  240 157 120
+      2134  124 315 50
+      2339  433 125 -50
+      2262  220 181
+      2391  592 195 145
+      2390  135 178
+      2132  69 323 50
+      2359  495 180 15
+      2339  637 172 -20
+      2262  331 181
+      2358  495 186 30
+      2262  403 181
+      2340  341 172
+      2390  347 181 150
+      2598  77 307 -20
+      2361  121 196 100
+      34918  26 323 50
+      2251  536 198 80
+      34913  632 178 100
+      2338  187 156 -20
+      2598  515 314
+      2259  297 186 20
+      2279  256 188 20
+      2289  406 186 20
+      2254  37 189 15
+      2110  41 178 -10
+      2261  4 185 10
+      2271  69 178 15
+      35073  80 176 -10
+      14  694 219
+      32782  -74 219
+      7900  219 184
+      7900  394 184
+   end
+   objects
+      object chair6062-0 of Chair
+         properties
+            x	407
+            y	301
+            loop	0
+         end
+      end
+      object chair6062-1 of Chair
+         properties
+            x	607
+            y	303
+            loop	1
+         end
+      end
+      object chair6062-2 of Chair
+         properties
+            x	486
+            y	283
+            loop	2
+         end
+      end
+      object chair6062-3 of Chair
+         properties
+            x	534
+            y	283
+            loop	2
+         end
+      end
+      object firePlace6062-5 of FirePlace
+         properties
+            x	638
+            y	196
+            loop	0
+         end
+      end
+      object torch6062-6 of Torch
+         properties
+            x	454
+            y	183
+            loop	0
+         end
+      end
+      object torch6062-7 of Torch
+         properties
+            x	166
+            y	182
+            loop	0
+         end
+      end
+#     object lever6062-8 of Lever
+#        properties
+#            x	327
+#            y	226
+#            loop	0
+#         end
+#         base described
+#            text "Lever to Lock/Unlock Farmer's Market Entry Door in 8115. Activate to Unlock. Deactivate to Lock."
+#         end
+#         actions
+#            vBeActivated unlock door7103-1
+#            vBeDeactivated close door7103-1
+#            vBeDeactivated lock door7103-1
+#         end
+#      end
+   end
+end
+room 6063
+   properties
+      picture	4000
+      flags	2
+      roomName	"Prophet's Hall"
+   end
+   atpinfo
+      2358  487 169 30
+      2340  495 146 -20
+      2390  146 157 130
+      2340  386 146 -20
+      2105  400 210
+      2358  258 170 50
+      2340  291 147 -20
+      2391  601 183
+      2359  258 164 15
+      2350  108 364
+      2104  596 189 -20
+      2358  487 170 50
+      2358  487 170 70
+      2355  617 166 31
+      2358  149 170 70
+      2358  149 170 50
+      2359  149 160 12
+      2340  83 147 -20
+      2340  192 147 -20
+      2358  258 170 70
+      2145  561 203 50
+      2358  374 170 50
+      2338  -1 162 -20
+      2390  180 157 130
+      2359  374 164 15
+      2103  489 222
+      2392  54 183 144
+      2390  383 157 130
+      2358  374 169 30
+      2358  258 169 30
+      2390  492 157 130
+      2358  149 169 30
+      2354  617 180 72
+      2354  617 179 52
+      2358  374 170 70
+      2391  596 185 145
+      2390  283 157 130
+      2599  155 239
+      2359  487 160 12
+      2339  646 159 -20
+      2361  149 160 80
+      2361  258 160 80
+      2361  374 160 80
+      2361  487 160 80
+      2390  152 170
+      2390  303 170
+      2392  54 183
+      2357  617 170 80
+      2395  234 170
+      7900  402 178
+      7908  235 178
+      7908  174 178
+      32782  -14 209
+      14  704 210
+      3  141 166
+      3  547 166
+      3  265 166
+      3  205 167
+      3  580 216
+      3  603 216
+      3  627 216
+      3  558 216
+   end
+   objects
+      object clothesShop6063-1 of ClothesShop
+         properties
+            x	488
+            y	204
+            loop	2
+            name	"Amanda"
+         end
+         base talk
+            talkTreeID	6063
+         end
+         base character
+            sex	1
+            properName	"Amanda (NPC)"
+         end
+		 base described	
+				acceptText "The current total of souls released is:\n\nDespothes %d\nDuach %d\nEnid %d" 0 1 2 3 4 5 6 7 8 9
+	     end
+         base container
+            worn	WhiteShirt
+            worn	BlackBelt
+            worn	GrayPants
+            worn	BrownBoots
+            head	1 0 5 6 0 1 -1 2 10 14 9 2 
+         end
+      end
+      object chair6063-0 of Chair
+         properties
+            x	83
+            y	224
+            loop	0
+         end
+      end
+      object chair6063-2 of Chair
+         properties
+            x	226
+            y	223
+            loop	1
+         end
+      end
+      object chair6063-4 of Chair
+         properties
+            x	130
+            y	218
+            loop	2
+         end
+      end
+      object chair6063-5 of Chair
+         properties
+            x	185
+            y	217
+            loop	2
+         end
+      end
+      object firePlace6063-7 of FirePlace
+         properties
+            x	0
+            y	189
+            loop	1
+         end
+      end
+      object torch6063-8 of Torch
+         properties
+            x	204
+            y	172
+            loop	0
+         end
+      end
+      object torch6063-9 of Torch
+         properties
+            x	434
+            y	173
+            loop	0
+         end
+      end
+      object torch6063-10 of Torch
+         properties
+            x	319
+            y	172
+            loop	0
+         end
+      end
+   end
+end
+
+# ************************* Special Effects Room *****************************************
+
+
+room 6074
+   properties
+      picture	4000
+      flags	2
+      roomName	"Special Effects Room"
+   end
+   atpinfo
+      2358  487 169 30
+      2340  495 146 -20
+      2390  146 157 130
+      2340  386 146 -20
+      2358  258 170 50
+      2340  291 147 -20
+      2391  601 183
+      2359  258 164 15
+      2350  108 364
+      2358  487 170 50
+      2358  487 170 70
+      2355  617 166 31
+      2358  149 170 70
+      2358  149 170 50
+      2359  149 160 12
+      2340  83 147 -20
+      2340  192 147 -20
+      2358  258 170 70
+      2358  374 170 50
+      2338  -1 162 -20
+      2390  180 157 130
+      2359  374 164 15
+      2392  54 183 144
+      2390  383 157 130
+      2358  374 169 30
+      2358  258 169 30
+      2390  492 157 130
+      2358  149 169 30
+      2354  617 180 72
+      2354  617 179 52
+      2358  374 170 70
+      2391  596 185 145
+      2390  283 157 130
+      2359  487 160 12
+      2339  646 159 -20
+      2361  149 160 80
+      2361  258 160 80
+      2361  374 160 80
+      2361  487 160 80
+      2390  152 170
+      2390  303 170
+      2392  54 183
+      2357  617 170 80
+      2395  234 170
+      7900  402 178
+      7908  235 178
+      7908  174 178
+      32782  -14 209
+      14  704 210
+      3  141 166
+      3  547 166
+      3  265 166
+      3  205 167
+      2390  413 170
+      2390  493 170
+   end
+   objects
+      object firePlace6074-0 of FirePlace
+         properties
+            x	0
+            y	189
+            loop	1
+         end
+      end
+      object torch6074-1 of Torch
+         properties
+            x	204
+            y	172
+            loop	0
+         end
+      end
+      object torch6074-2 of Torch
+         properties
+            x	434
+            y	173
+            loop	0
+         end
+      end
+      object torch6074-3 of Torch
+         properties
+            x	319
+            y	172
+            loop	0
+         end
+      end
+      object lever1-6074-4 of Lever
+         properties
+		special
+            x	130
+            y	200
+            loop	0
+		name "Duach1 Empty"
+         end
+	 actions
+
+	 end
+      end
+      object lever2-6074-5 of Lever
+         properties
+		special
+            x	130
+            y	250
+            loop	0
+		name "Duach2 Empty"
+         end
+	 actions
+
+	 end
+      end
+      object lever3-6074-6 of Lever
+         properties
+		special
+            x	130
+            y	300
+            loop	0
+		name "Duach3 Empty"
+         end
+	 actions
+	 end
+      end
+      object lever4-6074-7 of Lever
+         properties
+		special
+            x	230
+            y	200
+            loop	0
+		name "Despothes1 Empty"
+         end
+	 actions
+
+	 end
+      end
+      object lever5-6074-8 of Lever
+         properties
+		special
+            x	230
+            y	250
+            loop	0
+		name "Despothes2 Empty"
+         end
+	 actions
+
+	 end
+      end
+      object lever6-6074-9 of Lever
+         properties
+		special
+            x	230
+            y	300
+            loop	0
+		name "Despothes3 Empty"
+         end
+	 actions
+	 end
+      end
+      object lever7-6074-10 of Lever
+         properties
+		special
+            x	330
+            y	200
+            loop	0
+		name "Unlock Last Layer"
+         end
+	 actions
+	 vBeActivated unlock simpleDoor31044-1
+	 vBeActivated open simpleDoor31044-1
+	 vBeDeactivated lock simpleDoor31044-1
+	 vBeDeactivated close simpleDoor31044-1
+	 end
+      end
+      object lever8-6074-11 of Lever
+         properties
+		special
+            x	330
+            y	250
+            loop	0
+		name "Enid2 Empty"
+         end
+	 actions
+
+	 end
+      end
+      object lever9-6074-12 of Lever
+         properties
+		special
+            x	330
+            y	300
+            loop	0
+		name "Enid3 Empty"
+         end
+	 actions
+	 end
+      end
+      object lever10-6074-13 of Lever
+         properties
+		special
+            x	430
+            y	200
+            loop	0
+		name "Sarcophagus Locks"
+         end
+	 actions
+	 vBeActivated unlock sarcophagusDoor31034-4
+	 vBeActivated unlock sarcophagusDoor31032-5
+	 vBeDeactivated lock sarcophagusDoor31034-4
+	 vBeDeactivated close sarcophagusDoor31034-4
+	 vBeDeactivated lock sarcophagusDoor31032-5
+	 vBeDeactivated close sarcophagusDoor31032-5
+	 end
+      end
+      object lever11-6074-14 of Lever
+         properties
+		special
+            x	430
+            y	250
+            loop	0
+		name "Plank Door 31030"
+         end
+	 actions
+	 vBeActivated unlock plankDoor31030-11 # ******** Unlock Plank door
+	 vBeDeactivated close plankDoor31030-11
+	 vBeDeactivated close sarcophagusDoor31034-4
+	 vBeDeactivated lock plankDoor31030-11
+	 end
+      end
+      object lever12-6074-15 of Lever
+         properties
+		special
+            x	430
+            y	300
+            loop	0
+		name "Small door 31030"
+         end
+	 actions
+	 vBeActivated unlock homeDoorOutside31030-13 # ******** Unlock little door
+	 vBeDeactivated close homeDoorOutside31030-13
+	 vBeDeactivated lock homeDoorOutside31030-13
+	 end
+      end
+   end
+end

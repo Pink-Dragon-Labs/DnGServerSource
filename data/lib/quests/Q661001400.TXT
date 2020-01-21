@@ -1,0 +1,19 @@
+quest  190 #6610-01-400        #Rant, Vlador's Tavern, Caer Fandry, dark elf, 6610
+
+name  "The Daemon Token"
+type  fedex
+
+proposal  "Mastery of traps you're after?  You don't look like you could be a master of anything.  I wonder how you ever got to the level of expert.  You must be clever at concealing your intelligence.  You'll get a chance to demonstrate perseverence, at any rate.  I want you to find me a Daemon Token.  Ha.  That jolts you, doesn't it?  Are you going to try?" 
+
+declined  "Surprise, surprise."
+
+accepted  "We'll see how you do.  Try Leinster."
+
+reminder   "You might find a Daemon Token in Leinster, dolt-head." 
+
+completed  "You amaze me.  Take your book and go."
+
+getItem   qDaemonToken
+reward   skbTrapsIV 
+end
+

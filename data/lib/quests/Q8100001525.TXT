@@ -1,0 +1,19 @@
+quest  81000-01-525        # Talu, Cloth and More, Monmouth, 6302
+
+name  "Wool from the Long-Haired Mountain Goats"
+type  fedex
+
+proposal  "Ah, yes.  The good Frederick.  He was a wizard, wasn't he?  No wait, I believe he was a storyteller.  Or was he a tavernkeeper?  How very puzzling.  Now I can't think who Frederick was.  At any rate, it doesn't matter.  What matters is that you are in luck.  I DO HAVE HIS AMULET.  Oops, sorry for shouting.  I tend to get excited at times.  Yes, to repeat, I have the Amulet of Frederick.  I will offer it in trade for a little errand I have in mind.  Will you do this?"
+
+declined  "It's just a small errand."
+
+accepted  "What I have in mind is this.  I want some wool from the long-haired mountain goats.  Oddly enough, it's available in the desert."
+
+reminder   "Go to the desert and find me some wool from the long-haired mountain goats."
+
+completed  "HOORAY.  Oops, sorry for shouting.  Thank you.  Here's the amulet you wanted of what's-his-name."
+
+getItem   qGoatWool
+reward    qAmuletFrederick
+end
+

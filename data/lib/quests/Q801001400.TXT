@@ -1,0 +1,19 @@
+quest  272 #8010-01-400        #Oberon, Weapons of Thunder, Kurz, 8010
+
+name  "Scrap of Decrepit Scabbard"
+type  fedex
+
+proposal  "You'll need to study the Master's Book of Short Swords.  I can provide a copy, but I'll need to see you finish an assignment first.  There's reputed to be a scrap of a decrepit scabbard turned up in Leinster.  I want to see it.  It might be nothing special, probably isn't, but it might be really old.  Will you go find it for me?"
+
+declined  "Fine by me."
+
+accepted  "Good.  All I know is it's supposed to be in Leinster somewhere."
+
+reminder   "You're supposed to be out looking for that scrap of decrepit scabbard in Leinster."
+
+completed  "Hmm, this could be a real find.  I'll study it.  Meanwhile, here's your skill book."
+
+getItem   qDecrepitScabbard
+reward    skbShortSwordIV 
+end
+

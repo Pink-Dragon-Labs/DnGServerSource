@@ -1,0 +1,48 @@
+id 6069
+
+banner "Welcome. I am Georgie, what may I tell you?"
+
+topic "Where am I?"
+	text "You are in the Event complex. This is where we plan festivals, games, and events for the citizens in our lands. We should protect this area so I must ask you to not bring friends, family, or strangers here. We only allow those that work with us to visit this place."
+	text "You will notice there are only two rooms you can access from here. The room you are currently standing in and Host's Hollow, one south. These areas are for us to gather and meet to discuss upcoming events. You are always welcomed in any of these two areas. This is after all your new home. Welcome!"
+end
+
+topic "Tell me about hidden event rooms."
+	text "Hidden rooms? How did you know about those?"
+	text "I guess it does not matter how you found out. Yes, there are a few hidden rooms for the event staff's use. You should obtain instruction from senior staff members about these hidden rooms."
+end
+
+topic "Can you teach me commands?"
+	banner "Yes. I will teach you commands. Let's begin our class."
+	topic "Teleport"
+		text "The first command on our list is the /teleport command. This command is used to travel around to different rooms and areas within the Realm Online. For example, if you wanted to visit the East Leinster teleport gate you would type /teleport 5014 and it would send you there. You should see about getting a map from Calder. It will help you locate the rooms faster. On your current account the /room command works. If you see a room you like write down the number for future use. Moving on..."
+	text "This command /teleport <playername> <roomnumber> will send a player to the desired room number you enter. Let's say, for example, you wanted to send Calder to the East Leinster teleport gate. This would be done by typing /teleport Calder 5014. As always, make sure you get permission before you teleport someone. Why? If they are in combat you will pull them from combat causing them to leave the fight. They may get upset!"
+	end
+	topic "About Room"
+	text "The next command I will teach you is the /aboutrm command. This command is used with a room number to see who or what is in any given room. For example if you wanted to see who was standing at the East Leinster teleport gate you would type /aboutrm 5014 and press enter. Doing this will cause a screen to pop up and show you everyone in that room. To close that screen click on the red X."
+	text "You should ALWAYS use the /aboutrm command before you teleport into any hidden rooms. Why? Because a private meeting may be going on. You never want to land in the middle of someone else's meeting if you are not on the meeting list! How rude!"
+	end
+	topic "Bring"
+	text "Have you used the /bring command yet? This command will bring a citizen to your location. You would type /bring <playersname> and it will bring them to you. Always get permission from the citizens before you bring or teleport them any place. Remember to never bring a citizen here."
+	end
+	topic "Go To"
+	text "The command /goto is used to go to a citizens location. You do not want to use this on normal citizens because you could land in their home! We never venture into a citizens home. If another event staff member is on you can always type /goto <playersname> and it will send you to that staff members location."
+	end
+	topic "Empty Room"
+	text "The command /empty is used to clear a room of all citizens. You should really never have to use this command. When used it will scatter the citizens to any rooms in that area, they could even land in secret rooms we don't want them to see!"
+	end
+	topic "Getting Here Fast"
+		text "/hide (or /hideout) will instantly transport you back to the Event complex. When used you will appear in Host's Hollow but, as you know, it is just a short walk to get right back here to me."
+	end
+end
+
+topic "Tell me about the Event Tab and it's use."
+	text "The event tab is a tool that should not be used unless an event is going on. It will send messages to everyone in our lands!"
+	text "When activated the event tab has a few commands to help direct the gossip flow on the channel. I will teach them to you now."
+	text "If a citizen is being rude or doing something that requires them to be kicked from the Event tab you type /closeEvent <playername> or you can type /cE <playername> but remember case counts. You can't type /ce because that is not correct. It must be /closeEvent <playersname> or /cE <playersname> to work."
+	text "If you need to make the tab read only you type /cERO and it will become read only. To allow citizens to talk on it again you would type /cERO again to allow them to do so. It will give you a notice on the event tab if it's read only or public when you type these commands."
+	text "When an event is over, and it is time to close the tab, you should alert everyone that you will be closing the tab. Allow 1 minute to pass before you close the tab so that everyone on staff may say goodbye. To close the tab after the 1 minute time limit you would type /cE or /closeEvent and the tab will close."
+	text "That's it. If you have any questions I am sure someone on the event staff will be happy to help you. I need to get back to work. Calder might come in and catch me chatting the day away."
+	text "Good day my friend!"
+end
+

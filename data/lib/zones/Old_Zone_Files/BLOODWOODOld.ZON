@@ -1,0 +1,40 @@
+name "bloodwood"
+title "Bloodwood"
+worldFile "../data/lib/world/INTER1.WLD"
+worldFile "../data/lib/world/INTER2.WLD"
+worldFile "../data/lib/world/BLOOD3.WLD"
+worldFile "../data/lib/world/BLOOD4.WLD"
+worldFile "../data/lib/world/MIDDLE.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 15
+groupChance 15
+monster EarthElemental 2
+monster WaterElemental 2
+monster AirElemental 2
+monster FireElemental 2
+monster Wolf 20
+monster RabidWolf 8
+monster AlphaWolf 5
+monster Skeleton 10
+monster LostSailor 5
+monster DamnedOne 3
+monster FlyingRat 15
+monster CryptBat 8
+monster VampireBat 3
+monster ArcticRat 12
+monster FlameRat 8
+monster PlagueRat 2
+monster OgreChild 3
+monster Troll 2
+monster ThiefC 2
+monster ThiefB 2
+monster WarriorC 2
+monster WarriorB 2
+monster WarriorA 2
+monster BountyHunterA 2
+monster BountyHunterB 2
+monster BountyHunterC 2
+monster LightWiz 2
+monster Cleric 2

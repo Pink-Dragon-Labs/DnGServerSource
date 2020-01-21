@@ -1,0 +1,19 @@
+id 77803
+
+banner "Greetings, Friend. I am Yakitty. How may I help you?"
+
+topic "Can you tell me about this land?"
+    text "It's large and full of dangers. Some areas are best avoided unless you're of the stoutest heart and keenest mind. Others even little old Yakkity can feel safe in. Hee hee."
+    text "We have a number of towns, but Leinster is our largest. Sadly it isn't what it once was. Ah me, don't get me talking of days gone by. It's been hard to make a livin' but slowly things be getting better."
+    text "The safest lands are those closest to Leinster, that you can be a takin to the bank. Hee hee."
+end
+
+topic "Can you tell me about the Gods?"
+    text "Well, I try to not trouble myself with them, it only gets me into trouble."
+    text "But if you really gotta know you should talk with Orwain. He once was kinda sweet on me, ya know. That was years ago, when I was a real beauty. Hee hee. Anyway, he can tell all about the Gods, and their Prophets, and more than you care to hear about our Realm."
+    text "You can find him in the God Gardens of Leinster. Just start from the East Leinster teleporter and go 5 rooms to the West (left) and 1 room South (down). But don't you be believe'n that rascal if he says anything about me. Oh, the stories he does tell! Hee hee."
+end      
+
+topic "Where is a good place to hunt?"
+    text "Well from the looks of ye I'd suggest Ratling Run. You can find it by heading East from Leinster. You'll find lots of easy prey there until you get the hang of this place. But be careful mind ye, don't wander too far from town. Horrible things live out there. I shudder to think of 'em."
+end

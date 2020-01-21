@@ -1,0 +1,23 @@
+id 6812
+
+banner "The supreme beings be praised that you have come to the Desert Wind Tavern! How may I serve you?"
+
+topic "Tell me about Arimathor."
+        text "So you wish to know of our town. But what is truth, my friend, but fantasy with fact's flavor? The story of Arimathor has been handed down through the generations, and some of it may be lore."
+        text "Still, I will tell you this. Arimathor was once a fertile farming community called Hereford, but a holy man came from across the seas and changed our world forever. Now we are desert-dwellers, and yet we have all the water we need. Life is sometimes puzzling, is it not?"
+end
+
+topic "Who are you?"
+        text "I? I am Jaqqar, and it my privilege to tell you of myself. This tavern is mine, having been built by my mother soon after my father was murdered. He should not have wandered so far from Arimathor, but alas, he sought danger and excitement. As do you, eh, Friend?"
+	text "I content myself with my present position in life.  It is the best way, is it not?  The gods test us daily, to see how we accept inevitabilities.  They must see us working cheerfully at a task, and not bewailing our fate, my friend."
+end      
+
+topic "Can I do something for you?"
+        text "Not right now, Friend. But one never knows when some opportunity or other will present itself, is that not so?"
+end              
+
+topic  "I'm seeking a White Shark Tooth." q309:0 #q8111-01-200:0
+	quest 310 #8111-01-225
+	text  "I gave you the Tooth when you returned my father's ring."
+end
+

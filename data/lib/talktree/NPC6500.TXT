@@ -1,0 +1,18 @@
+id 6500
+
+banner "Welcome to the Tasty Mead Tavern. What can I do for you?"
+
+topic "Tell me about Guennor."
+        text "Guennor is populated by a notoriously hardy race; we have incredible stamina and resistance. Because of our incredible ability to survive through all sorts of situations, not to mention our fascinating personalities, Guennorians make excellent guides."
+        text "Also, Guennorians are famous for their modesty."
+end
+
+topic "Who are you?"
+        text "I am Ilona, propriatrix of the Tasty Mead, the most expensive tavern in all of Guennor. I can charge extra for the drinks, because I add a secret ingredient to them."
+        text "I can tell by your expression that you'd like to know what the secret ingredient is, but I'm not going to tell you."
+end      
+
+topic "Can I do something for you?"
+        text "I need nothing from you today. Ask again another day."
+end             
+

@@ -1,0 +1,20 @@
+quest 252 #6902-01-425  #(Iviona, Gatekeeper of Wen, 5105)
+
+name  "Parchment from Marti"
+type  fedex
+
+proposal "You appear to be on a Quest.  We are a small village without a great many exotic items of interest.  But we do have a quality supply of the Hair of an Ancient Bat.  Do you wish to acquire some?"  
+
+declined  "Enjoy your visit to Wen."
+
+accepted  "Since this is your wish, you would do well to visit Marti at Dragontooth Clothing.  Ask her for a parchment, please."
+
+reminder   "Go to see Marti at Dragontooth Clothing.  Request a parchment."
+
+completed  "Here is the Hair of Ancient Bat.  I hope it works for whatever you have in mind."
+
+getItem   qMartiParchment
+reward  qBatHair
+end
+
+

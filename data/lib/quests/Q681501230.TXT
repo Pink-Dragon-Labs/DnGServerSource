@@ -1,0 +1,19 @@
+quest  224 #6815-01-230        #Slug, Dinnertime, Caer Fandry, 6602
+
+name  "Slug's Shirt"
+type  fedex
+
+proposal  "Have I any beef jerky?  HAVE I ANY BEEF JERKY?  You'll be a stranger here, then, because it's well known that I make the finest beef jerky in the Realm.  I have the way of it from my father, and he got it from his.  The instructions do not go out of the family.  Humpf.  Do I have any beef jerky?  I've a notion not to deal with you for such a DUMB QUESTION.  However, I'll overlook it if you will fetch my shirt from over the way.  Bidosk repaired a great hole in it for me.  Will you do it?"  
+
+declined  "Didn't want you to have my beef jerky anyway."
+
+accepted  "Then fetch it.  And don't let him charge you.  It's taken care of already."
+
+reminder   "My shirt is at Bidosk's shop for repair."
+
+completed  "I made up the jerky package, but I'm not sure I ought to let you have it.  Get out now."
+
+getItem   qSlugShirt
+reward   qBeefJerky 
+end
+

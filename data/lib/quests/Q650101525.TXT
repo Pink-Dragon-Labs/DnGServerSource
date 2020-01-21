@@ -1,0 +1,19 @@
+quest  167 #6501-01-525        # Legotia, The Soothing Touch, healer, Wen, 6111
+
+name  "Ginkaroo Bark for Legotia"
+type  fedex
+
+proposal  "Baroq the Bald certainly did catch the attention of people.  He was a picturesque figure, I'll say that for him.  I do have a talisman, and I'll let you have it if you'll do a big favor for me.   I need a supply of ginkaroo bark.  It's a rare but important herb for healers.  I hear there is someone in Leinster with some, and I want a bit of it while it's available.  Will you go?"
+
+declined  "I wish you would reconsider."
+
+accepted  "Good.  I'll wish you luck."
+
+reminder   "Go to Leinster and seek for ginkaroo bark."
+
+completed  "Excellent.  Excellent.  My thanks.  And here is the talisman of Baroq the Bald."
+
+getItem   qGinkarooBark
+reward   qTalismanBaroq 
+end
+

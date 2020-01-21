@@ -1,0 +1,19 @@
+quest  213 #6817-01-435        # Mellie, Gate Keeper, Arimathor, 5810
+
+name  "Scented Tallow Candles"
+type  fedex
+
+proposal  "I sure do, friend.  I've got several.  I find them in the desert.  If you want one, would you consider a trade?  I really want some scented tallow candles from Leinster.  I ordered them, but had to cancel my trip to fetch them.  Would you do that?"
+
+declined  "Oh, well."
+
+accepted  "You would!  Great."
+
+reminder   "You're going to Leinster for my scented tallow candles."
+
+completed  "Thank you, friend.  I picked the best of the fossils for you."
+
+getItem   qScentedCandles
+reward   qFossilRock 
+end
+

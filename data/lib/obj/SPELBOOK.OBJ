@@ -1,0 +1,2049 @@
+object Spellbook of Book
+	properties
+		level 0
+		color -1
+		clutStart 58
+	end
+
+	base described
+		text "You see a spellbook."
+		shopText "Here is a spellbook."
+	end
+
+	base teach
+		spell -1
+	end
+end
+
+object spbBlank of Book
+	properties
+		name "Blank Spellbook"
+		value 25
+	end
+
+	base described
+		text "You see a blank spellbook."
+		shopText "Here is a blank spellbook."
+	end
+end
+
+
+# sorcery spells
+
+object spbHome of Spellbook
+	properties
+		name "Spellbook of Home"
+	end
+
+	base teach
+		spell 0
+	end
+
+	base described
+		text "This book will teach you the familiar-level sorcery spell 'Home'."
+		shopText "This book will teach you the familiar-level sorcery spell 'Home'."
+	end
+end
+
+object spbKillStar of Spellbook
+	properties
+		name "Spellbook of Killstar"
+	end
+
+	base teach
+		spell 1
+	end
+
+	base described
+		text "This book will teach you the familiar-level sorcery spell 'KillStar'."
+		shopText "This book will teach you the familiar-level sorcery spell 'KillStar'."
+	end
+end
+
+object spbUnlock of Spellbook
+	properties
+		name "Spellbook of Unlock"
+	end
+
+	base teach
+		spell 2
+	end
+
+	base described
+		text "This book will teach you the familiar-level sorcery spell 'Unlock'."
+		shopText "This book will teach you the familiar-level sorcery spell 'Unlock'."
+	end
+end
+
+object spbDispelMagic of Spellbook
+	properties
+		name "Spellbook of Dispel Magic"
+	end
+
+	base teach
+		spell 3
+	end
+
+	base described
+		text "This book will teach you the familiar-level sorcery spell 'Dispel Magic'."
+		shopText "This book will teach you the familiar-level sorcery spell 'Dispel Magic'."
+	end
+end
+
+object spbEngrave of Spellbook
+	properties
+		name "Spellbook of Engrave"
+	end
+
+	base teach
+		spell 4
+	end
+
+	base described
+		text "This book will teach you the familiar-level sorcery spell 'Engrave'."
+		text "This book will teach you the familiar-level sorcery spell 'Engrave'."
+	end
+end
+
+
+object spbMultiBlade of Spellbook
+	properties
+		name "Spellbook of Multi-Blade"
+		value 200
+	end
+
+	base teach
+		spell 5
+	end
+
+	base described
+		text "This book will teach you the proficient-level sorcery spell 'Multi-Blade'."
+		shopText "This book will teach you the proficient-level sorcery spell 'Multi-Blade'."
+	end
+end
+
+object spbGatherTheFellowship of Spellbook
+	properties
+		name "Spellbook of Gather the Fellowship"
+		value 200
+	end
+
+	base teach
+		spell 6
+	end
+
+	base described
+		text "This book will teach you the proficient-level sorcery spell 'Gather the Fellowship'."
+		shopText "This book will teach you the proficient-level sorcery spell 'Gather the Fellowship'."
+	end
+end
+
+object spbCornucopia of Spellbook
+	properties
+		name "Spellbook of Cornucopia"
+		value 200
+	end
+
+	base teach
+		spell 7
+	end
+
+	base described
+		text "This book will teach you the proficient-level sorcery spell 'Cornucopia'."
+		shopText "This book will teach you the proficient-level sorcery spell 'Cornucopia'."
+	end
+end
+
+object spbCloudOfFog of Spellbook
+	properties
+		name "Spellbook of Cloud of Fog"
+		value 200
+	end
+
+	base teach
+		spell 8
+	end
+
+	base described
+		text "This book will teach you the proficient-level sorcery spell 'Cloud of Fog'."
+		shopText "This book will teach you the proficient-level sorcery spell 'Cloud of Fog'."
+	end
+end
+
+object spbImproveArmor of Spellbook
+	properties
+		name "Spellbook of Improve Armor"
+		value 200
+	end
+
+	base teach
+		spell 9
+	end
+
+	base described
+		text "This book will teach you the proficient-level sorcery spell 'Improve Armor'."
+		shopText "This book will teach you the proficient-level sorcery spell 'Improve Armor'."
+	end
+end
+
+object spbTeleport of Spellbook
+	properties
+		name "Spellbook of Teleport"
+		value 400
+	end
+
+	base teach
+		spell 10
+	end
+
+	base described
+		text "This book will teach you the expert-level sorcery spell 'Teleport'."
+		shopText "This book will teach you the expert-level sorcery spell 'Teleport'."
+	end
+end
+
+object spbExtension of Spellbook
+	properties
+		name "Spellbook of Extension"
+		value 400
+	end
+
+	base teach
+		spell 11
+	end
+
+	base described
+		text "This book will teach you the expert-level sorcery spell 'Extension'."
+		shopText "This book will teach you the expert-level sorcery spell 'Extension'."
+	end
+end
+
+object spbSeeInvisibility of Spellbook
+	properties
+		name "Spellbook of See Invisibility"
+		value 400
+	end
+
+	base teach
+		spell 12
+	end
+
+	base described
+		text "This book will teach you the expert-level sorcery spell 'See Invisibility'."
+		shopText "This book will teach you the expert-level sorcery spell 'See Invisibility'."
+	end
+end
+
+object spbShift of Spellbook
+	properties
+		name "Spellbook of Shift"
+		value 400
+	end
+
+	base teach
+		spell 13
+	end
+
+	base described
+		text "This book will teach you the expert-level sorcery spell 'Shift'."
+		shopText "This book will teach you the expert-level sorcery spell 'Shift'."
+	end
+end
+
+object spbInvisibility of Spellbook
+	properties
+		name "Spellbook of Invisibility"
+		value 400
+	end
+
+	base teach
+		spell 14
+	end
+
+	base described
+		text "This book will teach you the expert-level sorcery spell 'Invisibility'."
+		shopText "This book will teach you the expert-level sorcery spell 'Invisibility'."
+	end
+end
+
+object spbCombatTeleport of Spellbook
+	properties
+		name "Spellbook of Combat Teleport"
+		value 700
+	end
+
+	base teach
+		spell 15
+	end
+
+	base described
+		text "This book will teach you the master-level sorcery spell 'Combat Teleport'."
+		shopText "This book will teach you the master-level sorcery spell 'Combat Teleport'."
+	end
+end
+
+object spbTeleportGroup of Spellbook
+	properties
+		name "Spellbook of Teleport Group"
+		value 700
+	end
+
+	base teach
+		spell 16
+	end
+
+	base described
+		text "This book will teach you the master-level sorcery spell 'Teleport Group'."
+		shopText "This book will teach you the master-level sorcery spell 'Teleport Group'."
+	end
+end
+
+object spbPermanency of Spellbook
+	properties
+		name "Spellbook of Permanency"
+		value 700
+	end
+
+	base teach
+		spell 17
+	end
+
+	base described
+		text "This book will teach you the master-level sorcery spell 'Permanacy'."
+		shopText "This book will teach you the master-level sorcery spell 'Permanacy'."
+	end
+end
+
+object spbRust of Spellbook
+	properties
+		name "Spellbook of Rust"
+		value 700
+	end
+
+	base teach
+		spell 18
+	end
+
+	base described
+		text "This book will teach you the master-level sorcery spell 'Rust'."
+		shopText "This book will teach you the master-level sorcery spell 'Rust'."
+	end
+end
+
+object spbWraithform of Spellbook
+	properties
+		name "Spellbook of Defenselessness"
+		value 700
+	end
+
+	base teach
+		spell 19
+	end
+
+	base described
+		text "This book will teach you the master-level sorcery spell 'Defenselessness'."
+		shopText "This book will teach you the master-level sorcery spell 'Defenselessness'."
+	end
+end
+
+object spbImprovedInvisibility of Spellbook
+	properties
+		name "Spellbook of Improved Invisibility"
+		value 1000
+	end
+
+	base teach
+		spell 20
+	end
+
+	base described
+		text "This book will teach you the grand-master sorcery spell 'Improved Invisibility'."
+		shopText "This book will teach you the grand-master sorcery spell 'Improved Invisibility'."
+	end
+end
+
+object spbEnchantItem of Spellbook
+	properties
+		name "Spellbook of Enchant Item"
+		value 1000
+	end
+
+	base teach
+		spell 21
+	end
+
+	base described
+		text "This book will teach you the grand-master sorcery spell 'Enchant Item'."
+		shopText "This book will teach you the grand-master sorcery spell 'Enchant Item'."
+	end
+end
+
+object spbMassRust of Spellbook
+	properties
+		name "Spellbook of Mass Rust"
+		value 1000
+	end
+
+	base teach
+		spell 22
+	end
+
+	base described
+		text "This book will teach you the grand-master sorcery spell 'Mass Rust'."
+		shopText "This book will teach you the grand-master sorcery spell 'Mass Rust'."
+	end
+end
+
+object spbElphamesJustice of Spellbook
+	properties
+		name "Spellbook of Elphame's Justice"
+		value 1000
+	end
+
+	base teach
+		spell 23
+	end
+
+	base described
+		text "This book will teach you the grand-master sorcery spell 'Elphame's Justice'."
+		shopText "This book will teach you the grand-master sorcery spell 'Elphame's Justice'."
+	end
+end
+
+object spbGreaterIdentify of Spellbook
+	properties
+		name "Spellbook of Greater Identify"
+		value 1000
+	end
+
+	base teach
+		spell 132
+	end
+
+	base described
+		text "This book will teach you the grand-master sorcery spell 'Greater Identify'."
+		shopText "This book will teach you the grand-master sorcery spell 'Greater Identify'."
+	end
+end
+
+# Elemental spells
+object spbFireGrasp of Spellbook
+	properties
+		name "Spellbook of Fire Grasp"
+	end
+
+	base teach
+		spell 24
+	end
+
+	base described
+		text "This book will teach you the familiar-level elementalist spell 'Fire Grasp'."
+		shopText "This book will teach you the familiar-level elementalist spell 'Fire Grasp'."
+	end
+end
+
+object spbFlameOrb of Spellbook
+	properties
+		name "Spellbook of Flame Orb"
+	end
+
+	base teach
+		spell 25
+	end
+
+	base described
+		text "This book will teach you the familiar-level elementalist spell 'Flame Orb'."
+		shopText "This book will teach you the familiar-level elementalist spell 'Flame Orb'."
+	end
+end
+
+object spbArticGrasp of Spellbook
+	properties
+		name "Spellbook of Arctic Grasp"
+	end
+
+	base teach
+		spell 26
+	end
+
+	base described
+		text "This book will teach you the familiar-level elementalist spell 'Arctic Grasp'."
+		shopText "This book will teach you the familiar-level elementalist spell 'Arctic Grasp'."
+	end
+end
+
+object spbIceOrb of Spellbook
+	properties
+		name "Spellbook of Ice Orb"
+	end
+
+	base teach
+		spell 27
+	end
+
+	base described
+		text "This book will teach you the familiar-level elementalist spell 'Ice Orb'."
+		shopText "This book will teach you the familiar-level elementalist spell 'Ice Orb'."
+	end
+end
+
+object spbEarthSpike of Spellbook
+	properties
+		name "Spellbook of Earth Spike"
+	end
+
+	base teach
+		spell 28
+	end
+
+	base described
+		text "This book will teach you the familiar-level elementalist spell 'Earth Spike'."
+		shopText "This book will teach you the familiar-level elementalist spell 'Earth Spike'."
+	end
+end
+
+object spbIncinerate of Spellbook
+	properties
+		name "Spellbook of Incinerate"
+	end
+
+	base teach
+		spell 29
+	end
+
+	base described
+		text "This book will teach you the familiar-level elementalist spell 'Incinerate'."
+		shopText "This book will teach you the familiar-level elementalist spell 'Incinerate'."
+	end
+end
+
+object spbGustOfWind of Spellbook
+	properties
+		name "Spellbook of Gust of Wind"
+		value 200
+	end
+
+	base teach
+		spell 30
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Gust of Wind'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Gust of Wind'."
+	end
+end
+
+object spbImmolation of Spellbook
+	properties
+		name "Spellbook of Immolation"
+		value 200
+	end
+
+	base teach
+		spell 31
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Immolation'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Immolation'."
+	end
+end
+
+object spbDancingFlame of Spellbook
+	properties
+		name "Spellbook of Dancing Flame"
+		value 200
+	end
+
+	base teach
+		spell 32
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Dancing Flame'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Dancing Flame'."
+	end
+end
+
+object spbFlameBlade of Spellbook
+	properties
+		name "Spellbook of Flame Blade"
+		value 200
+	end
+
+	base teach
+		spell 33
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Flame Blade'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Flame Blade'."
+	end
+end
+
+object spbArticCharge of Spellbook
+	properties
+		name "Spellbook of Electric Charge"
+		value 200
+	end
+
+	base teach
+		spell 34
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Electric Charge'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Electric Charge'."
+	end
+end
+
+object spbColdSteel of Spellbook
+	properties
+		name "Spellbook of Cold Steel"
+		value 200
+	end
+
+	base teach
+		spell 35
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Cold Steel'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Cold Steel'."
+	end
+end
+
+object spbSandstorm of Spellbook
+	properties
+		name "Spellbook of Sandstorm"
+		value 200
+	end
+
+	base teach
+		spell 36
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Sandstorm'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Sandstorm'."
+	end
+end
+
+object spbSpark of Spellbook
+	properties
+		name "Spellbook of Spark"
+		value 200
+	end
+
+	base teach
+		spell 37
+	end
+
+	base described
+		text "This book will teach you the proficient-level elementalist spell 'Spark'."
+		shopText "This book will teach you the proficient-level elementalist spell 'Spark'."
+	end
+end
+
+object spbIceStorm of Spellbook
+	properties
+		name "Spellbook of Ice Storm"
+		value 400
+	end
+
+	base teach
+		spell 38
+	end
+
+	base described
+		text "This book will teach you the expert elementalist spell 'Ice Storm'."
+		shopText "This book will teach you the expert elementalist spell 'Ice Storm'."
+	end
+end
+
+object spbFreezingWind of Spellbook
+	properties
+		name "Spellbook of Freezing Wind"
+		value 400
+	end
+
+	base teach
+		spell 39
+	end
+
+	base described
+		text "This book will teach you the expert elementalist spell 'Freezing Wind'."
+		shopText "This book will teach you the expert elementalist spell 'Freezing Wind'."
+	end
+end
+
+object spbHurricane of Spellbook
+	properties
+		name "Spellbook of Hurricane"
+		value 400
+	end
+
+	base teach
+		spell 40
+	end
+
+	base described
+		text "This book will teach you the expert elementalist spell 'Hurricane'."
+		shopText "This book will teach you the expert elementalist spell 'Hurricane'."
+	end
+end
+
+object spbCrawlingCharge of Spellbook
+	properties
+		name "Spellbook of Crawling Charge"
+		value 400
+	end
+
+	base teach
+		spell 41
+	end
+
+	base described
+		text "This book will teach you the expert elementalist spell 'Crawling Charge'."
+		shopText "This book will teach you the expert elementalist spell 'Crawling Charge'."
+	end
+end
+
+object spbStoning of Spellbook
+	properties
+		name "Spellbook of Stoning"
+		value 400
+	end
+
+	base teach
+		spell 42
+	end
+
+	base described
+		text "This book will teach you the expert elementalist spell 'Stoning'."
+		shopText "This book will teach you the expert elementalist spell 'Stoning'."
+	end
+end
+
+object spbFireball of Spellbook
+	properties
+		name "Spellbook of Fireball"
+		value 700
+	end
+
+	base teach
+		spell 43
+	end
+
+	base described
+		text "This book will teach you the master elementalist spell 'Fireball'."
+		shopText "This book will teach you the master elementalist spell 'Fireball'."
+	end
+end
+
+object spbLightningBolt of Spellbook
+	properties
+		name "Spellbook of Lightning Bolt"
+		value 700
+	end
+
+	base teach
+		spell 44
+	end
+
+	base described
+		text "This book will teach you the master elementalist spell 'Lightning Bolt'."
+		shopText "This book will teach you the master elementalist spell 'Lightning Bolt'."
+	end
+end
+
+object spbFreeze of Spellbook
+	properties
+		name "Spellbook of Freeze"
+		value 700
+	end
+
+	base teach
+		spell 45
+	end
+
+	base described
+		text "This book will teach you the master elementalist spell 'Freeze'."
+		shopText "This book will teach you the master elementalist spell 'Freeze'."
+	end
+end
+
+object spbCrushingBoulder of Spellbook
+	properties
+		name "Spellbook of Crushing Boulder"
+		value 700
+	end
+
+	base teach
+		spell 46
+	end
+
+	base described
+		text "This book will teach you the master elementalist spell 'Crushing Boulder'."
+		shopText "This book will teach you the master elementalist spell 'Crushing Boulder'."
+	end
+end
+
+object spbElectricFury of Spellbook
+	properties
+		name "Spellbook of Electric Fury"
+		value 1000
+	end
+
+	base teach
+		spell 47
+	end
+
+	base described
+		text "This book will teach you the grand-master elementalist spell 'Electric Fury'."
+		shopText "This book will teach you the grand-master elementalist spell 'Electric Fury'."
+	end
+end
+
+object spbColdSnap of Spellbook
+	properties
+		name "Spellbook of Cold Snap"
+		value 1000
+	end
+
+	base teach
+		spell 48
+	end
+
+	base described
+		text "This book will teach you the grand-master elementalist spell 'Cold Snap'."
+		shopText "This book will teach you the grand-master elementalist spell 'Cold Snap'."
+	end
+end
+
+object spbEarthquake of Spellbook
+	properties
+		name "Spellbook of Earthquake"
+		value 1000
+	end
+
+	base teach
+		spell 49
+	end
+
+	base described
+		text "This book will teach you the grand-master elementalist spell 'Earthquake'."
+		shopText "This book will teach you the grand-master elementalist spell 'Earthquake'."
+	end
+end
+
+object spbDespothesWrath of Spellbook
+	properties
+		name "Spellbook of Despothes' Wrath"
+		value 1000
+	end
+
+	base teach
+		spell 50
+	end
+
+	base described
+		text "This book will teach you the grand-master elementalist spell 'Despothes' Wrath'."
+		shopText "This book will teach you the grand-master elementalist spell 'Despothes' Wrath'."
+	end
+end
+
+# mysticism spells
+object spbHoldMonster of Spellbook
+	properties
+		name "Spellbook of Hold Monster"
+	end
+
+	base teach
+		spell 51
+	end
+
+	base described
+		text "This book will teach you the familiar-level mysticism spell 'Hold Monster'."
+		shopText "This book will teach you the familiar-level mysticism spell 'Hold Monster'."
+	end
+end
+
+object spbFumble of Spellbook
+	properties
+		name "Spellbook of Fumble"
+	end
+
+	base teach
+		spell 52
+	end
+
+	base described
+		text "This book will teach you the familiar-level mysticism spell 'Fumble'."
+		shopText "This book will teach you the familiar-level mysticism spell 'Fumble'."
+	end
+end
+
+object spbPsychicOrb of Spellbook
+	properties
+		name "Spellbook of Psychic Orb"
+	end
+
+	base teach
+		spell 53
+	end
+
+	base described
+		text "This book will teach you the familiar-level mysticism spell 'Psychic Orb'."
+		shopText "This book will teach you the familiar-level mysticism spell 'Psychic Orb'."
+	end
+end
+
+object spbConfusion of Spellbook
+	properties
+		name "Spellbook of Confusion"
+		value 200
+	end
+
+	base teach
+		spell 54
+	end
+
+	base described
+		text "This book will teach you the proficient-level mysticism spell 'Confusion'."
+		shopText "This book will teach you the proficient-level mysticism spell 'Confusion'."
+	end
+end
+
+object spbMindShackle of Spellbook
+	properties
+		name "Spellbook of Mind Shackle"
+		value 200
+	end
+
+	base teach
+		spell 56
+	end
+
+	base described
+		text "This book will teach you the proficient-level mysticism spell 'Mind Shackle'."
+		shopText "This book will teach you the proficient-level mysticism spell 'Mind Shackle'."
+	end
+end
+
+object spbIdentify of Spellbook
+	properties
+		name "Spellbook of Identify"
+		value 200
+	end
+
+	base teach
+		spell 57
+	end
+
+	base described
+		text "This book will teach you the proficient-level mysticism spell 'Identify'."
+		shopText "This book will teach you the proficient-level mysticism spell 'Identify'."
+	end
+end
+
+object spbBerserk of Spellbook
+	properties
+		name "Spellbook of Berserk"
+		value 400
+	end
+
+	base teach
+		spell 58
+	end
+
+	base described
+		text "This book will teach you the expert-level mysticism spell 'Berserk'."
+		shopText "This book will teach you the expert-level mysticism spell 'Berserk'."
+	end
+end
+
+object spbStun of Spellbook
+	properties
+		name "Spellbook of Stun"
+		value 400
+	end
+
+	base teach
+		spell 59
+	end
+
+	base described
+		text "This book will teach you the expert-level mysticism spell 'Stun'."
+		shopText "This book will teach you the expert-level mysticism spell 'Stun'."
+	end
+end
+
+object spbLoyaltyShift of Spellbook
+	properties
+		name "Spellbook of Loyalty Shift"
+		value 400
+	end
+
+	base teach
+		spell 60
+	end
+
+	base described
+		text "This book will teach you the expert-level mysticism spell 'Loyalty Shift'."
+		shopText "This book will teach you the expert-level mysticism spell 'Loyalty Shift'."
+	end
+end
+
+object spbWarpMind of Spellbook
+	properties
+		name "Spellbook of Warp Mind"
+		value 400
+	end
+
+	base teach
+		spell 61
+	end
+
+	base described
+		text "This book will teach you the expert-level mysticism spell 'Warp Mind'."
+		shopText "This book will teach you the expert-level mysticism spell 'Warp Mind'."
+	end
+end
+
+object spbEtheralize of Spellbook
+	properties
+		name "Spellbook of Etherealize"
+		value 400
+	end
+
+	base teach
+		spell 62
+	end
+
+	base described
+		text "This book will teach you the expert-level mysticism spell 'Etherealize'."
+		shopText "This book will teach you the expert-level mysticism spell 'Etherealize'."
+	end
+end
+
+object spbSpellBlast of Spellbook
+	properties
+		name "Spellbook of Spell Blast"
+		value 400
+	end
+
+	base teach
+		spell 63
+	end
+
+	base described
+		text "This book will teach you the expert-level mysticism spell 'Spell Blast'."
+		shopText "This book will teach you the expert-level mysticism spell 'Spell Blast'."
+	end
+end
+
+object spbMassHold of Spellbook
+	properties
+		name "Spellbook of Mass Hold"
+		value 700
+	end
+
+	base teach
+		spell 64
+	end
+
+	base described
+		text "This book will teach you the master-level mysticism spell 'Mass Hold'."
+		shopText "This book will teach you the master-level mysticism spell 'Mass Hold'."
+	end
+end
+
+object spbMassFumble of Spellbook
+	properties
+		name "Spellbook of Mass Fumble"
+		value 700
+	end
+
+	base teach
+		spell 66
+	end
+
+	base described
+		text "This book will teach you the master-level mysticism spell 'Mass Fumble'."
+		shopText "This book will teach you the master-level mysticism spell 'Mass Fumble'."
+	end
+end
+
+object spbFear of Spellbook
+	properties
+		name "Spellbook of Fear"
+		value 700
+	end
+
+	base teach
+		spell 67
+	end
+
+	base described
+		text "This book will teach you the master-level mysticism spell 'Fear'."
+		shopText "This book will teach you the master-level mysticism spell 'Fear'."
+	end
+end
+
+object spbIronChains of Spellbook
+	properties
+		name "Spellbook of Iron Chains"
+		value 700
+	end
+
+	base teach
+		spell 68
+	end
+
+	base described
+		text "This book will teach you the master-level mysticism spell 'Iron Chains'."
+		shopText "This book will teach you the master-level mysticism spell 'Iron Chains'."
+	end
+end
+
+object spbMassBerserk of Spellbook
+	properties
+		name "Spellbook of Mass Berserk"
+		value 1000
+	end
+
+	base teach
+		spell 69
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Mass Berserk'."
+		shopText "This book will teach you the grand-master mysticism spell 'Mass Berserk'."
+	end
+end
+
+object spbMassStun of Spellbook
+	properties
+		name "Spellbook of Mass Stun"
+		value 1000
+	end
+
+	base teach
+		spell 70
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Mass Stun'."
+		shopText "This book will teach you the grand-master mysticism spell 'Mass Stun'."
+	end
+end
+
+object spbMassLoyaltyShift of Spellbook
+	properties
+		name "Spellbook of Mass Loyalty Shift"
+		value 1000
+	end
+
+	base teach
+		spell 71
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Mass Loyalty Shift'."
+		shopText "This book will teach you the grand-master mysticism spell 'Mass Loyalty Shift'."
+	end
+end
+
+object spbMabonsForcedFlee of Spellbook
+	properties
+		name "Spellbook of Mabon's Forced Flee"
+		value 1000
+	end
+
+	base teach
+		spell 72
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Mabon's Forced Flee'."
+		shopText "This book will teach you the grand-master mysticism spell 'Mabon's Forced Flee'."
+	end
+end
+
+object spbForget of Spellbook
+	properties
+		name "Spellbook of Forget"
+		value 1000
+	end
+
+	base teach
+		spell 55
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Forget'."
+		shopText "This book will teach you the grand-master mysticism spell 'Forget'."
+	end
+end
+
+object spbIllusionaryFoe of Spellbook
+	properties
+		name "Spellbook of Illusionary Foe"
+		value 1000
+	end
+
+	base teach
+		spell 73
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Illusionary Foe'."
+		shopText "This book will teach you the grand-master mysticism spell 'Illusionary Foe'."
+	end
+end
+
+object spbAntiMagicAura of Spellbook
+	properties
+		name "Spellbook of Anti-Magic Aura"
+		value 1000
+	end
+
+	base teach
+		spell 74
+	end
+
+	base described
+		text "This book will teach you the grand-master mysticism spell 'Anti-Magic Aura'."
+		shopText "This book will teach you the grand-master mysticism spell 'Anti-Magic Aura'."
+	end
+end
+
+# Thaumaturgy spells
+object spbLightDart of Spellbook
+	properties
+		name "Spellbook of Light Dart"
+	end
+
+	base teach
+		spell 75
+	end
+
+	base described
+		text "This book will teach you the familiar-level thaumaturgy spell 'Light Dart'."
+		shopText "This book will teach you the familiar-level thaumaturgy spell 'Light Dart'."
+	end
+end
+
+object spbNimbility of Spellbook
+	properties
+		name "Spellbook of Nimbility"
+	end
+
+	base teach
+		spell 77
+	end
+
+	base described
+		text "This book will teach you the familiar-level thaumaturgy spell 'Nimbility'."
+		shopText "This book will teach you the familiar-level thaumaturgy spell 'Nimbility'."
+	end
+end
+
+object spbEmpower of Spellbook
+	properties
+		name "Spellbook of Empower"
+		value 200
+	end
+
+	base teach
+		spell 78
+	end
+
+	base described
+		text "This book will teach you the proficient-level thaumaturgy spell 'Empower'."
+		shopText "This book will teach you the proficient-level thaumaturgy spell 'Empower'."
+	end
+end
+
+object spbMissileResistance of Spellbook
+	properties
+		name "Spellbook of Missile Resistance"
+		value 200
+	end
+
+	base teach
+		spell 80
+	end
+
+	base described
+		text "This book will teach you the proficient-level thaumaturgy spell 'Missile Resistance'."
+		shopText "This book will teach you the proficient-level thaumaturgy spell 'Missile Resistance'."
+	end
+end
+
+object spbHeal of Spellbook
+	properties
+		name "Spellbook of Heal"
+		value 200
+	end
+
+	base teach
+		spell 81
+	end
+
+	base described
+		text "This book will teach you the proficient-level thaumaturgy spell 'Heal'."
+		shopText "This book will teach you the proficient-level thaumaturgy spell 'Heal'."
+	end
+end
+
+object spbSummonPixie of Spellbook
+	properties
+		name "Spellbook of Summon Pixie"
+		value 200
+	end
+
+	base teach
+		spell 82
+	end
+
+	base described
+		text "This book will teach you the proficient-level thaumaturgy spell 'Summon Pixie'."
+		shopText "This book will teach you the proficient-level thaumaturgy spell 'Summon Pixie'."
+	end
+end
+
+object spbPurify of Spellbook
+	properties
+		name "Spellbook of Purify"
+		value 200
+	end
+
+	base teach
+		spell 83
+	end
+
+	base described
+		text "This book will teach you the proficient-level thaumaturgy spell 'Purify'."
+		shopText "This book will teach you the proficient-level thaumaturgy spell 'Purify'."
+	end
+end
+
+object spbCurePoison of Spellbook
+	properties
+		name "Spellbook of Cure Poison"
+		value 400
+	end
+
+	base teach
+		spell 84
+	end
+
+	base described
+		text "This book will teach you the expert-level thaumaturgy spell 'Cure Poison'."
+		shopText "This book will teach you the expert-level thaumaturgy spell 'Cure Poison'."
+	end
+end
+
+object spbGreaterHeal of Spellbook
+	properties
+		name "Spellbook of Greater Heal"
+		value 400
+	end
+
+	base teach
+		spell 86
+	end
+
+	base described
+		text "This book will teach you the expert-level thaumaturgy spell 'Greater Heal'."
+		shopText "This book will teach you the expert-level thaumaturgy spell 'Greater Heal'."
+	end
+end
+
+object spbRemoveCurse of Spellbook
+	properties
+		name "Spellbook of Remove Curse"
+		value 400
+	end
+
+	base teach
+		spell 87
+	end
+
+	base described
+		text "This book will teach you the expert-level thaumaturgy spell 'Remove Curse'."
+		shopText "This book will teach you the expert-level thaumaturgy spell 'Remove Curse'."
+	end
+end
+
+object spbSummonFaery of Spellbook
+	properties
+		name "Spellbook of Summon Faery"
+		value 400
+	end
+
+	base teach
+		spell 88
+	end
+
+	base described
+		text "This book will teach you the expert-level thaumaturgy spell 'Summon Faery'."
+		shopText "This book will teach you the expert-level thaumaturgy spell 'Summon Faery'."
+	end
+end
+
+object spbShield of Spellbook
+	properties
+		name "Spellbook of Shield"
+		value 400
+	end
+
+	base teach
+		spell 92
+	end
+
+	base described
+		text "This book will teach you the expert-level thaumaturgy spell 'Shield'."
+		shopText "This book will teach you the expert-level thaumaturgy spell 'Shield'."
+	end
+end
+
+object spbGreaterShield of Spellbook
+	properties
+		name "Spellbook of Greater Shield"
+		value 700
+	end
+
+	base teach
+		spell 93
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Greater Shield'."
+		shopText "This book will teach you the master thaumaturgy spell 'Greater Shield'."
+	end
+end
+
+object spbWrathOfTheGods of Spellbook
+	properties
+		name "Spellbook of Wrath of the Gods"
+		value 700
+	end
+
+	base teach
+		spell 94
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Wrath of the Gods'."
+		shopText "This book will teach you the master thaumaturgy spell 'Wrath of the Gods'."
+	end
+end
+
+object spbFireShield of Spellbook
+	properties
+		name "Spellbook of Fire Shield"
+		value 700
+	end
+
+	base teach
+		spell 95
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Fire Shield'."
+		shopText "This book will teach you the master thaumaturgy spell 'Fire Shield'."
+	end
+end
+
+object spbColdShield of Spellbook
+	properties
+		name "Spellbook of Cold Shield"
+		value 700
+	end
+
+	base teach
+		spell 96
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Cold Shield'."
+		shopText "This book will teach you the master thaumaturgy spell 'Cold Shield'."
+	end
+end
+
+object spbLightningShield of Spellbook
+	properties
+		name "Spellbook of Lightning Shield"
+		value 700
+	end
+
+	base teach
+		spell 97
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Lightning Shield'."
+		shopText "This book will teach you the master thaumaturgy spell 'Lightning Shield'."
+	end
+end
+
+object spbPoisonShield of Spellbook
+	properties
+		name "Spellbook of Poison Shield"
+		value 700
+	end
+
+	base teach
+		spell 129
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Poison Shield'."
+		shopText "This book will teach you the master thaumaturgy spell 'Poison Shield'."
+	end
+end
+
+object spbAcidShield of Spellbook
+	properties
+		name "Spellbook of Acid Shield"
+		value 700
+	end
+
+	base teach
+		spell 130
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Acid Shield'."
+		shopText "This book will teach you the master thaumaturgy spell 'Acid Shield'."
+	end
+end
+
+object spbSummonNymph of Spellbook
+	properties
+		name "Spellbook of Summon Nymph"
+		value 700
+	end
+
+	base teach
+		spell 98
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Summon Nymph'."
+		shopText "This book will teach you the master thaumaturgy spell 'Summon Nymph'."
+	end
+end
+
+object spbRegeneration of Spellbook
+	properties
+		name "Spellbook of Regeneration"
+		value 700
+	end
+
+	base teach
+		spell 99
+	end
+
+	base described
+		text "This book will teach you the master thaumaturgy spell 'Regeneration'."
+		shopText "This book will teach you the master thaumaturgy spell 'Regeneration'."
+	end
+end
+
+object spbIndestruction of Spellbook
+	properties
+		name "Spellbook of Indestruction"
+		value 1000
+	end
+
+	base teach
+		spell 100
+	end
+
+	base described
+		text "This book will teach you the grand-master thaumaturgy spell 'Indestruction'."
+		shopText "This book will teach you the grand-master thaumaturgy spell 'Indestruction'."
+	end
+end
+
+object spbInvulnerability of Spellbook
+	properties
+		name "Spellbook of Invulnerability"
+		value 1000
+	end
+
+	base teach
+		spell 101
+	end
+
+	base described
+		text "This book will teach you the grand-master thaumaturgy spell 'Invulnerability'."
+		shopText "This book will teach you the grand-master thaumaturgy spell 'Invulnerability'."
+	end
+end
+
+object spbEnidsBlessing of Spellbook
+	properties
+		name "Spellbook of Enid's Blessing"
+		value 1000
+	end
+
+	base teach
+		spell 102
+	end
+
+	base described
+		text "This book will teach you the grand-master thaumaturgy spell 'Enid's Blessing'."
+		shopText "This book will teach you the grand-master thaumaturgy spell 'Enid's Blessing'."
+	end
+end
+
+object spbBanishment of Spellbook
+	properties
+		name "Spellbook of Banishment"
+		value 1000
+	end
+
+	base teach
+		spell 103
+	end
+
+	base described
+		text "This book will teach you the grand-master thaumaturgy spell 'Banishment'."
+		shopText "This book will teach you the grand-master thaumaturgy spell 'Banishment'."
+	end
+end
+
+object spbSummonFaeryQueen of Spellbook
+	properties
+		name "Spellbook of Summon Faery Queen"
+		value 1000
+	end
+
+	base teach
+		spell 104
+	end
+
+	base described
+		text "This book will teach you the grand-master thaumaturgy spell 'Summon Faery Queen'."
+		shopText "This book will teach you the grand-master thaumaturgy spell 'Summon Faery Queen'."
+	end
+end
+
+# Necromancy Spells
+object spbAcidSphere of Spellbook
+	properties
+		name "Spellbook of Acid Sphere"
+	end
+
+	base teach
+		spell 105
+	end
+
+	base described
+		text "This book will teach you the familiar-level necromancy spell 'Acid Sphere'."
+		shopText "This book will teach you the familiar-level necromancy spell 'Acid Sphere'."
+	end
+end
+
+object spbVenomousTouch of Spellbook
+	properties
+		name "Spellbook of Venomous Touch"
+	end
+
+	base teach
+		spell 106
+	end
+
+	base described
+		text "This book will teach you the familiar-level necromancy spell 'Venomous Touch'."
+		shopText "This book will teach you the familiar-level necromancy spell 'Venomous Touch'."
+	end
+end
+
+object spbClumsiness of Spellbook
+	properties
+		name "Spellbook of Curse of Clumsiness"
+	end
+
+	base teach
+		spell 76
+	end
+
+	base described
+		text "This book will teach you the familiar-level necromancy spell 'Curse of Clumsiness'."
+		shopText "This book will teach you the familiar-level necromancy spell 'Curse of Clumsiness'."
+	end
+end
+
+object spbPoisonBolt of Spellbook
+	properties
+		name "Spellbook of Poison Bolt"
+		value 200
+	end
+
+	base teach
+		spell 108
+	end
+
+	base described
+		text "This book will teach you the proficient-level necromancy spell 'Poison Bolt'."
+		shopText "This book will teach you the proficient-level necromancy spell 'Poison Bolt'."
+	end
+end
+
+object spbEnfeeble of Spellbook
+	properties
+		name "Spellbook of Enfeeble"
+		value 200
+	end
+
+	base teach
+		spell 79
+	end
+
+	base described
+		text "This book will teach you the proficient-level necromancy spell 'Enfeeble'."
+		shopText "This book will teach you the proficient-level necromancy spell 'Enfeeble'."
+	end
+end
+
+object spbDrainLife of Spellbook
+	properties
+		name "Spellbook of Drain Life"
+		value 200
+	end
+
+	base teach
+		spell 110
+	end
+
+	base described
+		text "This book will teach you the proficient-level necromancy spell 'Drain Life'."
+		shopText "This book will teach you the proficient-level necromancy spell 'Drain Life'."
+	end
+end
+
+object spbAcidCloud of Spellbook
+	properties
+		name "Spellbook of Acid Cloud"
+		value 200
+	end
+
+	base teach
+		spell 111
+	end
+
+	base described
+		text "This book will teach you the proficient-level necromancy spell 'Acid Cloud'."
+		shopText "This book will teach you the proficient-level necromancy spell 'Acid Cloud'."
+	end
+end
+
+object spbSummonZombie of Spellbook
+	properties
+		name "Spellbook of Summon Zombie"
+		value 200
+	end
+
+	base teach
+		spell 112
+	end
+
+	base described
+		text "This book will teach you the proficient-level necromancy spell 'Summon Zombie'."
+		shopText "This book will teach you the proficient-level necromancy spell 'Summon Zombie'."
+	end
+end
+
+object spbVenom of Spellbook
+	properties
+		name "Spellbook of Venom"
+		value 400
+	end
+
+	base teach
+		spell 113
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Venom'."
+		shopText "This book will teach you the expert-level necromancy spell 'Venom'."
+	end
+end
+
+object spbSummonUndead of Spellbook
+	properties
+		name "Spellbook of Summon Undead"
+		value 400
+	end
+
+	base teach
+		spell 114
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Summon Undead'."
+		shopText "This book will teach you the expert-level necromancy spell 'Summon Undead'."
+	end
+end
+
+object spbAcidRain of Spellbook
+	properties
+		name "Spellbook of Acid Rain"
+		value 400
+	end
+
+	base teach
+		spell 115
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Acid Rain'."
+		shopText "This book will teach you the expert-level necromancy spell 'Acid Rain'."
+	end
+end
+
+object spbPoisonCurse of Spellbook
+	properties
+		name "Spellbook of Poison Curse"
+		value 400
+	end
+
+	base teach
+		spell 127
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Poison Curse'."
+		shopText "This book will teach you the expert-level necromancy spell 'Poison Curse'."
+	end
+end
+
+object spbAcidCurse of Spellbook
+	properties
+		name "Spellbook of Acid Curse"
+		value 400
+	end
+
+	base teach
+		spell 128
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Acid Curse'."
+		shopText "This book will teach you the expert-level necromancy spell 'Acid Curse'."
+	end
+end
+
+object spbFireCurse of Spellbook
+	properties
+		name "Spellbook of Fire Curse"
+		value 400
+	end
+
+	base teach
+		spell 89
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Fire Curse'."
+		shopText "This book will teach you the expert-level necromancy spell 'Fire Curse'."
+	end
+end
+
+object spbColdCurse of Spellbook
+	properties
+		name "Spellbook of Cold Curse"
+		value 400
+	end
+
+	base teach
+		spell 90
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Cold Curse'."
+		shopText "This book will teach you the expert-level necromancy spell 'Cold Curse'."
+	end
+end
+
+object spbElectricCurse of Spellbook
+	properties
+		name "Spellbook of Electric Curse"
+		value 400
+	end
+
+	base teach
+		spell 91
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Electric Curse'."
+		shopText "This book will teach you the expert-level necromancy spell 'Electric Curse'."
+	end
+end
+
+object spbNightFriends of Spellbook
+	properties
+		name "Spellbook of Night Friends"
+		value 400
+	end
+
+	base teach
+		spell 116
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Night Friends'."
+		shopText "This book will teach you the expert-level necromancy spell 'Night Friends'."
+	end
+end
+
+object spbStealLife of Spellbook
+	properties
+		name "Spellbook of Steal Life"
+		value 400
+	end
+
+	base teach
+		spell 117
+	end
+
+	base described
+		text "This book will teach you the expert-level necromancy spell 'Steal Life'."
+		shopText "This book will teach you the expert-level necromancy spell 'Steal Life'."
+	end
+end
+
+object spbSummonDoppelganger of Spellbook
+	properties
+		name "Spellbook of Summon Doppelganger"
+		value 700
+	end
+
+	base teach
+		spell 119
+	end
+
+	base described
+		text "This book will teach you the master-level necromancy spell 'Summon Doppelganger'."
+		shopText "This book will teach you the master-level necromancy spell 'Summon Doppelganger'."
+	end
+end
+
+object spbDeathTouch of Spellbook
+	properties
+		name "Spellbook of Death Touch"
+		value 700
+	end
+
+	base teach
+		spell 120
+	end
+
+	base described
+		text "This book will teach you the master-level necromancy spell 'Death Touch'."
+		shopText "This book will teach you the master-level necromancy spell 'Death Touch'."
+	end
+end
+
+object spbBanish of Spellbook
+	properties
+		name "Spellbook of Banish Undead"
+		value 700
+	end
+
+	base teach
+		spell 121
+	end
+
+	base described
+		text "This book will teach you the master-level necromancy spell 'Banish Undead'."
+		shopText "This book will teach you the master-level necromancy spell 'Banish Undead'."
+	end
+end
+
+object spbShadowWarrior of Spellbook
+	properties
+		name "Spellbook of Shadow Warrior"
+		value 700
+	end
+
+	base teach
+		spell 122
+	end
+
+	base described
+		text "This book will teach you the master-level necromancy spell 'Shadow Warrior'."
+		shopText "This book will teach you the master-level necromancy spell 'Shadow Warrior'."
+	end
+end
+
+object spbSummonDaemon of Spellbook
+	properties
+		name "Spellbook of Summon Daemon"
+		value 1000
+	end
+
+	base teach
+		spell 123
+	end
+
+	base described
+		text "This book will teach you the grand-master necromancy spell 'Summon Daemon'."
+		shopText "This book will teach you the grand-master necromancy spell 'Summon Daemon'."
+	end
+end
+
+object spbDuachsVengeance of Spellbook
+	properties
+		name "Spellbook of Duach's Vengeance"
+		value 1000
+	end
+
+	base teach
+		spell 124
+	end
+
+	base described
+		text "This book will teach you the grand-master necromancy spell 'Duach's Vengeance'."
+		shopText "This book will teach you the grand-master necromancy spell 'Duach's Vengeance'."
+	end
+end
+
+object spbDeathWish of Spellbook
+	properties
+		name "Spellbook of Death Wish"
+		value 1000
+	end
+
+	base teach
+		spell 125
+	end
+
+	base described
+		text "This book will teach you the grand-master necromancy spell 'Death Wish'."
+		shopText "This book will teach you the grand-master necromancy spell 'Death Wish'."
+	end
+end
+
+object spbMassDrain of Spellbook
+	properties
+		name "Spellbook of Mass Drain"
+		value 1000
+	end
+
+	base teach
+		spell 126
+	end
+
+	base described
+		text "This book will teach you the grand-master necromancy spell 'Mass Drain'."
+		shopText "This book will teach you the grand-master necromancy spell 'Mass Drain'."
+	end
+end

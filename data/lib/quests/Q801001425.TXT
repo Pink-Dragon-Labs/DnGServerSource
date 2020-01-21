@@ -1,0 +1,19 @@
+quest  273 #8010-01-425        # Anson, Anson's Armory, West Leinster, 6002
+
+name  "Wen Cheese for Anson"
+type  fedex
+
+proposal  "Jumping catfish, how did you come to hear about that?  My children found something out playing.  It's just an old scrap.  Not worth a thing, friend, but if you want it you can have it.  Just do me a favor, first.  I'm always here working, and never get away.  I want a bit of special cheese I heard tell about.  I can't send family, either, cause those old enough have to help out here in the shop.  Would you do that errand, friend?"
+
+declined  "Didn't really think you would."
+
+accepted  "Somewhere in Wen there's a gal as makes some special cheese."
+
+reminder   "Weren't you going to find me some special cheese from Wen?"
+
+completed  "Well, now, this is going to be a fine treat.  I'll surprise the family.  Here's the scrap of scabbard you wanted."
+
+getItem   qWenCheese
+reward   qDecrepitScabbard 
+end
+

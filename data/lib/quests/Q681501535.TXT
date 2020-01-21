@@ -1,0 +1,19 @@
+quest  238 #6815-01-535        # Pasco, Heal Yourself, healer, Silverbrook, 6404
+
+name  "Puzzle Wood for Pasco"
+type  fedex
+
+proposal  "Another devotee?  Glad to meet you.  I've been creating these puzzles for many years.  The life of a healer in Silverbrook is a quiet one, since we are such a pacific people.  It gives me a lot of time to tinker with my puzzles, and I enjoy making them.  This is the most intriguing one, and I'll give it to you if you'll do a favor for me.  I need a new supply of wood, and there's a shopkeeper in Leinster who caters to carvers.  I sent roundabout word that I wanted to try some, so a supply should be waiting for me there.  Will you do this?"
+
+declined  "Sorry to hear it."
+
+accepted  "Excellent.  All I know is there's a shopkeeper in Leinster."
+
+reminder   "Go to Leinster and find a supply of carving wood."
+
+completed  "Welcome, welcome.  I see you have my wood.  I hope you will enjoy this puzzle."
+
+getItem   qDriftwoodSupply
+reward   qWoodenPuzzle 
+end
+

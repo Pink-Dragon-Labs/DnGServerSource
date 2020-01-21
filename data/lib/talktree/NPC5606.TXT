@@ -1,0 +1,18 @@
+id 5606
+
+banner "Huh. Another hungry frumpet. What do you want?"
+
+topic "Tell me about Caer Fandry."
+        text "Oooh, Caer Fandry is very nice. Very nice for dark elves!"
+	text "But not to adventurers like you. We don't like you."
+	text "There are swamps around here.  Why don't you explore them? Hmmmm."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard of a town in the south where my kind lives with elves. With elves!"
+	text "I've heard that dark elf fare makes travelers ill.  Very ill."
+end      
+
+topic "Can I do anything for you?"
+        text "Yes. Buy then get away from the cart!  You're scaring customers."
+end

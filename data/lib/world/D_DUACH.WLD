@@ -1,0 +1,4005 @@
+# Dungeonmaker World File (SoleSrch.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 92000
+# Dungeon last room = 92066
+# Number of objects in dungeon = 481
+# Level 0 information:
+room 92024
+	properties
+		template 30805
+		east 92023
+		flags	0
+	end
+	objects
+		object DungeonBackUp-92024-0 of DungeonBackUp
+			properties
+				x	250
+				y	200
+				loop	2
+				linkTo	sarcophagusDoor4446-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-92024-1 of Sign
+			properties
+				x	58
+				y	251
+				loop	0
+			end
+			base described
+				text	"So, you venture here... Be clear of your purpose and true to your nature. Darkness awaits you."
+			end
+		end
+		object LavaB-92024-2 of LavaB
+			properties
+				x	400
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92024-3 of LavaA
+			properties
+				x	178
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-92024-4 of LavaD
+			properties
+				x	591
+				y	345
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92024-5 of LavaC
+			properties
+				x	-12
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaE-92024-6 of LavaE
+			properties
+				x	-30
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92023
+	properties
+		template 32302
+		south 92022
+		west 92024
+		flags	0
+	end
+end
+room 92022
+	properties
+		template 30802
+		east 92021
+		north 92023
+		flags	72
+	end
+	objects
+		object DemonRat-92022-0 of DemonRat
+			properties
+				x	615
+				y	280
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92022-1 of DemonRat
+			properties
+				x	623
+				y	241
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object Smoke2-92022-2 of Smoke2
+			properties
+				x	597
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92022-3 of Smoke1
+			properties
+				x	67
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92022-4 of Smoke1
+			properties
+				x	32
+				y	293
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92022-5 of LavaA
+			properties
+				x	412
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92022-6 of LavaC
+			properties
+				x	596
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-92022-7 of LavaB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92021
+	properties
+		template 30201
+		west 92022
+		flags	0
+	end
+	objects
+		object FatColumn-92021-0 of FatColumn
+			properties
+				x	610
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-92021-1 of DungeonBackDoor
+			properties
+				x	475
+				y	269
+				loop	1
+				linkTo	DungeonBackDoor-92020-0
+			end
+			actions
+				vBeAnswered unlock DungeonBackDoor-92021-1 
+				vBeAnswered open DungeonBackDoor-92021-1 
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+				riddleFile	"../data/riddles/riddle06.txt"
+				text	"This seems to be a normal door at first, but as you look at it you feel a great darkness seething beneath its surface, as if it were alive and malignant. It seems to listen to you, in some horrible way."
+			end
+		end
+		object LavaA-92021-2 of LavaA
+			properties
+				x	122
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92021-3 of LavaC
+			properties
+				x	313
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-92021-4 of LavaB
+			properties
+				x	512
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92021-5 of LavaE
+			properties
+				x	565
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92020
+	properties
+		template 30303
+		south 92019
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-92020-0 of DungeonBackDoor
+			properties
+				x	91
+				y	253
+				loop	0
+				linkTo	DungeonBackDoor-92021-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LavaG-92020-1 of LavaG
+			properties
+				x	204
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92020-2 of LavaE
+			properties
+				x	388
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92020-3 of CellFloorG
+			properties
+				x	295
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92020-4 of CellFloorF
+			properties
+				x	151
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92020-5 of LavaF
+			properties
+				x	462
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92027
+	properties
+		template 30502
+		south 92029
+		east 92026
+		flags	0
+	end
+end
+room 92026
+	properties
+		template 30904
+		south 92030
+		east 92025
+		west 92027
+		flags	0
+	end
+end
+room 92025
+	properties
+		template 32302
+		south 92031
+		west 92026
+		flags	0
+	end
+end
+room 92019
+	properties
+		template 30801
+		east 92018
+		north 92020
+		flags	0
+	end
+	objects
+		object LavaF-92019-0 of LavaF
+			properties
+				x	40
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92019-1 of LavaB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92019-2 of LavaC
+			properties
+				x	602
+				y	341
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92019-3 of LavaA
+			properties
+				x	414
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92019-4 of LavaE
+			properties
+				x	-18
+				y	349
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92019-5 of LavaE
+			properties
+				x	123
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92019-6 of Stalagmite3
+			properties
+				x	27
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92019-7 of Stalagmite4
+			properties
+				x	68
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-92019-8 of LavaD
+			properties
+				x	15
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92018
+	properties
+		template 32302
+		south 92017
+		west 92019
+		flags	0
+	end
+end
+room 92028
+	properties
+		template 30102
+		south 92035
+		east 92029
+		flags	0
+	end
+end
+room 92029
+	properties
+		template 31503
+		south 92034
+		east 92030
+		west 92028
+		north 92027
+		flags	40
+	end
+	objects
+		object DemonRat-92029-0 of DemonRat
+			properties
+				x	623
+				y	218
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92029-1 of DemonRat
+			properties
+				x	43
+				y	204
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object FatColumn-92029-2 of FatColumn
+			properties
+				x	-13
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92029-3 of FatColumn
+			properties
+				x	683
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92029-4 of FatColumn
+			properties
+				x	64
+				y	67
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92029-5 of FatColumn
+			properties
+				x	583
+				y	66
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92029-6 of FatColumn
+			properties
+				x	602
+				y	193
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92029-7 of FatColumn
+			properties
+				x	58
+				y	169
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92029-8 of FireA
+			properties
+				x	98
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92029-9 of FireA
+			properties
+				x	576
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92029-10 of FireA
+			properties
+				x	148
+				y	289
+				loop	1
+			end
+			base described
+			end
+		end
+		object FireA-92029-11 of FireA
+			properties
+				x	531
+				y	296
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke2-92029-12 of Smoke2
+			properties
+				x	530
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92029-13 of Smoke2
+			properties
+				x	147
+				y	271
+				loop	1
+			end
+			base described
+			end
+		end
+		object SmokeB-92029-14 of SmokeB
+			properties
+				x	100
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92029-15 of SmokeB
+			properties
+				x	578
+				y	249
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92030
+	properties
+		template 31501
+		south 92033
+		east 92031
+		west 92029
+		north 92026
+		flags	0
+	end
+end
+room 92031
+	properties
+		template 32303
+		south 92032
+		west 92030
+		north 92025
+		flags	0
+	end
+end
+room 92017
+	properties
+		template 31004
+		south 92016
+		north 92018
+		flags	0
+	end
+end
+room 92036
+	properties
+		template 30501
+		south 92038
+		east 92035
+		flags	0
+	end
+end
+room 92035
+	properties
+		template 31503
+		south 92039
+		east 92034
+		west 92036
+		north 92028
+		flags	72
+	end
+	objects
+		object HellHound-92035-0 of HellHound
+			properties
+				x	607
+				y	295
+				loop	1
+				color	769
+			end
+			base character
+			end
+		end
+		object DaemonKing-92035-1 of DaemonKing
+			properties
+				x	612
+				y	207
+				loop	1
+				color	784
+			end
+			base character
+			end
+		end
+		object FatColumn-92035-2 of FatColumn
+			properties
+				x	82
+				y	137
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92035-3 of FatColumn
+			properties
+				x	4
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92035-4 of FatColumn
+			properties
+				x	-32
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92035-5 of Stalagmite1
+			properties
+				x	635
+				y	345
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92035-6 of FatColumn
+			properties
+				x	616
+				y	119
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire1-92035-7 of Fire1
+			properties
+				x	586
+				y	151
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire1-92035-8 of Fire1
+			properties
+				x	590
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92035-9 of Smoke2
+			properties
+				x	592
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92035-10 of SmokeB
+			properties
+				x	588
+				y	140
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92034
+	properties
+		template 31503
+		south 92040
+		east 92033
+		west 92035
+		north 92029
+		flags	0
+	end
+	objects
+		object FatColumn-92034-0 of FatColumn
+			properties
+				x	600
+				y	137
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92034-1 of FatColumn
+			properties
+				x	16
+				y	135
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92034-2 of Stalagmite1
+			properties
+				x	-4
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92034-3 of Stalagmite1
+			properties
+				x	604
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-4 of Smoke1
+			properties
+				x	496
+				y	96
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-5 of Smoke1
+			properties
+				x	119
+				y	82
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-6 of Smoke1
+			properties
+				x	174
+				y	40
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-7 of Smoke1
+			properties
+				x	434
+				y	31
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-8 of Smoke1
+			properties
+				x	20
+				y	191
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-9 of Smoke1
+			properties
+				x	620
+				y	179
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-10 of FireA
+			properties
+				x	174
+				y	59
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-11 of FireA
+			properties
+				x	119
+				y	100
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-12 of FireA
+			properties
+				x	434
+				y	49
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-13 of FireA
+			properties
+				x	495
+				y	107
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-14 of FireA
+			properties
+				x	620
+				y	184
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-15 of FireA
+			properties
+				x	21
+				y	202
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92034-16 of Fire2
+			properties
+				x	343
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92034-17 of Fire2
+			properties
+				x	387
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92034-18 of Fire2
+			properties
+				x	433
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92034-19 of Fire2
+			properties
+				x	472
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92034-20 of Fire2
+			properties
+				x	506
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92034-21 of Fire2
+			properties
+				x	289
+				y	301
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire2-92034-22 of Fire2
+			properties
+				x	253
+				y	291
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire2-92034-23 of Fire2
+			properties
+				x	207
+				y	282
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire2-92034-24 of Fire2
+			properties
+				x	166
+				y	272
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire2-92034-25 of Fire2
+			properties
+				x	118
+				y	262
+				loop	1
+			end
+			base described
+			end
+		end
+		object Embers-92034-26 of Embers
+			properties
+				x	326
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-92034-27 of Embers
+			properties
+				x	291
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-92034-28 of Embers
+			properties
+				x	367
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-92034-29 of Embers
+			properties
+				x	551
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92034-30 of FireA
+			properties
+				x	439
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-31 of Smoke1
+			properties
+				x	439
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-92034-32 of Embers
+			properties
+				x	104
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire1-92034-33 of Fire1
+			properties
+				x	197
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92034-34 of Smoke1
+			properties
+				x	201
+				y	254
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke3-92034-35 of Smoke3
+			properties
+				x	687
+				y	160
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-92034-36 of Altar
+			properties
+				x	324
+				y	218
+				loop	0
+			end
+			actions
+				vBeUsed duachMark dobj 
+			end
+			base described
+			end
+		end
+		object DuachStatue-92034-37 of DuachStatue
+			properties
+				x	323
+				y	185
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92034-38 of LavaG
+			properties
+				x	561
+				y	148
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92034-39 of CellFloorG
+			properties
+				x	218
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92034-40 of CellFloorF
+			properties
+				x	320
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92034-41 of CellFloorG
+			properties
+				x	434
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorH-92034-42 of CellFloorH
+			properties
+				x	397
+				y	163
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorD-92034-43 of CellFloorD
+			properties
+				x	245
+				y	158
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92033
+	properties
+		template 31503
+		south 92041
+		east 92032
+		west 92034
+		north 92030
+		flags	136
+	end
+	objects
+		object HellHound-92033-0 of HellHound
+			properties
+				x	76
+				y	223
+				loop	0
+				color	769
+			end
+			base character
+			end
+		end
+		object HellHound-92033-1 of HellHound
+			properties
+				x	62
+				y	169
+				loop	0
+				color	769
+			end
+			base character
+			end
+		end
+		object FatColumn-92033-2 of FatColumn
+			properties
+				x	27
+				y	121
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92033-3 of FatColumn
+			properties
+				x	569
+				y	132
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92033-4 of FatColumn
+			properties
+				x	630
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-92033-5 of Column
+			properties
+				x	630
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92033-6 of FatColumn
+			properties
+				x	500
+				y	79
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92033-7 of Stalagmite1
+			properties
+				x	-4
+				y	351
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92033-8 of Smoke2
+			properties
+				x	43
+				y	145
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92033-9 of SmokeB
+			properties
+				x	23
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-92033-10 of FireC
+			properties
+				x	25
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-92033-11 of FireC
+			properties
+				x	43
+				y	145
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92032
+	properties
+		template 31303
+		west 92033
+		north 92031
+		flags	0
+	end
+	objects
+		object LavaC-92032-0 of LavaC
+			properties
+				x	295
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92032-1 of LavaB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92032-2 of LavaA
+			properties
+				x	484
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92032-3 of LavaE
+			properties
+				x	83
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92032-4 of Stalagmite1
+			properties
+				x	620
+				y	349
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92016
+	properties
+		template 31001
+		south 92015
+		north 92017
+		flags	0
+	end
+end
+room 92046
+	properties
+		template 30302
+		south 92045
+		flags	40
+	end
+	objects
+		object Bones-92046-0 of Bones
+			properties
+				x	242
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object DemonRat-92046-1 of DemonRat
+			properties
+				x	383
+				y	227
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92046-2 of DemonRat
+			properties
+				x	201
+				y	237
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object FlameDaemon-92046-3 of FlameDaemon
+			properties
+				x	483
+				y	257
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-92046-4 of FlameDaemon
+			properties
+				x	85
+				y	260
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object HellHound-92046-5 of HellHound
+			properties
+				x	570
+				y	317
+				loop	1
+				color	769
+			end
+			base character
+			end
+		end
+		object HellHound-92046-6 of HellHound
+			properties
+				x	70
+				y	317
+				loop	0
+				color	769
+			end
+			base character
+			end
+		end
+		object Skull-92046-7 of Skull
+			properties
+				x	408
+				y	290
+				loop	1
+			end
+			base described
+			end
+		end
+		object Sign-92046-8 of Sign
+			properties
+				x	270
+				y	225
+				loop	0
+			end
+			base described
+				text	"Wrong turn. Your soul shall join the other unworthy ones..."
+			end
+		end
+		object CellFloorF-92046-9 of CellFloorF
+			properties
+				x	283
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92038
+	properties
+		template 32402
+		south 92043
+		east 92039
+		north 92036
+		flags	0
+	end
+end
+room 92039
+	properties
+		template 31501
+		south 92037
+		east 92040
+		west 92038
+		north 92035
+		flags	0
+	end
+end
+room 92040
+	properties
+		template 31503
+		south 92042
+		east 92041
+		west 92039
+		north 92034
+		flags	24
+	end
+	objects
+		object DemonRat-92040-0 of DemonRat
+			properties
+				x	52
+				y	297
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92040-1 of DemonRat
+			properties
+				x	533
+				y	116
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DaemonKing-92040-2 of DaemonKing
+			properties
+				x	545
+				y	159
+				loop	1
+				color	784
+			end
+			base character
+			end
+		end
+		object DaemonKing-92040-3 of DaemonKing
+			properties
+				x	57
+				y	261
+				loop	0
+				color	784
+			end
+			base character
+			end
+		end
+		object FatColumn-92040-4 of FatColumn
+			properties
+				x	637
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92040-5 of FatColumn
+			properties
+				x	-23
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92040-6 of Smoke2
+			properties
+				x	483
+				y	151
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92040-7 of SmokeB
+			properties
+				x	103
+				y	247
+				loop	1
+			end
+			base described
+			end
+		end
+		object FireC-92040-8 of FireC
+			properties
+				x	104
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-92040-9 of FireC
+			properties
+				x	481
+				y	165
+				loop	1
+			end
+			base described
+			end
+		end
+		object Rock1-92040-10 of Rock1
+			properties
+				x	88
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-92040-11 of Rock1
+			properties
+				x	467
+				y	187
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92040-12 of LavaE
+			properties
+				x	128
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92040-13 of Stalagmite3
+			properties
+				x	151
+				y	184
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92040-14 of Stalagmite1
+			properties
+				x	125
+				y	176
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92040-15 of Stalagmite3
+			properties
+				x	553
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92040-16 of Stalagmite4
+			properties
+				x	9
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92040-17 of Stalagmite1
+			properties
+				x	614
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-92040-18 of Stalagmite2
+			properties
+				x	205
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92040-19 of LavaF
+			properties
+				x	103
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92040-20 of LavaG
+			properties
+				x	599
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92040-21 of CellFloorG
+			properties
+				x	163
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92040-22 of CellFloorG
+			properties
+				x	310
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92040-23 of CellFloorG
+			properties
+				x	254
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92040-24 of CellFloorF
+			properties
+				x	222
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorH-92040-25 of CellFloorH
+			properties
+				x	297
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92041
+	properties
+		template 32602
+		west 92040
+		north 92033
+		flags	0
+	end
+	objects
+		object CellFloorF-92041-0 of CellFloorF
+			properties
+				x	412
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92041-1 of CellFloorG
+			properties
+				x	446
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92041-2 of LavaB
+			properties
+				x	548
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92041-3 of LavaB
+			properties
+				x	41
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92041-4 of LavaA
+			properties
+				x	294
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92041-5 of LavaG
+			properties
+				x	497
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92041-6 of LavaE
+			properties
+				x	556
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92041-7 of LavaF
+			properties
+				x	530
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92041-8 of CellFloorG
+			properties
+				x	264
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92006
+	properties
+		template 30102
+		south 92003
+		east 92015
+		flags	104
+	end
+	objects
+		object DemonRat-92006-0 of DemonRat
+			properties
+				x	586
+				y	307
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92006-1 of DemonRat
+			properties
+				x	71
+				y	300
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92006-2 of DemonRat
+			properties
+				x	111
+				y	251
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Smoke2-92006-3 of Smoke2
+			properties
+				x	238
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92006-4 of SmokeB
+			properties
+				x	357
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92015
+	properties
+		template 30704
+		south 92014
+		west 92006
+		north 92016
+		flags	0
+	end
+end
+room 92045
+	properties
+		template 30801
+		east 92044
+		north 92046
+		flags	0
+	end
+	objects
+		object LavaB-92045-0 of LavaB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92045-1 of LavaC
+			properties
+				x	601
+				y	341
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92045-2 of LavaA
+			properties
+				x	412
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92045-3 of LavaE
+			properties
+				x	33
+				y	305
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92045-4 of Stalagmite3
+			properties
+				x	10
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92045-5 of LavaG
+			properties
+				x	218
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-92045-6 of LavaD
+			properties
+				x	22
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92045-7 of Stalagmite3
+			properties
+				x	56
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92045-8 of Stalagmite4
+			properties
+				x	24
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-92045-9 of Stalagmite2
+			properties
+				x	320
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92045-10 of CellFloorF
+			properties
+				x	190
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92044
+	properties
+		template 30908
+		south 92047
+		east 92043
+		west 92045
+		flags	0
+	end
+	objects
+		object CellFloorF-92044-0 of CellFloorF
+			properties
+				x	208
+				y	215
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92043
+	properties
+		template 30702
+		east 92037
+		west 92044
+		north 92038
+		flags	0
+	end
+	objects
+		object LavaB-92043-0 of LavaB
+			properties
+				x	512
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92043-1 of LavaC
+			properties
+				x	313
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92043-2 of LavaA
+			properties
+				x	123
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92037
+	properties
+		template 32202
+		east 92042
+		west 92043
+		north 92039
+		flags	0
+	end
+	objects
+		object LavaE-92037-0 of LavaE
+			properties
+				x	51
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92037-1 of CellFloorF
+			properties
+				x	33
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92037-2 of CellFloorG
+			properties
+				x	106
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92042
+	properties
+		template 31303
+		west 92037
+		north 92040
+		flags	0
+	end
+	objects
+		object LavaB-92042-0 of LavaB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92042-1 of LavaC
+			properties
+				x	296
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92042-2 of LavaA
+			properties
+				x	484
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92001
+	properties
+		template 30501
+		south 92000
+		east 92002
+		flags	0
+	end
+end
+room 92002
+	properties
+		template 30703
+		east 92003
+		west 92001
+		flags	136
+	end
+	objects
+		object DemonRat-92002-0 of DemonRat
+			properties
+				x	91
+				y	272
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92002-1 of DemonRat
+			properties
+				x	58
+				y	294
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92002-2 of DemonRat
+			properties
+				x	67
+				y	249
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Smoke2-92002-3 of Smoke2
+			properties
+				x	75
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92002-4 of SmokeB
+			properties
+				x	37
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92002-5 of LavaB
+			properties
+				x	506
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92002-6 of LavaC
+			properties
+				x	307
+				y	328
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92002-7 of LavaA
+			properties
+				x	117
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92002-8 of Stalagmite3
+			properties
+				x	618
+				y	343
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-92002-9 of Skull
+			properties
+				x	259
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92003
+	properties
+		template 32101
+		east 92014
+		west 92002
+		north 92006
+		flags	0
+	end
+	objects
+		object LavaC-92003-0 of LavaC
+			properties
+				x	572
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92003-1 of LavaB
+			properties
+				x	375
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92003-2 of LavaA
+			properties
+				x	123
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92003-3 of LavaG
+			properties
+				x	388
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92003-4 of LavaF
+			properties
+				x	438
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92014
+	properties
+		template 31201
+		south 92013
+		west 92003
+		north 92015
+		flags	0
+	end
+end
+room 92047
+	properties
+		template 31006
+		south 92048
+		north 92044
+		flags	24
+	end
+	objects
+		object FlameDaemon-92047-0 of FlameDaemon
+			properties
+				x	466
+				y	202
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-92047-1 of FlameDaemon
+			properties
+				x	159
+				y	203
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object DemonRat-92047-2 of DemonRat
+			properties
+				x	570
+				y	241
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-92047-3 of DemonRat
+			properties
+				x	87
+				y	231
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object FireC-92047-4 of FireC
+			properties
+				x	507
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-92047-5 of FireC
+			properties
+				x	131
+				y	210
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke2-92047-6 of Smoke2
+			properties
+				x	132
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92047-7 of Smoke2
+			properties
+				x	505
+				y	216
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92000
+	properties
+		template 31003
+		south 92004
+		north 92001
+		flags	0
+	end
+end
+room 92013
+	properties
+		template 31503
+		south 92012
+		east 92064
+		north 92014
+		flags	120
+	end
+	objects
+		object FlameDaemon-92013-0 of FlameDaemon
+			properties
+				x	29
+				y	277
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-92013-1 of FlameDaemon
+			properties
+				x	35
+				y	170
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object Embers-92013-2 of Embers
+			properties
+				x	298
+				y	309
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-92013-3 of Embers
+			properties
+				x	428
+				y	145
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-92013-4 of Embers
+			properties
+				x	166
+				y	147
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92013-5 of Smoke2
+			properties
+				x	154
+				y	130
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92013-6 of SmokeB
+			properties
+				x	292
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-92013-7 of Smoke2
+			properties
+				x	416
+				y	135
+				loop	1
+			end
+			base described
+			end
+		end
+		object FatColumn-92013-8 of FatColumn
+			properties
+				x	-17
+				y	130
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92013-9 of Stalagmite1
+			properties
+				x	-7
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92013-10 of Stalagmite1
+			properties
+				x	-8
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire1-92013-11 of Fire1
+			properties
+				x	70
+				y	171
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-92013-12 of FireA
+			properties
+				x	68
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92013-13 of CellFloorG
+			properties
+				x	272
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92013-14 of CellFloorF
+			properties
+				x	149
+				y	97
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92013-15 of CellFloorF
+			properties
+				x	414
+				y	95
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorH-92013-16 of CellFloorH
+			properties
+				x	299
+				y	99
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92013-17 of FatColumn
+			properties
+				x	599
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92013-18 of Stalagmite1
+			properties
+				x	613
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-92013-19 of Stalagmite3
+			properties
+				x	499
+				y	110
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-92013-20 of Stalagmite2
+			properties
+				x	479
+				y	190
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92064
+	properties
+		template 30901
+		east 92063
+		west 92013
+		flags	0
+	end
+	objects
+		object LavaB-92064-0 of LavaB
+			properties
+				x	507
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92064-1 of LavaC
+			properties
+				x	62
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92064-2 of LavaA
+			properties
+				x	254
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorG-92064-3 of CellFloorG
+			properties
+				x	158
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92064-4 of LavaE
+			properties
+				x	101
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92063
+	properties
+		template 32302
+		south 92062
+		west 92064
+		flags	0
+	end
+end
+room 92048
+	properties
+		template 30803
+		east 92049
+		north 92047
+		flags	0
+	end
+	objects
+		object LavaB-92048-0 of LavaB
+			properties
+				x	376
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92048-1 of LavaC
+			properties
+				x	573
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92048-2 of LavaA
+			properties
+				x	122
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92048-3 of LavaG
+			properties
+				x	206
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92048-4 of CellFloorG
+			properties
+				x	224
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92048-5 of CellFloorF
+			properties
+				x	112
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92049
+	properties
+		template 30909
+		south 92050
+		west 92048
+		flags	0
+	end
+	objects
+		object LavaD-92049-0 of LavaD
+			properties
+				x	513
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92049-1 of LavaE
+			properties
+				x	416
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92049-2 of LavaG
+			properties
+				x	501
+				y	163
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-92049-3 of Column
+			properties
+				x	538
+				y	149
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92049-4 of CellFloorF
+			properties
+				x	395
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92049-5 of CellFloorG
+			properties
+				x	501
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92005
+	properties
+		template 30502
+		south 92008
+		east 92004
+		flags	0
+	end
+	objects
+		object CellFloorG-92005-0 of CellFloorG
+			properties
+				x	122
+				y	268
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorF-92005-1 of CellFloorF
+			properties
+				x	288
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92004
+	properties
+		template 30704
+		south 92009
+		west 92005
+		north 92000
+		flags	0
+	end
+	objects
+		object LavaG-92004-0 of LavaG
+			properties
+				x	518
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92004-1 of LavaE
+			properties
+				x	493
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92004-2 of LavaF
+			properties
+				x	411
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92004-3 of CellFloorF
+			properties
+				x	182
+				y	166
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92007
+	properties
+		template 30502
+		south 92011
+		east 92012
+		flags	0
+	end
+end
+room 92012
+	properties
+		template 31303
+		west 92007
+		north 92013
+		flags	0
+	end
+	objects
+		object LavaB-92012-0 of LavaB
+			properties
+				x	97
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92012-1 of LavaA
+			properties
+				x	485
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92012-2 of LavaC
+			properties
+				x	296
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92012-3 of Stalagmite1
+			properties
+				x	622
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92062
+	properties
+		template 31004
+		south 92061
+		north 92063
+		flags	0
+	end
+end
+room 92050
+	properties
+		template 32305
+		east 92051
+		north 92049
+		flags	0
+	end
+	objects
+		object LavaA-92050-0 of LavaA
+			properties
+				x	177
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92050-1 of Stalagmite1
+			properties
+				x	131
+				y	395
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92050-2 of Stalagmite4
+			properties
+				x	71
+				y	343
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92050-3 of LavaA
+			properties
+				x	420
+				y	325
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92050-4 of LavaA
+			properties
+				x	663
+				y	320
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92050-5 of Stalagmite4
+			properties
+				x	388
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92050-6 of Stalagmite1
+			properties
+				x	482
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92050-7 of Stalagmite4
+			properties
+				x	301
+				y	366
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92050-8 of CellFloorF
+			properties
+				x	229
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-92050-9 of FatColumn
+			properties
+				x	589
+				y	182
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-92050-10 of Column
+			properties
+				x	538
+				y	144
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-92050-11 of Column
+			properties
+				x	495
+				y	105
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-92050-12 of Stalagmite2
+			properties
+				x	453
+				y	127
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92050-13 of Stalagmite4
+			properties
+				x	501
+				y	160
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-92050-14 of Stalagmite4
+			properties
+				x	236
+				y	147
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92051
+	properties
+		template 30906
+		east 92052
+		west 92050
+		flags	0
+	end
+	objects
+		object LavaB-92051-0 of LavaB
+			properties
+				x	511
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92051-1 of LavaA
+			properties
+				x	123
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92051-2 of LavaC
+			properties
+				x	312
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaE-92051-3 of LavaE
+			properties
+				x	-7
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92051-4 of CellFloorG
+			properties
+				x	216
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92052
+	properties
+		template 30901
+		east 92008
+		west 92051
+		flags	0
+	end
+	objects
+		object LavaA-92052-0 of LavaA
+			properties
+				x	253
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92052-1 of LavaC
+			properties
+				x	65
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92052-2 of LavaB
+			properties
+				x	507
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92052-3 of LavaE
+			properties
+				x	100
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92052-4 of CellFloorG
+			properties
+				x	379
+				y	244
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorF-92052-5 of CellFloorF
+			properties
+				x	177
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92008
+	properties
+		template 30702
+		east 92009
+		west 92052
+		north 92005
+		flags	0
+	end
+	objects
+		object LavaB-92008-0 of LavaB
+			properties
+				x	511
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92008-1 of LavaC
+			properties
+				x	312
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92008-2 of LavaA
+			properties
+				x	122
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaE-92008-3 of LavaE
+			properties
+				x	501
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92008-4 of Stalagmite1
+			properties
+				x	632
+				y	361
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92008-5 of CellFloorG
+			properties
+				x	313
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92009
+	properties
+		template 31503
+		south 92059
+		east 92010
+		west 92008
+		north 92004
+		flags	216
+	end
+	objects
+		object FlameDaemon-92009-0 of FlameDaemon
+			properties
+				x	339
+				y	233
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-92009-1 of FlameDaemon
+			properties
+				x	277
+				y	234
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+		object SmokeA-92009-2 of SmokeA
+			properties
+				x	48
+				y	103
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-92009-3 of SmokeA
+			properties
+				x	587
+				y	89
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke1-92009-4 of Smoke1
+			properties
+				x	23
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92009-5 of Smoke1
+			properties
+				x	617
+				y	305
+				loop	1
+			end
+			base described
+			end
+		end
+		object Rock1-92009-6 of Rock1
+			properties
+				x	490
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-92009-7 of Rock1
+			properties
+				x	151
+				y	253
+				loop	1
+			end
+			base described
+			end
+		end
+		object FireC-92009-8 of FireC
+			properties
+				x	507
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-92009-9 of FireC
+			properties
+				x	135
+				y	228
+				loop	1
+			end
+			base described
+			end
+		end
+		object Smoke2-92009-10 of Smoke2
+			properties
+				x	136
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-92009-11 of SmokeB
+			properties
+				x	507
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-92009-12 of Fire2
+			properties
+				x	338
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-92009-13 of FireB
+			properties
+				x	276
+				y	240
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92010
+	properties
+		template 32403
+		east 92011
+		west 92009
+		flags	0
+	end
+	objects
+		object LavaB-92010-0 of LavaB
+			properties
+				x	111
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-92010-1 of LavaB
+			properties
+				x	324
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92010-2 of LavaA
+			properties
+				x	570
+				y	327
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaE-92010-3 of LavaE
+			properties
+				x	46
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92010-4 of LavaF
+			properties
+				x	42
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92010-5 of LavaG
+			properties
+				x	310
+				y	119
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92010-6 of CellFloorG
+			properties
+				x	190
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-92010-7 of CellFloorF
+			properties
+				x	220
+				y	102
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-92010-8 of CellFloorG
+			properties
+				x	149
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92011
+	properties
+		template 32601
+		west 92010
+		north 92007
+		flags	0
+	end
+	objects
+		object LavaB-92011-0 of LavaB
+			properties
+				x	442
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92011-1 of LavaA
+			properties
+				x	193
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92011-2 of LavaC
+			properties
+				x	6
+				y	337
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaE-92011-3 of LavaE
+			properties
+				x	299
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-92011-4 of LavaF
+			properties
+				x	410
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92011-5 of LavaG
+			properties
+				x	450
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92061
+	properties
+		template 30402
+		south 92060
+		north 92062
+		flags	56
+	end
+	objects
+		object FlameDaemon-92061-0 of FlameDaemon
+			properties
+				x	394
+				y	261
+				loop	1
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-92061-1 of FlameDaemon
+			properties
+				x	162
+				y	258
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object FireC-92061-2 of FireC
+			properties
+				x	461
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-92061-3 of FireC
+			properties
+				x	89
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92059
+	properties
+		template 31006
+		south 92058
+		north 92009
+		flags	0
+	end
+end
+room 92053
+	properties
+		template 30102
+		south 92054
+		east 92060
+		flags	0
+	end
+end
+room 92060
+	properties
+		template 32601
+		west 92053
+		north 92061
+		flags	0
+	end
+	objects
+		object LavaB-92060-0 of LavaB
+			properties
+				x	444
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92060-1 of LavaA
+			properties
+				x	193
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92060-2 of LavaC
+			properties
+				x	4
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 92058
+	properties
+		template 30802
+		east 92057
+		north 92059
+		flags	0
+	end
+	objects
+		object Smoke3-92058-0 of Smoke3
+			properties
+				x	57
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeC-92058-1 of SmokeC
+			properties
+				x	23
+				y	257
+				loop	1
+			end
+			base described
+			end
+		end
+		object SmokeC-92058-2 of SmokeC
+			properties
+				x	-13
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire3-92058-3 of Fire3
+			properties
+				x	21
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire3-92058-4 of Fire3
+			properties
+				x	93
+				y	237
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire3-92058-5 of Fire3
+			properties
+				x	42
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire3-92058-6 of Fire3
+			properties
+				x	30
+				y	205
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-92058-7 of LavaB
+			properties
+				x	158
+				y	340
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92058-8 of LavaA
+			properties
+				x	412
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92058-9 of LavaC
+			properties
+				x	598
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaF-92058-10 of LavaF
+			properties
+				x	145
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-92058-11 of LavaG
+			properties
+				x	601
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92058-12 of Stalagmite1
+			properties
+				x	629
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92057
+	properties
+		template 30906
+		east 92056
+		west 92058
+		flags	0
+	end
+	objects
+		object LavaB-92057-0 of LavaB
+			properties
+				x	509
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-92057-1 of LavaC
+			properties
+				x	313
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92057-2 of LavaA
+			properties
+				x	123
+				y	333
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite1-92057-3 of Stalagmite1
+			properties
+				x	53
+				y	343
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92056
+	properties
+		template 30901
+		east 92055
+		west 92057
+		flags	0
+	end
+	objects
+		object LavaA-92056-0 of LavaA
+			properties
+				x	254
+				y	339
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92056-1 of LavaC
+			properties
+				x	64
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92056-2 of LavaB
+			properties
+				x	507
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92056-3 of LavaE
+			properties
+				x	102
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92055
+	properties
+		template 32401
+		east 92054
+		west 92056
+		flags	128
+	end
+	objects
+		object HellHound-92055-0 of HellHound
+			properties
+				x	111
+				y	276
+				loop	0
+				color	769
+			end
+			base character
+			end
+		end
+		object SmokeA-92055-1 of SmokeA
+			properties
+				x	158
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-92055-2 of Smoke1
+			properties
+				x	72
+				y	314
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-92055-3 of LavaB
+			properties
+				x	565
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-92055-4 of LavaD
+			properties
+				x	133
+				y	353
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92055-5 of LavaA
+			properties
+				x	-39
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaF-92055-6 of LavaF
+			properties
+				x	185
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-92055-7 of LavaE
+			properties
+				x	283
+				y	344
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 92054
+	properties
+		template 32701
+		west 92055
+		north 92053
+		flags	0
+	end
+	objects
+		object LavaB-92054-0 of LavaB
+			properties
+				x	-14
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-92054-1 of LavaA
+			properties
+				x	239
+				y	335
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-92054-2 of LavaC
+			properties
+				x	424
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-92054-3 of LavaA
+			properties
+				x	614
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaE-92054-4 of LavaE
+			properties
+				x	425
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

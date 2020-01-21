@@ -1,0 +1,29 @@
+name "westhavenwood"
+title "West Havenwood"
+worldFile "../data/lib/world/FOR1.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 12
+groupChance 25
+monster AlphaWolf 10
+monster ArcticRat 12
+monster BountyHunterA 8
+monster CaveRat 8
+monster CryptBat 8
+monster EntombedOne 6
+monster Faery 8
+monster FlameRat 10
+monster Imp 8
+monster LostSailor 8
+monster OgreChild 8
+monster PlagueRat 7
+monster RabidWolf 8
+monster ThiefA 4
+monster UndeadNecromancer 4
+monster VampireBat 5
+monster WarriorA 5
+monster WarriorB 5
+monster WaspWarrior 10
+monster WaspWorker 16
+# Westhavenwood		Area 02		Player Level 6-20	Alignment: Mixed	Monsters/Room: 3.29

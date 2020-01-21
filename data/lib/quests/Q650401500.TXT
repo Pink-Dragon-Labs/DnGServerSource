@@ -1,0 +1,19 @@
+quest  176 #6504-01-500        #Morgana, Bloodforge, Kurz, 8003formerly K.J., K.J. Weaponry, Guennor, 6504, number not changed to avoid domino changes in all the subquests
+
+name  "The Scroll of Astilrades"
+type  fedex
+
+proposal  "The final set of skills requires diligence to acquire, but I've confidence in you.  The sooner you're a skilled artisan, the better.  We need more in our ranks of grand-master armorcrafters.  Before you receive the skillbook, please find me the Scroll of Astilrades.  Will you do this?" 
+
+declined  "Perhaps it is for the best."
+
+accepted  "Go to Silverbrook."
+
+reminder   "You will seek in Silverbrook for the Scroll of Astilrades.
+
+completed  "This is good work.  You're going to be an asset to the craft.  Here is the final skill book."
+
+getItem   qScrollAstilrades
+reward   skbArmorcraftingV 
+end
+

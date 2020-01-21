@@ -1,0 +1,19 @@
+quest   331 #8307-01-300        #Wanda, Elven Enchantment, Drune, 8307
+
+name  "Torn Papyrus from Usk"
+type  fedex
+
+proposal  "Apprentice, your astuteness in seeking assistance in the Expert skills of Meditation from me is remarkable.  I commend you.  Your quest in furtherance of this goal is to obtain a Torn Papyrus Fragment from Usk. I have a curiosity about the learning of the ancient giants. Incidentally, I have heard that there are apprentices in the Realm who mock the quests that are assigned.  I trust that you are not one of them.  It would displease me seriously.  Do you accept your assignment to locate a Torn Papyrus from Usk?" 
+
+declined  "Truly, this is disturbing."
+
+accepted  "Your decision is wise.
+
+reminder   "Proceed to Usk and seek a renowned Torn Papyrus."
+
+completed  "Excellent.  You are a worthy apprentice.  Accept your spellbook for Expert skills in Meditation."
+
+getItem   qUskPapyrus
+reward   skbMeditationIII
+end
+

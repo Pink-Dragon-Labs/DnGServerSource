@@ -1,0 +1,19 @@
+quest  159 #6403-01-535        # Nattan, Northlander Weaponry, Asgard, 6905
+
+name  "Sharpening Stone"
+type  fedex
+
+proposal  "Nearly, nearly.  This work must be done with care.  Troels values this knife, and I wish to do it properly.  I do need a new piece of sharpening stone, however.  Would you be willing to go over to the giants in Usk and get my new one?  It's already paid for, it just needs to be picked up for me.  If you will do that, when you get back Troels' knife will be ready.  What do you say?
+
+declined  "Ah, well."
+
+accepted  "Good.  Those giants have access to the best materials for sharpening tools."
+
+reminder   "Go to the giants in Usk for a new sharpening stone."
+
+completed  "Excellent.  Many thanks.  And here is Troels' knife."
+
+getItem   qSharpeningStone
+reward   qCarvingKnife 
+end
+

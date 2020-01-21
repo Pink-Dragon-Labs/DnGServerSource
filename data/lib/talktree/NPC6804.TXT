@@ -1,0 +1,55 @@
+id 6804
+
+banner "Hello, Hello. My name is Sanria, proprietor of Fantastic Meals. How may I serve you?"
+
+topic "Tell me about Arimathor."
+      	text "Beware the cobras in the desert.  If they bite, you'll be in trouble.  Remember that."
+	text "Our cactus gardens are magnificent!  Really superb! Do not leave Arimathor without viewing them."
+	text "This is a good place to live, my friend.  The life is good, the air is clear, and the people are honorable."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Did my sister send you, I wonder?  She runs Fantastic Togs next door.  We are twins, she and I.  Janria will not speak of such things, but I do not fear."
+	text "Giants are large, it is true, and sometimes even intelligent.  But it is reported they cannot see in the dark.  Not like us.  Ha! We of Arimathor see at night as well as day.  There!"
+	text "Elves are nearly as strong as giants.  Did you know that?  It's true.  Sounds odd though, doesn't it?"
+	text "They say there is a town where many rogues live.  Yes, it is true.  And it is said there is a maze in the sewers!  But I don't know. Why one would want to wander the sewers?  This talk of a maze is blather I should think."
+end      
+
+topic "Can I do anything for you?"
+        text "Possibly, possibly.  But not just now.  Return later, if it suits."
+end
+
+topic  "I'd like a sweet for Kaliri." q288:0 #q8021-01-230:0
+	quest 289 #8021-01-235
+	text  "You already came for her sweet."
+end
+
+topic  "I've come for a food basket for Kaliri's grandson." q258:0 #q6902-01-530
+	quest 259 #6902-01-535
+	text  "But you already have it.  Did the desert sun affect your head?"
+end
+
+topic  "I've come to ask for a treat for Kaliri." q112:0 #q6308-01-430:0
+	quest 113 #6308-01-435
+	text  "Don't be silly.  I gave it to you already."
+end
+
+topic  "Kaliri sent me for cookies." q337:0 #q8307-01-430:0
+	quest 338 #8307-01-435
+	text  "You didn't eat them, did you?  I gave them to you already."
+end
+
+topic  "I'm looking for gooey buns." q371:0 #q80001-01-300:0
+	quest 372 #80001-01-325
+	text  "You got the last of 'em, friend."
+end
+
+topic  "I've come for Kaliri's treat." q264:0 #q6905-01-435:0
+	quest 265 #6905-01-440
+	text  "I haven't another.  You already took the apricot tart."
+end
+
+topic  "I've come for Kaliri's treat." q47:0 #q6073-01-535:0
+	quest  48 #6073-01-540
+	text  "Go on now.  You took it already."
+end

@@ -1,0 +1,19 @@
+quest  161 #6501-01-400        #Lopier, Marvelous Armory, Usk, 8103 (Formerly Jocko, Guennor Armory, 6501) Leaving Guennor number, 6501, to avoid changing whole chain of quest numbers.
+
+name  "Ancient Chain Mail"
+type  fedex
+
+proposal  "Are you now?  Well, that's fine.  Always glad to help a fellow warrior.  My active days as a warrior are behind me, at least for the moment.  But don't let that put you off, you whippersnapper.  I know these skills.  Now, you'll need to study the book on Long Sword Mastery.  I'll get it for you, have no worries on that score.  But first, you will show me what you can do by finding me a segment of ancient chain mail.  Will you do that?" 
+
+declined  "Not a propitious start."
+
+accepted  "Good.  I hear there are some nice pieces in Caer Fandry."
+
+reminder   "Look for a segment of ancient chain mail in Caer Fandry."
+
+completed  "Excellent job.  You've earned the skill book."
+
+getItem   qAncientChainMail
+reward   skbLongSwordIV
+end
+

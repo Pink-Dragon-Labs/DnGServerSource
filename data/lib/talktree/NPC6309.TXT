@@ -1,0 +1,31 @@
+id 6309
+
+banner "Oh my, you look as though you don't feel well at all. What is it you require?"
+
+topic "Tell me about Monmouth."
+        text "Monmouth is full of pious people who worship Luna."
+	text "Luna asks of them loyalty to the higher good."
+	text "Lately there have been many giants and elves in Monmouth. It used to be the only faces you saw were human.  It's a nice change, I think."
+	text  "I love flowers, the more variety the better.  I like variety in people, too."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Yes, I've heard that for your health's sake you should not see the astral display. That's all I have to say about that."
+	text "Wait, I'll say one more thing.  Some people rave about the beauty of the display and aren't afraid at all.  This contradiction confuses me."
+	text "But I haven't gone out to see the display."
+end      
+
+topic "Can I do anything for you?"
+        text "Take better care of yourself. You look just awful. Can I sell you something?"
+end
+
+topic  "I've come for Lari's flower seed." q188:0 #q6610-01-330:0
+	quest 189 #6610-01-335
+	text  "I gave it to you.  Did you forget?"
+end
+
+topic  "I've come for the dried lavender." q376:0 #q80001-01-425:0
+	quest 377 #80001-01-430
+	text  "But you've got it already."
+end
+

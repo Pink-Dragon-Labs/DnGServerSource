@@ -1,0 +1,34 @@
+name "bloodwood"
+title "Bloodwood"
+worldFile "../data/lib/world/INTER1.WLD"
+worldFile "../data/lib/world/INTER2.WLD"
+worldFile "../data/lib/world/BLOOD3.WLD"
+worldFile "../data/lib/world/BLOOD4.WLD"
+worldFile "../data/lib/world/MIDDLE.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 15
+groupChance 35
+monster DarkFaery 15
+monster BountyHunterD 20
+monster BountyHunterE 15
+monster WarriorE 20
+monster ThiefD 8
+monster ThiefE 6
+monster Priestess 10
+monster CryptKeeper 40
+monster Lich 45
+monster Medusa 40
+monster Shade 45
+monster Banshee 45
+monster Cobra 20
+monster Daemon 20
+monster HellHound 30
+monster HowlingTerror 25
+monster ImpKing 15
+monster ImpWarrior 20
+monster OgreChief 10
+monster TrollKing 10
+monster WaspQueen 10
+# Bloodwood		Area 05		Player Level 50-100	Alignment: Evil		Monsters/Room: 3.01

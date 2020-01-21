@@ -1,0 +1,17 @@
+id 6708
+
+banner "Welcome to the Siren Song Tavern, my friend. Come on in and warm your bones."
+
+topic "Tell me about Cambria."
+        text "Cambria was founded to support the manor on the hill. The manor was build many generations ago by a wealthy man."
+        text "The manor requires an army of servants to care for it, and Cambria was founded by that army. Still, we don't mind. There are plenty of towns in The Realm founded for less reason than Cambria was."
+end
+
+topic "Who are you?"
+        text "I am Leonor, and I own the Siren Song. I selected the name with care, after a legendary woman who claimed to be from here during the Continuum War."
+        text "She charmed the man in charge of the Blandsley Navy, and lured him to his death. Some think the name is macabre, but 'tis just a name, after all."
+end      
+
+topic "Can I do something for you?"
+        text "You are very kind to ask, and I may call on you at some point in the future. Currently I've nothing for you to do, but many thanks for asking."
+end

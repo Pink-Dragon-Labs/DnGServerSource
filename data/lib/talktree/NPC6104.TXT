@@ -1,0 +1,52 @@
+id 6104
+
+banner "Greetings, Friend. Welcome to The Ladyslipper. How may I help you?"
+
+topic "Tell me about Wen."
+        text "Certainly, Friend. Wen is a bit rural, but we like it that way."
+	text "Many Wenners are followers of the goddess Enid, and because of this we live in harmony with each other and with nature."
+        text "Enid holds dominion over the natural beasts of The Realm, and she strives to keep natural balance in the world. This is why I worship her."
+end
+
+topic "Who are you?"
+        text "I am Fiona, Druid of Peace."
+        text "Druids of Peace follow Enid, goddess of nature, peace, love, and romance."
+	text "I also run the Ladyslipper, of course, and pursue my hobby."
+	text "I'm developing a special cheese with a secret ingredient, but it's not on my menu.  I'm only testing it on a few friends."  
+end      
+
+topic "Can I do something for you?"
+        text "Live your life in peace, as Enid would have you do. Otherwise, I can think of nothing."
+end
+
+topic  "I looking for some special cheese of Wen." q232:0 #q6815-01-430:0
+	quest 233 #6815-01-435
+	text  "You got it, friend."
+end
+
+topic  "I'm looking for a token of Enid." q344:0 #q8307-01-540:0
+	quest 345 #8307-01-545
+	text  "You have it, friend.  Go in peace."
+end
+
+topic  "I'd like the cheese order for Randolf." q193:0 #q6610-01-435:0
+	quest 194 #6610-01-440
+	text  "You didn't eat it yourself, did you?  I gave it to you."
+end
+
+topic  "I'm looking for some special cheese." q273:0 #q8010-01-425:0
+	quest 274 #8010-01-430
+	text  "You don't catch me that way.  You took the slab I saved for you."
+end
+
+topic  "Do you have a special order of Wen cheese for Lari." q269:0 #q6905-01-535:0
+	quest 270 #6905-01-540
+	text  "You took the special order already.  Don't play games with me while my head aches so, please."
+end
+
+topic  "Kaliri wants some of your cheese.  She's making a package for Sandor." q386:0 #q80500-01-425:0
+	quest  387 #80500-01-430
+	text  "Get on with you, we've done this already."
+end
+
+

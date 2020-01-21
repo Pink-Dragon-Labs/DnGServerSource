@@ -1,0 +1,17 @@
+id 100
+
+banner "I can see that you want some information.  Ask of me what you will."
+
+topic "Who are you?"
+	text "My name is Kolanar.  I am one of the Scholars of Old."
+end
+
+topic "What are The Mists?"
+	text "The Mists are a terrible blight place upon this land by an ancient goddess.  Legend has it that in those times the people of The Realm angered their goddess by starting terrible wars.  The goddess punished the people of The Realm by encircling the land with an invisible and impenetrable mist. This mist twists the very nature of the land causing such disruptions that the sun does not set any more."
+	text "Have no fear, for Despothes, the king of the gods of The Realm has returned and will wipe away this terrible blight, exposing the true world that has been hidden from you for so long."
+end
+
+topic "Can I do something for you?"
+	quest 14 #100
+	text "You have done much already.  Enjoy the amulet that you have won."
+end

@@ -1,0 +1,16 @@
+quest 379 #80001-01-440        # Upa, Food Cart, Monmouth, 5307
+
+name  "Errand for Upa"
+type  fedex
+
+proposal  "Surely, it is.  I'll just hand it to you and say good bye because I'm getting ready for my busy time.  You'll deliver it to Lalana?"
+
+declined  "Dear me, I wonder if I have time to run over there?"
+
+accepted  "Here it is, then.  Come back if you're hungry."
+
+reminder   "Don't forget to take Lalana's lunch to her."
+
+reward   qLunch 
+end
+

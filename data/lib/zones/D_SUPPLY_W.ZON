@@ -1,0 +1,8 @@
+name "D_Supply_W"
+title "The Supply Store West"
+worldFile "../data/lib/world/D_SUPPLY_W.WLD"
+allowCombat 0
+#resetInterval 120
+midiFile 29
+isDungeon 2		## non-exclusive reset logic
+entrance movingRock1471-0

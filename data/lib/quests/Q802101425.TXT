@@ -1,0 +1,18 @@
+quest  296 #8021-01-425        #Zuzu, House of Combat, Monmouth, 6311
+
+name  "Zuzu's Errand"
+type  fedex
+
+proposal  "Bats whisper?  What do you mean, bats whisper?  They don't and never have.  Oh, bat's whisker.  You'll have learn to speak clearly, you know.  I do, as a sideline, have a few items and a bat's whisker is one of them.  If you want it, you'll have to do some fetching for me, though.  Those are the terms."
+
+declined  "Don't know why you came here in the first place."
+
+accepted  "Then fetch me an antique from over at Murias.  Bought it on my travels, but didn't lug it with me.  You'll have to do the lugging if you want that whisker." 
+
+reminder   "Go to Murias.  Gal by name of Gwynna works somewhere thereabouts."
+
+completed  "Here's your bat whisker.  Don't do anything I wouldn't do."
+
+getItem   qZuzuAntique
+reward   qBatWhisker 
+end

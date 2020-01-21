@@ -1,0 +1,15 @@
+quest  81000-01-545        # Misha, Eaterie, Wen, 6101
+
+name  "Fresh Bread for Hana"
+type  fedex
+
+proposal  "Oh, my.  Did I make it sound like a surprise.  I hope she won't be disappointed. I baked bread today and saved her a loaf.  Will you take it to her?"
+
+declined  "Never mind."
+
+accepted  "Thank you."
+
+reminder   "Take that bread to Hana while it's still warm."
+
+reward   qHanaSurprise 
+end

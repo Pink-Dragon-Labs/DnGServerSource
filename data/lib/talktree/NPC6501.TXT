@@ -1,0 +1,18 @@
+id 6501
+
+banner "Welcome to Guennor Armory, Friend. I'm Jocko, the proprietor. What would you like to see?"
+
+topic "Tell me about Guennor."
+        text "I hope you like cold mountain air if you're planning to stay here, friend."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Fellow was through here talking about a desert town in the west.  I've lived my life in the mountains, and I'd sure like to see that desert."
+end      
+
+topic "Can I do anything for you?"
+        text "Keep checking back.  I just might have a project coming up for a likely candidate."
+end
+
+
+

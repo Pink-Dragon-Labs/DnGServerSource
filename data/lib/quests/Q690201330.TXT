@@ -1,0 +1,19 @@
+quest  249 #6902-01-330    #(Kombal, Filthy Beggar tavern, Kurz, 8020)
+
+name  "Kombal's Bag"
+type  fedex
+
+proposal "What a town, this Kurz.  I'm really from Leinster, but I left before Duach cut loose with his smiting.  I'm just a poor man, trying to make a living.  I do happen to have a supply of my private wine stock.  I'll let it go if you'll find a small bag I accidentally left behind in Leinster.  Just sentimental, you understand, but I'd like to have it back."
+
+declined  "Don't want to go near Leinster, either, huh?"
+
+accepted  "I sure will be glad to see that bag again."
+
+reminder   "Bring my small bag from Leinster.  I left in such a hurry I forgot it."
+
+completed  "The loot!!  Actually what I mean to say is, you've found my small mementos.  Take the special wine with my thanks."
+
+getItem  qKombalBag
+reward  qKombalWine
+end
+

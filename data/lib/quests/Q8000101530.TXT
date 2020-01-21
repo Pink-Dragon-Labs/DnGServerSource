@@ -1,0 +1,19 @@
+quest  382 #80001-01-530        # Lireen, Healing Magic, Drune, 8303
+
+name  "An Errand for Lireen"
+type  fedex
+
+proposal  "I'm sure he does.  He banged himself up good and proper in that fall, and his knee bore the brunt of it which he probably told you.  Ygior isn't one to suffer in silence.  I'll gladly supply all the ointment he needs because he's given us a topic of conversation other than combat!  As a healer I see enough of combat wounds and hear enough about combat.  A change of topic is welcome.  I'm in need of someone to do an errand for me.  Would you be good enough to go to Wanda and pick up an order I placed with her?"
+
+declined  "Never mind."
+
+accepted  "Do it, and come back here for Ygior's ointment."
+
+reminder   "Wanda has a package for me.  Please fetch it."
+
+completed  "Thank you very much." 
+
+getItem   qLireenPackage
+reward   qKneeOintment 
+end
+

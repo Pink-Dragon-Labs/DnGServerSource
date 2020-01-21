@@ -1,0 +1,39 @@
+room 700
+   properties
+      picture	3001
+	east 701
+	south 702
+   end
+   atpinfo
+   end
+end
+
+room 701
+   properties
+      picture	3001
+	west 700
+	south 703
+   end
+   atpinfo
+   end
+end
+
+room 702
+   properties
+      picture	3001
+	north 700
+	east 703
+   end
+   atpinfo
+   end
+end
+
+room 703
+   properties
+      picture	3001
+	north 701
+	west 702
+   end
+   atpinfo
+   end
+end

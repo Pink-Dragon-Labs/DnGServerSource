@@ -1,0 +1,37 @@
+id 6406
+
+banner "Greetings my friend, and welcome. I am Pel, owner of Magic Tomes."
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook means elves, friend.  Elves have been in this area of the Devon Forest for time out of mind.  Giants and humans are very welcome here.  This is a friendly place."
+	text "The forest surrounding Silverbrook is full of elves, though you may seldom see them.  An elf knows how to go quietly and blend into the forest."
+end
+
+topic  "So, do you like limericks?"
+	text  "Of course, of course."
+	text  "Limericks are a very ancient tradition.  Some have been around from into the Mists and others are quite contemporary.  I'll tell you one of each."
+	text  "If you've been to the healer in Drune, you'll particularly appreciate this one."
+	text  "A lovely elf lady, Lireen"
+	text  "Made some soup for the elf halloween"
+	text  "While stirring the hot"
+	text  "And bubbling pot"
+	text  "She slipped and fell in the tureen."
+	text  "I don't know if Lireen's heard that yet, but she'll laugh."
+	text  "Here's one from a very ancient tome that Alfric of Drune sent me.  He knows of my interest in such things."
+	text  "An elderly elf one time wrote"
+	text  "A motto that all the elves quote"
+	text  "'Do for each other elf"
+	text  "What you want for yourself"
+	text  "For we're all in the same elfin boat.'"
+	text  "Just goes to show that good ideas have been around for eons."
+	text  "I'd better get back to work now.  Come again."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I find that rumors are hardly worth listening to, and never worth repeating."
+        text "So I don't."
+end      
+
+topic "Can I do anything for you?"
+        text "Appreciate you asking, but I've nothing right now."
+end

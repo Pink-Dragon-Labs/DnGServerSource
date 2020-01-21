@@ -1,0 +1,1099 @@
+# Miscellaneous Items
+
+object Tent
+	properties
+				name "Tent"
+				view 54850
+	end
+
+	base described
+				text "This is a tent.  Deal with it."
+	end
+
+	base entry
+	end
+
+end
+
+object BackPack
+	properties
+		view 50200
+		name "Backpack"
+		value 40
+		clutStart 48
+		color 74
+		level 1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 3.0
+		bulk 10.0
+	end
+
+	base container
+		weightCapacity 200.0
+		bulkCapacity 40.0
+	end
+
+	base described
+		text "You see a rugged leather backpack."
+		shopText "This backpack is made of the finest hide."
+	end
+
+	base wearable
+		areaWorn 18
+		layer 0
+	end
+end
+
+#------------------------------------------------------------
+object RoyalPack of BackPack
+#used to control the color of the crest on the EvilMinion's Helm
+	properties
+		color 93
+	end
+end
+#------------------------------------------------------------
+object BlackPack of BackPack
+#used to control the color of the crest on the Protector's Helm
+	properties
+		color 98
+	end
+end
+#------------------------------------------------------------
+object TealPack of BackPack
+#used to control the color of the crest on the Champion's Helm
+	properties
+		color 79
+	end
+end
+#------------------------------------------------------------
+object FinvarraPack of BackPack
+	properties
+		view 50200
+		name "Finvarra's Backpack"
+		value 4000
+		clutStart 48
+		color 115	
+		level 1
+		special
+	end
+
+	base carryable
+		weight 3.5
+		bulk 11.0
+	end
+
+	base container
+		weightCapacity 300.0
+		bulkCapacity 50.0
+	end
+
+	base described
+		text "You see a rugged backpack crafted from an exotic leather."
+		idText "You see a fabled Finvarra's Backpack, rumored to hold more contents than any mortal made container."
+		shopText "This backpack is made of the finest hide."
+	end
+
+	base wearable
+		areaWorn 18
+		layer 0
+	end
+end
+#------------------------------------------------------------
+object LeatherPouch
+	properties
+		view 50450
+		name "Leather Pouch"
+		value 15
+		clutStart 75
+		level 1
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.0
+		bulk 5.0
+	end
+
+	base container
+		weightCapacity 20.0
+		bulkCapacity 10.0
+	end
+
+	base described
+		text "You see a leather pouch."
+		shopText "Very useful they are."
+	end
+end
+
+
+object Mirror
+	properties
+		view 52600
+		name "Mirror"
+		value 100
+    	health 100
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base described
+		text "You see a fine mirror."
+		shopText "Perfect for the reflective soul.  Narcissus would be proud!"
+	end
+end
+
+object Bowl
+	properties
+		view 52800
+		name "Bowl"
+		value 15
+		health 100
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base described
+		text "You see a wooden bowl."
+		shopText "This is just a simple wooden bowl."
+	end
+end
+
+object BlackRose
+	properties
+		view	54500
+		name	"Black Rose"
+		value	1000
+		health	50
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see the mark of DEATH, a black rose."
+		shopText "This is the mark of DEATH, a black rose."
+	end
+end
+
+object RedRose
+	properties
+		view 54550
+		name "Red Rose"
+		value 75
+		health 50
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a beautiful red rose."
+		shopText "Red in a rose is for true love and passion."
+	end
+end
+
+object WhiteRose
+	properties
+		view 53050
+		name "White Rose"
+		value 50
+		health 50
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a beautiful white rose."
+		shopText "White in a rose is for purity and innocence."
+	end
+end
+
+object BlueRose
+	properties
+		view 53000
+		name "Blue Rose"
+		value 150
+		health 50
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a Blue rose."
+		shopText "Blue in a rose is for harmony."
+	end
+end
+
+object YellowRose
+	properties
+		view 54100
+		name "Yellow Rose"
+		value 150
+		health 50
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a yellow rose."
+		shopText "Yellow in a rose is for joy and gladness."
+	end
+end
+
+object PinkRose
+	properties
+		view 54150
+		name "Pink Rose"
+		value 150
+		health 50
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a pink rose."
+		shopText "Pink in a rose is for admiration or sympathy."
+	end
+end
+
+object GreenRose
+	properties
+		view 53000
+	    name "Green Rose"
+		value 150
+		health 50
+		clutStart 54
+		color 85
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+      text "You see a green rose."
+      shopText "Green in a rose is for the uniqueness of being."
+	end
+end
+
+object Chrysanthenum
+	properties
+		view 53150
+		name "Chrysanthemum"
+		value 450
+		health 50
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a Chrysanthenum."
+		shopText "Just buy it.  Don't try to spell the name."
+	end
+end
+
+object Daisy
+	properties
+		view 53100
+		name "Daisy"
+		value 25
+		health 50
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a Daisy."
+		shopText "Daisies.  When you can't afford to give the very best."
+	end
+end
+
+object Drum
+	properties
+		view 53950
+		name "Drum"
+		value 275
+		health 100
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.1
+	end
+
+	base described
+		text "You see a Drum."
+		shopText "Look at our price.  You can't beat it."
+	end
+end
+
+object Flute
+	properties
+		view 53900
+		name "Flute"
+		value 350
+		health 100
+
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.2
+	end
+
+	base described
+		text "You see a Flute."
+		shopText "Yup.  It's a flute all right."
+	end
+end
+
+object Strynx
+	properties
+		view 54000
+		name "Strynx"
+		value 450
+		health 100
+		loop 1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.7
+	end
+
+	base described
+		text "You see a Strynx."
+		shopText "This is a fine musical instrument, for sure."
+	end
+end
+
+object Lyre
+	properties
+		view 54050
+		name "Lyre"
+		value 250
+		health 100
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 6.4
+	end
+
+	base described
+		text "You see a Lyre."
+		shopText "Very beautiful sounding, much like a small harp."
+	end
+end
+
+object Lute
+	properties
+		view 54600
+		name "Lute"
+		health 100
+		value 175
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.7
+	end
+
+	base described
+		text "You see a Lute."
+		shopText "Be alert.  The World needs more...Oops, this is 'lutes'."
+	end
+end
+
+object AnimalHide
+	properties
+		view 50900
+		name "Animal Hide"
+		clutStart 73
+		value 30
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.8
+	end
+
+	base described
+		text "You see animal hide.  Find a shop to sell it to."
+		shopText "Parts is parts."
+	end
+end
+
+object WolfPelt of AnimalHide
+	properties
+		name "Wolf Pelt"
+		value 140
+		color 99
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a Wolf Pelt.  Some stores buy these things."
+	end
+end
+
+object WhiteWolfPelt of WolfPelt
+	properties
+		color 100
+		value 250
+	end
+end
+
+object FenrisPelt of AnimalHide
+	properties
+		name "Fenris Pelt"
+		value 700
+		color 98
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a Fenris Pelt.  The stores are buying these things."
+	end
+end
+
+object BloodFenrisPelt of AnimalHide
+	properties
+		name "Blood Fenris Pelt"
+		value 1000
+		color 58
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a Blood Fenris Pelt.  The stores are buying these things."
+	end
+end
+
+object HellHoundPelt of AnimalHide
+	properties
+		name "Hell Hound Pelt"
+		value 1200
+		color 59
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a Hellhound Pelt.  The stores are buying these things."
+	end
+end
+
+object HowlingTerrorPelt of AnimalHide
+	properties
+		name "Howling Terror Pelt"
+		value 1000
+		color 100
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a Howling Terror Pelt.  The stores are buying these things."
+	end
+end
+
+object TrollHide of AnimalHide
+	properties
+		name "Troll Hide"
+		value 200
+		color 88
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see the remains of a once-mighty Troll.  The stores are buying these things."
+	end
+end
+
+object RockTrollHide of AnimalHide
+	properties
+		name "Rock Troll Hide"
+		value 1250
+		color 74
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see the remains of a now-harmless Rock Troll.  The stores are buying these things."
+	end
+end
+
+
+object DemonTrollHide of AnimalHide
+	properties
+		name "Demon Troll Hide"
+		value 1500
+		color 58
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see the remains of a fearsome Demon Troll. The stores are buying these things."
+	end
+end
+
+#------------------------------------------------------------
+object DireWolfPelt of AnimalHide
+	properties
+		name "Dire Wolf Pelt"
+		value 2500
+		color 115	#107
+		health 150
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a Dire Wolf Pelt. The stores are buying these things."
+	end
+end
+
+#------------------------------------------------------------
+object Plate
+	properties
+		view 52750
+		name "Plate"
+		value 15
+    	health 50
+		# immune to cold
+		affect 2 2 0 -1
+	end
+
+	base carryable
+		weight 0.8
+	end
+
+	base described
+		text "You see a Plate."
+		shopText "Just the thing to go with that Bowl.  Collect the set!"
+	end
+end
+
+object Candle
+	properties
+		view 52650
+		name "Candle"
+		value 5
+		health 25
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base described
+		text "You see a Candle."
+		shopText "It is better to light a single candle...preferably this one."
+	end
+end
+
+object Hammer
+	properties
+		view 52700
+		name "Hammer"
+		value 25
+		health 100
+		# immune to cold
+		affect 2 2 0 -1
+	end
+
+	base carryable
+		weight 1.3
+	end
+
+	base described
+		text "You see a Hammer."
+		shopText "It's good for around the house."
+	end
+end
+
+object Carving
+	properties
+		view 50250
+		name "Carving"
+		value 2275
+		health 100
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.4
+	end
+
+	base described
+		text "You see a Carving."
+		shopText "It's um...It's a carving.  And a darn fine one, too!"
+	end
+end
+
+object Mug
+	properties
+		view 50350
+		name "Mug"
+		value 5
+		health 50
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base described
+		text "You see a Mug."
+		shopText "Got a good deal on these."
+	end
+end
+
+object Chalice
+	properties
+		view 50250
+		name "Chalice"
+		value 1275
+		health 100
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base carryable
+		weight 1.1
+	end
+
+	base described
+		text "You see a Chalice."
+		shopText "It's a piece of art."
+	end
+end
+
+object Spring
+	properties
+		view 62600
+		name "Spring"
+	end
+
+	base described
+		text "You see a spring here."
+	end
+end
+
+object HollowTree 
+	properties
+		view 61450
+		name "Hollow Tree"
+	end
+
+	base openable
+	end
+
+	base entry
+	end
+
+	base described
+		text "You see a hollow tree here. It looks like it can open up."
+	end
+end
+
+object FireA
+	properties
+		view 60600
+		name "Fire"
+	end
+
+	base described
+		text "You see fire burning here."
+	end
+
+	base cycler
+	end
+end
+
+object Fire1 of FireA
+end
+
+object FireB
+	properties
+		view 60650
+		name "Fire"
+	end
+
+	base described
+		text "You see fire burning here."
+	end
+
+	base cycler
+	end
+end
+
+object Fire2 of FireB
+end
+
+object Embers
+	properties
+		view 60750
+		name "Embers"
+	end
+
+	base described
+		text "You see embers smoldering here."
+	end
+
+	base cycler
+	end
+end
+
+object SmokeA 
+	properties
+		view 60800
+		name "Smoke"
+		makePolygon 0
+	end
+
+	base described
+		text "You see billowing smoke here."
+	end
+
+	base cycler
+	end
+end
+
+object Smoke1 of SmokeA
+end
+
+object SmokeB 
+	properties
+		view 60850
+		name "Smoke"
+		makePolygon 0
+	end
+
+	base described
+		text "You see billowing smoke here."
+	end
+
+	base cycler
+	end
+end
+
+object Smoke2 of SmokeB
+end
+
+object SmokeC 
+	properties
+		view 60900
+		name "Smoke"
+		makePolygon 0
+	end
+
+	base described
+		text "You see billowing smoke here."
+	end
+
+	base cycler
+	end
+end
+
+object Smoke3 of SmokeC
+end
+
+object FireC 
+	properties
+		view 60700
+		name "Fire"
+	end
+
+	base described
+		text "You see fire burning here."
+	end
+
+	base cycler
+	end
+end
+
+object Fire3 of FireC
+end
+
+#------------------------------------------------------------
+# Define various colored Backpacks for use on Maze NPCs
+
+object OlivePack of BackPack
+	properties
+		special
+		color 48
+	end
+end
+
+object LimePack of BackPack
+	properties
+		special
+		color 49
+	end
+end
+
+object BluePack of BackPack
+	properties
+		special
+		color 53
+	end
+end
+
+object AzurePack of BackPack
+	properties
+		special
+		color 54
+	end
+end
+
+object RedPack of BackPack
+	properties
+		special
+		color 58
+	end
+end
+
+object PinkPack of BackPack
+	properties
+		special
+		color 59
+	end
+end
+
+object GoldPack of BackPack
+	properties
+		special
+		color 63
+	end
+end
+
+object YellowPack of BackPack
+	properties
+		special
+		color 64
+	end
+end
+
+object VioletPack of BackPack
+	properties
+		special
+		color 68
+	end
+end
+
+object MagentaPack of BackPack
+	properties
+		special
+		color 69
+	end
+end
+
+object BrownPack of BackPack
+	properties
+		special
+		color 73
+	end
+end
+
+object TanPack of BackPack
+	properties
+		special
+		color 74
+	end
+end
+
+object AquaPack of BackPack
+	properties
+		special
+		color 78
+	end
+end
+
+object GreenPack of BackPack
+	properties
+		special
+		color 83
+	end
+end
+
+object JadePack of BackPack
+	properties
+		special
+		color 84
+	end
+end
+
+object OrangePack of BackPack
+	properties
+		special
+		color 88
+	end
+end
+
+object AmberPack of BackPack
+	properties
+		special
+		color 89
+	end
+end
+
+object PurplePack of BackPack
+	properties
+		special
+		color 94
+	end
+end
+
+object GrayPack of BackPack
+	properties
+		special
+		color 99
+	end
+end
+
+object WhitePack of BackPack
+	properties
+		special
+		color 100
+	end
+end
+
+#------------------------------------------------------------

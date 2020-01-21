@@ -1,0 +1,8 @@
+object MagicBag of LeatherPouch
+	properties
+		skill weaponsmith
+	end
+	base mix
+		skillLevel familiar
+	end
+end

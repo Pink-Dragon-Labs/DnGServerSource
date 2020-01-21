@@ -1,0 +1,945 @@
+# Dungeonmaker World File (DNG10.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 74500
+# Dungeon last room = 74549
+# Number of objects in dungeon = 106
+# Level 0 information:
+room 74506
+	properties
+		template 30305
+		south 74505
+		flags	0
+	end
+	objects
+		object Bat-74506-0 of Bat
+			properties
+				x	246
+				y	296
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object DesertRat-74506-1 of DesertRat
+			properties
+				x	179
+				y	307
+				loop	2
+				color	41
+			end
+			base character
+			end
+		end
+	end
+end
+room 74505
+	properties
+		template 31005
+		south 74504
+		east 74507
+		north 74506
+		flags	0
+	end
+	objects
+		object Ratling-74505-0 of Ratling
+			properties
+				x	453
+				y	255
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 74507
+	properties
+		template 30906
+		east 74508
+		west 74505
+		flags	0
+	end
+end
+room 74508
+	properties
+		template 31104
+		south 74509
+		west 74507
+		flags	0
+	end
+	objects
+		object Ratling-74508-0 of Ratling
+			properties
+				x	332
+				y	265
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomStuff-74508-1 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Ratling-74508-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74503
+	properties
+		template 30102
+		south 74501
+		east 74504
+		flags	72
+	end
+	objects
+		object Bat-74503-0 of Bat
+			properties
+				x	276
+				y	303
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Ratling-74503-1 of Ratling
+			properties
+				x	453
+				y	295
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WoodRat-74503-2 of WoodRat
+			properties
+				x	340
+				y	310
+				loop	2
+				color	40
+			end
+			base character
+			end
+		end
+		object Ratling-74503-3 of Ratling
+			properties
+				x	200
+				y	306
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Web4-74503-4 of Web4
+			properties
+				x	428
+				y	182
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-74503-5 of Web3
+			properties
+				x	381
+				y	111
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-74503-6 of Web2
+			properties
+				x	334
+				y	117
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74503-7 of RandomStuff
+			properties
+				x	155
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-74503-8 of Column
+			properties
+				x	213
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-74503-9 of Column
+			properties
+				x	292
+				y	109
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74504
+	properties
+		template 32701
+		west 74503
+		north 74505
+		flags	0
+	end
+	objects
+		object Bat-74504-0 of Bat
+			properties
+				x	305
+				y	207
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Shroom3-74504-1 of Shroom3
+			properties
+				x	492
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74504-2 of Shroom3
+			properties
+				x	467
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Pigweed-74504-3 of Pigweed
+			properties
+				x	373
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74509
+	properties
+		template 31003
+		south 74510
+		north 74508
+		flags	0
+	end
+	objects
+		object RandomStuff-74509-0 of RandomStuff
+			properties
+				x	522
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74500
+	properties
+		template 32301
+		east 74501
+		flags	0
+	end
+	objects
+		object Ratling-74500-0 of Ratling
+			properties
+				x	505
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-74500-1 of DungeonBackUp
+			properties
+				x	509
+				y	202
+				loop	2
+				linkTo	trapDoor6100-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Shroom3-74500-3 of Shroom3
+			properties
+				x	90
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-74500-4 of Shroom2
+			properties
+				x	84
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-74500-5 of Shroom1
+			properties
+				x	119
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object Pigweed-74500-6 of Pigweed
+			properties
+				x	528
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74501
+	properties
+		template 32303
+		south 74502
+		west 74500
+		north 74503
+		flags	0
+	end
+	objects
+		object WoodRat-74501-0 of WoodRat
+			properties
+				x	453
+				y	188
+				loop	1
+				color	40
+			end
+			base character
+			end
+		end
+		object RandomStuff-74501-1 of RandomStuff
+			properties
+				x	570
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74510
+	properties
+		template 30402
+		south 74511
+		north 74509
+		flags	40
+	end
+	objects
+		object Ratling-74510-0 of Ratling
+			properties
+				x	264
+				y	277
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DesertRat-74510-1 of DesertRat
+			properties
+				x	343
+				y	301
+				loop	0
+				color	41
+			end
+			base character
+			end
+		end
+		object DesertRat-74510-2 of DesertRat
+			properties
+				x	187
+				y	308
+				loop	3
+				color	41
+			end
+			base character
+			end
+		end
+	end
+end
+room 74502
+	properties
+		template 32304
+		north 74501
+		flags	0
+	end
+	objects
+		object Ratling-74502-0 of Ratling
+			properties
+				x	220
+				y	244
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomJunk-74502-1 of RandomJunk
+			properties
+				x	354
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74512
+	properties
+		template 30502
+		south 74513
+		east 74511
+		flags	0
+	end
+	objects
+		object Ratling-74512-0 of Ratling
+			properties
+				x	498
+				y	275
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Spring-74512-1 of Spring
+			properties
+				x	653
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74511
+	properties
+		template 32502
+		west 74512
+		north 74510
+		flags	128
+	end
+	objects
+		object WoodRat-74511-0 of WoodRat
+			properties
+				x	150
+				y	277
+				loop	0
+				color	40
+			end
+			base character
+			end
+		end
+		object SwampRat-74511-1 of SwampRat
+			properties
+				x	459
+				y	251
+				loop	3
+				color	47
+			end
+			base character
+			end
+		end
+		object RandomStuff-74511-2 of RandomStuff
+			properties
+				x	86
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-74511-3 of Spring
+			properties
+				x	583
+				y	366
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-74511-4 of Web1
+			properties
+				x	260
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74511-5 of Shroom3
+			properties
+				x	213
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74513
+	properties
+		template 31003
+		south 74514
+		north 74512
+		flags	0
+	end
+	objects
+		object DesertRat-74513-0 of DesertRat
+			properties
+				x	289
+				y	244
+				loop	3
+				color	41
+			end
+			base character
+			end
+		end
+		object WoodRat-74513-1 of WoodRat
+			properties
+				x	240
+				y	300
+				loop	3
+				color	40
+			end
+			base character
+			end
+		end
+		object RandomStuff-74513-2 of RandomStuff
+			properties
+				x	525
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-74513-3 of RandomJunk
+			properties
+				x	489
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74514
+	properties
+		template 32305
+		east 74515
+		north 74513
+		flags	72
+	end
+	objects
+		object WoodRat-74514-0 of WoodRat
+			properties
+				x	363
+				y	275
+				loop	0
+				color	40
+			end
+			base character
+			end
+		end
+		object WoodRat-74514-1 of WoodRat
+			properties
+				x	386
+				y	172
+				loop	0
+				color	40
+			end
+			base character
+			end
+		end
+		object Ratling-74514-2 of Ratling
+			properties
+				x	503
+				y	209
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Ratling-74514-3 of Ratling
+			properties
+				x	313
+				y	213
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Ratling-74514-4 of Ratling
+			properties
+				x	437
+				y	245
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DesertRat-74514-5 of DesertRat
+			properties
+				x	285
+				y	250
+				loop	0
+				color	41
+			end
+			base character
+			end
+		end
+		object RandomJunk-74514-6 of RandomJunk
+			properties
+				x	229
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74514-7 of RandomStuff
+			properties
+				x	267
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74514-8 of RandomStuff
+			properties
+				x	505
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-74514-9 of RandomStuff
+			properties
+				x	347
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-74514-10 of RandomPants
+			properties
+				x	326
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object ZombieFinger-74514-11 of ZombieFinger
+			properties
+				x	441
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Veggies-74514-12 of Veggies
+			properties
+				x	228
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-74514-13 of RandomShirt
+			properties
+				x	514
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-74514-14 of SmokeA
+			properties
+				x	223
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 74515
+	properties
+		template 30201
+		west 74514
+		flags	8
+	end
+	objects
+		object DesertRat-74515-0 of DesertRat
+			properties
+				x	233
+				y	283
+				loop	1
+				color	41
+			end
+			base character
+			end
+		end
+		object SwampRat-74515-1 of SwampRat
+			properties
+				x	235
+				y	250
+				loop	1
+				color	47
+			end
+			base character
+			end
+		end
+		object SwampRat-74515-2 of SwampRat
+			properties
+				x	346
+				y	277
+				loop	1
+				color	47
+			end
+			base character
+			end
+		end
+		object CaveRat-74515-3 of CaveRat
+			properties
+				x	149
+				y	273
+				loop	1
+				color	809
+			end
+			base character
+				properName	"Fatty"
+				title	"the Monster Rat"
+			end
+			base described
+				text	"You see Fatty, evidently the mother of all rats."
+			end
+		end
+		object RandomStuff-74515-4 of RandomStuff
+			properties
+				x	132
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-74515-5 of RandomJunk
+			properties
+				x	371
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74515-6 of RandomMaterial
+			properties
+				x	246
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-74515-7 of RandomMaterial
+			properties
+				x	143
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomCowl-74515-8 of RandomCowl
+			properties
+				x	410
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-74515-9 of RandomShirt
+			properties
+				x	282
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomRing-74515-10 of RandomRing
+			properties
+				x	415
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object Meat-74515-11 of Meat
+			properties
+				x	232
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cheese-74515-12 of Cheese
+			properties
+				x	170
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Meat-74515-13 of Meat
+			properties
+				x	251
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-74515-14 of RawMeat
+			properties
+				x	182
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-74515-15 of RawMeat
+			properties
+				x	134
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Veggies-74515-16 of Veggies
+			properties
+				x	407
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74515-17 of Shroom3
+			properties
+				x	523
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-74515-18 of Shroom3
+			properties
+				x	114
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-74515-19 of Shroom2
+			properties
+				x	558
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object Meat-74515-20 of Dng10Meat
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CaveRat-74515-3
+			end
+			base described
+			end
+		end
+		object SmokeA-74515-21 of SmokeA
+			properties
+				x	462
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

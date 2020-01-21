@@ -1,0 +1,19 @@
+quest  277 #8010-01-500        #Oberon, Weapons of Thunder, Kurz, 8010
+
+name  "Amulet of Blue Steel"
+type  fedex
+
+proposal  "I'm always pleased to see interest in the short sword.  It's a fine weapon, really fine.  Grand-mastery puts you in company with a select group of warriors.  I'll help you along by providing the last skill book as soon as you return with the Amulet of Blue Steel.  Will you do that?" 
+
+declined  "That is really too bad."
+
+accepted  "Excellent.  Glad to hear it.  The best place to start looking is probably Usk."
+
+reminder   "Go to Usk and seek for the Amulet of Blue Steel."
+
+completed  "Ahhhh.  What a beauty!  Here's the book you need, friend."
+
+getItem   qAmuletBlue
+reward    skbShortSwordV
+end
+

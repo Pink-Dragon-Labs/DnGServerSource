@@ -1,0 +1,330 @@
+
+object Dye
+	properties
+		view 51550
+		clutStart 68
+		color -1
+		name "Bottle of Dye"
+		value 10
+		health 120
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		shopText "You see a bottle of dye."
+	end
+
+	base dye
+	end
+
+	base carryable
+		weight 0.5
+	end
+end
+
+object dOlive of Dye
+	properties
+		name "Bottle of Olive Dye"
+		color 48
+	end
+
+	base described
+		text "You see a bottle of olive colored dye."
+	end
+end
+
+object dLime of Dye
+	properties
+		name "Bottle of Lime Dye"
+		color 49
+	end
+
+	base described
+		text "You see a bottle of lime colored dye."
+	end
+end
+
+object dBlue of Dye
+	properties
+		name "Bottle of Blue Dye"
+		color 53
+	end
+
+	base described
+		text "You see a bottle of blue colored dye."
+	end
+end
+
+object dAzure of Dye
+	properties
+		name "Bottle of Azure Dye"
+		color 54
+	end
+
+	base described
+		text "You see a bottle of azure colored dye."
+	end
+end
+
+object dRed of Dye
+	properties
+		name "Bottle of Red Dye"
+		color 58
+	end
+
+	base described
+		text "You see a bottle of red colored dye."
+	end
+end
+
+object dPink of Dye
+	properties
+		name "Bottle of Pink Dye"
+		color 59
+	end
+
+	base described
+		text "You see a bottle of pink colored dye."
+	end
+end
+
+object dGold of Dye
+	properties
+		name "Bottle of Gold Dye"
+		color 63
+	end
+
+	base described
+		text "You see a bottle of gold colored dye."
+	end
+end
+
+object dYellow of Dye
+	properties
+		name "Bottle of Yellow Dye"
+		color 64
+	end
+
+	base described
+		text "You see a bottle of yellow colored dye."
+	end
+end
+
+object dViolet of Dye
+	properties
+		name "Bottle of Violet Dye"
+		color 68
+	end
+
+	base described
+		text "You see a bottle of violet colored dye."
+	end
+end
+
+object dMagenta of Dye
+	properties
+		name "Bottle of Magenta Dye"
+		color 69
+	end
+
+	base described
+		text "You see a bottle of magenta colored dye."
+	end
+end
+
+object dBrown of Dye
+	properties
+		name "Bottle of Brown Dye"
+		color 73
+	end
+
+	base described
+		text "You see a bottle of brown colored dye."
+	end
+end
+
+object dTan of Dye
+	properties
+		name "Bottle of Tan Dye"
+		color 74
+	end
+
+	base described
+		text "You see a bottle of tan colored dye."
+	end
+end
+
+object dAqua of Dye
+	properties
+		name "Bottle of Aqua Dye"
+		color 78
+	end
+
+	base described
+		text "You see a bottle of aqua colored dye."
+	end
+end
+
+object dTeal of Dye
+	properties
+		name "Bottle of Teal Dye"
+		color 79
+	end
+
+	base described
+		text "You see a bottle of teal colored dye."
+	end
+end
+
+object dGreen of Dye
+	properties
+		name "Bottle of Green Dye"
+		color 83
+	end
+
+	base described
+		text "You see a bottle of green colored dye."
+	end
+end
+
+object dJade of Dye
+	properties
+		name "Bottle of Jade Dye"
+		color 84
+	end
+
+	base described
+		text "You see a bottle of jade colored dye."
+	end
+end
+
+object dOrange of Dye
+	properties
+		name "Bottle of Orange Dye"
+		color 88
+	end
+
+	base described
+		text "You see a bottle of orange colored dye."
+	end
+end
+
+object dAmber of Dye
+	properties
+		name "Bottle of Amber Dye"
+		color 89
+	end
+
+	base described
+		text "You see a bottle of amber colored dye."
+	end
+end
+
+object dRoyal of Dye
+	properties
+		name "Bottle of Royal Purple Dye"
+		color 93
+	end
+
+	base described
+		text "You see a bottle of royal purple colored dye."
+	end
+end
+
+object dPurple of Dye
+	properties
+		name "Bottle of Purple Dye"
+		color 94
+	end
+
+	base described
+		text "You see a bottle of purple dye."
+	end
+end
+
+object dBlack of Dye
+	properties
+		name "Bottle of Black Dye"
+		color 98
+	end
+
+	base described
+		text "You see a bottle of black colored dye."
+	end
+end
+
+object dGray of Dye
+	properties
+		name "Bottle of Gray Dye"
+		color 99
+	end
+
+	base described
+		text "You see a bottle of gray colored dye."
+	end
+end
+
+object dWhite of Dye
+	properties
+		name "Bottle of White Dye"
+		color 100
+	end
+
+	base described
+		text "You see a bottle of white colored dye."
+	end
+end
+
+object dOrangeMedium of Dye
+	properties
+		name "Bottle of Medium Orange Dye"
+		color 89
+		value 500000
+	end
+
+	base described
+		text "You see a bottle of medium orange colored dye."
+	end
+end
+
+object dLightOrange of Dye
+	properties
+		name "Bottle of Light Orange Dye"
+		color 90
+		value 500000
+	end
+
+	base described
+		text "You see a bottle of light orange colored dye."
+	end
+end
+
+object dFlesh of Dye
+	properties
+		name "Bottle of Flesh Dye"
+		color 106
+		value 500000
+	end
+
+	base described
+		text "You see a bottle of flesh colored dye."
+	end
+end
+
+object dLightFlesh of Dye
+	properties
+		name "Bottle of Light Flesh Dye"
+		color 107
+		value 500000
+	end
+
+	base described
+		text "You see a bottle of light flesh colored dye."
+	end
+end
+

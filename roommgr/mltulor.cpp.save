@@ -1,0 +1,116 @@
+//
+// mltulor.cpp
+//
+// Control logic for tulor.
+//
+// Author: Stephen Nichols
+//
+
+#include "roommgr.hpp"
+#include "globals.hpp"
+
+Tulor::Tulor()
+{
+}
+
+Tulor::~Tulor()
+{
+}
+
+int Tulor::spellAttack ( void )
+{
+	int retVal = 0;
+	int rate = 0;
+
+	int	distance = getDistance ( combatTarget->combatX, combatTarget->combatY, character->combatX, character->combatY );
+
+	if ( (distance < gTouchDistance) && isEnemy( combatTarget ) && random ( 0, 1 ) ) {
+
+		switch ( random ( 0, 2 ) ) {
+
+			case 0:
+			return 0;
+
+			// steal life
+			case 1: {
+	   			setAction ( new CombatCastSpell ( character, _SPELL_STEAL_LIFE, combatTarget->servID, 0, 0 ) );
+				retVal = 1;
+			}
+	   		break;
+			// death touch 
+			case 2: {
+	   			setAction ( new CombatCastSpell ( character, _SPELL_DEATH_TOUCH, combatTarget->servID, 0, 0 ) );
+				retVal = 1;
+			}
+	   		break;
+		}
+
+	} else {
+
+		switch ( random ( 0, 3 ) ) 
+		{
+			// melee attack
+			case 0:
+			return retVal;
+	
+			// cast berserk
+			case 1: {
+				if ( character->opposition->size() > 1 ) {
+	
+					LinkedElement *element = character->opposition->head();
+	
+					while ( element ) {
+	
+						WorldObject *targetObj = (WorldObject *)element->ptr();
+						element = element->next();
+	
+						if ( !targetObj->hasAffect ( _AFF_BERSERK ) ) {
+							setAction ( new CombatCastSpell ( character, _SPELL_BERSERK, targetObj->servID, 0, 0 ) );
+							retVal = 1;
+							break;
+						}
+					}
+				}
+			}
+			break;
+			// cast stun
+			case 2: {
+	
+				LinkedElement *element = character->opposition->head();
+	
+				while ( element ) {
+	
+					WorldObject *targetObj = (WorldObject *)element->ptr();
+					element = element->next();
+	
+					if ( !targetObj->hasAffect ( _AFF_STUN ) ) {
+						setAction ( new CombatCastSpell ( character, _SPELL_STUN, targetObj->servID, 0, 0 ) );
+						retVal = 1;
+						break;
+					}
+				}
+			}
+			break;
+			// cast confusion
+			case 3: {
+	
+				LinkedElement *element = character->opposition->head();
+	
+				while ( element ) {
+	
+					WorldObject *targetObj = (WorldObject *)element->ptr();
+					element = element->next();
+	
+					if ( !targetObj->hasAffect ( _AFF_CONFUSION ) ) {
+						setAction ( new CombatCastSpell ( character, _SPELL_CONFUSION, targetObj->servID, 0, 0 ) );
+						retVal = 1;
+						break;
+					}
+				}
+			}
+			break;
+		}
+	}
+	// if retVal is 0, just attack normal - spell cast, return.
+   	return retVal;
+}

@@ -1,0 +1,19 @@
+quest  358 #80000-01-435        # Legotia, The Soothing Touch, healer, Wen, 6111
+
+name  "Snack for Legotia"
+type  fedex
+
+proposal  "Tsk, tsk.  Has she been lifting things again?  She will do that.  Well, it's better than sitting around doing nothing like some patients who shall remain nameless.  I'll put something together for her.  I was just going to grab a bite to eat at Devo's.  Would you pick it up for me while I get Misha's salve ready?"
+
+declined  "I'll drop Misha's salve off myself, then."
+
+accepted  "Good."
+
+reminder   "Go to Devo for me."
+
+completed  "Just in time.  We can trade packages.  Tell Misha to take it easy."
+
+getItem   qLegotiaFood
+reward   qSalve 
+end
+

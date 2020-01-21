@@ -1,0 +1,19 @@
+id 5035
+
+banner "Hello friend."
+
+topic "Tell me about yourself?"
+	text "I am Sinclair.  I am not Simon or Sion."
+end
+
+topic "What brings you to Leinster?"
+	text "Your gold."
+end
+
+topic "Can I do anything for you?"
+	text "Buy 3 bottles!!"
+end      
+
+topic "What happened last night?"
+	text "Man, someone is playing a dumb joke.  Imagine cleaning up all that trash and rubble.  Why couldn't they have done it last week, when I was breaking my back to clean up this little area."
+end

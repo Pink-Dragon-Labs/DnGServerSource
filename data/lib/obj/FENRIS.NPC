@@ -1,0 +1,196 @@
+#
+# Fenris
+#
+object BaseFenris of NPC
+	properties
+		name "Gray Fenris"
+		view 40300
+		color 768
+
+		alignment 128
+
+		minLevel 30
+		maxLevel 40
+
+		minDamage 25
+		maxDamage 35
+
+		dexterity 15
+		endurance 13
+
+		armor 15
+
+		# do normal damage by default
+		affect 0 0 0 -1
+
+		soundGroup 6
+		armorType 1
+		damageType 1
+		range 2
+		quickness 16
+	end
+
+	base character
+		# unarmed combat master
+		skill 7 4
+
+		# acrobatics master
+		skill 9 5
+
+		# critical strike expert
+		skill 29 4
+	end
+
+	base described
+		text "You see a Fenris - kin of the Wolf, but much bigger."
+	end
+end
+
+
+object Fenris of BaseFenris
+	base container
+		object FenrisPelt
+	end
+end
+
+
+object YoungFenris of BaseFenris
+	properties
+		name "Young Fenris"
+
+		clutStart -1
+		color 1536
+
+		minLevel 20
+		maxLevel 30
+
+		minDamage 15
+		maxDamage 25
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics expert
+		skill 9 4
+	end
+
+	base container
+		object FenrisPelt
+	end
+
+	base described
+		text "You see a Fenris.  This one isn't full grown, but it still looks formidable."
+	end
+end
+
+
+object BloodFenris of BaseFenris
+	properties
+		name "Blood Fenris"
+
+		clutStart -1
+		color 771
+
+		minLevel 45
+		maxLevel 55
+
+		minDamage 40
+		maxDamage 50
+
+		armor 25
+	end
+
+	base container
+		object BloodFenrisPelt
+		object RandomCommonHelmet
+	end
+
+	base described
+		text "You see a Blood Fenris.  These carnivorous beasts have a voracious appetite for unwary adventurers."
+	end
+end
+
+
+object HowlingTerror of BaseFenris
+	properties
+		name "Howling Terror"
+
+		clutStart -1
+		color 770
+
+		alignment 0
+
+		minLevel 50
+		maxLevel 60
+
+		minDamage 45
+		maxDamage 55
+
+		# poison + normal damage
+		affect 5 0 0 -1
+
+		armorType 3
+		damageType 2
+	end
+
+	base character
+		## unarmed combat grandmaster
+		skill 7 5
+
+		## acrobatics grandmaster
+		skill 9 5
+	end
+
+	base container
+		object HowlingTerrorPelt
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2 4
+	end	
+
+	base described
+		text "Howling Terror -- 50% necromancy resistance, 50% mysticism resistance, 45 - 55 melee damage.\n\n"
+	end
+end
+
+
+object HellHound of BaseFenris
+	properties
+		name "Hell Hound"
+
+		clutStart -1
+		color 769
+
+		minLevel 55
+		maxLevel 70
+
+		minDamage 50
+		maxDamage 65
+
+		# fire + normal damage
+		affect 1 0 0 -1
+	end
+
+	base character
+		## unarmed combat grandmaster
+		skill 7 5
+
+		## acrobatics grandmaster
+		skill 9 5
+	end
+
+	base container
+		object HellHoundPelt
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2 4
+	end	
+
+	base described
+		text "Hell Hound -- 100% necromancy resistance, 75% mysticism resistance, 50 - 65 melee damage.\n\n"
+	end
+end

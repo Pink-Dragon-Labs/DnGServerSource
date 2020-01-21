@@ -1,0 +1,18 @@
+quest  237 #6815-01-530        # Douf, Stillwater, tavern, Kurz, 8023
+
+name  "Wooden Puzzle"
+type  fedex
+
+proposal  "We have one here.  It's empty, though.  Are you sure you want an empty bottle?  Most people who come in here want a full one!  Just a little joke, there.  Sure, you can have the bottle if you want it.  How about a little trade?  I keep this shop for my uncle, and I spend hours and hours here!  I like to do puzzles, and I've heard of a wooden one that can occupy the mind for hours.  Someone in Silverbrook makes them.  Would you find me one in exchange for the bottle?" 
+
+declined  "Ok."
+
+accepted  "Good.  I wish you success."
+
+reminder   "There's a wooden puzzle made in Silverbrook I want."
+
+completed  "This looks like a great puzzle!  Here's the bottle for you."
+
+getItem   qWoodenPuzzle
+reward   qGreenBottle 
+end

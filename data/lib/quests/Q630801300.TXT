@@ -1,0 +1,18 @@
+quest 106 #6308-01-300  #(Wirkkala, Magical Monmouth, 6308)
+
+name  "Tuft of Fenri Fur"
+type  fedex
+
+proposal  "Welcome, Apprentice.  I'm very pleased with your progress as an Elementalist.  Your next step is Expert Elemental Spells, and I've arranged for a spellbook to be delivered here.  But first I need an errand done.  I need a Tuft of Fenri Fur in the worst way.  Could you scout around and try to find it for me?"  
+
+declined  "I'm sure I'll find someone to do it."
+
+accepted  "I should think a good starting place would be in East Leinster."
+
+reminder  "Try East Leinster to find a tuft of Fenri fur. 
+
+completed  "You succeeded!  That is indeed good news.  And here is the spellbook for Expert Elemental Spells."
+
+getItem  qFenriTuft
+reward  skbElementalismIII
+end

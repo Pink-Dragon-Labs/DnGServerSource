@@ -1,0 +1,13 @@
+quest  350 #80000-01-230        # Brindal, The Avalanche, Guennor, 6508
+
+name  "Brindal is Disgusted"
+type  fedex
+
+proposal  "You're putting me on!  That old goat didn't really hand off that petrified snail to you?  Well, I'll be.  Geezer will never let me forget this.  He's probably over there gloating, isn't he?  He put you up to coming here for an empty jar, didn't he?  I'll give you the jar, stranger, and I'll get even with that old coot.  Someday, somehow, I'll put one over on him.  This is straight, isn't it?  You really do want an empty jar for that snail?  Pfahh.  I'll give you the jar if you'll just leave town fast.  Will you?"
+
+declined  "Geezer put you up to this, didn't he?"
+
+accepted  "Take it, and go."
+
+reward   qEmptyJar 
+end

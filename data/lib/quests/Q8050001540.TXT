@@ -1,0 +1,17 @@
+quest  395 #80500-01-540        # Bijou, The Usk Boutique, general, 8113
+
+name  "Delivery for Bijou"
+type  fedex
+
+proposal  "It's here.  Of course, it's here.  I said it would be and it is.  You're going to deliver it, I take it?"
+
+declined  "Then don't ask silly questions."
+
+accepted  "There it is.  Come back when you want to shop for yourself sometime."
+
+reminder   "You'd better deliver that brush. I have a reputation to protect."
+
+reward   qHanaBrush 
+end
+
+

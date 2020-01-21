@@ -1,0 +1,35 @@
+id 6603
+
+banner "You're in Fit as a Fiddle. I am Ratt, the healer."
+
+topic "Tell me about Caer Fandry."
+        text "There's much to see here. Before you leave, go and see the swamps."
+	text "Don't fear the slithering noises creeping up behind you!"
+	text "Don't worry about the slimy, slippery sounds, either."
+	text "You don't scare easily, do you?  I'll have to try harder."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that this is the best healer's shop in Caer Fandry."
+        text "Of course, this is the only healer's shop in Caer Fandry.  Heh. Heh."
+end      
+
+topic	"Is there anything else you can tell me?"
+	text "How about a limerick?  I know a few."
+	text "There was an elf lady named Maud"
+	text "A sort of society fraud,"
+	text "In the parlor, 'tis told,"
+	text "She was distant and cold,"
+	text "But on the veranda, my Gawd!"
+	text "I know a few that'll knock your socks off, too, but not for this public place of business.   It wouldn't be proper, even for Caer Fandry!"
+end
+
+topic "Can I do anything for you?"
+        text "Healers rarely need assistance.  We heal ourselves!  Usually, that is."
+end
+
+topic  "I'm seeking the Amulet of Stealth." q360:0 #q80000-01-500:0
+	quest 361 #80000-01-525
+	text  "You've got it.  Go away."
+end
+

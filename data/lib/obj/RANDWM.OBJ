@@ -1,0 +1,20 @@
+object RandomCritter of Ratling
+	properties
+		random 40
+	end
+
+	base treasure
+		Pixie
+		Faery
+		Ratling
+		WoodRat
+		DesertRat
+		SwampRat
+		CaveRat
+		WaspDrone
+		WaspWorker
+		Bat
+		FlyingRat
+		CryptBat
+	end
+end

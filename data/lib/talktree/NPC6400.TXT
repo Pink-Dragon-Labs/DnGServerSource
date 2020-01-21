@@ -1,0 +1,47 @@
+id 6400
+
+banner "Welcome to the Good Fortune Inn. What can I do for you?"
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook is a town populated mostly by elves. Silverbrookers live in harmony with nature. We hunt and gather food in the nearby forests."
+        text "Until the War of the Continuum, Silverbrook was inhabited by orcs, but upheaval among orcan tribes enabled elven invaders to overrun the village."
+	text  "There are some who will tell you that elves have orcan blood admixed.  Don't believe it.  Orc and elf are separate and always have been."
+end
+
+topic "Who are you?"
+        text "I am Tatiana, Friend, owner of the Good Fortune Inn. I come from a large family.  I've got nine brothers."
+	text  "My whole family lives in and around Silverbrook. It's rather nice to have lots of kinfolk around."
+	text  "If you're really that curious, I was born under the sign of the golem. I am single.  I've never been out of Silverbrook, but I'd like to travel someday."
+	text  "That's a lot more than you really wanted to know, probably, but you did keep asking."
+end      
+
+topic	"Do you like limericks?"
+	text  "I grew up hearing limericks!"
+	text  "But I'll still hear a new one now and then."
+	text  "Here's a new one to me."
+	text  "There was an elf lady of Herm"
+	text  "Who tied bows on the tail of a worm"
+	text  "Said she, 'You look festive"
+	text  "But don't become restive"
+	text  "You'll wiggle 'em off if you squirm.'"
+end
+
+topic "Can I do something for you?"
+        text "You are kind to ask, but there is nothing you can do for me at present."
+end
+
+topic  "I'm seeking a strange curio from the Downs." q335:0 #q8307-01-400:0
+	quest 336 #8307-01-425
+	text  "This is a strange thing to say.  You already have it."
+end
+
+topic  "I need a good piece of flint." q398:0 #q8100-01-430:0
+	quest 399 #8100-01-435
+	text  "You took it already.  Don't you remember?"
+end
+
+topic  "I'm seeking the Amulet of Finvarra" q216:0 #q6817-01-525:0
+	quest 217 #6817-01-530
+	text  "I gave it to you."
+end
+

@@ -1,0 +1,19 @@
+quest  53 # 6077-01-440        # Aldonzo, The Scimitar, tavern, Arimathor, 6800
+
+name  "Aldonzo's Lunch"
+type  fedex
+
+proposal  "Dragonlizard oil, you say.  I don't often get called on for that.  Not many like to use it these modern times.  But I have some.  Oh yes, I do have a small supply.  I'd siphon off a bit into a bottle for you if you'd fetch my lunch for me.  Would you do that?"
+
+declined  "Never mind."
+
+accepted  "My lunch is ready.  Please pick it up."
+
+reminder   "Do you want this oil or not?  Get my lunch."
+
+completed  "Thanks.  Here's the oil.  Good luck with it."
+
+getItem   qAldonzoLunch
+reward   qDragonlizardOil 
+end
+

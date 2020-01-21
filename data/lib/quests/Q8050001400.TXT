@@ -1,0 +1,19 @@
+quest  385 #80500-01-400        #Sandor, Ascetos Cave, 80500
+
+name  "Sandor Sends a Message 
+type  fedex
+
+proposal  "Is that so? Well, mate, you've come to the right place.  Tracking is something I do, and even if I say it, I do it well.  That's what you should aim for, mate.  If you're going to become a skilled tracker, then try to be the best.  It's a valuable skill.  You've got to have intelligence, but I reckon you must have it to have reached the expert level.  Tell you what, mate.  This cave doesn't have a lot of the amenities.  Would you go to my grandmother for me and tell her Sandor wants a Kaliri package?  She'll know what you mean.  Will you do that for me, mate?"
+
+declined  "I don't think you understand, mate."
+
+accepted  "Good.  Go now and go quietly."
+
+reminder   "My grandmother is in Arimathor.  Go now."
+
+completed  "Suffering sand snakes!  Look at this stuff!  I knew the old dear would come through, but this is really something.  You've come through, too, mate.  Here's your skill book."
+
+getItem   qKaliriCare
+reward    skbTrackingIV 
+end
+

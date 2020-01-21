@@ -1,0 +1,19 @@
+quest  177 #6504-01-525        # Meego, The Cock's Crow, tavern, Silverbrook, 6412
+
+name  "Pewter Polish"
+type  fedex
+
+proposal  "I hope you can read the thing.  It's gibberish to me. I don't know what language it's written in, but it's not one I ever saw.  However, that's neither here nor there.  The business angle is that I need some pewter polish.  If you'll go find me some, I'll give you the scroll.  How about it?"
+
+declined  "I'll get the polish somehow."
+
+accepted  "Seek in Wen."
+
+reminder   "Find some pewter polish in Wen."
+
+completed  "I like your attitude.  Come again.  Meantime, here's the scroll you want."
+
+getItem   qPewterPolish
+reward   qScrollAstilrades 
+end
+

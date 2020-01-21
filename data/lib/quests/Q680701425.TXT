@@ -1,0 +1,19 @@
+quest  201 #6807-01-425        # Dark Jana, Emerald Forest, tavern, Drune, 8314
+
+name  "Bottle Shaped Like a Boot"
+type  fedex
+
+proposal  "A good thing you came in here, hon.  A friend of mine brought several of them to me.  I'll be glad to let you have one, though, because my own interest is really old bottles.  In fact, there's a shopkeeper in Murias who is supposed to have a very unusual bottle shaped like a boot.  Now that's something I'd really like to have.  If you would just go over to Murias and find that bottle for me I'll give you the best of these relics.  What about it?"
+
+declined  "Fiddle.  I would like to have that bottle."
+
+accepted  "Good luck to you, hon.  Now that it's a possibility I'm all in a swivet lest someone else get it."
+
+reminder   "Do hurry.  You're going to Murias to find a bottle shaped like a boot."
+
+completed  "Would you look at that?  However do they get that shape?  Many thanks, hon.  Here's the relic you wanted."
+
+getItem   qBootBottle
+reward    qShieldRelic
+end
+

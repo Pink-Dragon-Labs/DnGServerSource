@@ -1,0 +1,26 @@
+id 9057
+#---------------	9057	4222	zender1	female	elf	Ateed
+
+banner "Greetings traveler, have you come to guide me to the treasure?"
+
+topic "What do you mean, guide you to the treasure?"
+	text "Umm. Nothing. Can't recall saying anything about the treasure I'm searching for."
+	text "There is no treasure that I am seeking out here, all alone, all day. Nope, none whatsoever."
+	text "Why is it you keep mentioning some sort of treasure? "
+	text " Please, buy something and be on your way. I have something to hunt for...... I mean things to do."
+end
+
+topic "Who are you?"
+	text "I am Ateed, seeker of great treasure."
+	text "Surely you've heard of me? I'm retired these days, but I sure found some grand riches in my day.
+	text " I've given up on it all now. Just this last grand find and I'll rule…um…….Just call me Ateed. "
+end
+
+topic "So you're not hunting for treasure? I think you are!"
+	text "Nope. No treasure hunting here..."
+	text "Just waiting on some people to meet me here so we can..."
+	text "Ummm...."
+	text "Err........"
+	text "Aaa....."
+	text "Why do you confuse me with all this talk of gems and gold? Be on your way please."
+end

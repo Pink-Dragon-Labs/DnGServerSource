@@ -1,0 +1,180 @@
+# Dungeonmaker World File (DNG8.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 73500
+# Dungeon last room = 73517
+# Number of objects in dungeon = 20
+# Level 0 information:
+room 73500
+	properties
+		template 30303
+		south 73501
+		flags	0
+	end
+	objects
+		object Ratling-73500-0 of Ratling
+			properties
+				x	165
+				y	294
+				loop	0
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-73500-1 of DungeonBackUp
+			properties
+				x	477
+				y	217
+				loop	2
+				linkTo	trapDoor6013-10
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 73503
+	properties
+		template 30101
+		east 73502
+		flags	0
+	end
+	objects
+		object DesertRat-73503-0 of DesertRat
+			properties
+				x	377
+				y	274
+				loop	0
+			end
+			base character
+			end
+		end
+		object Chest-73503-1 of Chest
+			properties
+				x	147
+				y	272
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomRatTreasureI-73503-2 of RandomRatTreasureI
+			properties
+				x	478
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Meat-73503-3 of Meat
+			properties
+				x	543
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Book-73503-4 of Dng8Book
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-73503-1
+			end
+			base described
+			end
+		end
+		object GoldNugget-73503-5 of GoldNugget
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-73503-1
+			end
+			base described
+			end
+		end
+		object RandomStuff-73503-6 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-73503-1
+			end
+			base described
+			end
+		end
+		object RandomPants-73503-7 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-73503-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-73503-8 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-73503-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 73502
+	properties
+		template 30901
+		east 73501
+		west 73503
+		flags	72
+	end
+	objects
+		object WoodRat-73502-0 of WoodRat
+			properties
+				x	325
+				y	276
+				loop	0
+			end
+			base character
+			end
+		end
+		object WoodRat-73502-1 of WoodRat
+			properties
+				x	544
+				y	278
+				loop	1
+			end
+			base character
+			end
+		end
+	end
+end
+room 73501
+	properties
+		template 32701
+		west 73502
+		north 73500
+		flags	0
+	end
+end

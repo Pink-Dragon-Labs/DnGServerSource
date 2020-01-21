@@ -1,0 +1,19 @@
+quest  153 #6403-01-430        # Alysa, Desert Rose, clothing, Arimathor, 6811
+
+name  "Wool Skeins for Alysa"
+type  fedex
+
+proposal  "I'm so glad.  She's going to be wild when she sees this pattern.  She'll be up all night setting up her materials.  I told her to lay in a good supply of colored wool.  I hope she took me seriously.  There is one shade I wanted to send for her birthday, but it needs to be picked up in Usk.  Would you go get it?  Please say you will.  Will you?" 
+
+declined  "It is a lot to ask, I guess."
+
+accepted  "Great.  A giantess in Usk has a marvelous new shade of rose wool.  She's holding several skeins for me."
+
+reminder   "Go to Usk for the wool skeins I want."
+
+completed  "What a beautiful color!  Let me just tuck one skein in with the pattern for Deanna."
+
+getItem   qWoolSkein
+reward   qNewPattern 
+end
+

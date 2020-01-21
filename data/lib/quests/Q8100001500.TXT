@@ -1,0 +1,19 @@
+quest  81000-01-500       #Sarge, Dungeon, 81000
+
+name  "Amulet of Frederick"
+type  fedex
+
+proposal  "You should stand tall with pride that you have come to the point of grand-mastery of unarmed combat.  You'll be prepared for anything when you are fully skilled.  If I had a squad of such as you, we would be near invincible.  As your final quest bring me the Amulet of Frederick.  Will you do this?"
+
+declined  "So near, and you cease your efforts?!"
+
+accepted  "Excellent.  Seek in Monmouth."
+
+reminder   "Go to Monmouth and seek the Amulet of Frederick."
+
+completed  "A fitting culmination.  The final skill book is now yours."
+
+getItem   qAmuletFrederick
+reward    skbUnarmedCombatV
+end
+

@@ -1,0 +1,9 @@
+name "usk"
+title "Usk"
+worldFile "../data/lib/world/USKX.WLD"
+worldFile "../data/lib/world/USKINT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 4
+midiFile 23

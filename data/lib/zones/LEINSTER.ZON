@@ -1,0 +1,21 @@
+name "Leinster"
+title "Leinster"
+worldFile "../data/lib/world/LEINCENT.WLD"
+worldFile "../data/lib/world/TOWNINT1.WLD"
+worldFile "../data/lib/world/TOWNINT2.WLD"
+worldFile "../data/lib/world/TOWNINT3.WLD"
+worldFile "../data/lib/world/TOWNINT4.WLD"
+worldFile "../data/lib/world/TOWNINT5.WLD"
+worldFile "../data/lib/world/TOWNINT6.WLD"
+worldFile "../data/lib/world/WEDDING.WLD"
+#worldFile "../data/lib/world/TAVERN1.WLD"
+#worldFile "../data/lib/world/TAVERN2.WLD"
+#worldFile "../data/lib/world/TAVERN3.WLD"
+#worldFile "../data/lib/world/TAVERN4.WLD"
+#worldFile "../data/lib/world/TAVERN5.WLD"
+#worldFile "../data/lib/world/TAVERN6.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 23
+monster Mouse 3

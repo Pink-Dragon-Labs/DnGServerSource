@@ -1,0 +1,19 @@
+quest  81000-01-540        # Hana, Wen Clothing, 6100
+
+name  "Surprise for Hana"
+type  fedex
+
+proposal  "I have a fine selection of the kind often used for our colored gemstones.  I'll give you an assortment of them if you would do a big favor for me.  Misha saved something for me, and I haven't had a chance to go pick it up.  It's a surprise, and I'm dying of curiousity.  Would you do that?"
+
+declined  "I'll go later."
+
+accepted  "These will be ready when you come back."
+
+reminder   "Go to Misha and tell her Hana sent you."
+
+completed  "Oh, it is her fresh baked bread.  I hoped it was.  Here's your package.  I've given you a nice selection of sacs."
+
+getItem   qHanaSurprise
+reward   qFabricSacs 
+end
+

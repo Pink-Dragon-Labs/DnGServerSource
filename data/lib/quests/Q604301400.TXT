@@ -1,0 +1,19 @@
+quest 17 # 6043-01-400        # Melkoro, To the Hilt, weapons, Leinster East, 6043
+
+name  "Prehistoric Troll Knife"
+type  fedex
+
+proposal  "We need more dedicated warriors, and the dagger is an excellent weapon.  One who can handle a dagger well is never at the mercy of another.  The longer swords are well and good, and I'd advise you to be decently versed in them, but always, always, always, have your daggers sharp and on your person.  Now, for dagger mastery you will need a good book of skills, which I will provide.  I would like for you, first, to find for me a prehistoric troll knife.  I'm very interested to examine this ancient tool.  Will you do it?"
+
+declined  "Well at least remember this: never tolerate a dull dagger."
+
+accepted  "I'd suggest you start looking in Usk."
+
+reminder   "Try Usk and seek a prehistoric troll knife."
+
+completed  "Interesting, very interesting tool.  I must study it more.  Meanwhile, take your book and study it thoroughly."
+
+getItem   qTrollKnife
+reward    skbDaggerIV
+end
+

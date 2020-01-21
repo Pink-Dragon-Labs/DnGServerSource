@@ -1,0 +1,18 @@
+quest  72 #6205-01-100        #Xolina, Goddess Dreams magic, Murias, 6205
+
+name  "Ratling Toenail"
+type  fedex
+
+proposal  "Thaumaturgy! This is fortuitous.  My arts tell me now is an excellent time to commence a study of the Familiar spells.  And I, Xolina, am an excellent guide.  Do not think I brag, for many will tell you the same thing.  But enough chatter.  To show yourself worthy of the Familiar spellbook, you must first obtain for me a Ratling Toenail.  Will you formally accept this quest?" 
+
+declined  "You pass up an excellent opportunity."
+
+accepted  "Well chosen.  You must locate a source near Ratling Run.  Discreetly speak to shopkeepers."
+
+reminder   "You must bring a Ratling Toenail.  Talk to shopkeepers near Ratling Run.
+
+completed  "Excellent beginning.  I present to you the Familiar Spellbook for Thaumaturgy."
+
+getItem   qRatlingToenail
+reward   skbThaumaturgyI 
+end

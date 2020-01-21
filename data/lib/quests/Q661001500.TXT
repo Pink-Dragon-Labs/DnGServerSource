@@ -1,0 +1,19 @@
+quest  195 #6610-01-500        #Rant, Vlador's Tavern, Caer Fandry, dark elf, 6610
+
+name  "Orc Amulet
+type  fedex
+
+proposal  "Grand-master skills for disarming traps are not for everyone.  Only the very skilled and most intelligent have any business even asking for the book.  I've a mind to chase you out of here with a sharp knife for your temerity.  I'd prefer to see none but dark elves have the knowledge.  These modern times!  Seems like every John, Jack and Jerry thinks anyone can do it.  I give up.  Go get me an Orc Amulet and I'll let you have the book titled Disarming Traps: A Grand-Master Treatment.  Well, speak up.  Will you?"
+
+declined  "Then get out.  NOW!"
+
+accepted  "Get me an Orc Amulet.  Get it from Murias."
+
+reminder   "Get an Orc Amulet from Murias.  Go."
+
+completed  "I'm supposed to be impressed, I suppose.  Amazed is more like it.  Astonished is more like it.  Take your book and get out of my sight."
+
+getItem   qOrcAmulet
+reward   skbTrapsV 
+end
+

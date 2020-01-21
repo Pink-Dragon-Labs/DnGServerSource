@@ -1,0 +1,1617 @@
+# Dungeonmaker World File (troldng.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 81500
+# Dungeon last room = 81693
+# Number of objects in dungeon = 138
+# Level 0 information:
+room 81500
+	properties
+		template 31002
+		south 81501
+		flags	0
+	end
+	objects
+		object TrollWarrior-81500-0 of TrollWarrior
+			properties
+				x	179
+				y	276
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-81500-1 of DungeonBackUp
+			properties
+				x	286
+				y	220
+				loop	2
+				linkTo	movingRock3212-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 81503
+	properties
+		template 30805
+		east 81501
+		flags	8
+	end
+	objects
+		object Troll-81503-0 of Troll
+			properties
+				x	121
+				y	282
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Troll-81503-1 of Troll
+			properties
+				x	173
+				y	251
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-81503-2 of DungeonBackDoor
+			properties
+				x	247
+				y	216
+				loop	2
+				linkTo	DungeonBackDoor-81504-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 81501
+	properties
+		template 32201
+		east 81502
+		west 81503
+		north 81500
+		flags	0
+	end
+	objects
+		object Troll-81501-0 of Troll
+			properties
+				x	476
+				y	257
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 81502
+	properties
+		template 30701
+		west 81501
+		flags	8
+	end
+	objects
+		object TrollSorcerer-81502-0 of TrollSorcerer
+			properties
+				x	152
+				y	242
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object TrollElementalist-81502-1 of TrollElementalist
+			properties
+				x	260
+				y	281
+				loop	1
+				color	26
+			end
+			base character
+			end
+		end
+		object Altar-81502-2 of Altar
+			properties
+				x	142
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81504
+	properties
+		template 30302
+		south 81505
+		flags	0
+	end
+	objects
+		object Troll-81504-0 of Troll
+			properties
+				x	194
+				y	295
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-81504-1 of DungeonBackDoor
+			properties
+				x	324
+				y	232
+				loop	2
+				linkTo	DungeonBackDoor-81503-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 81511
+	properties
+		template 30502
+		south 81510
+		east 81512
+		flags	8
+	end
+	objects
+		object TrollArmsman-81511-0 of TrollArmsman
+			properties
+				x	314
+				y	283
+				loop	0
+				color	24
+			end
+			base character
+			end
+		end
+		object Troll-81511-1 of Troll
+			properties
+				x	172
+				y	295
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-81511-2 of DungeonBackDown
+			properties
+				x	455
+				y	239
+				loop	2
+				linkTo	DungeonBackUp-81538-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 81512
+	properties
+		template 31104
+		south 81513
+		west 81511
+		flags	8
+	end
+	objects
+		object YoungFenris-81512-0 of YoungFenris
+			properties
+				x	399
+				y	307
+				loop	1
+				color	1536
+			end
+			base character
+			end
+		end
+		object Troll-81512-1 of Troll
+			properties
+				x	273
+				y	267
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object YoungFenris-81512-2 of YoungFenris
+			properties
+				x	415
+				y	279
+				loop	1
+				color	1536
+			end
+			base character
+			end
+		end
+		object YoungFenris-81512-3 of YoungFenris
+			properties
+				x	129
+				y	274
+				loop	2
+				color	1536
+			end
+			base character
+			end
+		end
+	end
+end
+room 81505
+	properties
+		template 30803
+		east 81506
+		north 81504
+		flags	0
+	end
+end
+room 81506
+	properties
+		template 30904
+		south 81507
+		east 81509
+		west 81505
+		flags	8
+	end
+	objects
+		object Troll-81506-0 of Troll
+			properties
+				x	267
+				y	261
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Troll-81506-1 of Troll
+			properties
+				x	398
+				y	277
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 81509
+	properties
+		template 30901
+		east 81510
+		west 81506
+		flags	0
+	end
+end
+room 81510
+	properties
+		template 32502
+		west 81509
+		north 81511
+		flags	0
+	end
+	objects
+		object TrollWarrior-81510-0 of TrollWarrior
+			properties
+				x	396
+				y	272
+				loop	1
+				color	25
+			end
+			base character
+			end
+		end
+	end
+end
+room 81513
+	properties
+		template 30403
+		north 81512
+		flags	0
+	end
+	objects
+		object Fenris-81513-0 of Fenris
+			properties
+				x	292
+				y	277
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 81515
+	properties
+		template 30502
+		south 81516
+		east 81514
+		flags	40
+	end
+	objects
+		object TrollSorcerer-81515-0 of TrollSorcerer
+			properties
+				x	165
+				y	307
+				loop	0
+				color	26
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81515-1 of TrollWarrior
+			properties
+				x	371
+				y	270
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+		object TrollElementalist-81515-2 of TrollElementalist
+			properties
+				x	208
+				y	282
+				loop	0
+				color	26
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81515-3 of TrollWarrior
+			properties
+				x	474
+				y	263
+				loop	2
+				color	25
+			end
+			base character
+			end
+		end
+	end
+end
+room 81514
+	properties
+		template 30703
+		east 81508
+		west 81515
+		flags	0
+	end
+end
+room 81508
+	properties
+		template 30906
+		east 81507
+		west 81514
+		flags	0
+	end
+end
+room 81507
+	properties
+		template 32701
+		west 81508
+		north 81506
+		flags	0
+	end
+end
+room 81516
+	properties
+		template 31001
+		south 81517
+		north 81515
+		flags	40
+	end
+	objects
+		object Troll-81516-0 of Troll
+			properties
+				x	148
+				y	301
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Troll-81516-1 of Troll
+			properties
+				x	203
+				y	282
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 81519
+	properties
+		template 32301
+		east 81518
+		flags	0
+	end
+	objects
+		object LockedChest-81519-0 of LockedChest
+			properties
+				x	357
+				y	248
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object TrollArmsman-81519-1 of TrollArmsman
+			properties
+				x	503
+				y	247
+				loop	2
+				color	24
+			end
+			base character
+			end
+		end
+		object RandomJunk-81519-2 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-81519-3 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-81519-4 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-81519-5 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-81519-6 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-81519-7 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-81519-8 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-81519-9 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-81519-10 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-81519-11 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-81519-12 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomGem-81519-13 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterTome-81519-14 of RandomMonsterTome
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomPoorWarriorWeapon-81519-15 of RandomPoorWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomBracers-81519-16 of RandomBracers
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-81519-17 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-81519-18 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-81519-19 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object TrollShirt-81519-20 of TrollShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object TrollPants-81519-21 of TrollPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+		object TrollBoots-81519-22 of TrollBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81519-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81518
+	properties
+		template 30703
+		east 81517
+		west 81519
+		flags	200
+	end
+	objects
+		object TrollWarrior-81518-0 of TrollWarrior
+			properties
+				x	302
+				y	276
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81518-1 of TrollWarrior
+			properties
+				x	339
+				y	255
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+	end
+end
+room 81517
+	properties
+		template 32601
+		west 81518
+		north 81516
+		flags	136
+	end
+	objects
+		object Fenris-81517-0 of Fenris
+			properties
+				x	354
+				y	288
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Troll-81517-1 of Troll
+			properties
+				x	329
+				y	254
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 81521
+	properties
+		template 30502
+		south 81522
+		east 81520
+		flags	8
+	end
+	objects
+		object TrollWarrior-81521-0 of TrollWarrior
+			properties
+				x	223
+				y	278
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+		object TrollKing-81521-1 of TrollKing
+			properties
+				x	481
+				y	252
+				loop	2
+				color	1814
+			end
+			base character
+			end
+		end
+		object AnimalHide-81521-2 of AnimalHide
+			properties
+				x	464
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-81521-3 of AnimalHide
+			properties
+				x	467
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-81521-4 of AnimalHide
+			properties
+				x	519
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object BlueRose-81521-5 of BlueRose
+			properties
+				x	472
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object BlueRose-81521-6 of BlueRose
+			properties
+				x	518
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object BlueRose-81521-7 of BlueRose
+			properties
+				x	580
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object BlueRose-81521-8 of BlueRose
+			properties
+				x	398
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object FountainA-81521-9 of FountainA
+			properties
+				x	315
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81520
+	properties
+		template 30201
+		west 81521
+		flags	0
+	end
+	objects
+		object LockedChest-81520-0 of LockedChest
+			properties
+				x	446
+				y	280
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomMonsterMegaTreasure-81520-1 of RandomMonsterMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-81520-2 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-81520-3 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-81520-4 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-81520-5 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-81520-6 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-81520-7 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomBauble-81520-8 of RandomBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterRing-81520-9 of RandomMonsterRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterBauble-81520-10 of RandomMonsterBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterAmulet-81520-11 of RandomMonsterAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-81520-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81522
+	properties
+		template 31006
+		south 81523
+		north 81521
+		flags	24
+	end
+	objects
+		object TrollElementalist-81522-0 of TrollElementalist
+			properties
+				x	466
+				y	257
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81522-1 of TrollWarrior
+			properties
+				x	490
+				y	312
+				loop	1
+				color	25
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81522-2 of TrollWarrior
+			properties
+				x	135
+				y	306
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81522-3 of TrollWarrior
+			properties
+				x	192
+				y	262
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+		object Embers-81522-4 of Embers
+			properties
+				x	310
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-81522-5 of Smoke1
+			properties
+				x	297
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire3-81522-6 of Fire3
+			properties
+				x	301
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81530
+	properties
+		template 30303
+		south 81531
+		flags	0
+	end
+	objects
+		object Troll-81530-0 of Troll
+			properties
+				x	115
+				y	294
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Troll-81530-1 of Troll
+			properties
+				x	254
+				y	270
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-81530-2 of DungeonBackDoor
+			properties
+				x	474
+				y	225
+				loop	2
+				linkTo	DungeonBackDoor-81541-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Embers-81530-3 of Embers
+			properties
+				x	176
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-81530-4 of FireC
+			properties
+				x	165
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-81530-5 of SmokeA
+			properties
+				x	163
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81523
+	properties
+		template 31004
+		south 81528
+		north 81522
+		flags	24
+	end
+	objects
+		object Fenris-81523-0 of Fenris
+			properties
+				x	222
+				y	294
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object TrollWarrior-81523-1 of TrollWarrior
+			properties
+				x	250
+				y	265
+				loop	0
+				color	25
+			end
+			base character
+			end
+		end
+	end
+end
+room 81531
+	properties
+		template 31402
+		south 81532
+		east 81544
+		north 81530
+		flags	0
+	end
+end
+room 81544
+	properties
+		template 30703
+		east 81528
+		west 81531
+		flags	0
+	end
+end
+room 81528
+	properties
+		template 31201
+		south 81527
+		west 81544
+		north 81523
+		flags	8
+	end
+	objects
+		object Troll-81528-0 of Troll
+			properties
+				x	416
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object TrollArmsman-81528-1 of TrollArmsman
+			properties
+				x	120
+				y	253
+				loop	2
+				color	24
+			end
+			base character
+			end
+		end
+	end
+end
+room 81538
+	properties
+		template 30304
+		south 81539
+		flags	0
+	end
+	objects
+		object Troll-81538-0 of Troll
+			properties
+				x	190
+				y	267
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-81538-1 of DungeonBackUp
+			properties
+				x	329
+				y	230
+				loop	2
+				linkTo	DungeonBackDown-81511-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 81532
+	properties
+		template 30401
+		north 81531
+		flags	0
+	end
+	objects
+		object TrollSorcerer-81532-0 of TrollSorcerer
+			properties
+				x	478
+				y	274
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object Troll-81532-1 of Troll
+			properties
+				x	210
+				y	279
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Altar-81532-2 of Altar
+			properties
+				x	332
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 81527
+	properties
+		template 30803
+		east 81526
+		north 81528
+		flags	0
+	end
+end
+room 81526
+	properties
+		template 30906
+		east 81525
+		west 81527
+		flags	0
+	end
+	objects
+		object Troll-81526-0 of Troll
+			properties
+				x	195
+				y	245
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 81525
+	properties
+		template 30701
+		west 81526
+		flags	0
+	end
+end
+room 81539
+	properties
+		template 31003
+		south 81540
+		north 81538
+		flags	0
+	end
+end
+room 81542
+	properties
+		template 32301
+		east 81540
+		flags	0
+	end
+	objects
+		object Ghost-81542-0 of Ghost
+			properties
+				x	495
+				y	294
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Bones-81542-1 of Bones
+			properties
+				x	386
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomFemaleMonsterShirt-81542-2 of RandomFemaleMonsterShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomFemaleMonsterPants-81542-3 of RandomFemaleMonsterPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomMonsterBoots-81542-4 of RandomMonsterBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomWeapon-81542-5 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomShield-81542-6 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomCowl-81542-7 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomMonsterAmulet-81542-8 of RandomMonsterAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-81542-9 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+		object BlueBaldric-81542-10 of BlueBaldric
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-81542-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 81540
+	properties
+		template 32202
+		east 81541
+		west 81542
+		north 81539
+		flags	0
+	end
+	objects
+		object YoungFenris-81540-0 of YoungFenris
+			properties
+				x	494
+				y	294
+				loop	1
+				color	1536
+			end
+			base character
+			end
+		end
+		object Troll-81540-1 of Troll
+			properties
+				x	249
+				y	305
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Troll-81540-2 of Troll
+			properties
+				x	514
+				y	258
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Troll-81540-3 of Troll
+			properties
+				x	198
+				y	256
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 81541
+	properties
+		template 30701
+		west 81540
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-81541-0 of DungeonBackDoor
+			properties
+				x	275
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-81530-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite2-81541-1 of Stalagmite2
+			properties
+				x	348
+				y	229
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite4-81541-2 of Stalagmite4
+			properties
+				x	341
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-81541-3 of Stalagmite1
+			properties
+				x	394
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

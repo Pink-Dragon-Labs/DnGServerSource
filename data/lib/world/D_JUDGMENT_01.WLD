@@ -1,0 +1,6739 @@
+# Dungeonmaker World File (Jewel.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 99000
+# Dungeon last room = 99116
+# Number of objects in dungeon = 863
+# Level 0 information:
+room 99016
+	properties
+		template 30305
+		south 99015
+		flags	0
+	end
+   atpinfo
+      2259  285 243 0
+   end
+	objects
+		object Torch-99016-0 of Torch
+			properties
+				x	148
+				y	245
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object Torch-99016-1 of Torch
+			properties
+				x	430
+				y	243
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object CellFloorA-99016-2 of CellFloorA
+			properties
+				x	179
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-99016-3 of CellFloorF
+			properties
+				x	416
+				y	222
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99016-4 of GreenCrystalA
+			properties
+				x	75
+				y	314
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99016-5 of LavaE
+			properties
+				x	430
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99016-6 of LavaF
+			properties
+				x	446
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-99016-7 of Altar
+			properties
+				x	286
+				y	268
+				loop	0
+			end
+			actions
+				vBeUsed despothesMark dobj 
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99016-8 of GreenCrystalC
+			properties
+				x	137
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99015
+	properties
+		template 32402
+		south 99014
+		north 99016
+		flags	24
+	end
+	objects
+		object BountyHunterB-99015-0 of BountyHunterB
+			properties
+				x	394
+				y	267
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterB-99015-1 of BountyHunterB
+			properties
+				x	212
+				y	271
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object KingCobra-99015-2 of KingCobra
+			properties
+				x	426
+				y	165
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-99015-3 of KingCobra
+			properties
+				x	238
+				y	160
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-99015-4 of KingCobra
+			properties
+				x	274
+				y	132
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object YellowShroomA-99015-5 of YellowShroomA
+			properties
+				x	372
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-99015-6 of YellowShroomD
+			properties
+				x	463
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom4-99015-7 of Shroom4
+			properties
+				x	483
+				y	150
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom6-99015-8 of Shroom6
+			properties
+				x	327
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom5-99015-9 of Shroom5
+			properties
+				x	435
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99015-10 of Shroom3
+			properties
+				x	136
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-99015-11 of Shroom2
+			properties
+				x	104
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99014
+	properties
+		template 31004
+		south 99013
+		north 99015
+		flags	24
+	end
+	objects
+		object Fury-99014-0 of Fury
+			properties
+				x	462
+				y	254
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-99014-1 of Fury
+			properties
+				x	534
+				y	234
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object LavaSerpent-99014-2 of LavaSerpent
+			properties
+				x	510
+				y	157
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object KingCobra-99014-3 of KingCobra
+			properties
+				x	541
+				y	154
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object Shroom3-99014-4 of Shroom3
+			properties
+				x	224
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-99014-5 of Shroom2
+			properties
+				x	168
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom5-99014-6 of Shroom5
+			properties
+				x	98
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom6-99014-7 of Shroom6
+			properties
+				x	310
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock3-99014-8 of Rock3
+			properties
+				x	82
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99013
+	properties
+		template 31003
+		south 99012
+		north 99014
+		flags	0
+	end
+	objects
+		object LavaF-99013-0 of LavaF
+			properties
+				x	521
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99013-1 of GreenCrystalG
+			properties
+				x	127
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99013-2 of GreenCrystalE
+			properties
+				x	72
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99013-3 of CellFloorA
+			properties
+				x	198
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-99013-4 of CellFloorF
+			properties
+				x	518
+				y	248
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99012
+	properties
+		template 31502
+		south 99011
+		north 99013
+		flags	24
+	end
+	objects
+		object ImpKing-99012-0 of ImpKing
+			properties
+				x	396
+				y	211
+				loop	2
+				color	20
+			end
+			base character
+			end
+		end
+		object ImpKing-99012-1 of ImpKing
+			properties
+				x	347
+				y	212
+				loop	2
+				color	20
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99012-2 of BountyHunterE
+			properties
+				x	415
+				y	198
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99012-3 of BountyHunterE
+			properties
+				x	324
+				y	197
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object GreenCrystalA-99012-4 of GreenCrystalA
+			properties
+				x	61
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99012-5 of LavaE
+			properties
+				x	511
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99011
+	properties
+		template 31006
+		north 99012
+		flags	0
+	end
+	objects
+		object CellFloorG-99011-0 of CellFloorG
+			properties
+				x	543
+				y	261
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorB-99011-1 of CellFloorB
+			properties
+				x	92
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-99011-2 of YellowShroomC
+			properties
+				x	534
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomA-99011-3 of YellowShroomA
+			properties
+				x	573
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99011-4 of Shroom3
+			properties
+				x	55
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99011-5 of Shroom3
+			properties
+				x	26
+				y	313
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99065
+	properties
+		template 31002
+		south 99064
+		flags	0
+	end
+	objects
+		object Lever-99065-0 of Lever
+			properties
+				x	156
+				y	292
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 99011 1 
+				vBeDeactivated teleport dobj 99011 1 
+			end
+			base described
+			end
+		end
+		object CellFloorA-99065-1 of CellFloorA
+			properties
+				x	195
+				y	198
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-99065-2 of CellFloorB
+			properties
+				x	82
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99065-3 of GreenCrystalF
+			properties
+				x	396
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99065-4 of GreenCrystalB
+			properties
+				x	145
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorB-99065-5 of CellFloorB
+			properties
+				x	163
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99065-6 of GreenCrystalG
+			properties
+				x	60
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99065-7 of GreenCrystalB
+			properties
+				x	354
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99114
+	properties
+		template 30302
+		south 99105
+		flags	0
+	end
+	objects
+		object Lever-99114-0 of Lever
+			properties
+				x	150
+				y	280
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 99011 1 
+				vBeDeactivated teleport dobj 99011 1 
+			end
+			base described
+			end
+		end
+		object LavaG-99114-1 of LavaG
+			properties
+				x	541
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99114-2 of LavaE
+			properties
+				x	26
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99114-3 of LavaF
+			properties
+				x	170
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99114-4 of LavaF
+			properties
+				x	3
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-99114-5 of CellFloorF
+			properties
+				x	277
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-99114-6 of CellFloorG
+			properties
+				x	71
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-99114-7 of CellFloorG
+			properties
+				x	135
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99053
+	properties
+		template 30502
+		south 99052
+		east 99054
+		flags	104
+	end
+	objects
+		object Paladin-99053-0 of Paladin
+			properties
+				x	446
+				y	234
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphQueen-99053-1 of SeraphQueen
+			properties
+				x	153
+				y	281
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Fury-99053-2 of Fury
+			properties
+				x	584
+				y	264
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+		object ImpKing-99053-3 of ImpKing
+			properties
+				x	314
+				y	261
+				loop	2
+				color	20
+			end
+			base character
+			end
+		end
+		object GreenCrystalB-99053-4 of GreenCrystalB
+			properties
+				x	189
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99053-5 of GreenCrystalB
+			properties
+				x	136
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99054
+	properties
+		template 30906
+		east 99055
+		west 99053
+		flags	0
+	end
+	objects
+		object GreenWaterA-99054-0 of GreenWaterA
+			properties
+				x	118
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99054-1 of GreenWaterB
+			properties
+				x	368
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99054-2 of GreenWaterC
+			properties
+				x	570
+				y	321
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorA-99054-3 of CellFloorA
+			properties
+				x	210
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99055
+	properties
+		template 30703
+		east 99064
+		west 99054
+		flags	0
+	end
+	objects
+		object GreenWaterB-99055-0 of GreenWaterB
+			properties
+				x	341
+				y	324
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99055-1 of GreenWaterA
+			properties
+				x	112
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99055-2 of GreenWaterB
+			properties
+				x	600
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99055-3 of GreenCrystalA
+			properties
+				x	307
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99055-4 of Shroom3
+			properties
+				x	534
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99064
+	properties
+		template 31201
+		south 99063
+		west 99055
+		north 99065
+		flags	168
+	end
+	objects
+		object Paladin-99064-0 of Paladin
+			properties
+				x	230
+				y	259
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-99064-1 of Paladin
+			properties
+				x	322
+				y	257
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Fury-99064-2 of Fury
+			properties
+				x	255
+				y	208
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object KingCobra-99064-3 of KingCobra
+			properties
+				x	241
+				y	189
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99064-4 of BountyHunterE
+			properties
+				x	276
+				y	243
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object GreenCrystalA-99064-5 of GreenCrystalA
+			properties
+				x	95
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99010
+	properties
+		template 30305
+		south 99009
+		flags	0
+	end
+	objects
+		object Lever-99010-0 of Lever
+			properties
+				x	154
+				y	287
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 99026 1 
+				vBeDeactivated teleport dobj 99026 1 
+			end
+			base described
+			end
+		end
+		object Lever-99010-1 of Lever
+			properties
+				x	438
+				y	287
+				loop	3
+			end
+			actions
+				vBeActivated teleport dobj 99075 1 
+				vBeDeactivated teleport dobj 99075 1 
+			end
+			base described
+			end
+		end
+		object CellFloorA-99010-2 of CellFloorA
+			properties
+				x	166
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorF-99010-3 of CellFloorF
+			properties
+				x	447
+				y	242
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99010-4 of GreenCrystalG
+			properties
+				x	102
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99010-5 of LavaF
+			properties
+				x	455
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99010-6 of GreenCrystalC
+			properties
+				x	71
+				y	314
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99010-7 of LavaF
+			properties
+				x	495
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-99010-8 of Torch
+			properties
+				x	431
+				y	243
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object Torch-99010-9 of Torch
+			properties
+				x	147
+				y	243
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object Sign-99010-10 of Sign
+			properties
+				x	269
+				y	243
+				loop	0
+			end
+			base described
+				text	"Even in balance, one must sometimes walk another path."
+			end
+		end
+	end
+end
+room 99105
+	properties
+		template 30804
+		east 99104
+		north 99114
+		flags	120
+	end
+	objects
+		object Kilrog-99105-0 of Kilrog
+			properties
+				x	416
+				y	247
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-99105-1 of Kilrog
+			properties
+				x	326
+				y	247
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Fury-99105-2 of Fury
+			properties
+				x	337
+				y	198
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object KingCobra-99105-3 of KingCobra
+			properties
+				x	348
+				y	196
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99105-4 of BountyHunterE
+			properties
+				x	376
+				y	235
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LavaG-99105-5 of LavaG
+			properties
+				x	497
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99105-6 of LavaE
+			properties
+				x	-15
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99105-7 of LavaF
+			properties
+				x	19
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99105-8 of LavaF
+			properties
+				x	-39
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99105-9 of LavaF
+			properties
+				x	-24
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-99105-10 of FireB
+			properties
+				x	546
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99104
+	properties
+		template 30703
+		east 99103
+		west 99105
+		flags	0
+	end
+	objects
+		object LavaC-99104-0 of LavaC
+			properties
+				x	306
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-99104-1 of LavaA
+			properties
+				x	116
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-99104-2 of LavaB
+			properties
+				x	503
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99103
+	properties
+		template 30901
+		east 99102
+		west 99104
+		flags	0
+	end
+	objects
+		object LavaB-99103-0 of LavaB
+			properties
+				x	26
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99103-1 of LavaB
+			properties
+				x	508
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99103-2 of LavaA
+			properties
+				x	276
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99102
+	properties
+		template 30602
+		south 99101
+		west 99103
+		flags	168
+	end
+	objects
+		object Kilrog-99102-0 of Kilrog
+			properties
+				x	247
+				y	243
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object CryptKeeper-99102-1 of CryptKeeper
+			properties
+				x	424
+				y	264
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Fury-99102-2 of Fury
+			properties
+				x	52
+				y	270
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object ImpKing-99102-3 of ImpKing
+			properties
+				x	302
+				y	231
+				loop	2
+				color	20
+			end
+			base character
+			end
+		end
+		object LavaD-99102-4 of LavaD
+			properties
+				x	33
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99102-5 of LavaE
+			properties
+				x	60
+				y	347
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99102-6 of LavaE
+			properties
+				x	337
+				y	195
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99049
+	properties
+		template 30502
+		south 99048
+		east 99050
+		flags	0
+	end
+	objects
+		object GreenCrystalA-99049-0 of GreenCrystalA
+			properties
+				x	89
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99049-1 of GreenCrystalE
+			properties
+				x	512
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-99049-2 of Shroom2
+			properties
+				x	160
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99050
+	properties
+		template 32403
+		east 99051
+		west 99049
+		flags	200
+	end
+	objects
+		object Paladin-99050-0 of Paladin
+			properties
+				x	280
+				y	208
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-99050-1 of Paladin
+			properties
+				x	196
+				y	221
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object KingCobra-99050-2 of KingCobra
+			properties
+				x	151
+				y	158
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object GreenCrystalC-99050-3 of GreenCrystalC
+			properties
+				x	549
+				y	138
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99050-4 of GreenCrystalG
+			properties
+				x	13
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99050-5 of GreenWaterA
+			properties
+				x	99
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99050-6 of GreenWaterB
+			properties
+				x	352
+				y	332
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99050-7 of GreenWaterA
+			properties
+				x	605
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99051
+	properties
+		template 30906
+		east 99052
+		west 99050
+		flags	0
+	end
+	objects
+		object GreenWaterA-99051-0 of GreenWaterA
+			properties
+				x	118
+				y	322
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99051-1 of GreenWaterC
+			properties
+				x	290
+				y	321
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterD-99051-2 of GreenWaterD
+			properties
+				x	401
+				y	343
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99051-3 of GreenWaterB
+			properties
+				x	513
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-99051-4 of FatColumn
+			properties
+				x	566
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99051-5 of GreenCrystalF
+			properties
+				x	311
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99052
+	properties
+		template 32701
+		west 99051
+		north 99053
+		flags	0
+	end
+	objects
+		object GreenWaterB-99052-0 of GreenWaterB
+			properties
+				x	518
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99052-1 of GreenWaterC
+			properties
+				x	318
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99052-2 of GreenWaterA
+			properties
+				x	135
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99052-3 of GreenWaterC
+			properties
+				x	-32
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99052-4 of GreenCrystalC
+			properties
+				x	216
+				y	201
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99052-5 of GreenCrystalG
+			properties
+				x	474
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99063
+	properties
+		template 31004
+		south 99062
+		north 99064
+		flags	0
+	end
+	objects
+		object GreenCrystalD-99063-0 of GreenCrystalD
+			properties
+				x	210
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99063-1 of GreenCrystalG
+			properties
+				x	102
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-99063-2 of GreenCrystalD
+			properties
+				x	589
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99063-3 of GreenCrystalC
+			properties
+				x	550
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99009
+	properties
+		template 30402
+		south 99008
+		north 99010
+		flags	0
+	end
+	objects
+		object Shroom3-99009-0 of Shroom3
+			properties
+				x	113
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99009-1 of Shroom3
+			properties
+				x	87
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom4-99009-2 of Shroom4
+			properties
+				x	408
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom4-99009-3 of Shroom4
+			properties
+				x	466
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99113
+	properties
+		template 31005
+		south 99112
+		flags	0
+	end
+	objects
+		object LavaG-99113-0 of LavaG
+			properties
+				x	604
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaE-99113-1 of LavaE
+			properties
+				x	45
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99101
+	properties
+		template 30803
+		east 99100
+		north 99102
+		flags	0
+	end
+	objects
+		object LavaA-99101-0 of LavaA
+			properties
+				x	372
+				y	322
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaD-99101-1 of LavaD
+			properties
+				x	3
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-99101-2 of LavaD
+			properties
+				x	543
+				y	342
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99101-3 of LavaB
+			properties
+				x	188
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99100
+	properties
+		template 32403
+		east 99099
+		west 99101
+		flags	0
+	end
+	objects
+		object LavaD-99100-0 of LavaD
+			properties
+				x	22
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99100-1 of LavaC
+			properties
+				x	146
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99100-2 of LavaB
+			properties
+				x	341
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99100-3 of LavaA
+			properties
+				x	588
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99099
+	properties
+		template 31301
+		east 99098
+		west 99100
+		flags	200
+	end
+	objects
+		object Kilrog-99099-0 of Kilrog
+			properties
+				x	46
+				y	290
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-99099-1 of Kilrog
+			properties
+				x	37
+				y	250
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+		object KingCobra-99099-2 of KingCobra
+			properties
+				x	122
+				y	264
+				loop	0
+				color	93
+			end
+			base character
+			end
+		end
+		object LavaA-99099-3 of LavaA
+			properties
+				x	113
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-99099-4 of LavaB
+			properties
+				x	501
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99099-5 of LavaC
+			properties
+				x	301
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99098
+	properties
+		template 32302
+		south 99097
+		west 99099
+		flags	0
+	end
+	objects
+		object LavaE-99098-0 of LavaE
+			properties
+				x	435
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99098-1 of LavaF
+			properties
+				x	499
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99048
+	properties
+		template 31003
+		south 99047
+		north 99049
+		flags	0
+	end
+	objects
+		object GreenCrystalC-99048-0 of GreenCrystalC
+			properties
+				x	448
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99048-1 of GreenCrystalE
+			properties
+				x	571
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99048-2 of GreenCrystalC
+			properties
+				x	146
+				y	309
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99062
+	properties
+		template 31001
+		south 99061
+		north 99063
+		flags	0
+	end
+	objects
+		object GreenCrystalB-99062-0 of GreenCrystalB
+			properties
+				x	116
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99062-1 of GreenCrystalF
+			properties
+				x	397
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99008
+	properties
+		template 31003
+		south 99007
+		north 99009
+		flags	24
+	end
+	objects
+		object BloodFenris-99008-0 of BloodFenris
+			properties
+				x	322
+				y	208
+				loop	2
+				color	771
+			end
+			base character
+			end
+		end
+		object BloodFenris-99008-1 of BloodFenris
+			properties
+				x	259
+				y	209
+				loop	2
+				color	771
+			end
+			base character
+			end
+		end
+		object Shroom3-99008-2 of Shroom3
+			properties
+				x	135
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom5-99008-3 of Shroom5
+			properties
+				x	430
+				y	246
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom5-99008-4 of Shroom5
+			properties
+				x	449
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99112
+	properties
+		template 31001
+		south 99111
+		north 99113
+		flags	0
+	end
+	objects
+		object LavaE-99112-0 of LavaE
+			properties
+				x	419
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99112-1 of LavaF
+			properties
+				x	58
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99097
+	properties
+		template 31003
+		south 99096
+		north 99098
+		flags	0
+	end
+	objects
+		object LavaG-99097-0 of LavaG
+			properties
+				x	519
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99046
+	properties
+		template 30502
+		south 99045
+		east 99047
+		flags	0
+	end
+	objects
+		object GreenCrystalA-99046-0 of GreenCrystalA
+			properties
+				x	432
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99046-1 of CellFloorA
+			properties
+				x	447
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99047
+	properties
+		template 32202
+		east 99056
+		west 99046
+		north 99048
+		flags	216
+	end
+	objects
+		object SeraphQueen-99047-0 of SeraphQueen
+			properties
+				x	340
+				y	172
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object Guardian-99047-1 of Guardian
+			properties
+				x	296
+				y	208
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-99047-2 of Guardian
+			properties
+				x	358
+				y	208
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Fury-99047-3 of Fury
+			properties
+				x	324
+				y	178
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object GreenCrystalB-99047-4 of GreenCrystalB
+			properties
+				x	288
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99047-5 of GreenCrystalC
+			properties
+				x	222
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99047-6 of GreenCrystalF
+			properties
+				x	620
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99047-7 of GreenCrystalG
+			properties
+				x	66
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99056
+	properties
+		template 30906
+		east 99057
+		west 99047
+		flags	0
+	end
+	objects
+		object GreenWaterA-99056-0 of GreenWaterA
+			properties
+				x	135
+				y	319
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99056-1 of GreenWaterB
+			properties
+				x	634
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99056-2 of GreenWaterB
+			properties
+				x	387
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99057
+	properties
+		template 31301
+		east 99058
+		west 99056
+		flags	0
+	end
+	objects
+		object CellFloorA-99057-0 of CellFloorA
+			properties
+				x	20
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99057-1 of GreenCrystalB
+			properties
+				x	214
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99057-2 of CellFloorA
+			properties
+				x	432
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99057-3 of GreenWaterC
+			properties
+				x	301
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99057-4 of GreenWaterA
+			properties
+				x	116
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99057-5 of GreenWaterB
+			properties
+				x	495
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99057-6 of GreenWaterA
+			properties
+				x	714
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99058
+	properties
+		template 31301
+		east 99059
+		west 99057
+		flags	200
+	end
+	objects
+		object BountyHunterE-99058-0 of BountyHunterE
+			properties
+				x	378
+				y	265
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99058-1 of BountyHunterE
+			properties
+				x	289
+				y	264
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Priestess-99058-2 of Priestess
+			properties
+				x	332
+				y	247
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object GreenWaterA-99058-3 of GreenWaterA
+			properties
+				x	111
+				y	329
+				loop	2
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99058-4 of GreenWaterC
+			properties
+				x	296
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99058-5 of GreenWaterB
+			properties
+				x	493
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterD-99058-6 of GreenWaterD
+			properties
+				x	672
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99058-7 of GreenCrystalB
+			properties
+				x	241
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99058-8 of GreenCrystalC
+			properties
+				x	418
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99058-9 of GreenCrystalA
+			properties
+				x	337
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99058-10 of CellFloorA
+			properties
+				x	261
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99059
+	properties
+		template 30901
+		east 99060
+		west 99058
+		flags	0
+	end
+	objects
+		object GreenWaterA-99059-0 of GreenWaterA
+			properties
+				x	515
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99059-1 of GreenWaterC
+			properties
+				x	65
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99059-2 of GreenWaterB
+			properties
+				x	266
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99060
+	properties
+		template 32403
+		east 99061
+		west 99059
+		flags	0
+	end
+	objects
+		object GreenWaterA-99060-0 of GreenWaterA
+			properties
+				x	99
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99060-1 of GreenWaterB
+			properties
+				x	354
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99060-2 of GreenWaterA
+			properties
+				x	606
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99061
+	properties
+		template 32701
+		west 99060
+		north 99062
+		flags	152
+	end
+	objects
+		object SeraphQueen-99061-0 of SeraphQueen
+			properties
+				x	383
+				y	235
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object Shade-99061-1 of Shade
+			properties
+				x	242
+				y	238
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+		object KingCobra-99061-2 of KingCobra
+			properties
+				x	324
+				y	189
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object GreenCrystalA-99061-3 of GreenCrystalA
+			properties
+				x	460
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99061-4 of GreenWaterA
+			properties
+				x	94
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99061-5 of GreenWaterB
+			properties
+				x	346
+				y	332
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99061-6 of GreenWaterA
+			properties
+				x	598
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-99061-7 of Shroom2
+			properties
+				x	488
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99007
+	properties
+		template 31502
+		south 99006
+		north 99008
+		flags	24
+	end
+	objects
+		object TrollSorcerer-99007-0 of TrollSorcerer
+			properties
+				x	416
+				y	255
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object TrollSorcerer-99007-1 of TrollSorcerer
+			properties
+				x	321
+				y	257
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object SittingMushroom-99007-2 of SittingMushroom
+			properties
+				x	166
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99007-3 of Shroom3
+			properties
+				x	58
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom4-99007-4 of Shroom4
+			properties
+				x	473
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom5-99007-5 of Shroom5
+			properties
+				x	545
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99111
+	properties
+		template 32305
+		east 99110
+		north 99112
+		flags	88
+	end
+	objects
+		object FlameDaemon-99111-0 of FlameDaemon
+			properties
+				x	367
+				y	211
+				loop	2
+				color	789
+			end
+			base character
+			end
+		end
+		object Shade-99111-1 of Shade
+			properties
+				x	286
+				y	216
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+		object KingCobra-99111-2 of KingCobra
+			properties
+				x	422
+				y	169
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object LavaB-99111-3 of LavaB
+			properties
+				x	434
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99111-4 of LavaA
+			properties
+				x	181
+				y	316
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99111-5 of LavaC
+			properties
+				x	629
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock3-99111-6 of Rock3
+			properties
+				x	265
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99110
+	properties
+		template 30907
+		east 99109
+		west 99111
+		flags	0
+	end
+	objects
+		object LavaB-99110-0 of LavaB
+			properties
+				x	519
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-99110-1 of LavaD
+			properties
+				x	30
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99110-2 of LavaA
+			properties
+				x	269
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99110-3 of LavaC
+			properties
+				x	81
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99110-4 of LavaA
+			properties
+				x	98
+				y	167
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99110-5 of LavaB
+			properties
+				x	374
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99110-6 of LavaC
+			properties
+				x	574
+				y	169
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99109
+	properties
+		template 31301
+		east 99108
+		west 99110
+		flags	0
+	end
+	objects
+		object LavaA-99109-0 of LavaA
+			properties
+				x	253
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99109-1 of LavaB
+			properties
+				x	507
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99109-2 of LavaC
+			properties
+				x	65
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99108
+	properties
+		template 30703
+		east 99107
+		west 99109
+		flags	200
+	end
+	objects
+		object Banshee-99108-0 of Banshee
+			properties
+				x	316
+				y	237
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99108-1 of BountyHunterE
+			properties
+				x	389
+				y	251
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterE-99108-2 of BountyHunterE
+			properties
+				x	255
+				y	256
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LavaC-99108-3 of LavaC
+			properties
+				x	305
+				y	327
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-99108-4 of LavaB
+			properties
+				x	505
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-99108-5 of LavaA
+			properties
+				x	115
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99107
+	properties
+		template 32403
+		east 99106
+		west 99108
+		flags	0
+	end
+	objects
+		object LavaE-99107-0 of LavaE
+			properties
+				x	501
+				y	164
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99107-1 of LavaF
+			properties
+				x	-56
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99107-2 of LavaB
+			properties
+				x	226
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99107-3 of LavaA
+			properties
+				x	474
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99107-4 of LavaC
+			properties
+				x	40
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99107-5 of LavaA
+			properties
+				x	715
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99106
+	properties
+		template 31301
+		east 99096
+		west 99107
+		flags	0
+	end
+	objects
+		object LavaC-99106-0 of LavaC
+			properties
+				x	62
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99106-1 of LavaC
+			properties
+				x	179
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99106-2 of LavaA
+			properties
+				x	353
+				y	327
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-99106-3 of LavaA
+			properties
+				x	526
+				y	323
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99096
+	properties
+		template 32102
+		east 99095
+		west 99106
+		north 99097
+		flags	216
+	end
+	objects
+		object DaemonKing-99096-0 of DaemonKing
+			properties
+				x	276
+				y	274
+				loop	0
+				color	784
+			end
+			base character
+			end
+		end
+		object FlameDaemon-99096-1 of FlameDaemon
+			properties
+				x	180
+				y	272
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object Fury-99096-2 of Fury
+			properties
+				x	375
+				y	267
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object LavaE-99096-3 of LavaE
+			properties
+				x	318
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-99096-4 of LavaD
+			properties
+				x	234
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99096-5 of LavaF
+			properties
+				x	277
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99095
+	properties
+		template 30202
+		south 99094
+		west 99096
+		flags	0
+	end
+	objects
+		object LavaD-99095-0 of LavaD
+			properties
+				x	85
+				y	173
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99095-1 of LavaC
+			properties
+				x	194
+				y	175
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99095-2 of LavaA
+			properties
+				x	568
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-99095-3 of LavaD
+			properties
+				x	316
+				y	182
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaD-99095-4 of LavaD
+			properties
+				x	416
+				y	182
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomC-99095-5 of YellowShroomC
+			properties
+				x	453
+				y	150
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99045
+	properties
+		template 31004
+		south 99044
+		north 99046
+		flags	0
+	end
+	objects
+		object GreenCrystalF-99045-0 of GreenCrystalF
+			properties
+				x	127
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99045-1 of GreenCrystalE
+			properties
+				x	216
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99045-2 of GreenCrystalG
+			properties
+				x	145
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-99045-3 of Stalagmite2
+			properties
+				x	113
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99006
+	properties
+		template 31001
+		south 99005
+		north 99007
+		flags	0
+	end
+	objects
+		object Shroom5-99006-0 of Shroom5
+			properties
+				x	467
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom4-99006-1 of Shroom4
+			properties
+				x	501
+				y	313
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99006-2 of Shroom3
+			properties
+				x	123
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-99006-3 of Torch
+			properties
+				x	372
+				y	245
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99094
+	properties
+		template 31001
+		south 99093
+		north 99095
+		flags	0
+	end
+	objects
+		object LavaE-99094-0 of LavaE
+			properties
+				x	433
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99044
+	properties
+		template 31004
+		south 99043
+		north 99045
+		flags	0
+	end
+	objects
+		object Column-99044-0 of Column
+			properties
+				x	201
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99044-1 of GreenCrystalA
+			properties
+				x	258
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99044-2 of GreenCrystalB
+			properties
+				x	148
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99005
+	properties
+		template 30804
+		south 99004
+		north 99006
+		flags	24
+	end
+	objects
+		object TrollElementalist-99005-0 of TrollElementalist
+			properties
+				x	421
+				y	252
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object TrollElementalist-99005-1 of TrollElementalist
+			properties
+				x	327
+				y	253
+				loop	2
+				color	26
+			end
+			base character
+			end
+		end
+		object Torch-99005-2 of Torch
+			properties
+				x	220
+				y	228
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object Shroom3-99005-3 of Shroom3
+			properties
+				x	36
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom5-99005-4 of Shroom5
+			properties
+				x	544
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99093
+	properties
+		template 31502
+		south 99092
+		north 99094
+		flags	0
+	end
+	objects
+		object LavaE-99093-0 of LavaE
+			properties
+				x	-32
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99093-1 of LavaF
+			properties
+				x	-29
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99093-2 of LavaF
+			properties
+				x	541
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99043
+	properties
+		template 31402
+		south 99042
+		north 99044
+		flags	0
+	end
+	objects
+		object GreenCrystalD-99043-0 of GreenCrystalD
+			properties
+				x	286
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99043-1 of GreenCrystalF
+			properties
+				x	327
+				y	224
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99043-2 of GreenCrystalG
+			properties
+				x	390
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99043-3 of GreenCrystalF
+			properties
+				x	372
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-99043-4 of GreenCrystalD
+			properties
+				x	364
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99043-5 of GreenCrystalE
+			properties
+				x	115
+				y	292
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorB-99043-6 of CellFloorB
+			properties
+				x	133
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99004
+	properties
+		template 31501
+		south 99003
+		north 99005
+		flags	24
+	end
+	objects
+		object BountyHunterB-99004-0 of BountyHunterB
+			properties
+				x	365
+				y	218
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterB-99004-1 of BountyHunterB
+			properties
+				x	285
+				y	218
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Shroom3-99004-2 of Shroom3
+			properties
+				x	162
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom4-99004-3 of Shroom4
+			properties
+				x	531
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom6-99004-4 of Shroom6
+			properties
+				x	549
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom6-99004-5 of Shroom6
+			properties
+				x	13
+				y	221
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-99004-6 of Torch
+			properties
+				x	217
+				y	238
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99092
+	properties
+		template 31004
+		south 99091
+		north 99093
+		flags	0
+	end
+	objects
+		object LavaG-99092-0 of LavaG
+			properties
+				x	189
+				y	227
+				loop	3
+			end
+			base described
+			end
+		end
+	end
+end
+room 99042
+	properties
+		template 31003
+		south 99041
+		north 99043
+		flags	0
+	end
+	objects
+		object GreenCrystalB-99042-0 of GreenCrystalB
+			properties
+				x	160
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99042-1 of GreenCrystalG
+			properties
+				x	548
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99003
+	properties
+		template 31201
+		south 99002
+		north 99004
+		flags	0
+	end
+	objects
+		object Shroom3-99003-0 of Shroom3
+			properties
+				x	44
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomB-99003-1 of YellowShroomB
+			properties
+				x	550
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object YellowShroomD-99003-2 of YellowShroomD
+			properties
+				x	568
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99003-3 of Shroom3
+			properties
+				x	29
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99091
+	properties
+		template 31001
+		south 99090
+		north 99092
+		flags	0
+	end
+	objects
+		object LavaE-99091-0 of LavaE
+			properties
+				x	56
+				y	272
+				loop	3
+			end
+			base described
+			end
+		end
+	end
+end
+room 99031
+	properties
+		template 30102
+		south 99030
+		east 99041
+		flags	104
+	end
+	objects
+		object SeraphWarrior-99031-0 of SeraphWarrior
+			properties
+				x	443
+				y	285
+				loop	2
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-99031-1 of SeraphWarrior
+			properties
+				x	317
+				y	279
+				loop	2
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphQueen-99031-2 of SeraphQueen
+			properties
+				x	417
+				y	254
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object Priestess-99031-3 of Priestess
+			properties
+				x	371
+				y	259
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Shroom3-99031-4 of Shroom3
+			properties
+				x	260
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-99031-5 of Shroom2
+			properties
+				x	160
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99031-6 of GreenCrystalC
+			properties
+				x	95
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-99031-7 of GreenCrystalD
+			properties
+				x	346
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99041
+	properties
+		template 30702
+		east 99040
+		west 99031
+		north 99042
+		flags	0
+	end
+	objects
+		object GreenWaterA-99041-0 of GreenWaterA
+			properties
+				x	141
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterD-99041-1 of GreenWaterD
+			properties
+				x	-29
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99041-2 of GreenWaterB
+			properties
+				x	511
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99041-3 of GreenWaterC
+			properties
+				x	319
+				y	337
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-99041-4 of GreenCrystalD
+			properties
+				x	522
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99041-5 of GreenCrystalG
+			properties
+				x	62
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99040
+	properties
+		template 30601
+		south 99039
+		west 99041
+		flags	168
+	end
+	objects
+		object LightWiz-99040-0 of LightWiz
+			properties
+				x	279
+				y	243
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-99040-1 of LightWiz
+			properties
+				x	372
+				y	247
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-99040-2 of Cleric
+			properties
+				x	332
+				y	237
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-99040-3 of SeraphThaumaturgist
+			properties
+				x	448
+				y	260
+				loop	2
+				color	814
+			end
+			base character
+			end
+		end
+		object GreenCrystalC-99040-4 of GreenCrystalC
+			properties
+				x	445
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99040-5 of GreenCrystalF
+			properties
+				x	586
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99040-6 of GreenCrystalF
+			properties
+				x	136
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99040-7 of CellFloorA
+			properties
+				x	385
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99002
+	properties
+		template 31004
+		south 99001
+		north 99003
+		flags	24
+	end
+	objects
+		object PlagueRat-99002-0 of PlagueRat
+			properties
+				x	531
+				y	229
+				loop	2
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-99002-1 of PlagueRat
+			properties
+				x	196
+				y	282
+				loop	2
+				color	82
+			end
+			base character
+			end
+		end
+		object Torch-99002-2 of Torch
+			properties
+				x	386
+				y	230
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object Shroom3-99002-3 of Shroom3
+			properties
+				x	83
+				y	276
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom4-99002-4 of Shroom4
+			properties
+				x	550
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99089
+	properties
+		template 30501
+		south 99088
+		east 99090
+		flags	104
+	end
+	objects
+		object ImpNecromancer-99089-0 of ImpNecromancer
+			properties
+				x	492
+				y	229
+				loop	2
+				color	18
+			end
+			base character
+			end
+		end
+		object Lich-99089-1 of Lich
+			properties
+				x	443
+				y	240
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99089-2 of HowlingTerror
+			properties
+				x	520
+				y	266
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99089-3 of HowlingTerror
+			properties
+				x	401
+				y	278
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object LavaD-99089-4 of LavaD
+			properties
+				x	52
+				y	348
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99090
+	properties
+		template 30702
+		east 99080
+		west 99089
+		north 99091
+		flags	0
+	end
+	objects
+		object LavaD-99090-0 of LavaD
+			properties
+				x	242
+				y	328
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-99090-1 of LavaB
+			properties
+				x	514
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99090-2 of LavaA
+			properties
+				x	102
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-99090-3 of LavaD
+			properties
+				x	343
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-99090-4 of LavaG
+			properties
+				x	389
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-99090-5 of FireB
+			properties
+				x	437
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99080
+	properties
+		template 30909
+		south 99079
+		west 99090
+		flags	168
+	end
+	objects
+		object CryptKeeper-99080-0 of CryptKeeper
+			properties
+				x	417
+				y	273
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Banshee-99080-1 of Banshee
+			properties
+				x	504
+				y	285
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Medusa-99080-2 of Medusa
+			properties
+				x	440
+				y	305
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Medusa-99080-3 of Medusa
+			properties
+				x	371
+				y	284
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object LavaG-99080-4 of LavaG
+			properties
+				x	370
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99080-5 of LavaF
+			properties
+				x	423
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99029
+	properties
+		template 30502
+		south 99028
+		east 99030
+		flags	104
+	end
+	objects
+		object Priestess-99029-0 of Priestess
+			properties
+				x	331
+				y	248
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-99029-1 of LightWiz
+			properties
+				x	361
+				y	280
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-99029-2 of LightWiz
+			properties
+				x	302
+				y	276
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-99029-3 of SeraphThaumaturgist
+			properties
+				x	456
+				y	252
+				loop	2
+				color	814
+			end
+			base character
+			end
+		end
+		object GreenCrystalB-99029-4 of GreenCrystalB
+			properties
+				x	460
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99029-5 of GreenCrystalE
+			properties
+				x	93
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99029-6 of GreenCrystalF
+			properties
+				x	155
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99029-7 of GreenCrystalG
+			properties
+				x	61
+				y	312
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99030
+	properties
+		template 32601
+		west 99029
+		north 99031
+		flags	152
+	end
+	objects
+		object FaeryQueen-99030-0 of FaeryQueen
+			properties
+				x	451
+				y	267
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-99030-1 of SeraphThaumaturgist
+			properties
+				x	480
+				y	283
+				loop	1
+				color	814
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-99030-2 of SeraphWarrior
+			properties
+				x	437
+				y	291
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-99030-3 of SeraphWarrior
+			properties
+				x	392
+				y	274
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object GreenCrystalC-99030-4 of GreenCrystalC
+			properties
+				x	357
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99030-5 of GreenCrystalB
+			properties
+				x	463
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99030-6 of GreenWaterA
+			properties
+				x	195
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99030-7 of GreenWaterB
+			properties
+				x	448
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99030-8 of GreenWaterC
+			properties
+				x	7
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99039
+	properties
+		template 30801
+		east 99038
+		north 99040
+		flags	0
+	end
+	objects
+		object GreenWaterD-99039-0 of GreenWaterD
+			properties
+				x	-23
+				y	339
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99039-1 of GreenWaterB
+			properties
+				x	158
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99039-2 of GreenWaterA
+			properties
+				x	414
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99039-3 of GreenWaterB
+			properties
+				x	668
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99039-4 of GreenCrystalA
+			properties
+				x	165
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99038
+	properties
+		template 30602
+		south 99037
+		west 99039
+		flags	0
+	end
+	objects
+		object GreenCrystalA-99038-0 of GreenCrystalA
+			properties
+				x	398
+				y	186
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99038-1 of GreenCrystalC
+			properties
+				x	301
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99038-2 of CellFloorA
+			properties
+				x	594
+				y	130
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99038-3 of Shroom3
+			properties
+				x	58
+				y	315
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-99038-4 of Shroom1
+			properties
+				x	635
+				y	144
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99023
+	properties
+		template 30102
+		south 99022
+		east 99024
+		flags	64
+	end
+	objects
+		object FaeryQueen-99023-0 of FaeryQueen
+			properties
+				x	376
+				y	283
+				loop	2
+				color	100
+			end
+			base character
+			end
+		end
+		object FaeryQueen-99023-1 of FaeryQueen
+			properties
+				x	330
+				y	302
+				loop	2
+				color	100
+			end
+			base character
+			end
+		end
+		object Torch-99023-2 of Torch
+			properties
+				x	427
+				y	243
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99024
+	properties
+		template 30601
+		south 99025
+		west 99023
+		flags	32
+	end
+	objects
+		object LightWiz-99024-0 of LightWiz
+			properties
+				x	370
+				y	268
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-99024-1 of LightWiz
+			properties
+				x	430
+				y	277
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-99024-2 of Torch
+			properties
+				x	332
+				y	225
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99001
+	properties
+		template 30401
+		north 99002
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-99001-0 of DungeonBackDoor
+			properties
+				x	217
+				y	238
+				loop	0
+				linkTo	DungeonBackDoor-99025-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-99001-1 of DungeonBackDoor
+			properties
+				x	460
+				y	245
+				loop	1
+				linkTo	DungeonBackDoor-99074-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FatColumn-99001-2 of FatColumn
+			properties
+				x	20
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-99001-3 of Column
+			properties
+				x	124
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-99001-4 of Column
+			properties
+				x	588
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom5-99001-5 of Shroom5
+			properties
+				x	515
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-99001-6 of Shroom3
+			properties
+				x	114
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99001-7 of GreenWaterA
+			properties
+				x	116
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaA-99001-8 of LavaA
+			properties
+				x	530
+				y	318
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite1-99001-9 of Stalagmite1
+			properties
+				x	337
+				y	338
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-99001-10 of Stalagmite3
+			properties
+				x	271
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-99001-11 of Stalagmite4
+			properties
+				x	389
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99001-12 of GreenCrystalB
+			properties
+				x	20
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99001-13 of CellFloorA
+			properties
+				x	197
+				y	217
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorF-99001-14 of CellFloorF
+			properties
+				x	457
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterD-99001-15 of GreenWaterD
+			properties
+				x	285
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaD-99001-16 of LavaD
+			properties
+				x	382
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99001-17 of LavaF
+			properties
+				x	534
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99073
+	properties
+		template 30502
+		south 99074
+		east 99072
+		flags	32
+	end
+	objects
+		object HowlingTerror-99073-0 of HowlingTerror
+			properties
+				x	201
+				y	308
+				loop	0
+				color	770
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99073-1 of HowlingTerror
+			properties
+				x	254
+				y	284
+				loop	0
+				color	770
+			end
+			base character
+			end
+		end
+		object Torch-99073-2 of Torch
+			properties
+				x	462
+				y	232
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99072
+	properties
+		template 30202
+		south 99071
+		west 99073
+		flags	128
+	end
+	objects
+		object Ghost-99072-0 of Ghost
+			properties
+				x	166
+				y	250
+				loop	2
+				color	31
+			end
+			base character
+			end
+		end
+		object Ghost-99072-1 of Ghost
+			properties
+				x	104
+				y	284
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Torch-99072-2 of Torch
+			properties
+				x	172
+				y	224
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99087
+	properties
+		template 30502
+		south 99086
+		east 99088
+		flags	0
+	end
+	objects
+		object LavaE-99087-0 of LavaE
+			properties
+				x	72
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99088
+	properties
+		template 32602
+		west 99087
+		north 99089
+		flags	0
+	end
+	objects
+		object LavaF-99088-0 of LavaF
+			properties
+				x	469
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaG-99088-1 of LavaG
+			properties
+				x	506
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99079
+	properties
+		template 32305
+		east 99078
+		north 99080
+		flags	88
+	end
+	objects
+		object Ghost-99079-0 of Ghost
+			properties
+				x	297
+				y	205
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Medusa-99079-1 of Medusa
+			properties
+				x	563
+				y	190
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Medusa-99079-2 of Medusa
+			properties
+				x	496
+				y	193
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Lich-99079-3 of Lich
+			properties
+				x	409
+				y	189
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object LavaD-99079-4 of LavaD
+			properties
+				x	240
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-99079-5 of LavaD
+			properties
+				x	116
+				y	338
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-99079-6 of LavaC
+			properties
+				x	627
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99079-7 of LavaB
+			properties
+				x	430
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99078
+	properties
+		template 32302
+		south 99077
+		west 99079
+		flags	168
+	end
+	objects
+		object Lich-99078-0 of Lich
+			properties
+				x	473
+				y	274
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99078-1 of HowlingTerror
+			properties
+				x	526
+				y	306
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99078-2 of HowlingTerror
+			properties
+				x	410
+				y	303
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object Banshee-99078-3 of Banshee
+			properties
+				x	181
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object LavaG-99078-4 of LavaG
+			properties
+				x	324
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99028
+	properties
+		template 31001
+		south 99027
+		north 99029
+		flags	0
+	end
+	objects
+		object GreenCrystalB-99028-0 of GreenCrystalB
+			properties
+				x	148
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalE-99028-1 of GreenCrystalE
+			properties
+				x	456
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99037
+	properties
+		template 31003
+		south 99035
+		north 99038
+		flags	56
+	end
+	objects
+		object FaeryQueen-99037-0 of FaeryQueen
+			properties
+				x	267
+				y	225
+				loop	2
+				color	100
+			end
+			base character
+			end
+		end
+		object LightWiz-99037-1 of LightWiz
+			properties
+				x	289
+				y	232
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-99037-2 of SeraphThaumaturgist
+			properties
+				x	317
+				y	226
+				loop	2
+				color	814
+			end
+			base character
+			end
+		end
+		object GreenCrystalC-99037-3 of GreenCrystalC
+			properties
+				x	550
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99037-4 of GreenCrystalG
+			properties
+				x	126
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99021
+	properties
+		template 30502
+		south 99019
+		east 99022
+		flags	64
+	end
+	objects
+		object Cleric-99021-0 of Cleric
+			properties
+				x	360
+				y	270
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-99021-1 of Cleric
+			properties
+				x	287
+				y	271
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-99021-2 of Torch
+			properties
+				x	455
+				y	230
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99022
+	properties
+		template 31303
+		west 99021
+		north 99023
+		flags	0
+	end
+	objects
+		object Torch-99022-0 of Torch
+			properties
+				x	513
+				y	238
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99025
+	properties
+		template 32601
+		north 99024
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-99025-0 of DungeonBackDoor
+			properties
+				x	459
+				y	245
+				loop	1
+				linkTo	DungeonBackDoor-99001-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-99025-1 of Torch
+			properties
+				x	342
+				y	213
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99074
+	properties
+		template 32701
+		north 99073
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-99074-0 of DungeonBackDoor
+			properties
+				x	141
+				y	227
+				loop	0
+				linkTo	DungeonBackDoor-99001-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-99074-1 of Torch
+			properties
+				x	52
+				y	222
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99071
+	properties
+		template 30803
+		east 99070
+		north 99072
+		flags	80
+	end
+	objects
+		object Torch-99071-0 of Torch
+			properties
+				x	477
+				y	216
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99070
+	properties
+		template 30602
+		south 99068
+		west 99071
+		flags	128
+	end
+	objects
+		object ImpNecromancer-99070-0 of ImpNecromancer
+			properties
+				x	326
+				y	250
+				loop	2
+				color	18
+			end
+			base character
+			end
+		end
+		object ImpNecromancer-99070-1 of ImpNecromancer
+			properties
+				x	258
+				y	242
+				loop	2
+				color	18
+			end
+			base character
+			end
+		end
+		object Torch-99070-2 of Torch
+			properties
+				x	99
+				y	229
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99086
+	properties
+		template 31003
+		south 99084
+		north 99087
+		flags	56
+	end
+	objects
+		object HowlingTerror-99086-0 of HowlingTerror
+			properties
+				x	348
+				y	266
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object Ghost-99086-1 of Ghost
+			properties
+				x	290
+				y	223
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Lich-99086-2 of Lich
+			properties
+				x	263
+				y	270
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object LavaG-99086-3 of LavaG
+			properties
+				x	507
+				y	275
+				loop	3
+			end
+			base described
+			end
+		end
+	end
+end
+room 99077
+	properties
+		template 31004
+		south 99076
+		north 99078
+		flags	56
+	end
+	objects
+		object LavaE-99077-4 of LavaE
+			properties
+				x	150
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99077-5 of LavaF
+			properties
+				x	117
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99077-6 of LavaF
+			properties
+				x	65
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99077-7 of LavaF
+			properties
+				x	496
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99026
+	properties
+		template 32301
+		east 99027
+		flags	72
+	end
+	objects
+		object WoodNymph-99026-0 of WoodNymph
+			properties
+				x	617
+				y	312
+				loop	1
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-99026-1 of WoodNymph
+			properties
+				x	623
+				y	251
+				loop	1
+				color	83
+			end
+			base character
+			end
+		end
+		object Cleric-99026-2 of Cleric
+			properties
+				x	614
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object CellFloorB-99026-3 of CellFloorB
+			properties
+				x	574
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99026-4 of GreenCrystalB
+			properties
+				x	316
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99026-5 of GreenCrystalA
+			properties
+				x	69
+				y	312
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99027
+	properties
+		template 32101
+		east 99032
+		west 99026
+		north 99028
+		flags	88
+	end
+	objects
+		object Cleric-99027-0 of Cleric
+			properties
+				x	611
+				y	266
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-99027-1 of Cleric
+			properties
+				x	242
+				y	209
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object FaeryQueen-99027-2 of FaeryQueen
+			properties
+				x	422
+				y	247
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object GreenWaterA-99027-3 of GreenWaterA
+			properties
+				x	120
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99027-4 of GreenWaterC
+			properties
+				x	311
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99027-5 of GreenWaterB
+			properties
+				x	508
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99027-6 of GreenCrystalG
+			properties
+				x	86
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalD-99027-7 of GreenCrystalD
+			properties
+				x	193
+				y	116
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99027-8 of GreenCrystalF
+			properties
+				x	318
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99027-9 of GreenCrystalB
+			properties
+				x	130
+				y	197
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99032
+	properties
+		template 31301
+		east 99033
+		west 99027
+		flags	72
+	end
+	objects
+		object GreenWaterA-99032-0 of GreenWaterA
+			properties
+				x	256
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99032-1 of GreenWaterC
+			properties
+				x	67
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99032-2 of GreenWaterB
+			properties
+				x	510
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99032-3 of CellFloorA
+			properties
+				x	371
+				y	198
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalC-99032-4 of GreenCrystalC
+			properties
+				x	259
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99032-5 of GreenCrystalF
+			properties
+				x	512
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-99032-6 of SittingMushroom
+			properties
+				x	424
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99033
+	properties
+		template 30906
+		east 99034
+		west 99032
+		flags	200
+	end
+	objects
+		object LightWiz-99033-0 of LightWiz
+			properties
+				x	209
+				y	230
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object FaeryQueen-99033-1 of FaeryQueen
+			properties
+				x	467
+				y	278
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object FaeryQueen-99033-2 of FaeryQueen
+			properties
+				x	549
+				y	246
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object GreenWaterA-99033-3 of GreenWaterA
+			properties
+				x	114
+				y	322
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99033-4 of GreenWaterC
+			properties
+				x	303
+				y	320
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99033-5 of GreenWaterB
+			properties
+				x	501
+				y	318
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterD-99033-6 of GreenWaterD
+			properties
+				x	671
+				y	322
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalA-99033-7 of GreenCrystalA
+			properties
+				x	571
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99034
+	properties
+		template 30703
+		east 99035
+		west 99033
+		flags	0
+	end
+	objects
+		object GreenWaterA-99034-0 of GreenWaterA
+			properties
+				x	119
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99034-1 of GreenWaterB
+			properties
+				x	343
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99034-2 of GreenWaterC
+			properties
+				x	539
+				y	323
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenCrystalF-99034-3 of GreenCrystalF
+			properties
+				x	530
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalG-99034-4 of GreenCrystalG
+			properties
+				x	240
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99035
+	properties
+		template 32201
+		east 99036
+		west 99034
+		north 99037
+		flags	88
+	end
+	objects
+		object SeraphWarrior-99035-0 of SeraphWarrior
+			properties
+				x	181
+				y	200
+				loop	2
+				color	813
+			end
+			base character
+			end
+		end
+		object LightWiz-99035-1 of LightWiz
+			properties
+				x	213
+				y	219
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object LightWiz-99035-2 of LightWiz
+			properties
+				x	146
+				y	222
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object GreenCrystalA-99035-3 of GreenCrystalA
+			properties
+				x	433
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenCrystalB-99035-4 of GreenCrystalB
+			properties
+				x	307
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterD-99035-5 of GreenWaterD
+			properties
+				x	591
+				y	334
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99035-6 of GreenWaterC
+			properties
+				x	464
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99035-7 of GreenWaterB
+			properties
+				x	344
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99035-8 of GreenWaterA
+			properties
+				x	119
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99036
+	properties
+		template 30701
+		west 99035
+		flags	0
+	end
+	objects
+		object GreenWaterD-99036-0 of GreenWaterD
+			properties
+				x	415
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterC-99036-1 of GreenWaterC
+			properties
+				x	315
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object GreenWaterA-99036-2 of GreenWaterA
+			properties
+				x	68
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object GreenWaterB-99036-3 of GreenWaterB
+			properties
+				x	233
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-99036-4 of Shroom2
+			properties
+				x	239
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock3-99036-5 of Rock3
+			properties
+				x	402
+				y	205
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99020
+	properties
+		template 32301
+		east 99019
+		flags	0
+	end
+	objects
+		object Chair-99020-0 of Chair
+			properties
+				x	371
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-99020-1 of Chair
+			properties
+				x	321
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-99020-2 of Chair
+			properties
+				x	430
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-99020-3 of Chair
+			properties
+				x	495
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-99020-4 of FireB
+			properties
+				x	440
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorA-99020-5 of CellFloorA
+			properties
+				x	442
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-99020-6 of Embers
+			properties
+				x	441
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-99020-7 of FireC
+			properties
+				x	434
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99019
+	properties
+		template 30702
+		east 99018
+		west 99020
+		north 99021
+		flags	152
+	end
+	objects
+		object WoodNymph-99019-0 of WoodNymph
+			properties
+				x	132
+				y	286
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-99019-1 of WoodNymph
+			properties
+				x	103
+				y	260
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Torch-99019-2 of Torch
+			properties
+				x	560
+				y	230
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99018
+	properties
+		template 30901
+		east 99017
+		west 99019
+		flags	136
+	end
+	objects
+		object Torch-99018-0 of Torch
+			properties
+				x	235
+				y	232
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99017
+	properties
+		template 31101
+		west 99018
+		flags	136
+	end
+	objects
+		object Faery-99017-0 of Faery
+			properties
+				x	103
+				y	297
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Faery-99017-1 of Faery
+			properties
+				x	91
+				y	265
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-99017-2 of DungeonBackDoor
+			properties
+				x	568
+				y	222
+				loop	2
+				linkTo	DungeonBackDoor-99000-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-99017-3 of Torch
+			properties
+				x	439
+				y	242
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99000
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object DungeonBackUp-99000-0 of DungeonBackUp
+			properties
+				x	327
+				y	225
+				loop	2
+				linkTo	movingRock1243-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-99000-1 of DungeonBackDoor
+			properties
+				x	100
+				y	252
+				loop	0
+				linkTo	DungeonBackDoor-99017-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-99000-2 of DungeonBackDoor
+			properties
+				x	539
+				y	281
+				loop	1
+				linkTo	DungeonBackDoor-99066-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-99000-3 of Sign
+			properties
+				x	208
+				y	236
+				loop	0
+			end
+			base described
+				text	"All things are permitted as long as the balance is maintained."
+			end
+		end
+		object ThrowingDagger-99000-4 of ThrowingDagger
+			properties
+				x	123
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object ThrowingDagger-99000-5 of ThrowingDagger
+			properties
+				x	123
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-99000-6 of Torch
+			properties
+				x	224
+				y	243
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object Torch-99000-7 of Torch
+			properties
+				x	455
+				y	247
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+		object CellFloorB-99000-8 of CellFloorB
+			properties
+				x	125
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object CellFloorG-99000-9 of CellFloorG
+			properties
+				x	536
+				y	256
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 99066
+	properties
+		template 32301
+		east 99067
+		flags	64
+	end
+	objects
+		object UndeadNecromancer-99066-0 of UndeadNecromancer
+			properties
+				x	624
+				y	282
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-99066-1 of UndeadNecromancer
+			properties
+				x	606
+				y	254
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-99066-2 of DungeonBackDoor
+			properties
+				x	520
+				y	201
+				loop	2
+				linkTo	DungeonBackDoor-99000-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-99066-3 of Torch
+			properties
+				x	403
+				y	212
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99067
+	properties
+		template 31301
+		east 99068
+		west 99066
+		flags	64
+	end
+	objects
+		object Torch-99067-0 of Torch
+			properties
+				x	78
+				y	225
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99068
+	properties
+		template 32201
+		east 99069
+		west 99067
+		north 99070
+		flags	80
+	end
+	objects
+		object DemonRat-99068-0 of DemonRat
+			properties
+				x	396
+				y	275
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-99068-1 of DemonRat
+			properties
+				x	353
+				y	251
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object Torch-99068-2 of Torch
+			properties
+				x	322
+				y	237
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99069
+	properties
+		template 30201
+		west 99068
+		flags	0
+	end
+	objects
+		object Embers-99069-0 of Embers
+			properties
+				x	320
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-99069-1 of FireC
+			properties
+				x	313
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-99069-2 of FireB
+			properties
+				x	317
+				y	281
+				loop	1
+			end
+			base described
+			end
+		end
+		object CellFloorF-99069-3 of CellFloorF
+			properties
+				x	309
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-99069-4 of Chair
+			properties
+				x	543
+				y	288
+				loop	1
+			end
+			base described
+			end
+		end
+		object Chair-99069-5 of Chair
+			properties
+				x	481
+				y	271
+				loop	1
+			end
+			base described
+			end
+		end
+		object Chair-99069-6 of Chair
+			properties
+				x	421
+				y	263
+				loop	1
+			end
+			base described
+			end
+		end
+		object Chair-99069-7 of Chair
+			properties
+				x	230
+				y	247
+				loop	2
+			end
+			base described
+			end
+		end
+		object Torch-99069-8 of Torch
+			properties
+				x	168
+				y	230
+				loop	0
+			end
+			base described
+				text	"You see a torch burning brightly."
+			end
+		end
+	end
+end
+room 99085
+	properties
+		template 30805
+		east 99084
+		flags	0
+	end
+	objects
+		object Web7-99085-0 of Web7
+			properties
+				x	227
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-99085-1 of Skull
+			properties
+				x	206
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99085-2 of LavaA
+			properties
+				x	122
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99085-3 of LavaB
+			properties
+				x	509
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99085-4 of LavaC
+			properties
+				x	312
+				y	334
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99084
+	properties
+		template 32101
+		east 99083
+		west 99085
+		north 99086
+		flags	216
+	end
+	objects
+		object Medusa-99084-0 of Medusa
+			properties
+				x	251
+				y	179
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99084-1 of HowlingTerror
+			properties
+				x	304
+				y	219
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object HowlingTerror-99084-2 of HowlingTerror
+			properties
+				x	200
+				y	215
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object LavaF-99084-3 of LavaF
+			properties
+				x	539
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99084-4 of LavaB
+			properties
+				x	89
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99084-5 of LavaC
+			properties
+				x	284
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99084-6 of LavaA
+			properties
+				x	471
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99084-7 of LavaC
+			properties
+				x	592
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99083
+	properties
+		template 32403
+		east 99082
+		west 99084
+		flags	0
+	end
+	objects
+		object LavaA-99083-0 of LavaA
+			properties
+				x	145
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaB-99083-1 of LavaB
+			properties
+				x	396
+				y	329
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaC-99083-2 of LavaC
+			properties
+				x	585
+				y	333
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99082
+	properties
+		template 30703
+		east 99081
+		west 99083
+		flags	200
+	end
+	objects
+		object HowlingTerror-99082-0 of HowlingTerror
+			properties
+				x	246
+				y	278
+				loop	0
+				color	770
+			end
+			base character
+			end
+		end
+		object Ghost-99082-1 of Ghost
+			properties
+				x	237
+				y	253
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Ghost-99082-2 of Ghost
+			properties
+				x	179
+				y	288
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object LavaA-99082-3 of LavaA
+			properties
+				x	118
+				y	331
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-99082-4 of LavaC
+			properties
+				x	307
+				y	328
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-99082-5 of LavaB
+			properties
+				x	503
+				y	326
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-99082-6 of Stalagmite4
+			properties
+				x	571
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-99082-7 of Stalagmite1
+			properties
+				x	337
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99081
+	properties
+		template 30703
+		east 99076
+		west 99082
+		flags	136
+	end
+	objects
+		object LavaC-99081-0 of LavaC
+			properties
+				x	193
+				y	329
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaC-99081-1 of LavaC
+			properties
+				x	311
+				y	330
+				loop	1
+			end
+			base described
+			end
+		end
+		object LavaB-99081-2 of LavaB
+			properties
+				x	509
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99081-3 of LavaA
+			properties
+				x	15
+				y	322
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-99081-4 of Rock1
+			properties
+				x	295
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99076
+	properties
+		template 32202
+		east 99075
+		west 99081
+		north 99077
+		flags	152
+	end
+	objects
+		object Ghost-99076-0 of Ghost
+			properties
+				x	320
+				y	189
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object ImpNecromancer-99076-1 of ImpNecromancer
+			properties
+				x	101
+				y	260
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object ImpNecromancer-99076-2 of ImpNecromancer
+			properties
+				x	285
+				y	241
+				loop	2
+				color	18
+			end
+			base character
+			end
+		end
+		object LavaD-99076-3 of LavaD
+			properties
+				x	302
+				y	359
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaF-99076-4 of LavaF
+			properties
+				x	160
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 99075
+	properties
+		template 30701
+		west 99076
+		flags	136
+	end
+	objects
+		object ImpNecromancer-99075-0 of ImpNecromancer
+			properties
+				x	28
+				y	257
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object DemonRat-99075-1 of DemonRat
+			properties
+				x	6
+				y	284
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-99075-2 of DemonRat
+			properties
+				x	34
+				y	251
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object LavaB-99075-3 of LavaB
+			properties
+				x	100
+				y	328
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaA-99075-4 of LavaA
+			properties
+				x	353
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

@@ -1,0 +1,19 @@
+quest  158 #6403-01-530        #Troels, Valhalla Inn, Asgard, 6911
+
+name  "Troels' Carving Knife"
+type  fedex
+
+proposal  "Carved stork, you're wanting, is it?  I did a piece like that a while back.  It's still around here.  Fancy somebody wanting my bits of carving.  I'll be glad to let you have it, friend, if you'll do me a small favor in return.  What about it?"
+
+declined  "Never mind, then."
+
+accepted  "My favorite carving knife is dull, and Nattan over at the weapon shop is putting a new edge on it for me."     
+
+reminder   "Pick up my carving knife from Nattan."
+
+completed  "Many thanks, friend.  Here's that carved stork for you."
+
+getItem   qCarvingKnife
+reward   qCarvedStork 
+end
+

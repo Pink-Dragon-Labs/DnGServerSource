@@ -1,0 +1,19 @@
+quest  188 #6610-01-330        # Lari, Food Emporium, Monmouth, 6303
+
+name  "Flower Seed"
+type  fedex
+
+proposal  "For the proprietor of Sand and Roses, yes.  Stripe are tasty, and when smoked absolutely delicious! If you haven't tasted them, you haven't lived!  I did not want to package his order until the transport arrived (you don't mind if I call you transport, do you?) because it keeps them in the best condition.  Would you do me a quick little favor while I prepare them? Fenia has some flower seed for me.  She's my cousin, and she grows the most beautiful flowers!  Will you go fetch my seed?"
+
+declined  "Never mind."
+
+accepted  "Fenia has it in her shop.  She's the Monmouth healer."
+
+reminder   "Fenia has some flower seed for me."
+
+completed  "Thanks ever so much.  Have a good trip back."
+
+getItem   qFlowerSeed
+reward   qSmokedStripe 
+end
+

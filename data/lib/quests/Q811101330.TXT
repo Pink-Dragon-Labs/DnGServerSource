@@ -1,0 +1,19 @@
+quest 314 #8111-01-330   # (Szumi, General Store, 6601)
+
+name  "Szumi's Note"
+type  fedex
+
+proposal  "Hmphff.  You want a vial of Loch Dread Water, do you?  I've got some, but I'm not handing it over for nothing.  You can do me a favor first.  I want my pouch but I don't want to go listen to my cranky cousin blather on and on. I'll give you the Loch Dread water if you'll go get my pouch.  Will you do it?"
+
+declined  "Then you won't get the Loch Dread water."
+
+accepted  "Go get it, then.  See old Slug at Dinnertime."
+
+reminder   "Go get my pouch from Slug."
+
+completed  "Back from Slug, I see.  Good.  Here's the vial of Loch Dread water."
+
+getItem qSzumiPouch
+reward qLochDreadWater
+end 
+

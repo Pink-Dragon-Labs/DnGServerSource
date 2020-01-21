@@ -1,0 +1,15 @@
+quest 315 #8111-01-335   #(Slug, Dinnertime, 6602)
+
+name  "Pouch for Szumi"
+type  fedex
+
+proposal  "So you found Szumi, huh.  I suppose you don't think she's a cranky elf.  Just shows what you know.  She can have her precious pouch. I suppose you'll carry it to her?"
+
+declined  "Never mind, then."
+
+accepted  "Take it."
+
+reminder  "Haven't you taken that pouch back to Szumi yet?"
+
+reward  qSzumiPouch
+end

@@ -1,0 +1,17 @@
+quest  180 #6504-01-540        # Minka, Feel Your Best, Asgard, healer, 6906
+
+name  "Delivery for Minka"
+type  fedex
+
+proposal  "So he's still working on his experiments.  I do think he is on to something with his lotion.  He seems to have the mind of a scientist.  I'm glad to be part of it.  I've got some lemon balm right here.  Will you take it to him?"
+
+declined  "What a pity.  Surely you'll reconsider."
+
+accepted  "Here you are.  Give him my greetings."
+
+reminder   "Lompoc is probably watching for you to return with that lemon balm."
+
+reward   qLemonBalm 
+end
+
+

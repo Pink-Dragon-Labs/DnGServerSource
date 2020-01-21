@@ -1,0 +1,19 @@
+quest  62 #6102-01-425        #Frick, Frick's General Store, giant, Murias, 6206
+
+name  "Frick Needs Help"
+type  fedex
+
+proposal  "Yeb, I'b got id.  I'b got a very bad allergy, altho.  Makes by head ache.  Could you ged be some pain medithine in Uthk?  I need the giant thuff.  I'b a giant, and I thing that giant thuff workth betht.  Would you do ith?" 
+
+declined  "By poor head."
+
+accepted  "Go quick.  I'b mitherable."
+
+reminder   "Pain medithine in Uthk, for giantth."
+
+completed  "Thang u.  Hereth the ancient axehead."
+
+getItem   qFrickHeadMed
+reward   qAncientAxehead 
+end
+

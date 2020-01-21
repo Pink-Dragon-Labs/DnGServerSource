@@ -1,0 +1,19 @@
+quest  377 #80001-01-430      # Fenia, To Your Health, Monmouth, 6309
+
+name  "An Interesting Plant"
+type  fedex
+
+proposal  "Welcome, friend.  You've come from Lari, haven't you?  I had such wonderful lavender this year that I harvested a huge amount and still have a beautiful lavender garden.  I do believe that the aroma itself has some healing properties.  I'll just wrap it up for her.  Would you be willing to do an errand for me, first?  Lalana sent word that she found an interesting plant on a tramp through the swamp.  Would you pop over to her place and pick it up?"
+
+declined  "No?  Too bad."
+
+accepted  "I'm always interested in new plants.  This lavender will be wrapped when you return."
+
+reminder   "Lalana has a package for me over at her place of business."
+
+completed  "Well, now, that is an interesting looking plant.  Thanks.  Here's the lavender for Lari."
+
+getItem   qInterestingPlant
+reward   qLavender 
+end
+

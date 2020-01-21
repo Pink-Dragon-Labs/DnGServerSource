@@ -1,0 +1,19 @@
+quest  378 #80001-01-435        # Lalana, The Last Call, tavern, Monmouth, 6304
+
+name  "Lunch for Lalana"
+type  fedex
+
+proposal  "Isn't that kind of you.  I don't know plants nearly as well as she does, but I've never seen one like this before.  I'll be interested to know what she makes of it.  Could be as common as common could be though.  We'll see.  I wonder now, would you do an errand for me as long as you're out running around town.  Upa has a bit of lunch ready for me.  Would you pick it up?"
+
+declined  "I'll take this plant to Fenia myself, then, and pick up my lunch."
+
+accepted  "Thank you kindly, friend."
+
+reminder   "Upa has a bit of lunch ready for me."
+
+completed  "I appreciate this, friend.  Tell Fenia to let me know what she thinks of the plant."
+
+getItem   qLunch
+reward   qInterestingPlant 
+end
+

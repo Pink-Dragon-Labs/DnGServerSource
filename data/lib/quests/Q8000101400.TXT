@@ -1,0 +1,19 @@
+quest  375 #80001-01-400      #Spidey, Cave of Thieves, 80001
+
+name  "Vanilla Coffee Beans"
+type  fedex
+
+proposal  "The book you're gonna need is called Pickpocketing Mastery.  I like that title. It's a good book.  You'll learn a lot of very useful things from it.  Then you'll only have one level left to be a Grand-Master.  You're doing OK, and I mean really OK, in all your skill practice.  I hear things.  People know I'm interested, y'see, and they tell me about pick pocketers.  Of course, the best ones aren't talked about because they aren't seen.  That's what you wanna do.  Learn how to do it so nobody knows.  To get your book, you're gonna hafta to fetch some coffee beans.  I like the vanilla kind, if you see any.  I'm almost out, and runnin' outta coffee is awful.  Will you do it?"
+
+declined  "Don't get discouraged now.  You're doing OK."
+
+accepted  "Good-O.  Monmouth usually has a supply."
+
+reminder   "You're looking for coffee beans, vanilla if you can find them."
+
+completed  "Good-O.  Whoops, you did find vanilla!  Here's the book of skills to learn."
+
+getItem   qCoffeeBeans
+reward    skbPickpocketingIV 
+end
+

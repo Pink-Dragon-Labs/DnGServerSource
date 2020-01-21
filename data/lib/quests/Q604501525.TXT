@@ -1,0 +1,19 @@
+quest  34 #6045-01-525        # Janria, Fantastic Togs, Arimathor, 6803
+
+name  "Jellied Berries for Janria"
+type  fedex
+
+proposal  "For Randa!  So my message did get through.  I was so worried it wouldn't and no telling when that flight-headed youngster would remember.  Trying on clothes, he was, and put it down.  Then he walked out without it and left town before I could catch him.  I knew it was a valued tool, so I locked it up for safekeeping.  I'll have to get it.  I wonder if you would be willing to do me a huge favor.  My sister has heard of the jellied berries of Usk.  Her naming day is coming up and I want to surprise her with some.  I know it's a lot to ask, but would you fetch me some?"
+
+declined  "It is a long way, isn't it."
+
+accepted  "I'll have the hand drill ready."
+
+reminder   "You're still going for those jellied berries of Usk aren't you?"
+
+completed  "Sanria will be out of her mind with excitement.  She runs the food shop next door and is always experimenting with new dishes.  Here's the hand drill."
+
+getItem   qJelliedBerries
+reward   qHandDrill 
+end
+

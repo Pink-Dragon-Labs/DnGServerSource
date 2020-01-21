@@ -1,0 +1,428 @@
+object Web1
+	properties
+		name "Web"
+		view 2790
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web2
+	properties
+		name "Web"
+		view 2791
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web3
+	properties
+		name "Web"
+		view 2792
+                makePolygon 0
+		action 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web4
+	properties
+		name "Web"
+		view 2793
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web5
+	properties
+		name "Web"
+		view 2794
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web6
+	properties
+		name "Web"
+		view 2795
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web7
+	properties
+		name "Web"
+		view 2796
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web8
+	properties
+		name "Web"
+		view 2797
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web9
+	properties
+		name "Web"
+		view 2798
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Web10
+	properties
+		name "Web"
+		view 2799
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a spider web."
+	end
+end
+
+object Shroom1
+	properties
+		name "Mushroom"
+		view 2810
+		action 0
+	end
+
+	base described
+		text "You see a mushroom."
+	end
+end
+
+object Shroom2
+	properties
+		name "Mushroom"
+		view 2811
+		action 0
+	end
+
+	base described
+		text "You see a mushroom."
+	end
+end
+
+object Shroom3
+	properties
+		name "Mushroom"
+		view 2812
+		action 0
+	end
+
+	base described
+		text "You see a mushroom."
+	end
+end
+
+object Shroom4
+	properties
+		name "Mushroom"
+		view 2813
+		action 0
+	end
+
+	base described
+		text "You see a mushroom."
+	end
+end
+
+object Shroom5
+	properties
+		name "Mushroom"
+		view 2814
+		action 0
+	end
+
+	base described
+		text "You see a mushroom."
+	end
+end
+
+object Shroom6
+	properties
+		name "Mushroom"
+		view 2815
+		action 0
+	end
+
+	base described
+		text "You see a mushroom."
+	end
+end
+
+object Moss1
+	properties
+		name "Moss"
+		view 2820
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a patch of moss."
+	end
+end
+
+object Moss2
+	properties
+		name "Moss"
+		view 2821
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a patch of moss."
+	end
+end
+
+object Moss3
+	properties
+		name "Moss"
+		view 2822
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a patch of moss."
+	end
+end
+
+object Moss4
+	properties
+		name "Moss"
+		view 2823
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a patch of moss."
+	end
+end
+
+object Moss5
+	properties
+		name "Moss"
+		view 2824
+		action 0
+                makePolygon 0
+	end
+
+	base described
+		text "You see a patch of moss."
+	end
+end
+
+object Moss6
+	properties
+		name "Moss"
+		view 2825
+                makePolygon 0
+		action 0
+	end
+
+	base described
+		text "You see a patch of moss."
+	end
+end
+
+object Rock1
+	properties
+		name "Rock"
+		view 2875
+		action 0
+	end
+
+	base described
+		text "You see a rock."
+	end
+end
+
+object Rock2
+	properties
+		name "Rock"
+		view 2876
+		action 0
+	end
+
+	base described
+		text "You see a rock."
+	end
+end
+
+object Rock3
+	properties
+		name "Rock"
+		view 2877
+		action 0
+	end
+
+	base described
+		text "You see a rock."
+	end
+end
+
+object Rock4
+	properties
+		name "Rock"
+		view 2878
+		action 0
+	end
+
+	base described
+		text "You see a rock."
+	end
+end
+
+object Bones
+	properties
+		name "Bones"
+		view 2900
+		action 0
+	end
+
+	base described
+		text "You see the remains of an unfortunate adventurer."
+	end
+
+	base container
+		weightCapacity 140
+	end
+end
+
+object Skull
+	properties
+		name "Skull"
+		view 2901
+		action 0
+	end
+
+	base described
+		text "You see a skull."
+	end
+end
+
+object Column
+	properties
+		name "Column"
+		view 2750
+		action 0
+	end
+
+	base described
+		text "You see a column of rock."
+	end
+end
+
+
+object FatColumn
+	properties
+		name "Column"
+		view 2751
+		action 0
+	end
+
+	base described
+		text "You see a column of rock."
+	end
+end
+
+object Stalagmite1
+	properties
+		name "Stalagmite"
+		view 2780
+		action 0
+	end
+
+	base described
+		text "You see a stalagmite."
+	end
+end
+
+object Stalagmite2
+	properties
+		name "Stalagmite"
+		view 2781
+		action 0
+	end
+
+	base described
+		text "You see a stalagmite."
+	end
+end
+
+object Stalagmite3
+	properties
+		name "Stalagmite"
+		view 2782
+		action 0
+	end
+
+	base described
+		text "You see a stalagmite."
+	end
+end
+
+object Stalagmite4
+	properties
+		name "Stalagmite"
+		view 2783
+		action 0
+	end
+
+	base described
+		text "You see a stalagmite."
+	end
+end

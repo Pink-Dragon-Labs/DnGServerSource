@@ -1,0 +1,15 @@
+quest 384 #80001-01-540      # Fenemi, Nosh Shop, Drune, 8309
+
+name  "Delivery to Wanda"
+type  fedex
+
+proposal  "Yes, yes, and it's ready for her.  She's a good elf-lady, and due much respect.  She also frightens me just a little, though you needn't say I said so. My bones quiver just remembering one of her baleful glances.  You've heard about Ygior's wonderful discovery, haven't you?  Popping corn.  Isn't it great?  Put us on the map, it has.  Drune isn't going to known as just a dusty little town any more.  But enough chatter.  Wanda is wanting her lunch, and I'm not the elf to keep her waiting.  You'll deliver it, will you?" 
+
+declined  "Great Enid's Ghost!  Why didn't you say so at once?  I've got to get it to her."
+
+accepted  "Then hurry off with it."
+
+reminder   "Yikes!  Haven't you taken that lunch to Wanda yet?  She'll be displeased with both of us, and you'll not enjoy the sensation.  Go quickly!"
+
+reward   qWandaLunch 
+end

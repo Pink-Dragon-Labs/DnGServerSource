@@ -1,0 +1,19 @@
+quest  366 #80001-01-100      #Spidey, Cave of Thieves, 80001
+
+name  "Fresh Baked Bread"
+type  fedex
+
+proposal  "Lemme look you over.  You've gotta be quick.  Little is best, like me.  A few really big ones can do it, though.  One giant is good, really good.  I dunno about you.  We'll hafta try you and see.  But first you're gonna hafta to go find something.  Sorta prove yourself, see.  Don't be pushed outta shape.  It's the same for everyone.  Lemme see, now.  I guess you'll hafta go find me a hunk of bread, fresh baked bread.  I'm kinda hungry, and I like fresh baked bread.  Whaddya say?"
+
+declined  "Awww.  Don't give up before you start."
+
+accepted  "Fresh baked, now.  Don't go buying some regular bread.  You can find it if you look.  There's supposed to be a good bakery in Wen."
+
+reminder   "Get me some fresh baked bread."
+
+completed  "Ahhh, I knew you were comin'.  The aroma of fresh bread got here before you did.  Here's a book on the basics of pickpocketing.  You gotta study it."
+
+getItem   qFreshBread
+reward   skbPickpocketingI 
+end
+

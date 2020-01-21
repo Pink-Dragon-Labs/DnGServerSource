@@ -1,0 +1,19 @@
+quest  120 #6311-01-425        # Basial, Food Cart, Kurz, 7016
+
+name  "A Pest Deterrent for Basial"
+type  fedex
+
+proposal  "Why would you want something like that?  Pests, that's what they are, pests!  Flying around, honking that annoying sound, scavenging and littering.  Would you believe they try to steal from my Food Cart?  Fact!  But will the constables do anything about it?  No, they just laugh at me.  Proper authorities would take steps.  And here you come, wanting a feather.  I'll make a deal with you.  You'll get your feather if you'll go to Caer Fandry for me.  Will you?" 
+
+declined  "Dratted birds!"
+
+accepted  "There's a fellow in Caer Fandry with some kind of spray deterrent for pests.  I want it to use on those annoying flying nudniks. 
+
+reminder   "Find me a spray deterrent in Caer Fandry."
+
+completed  "Take your feather and stand back!  I'll see if this stuff works."
+
+getItem   qDeterrent
+reward   qFeatherKurz 
+end
+

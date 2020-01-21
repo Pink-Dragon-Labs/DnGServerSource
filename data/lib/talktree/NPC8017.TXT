@@ -1,0 +1,23 @@
+id 8017
+
+banner "I am Kyluri, and you've entered Battling Mage Magic Shop. How may I help you?"
+
+topic "Tell me about Kurz."
+	text  "I sorry to say we do have more than our share of thieves and cutthroats."    	text  "There are always some rough characters hanging around.  Kurz is not always a safe place, but it's not all evil."
+	text "Some would have you believe that Kurz is a town full of evil folk.  I don't hold with that notion, though it is very wise to be cautious here."
+	text "When you've lived as long as I, you know that there are all kinds of people in the world.  Some good folks live hereabouts."
+end
+
+topic "Have you heard any interesting rumors?"
+   text "I don't know any, Adventurer. I don't think they're very productive."
+end      
+
+topic "Can I do anything for you?"
+   text "I sometimes have tasks, but I have nothing for you today."
+end
+
+topic  "Ciobhan wants some metal shielding." q191:0 #q6610-01-425:0
+	quest 192 #6610-01-430
+	text  "You have it.  Don't keep asking.  It's not safe."
+end
+

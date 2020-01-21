@@ -1,0 +1,16 @@
+quest  221 6815-01-125        # Lireen, Healing Magic, Drune, 8303
+
+name  "Lireen's Gift"
+type  fedex
+
+proposal  "Are you apprenticed to her, then?  That is good.  She is one of the finest healers we have, and there is certainly need for healers with all the combat wounds suffered.  If some of these young sprouts--and I mean the young of elves, humans and giants alike--would just take some combat training before bashing each other it would cut down the wounds.  But perhaps that is too much to ask.  I hope you stay the course, apprentice.  We need you.  You will take this small gift back to Meta, won't you?"  
+
+declined  "Never mind, then."
+
+accepted  "Good."
+
+reminder   "Don't forget to deliver that gift to Meta."
+
+reward   qPotionHolder  
+end
+

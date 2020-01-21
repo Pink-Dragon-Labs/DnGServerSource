@@ -1,0 +1,18 @@
+quest 115 #6308-01-525  #(Corea, Spiked Glove in Kurz, 8012) 
+
+name  "The Gold Nugget"
+type  fedex
+
+proposal  "Would you be interested in a little project, a mutually beneficial project?  Since you need a Scrap of Faerie Mantle, which I just happen to have, one gold nugget will take it.  Not just any gold nugget, though.  Some gal in Leinster has the one I want.  It's supposed to be shaped sort of like a mouse.  How about it?  Will you do it?" 
+
+declined  "I'm sure someone will do it."
+
+accepted  "There's likely to be plenty of interest in a Scrap of Faerie Mantle.  I'd advise you to hustle."
+
+reminder  " Some gal from Leinster has the gold nugget.  I heard she ran a tavern."
+
+completed "Dang me, if you didn't do it.  Sort of does look like a mouse, doesn't it.  Here's that old scrap you wanted."
+
+getItem  qGoldNugget
+reward  qFaerieScrap
+end

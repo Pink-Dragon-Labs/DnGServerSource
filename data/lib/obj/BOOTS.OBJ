@@ -1,0 +1,456 @@
+#
+# define the different types of Shoes
+#
+
+object Shoes of Clothing
+	properties
+		name "Shoes"
+		basicName "shoes"
+		view 10700
+		clutStart 58
+		color 100
+		value 10
+		armor 10
+		health 40
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base wearable
+		areaWorn 7
+		layer 20
+	end
+
+	components
+		ClothBolt
+	end
+
+	base described
+		text "You see a pair of shoes.""
+		shopText "These shoes will suit you well!"
+	end
+end
+
+object HighBoots of Shoes
+	properties
+		name "High Boots"
+		view 10600
+		clutStart 58
+		color 100
+		value 30
+		health 50
+		armor 15
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	components
+		ClothBolt
+	end
+
+	base described
+		text "You see a pair of high boots."
+		shopText "Here is a well crafted pair of high boots."
+	end
+end
+
+object ExoticBoots of HighBoots
+end
+
+#
+# the LOW-Boots
+#
+
+object LowBoots of Shoes
+	properties
+		name "Low Boots"
+		view 10700
+		color 100
+		value 15
+		armor 10
+		health 40
+	end
+
+	base carryable
+		weight 0.7
+	end
+
+	components
+		ClothBolt
+	end
+
+	base described
+		text "You see a pair of Low Boots."
+		shopText "Here are some low boots, the latest style I hear."
+	end
+end
+
+object ExoticLowBoots of LowBoots
+end
+
+#
+# define special armored BOOTS
+#
+
+object LeatherBoots of HighBoots
+	properties
+		name "Leather Boots"
+		color 73
+		value 50
+		armor 25
+		health 100
+		strength 1
+		armorType 1
+	end
+
+	components
+		LeatherBolt
+		LeatherBolt
+	end
+
+	base carryable
+		weight 1.4
+	end
+
+	base described
+		text "You see a pair of sturdy leather boots."
+		shopText "These wonderful leather boots will protect your feet from snakes."
+	end
+end
+
+object TrollBoots of HighBoots
+	properties
+		name "Troll Leather Boots"
+		color 88
+		armor 50
+		health 150
+		value 110
+		strength 1
+		armorType 1
+	end
+
+	components
+		TrollHideBolt
+		TrollHideBolt
+	end
+
+	base carryable
+		weight 2.0
+	end
+
+	base described
+		text "You see a pair of Troll-Leather High boots."
+		shopText "These boots are crafted from the hide of a Troll... tougher than normal leather for sure."
+	end
+end
+
+object LeatherLowBoots of LowBoots
+	properties
+		name "Leather Low Boots"
+		color 73
+		armor 20
+		health 100
+		value 35
+		strength 1
+		armorType 1
+	end
+
+	components
+		LeatherBolt
+	end
+
+	base described
+		text "You see a pair of durable leather low boots."
+		shopText "Nice 'n comfy, these are.  Quite a bargain, too."
+	end
+end
+
+object TrollLowBoots of LeatherLowBoots
+	properties
+		name "Troll Low Boots"
+		color 88
+		armor 45
+		health 150
+		value 95
+		strength 1
+	end
+
+	components
+		TrollHideBolt
+		TrollHideBolt
+	end
+
+	base carryable
+		weight 1.3
+	end
+
+	base described
+		text "You see a pair of Troll-Leather Low boots."
+		shopText "These fine low boots are crafted of troll hide."
+	end
+end
+
+object Sollerets of HighBoots
+	properties
+		name "Sollerets"
+		color 100
+		value 150
+		health 150
+		armor 80
+		strength 2
+		armorType 3
+
+		# remove rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	base described
+		text "You see armored boots called Sollerets."
+		shopText "These plated boots are called Sollerets.  They will protect your feet from harm."
+	end
+end
+
+object IronSollerets of Sollerets
+	properties
+		name "Iron Sollerets"
+		value 75
+		health 100
+		color 104
+		strength 2
+
+		# add rust weakness
+		affect 11 3 0 -1
+	end
+
+	components
+		IronBar
+		IronBar
+	end
+
+	base carryable
+		weight 7.0
+	end
+
+	base described
+		text "You see a pair of rather ugly iron sollerets."
+		shopText "These iron sollerets may not be pretty but they'll do the job."
+	end
+end
+
+object SteelSollerets of Sollerets
+	properties
+		name "Steel Sollerets"
+		value 150
+		health 150
+		color 99
+		strength 2
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	components
+		SteelBar
+	end
+
+	base described
+		text "You see a pair of steel-plated sollerets."
+		shopText "Here are a pair of steel-plated sollerets. They will protect your feet quite well."
+	end
+end
+
+
+object TemperedSteelSollerets of Sollerets
+	properties
+		name "Tempered Steel Sollerets"
+		value 250
+		health 200
+		color 100
+		strength 3
+	end
+
+	base carryable
+		weight 6.0
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+
+	base described
+		text "You see a pair of tempered-steel sollerets."
+		shopText "These sollerets are plated with steel that has been tempered in the forge to a fine quality.  They are very durable."
+	end
+end
+
+object MythrilSollerets of Sollerets
+	properties
+		name "Mythril Sollerets"
+		value 1400
+		health 300
+		color 83
+		strength 3
+	end
+
+	base carryable
+		weight 3.5
+	end
+
+	components
+		MythrilBar
+	end
+
+	base described
+		text "You see a pair of mythril-plated sollerets."
+		shopText "These sollerets are plated with mythril, an extremely light and durable alloy.  These sollerets are almost as light as your typical pair of leather boots, but much more durable."
+	end
+end
+
+object ObsidianiteSollerets of Sollerets
+	properties
+		name "Obsidianite Sollerets"
+		value 4500
+		health 450
+		color 98
+		strength 4
+	end
+
+	base carryable
+		weight 8.5
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+
+	base described
+		text "You see a pair of obsidianite-molded sollerets."
+		shopText "These fine sollerets are molded from obsidianite alloys.  Wearing these, you could drop a maul on your toe and not even feel it."
+	end
+end
+
+object AdmantiumSollerets of Sollerets
+	properties
+		name "Admantium Sollerets"
+		value 7500
+		health 650
+		color 54
+		strength 5
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+	end
+
+	base described
+		text "You see a pair of admantium-plated sollerets."
+		shopText "These sollerets have a thick plating of admantium - the heaviest and strongest metal known."
+	end
+end
+
+#
+# Magic Boots
+#
+
+
+object bDexterity of HighBoots
+	properties
+		name "Boots of Nimbleness"
+		value 4500
+		armor 25
+		health 350
+		color -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+	end
+
+	base described
+		idText "You see a pair of magical Boots of Nimbleness."
+		shopText "These are the wonderous Boots of Nimbleness."
+	end
+end
+
+object bClumsiness of HighBoots
+	properties
+		name "Boots of Tripping"
+		value 100
+		armor 25
+		health 350
+		color -1
+
+		# cursed
+		affect 46 0 0 -1
+	end
+
+	actions
+		vBePutOn setAffect dobj 60 0 0 -1
+		vBeTakenOff clearAffect dobj 60 0 0
+	end
+
+	base described
+		idText "You see the Boots of Tripping.  These boots will make you quite clumsy."
+		shopText "These Boots of Tripping will unfortunately make you clumsy."
+	end
+end
+
+## Newbie stuff
+object NewbieBoots of LowBoots
+	properties
+		name "Starting Boots"
+		color 99
+		value 6
+	end
+
+	base described
+		text "You see a simple pair of low boots."
+	end
+end
+
+object NewbieLeatherBoots of LeatherBoots
+	properties
+		name "Newbie Leather Boots"
+		color 99
+		value 6
+		health 150
+	end
+
+	base described
+		text "You see a simple pair of high boots."
+	end
+end
+
+object NewbieSollerets of SteelSollerets
+	properties
+		name "Newbie Sollerets"
+		value 10
+		color 99
+	end
+
+	base described
+		text "You see a basic pair of sollerets specifically tailored for the training warrior."
+	end
+end
+
+#------------------------------------------------------------

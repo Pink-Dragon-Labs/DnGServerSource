@@ -1,0 +1,9 @@
+name "D_Enids_Haven"
+title "Enid's Safe Haven"
+worldFile "../data/lib/world/D_ENIDS_HAVEN_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance hollowTree3239-0

@@ -1,0 +1,19 @@
+quest 24 # 6043-01-530        # Andala, Food Cart, East Leinster, 5028
+
+name  "A Tube of Red Paint"
+type  fedex
+
+proposal  "I do have a small private stock.  My mum has a knack for brewing a tasty ale.  She doesn't want to make it a business because she just wants to enjoy it as a hobby.  I've a small supply, though.  I could let you have several bottles in exchange for a favor.  It's a favor for mum, actually.  She does a bit of painting, too, and there is a special shade of red paint she wants from Wen.  Would you go for it?"
+
+declined  "That's all right."
+
+accepted  "I'm glad.  All I know is someone in Wen stocks it.  Good luck."
+
+reminder   "You're going to look for a tube of red paint in Wen."
+
+completed  "Mum will be ever so pleased.  I packed up six bottles of her private ale for you."
+
+getItem   qRedPaint
+reward   qPrivateAle 
+end
+

@@ -1,0 +1,24 @@
+id 8022
+
+banner "Greetings, Friend. Welcome to Elise's Sustenance. May I help you?"
+
+topic "Tell me about Kurz."
+        text "It's a lovely town, and it has one particularly interesting feature. It has but one food shop, and you're standing in it."
+	text "I guess you could say that Elise's is a monopoly."
+	text  "I don't take advantage of that, though.  No much, anyway."
+end
+
+topic  "Who are you?"
+	text  "The shop is named after me.  I'm Elise.  Actually, my Grandmother named it after me years so.  I was the only grandkid."
+	text  "So Granny gave me the shop when I grew up."
+	text  "She still tells me how to do things.  I listen, then do what I want."
+end 
+
+topic "Have you heard any interesting rumors?"
+        text "You know, I did. I heard that the owners of all of the other food shops in The Realm run out of food."
+        text "I don't know why they do it, but I have heard this rumor from many sources. So you'd best stock up here."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, Friend. Perhaps another time."
+end

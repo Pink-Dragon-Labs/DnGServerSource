@@ -1,0 +1,663 @@
+# Dungeonmaker World File (Tutorial.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 77800
+# Dungeon last room = 77807
+# Number of objects in dungeon = 60
+# Level 0 information:
+
+room 77802
+	properties
+		template 30501
+		south 77801
+		east 77803
+		flags	0
+	end
+	objects
+		object Sign-77802-0 of Sign
+			properties
+				x	300
+				y	242
+				loop	0
+			end
+			base described
+				text	"When you entered this room your Mail tab started flashing. Click on it, you've got mail. You will find several messages outlining many of the Realm's features such as Magic Mail, Chat, and Friends list. Feel free to read them now or simply continue your adventure. To read your mail simply click the Mail tab, select and click the message you wish to read, and click Read on the pop up. Either way your mail will remain under the Mail tab for your future reference until you erase them."
+			end
+		end
+		object Torch-77802-1 of Torch
+			properties
+				x	467
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 77803
+	properties
+		template 31301
+		east 77804
+		west 77802
+		flags	0
+	end
+	objects
+      object foodShop77803-0 of FoodShop
+         properties
+            name	"Yakitty Pennypincher"
+				x	332
+				y	236
+				loop	2
+         end
+         base talk
+            talkTreeID	77803
+         end
+         base character
+            sex	1
+            properName	"Yakitty Pennypincher (NPC)"
+            title       "the propriatrix"
+         end
+         base shop
+            buyMarkup	25
+            sellMarkup	100
+         end
+         base container
+            worn	WhiteShirt
+            worn	WhitePants
+            worn	LeatherBelt
+            worn	Goldband
+            head    1 0 1 1 2 6 0 10 9 9 7 0  
+         end
+      end
+		object Sign-77803-1 of Sign
+			properties
+				x	154
+				y	227
+				loop	0
+			end
+			base described
+				text	"Here is the shop of Yakitty Pennypincher. Click on her, she'll be happy to sell you something and bend your ear with tales of The Realm. A menu will pop up with the option to Repair, Walk To, Sell, Look At, Talk, or Shop. Clicking Repair causes a window to pop-up allowing you to fix worn armor and weapons for a fee. Selecting Walk To causes you to stand next to the shopkeeper. Look At gives you a little more detail about the shopkeeper. Selecting Talk will create a pop up where the shopkeeper will give you some information, perhaps a rumor or two or maybe even a quest. Clicking Shop causes a pop up window to open where you can purchase the items that Yakkity has for sell."
+			end
+		end
+		object Torch-77803-2 of Torch
+			properties
+				x	590
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stand-77803-3 of Stand
+			properties
+				x	323
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-77803-4 of Stool
+			properties
+				x	105
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-77803-5 of Stool
+			properties
+				x	557
+				y	238
+				loop	1
+			end
+			base described
+			end
+		end
+		object Torch-77803-6 of Torch
+			properties
+				x	55
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 77804
+	properties
+		template 30909
+		south 77805
+		west 77803
+		flags	0
+	end
+	objects
+		object RandomTutorCowl-77804-0 of RandomTutorCowl
+			properties
+				x	323
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomTutorShirt-77804-1 of RandomTutorShirt
+			properties
+				x	295
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomTutorPants-77804-2 of RandomTutorPants
+			properties
+				x	255
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBauble-77804-3 of RandomBauble
+			properties
+				x	110
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomScroll-77804-4 of RandomScroll
+			properties
+				x	119
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object pHealth-77804-5 of pHealth
+			properties
+				x	126
+				y	266
+				loop	0
+			end
+			base described
+				text	"Potion of Health. Drink this if you are hurt."
+			end
+		end
+		object Sign-77804-6 of Sign
+			properties
+				x	144
+				y	242
+				loop	0
+			end
+			base described
+				text	"Whichever god you choose to follow, you must be properly equipped and attired to represent him/her in The Realm. These items have been left here for you so that you can present yourself well. Magic items left here, if any, are each one use only items. Use them and then you lose them. But use them. That is what they are for after all. Click on each object to learn more about it or to pick it up."
+			end
+		end
+		object Sign-77804-7 of Sign
+			properties
+				x	272
+				y	242
+				loop	0
+			end
+			base described
+				text	"Clothing. Try on some new duds. Click on each item to pick them up. To try on the new pants you must first take off the pants you are wearing. Locate the worn pants in your inventory. They will have a W icon next to them. Click on them and a pop-up window will appear. Select Take Off to remove the pants. Chilly? Then put on your new pants by right clicking on them in your inventory."
+			end
+		end
+		object Sign-77804-8 of Sign
+			properties
+				x	392
+				y	244
+				loop	0
+			end
+			base described
+				text	"Dyes. You can further customize your appearance by dyeing your cloths and armor different colors. Here are 3 dyes to begin with; pick them up. They will be placed in your inventory. From your inventory click and drag the dye to the item in your inventory that you wish to change the color of and then release the mouse button. Most items can be dyed but not all. Experiment to learn the difference."
+			end
+		end
+		object WaterBottle-77804-9 of WaterBottle
+			properties
+				x	472
+				y	246
+				loop	0
+			end
+			base described
+				text	"To quench your thirst. Pick me up, find me at the bottom of your inventory, and then click on me. Select Drink. Some rooms in The Realm, such as teleporters, will not allow you to drink in them in order to prevent you from loitering. To drink you will have to move to a different room."
+			end
+		end
+		object Bread-77804-10 of Bread
+			properties
+				x	478
+				y	278
+				loop	0
+			end
+			base described
+				text	"To relieve your hunger. Pick me up, find me at the bottom of your inventory, and then click on me. Select Eat. Some rooms in The Realm, such as some dungeon entries, will not allow you to eat in them in order to prevent you from loitering. To eat you will have to move to a different room."
+			end
+		end
+		object Sign-77804-11 of Sign
+			properties
+				x	477
+				y	275
+				loop	0
+			end
+			base described
+				text	"Food and Water. Everyone needs to eat and drink. Click on the water bottle and the bread and select Look At. Follow the instructions and you'll be good to go for many hours of beast slaying, treasure trading, or gossiping in town."
+			end
+		end
+		object RandomDye-77804-12 of RandomDye
+			properties
+				x	401
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomDye-77804-13 of RandomDye
+			properties
+				x	395
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomDye-77804-14 of RandomDye
+			properties
+				x	416
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomDye-77804-15 of RandomDye
+			properties
+				x	406
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomDye-77804-16 of RandomDye
+			properties
+				x	426
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-77804-17 of Torch
+			properties
+				x	297
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 77800
+	properties
+		template 30805
+		east 77801
+		flags	0
+	end
+	objects
+		object DungeonBackUp-77800-0 of DungeonBackUp
+			properties
+				x	245
+				y	217
+				loop	2
+				linkTo trapDoor3006-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-77800-1 of Sign
+			properties
+				x	334
+				y	234
+				loop	0
+			end
+			base described
+				text	"Welcome! The Realm's divine Lords and Gods are pleased that you have chosen to serve them. To prove your worthiness you must pass a test. Succeed and the gods shall reward you, fail and... well just don't fail, it's better that way."
+			end
+		end
+		object Sign-77800-2 of Sign
+			properties
+				x	407
+				y	234
+				loop	0
+			end
+			base described
+				text	"During this adventure you will have the opportunity to learn how to: Move between rooms; Fight monsters with weapons and spells (if you're a spellcaster); Pick up items on the ground; Purchase items in a shop; Use items in your inventory; Open doors; and Use the Realm's chat features including Magic Mail. You will find that most of these are very easy to learn because The Realm is mouse-based; simply point and click. If you run into any problems just ask for help on Channel 4 under the Gossip tab. Generally there are plenty of friendly people there who are waiting to answer your questions."
+			end
+		end
+		object Sign-77800-3 of Sign
+			properties
+				x	577
+				y	227
+				loop	0
+			end
+			base described
+				text	"In order to make it easy to find your way around the Realm is laid out in a grid of square rooms. As you move your mouse towards each edge the cursor will change from an arrow with a walking figure to one of two symbols. The first is an arrow without the walking figure. This indicates that you can move in that direction into an adjoining room by left clicking. The second symbol is a circle with a diagonal slash through it indicating you cannot move out of your current room in that direction. The room you are now standing in has three circle and slash edges and, nearest this sign, is an arrow minus the walking figure edge. It is this direction towards which the gods dare you to go. Of course if your afraid you could always retreat back home through the doorway. They're watching to see how you handle what you'll find there." 
+			end
+		end
+	end
+end
+room 77801
+	properties
+		template 32601
+		west 77800
+		north 77802
+		flags	0
+	end
+	objects
+		object TutorOgre-77801-0 of TutorOgre
+			properties
+				x	441
+				y	264
+				loop	1
+			end
+			base character
+				properName	"Kruulk"
+				title	"the Lost"
+			end
+		end
+		object FireA-77801-1 of FireA
+			properties
+				x	354
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Jet-77801-2 of Jet
+			properties
+				x	-200
+				y	-200
+				loop	0
+                drop
+			end
+			base carryable
+				owner	TutorOgre-77801-0
+			end
+			base described
+			end
+		end
+		object Torch-77801-3 of Torch
+			properties
+				x	348
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-77801-4 of Sign
+			properties
+				x	147
+				y	238
+				loop	0
+			end
+			base described
+				text	"Your first test! Poor old Kruulk has been lost here for days and is therefore far weaker than his above ground friends. Perhaps you can take him. Click on him to trigger a pop-up screen. Three options will appear; Fight, Walk To, and Look At. Clicking on Fight causes you to move to a battle screen with Kruulk. Walk To causes you to stand next to him, and Look At creates another pop-up with more information about Kruulk. Normally Kruulk would be more than willing to pick a fight with you, and he would probably start the battle himself, but in his weakened state he hopes you'll leave him alone. Don't do it, go ahead and fight him. He looks like a push-over."
+			end
+		end
+		object Sign-77801-5 of Sign
+			properties
+				x	200
+				y	259
+				loop	0
+			end
+			base described
+				text	"If you start the fight and become unsure how to continue the battle simply flee (you'll be given the option to Flee at the start of every melee round) and reread these signs to answer your questions. Or ask for help on Gossip Channel 4. If you're a warrior or a thief click on attack when the battle screen pops up. Then move your sword cursor over to Kruul and click on him. The fight will begin! If you are a wizard or an adventurer use your first round of battle to cast your spell 'Kill Star'. Click on Cast Spell. A large window will pop up. Across the top of the right hand side is 5 buttons, click on the purple one (second from the right) Sorcery. In the box below click on Kill Star, in the pop up click on cast. Then move the wand cursor to Kruul and click on him to blast away. If Kruulk drops an object be sure to trade it for some gold at any convenient shop."
+			end
+		end
+		object Sign-77801-6 of Sign
+			properties
+				x	266
+				y	262
+				loop	0
+			end
+			base described
+				text	"You can safely take the time to cast at least one spell before this lumbering hulk can reach you, no problem. The next round hack away like a warrior on attack. Don't forget to pick up any loot that Kruulk drops if you win the fight. After all if you lose he most certainly will take all of yours."
+			end
+		end
+	end
+end
+room 77805
+	properties
+		template 30803
+		east 77806
+		north 77804
+		flags	72
+	end
+	objects
+		object TutorImp-77805-0 of TutorImp
+			properties
+				x	599
+				y	245
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object TutorGhost-77805-1 of TutorGhost
+			properties
+				x	580
+				y	242
+				loop	1
+			end
+			base character
+			end
+		end
+		object Torch-77805-2 of Torch
+			properties
+				x	466
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-77805-3 of Sign
+			properties
+				x	189
+				y	228
+				loop	0
+			end
+			base described
+				text	"Your reward is near. Defeat the monsters guarding the door. If you are victorious you may then try to answer the riddle that is holding the door locked. Click on the door and select Look At to receive the riddle. If you do not know the answer try asking for it on gossip channel 4, the offical Help channel where game Mentors are waiting to answer your questions. Type the answer to the riddle under the Room tab."
+			end
+		end
+		object DungeonBackDoor-77805-4 of DungeonBackDoor
+			properties
+				x	587
+				y	239
+				loop	1
+				linkTo	DungeonBackDoor-77806-5
+			end
+			actions
+				vBeAnswered open self 
+			end
+			base lockable
+			end
+			base described
+				riddleFile	"../data/riddles/riddletutor.txt"
+			end
+		end
+		object FatColumn-77805-5 of FatColumn
+			properties
+				x	692
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 77806
+	properties
+		template 30201
+		west 77805
+		flags	0
+	end
+	objects
+		object Chest-77806-0 of Chest
+			properties
+				x	306
+				y	245
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-77806-1 of Torch
+			properties
+				x	191
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-77806-2 of Lever
+			properties
+				x	474
+				y	271
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 77800 1 
+				vBeDeactivated teleport dobj 77800 1 
+			end
+			base described
+				text	"Homeward bound."
+			end
+		end
+		object Sign-77806-3 of Sign
+			properties
+				x	168
+				y	230
+				loop	0
+			end
+			base described
+				text	"Your reward is before you. Open the treasure chest to receive it. Use the gifts given you wisely. Many treasures you will find need to be identified before you will know exactly what they are. You can have them identified by visiting any Magic Shop and purchasing a Scroll of Indentification. When you are ready, you can now return home by pulling the lever to be teleported back to the start of the dungeon."
+			end
+		end
+		object DungeonBackDoor-77806-4 of DungeonBackDoor
+			properties
+				x	30
+				y	237
+				loop	0
+				linkTo	DungeonBackDoor-77805-4
+			end
+			actions
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object baHealth-77806-5 of baHealth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-77806-0
+			end
+			base described
+			end
+		end
+		object baHealth-77806-6 of baHealth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-77806-0
+			end
+			base described
+			end
+		end
+		object baHealth-77806-7 of baHealth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-77806-0
+			end
+			base described
+			end
+		end
+		object baHealth-77806-8 of baHealth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-77806-0
+			end
+			base described
+			end
+		end
+		object baHealth-77806-9 of baHealth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-77806-0
+			end
+			base described
+			end
+		end
+		object sIdentify-77806-10 of sIdentify
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-77806-0
+			end
+			base described
+			end
+		end
+		object Sign-77806-11 of Sign
+			properties
+				x	397
+				y	250
+				loop	0
+			end
+			base described
+				text	"Hopefully you have found this short adventure useful. Your mettle has been tested and the gods have not found you wanting. You have had the opportunity to learn how to: Move between rooms; Fight monsters with weapons and spells if you're a spellcaster; Pick up items on the ground; Purchase items in a shop; Use items in your inventory; Open doors; and Use the Realm's chat. Of course the best teacher is experience. It is time to get out there and learn the game. Experiment with the interface, you'll find it is very forgiving, most anything you can do on the interface can be undone. Most of all enjoy. It's time for the real adventuring to begin!"
+			end
+		end
+	end
+end

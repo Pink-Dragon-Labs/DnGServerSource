@@ -1,0 +1,19 @@
+quest 256 #6902-01-500        #(Nassoula of Asgard)
+
+name  "Seraph Scroll Fragment"
+type  fedex
+
+proposal  "Grand Master Skills are the most prestigious skills of Mysticism, and  I am among the most skilled.  I've followed your progress and would be willing to assist you, if you wish."
+
+declined  "Very well."
+
+accepted  "Good.  The skillbook that you require will be waiting here for you when you return with a Seraph Scroll Fragment.   A fitting quest for such a high level of Mastery.   You will need to locate a devotee of Mabon.  Try Murias or Monmouth."
+
+reminder   "The Seraph Scroll Fragment is quite rare.  You should seek in Murias or Monmouth."
+
+completed  "Indeed.  I see you have returned with the Seraph Scroll Fragment.  I am pleased with you.  You have earned the spellbook for Mysticism Grand-Mastery."
+
+getItem   qSeraphScroll
+reward   skbMysticismV
+end
+

@@ -1,0 +1,19 @@
+quest  157 #6403-01-525        # Legotia, The Soothing Touch, healer, Wen, 6111
+
+name  "A Carved Stork for Legotia"
+type  fedex
+
+proposal  "Baroq the Bald was an unusual figure in history.  Have you heard the stories?  Some tried to change his name to Baroq the Bold, thinking it more dignified.  He certainly had dignity and he certainly was bold.  But it didn't work.  Bald he was called all the days of his life from his youth.  Do you know that story?  When he was a toddler he got into a patch of brambles so thoroughly that his mother had to shave his head to rid them.  And the little scamp liked it!  He insisted, absolutely insisted, ever after that his head be kept shaved.  He was a strong-minded chap, even at that young age, and he got his way.  His poor mother didn't like it, but his father roared with laughter and backed the boy.  However, you didn't come here for stories.  You came for the amulet.  Would you consider doing a favor for me in exchange?"
+
+declined  "Go in peace, then."
+
+accepted  "I appreciate this favor.  There is an unusual carving of a stork in Asgard.  I've heard it is a beautiful piece, and I would like to have it.  I'm not sure where it is to be found.  Good luck." 
+
+reminder   "Go to Asgard and attempt to find a carved stork."
+
+completed  "This is indeed a beautiful piece of work.  And for you, the Amulet of  Baroq the Bald."
+
+getItem   qCarvedStork
+reward   qAmuletBaroq 
+end
+

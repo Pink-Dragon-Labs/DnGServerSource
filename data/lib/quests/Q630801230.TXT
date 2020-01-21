@@ -1,0 +1,15 @@
+quest 105 #6308-01-230  #(Georgi, Arimathor Armory, 6807) 
+
+name  "Find Grandmother's Letter"
+type  fedex
+
+proposal  "Hello, Traveler.  I do have a letter for Benoit.  Would you be willing to deliver it for me?"
+
+declined  "OK.  I'm sure I'll find someone."
+
+accepted  "Here it is, and many thanks.  Grandmother entrusted it to me, and I haven't been able to send it.  Thanks again. "
+
+reminder  "Don't forget to deliver grandmother's letter."
+
+reward  qGrandmothersLetter
+end

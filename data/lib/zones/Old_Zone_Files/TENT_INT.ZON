@@ -1,0 +1,7 @@
+name "Tent Shop Interiors"
+title "Wilderness Shop"
+worldFile "../data/lib/world/TENT_INT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 7
+midiFile 17

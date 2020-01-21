@@ -1,0 +1,18 @@
+quest  353 #80000-01-330        # Frick, Frick's General Store, Murias, giant, 6206
+
+name  "Frick ith Thick"
+type  fedex
+
+proposal  "Ahchoo.  Thorry.  I'b very thick.  I'b mitherable.  The package ith here.  I need thome medthine from the healer.  Pleathe ged it for be.  OK?"
+
+declined  "Ahchoo."
+
+accepted  "Thay that Frick thent u."
+
+reminder   "Medthine.  Healer.  For Frick."
+
+completed  "Thang u.  Here'th the package."
+
+getItem   qFrickMedicine
+reward   qAimiePackage 
+end

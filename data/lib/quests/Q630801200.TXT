@@ -1,0 +1,19 @@
+quest 103 #6308-01-200
+
+name  "Wirkkala's Remedy"
+type  fedex
+
+proposal  "Well met, Apprentice.  You are ready for Elementalism Proficiencies.  I shall be pleased to present you with the spellbook.  But first, would you be so good as to pick up a special remedy I ordered from Kurz."
+
+declined  "Very well."
+
+accepted  "Good.  Proceed to Kurz."
+
+reminder  "The special remedy I need is in Kurz."
+
+completed  "Wonderful.  You've earned your spellbook.  I wish you well with your Proficiency spells.  Come back to see me when you are ready to advance."
+
+getItem  qWirkkalaRemedy
+reward  skbElementalismII
+end
+

@@ -1,0 +1,19 @@
+quest  121 #6311-01-430       # Stench, Caer Fandry Curses, magic, 6608
+
+name  "Pulverized Wasp Belly for Stench"
+type  fedex
+
+proposal  "So it's pest deterrent you want, is it?  Fine.  I've got it.  My own invention, which I use often.  Guaranteed to discourage any pest that walks, crawls, or flies.  Consequences are not my lookout, though.  I'll give you a bottle in exchange for an errand.  I need a courier to Asgard.  Will you do it?"
+
+declined  "Should have used it on you!"
+
+accepted  "I want some pulverized wasp belly."
+
+reminder   "Go find some pulverized wasp belly in Asgard."
+
+completed  "About time you got back.  Take your deterrent and go."
+
+getItem   qWaspBelly
+reward   qDeterrent 
+end
+

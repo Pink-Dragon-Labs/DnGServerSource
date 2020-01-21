@@ -1,0 +1,8 @@
+name "mazentr"
+title "The Maze Entrance"
+worldFile "../data/lib/world/MAZENTRANCE.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 14
+# Maze	Area 01	Player Level 200 and up	

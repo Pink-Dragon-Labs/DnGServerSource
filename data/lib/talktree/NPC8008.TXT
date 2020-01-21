@@ -1,0 +1,28 @@
+id 8008
+
+banner "Hail, and welcome to Pleasure's Fabric. What might I do for you?"
+
+topic "Tell me about Kurz."
+        text "Kurz? It's Elphame's bordello, if you ask me."
+	text "Did I say that aloud? Faith, I didn't mean it. Please don't tell anyone I said that."
+	text "I'm a farmer at heart.  Sometimes I ask myself how I ended up here!"
+	text "Wouldn't do me any good to ask, though, because I'm not sure myself how it happened."
+	text "I must have said no when I should have said yes."
+	text "Or maybe I said yes when I should have said no."
+   	text "One day soon I'll slip away from Kurz and never return."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that Silverbrook and Drune are elven-towns that honor Enid."
+     	text "I wonder if they do any farming there?"
+end      
+
+topic "Can I do anything for you?"
+        text "Not unless you can help me escape from Kurz."
+end
+
+topic  "Have you a bolt of embroidered fabric?" q342:0 #q8307-01-530:0
+	quest 343 #8307-01-535
+	text  "You took it already."
+end
+

@@ -1,0 +1,14 @@
+name "minotaurs"
+title "Minotaur Testbed"
+worldFile "../data/lib/world/MINOTAUR.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 13
+groupChance 5
+
+monster MinotaurWarriorA 2
+monster MinotaurWarriorB 2
+monster MinotaurWarriorC 2
+monster MinotaurWarriorD 2
+monster MinotaurWarriorE 2

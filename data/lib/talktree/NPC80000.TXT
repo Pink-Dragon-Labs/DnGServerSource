@@ -1,0 +1,56 @@
+id 80000
+
+banner "What do you want here, stranger?"
+
+topic "Where am I?"
+        text "You're in the Cave of Thieves, pal."
+end
+
+topic "Who are you?"
+      	text "You're full of questions, aren't you?"
+	text "Dag is name enough for now."
+	text "You can call my partner over there Spidey."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors?  I don't bother with rumors.  My craft deals facts and information."
+        text "Your questions are a little annoying, stranger."
+end      
+
+topic "Can I do anything for you?"
+        text "I can do something for you.  I can suggest it would be healthy to stop with the questions."
+end
+
+topic  "I want to learn a skill."
+	banner  "Do you now?  I can't speak for others, but there's one craft that I teach those who ask, and that's lock picking skills." 
+
+	topic  "I'm interested in lock picking skills."  s27:0   
+		quest 346 #80000-01-100
+		text "Look, pal, the way you gain the skill is to study the skill book you already have!"
+	end
+
+	topic  "I'm interested in proficient lock picking skills."  s27:1  
+		quest 348 #80000-01-200
+		text "You gain the skill by studying the skill book you already have!"
+	end
+	
+	topic  "I'm interested in expert lock picking skills."  s27:2   
+		quest 351 #80000-01-300
+		text "Look, pal, what do you think that skill book you have is for? Go study it."
+	end
+ 
+	topic  "I'm interested in master lock picking skills."  s27:3  
+		quest 355 #80000-01-400
+		text "Look, pal, this is beginning to annoy me.  You've got the skill book, so study it!"
+	end
+	
+	topic  "I'm interested in grand-master lock picking skills."  s27:4   
+		quest 360 #80000-01-500
+		text "OK, I'll say this once.  Go study the skill book you have.  You'll never get the skill just talking about it."
+	end
+
+	topic  "What else can I learn here?"  s0:5
+		text  "You could try pick pocketing skills with Spidey over there.  She's one of the best there is."
+		text  "It's foolish to talk of taking on another skill when you have finished the one you started."
+	end
+end

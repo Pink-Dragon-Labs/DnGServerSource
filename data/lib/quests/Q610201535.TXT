@@ -1,0 +1,19 @@
+quest  70 #6102-01-535        # Slug, Dinnertime, Caer Fandry, 6602
+
+name  "Carved Goblin Head Letter Opener"
+type  fedex
+
+proposal  "So you're looking for beef jerky.  You better hope I like your face, because if I don't you're in trouble.  As a matter of fact, I don't like your face, but if you'll go fetch an item for me in Drune, I'll give you a package of the best beef jerky you'll find anywhere.  Well?"
+
+declined  "Fine with me."
+
+accepted  "Go to Drune and find me a letter opener with a goblin's head on it.  Carved on it, dunderhead.  Not a real head."
+
+reminder   "Find a letter opener in Drune that has a goblin's head carved on it."
+
+completed  "So you found one.  Here's a package of beef jerky.  Now get out."
+
+getItem   qCarvedGoblin
+reward   qBeefJerky 
+end
+

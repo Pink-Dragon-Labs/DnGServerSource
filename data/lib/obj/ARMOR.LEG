@@ -1,0 +1,3543 @@
+object OliveLeatherPants of LeatherPants
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherPants of LeatherPants
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherPants of LeatherPants
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureLeatherPants of LeatherPants
+	properties
+		color 54
+		special
+	end
+end
+
+object RedLeatherPants of LeatherPants
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherPants of LeatherPants
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldLeatherPants of LeatherPants
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowLeatherPants of LeatherPants
+	properties
+                color 64
+		special
+	end
+end
+
+
+object VioletLeatherPants of LeatherPants
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherPants of LeatherPants
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherPants of LeatherPants
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherPants of LeatherPants
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherPants of LeatherPants
+	properties
+		color 78
+		special
+	end
+end
+
+object TealLeatherPants of LeatherPants
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherPants of LeatherPants
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherPants of LeatherPants
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherPants of LeatherPants
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherPants of LeatherPants
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherPants of LeatherPants
+	properties
+		color 93
+		special
+	end
+end
+
+object PurpleLeatherPants of LeatherPants
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherPants of LeatherPants
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLeatherPants of LeatherPants
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherPants of LeatherPants
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveTrollPants of TrollPants
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollPants of TrollPants
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollPants of TrollPants
+	properties
+                color 53
+		special
+	end
+end
+
+object AzureTrollPants of TrollPants
+	properties
+		color 54
+		special
+	end
+end
+
+object RedTrollPants of TrollPants
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollPants of TrollPants
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldTrollPants of TrollPants
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowTrollPants of TrollPants
+	properties
+                color 64
+		special
+	end
+end
+
+
+object VioletTrollPants of TrollPants
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollPants of TrollPants
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollPants of TrollPants
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollPants of TrollPants
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollPants of TrollPants
+	properties
+		color 78
+		special
+	end
+end
+
+object TealTrollPants of TrollPants
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollPants of TrollPants
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollPants of TrollPants
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollPants of TrollPants
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollPants of TrollPants
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollPants of TrollPants
+	properties
+		color 93
+		special
+	end
+end
+
+object PurpleTrollPants of TrollPants
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollPants of TrollPants
+	properties
+		color 98
+		special
+ 	end
+end
+
+object GrayTrollPants of TrollPants
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollPants of TrollPants
+	properties
+		color 100
+		special
+	end
+end
+
+object OliveChainPants of ChainPants
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeChainPants of ChainPants
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueChainPants of ChainPants
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureChainPants of ChainPants
+	properties
+                color 54
+		special
+	end
+end
+
+object RedChainPants of ChainPants
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkChainPants of ChainPants
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldChainPants of ChainPants
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowChainPants of ChainPants
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletChainPants of ChainPants
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaChainPants of ChainPants
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownChainPants of ChainPants
+	properties
+                color 73
+		special
+	end
+end
+
+object TanChainPants of ChainPants
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaChainPants of ChainPants
+	properties
+		color 78
+		special
+	end
+end
+
+object TealChainPants of ChainPants
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenChainPants of ChainPants
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeChainPants of ChainPants
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeChainPants of ChainPants
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberChainPants of ChainPants
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalChainPants of ChainPants
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleChainPants of ChainPants
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackChainPants of ChainPants
+	properties
+                color 98
+		special
+	end
+end
+
+object GrayChainPants of ChainPants
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteChainPants of ChainPants
+	properties
+                color 100
+		special
+        end
+end
+
+object OlivePlatePants of PlatePants
+	properties
+                color 48
+		special
+	end
+end
+
+object LimePlatePants of PlatePants
+	properties
+                color 49
+		special
+	end
+end
+
+object BluePlatePants of PlatePants
+	properties
+		color 53
+		special
+	end
+end
+
+object AzurePlatePants of PlatePants
+	properties
+                color 54
+		special
+	end
+end
+
+object RedPlatePants of PlatePants
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkPlatePants of PlatePants
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldPlatePants of PlatePants
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowPlatePants of PlatePants
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletPlatePants of PlatePants
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaPlatePants of PlatePants
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownPlatePants of PlatePants
+	properties
+                color 73
+		special
+	end
+end
+
+object TanPlatePants of PlatePants
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaPlatePants of PlatePants
+	properties
+		color 78
+		special
+	end
+end
+
+object TealPlatePants of PlatePants
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenPlatePants of PlatePants
+	properties
+		color 83
+		special
+	end
+end
+
+object JadePlatePants of PlatePants
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangePlatePants of PlatePants
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberPlatePants of PlatePants
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalPlatePants of PlatePants
+	properties
+                color 93
+		special
+ 	end
+end
+
+object PurplePlatePants of PlatePants
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackPlatePants of PlatePants
+	properties
+                color 98
+		special
+	end
+end
+
+object GrayPlatePants of PlatePants
+	properties
+                color 99
+		special
+	end
+end
+
+object WhitePlatePants of PlatePants
+	properties
+                color 100
+		special
+        end
+end
+
+object OliveLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherLongSkirt of LeatherLongSkirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherLongSkirt of LeatherLongSkirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherLongSkirt of LeatherLongSkirt
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherLongSkirt of LeatherLongSkirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherLongSkirt of LeatherLongSkirt
+	properties
+		color 98
+		special
+  	end
+end
+
+object GrayLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherLongSkirt of LeatherLongSkirt
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveTrollLongSkirt of TrollLongSkirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollLongSkirt of TrollLongSkirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollLongSkirt of TrollLongSkirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollLongSkirt of TrollLongSkirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollLongSkirt of TrollLongSkirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollLongSkirt of TrollLongSkirt
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldTrollLongSkirt of TrollLongSkirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowTrollLongSkirt of TrollLongSkirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollLongSkirt of TrollLongSkirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollLongSkirt of TrollLongSkirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollLongSkirt of TrollLongSkirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollLongSkirt of TrollLongSkirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollLongSkirt of TrollLongSkirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollLongSkirt of TrollLongSkirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollLongSkirt of TrollLongSkirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollLongSkirt of TrollLongSkirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollLongSkirt of TrollLongSkirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollLongSkirt of TrollLongSkirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollLongSkirt of TrollLongSkirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleTrollLongSkirt of TrollLongSkirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollLongSkirt of TrollLongSkirt
+	properties
+		color 98
+		special
+  	end
+end
+
+object GrayTrollLongSkirt of TrollLongSkirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollLongSkirt of TrollLongSkirt
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherShortSkirt of LeatherShortSkirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherShortSkirt of LeatherShortSkirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherShortSkirt of LeatherShortSkirt
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherShortSkirt of LeatherShortSkirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherShortSkirt of LeatherShortSkirt
+	properties
+		color 98
+		special
+ 	end
+end
+
+object GrayLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherShortSkirt of LeatherShortSkirt
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveTrollShortSkirt of TrollShortSkirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollShortSkirt of TrollShortSkirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollShortSkirt of TrollShortSkirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollShortSkirt of TrollShortSkirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollShortSkirt of TrollShortSkirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollShortSkirt of TrollShortSkirt
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldTrollShortSkirt of TrollShortSkirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowTrollShortSkirt of TrollShortSkirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollShortSkirt of TrollShortSkirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollShortSkirt of TrollShortSkirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollShortSkirt of TrollShortSkirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollShortSkirt of TrollShortSkirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollShortSkirt of TrollShortSkirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollShortSkirt of TrollShortSkirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollShortSkirt of TrollShortSkirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollShortSkirt of TrollShortSkirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollShortSkirt of TrollShortSkirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollShortSkirt of TrollShortSkirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollShortSkirt of TrollShortSkirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleTrollShortSkirt of TrollShortSkirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollShortSkirt of TrollShortSkirt
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayTrollShortSkirt of TrollShortSkirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollShortSkirt of TrollShortSkirt
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLeatherShirt of LeatherShirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherShirt of LeatherShirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherShirt of LeatherShirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherShirt of LeatherShirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherShirt of LeatherShirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherShirt of LeatherShirt
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldLeatherShirt of LeatherShirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLeatherShirt of LeatherShirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherShirt of LeatherShirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherShirt of LeatherShirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherShirt of LeatherShirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherShirt of LeatherShirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherShirt of LeatherShirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherShirt of LeatherShirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherShirt of LeatherShirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherShirt of LeatherShirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherShirt of LeatherShirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherShirt of LeatherShirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherShirt of LeatherShirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherShirt of LeatherShirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherShirt of LeatherShirt
+	properties
+		color 98
+		special
+  	end
+end
+
+object GrayLeatherShirt of LeatherShirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherShirt of LeatherShirt
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveTrollShirt of TrollShirt
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollShirt of TrollShirt
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollShirt of TrollShirt
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollShirt of TrollShirt
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollShirt of TrollShirt
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollShirt of TrollShirt
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldTrollShirt of TrollShirt
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowTrollShirt of TrollShirt
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollShirt of TrollShirt
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollShirt of TrollShirt
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollShirt of TrollShirt
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollShirt of TrollShirt
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollShirt of TrollShirt
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollShirt of TrollShirt
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollShirt of TrollShirt
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollShirt of TrollShirt
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollShirt of TrollShirt
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollShirt of TrollShirt
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollShirt of TrollShirt
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleTrollShirt of TrollShirt
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollShirt of TrollShirt
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayTrollShirt of TrollShirt
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollShirt of TrollShirt
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLeatherTunic of LeatherTunic
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherTunic of LeatherTunic
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherTunic of LeatherTunic
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherTunic of LeatherTunic
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherTunic of LeatherTunic
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherTunic of LeatherTunic
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldLeatherTunic of LeatherTunic
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLeatherTunic of LeatherTunic
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherTunic of LeatherTunic
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherTunic of LeatherTunic
+	properties
+                color 69
+		special
+	end
+end
+object BrownLeatherTunic of LeatherTunic
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherTunic of LeatherTunic
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherTunic of LeatherTunic
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherTunic of LeatherTunic
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherTunic of LeatherTunic
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherTunic of LeatherTunic
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherTunic of LeatherTunic
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherTunic of LeatherTunic
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherTunic of LeatherTunic
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherTunic of LeatherTunic
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherTunic of LeatherTunic
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLeatherTunic of LeatherTunic
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherTunic of LeatherTunic
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveTrollTunic of TrollTunic
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollTunic of TrollTunic
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollTunic of TrollTunic
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollTunic of TrollTunic
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollTunic of TrollTunic
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollTunic of TrollTunic
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldTrollTunic of TrollTunic
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowTrollTunic of TrollTunic
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollTunic of TrollTunic
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollTunic of TrollTunic
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollTunic of TrollTunic
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollTunic of TrollTunic
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollTunic of TrollTunic
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollTunic of TrollTunic
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollTunic of TrollTunic
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollTunic of TrollTunic
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollTunic of TrollTunic
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollTunic of TrollTunic
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollTunic of TrollTunic
+	properties
+                color 93
+		special
+ 	end
+end
+
+object PurpleTrollTunic of TrollTunic
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollTunic of TrollTunic
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayTrollTunic of TrollTunic
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollTunic of TrollTunic
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveChainTunic of ChainTunic
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeChainTunic of ChainTunic
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueChainTunic of ChainTunic
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureChainTunic of ChainTunic
+	properties
+                color 54
+		special
+	end
+end
+
+object RedChainTunic of ChainTunic
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkChainTunic of ChainTunic
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldChainTunic of ChainTunic
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowChainTunic of ChainTunic
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletChainTunic of ChainTunic
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaChainTunic of ChainTunic
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownChainTunic of ChainTunic
+	properties
+                color 73
+		special
+	end
+end
+
+object TanChainTunic of ChainTunic
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaChainTunic of ChainTunic
+	properties
+                color 78
+		special
+	end
+end
+
+object TealChainTunic of ChainTunic
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenChainTunic of ChainTunic
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeChainTunic of ChainTunic
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeChainTunic of ChainTunic
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberChainTunic of ChainTunic
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalChainTunic of ChainTunic
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleChainTunic of ChainTunic
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackChainTunic of ChainTunic
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayChainTunic of ChainTunic
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteChainTunic of ChainTunic
+	properties
+                color 100
+		special
+	end
+end
+
+object OlivePlateTunic of PlateTunic
+	properties
+                color 48
+		special
+	end
+end
+
+object LimePlateTunic of PlateTunic
+	properties
+                color 49
+		special
+	end
+end
+
+object BluePlateTunic of PlateTunic
+	properties
+		color 53
+		special
+	end
+end
+
+object AzurePlateTunic of PlateTunic
+	properties
+                color 54
+		special
+	end
+end
+
+object RedPlateTunic of PlateTunic
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkPlateTunic of PlateTunic
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldPlateTunic of PlateTunic
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowPlateTunic of PlateTunic
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletPlateTunic of PlateTunic
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaPlateTunic of PlateTunic
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownPlateTunic of PlateTunic
+	properties
+                color 73
+		special
+	end
+end
+
+object TanPlateTunic of PlateTunic
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaPlateTunic of PlateTunic
+	properties
+                color 78
+		special
+	end
+end
+
+object TealPlateTunic of PlateTunic
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenPlateTunic of PlateTunic
+	properties
+		color 83
+		special
+	end
+end
+
+object JadePlateTunic of PlateTunic
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangePlateTunic of PlateTunic
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberPlateTunic of PlateTunic
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalPlateTunic of PlateTunic
+	properties
+                color 93
+		special
+ 	end
+end
+
+object PurplePlateTunic of PlateTunic
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackPlateTunic of PlateTunic
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayPlateTunic of PlateTunic
+	properties
+                color 99
+		special
+	end
+end
+
+object WhitePlateTunic of PlateTunic
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLeatherCowl of LeatherCowl
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherCowl of LeatherCowl
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherCowl of LeatherCowl
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherCowl of LeatherCowl
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherCowl of LeatherCowl
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherCowl of LeatherCowl
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldLeatherCowl of LeatherCowl
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowLeatherCowl of LeatherCowl
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherCowl of LeatherCowl
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherCowl of LeatherCowl
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherCowl of LeatherCowl
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherCowl of LeatherCowl
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherCowl of LeatherCowl
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherCowl of LeatherCowl
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherCowl of LeatherCowl
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherCowl of LeatherCowl
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherCowl of LeatherCowl
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherCowl of LeatherCowl
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherCowl of LeatherCowl
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherCowl of LeatherCowl
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherCowl of LeatherCowl
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLeatherCowl of LeatherCowl
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherCowl of LeatherCowl
+	properties
+                color 100
+		special
+	end
+end
+
+
+object OliveTrollCowl of TrollCowl
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollCowl of TrollCowl
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollCowl of TrollCowl
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollCowl of TrollCowl
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollCowl of TrollCowl
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollCowl of TrollCowl
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldTrollCowl of TrollCowl
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowTrollCowl of TrollCowl
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollCowl of TrollCowl
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollCowl of TrollCowl
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollCowl of TrollCowl
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollCowl of TrollCowl
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollCowl of TrollCowl
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollCowl of TrollCowl
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollCowl of TrollCowl
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollCowl of TrollCowl
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollCowl of TrollCowl
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollCowl of TrollCowl
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollCowl of TrollCowl
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleTrollCowl of TrollCowl
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollCowl of TrollCowl
+	properties
+		color 98
+		special
+ 	end
+end
+
+object GrayTrollCowl of TrollCowl
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollCowl of TrollCowl
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveChainCowl of ChainCowl
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeChainCowl of ChainCowl
+	properties
+                color 48
+		special
+	end
+end
+
+object BlueChainCowl of ChainCowl
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureChainCowl of ChainCowl
+	properties
+                color 54
+		special
+	end
+end
+
+object RedChainCowl of ChainCowl
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkChainCowl of ChainCowl
+	properties
+                color 59
+		special
+	end
+end
+
+object GoldChainCowl of ChainCowl
+	properties
+		color 63
+		special
+	end
+end
+
+object YellowChainCowl of ChainCowl
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletChainCowl of ChainCowl
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaChainCowl of ChainCowl
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownChainCowl of ChainCowl
+	properties
+                color 73
+		special
+	end
+end
+
+object TanChainCowl of ChainCowl
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaChainCowl of ChainCowl
+	properties
+                color 78
+		special
+	end
+end
+
+object TealChainCowl of ChainCowl
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenChainCowl of ChainCowl
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeChainCowl of ChainCowl
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeChainCowl of ChainCowl
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberChainCowl of ChainCowl
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalChainCowl of ChainCowl
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleChainCowl of ChainCowl
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackChainCowl of ChainCowl
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayChainCowl of ChainCowl
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteChainCowl of ChainCowl
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLeatherBoots of LeatherBoots
+        properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherBoots of LeatherBoots
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherBoots of LeatherBoots
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherBoots of LeatherBoots
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherBoots of LeatherBoots
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherBoots of LeatherBoots
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldLeatherBoots of LeatherBoots
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLeatherBoots of LeatherBoots
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherBoots of LeatherBoots
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherBoots of LeatherBoots
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherBoots of LeatherBoots
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherBoots of LeatherBoots
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherBoots of LeatherBoots
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherBoots of LeatherBoots
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherBoots of LeatherBoots
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherBoots of LeatherBoots
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherBoots of LeatherBoots
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherBoots of LeatherBoots
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherBoots of LeatherBoots
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherBoots of LeatherBoots
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherBoots of LeatherBoots
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLeatherBoots of LeatherBoots
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherBoots of LeatherBoots
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveTrollBoots of TrollBoots
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollBoots of TrollBoots
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollBoots of TrollBoots
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollBoots of TrollBoots
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollBoots of TrollBoots
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollBoots of TrollBoots
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldTrollBoots of TrollBoots
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowTrollBoots of TrollBoots
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollBoots of TrollBoots
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollBoots of TrollBoots
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollBoots of TrollBoots
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollBoots of TrollBoots
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollBoots of TrollBoots
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollBoots of TrollBoots
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollBoots of TrollBoots
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollBoots of TrollBoots
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollBoots of TrollBoots
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollBoots of TrollBoots
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollBoots of TrollBoots
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleTrollBoots of TrollBoots
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollBoots of TrollBoots
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayTrollBoots of TrollBoots
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollBoots of TrollBoots
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveLeatherLowBoots of LeatherLowBoots
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeLeatherLowBoots of LeatherLowBoots
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueLeatherLowBoots of LeatherLowBoots
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureLeatherLowBoots of LeatherLowBoots
+	properties
+                color 54
+		special
+	end
+end
+
+object RedLeatherLowBoots of LeatherLowBoots
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkLeatherLowBoots of LeatherLowBoots
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldLeatherLowBoots of LeatherLowBoots
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowLeatherLowBoots of LeatherLowBoots
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletLeatherLowBoots of LeatherLowBoots
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaLeatherLowBoots of LeatherLowBoots
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownLeatherLowBoots of LeatherLowBoots
+	properties
+                color 73
+		special
+	end
+end
+
+object TanLeatherLowBoots of LeatherLowBoots
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaLeatherLowBoots of LeatherLowBoots
+	properties
+                color 78
+		special
+	end
+end
+
+object TealLeatherLowBoots of LeatherLowBoots
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenLeatherLowBoots of LeatherLowBoots
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeLeatherLowBoots of LeatherLowBoots
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeLeatherLowBoots of LeatherLowBoots
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberLeatherLowBoots of LeatherLowBoots
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalLeatherLowBoots of LeatherLowBoots
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleLeatherLowBoots of LeatherLowBoots
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackLeatherLowBoots of LeatherLowBoots
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayLeatherLowBoots of LeatherLowBoots
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteLeatherLowBoots of LeatherLowBoots
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveTrollLowBoots of TrollLowBoots
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeTrollLowBoots of TrollLowBoots
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueTrollLowBoots of TrollLowBoots
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureTrollLowBoots of TrollLowBoots
+	properties
+                color 54
+		special
+	end
+end
+
+object RedTrollLowBoots of TrollLowBoots
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkTrollLowBoots of TrollLowBoots
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldTrollLowBoots of TrollLowBoots
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowTrollLowBoots of TrollLowBoots
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletTrollLowBoots of TrollLowBoots
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaTrollLowBoots of TrollLowBoots
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownTrollLowBoots of TrollLowBoots
+	properties
+                color 73
+		special
+	end
+end
+
+object TanTrollLowBoots of TrollLowBoots
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaTrollLowBoots of TrollLowBoots
+	properties
+                color 78
+		special
+	end
+end
+
+object TealTrollLowBoots of TrollLowBoots
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenTrollLowBoots of TrollLowBoots
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeTrollLowBoots of TrollLowBoots
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeTrollLowBoots of TrollLowBoots
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberTrollLowBoots of TrollLowBoots
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalTrollLowBoots of TrollLowBoots
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleTrollLowBoots of TrollLowBoots
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackTrollLowBoots of TrollLowBoots
+	properties
+		color 98
+		special
+	end
+end
+
+object GrayTrollLowBoots of TrollLowBoots
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteTrollLowBoots of TrollLowBoots
+	properties
+                color 100
+		special
+	end
+end
+
+object OliveSollerets of Sollerets
+	properties
+                color 48
+		special
+	end
+end
+
+object LimeSollerets of Sollerets
+	properties
+                color 49
+		special
+	end
+end
+
+object BlueSollerets of Sollerets
+	properties
+		color 53
+		special
+	end
+end
+
+object AzureSollerets of Sollerets
+	properties
+                color 54
+		special
+	end
+end
+
+object RedSollerets of Sollerets
+	properties
+		color 58
+		special
+	end
+end
+
+object PinkSollerets of Sollerets
+	properties
+		color 59
+		special
+	end
+end
+
+object GoldSollerets of Sollerets
+	properties
+                color 63
+		special
+	end
+end
+
+object YellowSollerets of Sollerets
+	properties
+                color 64
+		special
+	end
+end
+
+object VioletSollerets of Sollerets
+	properties
+                color 68
+		special
+	end
+end
+
+object MagentaSollerets of Sollerets
+	properties
+                color 69
+		special
+	end
+end
+
+object BrownSollerets of Sollerets
+	properties
+                color 73
+		special
+	end
+end
+
+object TanSollerets of Sollerets
+	properties
+                color 74
+		special
+	end
+end
+
+object AquaSollerets of Sollerets
+	properties
+                color 78
+		special
+	end
+end
+
+object TealSollerets of Sollerets
+	properties
+                color 79
+		special
+	end
+end
+
+object GreenSollerets of Sollerets
+	properties
+		color 83
+		special
+	end
+end
+
+object JadeSollerets of Sollerets
+	properties
+                color 84
+		special
+	end
+end
+
+object OrangeSollerets of Sollerets
+	properties
+                color 88
+		special
+	end
+end
+
+object AmberSollerets of Sollerets
+	properties
+                color 89
+		special
+	end
+end
+
+object RoyalSollerets of Sollerets
+	properties
+                color 93
+		special
+	end
+end
+
+object PurpleSollerets of Sollerets
+	properties
+                color 94
+		special
+	end
+end
+
+object BlackSollerets of Sollerets
+	properties
+		color 98
+		special
+	end
+end
+
+object GraySollerets of Sollerets
+	properties
+                color 99
+		special
+	end
+end
+
+object WhiteSollerets of Sollerets
+	properties
+                color 100
+		special
+	end
+end

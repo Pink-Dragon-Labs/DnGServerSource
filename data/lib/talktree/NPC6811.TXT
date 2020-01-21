@@ -1,0 +1,34 @@
+id 6811
+
+banner "Good Day to you, and welcome to Desert Rose.  I am Alysa, ready to assist you."
+
+topic "Tell me about Arimathor."
+      	text "Ah, you ask about Arimathor, our beautiful city.  We are famous all over the Realm for our cactus gardens.  Justly so, wouldn't you say."
+	text "My mother is a wonderful healer.  You can find her at Desert Breeze Exilirs.  Do stop in there."
+	text "Arimathor is a town of kind and courteous folk.  We have a very low crime rate."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "A visitor told of great devastation to a town called Leinster.  Caused by the gods he said.  I shudder at the thought."
+	text "Fires burned the town to the ground.  Not a brick left standing according to him."
+	text "Why would the gods do this, do you suppose?  It is a great puzzle."
+end      
+
+topic "Can I do anything for you?"
+        text "Would you care to look at these belts?  An excellent selection, all the latest styles."
+end
+
+topic  "Deanna sent me for the pattern." q152:0 #q6403-01-425:0
+	quest 153 #6403-01-430
+	text  "I gave it to you."
+end
+
+topic  "I'm seeking a polished ruby amulet." q135:0 #q6401-01-500:0
+	quest 136 #6401-01-525
+	text  "But you took it.  Is the desert affecting your memory?"
+end
+
+topic  "Do you have any wool from the long-haired mountain goats." q81000-01-525:0
+	quest 81000-01-530
+	text  "Surely you haven't forgotten?  You already took it."
+end

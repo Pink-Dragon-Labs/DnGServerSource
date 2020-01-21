@@ -1,0 +1,18 @@
+quest  264 #6905-01-435        # Kaliri, Anything and Everything, Arimathor, 6801
+
+name  "Treat for Kaliri"
+type  fedex
+
+proposal  "Well, now, dearie, you've come to the right place.  I've got desert rocks coming out of the rafters.  I tend to pick up a few pretty ones every time I wander in the desert.  One comes to mind for you with colored stripes that match some of the different colors the sand takes on in different light.  I'll just wrap it up for you.  Would you be willing to step over to Sanria and bring back a special treat that's ready for me?"
+
+declined  "Well then, dearie, just take your time and look around if you want."
+
+accepted  "Good.  She always bakes in the morning and saves something for me."
+
+reminder   "Sanria saved me a baked treat."
+
+completed  "Apricot tart!  What a dear she is.  And thank you, dearie.  Here's your rock."
+
+getItem   qKaliriTart
+reward    qDesertRock 
+end

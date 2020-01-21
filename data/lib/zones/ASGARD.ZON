@@ -1,0 +1,9 @@
+name "asgard"
+title "Asgard"
+worldFile "../data/lib/world/ASGARDX.WLD"
+worldFile "../data/lib/world/ASGARDI.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 5
+midiFile 23

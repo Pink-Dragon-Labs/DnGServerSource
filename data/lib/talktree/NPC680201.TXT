@@ -1,0 +1,31 @@
+id 680201
+
+banner "Yeah, what do you want?"
+
+topic "Tell me about The Scimitar Tavern."
+        text "As you can see, it's the best tavern in all the lands."
+	text "Arimathor has been chosen by the Lord of Darkness as the place his followers will make their stand against the invasion from the Mists. We are the head of the spear and we will be the first into battle. The Scimitar is the center of preparations."
+	text "If the worst should happen and the invasion cannot be stopped, The Scimitar will serve as the place for our final stand. We are stockpiling everything we may need to withstand a siege."
+end
+
+topic "Tell me about the Dark Arts."
+        text "The Dark Arts are those things you can learn in the various training centers throughout the land. Stuff like pickpocketing and Necromancy, for instance."
+        text "Assassination is another example. You learn the ways of combat and use them against those that accept your challenge. Whether you challenge them on your own or for hire, or whether you do it for fun or for profit, is up to you."
+        text "The Dark Arts do not include dishonorable acts like scamming, house robbing, taunting, or any of those things that sewer rats take such foolish delight in performing."
+end
+
+topic "Aden? What does your name mean?"
+        text "Fiery One. Why? What's it to you?"
+        text "What more do you need to know? I told you: Fiery One. You want me to take you out back and prove the name fits me?"
+        text "Enough! Just buy something and be gone."
+end 
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors? By Duach, what care we about rumors? Are not the prophecies enough to worry about?"
+	text "So you really want to hear a rumor do you? Okay, fine. Here's a rumor: If people don't buy supplies from me I won't be able to remain in business. Where will we all be when the invasion comes then, eh?"
+end      
+
+topic "Can I do anything for you?"
+        text "Yes. Buy something and then go away! This place of business you know, not a social club."
+end
+

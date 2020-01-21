@@ -1,0 +1,31 @@
+id 6056
+
+banner "Welcome to All Things Useful General Store. How may I assist you today?"
+
+topic "Tell me about Leinster."
+        text "Do you mean that crater in the center of town? That was caused courtesy of the war of the gods."
+	text "They cast thunderbolts at each other, and we get struck. Where's the fairness, I ask you?"
+	text  "The sound woke me and when I turned to the window the sky looked like it was on fire!  It was a terrifying experience, I can tell you that."
+	text  "I shut my eyes and pulled the covers over my head!  Silly thing to do, of course, but I was only half awake and at the time it was the best thing I could think of!"
+	text  "Actually, I hoped it was a nightmare and I'd wake up eventually.  No such luck." 
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that there's a general store in West Leinster that sells artifacts of the war, and at ridiculous prices."
+        text "I guess some people will buy anything, though."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today. Check again later, why don't you?"
+end
+
+topic  "Do you have a special order for delivery to Caer Fandry?" q79:0 #q6205-01-330:0
+	quest 80 #6205-01-335
+	text  "You picked it up already.  You must have a bad memory."
+end
+
+topic  "I'm looking for blackberry roots." q98:0 #q6211-01-535:0
+	quest 99 #6211-01-540
+	text  "I gave you plenty, friend."
+end
+

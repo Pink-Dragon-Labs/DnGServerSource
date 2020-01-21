@@ -1,0 +1,23 @@
+name "Wexfordshire"
+title "Wexfordshire Valley"
+worldFile "../data/lib/world/WEX1.WLD"
+worldFile "../data/lib/world/WEX2.WLD"
+worldFile "../data/lib/world/WEX3.WLD"
+worldFile "../data/lib/world/WEX4.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 14
+groupChance 50
+monster DarkFaery 20
+monster BountyHunterF 160
+monster ThiefE 15
+monster Fury 160
+monster SpittingCobra 160
+monster WardenHA07 40
+monsterGroup 6 2 Fury 1 DarkFaery
+monsterGroup 8 2 SpittingCobra 1 Fury
+monsterGroup 10 2 SpittingCobra 3 DarkFaery
+monsterGroup 4 1 Fury 2 SpittingCobra 1 DarkFaery
+monsterGroup 14 1 Fury 3 DarkFaery
+# Wexfordshire Valley	Area 07		Player Level 125-250	Alignment: Good		Monsters/Room: 3.00

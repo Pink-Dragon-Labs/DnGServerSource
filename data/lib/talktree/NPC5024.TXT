@@ -1,0 +1,151 @@
+id 5024
+
+banner "Welcome friend. I am Orwain the Third. Which scroll would you like me to read to you?"
+
+topic "Biography of Orwain III"
+		text "It is my sacred duty, and my honor, to follow in the tradition of my ancestors by putting quill to scroll to record for all time those momentous events which transform our world and shape our history. I hope you will come to visit with me often, for I will always be adding new scrolls which record events of legend, mystery, and myth."
+end
+topic "The Gods"
+	banner "Which subject would you like to learn more about?"
+	topic "The Diaspora"
+		text "Six gods rule the land of The Realm, two by two by two; Duach and Elphame, Despothes and Finvarra, and Enid and Mabon. Although Despothes rules, it is often whispered that all gods cast covetous eyes upon the throne."
+	end
+	topic "Duach"
+		text "Duach is the God of Darkness and Evil. He is a jealous God, quick to show his wrath, and vengeful beyond comprehension. Many times in the past has his anger boiled over, his dark fist sweeping across the land, despair and affliction washing over everything in its wake. Once, in a jealous rage, he even smote the Village of Leinster, burning the center of the most populace village to ashes and sundering the village in twain. It was only by the grace of Enid and intervention by Despothes that the fires were extinguished and the gardens now flourishing in the heart of Leinster began to grow."
+	end
+	topic "Elphame"
+		text "Elphame is the Goddess of Death and Justice. It is she that weighs the value of a mortal life lived and decides the final fate of the departed. Her hunger to judge is known well to scholars and theologians and many point to that, her unappeased yearning for souls, to explain her bond to Duach."
+	end
+	topic "Despothes"
+		text "Despothes is the King of the Gods. He is also known as the God of Balance and the Lord of the Scepter. He is the binding force that maintains the balance of good and evil, ensuring neither dominates the other and that the world remains neutral and free."
+	end
+	topic "Finvarra"
+		text "Finvarra, the God of War, has cast his lot with Despothes and, through that association, has gained substantial power and prestige. This can, perhaps, best be witnessed by comparing his long absence in the hearts of the mortal races with his present high standing by virtue of the weapons and armor of powerful magics he creates in his forge that have entered the lands to aid the people from the threat of the Mists."
+	end
+	topic "Enid"
+		text "Enid is the Goddess of Love and Peace, of Beauty and Nature, and of Compassion and Healing. She is the Lady of Light, the embodiment of all that is good. It was through her blessings that sundered Leinster was healed and the flames of Duach replaced by gardens of unsurpassed beauty. It is she who sends forth the faeries and seraphs to aid the wounded and to protect the forests."
+	end
+	topic "Mabon"
+		text "Mabon is known as the God of Magic. Most of the spells the mortal races use can be attributed to him. Though known as neither a God of Peace, nor a God of War, Mabon has chosen to align himself with Enid and seems to display his Good aspect to the mortal lands for the present. An example of his current beneficence is the mysterious appearance of his temple, long missing and rumored lost within the Mists, upon grounds well known for many ages. How long it shall remain open, or, indeed, whether it will persist in its present locale or disappear again into the Mists is unknown. Perhaps the cryptic puzzles present in the temple, when solved, may provide the answer."
+	end
+end
+
+topic "The Prophets"
+	banner "Which subject would you like to learn more about?"
+	topic "What is a Prophet?"
+	text "It is rare indeed that any of the Gods deign to travel in the mortal plane. It is rumored that they spend the majority of their time, if indeed they experience time as mortals do, in their respective domains. But the voices of the Gods are not silent in our world. They speak through their Prophets, giving words of advice, encouragement, displeasure, and prophecies."
+	end
+	topic "The Prophet of Enid"
+		text "BishopAlexander is the Prophet of Enid, the Goddess of Nature, Healing, and Peace. He serves Enid as her third prophet. The first, BishopSmith, was Edwards's son who strayed from Enid and was put to death. The second, BishopEdward, gave his life to save Light, the faery, a Dreamer. It was a divine covenant, a gift for a gift, an act of nobility and honor. Enid's chosen village is Wen. Chosen villages are the places the gods have tasked their followers to defend against the threat that gathers in the Mists. Bishop - n, a spiritual overseer; a high-ranking clergymen. - v, to confirm; to admit solemnly into the church."
+	end
+	topic "The Prophet of Despothes"
+		text "As the Prophet of Despothes, King of the Gods, Herald is perhaps the most informative of the three prophets. His manner is, at times, imperial and distant, but he has shown a kind heart and, on rare occasions, a whimsical sense of humor. His language is sometimes difficult for some players but there is great eloquence in how he speaks and, when understood, his messages carry a lot of information. Despothes' chosen village is Asgard. Chosen villages are the places the gods have tasked their followers to defend against the threat that gathers in the mists. Herald - n, a proclaimer; a messenger; a forerunner; a harbinger. - v, to proclaim; to foretell; to announce; to usher in."
+	end
+	topic "The Prophet of Duach"
+		text "Virulent, The Prophet of Duach, God of Darkness, has perhaps summed up who and what he is best when he said 'I am not your cuddly friend! I am the Eye of Evil, The Heart of Darkness, The anointed Voice of Duach.' Duach's chosen village is Arimathor. Chosen villages are the places the gods have tasked their followers to defend against the threat that gathers in the mists. Virulent - adj, marked by a rapid, severe, and malignant course; extremely poisonous or venomous; objectionably harsh or strong." 
+	end
+
+	topic "The Prophet of Mabon"
+		text "Being the prophet of Mabon, Milo is believed to be one of, if not the most skilled mages that roam the realm. Though with all her wisdom, sometimes her spells do go awry, as shown when she accidentally lost the temple of Mabon in a spell that was meant to protect it. She is naturally kind and inquisitive but it is best to stay on her good side, for she has a small spiteful side which can sometimes rear its ugly head."
+	end
+
+	topic "The Prophet of Elphame"
+		text "Elita, the prophet of Elphame, was born into these lands as Alesia; she was called into service by Elphame after the followers sought resurrection for one named Esan. Angered by the constant prayers Elphame asked for the life of Alesia as appeasement. Soon after Elita emerged, her outer appearance being drained of all emotion. Her eyes being marred by seeing constant visions of death. Though from time to time Elita does recall her past life through words or actions. It reaffirms to the followers that their friend Alesia is not truly gone from this world.  
+	end
+	
+	topic "The Prophet of Finvarra"
+		text "The Prophet of Finvarra; Regin is a war-hardened leader.  His ability to strategize and succeed on the battlefield is only surpassed by Lord Finvarra himself. On top of his abilities on the battlefield he is also a master craftsman of armor and weaponry. As he should be for he is also the overseer of the forges of Finvarra. He is not one to be trifled with. He sees warfare as the answer to many of life's problems and may not hesitate to show you the true strength that the power of Finvarra can provide in battle."
+	end
+end
+
+topic "Citizens of Special Interest"
+	banner "Which citizen would you like to learn more about?"
+	topic "Jasalva"
+		text "Jasalva is arguably the most well-known witch in all The Realm. Course in manner, unsophisticated in speech, and repugnant in appearance, she nonetheless attracts a sizeable audience whenever she permits visitors to her home. A seer and historian, Jasalva interweaves the future with the past to provide those seeking her advice with unique insights on unfolding events."
+		text "Perhaps you should pay her a visit sometime and see if she needs anything."
+	end
+	topic "The Gifts"
+		banner "Which Gift would you like to learn more about?"
+		topic "Ansuz/ZuZu"
+			banner "The coming of Ansuz was foretold by the Prophets. She was destined to become a powerful force to aid us against the threat from The Mists but events conspired to steal this ally from the mortal races." 
+			text "Ansuz first appeared young and unformed as ZuZu. No hint of her future importance was granted to mortal eyes. The gift of Despothes and protege of the Prophet Herald, the teenage ZuZu was brash, impulsive, and at times even irreverent."
+			text "As she developed her potential grew increasingly apparent and she drew the attention of Enid and Duach, both covetous to wield her to their ends."
+			text "Thus ensued a mighty struggle between the gods and their temple's followers, each vying to take or hold control over the young ZuZu and thereby threatening her existence itself."
+			text "The machinations, plots, and intrigues ended only at the last moment, as ZuZu underwent her transformation into Ansuz, by the gods choosing compromise over destruction and releasing the acolyte from bondage to any path."
+			text "Without allegiance to any god, Ansuz's full power is never to be realized. She now walks the lands as an emissary of all the gods, her potential lost but her prestige intact."
+			text "During the War with the Mists, Ansuz became ill hearing the voice of the young ZuZu. The citizens were given a choice of saving Ansuz or ZuZu. Not being able to choose one over the other as they had many fond memories of the young ZuZu and had come to love the mature Ansuz intensely, the citizens pleaded with Jasalva to save both."
+			text "Jasalva with the help of Milo, performed great magical feats within the halls of Despothes' Temple, separating the two powerful beings from one vessel. Ansuz and ZuZu now walk these lands as sisters aiding the citizens, each in her own special way." 
+		end
+
+		topic "Klevant"
+			text "Klevant is the gift of Duach. Though his initial form was that of a bat, he has grown into a young man.  His loyalties lie with Duach."
+		end
+
+		topic "Light, The Faery"
+			text "Light is the gift and child of Enid. She exists in the form of a Seraph, and when present, roams the land spreading hope and healing. At times her form will change colors. These colors represent her mood. Her childlike actions and words have endeared her to followers of all faiths."
+		end
+	end
+
+	topic "Kalliopa"
+		text "A resident of the Temple of Enid, Kalliopa is the understudy of Iliana. However, Kalliopa dreams of having more influence and wishes to be more than a simple 'Flower Girl'. Her attitude may get her in trouble, but it brings BishopAlexander out of his pious musings.  After the victory against the Mist forces, Kalliopa went into the Mists as a missionary for Enid."
+	end
+
+	topic "Shrew"
+		text "Shrew is a magical creature in the form of a shrew.  He is the familiar of Milo.  This magical creature has learned how to talk thanks to the efforts of those faithful to the six gods.  He's a fun creature to be around, except when he leaves smelly presents to some followers.  Shrew's main staple of food consists of ambrosia, or more fondly referred to as brew. He is always happy to see anyone that brings him his favorite drink."
+	end
+
+	topic "Daemiath"
+		text "Daemiath now resides deep within the temple of Elphame, serving out his sentence for the crimes against the forces of the Realm.  He was created by Astra as a weapon for her to use, but later, he killed Astra on command from a Doppelganger of Astra."
+	end
+
+end
+
+topic "Divinations"
+	banner "What signs have been seen?"
+	topic "Temple Spirits"
+		text "The gods make their feelings known by sights and sounds. It has often been told that while standing in the temples strange feelings have come over those resting there. These feelings should be understood and acted upon for they may contain hidden wisdoms."
+	end
+
+	topic "Fulfilled Prophecies"
+		text "They come. Invaders from The Mists. Their full purpose is not known but conquest is surely their intent."
+		text "Across all the lands the ground beneath our feet shook many times. Some say it is the restless footsteps of anxious gods. Others believe the quakes are signs of ominous events about to unfold."
+		text "It was once told that citizens should not teach the beasts that roam the lands. Some citizens placed items on the ground such as daggers and swords for the beasts to carry off. From this the creatures grew stronger. Beasts that wield powerful weapons can still be found in our lands. One of the prophets once commented, 'You give away wisdom as if it were water.' "
+		text "Warnings of magic came. We heard said that we should not give away books of magic's to the beasts. Some did not heed this warning and powerful mages have been spotted in certain areas of our land."
+		text "The gods make their feelings known by sights and sounds. It has often been told that while standing in the temples strange feelings have come over those resting there. These feelings should be understood and acted upon for they may contain hidden wisdoms."
+	end
+end
+
+topic "The Mists"
+	text "The Mists are impossible to know. They exist primarily on planes inaccessible to mortal means, though in the ancient past there were those who could travel in and through them."
+	text "There are those still able to cross between, though by what means cannot be told. But we know it is true, for creatures known to be from The Mists now roam our lands."
+	text "The Mists extend into the mortal plane and form an invisible boundary around our physical world, preventing most exploration beyond the known lands. I say most because, rarely, under the guidance of the Gods, The Mists have been pushed back to reveal new territory for mortal exploration and conquest."
+	text "The Mists also affect the mystical world that surrounds us and infuses the space, physical and spiritual, in which we reside. This mystical plane is, some have said, the source for many of the magics we have come to know and have likened The Mists to some great hand squeezing, confining, and compressing our existence."
+	text "If true, one can only wonder what great knowledge, what wondrous lands, what depth of spirit might lie just beyond our grasp."
+end
+
+topic "The Temple Trophy"
+	text "That caught your eye did it? The Temple Trophy is an award given to the temple that outperforms all others in challenges presented by the gods."
+	text "The followers of Despothes were the first to win the trophy for their temple."
+	text "Duach's followers then won the Trophy for the Dark God."
+	text "Lastly, during the time of the Mist War, the followers of Enid won it to stand proudly in the Temple of Light. Although they had difficulty keeping it from disappearing."
+	text "Its whereabouts are yet to be determined."
+end
+
+topic "The Garden of Prayer"
+	text "The Garden of Prayer is a portal to other holy lands. It can be used by citizens for quick relocation to many of the temples they may wish to visit."
+	text "By praying at these altars the gods have provided us with a means to safely transverse the untamed wilderness without fear of attack from mortal or beast."
+end
+
+topic "The Infinity Bloom"
+	text "This be a story of great confusion and bewilderment for the citizens. The story of the Infinity Bloom and its Creators is related to us by Ansuz through the interpretations of Mabon from a scroll."
+	text "It seems that eons ago, when the universe was newly created, before even Luna and the other ancients came into being, there existed three beings known only as the Creators. They were born out of the dust of time. Neither male nor female, they were the ultimate in Light, Dark, and Balance, and they had the daunting task of creating a new universe. Luria was the being of Light and created all things beautiful and bright and loving.  Edros was the source of all Darkness and was Luria's complete opposite, creating all things sinister and shadowed and spiteful.  And Mironid was the being which kept them both in check, making sure that everything that Luria and Edros created was balanced in every way." 	
+	text "Mironid never saw the two as being at odds, but as a compliment to one another.  Mironid knew that one could not exist without the other.  When their work was completed, they sat down to discuss which of their creations they loved most.  They focused on a little place that had vast oceans, beautiful mountains, clear flowing streams and rivers, and the most beautiful life forms that Luria had ever created.  Having the most beautiful of creatures meant that it also had the ugliest and vilest of monsters as well."
+ 	text "In their eyes  ... it was perfect!  They decided that it must have the best of guardians as well.  These new gods would most assuredly take care of their most treasured creation, but to ensure that this happened they devised a plan to place their essences into a creation they called The Infinity Bloom."
+ 	text "The Infinity Bloom was hand carved from a single perfect diamond.  The diamond was born from a black lump of coal created from the fires that forever burned in Edros' hands.  Seeing the ugly lump of dull, black stone, Luria kissed it and created the diamond, and thus perfect balance was maintained.  Luria then meticulously carved the diamond into a single perfect rose, and in doing so, placed their own good essence into it.  Drained and weary from the arduous task, Luria decided to rest for a while among the stars. They never awoke again."
+	text "Seeing an opportunity to gain the upper hand, Edros took the rose in hand and poured the essence of the eternal flames into the rose hoping to blacken or mar it in some way.  However, the center of the rose and then the outer petals began to glow with those fires, taking more than Edros was willing to give.  In the end, also drained and weakened from the assault on the rose, Edros too went to rest among the stars...never to awaken again."
+	text "Mironid watched from afar at what his counterparts had done and satisfied that true balance was maintained by Luria's total generosity and Edros' complete selfishness, set out to finish the task.  Mironid decided that should these gods fail in their duties to maintain the balance and perfection of the world the three had created, then the Flower of Destiny would come to life and put things once more in their proper place."
+	text "Mironid disguised as a young man, walked the lands in search of a proper place to store the rose. He came upon a small farming village in the land of Sardil.  He met a young farmer and his wife, poor yet generous, who took him in and gave him food and shelter thinking that he was just a lost soul in need of help.  So touched by their actions, he revealed himself and placed the young couple into a life of luxury and immortality." 
+	text "He also placed into their hands The Infinity Bloom and told them its true purpose.  Mironid told the young couple that should the day come that their gods fail them, the essences of the Creators would awaken and call out to their descendants.  This could be many years in the future or might never happen at all, but because of the pureness of their souls and their generosity, it was in them that his faith would be placed.  Humbled by Mironid's faith in them, the young couple vowed to pass on their values to their children and to leave a legacy of generosity and understanding of all things.  He told them to always remember that just because something is beautiful and bright, it doesn't mean that there isn't darkness within and that there is great beauty and light even within the darkness."
+	text "With confidence that their plan had worked and that The Infinity Bloom had been placed in the right hands, Mironid transferred all his power into The Infinity Bloom, and then transformed into a ball of blinding light and vanished into the endless heavens above to rest along with the other Creators."
+	text "It is said that contained in the center of the rose are the fires of destiny and its petals represent all the gifts given to mortal and immortal alike - Power, Faith, Love, Knowledge, Prophecy, Artistry, Beauty, Charity, and Hope.  Whichever of the decedents discover the key to unlocking the powers of the rose will be suffused with all the powers of the Creators.  They will be a being of pure and supreme power over all the world and the universe.  They will be the one to restore order to the chaos and restore the balance between the light and the dark."
+end

@@ -1,0 +1,191 @@
+#
+# Cobras
+#
+
+object Cobra of NPC
+	properties
+		name "Cobra"
+		view 41500
+		alignment 128
+		clutStart 64
+
+		minLevel 40
+		maxLevel 100
+
+		minDamage 30
+		maxDamage 90
+
+		dexterity 18
+		endurance 18
+		strength 20
+		quickness 20
+
+		#damage normal+poison
+		affect 0 0 0 -1
+		affect 5 0 0 -1
+
+		#immune to poison damage
+		affect 5 2 0 -1
+
+		soundGroup 3
+		treasure 4
+		damageType 0
+		armorType 2
+	end
+
+	base character
+		## unarmed combat grandmaster
+		skill 7 5
+
+		## acrobatics grandmaster
+		skill 9 5
+
+		## critical striking grandmaster
+		skill 29 5
+	end
+
+	actions	
+		vBeBorn changeSpellResistance self 33 2
+	end
+	
+	base described
+		text "Cobra -- 33% mysticism resistance, 30 - 90 melee damage.\n\n"
+	end
+end
+
+object SpittingCobra of Cobra
+	properties
+		name "Spitting Cobra"
+		
+		minLevel 60
+		maxLevel 200
+
+		minDamage 50
+		maxDamage 110
+	end
+
+	base described
+		text "Spitting Cobra -- 33% mysticism resistance, 50 - 110 melee damage.\n\n"
+	end
+end
+
+object LavaSerpent of Cobra
+	properties
+		name "Lava Serpent"
+		clutStart -1
+		color 48
+
+		minLevel 120
+		maxLevel 300
+
+		minDamage 80
+		maxDamage 140
+
+		# clear normal damage, add fire damage
+		affect 1 0 0 -1
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# weak to cold damange
+		affect 2 3 0 -1
+
+		# see invisible
+		affect 17 0 0 -1
+
+		# fire immolated
+		affect 23 0 0 -1
+	end
+
+	base described
+		text "Lava Serpent -- 33% mysticism resistance, 80 - 140 melee damage.\n\n"
+	end
+end
+
+object KingCobra of Cobra
+	properties
+		name "King Cobra"
+		color 93
+
+		minLevel 200
+		maxLevel 400
+
+		minDamage 90
+		maxDamage 180
+	end
+
+	base described
+		text "King Cobra -- 33% mysticism resistance, 90 - 180 melee damage.\n\n"
+	end
+end
+
+object HellSnake of Cobra
+	properties
+		name "Hell Snake"
+		clutStart -1
+		color 1584
+
+		alignment 0
+
+		minLevel 300
+		maxLevel 600
+
+		minDamage 110
+		maxDamage 200
+
+		# clear normal damage, add fire damage
+		affect 1 0 0 -1
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# weak to cold damange
+		affect 2 3 0 -1
+
+		# see invisible
+		affect 17 0 0 -1
+
+		# fire immolated
+		affect 23 0 0 -1
+	end
+
+	base described
+		text "Hell Snake -- 33% mysticism resistance, 110 - 200 melee damage.\n\n"
+	end
+end
+
+object BabyDragon of Cobra
+	properties
+		name "Baby Dragon"
+		clutStart -1
+		color 817
+
+		alignment 0
+
+		minLevel 500
+		maxLevel 1000
+
+		minDamage 150
+		maxDamage 240
+
+		# immune to fire damage
+		affect 1 2 0 -1
+
+		# weak to cold damange
+		affect 2 3 0 -1
+
+		# see invisible
+		affect 17 0 0 -1
+
+		# fire immolated
+		affect 23 0 0 -1
+	end
+
+	base described
+		text "Baby Dragon -- 33% mysticism resistance, 110 - 200 melee damage.\n\n"
+	end
+
+	base container
+		object RandomRareHelmet 
+	end
+end

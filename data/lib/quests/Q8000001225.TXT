@@ -1,0 +1,18 @@
+quest  349 #80000-01-225        # Geezer, Potions, Guennor, 6510
+
+name  "Geezer's Business Sense"
+type  fedex
+
+proposal  "Be danged!  Ye say it's a rock snail ye come for?  Hooeee!!  Brindal'll never believe, not but what he'll pay his wager anyway.  Thought it was due to rocks in me head, he did, when me inventory was enhanced by you critter of the briny deep in rock form.  Feller come offerin' the specimen and by gum I took the deal.  Ye've got to have business sense was said to Brindal by me, and a wager was soon struck, him retortin' about rocks in me head.  A portion of ale do hang in the balance.  And here ye be, wantin' the stone critter. Ye've made me day. Ye'll get the critter on the house if ye'll go over to Brindal and just ask for an empty jar to carry yer acquisition.  Ye'll do it, won't ye?"    
+
+declined  "Dag nab it.  Old Brindal put ye up to this, didn't he?"
+
+accepted  "Jest say yer needin' an empty jar for transport of Geezer's snail."
+
+reminder   "Get ye to Brindal's establishment and mind ye say yer piece straight."
+
+completed  "Here be yer critter.  No need to use the jar, havin' already served it's purpose.  Heh.  Heh.  Now I'll be droppin' in on Brindal for a discussion about business sense over a portion of ale."
+
+getItem   qEmptyJar
+reward   qPetrifiedSnail 
+end

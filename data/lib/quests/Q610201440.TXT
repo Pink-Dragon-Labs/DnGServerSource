@@ -1,0 +1,16 @@
+quest  65 #6102-01-440        # Ciobhan, Ethereal Outlet, magic, West Leinster, 6077
+
+name  "Delivery for Ciobhan"
+type  fedex
+
+proposal  "That I do, that I do.  It's just a little family memento.  Not much, but I hope he'll like it.  I found out he was in East Leinster after the smiting, and I wrote to introduce myself and say I had a package for him.  I wondered if he would just ignore me.  Now where did I put that package?  Such a long time it's been here.  Oh yes, here it is.  You'll be taking it to him, won't you?
+
+declined  "That's a pity."
+
+accepted  "Good."
+
+reminder   "Aren't you going to deliver that package to Cozenor?"
+
+reward   qCozenorPackage 
+end
+

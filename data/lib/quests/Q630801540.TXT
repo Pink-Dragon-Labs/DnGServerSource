@@ -1,0 +1,16 @@
+quest  118 #6308-01-540  #(Sandor, caveNPC, 80500)
+
+name  "Sandor's Answer"
+type  fedex
+
+proposal  "It's about time you got here, mate.  The delivery's been received and I want to get rid of this voucher.  You ready to take it to him?" 
+
+declined  "That's a crazy answer, mate, when you've come this far."
+
+accepted  "Take the voucher and get going, mate."
+
+reminder  "Get going, mate.  Take that voucher to Jann."
+
+reward  qJannVoucher
+end
+

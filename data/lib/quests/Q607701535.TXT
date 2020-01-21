@@ -1,0 +1,19 @@
+quest  58 #6077-01-535        # Fenemi, Nosh Shop, food, elf, Drune, 8309
+
+name  "Usk Tea Leaf"
+type  fedex
+
+proposal  "It's a gourmet you are, then.  Sure, I've got toasted sunberry seeds.  It's my own small supply, meaning they're not on the menu, but I'll share.  To be sure, I'll share.  Actually, now, I wonder if you'd do a small favor for me in exchange.  It's just a quick trip to Usk.  It's a pretty jaunt, if you've never been there.  Will you do this?"
+
+declined  "Drat.  I hoped you would."
+
+accepted  "I've heard about a special tea leaf they have, a local grown thing.  Could you find me some?"
+
+reminder   "An Usk tea leaf, that's what you are seeking."
+
+completed  "I can't wait to try this.  Here's a nice supply of toasted sunberry seeds.  Enjoy!"
+
+getItem   qUskTealeaf
+reward   qSunberrySeeds 
+end
+

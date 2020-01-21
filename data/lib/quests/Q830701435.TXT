@@ -1,0 +1,19 @@
+quest  338 #8307-01-435        # Sanria, Fantastic Meals, Arimathor, 6804
+
+name  "Dill for Sanria"
+type  fedex
+
+proposal  "Isn't she a dear?  I've been watching for you.  I knew someone would be coming.  I saw her this morning and told her I'd be baking today and would save her some.  She does love a bit of sweet, but these cookies are still too hot to handle.  Perhaps you would do one small errand for me while they cool. Linez at the Food Cart told me she would have a package of dill today. Could you fetch it for me, please?"
+
+declined  "Very well."
+
+accepted  "Thank you."
+
+reminder   "Linez at the Food Cart has some dill for me."
+
+completed  "My thanks, and here's the package for Kaliri."
+
+getItem   qSanriaDill
+reward   qKaliriCookies 
+end
+

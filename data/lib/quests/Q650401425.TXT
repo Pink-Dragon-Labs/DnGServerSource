@@ -1,0 +1,20 @@
+quest  172 #6504-01-425        # Manonor, Clothes make the Elf, Drune, 9312
+
+name  "Manonor's Order"
+type  fedex
+
+proposal  "I've a good selection.  Nice soft cloth.  Great for polishing armor.  You can have the best of the lot if you will go to Murias for me.  I need an order of boots.  Will you?"
+
+declined  "Very well."
+
+accepted  "Good.  My order is ready."
+
+reminder   "Go to Murias from my order of boots."
+
+completed  "Thank you.  Here's a very good selection of polishing cloth."
+
+getItem   qManonorOrder
+reward   qPolishingCloth 
+end
+
+

@@ -1,0 +1,18 @@
+quest  228 #6815-01-330        # Meulen, Monmouth Necessaries, general, 6312
+
+name  "Meulen's Supplies"
+type  fedex
+
+proposal  "Of course, of course.  The very finest crop we've had in years here, and I should know since  I've been here for years. Black mushrooms are delicious.  Cook them gently, gently mind you.  Season them with a bit of salty herb and buttery sauce.  Perhaps add a few sweet onions, but that is a matter of taste.  Delicious.  Yes, indeed, you've come to the right place for black mushrooms.  And I'll even give them to you, no charge, if you'll do me a big favor.  I've some items ordered from Silverbrook that I need in the worst way.  If you'd get them for me, I'd speak your name favorably to Luna every day for a year, as well as give you the mushrooms.
+
+declined  "Pity."
+
+accepted  "Go to Lukila.  They will be ready."
+
+reminder   "Lukila of Silverbrook has the supplies I need."
+
+completed  "What a relief.  I've packaged the whole supply of black mushrooms for you."
+
+getItem   qMeulenSupplies
+reward   qBlackMushrooms 
+end

@@ -1,0 +1,36 @@
+id 7313
+
+banner "Hello, Friend. Welcome to my flower cart.  How may I help you?"
+
+topic "Tell me about Drune."
+        text "Drune is a lovely town.  Elves mostly live here, but people of all races mingle freely." 
+	text "I love Drune.  I used to visit my grandparents here and always wanted to live here."
+	text "Now I do, and I couldn't be happier."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Dear me, yes.  Rumors are always floating around Drune.  They make life interesting if you don't take them seriously."
+        text "Did you hear the one about the constable flying?  Actually, he fell out of a tree.  Fortunately he didn't hurt anything but his dignity, but the jokes about him trying to fly have been rampant since."
+end      
+
+topic	"So, do you like limericks?"
+	text  "Why of course I do.  What a silly question.  Everybody likes limericks!"
+	text  "You never know which limerick will be new to someone.  Let's see if you know this one."
+	text  "She had pouted and protested, 'Mr.!"
+	text  "Because in the swing he had kr."
+	text  "And so for sheer spite"
+	text  "On that very same night,"
+	text  "This Mr. kr. sr."
+	text  "I laughed like anything the first time I heard that!  Here's another."
+	text  "A flea and a fly in a flue"
+	text  "Were imprisoned so what could they do?"
+	text  "Said the fly, 'Let us flee,'"
+	text  "Said the flea, 'Let us fly,'"
+	text  "So they flew through a flaw in the flue."
+	text  "It's fun to try saying that one fast."
+	text  "I better get back to selling flowers now."
+end
+
+topic "Can I do anything for you?"
+        text "Nothing, thanks.  Come again, though, any time. I'm nearly always here."
+end

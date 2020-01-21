@@ -1,0 +1,1850 @@
+#---------------	9050	21318	ascets07	female	human	Jyotis	BAD
+#---------------	9051	21247	ascets05	female	human	Solana	BAD
+#---------------	9052	21998	ascets20	male	human	Cronus	BAD
+#---------------	9053	1606	wwood11	female	giant	Adelyte	GOOD
+#---------------	9054	1484	wwood8	male	human	Pyotr	BAD
+#---------------	9055	1374	wwood6	male	human	Kalkin	BAD
+#---------------	9056	2242	emfor3	male	elf	Earc	BAD
+#---------------	9057	4222	zender1	female	elf	Ateed	BAD
+#---------------	9058	4511	wild3	female	giant	Zaliki	GOOD
+#---------------	9059	4815	wild9	male	giant	Ferris	GOOD
+#---------------	9060	9129	inter2	female	elf	Vibeka	BAD
+#---------------	9061	3132	devon1	male	elf	Prent	BAD
+#---------------	9062	12358	winter4	male	giant	Viljo	GOOD
+#---------------	9063	16583	down2	female	human	Fabienne	BAD
+#---------------	9064	20057	barren2	female	elf	Qwen Ryche	BAD
+#---------------	9065	25188	meadows03	male	giant	DeSol Tib	GOOD
+#---------------	6089	21150	OASIS	male	human
+room 6089
+   properties
+      picture	4001
+      roomName	"MarTull's Oasis"
+      south	21150 334 168 
+   end
+   atpinfo
+      2106  330 259
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  295 226
+      3  295 245
+      3  365 226
+      3  365 245
+   end
+   objects
+      object stool6089-0 of Stool
+         properties
+            x	418
+            y	272
+            loop	2
+         end
+      end
+      object stool6089-1 of Stool
+         properties
+            x	467
+            y	290
+            loop	2
+         end
+      end
+      object stool6089-2 of Stool
+         properties
+            x	241
+            y	272
+            loop	2
+         end
+      end
+      object bartender6089-4 of Bartender
+         properties
+            x	330
+            y	250
+            loop	2
+            name	"MarTull"
+            girth	120
+            height	120
+         end
+         base character
+            sex	0
+            properName	"MarTull (NPC)"
+         end
+         base described
+            text	"MarTull, the desert dweller.\n\n"
+         end
+         base talk
+            talkTreeID	21150
+         end
+         base container
+            worn	BrownTunic
+            worn	TanPants
+            worn	BrownBoots
+            worn	BlackBelt
+            head	0 2 0 1 5 0 7 13 3 -1 0 0 
+         end
+      end
+      object stool6089-5 of Stool
+         properties
+            x	196
+            y	284
+            loop	2
+         end
+      end
+      object stool6089-6 of Stool
+         properties
+            x	153
+            y	307
+            loop	2
+         end
+      end
+      object stool6089-7 of Stool
+         properties
+            x	520
+            y	310
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9050	21318	ascets07	female	human	Jyotis	BAD
+room 9050
+   properties
+      picture	4001
+      south	21318 363 185 
+      flags	2
+      roomName	"Jyotis' Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9050-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9050-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9050-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9050-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Jyotis"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Jyotis (NPC)"
+         end
+         base described
+            text	"Jyotis, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9050
+         end
+         base container
+            head	1 1 0 7 0 0 -1 4 6 0 4 0
+            worn	GoldLowBoots
+            worn	YellowShortSkirt
+            worn	RedBelt
+            worn	YellowShirt
+         end
+      end
+      object stool9050-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9050-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9050-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9051	21247	ascets05	female	human	Solana	BAD
+room 9051
+   properties
+      picture	4001
+      south	21247 503 185 
+      flags	2
+      roomName	"Solana's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9051-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9051-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9051-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9051-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Solana"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Solana (NPC)"
+         end
+         base described
+            text	"Solana, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9051
+         end
+         base container
+            head	1 2 0 7 0 0 -1 2 9 0 4 0
+            worn	GrayBoots
+            worn	WhiteShirt
+            worn	WhiteLongSkirt
+            worn	WhiteBelt
+         end
+      end
+      object stool9051-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9051-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9051-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9052	21998	ascets20	male	human	Cronus	BAD
+room 9052
+   properties
+      picture	4001
+      south	21998 199 146 
+      flags	2
+      roomName	"Cronus's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9052-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9052-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9052-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9052-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Cronus"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Cronus (NPC)"
+         end
+         base described
+            text	"Cronus, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9052
+         end
+         base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,
+            #head	1 2 3 4 5 6 7  8 9 10 11 12 13 
+            head	0 3 1 2 0 1 7 10 9 2 0 0 
+            worn	GrayBoots
+            worn	TealPants
+            worn	AquaShirt
+            worn	BlackBelt
+         end
+      end
+      object stool9052-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9052-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9052-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9053	1606	wwood11	female	giant	Adelyte	GOOD
+room 9053
+   properties
+      picture	4001
+      south	1606 311 184 
+      flags	2
+      roomName	"Adelyte's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9053-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9053-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9053-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9053-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Adelyte"
+            girth	110
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Adelyte (NPC)"
+         end
+         base described
+            text	"Adelyte, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9053
+         end
+         base container
+            head	1 1 5 0 0 9 -1 2 6 0 4 2 2
+            worn	VioletShirt
+			worn 	RoyalCowl
+            worn	BrownBelt
+            worn	RoyalPants
+            worn	BrownLowBoots
+         end
+      end
+      object stool9053-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9053-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9053-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9054	1484	wwood8	male	human	Pyotr	BAD
+room 9054
+   properties
+      picture	4001
+      south	1484 500 195 
+      flags	2
+      roomName	"Pyotr's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9054-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9054-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9054-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9054-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Pyotr"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Pyotr (NPC)"
+         end
+         base described
+            text	"Pyotr, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9054
+         end
+         base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,
+            #head	1 2 3 4 5 6 7  8 9 10 11 12 13 
+            head	0 2 1 4 0 5 9 7 4 4 5 1 
+            worn	RedTunic
+            worn	BlackBoots
+            worn	RoyalPants
+            worn	RoyalBelt
+			worn 	RoyalCowl
+         end
+      end
+      object stool9054-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9054-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9054-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9055	1374	wwood6	male	human	Kalkin	BAD
+room 9055
+   properties
+      picture	4001
+      south	1374 535 174 
+      flags	2
+      roomName	"Kalkin's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9055-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9055-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9055-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9055-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Kalkin"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Kalkin (NPC)"
+         end
+         base described
+            text	"Kalkin, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9055
+         end
+		 base container
+			worn	GrayTunic
+			worn	TanLowBoots
+			worn	BrownPants
+            worn	WhiteBelt
+			head	0 0 4 7 0 4 2 9 10 1 5 0
+		 end
+      end
+      object stool9055-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9055-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9055-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9056	2242	emfor3	male	elf	Earc	BAD
+room 9056
+   properties
+      picture	4001
+      south	2242 528 216 
+      flags	2
+      roomName	"Earc's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9056-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9056-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9056-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9056-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Earc"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Earc (NPC)"
+         end
+         base described
+            text	"Earc, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9056
+         end
+         base container
+            head	0 1 2 0 0 6 -1 12 1 2 6 0 3 
+            worn	OrangeBoots
+            worn	AmberPants
+            worn	AmberShirt
+            worn	OrangeBelt
+         end
+      end
+      object stool9056-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9056-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9056-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9057	4222	zender1	female	elf	Ateed	BAD
+room 9057
+   properties
+      picture	4001
+      south	4222 146 184 
+      flags	2
+      roomName	"Ateed's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9057-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9057-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9057-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9057-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Ateed"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Ateed (NPC)"
+         end
+         base described
+            text	"Ateed, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9057
+         end
+         base container
+            head	1 3 4 0 0 0 -1 8 4 0 0 0 3
+            worn	BlackBelt
+            worn	JadeLongSkirt
+            worn	JadeShirt
+         end
+      end
+      object stool9057-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9057-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9057-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9058	4511	wild3	female	giant	Zaliki	GOOD
+room 9058
+   properties
+      picture	4001
+      south	4511 524 174 
+      flags	2
+      roomName	"Zaliki's Wilderness Shop"
+   end
+   atpinfo
+      2106  338 263
+      7901  322 254
+      32782  83 297
+      14  567 296
+      2144  78 257 50
+      2133  188 238 50
+      2101  160 228 -25
+      3  245 255
+      3  81 287
+      3  65 288
+      3  51 291
+      3  37 304
+      3  23 317
+      2134  285 240 75
+      34918  322 245 75
+      2142  104 258 50
+      3  402 256
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      2151  258 245 75
+      3  403 237
+      2103  310 236
+      3  245 245
+      2241  278 265
+      2132  366 244 75
+      2133  521 255 50
+      2102  473 227 -25
+      34910  534 251 50
+      34910  520 255 50
+      2125  312 247 75
+   end
+   objects
+      object bartender9058-0 of TentShop
+         properties
+            x	340
+            y	257
+            loop	2
+            name	"Zaliki"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Zaliki (NPC)"
+         end
+         base described
+            text	"Zaliki, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9058
+         end
+         base container
+            head	1 2 6 7 0 6 -1 8 1 7 7 1 2 
+            worn	GreenLongSkirt
+            worn	MagentaShirt
+            worn	BrownLowBoots
+            worn	BlackBelt
+         end
+      end
+      object smokeA9058-1 of SmokeA
+         properties
+            x	255
+            y	118
+            loop	0
+         end
+      end
+      object smokeB9058-2 of SmokeB
+         properties
+            x	363
+            y	149
+            loop	0
+         end
+      end
+      object smokeC9058-3 of SmokeC
+         properties
+            x	311
+            y	48
+            loop	0
+         end
+      end
+      object smokeC9058-4 of SmokeC
+         properties
+            x	178
+            y	51
+            loop	0
+         end
+      end
+      object smokeC9058-5 of SmokeC
+         properties
+            x	447
+            y	48
+            loop	0
+         end
+      end
+      object smokeC9058-6 of SmokeC
+         properties
+            x	36
+            y	45
+            loop	0
+         end
+      end
+      object smokeC9058-7 of SmokeC
+         properties
+            x	589
+            y	52
+            loop	0
+         end
+      end
+   end
+end
+#---------------	9059	4815	wild9	male	giant	Ferris	GOOD
+room 9059
+   properties
+      picture	4001
+      south	4815 163 192
+      flags	2
+      roomName	"Ferris's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9059-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9059-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9059-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9059-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Ferris"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Ferris (NPC)"
+         end
+         base described
+            text	"Ferris, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9059
+         end
+         base container
+            head	0 2 7 3 0 6 15 11 4 12 7 6 2
+            worn	OliveTunic
+            worn	BrownBoots
+            worn	OlivePants
+            worn	BlackBelt
+         end
+      end
+      object stool9059-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9059-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9059-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9060	9129	inter2	female	elf	Vibeka	BAD
+room 9060
+   properties
+      picture	4001
+      south	9129 86 192
+      flags	2
+      roomName	"Vibeka's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9060-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9060-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9060-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9060-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Vibeka"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Vibeka (NPC)"
+         end
+         base described
+            text	"Vibeka, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9060
+         end
+         base container
+            head	1 0 0 4 0 6 -1 1 9 3 6 0 3 
+            worn	BrownLowBoots
+            worn	JadePants
+            worn	JadeShirt
+            worn	BlackBelt
+         end
+      end
+      object stool9060-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9060-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9060-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9061	3132	devon1	male	elf	Prent	BAD
+room 9061
+   properties
+      picture	4001
+      south	3132 384 202 
+      flags	2
+      roomName	"Prent's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9061-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9061-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9061-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9061-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Prent"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Prent (NPC)"
+         end
+         base described
+            text	"Prent, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9061
+         end
+         base container
+            head	0 2 2 6 0 4 -1 6 2 0 6 1 3 
+            worn	BlackRobe
+            worn	BrownBoots
+            worn	BlackBelt
+         end
+      end
+      object stool9061-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9061-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9061-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9062	12358	winter4	male	giant	Viljo	GOOD
+room 9062
+   properties
+      picture	4001
+      south	12358 356 192 
+      flags	2
+      roomName	"Viljo's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9062-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9062-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9062-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9062-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Viljo"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"Viljo (NPC)"
+         end
+         base described
+            text	"Viljo, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9062
+         end
+         base container
+            head	0 2 0 0 0 7 0 0 2 0 0 0 2
+            worn	OrangeShirt
+            worn	BrownPants
+            worn	BlackBoots
+            worn	BlackBelt
+         end
+      end
+      object stool9062-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9062-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9062-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9063	16583	down2	female	human	Fabienne	BAD
+room 9063
+   properties
+      picture	4001
+      south	16583 317 167 
+      flags	2
+      roomName	"Fabienne's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9063-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9063-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9063-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9063-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Fabienne"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Fabienne (NPC)"
+         end
+         base described
+            text	"Fabienne, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9063
+         end
+         base container
+            head	1 3 0 7 0 7 -1 8 4 0 2 0
+            worn	GreenShirt
+            worn	TanPants
+            worn	BrownLowBoots
+            worn	BlackBelt
+         end
+      end
+      object stool9063-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9063-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9063-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9064	20057	barren2	female	elf	Qwen Ryche	BAD
+room 9064
+   properties
+      picture	4001
+      south	20057 321 237 
+      flags	2
+      roomName	"Qwen Ryche's Wilderness Shop"
+   end
+   atpinfo
+      2106  306 246
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  163 238
+      3  143 247
+      3  122 257
+      3  102 265
+      3  84 273
+      3  65 281
+      3  51 291
+      3  37 304
+      3  23 317
+      3  501 245
+      3  519 253
+      3  538 262
+      3  556 270
+      3  574 278
+      3  594 287
+      3  610 297
+      3  626 308
+      3  263 222
+      3  347 234
+      3  348 219
+      3  263 234
+   end
+   objects
+      object stool9064-0 of Stool
+         properties
+            x	478
+            y	275
+            loop	2
+         end
+      end
+      object stool9064-1 of Stool
+         properties
+            x	520
+            y	290
+            loop	2
+         end
+      end
+      object stool9064-2 of Stool
+         properties
+            x	181
+            y	269
+            loop	2
+         end
+      end
+      object bartender9064-3 of TentShop
+         properties
+            x	306
+            y	236
+            loop	2
+            name	"Qwen Ryche"
+            girth	100
+            height	100
+         end
+         base character
+            sex	1
+            properName	"Qwen Ryche (NPC)"
+         end
+         base described
+            text	"Qwen Ryche, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9064
+         end
+         base container
+            head	1 2 0 3 0 6 -1 5 4 1 6 0 3 
+            worn	WhiteShirt
+            worn	YellowPants
+            worn	TanBoots
+            worn	BrownBelt
+         end
+      end
+      object stool9064-4 of Stool
+         properties
+            x	143
+            y	284
+            loop	2
+         end
+      end
+      object stool9064-5 of Stool
+         properties
+            x	104
+            y	304
+            loop	2
+         end
+      end
+      object stool9064-6 of Stool
+         properties
+            x	559
+            y	307
+            loop	2
+         end
+      end
+   end
+end
+#---------------	9065	25188	meadows03	male	giant	DeSol Tib	GOOD
+room 9065
+   properties
+      picture	4001
+      south	25188 293 181
+      flags	2
+      roomName	"DeSol Tib's Wilderness Shop"
+   end
+   atpinfo
+      2103  306 229 -10
+      7901  322 226
+      32782  90 258
+      14  564 258
+      3  173 234
+      3  122 247
+      3  104 254
+      3  84 258
+      3  67 269
+      3  51 277
+      3  37 288
+      3  23 297
+      3  12 314
+      3  424 263
+      3  537 278
+      3  514 276
+      3  412 249
+      3  560 278
+      3  608 308
+      3  592 294
+      3  581 277
+      2158  313 178 70
+      7907  226 247
+      7907  401 248
+      2599  160 291
+      2102  489 260
+      34913  509 267 60
+      34914  549 276 60
+      3  447 269
+      3  471 272
+      3  492 276
+      2109  307 169
+      2123  315 169
+      2122  309 187 50
+   end
+   objects
+      object bartender9065-0 of TentShop
+         properties
+            x	310
+            y	226
+            loop	2
+            name	"DeSol Tib"
+            girth	100
+            height	100
+         end
+         base character
+            sex	0
+            properName	"DeSol Tib (NPC)"
+         end
+         base described
+            text	"DeSol Tib, the merchant.\n\n"
+         end
+         base talk
+            talkTreeID	9065
+         end
+         base container
+            head	0 1 8 3 0 5 15 9 8 11 2 4 2 
+            worn	RoyalTunic
+            worn	GoldPants
+            worn	BrownBoots
+            worn	BlackCowl
+            worn	BlackBelt
+         end
+      end
+      object chair9065-1 of Chair
+         properties
+            x	96
+            y	274
+            loop	0
+         end
+      end
+      object chair9065-2 of Chair
+         properties
+            x	132
+            y	264
+            loop	0
+         end
+      end
+      object chair9065-3 of Chair
+         properties
+            x	66
+            y	295
+            loop	0
+         end
+      end
+      object chair9065-4 of Chair
+         properties
+            x	173
+            y	263
+            loop	0
+         end
+      end
+   end
+end

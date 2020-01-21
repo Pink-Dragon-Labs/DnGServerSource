@@ -1,0 +1,15 @@
+quest  229 #6815-01-335        # Lukila, Gatekeeper of Silverbrook, 5405
+
+name  "Greetings from Silverbrook"
+type  fedex
+
+proposal  "Yes, they are here.  I know he has been anxious about them.  You will hurry back to him with them, won't you?
+
+declined  "Strange."
+
+accepted  "Good.  Bear him greetings from his Silverbrook friends."
+
+reminder   "Take the supplies back to Meulen in Monmouth."
+
+reward   qMeulenSupplies 
+end

@@ -1,0 +1,19 @@
+quest  216 #6817-01-525        # Pindar, Finvarra's Foods, Asgard, 6901
+
+name  "Amulet of Finvarra"
+type  fedex
+
+proposal  "I've got it right here, and I'll make you a deal for it.  Did you know it has a white pig on it?  Seems this Freddie the Mellow was some person's favorite pig and the dude had a talisman made.  You'll treasure it, I hope, because it's a clever talisman, but it's not my thing.  Would you do me a favor to get it?"
+
+declined  "Ah."
+
+accepted  "I would like to have an Amulet of Finvarra that has turned up in Silverbrook."
+
+reminder   "Go to Silverbrook and find the Amulet of Finvarra."
+
+completed  "Wonderful.  I hope you'll enjoy your talisman as much as I appreciate this amulet."
+
+getItem   qAmuletFinvarra
+reward   qTalismanFreddie 
+end
+

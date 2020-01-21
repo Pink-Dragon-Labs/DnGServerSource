@@ -1,0 +1,18 @@
+id 9051
+#---------------	9051	21247	ascets05	female	human	Solana
+
+banner "Welcome to my shop, stranger. How may I serve you?"
+
+topic "Tell me about this shop."
+    text "It is a shop in the wilderness. I sell all that a brave adventurer may need on their journey."
+end
+
+topic "Who are you?"
+    text "I am Solana, wife of Cronus and mother of Jyotis. We were banished from the town of Arimathor because of my daughter."
+    text "She spoke ill of Duach and because of her blasphemy, the town folk crept into our home while we were in a deep slumber. They carried each of us away from the town and placed us in the wilderness."
+    text "Fortunately, they left us with some tents and supplies. I have heard word that other shops have been set up, like this one."
+end
+
+topic "Have you heard any rumors?"
+    text "It's strange that you ask, just today I heard that you would be visiting and here you are."
+end

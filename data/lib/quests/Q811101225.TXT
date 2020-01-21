@@ -1,0 +1,18 @@
+quest 310 #8111-01-225   # (Jaqqar, Desert Wind Tavernkeeper, Arimathor, 6812)
+
+name  "Ring of Jaqqar's Father"
+type  fedex
+
+proposal  "The gods are with you, friend, for I, Jaqqar, can be of assistance to you.  As it happens, you can serve me, also.  A ring of my late, lamented Father has been found in Kurz.  Please retrieve it for me.  I shall take steps to have the White Shark Tooth in my possession when you return."
+
+declined  "It is your choice, friend."
+
+accepted  "May the gods smooth the path before you."
+
+reminder  "Some shopkeeper in Kurz has a ring that belonged to my father.  Retrieve it for me to get the tooth."
+
+completed  "Praise all the gods, you have done it.  My father's ring!  Well I remember it from my youth. Here is the White Shark Tooth, as I promised.  Journey safely, friend."
+
+getItem  qJaqqarsRing
+reward  qSharkTooth
+end

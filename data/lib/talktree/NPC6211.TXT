@@ -1,0 +1,45 @@
+id 6211
+
+banner "Welcome to Murias Armorers, Friend. I'm Slei, the proprietor. What will you have?"
+
+topic "Tell me about Murias."
+        text "So it's information you want? Very well. Murias was founded on the blood of rich folk slain by an ancestor of mine, Lotta by name."
+	text  "She was a master of the maul.  The family has followed her example since. And don't you even think about questioning a woman's ability with the maul or you'll be sorry."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "One hears quite a bit about magical weapons fashioned in certain giant-towns."
+	text "But many say that my weaponry is of higher caliber than giant-fashioned weaponry."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, thank you, but perhaps another time."
+end
+
+topic  "Monji sent this note and said you might be able to tell me where your nephew is." q323:1 #q8111-01-535:1 
+	quest 324 #8111-01-540
+	text  "You asked me that already."     
+end
+
+topic  "I want to learn the ways of war." c10:5
+	banner  "If skill with the maul interests you, I can teach you.  You've got to be an expert with the maul already, though.  I'll only teach you master and grand-master skills." 
+
+	topic  "How do I get to be an expert with the maul?" c10:3 
+		text  "Buy the skill books and practice.  You can go to the Athenaeum here in town, but any book store carries them." 
+	end
+
+	topic  "I am interested in maul master skills."  s10:3  
+		quest 90 #6211-01-400
+		text "You must study the skill book you have and you must practice to gain the skill."
+	end
+
+	topic  "I am interested in maul grand-master skills."  s10:4  
+		quest 95 #6211-01-500
+		text "You won't get that skill until you study the skill book you have, which should have been obvious."
+	end
+
+	topic  "What else can I learn from you?"  s10:5
+		text  "Nothing from me, but there are many experts in the Realm who will assist you.  Ask at the weapon shops."
+		text  "You haven't learned the maul, yet."
+	end
+end

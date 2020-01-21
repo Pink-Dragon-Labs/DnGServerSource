@@ -1,0 +1,9 @@
+name "Rend03"
+title "The Rendezvous"
+worldFile "../data/lib/world/D_REND_03b.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance DungeonBackDoor-26265-0

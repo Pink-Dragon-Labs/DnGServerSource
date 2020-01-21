@@ -1,0 +1,28 @@
+id 9060
+#--------------- 9060 9129 inter2 female elf Vibeka
+
+banner "Do my eyes deceive? Stranger, why have you come here?"
+
+topic "Is something wrong?"
+    text "It depends on why you have come to me. If it is for information, I have none to offer."
+    text "If it is for my supplies, I have many. Please browse them, buy something, and be on your way."
+    text "Ummm..."
+	text "There is something peculiar about you. I can't quite put my finger on it. Please hurry and go."
+end
+
+topic "Who are you?"
+    text "I am Vibeka, a shopkeeper and part time mystic."
+    text "I read the tea leaves to foretell the future."
+    text "Fortunately, I am out of tea so there will be no reading for you today. Be on your way, after you buy something of course."
+end
+
+topic "How can I find my way back to town?"
+    text "It depends, do you want the safe route or the route filled with danger?"
+	text "For the safe route, head South one step and then move West. You will soon after come upon the town of Leinster."
+	text "You look like one searching for danger however. Go East five steps and you will be in the heart of the Forest of Death."
+end
+
+topic "Is there anything I can do for you?"
+    text "Perhaps one day I will have a mission for you. For now, I have nothing."
+ text "I will be keeping my eye on you."
+end

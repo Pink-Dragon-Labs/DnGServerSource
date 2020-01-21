@@ -1,0 +1,20 @@
+quest  179 #6504-01-535        # Lompoc, What Ails You, healer, Murias, 6216
+
+name  "Lemon Balm for Lompoc"
+type  fedex
+
+proposal  "How did you hear about that, I wonder?  I've been experimenting and I've come up with a prototype.  If you want to test it for me, I'll give you a small bit.  I do need more of one ingredient, though.  Would you journey to Asgard for me?  I'll give you some ointment to test in return.  It will be in the cause of science.  What do you say?"
+
+declined  "Ok, ok."
+
+accepted  "Good.  I can't travel much because of my family responsibilities just now.  Fetch more lemon balm, please.  Say it's for Lompoc."
+
+reminder   "Find some lemon balm in Asgard."
+
+completed  "Excellent.  This is a wonderful boost to my experimenting.  Thanks.  Here's a supply of my oinment to try."
+
+getItem   qLemonBalm
+reward   qNewLotion 
+end
+
+

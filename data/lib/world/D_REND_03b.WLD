@@ -1,0 +1,67 @@
+# Dungeonmaker World File (Rend03.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 94042
+# Dungeon last room = 94043
+# Number of objects in dungeon = 2
+# Level 0 information:
+room 94042
+	properties
+		template 30302
+		flags	0
+	end
+	objects
+		object Chest-94042-0 of Chest
+			properties
+				x	502
+				y	289
+				loop	0
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-94042-1 of DungeonBackDoor
+			properties
+				x	326
+				y	227
+				loop	2
+				enchantResistance 100
+				linkTo	DungeonBackDoor-26265-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	94040
+			end
+			base described
+			end
+		end
+		object TeleportAltar-94042-2 of TeleportAltar
+			properties
+				x	101
+				y	292
+				loop	0
+			end
+			actions
+				vBeUsed  teleport dobj 5037
+			end
+			base described
+				text	"Careful: One use only."
+			end
+		end
+		object FiannaHelmet-94042-3 of FiannaHelmet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-94042-0
+			end
+			base described
+			end
+		end
+	end
+end

@@ -1,0 +1,7 @@
+name "DuachsTemple"
+title "Duach's Temple"
+worldFile "../data/lib/world/DUACTMPL.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 17

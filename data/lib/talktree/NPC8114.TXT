@@ -1,0 +1,20 @@
+id 8114
+
+banner "You've entered the Learning Emporium. I'm Parker. How may I serve you?"
+
+topic "Tell me about Usk."
+        text "Giants settled Usk so long ago the actual date is lost in the Mists.  The story is that a giant was lost in the Dark Forest and finally found his way out at this spot.  He liked it so much he brought his family and a few other settlers back here."
+	text "He named the town after his son. The boy grew up and was a great force in developing the small village into a town."
+	text "Strange to relate, there are no direct descendants left of that family line."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "How about the one that some little guy named Jack climbed a bean stalk and killed a giant.  Whooee!!"
+        text "There's another one about a chicken that thought the sky was falling!"
+	text "And how about the report that there's a place in every lake where boats get swallowed up, never to appear again."
+	text "Ask a silly question, get a silly answer."
+end      
+
+topic "Can I do anything for you?"
+        text "Nope. I've got everything I need.  Not everything I want, of course, but everything I need."
+end

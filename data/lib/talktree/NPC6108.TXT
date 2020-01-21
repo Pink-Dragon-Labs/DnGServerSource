@@ -1,0 +1,19 @@
+id #6108
+
+banner "You have entered the Book Nook. I am Jenna. How may I serve you?"
+
+topic "Can you tell me about Wen?"
+        text "Certainly.  Wen is a small farming community, that much is probably well know to you.  Originally our village was part of the Wild Beyond, but through the grace of Enid the Zender Woods evolved into a peaceful location.  She, herself, founded our town."
+	text "She has a special fondness for this town, so I feel that we will be safe from a fate such as Leinster suffered."
+	text "How any gods could do that to a people, I do not comprehend.  The gentle nature of Enid is so familar to us that we have no understanding of more warlike gods."
+	text "Which is a great blessing."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Odd that you ask.  Just yesterday a stranger was in here inquiring about tales of dragons.  He seems to think there is a great golden dragon ready to wreck havoc in the far wastelands."
+        text "I suspect that his dragon had it origin in an ale bottle.  I questioned him closely as to his facts, and I seriously doubt there is anything of substance to his assertion."
+end      
+
+topic "Can I do anything for you?"
+        text "I have everything I require, but I appreciate your courtesy."
+end

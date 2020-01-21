@@ -1,0 +1,18 @@
+quest  372 #80001-01-325        # Sanria, Fantastic Meals, Arimathor, 6804
+name  "A Package for Sanria"
+type  fedex
+
+proposal  "They're just out of the oven, friend.  These are my caramel nut specialities.  They always go fast, so you're just in time.  I don't even put them on the menu because they never last.  This is strictly word of mouth.  But actually, I'd rather you do a favor for me in exchange for the buns, instead of buy them.  Will you do that?"
+
+declined  "Ah, well."
+
+accepted  "My sister has a shop near here, and she has a package for me.  Could you run over and pick it up.  She's always watching her weight, so I won't even bother to send her some gooey buns.  Hurry back now, you hear?"
+
+reminder   "Janria is her name.  Please fetch a package for me."
+
+completed  "Thanks.  Here are the gooey buns I saved for you.  All the rest have been sold."
+
+getItem   qSanriaPackage
+reward   qGooeyBuns 
+end
+

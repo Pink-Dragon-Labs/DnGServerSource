@@ -1,0 +1,9 @@
+name "D_Undead_Stronghold"
+title "Undead Stronghold"
+worldFile "../data/lib/world/D_UNDEAD_STRONGHOLD_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 31
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor4137-0

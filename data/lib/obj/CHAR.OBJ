@@ -1,0 +1,311 @@
+#
+# Character Class Defaults
+#
+
+object Head
+	properties
+		view 4000
+		clutStart 104
+		action 0
+	end
+
+	base carryable
+		show 0
+		bulk 0
+		weight 0
+	end
+
+	base head 
+	end
+end
+
+object Character
+	properties
+		view 100
+		clutStart 104
+		color 106
+		xStep 12
+		yStep 8
+		action 1
+
+		## special properties
+		strength 12
+		dexterity 12
+		intelligence 12
+		quickness 12
+		endurance 12
+		poisonResistance 25
+		magicResistance 10
+		value 150
+		level 1
+		mana 100
+		health 100
+		alignment 0
+
+		armorFlat 0
+		armorPercent 0
+		armorDefense 0
+	end
+
+	base character
+		profession 1
+		experience 0
+		race 0
+		sex 0
+		buildPoints 0
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 10
+		swordSkill 10
+		axeSkill 10
+		unarmedSkill 10
+		detectTrapSkill 0
+#                pickLockSkill 0
+		stealthSkill 0
+		defenseSkill 10
+
+#		properName "DefaultGuy" 
+#		title "the Default Character"	
+	end
+
+	base container
+		bulkCapacity 200.0
+		weightCapacity 140.0
+	end
+end
+
+object MaleCharacter of Character
+	properties
+		soundGroup 16
+	end
+
+	base character
+		sex 0
+	end
+end
+
+object MaleAdventurer of MaleCharacter
+	properties
+		strength 10
+		dexterity 10
+		intelligence 10
+		endurance 10
+	end
+
+	base character
+		profession 0
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+                daggerSkill 10
+                swordSkill 10
+                axeSkill 10
+                unarmedSkill 10
+                detectTrapSkill 10
+#                pickLockSkill 10
+                stealthSkill 10
+                defenseSkill 10
+	end
+end
+
+object MaleWarrior of MaleCharacter
+	properties
+		strength 12
+		dexterity 11
+		intelligence 6
+		endurance 11
+	end
+
+	base character
+		profession 1
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 0
+		swordSkill 25
+		axeSkill 25
+		unarmedSkill 25
+		detectTrapSkill 0
+#                pickLockSkill 0
+		stealthSkill 0
+		defenseSkill 25
+	end
+end
+
+object MaleWizard of MaleCharacter
+	properties
+		strength 6
+		dexterity 11
+		intelligence 14
+		endurance 9
+	end
+
+	base character
+		profession 2
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 25
+		swordSkill 0
+		axeSkill 0
+		unarmedSkill 0
+		detectTrapSkill 0
+#                pickLockSkill 0
+		stealthSkill 0
+		defenseSkill 10
+	end
+end
+
+object MaleThief of MaleCharacter
+	properties
+		strength 9
+		dexterity 17
+		intelligence 9
+		endurance 11
+	end
+
+	base character
+		profession 3
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 25
+		swordSkill 25
+		axeSkill 0
+		unarmedSkill 0
+		detectTrapSkill 0
+                pickPocketSkill 25
+#                stealthSkill 0
+		defenseSkill 25
+	end
+end
+
+object FemaleCharacter of Character
+	properties
+		view 200
+		soundGroup 17
+	end
+
+	base character
+		sex 1
+	end
+end
+
+object FemaleAdventurer of FemaleCharacter
+	properties
+		strength 9
+		dexterity 13
+		intelligence 11
+		quickness 10
+		endurance 13
+		poisonResistance 8
+		magicResistance 7
+	end
+
+	base character
+		profession 0
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 15
+		swordSkill 15
+		axeSkill 15
+		unarmedSkill 15
+		detectTrapSkill 15
+#                pickLockSkill 15
+		stealthSkill 15
+		defenseSkill 15
+	end
+end
+
+object FemaleWarrior of FemaleCharacter
+	properties
+		strength 13
+		dexterity 13
+		intelligence 7
+		quickness 9
+		endurance 17
+		poisonResistance 10
+		magicResistance 2
+	end
+
+	base character
+		profession 1
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 0
+		swordSkill 25
+		axeSkill 25
+		unarmedSkill 25
+		detectTrapSkill 0
+#                pickLockSkill 0
+		stealthSkill 0
+		defenseSkill 25
+	end
+end
+
+object FemaleWizard of FemaleCharacter
+	properties
+		strength 5
+		dexterity 15
+		intelligence 15
+		quickness 9
+		endurance 11
+		poisonResistance 6 
+		magicResistance 10
+	end
+
+	base character
+		profession 2
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 25
+		swordSkill 0
+		axeSkill 0
+		unarmedSkill 0
+		detectTrapSkill 0
+#                pickLockSkill 0
+		stealthSkill 0
+		defenseSkill 10
+	end
+end
+
+object FemaleThief of FemaleCharacter
+	properties
+		strength 7
+		dexterity 17
+		intelligence 9
+		quickness 11
+		endurance 12
+		poisonResistance 10 
+		magicResistance 5
+	end
+
+	base character
+		profession 3
+
+		lightMagicSkill 0
+		darkMagicSkill 0
+		earthMagicSkill 0
+		daggerSkill 25
+		swordSkill 25
+		axeSkill 0
+		unarmedSkill 0
+		detectTrapSkill 0
+                pickPocketSkill 25
+#                pickLockSkill 0
+		stealthSkill 0
+		defenseSkill 25
+	end
+end

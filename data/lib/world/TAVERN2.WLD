@@ -1,0 +1,123 @@
+room 6013
+   properties
+      picture	4000
+      roomName	"Troll Spit Tavern"
+   end
+   atpinfo
+      2164  19 115
+      2028  442 11
+      2028  180 9
+      2127  287 128 150
+      2029  237 51
+      2005  540 115 100
+      2103  203 244
+      2112  205 254 170
+      2128  206 284 220
+      2017  76 56 40
+      2166  320 99
+      2221  -9 54 -99
+      2241  322 209
+      2042  497 173
+      2117  376 116 30
+      2241  108 239
+      2598  475 296
+      2018  11 114 50
+      2029  361 51
+      2006  616 121 50
+      2041  52 180
+      7909  239 194
+      7909  184 190
+   end
+   objects
+      object chair6013-0 of Chair
+         properties
+            x	375
+            y	289
+            loop	0
+         end
+      end
+      object chair6013-1 of Chair
+         properties
+            x	403
+            y	266
+            loop	0
+         end
+      end
+      object chair6013-2 of Chair
+         properties
+            x	567
+            y	286
+            loop	1
+         end
+      end
+      object chair6013-3 of Chair
+         properties
+            x	543
+            y	268
+            loop	1
+         end
+      end
+      object chair6013-4 of Chair
+         properties
+            x	493
+            y	264
+            loop	2
+         end
+      end
+      object chair6013-5 of Chair
+         properties
+            x	448
+            y	264
+            loop	2
+         end
+      end
+      object plankDoor6013-6 of PlankDoor
+         properties
+            x	594
+            y	219
+            loop	1
+            linkTo	plankDoor5013-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object foodShop6013-7 of FoodShop
+         properties
+            x	204
+            y	228
+            loop	2
+            name	"Crow"
+         end
+         base character
+            sex	0
+            properName	"Crow (NPC)"
+            title	"the Bartender"
+         end
+         base talk
+            talkTreeID	6013
+         end
+         base shop
+            buyMarkup	50
+            sellMarkup	100
+         end
+         base container
+            worn	TanTunic
+            worn	TanPants
+            worn	RedBoots
+            worn	Wristband
+            worn	BlackBelt
+            worn	RedCowl
+            object	AleJug
+            object	WineFlask
+            head	0 3 6 10 4 6 2 6 8 0 8 0 
+         end
+      end
+      object trapDoor6013-10 of TrapDoor
+         properties
+            x	444
+            y	213
+         end
+      end
+   end
+end

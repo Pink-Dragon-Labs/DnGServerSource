@@ -1,0 +1,2638 @@
+#
+# define the different types of HELMETS
+#
+
+object Helmet of Clothing
+	properties
+		name "Helmet"
+		basicName "helmet"
+		view 30100
+		value 350
+		clutStart 63
+		armor 80
+	end
+
+	base carryable
+		weight 4
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet.\n\n"
+		shopText "A helmet is a necessity of any warrior's life.  There is nothing better at keeping the clubs off your head!"
+	end
+end
+
+object IronHelmet of Helmet
+	properties
+		name "Iron Helmet"
+		health 130
+		color 104
+		affect 11 3 0 -1
+		strength 1
+		armor 80
+	end
+
+	base carryable
+		weight 6
+	end
+
+	components
+		IronBar
+		IronBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of iron.\n\n"
+		shopText "A standard iron helmet. Inexpensive and better than nothing. The perfect choice for the beginning adventurer."
+	end
+end
+
+object SteelHelmet of Helmet
+	properties
+		name "Steel Helmet"
+		health 200
+		color 99
+		strength 2
+		armor 80
+	end
+
+	base carryable
+		weight 5
+	end
+
+	components
+		SteelBar
+		SteelBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of steel.\n\n"
+		shopText "A standard steel helmet. A step from iron and well worth the price."
+	end
+end
+
+object TemperedSteelHelmet of Helmet
+	properties
+		name "Tempered Steel Helmet"
+		health 300
+		color 100
+		strength 3
+		armor 80
+	end
+
+	base carryable
+		weight 5.5
+	end
+
+	components
+		TemperedSteelBar
+		TemperedSteelBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of tempered steel.\n\n"
+		shopText "A standard tempered steel helmet. Has some durability and provides some good protection."
+	end
+end
+
+object MythrilHelmet of Helmet
+	properties
+		name "Mythril Helmet"
+		health 350
+		color 83
+		strength 3
+		armor 80
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	components
+		MythrilBar
+		MyhtrilBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of mythril.\n\n"
+		shopText "A standard mythril helmet. A favorite choice of many adventurers due its price, durability, and weight."
+	end
+end
+
+object ObsidianiteHelmet of Helmet
+	properties
+		name "Obsidianite Helmet"
+		health 450
+		color 98
+		strength 4
+		armor 80
+	end
+
+	base carryable
+		weight 7.5 
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of obsidianite.\n\n"
+		shopText "A standard obsidianite helmet. A heavy helm that provides excellent durability and head protection."
+	end
+end
+
+object AdmantiumHelmet of Helmet
+	properties
+		name "Admantium Helmet"
+		health 600
+		color 54
+		strength 5
+		armor 80
+	end
+
+	base carryable
+		weight 8.5 
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+	end
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a sturdy helmet made of admantium.\n\n"
+		shopText "A standard admantium helmet. Crafted from the heaviest and most durable of metals, this helm is one of the finest in protective headwear."
+	end
+end
+
+#   <<<<<------------------------------------- NEW HELMS ------------------------------------->>>>>
+
+object WizardCap of Clothing
+	properties
+		name "Wizard Hat"
+		view 35100
+		clutStart 63
+		color -1
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		KilrogEyeball	#1000
+		KilrogEyeball	#1000
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		#--------------------
+		#Total 		28050 gold
+	end
+
+	base described
+		text "You see a standard wizard's hat."
+		idText "The ubiquitous wizard hat; high fashion for wizards, mages, witches, and their kind.\n\n"
+		shopText "You see a finely made wizard hat."
+	end
+end
+
+# Adds the Male-Only Legion Helm (30800) and the Female-Only Minerva Helm (31200)
+# Stats based on original helm with small armor improvement (no damage) and added components for smithing. 
+# Both new helms are equal to one another.
+#
+
+#------------------------------------- Iron Helms -------------------------------------
+object IronLegionHelmet of IronHelmet
+	properties
+		name "Iron Legion Helmet"
+		view 30800
+		health 130
+		color 104
+		affect 11 3 0 -1
+		strength 1
+		armorFlat 80
+	end
+
+	base carryable
+		weight 6
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		IronBar
+		IronBar
+		ClothBolt
+		SweatBar
+	end
+	base described
+		text "You see a sturdy crested helmet."
+		idText "You see a sturdy crested helmet crafted from iron.\n\n"
+		shopText "An iron Legion helmet. More fashionable than the standard helm, it also provides improved protection, making it the perfect choice for the beginning adventurer with a little extra gold in their pockets."
+	end
+end
+
+object IronMinervaHelmet of IronHelmet
+	properties
+		name "Iron Minerva Helmet"
+		view 31200
+		health 130
+		color 104
+		affect 11 3 0 -1
+		strength 1
+		armorFlat 80
+	end
+
+	base carryable
+		weight 6
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		IronBar
+		IronBar
+		ClothBolt
+		SweatBar
+	end
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "You see a sturdy veiled helmet crafted from iron.\n\n"
+		shopText "An iron Minerva helmet. More fashionable than the standard helm, it also provides improved protection, making it the perfect choice for the beginning adventurer with a little extra gold in their pockets."
+	end
+end
+
+#------------------------------------- Steel Helms -------------------------------------
+object SteelLegionHelmet of SteelHelmet
+	properties
+		name "Steel Legion Helmet"
+		view 30800
+		health 200
+		color 99
+		strength 2
+		armorFlat 80
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		SteelBar
+		SteelBar
+		ClothBolt
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy crested helmet."
+		idText "You see a sturdy crested helmet crafted from steel.\n\n"
+		shopText "A steel Legion helmet. A step from iron and well worth the price, it also provides improved protection over the iron version. An investment well worth a few extra gold pieces, don't you agree?"
+	end
+end
+
+object SteelMinervaHelmet of SteelHelmet
+	properties
+		name "Steel Minerva Helmet"
+		view 31200
+		health 200
+		color 99
+		strength 2
+		armorFlat 80
+	end
+
+	base carryable
+		weight 5
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		SteelBar
+		SteelBar
+		ClothBolt
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "You see a sturdy veiled helmet crafted from steel.\n\n"
+		shopText "A steel Minerva helmet. A step from iron and well worth the price, it also provides improved protection over the iron version. An investment well worth a few extra gold pieces, don't you agree?"
+	end
+end
+
+#------------------------------------- Tempered Steel Helms -------------------------------------
+object TemperedSteelLegionHelmet of TemperedSteelHelmet
+	properties
+		name "Tempered Steel Legion Helmet"
+		view 30800
+		health 300
+		color 100
+		strength 3
+		armorFlat 80
+	end
+
+	base carryable
+		weight 5.5
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		# Shop Sell price: 19377 gold
+		TemperedSteelBar
+		TemperedSteelBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy crested helmet."
+		idText "You see a sturdy crested helmet crafted from tempered steel.\n\n"
+		shopText "A tempered steel Legion helmet. Why settle for less? Your life is surely worth the small price of this fine piece of protective headgear."
+	end
+end
+
+object TemperedSteelMinervaHelmet of TemperedSteelHelmet
+	properties
+		name "Tempered Steel Minerva Helmet"
+		view 31200
+		health 300
+		color 100
+		strength 3
+		armorFlat 80
+	end
+
+	base carryable
+		weight 5.5
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		# Shop Sell price: 19377 gold
+		TemperedSteelBar
+		TemperedSteelBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "You see a sturdy veiled helmet crafted from tempered steel.\n\n"
+		shopText "A tempered steel Minerva helmet. Why settle for less? Your life is surely worth the small price of this fine piece of protective headgear."
+	end
+end
+
+#------------------------------------- Mythril Helms -------------------------------------
+object MythrilLegionHelmet of MythrilHelmet
+	properties
+		name "Mythril Legion Helmet"
+		view 30800
+		health 350
+		color 83
+		strength 3
+		armorFlat 80
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		# Shop Sell price: 26252 gold
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		22002 gold
+	end
+	base described
+		text "You see a sturdy crested helmet."
+		idText "You see a sturdy crested helmet crafted from mythril.\n\n"
+		shopText "A mythril Legion helmet. A favorite choice of many adventurers due its price, durability, and weight. You deserve the protection this helm will provide you."
+	end
+end
+
+object MythrilMinervaHelmet of MythrilHelmet
+	properties
+		name "Mythril Minerva Helmet"
+		view 31200
+		health 350
+		color 83
+		strength 3
+		armorFlat 80
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		# Shop Sell price: 26252 gold
+		MythrilBar
+		MyhtrilBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "You see a sturdy veiled helmet crafted from mythril.\n\n"
+		shopText "A mythril Minerva helmet. A favorite choice of many adventurers due its price, durability, and weight. You deserve the protection this helm will provide you."
+	end
+end
+
+#------------------------------------- Obsidianite Helms -------------------------------------
+object ObsidianiteLegionHelmet of ObsidianiteHelmet
+	properties
+		name "Obsidianite Legion Helmet"
+		view 30800
+		health 450
+		color 98
+		strength 4
+		armorFlat 80
+	end
+
+	base carryable
+		weight 7.5 
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy crested helmet."
+		idText "You see a sturdy crested helmet crafted from obsidianite.\n\n"
+		shopText "An obsidianite Legion helmet. Sure it's a little on the heavy side and, yes, it does cost more, but it provides excellent durability and protection. Your head is worth it!"
+	end
+end
+
+object ObsidianiteMinervaHelmet of ObsidianiteHelmet
+	properties
+		name "Obsidianite Minerva Helmet"
+		view 31200
+		health 450
+		color 98
+		strength 4
+		armorFlat 80
+	end
+
+	base carryable
+		weight 7.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		ObsidianiteBar
+		ObsidianiteBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "You see a sturdy veiled helmet crafted from obsidianite.\n\n"
+		shopText "An obsidianite Minerva helmet. Sure it's a little on the heavy side and, yes, it does cost more, but it provides excellent durability and protection. Your head is worth it!"
+	end
+end
+
+#------------------------------------- Admantium Helms -------------------------------------
+object AdmantiumLegionHelmet of AdmantiumHelmet
+	properties
+		name "Admantium Legion Helmet"
+		view 30800
+		health 600
+		color 54
+		strength 5
+		armorFlat 80
+	end
+
+	base carryable
+		weight 8.5 
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy crested helmet."
+		idText "You see a sturdy crested helmet crafted from admantium.\n\n"
+		shopText "An admantium Legion helmet. The ultimate in protection and durability among the easily acquired helms, and well worth every gold piece."
+	end
+end
+
+object AdmantiumMinervaHelmet of AdmantiumHelmet
+	properties
+		name "Admantium Minerva Helmet"
+		view 31200
+		health 600
+		color 54
+		strength 5
+		armorFlat 80
+	end
+
+	base carryable
+		weight 8.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		AdmantiumBar
+		AdmantiumBar
+		ClothBolt
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+		SweatBar
+	end
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "You see a sturdy veiled helmet crafted from admantium known as.\n\n"
+		shopText "An admantium Minerva helmet. The ultimate in protection and durability among the easily acquired helms, and well worth every gold piece."
+	end
+end
+
+#------------------------------------- Basic Magical -------------------------------------
+object NourishHelmet of MythrilHelmet
+	properties
+		# Original Special (Replacement Version)
+		view 30150
+		name "Helm of Nourishment"
+		armor 85
+		color -1
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		30000 gold
+	end
+
+	actions
+		# Nourishment
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		text "You see a sturdy helmet."
+		idText "You see a Helm of Eternal Nourishment. You will not need to eat or drink as long as you wear this helm.\n\n"
+		shopText "This is a fine magical Helm of Nourishment. It will provide your body with sustenance as long as you wear it."
+	end
+end
+
+#------------------------------------- NightSoul Helmet -------------------------------------
+object NightSoulHelmet of MythrilHelmet
+	properties
+		# Night Soul Standard Version
+		view 30200
+		name "Night Soul"
+		health 750
+		color -1
+		strength 5
+		armor 90
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		39000 gold
+	end
+
+	base described
+		text "You see a winged helm."
+		idText "You see a winged helm known as the Night Soul, favored by those that prowl the in darkness.\n\n"
+		shopText "A Night Soul Helmet. Quite the fashion statement."
+	end
+
+	base carryable
+		weight 3
+	end
+end
+
+#-------------------- NightSoul Magical --------------------
+object NightmareHelmet of MythrilHelmet
+	properties
+		# Night Soul Special Version
+		view 30250
+		name "Nightmare Helm"
+		health 750
+		color -1
+		strength 5
+		armorFlat 95
+		level 150
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 3
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		52000 gold
+	end
+
+	base described
+		text "You see a winged helm."
+		idText "A Nightmare Helm. This fearsome helm draws upon the forces of darkness to aid the wearer. You must be level 150 or higher to wear this helm.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Nightmare Helm! A dangerous item."
+	end
+
+	actions
+		# Death Magic Protection
+		vBePutOn setAffect dobj 85 0 0 -1
+		vBeTakenOff clearAffect dobj 85 0 0
+		# 50% Necro, Myst Resist
+		vBePutOn changeSpellResistance dobj 50 2 4
+		vBeTakenOff changeSpellResistance dobj -50 2 4
+		# +200% Necro
+		vBePutOn changeSDM dobj 200 4
+		vBeTakenOff changeSDM dobj -200 4
+	end
+end
+
+#------------------------------------- Centurion Helmet -------------------------------------
+object CenturionHelmet of MythrilHelmet
+	properties
+		# Centurion Standard Version
+		view 30300
+		name "Centurion Helm"
+		health 750
+		color -1
+		strength 5
+		armor 90
+	end
+
+	components
+		ClothBolt	#   2
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		33004 gold
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base described
+		text "You see a finely crafted crested helm."
+		idText "You see an elegant, finely crafted, helm known as the Centurion.\n\n"
+		shopText "A Centurion Helmet. Excellent protection."
+	end
+end
+
+#-------------------- Centurion Magical --------------------
+object IntellHelmet of MythrilHelmet
+	properties
+		# Centurion Special Version
+		view 30350
+		name "Helmet of Intelligence"
+		color -1
+		health 750
+		strength 5
+		armorFlat 95
+		level 425
+		enchantResistance 20
+	end
+
+	components
+		ClothBolt	#   2
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		42004 gold
+	end
+
+	base wearable
+                # only Adventurers
+                mask warrior
+                mask wizard
+                mask thief
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	actions
+		# Pos Int Mod
+		vBePutOn setAffect dobj 61 0 0 -1
+		vBeTakenOff clearAffect dobj 61 0 0
+		# Magic Resist 15% to all except Myst
+		vBePutOn changeSpellResistance dobj 15 0 1 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a finely crafted crested helm."
+		idText "A Helmet of Intelligence. This valuable helmet permits its wearer to think deep thoughts but, beware, lest they poison your body.\nYou must be a level 425 adventurer, or higher, to wear this helm.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Helmet of Intelligence! Ponder it."
+	end
+end
+
+#------------------------------------- Bandanna -------------------------------------
+object Bandanna of Clothing
+	properties
+		# Bandanna Standard Version
+		view 30900
+		name "Masked Bandanna"
+		clutStart 63
+		armorFlat 15
+		color -1
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		#--------------------
+		#Total 		42800 gold
+	end
+
+	base described
+		text "You see a mask and bandanna."
+		idText "You see a masked bandanna, such as brigands and thieves are apt to wear.\n\n"
+		shopText "A mask and bandanna? I thought only thieves wore such things. Are you a thief?"
+	end
+end
+
+#-------------------- Bandanna Magical --------------------
+object ThiefMask of Clothing
+	properties
+		# Bandanna Special Version
+		view 30950
+		name "Thieves' Mask"
+		clutStart 63
+		armorFlat 15
+		level 425
+		color -1
+		enchantResistance 20
+	end
+
+	base wearable
+				areaWorn 0
+                # only Thieves
+                mask warrior
+                mask adventurer
+                mask wizard
+	end
+
+	base carryable
+		weight 1
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		55800 gold
+	end
+
+	actions
+		# Improved Invisibility
+		vBePutOn setAffect dobj 21 0 0 -1
+		vBeTakenOff clearAffect dobj 21 0 0
+		# Magic Resist 15% to all except Myst
+		vBePutOn changeSpellResistance dobj 15 0 1 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a mask and bandanna."
+		idText "You see a special mask and bandanna prized by thieves for its invisibility bestowing powers. You must be a level 425 thief, or higher, to wear this bandanna.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "These things are frowned upon by the local constabulary. Quick, put it away before someone sees you with it."
+	end
+end
+
+#------------------------------------- Hood -------------------------------------
+object Hood of Clothing
+	properties
+		# Hood Standard Version
+		view 30500
+		name "Cloth Hood"
+		clutStart 63
+		color -1
+		armorFlat 10
+	end
+
+	base carryable
+		weight 2
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		Goldenberries	#  80
+		Goldenberries	#  80
+		#--------------------
+		#Total 		42260 gold
+	end
+
+	base described
+		text "You see a cloth hood."
+		idText "You see a cloth hood, perfect for concealing one's identity and for providing shelter from the elements.\n\n"
+		shopText "A cloth hood. Not bad. Can you get more of these?"
+	end
+end
+
+#-------------------- Hood Magical --------------------
+object ShiftHood of Clothing
+	properties
+		# Hood Special Version
+		view 30550
+		name "Hood of Shifting"
+		clutStart 63
+		color -1
+		armorFlat 10
+		level 100		
+		affect 1 3 0 -1		# Weak to Fire
+	end
+
+	base carryable
+		weight 2
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	components
+		# alchemy
+		SweatBar 		#5000
+		SweatBar 		#5000
+		SweatBar 		#5000
+		SweatBar 		#5000
+		SweatBar 		#5000
+		SweatBar 		#5000
+		SweatBar 		#5000
+		SweatBar 		#5000
+		DaemonTooth		#2000
+		DaemonTooth		#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		Silverthorn		# 225
+		Silverthorn		# 225
+		AmberRod		# 200
+		AmberRod		# 200
+		Goldenberries	#  80
+		Goldenberries	#  80
+		MagicBar		#1000
+		MagicBar		#1000
+		MagicBar		#1000
+		MagicBar		#1000
+		MagicBar		#1000
+		MagicBar		#1000
+		#--------------------
+		#Total 		53260 gold
+	end
+
+	actions
+		# would affect 71 (Disguised) be appropriate here if it were implemented?
+		# could the character's name be hidden *just* in room (not on Who List or Gossip channels, etc.),
+		# or replaced with the name "A Stranger"?
+
+		# Shift
+		vBePutOn setAffect dobj 75 0 0 -1
+		vBeTakenOff clearAffect dobj 75 0 0
+		# Ethereal (Defenseless Resistence)
+		vBePutOn setAffect dobj 20 2 0 -1
+		vBeTakenOff clearAffect dobj 20 2 0
+		# Weakness (as per Ring of Weakness in RINGS.OBJ)
+		vBePutOn setAffect dobj 40 0 0 -1
+		vBeTakenOff clearAffect dobj 40 0 0
+		# Encumberance Curse (as per Belt of Loading in BELTS.OBJ)
+		#vBePutOn setAffect dobj 73 0 0 -1
+		#vBeTakenOff clearAffect dobj 73 0 0
+	end
+
+	base described
+		text "You see a cloth hood."
+		idText "You see a special type of hood prized for its Shift bestowing properties. It is said that the hood gains its power by draining energy from the wearer, making them weak and tired.\n You must be level 100 or higher to wear this hood.\n\n"
+		shopText "These hoods make it hard to pin you down but it's said it drains your energy, making you tired and weak."
+	end
+end
+
+#------------------------------------- Viking Helmet -------------------------------------
+object VikingHelmet of MythrilHelmet
+	properties
+		# Viking Standard Version
+		view 30600
+		name "Viking Helmet"
+		health 750
+		color -1
+		strength 5
+		armor 80
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		33000 gold
+	end
+
+	base described
+		text "You see a horned helm."
+		idText "You see a horned helm with a chainmail neck cover which closely resembles the Viking helms often worn in the northern highlands.\n\n"
+		shopText "A Viking Helmet. Well, that's what they're called, even though Vikings never actually wore horned helms like this."
+	end
+end
+
+#-------------------- Viking Magical --------------------
+object BerserkHelmet of MythrilHelmet
+	properties
+		# Viking Special Version
+		view 30650
+		name "Berserker's Helmet"
+		health 750
+		color -1
+		strength 5
+		armorFlat 85
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		45000 gold
+	end
+
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Immune to Poison
+		vBePutOn setAffect dobj 5 2 0 -1
+		vBeTakenOff clearAffect dobj 5 2 0
+		# Berserk
+		vBePutOn setAffect dobj 33 0 0 -1
+		vBeTakenOff clearAffect dobj 33 0 0
+		# Ugly
+		vBePutOn setAffect dobj 70 0 0 -1
+		vBeTakenOff clearAffect dobj 70 0 0
+		# White Hair
+		vBePutOn setAffect dobj 97 0 0 -1
+		vBeTakenOff clearAffect dobj 97 0 0
+	end
+
+	base described
+		text "You see a horned helm."
+		idText "You see the legendary Berserker's Helmet. It is rumored to increase the wearer's attacks and protect them from poison, but it drives anyone who places it on their head into a blood-thirsty frenzy, distorting their face and bleaching their hair pure white.\n\n"
+		shopText "A Helm of the Berserker! It takes a brave heart to use one of these."
+	end
+end
+
+#------------------------------------- Saurian Helmet -------------------------------------
+object SaurianHelmet of MythrilHelmet
+	properties
+		# Saurian Standard Version
+		view 30700
+		name "Saurian Helm"
+		health 950
+		color -1
+		strength 5
+		armor 100
+	end
+
+	base carryable
+		weight 3 
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		35000 gold
+	end
+
+	base described
+		text "You see a particularly sturdy looking helm."
+		idText "You see a Saurian helm with features modelled after some mythic ancient beast rumored to have once strode the lands with thunder in their footsteps.\n\n"
+		shopText "A Saurian Helmet. Perhaps the best head protection available."
+	end
+end
+
+#-------------------- Saurian Magical --------------------
+object DefenseHelmet of MythrilHelmet
+	properties
+		# Saurian Special Version
+		view 30750
+		name "Helmet of Defense"
+		health 950
+		color -1
+		strength 5
+		armorFlat 105
+		level 200
+	end
+
+	base carryable
+		weight 3 
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		45000 gold
+	end
+
+	actions
+		# Endurance Bonus (as per Ring of End in RINGS.OBJ)
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		# Regeneration Bonus (as per Ring of Regen in RINGS.OBJ)
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Weakness to Acid
+		vBePutOn setAffect dobj 4 3 0 -1
+		vBeTakenOff clearAffect dobj 4 3  0
+	end
+
+	base described
+		text "You see a particularly sturdy looking helm."
+		idText "A Helmet of Defense. This valuable helmet bestows the ability to absorb greater damage upon its wearer. You must be level 200 or higher to wear this helm.\n\n"
+		shopText "A Helmet of Defense! One can do some serious adventuring with one of these."
+	end
+end
+
+#------------------------------------- Legion Magical (Male Only) -------------------------------------
+object LegionWarriorHelmet of MythrilHelmet
+# matched to Female-Only Minerva
+	properties
+		# Legion Special Version
+		name "Warrior's Helm"
+		color -1
+		armorFlat 85
+		view 30850
+		level 425
+		enchantResistance 20
+		health 350
+		strength 3
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	components
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		32002 gold
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+
+	actions
+		#Attack target armor rating reduced by 20
+		vBePutOn changeMeleeArmorPiercing dobj 20
+		vBeTakenOff changeMeleeArmorPiercing dobj -20
+		# Magic Resist 15% to all except Myst
+		vBePutOn changeSpellResistance dobj 15 0 1 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a sturdy crested helmet."
+		idText "A Warrior's Helm. This special helmet enhances the fighting prowess of its wearer.\nMelee target armor -20%. Magic resistance 15% (except mysticism). Free will.\nEnchant Resistance: 20 percent.\nYou must be a level 425 male warrior, or higher, to wear this helm.\n\n"
+		shopText "A Warrior's Helm. Very nice item for someone of the hack and slash mentality."
+	end
+end
+
+#------------------------------------- Tribune Helmet (Male Only) -------------------------------------
+object TribuneHelmet of MythrilHelmet
+# matched to Female-Only Druidic
+	properties
+		# Tribune Standard Version
+		view 30400
+		name "Tribune Helm"
+		health 750
+		color -1
+		strength 5
+		armor 90
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	components
+		ClothBolt	#   2
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		39004 gold
+	end
+
+	base described
+		text "You see a finely crafted crested helm."
+		idText "You see a Tribune helm, a superbly crafted piece of armor that provides full coverage of the face.\n\n"
+		shopText "A Tribune Helmet. Excellent protection."
+	end
+end
+
+#-------------------- Tribune Magical --------------------
+object ConquererHelmet of MythrilHelmet
+# matched to Female-Only Fianna
+	properties
+		# Tribune Special Version
+		view 30450
+		name "Helmet of the Conquerer"
+		health 750
+		color -1
+		level 550
+		armorFlat 95
+		strength 5
+		enchantResistance 20
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	components
+		ClothBolt	#   2
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		48004 gold
+	end
+
+	actions
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		#Attack target armor rating reduced by 25
+		vBePutOn changeMeleeArmorPiercing dobj 25
+		vBeTakenOff changeMeleeArmorPiercing dobj -25
+		# Add 25% to all magic circles except Myst & Sorc while worn. 
+		vBePutOn changeSDM dobj 25 1 3 4
+		vBeTakenOff changeSDM dobj -25 1 3 4
+	end
+
+	base described
+		text "You see a finely crafted crested helm. Only males may wear this item."
+		idText "You see the mythical Helm of the Conquerer, highly prized for its ability to bestow upon its wearer an extra dodge, melee target armor reduction of 25%, and 25% bonus to all magic circles (excluding Mysticism).\nOnly males of level 550 or higher may wear this item.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Helmet of the Conquerer! One can do some serious adventuring with one of these."
+	end
+end
+
+#------------------------------------- Raptor Helmet (Male Only) -------------------------------------
+object RaptorHelmet of MythrilHelmet
+# matched to Female-Only Huntress
+	properties
+		# Raptor Standard Version
+		view 31000
+		name "Raptor Helm"
+		health 750
+		color -1
+		strength 5
+		armor 90
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		39000 gold
+	end
+
+	base described
+		text "You see a helm with the aspect of a bird of prey."
+		idText "You see a helm with the visage of a bird of prey, the Raptor. This superbly crafted helm provides excellent protection while still permitting the air to flow freely into the warrior's lungs.\n\n"
+		shopText "A Raptor Helmet. Fierce."
+	end
+end
+
+#-------------------- Raptor Magical --------------------
+object PredatorHelmet of MythrilHelmet
+# matched to Female-Only Ranger
+	properties
+		# Raptor Special Version
+		view 31050
+		name "Helm of the Predator"
+		health 750
+		color -1
+		strength 5
+		armorFlat 95
+		level 100
+		enchantResistance 20
+	end
+
+	base wearable
+		# no females
+		mask female
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		43000 gold
+	end
+
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Nourishment
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		text "You see a helm with the aspect of a bird of prey."
+		idText "A Helm of the Predator. This valuable helmet bestows an additional attack on its wearer and provides him with nourishment. You must be level 100 or higher to wear this helm.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Helm of the Predator! An aggressive choice."
+	end
+end
+
+#------------------------------------- Druid Helmet (Female Only) -------------------------------------
+object DruidHelmet of MythrilHelmet
+# matched to Male-Only Tribune
+	properties
+		# Druidic Standard Version
+		view 31100
+		name "Druidic Helm"
+		health 750
+		color -1
+		strength 5
+		armor 90
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		39000 gold
+	end
+
+	base described
+		text "You see a finely engraved helm. Only females may wear this item."
+		idText "You see a helm engraved with the marks of nature, a Druidic helm, prized for its high protective value and durability.\n\n"
+		shopText "A Druidic Helm. Nicely made too."
+	end
+end
+
+#-------------------- Druid Magical --------------------
+object FiannaHelmet of MythrilHelmet
+# matched to Male-Only Conqueror
+	properties
+		# Druidic Special Version
+		view 31150
+		name "Helm of the Fianna"
+		health 750
+		level 550
+		strength 5
+		color -1
+		armorFlat 95
+		enchantResistance 20
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		48000 gold
+	end
+
+	actions
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		#Attack target armor rating reduced by 25
+		vBePutOn changeMeleeArmorPiercing dobj 25
+		vBeTakenOff changeMeleeArmorPiercing dobj -25
+		# Add 25% to all magic circles except Myst & Sorc while worn. 
+		vBePutOn changeSDM dobj 25 1 3 4
+		vBeTakenOff changeSDM dobj -25 1 3 4
+	end
+
+	base described
+		text "You see a finely crafted crested helm."
+		idText "You see the mythical Helm of the Fianna, highly prized for its ability to bestow upon its wearer an extra dodge, melee target armor reduction of 25%, and 25% bonus to all magic circles (excluding Mysticism).\nOnly females of level 550 or higher may wear this item.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Helm of the Fianna! One can do some serious adventuring with one of these."
+	end
+end
+
+#------------------------------------- Minerva Magical (Female Only) -------------------------------------
+object MinervaWarriorHelmet of MythrilHelmet
+# matched to Male-Only Legion
+	properties
+		# Minerva Special Version
+		name "Warrior's Helm"
+		health 350
+		armorFlat 85
+		strength 5
+		color -1
+		view 31250
+		level 425
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 2.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	base wearable
+                # only Warriors
+                mask wizard
+                mask adventurer
+                mask thief
+	end
+
+	components
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		32002 gold
+	end
+
+	actions
+		#Attack target armor rating reduced by 20
+		vBePutOn changeMeleeArmorPiercing dobj 20
+		vBeTakenOff changeMeleeArmorPiercing dobj -20
+		# Magic Resist 15% to all except Myst
+		vBePutOn changeSpellResistance dobj 15 0 1 3 4
+		vBeTakenOff changeSpellResistance dobj -15 0 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a sturdy veiled helmet."
+		idText "A Warrior's Helm. This special helmet enhances the fighting prowess of its wearer.\nMelee target armor -20%. Magic resistance 15% (except mysticism). Free will.\nEnchant Resistance: 20 percent.\nYou must be a level 425 female warrior, or higher, to wear this helm.\n\n"
+		shopText "A Warrior's Helm. Very nice item for someone of the hack and slash mentality."
+	end
+end
+
+#------------------------------------- Huntress Helmet (Female Only) -------------------------------------
+object HuntressHelmet of MythrilHelmet
+# matched to Male-Only Raptor
+	properties
+		# Huntress Standard Version
+		view 31300
+		name "Huntress Helm"
+		health 750
+		color -1
+		strength 5
+		armor 80
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		ClothBolt	#   2
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		39004 gold
+	end
+
+	base described
+		text "You see a stylish double-crested helm."
+		idText "You see double hair-crested helm designed with style for excellent protection.\n\n"
+		shopText "A Huntress Helmet. Impressive."
+	end
+end
+
+#-------------------- Huntress Magical --------------------
+object RangerHelmet of MythrilHelmet
+# matched to Male-Only Predator
+	properties
+		# Huntress Special Version
+		view 31350
+		name "Ranger's Helm"
+		color -1
+		strength 5
+		armorFlat 85
+		level 100
+		enchantResistance 20
+	end
+
+	base carryable
+		# same weight as Mythril
+		weight 2.5 
+	end
+
+	base wearable
+		# no males
+		mask male
+	end
+
+	components
+		ClothBolt	#   2
+		ClothBolt	#   2
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		43004 gold
+	end
+
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Nourishment
+		vBePutOn setAffect dobj 67 0 0 -1
+		vBeTakenOff clearAffect dobj 67 0 0
+	end
+
+	base described
+		text "You see a stylish double-crested helm."
+		idText "A Ranger's Helm. This valuable helmet bestows an additional attack on its wearer and provides her with nourishment. You must be level 100 or higher to wear this helm.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Ranger's Helm! An aggressive choice."
+	end
+end
+
+#------------------------------------- Wizard Hat Magical -------------------------------------
+object MageHat of Clothing
+# Proposal: Create a new Necromancy spell based on Summon Daemon called Summon Greater Daemon. The spell 
+# would summon daemons, randomly chosen, such as Flame, Ice, etc... maybe even a Kilrog. Of course, as with
+# Summon Daemon, only one would appear with each casting. This new spell would then be availble only
+# on this Mage's Hat, as a power of the hat (Use Item type thing). No spellbook for it.
+	properties
+		name "Mage's Hat"
+		view 35150
+		clutStart 63
+		color -1
+		armor 15
+		level 425
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+				areaWorn 0
+                # Wizards Only
+                mask warrior
+                mask adventurer
+                mask thief
+	end
+
+	components
+		# alchemy
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		KilrogEyeball	#1000
+		KilrogEyeball	#1000
+		ObsidianDust 	# 750
+		Silverthorn	# 225
+		Silverthorn	# 225
+		Silverthorn	# 225
+		Silverthorn	# 225
+		AmberRod	# 200
+		AmberRod	# 200
+		#--------------------
+		#Total 		43050 gold
+	end
+
+	actions
+		# Add 75% to all magic circles except Myst and Sorc while worn. 
+		vBePutOn changeSDM dobj 75 1 3 4
+		vBeTakenOff changeSDM dobj -75 1 3 4
+		# Magic Resist 15% to all except Myst and Sorc
+		vBePutOn changeSpellResistance dobj 15 1 3 4
+		vBeTakenOff changeSpellResistance dobj -15 1 3 4
+		# Free Will
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base described
+		text "You see a wizard's hat with embroidered runes."
+		idText "You see the fabled Mage's Hat. Wearing this hat will improve the power of your spells. You must be a level 425 Wizard, or higher, to wear this hat.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Mage's Hat. If I had one of these I could retire."
+	end
+end
+
+#------------------------------------- Uplander Hat -------------------------------------
+object UplanderHelmet of MythrilHelmet
+	properties
+		# Uplander Standard Version
+		view 31800
+		name "Uplander's Helm"
+		health 750
+		color -1
+		strength 5
+		armor 90
+	end
+
+	base carryable
+		weight 3
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		39000 gold
+	end
+
+	base described
+		text "You see a vile looking helm."
+		idText "An Uplander's Helm. As cold and brutal in its appearance as those who wore such helms in ancient times were in heart.\n\n"
+		shopText "An Uplander's Helm. Remove this abomination from my sight!"
+	end
+end
+
+#-------------------- Uplander Magical --------------------
+object KhanHelmet of UplanderHelmet 
+	properties
+		# Uplander Special Version
+		view 31850
+		name "Helm of the Khan"
+		color -1
+		health 750
+		strength 5
+		level 700
+		armorFlat 95
+	end
+
+	base carryable
+		weight 3
+	end
+
+	components
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MythrilBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		52000 gold
+	end
+
+	actions
+		# Extra Attack (as per Amulet of Combat in AMULETS.OBJ)
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Endurance Bonus (as per Ring of End in RINGS.OBJ)
+		vBePutOn setAffect dobj 63 0 0 -1
+		vBeTakenOff clearAffect dobj 63 0 0
+		# Free Will (as per Amulet of Free Will in AMULETS.OBJ)
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+		# 60% Myst Resistance (as per Amulet of Free Will in AMULETS.OBJ)
+		vBePutOn changeSpellResistance dobj 60 2 
+		vBeTakenOff changeSpellResistance dobj -60 2 
+		# Stun Immun (as per Amulet of Concentration in AMULETS.OBJ)
+		#vBePutOn setAffect dobj 34 2 0 -1
+		#vBeTakenOff clearAffect dobj 34 2 0
+		# Fumble and Naked Immun (as per Amulet of Retention in AMULETS.OBJ)
+		#vBePutOn setAffect dobj 65 0 0 -1
+		#vBeTakenOff clearAffect dobj 65 0 0
+		# -1 Intelligence 
+		vBePutOn setAffect dobj 62 0 0 -1
+		vBeTakenOff clearAffect dobj 62 0 0
+		# Weakness to Fire
+		vBePutOn setAffect dobj 1 3 0 -1
+		vBeTakenOff clearAffect dobj 1 3  0
+	end
+
+	base described
+		text "You see a vile looking helm."
+		idText "A Helm of the Khan! This, the most powerful of magical helms, increases endurance, provides the ability to attack more often, and ensures the wearer of free will. Be aware that such power does not come without a price.\n This helm requires a wearer of level 700 or higher.\n\n"
+		shopText "A Helm of the Khan! A dangerous item."
+	end
+end
+
+#------------------------------------- Courtier Hat (Female Only) -------------------------------------
+object CourtierHat of Clothing
+# matched to Male-Only Jester
+	properties
+		# Courtier Standard Version
+		view 31900
+		name "Courtier's Hat"
+		clutStart 63
+		armorFlat 15
+		color -1
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+		# no males
+		mask male
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		#--------------------
+		#Total 		47800 gold
+	end
+
+	base described
+		text "You see a stylishly feminine hat."
+		idText "A Courtier's Hat. Only the most refined and elegant ladies of the land are honored to wear such hats."
+		shopText "Courtier's Hat, the prefect choice for festivals or a night on the town. Not recommended for hunting.\n\n"
+	end
+end
+
+#-------------------- Courtier Magical --------------------
+object LadyRealmHat of Clothing
+# matched to Male-Only Jester
+	properties
+		# Courtier Special Version
+		view 31950
+		name "Lady of The Realm Hat"
+		clutStart 63
+		level 50
+		armorFlat 15
+		color -1
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+		# no males
+		mask male
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		60800 gold
+	end
+
+	actions
+		# Dexterity
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Myst Resist 25% 
+		vBePutOn changeSpellResistance dobj 25 2
+		vBeTakenOff changeSpellResistance dobj -25 2
+	end
+
+	base described
+		text "You see a stylishly feminine hat."
+		idText "You see a special Courtier's hat crafted specifically for only the most noble born of ladies. You sense it will help protect you from ill intents.\nYou must be level 50 or higher to wear this hat.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "Only those of royal birth are permitted to possess this hat. It marks it wearer as a Lady of The Realm."
+	end
+end
+
+#------------------------------------- Jester Hat (Male Only) -------------------------------------
+object IdiotHat of Clothing
+# matched to Female-Only Courtier
+	properties
+		# Jester Standard Version
+		view 32000
+		name "Village Idiot's Hat"
+		clutStart 63
+		armorFlat 15
+		color -1
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+		# no females
+		mask female
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		#--------------------
+		#Total 		47800 gold
+	end
+
+	base described
+		text "You see a silly looking hat with bells on it."
+		idText "You see a Village Idiot's Hat, styled after those once used to... umm... honor... a village's favorite fool.\n\n"
+		shopText "This belongs to the village idiot. The mayor and council held a special over-night session, requiring several votes, to finally award this... ummm... honor to the right person. It wasn't you was it?"
+	end
+end
+
+#-------------------- Jester Magical --------------------
+object JesterHat of Clothing
+# matched to Female-Only Courtier
+	properties
+		# Jester Special Version
+		view 32050
+		name "Jester's Hat"
+		clutStart 63
+		armorFlat 15
+		level 50
+		color 58
+		enchantResistance 20
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base wearable
+		areaWorn 0
+		# no females
+		mask female
+	end
+
+	components
+		# alchemy
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		SweatBar 	#5000
+		DaemonTooth	#2000
+		DaemonTooth	#2000
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		ObsidianDust 	# 750
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		AmberRod	# 200
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		#--------------------
+		#Total 		60800 gold
+	end
+
+	actions
+		# Dexterity
+		vBePutOn setAffect dobj 59 0 0 -1
+		vBeTakenOff clearAffect dobj 59 0 0
+		# Extra Dodge
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+		# Myst Resist 25% 
+		vBePutOn changeSpellResistance dobj 25 2
+		vBeTakenOff changeSpellResistance dobj -25 2
+	end
+
+	base described
+		text "You see a silly looking hat with bells on it."
+		idText "You see a hat finely crafted from exotic cloth. It resembles a Village Idiot hat but this one is truly well made and shimmers in the light. You sense it will help protect you from ill intents.\nYou must be level 50 or higher to wear this hat.\nEnchant Resistance: 20 percent.\n\n"
+		shopText "A Jester's Hat! Well, I suppose that's one way to get invited to visit royalty. What's that you say? It's a powerful item? You've got to be joking!"
+	end
+end
+
+#------------------------------------- Special Use NPC Versions -------------------------------------
+object MistMageHood of Hood
+	properties
+		special
+		color 99
+	end
+	base described
+		text "A cloth head with a musty, moist appearance."
+		idText "A Mist Mage's hood, worn by the powerful magic-users from the Mists.\n\n"
+		shopText "A hood from the Mists. Just looking at it gives me the creeps."
+	end
+end
+
+#------------------------------------------------------------
+object EvilWizHood of Hood
+	properties
+		special
+		color 98
+	end
+	base described
+		text "A cloth head with a musty, moist appearance."
+		idText "An Evil Wizard's hood, worn by the powerful magic-users from the Mists.\n\n"
+		shopText "A hood from the Mists. Just looking at it gives me the creeps."
+	end
+end
+
+#------------------------------------------------------------
+object GoodWizHood of Hood
+	properties
+		special
+		color 100
+	end
+	base described
+		text "A cloth head with a musty, moist appearance."
+		idText "A Good Wizard's hood, worn by the powerful magic-users from the Mists.\n\n"
+		shopText "A hood from the Mists. Just looking at it gives me the creeps."
+	end
+end
+
+#------------------------------------------------------------
+object EvilMinionHelm of UplanderHelmet
+	properties
+		special
+		color 98
+	end
+	base described
+		text "A polished, black helm with a hair crest."
+		idText "An Evil Minion's Helm. Not a spot of rust nor a mark of wear can be found on this well-maintained helmet frmo the Mists.\n\n"
+		shopText "A helm from the Mists. Just looking at it gives me the creeps."
+	end
+end
+
+#------------------------------------------------------------
+object ProtectorHelm of TribuneHelmet
+	properties
+		special
+		color 99
+	end
+	base described
+		text "A polished, gray helm with a crest."
+		idText "An Protector's Helm. Not a spot of rust nor a mark of wear can be found on this well-maintained helmet frmo the Mists.\n\n"
+		shopText "A helm from the Mists. Just looking at it gives me the creeps."
+	end
+end
+
+#------------------------------------------------------------
+object ChampionHelm of CenturionHelmet
+	properties
+		special
+		color 100
+	end
+	base described
+		text "A polished, white helm with a crest."
+		idText "An Champion's Helm. Not a spot of rust nor a mark of wear can be found on this well-maintained helmet frmo the Mists.\n\n"
+		shopText "A helm from the Mists. Just looking at it gives me the creeps."
+	end
+end
+#------------------------------------------------------------
+object ZerkersHelm of VikingHelmet
+	properties
+		special
+		color 99
+		value 100
+	end
+	base described
+		text "A battered, horned helm."
+		idText "The helm belonging to a Berserker. Battered, dented, and starting to rust, it's nothing worth wearing.\n\n"
+		shopText "A poorly crafted helm of the type made by the giants of the northern highlands."
+	end
+end
+#------------------------------------------------------------
+# Define various colored ViH for use on Maze NPCs
+
+object OliveIdiotHat of IdiotHat
+	properties
+		special
+		color 48
+	end
+end
+
+object LimeIdiotHat of IdiotHat
+	properties
+		special
+		color 49
+	end
+end
+
+object BlueIdiotHat of IdiotHat
+	properties
+		special
+		color 53
+	end
+end
+
+object AzureIdiotHat of IdiotHat
+	properties
+		special
+		color 54
+	end
+end
+
+object RedIdiotHat of IdiotHat
+	properties
+		special
+		color 58
+	end
+end
+
+object PinkIdiotHat of IdiotHat
+	properties
+		special
+		color 59
+	end
+end
+
+object GoldIdiotHat of IdiotHat
+	properties
+		special
+		color 63
+	end
+end
+
+object YellowIdiotHat of IdiotHat
+	properties
+		special
+		color 64
+	end
+end
+
+object VioletIdiotHat of IdiotHat
+	properties
+		special
+		color 68
+	end
+end
+
+object MagentaIdiotHat of IdiotHat
+	properties
+		special
+		color 69
+	end
+end
+
+object BrownIdiotHat of IdiotHat
+	properties
+		special
+		color 73
+	end
+end
+
+object TanIdiotHat of IdiotHat
+	properties
+		special
+		color 74
+	end
+end
+
+object AquaIdiotHat of IdiotHat
+	properties
+		special
+		color 78
+	end
+end
+
+object TealIdiotHat of IdiotHat
+	properties
+		special
+		color 79
+	end
+end
+
+object GreenIdiotHat of IdiotHat
+	properties
+		special
+		color 83
+	end
+end
+
+object JadeIdiotHat of IdiotHat
+	properties
+		special
+		color 84
+	end
+end
+
+object OrangeIdiotHat of IdiotHat
+	properties
+		special
+		color 88
+	end
+end
+
+object AmberIdiotHat of IdiotHat
+	properties
+		special
+		color 89
+	end
+end
+
+object RoyalIdiotHat of IdiotHat
+	properties
+		special
+		color 93
+	end
+end
+
+object PurpleIdiotHat of IdiotHat
+	properties
+		special
+		color 94
+	end
+end
+
+object BlackIdiotHat of IdiotHat
+	properties
+		special
+		color 98
+	end
+end
+
+object GrayIdiotHat of IdiotHat
+	properties
+		special
+		color 99
+	end
+end
+
+object WhiteIdiotHat of IdiotHat
+	properties
+		special
+		color 100
+	end
+end
+
+#------------------------------------------------------------
+

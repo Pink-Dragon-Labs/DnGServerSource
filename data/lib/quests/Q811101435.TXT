@@ -1,0 +1,15 @@
+quest 319 #8111-01-435  # (Vigo, Weaponry of Drune, 8305)
+
+name  "Parchment from Vigo"
+type  fedex
+
+proposal  "Ah, you're the traveler wanting the Ancient Rune from Devon.  Apprenticed to Loyaro, hmmm.  Would you please return to Surian, our Gatekeeper."
+
+declined  "As you wish."
+
+accepted  "Take this parchment to her.  There will be a message waiting for you."
+
+reminder  "Return to the Drune Gatekeeper, Surian."
+
+reward  qParchment
+end

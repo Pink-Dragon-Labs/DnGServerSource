@@ -1,0 +1,16 @@
+quest 250 #6902-01-335  #(Yondo, Troll Bragger Inn, W. Leinster, 6076)
+
+name  "Yondo's Favor"
+type  fedex
+
+proposal  "I'm glad to hear it.  That bag of Kombal's has been here from before the smiting, and the wife wants me to get rid it.  She doesn't like having his stuff hanging about.  It would be a favor to me if you'd take it off my hands."
+
+declined  "The wife isn't going to like it if I can't get rid of that bag."
+
+accepted  "Take it and go."
+
+reminder   "Just take the bag and leave town."
+
+reward  qKombalBag
+end
+

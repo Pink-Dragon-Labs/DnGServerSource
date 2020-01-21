@@ -1,0 +1,19 @@
+quest  223 #6815-01-225       # Geezer of Guennor, Potions, 6510
+
+name  "Beef Jerky"
+type  fedex
+
+proposal  "It do beat all the interest some folk have in bits and pieces of old things.  No use to be got out of 'em that I kin see.  Business is business, though.  It be true an old pot shard from Drune dwells on the shelf yonder, but danged if I know how folk hear of it.  Let's get down to it.  I've been hankering for a slab of beef jerky.   Would ye see yer way clear to fetch me some so as to acquire the old bit of crockery yer heart yearns after?"
+
+declined  "Couldn't be a fairer deal."
+
+accepted  "Be off, then, to Caer Fandry.  I don't hold with elves as a general rule, but by golly, they make a fine bit of jerky."
+
+reminder   "Beef jerky from Caer Fandry will get ye the broken bit of pot."
+
+completed  "Dang me if ye didn't carry through.  Here be the broken pot, then.  Come again.  I be expectin' more smashed bits."
+
+getItem   qBeefJerky
+reward   qPotShard 
+end
+

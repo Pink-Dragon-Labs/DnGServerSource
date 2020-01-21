@@ -1,0 +1,24 @@
+id 6012
+
+banner "Greetings, and welcome to The Ebony Crystal. May I help you?"
+
+topic "Tell me about Leinster."
+        text "West and East Leinster were once one town. But the gods quarrelled, and Duach separated us from the West by smiting the town in two."
+	text  "Some ruins are still smouldering, and now there's a rat infestation in the ruins."
+	text "The gods fight, and we pay the price." 
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that Duach plans additional attacks. Such rumors always abound after a disaster such as the one we have suffered."
+	"At least I hope it's a rumor!"
+end      
+
+topic "Can I do anything for you?"
+        text "Pray for harmony among the gods, or they will destroy us all."
+end
+
+topic  "I'm looking for a Tuft of Fenri Fur" q106:0 #q6308-01-300:0
+	quest 107 #6308-01-325
+	text  "Shush.  Not so loud.  I gave it to you already."
+end
+

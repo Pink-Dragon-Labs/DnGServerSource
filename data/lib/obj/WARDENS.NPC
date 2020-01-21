@@ -1,0 +1,464 @@
+#BASE GUARDIAN		150-350	Guardian	male		s 30	e 15	d 40				L
+#ZENDERWOODS.ZON	075-125	WardenHA06	female	h	s 30	e 15	d 40	200-250		D
+#WILDBEYOND.ZON		075-125	WardenHA06	female	h	s 30	e 15	d 40	200-250		D
+#WEXFORDSHIRE.ZON	125-200	WardenHA07	male	g	s 32	e 18	d 40	250-300		ML
+#WANDERINGWOOD.ZON	125-200	WardenHA07	male	g	s 32	e 18	d 40	250-300		ML
+#FORESTOFDEATH.ZON	201-250	WardenHA08	female	g	s 34	e 21	d 40	300-400		MD
+#KILLINGFIELDS.ZON	201-250	WardenHA08	female	g	s 34	e 21	d 40	300-400		MD
+#WINTERWOOD.ZON		251-300	WardenHA09	male	e	s 36	e 24	d 40	500-750		MD
+#DOWNS.ZON			301-400	WardenHA10	female	e	s 38	e 27	d 40	750-1000	ML
+#BARRENS.ZON		401-500	WardenHA11	male	h	s 40	e 30	d 40	1000-1500	D
+#ASCETOS.ZON		500+	WardenHA12	female	h	sh 42	e 33	d 40	2000-2500	L
+
+#------------------------------------------------------------
+object BaseWarden of NPC
+	properties
+		name "Warden"
+		view 100
+		alignment 127
+
+		minLevel 150
+		maxLevel 350
+
+		minDamage 50
+		maxDamage 150
+
+		intelligence 20
+		strength 30
+		endurance 15
+		dexterity 40
+		quickness 20
+
+		soundGroup 16
+		damageType 1
+		armorType 1
+		treasure 4
+
+		affect 17 0 0 -1	# see invisible
+		affect 85 0 0 -1	# immune to death touch
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+
+	base character
+		# all weapons skills
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		skill 7 5	# Unarmed Combat Grandmaster
+		skill 9 5	# Acrobatics
+		skill 30 5	# Shield Use
+		skill 29 5	# Critical Striking
+		skill 14 5	# Thaumaturgy
+	end
+
+	base npc
+		code guardian
+	end
+
+	base described
+		text "A Warden, protector of the wilderness and those that travel therein."
+	end
+end
+
+#---------	Warden for Hunting Area 06 (Wild Beyond) ------------
+#ZENDERWOODS.ZON	075-125	WardenHA06	female	h	s 30	e 15	d 40	200-250		D
+#WILDBEYOND.ZON		075-125	WardenHA06	female	h	s 30	e 15	d 40	200-250		D
+
+object WardenHA06 of NPC
+	properties
+		name "Warden"
+		view 100
+		alignment 127
+
+		minLevel 200
+		maxLevel 250
+
+		intelligence 20
+		strength 30
+		endurance 15
+		dexterity 40
+		quickness 20
+
+		soundGroup 16
+		damageType 1
+		armorType 1
+		treasure 4
+
+		affect 17 0 0 -1	# see invisible
+		affect 85 0 0 -1	# immune to death touch
+	end
+
+	base character
+		# all weapons skills
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		skill 9 5	# Acrobatics
+		skill 30 5	# Shield Use
+		skill 29 5	# Critical Striking
+		skill 14 5	# Thaumaturgy
+
+		sex 1		# female
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,
+		head 1 3 0 0 0 0 0 0 3 0 0 0 0 
+		worn maGreenDensePlate
+		worn maTanDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maTanDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		worn BlackBelt
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+
+	base npc
+		code guardian
+	end
+
+	base described
+		text "Warden"
+	end
+end
+
+#---------	Warden for Hunting Area 07 (Wandering Wood) ------------
+#WEXFORDSHIRE.ZON	125-200	WardenHA07	male	g	s 32	e 18	d 40	250-300		ML
+#WANDERINGWOOD.ZON	125-200	WardenHA07	male	g	s 32	e 18	d 40	250-300		ML
+
+object WardenHA07 of BaseWarden
+	properties
+		view 100
+		minLevel 250
+		maxLevel 300
+		minDamage 100
+		maxDamage 200
+
+		strength 32
+		endurance 18
+		dexterity 40
+		girth 150
+		height 150
+
+		name "Warden"
+		alignment 127
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race (0-h, 2-g, 3-e) 
+		head 0 1 0 0 0 1 2 1 0 0 0 3 2 
+		worn maGreenDensePlate
+		worn maTanDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maTanDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end
+
+#---------	Warden for Hunting Area 08 (Forest of Death) ------------
+#FORESTOFDEATH.ZON	201-250	WardenHA08	female	g	s 34	e 21	d 40	300-400		MD
+#KILLINGFIELDS.ZON	201-250	WardenHA08	female	g	s 34	e 21	d 40	300-400		MD
+
+object WardenHA08 of BaseWarden
+	properties
+		view 100
+		minLevel 300
+		maxLevel 400
+		minDamage 150
+		maxDamage 250
+
+		strength 34
+		endurance 21
+		dexterity 40
+		girth 120
+		height 120
+
+		name "Warden"
+		alignment 127
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race (0-h, 2-g, 3-e) 
+		head 1 2 0 0 0 0 0 7 2 0 1 -1 2
+		worn maGreenDensePlate
+		worn maTanDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maTanDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		sex 1
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end
+
+#---------	Warden for Hunting Area 09 (Winter Wold) ------------
+#WINTERWOOD.ZON		251-300	WardenHA09	male	e	s 36	e 24	d 40	500-750		MD
+
+object WardenHA09 of BaseWarden
+	properties
+		view 100
+		minLevel 500
+		maxLevel 750
+		minDamage 200
+		maxDamage 300
+
+		strength 36
+		endurance 24
+		dexterity 40
+		girth 90
+		height 100
+
+		name "Warden"
+		alignment 127
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race (0-h, 2-g, 3-e) 
+		head  0 2 0 0 5 5 0 4 4 4 2 0 3
+		worn maGreenDensePlate
+		worn maTanDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maTanDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end
+
+#---------	Warden for Hunting Area 10 (Downs) ------------
+#DOWNS.ZON			301-400	WardenHA10	female	e	s 38	e 27	d 40	750-1000	ML
+
+object WardenHA10 of BaseWarden
+	properties
+		view 100
+		minLevel 750
+		maxLevel 1000
+		minDamage 250
+		maxDamage 350
+
+		strength 38
+		endurance 27
+		dexterity 40
+		girth 90
+		height 90
+
+		name "Warden"
+		alignment 127
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race (0-h, 2-g, 3-e) 
+		head 1 1 1 1 1 3 0 7 6 4 1 0 3
+		worn maGreenDensePlate
+		worn maTanDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maTanDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		sex 1
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end
+
+#---------	Warden for Hunting Area 11 (Barrens) ------------
+#BARRENS.ZON		401-500	WardenHA11	male	h	s 40	e 30	d 40	1000-1500	D
+
+object WardenHA11 of BaseWarden
+	properties
+		view 100
+		minLevel 1000
+		maxLevel 1500
+		minDamage 350
+		maxDamage 550
+
+		strength 40
+		endurance 30
+		dexterity 40
+		girth 110
+		height 100
+
+		name "Warden"
+		alignment 127
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race (0-h, 2-g, 3-e) 
+		head 0 3 6 2 0 0 2 11 4 6 2 
+		worn maTanDensePlate
+		worn maOrangeDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maOrangeDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end
+
+#---------	Warden for Hunting Area 12 (Ascetos) ------------
+#ASCETOS.ZON		500+	WardenHA12	female	h	sh 42	e 33	d 40	2000-2500	L
+
+object WardenHA12 of BaseWarden
+	properties
+		view 100
+		minLevel 2000
+		maxLevel 2500
+		minDamage 500
+		maxDamage 1000
+
+		strength 42
+		endurance 33
+		dexterity 40
+
+		name "Warden"
+		alignment 127
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race (0-h, 2-g, 3-e) 
+		head 1 0 0 4 0 0 0 2 9 0 12 0  
+		worn maTanDensePlate
+		worn maOrangeDenseGreaves
+		worn BlackBelt
+		worn maBrownDenseBoots
+		worn maOrangeDenseCowl
+		worn maBrownDenseBands
+		worn SlicingBlade
+		worn maTanDenseShield
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+	end
+
+	base character
+		sex 1
+	end
+
+	actions
+		vBeBorn changeMeleeArmorPiercing self 75
+		vBeBorn changeSpellResistance self 75 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeCastResistance self -25
+		vBeBorn changeSDM self 150 0 1 2 3 4
+	end
+end

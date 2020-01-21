@@ -1,0 +1,12 @@
+object StrongBox of Chest
+	properties
+		name "Strong Box"
+	end
+
+	base password
+	end
+
+	base described
+		text "You see a magically locked strong box.  It is used to keep private items in safely."
+	end
+end

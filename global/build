@@ -1,0 +1,2 @@
+make -R -f ../system.mak -f global.mak -f makefile -f ../depend.mak $1
+ar rus libglobal.a

@@ -1,0 +1,19 @@
+quest  288 #8021-01-230       #Kaliri, Arimathor, 6801
+
+name  "Kaliri's Sweet
+type  fedex
+
+proposal  "Of course I do, dearie.  My motto is 'Anything and Everything' and I've purty near got it all.  My seed is all fresh, I make sure of that.  I have a generous assortment.  Would you be willing to run over to Sanria at her food store and get me a sweet?  I'll trade you the herb seed.  Will you do that?
+
+declined  "All right, dearie.  Never you mind."
+
+accepted  "Thank you, dearie."
+
+reminder   "Have you been to Sanria for that sweet yet?"
+
+completed  "My, those cinnamon buns smell good!  Here's your package, dearie."
+
+getItem   qKaliriSweet
+reward   qHerbSeed 
+end
+

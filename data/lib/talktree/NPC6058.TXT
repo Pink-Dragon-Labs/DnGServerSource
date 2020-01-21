@@ -1,0 +1,25 @@
+id 6058
+
+banner "You've entered the Bloated Swine Tavern. What do you want?"
+
+topic "Tell me about Leinster."
+        text "Leinster is the best town in all The Realm. And the east side is far better than the west side."
+        text "Westerners generally honor Despothes. I once did, but he's no powerful King of the gods. If he were, he'd have stopped Duach."
+        text "My family worships Duach now, for it seems to me he's stronger than Despothes. He destroyed the town Despothes favored, did he not?"
+end
+
+topic "Who are you?"
+        text "I am Mundar. The Bloated Swine Tavern belongs to my mother. She named it after me."
+        text "You see, when I was a baby I was a bit chubby, and so she named the tavern the Bloated Swine."
+        text "Fortunately for me, I've slimmed down considerably."
+end      
+
+topic "Can I do something for you?"
+        text "Not today. Check with me again soon."
+end
+
+topic  "I'm looking for some Powdered Imp." q181:0 #q6610-01-100:0
+	quest 182 #6610-01-125
+	text  "You got some from me already.  Now go away."
+end
+

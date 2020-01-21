@@ -1,0 +1,19 @@
+quest 116 #6308-01-530  #(Neela, The Banshee's Wail, W. Leinster, 6079)
+
+name  "Tobac Leaf"
+type  fedex
+
+proposal  "I figured somebody would turn up wanting that gold nugget. I've got it in a safe place.  I might trade for it, if you're interested.  I bought a supply of tobac leaf, a really large supply of tobac leaf and arranged delivery.  I want the delivery receipt.   Want to hear about it?"
+
+declined  "No skin off my nose."
+
+accepted  "Here's the deal. I bought the tobac leaf from Kurz Mercantile.  The shopkeeper arranged for delivery to my representative.  Bring me a delivery receipt from him and the gold nugget is yours." 
+
+reminder  "Go to Kurz Mercantile and get my tobac leaf receipt.  And shake a leg."
+
+completed  "Took you long enough.  I thought you were trying to cheat me.  Here's the gold nugget you're looking for."
+
+getItem  qTobacReceipt
+reward  qGoldNugget
+end
+

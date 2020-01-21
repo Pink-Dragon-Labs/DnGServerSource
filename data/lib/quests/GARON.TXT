@@ -1,0 +1,17 @@
+quest 15 #200
+	name "Garon's Boots" 
+	type fedex
+
+	proposal "I know of the amulet which you speak of.  It is an ancient artifact of great power... the first of it's kind to come from The Mists.  Before I can support you in this I need you to do something for me.  Bethany, the owner of Noble Wears in Leinster, is repairing my favorite pair of armored boots.  The repairs should be done today and I need for you to go and get them for me.  If you do that for me, I will give you a scroll that you can give to Kolanar that proves my support.  Will you do this for me?"
+
+	accepted "Thank you.  I look forward to the safe return of my precious footwear."
+
+	declined "I see.  Well, maybe later then."
+
+	reminder "You're back so soon without my boots?  Find your way back to Leinster and speak with Bethany at the Noble Wears shoppe.  Be quick about it!"
+
+	completed "You are indeed brave!  Only the most talented of adventurers can find their way through the maze that is known as Leinster!  Here is the scroll that I promised to you.  Take it back to Kolanar and receive your prize."
+
+	getItem GaronBoots
+	reward GaronScroll 
+end

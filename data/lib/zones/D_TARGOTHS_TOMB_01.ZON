@@ -1,0 +1,9 @@
+name "D_Targoths_Tomb"
+title "Targoth's Tomb"
+worldFile "../data/lib/world/D_TARGOTHS_TOMB_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor13100-0

@@ -1,0 +1,64 @@
+id 5301
+
+banner "Welcome to Monmouth Arms Estates. Whom would you like to visit?"
+
+topic "Tell me about Monmouth."
+        text "Monmouth has a rich and fascinating history. If you were anyone, I'd tell you what it is."
+	text "As it is, I'll save my breath."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that there are some sights to see just outside of town. Why not go there?"
+	text "If you leave now, you won't be late."
+end      
+
+topic  "I need help finding shops."
+
+	banner  "Which one do you want?"
+
+	topic  "Where can I find a clothing store?"
+		text "Clothes and More is right one. "
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is down one.  The Food Emporium is right two."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Magical Monmouth is down one, right one.  Potions is down two, left two."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Volzer's Weapons is down two, right two.  The House of Combat is down two, left one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Monmouth Necessaries is down two."
+	end
+
+	topic  "Do you have a chapel?"
+		text "No, we don't have one in Monmouth.  I know that Usk has one."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Academy Arcanus, a wizard's academy, is left one."
+	end
+
+	topic  "Where can I find a healer?"
+		text "To Your Health is down one, right two."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "The Last Call is right three. Eldest Inn is down one, left two."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Just type in the name of your friend. I hope you know how to type."
+end
+
+topic  "I'm looking for some mekian glue." q267:0 #q6905-01-525:0
+	quest 268 #6905-01-530
+	text  "You don't get away with asking for more, not with me you don't."
+end
+

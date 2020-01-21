@@ -1,0 +1,30 @@
+id 8001
+
+banner "You've come to the Dog's Breath Tavern. What do you want?"
+
+topic "Tell me about Kurz."
+        text "So you'd like to know about Kurz, eh? Well, for one thing, we don't much care for those who stick their noses where they don't belong, if you catch my meaning."
+        text "But you don't look like anyone who could do any harm, so I'll tell you this. Kurz isn't the type of place for those who can't take care of themselves, understand?"
+	text "For example, if my mother lived here, I'd want her to move away."
+	text "None of my family lives in Kurz, and I prefer it that way."
+end
+
+topic "Who are you?"
+        text "I am Randolf, if it's any of your business."
+        text "I own the establishment you're standing in."
+end      
+
+topic "Can I do something for you?"
+        text "I wouldn't mind trying you out, but I've nothing for you today. Come back another time."
+end
+
+topic  "Would you have a beaker of distilled water?" q192:0 #q6610-01-430:0
+	quest 193 #6610-01-435
+	text  "You took it already."
+end
+
+topic  "I'm looking for a blue globe." q68:0 #q6102-01-525:0
+	quest 69 #6102-01-530
+	text  "I only had one, and you took it."
+end
+

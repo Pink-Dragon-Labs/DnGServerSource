@@ -1,0 +1,19 @@
+quest  50 #6077-01-425       # Troels, Valhalla Inn, tavern, Asgard, 6911
+
+name  "Image of Duach"
+type  fedex
+
+proposal  "A wizard.  Now that's an interesting idea.  I've never carved a wizard.  Say, I'd like to try my hand at one.  In fact, I will do it.  If I carve it for you, friend, will you go to Kurz for me?"
+
+declined  "Might just do a wizard anyway.  Interesting idea."
+
+accepted  "I don't like going there.  Dangerous place.  But if you'll go, I would like to have an image of the god Duach.  I heard there are a few in Kurz." 
+
+reminder   "You're going to find me an image of the god Duach in Kurz."
+
+completed  "Thank you, friend.  I appreciate this errand.  I finished your wizard carving, too.  Turned out rather well, I thought."
+
+getItem   qDuachImage
+reward   qCarvedWizard 
+end
+

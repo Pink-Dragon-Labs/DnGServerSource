@@ -1,0 +1,19 @@
+quest  93 #6211-01-435        # Nika, Gatekeeper, Usk, human, 7109
+
+name  "Package for Nika"
+type  fedex
+
+proposal  "That's a request easily granted, friend.  There are many acorns available here in Usk.  I could get them for you myself.  If you will do one favor for me, I'll get you a package of acorns.  Would you like to trade?"
+
+declined  "That's fine.  If you need directions, just ask."
+
+accepted  "My counterpart in Wen has a package for me."
+
+reminder   "Please get a package for me from Wen."
+
+completed  "My thanks, friend.  Here are the acorns ready for you."
+
+getItem   qNikaPackage
+reward   qUskAcorns 
+end
+

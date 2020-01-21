@@ -1,0 +1,19 @@
+quest  397 #8100-01-425        # Stench, Caer Fandry Curses, magic, 6608
+
+name  "Scorpion With Two Tails Fossil"
+type  fedex
+
+proposal  "And I want a customer some day who isn't a dunderhead!  Petrified peat is an old-elves tale!  Petrified peat is a myth!  Petrified peat is a scientific impossibility!  Haven't you heard that?  Hey?  Still want some?  Maybe you're not a complete dunderhead.  Petrified peat exists, and those who naysayer it don't know from nothing!  Dolts!  I happen to have some, but it doesn't walk out this door with you until I get something first.  I want a rare bit of fossil, a scorpion with two tails.  How about that!  Are you going to take it on?"
+
+declined  "Depart, dolt!"
+
+accepted  "Go to the desert."
+
+reminder   "Your quest, dunderhead, is a scorpion with two tails. A fossil.  From the desert."
+
+completed  "Hmphf.  Doesn't look like much.  Take your peat and go."
+
+getItem	qTwotailedScorpion
+reward   qPetrifiedPeat 
+end
+

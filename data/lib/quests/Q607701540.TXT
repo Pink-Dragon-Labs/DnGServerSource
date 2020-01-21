@@ -1,0 +1,18 @@
+quest  59 #6077-01-540       # Bekka, Food Cart, Usk, human, 7106
+
+name  "Bekka's New Shoes"
+type  fedex
+
+proposal  "I've got a supply.  I'd never heard of them before I moved here, but I rather like the flavor.  Maybe I should add it to my menu.  I wonder.  Oh, well.  I'll be glad to give you some if you would do me a favor.  Just a jaunt to pick up my new shoes.  Will you?"
+
+declined  "Too bad."
+
+accepted  "I hoped you would.  They are ready to be picked up over at Daria's place."
+
+reminder   "Please pick up my new shoes from Daria."
+
+completed  "Super.  Thanks.  Hope you like the tea."
+
+getItem   qBekkaShoes
+reward   qUskTealeaf 
+end

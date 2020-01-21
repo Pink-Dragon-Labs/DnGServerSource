@@ -1,0 +1,717 @@
+#
+# Magical Weapons
+#
+
+#------------------------------------------------------------
+object mwStinger of ThrowingDagger
+	properties
+		name "The Stinger"
+		value 15000
+		health 800
+		color 83
+
+		# do posion damage
+		caffect 0
+		affect 5 0 0 -1
+	end
+
+	base described
+		text "You see a throwing dagger made of mythril."
+		idText "You see The Stinger, a dangerous-looking magically poisoned throwing dagger"
+		shopText "This hideous throwing dagger will poison your victims."
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 30
+	end
+end
+
+#------------------------------------------------------------
+object mwFangblade of Dagger
+	properties
+		name "Fangblade"
+		value 15000
+		health 800
+		color 83
+
+		# do posion damage
+		caffect 0
+		affect 5 0 0 -1
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 30
+	end
+
+	base described
+		text "You see a mythril dagger of impressive quality."
+		idText "You see the Fangblade - a poisoned dagger of impressive quality."
+		shopText "This magical dagger will poison your foes."
+	end
+end
+
+#------------------------------------------------------------
+object mwExecutionersAxe of Axe
+	properties
+		name "The Executioner"
+		value 28500
+		health 850
+		color 93
+		strength 5
+		level 200
+	end
+
+	actions
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base carryable
+		weight 175.0
+	end
+
+	base weapon
+		minDamage 75
+		maxDamage 175
+	end
+
+	base described
+		text "You see a battle axe made of unusual alloys."
+		idText "The Axe of the Executioner. While the weight of this axe is formidible, when it's mark is found it is sure to inflict heavy damage on any foe. Runes enscribed on the blade can protect the bearer of this weapon against some spells affecting the mind.  Level Required: 200"
+		shopText "A fine Axe. Useful for hacking up the most fierce opponents."
+	end
+end
+
+#------------------------------------------------------------
+object mwLifeLeech of ShortSword
+	properties
+		name "Life Leech"
+		value 20000
+		health 800
+		color 98
+
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 30
+	end
+
+	base described
+		text "You see a well crafted obsidianite short sword."
+		idText "You see a hideous magical weapon, aptly named the Life Leech."
+		shopText "This hideous sword will drain your opponents life force and transfer it to you."
+	end
+end
+
+#------------------------------------------------------------
+object mwVulcanEdge of LongSword
+	properties
+		name "Vulcan Edge"
+		value 20000
+		health 800
+		color 58
+
+		# do pure fire damage
+		caffect 0
+		affect 1 0 0 -1
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 40
+	end
+
+	base described
+		text "You see a strange red long sword."
+		idText "You see the Vulcan Edge, a most destructive magical weapon."
+		shopText "This is the flaming blade 'Vulcan Edge'."
+	end
+end
+
+#------------------------------------------------------------
+object mwNullsword of BroadSword
+	properties
+		name "Nullsword"
+		value 25000
+		health 800
+		color 98
+
+		# do pure experience damage
+		caffect 0
+		affect 8 0 0 -1
+	end
+
+	base carryable
+		weight 6.0
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 40
+	end
+
+	base described
+		text "You see a broad sword made of heavy obsidianite alloy."
+		idText "You see the infamous Nullsword. It can negate an opponent's life experience at each strike!"
+		shopText "A broad sword, light and agile. Special properties allow it to negate an opponent's life experience when they are struck."
+	end
+end
+
+#------------------------------------------------------------
+object mwWrath of TwoHandSword
+	properties
+		name "The Wrath"
+		value 35000
+		health 800
+		color 93
+		level 200
+	end
+
+	base carryable
+		weight 30.0
+	end
+
+	base weapon
+		minDamage 60
+		maxDamage 120
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a huge two-handed sword made of some strange material."
+		idText "This is the wrath, the most destructive of two-handed swords.  Level Required: 200"
+		shopText "Here is the renowned Wrath, the most dangerous of two-handed swords."
+	end
+end
+
+#------------------------------------------------------------
+object mwDefender of LongSword
+	properties
+		name "The Defender"
+		value 25000
+		health 800
+		color 53
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 35
+	end
+
+	actions
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+	end
+
+	base described
+		text "You see a finely crafted long sword made of some strange material."
+		idText "You see the Defender, a powerful magical sword that will increase your ability to avoid attacks."
+		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages when you're on the battlefield."
+	end
+end
+
+#------------------------------------------------------------
+object mwUnholyClub of AdmantiumClub
+# Designed for use by EvilMinions, the defenders of the Evil Wizards.
+	properties
+		name "Unholy Club"
+		value 2000
+		enchantResistance 100
+		level 1001		# prevent use of the weapon by players
+		color 97
+		# affect 10 0 0 -1	Steal Life
+		affect 2 0 0 -1		# Cold Damage
+	end
+
+	base described
+		idText "Bonus: Damage quadrupled when used against good opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+		shopText "Bonus: Damage quadrupled when used against good opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+	end
+
+	base weapon
+		minDamage 600
+		maxDamage 800
+	end	
+
+	actions 
+		#Extra Attack
+		#vBePutOn setAffect dobj 56 0 0 -1
+		#vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeGoodMDMMod dobj 400
+		vBeTakenOff changeGoodMDMMod dobj -400
+	end
+end
+#------------------------------------------------------------
+object mwMaceOfVirtue of AdmantiumMace
+# Designed for use by Champions, the defenders of the Good Wizards.
+	properties
+		name "Mace of Virtue"
+		value 2000
+		enchantResistance 100
+		level 1001		# prevent use of the weapon by players
+		color 79
+		# affect 10 0 0 -1	Steal Life
+		affect 4 0 0 -1		# Acid Damage
+	end
+
+	base described
+		idText "Bonus: Damage quadrupled when used against evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+		shopText "Bonus: Damage quadrupled when used against evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+	end
+
+	base weapon
+		minDamage 600
+		maxDamage 800
+	end	
+
+	actions 
+		#Extra Attack
+		#vBePutOn setAffect dobj 56 0 0 -1
+		#vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeEvilMDMMod dobj 400
+		vBeTakenOff changeEvilMDMMod dobj -400
+	end
+end
+#------------------------------------------------------------
+object mwVengenceSword of AdmantiumBroadSword
+# Designed for use by Protectors, the defenders of the Neutral Wizards.
+	properties
+		name "Sword of Vengence"
+		value 2000
+		enchantResistance 100
+		level 1001		# prevent use of the weapon by players
+		color 100
+		# affect 10 0 0 -1	Steal Life
+		affect 3 0 0 -1		# Lightning Damage
+	end
+
+	base described
+		idText "Bonus: Damage quadrupled when used against either good or evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+		shopText "Bonus: Damage quadrupled when used against either good or evil opponents.\nEnchant Resistance: 100 percent.\nLevel Required: 1001\n"
+	end
+
+	base weapon
+		minDamage 600
+		maxDamage 800
+	end	
+
+	actions 
+		#Extra Attack
+		#vBePutOn setAffect dobj 56 0 0 -1
+		#vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn changeEvilMDMMod dobj 400
+		vBePutOn changeGoodMDMMod dobj 400
+		vBeTakenOff changeGoodMDMMod dobj -400
+		vBeTakenOff changeEvilMDMMod dobj -400
+	end
+end
+#------------------------------------------------------------
+object mwTiwazSword of BroadSword 
+	properties
+		name "Sword of Tiwaz"
+		value 17500
+		enchantResistance 35
+		level 600
+		color 115
+		strength 5
+	end
+	base weapon
+		minDamage 60
+		maxDamage 120
+	end	
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+	base described
+		text "You see a glistening sword with a rune carved on its blade."
+		idText "A rune sword of Tiwaz, a mighty weapon forged by Finvarra to ensure victory on the field of battle.\n  Level Required: 600\n\n"
+		shopText "As you can see by the rune etched upon the blade, this is the legendary Sword of Tiwaz, a powerful weapon that envokes the essence of Victory."
+	end
+end
+
+#------------------------------------------------------------
+object mwUruzDagger of ThrowingDagger 
+	properties
+		name "Uruz Dagger"
+		value 12500
+		enchantResistance 35
+		level 550
+		strength 5
+		color 115
+	end
+	actions
+		# Regeneration (as per Ring of Regen)
+		vBePutOn setAffect dobj 44 0 0 315360000 
+		vBeTakenOff clearAffect dobj 44 0 0
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Strength Bonus
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+		# Acid Weakness
+		vBePutOn setAffect dobj 4 3 0 -1
+		vBeTakenOff clearAffect dobj 4 3 0
+	end
+	base carryable
+		weight 2.3
+	end
+	base weapon
+		minDamage 25
+		maxDamage 50
+	end	
+	base described
+		text "You see a glistening dagger with a rune carved on its blade." 
+		idText "The rune etched upon the blade reveals this as the renowned Uruz Dagger, a deadly weapon that envokes the powers of Strength and Health. Level Required: 550\n\n"
+		shopText "A rune dagger of Uruz, a prized weapon forged by Finvarra to aid in good health on the field of battle.\n"
+	end
+end
+#------------------------------------------------------------
+object mwSpecialNullsword of mwNullsword
+# Designed for use by Servants of the Mists.
+	properties
+		name "Sword of the Mists"
+		color 48 #63
+
+		# do normal damage
+		affect 0 0 0 -1
+		# do experience damage
+		affect 8 0 0 -1
+		# do fire damage
+		affect 1 0 0 -1
+		# Free Will
+		affect 86 0 0 -1
+		# Retention
+		affect 65 0 0 -1
+	end
+
+
+	base carryable
+		weight 590.0
+	end
+
+	base weapon
+		minDamage 800
+		maxDamage 5000
+	end
+	base described
+		text "You see a weapon with a foul appearance that matches the stench emanating from its blade."
+		idText "A sword from the Mists, a profane and despicable weapon whose foul appearance matches the stench emanating from its blade."
+		shopText "This weapon does not belong in the mortal world."
+	end
+end
+#------------------------------------------------------------
+object mwBerserkersAxe of Axe
+	properties
+		name "Berserker's Axe"
+		value 28500
+		health 850
+		color 100
+		strength 5
+		level 1001
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		vBePutOn setAffect dobj 86 0 0 -1
+		vBeTakenOff clearAffect dobj 86 0 0
+	end
+
+	base carryable
+		weight 175.0
+	end
+
+	base weapon
+		minDamage 2000
+		maxDamage 4000
+	end
+
+	base described
+		text "You see a battle axe made of rare metals known to be found only in the most distant northern mountains."
+		idText "A Berserker's Axe. The dings and dents on its blades mark its frequent use. Level Required: 1001"
+		shopText "A fine Axe. Useful for hacking up the most fierce opponents."
+	end
+end
+
+#------------------------------------------------------------
+object mwMistSpySword of ShortSword
+	properties
+		name "Mists Short Sword"
+		value 20000
+		health 800
+		color 48 #63
+		special
+
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+
+	base carryable
+		weight 590.0
+	end
+
+	base weapon
+		minDamage 400
+		maxDamage 2500
+	end
+
+	base described
+		text "You see a foul looking weapon whose revulsion is matched only by the stench emanating from its blade."
+		idText "A shortsword from the Mists, a profane and despicable weapon whose foul appearance matches the stench emanating from its blade."
+		shopText "This weapon does not belong in the mortal world."
+	end
+end
+#------------------------------------------------------------
+object mwMistWizDagger of ThrowingDagger
+	properties
+		name "Mist Wizard Dagger"
+		value 15000
+		health 800
+		color 58
+		enchantResistance 100
+		level 1001		# prevent use of the weapon by players
+		special
+
+		# do posion damage
+		affect 5 0 0 -1
+	end
+
+	actions	#Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 75
+		maxDamage 175
+	end
+
+	base described
+		text "You see a throwing dagger."
+		idText "You see a throwing dagger of a Mist Wizard, a dangerous-looking magically poisoned weapon."
+		shopText "This foul throwing dagger belongs to the Mists."
+	end
+end
+
+#------------------------------------------------------------
+object mwBonecrusher of Club
+	properties
+		special
+		name "The Bonecrusher"
+		value 28500
+		level 200	#same as EA
+		color 104
+		health 900	#EA = 850
+		strength 5	#same as EA
+		# do pure stun damage
+		#caffect 0
+		#affect 13 0 0 -1
+	end
+
+	base weapon
+		# EA: 75-170. Increase by 1/4. 
+		minDamage 95
+		maxDamage 215
+	end	
+
+	base carryable
+		# EA: 175. Increase by 1/4. 
+		weight 180	#200.0
+        # Warriors Only
+        #mask wizard
+        #mask adventurer
+        #mask thief
+	end
+
+	components
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		AdmantiumBar #2500
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		33000 gold
+	end
+
+	base described
+		idText "The Bonecrusher, a heavy club of devasting power, best used by only the strongest.\n\nLevel Required: 200\n\n"
+		shopText "You see a Bonecrusher Club.\nLevel Required: 200\"
+	end
+end
+
+#------------------------------------------------------------
+object mwFinvarraClaw of AdmantiumClaw
+	properties
+		special
+		name "Finvarra's Fist"
+		value 28500
+		health 260
+		color 115
+		strength 5
+		level 200
+	end
+
+	base dye
+	end
+
+	base weapon
+		minDamage 30	#Half the value of a Wrath
+		maxDamage 60	#Half the value of a Wrath
+		range 8
+		damageType 2 	#Same type as Two-Handed Sword
+	end
+
+	base carryable
+		weight 3.8
+        # Wizards Only
+        #mask warrior
+        #mask adventurer
+        #mask thief
+	end
+
+	actions
+		# Extra Attack
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+		# Strength Bonus
+		vBePutOn setAffect dobj 39 0 0 -1
+		vBeTakenOff clearAffect dobj 39 0 0
+	end
+
+	components
+		AdmantiumBar #2500
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		MagicBar	#1000
+		SweatBar	#5000
+		SweatBar	#5000
+		#--------------------
+		#Total 		20500 gold
+	end
+
+	base described
+		idText "You see a finely crafted claw. This claw magically reaches out and slices opponents at a distance.\nLevel Required: 200\n"
+		shopText "This is the finest claw you can find."
+	end
+end
+
+
+#------------------------------------------------------------
+object mwFinvarraDefender of BroadSword
+	properties
+		special
+		name "Finvarra's Defender"
+		value 25000
+		health 800
+		color 115
+		level 500
+	end
+
+	base carryable
+		weight 4.0
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 100
+		range 2
+	end
+
+	actions
+			#57	_AFF_EXTRA_DODGE
+		vBePutOn setAffect dobj 57 0 0 -1
+		vBeTakenOff clearAffect dobj 57 0 0
+			#56	_AFF_EXTRA_ATTACK
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	base described
+		text "You see a finely crafted Broad Sword."
+		idText "You see the Finvarra's Defender, a powerful magical sword that will increase your fighting skills. It will bestow an extra dodge and an extra attack. \nLevel Required: 500\n."
+		shopText "Long swords are quite a popular item.  They are not quite as devastating as the battle axe or two-handed sword but having a lighter weapon has it's advantages on the battlefield."
+	end
+end
+
+#------------------------------------------------------------
+object mwThiefBlade of ShortSword
+	properties
+		special
+		name "Thief's Blade"
+		value 35000
+		health 800
+		color 89     # should be a shade of amber
+		level 300
+		# do half life-steal damage
+		affect 10 0 0 -1
+	end
+
+	base carryable
+		weight 3.0
+	end
+
+	base weapon
+		minDamage 50
+		maxDamage 100
+		range 1
+	end
+
+	base described
+		text "You see a cleverly crafted short bladed weapon that is easily concealed."
+		idText "You see a deadly magical weapon, aptly named the Thief's Blade since they frequently use it. It will steal life from your opponent. \nLevel Required: 300\n "
+		shopText "This sword will steal your opponents health and transfer it to you."
+	end
+end
+
+#------------------------------------------------------------
+
+
+

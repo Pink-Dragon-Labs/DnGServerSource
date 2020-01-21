@@ -1,0 +1,36 @@
+id 6061
+
+banner "Hello, Friend. I'm Morin, the healer. How may I help you today?"
+
+topic "Tell me about Leinster."
+        text "So it's information you want? Well, Leinster was once a town of peace and harmony, as Enid would wish it to be."
+	text "Then the other gods started ... shall we say, mixing it up? The next thing we know, Leinster is smashed in two."
+	text  "All that devastation certainly clarified my thinking about serving Enid.  I am even more devoted to her now, because of her support of peace.  I hadn't thought much about it one way or the other before."
+	text  "Funny how adversity sometimes brings about wisdom, or at least knowledge, isn't it?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that the gods are still fighting. I was thinking of packing up my family and leaving the area."
+        text "My wife wants to stay in Leinster, however. She says that in times of trouble, a healer can make a real killing."
+	text  "The children don't want to leave their friends, either, so I'm outvoted right now."
+end      
+
+topic "Can I do anything for you?"
+        text "Thank you kindly, but not today."
+end
+
+topic  "I need ginkaroo bark for Lireen." q363:0 #q80000-01-535:0
+	quest 364 #80000-01-540
+	text  "You took it."
+end
+
+topic  "I'm looking for ginkaroo bark." q167:0 #q6501-01-525:0
+	quest 168 #6501-01-530
+	text  "Have your lost your wits?  I gave it to you."
+end
+
+topic  "Andrea needs a sleeping potion." q81000-01-435:0
+	quest 81000-01-440
+	text  "I gave it to you already.  Are you so nervous you forgot?"
+end
+

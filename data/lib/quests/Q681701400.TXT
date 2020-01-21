@@ -1,0 +1,19 @@
+quest  210 #6817-01-400       #Aligar, Ali's Weaponry, Arimathor, 6817
+
+name  "Talisman of Arnold the Swift"
+type  fedex
+
+proposal  "Throwing weapons!  Now there is a skill that requires dexterity.  Good skill to cultivate.  In fact, I venture to say it's one of the best to cultivate.  Many a time a warrior has been saved due to the throwing skill of himself or another warrior.  Not enough attention is paid to this as a genuine skill, but it should be.  Vastly underrated.  However, I'm glad to see your interest.  I developed the skill to its highest level myself, and still keep in practice.  The desert is a great environment for keeping in shape with weapon throwing.  Let's get started.  You'll be needing the skill book for mastery, which I will procure for you.  Meantime, I'll ask you to fetch a Talisman of Arnold the Swift for me."
+
+declined  "It would be a great pity not to continue with your skill."
+
+accepted  "Fine.  I'm thinking that Murias is a good place to start."
+
+reminder   "Go to Murias and find the Talisman of Arnold the Swift."
+
+completed  "My thanks to you.  I had a black pig as a boy and I've wanted this talisman for years.  Accept the skill book and use it well."
+
+getItem   qTalismanArnold
+reward    skbThrowingWeaponIV 
+end
+

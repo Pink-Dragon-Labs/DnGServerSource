@@ -1,0 +1,45 @@
+name "ascetos"
+title "Ascetos Deep Desert"
+worldFile "../data/lib/world/ASCETS01.WLD"
+worldFile "../data/lib/world/ASCETS02.WLD"
+worldFile "../data/lib/world/ASCETS03.WLD"
+worldFile "../data/lib/world/ASCETS04.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 18
+groupChance 1000
+monster BigWasp 140
+monster EvilBee 70
+monster FireWasp 140
+monster StingingFury 150
+monster WaspHealer 120
+monster FlameDaemon 100
+monster DaemonKing 40
+monster Kilrog 220
+monster KingKilrog 200
+monster BabyDragon 200
+monster HellSnake 240
+monster KingCobra 200
+monster HairlessOne 400
+monster Apophis 100
+monster Berserker 100
+monster EvilMinion 100
+monster Champion 100
+monster Protector 100
+monster DireWolf 100
+
+ambushInterval 30
+ambush 30 Witch EvilMinion EvilMinion EvilMinion EvilMinion 
+ambush 30 NeutralWizard Protector Protector Protector Protector 
+ambush 30 GoodWizard Champion Champion Champion Champion
+ambush 30 Witch EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion 
+ambush 30 NeutralWizard Protector Protector Protector Protector Protector Protector 
+ambush 30 GoodWizard Champion Champion Champion Champion Champion Champion
+ambush 30 Witch EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion EvilMinion Witch 
+ambush 30 NeutralWizard Protector Protector Protector Protector Protector Protector NeutralWizard 
+ambush 30 GoodWizard Champion Champion Champion Champion Champion Champion GoodWizard 
+ambush 30 BigWasp StingingFury StingingFury WaspHealer FireWasp FireWasp 
+ambush 30 KingKilrog KingKilrog KingKilrog Apophis Apophis AirElemental 
+ambush 30 KingKilrog Kilrog Apophis BabyDragon BabyDragon 
+ambush 10 Apophis BabyDragon Apophis BabyDragon Apophis BabyDragon Apophis BabyDragon BabyDragon BabyDragon 

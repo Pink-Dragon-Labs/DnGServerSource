@@ -1,0 +1,26 @@
+id 8011
+
+banner "Welcome to Certified Leechers. I am Mattson, the healer. What ails you, Friend?"
+
+topic "Tell me about Kurz."
+        text "In a town such as this I have plenty of opportunities to practice the healing arts."
+	text "Many are wounded every day. Some are even killed!"
+	text "There are friendlier towns in The Realm, that's for sure."
+	text  "I stay because I've gotten used to it and, as I say, there's plenty of work for me."
+	text  "The best information I can give you is the advice to pay attention to your own business here.  Period."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that more newcomers are killed in Kurz than in any other town in The Realm."
+        text "At least, that's what our constable says."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, Friend. But come back when I can do something for you."
+end
+
+topic  "I need some Dinglebean Extract." q182:0 #q6610-01-125:0
+	quest 183 #6610-01-130
+	text  "I don't have enough to give you more than you already have."
+end
+

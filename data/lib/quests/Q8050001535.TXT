@@ -1,0 +1,19 @@
+quest  394 #80500-01-535        # Hana, Wen Clothing, Wen, 6100
+
+name  "A Brush for Hana"
+type  fedex
+
+proposal  "Yes, it has arrived.  An interesting weave.  I hadn't seen it before.  I'll be ordering more, so if you like it and want one yourself, come back.   Would you do one quick errand for me while I package the scarf?"
+
+declined  "It wouldn't take long."
+
+accepted  "Bijou is holding a special brush for me.  Would you collect it please."
+
+reminder   "Go to Usk for my brush."
+
+completed  "My thanks.  Here's Setta's scarf."
+
+getItem   qHanaBrush
+reward   qSettaScarf 
+end
+

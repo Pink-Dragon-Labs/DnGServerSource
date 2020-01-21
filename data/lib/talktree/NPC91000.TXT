@@ -1,0 +1,19 @@
+id 91000
+
+banner "Hello there traveller!  What can I do for you?"
+
+topic "Who are you?"
+	text "My name is Beral. Perhaps you've met my brother? I own and operate this underground supply store.  I sell materials just like my brother, but my prices are much better. With my goods, you can make many different items."
+end
+
+topic "Why do you locate your shop in a cave?"
+	text "I have a rare skin disease that requires I do not go out when the sun is out.  Seems like up there it's NEVER dark!"
+end
+
+topic "Why don't you sell metal bars and gems anymore?"
+	text "Funny you should ask!  I used to sell every material one could think of.  Recently the costs to import these items became too much for a small businessman such as myself.  If it is metal or wood you seek, explore the world.  I used to get my supplies from the Mines.
+end
+
+topic "The Mines? You want to know where they are, eh?"
+	text "It's my understanding they are in roughly the 4 corners of the world, but I heard a rumor a long time ago that there were not any supplies to be harvested in the deserts.  I heard the mines occasionally produce gems as well, it might be worthy of a young adventurer's time to find them."
+end

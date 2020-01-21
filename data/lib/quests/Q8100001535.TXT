@@ -1,0 +1,19 @@
+quest  81000-01-535        # Wonduri, Silverbrook charms, magic, Silverbrook, elf, 6403
+
+name  "Fabric Gem Sacs"
+type  fedex
+
+proposal  "These colored gemstones are a pleasure to Enid and those that serve her.  One is reminded of the many beautiful facets of her bounty.  I have a generous quantity.  I'll be happy to share these with you, friend, in honor to Enid.  They should be packed in a small soft fabric sac.  Would you, of the goodness in your heart, procure for me a small supply of these that the stones may be packed properly?"
+
+declined  "I am sorry you say that."
+
+accepted  "You will need to journey to Wen to obtain them."
+
+reminder   "Go to Wen and procure a supply of small fabric gem sacs."
+
+completed  "Excellent.  My thanks.  I'll just fill one quickly for you and here you are."
+
+getItem   qFabricSacs
+reward   qColoredGems 
+end
+

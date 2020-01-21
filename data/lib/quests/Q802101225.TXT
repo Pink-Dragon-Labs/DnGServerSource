@@ -1,0 +1,18 @@
+quest  287 #8021-01-225        #Jenri, True Blue Potions, Arimathor, 6814
+
+name  "Herb Seed for the Jokester"
+type  fedex
+
+proposal  "Whadda  ya'know?  I finally got a nibble on them.  Heh. Heh.  Get it?  A nibble?  Fish bones?  Heh. Heh. Heh.  Yep, I've got some.  I gather yer wantin' some.  Well, let's make us a bargain here.  What I need is some herb seed.  I make some of my own potions, you see.  If you'll hike over to yon general store and form an alliance with old Kaliri for some herb seed, I'll give you some of these old fish bones.  What about it?  Is it a deal?
+
+declined  "Must not want those bones very badly."
+
+accepted  "Old Kaliri's OK.  Don't tell her that joke, though.  I want to spring it on her myself.  Heh.  Heh."
+
+reminder   "If you want those Spinal Fish Bones you'd better bring me some herb seed."
+
+completed  "Nice supply of herb seed.  Told'ya Kaliri is a good old gal.  I packaged those old fish bones, so they're ready for you."
+
+getItem   qHerbSeed
+reward   qFishSpines 
+end

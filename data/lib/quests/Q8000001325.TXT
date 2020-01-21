@@ -1,0 +1,19 @@
+quest  352 #80000-01-325        # Aimie, The Tub, tavern, Usk, 8108
+
+name  "Aimie's Errand"
+type  fedex
+
+proposal  "So you came to my Tub.  Good plan.  Ask Aimie is what they say around here, and I'm Aimie.  I also have a fossilized scorpion.  Thought I might be able to use it for barter.  What I want, stranger, is a round-trip errand to Murias.  Got a package there I need collected.  What about it?  Will you go in exchange for the scorpion?" 
+
+declined  "Well, it was worth a try."  
+
+accepted  "Good.  Giant by name of Frick has a store there.  Ask for Aimie's package."
+
+reminder   "Go to Murias and find Frick."
+
+completed  "Good show.  Check the menu and let me know if you want to buy a drink."
+
+getItem   qAimiePackage
+reward   qFossilScorpion 
+end
+

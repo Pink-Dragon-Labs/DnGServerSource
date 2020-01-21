@@ -1,0 +1,27 @@
+name "Rend01ab"
+title "The Rendezvous"
+worldFile "../data/lib/world/D_REND_01a.WLD"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 29
+groupChance 30
+noAlignmentChange
+monster Kilrog 4
+monster Berserker 2
+monster EvilMinion 2
+monster Champion 2
+monster Protector 2
+ambushInterval 5
+ambush 80 FlameDaemon 
+ambush 40 DaemonKing
+ambush 95 Kilrog
+ambush 90 KingKilrog
+ambush 20 BabyDragon
+ambush 30 HellSnake
+ambush 30 KingCobra
+ambush 50 Berserker
+ambush 10 Servant
+ambush 10 EvilMinion
+ambush 10 Champion
+ambush 10 Protector

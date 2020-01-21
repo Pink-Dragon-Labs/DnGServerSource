@@ -1,0 +1,7 @@
+name "DungeonEntry"
+title "Dungeon Entry"
+worldFile "../data/lib/world/DUNGEON_ENTRIES.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 29

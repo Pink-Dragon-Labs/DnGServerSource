@@ -1,0 +1,34 @@
+object GlowieTunicA of Tunic
+	properties
+		special
+		color 90
+	end
+end
+
+object dGlowA of Dye
+	properties
+		special
+		color 0
+	end
+end
+
+object dGlowB of Dye
+	properties
+		special
+		color 55
+	end
+end
+
+object dGlowC of Dye
+	properties
+		special
+		color 65
+	end
+end
+
+object dGlowD of Dye
+	properties
+		special
+		color 75
+	end
+end

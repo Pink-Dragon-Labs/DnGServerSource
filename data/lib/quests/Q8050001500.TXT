@@ -1,0 +1,19 @@
+quest  391 #80500-01-500        #Sandor, Ascetos Cave, 80500
+
+name  "Package for Sandor"
+type  fedex
+
+proposal  "Good show, mate.  You've done a great job so far developing your tracking skills.  You'll like grand-mastery.  I've got an urgent errand for you now, though.  I need a package from Asgard fast.  Will you go get it?"
+
+declined  "That's a strange way to respond."
+
+accepted  "Make it fast, mate."
+
+reminder   "Get my package from Asgard as quick as you can."
+
+completed  "Good show, mate.  Here's the grand-mastery skill book."
+
+getItem    qSandorPackage
+reward     skbTrackingV
+end
+

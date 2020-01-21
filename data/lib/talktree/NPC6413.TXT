@@ -1,0 +1,24 @@
+id 6413
+
+banner "Hello. My name is none of your business. But you are welcome browse my wares."
+
+topic "Tell me about Silverbrook."
+	text "Silverbrook? Most of the elves that live here are a little too helpful for my taste."
+	text "Why, they'll cater to giants, humans, any species that wanders out of the woods!"
+	text "You'll find the shopkeepers are complacent and care little for the security of their goods."
+	text "However you will find me most attentive to every move you make, so don't even think of shoplifting!"
+	text "Perhaps you recall the old Cut Purse? Perhaps not. They forced the owner to leave town. I took advantage of the situation and set up shop here on the outskirts."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "Perhaps you've heard of the runes? I actually started that rumor. People searching for runes often leave their belongings unattended. Great wealth indeed!"
+end      
+
+topic "Do you like limericks?"
+	text "No. If you do, then you've been associating with too may of these do-gooding Silverbrook elves."
+end
+
+topic "Can I do anything for you?"
+	text "Buy something."
+end
+

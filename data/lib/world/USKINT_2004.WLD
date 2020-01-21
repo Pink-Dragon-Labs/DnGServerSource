@@ -1,0 +1,1790 @@
+room 8100
+   properties
+      picture	4000
+      roomName	"Excellent Weaponry Interior"
+   end
+   atpinfo
+      2025  183 2
+      2025  389 16
+      34989  49 172
+      2013  81 8
+      2026  477 25
+      2166  474 77
+      2109  429 183
+      2119  433 184 63
+      2120  428 183
+      2109  141 291
+      2109  280 291
+      2119  142 292 5
+      34888  283 292 60
+      2121  140 292 34
+      2121  289 292 4
+      2108  599 182
+      2001  287 7
+      2001  591 41 20
+      34907  652 183 -15
+      34905  650 183 13
+      2081  619 97 -20
+      2082  385 84 -20
+      2082  182 96 -10
+      2106  181 185
+      2594  161 103
+      2594  364 101
+      2593  582 111
+   end
+   objects
+      object firePlace8100-1 of FirePlace
+         properties
+            x	2
+            y	188
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop8100-2 of RareWeaponArmorShop
+         properties
+            x	182
+            y	166
+            loop	2
+            name	"Monji"
+         end
+         base character
+            sex	0
+            properName	"Monji (NPC)"
+         end
+         base container
+            worn	BlueChainTunic
+            worn	BluePants
+            worn	RedBoots
+            worn	GreenBelt
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	0 2 6 2 6 4 5 1 3 7 3 2 
+         end
+         base talk
+            talkTreeID	8100
+         end
+      end
+      object simpleDoor8100-3 of SimpleDoor
+         properties
+            x	279
+            y	171
+            loop	1
+            link	simpleDoor7100-0
+         end
+      end
+   end
+end
+room 8101
+   properties
+      picture	4000
+      roomName	"Fashion Delights Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  108 102
+      2116  390 123
+      2117  255 145 50
+      2103  328 211
+      2101  135 204
+      2020  170 28
+      2028  243 8
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  75 205 45
+      34904  702 378
+      2118  517 343 65
+      2103  326 295
+      2103  514 342
+      2103  152 342
+      34886  152 343 65
+      34886  332 212 65
+      2049  190 154
+      2049  382 151
+      2555  230 127
+      2555  422 124
+   end
+   objects
+      object clothesShop8101-1 of ClothesShop
+         properties
+            x	331
+            y	275
+            loop	2
+            name	"Daria"
+         end
+         base character
+            sex	1
+            properName	"Daria (NPC)"
+         end
+         base talk
+            talkTreeID	8101
+         end
+         base container
+            worn	BlueShirt
+            worn	RedCowl
+            worn	BlueLongSkirt
+            worn	RedBelt
+            worn	RedLowBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 2 0 2 6 4 5 5 10 3 7 3 2 
+         end
+      end
+      object plankDoor8101-2 of PlankDoor
+         properties
+            x	570
+            y	215
+            loop	1
+            link	plankDoor7101-0
+         end
+      end
+   end
+end
+room 8102
+   properties
+      picture	4000
+      roomName	"The Chapel Interior"
+   end
+   atpinfo
+      2004  567 5 55
+      2026  294 4
+      2026  420 4
+      2026  172 3
+      2025  509 2 7
+      2025  148 2 8
+      2016  94 4 55
+      2043  156 126
+      2043  288 129
+      2043  423 123
+      2042  573 126
+      2049  282 140
+      2048  571 143
+      2103  325 295
+      2049  151 138
+      2163  131 74
+      2049  416 138
+      2558  456 131 20
+      2558  322 132 20
+      2558  192 132 20
+      2557  625 136 20
+      2163  274 62
+      2163  376 61
+      2163  525 80
+      2163  407 94
+      2163  241 94
+   end
+   objects
+      object chair8102-1 of Chair
+         properties
+            x	182
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-2 of Chair
+         properties
+            x	127
+            y	163
+            loop	2
+         end
+      end
+      object chair8102-3 of Chair
+         properties
+            x	149
+            y	212
+            loop	0
+         end
+      end
+      object chair8102-4 of Chair
+         properties
+            x	237
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-5 of Chair
+         properties
+            x	292
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-6 of Chair
+         properties
+            x	346
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-7 of Chair
+         properties
+            x	524
+            y	165
+            loop	2
+         end
+      end
+      object chair8102-8 of Chair
+         properties
+            x	399
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-9 of Chair
+         properties
+            x	448
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-10 of Chair
+         properties
+            x	495
+            y	205
+            loop	2
+         end
+      end
+      object chair8102-11 of Chair
+         properties
+            x	568
+            y	227
+            loop	1
+         end
+      end
+      object chair8102-12 of Chair
+         properties
+            x	612
+            y	246
+            loop	1
+         end
+      end
+      object chair8102-13 of Chair
+         properties
+            x	528
+            y	212
+            loop	1
+         end
+      end
+      object chair8102-14 of Chair
+         properties
+            x	63
+            y	247
+            loop	0
+         end
+      end
+      object chair8102-15 of Chair
+         properties
+            x	106
+            y	228
+            loop	0
+         end
+      end
+      object plankDoor8102-16 of PlankDoor
+         properties
+            x	42
+            y	164
+            loop	0
+            link	plankDoor7102-0
+         end
+      end
+   end
+end
+room 8103
+   properties
+      picture	4000
+      roomName	"Marvelous Armory Interior"
+   end
+   atpinfo
+      2013  280 23
+      2025  381 15
+      2221  580 171
+      2013  89 23
+      2014  15 97 50
+      2026  494 24
+      2109  427 179
+      34887  427 180 2
+      34888  431 180 58
+      2119  434 180 31
+      2164  116 89
+      2164  10 99 -15
+      2109  533 280
+      2109  52 269
+      2120  310 236 58
+      34887  530 281 2
+      2119  65 270 2
+      2121  540 281 34
+      2121  59 270 34
+      2103  304 235
+      2041  251 144
+      2166  373 68
+      2166  490 67
+      2001  185 23
+      2041  33 152
+      2047  29 165
+      2047  246 157
+      2544  45 154 17
+      2544  262 146 17
+   end
+   objects
+      object door8103-0 of Door
+         properties
+            x	181
+            y	187
+            loop	1
+            linkTo	door7103-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace8103-1 of FirePlace
+         properties
+            x	625
+            y	188
+            loop	0
+         end
+      end
+      object Randa8103-2 of ExoticArmaments
+         properties
+            x	304
+            y	219
+            loop	0
+            name	"Lopier"
+         end
+         base character
+            sex	0
+            properName	"Lopier (NPC)"
+         end
+         base talk
+            talkTreeID	8103
+         end
+         base container
+            worn	GrayChainTunic
+            worn	GrayPants
+            worn	GrayChainCowl
+            worn	BlackBelt
+            worn	BlackBoots
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	0 1 6 1 6 2 3 3 6 2 7 3 2 
+         end
+      end
+   end
+end
+room 8104
+   properties
+      picture	4000
+      roomName	"Ambrosia of Usk Interior"
+   end
+   atpinfo
+      2122  316 287 4
+      34890  333 177 32
+      34891  323 177
+      2141  46 289 47
+      34908  579 247 40
+      2102  524 246
+      2109  328 176
+      2111  593 117
+      2109  315 286
+      2001  574 15
+      2002  607 33
+      2013  38 40
+      2013  199 15
+      2014  111 42
+      2025  301 9
+      2025  471 9
+      2026  414 19
+      34910  644 118 10
+      2128  330 177 65
+      2241  431 178
+      2241  579 186
+      2123  324 287 30
+      2161  17 95
+      2161  136 76
+      2162  604 75
+      2101  112 288
+      2041  154 148
+      2043  443 121
+      2544  166 149 17
+      2546  479 122 17
+   end
+   objects
+      object Inila8104-1 of GeneralShop
+         properties
+            x	554
+            y	241
+            loop	1
+            name	"Inila"
+         end
+         base character
+            sex	1
+            properName	"Inila (NPC)"
+         end
+         base container
+            worn	BlueShirt
+            worn	BlueShortSkirt
+            worn	BlueCowl
+            worn	GrayLowBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 1 0 6 0 5 -1 6 9 0 2 4 2 
+         end
+         base talk
+            talkTreeID	8104
+         end
+      end
+      object plankDoor8104-2 of PlankDoor
+         properties
+            x	77
+            y	198
+            loop	0
+            link	plankDoor7104-0
+         end
+      end
+   end
+end
+room 8110
+   properties
+      picture	4000
+      roomName	"Good Health Potions Interior"
+   end
+   atpinfo
+      2107  82 193
+      2108  589 191
+      2001  599 38
+      2013  350 20
+      2013  158 19
+      2002  526 39
+      2001  254 20
+      2014  74 46
+      2164  116 89
+      2164  11 107
+      2014  -2 59
+      2101  343 460
+      2142  185 422
+      34910  511 425
+      2143  38 194 17
+      2102  391 283
+      34911  637 192 -15
+      2165  605 104
+      2221  452 172
+      2134  579 192 52
+      2133  92 194 57
+      2047  27 140 -20
+      2553  43 132
+   end
+   objects
+      object firePlace8110-1 of FirePlace
+         properties
+            x	497
+            y	188
+            loop	0
+         end
+      end
+      object temple8110-2 of Temple
+         properties
+            x	417
+            y	273
+            loop	1
+            name	"Pia"
+         end
+         base character
+            sex	1
+            properName	"Pia (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	BlueShirt
+            worn	OrangePants
+            worn	AquaBelt
+            worn	BlueLowBoots
+            object	HealElixir
+            head	1 3 2 0 4 1 3 2 4 1 5 2 2 
+         end
+         base talk
+            talkTreeID	8110
+         end
+      end
+      object plankDoor8110-3 of PlankDoor
+         properties
+            x	251
+            y	184
+            loop	1
+            link	plankDoor7110-0
+         end
+      end
+   end
+end
+room 8111
+   properties
+      picture	4000
+      roomName	"Mabon's Magic Shop Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  78 102
+      2108  552 172 -30
+      2101  68 285
+      2020  158 28
+      2028  231 9
+      2029  328 50
+      2028  429 8
+      2008  491 40
+      2049  180 155
+      34904  702 378
+      2049  393 156
+      2103  176 284
+      2109  325 180 -20
+      2112  325 90
+      2165  558 104
+      34911  602 199 10
+      2047  -3 194
+      34917  605 203 -15
+      2125  330 161 90
+      2125  199 285 65
+      2129  323 194 -10
+      2130  324 186 15
+      2131  85 286 50
+      2143  190 405
+      34911  448 364
+      34916  657 421
+      2556  13 166
+      2558  220 128
+      2558  433 129
+   end
+   objects
+      object chair8111-0 of Chair
+         properties
+            x	440
+            y	209
+            loop	2
+         end
+      end
+      object simpleDoor8111-1 of SimpleDoor
+         properties
+            x	129
+            y	206
+            loop	0
+            linkTo	simpleDoor7111-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Millie8111-2 of MagicShop
+         properties
+            name	"Loyaro"
+            x	27
+            y	284
+            loop	0
+         end
+         base character
+            sex	0
+            properName	"Loyaro (NPC)"
+         end
+         base container
+            worn	GoldTunic
+            worn	BlueCowl
+            worn	BlueBelt
+            worn	BlueLowBoots
+            worn	MagentaPants
+            head	0 3 2 0 4 1 3 2 3 1 5 2 2 
+         end
+         base talk
+            talkTreeID	8111
+         end
+      end
+   end
+end
+room 8113
+   properties
+      picture	4000
+      roomName	"The Usk Boutique Interior"
+   end
+   atpinfo
+      2008  467 16
+      2016  145 5 35
+      2028  201 5 20
+      2028  407 4 20
+      2029  288 47 20
+      2087  626 161
+      2166  303 91
+      2088  196 123
+      2088  411 123
+      2131  253 184
+      2164  96 92
+      2101  158 280
+      2103  267 282
+      2109  302 163 -20
+      2127  327 165 -14
+      34928  301 167 20
+      2241  618 225
+      2241  637 261
+      2241  595 302
+      2241  169 182
+      2244  115 192
+      2593  566 135
+      2594  175 107
+      2594  390 107
+   end
+   objects
+      object door8113-0 of Door
+         properties
+            x	502
+            y	183
+            loop	1
+            linkTo	door7113-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair8113-1 of Chair
+         properties
+            x	97
+            y	264
+            loop	0
+         end
+      end
+      object generalShop8113-2 of GeneralShop
+         properties
+            name	"Bijou"
+            x	114
+            y	276
+            loop	0
+         end
+         base character
+            properName	"Bijou (NPC)"
+            sex	1
+         end
+         base container
+            worn	BrownShirt
+            worn	BrownPants
+            worn	OliveCowl
+            worn	OliveBelt
+            worn	OliveBoots
+            worn	Wristband
+            object	LeatherPouch
+            object	Lockpick
+            head	1 2 1 7 3 0 3 0 1 0 4 1 2 
+         end
+         base talk
+            talkTreeID	8113
+         end
+      end
+   end
+end
+
+room 8107
+   properties
+      picture	4000
+      roomName	"Farthing Inn Lobby"
+   end
+   atpinfo
+      2080  49 156
+      2028  500 10
+      2028  176 10
+      2127  287 128 150
+      2029  231 51
+      2005  597 115 100
+      2028  335 9
+      2103  188 235
+      2112  422 57 -39
+      2128  414 57 -20
+      2017  71 14
+      2241  517 188 -20
+      2029  439 52
+      2018  3 63
+      2164  16 140 20
+      2600  446 305
+      2117  425 86
+      2166  323 104
+      2082  197 144
+      2592  50 167 17
+      2594  176 158 17
+   end
+   objects
+      object chair8107-0 of Chair
+         properties
+            x	321
+            y	291
+            loop	0
+         end
+      end
+      object chair8107-1 of Chair
+         properties
+            x	349
+            y	282
+            loop	0
+         end
+      end
+      object chair8107-2 of Chair
+         properties
+            x	558
+            y	296
+            loop	1
+         end
+      end
+      object chair8107-3 of Chair
+         properties
+            x	532
+            y	281
+            loop	1
+         end
+      end
+      object chair8107-4 of Chair
+         properties
+            x	419
+            y	280
+            loop	2
+         end
+      end
+      object chair8107-5 of Chair
+         properties
+            x	379
+            y	280
+            loop	2
+         end
+      end
+      object chair8107-6 of Chair
+         properties
+            x	455
+            y	280
+            loop	2
+         end
+      end
+      object chair8107-7 of Chair
+         properties
+            x	495
+            y	280
+            loop	2
+         end
+      end
+      object bartender8107-8 of Bartender
+         properties
+            x	196
+            y	228
+            loop	2
+         end
+         base character
+            properName	"Holiph (NPC)"
+            title	"the Tavernkeeper"
+            sex	0
+         end
+         base container
+            worn	BlueTunic
+            worn	GreenBelt
+            worn	GreenPants
+            worn	Wristband
+            worn	LeatherBoots
+            object	LeatherPouch
+            object	Lockpick
+            head	0 0 5 6 7 8 12 10 8 11 11 5 2 
+         end
+         base talk
+            talkTreeID	8107
+         end
+      end
+      object simpleDoor8107-10 of SimpleDoor
+         properties
+            x	591
+            y	208
+            loop	1
+            linkTo	simpleDoor7107-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 8108
+   properties
+      picture	4000
+      roomName	"Tub Tavern Lobby"
+   end
+   atpinfo
+      2164  101 144 50
+      2028  497 39 30
+      2028  176 38 30
+      2127  287 128 150
+      2029  284 50
+      2005  593 114 100
+      2103  214 244
+      2112  181 264 170
+      2128  185 294 220
+      2017  71 113 100
+      2166  521 111 15
+      2241  524 205
+      2106  118 233
+      2106  317 235
+      2598  463 309
+      2598  148 311
+      2018  -15 164 100
+      2029  381 51
+      34896  121 233 64
+      2117  91 113
+      2080  15 164
+      2082  462 150
+      2082  375 150
+      2082  291 151
+      2597  270 165 17
+      2597  356 164 17
+      2597  441 164 17
+      2595  17 176 17
+      2086  4 184
+      2088  291 164
+      2088  377 164
+      2088  462 163
+   end
+   objects
+      object chair8108-0 of Chair
+         properties
+            x	460
+            y	277
+            loop	2
+         end
+      end
+      object chair8108-1 of Chair
+         properties
+            x	417
+            y	280
+            loop	2
+         end
+      end
+      object chair8108-2 of Chair
+         properties
+            x	379
+            y	287
+            loop	0
+         end
+      end
+      object chair8108-3 of Chair
+         properties
+            x	499
+            y	278
+            loop	2
+         end
+      end
+      object chair8108-4 of Chair
+         properties
+            x	543
+            y	288
+            loop	1
+         end
+      end
+      object chair8108-5 of Chair
+         properties
+            x	227
+            y	291
+            loop	1
+         end
+      end
+      object chair8108-6 of Chair
+         properties
+            x	64
+            y	292
+            loop	0
+         end
+      end
+      object chair8108-7 of Chair
+         properties
+            x	104
+            y	279
+            loop	2
+         end
+      end
+      object chair8108-8 of Chair
+         properties
+            x	144
+            y	278
+            loop	2
+         end
+      end
+      object chair8108-9 of Chair
+         properties
+            x	183
+            y	278
+            loop	2
+         end
+      end
+      object bartender8108-10 of Bartender
+         properties
+            x	255
+            y	226
+            loop	0
+         end
+         base character
+            properName	"Aimie (NPC)"
+            title	"the Tavern Wench"
+         end
+         base container
+            worn	BlueCowl
+            worn	GreenShirt
+            worn	GrayLongSkirt
+            worn	GreenLowBoots
+            worn	BlueBelt
+            head	1 1 6 7 8 9 -1 10 10 13 11 5 2 
+         end
+         base talk
+            talkTreeID	8108
+         end
+      end
+      object plankDoor8108-11 of PlankDoor
+         properties
+            x	597
+            y	208
+            loop	1
+            linkTo	plankDoor7108-0
+         end
+      end
+   end
+end
+room 8114
+   properties
+      picture	4000
+      roomName	"Learning Emporium"
+   end
+   atpinfo
+      2107  44 177
+      2108  587 192
+      2001  590 36
+      2013  492 36
+      2001  398 36
+      2013  125 9
+      2002  311 46 10
+      2001  220 10
+      2014  39 36
+      2102  222 229
+      2147  -48 385
+      34915  724 369
+      2148  -40 423
+      2149  -38 394
+      2153  -32 326
+      2164  148 68
+      2164  509 99
+      2164  18 90
+      2149  -8 178 15
+      2042  183 124
+      2042  373 154
+      2147  193 230 50
+      2148  0 178 -13
+      34917  639 193 13
+      2153  257 230 40
+      34916  637 193 -13
+   end
+   objects
+      object simpleDoor8114-0 of SimpleDoor
+         properties
+            x	308
+            y	188
+            loop	1
+            linkTo	simpleDoor7114-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Peter8114-1 of WarriorAcademy
+         properties
+            x	246
+            y	219
+            name	"Parker"
+            loop	1
+         end
+         base character
+            sex	0
+            properName	"Parker (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	GrayCowl
+            worn	BlackBoots
+            worn	PurplePants
+            worn	PurpleShirt
+            head	0 1 0 1 2 2 15 8 2 4 8 0 2 
+         end
+         base talk
+            talkTreeID	8114
+         end
+      end
+   end
+end
+room 8115
+   properties
+      picture	4000
+      roomName	"Usk Farmer's Market"
+   end
+   atpinfo
+      2140  -16 317 40
+      34890  321 94 36
+      34891  315 94 4
+      2141  -15 294 47
+      34908  657 287 40
+      2102  161 172
+      2109  315 193
+      2123  321 193 2
+      2109  318 92
+      2001  549 2
+      2002  632 29
+      2101  493 172
+      2013  81 8
+      2014  0 35
+      2025  183 4
+      2025  447 5
+      2026  282 14
+      2026  395 15
+      2106  240 194
+      2241  12 248
+      2241  623 242
+      2107  27 267
+      2108  611 264
+      2163  459 89
+      2163  175 90
+      34910  656 287 10
+      2106  400 194
+      2598  326 314
+      16  228 208
+      32784  425 211
+      3  102 255
+      3  542 255
+      3  240 197
+      3  416 195
+      3  255 194
+      3  395 193
+      3  273 189
+      3  374 190
+      3  83 243
+      3  70 226
+      3  51 219
+      3  34 212
+      3  20 204
+      3  6 195
+      7907  322 198
+      7906  52 532
+      7906  590 527
+      3  102 279
+      3  542 277
+   end
+   objects
+      object plankDoor8115-0 of PlankDoor
+         properties
+            x	42
+            y	181
+            loop	0
+            linkTo	door7103-1
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"The message written on the door in careful script reads: 'Thank you, please come again.'"
+         end
+      end
+      object plankDoor8115-1 of PlankDoor
+         properties
+            x	598
+            y	180
+            loop	1
+            linkTo	plankDoor8116-0
+         end
+         base openable
+            isOpen	0
+         end
+         base described
+            text	"To the Pumpkin Patch."
+         end
+      end
+      object foodShop8115-2 of FoodShop
+         properties
+            x	317
+            y	184
+            name	"Farmer Antern"
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Farmer Antern (NPC)"
+         end
+         base container
+            worn	BlackBelt
+            worn	BlackCowl
+            worn	BlackBoots
+            worn	AmberPants
+            worn	OrangeShirt
+            worn	Obsidianiteband
+            head	0 0 4 1 6 0 8 4 2 8 0 0 
+         end
+         base talk
+            talkTreeID	8115
+         end
+      end
+      object chair8115-3 of Chair
+         properties
+            x	221
+            y	302
+            loop	0
+         end
+      end
+      object chair8115-4 of Chair
+         properties
+            x	428
+            y	299
+            loop	1
+         end
+      end
+      object chair8115-5 of Chair
+         properties
+            x	351
+            y	282
+            loop	2
+         end
+      end
+      object chair8115-6 of Chair
+         properties
+            x	299
+            y	284
+            loop	2
+         end
+      end
+   end
+end
+room 8116
+   properties
+      picture	3500
+      west	8119
+      south	8118 
+      east	8117 
+      roomName	"Usk Pumpkin Farm"
+   end
+   atpinfo
+      2501  359 52
+      2501  207 30
+      2513  458 52
+      2514  481 61
+      2649  444 57
+      2668  203 196 58
+      2729  360 198
+      16  275 214
+      2668  178 79
+      2650  476 216
+      2595  458 154
+      2669  294 104
+      2743  658 57
+      2607  395 399 298
+      2607  277 367 284
+      2515  501 18
+      2609  433 103 38
+      1521  216 200
+      106  609 307
+      3  313 209
+      2653  485 100 49
+      2656  397 101
+      2654  438 60
+      2668  160 197
+      3  335 212
+      2670  341 104
+      49  590 193
+      49  161 72
+      2671  161 121
+      2670  187 196 116
+      32784  412 231
+      2510  238 190 50
+      2676  157 171
+      2663  204 183
+      2661  204 177 31
+      49  12 203
+      49  623 153
+      35722  630 182
+      2954  -20 49
+      35722  594 212
+      45  545 208
+      35485  -26 200
+      3  314 211
+      3  433 218
+      1521  359 211
+      3  376 217
+      2123  512 328 50
+      34909  565 327 40
+      2123  503 308 40
+      2123  506 324 50
+      1521  615 311
+      1521  43 315
+      1521  619 219
+      1521  17 53
+      1521  163 200
+      1521  175 220
+      1521  148 210
+      1521  419 216
+      1521  11 204
+      3  414 308
+      3  425 299
+      3  462 310
+      3  499 307
+      3  552 308
+      3  357 213
+      3  373 214
+      3  394 220
+      3  412 219
+      3  323 211
+   end
+   objects
+      object plankDoor8116-0 of PlankDoor
+         properties
+            x	285
+            y	209
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object stand8116-2 of Stand
+         properties
+            x	494
+            y	323
+            loop	0
+         end
+      end
+      object chair8116-3 of Chair
+         properties
+            x	182
+            y	218
+            loop	2
+         end
+      end
+      object chair8116-4 of Chair
+         properties
+            x	499
+            y	303
+            loop	2
+         end
+      end
+      object sign8116-5 of Sign
+         properties
+            x	406
+            y	308
+            loop	0
+         end
+         base described
+            text	"Farmer's special - Fresh vegetables and pick a pumpkin from our patch for only 10 gold!"
+         end
+      end
+   end
+end
+room 8118
+   properties
+      picture	3000
+      north	8116 
+      roomName	"Pumpkin Patch South"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      106  615 313
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      106  23 294
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+   end
+   objects
+      object sign8118-0 of Sign
+         properties
+            x	298
+            y	307
+            loop	0
+         end
+         base described
+            text	"This is a community garden.  Currently pumpkins are growing here!"
+         end
+      end
+      object sign8118-1 of Sign
+         properties
+            x	514
+            y	286
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden.  Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign8118-2 of Sign
+         properties
+            x	92
+            y	299
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crops. It's harvest time."
+         end
+      end
+	object pumpkinDropper8118-3 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+	object pumpkinDropper8118-4 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+   end
+end
+room 8117
+   properties
+      picture	3000
+      west	8116 
+      roomName	"Pumpkin Patch East"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      102  23 279
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      107  557 313
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+      100  105 110
+      100  311 113
+      100  511 107
+      171  175 72
+      172  182 58
+      171  776 70
+      7900  59 129
+      7900  584 132
+      7900  311 129
+   end
+   objects
+      object sign8117-0 of Sign
+         properties
+            x	304
+            y	306
+            loop	0
+         end
+         base described
+            text	"Please do not water the growing crop. It's harvest time."
+         end
+      end
+      object sign8117-1 of Sign
+         properties
+            x	115
+            y	316
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden. Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign8117-2 of Sign
+         properties
+            x	515
+            y	321
+            loop	0
+         end
+         base described
+            text	"This is a community garden. Pumpkins are growing here now!"
+         end
+      end
+      object sittingRock8117-3 of SittingRock
+         properties
+            x	514
+            y	305
+            loop	1
+         end
+         base described
+            text	"You see a plow stone."
+         end
+      end
+      object sittingStump8117-4 of SittingStump
+         properties
+            x	79
+            y	303
+            loop	0
+         end
+         base described
+            text	"You see a dead Oak tree. This tree was plowed from the fields and is now used as a seat for tired farmers."
+         end
+      end
+	object pumpkinDropper8117-5 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+	object pumpkinDropper8117-6 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+	end
+   end
+end
+room 8119
+   properties
+      picture	3000
+      east	8116 
+      roomName	"Pumpkin Patch West"
+   end
+   atpinfo
+      2745  55 -1 -99
+      2717  538 323
+      2954  65 329
+      35722  608 325
+      32789  59 217 5
+      111  224 292
+      111  316 308
+      32879  467 316
+      2717  164 320
+      2958  203 306
+      32789  298 279 5
+      114  481 301
+      115  141 283 5
+      112  258 304
+      230  538 251
+      114  547 285
+      230  300 234
+      184  376 281
+      102  592 315
+      113  446 260
+      115  55 266
+      110  83 221
+      115  516 205
+      185  48 254
+      230  109 180 -30
+      111  425 285
+      230  273 250
+      115  224 287
+      114  389 296
+      230  279 173 -30
+      114  599 271
+      106  16 313
+      230  522 234
+      183  214 254
+      183  133 254
+      115  121 250
+      184  300 260
+      32879  474 255
+      115  144 235
+      183  544 262
+      183  357 259
+      183  446 254
+      183  608 252
+      183  391 230
+      230  310 290 -30
+      230  412 172 -30
+      230  567 171 -30
+      115  220 233
+      115  541 244
+      111  266 233
+      115  322 232
+      2958  181 217
+      2717  612 255
+      2958  132 193
+      35726  510 216
+      35726  308 202
+      2717  316 219
+      115  160 189
+      115  454 275
+      115  393 206
+      2716  38 203
+      35484  468 195
+      111  376 235
+      35484  517 227
+      183  461 226
+      230  172 161 -30
+      2958  283 222
+      2955  610 177
+      35723  61 173
+      2958  327 197
+      35726  422 184
+      111  320 188
+      230  575 181
+      230  219 177
+      230  362 174
+      230  201 152
+      230  449 154
+      230  330 152
+      115  355 173
+      111  303 293
+      62  103 160
+      35726  363 168
+      2958  418 189
+      35723  506 151
+      2955  353 144
+      2955  186 150
+      183  276 276
+      2958  304 177
+      2955  504 138
+      35723  14 139
+      2717  597 147
+      2717  79 128
+      2717  170 125
+      2717  253 131
+      230  160 121
+      230  257 125
+      2717  346 125
+      35485  416 121
+      2717  507 118
+      35485  604 117
+      230  371 118
+      230  479 109
+      230  567 111
+      100  523 103
+      100  86 112
+      100  312 109
+      169  390 82
+      63  348 262
+      170  -56 85
+      7900  100 133
+      7900  517 132
+      7900  353 133
+   end
+   objects
+      object sign8119-0 of Sign
+         properties
+            x	453
+            y	315
+            loop	0
+         end
+         base described
+            text	"Remember, this is a community garden.  Please share the harvest with your fellow citizens."
+         end
+      end
+      object sign8119-1 of Sign
+         properties
+            x	523
+            y	180
+            loop	0
+         end
+         base described
+            text	"Please do not water the current crops. It's harvest time."
+         end
+      end
+      object sign8119-2 of Sign
+         properties
+            x	93
+            y	310
+            loop	0
+         end
+         base described
+            text	"This is a community garden. Pumpkins are growing here now!"
+         end
+      end
+      object pumpkinDropper8119-3 of PumpkinDropper
+         properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+      object pumpkinDropper8119-4 of PumpkinDropper
+	   properties
+            x	-200
+            y	-200
+            loop	0
+         end
+      end
+   end
+end

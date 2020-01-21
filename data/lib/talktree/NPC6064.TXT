@@ -1,0 +1,24 @@
+id 6064
+
+banner "What a day! Are we having fun yet?"
+
+topic "Tell me about Gamemaster's Complex."
+    text "It's a special place, wouldn't you agree?"
+	text "A place where those who serve The Realm can gather and relax and do their duty without interference from the mob."
+	text "There's a couple gardens outside. One for the Sentinels and one for the Mentors but..."
+	text "They really aren't intended to be exclusive. Any Game Service Representative should feel free to use any of the rooms they wish."
+end
+
+topic "Have you heard any interesting rumors?"
+    text "I heard the Sentinels and Mentors were due a raise."
+	text "How much of a raise? I heard a whole loaf of bread a day!"
+	text "If it happens, I'll be expecting some pretty generous tips!"
+end      
+
+topic	"Is there anything you can tell me?"
+	text "Sure, there's lots I could tell you."
+	text "But I better not."
+	text "Maybe later, when I get off duty."
+	text "We could slip off alone and have a nice little chat."
+	text "The only problem is that I never seem to be allowed to go off duty."
+end

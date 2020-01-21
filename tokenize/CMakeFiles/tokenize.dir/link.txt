@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/tokenize.dir/main.cpp.o  -o ../bin/tokenize -rdynamic ../lib/libglobal.a -lmysqlclient 

@@ -1,0 +1,19 @@
+quest  56 #6077-01-525        # Ali-aqaba, Sand and Roses, tavern, Arimathor, 6813
+
+name  "Fenibretta"
+type  fedex
+
+proposal  "Well, I have plenty, that's for sure.  This is the Sand and Roses tavern, you probably noticed.  I keep all sorts of containers of sand, just for atmosphere you understand.  I'll make up a vial for you, if you want.  I need something from Silverbrook.  Would you go in trade?"
+
+declined  "Oh, well."
+
+accepted  "Find me some of their fenibretta.   I've always wanted to try it."
+
+reminder   "You're questing for fenibretta from Silverbrook."
+
+completed  "So that's what it looks like!  I packaged the sand for you, friend."
+
+getItem   qFenibretta
+reward   qAscetosSand
+end
+

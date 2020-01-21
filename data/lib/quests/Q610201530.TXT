@@ -1,0 +1,19 @@
+quest  69 #6102-01-530        # Randolf, dog's Breath, tavern, Kurz, 8001
+
+name  "Beef Jerky for Randolf"
+type  fedex
+
+proposal  "Funny thing to be looking for, however, by coincidence I happen to have one.  It's yours if you'll go to Caer Fandry for me.  What about it?" 
+
+declined  "Your choice."
+
+accepted  "Elf there is supposed to make good beef jerky.  Find me some."
+
+reminder   "Beef jerky from Caer Fandry is your quest."
+
+completed  "So you found it.  Well, I guess the blue globe is yours."
+
+getItem   qBeefJerky
+reward   qBlueGlobe 
+end
+

@@ -1,0 +1,9 @@
+name "Fuloran"
+title "Fuloran's Abode"
+worldFile "../data/lib/world/D_FULORAN_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor12259-0

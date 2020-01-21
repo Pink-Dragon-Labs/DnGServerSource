@@ -1,0 +1,18 @@
+quest   326 #8307-01-100        #Wanda, Elven Enchantment, Drune, 8307
+
+name  "Hieroglyphic from Ancient Asgard"
+type  fedex
+
+proposal  "You show great perspicacity in coming to an elf of Drune. We of Drune are skilled magic-users, so much so that we do not really need other defenses because we are quite able to defend ourselves through spell-casting.   And I, Gracia (though I am known as Wanda), am excellently well qualified to train you in the Art of Meditation for spell casting.  Being a modest elf I will not enumerate my many feats of great skill.  I content myself with saying only that many will assure you a more eminent instructor will not be found in all the Realm.   Ah hem.  Very well, to begin.  I shall require of you a quest prior to receiving your first spellbook from me.  You will seek for a Hieroglyphic from Ancient Asgard.  I desire to study it.  Will you accept this quest?"
+
+declined  "Do not permit my great skill to over-awe you."
+
+accepted  "This decision shows your good sense."
+
+reminder   "Your quest is for a Hieroglyphic from Ancient Asgard."
+
+completed  "Well done, apprentice.  Study this first spellbook meticulously."
+
+getItem   qAsgardHieroglyphic
+reward   skbMeditationI 
+end

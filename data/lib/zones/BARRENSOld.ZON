@@ -1,0 +1,38 @@
+name "barrens"
+title "The Barrens"
+worldFile "../data/lib/world/BARREN1.WLD"
+worldFile "../data/lib/world/BARREN2.WLD"
+worldFile "../data/lib/world/BARREN3.WLD"
+worldFile "../data/lib/world/BARREN4.WLD"
+worldFile "../data/lib/world/BARREN5.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 18
+groupChance 30
+monster DesertRat 55
+monster CaveRat 30
+monster Shade 3
+monster ScreechingHorror 20
+monster FlameDaemon 15
+monster Daemon 15
+monster Lich 4
+monster HellHound 5
+monster Cyclops 4
+monster ThiefD 2
+monster ThiefC 2
+monster WarriorD 2
+monster WarriorC 2
+monster BountyHunterC 1
+monster BountyHunterD 1
+monster BountyHunterE 1
+monster Cleric 2
+monster Paladin 2
+monster LightWiz 2
+monster Priestess 2
+monster KingCobra 9
+monster Cobra 7
+monster SpittingCobra 7
+monster BabyDragon 1
+monster LavaSerpent 6
+monster HellSnake 5

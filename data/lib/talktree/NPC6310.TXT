@@ -1,0 +1,62 @@
+id 6310
+
+banner "Ah.  Come for some of me potions, have ye?  Geezer's the name and potions' the game.  What can I get ye?"
+
+topic "Tell me about Monmouth."
+        text "It be farming country, hereabouts. If yer heart yearns after greenery, this be the place for ye."
+	text "Ye'll get a good feed here, too. T'ain't fancy, but 'tis plentiful."
+	text  "If ye've a hankerin' for smoked stripe or black mushrooms, ye've arrived in paradise."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors.  Now why do ye ask, I wonder? There be rumors and then there be rumors."
+	text "Got no use for tittle tattle tales nor them as babbles 'em."
+	text "No good ever comes of 'em, neither."
+	text "Ye'll get nothin' more from old Geezer.  Less said about rumors, the better."
+end      
+
+topic "Can I do anything for you?"
+        text "Nothin'. Good of ye to ask."
+end
+
+topic  "Do you know where I could get a Wolf's Tail?" q300:0 #q8021-01-500:0
+	quest 301 #8021-01-525
+	text  "Ye asked that already and I gave ye me writin'."
+end
+
+topic  "You really helped me on that Wolf's Tail quest" q305:1 #q8021-01-545:1
+	text  "Glad to know it.  I thought ye'd be pleased."
+end
+
+topic  "I need the Tooth and Claw of an Ancient Bird." q244:0 #q6902-01-200:0
+	quest 245 #6902-01-225
+	text  "Don't be daft. I gave ye yer bit of bird."
+end
+
+topic  "I'm looking for a Pot Shard of Drune" q222:0 #q6815-01-200:0
+	quest 223 #6815-01-225
+	text  "Don't be daft.  Ye came for it already."
+end
+
+topic  "I'm looking for fishing line." q368:0 #q80001-01-200:0
+	quest 369 #80001-01-225
+	text  "Ye took it when ye came in last."
+end
+
+topic  "I'm looking for a petrified snail." q348:0 #q80000-01-200:0
+	quest 349 #80000-01-225
+	text  "Dang me, but I wish I had 'em if they're more like ye out there.  Ye took that snail, and ye know it."
+end
+
+topic  "I'm looking for an ancient bone dagger." q22:0 #q6043-01-500:0
+	quest 23 #6043-01-525
+	text  "Be gone with ye.  That old bone be yours already."
+end
+
+topic  "I'm looking for a fragment of Finvarra's spike." q95:0 #q6211-01-500:0
+	quest 96 #6211-01-525
+	text  "Ye took it.  Now be gone with ye."
+end
+
+
+

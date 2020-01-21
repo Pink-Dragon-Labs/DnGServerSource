@@ -1,0 +1,9 @@
+name "D_Wen_Clothing_Cellar"
+title "Wen Clothing Cellar"
+worldFile "../data/lib/world/D_WEN_CLOTHING_CELLAR.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 21
+isDungeon 1
+groupChance 20
+entrance trapDoor6100-2

@@ -1,0 +1,19 @@
+name "northofleinster"
+title "North of Leinster"
+worldFile "../data/lib/world/FOR2.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 11
+groupChance 10
+monster Pixie 5
+monster Faery 3
+monster WoodNymph 1
+monster WoodRat 3
+monster Ratling 4
+monster Guardian 10
+monster ThiefA 1
+monster WarriorA 1
+monster BountyHunterA 1
+monster BountyHunterB 1
+

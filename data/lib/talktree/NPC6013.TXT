@@ -1,0 +1,28 @@
+id 6013
+
+banner "Welcome to The Troll Spit Tavern. What would you like?"
+
+topic "Tell me about Leinster."
+        text "Oh, so you want information. Well, I have work to do, so I can't stand here jawing all the day."
+        text "I will tell you this much. Leinster is much better now that Duach has separated us from those idiots in the western half of town."
+end
+
+topic "Who are you?"
+        text "I am Crow, and the Troll Spit is my tavern. I named it after an unfortunate accident which befell a competitor of mine."
+        text "Seems she almost got her leg gnawed off by a troll. That sort of thing happens around here, so you'd better watch yourself."
+end
+
+topic "Got any more rats I can kill?" q3:1 q4:0 #q601301:1 q610001:0
+	text "Actually, a good friend of mine by the name of Hana has the most terrible rat problem you could set eyes on!  She may still be looking for some help with her problem.  Pay her a visit at Wen Clothing in the town of Wen.  She's sure to pay a handsome fee for the removal of her rather nasty infestation."
+end
+
+topic "Can I do something for you?"
+	quest 11 #6013-01
+	text "I've nothing for you today. Come back some other time and ask me again."
+end
+
+topic  "Skon sent me." q303:1 #q8021-01-535:1
+	quest 305 #8021-01-545
+	text  "That only works once.  And you've done it already."
+end
+

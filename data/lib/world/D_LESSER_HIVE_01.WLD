@@ -1,0 +1,2316 @@
+# Dungeonmaker World File (waspdng.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 88000
+# Dungeon last room = 88216
+# Number of objects in dungeon = 227
+# Level 0 information:
+room 88000
+	properties
+		template 30302
+		south 88003
+		flags	8
+	end
+	objects
+		object WaspDrone-88000-0 of WaspDrone
+			properties
+				x	200
+				y	253
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88000-1 of WaspWarrior
+			properties
+				x	451
+				y	287
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-88000-2 of DungeonBackUp
+			properties
+				x	328
+				y	233
+				loop	2
+				linkTo	hollowTree1008-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SittingMushroom-88000-3 of SittingMushroom
+			properties
+				x	158
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-88000-4 of Shroom3
+			properties
+				x	437
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-88000-5 of Shroom1
+			properties
+				x	491
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-88000-6 of Shroom2
+			properties
+				x	455
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-88000-7 of Shroom3
+			properties
+				x	517
+				y	302
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-88000-8 of Shroom3
+			properties
+				x	145
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88003
+	properties
+		template 31201
+		south 88001
+		north 88000
+		flags	0
+	end
+	objects
+		object FatColumn-88003-0 of FatColumn
+			properties
+				x	-1
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-88003-1 of Column
+			properties
+				x	180
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-88003-2 of Stalagmite4
+			properties
+				x	123
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-88003-3 of Stalagmite2
+			properties
+				x	223
+				y	305
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-88003-4 of Stalagmite3
+			properties
+				x	98
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-88003-5 of Column
+			properties
+				x	7
+				y	304
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88001
+	properties
+		template 31003
+		south 88002
+		north 88003
+		flags	0
+	end
+	objects
+		object Stalagmite4-88001-0 of Stalagmite4
+			properties
+				x	627
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88004
+	properties
+		template 32301
+		east 88002
+		flags	8
+	end
+	objects
+		object WaspWorker-88004-0 of WaspWorker
+			properties
+				x	565
+				y	258
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspDrone-88004-1 of WaspDrone
+			properties
+				x	567
+				y	296
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88004-2 of WaspDrone
+			properties
+				x	565
+				y	226
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Bones-88004-3 of Bones
+			properties
+				x	434
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object WaspWarrior-88004-4 of WaspWarrior
+			properties
+				x	354
+				y	271
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object Skull-88004-5 of Skull
+			properties
+				x	403
+				y	254
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 88002
+	properties
+		template 31302
+		south 88035
+		east 88005
+		west 88004
+		north 88001
+		flags	136
+	end
+	objects
+		object WaspWarrior-88002-0 of WaspWarrior
+			properties
+				x	103
+				y	285
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWorker-88002-1 of WaspWorker
+			properties
+				x	164
+				y	305
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object Rock1-88002-2 of Rock1
+			properties
+				x	553
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-88002-3 of Stalagmite2
+			properties
+				x	88
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-88002-4 of Stalagmite1
+			properties
+				x	331
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-88002-5 of Rock2
+			properties
+				x	369
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88005
+	properties
+		template 30701
+		west 88002
+		flags	8
+	end
+	objects
+		object WaspWarrior-88005-0 of WaspWarrior
+			properties
+				x	273
+				y	234
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88005-1 of WaspWarrior
+			properties
+				x	154
+				y	271
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWorker-88005-2 of WaspWorker
+			properties
+				x	136
+				y	252
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+	end
+end
+room 88034
+	properties
+		template 30303
+		south 88033
+		flags	8
+	end
+	objects
+		object Bones-88034-0 of Bones
+			properties
+				x	216
+				y	269
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-88034-1 of Bones
+			properties
+				x	177
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-88034-2 of Bones
+			properties
+				x	239
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object WaspWorker-88034-3 of WaspWorker
+			properties
+				x	536
+				y	315
+				loop	3
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88034-4 of WaspWorker
+			properties
+				x	402
+				y	277
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88034-5 of WaspWorker
+			properties
+				x	106
+				y	308
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88034-6 of WaspWorker
+			properties
+				x	249
+				y	272
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object Skull-88034-7 of Skull
+			properties
+				x	172
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88034-8 of Skull
+			properties
+				x	343
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Carving-88034-9 of Carving
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object Flute-88034-10 of Flute
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object AnimalHide-88034-11 of AnimalHide
+			properties
+				x	513
+				y	234
+				loop	1
+			end
+			base described
+			end
+		end
+		object RatGuano-88034-12 of RatGuano
+			properties
+				x	45
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object Guano-88034-13 of Guano
+			properties
+				x	583
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object Guano-88034-14 of Guano
+			properties
+				x	588
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+		object Guano-88034-15 of Guano
+			properties
+				x	596
+				y	287
+				loop	0
+			end
+			base described
+			end
+		end
+		object Tooth-88034-16 of Tooth
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object Rock-88034-17 of Rock
+			properties
+				x	73
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-88034-18 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomPants-88034-19 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomBoots-88034-20 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomMaterial-88034-21 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomBelt-88034-22 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomStuff-88034-23 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomJunk-88034-24 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomPoorThiefWeapon-88034-25 of RandomPoorThiefWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomZombieWeapon-88034-26 of RandomZombieWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88034-27 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RandomZombieRobe-88034-28 of RandomZombieRobe
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88034-29 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-88034-30 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-2
+			end
+			base described
+			end
+		end
+		object RandomMonsterRing-88034-31 of RandomMonsterRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RandomWand-88034-32 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object WoodRoundShield-88034-33 of WoodRoundShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object Ironband-88034-34 of Ironband
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object Shroom3-88034-35 of Shroom3
+			properties
+				x	148
+				y	253
+				loop	1
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-36 of RawMeat
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-37 of RawMeat
+			properties
+				x	251
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-38 of RawMeat
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-39 of RawMeat
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88034-0
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-40 of RawMeat
+			properties
+				x	525
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-41 of RawMeat
+			properties
+				x	415
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88034-42 of RawMeat
+			properties
+				x	107
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object FlameRatMeat-88034-43 of FlameRatMeat
+			properties
+				x	532
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88035
+	properties
+		template 31004
+		south 88008
+		north 88002
+		flags	0
+	end
+end
+room 88032
+	properties
+		template 30305
+		south 88031
+		flags	8
+	end
+	objects
+		object WaspWorker-88032-0 of WaspWorker
+			properties
+				x	413
+				y	345
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspDrone-88032-1 of WaspDrone
+			properties
+				x	199
+				y	258
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88032-2 of WaspDrone
+			properties
+				x	97
+				y	313
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88032-3 of WaspDrone
+			properties
+				x	396
+				y	262
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88032-4 of WaspDrone
+			properties
+				x	180
+				y	284
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object RawMeat-88032-5 of RawMeat
+			properties
+				x	349
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88032-6 of RawMeat
+			properties
+				x	106
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88032-7 of RawMeat
+			properties
+				x	460
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88032-8 of RawMeat
+			properties
+				x	447
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88032-9 of RawMeat
+			properties
+				x	467
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object FlameRatMeat-88032-10 of FlameRatMeat
+			properties
+				x	146
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88033
+	properties
+		template 30802
+		east 88010
+		north 88034
+		flags	0
+	end
+	objects
+		object WaspDrone-88033-0 of WaspDrone
+			properties
+				x	413
+				y	267
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object AnimalHide-88033-1 of AnimalHide
+			properties
+				x	223
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88010
+	properties
+		template 30904
+		south 88011
+		east 88009
+		west 88033
+		flags	0
+	end
+	objects
+		object WaspDrone-88010-0 of WaspDrone
+			properties
+				x	318
+				y	279
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 88009
+	properties
+		template 30703
+		east 88008
+		west 88010
+		flags	0
+	end
+end
+room 88008
+	properties
+		template 31502
+		south 88015
+		east 88007
+		west 88009
+		north 88035
+		flags	8
+	end
+	objects
+		object WaspWorker-88008-0 of WaspWorker
+			properties
+				x	104
+				y	289
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88008-1 of WaspWorker
+			properties
+				x	152
+				y	277
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object RawMeat-88008-2 of RawMeat
+			properties
+				x	182
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88007
+	properties
+		template 32403
+		east 88006
+		west 88008
+		flags	0
+	end
+end
+room 88006
+	properties
+		template 31103
+		south 88019
+		east 88031
+		west 88007
+		flags	8
+	end
+	objects
+		object WaspWorker-88006-0 of WaspWorker
+			properties
+				x	164
+				y	300
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88006-1 of WaspWorker
+			properties
+				x	175
+				y	262
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+	end
+end
+room 88031
+	properties
+		template 32502
+		west 88006
+		north 88032
+		flags	8
+	end
+	objects
+		object WaspDrone-88031-0 of WaspDrone
+			properties
+				x	412
+				y	294
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88031-1 of WaspDrone
+			properties
+				x	227
+				y	276
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88031-2 of WaspDrone
+			properties
+				x	327
+				y	255
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 88011
+	properties
+		template 31006
+		south 88012
+		north 88010
+		flags	8
+	end
+	objects
+		object WaspWorker-88011-0 of WaspWorker
+			properties
+				x	534
+				y	313
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88011-1 of WaspWorker
+			properties
+				x	455
+				y	289
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88011-2 of WaspWorker
+			properties
+				x	472
+				y	256
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88011-3 of WaspWarrior
+			properties
+				x	126
+				y	259
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 88015
+	properties
+		template 31006
+		south 88016
+		north 88008
+		flags	40
+	end
+	objects
+		object WaspWarrior-88015-0 of WaspWarrior
+			properties
+				x	88
+				y	295
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88015-1 of WaspWarrior
+			properties
+				x	128
+				y	269
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88015-2 of WaspWarrior
+			properties
+				x	167
+				y	254
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 88019
+	properties
+		template 31004
+		south 88020
+		north 88006
+		flags	0
+	end
+end
+room 88025
+	properties
+		template 30101
+		east 88012
+		flags	8
+	end
+	objects
+		object WaspDrone-88025-0 of WaspDrone
+			properties
+				x	480
+				y	282
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88025-1 of WaspDrone
+			properties
+				x	536
+				y	254
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object AnimalHide-88025-2 of AnimalHide
+			properties
+				x	479
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88012
+	properties
+		template 30704
+		south 88013
+		west 88025
+		north 88011
+		flags	0
+	end
+end
+room 88016
+	properties
+		template 31201
+		south 88017
+		north 88015
+		flags	40
+	end
+	objects
+		object WaspWarrior-88016-0 of WaspWarrior
+			properties
+				x	486
+				y	313
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88016-1 of WaspWarrior
+			properties
+				x	459
+				y	277
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88016-2 of WaspWarrior
+			properties
+				x	431
+				y	245
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 88020
+	properties
+		template 31401
+		south 88021
+		east 88030
+		north 88019
+		flags	0
+	end
+end
+room 88030
+	properties
+		template 30701
+		west 88020
+		flags	0
+	end
+	objects
+		object DamnedOne-88030-0 of DamnedOne
+			properties
+				x	262
+				y	278
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object RawMeat-88030-1 of RawMeat
+			properties
+				x	274
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88030-2 of RawMeat
+			properties
+				x	275
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88030-3 of RawMeat
+			properties
+				x	270
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88030-4 of RawMeat
+			properties
+				x	274
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88030-5 of RawMeat
+			properties
+				x	276
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88030-6 of RawMeat
+			properties
+				x	290
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-88030-7 of Embers
+			properties
+				x	196
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-88030-8 of FireC
+			properties
+				x	186
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-88030-9 of Smoke1
+			properties
+				x	182
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88013
+	properties
+		template 31005
+		south 88014
+		east 88023
+		north 88012
+		flags	0
+	end
+end
+room 88023
+	properties
+		template 31301
+		east 88017
+		west 88013
+		flags	72
+	end
+	objects
+		object WaspWarrior-88023-0 of WaspWarrior
+			properties
+				x	340
+				y	274
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88023-1 of WaspWarrior
+			properties
+				x	348
+				y	283
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 88017
+	properties
+		template 30804
+		south 88018
+		east 88024
+		west 88023
+		north 88016
+		flags	8
+	end
+	objects
+		object WaspWarrior-88017-0 of WaspWarrior
+			properties
+				x	544
+				y	261
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88017-1 of WaspWarrior
+			properties
+				x	492
+				y	237
+				loop	1
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWorker-88017-2 of WaspWorker
+			properties
+				x	82
+				y	262
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88017-3 of WaspWorker
+			properties
+				x	182
+				y	247
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspQueen-88017-4 of WaspQueen
+			properties
+				x	365
+				y	286
+				loop	2
+				color	1580
+			end
+			base character
+			end
+		end
+	end
+end
+room 88024
+	properties
+		template 30703
+		east 88021
+		west 88017
+		flags	136
+	end
+	objects
+		object WaspWarrior-88024-0 of WaspWarrior
+			properties
+				x	337
+				y	261
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWarrior-88024-1 of WaspWarrior
+			properties
+				x	342
+				y	274
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+	end
+end
+room 88021
+	properties
+		template 31201
+		south 88022
+		west 88024
+		north 88020
+		flags	0
+	end
+end
+room 88026
+	properties
+		template 30805
+		east 88014
+		flags	8
+	end
+	objects
+		object WaspWorker-88026-0 of WaspWorker
+			properties
+				x	230
+				y	270
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88026-1 of WaspWorker
+			properties
+				x	245
+				y	254
+				loop	0
+				color	42
+			end
+			base character
+			end
+		end
+		object RatlingCheese-88026-2 of RatlingCheese
+			properties
+				x	125
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88026-3 of RawMeat
+			properties
+				x	159
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88026-4 of RawMeat
+			properties
+				x	189
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object FlameRatMeat-88026-5 of FlameRatMeat
+			properties
+				x	97
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88014
+	properties
+		template 31201
+		south 88027
+		west 88026
+		north 88013
+		flags	8
+	end
+	objects
+		object WaspDrone-88014-0 of WaspDrone
+			properties
+				x	132
+				y	292
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88014-1 of WaspDrone
+			properties
+				x	431
+				y	258
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 88018
+	properties
+		template 30403
+		north 88017
+		flags	0
+	end
+	objects
+		object RawMeat-88018-0 of RawMeat
+			properties
+				x	353
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88018-1 of RawMeat
+			properties
+				x	339
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88018-2 of RawMeat
+			properties
+				x	339
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88018-3 of RawMeat
+			properties
+				x	156
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88018-4 of RawMeat
+			properties
+				x	156
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88018-5 of RawMeat
+			properties
+				x	319
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88018-6 of RawMeat
+			properties
+				x	312
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Veggies-88018-7 of Veggies
+			properties
+				x	167
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+		object Veggies-88018-8 of Veggies
+			properties
+				x	311
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cheese-88018-9 of Cheese
+			properties
+				x	183
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cheese-88018-10 of Cheese
+			properties
+				x	168
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cheese-88018-11 of Cheese
+			properties
+				x	140
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object ArcticRatMeat-88018-12 of ArcticRatMeat
+			properties
+				x	204
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object FlameRatMeat-88018-13 of FlameRatMeat
+			properties
+				x	303
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingCheese-88018-14 of RatlingCheese
+			properties
+				x	398
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88022
+	properties
+		template 32402
+		south 88028
+		east 88029
+		north 88021
+		flags	8
+	end
+	objects
+		object WaspDrone-88022-0 of WaspDrone
+			properties
+				x	525
+				y	280
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88022-1 of WaspDrone
+			properties
+				x	284
+				y	314
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88022-2 of WaspDrone
+			properties
+				x	502
+				y	235
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspDrone-88022-3 of WaspDrone
+			properties
+				x	145
+				y	298
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 88029
+	properties
+		template 30201
+		west 88022
+		flags	8
+	end
+	objects
+		object WaspWorker-88029-0 of WaspWorker
+			properties
+				x	103
+				y	268
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspWorker-88029-1 of WaspWorker
+			properties
+				x	169
+				y	255
+				loop	1
+				color	42
+			end
+			base character
+			end
+		end
+		object RawMeat-88029-2 of RawMeat
+			properties
+				x	476
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88029-3 of RawMeat
+			properties
+				x	493
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88029-4 of RawMeat
+			properties
+				x	485
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88029-5 of RawMeat
+			properties
+				x	482
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88029-6 of RawMeat
+			properties
+				x	498
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RawMeat-88029-7 of RawMeat
+			properties
+				x	475
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-88029-8 of AnimalHide
+			properties
+				x	188
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-88029-9 of AnimalHide
+			properties
+				x	187
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-88029-10 of AnimalHide
+			properties
+				x	399
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88027
+	properties
+		template 30802
+		north 88014
+		flags	8
+	end
+	objects
+		object WaspDrone-88027-0 of WaspDrone
+			properties
+				x	326
+				y	275
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WaspWorker-88027-1 of WaspWorker
+			properties
+				x	472
+				y	265
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspDrone-88027-2 of WaspDrone
+			properties
+				x	350
+				y	243
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Bones-88027-3 of Bones
+			properties
+				x	222
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-88027-4 of Stalagmite1
+			properties
+				x	606
+				y	297
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite3-88027-5 of Stalagmite3
+			properties
+				x	626
+				y	254
+				loop	1
+			end
+			base described
+			end
+		end
+		object Spring-88027-6 of Spring
+			properties
+				x	26
+				y	248
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-88027-7 of Shroom3
+			properties
+				x	38
+				y	258
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-88027-8 of Shroom3
+			properties
+				x	137
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-88027-9 of Shroom2
+			properties
+				x	132
+				y	199
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-88027-10 of Shroom1
+			properties
+				x	155
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-88027-11 of Shroom3
+			properties
+				x	176
+				y	219
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-88027-12 of Shroom3
+			properties
+				x	119
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-88027-13 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomShirt-88027-14 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomBoots-88027-15 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-88027-16 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomJunk-88027-17 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomJunk-88027-18 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomJunk-88027-19 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomMaterial-88027-20 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-88027-21 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomMonsterTome-88027-22 of RandomMonsterTome
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomMonsterRing-88027-23 of RandomMonsterRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomPoorThiefWeapon-88027-24 of RandomPoorThiefWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomRatTreasureI-88027-25 of RandomRatTreasureI
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+		object RandomBatTreasureI-88027-26 of RandomBatTreasureI
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-88027-3
+			end
+			base described
+			end
+		end
+	end
+end
+room 88028
+	properties
+		template 30401
+		north 88022
+		flags	0
+	end
+	objects
+		object WaspWarrior-88028-0 of WaspWarrior
+			properties
+				x	157
+				y	271
+				loop	0
+				color	43
+			end
+			base character
+			end
+		end
+		object WaspWorker-88028-1 of WaspWorker
+			properties
+				x	324
+				y	258
+				loop	2
+				color	42
+			end
+			base character
+			end
+		end
+		object WaspDrone-88028-2 of WaspDrone
+			properties
+				x	488
+				y	254
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Bones-88028-3 of Bones
+			properties
+				x	175
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

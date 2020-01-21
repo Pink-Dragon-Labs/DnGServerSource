@@ -1,0 +1,32 @@
+object Dng7NPC1 of NPC
+	properties
+		name "Zelbic"
+		special
+		strength 10
+		endurance 10
+		level 100
+	end
+
+	base described
+		text "You see Zelbic the Zookeeper."
+	end
+
+	base character
+		title "the Zookeeper"
+		properName "Zelbic"
+	end
+
+	base talk
+		talkTreeID	73000
+	end
+
+	base container
+		head 0 2 0 3 5 4 8 1 8 10 5 4
+		worn BrownLeatherTunic
+		worn BlackCowl
+		worn BrownTrollPants
+		worn BlackBoots
+		worn Silverband
+		worn AdmantiumTwoHandSword
+	end
+end

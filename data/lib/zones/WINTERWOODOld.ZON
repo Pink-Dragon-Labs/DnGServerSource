@@ -1,0 +1,33 @@
+name "winterwood"
+title "Winter Wold"
+worldFile "../data/lib/world/WINTER1.WLD"
+worldFile "../data/lib/world/WINTER2.WLD"
+worldFile "../data/lib/world/WINTER3.WLD"
+worldFile "../data/lib/world/WINTER4.WLD"
+worldFile "../data/lib/world/WINTER5.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 9
+groupChance 30
+monster OgreChild 30
+monster Ogre 30
+monster UglyOgre 15
+monster OgreMage 15
+monster TrollWarrior 10
+monster DamnedOne 4
+monster WaspWarrior 5
+monster ArcticRat 15
+monster ThiefB 1
+monster ThiefC 1
+monster ThiefD 1
+monster ThiefE 1
+monster WarriorB 1
+monster WarriorC 1
+monster WarriorD 1
+monster WarriorE 1
+monster BountyHunterC 2
+monster BountyHunterD 2
+monster BountyHunterE 1
+monster BountyHunterF 1
+

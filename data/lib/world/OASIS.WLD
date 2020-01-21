@@ -1,0 +1,100 @@
+room 21150
+   properties
+      picture	3000
+      north	21031 
+      south	21152 
+      east	21151 
+      west	21040 
+      roomName	"The Oasis"
+   end
+   atpinfo
+      1601  190 108
+      34368  513 104
+      1594  67 97
+      104  236 190
+      1508  51 312
+      1506  626 157
+      1544  620 338
+      1545  13 126
+      1594  566 93
+      1594  218 98
+      1594  408 94
+      1594  329 102
+      1594  19 115
+      34362  614 111
+      104  456 249
+      1594  -39 278
+      104  175 245
+      33705  253 240 -30
+      33701  207 223
+      210  305 181
+      211  361 185
+      937  397 241 -30
+      933  446 228
+      954  364 207
+      958  269 218
+      33722  272 209
+      33723  241 198
+      110  525 449
+      960  368 218
+      115  285 262
+      63  342 187
+      1594  689 139
+      34362  -51 134
+      32883  289 184
+      104  477 227
+      104  163 222
+      104  180 201
+      32872  454 201
+      104  149 207
+      34362  733 199
+      34362  -90 233
+      34362  724 249
+      1594  170 115
+      1594  479 111
+      1594  321 119
+      1594  70 134
+      1594  -92 190
+      34362  -86 169
+      34362  -20 151
+      1594  759 223
+      1594  597 127
+      34362  704 155
+      34362  740 178
+      34362  454 294
+   end
+   objects
+      object stand21150-0 of Stand
+         properties
+            x	549
+            y	187
+            loop	0
+         end
+      end
+      object bartender21150-4 of Bartender
+         properties
+            x	552
+            y	183
+            loop	2
+            name	"MarTull"
+         end
+         base character
+            sex	0
+            properName	"MarTull (NPC)"
+         end
+         base talk
+            talkTreeID	21150
+         end
+         base container
+            worn	BrownTunic
+            worn	TanPants
+            worn	BrownBoots
+            worn	BlackBelt
+            object	mwWrath
+            object	WineFlask
+            object	Ambrosia
+            head	0 2 0 1 5 0 7 13 3 -1 0 0 
+         end
+      end
+   end
+end

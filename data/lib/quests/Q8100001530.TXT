@@ -1,0 +1,19 @@
+quest  81000-01-530        #Alysa, Desert Rose, Arimathor, 6811 (formerly Eleni, House of Eleni, Guennor, 6506)
+
+name  "Colored Gemstones for Alysa"
+type  fedex
+
+proposal  "Yes I do.  The wool is very fine and silky.  Those goats have a thick coat, to be sure, since mountain weather is cold, but it is thick with very fine silky hair.  I have a very nice selection which I'll share with pleasure if you will grant me a return favor and make a journey for me."  
+
+declined  "I am sorry."
+
+accepted  "I wish to have some colored gemstones from Silverbrook."
+
+reminder   "There are gemstones, colored gemstones, in Silverbrook.  I wish to receive some."
+
+completed  "What a lovely display of color.  Many thanks.  Here is the wool that you wish."
+
+getItem   qColoredGems
+reward   qGoatWool 
+end
+

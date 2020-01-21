@@ -1,0 +1,68 @@
+object GateKeeper of Character
+	properties
+		name "House Gatekeeper"
+		action 0
+		makePolygon 0
+
+		## display crap
+		view 100
+		clutStart 104
+
+		## how much gold carried
+		value 200
+
+		## name and the like
+		name "Generic Shopkeeper"
+
+		## attributes
+                strength 24
+                dexterity 24
+                intelligence 24
+                quickness 24
+                endurance 24
+		poisonResistance 25
+		magicResistance 25
+		level 1
+                health 156
+		alignment 0
+
+		## armor crap
+		armorFlat 0
+                armorPercent 75
+		armorDefense 0
+ 	end
+
+	base character
+		profession 0
+		experience 0
+		race 0
+		sex 0
+                properName "Generic Gatekeeper"
+                title "the Gatekeeper"
+	end
+
+	base container
+		bulkCapacity 30.0
+		weightCapacity 140.0
+
+                worn AmuletOfProtection
+	end
+
+	base npc
+                code shopkeeper
+	end
+
+	base described
+		text "You see the house gatekeeper. They will assist you in finding a house to go to."
+	end
+
+	base gate
+	end
+
+	base use
+		verb 4
+		uses -1
+		spell 10
+	end
+end
+

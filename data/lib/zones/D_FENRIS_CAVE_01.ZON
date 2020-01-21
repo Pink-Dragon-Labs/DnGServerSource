@@ -1,0 +1,9 @@
+name "D_Fenris_Cave_01"
+title "Fenris Cave"
+worldFile "../data/lib/world/D_FENRIS_CAVE_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock2177-0

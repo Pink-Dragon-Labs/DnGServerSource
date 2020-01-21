@@ -1,0 +1,19 @@
+quest  169 #6501-01-535        # Pasco, Heal Yourself, healer, Silverbrook, 6404
+
+name  "The New Carving Knife"
+type  fedex
+
+proposal  "Did someone send you here or did you just venture in, I wonder.  I've been making wooden puzzles for years, but I haven't really advertised.  The elves hereabout think I'm just a little strange to do this carving, but then they think all humans are just a little strange, I guess.  I'll be glad to let you have a wooden puzzle, friend, if you'll make a journey for me.  I did a favor for a dark elf a long time ago, and I just had word that he ordered a special carving knife to be forged for me.  It's ready for pick up from a dark elf, but I don't know more than that.  Will you take on the project?"
+
+declined  "It is a bit obscure, isn't it?"
+
+accepted  "Good.  Away with you, then."
+
+reminder   "Find my new carving knife made by a dark elf."
+
+completed  "What a beauty!  Many thanks for finding it.  Here's the best of all my wooden puzzles."
+
+getItem   qPascoKnife
+reward   qWoodenPuzzle 
+end
+

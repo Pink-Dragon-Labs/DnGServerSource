@@ -1,0 +1,19 @@
+quest  98 #6211-01-535        # Ghoud, Asgard General Goods, Asgard, 6904
+
+name  "Blackberry Roots"
+type  fedex
+
+proposal  "Yes, yes.  They are nearly ready.  I'm in a dreadful state here, just dreadful.  I'm supposed to be in Leinster vacationing this very moment, this very moment, I tell you.  I've never had so many things go wrong at once.  I wonder if you could run an errand to Leinster for me?  It would be appreciated.  Will you?"
+
+declined  "No, of course not."
+
+accepted  "Go and find some blackberry roots.  I was planning to do it on my vacation, but look what that came to."
+
+reminder   "Find some blackberry roots in Leinster."
+
+completed  "At last things are beginning to go right again.  Thank you.  Lari's supplies are ready."
+
+getItem   qBlackberryRoots
+reward   qLariSupplies 
+end
+

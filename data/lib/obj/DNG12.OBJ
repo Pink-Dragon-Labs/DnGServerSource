@@ -1,0 +1,88 @@
+object DNG12Shop of Shop
+	properties
+		name "Goodwin"
+		strength 15
+		endurance 25
+		intelligence 40
+		dexterity 40
+		minLevel 100
+		maxLevel 100
+		minDamage 100
+		maxDamage 150
+		affect 17 0 0 -1
+		special
+	end
+
+	base described
+		text "You see Goodwin, the proprieter.  He will sell you many magical items, but his wrath is most terrible if attacked."
+	end
+
+	base character
+		title "the Proprieter"
+		properName "Goodwin"
+		skill 7 5
+		skill 9 5
+		skill 12 5
+		skill 14 5
+	end
+
+	base npc
+		code marvin
+	end
+
+	base container
+		head 0 0 6 5 1 6 14 16 7 7 7 3
+		worn BlueRobe
+		worn AzureCowl
+		worn BlueLeatherPants
+		worn BlackBoots
+		worn Goldband
+	end
+
+	base shop
+		buyMarkup  50
+		sellMarkup 10000
+
+		inventory
+			category "Rings" 51883
+				object rDexterity
+				object rEndurance
+				object rEternalNourishment
+				object rIntelligence
+				object rRegeneration
+				object rStrength
+			end
+
+			category "Amulets" 51533
+				object aColdProtection
+				object aCombat
+				object aDexterity
+				object aDodging
+				object aEndurance
+				object aFireProtection
+				object aGrounding
+				object aIntelligence
+				object aStrength
+			end
+
+			category "Wands" 51733
+				object wBerserk
+				object wFireballs
+				object wLightning
+				object wPoisonBolts
+				object wRust
+				object wStoning
+			end
+
+			category "Orbs" 51783
+				object oGroupTeleport
+				object oImmolation
+				object oFlame
+				object oHolding
+				object oHealing
+				object oGreaterHealing
+				object oExtension
+			end
+		end
+	end
+end

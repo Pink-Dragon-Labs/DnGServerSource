@@ -1,0 +1,19 @@
+quest  220 #6815-01-100        #Meta, Desert Breeze Exilirs, Arimathor, 6815
+
+name  "Embroidered Potion Holder"
+type  fedex
+
+proposal  "You've come to begin training as a healer?  Well, now, this is very good news. It will be my pleasure to guide you.  I've been developing healing skills all my life, and I find there is always more to be learned.  I will procure the beginning book of healing for you at once.  In the meantime, I'll ask you to travel to Drune.  Lireen embroidered a potion holder for me, a hobby of hers.  She is an elven healer, and a very fine one.  Will you do this?"
+
+declined  "I'm sorry to hear it."
+
+accepted  "Excellent."
+
+reminder   "Lireen of Drune has an embroidered potion holder for me."
+
+completed  "What an exquisite small treasure. Thank you for fetching it.  Here is the first book you will need to learn the art of healing."
+
+getItem   qPotionHolder
+reward   skbHealingI 
+end
+

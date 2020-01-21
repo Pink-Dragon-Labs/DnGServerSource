@@ -1,0 +1,20 @@
+quest  148 #6403-01-325        # Xondor, Light in the Forest tavern, Wen, 6114
+
+name  "Jellied Berries of Usk"
+type  fedex
+
+proposal  "Nemor the Noble was a proud man, so proud that he bestowed the title of Noble on himself, or so the story goes.  I wouldn't know for sure.  I've lived here in Wen all my life, and never traveled anywhere else.  At any rate, what you're wanting is the amulet.   Normally I couldn't help, but it just so happens that a customer left that amulet here with me.  He wanted my brew, but he was short of funds.  I traded for the amulet thinking it might come in handy some day, and look what happened.  You walked in.  I have something you want, and you could do something I want.  What about a little trade, stranger?
+
+declined  "Fine, fine."
+
+accepted  "I don't travel myself, but I have a hankering for some of the Jellied Berries of Usk.  I had a taste once, and have always wanted more.  Get me some, stranger, and the amulet is yours."
+
+reminder   "Jellied Berries of Usk, stranger."
+
+completed  "My mouth is watering at the sight.  Thanks and here's the amulet."
+
+getItem   qJelliedBerries
+reward   qAmuletNemor 
+end
+
+

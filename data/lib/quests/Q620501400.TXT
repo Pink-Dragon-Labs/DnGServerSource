@@ -1,0 +1,19 @@
+quest  81 #6205-01-400        #Xolina, Goddess Dreams magic, Murias, 6205
+
+name  "Banshee Relic"
+type  fedex
+
+proposal  "Thaumaturgy Master skills are not easy, not easy at all.  However, I can assist you.  Not many are able, but I, Xolina, can do this.  First, however, you must find for me a Banshee Relic.  One has turned up in Kurz, I hear.  Will you undertake this?"
+
+declined  "I see.  Not up to it."
+
+accepted  "I do not know if this Banshee Relic will be difficult to find.  Kurz is a town of cut throats, but they will deal in almost anything, I am told."
+
+reminder   "I require a Banshee Relic.  Seek first in Kurz."
+
+completed  "Well, I am impressed.  Accept this spellbook for Thaumaturgy Master spells."
+
+getItem   qBansheeRelic
+reward   skbThaumaturgyIV 
+end
+

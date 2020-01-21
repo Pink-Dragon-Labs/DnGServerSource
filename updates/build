@@ -1,0 +1,1 @@
+make -R -f ../system.mak -f makefile -f ../depend.mak $1

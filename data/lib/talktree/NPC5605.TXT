@@ -1,0 +1,60 @@
+id 5605
+
+banner "Great. Here comes another idiot. Who do you want to annoy by a visit?"
+
+topic "Tell me about Caer Fandry."
+        text "A tourist. Great. Of all the gates in all the towns in all The Realm, you've got to show up at mine. How did I get so lucky!"
+	text  "The dark elves of Caer Fandry are a fearsome bunch, so don't anger any of them."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that Duach is planning to smite Leinster again. Dare I hope you're planning to travel there?"
+	text  "I also heard there are orcs around that eat lone travelers."
+	text  "Sometimes all that's left is a pile of bones."
+	text  "Then the wolves come and gnaw the bones!"
+	text  "Are you still here?"
+end      
+
+topic  "I need help finding shops."
+	banner  "Do I have to do everything?  Sheesh.  OK, which shop do you want?"
+
+	topic  "Where can I find a clothing store?"
+		text "Right two for Pretty Nice Clothing. What a name that Bidosk picked!"
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is right one.  Dinnertime is right two, up one."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Caer Fandry Curses is right three.  And you'll mind your manners with Stench if you know what's good for you."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Treachery Weapons is right four."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Take It or Leave It is right one, up one."
+	end
+
+	topic  "Do you have a chapel?"
+		text "Nope.  Try Usk."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Hard Knocks, a warrior's academy, is right one, down one, right two."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Fit as a Fiddle is right three, up one."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "Vlador's Tavern is right one, down one, left one.  Daemon's Delight is right three, up one, right one."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Put in the person's name.  Sheesh!  Don't you know anything?"
+end

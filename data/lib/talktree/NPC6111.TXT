@@ -1,0 +1,46 @@
+id 6111
+
+banner "Greetings, and may the gods keep you. I sense that you are in need of Legotia's services. How may I assist you?"
+
+topic "Tell me about Wen."
+        text "You come to find out about our village? I thought perhaps you entered my shop to be healed."
+	text "Wen is so quiet that I do not have a heavy load as a healer."
+	text "That leaves plenty of time for me to pursue hobbies.  Which suits me just fine."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I don't hear many rumors, and that's a fact."
+        text "A nice outlandish tale is sometimes fun, though.  Like the one about a huge wild boar chasing Willie Siderly up a tree."
+	text "Wild boar, my foot!  It was a just little pig.  And it wasn't chasing him either. That boy can't tell a straight story to save himself."
+end      
+
+topic "Can I do anything for you?"
+        text "Go in peace, and take good care of yourself."
+end
+
+topic  "I'm looking for the Amulet of Baroq the Bald" q156:0 #q6403-01-500:0
+	quest 157 #6403-01-525
+	text  "You already received it from me."
+end
+
+topic  "Misha needs some salve for her strained back." q357:0 #q80000-01-100:0
+	quest 358 #80000-01-435
+	text  "I gave it to you already."
+end
+
+topic  "I'm seeking a talisman of Baroq the Bald" q166:0 #q6501-01-500:0
+	quest 167 #6501-01-525
+	text  "You have it."
+end
+
+topic  "I'm in need of a tube of red paint, but a very special shade." q24:0 #q6043-01-530:0
+	quest 25 #6043-01-535
+	text  "Don't you remember taking it?"
+end
+
+topic  "Fiona needs a headache potion." q270 #q6905-01-540:0
+	quest 271 #6905-01-545
+	text  "Friend, you just picked it up."
+end
+
+

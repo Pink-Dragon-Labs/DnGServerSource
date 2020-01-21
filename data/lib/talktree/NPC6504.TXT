@@ -1,0 +1,17 @@
+id 6504
+
+banner "I'm KJ. What can I show you?"
+
+topic "Tell me about Guennor."
+        text "Good town.  Good people.  Treat us square and you'll get fair treatment."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors!!!  I've got no truck with rumors.  I'll say this, though.  K.J. Weaponry has the best weapons you'll find at the best price, and that's straight."
+	text "I hear the giants in Usk really know how to repair weapons."
+end      
+
+topic "Can I do anything for you?"
+        text "Not now.  Things may be picking up soon, though.  If you stay in Guennor, check back with me."
+end
+

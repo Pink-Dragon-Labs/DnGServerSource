@@ -1,0 +1,93 @@
+object Elixir of Drink
+	properties
+		name "Elixir"
+		basicName "elixir"
+		view 51600
+		clutStart 68
+		skill alchemy
+
+		strength 3
+		health 200
+		value 100
+		color -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see some type of elixir."
+		idText "You see an elixir of lemon juice."
+		shopText "Here is a elixir."
+	end
+
+	base carryable
+		weight 0.3
+	end
+end
+
+
+object eLife of Elixir
+	properties
+		name "Life Elixir"
+		strength 2
+		level 2
+	end
+
+	actions
+		vBeConsumed castSpell 81 dobj
+	end
+
+	components
+		ElderOak
+		Basalt
+	end
+
+	base described
+		idText "You see a Life Elixir.  This elixir will heal your wounds."
+		shopText "This fine elixir will heal your wounds."
+	end
+end
+
+
+object ePurify of Elixir
+	properties
+		name "Purifying Elixir"
+		strength 1
+	end
+
+	actions
+		vBeConsumed castSpell 83 dobj
+	end
+
+	components
+		Sulfur
+		Tobac
+	end
+
+	base described
+		idText "You see a Purifying Elixir.  This elixir will cleanse your body of toxins."
+		shopText "This elixir will cleanse your body of toxins."
+	end
+end
+
+
+object eSpoiled of Elixir
+	properties
+		name "Spoiled Elixir"
+		value 1
+	end
+
+	actions
+		vBeConsumed damage dobj -4 1 15
+	end
+
+	base described
+		idText "This elixir is old and should not be consumed."
+		shopText "I shouldn't sell these, but if you insist..."
+	end
+end
+

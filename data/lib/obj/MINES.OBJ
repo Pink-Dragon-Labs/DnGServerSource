@@ -1,0 +1,456 @@
+#{ "WoodBlock", "IronBar", "SteelBar", "TemperedSteelBar", "MythrilBar", "ObsidianiteBar", "AdmantiumBar", 0 },
+
+object RandomMineGemB of Crystal
+	properties
+		random 100
+		special
+	end
+	
+	base treasure
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Jet
+		Topaz
+		Topaz
+		Topaz
+		Topaz
+		Topaz
+		Topaz
+		Topaz
+		Topaz
+		Ruby
+		Ruby
+		Ruby
+		Ruby
+		Emerald
+		Emerald
+		Diamond
+	end
+end
+
+object RandomMineGemA of Crystal
+	properties
+		random 100
+		special
+	end
+	
+	base treasure
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		Crystal
+		RubyChip
+		RubyChip
+		RubyChip
+		RubyChip
+		RubyChip
+		RubyChip
+		RubyChip
+		RubyChip
+		Aquamarine
+		Aquamarine
+		Aquamarine
+		Aquamarine
+		Turquoise
+		Turquoise
+		RandomMineGemB
+	end
+end
+
+#Wandering Wood
+object RandomMineTreasureWWood of IronBar
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+end
+
+#Wild Beyond
+object RandomMineTreasureWBeyond of IronBar
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		MythrilBar
+		MythrilBar
+		MythrilBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+end
+
+#Forest of Death
+object RandomMineTreasureFoD of IronBar
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		MythrilBar
+		MythrilBar
+		MythrilBar
+		AdmantiumBar
+		AdmantiumBar
+		AdmantiumBar
+	end
+end
+
+#Winter Wold
+object RandomMineTreasureWWold of IronBar
+	properties
+		random 100
+		special
+	end
+
+	base treasure
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		RandomMineGemA
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		WoodBlock
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		SteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		TemperedSteelBar
+		ObsidianiteBar
+		ObsidianiteBar
+		ObsidianiteBar
+	end
+end
+
+
+#MINES - Wandering Wood
+object MineDropper0 of WoodRat
+	properties
+		girth 0
+		height 0
+		special
+	end
+
+	base described
+	  text ""
+	end
+
+	base npc
+	  code mines-dropper0
+	end
+end
+
+#MINES - Wild Beyond
+object MineDropper1 of WoodRat
+	properties
+		girth 0
+		height 0
+		special
+	end
+
+	base described
+	  text ""
+	end
+
+	base npc
+	  code mines-dropper1
+	end
+end
+
+#MINES - Forest of Death
+object MineDropper2 of WoodRat
+	properties
+		girth 0
+		height 0
+		special
+	end
+
+	base described
+	  text ""
+	end
+
+	base npc
+	  code mines-dropper2
+	end
+end
+
+#MINES - Winter Wold
+object MineDropper3 of WoodRat
+	properties
+		girth 0
+		height 0
+		special
+	end
+
+	base described
+	  text ""
+	end
+
+	base npc
+	  code mines-dropper3
+	end
+end
+
+object RandomMinerShirt of BlackTunic
+	properties
+		random 100
+		special
+	end
+	base treasure
+		BlackTunic
+		GrayTunic
+		GreenTunic
+		BlueTunic
+		RoyalTunic
+	end
+end
+
+object RandomMinerPants of BlackPants
+        properties
+                random 100
+                special
+        end
+        base treasure
+                BlackPants
+                GrayPants
+                BluePants
+        end
+end
+
+object RandomMinerBoots of BlackBoots
+        properties
+                random 100
+                special
+        end
+        base treasure
+                BlackBoots
+                GrayBoots
+		WhiteBoots
+        end
+end
+
+object RandomMinerBelt of BlackBelt
+        properties
+                random 100
+                special
+        end
+        base treasure
+                BlackBelt
+                GrayBelt
+                GreenBelt
+                BlueBelt
+                RoyalBelt
+        end
+end
+
+object Miner of NPC
+        properties
+                name "Miner"
+                view 100
+                alignment 255
+
+                minLevel 100
+                maxLevel 350
+
+                intelligence 20
+                strength 20
+                endurance 18
+                dexterity 18
+                quickness 15
+
+                damageType 1
+                armorType 1
+
+                girth 110
+                height 110
+		special
+        end
+
+ 	base character
+                profession 1
+                experience 0
+                race 2
+                sex 0
+	end
+
+        base container
+                head 2 0 2 2 4 0 1 6 14 10 10 4 1
+                worn RandomMinerShirt
+                worn RandomMinerPants
+                worn RandomMinerBoots
+                worn RandomMinerBelt
+        end
+
+        base npc
+                code miner
+        end
+
+        base described
+                text "You see a mine worker, going about their daily chores"
+        end
+end
+

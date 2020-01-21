@@ -1,0 +1,19 @@
+quest  403 #8100-01-525        # Gwynna, The Bend Sinister, tavern, Murias, 6203
+
+name  "Book about Wizard Walther"
+type  fedex
+
+proposal  "Well, friend, I have one.  This is a surprising thing to find in a tavern, you will say.  True, but there is an explanation.   I run this tavern because I'm very sensitive to sunlight.  This is a curse, but one that I bear with fortitude.  The rest of my family are farmers, and enjoy the sunlight.  They bring to me things they find to sooth my solitude.  I recently acquired a hieroglyphic, and I am assured that it is quite genuine.  I will tell you the truth, though.  I would much prefer to have a book about the Wizard Walther.  If you find me one, I'll give you the hieroglyphic.  What do you say?" 
+
+declined  "Oh fiddle.  I hoped you would do it."
+
+accepted  "I'm just fascinated with the Wizard Walther's exploits.  I think a shopkeeper in Monmouth has one."
+
+reminder   "Find me a book about the Wizard Walther."
+
+completed  "Oh thank you!  How wonderful!  It's a pleasure to trade for the hieroglyphic."
+
+getItem   qWaltherBook
+reward   qHieroglyphic 
+end
+

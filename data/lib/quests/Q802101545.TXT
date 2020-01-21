@@ -1,0 +1,16 @@
+quest  305 #8021-01-545        #Crow, Troll Spit Tavern, East Leinster, 6013
+
+name  "Skon's Deal"
+type  fedex
+
+proposal  "Yeah, I got word from him that you wanted a Wolf's Tail.  Well, I've got one, so he traded me.  He said to give it to you if you'll be sure to tell Geezer next time you see him that Skon got you the Wolf's Tail.  What about it?  Will you do it?"
+
+declined  "Then I'll send the Wolf's Tail to Skon."
+
+accepted  "Fine.  Give me the package from Skon."
+
+reminder   "Don't forget what you're supposed to tell Geezer about the Wolf's Tail."
+
+getItem	qSkonPackage
+reward   qWolfTail 
+end

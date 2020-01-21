@@ -1,0 +1,19 @@
+quest 257 #6902-01-525   #(Jolie, Mystic Magic, Murias,  6212)
+
+name  "Jolie's Scarf"
+type  fedex
+
+proposal  "Oh dear, oh dear.  I don't know if I should talk about that.  Seraphs don't care to be talked about, especially by ordinary Realm citizens such as us.  They may not like their scroll talked about either. Oh dear.  I serve Mabon and wouldn't want him to think I was offending the Seraphs.  Well, perhaps I could give you just one hint, if you really want to pursue this quest.
+
+declined  "It's much better this way.
+
+accepted  "Oh dear.  I hoped you wouldn't ask.  Go talk to my friend Kaliri.  She'll know what to say. She lives in Arimathor.  Tell her you're there for Jolie's scarf."
+
+reminder   "Kaliri lives in Arimathor.  Oh dear, I wonder if I should be doing this."
+
+completed  "Oh dear, I was afraid you would come back.  Why did I ever agree to this?  The 'you know what' is in this package.  Just take it and go away.  Don't open it anywhere near here.  I swear to Mabon, if I survive this, I'll never get involved again."
+
+getItem   qJolieScarf
+reward   qSeraphScroll
+end
+

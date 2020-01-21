@@ -1,0 +1,15 @@
+quest  354 #80000-01-335        #Lompoc, What Ails You, Murias, healer, 6216
+
+name  "Medicine for Frick"
+type  fedex
+
+proposal  "I'll warrant he is.  Allergies and flu plague that poor giant.  My grandmother used to say the bigger they are, the worse they are when they're sick.  And that giant is very big indeed.  I'll package something that should make him feel better.  My family enjoys good health I'm pleased to say.  But poor Frick seems to be ill all the time.  Will you take this medicine to him?"
+
+declined  "I'll get it delivered, then."
+
+accepted  "Good."  
+
+reminder   "Aren't you going to take that medicine to Frick?"
+
+reward   qFrickMedicine 
+end

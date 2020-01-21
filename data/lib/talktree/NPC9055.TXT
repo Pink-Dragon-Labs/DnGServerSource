@@ -1,0 +1,22 @@
+id 9055
+#---------------	9055	1374	wwood6	male	human	Kalkin
+
+banner "Greetins and how do ya do?"
+
+topic "Tell me about your tent."
+    text "It be a tent. Got cloth walls and a cloth roof. Bout the same as any other tents be."
+    text "Ohh you done meant my shop, huh? Well I be sellin things folks be needin on their adventures."
+    text "Sellin all sorts of things I am."
+	text "Buy something?"
+end
+
+topic "Who are you?"
+    text "I am Kalkin, keeper of this here tent."
+    text "I done been here for a while but I thought I best open up. Seems I be gettin more business that way."
+    text "Cant be sellin to folks if they cant be gettin inside."
+end
+
+topic "Do you ever see strange things?"
+    text "Now that you be talkin bout it, I be rememberin somethin strange. Bout a while back I was takin inventory of me items and the ground started to shake. By the time it done stopped I done noticed the two streams to the North of here done merged into one. Aint never seen nothin like that before."
+     text "Course I aint one to gossip, but I be thinkin that Enid be tryin to flood me out of here soon."
+end

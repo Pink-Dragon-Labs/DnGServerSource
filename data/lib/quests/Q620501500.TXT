@@ -1,0 +1,19 @@
+quest  85 #6205-01-500          #Xolina, Goddess Dreams magic, Murias, 6205
+
+name  "The Imp Bloodstone"
+type  fedex
+
+proposal  "Thaumaturgy Grand-Master skills.  So.  To Xolina you come for this instruction.  You demonstrate your wisdom by coming to me for I, Xolina, am one of the very few in the Realm able to assist you in this skill.  First, however, you must prove yourself to me by procuring an Imp Bloodstone.  Dare you accept this challenge?"
+
+declined  "So!"
+
+accepted  "Ah!  Ask the Giants."
+
+reminder   "Go to the Giants and seek the Imp Bloodstone."
+
+completed  "Do my eyes truly behold the Imp Bloodstone?  You have done well, Apprentice.  Here is the Grand-Mastery spellbook.  Return in your power so that I may see you."
+
+getItem   qImpBloodstone
+reward   skbThaumaturgyV 
+end
+

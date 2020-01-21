@@ -1,0 +1,324 @@
+#------------------------------------------------------------
+# Color-specific Dense Plate Armor for use on NPCs
+
+object maRedDensePlate of maDensePlate
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDensePlate of maDensePlate
+	properties
+		color 63
+		special
+	end
+end
+
+object maBrownDensePlate of maDensePlate
+	properties
+		color 73
+		special
+	end
+end
+
+object maTanDensePlate of maDensePlate
+	properties
+		color 74
+		special
+	end
+end
+
+object maGreenDensePlate of maDensePlate
+	properties
+		color 83
+		special
+	end
+end
+
+object maAmberDensePlate of maDensePlate
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDensePlate of maDensePlate
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+# Color-specific Dense Shields for use on NPCs
+
+object maRedDenseShield of maDenseShield
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDenseShield of maDenseShield
+	properties
+		color 63
+		special
+	end
+end
+
+object maTanDenseShield of maDenseShield
+	properties
+		color 74
+		special
+	end
+end
+
+object maAmberDenseShield of maDenseShield
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDenseShield of maDenseShield
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+# Color-specific Dense Boots for use on NPCs
+
+object maRedDenseBoots of maDenseBoots
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDenseBoots of maDenseBoots
+	properties
+		color 63
+		special
+	end
+end
+
+object maBrownDenseBoots of maDenseBoots
+	properties
+		color 73
+		special
+	end
+end
+
+object maTanDenseBoots of maDenseBoots
+	properties
+		color 74
+		special
+	end
+end
+
+object maAmberDenseBoots of maDenseBoots
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDenseBoots of maDenseBoots
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+# Color-specific Dense Helms for use on NPCs
+
+object maDenseHelm of Helmet
+	properties
+		name "Helm of Density"
+		color 98
+		value 10000
+		health 1000
+		armor 75
+		special
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base described
+		text "You see a helmet made of obsidianite."
+		idText "You see the Helm of Density, well known for being almost indestructable."
+		shopText "This magical helmet is practically indestructable but, unfortunately, quite heavy."
+	end
+end
+
+object maRedDenseHelm of maDenseHelm
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDenseHelm of maDenseHelm
+	properties
+		color 63
+		special
+	end
+end
+
+object maAmberDenseHelm of maDenseHelm
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDenseHelm of maDenseHelm
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+# Color-specific Dense Wristbands for use on NPCs
+
+object maRedDenseBands of maDenseBands
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDenseBands of maDenseBands
+	properties
+		color 63
+		special
+	end
+end
+
+object maBrownDenseBands of maDenseBands
+	properties
+		color 73
+		special
+	end
+end
+
+object maTanDenseBands of maDenseBands
+	properties
+		color 74
+		special
+	end
+end
+
+object maAmberDenseBands of maDenseBands
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDenseBands of maDenseBands
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+# Color-specific Dense Cowls for use on NPCs
+
+object maRedDenseCowl of maDenseCowl
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDenseCowl of maDenseCowl
+	properties
+		color 63
+		special
+	end
+end
+
+object maTanDenseCowl of maDenseCowl
+	properties
+		color 74
+		special
+	end
+end
+
+object maOrangeDenseCowl of maDenseCowl
+	properties
+		color 88
+		special
+	end
+end
+
+object maAmberDenseCowl of maDenseCowl
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDenseCowl of maDenseCowl
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+# Color-specific Dense Greaves for use on NPCs
+
+object maRedDenseGreaves of maDenseGreaves
+	properties
+		color 58
+		special
+	end
+end
+
+object maGoldDenseGreaves of maDenseGreaves
+	properties
+		color 63
+		special
+	end
+end
+
+object maTanDenseGreaves of maDenseGreaves
+	properties
+		color 74
+		special
+	end
+end
+
+object maOrangeDenseGreaves of maDenseGreaves
+	properties
+		color 88
+		special
+	end
+end
+
+object maAmberDenseGreaves of maDenseGreaves
+	properties
+		color 89
+		special
+	end
+end
+
+object maWhiteDenseGreaves of maDenseGreaves
+	properties
+		color 100
+		special
+	end
+end
+
+#------------------------------------------------------------
+

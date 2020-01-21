@@ -1,0 +1,16 @@
+quest  54 # 6077-01-445        # Linez, FoodCart, Arimathor, 5809
+
+name  "Delivery for Linez"
+type  fedex
+
+proposal  "I wondered when he would send for it.  It's all packaged.  Will you take it to him?"
+
+declined  "Why ever did you ask about it, then."
+
+accepted  "Good."
+
+reminder   "Take Aldonzo's lunch to him, please."
+
+reward   qAldonzoLunch 
+end
+

@@ -1,0 +1,19 @@
+quest  131 #6401-01-425        # Frixel, Broken Jug West, Drune, 8306
+
+name  "Mixed Grains for Frixel"
+type  fedex
+
+proposal  "Friend, your visit is perhaps foretold.  I, Frixel, have the amulet you seek.  It is a thing of beauty, a solid polished golden amulet.  I wonder if you would be interested in a mutually beneficial venture.  You would procure for me a supply of mixed grain from Murias.  I have need of these.  In return, I will give you the amulet.  Does this sound advantageous?"
+
+declined  "Never mind, then."
+
+accepted  "I'm glad you agree."
+
+reminder   "Go to Murias and find a supply of mixed grain."
+
+completed  "This is truly a good exchange.  Here is the golden amulet."
+
+getItem   qMixedGrain
+reward   qAmuletGolden 
+end
+

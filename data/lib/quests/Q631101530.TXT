@@ -1,0 +1,19 @@
+quest  126 #6311-01-530        # Bodi, Comestibles, Silverbrook, elf, 6411
+
+name  "Elf Soothing Cream"
+type  fedex
+
+proposal  "By all the gods, a true gourmet!  Welcome, welcome.  It's so seldom I have a customer who appreciates good food.  Now the speckled minter . . . ummmmm. . .delicious!  And you're in luck, because I do have a very fresh catch.  I supped on it just last evening, and smiled until morning.  Woke up with a smile on my face, I did.  Would you be in the mood, perchance, to fetch a small item for me from Drune in exchange?" 
+
+declined  "You ought to consider it."
+
+accepted  "Excellent.  I'm in need of a special elf ointment available only in Drune.  It's called Elf Soothing Cream."
+
+reminder   "Fetch me some Elf Soothing Cream from Drune."
+
+completed  "Excellent, excellent.  This elf thanks you, friend, and here's a good supply of speckled minter for you."
+
+getItem   qElfCream
+reward   qSpeckledMinter 
+end
+

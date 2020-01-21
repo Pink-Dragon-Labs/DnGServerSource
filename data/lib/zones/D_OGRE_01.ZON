@@ -1,0 +1,9 @@
+name "D_Ogre"
+title "Ogre Caverns"
+worldFile "../data/lib/world/D_OGRE_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock2230-0

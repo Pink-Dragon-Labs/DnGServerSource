@@ -1,0 +1,19 @@
+quest 248 #6902-01-325  #(Aimie, The Tub tavern, Usk, 8108)
+
+name  "Kombal's Wine"
+type  fedex
+
+proposal "Hello, traveler.  If you're looking for Aimie, you've found her. I've got connections for just about anything you want.  'Ask Aimie,' that's what they say around here.  An Empty Insect Skin, for example.  I've got one, and all I'm asking for it is a Flask of Kombal's Wine.  Not his stock variety, you understand, but the private supply he keeps under the counter."
+
+declined  "OK by me.  Someone will want it."  
+
+accepted  "Glad to hear it. Those guys in Kurz really know how to put a zing in their brew."
+
+reminder   "Kombal in Kurz.  Kind of rhymes, doesn't it.  Bring a flask of his private wine."
+
+completed  "Whoopee tonight!!!  I've got me some of Kombal's private stock.  Here's your Empty Insect Skin, traveler."
+
+getItem  qKombalWine
+reward  qEmptySkin
+end
+

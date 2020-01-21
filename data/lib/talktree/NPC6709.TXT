@@ -1,0 +1,17 @@
+id 6709
+
+banner "Welcome to the Rose and Thistle. Come in and make yourself at home!"
+
+topic "Tell me about Cambria."
+        text "Cambria was founded while the manor was being constructed, by the workers who built the manor house. The lords are kind people, so many of the workers, instead of returning home once the mansion was completed, stayed to farm the estate or to become domestics."
+        text "We're fairly prosperous here, because the lords don't stint on wages. Still, we remember our roots, and don't consider ourselves any better -- or any worse, mind you -- than anyone else in The Realm."
+end
+
+topic "Who are you?"
+        text "I am Katiana, caster of light magic, currently the owner of the Rose and Thistle. The R&T has been here since the lords came to Cambria."
+        text "I recently purchased the tavern from one of the distant cousins of the lords, who either inherited or purchased it from the original owners, I'm not sure which."
+end      
+
+topic "Can I do something for you?"
+        text "You are kind to offer. I have no troubles at present. But you are welcome to come back and ask whenever you are in the area."
+end

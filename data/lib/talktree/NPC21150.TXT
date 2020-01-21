@@ -1,0 +1,25 @@
+id 21150
+
+banner "Greetings, Friend. Welcome to the Oasis. I hope your journey was uneventful. How may I serve you?"
+
+topic "Tell me about the deep desert."
+        text "It is a dangerous place. But you are safe here at the Oasis. There is a Spell of Warding here that keeps the beasts at bay."
+        text "Many travellers who dare to cross the deep desert have been ambushed by foul beasts."
+        text "But, for the bold and brave, there's no place like it for adventuring."
+	text "Buy some of my fine ale and regale us with tales of your adventures, friend."
+end
+
+topic "Who are you?"
+        text "I am MarTull, keeper of the Oasis. I've lived in the desert all my life."
+        text "My parents were wandering minstrels who became lost in the vast expanse of the desert and perished, leaving me orphaned."
+        text "Fortunately, a she-wolf found me and raised me as her own. That's how I learned to survive here, and how I came to find the Oasis. I set up shop here in hopes of saving others from the misfortune that befell my poor parents."
+end
+
+topic "How can I find my way back to town?"
+        text "It's a long and dangerous journey. Perhaps you should rest here awhile first and quench your thirst from the oasis or try some of my finest ales and wines."
+	text "Determined to go aren't you? Very well then. Tell me, is one of your legs shorter than the other?"
+	text "I meant no offense but, in the desert, one can often walk in long circles, believing they are heading straight and unaware that their steps are uneven."
+	text "Yes, yes, of course. I can see you have two perfectly good legs. Very well. Head south, due south, and just keep going."
+	text "It's a long journey but you will eventually come to the desert village of Arimathor and, from there, you might find your way back to civilization. Are you sure I can't interest you in a mug of cool ale?"
+end
+

@@ -1,0 +1,16 @@
+id 200
+
+banner "What do you want?"
+
+topic "Who are you?"
+	text "My name is Garon.  I am an old adventurer in this land.  I have done much and seen even more."
+end
+
+topic "What are you doing here?"
+	text "I am sitting here, resting.  What does it look like to you?"
+end
+
+topic "Kolanar's Ancient Amulet" q14:0 #q100:0
+	quest 15
+	text "I have already given you what you need.  Make haste to Kolanar and give him the scroll!"
+end

@@ -1,0 +1,19 @@
+quest  231 #6815-01-425        # Cozenor, Spells of Fire, East Leinster, magic, 6072
+
+name  "Jellied Berries for Cozenor"
+type  fedex
+
+proposal  "I happen to have an excellent one here.  It's a genuine artifact, and still quite functional.  I've been tempted to keep it myself.  But if you want it, we can talk.  In fact, I have a proposal in mind.  I'd like to have some jellied berries.  A friend of mine was in Wen and came back raving about the taste.  They came from somewhere in Usk.  If you can find me some jellied berries, I'll let you have this little oil lamp."
+
+declined  "Maybe I'll keep the lamp."
+
+accepted  "Good.  I hope you find them."
+
+reminder   "Jellied berries from Usk."
+
+completed  "Well met, friend.  You found them.  My thanks.  Take the little lamp and enjoy it."
+
+getItem   qJelliedBerries
+reward   qOilLamp 
+end
+

@@ -1,0 +1,17 @@
+id 5033
+
+banner "Greetings and welcome to my food court. May I help you?"
+
+topic "Tell me about West Leinster."
+	text "I do not know what to say.  The place is different somehow.  I can not quite put my finger on it."
+	text "No, I know it is clean.  It is something else.  It just does not feel right here."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors!  Who has time for rumors with all this happening."
+	text "Don't talk to me about rumors.  I'm too distraught."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, but call again."
+end

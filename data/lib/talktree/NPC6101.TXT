@@ -1,0 +1,45 @@
+id 6101
+
+banner "Welcome to the Eaterie, Friend. You look hungry. May I help you?"
+
+topic "Tell me about Wen."
+	text "We're a small, friendly town.  It's quiet here."
+	text "Lately we've been having a lot more coming and going of people."       
+	text "All this activity seemed to start when the Mists lifted.  Maybe nobody knew we were here."
+end
+
+topic "Who are you?"
+        text "My name is Misha.  I've been here at the Eaterie for many years."
+        text "My family is spread to the four corners of the Realm now, but the Eaterie is still here."
+	text "I don't have any plans for retiring, either.  I'm still having fun with this place."
+end      
+
+topic "Can I do anything for you?"
+        text "That's a kind offer, Friend. I've nothing today, however."
+end
+
+topic  "I'm looking for petrified wood." q77:0 #q6205-01-300:0
+	quest 78 #6205-01-325
+	text  "You came to me earlier, stranger, and I assisted you."
+end
+
+topic  "I want some fresh baked bread." q366:0 #q80001-01-100:0
+	quest 367 #80001-01-125
+	text  "Ah, ah.  One loaf to a customer, friend.  You have yours."
+end
+
+topic  "I'm looking for a driftwood frame." q356:0 #q80000-01-425:0
+	quest 357 #80000-01-430
+	text  "You already have it, friend."
+end
+
+topic  "Hana sent me for her surprise." q366:0 #q81000-01-540:0
+	quest 367 #81000-01-545
+	text  "Dear me, I hope you didn't eat that bread I gave you.  I don't have any more for her."
+end
+
+topic  "Fiona wants some good bread for a package Kaliri's preparing for Sandor." q387:0 #q80500-01-430:0
+	quest  388 #80500-01-435
+	text  "You tease me, now.  I know you have it."
+end
+

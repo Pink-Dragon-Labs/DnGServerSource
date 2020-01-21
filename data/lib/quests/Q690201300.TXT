@@ -1,0 +1,19 @@
+quest 247 #6902-01-300  #(Nassoula of Asgard)
+
+name  "Empty Insect Skin"
+type  fedex
+
+proposal "You presume to be ready for Expert Mystic Spells.  Perhaps so.  I am prepared to assist. You may have the spellbook when you bring me an Empty Insect Skin." 
+
+declined  "Very well.
+
+accepted  "Go to Usk to begin your quest."
+
+reminder   "Your quest is for an Empty Insect Skin from Usk."
+
+completed  "Expert Mystic Spells require practice.  Take this spellbook and study diligently."
+
+getItem  qEmptySkin
+reward  skbMysticismIII
+end
+

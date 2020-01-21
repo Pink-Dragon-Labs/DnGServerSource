@@ -1,0 +1,788 @@
+object LesserWardingShield of RoundShield
+	properties
+		special
+		name "Magic Shield"
+		value 3000
+		level 25
+		health 300
+		enchantResistance 75
+	end
+
+	actions
+		vBePutOn changeSpellResistance dobj 10 0 1 2 3 4
+		vBePutOn changeCastResistance dobj 10 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -10 0 1 2 3 4
+		vBeTakenOff changeCastResistance dobj -10 0 1 2 3 4
+	end
+
+	base described
+		idText "Bonus: Magical immunity +10 percent.\nMagic Resistance: 75 percent.\nLevel Required: 25\n" 
+		shopText "Bonus: Magical immunity +10 percent.\nMagic Resistance: 75 percent.\nLevel Required: 25\n" 
+	end
+end
+
+object GreaterWardingShield of RoundShield
+	properties
+		special
+		name "Magic Shield"
+		value 10000
+		level 75
+		health 500
+		enchantResistance 95
+	end
+
+	actions
+		vBePutOn changeSpellResistance dobj 25 0 1 2 3 4
+		vBePutOn changeCastResistance dobj 25 0 1 2 3 4
+		vBeTakenOff changeSpellResistance dobj -25 0 1 2 3 4
+		vBeTakenOff changeCastResistance dobj -25 0 1 2 3 4
+	end
+
+	base described
+		idText "Bonus: Magical immunity +25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 75\n" 
+		shopText "Bonus: Magical immunity +25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 75\n" 
+	end
+end
+
+object ElementalAmuletI of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 2000
+		level 30
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 50 1
+		vBePutOn changeCastResistance dobj 25 2
+		vBeTakenOff changeSDM dobj -50 1
+		vBeTakenOff changeCastResistance dobj -25 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +50 percent.\nPenalty: Elemental spell mana cost +50 percent.  Mysticism cast ability -25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 30\n"
+		shopText "Bonus: Elemental spell power +50 percent.\nPenalty: Elemental spell mana cost +50 percent.  Mysticism cast ability -25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 30\n"
+	end
+end
+
+object ElementalAmuletII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 4000
+		level 60
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 100 1
+		vBePutOn changeCastResistance dobj 30 2
+		vBeTakenOff changeSDM dobj -100 1
+		vBeTakenOff changeCastResistance dobj -30 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +100 percent.\nPenalty: Elemental spell mana cost +100 percent.  Mysticism cast ability -30 percent.\nMagic Resistance: 95 percent.\nLevel Required: 60\n"
+		shopText "Bonus: Elemental spell power +100 percent.\nPenalty: Elemental spell mana cost +100 percent.  Mysticism cast ability -30 percent.\nMagic Resistance: 95 percent.\nLevel Required: 60\n"
+	end
+end
+
+object ElementalAmuletIII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 8000
+		level 100
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 150 1
+		vBePutOn changeCastResistance dobj 35 2
+		vBeTakenOff changeSDM dobj -150 1
+		vBeTakenOff changeCastResistance dobj -35 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +150 percent.\nPenalty: Elemental spell mana cost +150 percent.  Mysticism cast ability -35 percent.\nMagic Resistance: 95 percent.\nLevel Required: 100\n"
+		shopText "Bonus: Elemental spell power +150 percent.\nPenalty: Elemental spell mana cost +150 percent.  Mysticism cast ability -35 percent.\nMagic Resistance: 95 percent.\nLevel Required: 100\n"
+	end
+end
+
+object ElementalAmuletIV of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 16000
+		level 140
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 200 1
+		vBePutOn changeCastResistance dobj 40 2
+		vBeTakenOff changeSDM dobj -200 1
+		vBeTakenOff changeCastResistance dobj -40 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +200 percent.\nPenalty: Elemental spell mana cost +200 percent.  Mysticism cast ability -40 percent.\nMagic Resistance: 95 percent.\nLevel Required: 140\n"
+		shopText "Bonus: Elemental spell power +200 percent.\nPenalty: Elemental spell mana cost +200 percent.  Mysticism cast ability -40 percent.\nMagic Resistance: 95 percent.\nLevel Required: 140\n"
+	end
+end
+
+object ElementalAmuletV of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 32000
+		level 190
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 250 1
+		vBePutOn changeCastResistance dobj 45 2
+		vBeTakenOff changeSDM dobj -250 1
+		vBeTakenOff changeCastResistance dobj -45 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +250 percent.\nPenalty: Elemental spell mana cost +250 percent.  Mysticism cast ability -45 percent.\nMagic Resistance: 95 percent.\nLevel Required: 190\n"
+		shopText "Bonus: Elemental spell power +250 percent.\nPenalty: Elemental spell mana cost +250 percent.  Mysticism cast ability -45 percent.\nMagic Resistance: 95 percent.\nLevel Required: 190\n"
+	end
+end
+
+object ElementalAmuletVI of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 50000
+		level 240
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 300 1
+		vBePutOn changeCastResistance dobj 50 2
+		vBeTakenOff changeSDM dobj -300 1
+		vBeTakenOff changeCastResistance dobj -50 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +300 percent.\nPenalty: Elemental spell mana cost +300 percent.  Mysticism cast ability -50 percent.\nMagic Resistance: 95 percent.\nLevel Required: 240\n"
+		shopText "Bonus: Elemental spell power +300 percent.\nPenalty: Elemental spell mana cost +300 percent.  Mysticism cast ability -50 percent.\nMagic Resistance: 95 percent.\nLevel Required: 240\n"
+	end
+end
+
+object ElementalAmuletVII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 60000
+		level 300
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 350 1
+		vBePutOn changeCastResistance dobj 55 2
+		vBeTakenOff changeSDM dobj -350 1
+		vBeTakenOff changeCastResistance dobj -55 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +350 percent.\nPenalty: Elemental spell mana cost +350 percent.  Mysticism cast ability -55 percent.\nMagic Resistance: 95 percent.\nLevel Required: 300\n"
+		shopText "Bonus: Elemental spell power +350 percent.\nPenalty: Elemental spell mana cost +350 percent.  Mysticism cast ability -55 percent.\nMagic Resistance: 95 percent.\nLevel Required: 300\n"
+	end
+end
+
+object ElementalAmuletVIII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 75000
+		level 360
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 400 1
+		vBePutOn changeCastResistance dobj 60 2
+		vBeTakenOff changeSDM dobj -400 1
+		vBeTakenOff changeCastResistance dobj -60 2
+	end
+
+	base described
+		idText "Bonus: Elemental spell power +400 percent.\nPenalty: Elemental spell mana cost +400 percent.  Mysticism cast ability -60 percent.\nMagic Resistance: 95 percent.\nLevel Required: 360\n"
+		shopText "Bonus: Elemental spell power +400 percent.\nPenalty: Elemental spell mana cost +400 percent.  Mysticism cast ability -60 percent.\nMagic Resistance: 95 percent.\nLevel Required: 360\n"
+	end
+end
+
+object NecromancyAmuletI of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 2000
+		level 30
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 50 4
+		vBePutOn changeCastResistance dobj 25 3
+		vBeTakenOff changeSDM dobj -50 4
+		vBeTakenOff changeCastResistance dobj -25 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +50 percent.\nPenalty: Necromancy spell mana cost +50 percent.  Thaumaturgy cast ability -25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 30\n"
+		shopText "Bonus: Necromancy spell power +50 percent.\nPenalty: Necromancy spell mana cost +50 percent.  Thaumaturgy cast ability -25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 30\n"
+	end
+end
+
+object NecromancyAmuletII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 4000
+		level 60
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 100 4
+		vBePutOn changeCastResistance dobj 30 3
+		vBeTakenOff changeSDM dobj -100 4
+		vBeTakenOff changeCastResistance dobj -30 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +100 percent.\nPenalty: Necromancy spell mana cost +100 percent.  Thaumaturgy cast ability -30 percent.\nMagic Resistance: 95 percent.\nLevel Required: 60\n"
+		shopText "Bonus: Necromancy spell power +100 percent.\nPenalty: Necromancy spell mana cost +100 percent.  Thaumaturgy cast ability -30 percent.\nMagic Resistance: 95 percent.\nLevel Required: 60\n"
+	end
+end
+
+object NecromancyAmuletIII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 8000
+		level 100
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 150 4
+		vBePutOn changeCastResistance dobj 35 3
+		vBeTakenOff changeSDM dobj -150 4
+		vBeTakenOff changeCastResistance dobj -35 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +150 percent.\nPenalty: Necromancy spell mana cost +150 percent.  Thaumaturgy cast ability -35 percent.\nMagic Resistance: 95 percent.\nLevel Required: 100\n"
+		shopText "Bonus: Necromancy spell power +150 percent.\nPenalty: Necromancy spell mana cost +150 percent.  Thaumaturgy cast ability -35 percent.\nMagic Resistance: 95 percent.\nLevel Required: 100\n"
+	end
+end
+
+object NecromancyAmuletIV of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 16000
+		level 140
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 200 4
+		vBePutOn changeCastResistance dobj 40 3
+		vBeTakenOff changeSDM dobj -200 4
+		vBeTakenOff changeCastResistance dobj -40 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +200 percent.\nPenalty: Necromancy spell mana cost +200 percent.  Thaumaturgy cast ability -40 percent.\nMagic Resistance: 95 percent.\nLevel Required: 140\n"
+		shopText "Bonus: Necromancy spell power +200 percent.\nPenalty: Necromancy spell mana cost +200 percent.  Thaumaturgy cast ability -40 percent.\nMagic Resistance: 95 percent.\nLevel Required: 140\n"
+	end
+end
+
+object NecromancyAmuletV of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 32000
+		level 190
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 250 4
+		vBePutOn changeCastResistance dobj 45 3
+		vBeTakenOff changeSDM dobj -250 4
+		vBeTakenOff changeCastResistance dobj -45 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +250 percent.\nPenalty: Necromancy spell mana cost +250 percent.  Thaumaturgy cast ability -45 percent.\nMagic Resistance: 95 percent.\nLevel Required: 190\n"
+		shopText "Bonus: Necromancy spell power +250 percent.\nPenalty: Necromancy spell mana cost +250 percent.  Thaumaturgy cast ability -45 percent.\nMagic Resistance: 95 percent.\nLevel Required: 190\n"
+	end
+end
+
+object NecromancyAmuletVI of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 50000
+		level 240
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 300 4
+		vBePutOn changeCastResistance dobj 50 3
+		vBeTakenOff changeSDM dobj -300 4
+		vBeTakenOff changeCastResistance dobj -50 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +300 percent.\nPenalty: Necromancy spell mana cost +300 percent.  Thaumaturgy cast ability -50 percent.\nMagic Resistance: 95 percent.\nLevel Required: 240\n"
+		shopText "Bonus: Necromancy spell power +300 percent.\nPenalty: Necromancy spell mana cost +300 percent.  Thaumaturgy cast ability -50 percent.\nMagic Resistance: 95 percent.\nLevel Required: 240\n"
+	end
+end
+
+object NecromancyAmuletVII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 60000
+		level 300
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 350 4
+		vBePutOn changeCastResistance dobj 55 3
+		vBeTakenOff changeSDM dobj -350 4
+		vBeTakenOff changeCastResistance dobj -55 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +350 percent.\nPenalty: Necromancy spell mana cost +350 percent.  Thaumaturgy cast ability -55 percent.\nMagic Resistance: 95 percent.\nLevel Required: 300\n"
+		shopText "Bonus: Necromancy spell power +350 percent.\nPenalty: Necromancy spell mana cost +350 percent.  Thaumaturgy cast ability -55 percent.\nMagic Resistance: 95 percent.\nLevel Required: 300\n"
+	end
+end
+
+object NecromancyAmuletVIII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 75000
+		level 360
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 400 4
+		vBePutOn changeCastResistance dobj 60 3
+		vBeTakenOff changeSDM dobj -400 4
+		vBeTakenOff changeCastResistance dobj -60 3
+	end
+
+	base described
+		idText "Bonus: Necromancy spell power +400 percent.\nPenalty: Necromancy spell mana cost +400 percent.  Thaumaturgy cast ability -60 percent.\nMagic Resistance: 95 percent.\nLevel Required: 360\n"
+		shopText "Bonus: Necromancy spell power +400 percent.\nPenalty: Necromancy spell mana cost +400 percent.  Thaumaturgy cast ability -60 percent.\nMagic Resistance: 95 percent.\nLevel Required: 360\n"
+	end
+end
+
+object ThaumaturgyAmuletI of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 2000
+		level 30
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 50 3
+		vBePutOn changeCastResistance dobj 25 4
+		vBeTakenOff changeSDM dobj -50 3
+		vBeTakenOff changeCastResistance dobj -25 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +50 percent.\nPenalty: Thaumaturgy spell mana cost +50 percent.  Necromancy cast ability -25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 30\n"
+		shopText "Bonus: Thaumaturgy spell power +50 percent.\nPenalty: Thaumaturgy spell mana cost +50 percent.  Necromancy cast ability -25 percent.\nMagic Resistance: 95 percent.\nLevel Required: 30\n"
+	end
+end
+
+object ThaumaturgyAmuletII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 4000
+		level 60
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 100 3
+		vBePutOn changeCastResistance dobj 30 4
+		vBeTakenOff changeSDM dobj -100 3
+		vBeTakenOff changeCastResistance dobj -30 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +100 percent.\nPenalty: Thaumaturgy spell mana cost +100 percent.  Necromancy cast ability -30 percent.\nMagic Resistance: 95 percent.\nLevel Required: 60\n"
+		shopText "Bonus: Thaumaturgy spell power +100 percent.\nPenalty: Thaumaturgy spell mana cost +100 percent.  Necromancy cast ability -30 percent.\nMagic Resistance: 95 percent.\nLevel Required: 60\n"
+	end
+end
+
+object ThaumaturgyAmuletIII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 8000
+		level 100
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 150 3
+		vBePutOn changeCastResistance dobj 35 4
+		vBeTakenOff changeSDM dobj -150 3
+		vBeTakenOff changeCastResistance dobj -35 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +150 percent.\nPenalty: Thaumaturgy spell mana cost +150 percent.  Necromancy cast ability -35 percent.\nMagic Resistance: 95 percent.\nLevel Required: 100\n"
+		shopText "Bonus: Thaumaturgy spell power +150 percent.\nPenalty: Thaumaturgy spell mana cost +150 percent.  Necromancy cast ability -35 percent.\nMagic Resistance: 95 percent.\nLevel Required: 100\n"
+	end
+end
+
+object ThaumaturgyAmuletIV of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 16000
+		level 140
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 200 3
+		vBePutOn changeCastResistance dobj 40 4
+		vBeTakenOff changeSDM dobj -200 3
+		vBeTakenOff changeCastResistance dobj -40 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +200 percent.\nPenalty: Thaumaturgy spell mana cost +200 percent.  Necromancy cast ability -40 percent.\nMagic Resistance: 95 percent.\nLevel Required: 140\n"
+		shopText "Bonus: Thaumaturgy spell power +200 percent.\nPenalty: Thaumaturgy spell mana cost +200 percent.  Necromancy cast ability -40 percent.\nMagic Resistance: 95 percent.\nLevel Required: 140\n"
+	end
+end
+
+object ThaumaturgyAmuletV of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 32000
+		level 190
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 250 3
+		vBePutOn changeCastResistance dobj 45 4
+		vBeTakenOff changeSDM dobj -250 3
+		vBeTakenOff changeCastResistance dobj -45 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +250 percent.\nPenalty: Thaumaturgy spell mana cost +250 percent.  Necromancy cast ability -45 percent.\nMagic Resistance: 95 percent.\nLevel Required: 190\n"
+		shopText "Bonus: Thaumaturgy spell power +250 percent.\nPenalty: Thaumaturgy spell mana cost +250 percent.  Necromancy cast ability -45 percent.\nMagic Resistance: 95 percent.\nLevel Required: 190\n"
+	end
+end
+
+object ThaumaturgyAmuletVI of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 50000
+		level 240
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 300 3
+		vBePutOn changeCastResistance dobj 50 4
+		vBeTakenOff changeSDM dobj -300 3
+		vBeTakenOff changeCastResistance dobj -50 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +300 percent.\nPenalty: Thaumaturgy spell mana cost +300 percent.  Necromancy cast ability -50 percent.\nMagic Resistance: 95 percent.\nLevel Required: 240\n"
+		shopText "Bonus: Thaumaturgy spell power +300 percent.\nPenalty: Thaumaturgy spell mana cost +300 percent.  Necromancy cast ability -50 percent.\nMagic Resistance: 95 percent.\nLevel Required: 240\n"
+	end
+end
+
+object ThaumaturgyAmuletVII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 60000
+		level 300
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 350 3
+		vBePutOn changeCastResistance dobj 55 4
+		vBeTakenOff changeSDM dobj -350 3
+		vBeTakenOff changeCastResistance dobj -55 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +350 percent.\nPenalty: Thaumaturgy spell mana cost +350 percent.  Necromancy cast ability -55 percent.\nMagic Resistance: 95 percent.\nLevel Required: 300\n"
+		shopText "Bonus: Thaumaturgy spell power +350 percent.\nPenalty: Thaumaturgy spell mana cost +350 percent.  Necromancy cast ability -55 percent.\nMagic Resistance: 95 percent.\nLevel Required: 300\n"
+	end
+end
+
+object ThaumaturgyAmuletVIII of Amulet
+	properties
+		special
+		name "Magical Amulet"
+		value 75000
+		level 360
+		enchantResistance 95
+	end
+
+	actions 
+		vBePutOn changeSDM dobj 400 3
+		vBePutOn changeCastResistance dobj 60 4
+		vBeTakenOff changeSDM dobj -400 3
+		vBeTakenOff changeCastResistance dobj -60 4
+	end
+
+	base described
+		idText "Bonus: Thaumaturgy spell power +400 percent.\nPenalty: Thaumaturgy spell mana cost +400 percent.  Necromancy cast ability -60 percent.\nMagic Resistance: 95 percent.\nLevel Required: 360\n"
+		shopText "Bonus: Thaumaturgy spell power +400 percent.\nPenalty: Thaumaturgy spell mana cost +400 percent.  Necromancy cast ability -60 percent.\nMagic Resistance: 95 percent.\nLevel Required: 360\n"
+	end
+end
+
+object PiercingTine of MythrilDagger
+	properties
+		special
+		name "Magical Dagger"
+		value 1500
+		enchantResistance 60
+		level 25
+	end
+
+	base weapon
+		minDamage 10
+		maxDamage 30
+	end
+
+	actions
+		vBePutOn changeMeleeArmorPiercing dobj 50
+		vBePutOn changeManaDrain dobj 1.5
+		vBeTakenOff changeMeleeArmorPiercing dobj -50
+		vBeTakenOff changeManaDrain dobj -1.5
+	end
+
+	base described
+		idText "Bonus: Attack target armor rating reduced by 50.\nMana Cost: 1.5 crystals per round.\nMagic Resistance: 60 percent.\nLevel Required: 25\n"
+		shopText "Bonus: Attack target armor rating reduced by 50.\nMana Cost: 1.5 crystals per round.\nMagic Resistance: 60 percent.\nLevel Required: 25\n"
+	end
+end
+
+object SlicingBlade of AdmantiumLongSword
+	properties
+		special
+		name "Magical Long Sword"
+		value 10000
+		enchantResistance 80
+		level 75
+	end
+
+	base described
+		idText "Bonus: Enhanced Damage\nPenalty: Spell cast resistance +25 percent.\nMagic Resistance: 80 percent.\nLevel Required: 75\n"
+		shopText "Bonus: Enhanced Damage\nPenalty: Spell cast resistance +25 percent.\nMagic Resistance: 80 percent.\nLevel Required: 75\n"
+	end
+
+	base weapon
+		minDamage 15
+		maxDamage 80
+	end	
+
+	actions 
+		vBePutOn changeCastResistance dobj 25 0 1 2 3 4
+		vBeTakenOff changeCastResistance dobj -25 0 1 2 3 4
+	end
+end
+
+object HolyMace of MythrilMace
+	properties
+		special
+		name "Magical Mace"
+		value 2000
+		enchantResistance 100
+		level 75
+	end
+
+	base described
+		idText "Bonus: Damage tripled when used against evil opponents.\nPenalty: Necromancy cast resistance +100 percent.\nMana Cost: 5 crystals per round.\nMagic Resistance: 100 percent.\nLevel Required: 75\n"
+		shopText "Bonus: Damage tripled when used against evil opponents.\nPenalty: Necromancy cast resistance +100 percent.\nMana Cost: 5 crystals per round.\nMagic Resistance: 100 percent.\nLevel Required: 75\n"
+	end
+
+	base weapon
+		minDamage 20
+		maxDamage 40
+	end	
+
+	actions 
+		vBePutOn changeEvilMDMMod dobj 300
+		vBePutOn changeManaDrain dobj 5
+		vBePutOn changeCastResistance dobj 100 4
+		vBeTakenOff changeEvilMDMMod dobj -300
+		vBeTakenOff changeManaDrain dobj -5
+		vBeTakenOff changeCastResistance dobj -100 4
+	end
+end
+
+object PhasingHelm of MythrilHelmet
+	properties
+		special
+		name "Magical Helmet"
+		value 10000
+		enchantResistance 100
+		level 150
+	end
+
+	base described
+		idText "Bonus: Melee attack immunity +50 percent.\nPenalty: Thaumaturgy cast resistance +50 percent.  Necromancy cast resistance +50 percent.\nMana Cost: 25 crystals per round.\nMagic Resistance: 100 percent.\nLevel Required: 150\n"
+		shopText "Bonus: Melee attack immunity +50 percent.\nPenalty: Thaumaturgy cast resistance +50 percent.  Necromancy cast resistance +50 percent.\nMana Cost: 25 crystals per round.\nMagic Resistance: 100 percent.\nLevel Required: 150\n"
+	end
+
+	actions 
+		vBePutOn changeManaDrain dobj 25
+		vBePutOn changeCastResistance dobj 50 3 4
+		vBePutOn changeMeleePhase dobj 50
+		vBeTakenOff changeManaDrain dobj -25
+		vBeTakenOff changeCastResistance dobj -50 3 4
+		vBeTakenOff changeMeleePhase dobj -50
+	end
+end
+
+object ElementalWardRingI of Ring
+	properties
+		special
+		name "Magical Ring"
+		value 3000
+		enchantResistance 80
+		level 40
+	end
+
+	base described
+		idText "Bonus: Elementalism immunity +15 percent.\nPenalty: Mysticism immunity -15 percent.\nMagic Resistance: 80 percent.\nLevel Required: 40\n"
+		shopText "Bonus: Elementalism immunity +15 percent.\nPenalty: Mysticism immunity -15 percent.\nMagic Resistance: 80 percent.\nLevel Required: 40\n"
+	end
+
+	actions 
+		vBePutOn changeCastResistance dobj 15 1 
+		vBePutOn changeCastResistance dobj -15 2 
+		vBePutOn changeSpellResistance dobj 15 1
+		vBePutOn changeSpellResistance dobj -15 2
+
+		vBeTakenOff changeCastResistance dobj -15 1 
+		vBeTakenOff changeCastResistance dobj 15 2 
+		vBeTakenOff changeSpellResistance dobj -15 1
+		vBeTakenOff changeSpellResistance dobj 15 2
+	end
+end
+
+object ElementalWardRingII of Ring
+	properties
+		special
+		name "Magical Ring"
+		value 6000
+		enchantResistance 80
+		level 70
+	end
+
+	base described
+		idText "Bonus: Elementalism immunity +25 percent.\nPenalty: Mysticism immunity -25 percent.\nMagic Resistance: 80 percent.\nLevel Required: 70\n"
+		shopText "Bonus: Elementalism immunity +25 percent.\nPenalty: Mysticism immunity -25 percent.\nMagic Resistance: 80 percent.\nLevel Required: 70\n"
+	end
+
+	actions 
+		vBePutOn changeCastResistance dobj 25 1 
+		vBePutOn changeCastResistance dobj -25 2 
+		vBePutOn changeSpellResistance dobj 25 1
+		vBePutOn changeSpellResistance dobj -25 2
+
+		vBeTakenOff changeCastResistance dobj -25 1 
+		vBeTakenOff changeCastResistance dobj 25 2 
+		vBeTakenOff changeSpellResistance dobj -25 1
+		vBeTakenOff changeSpellResistance dobj 25 2
+	end
+end
+
+
+object MysticismWardRingI of Ring
+	properties
+		special
+		name "Magical Ring"
+		value 3000
+		enchantResistance 80
+		level 40
+	end
+
+	base described
+		idText "Bonus: Mysticism immunity +15 percent.\nPenalty: Elementalism immunity -15 percent.\nMagic Resistance: 80 percent.\nLevel Required: 40\n"
+		shopText "Bonus: Mysticism immunity +15 percent.\nPenalty: Elementalism immunity -15 percent.\nMagic Resistance: 80 percent.\nLevel Required: 40\n"
+	end
+
+	actions 
+		vBePutOn changeCastResistance dobj 15 2 
+		vBePutOn changeCastResistance dobj -15 1 
+		vBePutOn changeSpellResistance dobj 15 2
+		vBePutOn changeSpellResistance dobj -15 1
+
+		vBeTakenOff changeCastResistance dobj -15 2 
+		vBeTakenOff changeCastResistance dobj 15 1 
+		vBeTakenOff changeSpellResistance dobj -15 2
+		vBeTakenOff changeSpellResistance dobj 15 1
+	end
+end
+
+object MysticismWardRingII of Ring
+	properties
+		special
+		name "Magical Ring"
+		value 6000
+		enchantResistance 80
+		level 70
+	end
+
+	base described
+		idText "Bonus: Mysticism immunity +25 percent.\nPenalty: Elementalism immunity -25 percent.\nMagic Resistance: 80 percent.\nLevel Required: 70\n"
+		shopText "Bonus: Mysticism immunity +25 percent.\nPenalty: Elementalism immunity -25 percent.\nMagic Resistance: 80 percent.\nLevel Required: 70\n"
+	end
+
+	actions 
+		vBePutOn changeCastResistance dobj 25 2 
+		vBePutOn changeCastResistance dobj -25 1 
+		vBePutOn changeSpellResistance dobj 25 2
+		vBePutOn changeSpellResistance dobj -25 1
+
+		vBeTakenOff changeCastResistance dobj -25 2 
+		vBeTakenOff changeCastResistance dobj 25 1 
+		vBeTakenOff changeSpellResistance dobj -25 2
+		vBeTakenOff changeSpellResistance dobj 25 1
+	end
+end
+

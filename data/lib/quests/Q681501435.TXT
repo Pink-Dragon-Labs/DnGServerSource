@@ -1,0 +1,18 @@
+quest  233 #6815-01-435        # Fiona, The Ladyslipper, tavern, Wen, 6104
+
+name  "Bread for Fiona
+type  fedex
+
+proposal  "You are in luck, my friend.  I make cheese as a hobby, but it's grown into quite a lucrative hobby.  People seem to like the cheeses made with my secret ingredient.  At any rate, I get lots of folk through here who have heard about the special cheeses of Wen.  You're another such, I judge.  I've got a supply available.  Funny thing is, though, that I've been hearing some tales myself.  I've been hearing about a special kind of bread prepared in Murias from freshly ground grain that they grow.  Do you think you could find me some in exchange for the cheese?"
+
+declined  "Too bad."
+
+accepted  "Good hunting, friend.  I hope you return with some bread."
+
+reminder   "A special bread from Murias is your quest."
+
+completed  "So you found some!  I'm delighted.  I saved some of my best cheese in the hope you would be successful."
+
+getItem   qGrainBread
+reward   qWenCheese 
+end

@@ -1,0 +1,44 @@
+name "TESTAREA"
+title "Monster Lab"
+worldFile "../data/lib/world/NPCTEST.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 9
+groupChance 1
+
+#Artwork
+#monster FireElemental 10
+#monster EarthElemental 10
+#monster WaterElemental 10
+#monster AirElemental 10
+
+#Scott
+#monster EvilWizard 10
+#monster NeutralWizard 10
+#monster GoodWizard 10
+#monster DireWolf 10
+#monster Apophis 10
+#monster Paladin 20
+#monster PaladinA 20
+#monster PaladinB 20
+#monster SoldierE 20
+#monster SoldierN 20
+#monster SoldierG 20
+#monster WardenHA06 20
+#monster WardenHA07 20
+#monster WardenHA08 20
+#monster WardenHA09 20
+#monster WardenHA10 20
+#monster WardenHA11 20
+#monster WardenHA12 20
+#monster MinotaurA 20
+#monster MinotaurB 20
+#monster MinotaurC 20
+#monster MinotaurD 20
+#monster MinotaurE 20
+
+#ambushInterval 10
+#ambush 10 EvilWizard EvilMinion EvilMinion 
+#ambush 10 NeutralWizard Protector Protector 
+#ambush 10 GoodWizard Champion Champion

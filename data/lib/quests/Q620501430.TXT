@@ -1,0 +1,19 @@
+quest  83 #6205-01-430        #Ghoud, Asgard General Goods, 6904
+
+name  "A Necessary Headache Cure"
+type  fedex
+
+proposal  "MARA'S KEY!!!  You have the nerve to walk in here and just ask for Mara's key?  I am a reasonable man, but this is too much.  This I will not tolerate.  This I will not endure.  Get out!  Wait a bit.  Hold on.  I'm losing my temper here, and from the look on your face, she's taken you in, too.  She probably sent you off saying it was just a small task.  Ha.  I see that she did.  Well, it's no small thing you ask.  She is a . . . a . . .   Well, let's just say she's a no-good, SNEAKY, SO & SO!!!   All this shouting is not good for my health.  Please, go over to Minka the healer, and get something for my headache.  Then we will talk about Mara's key.  Will you go to Minka for me?"
+
+declined  "Oh, my poor head."
+
+accepted  "Please hurry."
+
+reminder   "I need something from Minka for this headache."
+
+completed  "Thank you, stranger.  I appreciate your kindness and I'm sorry I shouted.  I've calmed down and thought it over, and I want you to take Mara's key.  It's for the best.  Just get it out of my sight, please."
+
+getItem  qHeadacheCure
+reward   qMaraKey 
+end
+

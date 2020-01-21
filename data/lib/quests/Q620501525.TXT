@@ -1,0 +1,18 @@
+quest  86 #6205-01-525        # Holiph, the Farthing Inn, Usk, 8107
+
+name  "A Mission for Holiph"
+type  fedex
+
+proposal  "You say you seek an Imp Bloodstone.  You've come to giant-folk in your quest.  I wonder if that was a lucky guess?  Further, you ask of me.  Look me in the eye a moment, stranger.  Yes, I can see that you are serious about this quest.  An Imp Bloodstone is a dangerous item.  Only the very strong in mind and honor should have dealings with it.  Honor must, of course, be defined by your own code.  But for your own good, let me caution you to be true to your code while it is in your possession.  It is not yet in your possession, however.  To gain the Imp Bloodstone, you must journey to Silverbrook.  Will you accept this assignment?" 
+
+declined  "Then forget this entire conversation, for your own good."
+
+accepted  "Find the elf named Litula.  Say that Holiph sent you.  You will be given an envelope which you will bring to me."
+
+reminder   "Find Litula in Silverbrook.  Say that Holiph sent you, and bring me the envelope which will be given to you."
+
+completed  "Give me a moment with the envelope.  You will now take the Imp Bloodstone and very quickly and quietly depart from Usk."
+
+getItem   qHoliphEnvelope
+reward   qImpBloodstone 
+end

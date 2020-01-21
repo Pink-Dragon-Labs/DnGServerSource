@@ -1,0 +1,34 @@
+id 6803
+
+banner "Greetings. I am Janria, proprietor of Fantastic Togs. How may I serve you?"
+
+topic "Tell me about Arimathor."
+        text "Our beautiful green oasis?  The great Ascetos Desert surrounds us, but our humble homes bloom."
+	text "The desert is inhabited by cobras that harm unwise travellers.  We of Arimathor need not fear them, however."
+	text "Arimathoreans are of gypsy stock. We are a simple and peaceful people. We honor Melkior and attempt to follow the light of the higher way he teaches us."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I do not care to listen to such stuff.  But my sister, now that's another story.  You should hear her run on, and on, and on.  She owns Fantastic Meals next door.  She is my twin.  If you go in, tell her I send greetings."
+        text "No rumors, no.  But a word of advice.  If you plan to spend time in the Ascetos Desert, be careful."
+end      
+
+topic "Can I do anything for you?"
+        text "Shush.  Not so loud.  Soon I will have something.  Return and ask again, but ask softly."
+end
+
+topic  "I seek an antiquated broach." q341:0 #q8307-01-525:0
+	quest 342 #8307-01-530
+	text  "Do not joke about this.  You have the broach."
+end
+
+topic  "Sanria sent me for a package." q372:0 #q80001-01-325:0
+	quest 373 #80001-01-330
+	text  "You came for it already."
+end
+
+topic  "I'm looking for a missing hand drill." q33:0 #q6045-01-500:0
+	quest 34 #6045-01-525
+	text  "You came for it already.  How could you have forgotten?"
+end
+

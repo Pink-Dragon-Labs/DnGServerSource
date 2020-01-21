@@ -1,0 +1,13 @@
+quest  76 #6205-01-230        #Aligar, Ali's Weaponry, Arimathor, 6817
+
+name  "Aldonzo's Dagger"
+type  fedex
+
+proposal  "Welcome, friend.  Aldonzo's dagger is ready.  Nice little piece of work.  It was a pleasure working on it.  Some of these old weapons are better than anything around today.  Sad commentary on modern times, isn't it?  Are you planning to take it back to him?"
+
+declined  "Well, enjoy your stay in Arimathor.   Great little town we have here."
+
+accepted  "Good, good.  Always nice to see a person willing to do a little favor for another."
+
+reward   qAldonzoDagger 
+end

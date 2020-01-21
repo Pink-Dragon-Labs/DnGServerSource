@@ -1,0 +1,17 @@
+id 5502
+
+banner "Howdy. I'm the gatekeeper. You want to visit someone in Guennor?"
+
+topic "Tell me about Guennor."
+        text "Been here since the ancient times.  Goes a long way back."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Nope. Can't say that I have."
+end      
+
+topic "How do I get to someone's house?"
+        text "Just give me a name.  That's all I need."
+end
+
+

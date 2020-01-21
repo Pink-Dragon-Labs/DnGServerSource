@@ -1,0 +1,17 @@
+quest  260 #6902-01-540        #Sandor, Ascetos Cave, 21506 (entrance)
+
+name  "Surprise for Sandor
+type  fedex
+
+proposal  "Great Suffering Sand Snakes!  What a thing to have happen!!  Here I am, doing a dangerous job in a dangerous spot, and what happens?  I get a delivery of food from my grandmother in a fancy basket!  My reputation may never be the same, mate.   On the other hand, our food hasn't been the best.  If I share with my compadres, I may come out of this all right.  My grandmother is a great old gal, actually.  And I did pick up an interesting rock for her in the desert the other day.  Would you take it back to her?"
+
+declined  "Well, thanks for delivering the basket. I'll give you the rock anyway in trade."
+
+accepted  "Good.  Just give me the basket, then you can give her my thanks and the rock, mate.  She likes such things." 
+
+reminder   "Better get out of the desert before nightfall.  Don't forget to give that rock to my grandmother."
+
+getItem   qFoodBasket    
+reward   qDesertRock
+end
+

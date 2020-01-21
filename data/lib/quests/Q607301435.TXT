@@ -1,0 +1,19 @@
+quest  42 #6073-01-435        # Wonduri, Silverbrook Charms, magic, Silverbrook, 6403
+
+name  "Wonduri's Order"
+type  fedex
+
+proposal  "I hope you know what you are doing.  This extract is dangerous in the wrong hands.  If you were a dark elf, I would not even consider selling it to you.  I am cautious even about you.  However, I need a package picked up in Usk.  If you'll do that I will give you some copperhead extract.  Will you?"
+
+declined  "Just as well."
+
+accepted  "I have a special order waiting in Usk."
+
+reminder   "Go to Usk for my package before I change my mind."
+
+completed  "I wonder if I am wise to give this to you?  Nevertheless, here it is."
+
+getItem   qWonduriPackage
+reward   qCopperheadExtract 
+end
+

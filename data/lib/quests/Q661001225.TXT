@@ -1,0 +1,16 @@
+quest  185 #6610-01-225        # Lopier, Marvelous Armory, weapons, Usk, giant, 8103
+
+name  "An Old Chip"
+type  fedex
+
+proposal  "There is an old chip laying around here you can have.  I don't know why I haven't thrown it away.  Want to take it with you now?"
+
+declined  "Guess I'll just toss it."
+
+accepted  "It's yours."
+
+reminder   "Shouldn't you take that gravestone chip back to wherever you came from?"
+
+reward   qGravestoneChip 
+end
+

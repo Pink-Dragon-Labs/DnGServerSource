@@ -1,0 +1,19 @@
+quest  64 #6102-01-435        # Cozenor, Spells of Fire, magic, Leinster East, 6072
+
+name  "Cozenor  Has an Errand"
+type  fedex
+
+proposal  "You and just about everybody else.  Aren't these rats awful?  They seemed to proliferate after the smiting.  I've got a potion here that seems to work.  If you want to give it a try, I'll trade for an errand to West Leinster.  Don't want to set foot in that side of Leinster myself.  What about it?"
+
+declined  "Forget I asked."
+
+accepted  "A relative, very distant relative, has a shop.  Ethereal something or other is the name.  At any rate, she's holding a package for me.  Probably laughing up her sleeve at the idea that I'll have to come get it.  Retrieve it, please."
+
+reminder   "Go to West Leinster and find a shop named Ethereal and pick up a package for me."
+
+completed  "Outfoxed her, I guess.  Thought I'd have to pick it up in person.  Ha.  I packaged your rat potion."
+
+getItem   qCozenorPackage
+reward   qRatDeterrent 
+end
+

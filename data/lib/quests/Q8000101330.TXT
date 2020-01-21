@@ -1,0 +1,19 @@
+quest  373 #80001-01-330        # Janria, Fantastic Togs, Arimathor, 6803
+
+name  "A Packet of Needles"
+type  fedex
+
+proposal  "You look surprised.  Sanria probably forgot to mention we're twins, didn't she?  We're always confusing people.  I guess we really do look alike.  I have the package for her, but I wonder if you would do me a favor first.  I need a packet of needles very badly.  Would you fetch a packet for me?" 
+
+declined  "Too bad."
+
+accepted  "Thanks very much.  Go to Kaliri.  She has exactly what I need."
+
+reminder   "Old Kaliri at the general store has a packet of needles for me."
+
+completed  "Many thanks. Here's the package for Sanria."
+
+getItem   qNeedlePacket
+reward   qSanriaPackage 
+end
+

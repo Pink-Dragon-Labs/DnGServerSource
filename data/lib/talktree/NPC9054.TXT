@@ -1,0 +1,23 @@
+id 9054
+#--------------- 9054 1484 wwood8 male human Pyotr
+
+banner "Welcome to my shop, friend. How may I serve you?"
+
+topic "Tell me about Wandering Woods."
+    text "It earned that name, or so I'm told, because of all the people that become lost in it."
+    text "They just wander around looking for civilianization."
+    text "That's why I set up shop here. I figured there are many lost souls wandering around in search of food and drink."
+    text "Buy some of my fine ale and regale us with tales of your adventures, friend."
+end
+
+topic "Who are you?"
+    text "I am Pyotr, I thought I told you that already."
+    text "I didn't? Sorry friend. I tend to forget things from time to time."
+    text "I heard rumor that there is gold to be made out in these parts. I packed up my things and rushed out here. Just think, I could start my own town. How does the name Pyotrville sound?"
+end
+
+topic "Have you heard any rumors?"
+    text "It's a fact I have! Just north of here is a basin. It's been told to me that strange beasts flock there to drink in the heat of the day. I have not a chance to go and see for myself."
+    text "I also heard tale that just West of here there are 2 boulders. It's said they landed here back in the days of old when Leinster was smote. They say the stones mark the exact place Duach was standing while watching the fire rain down on that city."
+    text "Strange stuff, eh?
+end

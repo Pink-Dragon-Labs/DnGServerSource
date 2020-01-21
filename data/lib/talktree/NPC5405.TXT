@@ -1,0 +1,85 @@
+id 5405
+
+banner "Greetings, Friend. I am the gatekeeper. Would you like to visit a Silverbrook resident?"
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook is a town inhabited predominantly by elves. Most in Silverbrook honor the goddess Enid."
+	text "Enid is the most gentle of the gods. She is a goddess of nature and peace."
+	text "We are a peaceful people, and slow to anger."
+	text "Though one shouldn't presume on the calm nature of elves.  An angry elf is a formidable sight."
+end
+
+topic  "Do you have an interest in limericks?"
+	text "Of course.  Doesn't everyone?"
+	text "I just heard one I like."
+	text "Maybe this one is new to you, although it's hard to find a new one, isn't it."
+	text "A tutor who tooted a flute"
+	text "Tried to teach two young tooters to toot."
+	text "Said the two to the tutor,"
+	text "'Is it harder to toot, or"
+	text "To tutor two tooters to toot?'"
+end      
+
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard of a town called Drune which is also an elf-town, though I've never seen it. I believe it borders the Devon Forest."
+	text "I've begun to hear tales of a smiting by the gods.  I hope it isn't true."
+	text "If it is true, there's a town in the Realm that is nearly destroyed."
+	text "Enid would never do that to Silverbrook, I feel sure."
+	text "I don't think she would let another god do it to us either.  At least I hope not."
+end      
+
+topic  "I need help finding shops."
+	banner  "It's my pleasure to help you.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "Look Your Best is right three."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is right two. Comestibles is right three, down one."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Silverbrook Charms is right two, up one, right one."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Shop of Defense is up one, right one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Litula's Sundries is right one, down one, right one."
+	end
+
+	topic  "Do you have a chapel?"
+		text "That we do not.  A close one is in Wen, and there are several others."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "Magic Tomes, a wizard's academy, is right one."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Heal Yourself is right four, up one."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "There are two here in Silverbrook.  Good Fortune Inn is up one.  The Cock's Crow is right four, down one."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Put in the name of the individual you want to visit, Friend. And enjoy your stay in Silverbrook!"
+end
+
+topic  "I've come for Meulen's Supplies." q228:0 #q6815-01-330:0
+	quest 229 #6815-01-335
+	text  "Traveller, do you forget that you already took them?"
+end
+
+topic  "I'm hoping to find some birch bark.  Have you any?" q31:0 #q6045-01-435:0
+	quest 32 #6045-01-440
+	text  "I gave you some."
+end
+

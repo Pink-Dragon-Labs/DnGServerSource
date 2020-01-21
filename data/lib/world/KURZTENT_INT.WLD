@@ -1,0 +1,109 @@
+room 8004
+   properties
+      picture	4001
+	  south	7004 320 300
+   end
+   atpinfo
+      2104  194 284
+      2241  415 236
+      2241  145 298
+   end
+   objects
+      object stool8004-0 of Stool
+         properties
+            x	465
+            y	248
+            loop	0
+         end
+      end
+      object stool8004-1 of Stool
+         properties
+            x	268
+            y	277
+            loop	0
+         end
+      end
+   end
+end
+room 8019
+   properties
+      picture	4001
+      south	7019 320 300
+      flags	2
+   end
+   atpinfo
+      2105  490 280
+      2241  424 274
+      2106  97 297
+      2599  262 234
+   end
+   objects
+      object stool8019-0 of Stool
+         properties
+            x	165
+            y	293
+            loop	0
+         end
+      end
+      object stool8019-1 of Stool
+         properties
+            x	54
+            y	311
+            loop	0
+         end
+      end
+      object chair8019-2 of Chair
+         properties
+            x	203
+            y	260
+            loop	0
+         end
+      end
+      object chair8019-3 of Chair
+         properties
+            x	351
+            y	244
+            loop	1
+         end
+      end
+   end
+end
+room 8099
+   properties
+      picture	4001
+	  south		7019 320 300
+   end
+   atpinfo
+      2118  300 253 59
+      2136  86 286 50
+      2104  137 285
+      2106  266 252
+      2106  335 252
+   end
+   objects
+      object stool8099-0 of Stool
+         properties
+            x	549
+            y	293
+            loop	1
+         end
+      end
+   end
+end
+room 8098
+   properties
+      picture	4001
+   end
+   atpinfo
+      2106  327 268
+      2111  531 265
+      2110  165 249
+      2125  386 225
+      2124  271 224
+      2131  74 286
+      2132  325 269 64
+      2142  116 250 13
+      34911  580 266 14
+      2133  592 284
+   end
+end

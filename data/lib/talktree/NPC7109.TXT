@@ -1,0 +1,70 @@
+id 7109
+
+banner "Hello, Adventurer. I am the gatekeeper of Usk. Whose home do you wish to visit?"
+
+topic "Tell me about Usk."
+        text "Usk is populated predominantly by giants, but they don't mind if we humans live here."
+	text "I was just passing through here and liked it so much I decided to stay. It's a nice place to live."
+	text "My giant neighbors have been very kind and helpful.  Inila sent me some food the night I arrived.  Was I ever glad to see it!"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that the giant-town of Bath is an evil place."
+	text "But the elven towns of Drune and Silverbrook are quite fine."
+	text "There's a really good carver somewhere in Murias.  Next time I go, I'm going to find him and ask for a carving of some flowers."
+	text "That's probably the only way I'll be able to keep flowers around.  I don't know what I'm doing wrong."
+end      
+
+topic  "I need help finding shops."
+	banner  "I can help.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "Fashion Delights is up two."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is right two, up one, left one.  Ambrosia is up one, left one"
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Mabon's Magic is right two."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "We've got two.  Marvelous Armory is up two, right two.  Excellent Weaponry is up two, left one."
+	end
+
+	topic  "Where can I find a general store?"
+		text "The Usk Boutique is right one, down one."
+	end
+
+	topic  "Do you have a chapel?"
+		text "Indeed we do.  Up two, right one."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "The Learning Emporium, a warrior's academy, is right one, down one, right one."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Good Health Potions is right one."
+	end
+
+	topic  "Where can I find a tavern?"
+		text "There are a couple here.  The Farthing Inn is right two, up one.  The Tub is left one."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Simply type the name of the individual you want to visit."
+end
+
+topic  "I need some Usk acorns." q92:0 #q6211-01-430:0
+	quest 93 #6211-01-435
+	text  "I already gave you a package of acorns."
+end
+
+topic  "Do you have Wonduri's package" q42:0 #q6073-01-435:0
+	quest  43 #6073-01-440
+	text  "Have you forgotten I gave that package to you?"
+end

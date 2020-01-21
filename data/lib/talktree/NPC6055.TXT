@@ -1,0 +1,24 @@
+id 6055
+
+banner "You look like the type of adventurer that wants to learn the mystical secrets of magic.  Come on in and let me show you!"
+
+topic "What are the mystical secrets of magic?"
+	text "Well, I don't really know any 'mystical secrets'.  I just use that line to get people interested in my merchandise."
+	text "Did it work?"
+end
+
+topic "Tell me about Leinster"
+	text "I could tell you many things about Leinster."
+	text "For instance, I could tell you that Leinster was once the largest and most powerful city in The Realm."
+	text "Or I could tell you that Leinster is now a mouse infested ruin because of the terrible smiting it got from Duach."
+	text "But I'll keep my mouth shut about such things."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "Rumors are for sewing circles... I don't speak of rumors..."
+	text "... but I did hear that some old guy named Zelbic has a zoo somewhere in the forest called Bloodwood.  Seems his poor father was eaten by a devil.  I doubt if it's true because I know there is no such thing as devils.  Pure garbage, if you ask me!"
+end      
+
+topic "Do you have anything for me to do?"
+	text "No, I've got nothing at the moment.  Thanks for asking."
+end

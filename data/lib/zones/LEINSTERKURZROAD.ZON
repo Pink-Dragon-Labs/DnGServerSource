@@ -1,0 +1,39 @@
+name "leinsterkurzroad"
+title "Leinster/Kurz Road"
+worldFile "../data/lib/world/NROAD1.WLD"
+worldFile "../data/lib/world/EROAD1.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 14
+# Leinster/Kurz Rd	Area 04		Player Level 25-80	Alignment: Evil		Monsters/Room: 3.03
+groupChance 35
+monster DarkFaery 3
+monster WoodNymph 3
+monster BountyHunterD 1
+monster WarriorC 2
+monster WarriorD 1
+monster ThiefC 1
+monster ThiefD 1
+monster Cleric 5
+monster Cyclops 2
+monster Shade 5
+monster Ghost 4
+monster Lich 10
+monster ImpGuard 3
+monster ImpKing 8
+monster ImpNecromancer 10
+monster ImpSlaveMaster 10
+monster ImpThaumaturgist 4
+monster ImpWarrior 5
+monster Ogre 4
+monster OgreChief 2
+monster OgreMage 2
+monster UglyOgre 2
+monster TrollArmsman 4
+monster TrollElementalist 2
+monster TrollKing 1
+monster TrollSorcerer 2
+monster TrollWarrior 2
+monster WaspQueen 1
+

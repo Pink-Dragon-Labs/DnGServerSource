@@ -1,0 +1,18 @@
+quest 25 # 6043-01-535        # Legotia, The Soothing Touch, healer, Wen, 6111
+name  "Small Clay Pots"
+type  fedex
+
+proposal  "I believe I do have what you want, friend. Wen is such a quiet and peaceful town that I don't have an overload of wounded patients. I had free time so I took up dabbling in painting as a hobby.  That led me to experimenting with mixing the colors, and I came up with a very nice shade of reddish paint.  I'll be glad to let you have a tube in exchange for a favor I need.  I would like some small clay pots from Silverbrook.  Will you do this errand?"
+
+declined  "That's fine, friend."
+
+accepted  "Excellent. I'll look forward to your return."
+
+reminder   "You're going to seek for some small clay pots in Silverbrook."
+
+completed  "Very nice selection.  Thank you.  Here is the tube of red paint I promised you."
+
+getItem   qClayPots
+reward   qRedPaint 
+end
+

@@ -1,0 +1,51 @@
+id 6073
+
+banner "Welcome to my weapons shop, The Forge. May I assist you?"
+
+topic "Tell me about Leinster."
+        text "Leinster was once a thriving town, the largest in the Realm."
+	text "Then the gods went to work on it, and now it's the biggest pile of debris in the Realm."
+	text "Mind you, I'm not against Despothes and Duach having their fun and games, but did they have to destroy our town?  And then just leave!"
+	text  "I've been indulging myself with a fanciful vision of Duach's mother herding him into Leinster and saying 'Now you just march yourself right in there and clean up your mess!'  That would be a sight to see!"
+	text  "I know it's not a laughing matter, but if I didn't laugh, I'd cry. And that really is my opinion of this shenanigan. I don't care if they are gods, why did they have to destroy our town!"
+	text  "It makes me mad and it scares me, all at the same time.  This smiting was serious business, and we may be in for a lot more destruction."
+	text  "If the gods did it once, they could do it again, and worse!  What's to protect us from them?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that the weapons one can purchase elsewhere in Leinster are decidedly inferior to my own."
+        text "Of course, that's not a rumor, it's a fact."
+end      
+
+topic "Can I do anything for you?"
+        text "I can't think of anything right now. Ask me again another time."
+end
+
+topic  "I'm looking for Volzer's armor polish order." q138:0 #q6401-01-535:0
+	quest 139 #6401-01-540
+	text  "You took it already."
+end
+
+topic  "I want to learn the ways of war." c29:5
+	banner  "Now that's a smart move, the way things look to me.  If the melee is your weapon and you're interested, I can teach you master and grand-master skills in critical striking. You can do serious damage with this skill. I'll only teach you master and grand-master skills.   You've got to be an expert already." 
+
+	topic  "How do I get to be an expert in critical striking?" c29:3 
+		text  "Buy the skill books and practice.  There's a store fairly close by that carries the books you'll need.  Try Academy Arcanus." 
+	end
+
+	topic  "I am interested in critical striking master skills."  s29:3  
+		quest 39 #6073-01-400
+		text "You've got to study the skill book you have to gain the skill."
+	end
+
+	topic  "I am interested in critical striking grand-master skills."  s29:4  
+		quest 44 #6073-01-500
+		text "You're going to have to study the skill book you have."
+	end
+end
+
+topic  "Can you teach me anything else?"  s29:5
+	text  "I specialize in one thing, critical striking.  Ask around.  There are other skilled instructors."
+	text  "I'd advise you to finish your critical striking study before going off on another chase."
+end
+

@@ -1,0 +1,40 @@
+id 6043
+
+banner "Welcome to To The Hilt Weaponry. I am Melkoro. How might I serve you?"
+
+topic "Tell me about Leinster."
+        text "We are a town torn apart because of Despothes's arrogance. He insists upon lording it over the other gods, and finally Duach put his foot down."
+	text "Unfortunately, he put it down right in the middle of Leinster."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I heard that Duach is not finished with either Despothes or with Despothes's minions in West Leinster."
+        text "Some of us in East Leinster look forward to Duach teaching Despothes a lesson."
+end      
+
+topic "Can I do anything for you?"
+        text "Not at present. If I have any tasks, I'd consider giving them to you."
+end
+
+topic  "I want to learn the ways of war." c3:5
+	banner  "That's a worthy goal.  I'd be glad to teach you dagger master and grand-master skills, if you're interested in the dagger.  You've got to be an expert first, though." 
+
+	topic  "How do I get to be an expert in the dagger?" c3:3 
+		text  "Buy the skill books and practice.  Academy Arcanus carries them.  So does Cut Purse Academy."
+	end
+
+	topic  "I am interested in dagger master skills."  s3:3  
+		quest 17 # 6043-01-400
+		text "You've got to study the book in your possession thoroughly to gain the skill."
+	end
+
+	topic  "I am interested in dagger grand-master skills."  s3:4  
+		quest 22 #6043-01-500
+		text "Don't you understand? You've got to study the book you already have to gain the skill."
+	end
+
+	topic  "What else can I learn?"  s3:5
+		text  "There are specialists around for other weapons.  If you're interested in weaponsmith skills, go see Randa over in West Leinster."
+		text  "It would be a good idea to finish your dagger training first."
+	end
+end

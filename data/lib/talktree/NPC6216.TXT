@@ -1,0 +1,34 @@
+id 6216
+
+banner "Greetings, and welcome to What Ails You. I am the healer, Lompoc. May I help you?"
+
+topic "Tell me about Murias."
+        text "Murias is located on some of the most fertile soil in the entire Realm."
+	text "This is an excellent town for families.  People are quite friendly here."
+	text "We've got some of the best shops in the Realm, too."  
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard it said that Murians are slow to anger, but when they defend themselves, they do so with enthusiasm."
+	text "That's not really a rumor, though, it's a fact.  There's even a saying about it:  'Better to tangle with an angry dark faery than an angry Murian."   
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, but perhaps one day soon. Come and visit me again."
+end
+
+topic  "I'm looking for a highly polished round stone." q226:0 #q6815-01-300:0
+	quest 227 #6815-01-325
+	text  "I gave it to you."
+end
+
+topic  "Frick is sick." q353:0 #q80000-01-330:0
+	quest 354 #80000-01-335
+	text  "I gave you some medicine for him.  What did you do with it?"
+end
+
+topic  "I'm looking for a new lotion for dry skin." q178:0 #q6504-01-530:0
+	quest 179 #6504-01-535
+	text  "I gave you a bit to try.  Don't you recall?"
+end
+

@@ -1,0 +1,19 @@
+quest  168 #6501-01-530        # Morin, Natural Healing, Leinster West, 6061
+
+name  "Morin Wants a Wooden Puzzle"
+type  fedex
+
+proposal  "My word, how do people hear about this?  No sooner do I get a supply laid in than the requests start coming in.  Oh well, at least I know to plan for it.  I'll let you have some in exchange for an errand I need done.  It involves a trip to Silverbrook.  Will you do it?"
+
+declined  "Never mind, then."
+
+accepted  "Good.  Go to Silverbrook and find me a wooden puzzle.  I understand someone there makes them.  I've a youngster who will go wild with delight if I can find one."
+
+reminder   "Find a wooden puzzle.  There are some in Silverbrook."
+
+completed  "Oh, good job.  What a lovely little puzzle.  Excellent.  Here's the ginkaroo bark.  Transport it carefully."
+
+getItem   qWoodenPuzzle
+reward   qGinkarooBark
+end
+

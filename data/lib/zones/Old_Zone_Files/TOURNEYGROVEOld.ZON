@@ -1,0 +1,10 @@
+name "tourneygrove"
+title "Tourney Grove"
+worldFile "../data/lib/world/TOURN1.WLD"
+worldFile "../data/lib/world/TOURN2.WLD"
+worldFile "../data/lib/world/TOURN3.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 7
+midiFile 14
+monster Ratling 40

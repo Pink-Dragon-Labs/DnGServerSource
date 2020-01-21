@@ -1,0 +1,18 @@
+quest 100 #6308-01-100  #(Wirkkala, Magical Monmouth, 6308)
+
+name  "Orc Amulet"
+type  fedex
+
+proposal  "As it happens, I'm looking for an Apprentice to run my errands.  In return I can guide you through Elemental spell levels, beginning with Familiar.  Are you interested?"
+
+declined  "Best wishes to you then, friend."
+
+accepted  "I need to retrieve my special Orc Amulet.  I lost it somewhere in Wen, and I hear it's been turned in to one of the shopkeepers.  Please bring it to me.  I'll have the first spell book you need when you return."
+
+reminder  "Your quest is to find my lost Orc Amulet in Wen."
+
+completed  "Many thanks for retrieving my Orc Amulet.  I can see we are going to have a rewarding relationship.  This is your Familiar Elemental Spellbook.  Good luck to you, and come back when you would are ready to progress to Proficiencies."  
+
+getItem  qOrcAmulet
+reward  skbElementalismI
+end

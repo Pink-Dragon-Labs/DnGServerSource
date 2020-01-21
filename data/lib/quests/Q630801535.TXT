@@ -1,0 +1,19 @@
+quest 117 #6308-01-535  #(Jann, Kurz Mercantile, 8002)
+
+name  "Jann's Voucher"
+type  fedex
+
+proposal  "You're part of Neela's tobac deal, huh.  Don't know what she wants with that much leaf, but here's the deal.  It was delivered to Neela's henchman.  I want a voucher from him that he got the tobac leaf before I give Neela a receipt.  Will you go get it?"
+
+declined  "Then Neela'll just have to wait, won't she?"
+
+accepted  "He's holed up in some cave near Arimathor."
+
+reminder  "Take the voucher to a cave outside Arimathor.  Give it to Neela's henchman and get the voucher."
+
+getItem  qJannVoucher
+reward  qTobacReceipt
+end
+
+
+

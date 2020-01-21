@@ -1,0 +1,19 @@
+quest  67 #6102-01-500        #Rothos, Wen's Weapons, 6102
+
+name  "A Braided Leather Belt"
+type  fedex
+
+proposal  "Well, now.  Ready for grand-mastery of the axe.  That's good to hear, very good.  I'm always glad to see a warrior value the axe.  It's a good weapon, and vastly underrated by many.  I'll ask you to see if you can locate a braided leather belt.  I had a teacher once who used a braided belt, very unusual it was.  I'm wondering if this could be the very one.  It would be a pleasure to me to have it.  A traveler through here mentioned casually seeing one in Arimathor. It didn't occur to me until he traveled on that it might be the same.  Would you try to find it?"
+
+declined  "Keep it in mind, then."
+
+accepted  "Good.  I'll wish you luck."
+
+reminder   "Look for a braided leather belt in Arimathor."
+
+completed  "The very one! I do believe it's the very belt I remember!  My thanks, and here's the last skill book you need."
+
+getItem   qBraidedBelt
+reward    skbAxeV
+end
+

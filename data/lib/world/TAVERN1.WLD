@@ -1,0 +1,683 @@
+room 6005
+   properties
+      picture	4000
+      south	6006 
+      east	6004 
+      roomName	"Gnarled Leg Tavern"
+   end
+   atpinfo
+      2088  197 150
+      2028  500 10
+      2028  176 10
+      2127  287 128 150
+      2029  231 51
+      2112  423 125 50
+      2028  335 9
+      2101  111 236
+      2145  60 238 50
+      2128  423 276 220
+      2017  71 14
+      2241  586 185 -20
+      2029  439 52
+      2018  3 63
+      2164  16 140 20
+      2600  446 305
+      2117  419 102
+      2166  566 105
+      2597  176 133
+      2595  53 137
+      2086  40 163
+      2244  12 268
+      2029  607 52
+      2241  554 184 -20
+      2241  568 193 -20
+      2241  22 321
+      2241  25 298
+      2241  31 280
+      2241  194 226
+      2241  234 219
+      2166  260 105
+      2597  305 133
+      2088  326 150
+      32782  76 261
+      32782  -10 277
+      2241  154 225
+      32782  198 236
+      14  669 220 -20
+      1  637 273
+   end
+   objects
+      object chair6005-0 of Chair
+         properties
+            x	321
+            y	291
+            loop	0
+         end
+      end
+      object chair6005-1 of Chair
+         properties
+            x	349
+            y	282
+            loop	0
+         end
+      end
+      object chair6005-2 of Chair
+         properties
+            x	558
+            y	296
+            loop	1
+         end
+      end
+      object chair6005-3 of Chair
+         properties
+            x	532
+            y	281
+            loop	1
+         end
+      end
+      object chair6005-4 of Chair
+         properties
+            x	419
+            y	280
+            loop	2
+         end
+      end
+      object chair6005-5 of Chair
+         properties
+            x	379
+            y	280
+            loop	2
+         end
+      end
+      object chair6005-6 of Chair
+         properties
+            x	455
+            y	280
+            loop	2
+         end
+      end
+      object chair6005-7 of Chair
+         properties
+            x	495
+            y	280
+            loop	2
+         end
+      end
+      object door6005-8 of Door
+         properties
+            x	421
+            y	202
+            loop	2
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 6009
+   properties
+      picture	3500
+      roomName	"Gnarled Leg Courtyard"
+   end
+   atpinfo
+      2028  502 11
+      2028  409 12
+      2127  287 128 150
+      2103  511 316
+      2536  142 198
+      2029  439 54
+      2029  321 54
+      2029  205 54
+      2028  168 12
+      2029  609 53
+      2029  55 55
+      60  193 213
+      43  239 201
+      45  98 259
+      106  19 310
+      2611  570 55
+      63  244 206
+      104  399 204
+      110  613 299
+      2611  29 70
+      2536  513 199
+      2323  482 206
+      2324  467 173
+      20  305 227
+      21  521 189
+      23  194 216
+      2611  194 58
+      28  616 191
+      180  312 199
+      21  408 196
+      21  270 196
+      21  137 192
+      21  66 196
+      110  574 217
+      2611  448 73 20
+      110  126 311
+      2611  112 56
+      28  621 297
+      32796  42 295
+      21  323 249
+      43  378 200
+      104  145 202
+      63  437 203
+      64  363 208
+      64  414 202
+      64  84 264
+      64  509 199
+      64  535 202
+      64  570 203
+      64  395 316
+      63  124 317
+      63  442 323
+      63  575 322
+      63  23 246
+      64  396 309
+      60  187 331
+      60  232 326
+      60  282 332
+      2611  315 57
+      45  626 387
+      106  618 284
+      60  45 237
+      60  480 209
+      21  62 252
+      21  123 233
+      23  360 278
+      1506  26 323
+      23  379 234
+      23  508 223
+      1508  51 335
+      23  268 274
+      1542  12 330
+      21  189 264
+      2588  392 153
+      2588  518 153
+      2597  534 125
+      2597  408 125
+      2611  505 62
+   end
+   objects
+      object chair6009-0 of Chair
+         properties
+            x	149
+            y	269
+            loop	0
+         end
+      end
+      object door6009-1 of Door
+         properties
+            x	306
+            y	204
+            loop	2
+            linkTo	door6005-8
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6009-2 of Chair
+         properties
+            x	196
+            y	264
+            loop	2
+         end
+      end
+      object chair6009-3 of Chair
+         properties
+            x	242
+            y	267
+            loop	1
+         end
+      end
+      object chair6009-4 of Chair
+         properties
+            x	443
+            y	224
+            loop	2
+         end
+      end
+      object chair6009-5 of Chair
+         properties
+            x	491
+            y	226
+            loop	2
+         end
+      end
+      object chair6009-6 of Chair
+         properties
+            x	536
+            y	227
+            loop	2
+         end
+      end
+   end
+end
+room 6004
+   properties
+      picture	4000
+      west	6005 
+      roomName	"Gnarled Leg Tavern"
+   end
+   atpinfo
+      2088  197 157
+      2028  500 10
+      2028  176 10
+      2127  287 128 150
+      2029  231 51
+      2005  597 115 100
+      2028  335 9
+      2103  197 250
+      2112  395 240 150
+      2128  393 290 220
+      2017  71 14
+      2241  319 192 -20
+      2029  439 52
+      2018  3 63
+      2164  16 140 20
+      2600  446 305
+      2117  179 81
+      2166  320 104
+      2597  176 140
+      2595  53 144
+      2086  40 170
+      7909  379 205
+      7909  428 205
+      3  268 244
+      3  268 230
+      14  755 305 -20
+      32782  -71 246 -20
+   end
+   objects
+      object chair6004-0 of Chair
+         properties
+            x	321
+            y	291
+            loop	0
+         end
+      end
+      object chair6004-1 of Chair
+         properties
+            x	349
+            y	282
+            loop	0
+         end
+      end
+      object chair6004-2 of Chair
+         properties
+            x	558
+            y	296
+            loop	1
+         end
+      end
+      object chair6004-3 of Chair
+         properties
+            x	532
+            y	281
+            loop	1
+         end
+      end
+      object chair6004-4 of Chair
+         properties
+            x	419
+            y	280
+            loop	2
+         end
+      end
+      object chair6004-5 of Chair
+         properties
+            x	379
+            y	280
+            loop	2
+         end
+      end
+      object door6004-6 of Door
+         properties
+            x	511
+            y	203
+            loop	2
+            linkTo	door5004-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6004-7 of Chair
+         properties
+            x	455
+            y	280
+            loop	2
+         end
+      end
+      object chair6004-8 of Chair
+         properties
+            x	495
+            y	280
+            loop	2
+         end
+      end
+      object Andrew6004-9 of Bartender
+         properties
+            x	195
+            y	237
+            loop	2
+            name	"Skon"
+         end
+         base character
+            sex	0
+            properName	"Skon (NPC)"
+         end
+         base talk
+            talkTreeID	6004
+         end
+         base container
+            worn	WhiteTunic
+            worn	AzurePants
+            worn	TealBoots
+            worn	OliveBelt
+            worn	TealBaldric
+            worn	TealCowl
+            object	AleJug
+            object	WineFlask
+            object	Ambrosia
+            head	0 1 2 0 6 4 0 0 4 4 1 3 
+         end
+      end
+      object trapDoor6004-10 of TrapDoor
+         properties
+            x	167
+            y	226
+            loop	0
+            linkTo	door6007-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 6007
+   properties
+      picture	4000
+      roomName	"Gnarled Leg Stock Room"
+   end
+   atpinfo
+      2028  500 10
+      2028  176 10
+      2127  287 128 150
+      2029  231 51
+      2005  597 115 100
+      2134  473 281 200
+      2128  434 302 220
+      2017  71 14
+      2241  20 306 -20
+      2125  237 282 200
+      2018  3 63
+      2599  225 287
+      34916  675 216 48
+      2147  613 222
+      2119  240 217 100
+      2125  500 282 200
+      2107  55 203
+      2147  219 288 35
+      2153  488 309 55
+      2134  296 281 200
+      2028  274 12
+      7908  9 219
+      34916  676 222 20
+      2130  479 219 40
+      2147  588 217
+      2129  478 219 100
+      2128  611 321
+      2130  537 371 50
+      2109  478 217 70
+      2599  488 291
+      2126  478 213
+      2132  521 285 200
+      2108  625 215
+      2108  622 214 60
+      7900  536 225
+      2109  235 208
+      34916  676 216 75
+      2109  478 212
+      2109  235 214 70
+      2129  234 218 70
+      2132  183 279 200
+      2127  208 209 5
+      2127  265 210 5
+      7900  173 220
+      2119  485 221 75
+      34888  238 210 30
+      2029  382 56
+      14  785 348
+   end
+   objects
+      object chair6007-0 of Chair
+         properties
+            x	134
+            y	287
+            loop	0
+         end
+      end
+      object chair6007-1 of Chair
+         properties
+            x	171
+            y	271
+            loop	0
+         end
+      end
+      object chair6007-2 of Chair
+         properties
+            x	596
+            y	291
+            loop	1
+         end
+      end
+      object chair6007-3 of Chair
+         properties
+            x	532
+            y	281
+            loop	1
+         end
+      end
+      object chair6007-4 of Chair
+         properties
+            x	225
+            y	268
+            loop	2
+         end
+      end
+      object chair6007-5 of Chair
+         properties
+            x	455
+            y	280
+            loop	2
+         end
+      end
+      object chair6007-6 of Chair
+         properties
+            x	495
+            y	280
+            loop	2
+         end
+      end
+      object chair6007-8 of Chair
+         properties
+            x	280
+            y	276
+            loop	1
+         end
+      end
+      object chair6007-9 of Chair
+         properties
+            x	310
+            y	295
+            loop	1
+         end
+      end
+      object chair6007-10 of Chair
+         properties
+            x	416
+            y	283
+            loop	0
+         end
+      end
+      object doorway6007-13 of Doorway
+         properties
+            x	357
+            y	208
+            loop	2
+            linkTo	trapDoor6004-10
+         end
+      end
+      object torch6007-11 of Torch
+         properties
+            x	58
+            y	188
+            loop	0
+         end
+         base described
+            text	"You see a torch that lights the stock room."
+         end
+      end
+   end
+end
+room 6006
+   properties
+      picture	4000
+      north	6005 
+      roomName	"Gnarled Leg Tavern"
+   end
+   atpinfo
+      2028  173 102 100
+      2028  500 4
+      2028  408 2
+      2127  287 128 150
+      34896  150 191 120
+      2005  597 110 100
+      2112  169 190 100
+      2103  435 233
+      2112  434 189 100
+      2128  420 289 220
+      2017  71 14
+      2241  148 187 -20
+      2029  439 46
+      2018  3 63
+      34896  195 191 120
+      2600  479 306
+      2117  425 86
+      34896  446 289 220
+      2600  153 305
+      2595  49 130
+      2086  36 156
+      2110  69 200
+      2164  16 157 20
+      7900  492 200
+      7900  33 205
+      14  773 346
+      32782  -152 347
+   end
+   objects
+      object chair6006-0 of Chair
+         properties
+            x	342
+            y	301
+            loop	0
+         end
+      end
+      object chair6006-1 of Chair
+         properties
+            x	366
+            y	283
+            loop	0
+         end
+      end
+      object chair6006-2 of Chair
+         properties
+            x	589
+            y	300
+            loop	1
+         end
+      end
+      object chair6006-3 of Chair
+         properties
+            x	567
+            y	276
+            loop	1
+         end
+      end
+      object chair6006-4 of Chair
+         properties
+            x	414
+            y	278
+            loop	2
+         end
+      end
+      object chair6006-5 of Chair
+         properties
+            x	82
+            y	274
+            loop	2
+         end
+      end
+      object chair6006-6 of Chair
+         properties
+            x	469
+            y	279
+            loop	2
+         end
+      end
+      object chair6006-7 of Chair
+         properties
+            x	517
+            y	278
+            loop	2
+         end
+      end
+      object chair6006-8 of Chair
+         properties
+            x	39
+            y	282
+            loop	0
+         end
+      end
+      object chair6006-9 of Chair
+         properties
+            x	120
+            y	274
+            loop	2
+         end
+      end
+      object chair6006-10 of Chair
+         properties
+            x	164
+            y	274
+            loop	2
+         end
+      end
+      object chair6006-11 of Chair
+         properties
+            x	208
+            y	274
+            loop	2
+         end
+      end
+      object chair6006-12 of Chair
+         properties
+            x	247
+            y	277
+            loop	1
+         end
+      end
+      object chair6006-13 of Chair
+         properties
+            x	567
+            y	222
+            loop	2
+         end
+      end
+   end
+end

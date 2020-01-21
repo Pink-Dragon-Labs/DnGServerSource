@@ -1,0 +1,19 @@
+quest  217 #6817-01-530        # Tatiana, Good Fortune Inn, tavern, elf, 6400
+
+name  "Emerald of Enid"
+type  fedex
+
+proposal  "I do have that amulet, friend.  It came into my possession a few months ago, but I would really prefer to have an emerald of Enid.  I understand there are some in Wen.  It would mean a great, great deal to me to have one.  Would you be willing to journey there to find one in exchange for the amulet?" 
+
+declined  "I thought not, but it doesn't hurt to ask."
+
+accepted  "You will!  I'm so very pleased.  May Enid guide your search."
+
+reminder   "You're going to find an emerald of Enid for me, I hope, in Wen."
+
+completed  "You truly did it.  I'm so pleased I'm nearly speechless.  Here is the amulet for you."
+
+getItem   qEnidEmerald
+reward   qAmuletFinvarra 
+end
+

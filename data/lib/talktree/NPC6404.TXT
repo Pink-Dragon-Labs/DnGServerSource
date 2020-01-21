@@ -1,0 +1,47 @@
+id 6404
+
+banner "Hello. I am Pasco. Welcome to my shop, Heal Yourself."
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook? It's a quiet little town. Nothing much happens in the way of violence."
+	text "My business is very slow. Hardly anyone gets hurt. I used to live in Asgard. There's lots of excitement there!  I was busy all the time."
+	"text  "I've got plenty of leisure for hobbies now, which is nice."
+	text  "Mostly elves live here in Silverbrook.  Nice folk, the elves.  Made me feel right at home.  Didn't really know what to expect when I first came."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that there are runes somewhere close to Silverbrook, and if you can decipher the message, the reward is wealth beyond one's wildest dreams."
+	text  "Of course, in Arimathor you hear the same rumors about untold wealth waiting to be found in the desert."
+end      
+
+topic	"Do you like limericks?"
+	text  "I didn't for most of my life, but they kind of get into your system in Silverbrook.  The elves sure like them, anyway."
+	text  "I heard a good one recently."		
+	text  "A gent with a drooping mustache"		
+	text  "Chewed some hair while eating his hache."		
+	text  "The phrases profane"		
+	text  "That he shrieked in his pain"		
+	text  "We shall represent here with a dache."
+	text  "I relate a little to that one, shall we say."
+	text  "Heh. Heh."
+end
+
+topic "Can I do anything for you?"
+        text "Yes, thank you! If you plan to do any weapon practice soon would you do it around here? Thrashing and bashing usually brings me some customers, and I could use the business."
+end
+
+topic  "I'm here for the burn ointment, and I have your cheese." q324:1 #q8111-01-540:1
+	quest 325 #8111-01-545
+	text  "You have the ointment.  Now hurry back to Leinster"
+end
+
+topic  "I'm looking for a wooden puzzle." q237:0 #q6815-01-530:0
+	quest 238 #6815-01-535
+	text  "You already came for one."
+end
+
+topic  "I'm looking for a wooden puzzle." q168:0 #q6501-01-530:0
+	quest 169 #6501-01-535
+	text  "Now, friend, you took it already."
+end
+

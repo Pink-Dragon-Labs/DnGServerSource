@@ -1,0 +1,45 @@
+id 6411
+
+banner "Great gods, you look famished! Welcome to Comestibles. Tell me what you'd like."
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook is a town full of dieters. One tries but fails to enlighten them."
+	text "Great Enid! A healthy diet can still be interesting and tasty!"
+	text "Elves are really good at preparing tasty treats, too."
+	text "Elves wouldn't need a healer as often if they would only pay more attention to healthy meals.  Probably applies to giants and humans, too."
+	text "But enough of my favorite topic."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that in Murias, one can eat whatever one wants and never gain weight."
+	text  "Ok, ok, so I didn't really hear that one.  Heh. Heh."
+	text "Seriously, though, I did hear that a shopkeeper in Wen has developed a very good cheese.  Now that interests me."
+end      
+
+topic  "So, do you like limericks?"
+	text  "Oh sure.  Doesn't everybody?"
+	text  "A new limerick is a good way to start the day."
+	text  "New ones are hard to come by, though."
+	text  "Have you ever heard this one?  Heh. Heh."
+	text  "A certain young elf named Bill Beebee"
+	text  "Was in love with a elfmaid named Phoebe."
+	text  "'But,' he said, 'I must see"
+	text  "What the clerical fee"
+	text  "Be before Phoebe be Phoebe Beebee.'"
+	text  "Silly things, limericks, but rather amusing."
+end
+
+topic "Can I do anything for you?"
+	text "Eat something! Set an example for everyone else."
+end
+
+topic  "I'm looking for some speckled minter." q125:0 #q6311-01-525:0
+	quest 126 #6311-01-530
+	text  "But, friend, I gave you a supply."
+end
+
+topic  "I've come for Litula's vegetable drink." q26:0 #q6043-01-540:0
+	quest 27 #6043-01-545
+	text  "You drank it yourself, didn't you?  And I made it up special for Litula."
+end
+

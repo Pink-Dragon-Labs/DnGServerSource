@@ -1,0 +1,19 @@
+quest  30 # 6045-01-430        # Faldora, Pig and Kettle, tavern, Asgard, 6900
+
+name  "Faldora's Carving Knife"
+type  fedex
+
+proposal  "It is well that you ask of me, friend, for I have an excellent supply of fruit from the orchards and farms of my family.  This is the right season for it.  In fact, I will give you a superior selection if you will go to Drune for me.  Will you do this?"
+
+declined  "How disappointing."
+
+accepted  "My favorite carving knife is there for sharpening.  You may wonder that I do not use the local establishments.  This knife belonged to my grandfather, he had it out of Drune, and I always return it to them for care."
+
+reminder   "Fetch my carving knife from Drune."
+
+completed  "Thank you.  I saved the best of the fruit for you."
+
+getItem   qCarvingKnife
+reward   qFreshFruit 
+end
+

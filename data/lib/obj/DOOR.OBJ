@@ -1,0 +1,61 @@
+object Door 
+	properties
+		name "Door"
+		view 60000
+	end
+
+	base described
+		text "This is a big wooden door."
+	end
+
+        base entry
+        end
+
+	base openable
+	end
+end
+
+object PWDoor of Door
+	base password
+	end
+end
+
+object PlankDoor of Door
+	properties
+		name "Plank Door"
+		view 60000
+	end
+end
+
+object SimpleDoor of Door
+	properties
+                view 60100
+	end
+end
+
+object Doorway 
+	properties
+		name "Door"
+                view 60200
+	end
+
+	base described
+                text "This is a Doorway.  Memorize the difference between this and a Door.  There will be a test"
+	end
+
+        base entry
+        end
+
+end
+
+object RuinDoorA of Door
+	properties
+		view 60050
+	end
+end
+
+object RuinDoorB of Door
+	properties
+		view 60150
+	end
+end

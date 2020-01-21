@@ -1,0 +1,19 @@
+quest  143 #6403-01-200        #Wonduri, Silverbrook Charms, Silverbrook, 6403
+
+name  "Amulet of Nemat the Magnificent"
+type  fedex
+
+proposal  "Proficiency skills in Theurgism interest you?  I am pleased.  The art of using this skill is worth the practice it takes.  You will never regret working at it.  Already you are progressing.  I started as a very, very young elf, and I take pleasure in my ability.  You will, too.  Your next quest will be for the Amulet of Nemat the Magnificent, called thus to honor her skill.  Do you accept?
+
+declined  "This is distressing."
+
+accepted  "You please me, apprentice.  Journey now to Caer Fandry."
+
+reminder   "Seek in Caer Fandry for the Amulet of Nemat the Magnificent."
+
+completed  "Excellent!  Excellent!  Receive from me the spellbook for Theurgism Proficiency."
+
+getItem   qAmuletNemat
+reward   skbTheurgismII 
+end
+

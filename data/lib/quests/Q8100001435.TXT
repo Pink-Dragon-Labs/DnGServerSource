@@ -1,0 +1,18 @@
+quest  81000-01-435        # Andrea, Leinster Limited, clothes, Leinster West, 6019
+
+name  "A Sleeping Potion for Andrea"
+type  fedex
+
+proposal  "Well, it's a mercy somebody is here for it.  If the folks in his town are waiting for their mending as long as he waited to collect this thread, well all I can say is, they are a threadbare town.  I did NOT intend that to be funny.  It's a nervous time here, one smiting behind us and another looming over our heads.  I'm sure I don't understand how anybody can get a lick of sleep for worrying.  Would you get me a sleeping potion in exchange for the thread?  I need this favor.  I'm that nervous.  Will you?"
+
+declined  "I cannot abide jokers, and your kind is the worst."
+
+accepted  "Do it quickly, then.  If the door is locked when you come back, knock twice."
+
+reminder   "Fetch me a sleeping potion."
+
+completed  "It's a mercy you didn't get mugged for this potion.  Take the thread and go."  
+
+getItem   qSleepingPotion
+reward   qThread 
+end

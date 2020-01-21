@@ -1,0 +1,5490 @@
+# Dungeonmaker World File (DNG17.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 78000
+# Dungeon last room = 79582
+# Number of objects in dungeon = 477
+# Level 0 information:
+room 78130
+	properties
+		template 30304
+		south 78129
+		flags	0
+	end
+	objects
+		object Fountain-78130-0 of Fountain
+			properties
+				x	329
+				y	228
+				loop	0
+			end
+			base described
+				text	"Scratched into the base of the fountain: 'Ezelberoth rules the daemons here.  There is no hope.'"
+			end
+		end
+		object Lever-78130-1 of Lever
+			properties
+				x	135
+				y	278
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 78000 1 
+				vBeDeactivated teleport dobj 78000 1 
+			end
+			base described
+			end
+		end
+		object Torch-78130-2 of Torch
+			properties
+				x	599
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78130-3 of Torch
+			properties
+				x	130
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-78130-4 of Button
+			properties
+				x	169
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-78130-5 of Button
+			properties
+				x	108
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-78130-6 of Button
+			properties
+				x	225
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object LeverDisabled-78130-7 of LeverDisabled
+			properties
+				x	325
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-78130-8 of Button
+			properties
+				x	276
+				y	256
+				loop	0
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-78008-0 
+				vBeDeactivated lock DungeonBackDoor-78008-0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 78114
+	properties
+		template 30102
+		south 78115
+		east 78113
+		flags	0
+	end
+	objects
+		object Column-78114-0 of Column
+			properties
+				x	347
+				y	196
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78114-1 of Column
+			properties
+				x	267
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78114-2 of Column
+			properties
+				x	192
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78113
+	properties
+		template 32403
+		east 78112
+		west 78114
+		flags	0
+	end
+	objects
+		object Skull-78113-0 of Skull
+			properties
+				x	408
+				y	241
+				loop	1
+			end
+			base described
+			end
+		end
+		object Web6-78113-1 of Web6
+			properties
+				x	516
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78112
+	properties
+		template 30906
+		east 78111
+		west 78113
+		flags	0
+	end
+	objects
+		object DemonRat-78112-0 of DemonRat
+			properties
+				x	421
+				y	274
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Bones-78112-1 of Bones
+			properties
+				x	211
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78112-2 of Torch
+			properties
+				x	182
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78111
+	properties
+		template 30202
+		south 78110
+		west 78112
+		flags	0
+	end
+	objects
+		object Bones-78111-0 of Bones
+			properties
+				x	290
+				y	193
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-78111-1 of Web3
+			properties
+				x	472
+				y	101
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-78111-2 of Web4
+			properties
+				x	519
+				y	172
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web7-78111-3 of Web7
+			properties
+				x	349
+				y	167
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-78111-4 of Web1
+			properties
+				x	402
+				y	101
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78111-5 of Column
+			properties
+				x	131
+				y	137
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78111-6 of Column
+			properties
+				x	248
+				y	171
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78129
+	properties
+		template 30803
+		east 78128
+		north 78130
+		flags	24
+	end
+	objects
+		object SnowDaemon-78129-0 of SnowDaemon
+			properties
+				x	326
+				y	279
+				loop	2
+				color	790
+			end
+			base character
+			end
+		end
+		object Fury-78129-1 of Fury
+			properties
+				x	459
+				y	267
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Banshee-78129-2 of Banshee
+			properties
+				x	216
+				y	275
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-78129-3 of Torch
+			properties
+				x	482
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78128
+	properties
+		template 30201
+		west 78129
+		flags	64
+	end
+	objects
+		object Shade-78128-0 of Shade
+			properties
+				x	174
+				y	283
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-78128-1 of DungeonBackUp
+			properties
+				x	182
+				y	233
+				loop	2
+				linkTo	TrapDoor-78058-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78128-2 of Torch
+			properties
+				x	425
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78120
+	properties
+		template 30101
+		east 78119
+		flags	8
+	end
+	objects
+		object PlagueRat-78120-0 of PlagueRat
+			properties
+				x	446
+				y	248
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-78120-1 of PlagueRat
+			properties
+				x	348
+				y	284
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object Ghost-78120-2 of Ghost
+			properties
+				x	362
+				y	265
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Sarcophagus-78120-3 of Sarcophagus
+			properties
+				x	196
+				y	270
+				loop	0
+			end
+			actions
+				vBeOpened summon 78120 1 3 Fury 196 280 2 Fury 206 280 2 Fury 186 280 2 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78120-4 of Torch
+			properties
+				x	102
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-78120-5 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+		object RandomShirt-78120-6 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+		object RandomBoots-78120-7 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+		object RandomWeapon-78120-8 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-78120-9 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-78120-10 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+		object RandomOrb-78120-11 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78120-3
+			end
+			base described
+			end
+		end
+	end
+end
+room 78119
+	properties
+		template 31301
+		east 78118
+		west 78120
+		flags	0
+	end
+	objects
+		object CaveRat-78119-0 of CaveRat
+			properties
+				x	297
+				y	244
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-78119-1 of CaveRat
+			properties
+				x	285
+				y	264
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object RatGuano-78119-2 of RatGuano
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CaveRat-78119-0
+			end
+			base described
+			end
+		end
+		object RatGuano-78119-3 of RatGuano
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	CaveRat-78119-1
+			end
+			base described
+			end
+		end
+		object RatGuano-78119-4 of RatGuano
+			properties
+				x	271
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-78119-5 of Button
+			properties
+				x	289
+				y	237
+				loop	0
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-78008-0 
+			end
+			base described
+			end
+		end
+		object Torch-78119-6 of Torch
+			properties
+				x	583
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78118
+	properties
+		template 30601
+		south 78117
+		west 78119
+		flags	0
+	end
+	objects
+		object Torch-78118-0 of Torch
+			properties
+				x	328
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78115
+	properties
+		template 31004
+		south 78030
+		north 78114
+		flags	0
+	end
+	objects
+		object Bones-78115-0 of Bones
+			properties
+				x	281
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-78115-1 of Bones
+			properties
+				x	248
+				y	267
+				loop	1
+			end
+			base described
+			end
+		end
+		object Skull-78115-2 of Skull
+			properties
+				x	281
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-78115-3 of Skull
+			properties
+				x	222
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-78115-4 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78115-1
+			end
+			base described
+			end
+		end
+		object RandomCowl-78115-5 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78115-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-78115-6 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78115-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78110
+	properties
+		template 30402
+		south 78109
+		north 78111
+		flags	0
+	end
+	objects
+		object Bones-78110-0 of Bones
+			properties
+				x	172
+				y	290
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomBoots-78110-1 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78110-0
+			end
+			base described
+			end
+		end
+		object RandomShirt-78110-2 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78110-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78117
+	properties
+		template 31004
+		south 78116
+		north 78118
+		flags	0
+	end
+	objects
+		object Bones-78117-0 of Bones
+			properties
+				x	167
+				y	257
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-78117-1 of Bones
+			properties
+				x	180
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-78117-2 of Stalagmite1
+			properties
+				x	194
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-78117-3 of FatColumn
+			properties
+				x	261
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78117-4 of Stalagmite4
+			properties
+				x	111
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-78117-5 of Skull
+			properties
+				x	151
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78030
+	properties
+		template 30803
+		east 78029
+		north 78115
+		flags	0
+	end
+	objects
+		object Bones-78030-0 of Bones
+			properties
+				x	479
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-78030-1 of Skull
+			properties
+				x	460
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78029
+	properties
+		template 30601
+		south 78028
+		west 78030
+		flags	0
+	end
+	objects
+		object Bones-78029-0 of Bones
+			properties
+				x	256
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-78029-1 of Shroom1
+			properties
+				x	294
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78109
+	properties
+		template 30401
+		north 78110
+		flags	0
+	end
+	objects
+		object Bones-78109-0 of Bones
+			properties
+				x	502
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sarcophagus-78109-1 of Sarcophagus
+			properties
+				x	219
+				y	266
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomBoots-78109-2 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78109-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-78109-3 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78109-1
+			end
+			base described
+			end
+		end
+		object RandomPants-78109-4 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78109-1
+			end
+			base described
+			end
+		end
+		object RandomCowl-78109-5 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78109-1
+			end
+			base described
+			end
+		end
+		object RandomWeapon-78109-6 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78109-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 78058
+	properties
+		template 31002
+		south 78055
+		flags	0
+	end
+	objects
+		object TrapDoor-78058-0 of TrapDoor
+			properties
+				x	285
+				y	285
+				loop	0
+				linkTo	DungeonBackUp-78128-1
+			end
+			base lockable
+				isLocked	1
+				lockValue	-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 78098
+	properties
+		template 30302
+		south 78097
+		flags	8
+	end
+	objects
+		object Lich-78098-0 of Lich
+			properties
+				x	319
+				y	295
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-78098-1 of Ghoul
+			properties
+				x	352
+				y	264
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-78098-2 of Ghoul
+			properties
+				x	273
+				y	269
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78098-3 of EntombedOne
+			properties
+				x	432
+				y	316
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78098-4 of EntombedOne
+			properties
+				x	186
+				y	307
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-78098-5 of DungeonBackDoor
+			properties
+				x	330
+				y	227
+				loop	2
+				linkTo	DungeonBackDoor-78027-4
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78098-6 of Torch
+			properties
+				x	216
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78098-7 of Torch
+			properties
+				x	475
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78027
+	properties
+		template 30305
+		south 78026
+		flags	40
+	end
+	objects
+		object Wraith-78027-0 of Wraith
+			properties
+				x	221
+				y	292
+				loop	3
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-78027-1 of Wraith
+			properties
+				x	208
+				y	255
+				loop	0
+				color	7
+			end
+			base character
+			end
+		end
+		object EntombedOne-78027-2 of EntombedOne
+			properties
+				x	356
+				y	280
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78027-3 of EntombedOne
+			properties
+				x	296
+				y	276
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-78027-4 of DungeonBackDoor
+			properties
+				x	286
+				y	243
+				loop	2
+				linkTo	DungeonBackDoor-78098-5
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78027-5 of Torch
+			properties
+				x	429
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78116
+	properties
+		template 31003
+		south 78021
+		north 78117
+		flags	0
+	end
+end
+room 78028
+	properties
+		template 30402
+		south 78024
+		north 78029
+		flags	0
+	end
+end
+room 78056
+	properties
+		template 30805
+		east 78055
+		flags	0
+	end
+end
+room 78055
+	properties
+		template 31008
+		south 78043
+		east 78057
+		west 78056
+		north 78058
+		flags	216
+	end
+	objects
+		object DemonRat-78055-0 of DemonRat
+			properties
+				x	305
+				y	270
+				loop	2
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-78055-1 of DemonRat
+			properties
+				x	399
+				y	307
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object PlagueRat-78055-2 of PlagueRat
+			properties
+				x	194
+				y	269
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-78055-3 of PlagueRat
+			properties
+				x	407
+				y	284
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object DemonRat-78055-4 of DemonRat
+			properties
+				x	222
+				y	301
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78057
+	properties
+		template 30701
+		west 78055
+		flags	0
+	end
+end
+room 78097
+	properties
+		template 31001
+		south 78096
+		north 78098
+		flags	24
+	end
+	objects
+		object StormBat-78097-0 of StormBat
+			properties
+				x	271
+				y	266
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DemonRat-78097-1 of DemonRat
+			properties
+				x	255
+				y	260
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Wraith-78097-2 of Wraith
+			properties
+				x	284
+				y	283
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-78097-3 of Wraith
+			properties
+				x	389
+				y	283
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-78097-4 of Wraith
+			properties
+				x	163
+				y	282
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Torch-78097-5 of Torch
+			properties
+				x	156
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78026
+	properties
+		template 32305
+		east 78025
+		north 78027
+		flags	72
+	end
+	objects
+		object Ghoul-78026-0 of Ghoul
+			properties
+				x	470
+				y	269
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-78026-1 of UndeadNecromancer
+			properties
+				x	547
+				y	233
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78026-2 of EntombedOne
+			properties
+				x	503
+				y	242
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-78026-3 of Lich
+			properties
+				x	518
+				y	240
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-78026-4 of Lich
+			properties
+				x	411
+				y	257
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-78026-5 of CryptKeeper
+			properties
+				x	466
+				y	222
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object Bones-78026-6 of Bones
+			properties
+				x	320
+				y	250
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-78026-7 of Bones
+			properties
+				x	314
+				y	213
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-78026-8 of Bones
+			properties
+				x	294
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-78026-9 of Shroom3
+			properties
+				x	349
+				y	219
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-78026-10 of Shroom3
+			properties
+				x	261
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78026-11 of Column
+			properties
+				x	357
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-78026-12 of Stalagmite1
+			properties
+				x	258
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingMeat-78026-13 of RatlingMeat
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78026-6
+			end
+			base described
+			end
+		end
+		object AleJug-78026-14 of AleJug
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78026-6
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-78026-15 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78026-8
+			end
+			base described
+			end
+		end
+		object RandomMonsterBauble-78026-16 of RandomMonsterBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78026-6
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-78026-17 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-78026-4
+			end
+			base described
+			end
+		end
+	end
+end
+room 78025
+	properties
+		template 30901
+		east 78021
+		west 78026
+		flags	0
+	end
+	objects
+		object LockedChest-78025-0 of LockedChest
+			properties
+				x	164
+				y	250
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FatColumn-78025-1 of FatColumn
+			properties
+				x	426
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78025-2 of Column
+			properties
+				x	374
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78025-3 of Column
+			properties
+				x	422
+				y	297
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-78025-4 of Stalagmite3
+			properties
+				x	410
+				y	305
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78025-5 of Torch
+			properties
+				x	150
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-78025-6 of Skull
+			properties
+				x	206
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatGuano-78025-7 of RatGuano
+			properties
+				x	514
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-78025-8 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+		object RandomRing-78025-9 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-78025-10 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-78025-11 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78025-12 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78025-13 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-78025-14 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78025-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78021
+	properties
+		template 31501
+		south 78020
+		east 78022
+		west 78025
+		north 78116
+		flags	216
+	end
+	objects
+		object DemonRat-78021-0 of DemonRat
+			properties
+				x	265
+				y	301
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object Fury-78021-1 of Fury
+			properties
+				x	247
+				y	286
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object FlameRat-78021-2 of FlameRat
+			properties
+				x	125
+				y	309
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+		object PlagueRat-78021-3 of PlagueRat
+			properties
+				x	397
+				y	306
+				loop	1
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-78021-4 of PlagueRat
+			properties
+				x	293
+				y	272
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object DemonRat-78021-5 of DemonRat
+			properties
+				x	123
+				y	260
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Bones-78021-6 of Bones
+			properties
+				x	461
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78021-7 of Torch
+			properties
+				x	511
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-78021-8 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78021-6
+			end
+			base described
+			end
+		end
+		object RandomPants-78021-9 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78021-6
+			end
+			base described
+			end
+		end
+	end
+end
+room 78022
+	properties
+		template 30703
+		east 78023
+		west 78021
+		flags	0
+	end
+	objects
+		object Bones-78022-0 of Bones
+			properties
+				x	458
+				y	254
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-78022-1 of Bones
+			properties
+				x	395
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-78022-2 of Rock1
+			properties
+				x	361
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-78022-3 of Shroom3
+			properties
+				x	337
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-78022-4 of Shroom3
+			properties
+				x	317
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-78022-5 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78022-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78023
+	properties
+		template 30901
+		east 78024
+		west 78022
+		flags	0
+	end
+end
+room 78024
+	properties
+		template 32601
+		west 78023
+		north 78028
+		flags	0
+	end
+	objects
+		object Skull-78024-0 of Skull
+			properties
+				x	353
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatGuano-78024-1 of RatGuano
+			properties
+				x	237
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78042
+	properties
+		template 30304
+		south 78039
+		flags	8
+	end
+	objects
+		object SnowDaemon-78042-0 of SnowDaemon
+			properties
+				x	401
+				y	315
+				loop	0
+				color	790
+			end
+			base character
+			end
+		end
+		object SnowDaemon-78042-1 of SnowDaemon
+			properties
+				x	205
+				y	313
+				loop	1
+				color	790
+			end
+			base character
+			end
+		end
+		object FlameDaemon-78042-2 of FlameDaemon
+			properties
+				x	303
+				y	274
+				loop	2
+				color	789
+			end
+			base character
+			end
+		end
+		object FireC-78042-3 of FireC
+			properties
+				x	305
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-78042-4 of Embers
+			properties
+				x	316
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-78042-5 of FireB
+			properties
+				x	305
+				y	311
+				loop	0
+			end
+			base described
+			end
+		end
+		object StoneBench-78042-6 of StoneBench
+			properties
+				x	208
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object StoneBench-78042-7 of StoneBench
+			properties
+				x	402
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object Button-78042-8 of Button
+			properties
+				x	302
+				y	261
+				loop	0
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-78006-0 
+			end
+			base described
+			end
+		end
+		object Torch-78042-9 of Torch
+			properties
+				x	120
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78042-10 of Torch
+			properties
+				x	599
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-78042-11 of Web4
+			properties
+				x	138
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78042-12 of Column
+			properties
+				x	197
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78043
+	properties
+		template 31004
+		south 78041
+		north 78055
+		flags	0
+	end
+end
+room 78096
+	properties
+		template 31006
+		south 78095
+		north 78097
+		flags	0
+	end
+end
+room 78020
+	properties
+		template 31006
+		south 78010
+		north 78021
+		flags	0
+	end
+	objects
+		object Sign-78020-0 of Sign
+			properties
+				x	304
+				y	251
+				loop	0
+			end
+			base described
+				text	"Halls of the Dead.  Watch your step."
+			end
+		end
+	end
+end
+room 78039
+	properties
+		template 30801
+		east 78038
+		north 78042
+		flags	24
+	end
+	objects
+		object Daemon-78039-0 of Daemon
+			properties
+				x	593
+				y	257
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object Daemon-78039-1 of Daemon
+			properties
+				x	301
+				y	248
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object Spring-78039-2 of Spring
+			properties
+				x	10
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-78039-3 of Stalagmite2
+			properties
+				x	-11
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-78039-4 of Shroom3
+			properties
+				x	31
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-78039-5 of Shroom3
+			properties
+				x	59
+				y	243
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 78038
+	properties
+		template 30908
+		south 78037
+		east 78040
+		west 78039
+		flags	0
+	end
+end
+room 78040
+	properties
+		template 30901
+		east 78041
+		west 78038
+		flags	0
+	end
+end
+room 78041
+	properties
+		template 31008
+		south 78044
+		east 78059
+		west 78040
+		north 78043
+		flags	0
+	end
+	objects
+		object Shade-78041-0 of Shade
+			properties
+				x	432
+				y	285
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+	end
+end
+room 78059
+	properties
+		template 30701
+		west 78041
+		flags	0
+	end
+end
+room 78095
+	properties
+		template 31003
+		south 78093
+		north 78096
+		flags	0
+	end
+end
+room 78010
+	properties
+		template 32305
+		east 78009
+		north 78020
+		flags	0
+	end
+	objects
+		object Bones-78010-0 of Bones
+			properties
+				x	193
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Sarcophagus-78010-1 of Sarcophagus
+			properties
+				x	388
+				y	242
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-78010-2 of Sarcophagus
+			properties
+				x	482
+				y	188
+				loop	0
+			end
+			actions
+				vBeOpened summon 78010 1 1 CryptKeeper 481 198 2 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Web5-78010-3 of Web5
+			properties
+				x	90
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-78010-4 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78010-1
+			end
+			base described
+			end
+		end
+		object RandomPants-78010-5 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78010-1
+			end
+			base described
+			end
+		end
+		object RandomCowl-78010-6 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78010-2
+			end
+			base described
+			end
+		end
+		object RandomJunk-78010-7 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78010-2
+			end
+			base described
+			end
+		end
+		object RandomStuff-78010-8 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-78010-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 78009
+	properties
+		template 30701
+		west 78010
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-78009-0 of DungeonBackDoor
+			properties
+				x	278
+				y	208
+				loop	2
+				linkTo	DungeonBackDoor-78006-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78009-1 of Torch
+			properties
+				x	374
+				y	209
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78037
+	properties
+		template 31006
+		south 78036
+		north 78038
+		flags	0
+	end
+end
+room 78044
+	properties
+		template 31004
+		south 78045
+		north 78041
+		flags	0
+	end
+	objects
+		object FatColumn-78044-0 of FatColumn
+			properties
+				x	295
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-78044-1 of FatColumn
+			properties
+				x	166
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78092
+	properties
+		template 30102
+		south 78091
+		east 78093
+		flags	8
+	end
+	objects
+		object StormBat-78092-0 of StormBat
+			properties
+				x	284
+				y	307
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-78092-1 of StormBat
+			properties
+				x	383
+				y	285
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object screechingHorror-78092-2 of screechingHorror
+			properties
+				x	286
+				y	247
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object screechingHorror-78092-3 of screechingHorror
+			properties
+				x	186
+				y	294
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-78092-4 of Torch
+			properties
+				x	150
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78093
+	properties
+		template 32101
+		east 78094
+		west 78092
+		north 78095
+		flags	0
+	end
+end
+room 78094
+	properties
+		template 30701
+		west 78093
+		flags	8
+	end
+	objects
+		object screechingHorror-78094-0 of screechingHorror
+			properties
+				x	318
+				y	288
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-78094-1 of StormBat
+			properties
+				x	216
+				y	294
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-78094-2 of StormBat
+			properties
+				x	159
+				y	263
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-78094-3 of StormBat
+			properties
+				x	301
+				y	258
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-78094-4 of Torch
+			properties
+				x	278
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78035
+	properties
+		template 30102
+		south 78016
+		east 78036
+		flags	0
+	end
+	objects
+		object screechingHorror-78035-0 of screechingHorror
+			properties
+				x	282
+				y	278
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-78035-1 of StormBat
+			properties
+				x	369
+				y	281
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DemonRat-78035-2 of DemonRat
+			properties
+				x	253
+				y	302
+				loop	2
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78036
+	properties
+		template 32201
+		east 78074
+		west 78035
+		north 78037
+		flags	0
+	end
+end
+room 78074
+	properties
+		template 31202
+		south 78073
+		east 78045
+		west 78036
+		flags	0
+	end
+	objects
+		object DemonRat-78074-0 of DemonRat
+			properties
+				x	384
+				y	258
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78045
+	properties
+		template 32202
+		east 78046
+		west 78074
+		north 78044
+		flags	0
+	end
+end
+room 78046
+	properties
+		template 30909
+		south 78072
+		west 78045
+		flags	0
+	end
+end
+room 78091
+	properties
+		template 31001
+		south 78090
+		north 78092
+		flags	0
+	end
+end
+room 78006
+	properties
+		template 30302
+		south 78001
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-78006-0 of DungeonBackDoor
+			properties
+				x	325
+				y	228
+				loop	2
+				linkTo	DungeonBackDoor-78009-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+		object Torch-78006-1 of Torch
+			properties
+				x	216
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78016
+	properties
+		template 31006
+		south 78015
+		north 78035
+		flags	0
+	end
+	objects
+		object DemonRat-78016-0 of DemonRat
+			properties
+				x	320
+				y	257
+				loop	2
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78073
+	properties
+		template 30402
+		south 78032
+		north 78074
+		flags	0
+	end
+	objects
+		object RatGuano-78073-0 of RatGuano
+			properties
+				x	135
+				y	309
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78072
+	properties
+		template 31401
+		south 78049
+		east 78075
+		north 78046
+		flags	0
+	end
+	objects
+		object PlagueRat-78072-0 of PlagueRat
+			properties
+				x	493
+				y	268
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object DemonRat-78072-1 of DemonRat
+			properties
+				x	443
+				y	295
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78075
+	properties
+		template 30201
+		west 78072
+		flags	0
+	end
+	objects
+		object Bones-78075-0 of Bones
+			properties
+				x	442
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-78075-1 of Bones
+			properties
+				x	365
+				y	279
+				loop	1
+			end
+			base described
+			end
+		end
+		object Skull-78075-2 of Skull
+			properties
+				x	429
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-78075-3 of Skull
+			properties
+				x	404
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78090
+	properties
+		template 30802
+		east 78089
+		north 78091
+		flags	0
+	end
+	objects
+		object Torch-78090-0 of Torch
+			properties
+				x	363
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78089
+	properties
+		template 30906
+		east 78013
+		west 78090
+		flags	0
+	end
+end
+room 78013
+	properties
+		template 30202
+		south 78011
+		west 78089
+		flags	0
+	end
+end
+room 78001
+	properties
+		template 31004
+		south 78000
+		north 78006
+		flags	0
+	end
+end
+room 78015
+	properties
+		template 31402
+		south 78014
+		east 78031
+		north 78016
+		flags	0
+	end
+end
+room 78031
+	properties
+		template 30703
+		east 78032
+		west 78015
+		flags	0
+	end
+	objects
+		object screechingHorror-78031-0 of screechingHorror
+			properties
+				x	430
+				y	273
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object Ghost-78031-1 of Ghost
+			properties
+				x	522
+				y	294
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object FatColumn-78031-2 of FatColumn
+			properties
+				x	273
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-78031-3 of FatColumn
+			properties
+				x	337
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-78031-4 of Stalagmite1
+			properties
+				x	358
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-78031-5 of Stalagmite1
+			properties
+				x	330
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-78031-6 of Stalagmite3
+			properties
+				x	308
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78031-7 of Column
+			properties
+				x	292
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78031-8 of Column
+			properties
+				x	271
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-78031-9 of Stalagmite1
+			properties
+				x	338
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78032
+	properties
+		template 31201
+		south 78033
+		west 78031
+		north 78073
+		flags	0
+	end
+end
+room 78049
+	properties
+		template 31004
+		south 78048
+		north 78072
+		flags	0
+	end
+end
+room 78011
+	properties
+		template 31004
+		south 78012
+		north 78013
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-78011-0 of DungeonBackDoor
+			properties
+				x	195
+				y	233
+				loop	2
+				linkTo	DungeonBackDoor-78008-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78011-1 of Torch
+			properties
+				x	441
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78008
+	properties
+		template 30805
+		east 78003
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-78008-0 of DungeonBackDoor
+			properties
+				x	249
+				y	213
+				loop	2
+				linkTo	DungeonBackDoor-78011-0
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+		object Torch-78008-1 of Torch
+			properties
+				x	147
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78003
+	properties
+		template 30901
+		east 78000
+		west 78008
+		flags	0
+	end
+end
+room 78000
+	properties
+		template 31502
+		south 78002
+		east 78004
+		west 78003
+		north 78001
+		flags	0
+	end
+	objects
+		object DungeonBackUp-78000-0 of DungeonBackUp
+			properties
+				x	196
+				y	229
+				loop	2
+				linkTo	sarcophagusDoor12132-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78000-1 of Torch
+			properties
+				x	538
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78004
+	properties
+		template 30703
+		east 78007
+		west 78000
+		flags	0
+	end
+end
+room 78007
+	properties
+		template 30201
+		west 78004
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-78007-0 of DungeonBackDoor
+			properties
+				x	175
+				y	232
+				loop	2
+				linkTo	DungeonBackDoor-78014-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78007-1 of Torch
+			properties
+				x	325
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78014
+	properties
+		template 30401
+		north 78015
+		flags	0
+	end
+	objects
+		object DemonRat-78014-0 of DemonRat
+			properties
+				x	282
+				y	270
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-78014-1 of DungeonBackDoor
+			properties
+				x	100
+				y	237
+				loop	2
+				linkTo	DungeonBackDoor-78007-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 78033
+	properties
+		template 31401
+		south 78034
+		east 78047
+		north 78032
+		flags	72
+	end
+	objects
+		object screechingHorror-78033-0 of screechingHorror
+			properties
+				x	594
+				y	270
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-78033-1 of StormBat
+			properties
+				x	425
+				y	248
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DemonRat-78033-2 of DemonRat
+			properties
+				x	534
+				y	314
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object PlagueRat-78033-3 of PlagueRat
+			properties
+				x	455
+				y	288
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object Shade-78033-4 of Shade
+			properties
+				x	543
+				y	268
+				loop	1
+				color	29
+			end
+			base character
+			end
+		end
+		object SnowDaemon-78033-5 of SnowDaemon
+			properties
+				x	507
+				y	277
+				loop	1
+				color	790
+			end
+			base character
+			end
+		end
+	end
+end
+room 78047
+	properties
+		template 30703
+		east 78048
+		west 78033
+		flags	0
+	end
+	objects
+		object LockedChest-78047-0 of LockedChest
+			properties
+				x	454
+				y	255
+				loop	1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FatColumn-78047-1 of FatColumn
+			properties
+				x	275
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-78047-2 of Stalagmite1
+			properties
+				x	315
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-78047-3 of Stalagmite3
+			properties
+				x	277
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78047-4 of Column
+			properties
+				x	325
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78047-5 of Stalagmite4
+			properties
+				x	382
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78047-6 of Stalagmite4
+			properties
+				x	256
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78047-7 of Stalagmite4
+			properties
+				x	270
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78047-8 of Stalagmite4
+			properties
+				x	372
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78047-9 of Stalagmite4
+			properties
+				x	380
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78047-10 of Stalagmite4
+			properties
+				x	259
+				y	293
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-78047-11 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object RandomGem-78047-12 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-78047-13 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-78047-14 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78047-15 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78047-16 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object RandomRing-78047-17 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78047-0
+			end
+			base described
+			end
+		end
+		object Lever-78047-18 of Lever
+			properties
+				x	445
+				y	285
+				loop	0
+			end
+			actions
+				vBeActivated unlock TrapDoor-78058-0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 78048
+	properties
+		template 31008
+		south 78050
+		east 78061
+		west 78047
+		north 78049
+		flags	200
+	end
+	objects
+		object DemonRat-78048-0 of DemonRat
+			properties
+				x	290
+				y	308
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-78048-1 of DemonRat
+			properties
+				x	411
+				y	300
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-78048-2 of DemonRat
+			properties
+				x	212
+				y	295
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-78048-3 of DemonRat
+			properties
+				x	330
+				y	271
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Fury-78048-4 of Fury
+			properties
+				x	190
+				y	253
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object EntombedOne-78048-5 of EntombedOne
+			properties
+				x	293
+				y	248
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object RatGuano-78048-6 of RatGuano
+			properties
+				x	327
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78061
+	properties
+		template 30201
+		west 78048
+		flags	8
+	end
+	objects
+		object DemonRat-78061-0 of DemonRat
+			properties
+				x	105
+				y	283
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-78061-1 of DemonRat
+			properties
+				x	264
+				y	262
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78100
+	properties
+		template 30501
+		south 78101
+		east 78099
+		flags	0
+	end
+	objects
+		object Torch-78100-0 of Torch
+			properties
+				x	477
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78099
+	properties
+		template 30906
+		east 78012
+		west 78100
+		flags	0
+	end
+end
+room 78012
+	properties
+		template 32701
+		west 78099
+		north 78011
+		flags	0
+	end
+end
+room 78002
+	properties
+		template 31003
+		south 78005
+		north 78000
+		flags	0
+	end
+end
+room 78071
+	properties
+		template 30303
+		south 78069
+		flags	0
+	end
+end
+room 78034
+	properties
+		template 30402
+		south 78063
+		north 78033
+		flags	0
+	end
+end
+room 78050
+	properties
+		template 31001
+		south 78051
+		north 78048
+		flags	0
+	end
+end
+room 78101
+	properties
+		template 31003
+		south 78102
+		north 78100
+		flags	40
+	end
+	objects
+		object Ghoul-78101-0 of Ghoul
+			properties
+				x	208
+				y	300
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78101-1 of EntombedOne
+			properties
+				x	413
+				y	308
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 78005
+	properties
+		template 30401
+		north 78002
+		flags	8
+	end
+	objects
+		object DungeonBackDoor-78005-0 of DungeonBackDoor
+			properties
+				x	100
+				y	236
+				loop	2
+				linkTo	DungeonBackDoor-78017-5
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+		object Torch-78005-1 of Torch
+			properties
+				x	588
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78069
+	properties
+		template 31401
+		south 78070
+		east 78064
+		north 78071
+		flags	0
+	end
+	objects
+		object DemonRat-78069-0 of DemonRat
+			properties
+				x	438
+				y	281
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78064
+	properties
+		template 32403
+		east 78063
+		west 78069
+		flags	0
+	end
+end
+room 78063
+	properties
+		template 31201
+		south 78054
+		west 78064
+		north 78034
+		flags	0
+	end
+end
+room 78051
+	properties
+		template 31005
+		south 78052
+		east 78060
+		north 78050
+		flags	0
+	end
+	objects
+		object DemonRat-78051-0 of DemonRat
+			properties
+				x	322
+				y	314
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 78060
+	properties
+		template 30701
+		west 78051
+		flags	0
+	end
+end
+room 78102
+	properties
+		template 32305
+		east 78103
+		north 78101
+		flags	0
+	end
+	objects
+		object CryptKeeper-78102-0 of CryptKeeper
+			properties
+				x	345
+				y	211
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 78103
+	properties
+		template 31202
+		south 78105
+		east 78104
+		west 78102
+		flags	104
+	end
+	objects
+		object Ghost-78103-0 of Ghost
+			properties
+				x	364
+				y	293
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+		object Wraith-78103-1 of Wraith
+			properties
+				x	282
+				y	262
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-78103-2 of Wraith
+			properties
+				x	213
+				y	302
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object EntombedOne-78103-3 of EntombedOne
+			properties
+				x	137
+				y	267
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 78104
+	properties
+		template 30701
+		west 78103
+		flags	0
+	end
+	objects
+		object Torch-78104-0 of Torch
+			properties
+				x	278
+				y	206
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78070
+	properties
+		template 31003
+		south 78123
+		north 78069
+		flags	0
+	end
+end
+room 78054
+	properties
+		template 30803
+		east 78053
+		north 78063
+		flags	0
+	end
+end
+room 78053
+	properties
+		template 30902
+		south 78065
+		east 78052
+		west 78054
+		flags	0
+	end
+	objects
+		object PlagueRat-78053-0 of PlagueRat
+			properties
+				x	316
+				y	288
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+	end
+end
+room 78052
+	properties
+		template 32602
+		west 78053
+		north 78051
+		flags	0
+	end
+end
+room 78105
+	properties
+		template 31001
+		south 78106
+		north 78103
+		flags	0
+	end
+	objects
+		object Lich-78105-0 of Lich
+			properties
+				x	243
+				y	294
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-78105-1 of Torch
+			properties
+				x	155
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78017
+	properties
+		template 30303
+		south 78018
+		flags	40
+	end
+	objects
+		object Wraith-78017-0 of Wraith
+			properties
+				x	525
+				y	308
+				loop	3
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-78017-1 of Wraith
+			properties
+				x	423
+				y	306
+				loop	3
+				color	7
+			end
+			base character
+			end
+		end
+		object Lich-78017-2 of Lich
+			properties
+				x	472
+				y	283
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Wraith-78017-3 of Wraith
+			properties
+				x	551
+				y	268
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-78017-4 of Wraith
+			properties
+				x	393
+				y	268
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-78017-5 of DungeonBackDoor
+			properties
+				x	476
+				y	222
+				loop	2
+				linkTo	DungeonBackDoor-78005-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78017-6 of Torch
+			properties
+				x	310
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78123
+	properties
+		template 31004
+		south 78121
+		north 78070
+		flags	0
+	end
+	objects
+		object RatGuano-78123-0 of RatGuano
+			properties
+				x	174
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78065
+	properties
+		template 31004
+		south 78066
+		north 78053
+		flags	32
+	end
+	objects
+		object Kilrog-78065-0 of Kilrog
+			properties
+				x	323
+				y	286
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+	end
+end
+room 78106
+	properties
+		template 31003
+		south 78107
+		north 78105
+		flags	40
+	end
+	objects
+		object CryptKeeper-78106-0 of CryptKeeper
+			properties
+				x	319
+				y	290
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghost-78106-1 of Ghost
+			properties
+				x	434
+				y	313
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Shade-78106-2 of Shade
+			properties
+				x	235
+				y	274
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+	end
+end
+room 78019
+	properties
+		template 30102
+		south 78081
+		east 78018
+		flags	0
+	end
+	objects
+		object Torch-78019-0 of Torch
+			properties
+				x	427
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-78019-1 of Spring
+			properties
+				x	206
+				y	133
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-78019-2 of Web3
+			properties
+				x	338
+				y	103
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-78019-3 of Web2
+			properties
+				x	294
+				y	102
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-78019-4 of Web1
+			properties
+				x	270
+				y	103
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-78019-5 of Web6
+			properties
+				x	261
+				y	214
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-78019-6 of Web5
+			properties
+				x	324
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-78019-7 of Web4
+			properties
+				x	388
+				y	174
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web7-78019-8 of Web7
+			properties
+				x	215
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-78019-9 of Skull
+			properties
+				x	299
+				y	120
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-78019-10 of FatColumn
+			properties
+				x	244
+				y	79
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-78019-11 of FatColumn
+			properties
+				x	390
+				y	75
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78018
+	properties
+		template 32202
+		east 78076
+		west 78019
+		north 78017
+		flags	0
+	end
+end
+room 78076
+	properties
+		template 31104
+		south 78077
+		west 78018
+		flags	0
+	end
+	objects
+		object Torch-78076-0 of Torch
+			properties
+				x	343
+				y	218
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78122
+	properties
+		template 30805
+		east 78121
+		flags	0
+	end
+end
+room 78121
+	properties
+		template 31302
+		south 78125
+		east 78124
+		west 78122
+		north 78123
+		flags	32
+	end
+	objects
+		object Kilrog-78121-0 of Kilrog
+			properties
+				x	251
+				y	283
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+	end
+end
+room 78124
+	properties
+		template 30703
+		east 78067
+		west 78121
+		flags	0
+	end
+end
+room 78067
+	properties
+		template 30905
+		south 78126
+		east 78066
+		west 78124
+		flags	0
+	end
+end
+room 78066
+	properties
+		template 32201
+		east 78068
+		west 78067
+		north 78065
+		flags	0
+	end
+end
+room 78068
+	properties
+		template 32302
+		south 78127
+		west 78066
+		flags	40
+	end
+	objects
+		object FlameRat-78068-0 of FlameRat
+			properties
+				x	299
+				y	312
+				loop	1
+				color	1
+			end
+			base character
+			end
+		end
+		object ArcticRat-78068-1 of ArcticRat
+			properties
+				x	243
+				y	276
+				loop	0
+				color	2
+			end
+			base character
+			end
+		end
+		object CaveRat-78068-2 of CaveRat
+			properties
+				x	206
+				y	305
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 78107
+	properties
+		template 31004
+		south 78108
+		north 78106
+		flags	0
+	end
+end
+room 78081
+	properties
+		template 30402
+		south 78080
+		north 78019
+		flags	0
+	end
+	objects
+		object Torch-78081-0 of Torch
+			properties
+				x	152
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78077
+	properties
+		template 30402
+		south 78078
+		north 78076
+		flags	0
+	end
+	objects
+		object Torch-78077-0 of Torch
+			properties
+				x	152
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78125
+	properties
+		template 32304
+		north 78121
+		flags	8
+	end
+	objects
+		object StormBat-78125-0 of StormBat
+			properties
+				x	146
+				y	243
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-78125-1 of StormBat
+			properties
+				x	219
+				y	234
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-78125-2 of StormBat
+			properties
+				x	301
+				y	240
+				loop	3
+				color	64
+			end
+			base character
+			end
+		end
+		object screechingHorror-78125-3 of screechingHorror
+			properties
+				x	218
+				y	284
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object TeleportAltar-78125-4 of TeleportAltar
+			properties
+				x	219
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-78125-5 of Stalagmite3
+			properties
+				x	400
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite4-78125-6 of Stalagmite4
+			properties
+				x	435
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object FatColumn-78125-7 of FatColumn
+			properties
+				x	475
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78126
+	properties
+		template 30403
+		north 78067
+		flags	0
+	end
+	objects
+		object Bones-78126-0 of Bones
+			properties
+				x	170
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object StormBat-78126-1 of StormBat
+			properties
+				x	343
+				y	274
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object vampireBat-78126-2 of vampireBat
+			properties
+				x	175
+				y	244
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object PlagueRat-78126-3 of PlagueRat
+			properties
+				x	261
+				y	250
+				loop	3
+				color	82
+			end
+			base character
+			end
+		end
+		object Skull-78126-4 of Skull
+			properties
+				x	359
+				y	281
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomWeapon-78126-5 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78126-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-78126-6 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78126-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-78126-7 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78126-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-78126-8 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78126-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-78126-9 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78126-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78126-10 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-78126-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78127
+	properties
+		template 32304
+		north 78068
+		flags	8
+	end
+	objects
+		object LockedChest-78127-0 of LockedChest
+			properties
+				x	417
+				y	276
+				loop	0
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object DemonRat-78127-1 of DemonRat
+			properties
+				x	287
+				y	247
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DemonRat-78127-2 of DemonRat
+			properties
+				x	151
+				y	278
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Banshee-78127-3 of Banshee
+			properties
+				x	226
+				y	218
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomBauble-78127-4 of RandomBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78127-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78127-5 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78127-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-78127-6 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78127-0
+			end
+			base described
+			end
+		end
+		object RandomShirt-78127-7 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78127-0
+			end
+			base described
+			end
+		end
+		object RandomPants-78127-8 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78127-0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-78127-9 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78127-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78108
+	properties
+		template 30403
+		north 78107
+		flags	0
+	end
+	objects
+		object LockedChest-78108-0 of LockedChest
+			properties
+				x	355
+				y	282
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LockedChest-78108-1 of LockedChest
+			properties
+				x	355
+				y	282
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-78108-2 of Torch
+			properties
+				x	78
+				y	215
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78108-3 of Torch
+			properties
+				x	602
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-78108-4 of Lever
+			properties
+				x	231
+				y	281
+				loop	0
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-78005-0 
+				vBeActivated teleport dobj 78005 1 
+			end
+			base described
+			end
+		end
+		object Lever-78108-5 of Lever
+			properties
+				x	180
+				y	241
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 78000 0 
+				vBeDeactivated teleport dobj 78000 0 
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-78108-6 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78108-0
+			end
+			base described
+			end
+		end
+		object RandomWand-78108-7 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78108-0
+			end
+			base described
+			end
+		end
+		object RandomBracers-78108-8 of RandomBracers
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78108-0
+			end
+			base described
+			end
+		end
+		object RandomLeatherBoots-78108-9 of RandomLeatherBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78108-0
+			end
+			base described
+			end
+		end
+		object RandomChainShirt-78108-10 of RandomChainShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78108-0
+			end
+			base described
+			end
+		end
+		object RandomChainPants-78108-11 of RandomChainPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78108-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78080
+	properties
+		template 30801
+		east 78079
+		north 78081
+		flags	72
+	end
+	objects
+		object EntombedOne-78080-0 of EntombedOne
+			properties
+				x	546
+				y	285
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78080-1 of EntombedOne
+			properties
+				x	328
+				y	282
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-78080-2 of Lich
+			properties
+				x	444
+				y	258
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object SmokeA-78080-3 of SmokeA
+			properties
+				x	298
+				y	335
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-78080-4 of Spring
+			properties
+				x	-3
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-78080-5 of Spring
+			properties
+				x	5
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78079
+	properties
+		template 30905
+		south 78082
+		east 78078
+		west 78080
+		flags	0
+	end
+	objects
+		object Torch-78079-0 of Torch
+			properties
+				x	431
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78078
+	properties
+		template 31303
+		west 78079
+		north 78077
+		flags	136
+	end
+	objects
+		object Lich-78078-0 of Lich
+			properties
+				x	320
+				y	275
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78078-1 of EntombedOne
+			properties
+				x	420
+				y	271
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-78078-2 of EntombedOne
+			properties
+				x	182
+				y	276
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object SmokeA-78078-3 of SmokeA
+			properties
+				x	440
+				y	341
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78082
+	properties
+		template 31006
+		south 78083
+		north 78079
+		flags	0
+	end
+end
+room 78084
+	properties
+		template 30101
+		east 78083
+		flags	0
+	end
+	objects
+		object Torch-78084-0 of Torch
+			properties
+				x	481
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-78084-1 of Altar
+			properties
+				x	481
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78083
+	properties
+		template 31503
+		south 78086
+		east 78085
+		west 78084
+		north 78082
+		flags	232
+	end
+	objects
+		object FlameDaemon-78083-0 of FlameDaemon
+			properties
+				x	145
+				y	191
+				loop	2
+				color	789
+			end
+			base character
+			end
+		end
+		object SnowDaemon-78083-1 of SnowDaemon
+			properties
+				x	95
+				y	281
+				loop	0
+				color	790
+			end
+			base character
+			end
+		end
+		object DaemonKing-78083-2 of DaemonKing
+			properties
+				x	245
+				y	245
+				loop	2
+				color	784
+			end
+			base character
+				properName	"Ezelberoth"
+				title	"the Daemon King"
+			end
+		end
+		object Kilrog-78083-3 of Kilrog
+			properties
+				x	434
+				y	186
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-78083-4 of Kilrog
+			properties
+				x	509
+				y	272
+				loop	1
+				color	787
+			end
+			base character
+			end
+		end
+		object KingKilrog-78083-5 of KingKilrog
+			properties
+				x	343
+				y	245
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+		object Altar-78083-6 of Altar
+			properties
+				x	150
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-78083-7 of Altar
+			properties
+				x	294
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-78083-8 of Altar
+			properties
+				x	434
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-78083-9 of FireC
+			properties
+				x	204
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-78083-10 of FireC
+			properties
+				x	388
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78083-11 of Column
+			properties
+				x	155
+				y	163
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-78083-12 of Column
+			properties
+				x	430
+				y	168
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78083-13 of Torch
+			properties
+				x	434
+				y	171
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-78083-14 of Torch
+			properties
+				x	155
+				y	171
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78085
+	properties
+		template 30201
+		west 78083
+		flags	0
+	end
+	objects
+		object Torch-78085-0 of Torch
+			properties
+				x	184
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-78085-1 of Altar
+			properties
+				x	181
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78086
+	properties
+		template 31001
+		south 78087
+		north 78083
+		flags	0
+	end
+end
+room 78087
+	properties
+		template 31004
+		south 78088
+		north 78086
+		flags	40
+	end
+	objects
+		object Fury-78087-0 of Fury
+			properties
+				x	404
+				y	295
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-78087-1 of Fury
+			properties
+				x	297
+				y	294
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Lich-78087-2 of Lich
+			properties
+				x	433
+				y	239
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-78087-3 of Lich
+			properties
+				x	283
+				y	246
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-78087-4 of CryptKeeper
+			properties
+				x	478
+				y	313
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-78087-5 of CryptKeeper
+			properties
+				x	229
+				y	306
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+		object Altar-78087-6 of Altar
+			properties
+				x	355
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-78087-7 of Smoke1
+			properties
+				x	352
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-78087-8 of FireC
+			properties
+				x	385
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-78087-9 of FireC
+			properties
+				x	330
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 78088
+	properties
+		template 32304
+		north 78087
+		flags	0
+	end
+	objects
+		object TrapDoor-78088-0 of TrapDoor
+			properties
+				x	181
+				y	282
+				loop	0
+				linkTo	DungeonBackUp-78391-0
+			end
+			actions
+				vBeAnswered unlock TrapDoor-78088-0 
+				vBeAnswered open TrapDoor-78088-0 
+			end
+			base lockable
+			end
+			base described
+				riddleFile	"../data/riddles/riddle02.txt"
+			end
+		end
+	end
+end
+room 78391
+	properties
+		template 30305
+		south 78392
+		flags	0
+	end
+	objects
+		object DungeonBackUp-78391-0 of DungeonBackUp
+			properties
+				x	286
+				y	247
+				loop	2
+				linkTo	TrapDoor-78088-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 78392
+	properties
+		template 30803
+		north 78391
+		flags	0
+	end
+	objects
+		object LockedChest-78392-0 of LockedChest
+			properties
+				x	612
+				y	262
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LockedChest-78392-1 of LockedChest
+			properties
+				x	510
+				y	263
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LockedChest-78392-2 of LockedChest
+			properties
+				x	395
+				y	263
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LockedChest-78392-3 of LockedChest
+			properties
+				x	284
+				y	262
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomChainCowl-78392-4 of RandomChainCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-1
+			end
+			base described
+			end
+		end
+		object RandomLeatherBoots-78392-5 of RandomLeatherBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-1
+			end
+			base described
+			end
+		end
+		object RandomPlatePants-78392-6 of RandomPlatePants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-2
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-78392-7 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-2
+			end
+			base described
+			end
+		end
+		object RandomWand-78392-8 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-2
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-78392-9 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-3
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-78392-10 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-0
+			end
+			base described
+			end
+		end
+		object RandomGem-78392-11 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-2
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-78392-12 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-3
+			end
+			base described
+			end
+		end
+		object RandomScroll-78392-13 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-3
+			end
+			base described
+			end
+		end
+		object RandomBauble-78392-14 of RandomBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-1
+			end
+			base described
+			end
+		end
+		object RandomPotion-78392-15 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-0
+			end
+			base described
+			end
+		end
+		object RandomRing-78392-16 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-2
+			end
+			base described
+			end
+		end
+		object RandomOrb-78392-17 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-0
+			end
+			base described
+			end
+		end
+		object RandomShield-78392-18 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-3
+			end
+			base described
+			end
+		end
+		object Dng17Symbol-78392-19 of Dng17Symbol
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-78392-1
+			end
+			base described
+			end
+		end
+	end
+end

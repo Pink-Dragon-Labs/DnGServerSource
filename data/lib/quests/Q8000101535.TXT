@@ -1,0 +1,19 @@
+quest  383 #80001-01-535        # Wanda, Elven Enchantment, Drune, 8307
+
+name  "Wanda Requests a Favor"
+type  fedex
+
+proposal  "It is ready for her.  I am pleased to see you in my shop, because I have need of favor.  My professional duties have been keeping me very occupied, and I have ordered a meal to go.  Would you go to Fenemi and pick it up for me?"
+
+declined  "Are you sure?"
+
+accepted  "Excellent.  When you return I will give you the package for Lireen."
+
+reminder   "My meal to go is waiting at Fenemi's shop."
+
+completed  "Thank you for your kindness."
+
+getItem   qWandaLunch
+reward   qLireenPackage 
+end
+

@@ -1,0 +1,19 @@
+quest  147 #6403-01-300        #Wonduri, Silverbrook Charms, Silverbrook, 6403
+
+name  "Amulet of Nemor the Noble"
+type  fedex
+
+proposal  "Ready for Theurgism Expert skills?  Wonderful.  I'm delighted that you are coming along so well.  We need more colleagues in the ranks, and the quality of your own life will be enriched.  Your next quest will be for the Amulet of Nemor the Noble, so called in tribute to his character.  Will you undertake this quest?
+
+declined  "Do not disappoint me."
+
+accepted  "This quest is best begun in the hamlet of Wen."
+
+reminder   "Journey to Wen and seek the Amulet of Nemor the Noble."
+
+completed  "You arrive just when I thought you would, and of course you have the Amulet of Nemor the Noble.  Here is your skill book.  You are now halfway through the Theurgism course.
+
+getItem   qAmuletNemor
+reward   skbTheurgismIII 
+end
+

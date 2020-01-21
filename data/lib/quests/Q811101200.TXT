@@ -1,0 +1,19 @@
+quest 309 #8111-01-200
+
+name  "White Shark Tooth"
+type  fedex
+
+proposal  "Well, well, the Apprentice is back and ready for the Proficient level.  I need a White Shark Tooth.  You'll get your Sorcery Proficiencies book as soon as you bring me one.  What do you say?"
+
+declined  "Then be off with you."
+
+accepted  "Go to the desert regions.  You're sure to find one there.  Be off with you now."
+
+reminder  "You won't get your Sorcery Proficiencies book until you bring me a White Shark Tooth from a desert region."
+
+completed  "So you located the White Shark Tooth.  You have done well.  Here is your copy of Sorcery Proficiencies.  When you're ready for Expert Sorceries, return." 
+
+getItem  qSharkTooth
+reward skbSorceryII
+
+end

@@ -1,0 +1,437 @@
+room 17900
+properties
+picture 3055
+south 17907
+east 17901
+end
+end
+room 17901
+properties
+picture 3055
+south 17908
+east 17902
+west 17900
+flags 2
+end
+end
+room 17902
+properties
+picture 3055
+south 17909
+east 17903
+west 17901
+end
+end
+room 17903
+properties
+picture 3055
+south 17910
+east 17904
+west 17902
+flags 2
+end
+end
+room 17904
+properties
+picture 3055
+south 17911
+east 17905
+west 17903
+end
+end
+room 17905
+properties
+picture 3055
+south 17912
+east 17906
+west 17904
+flags 2
+end
+end
+room 17906
+properties
+picture 3055
+south 17913
+west 17905
+end
+end
+room 17907
+properties
+picture 3055
+north 17900
+south 17914
+east 17908
+flags 2
+end
+end
+room 17908
+properties
+picture 3055
+north 17901
+south 17915
+east 17909
+west 17907
+end
+end
+room 17909
+properties
+picture 3055
+north 17902
+south 17916
+east 17910
+west 17908
+flags 2
+end
+end
+room 17910
+properties
+picture 3055
+north 17903
+south 17917
+east 17911
+west 17909
+end
+end
+room 17911
+properties
+picture 3055
+north 17904
+south 17918
+east 17912
+west 17910
+flags 2
+end
+end
+room 17912
+properties
+picture 3055
+north 17905
+south 17919
+east 17913
+west 17911
+end
+end
+room 17913
+properties
+picture 3055
+north 17906
+south 17920
+west 17912
+flags 2
+end
+end
+room 17914
+properties
+picture 3055
+north 17907
+south 17921
+east 17915
+end
+end
+room 17915
+properties
+picture 3055
+north 17908
+south 17922
+east 17916
+west 17914
+flags 2
+end
+end
+room 17916
+properties
+picture 3055
+north 17909
+south 17923
+east 17917
+west 17915
+end
+end
+room 17917
+properties
+picture 3055
+north 17910
+south 17924
+east 17918
+west 17916
+flags 2
+end
+end
+room 17918
+properties
+picture 3055
+north 17911
+south 17925
+east 17919
+west 17917
+end
+end
+room 17919
+properties
+picture 3055
+north 17912
+south 17926
+east 17920
+west 17918
+flags 2
+end
+end
+room 17920
+properties
+picture 3055
+north 17913
+south 17927
+west 17919
+end
+end
+room 17921
+properties
+picture 3055
+north 17914
+south 17928
+east 17922
+flags 2
+end
+end
+room 17922
+properties
+picture 3055
+north 17915
+south 17929
+east 17923
+west 17921
+end
+end
+room 17923
+properties
+picture 3055
+north 17916
+south 17930
+east 17924
+west 17922
+flags 2
+end
+end
+room 17924
+properties
+picture 3055
+north 17917
+south 17931
+east 17925
+west 17923
+end
+end
+room 17925
+properties
+picture 3055
+north 17918
+south 17932
+east 17926
+west 17924
+flags 2
+end
+end
+room 17926
+properties
+picture 3055
+north 17919
+south 17933
+east 17927
+west 17925
+end
+end
+room 17927
+properties
+picture 3055
+north 17920
+south 17934
+west 17926
+flags 2
+end
+end
+room 17928
+properties
+picture 3055
+north 17921
+south 17935
+east 17929
+end
+end
+room 17929
+properties
+picture 3055
+north 17922
+south 17936
+east 17930
+west 17928
+flags 2
+end
+end
+room 17930
+properties
+picture 3055
+north 17923
+south 17937
+east 17931
+west 17929
+end
+end
+room 17931
+properties
+picture 3055
+north 17924
+south 17938
+east 17932
+west 17930
+flags 2
+end
+end
+room 17932
+properties
+picture 3055
+north 17925
+south 17939
+east 17933
+west 17931
+end
+end
+room 17933
+properties
+picture 3055
+north 17926
+south 17940
+east 17934
+west 17932
+flags 2
+end
+end
+room 17934
+properties
+picture 3055
+north 17927
+south 17941
+west 17933
+end
+end
+room 17935
+properties
+picture 3055
+north 17928
+south 17942
+east 17936
+flags 2
+end
+end
+room 17936
+properties
+picture 3055
+north 17929
+south 17943
+east 17937
+west 17935
+end
+end
+room 17937
+properties
+picture 3055
+north 17930
+south 17944
+east 17938
+west 17936
+flags 2
+end
+end
+room 17938
+properties
+picture 3055
+north 17931
+south 17945
+east 17939
+west 17937
+end
+end
+room 17939
+properties
+picture 3055
+north 17932
+south 17946
+east 17940
+west 17938
+flags 2
+end
+end
+room 17940
+properties
+picture 3055
+north 17933
+south 17947
+east 17941
+west 17939
+end
+end
+room 17941
+properties
+picture 3055
+north 17934
+south 17948
+west 17940
+flags 2
+end
+end
+room 17942
+properties
+picture 3055
+north 17935
+east 17943
+end
+end
+room 17943
+properties
+picture 3055
+north 17936
+east 17944
+west 17942
+flags 2
+end
+end
+room 17944
+properties
+picture 3055
+north 17937
+east 17945
+west 17943
+end
+end
+room 17945
+properties
+picture 3055
+north 17938
+east 17946
+west 17944
+flags 2
+end
+end
+room 17946
+properties
+picture 3055
+north 17939
+east 17947
+west 17945
+end
+end
+room 17947
+properties
+picture 3055
+north 17940
+east 17948
+west 17946
+flags 2
+end
+end
+room 17948
+properties
+picture 3055
+north 17941
+west 17947
+end
+end

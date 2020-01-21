@@ -1,0 +1,15 @@
+quest 311 #8111-01-230   #Douf, The Stillwater Tavern, Kurz, 8023 (formerly Ilona, Tavernkeeper, 6500)
+
+name  "Returning Jaqqar's Ring"
+type  fedex
+
+proposal  "So you're here for Jaqqar's ring, are you.  And of course he didn't send anything to redeem it.  Trade's been a bit slow of late.  If you want to make a couple of purchases it would recompense my time.  Up to you though.  If I hand it over, you'll return the ring, I suppose?"
+
+declined  "Hmph.  What happened to your helpfulness?"  
+
+accepted  "Here you go, the ring of Jaqqar's old man.  Got himself murdered, did you know that?  If you want to buy anything while you're here, let me know."
+
+reminder  "Hadn't you better start back with that ring?"
+
+reward  qJaqqarsRing
+end

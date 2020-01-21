@@ -1,0 +1,9 @@
+name "mines00"
+title "Mine All Mines"
+worldFile "../data/lib/world/mine00.wld"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 29
+groupChance 30
+monster Miner 10

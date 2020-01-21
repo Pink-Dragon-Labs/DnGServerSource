@@ -1,0 +1,15 @@
+id 10100
+
+banner "Greetings!  Welcome to my shop.  How can I help you?"
+
+topic "Who are you?"
+	text "My name is Marial.  I own and operate this shop."
+end
+
+topic "Tuan's Bowl" q1:0 
+	text "Oh my!  I knew I was forgetting something.  Just yesterday a man by the name of Garon came into my shop looking for a preparation bowl.  He saw Tuan's bowl sitting on that shelf over there and bought it from me.  It just slipped my mind totally that it was Tuan's bowl!  I hope Tuan does not get too angry with me.  I know how important that bowl was to him.  Maybe you can find Garon and get the bowl back from him.  He said that he lived in town.  You might be able to find him.  Please, help me."
+end
+
+topic "Tuan's Bowl" q1:1 
+	text "Thank you so much for getting the bowl from Garon to Tuan.  You are a very kind soul."
+end

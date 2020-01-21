@@ -1,0 +1,16 @@
+quest  203 #6807-01-435        # Troels, Valhalla Inn, tavern, Asgard, 6911
+
+name  "Delivery for Troels"
+type  fedex
+
+proposal  "Now, that's kind of you to come for it.  Here it is, ready to go.  I thought it turned out pretty well.  I think I'll try another one for me.  You'll take it to her, will you?"
+
+declined  "Never mind."
+
+accepted  "Be careful of the tail.  It's got an extra little curl on it."
+
+reminder   "Hadn't you better be going back to Jolie with that squirrel?"
+
+reward   qCarvedSquirrel 
+end
+

@@ -1,0 +1,37 @@
+id 8312
+
+banner "Hello, Friend. I am Manonor, the proprietor. How may I serve you?"
+
+topic "Tell me about Drune."
+        text "Drune is a very fashion-conscious town, and we believe in looking our best."
+	text "That is why you should purchase your garb from me right away. I mean, you can't go out there looking like THAT, can you?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that the best fabric in The Realm is available in the Wexfordshire Valley."
+        text "I've seen some of their material, and it is very, very nice."
+end      
+
+topic "Do you like limericks?"
+	text "I do indeed.  Here's a new one."
+	text "There was an elf hunter named Shephard"
+	text "Who was eaten for lunch by a lephard."
+	text "Said the lephard, 'Egad!"
+	text "You'd be tastier, lad,"
+	text "If you had been salted and pephard.'"
+end
+
+topic "Can I do anything for you?"
+        text "Not at present. Perhaps another day, however."
+end
+
+topic  "I've come for Daria's Belt." q154:0 #q6403-01-435:0
+	quest 155 #6403-01-440
+	text  "I gave it to you."
+end
+
+topic  "I'm looking for polishing cloth." q171:0 #q6504-01-400:0
+	quest 172 #6504-01-425
+	text  "You took it."
+end
+

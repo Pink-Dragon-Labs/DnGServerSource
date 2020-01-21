@@ -1,0 +1,19 @@
+quest  263 #6905-01-430        # Corea, Spiked Glove, weapons, Kurz, 8012
+
+name  "Desert Rock for Corea"
+type  fedex
+
+proposal  "Yes, I have it here.  Family heirlooms are important, don't you think?  I decided this ring would be better with the family back in Usk.  Good of you to do courier duty.  Would you do another errand for me first?"
+
+declined  "I'll just hang on to the ring a little longer."
+
+accepted  "I want a desert rock to play a little trick on a fellow. Would you find me one?  It doesn't have to be fancy, but it does have to be from the desert."
+
+reminder   "Find me a desert rock."
+
+completed  "All those colors do look like the desert.  Good job.  Here's the ring."
+
+getItem   qDesertRock
+reward   qHeirloomRing 
+end
+

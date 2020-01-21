@@ -1,0 +1,13 @@
+id 10000
+
+banner "Hello brave adventurer!  I see that you have come a long way to seek council with me.  Ask of me what you will."
+
+topic "Who are you?"
+	text "My name is Tuan.  I am an old healer and a wise man as some would say."
+end
+
+topic "Can I do something for you?"
+	quest 1
+	quest 2
+	text "I appreciate you asking me but I have all I need.  Come back later and I might have something else for you to do."
+end

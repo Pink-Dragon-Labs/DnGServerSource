@@ -1,0 +1,18 @@
+quest 307 #8111-01-125  #(Svetlana the Gatekeeper, 5908)
+
+name  "Bread for Svetlana"
+type  fedex
+
+proposal  "I do have a supply of Pulverized Wasp's Belly.  I have not yet had time for lunch.  If you would be so good as to procure for me a loaf of bread, I'll get a package ready for you.  Will you do this?"  
+
+declined  "As you wish."
+
+accepted  "Thank you."
+
+reminder  "Please bring me a loaf of bread and I'll give you the Pulverized Wasp's Belly."
+
+completed  "Thank you for the bread.  Here's your Pulverized Wasp's Belly."
+
+getItem  Bread
+reward  qWaspBelly
+end

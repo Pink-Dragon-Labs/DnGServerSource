@@ -1,0 +1,508 @@
+# Dungeonmaker World File (Tutorial.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 800
+# Dungeon last room = 807
+# Number of objects in dungeon = 66
+# Level 0 information:
+room 802
+	properties
+		template 30102
+		south 801
+		east 803
+		flags	0
+	end
+	objects
+		object Sign-802-0 of Sign
+			properties
+				x	342
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-802-1 of Torch
+			properties
+				x	425
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 803
+	properties
+		template 31301
+		east 804
+		west 802
+		flags	0
+	end
+	objects
+		object MaleCharacter-803-0 of MaleCharacter
+			properties
+				x	325
+				y	240
+				loop	2
+			end
+			base described
+			end
+		end
+		object Sign-803-1 of Sign
+			properties
+				x	168
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-803-2 of Torch
+			properties
+				x	588
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stand-803-3 of Stand
+			properties
+				x	323
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-803-4 of Stool
+			properties
+				x	105
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-803-5 of Stool
+			properties
+				x	552
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-803-6 of Torch
+			properties
+				x	96
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 804
+	properties
+		template 30909
+		south 805
+		west 803
+		flags	0
+	end
+	objects
+		object RandomCowl-804-0 of RandomCowl
+			properties
+				x	347
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-804-1 of RandomShirt
+			properties
+				x	318
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-804-2 of RandomPants
+			properties
+				x	275
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBauble-804-3 of RandomBauble
+			properties
+				x	110
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomScroll-804-4 of RandomScroll
+			properties
+				x	119
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-804-5 of Sign
+			properties
+				x	113
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-804-6 of Sign
+			properties
+				x	271
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-804-7 of Sign
+			properties
+				x	397
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object WaterBottle-804-8 of WaterBottle
+			properties
+				x	489
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bread-804-9 of Bread
+			properties
+				x	506
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-804-10 of Sign
+			properties
+				x	495
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-804-11 of RandomPotion
+			properties
+				x	151
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object dOlive-804-12 of dOlive
+			properties
+				x	402
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object dBrown-804-13 of dBrown
+			properties
+				x	415
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object dMagenta-804-14 of dMagenta
+			properties
+				x	411
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object dViolet-804-15 of dViolet
+			properties
+				x	425
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-804-16 of Torch
+			properties
+				x	404
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 800
+	properties
+		template 32301
+		east 801
+		flags	0
+	end
+	objects
+		object Sign-800-0 of Sign
+			properties
+				x	401
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-800-1 of DungeonBackUp
+			properties
+				x	305
+				y	247
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LavaG-800-2 of LavaG
+			properties
+				x	489
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object LavaD-800-3 of LavaD
+			properties
+				x	88
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+		object ThrowingDagger-800-4 of ThrowingDagger
+			properties
+				x	551
+				y	210
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-800-5 of Sign
+			properties
+				x	578
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-800-6 of Sign
+			properties
+				x	492
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 801
+	properties
+		template 32502
+		west 800
+		north 802
+		flags	0
+	end
+	objects
+		object Ogre-801-0 of Ogre
+			properties
+				x	494
+				y	248
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Sign-801-1 of Sign
+			properties
+				x	205
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-801-2 of FireA
+			properties
+				x	121
+				y	298
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-801-3 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Ogre-801-0
+			end
+			base described
+			end
+		end
+		object Torch-801-4 of Torch
+			properties
+				x	315
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-801-5 of Sign
+			properties
+				x	272
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-801-6 of Sign
+			properties
+				x	338
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 805
+	properties
+		template 30801
+		east 806
+		north 804
+		flags	0
+	end
+	objects
+		object Imp-805-0 of Imp
+			properties
+				x	597
+				y	281
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Ghost-805-1 of Ghost
+			properties
+				x	577
+				y	266
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+		object Torch-805-2 of Torch
+			properties
+				x	261
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 806
+	properties
+		template 30201
+		west 805
+		flags	0
+	end
+	objects
+		object Chest-806-0 of Chest
+			properties
+				x	185
+				y	254
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-806-1 of Torch
+			properties
+				x	184
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-806-2 of Lever
+			properties
+				x	477
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-806-3 of Sign
+			properties
+				x	287
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

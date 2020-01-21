@@ -1,0 +1,15 @@
+quest  294 #8021-01-340        #Astrid, Good Grub Grocers, West Leinster, 6046
+
+name  "Tallie's Worms"
+type  fedex
+
+proposal  "Oh, yes, for the worm farm, right?  Feeding worms does seem such an odd thing.  I wouldn't like to do it.  Ugh.  But Tallie really enjoys herself.  I'm glad to have somebody use the leftovers.  You will take them to Tallie?"
+
+declined  "You won't?
+
+accepted  "OK."
+
+reminder   "Those leftovers are for Tallie's worms."
+
+reward   qLeftovers 
+end

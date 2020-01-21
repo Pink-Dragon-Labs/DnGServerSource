@@ -1,0 +1,19 @@
+quest  392 #80500-01-525        # Nattan, NorthlanderWeaponry, Asgard, 6905
+
+name  "Beeswax"
+type  fedex
+
+proposal  "I've got his package.  It's important so we mustn't delay, but I need you to do one thing first.  Will you."
+
+declined  "You're a disappointment"
+
+accepted  "I need some beeswax.  Look in Murias."
+
+reminder   "Find me some beeswax in Murias."
+
+completed  "I'll add it to Sandor's package.  Now you can go."
+
+getItem   qBeeswax
+reward   qSandorPackage 
+end
+

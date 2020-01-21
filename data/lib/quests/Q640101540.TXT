@@ -1,0 +1,17 @@
+quest  139 #6401-01-540        # Titania, The Forge, East Leinster, 6073
+
+name  "Delivery for Titania"
+type  fedex
+
+proposal  "It's been ready many a day.  I'll be glad to see it on its way.  You'll take it to him, I presume?"
+
+declined  "Pity."
+
+accepted  "Off you go, then."
+
+reminder   "Hadn't you better take that armor polish to Volzer?"
+
+reward   qArmorPolish 
+end
+
+

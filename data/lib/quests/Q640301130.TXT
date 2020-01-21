@@ -1,0 +1,16 @@
+quest  142 #6403-01-130        # Volzer of Monmouth, Volzer's Weapons, 6314
+
+name  "Volzer's Admonition."
+type  fedex
+
+proposal  "Are you, now?  I have finished with it.  A most exquisite little piece.  It was a joy to work on it.  Usually a dagger is just a dagger, but this one is truly beautiful.  Will you convey it to her with the greatest of care?"
+
+declined  "Then I will keep it safe here."
+
+accepted  "I would like to own that little gem, but I would not insult her with an offer for her family heirloom."
+
+reminder   "Mind you take good care of the little dagger until it is in the possession once more of Faldora."
+
+reward   qJeweledDagger 
+end
+

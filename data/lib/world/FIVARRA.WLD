@@ -1,0 +1,718 @@
+# Dungeonmaker World File (Fivarra.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 89000
+# Dungeon last room = 89059
+# Number of objects in dungeon = 61
+# Level 0 information:
+room 89025
+	properties
+		template 30304
+		south 89023
+		flags	40
+	end
+	objects
+		object Banshee-89025-0 of Banshee
+			properties
+				x	309
+				y	259
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Banshee-89025-1 of Banshee
+			properties
+				x	471
+				y	283
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Banshee-89025-2 of Banshee
+			properties
+				x	156
+				y	267
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 89023
+	properties
+		template 32402
+		south 89022
+		east 89053
+		north 89025
+		flags	24
+	end
+	objects
+		object Banshee-89023-0 of Banshee
+			properties
+				x	414
+				y	290
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Banshee-89023-1 of Banshee
+			properties
+				x	280
+				y	287
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 89053
+	properties
+		template 30201
+		west 89023
+		flags	0
+	end
+	objects
+		object Fury-89053-0 of Fury
+			properties
+				x	365
+				y	283
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-89053-1 of DungeonBackDown
+			properties
+				x	183
+				y	249
+				loop	2
+				linkTo	DungeonBackUp-89056-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 89000
+	properties
+		template 32301
+		east 89001
+		flags	72
+	end
+	objects
+		object Chest-89000-0 of Chest
+			properties
+				x	508
+				y	260
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Paladin-89000-1 of Paladin
+			properties
+				x	400
+				y	268
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterD-89000-2 of BountyHunterD
+			properties
+				x	429
+				y	263
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 89001
+	properties
+		template 30602
+		south 89002
+		west 89000
+		flags	0
+	end
+end
+room 89021
+	properties
+		template 30102
+		south 89020
+		east 89022
+		flags	0
+	end
+end
+room 89022
+	properties
+		template 32601
+		west 89021
+		north 89023
+		flags	16
+	end
+	objects
+		object Banshee-89022-0 of Banshee
+			properties
+				x	85
+				y	228
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 89002
+	properties
+		template 32305
+		east 89003
+		north 89001
+		flags	0
+	end
+end
+room 89003
+	properties
+		template 30602
+		south 89004
+		west 89002
+		flags	136
+	end
+	objects
+		object OgreMage-89003-0 of OgreMage
+			properties
+				x	356
+				y	288
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+		object OgreMage-89003-1 of OgreMage
+			properties
+				x	273
+				y	276
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+		object OgreMage-89003-2 of OgreMage
+			properties
+				x	283
+				y	268
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+		object OgreMage-89003-3 of OgreMage
+			properties
+				x	386
+				y	279
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+	end
+end
+room 89020
+	properties
+		template 31001
+		south 89019
+		north 89021
+		flags	0
+	end
+	objects
+		object vampireBat-89020-0 of vampireBat
+			properties
+				x	230
+				y	298
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-89020-1 of vampireBat
+			properties
+				x	256
+				y	289
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-89020-2 of vampireBat
+			properties
+				x	213
+				y	289
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-89020-3 of vampireBat
+			properties
+				x	275
+				y	287
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 89004
+	properties
+		template 31003
+		south 89005
+		north 89003
+		flags	0
+	end
+end
+room 89019
+	properties
+		template 30802
+		east 89018
+		north 89020
+		flags	16
+	end
+	objects
+		object CaveRat-89019-0 of CaveRat
+			properties
+				x	288
+				y	258
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-89019-1 of CaveRat
+			properties
+				x	372
+				y	269
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-89019-2 of CaveRat
+			properties
+				x	442
+				y	263
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-89019-3 of CaveRat
+			properties
+				x	301
+				y	256
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 89018
+	properties
+		template 31301
+		east 89017
+		west 89019
+		flags	0
+	end
+	objects
+		object DungeonBackUp-89018-2 of DungeonBackUp
+			properties
+				x	369
+				y	231
+				loop	2
+				linkTo	sarcophagusDoor21506-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 89017
+	properties
+		template 30602
+		south 89016
+		west 89018
+		flags	40
+	end
+	objects
+		object Ghost-89017-0 of Ghost
+			properties
+				x	185
+				y	291
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+		object Ghoul-89017-1 of Ghoul
+			properties
+				x	305
+				y	272
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-89017-2 of Ghoul
+			properties
+				x	383
+				y	266
+				loop	1
+				color	84
+			end
+			actions
+			end
+			base character
+			end
+		end
+	end
+end
+room 89005
+	properties
+		template 30401
+		north 89004
+		flags	0
+	end
+end
+room 89015
+	properties
+		template 30102
+		south 89014
+		east 89016
+		flags	40
+	end
+	objects
+		object PlagueRat-89015-0 of PlagueRat
+			properties
+				x	412
+				y	270
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-89015-1 of PlagueRat
+			properties
+				x	164
+				y	277
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object PlagueRat-89015-2 of PlagueRat
+			properties
+				x	330
+				y	299
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+	end
+end
+room 89016
+	properties
+		template 32502
+		west 89015
+		north 89017
+		flags	0
+	end
+end
+room 89006
+	properties
+		template 30502
+		south 89008
+		east 89007
+		flags	0
+	end
+	objects
+		object TrollArmsman-89006-0 of TrollArmsman
+			properties
+				x	324
+				y	305
+				loop	0
+				color	24
+			end
+			base character
+			end
+		end
+	end
+end
+room 89007
+	properties
+		template 30201
+		west 89006
+		flags	0
+	end
+	objects
+		object cryptBat-89007-0 of cryptBat
+			properties
+				x	279
+				y	257
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-89007-1 of cryptBat
+			properties
+				x	325
+				y	253
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-89007-2 of cryptBat
+			properties
+				x	229
+				y	281
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-89007-3 of cryptBat
+			properties
+				x	170
+				y	262
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-89007-4 of cryptBat
+			properties
+				x	243
+				y	259
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 89013
+	properties
+		template 30502
+		south 89012
+		east 89014
+		flags	0
+	end
+end
+room 89014
+	properties
+		template 32601
+		west 89013
+		north 89015
+		flags	0
+	end
+end
+room 89008
+	properties
+		template 30802
+		east 89009
+		north 89006
+		flags	0
+	end
+	objects
+		object OgreMage-89008-0 of OgreMage
+			properties
+				x	308
+				y	265
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+		object OgreMage-89008-1 of OgreMage
+			properties
+				x	417
+				y	269
+				loop	0
+				color	793
+			end
+			base character
+			end
+		end
+	end
+end
+room 89009
+	properties
+		template 30602
+		south 89010
+		west 89008
+		flags	0
+	end
+end
+room 89012
+	properties
+		template 31006
+		south 89011
+		north 89013
+		flags	0
+	end
+	objects
+		object Medusa-89012-0 of Medusa
+			properties
+				x	313
+				y	264
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 89010
+	properties
+		template 30803
+		east 89011
+		north 89009
+		flags	0
+	end
+end
+room 89011
+	properties
+		template 31303
+		west 89010
+		north 89012
+		flags	0
+	end
+	objects
+		object RabidWolf-89011-0 of RabidWolf
+			properties
+				x	208
+				y	255
+				loop	1
+				color	82
+			end
+			base character
+			end
+		end
+		object RabidWolf-89011-1 of RabidWolf
+			properties
+				x	363
+				y	268
+				loop	1
+				color	82
+			end
+			base character
+			end
+		end
+	end
+end
+# Level 1 information:
+room 89056
+	properties
+		template 32401
+		east 89055
+		flags	0
+	end
+	objects
+		object DungeonBackUp-89056-0 of DungeonBackUp
+			properties
+				x	500
+				y	252
+				loop	2
+				linkTo	DungeonBackDown-89053-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-89056-1 of DungeonBackUp
+			properties
+				x	484
+				y	193
+				loop	0
+			end
+			actions
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 89055
+	properties
+		template 30202
+		south 89057
+		west 89056
+		flags	0
+	end
+end
+room 89058
+	properties
+		template 32403
+		east 89057
+		flags	0
+	end
+end
+room 89057
+	properties
+		template 32701
+		west 89058
+		north 89055
+		flags	0
+	end
+end

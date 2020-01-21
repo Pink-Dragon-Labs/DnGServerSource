@@ -1,0 +1,19 @@
+quest  171 #6504-01-400        #Morgana, Bloodforge, Kurz, 8003formerly K.J., K.J. Weaponry, Guennor, 6504, number not changed to avoid domino changes in all the subquests
+
+name  "Polishing Cloth"
+type  fedex
+
+proposal  "You couldn't do better than perfect the craft.  Armorcrafting requires dexterity.  If you have dexterity, strength, and knowledge of skills, you can become one of the best if you practice.  Haven't got many.  We need more.  If you're serious, I'll take you on for mastering armorcraft.  Don't think I don't know the skill either.  My age just adds wisdom to what I've got to offer. It will be necessary first for you to bring me some fresh polishing cloth.  Remember, it's important not to work on polishing armor with anything but clean cloth.  Ought to be a supply in Drune."
+
+declined  "Disappointing."
+
+accepted  "Go acquire it."
+
+reminder   "You're questing for a fresh supply of polishing cloth."
+
+completed  "Good work.  Here's the skill book you need to study."
+
+getItem   qPolishingCloth
+reward    skbArmorcraftingIV
+end
+

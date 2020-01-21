@@ -1,0 +1,19 @@
+quest  36 # 6045-01-535        # Xondor, Light in the Forest, tavern, Wen, 6114
+
+name  "Nuggets of Clove"
+type  fedex
+
+proposal  "This is the place.  I've been gathering her order, and all I need is one item.  I'm hoping you will fetch it for me.  Will you go to Murias and find some nuggets of clove for me, please?"
+
+declined  "I cannot finish her order without them."
+
+accepted  "Good.  I have a private stock of everything else she needs."
+
+reminder   "Get some nuggets of clove from Murias."
+
+completed  "Such a pleasant aroma.  I should keep a supply on hand.  Now the package for Inila is ready."
+
+getItem   qCloveNuggets
+reward   qInilaSupplies 
+end
+

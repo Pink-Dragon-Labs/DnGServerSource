@@ -1,0 +1,16 @@
+quest   123 #6311-01-440      #Mok, Food Cart, Murias, 5207
+
+name  "Delivery for Mok"
+type  fedex
+
+proposal  "Great.  It's just out of the oven and I wanted to get a fresh loaf to her.  Will you deliver it?"
+
+declined  "She'll be disappointed."
+
+accepted  "Good oh."
+
+reminder   "Take that bread back to Svetlana while it's fresh."
+
+reward   qGrainBread 
+end
+

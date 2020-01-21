@@ -1,0 +1,3105 @@
+# Dungeonmaker World File (DNG11.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 75000
+# Dungeon last room = 75656
+# Number of objects in dungeon = 258
+# Level 0 information:
+room 75075
+	properties
+		template 30305
+		south 75074
+		flags	8
+	end
+	objects
+		object Wolf-75075-0 of Wolf
+			properties
+				x	361
+				y	303
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75075-1 of Imp
+			properties
+				x	286
+				y	253
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object ImpCitizen-75075-2 of ImpCitizen
+			properties
+				x	215
+				y	306
+				loop	2
+				color	19
+			end
+			base character
+			end
+		end
+		object Torch-75075-3 of Torch
+			properties
+				x	148
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75013
+	properties
+		template 30501
+		south 75012
+		east 75014
+		flags	0
+	end
+	objects
+		object CaveRat-75013-0 of CaveRat
+			properties
+				x	235
+				y	310
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 75014
+	properties
+		template 30906
+		east 75015
+		west 75013
+		flags	0
+	end
+	objects
+		object UglyOgre-75014-0 of UglyOgre
+			properties
+				x	346
+				y	273
+				loop	0
+				color	794
+			end
+			base character
+			end
+		end
+	end
+end
+room 75015
+	properties
+		template 30201
+		west 75014
+		flags	0
+	end
+	objects
+		object ImpThaumaturgist-75015-0 of ImpThaumaturgist
+			properties
+				x	219
+				y	268
+				loop	1
+				color	16
+			end
+			base character
+			end
+		end
+		object Torch-75015-1 of Torch
+			properties
+				x	186
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-75015-2 of Chair
+			properties
+				x	265
+				y	267
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 75074
+	properties
+		template 31003
+		south 75071
+		north 75075
+		flags	0
+	end
+end
+room 75012
+	properties
+		template 30401
+		north 75013
+		flags	0
+	end
+	objects
+		object CaveRat-75012-0 of CaveRat
+			properties
+				x	192
+				y	276
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-75012-1 of DungeonBackDoor
+			properties
+				x	443
+				y	247
+				loop	1
+				linkTo	DungeonBackDoor-75006-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75073
+	properties
+		template 32301
+		east 75072
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75073-0 of DungeonBackDown
+			properties
+				x	508
+				y	202
+				loop	2
+				linkTo	DungeonBackUp-75076-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75073-1 of Torch
+			properties
+				x	600
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-75073-2 of Sign
+			properties
+				x	573
+				y	208
+				loop	0
+			end
+			base described
+				text	"The Mines"
+			end
+		end
+	end
+end
+room 75072
+	properties
+		template 30901
+		east 75071
+		west 75073
+		flags	0
+	end
+	objects
+		object ImpCitizen-75072-0 of ImpCitizen
+			properties
+				x	177
+				y	272
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+	end
+end
+room 75071
+	properties
+		template 30704
+		south 75070
+		west 75072
+		north 75074
+		flags	0
+	end
+	objects
+		object Torch-75071-0 of Torch
+			properties
+				x	264
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75212
+	properties
+		template 30102
+		south 75209
+		east 75213
+		flags	0
+	end
+	objects
+		object StormBat-75212-0 of StormBat
+			properties
+				x	304
+				y	262
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object Imp-75212-1 of Imp
+			properties
+				x	483
+				y	284
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75212-2 of Imp
+			properties
+				x	187
+				y	296
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75212-3 of RandomMaterial
+			properties
+				x	398
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75212-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75212-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 75213
+	properties
+		template 30903
+		south 75210
+		east 75214
+		west 75212
+		flags	0
+	end
+	objects
+		object Imp-75213-0 of Imp
+			properties
+				x	429
+				y	252
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomGem-75213-1 of RandomGem
+			properties
+				x	361
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75214
+	properties
+		template 32302
+		south 75211
+		west 75213
+		flags	0
+	end
+	objects
+		object Imp-75214-0 of Imp
+			properties
+				x	242
+				y	262
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75214-1 of Imp
+			properties
+				x	347
+				y	274
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75214-2 of Imp
+			properties
+				x	424
+				y	273
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75214-3 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75214-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75214-4 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75214-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 75070
+	properties
+		template 31001
+		south 75069
+		north 75071
+		flags	8
+	end
+	objects
+		object Imp-75070-0 of Imp
+			properties
+				x	250
+				y	302
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ImpCitizen-75070-1 of ImpCitizen
+			properties
+				x	202
+				y	284
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+	end
+end
+room 75007
+	properties
+		template 30501
+		south 75008
+		east 75004
+		flags	0
+	end
+end
+room 75004
+	properties
+		template 30901
+		east 75003
+		west 75007
+		flags	0
+	end
+	objects
+		object ImpCitizen-75004-0 of ImpCitizen
+			properties
+				x	129
+				y	283
+				loop	1
+				color	19
+			end
+			base character
+			end
+		end
+		object Torch-75004-1 of Torch
+			properties
+				x	562
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75003
+	properties
+		template 31105
+		south 75002
+		east 75005
+		west 75004
+		flags	0
+	end
+	objects
+		object Clump-75003-0 of Clump
+			properties
+				x	571
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75005
+	properties
+		template 30703
+		east 75006
+		west 75003
+		flags	0
+	end
+	objects
+		object ImpCitizen-75005-0 of ImpCitizen
+			properties
+				x	317
+				y	247
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+		object Torch-75005-1 of Torch
+			properties
+				x	312
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75006
+	properties
+		template 30701
+		west 75005
+		flags	8
+	end
+	objects
+		object ImpGuard-75006-0 of ImpGuard
+			properties
+				x	335
+				y	250
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-75006-1 of ImpGuard
+			properties
+				x	277
+				y	239
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-75006-2 of DungeonBackDoor
+			properties
+				x	302
+				y	203
+				loop	2
+				linkTo	DungeonBackDoor-75012-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75006-3 of Torch
+			properties
+				x	387
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-75006-4 of Sign
+			properties
+				x	360
+				y	221
+				loop	0
+			end
+			base described
+				text	"Jail"
+			end
+		end
+	end
+end
+room 75209
+	properties
+		template 31402
+		south 75208
+		east 75210
+		north 75212
+		flags	0
+	end
+	objects
+		object Imp-75209-0 of Imp
+			properties
+				x	241
+				y	258
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 75210
+	properties
+		template 31008
+		south 75079
+		east 75211
+		west 75209
+		north 75213
+		flags	0
+	end
+	objects
+		object Imp-75210-0 of Imp
+			properties
+				x	421
+				y	261
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75210-1 of Imp
+			properties
+				x	193
+				y	251
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 75211
+	properties
+		template 30804
+		south 75078
+		east 75076
+		west 75210
+		north 75214
+		flags	0
+	end
+	objects
+		object RandomGem-75211-0 of RandomGem
+			properties
+				x	183
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75076
+	properties
+		template 30601
+		south 75077
+		west 75211
+		flags	8
+	end
+	objects
+		object ImpGuard-75076-0 of ImpGuard
+			properties
+				x	380
+				y	312
+				loop	2
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-75076-1 of ImpGuard
+			properties
+				x	89
+				y	260
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-75076-2 of DungeonBackUp
+			properties
+				x	324
+				y	235
+				loop	2
+				linkTo	DungeonBackDown-75073-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75076-3 of Torch
+			properties
+				x	207
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-75076-4 of Sign
+			properties
+				x	227
+				y	255
+				loop	0
+			end
+			base described
+				text	"The Mines - watch for falling rocks."
+			end
+		end
+	end
+end
+room 75069
+	properties
+		template 31004
+		south 75064
+		north 75070
+		flags	0
+	end
+	objects
+		object Torch-75069-0 of Torch
+			properties
+				x	198
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75008
+	properties
+		template 30401
+		north 75007
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75008-0 of DungeonBackDown
+			properties
+				x	104
+				y	233
+				loop	2
+				linkTo	DungeonBackUp-75009-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75008-1 of Torch
+			properties
+				x	211
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75002
+	properties
+		template 31004
+		south 75001
+		north 75003
+		flags	0
+	end
+	objects
+		object Torch-75002-0 of Torch
+			properties
+				x	439
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75208
+	properties
+		template 30803
+		east 75079
+		north 75209
+		flags	0
+	end
+	objects
+		object Imp-75208-0 of Imp
+			properties
+				x	140
+				y	277
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75208-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75208-0
+			end
+			base described
+			end
+		end
+		object RandomGem-75208-2 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75208-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75079
+	properties
+		template 31501
+		south 75207
+		east 75078
+		west 75208
+		north 75210
+		flags	0
+	end
+	objects
+		object Imp-75079-0 of Imp
+			properties
+				x	491
+				y	249
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75079-1 of Imp
+			properties
+				x	106
+				y	247
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 75078
+	properties
+		template 31302
+		south 75080
+		east 75077
+		west 75079
+		north 75211
+		flags	0
+	end
+	objects
+		object Imp-75078-0 of Imp
+			properties
+				x	557
+				y	262
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75078-1 of RandomMaterial
+			properties
+				x	529
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75077
+	properties
+		template 31303
+		west 75078
+		north 75076
+		flags	8
+	end
+	objects
+		object Imp-75077-0 of Imp
+			properties
+				x	179
+				y	271
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ImpGuard-75077-1 of ImpGuard
+			properties
+				x	420
+				y	275
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75077-2 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75077-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75064
+	properties
+		template 31006
+		south 75011
+		north 75069
+		flags	0
+	end
+	objects
+		object ImpCitizen-75064-0 of ImpCitizen
+			properties
+				x	249
+				y	234
+				loop	3
+				color	19
+			end
+			base character
+			end
+		end
+	end
+end
+room 75001
+	properties
+		template 32402
+		south 75115
+		east 75000
+		north 75002
+		flags	0
+	end
+	objects
+		object Basalt-75001-0 of Basalt
+			properties
+				x	346
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object Silvergrass-75001-1 of Silvergrass
+			properties
+				x	442
+				y	161
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75000
+	properties
+		template 30701
+		west 75001
+		flags	0
+	end
+	objects
+		object ImpGuard-75000-0 of ImpGuard
+			properties
+				x	140
+				y	253
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-75000-1 of DungeonBackUp
+			properties
+				x	297
+				y	204
+				loop	2
+				linkTo	hollowTree2100-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75207
+	properties
+		template 31402
+		south 75083
+		east 75080
+		north 75079
+		flags	0
+	end
+	objects
+		object Imp-75207-0 of Imp
+			properties
+				x	200
+				y	266
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 75080
+	properties
+		template 32303
+		south 75081
+		west 75207
+		north 75078
+		flags	0
+	end
+	objects
+		object Imp-75080-0 of Imp
+			properties
+				x	420
+				y	164
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75080-1 of Imp
+			properties
+				x	557
+				y	304
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75080-2 of RandomMaterial
+			properties
+				x	523
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75011
+	properties
+		template 31005
+		south 75065
+		east 75010
+		north 75064
+		flags	0
+	end
+	objects
+		object Torch-75011-0 of Torch
+			properties
+				x	510
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75010
+	properties
+		template 30906
+		east 75009
+		west 75011
+		flags	0
+	end
+	objects
+		object ImpCitizen-75010-0 of ImpCitizen
+			properties
+				x	172
+				y	270
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+	end
+end
+room 75009
+	properties
+		template 30201
+		west 75010
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75009-0 of DungeonBackUp
+			properties
+				x	182
+				y	230
+				loop	2
+				linkTo	DungeonBackDown-75008-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75009-1 of Torch
+			properties
+				x	36
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75115
+	properties
+		template 31004
+		south 75116
+		north 75001
+		flags	0
+	end
+	objects
+		object Torch-75115-0 of Torch
+			properties
+				x	195
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75084
+	properties
+		template 30101
+		east 75083
+		flags	8
+	end
+	objects
+		object ImpGuard-75084-0 of ImpGuard
+			properties
+				x	369
+				y	269
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-75084-1 of ImpGuard
+			properties
+				x	554
+				y	264
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-75084-2 of DungeonBackDown
+			properties
+				x	475
+				y	218
+				loop	2
+				linkTo	DungeonBackUp-75085-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75084-3 of Torch
+			properties
+				x	328
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75083
+	properties
+		template 30702
+		east 75081
+		west 75084
+		north 75207
+		flags	0
+	end
+	objects
+		object Imp-75083-0 of Imp
+			properties
+				x	505
+				y	274
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomMaterial-75083-1 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Imp-75083-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75081
+	properties
+		template 31201
+		south 75082
+		west 75083
+		north 75080
+		flags	0
+	end
+	objects
+		object Imp-75081-0 of Imp
+			properties
+				x	435
+				y	252
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75081-1 of Imp
+			properties
+				x	154
+				y	253
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 75065
+	properties
+		template 31004
+		south 75066
+		north 75011
+		flags	0
+	end
+end
+room 75116
+	properties
+		template 32305
+		east 75117
+		north 75115
+		flags	0
+	end
+end
+room 75117
+	properties
+		template 30901
+		east 75118
+		west 75116
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75117-0 of DungeonBackDown
+			properties
+				x	556
+				y	232
+				loop	2
+				linkTo	DungeonBackUp-75113-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75117-1 of Torch
+			properties
+				x	441
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75118
+	properties
+		template 30201
+		west 75117
+		flags	0
+	end
+	objects
+		object ImpGuard-75118-0 of ImpGuard
+			properties
+				x	227
+				y	276
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object Imp-75118-1 of Imp
+			properties
+				x	357
+				y	267
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75118-2 of Imp
+			properties
+				x	491
+				y	284
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75118-3 of Imp
+			properties
+				x	190
+				y	237
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-75118-4 of Torch
+			properties
+				x	422
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75082
+	properties
+		template 32304
+		north 75081
+		flags	8
+	end
+	objects
+		object ImpGuard-75082-0 of ImpGuard
+			properties
+				x	280
+				y	280
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object Imp-75082-1 of Imp
+			properties
+				x	180
+				y	229
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75082-2 of Imp
+			properties
+				x	141
+				y	278
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ImpSlaveMaster-75082-3 of ImpSlaveMaster
+			properties
+				x	349
+				y	277
+				loop	1
+				color	16
+			end
+			base character
+			end
+		end
+		object LockedChest-75082-4 of LockedChest
+			properties
+				x	424
+				y	278
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75082-5 of Torch
+			properties
+				x	423
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75082-6 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-75082-4
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75082-7 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-75082-4
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75082-8 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-75082-4
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75082-9 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-75082-4
+			end
+			base described
+			end
+		end
+		object RandomGem-75082-10 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-75082-4
+			end
+			base described
+			end
+		end
+		object RandomGem-75082-11 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-75082-4
+			end
+			base described
+			end
+		end
+	end
+end
+room 75206
+	properties
+		template 30805
+		east 75066
+		flags	0
+	end
+	objects
+		object Torch-75206-0 of Torch
+			properties
+				x	247
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75066
+	properties
+		template 30702
+		east 75067
+		west 75206
+		north 75065
+		flags	0
+	end
+	objects
+		object Torch-75066-0 of Torch
+			properties
+				x	559
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75067
+	properties
+		template 30906
+		east 75068
+		west 75066
+		flags	0
+	end
+	objects
+		object Imp-75067-0 of Imp
+			properties
+				x	270
+				y	278
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 75068
+	properties
+		template 30201
+		west 75067
+		flags	8
+	end
+	objects
+		object Imp-75068-0 of Imp
+			properties
+				x	361
+				y	282
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75068-1 of Imp
+			properties
+				x	308
+				y	268
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-75068-2 of Torch
+			properties
+				x	190
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75087
+	properties
+		template 30101
+		east 75086
+		flags	0
+	end
+end
+room 75086
+	properties
+		template 30902
+		south 75088
+		east 75085
+		west 75087
+		flags	0
+	end
+	objects
+		object RandomStuff-75086-0 of RandomStuff
+			properties
+				x	91
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75085
+	properties
+		template 30201
+		west 75086
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75085-0 of DungeonBackUp
+			properties
+				x	182
+				y	231
+				loop	2
+				linkTo	DungeonBackDown-75084-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75085-1 of Torch
+			properties
+				x	253
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75113
+	properties
+		template 31002
+		south 75112
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75113-0 of DungeonBackUp
+			properties
+				x	301
+				y	217
+				loop	2
+				linkTo	DungeonBackDown-75117-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75113-1 of Torch
+			properties
+				x	225
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75125
+	properties
+		template 30502
+		south 75123
+		east 75126
+		flags	0
+	end
+	objects
+		object CaveRat-75125-0 of CaveRat
+			properties
+				x	232
+				y	305
+				loop	2
+				color	808
+			end
+			base character
+			end
+		end
+		object RandomShirt-75125-1 of RandomShirt
+			properties
+				x	162
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75126
+	properties
+		template 30201
+		west 75125
+		flags	8
+	end
+	objects
+		object ImpGuard-75126-0 of ImpGuard
+			properties
+				x	160
+				y	276
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-75126-1 of ImpGuard
+			properties
+				x	105
+				y	264
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-75126-2 of ImpGuard
+			properties
+				x	120
+				y	284
+				loop	1
+				color	17
+			end
+			base character
+			end
+		end
+		object RandomJunk-75126-3 of RandomJunk
+			properties
+				x	163
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75126-4 of RandomMaterial
+			properties
+				x	211
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75126-5 of RandomMaterial
+			properties
+				x	213
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75126-6 of RandomMaterial
+			properties
+				x	219
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75126-7 of RandomMaterial
+			properties
+				x	250
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-75126-8 of RandomMaterial
+			properties
+				x	248
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-75126-9 of Embers
+			properties
+				x	343
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-75126-10 of FireB
+			properties
+				x	332
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-75126-11 of Chair
+			properties
+				x	385
+				y	269
+				loop	1
+			end
+			base described
+			end
+		end
+		object RandomElementalismII-75126-12 of RandomElementalismII
+			properties
+				x	383
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-75126-13 of RandomWeapon
+			properties
+				x	216
+				y	274
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-75126-14 of RandomWeapon
+			properties
+				x	216
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-75126-15 of RandomArmorShirt
+			properties
+				x	262
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75088
+	properties
+		template 31004
+		south 75089
+		north 75086
+		flags	0
+	end
+	objects
+		object Torch-75088-0 of Torch
+			properties
+				x	444
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75099
+	properties
+		template 32301
+		east 75100
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75099-0 of DungeonBackDown
+			properties
+				x	327
+				y	226
+				loop	0
+				linkTo	DungeonBackUp-75098-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75100
+	properties
+		template 31301
+		east 75101
+		west 75099
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75100-0 of DungeonBackUp
+			properties
+				x	359
+				y	215
+				loop	2
+				linkTo	DungeonBackDown-75108-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75100-1 of Torch
+			properties
+				x	259
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-75100-2 of Sign
+			properties
+				x	426
+				y	231
+				loop	0
+			end
+			base described
+				text	"Undead Quarters - Right.  Kings Chambers - Left"
+			end
+		end
+	end
+end
+room 75101
+	properties
+		template 31104
+		south 75102
+		west 75100
+		flags	8
+	end
+	objects
+		object ImpNecromancer-75101-0 of ImpNecromancer
+			properties
+				x	183
+				y	261
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object Skeleton-75101-1 of Skeleton
+			properties
+				x	239
+				y	265
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+		object LostSailor-75101-2 of LostSailor
+			properties
+				x	314
+				y	283
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+	end
+end
+room 75112
+	properties
+		template 30402
+		south 75110
+		north 75113
+		flags	0
+	end
+end
+room 75123
+	properties
+		template 30803
+		east 75121
+		north 75125
+		flags	0
+	end
+end
+room 75121
+	properties
+		template 32302
+		south 75120
+		west 75123
+		flags	0
+	end
+	objects
+		object CaveRat-75121-0 of CaveRat
+			properties
+				x	307
+				y	308
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-75121-1 of CaveRat
+			properties
+				x	369
+				y	284
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object RandomCowl-75121-2 of RandomCowl
+			properties
+				x	491
+				y	307
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75121-3 of RandomStuff
+			properties
+				x	470
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75089
+	properties
+		template 32305
+		east 75090
+		north 75088
+		flags	8
+	end
+	objects
+		object screechingHorror-75089-0 of screechingHorror
+			properties
+				x	330
+				y	264
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-75089-1 of StormBat
+			properties
+				x	277
+				y	272
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-75089-2 of Torch
+			properties
+				x	131
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Goldenberries-75089-3 of Goldenberries
+			properties
+				x	200
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75090
+	properties
+		template 30901
+		east 75091
+		west 75089
+		flags	0
+	end
+end
+room 75091
+	properties
+		template 31104
+		south 75092
+		west 75090
+		flags	8
+	end
+	objects
+		object YoungFenris-75091-0 of YoungFenris
+			properties
+				x	287
+				y	259
+				loop	0
+				color	1536
+			end
+			base character
+			end
+		end
+		object ImpCitizen-75091-1 of ImpCitizen
+			properties
+				x	337
+				y	277
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+		object Torch-75091-2 of Torch
+			properties
+				x	113
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75102
+	properties
+		template 31003
+		south 75103
+		north 75101
+		flags	8
+	end
+	objects
+		object LostSailor-75102-0 of LostSailor
+			properties
+				x	315
+				y	283
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object DamnedOne-75102-1 of DamnedOne
+			properties
+				x	239
+				y	311
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-75102-2 of Torch
+			properties
+				x	543
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75108
+	properties
+		template 30805
+		east 75109
+		flags	0
+	end
+	objects
+		object StormBat-75108-0 of StormBat
+			properties
+				x	92
+				y	272
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-75108-1 of DungeonBackDown
+			properties
+				x	248
+				y	217
+				loop	2
+				linkTo	DungeonBackUp-75100-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Silvergrass-75108-2 of Silvergrass
+			properties
+				x	67
+				y	200
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75109
+	properties
+		template 31301
+		east 75110
+		west 75108
+		flags	0
+	end
+	objects
+		object Torch-75109-0 of Torch
+			properties
+				x	68
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75110
+	properties
+		template 30704
+		south 75111
+		west 75109
+		north 75112
+		flags	8
+	end
+	objects
+		object Imp-75110-0 of Imp
+			properties
+				x	241
+				y	266
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Imp-75110-1 of Imp
+			properties
+				x	313
+				y	286
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ImpCitizen-75110-2 of ImpCitizen
+			properties
+				x	280
+				y	268
+				loop	0
+				color	19
+			end
+			base character
+			end
+		end
+		object Torch-75110-3 of Torch
+			properties
+				x	267
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75110-4 of RandomStuff
+			properties
+				x	491
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75120
+	properties
+		template 31004
+		south 75119
+		north 75121
+		flags	0
+	end
+	objects
+		object CaveRat-75120-0 of CaveRat
+			properties
+				x	196
+				y	277
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object RandomStuff-75120-1 of RandomStuff
+			properties
+				x	127
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75092
+	properties
+		template 30803
+		east 75093
+		north 75091
+		flags	0
+	end
+end
+room 75093
+	properties
+		template 30905
+		south 75094
+		east 75097
+		west 75092
+		flags	0
+	end
+	objects
+		object Torch-75093-0 of Torch
+			properties
+				x	437
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75097
+	properties
+		template 32403
+		east 75098
+		west 75093
+		flags	8
+	end
+	objects
+		object LostSailor-75097-0 of LostSailor
+			properties
+				x	395
+				y	237
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object Ghoul-75097-1 of Ghoul
+			properties
+				x	497
+				y	260
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Goldenberries-75097-2 of Goldenberries
+			properties
+				x	130
+				y	124
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75098
+	properties
+		template 30201
+		west 75097
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75098-0 of DungeonBackUp
+			properties
+				x	191
+				y	231
+				loop	2
+				linkTo	DungeonBackDown-75099-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75098-1 of Torch
+			properties
+				x	115
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75103
+	properties
+		template 32304
+		north 75102
+		flags	0
+	end
+	objects
+		object ImpNecromancer-75103-0 of ImpNecromancer
+			properties
+				x	289
+				y	283
+				loop	2
+				color	18
+			end
+			base character
+			end
+		end
+		object DamnedOne-75103-1 of DamnedOne
+			properties
+				x	261
+				y	246
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object LostSailor-75103-2 of LostSailor
+			properties
+				x	341
+				y	274
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object Skeleton-75103-3 of Skeleton
+			properties
+				x	218
+				y	278
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+	end
+end
+room 75111
+	properties
+		template 30803
+		east 75114
+		north 75110
+		flags	0
+	end
+end
+room 75114
+	properties
+		template 30201
+		west 75111
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75114-0 of DungeonBackUp
+			properties
+				x	398
+				y	252
+				loop	1
+				linkTo	DungeonBackDown-75119-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75114-1 of Torch
+			properties
+				x	318
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-75114-2 of Sign
+			properties
+				x	270
+				y	247
+				loop	0
+			end
+			base described
+				text	"Storage Cellar"
+			end
+		end
+	end
+end
+room 75119
+	properties
+		template 30803
+		east 75122
+		north 75120
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75119-0 of DungeonBackDown
+			properties
+				x	476
+				y	222
+				loop	2
+				linkTo	DungeonBackUp-75114-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75122
+	properties
+		template 30201
+		west 75119
+		flags	0
+	end
+	objects
+		object CaveRat-75122-0 of CaveRat
+			properties
+				x	295
+				y	277
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 75094
+	properties
+		template 30402
+		south 75095
+		north 75093
+		flags	0
+	end
+	objects
+		object Ghoul-75094-0 of Ghoul
+			properties
+				x	179
+				y	300
+				loop	3
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 75104
+	properties
+		template 30101
+		east 75095
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75104-0 of DungeonBackDown
+			properties
+				x	476
+				y	217
+				loop	2
+				linkTo	DungeonBackUp-75105-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-75104-1 of Sign
+			properties
+				x	381
+				y	247
+				loop	0
+			end
+			base described
+				text	"King's Chambers.  Do not enter unless on official business."
+			end
+		end
+	end
+end
+room 75095
+	properties
+		template 31201
+		south 75096
+		west 75104
+		north 75094
+		flags	0
+	end
+	objects
+		object Torch-75095-0 of Torch
+			properties
+				x	434
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-75095-1 of Sign
+			properties
+				x	404
+				y	240
+				loop	0
+			end
+			base described
+				text	"West - King's Chambers.  South - Conjuration Room."
+			end
+		end
+	end
+end
+room 75096
+	properties
+		template 30403
+		north 75095
+		flags	8
+	end
+	objects
+		object Bones-75096-0 of Bones
+			properties
+				x	248
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+		object DamnedOne-75096-1 of DamnedOne
+			properties
+				x	206
+				y	272
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object LostSailor-75096-2 of LostSailor
+			properties
+				x	173
+				y	258
+				loop	0
+				color	39
+			end
+			base character
+			end
+		end
+		object Bones-75096-3 of Bones
+			properties
+				x	548
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-75096-4 of Bones
+			properties
+				x	4
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object ImpNecromancer-75096-5 of ImpNecromancer
+			properties
+				x	364
+				y	283
+				loop	1
+				color	18
+			end
+			base character
+			end
+		end
+		object Skull-75096-6 of Skull
+			properties
+				x	521
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-75096-7 of Skull
+			properties
+				x	21
+				y	249
+				loop	1
+			end
+			base described
+			end
+		end
+		object Skull-75096-8 of Skull
+			properties
+				x	317
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object JawBone-75096-9 of JawBone
+			properties
+				x	320
+				y	292
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-75096-10 of Torch
+			properties
+				x	401
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-75096-11 of Torch
+			properties
+				x	80
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75096-12 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-75096-0
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-75096-13 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-75096-0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-75096-14 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-75096-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-75096-15 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-75096-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-75096-16 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-75096-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75107
+	properties
+		template 30502
+		south 75205
+		east 75106
+		flags	40
+	end
+	objects
+		object ImpNecromancer-75107-0 of ImpNecromancer
+			properties
+				x	203
+				y	282
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object ImpWarrior-75107-1 of ImpWarrior
+			properties
+				x	268
+				y	301
+				loop	0
+				color	21
+			end
+			base character
+			end
+		end
+		object ImpWarrior-75107-2 of ImpWarrior
+			properties
+				x	342
+				y	280
+				loop	0
+				color	21
+			end
+			base character
+			end
+		end
+		object ImpKing-75107-3 of ImpKing
+			properties
+				x	169
+				y	307
+				loop	0
+				color	20
+			end
+			base character
+			end
+		end
+		object Torch-75107-4 of Torch
+			properties
+				x	457
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-75107-5 of Torch
+			properties
+				x	98
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75106
+	properties
+		template 31301
+		east 75105
+		west 75107
+		flags	136
+	end
+	objects
+		object ImpNecromancer-75106-0 of ImpNecromancer
+			properties
+				x	312
+				y	254
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object ImpGuard-75106-1 of ImpGuard
+			properties
+				x	338
+				y	290
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object ImpGuard-75106-2 of ImpGuard
+			properties
+				x	394
+				y	241
+				loop	0
+				color	17
+			end
+			base character
+			end
+		end
+		object Torch-75106-3 of Torch
+			properties
+				x	348
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75105
+	properties
+		template 30701
+		west 75106
+		flags	128
+	end
+	objects
+		object ImpWarrior-75105-0 of ImpWarrior
+			properties
+				x	281
+				y	246
+				loop	3
+				color	21
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-75105-1 of DungeonBackUp
+			properties
+				x	293
+				y	203
+				loop	2
+				linkTo	DungeonBackDown-75104-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75105-2 of Torch
+			properties
+				x	222
+				y	208
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-75105-3 of Torch
+			properties
+				x	370
+				y	211
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75205
+	properties
+		template 32304
+		north 75107
+		flags	8
+	end
+	objects
+		object LockedChest-75205-0 of LockedChest
+			properties
+				x	427
+				y	278
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object ImpWarrior-75205-1 of ImpWarrior
+			properties
+				x	259
+				y	248
+				loop	3
+				color	21
+			end
+			base character
+			end
+		end
+		object ImpGuard-75205-2 of ImpGuard
+			properties
+				x	203
+				y	276
+				loop	3
+				color	17
+			end
+			base character
+			end
+		end
+		object Torch-75205-3 of Torch
+			properties
+				x	423
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-75205-4 of Shroom1
+			properties
+				x	431
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-75205-5 of Shroom2
+			properties
+				x	504
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-75205-6 of Shroom3
+			properties
+				x	447
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-75205-7 of Shroom3
+			properties
+				x	481
+				y	260
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end

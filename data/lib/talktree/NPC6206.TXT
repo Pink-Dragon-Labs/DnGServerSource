@@ -1,0 +1,51 @@
+id 6206
+
+banner "Greetings, Friend. Welcome to Frick's General Store. May I help you?"
+
+topic "Tell me about Murias."
+        text "I don't know too much about the town. I recently moved to Murias from Usk." 
+	text "The healer told me it would be better for my allergies in the valley."
+	text "It's a nice town, though.  Very friendly people here."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I'm new in town, and folks haven't told me much. But I did hear that attending the spring fei is a sure cure for infertility."
+	text  "I heard there are some caves in the Realm that aren't safe to enter.  I've never seen them myself, though."
+end      
+
+topic  "Can you tell me anything?"
+	text  "I could tell you a limerick.  I heard a really good one when I was in Silverbrook."
+	text "Here goes.  Ready?"
+	text "I know how ugly I are"
+	text "I know that my face ain't no star"
+	text "But why should I mind it"
+	text "For I am behind it"
+	text "The fellow in front gets the jar."
+	text "You've got to agree, that one's pretty good."
+end
+
+topic "Can I do anything for you?"
+        text "Would you mind not standing so close? I think I'm allergic to your cologne."
+	text  "No offense, I hope.  I just, aachoooo, hab thuch a bad, aachooo, allergy.  I'b thorry.  Please exthuse be."
+end
+
+topic  "Are Gwynna's supplies from Usk here?" q297:0 #q8021-01-430:0
+	quest 298 #8021-01-435
+	text  "You hab them."
+end
+
+topic  "I've come for Aimie's package." q352:0 #q80000-01-325:0
+	quest 353 #80000-01-330
+	text  "I gab id to you."
+end
+
+topic  "I'm looking for an ancient flint axehead." q61:0 #q6102-01-400:0
+	quest 62 #6102-01-425
+	text  "I gab id to you."
+end
+
+topic  "I am seeking nuggets of clove." q36:0 #q6045-01-535:0
+	quest 37 #6045-01-540
+	text  "You hab 'em."
+end
+

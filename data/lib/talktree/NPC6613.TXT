@@ -1,0 +1,34 @@
+id #6613
+
+banner "You've entered C.F. Academy.  I am Rasci.  What is your purpose here?"
+
+topic "Tell me about Caer Fandry."
+        text "Caer Fandry is populated by dark elves.  I can tell you that strangers are viewed with suspicion.  You would do well to be cautious.  Dark elves are not slow to deal with troublemakers."
+	text "We do not need to worry about criminal behavior here.  Swift and summary justice is administered."
+	text "I do not wish to continue with this topic."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Of course.  Rumors are always rife.  I hear them all."
+        text "None of them are worth repeating."
+end      
+
+topic "What can you tell me?"
+	text "I shall tell you a limerick, or perhaps two."
+	text "The once was a ratling so mean"
+	text "So dirty and foul and obscene"
+	text "When the elves caught and tied it"
+	text "Before they all fried it"
+	text "They boiled it to get their meal clean."
+	text "I find that one amusing.  So is this one."
+	text "There once was a zombie named Earl"
+	text "Who disliked the mad social whirl"
+	text "So he said with a pout"
+	text "I'll just have to go out"
+	text "To the graveyard and dig up a girl."
+	text "It is time for you to go, unless you intend to purchase something."  
+end
+
+topic "Can I do anything for you?"
+        text "Nothing.  I am quite capable of handling all my needs myself."
+end

@@ -1,0 +1,19 @@
+quest  275 #8010-01-435        # Bakali, Food Cart, Silverbrook, 5407
+
+name  "Errand for Bakali"
+type  fedex
+
+proposal  "I've got a small private stock of rennet.  I'll give you a packet if you'll pick up an order for me.  Will you?"
+
+declined  "Never mind, then."
+
+accepted  "My carving knife is over at Mikial's shop to be sharpened, and it's ready."
+
+reminder   "Please pick up my carving knife from Mikial's shop."
+
+completed  "Many thanks, pal.  Your rennet is ready."
+
+getItem   qCarvingKnife
+reward   qRennet 
+end
+

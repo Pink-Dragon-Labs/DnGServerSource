@@ -1,0 +1,9 @@
+name "arimathor"
+title "Arimathor"
+worldFile "../data/lib/world/ARIMATHX.WLD"
+worldFile "../data/lib/world/ARIMINT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 12
+midiFile 23

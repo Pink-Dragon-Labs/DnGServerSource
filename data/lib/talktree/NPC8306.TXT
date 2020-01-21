@@ -1,0 +1,33 @@
+id 8306
+
+banner "Greetings, Friend. Welcome to The Broken Jug West. May I help you?"
+
+topic "Tell me about Drune."
+        text "So you'd like to know of our town, eh? Certainly, certainly. Drune's history begins deep in the forest, for that is the origin of all elves. When the world was young, elves lived in peace and worshipped Enid. Though our nature is peaceful, we also love our solitude."
+        text "Enid persuaded our forebears to form a village where they could work together for the common good, as once they had worked together to drive the orcs from the forest. Enid's words were wise, and so our ancestors formed Drune here at the edge of the forest."
+end
+
+topic "Who are you?"
+        text "I am Frixel, worshipper of Enid and of Despothes, King of the Gods."
+        text "There is much evil in the land, Friend. We must together fight the effects of Elphame's Sisterhood."
+end      
+
+topic "Do you have any limericks to tell?"
+	text  "No harm in limericks.  Elves seem to like them.  Here's one I just heard."
+	text "There was an old elf of the Cape"
+	text "Who made himself garments of crepe."
+	text "When asked, 'Do they tear?'"
+	text "He replied, 'Here and there,"
+	text "But they're perfectly splendid for shape.'"
+	text "I like that one, I do."
+end      
+
+topic "Can I do something for you?"
+        text "I can tell that you would work hard to accomplish your goals, my friend, but I have no tasks for you at present."
+end
+
+topic  "I'm seeking a polished golden amulet." q130:0 #q6401-01-400:0
+	quest 131 #6401-01-425
+	text  "You received it from me."
+end
+

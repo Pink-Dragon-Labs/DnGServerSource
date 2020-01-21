@@ -1,0 +1,31 @@
+id 6076
+
+banner "Greetings, Friend. Welcome to The Troll Bragger Inn. What can I do for you?"
+
+topic "Tell me about Leinster."
+        text "What's to tell? We're just the victims of the gods. They get into an argument, we're the ones to suffer."
+        text "We're simply pawns in a bigger game. Duach one, Despothes nothing."
+end
+
+topic "Who are you?"
+        text "I am Yondo, and I work here at the Troll Bragger."
+        text "I have a wife and six children. I could have been an adventurer, with bags of gold and honors and fame. But the wife tells me to stay at home, get a regular job."
+        text "Women!"
+end
+
+topic  "Have you heard any rumors?"
+	text  "Nothing but rumors flying around since the smiting."
+	text  "Here's one.  All the gods are planning to assemble north of Leinster and challenge Duach.  Don't believe that one!  For one thing, you'd never convince me that all the gods would agree to cooperate!"
+	text  "Here's another.  Duach has assembled an army, and is planning to march on Leinster.  That one's ridiculous.  If he wants to destroy the rest of Leinster, he doesn't need an army to help."
+	text  "I don't pay heed to rumors.  The wife hasn't any use for them, either.  She tells the children never to believe such tales.  'Give attention to facts,' she says, 'not rumors.'"
+end
+
+topic "Can I do something for you?"
+        text "Sometimes I have tasks for one such as you, but not today."       
+end
+
+topic  "I'm looking for a missing bag belonging to Kombal." q249:0 #q6902-01-330:0
+	quest 250 #6902-01-335
+	text  "You've got it, and I wish you'd get it out of town.   I never want to see it again."
+end
+

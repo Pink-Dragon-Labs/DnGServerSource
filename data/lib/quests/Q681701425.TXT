@@ -1,0 +1,19 @@
+quest  211 #6817-01-425        # Liuja, The Emperor's Clothes, Murias, 6202
+
+name  "The Embroidered Peacock"
+type  fedex
+
+proposal  "Friend, it's an odd coincidence, but I just received this talisman!  Would you believe it?  I didn't even know it existed, to tell the truth, but my brother collected many interesting things for me in his travels, and this talisman was among them.  I looked it up in my annals because the talisman has a little black pig on it.  Do you know the background?  This talisman was struck to commemorate a small black pig that was very swift and clever.  Isn't that curious?  I will trade it to you, friend, if you will go to Drune for me.  What about it?"
+
+declined  "Too bad."
+
+accepted  "I'm so glad.  I want an embroidered shawl I heard about, with a peacock on it."
+
+reminder   "Look in Drune for an embroidered shawl with a peacock."
+
+completed  "Lovely.  Thank you very much.  And here is that cute little talisman."
+
+getItem   qEmbroideredShawl
+reward   qTalismanArnold 
+end
+

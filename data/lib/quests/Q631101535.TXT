@@ -1,0 +1,19 @@
+quest  127 #6311-01-535        # Lireen, Healing Magic, Drune, healing, 8308
+
+name  "A Flute for Lireen"
+type  fedex
+
+proposal  "This soothing cream is my own formula.  I had to find something to ease the aches and pains of the young warriors.  They bang themselves and each other practicing, and wear different pieces of armor every which way that abrades their skin.  So I devised this cream, and found out it is helpful for a variety of ailments.  I do think it works best on elves, but humans and giants have found relief, too.  I'll be glad to give you some, friend, in exchange for an errand I would like done.  Would you consider that trade?" 
+
+declined  "Never mind, then, friend."
+
+accepted  "I've heard of a musical instrument called a flute.  I would really like to have one.  The story I heard was sketchy, but said there was a fellow in Asgard who makes them.  Could you try and find me one, please?"
+
+reminder   "You're seeking for a flute made in Asgard."
+
+completed  "Oh, my.  What a beautiful little creation.  My thanks to you, friend.  Here is the Elf Soothing Cream."
+
+getItem   qCarvedFlute
+reward   qElfCream 
+end
+

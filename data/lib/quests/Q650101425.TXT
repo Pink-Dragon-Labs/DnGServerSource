@@ -1,0 +1,19 @@
+quest  162 #6501-01-425        # Szumi, Take It or Leave It, Caer Fandry, general, 6601
+
+name  "Troll Toenail"
+type  fedex
+
+proposal  "Well, dunderhead, we'll see just how badly you want it.  I've got a piece, a good piece.  And you can carry it off if, I say IF, you'll fetch me a troll's toenail.  Why I want it is my business.  Your business is to find me one, if you want the ancient chain mail.  What about it?"
+
+declined  "Then either buy something or get out."
+
+accepted  "Then get going.  Check in Monmouth."
+
+reminder   "Go to Monmouth and find a troll toenail, or don't bother to come back."
+
+completed  "Well, you're back.  Amazing!  Take your chain mail."
+
+getItem   qTrollToenail
+reward   qAncientChainMail
+end
+

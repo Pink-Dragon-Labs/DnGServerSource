@@ -1,0 +1,12 @@
+name "kurz"
+title "Village of Kurz"
+worldFile "../data/lib/world/03_INV_KURZX.WLD"
+worldFile "../data/lib/world/KURZINT1.WLD"
+worldFile "../data/lib/world/KURZINT2.WLD"
+worldFile "../data/lib/world/KURZINT3.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 3
+midiFile 9
+monster Mouse 10

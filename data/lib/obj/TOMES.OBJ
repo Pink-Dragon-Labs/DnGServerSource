@@ -1,0 +1,146 @@
+object Book
+	properties
+		name "Book"
+		value 50
+		view 51050
+		color -1
+		health 500
+
+		# weak to fire damage
+		affect 1 3 0 -1
+
+		# immune to cold damage
+		affect 2 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see a book."
+		shopText "Here is a book with some interesting information."
+	end
+
+	base carryable
+		weight 1.0
+	end
+end
+
+object Tome of Book
+	properties
+		name "Tome"
+		value 100
+		view 51050
+		color -1
+	end
+
+	base use
+		uses 1
+		usesMax 1
+		useCost 0
+	end
+
+	base described
+		text "You see a tome."
+		idText "You see a tome with some strange writing in it."
+	end
+end
+
+object tBook of Tome
+	properties
+		name "Book of Tales"
+	end
+
+	base described
+		idText "You see a book with some children's tales in it."
+		shopText "This wonderful book has many entertaining tales."
+	end
+end
+
+object tDivineInspiration of Tome
+	properties
+		name "Tome of Divine Inspiration"
+		value 8000
+	end
+
+	actions
+		vBeUsed inspire dobj 0
+	end
+
+	base described
+		idText "You see a Tome of Divine Inspiration.  You will gain experience if you read it and are of good alignment."
+		shopText "Here is the priceless Tome of Divine Inspiration.  Read it only if you are pure of heart, it will teach many things."
+	end
+end
+
+object tEvilDeeds of Tome
+	properties
+		name "Tome of Evil Deeds"
+		value 8000
+	end
+
+	actions
+		vBeUsed inspire dobj 2
+	end
+
+	base described
+		idText "You see a Tome of Evil Deeds.  You will gain experience upon reading it if you are of evil alignment."
+		shopText "Here is the vile Tome of Evil Deeds.  Read it and you will learn about many henious acts of evil."
+	end
+end
+
+object tForgetfulness of Tome
+	properties
+		name "Tome of Forgetfulness"
+		value 100
+	end
+
+	actions
+		vBeUsed changeExperience dobj -1000
+	end
+
+	base described
+		idText "You see a Tome of Forgetfulness.  You will lose experience if you read it."
+		shopText "This confusing tome will cause you to forget your experiences."
+	end
+end
+
+object tGreaterWorks of Tome
+	properties
+		name "Tome of Greater Works"
+		value 8000
+	end
+
+	actions
+		vBeUsed inspire dobj 1
+	end
+
+	base described
+		idText "You see a Tome of Greater Works.  You will gain experience if you read it."
+		shopText "This wonderous Tome of Greater Works will teach you many things."
+	end
+end
+
+object tUnderstanding of Tome
+	properties
+		name "Tome of Understanding"
+		value 8000
+	end
+
+	actions
+		vBeUsed changeExperience dobj 1000
+	end
+
+	base described
+		idText "You see a Tome of Understanding.  You will gain experience if you read it."
+		shopText "This fantastic Tome of Understanding will teach you many things."
+	end
+end
+
+object SpellBook of Tome
+	base teach
+		spell -1
+	end
+end
+
+

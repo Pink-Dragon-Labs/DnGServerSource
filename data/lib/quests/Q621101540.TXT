@@ -1,0 +1,16 @@
+quest  99 #6211-01-540        # Pali, All Things Useful, East Leinster, 6056
+
+name  "Good Deed for Pali"
+type  fedex
+
+proposal  "You're mighty welcome then, friend, mighty welcome.  Those blackberry vines of mine are prolific and produce delicious blackberries, but when they get started they just don't stop.  I trim them back every year, and I bring the roots here.  They're free.  Just take them away, preferably far away.  I don't want more than I have right now.  Will you take them?"
+
+declined  "Drat!"
+
+accepted  "Take them all."
+
+reminder   "Take those berry roots out of here, please!"
+
+reward   qBlackberryRoots 
+end
+

@@ -1,0 +1,17 @@
+quest 27 # 6043-01-545        # Bodi, Comestibles, elf, Silverbrook, 6411
+
+name  "Errand for Bodi"
+type  fedex
+
+proposal  "Yes, yes, it is ready.  Mixed vegetables are very good for you.  Eat them or drink them, it doesn't matter.  You should try it yourself.  You will take Litula's drink to her, won't you?"
+
+declined  "You're very strange."
+
+accepted  "Here it is then.  Don't spill it."
+
+reminder   "Take that vegetable drink back to Litula."
+
+reward   qVegetableDrink 
+end
+
+

@@ -1,0 +1,22 @@
+id 9050
+#--------------- 9050 21318 ascets07 female human Jyotis
+
+banner "Welcome brave traveler! Can I interest you in some of my wares?"
+
+topic "Why are you here?"
+    text "So my wares are readily available to those in need..."
+    text "You didn't buy that did you? Truthfully, my family and I were banished from Arimathor because I spoke ill of Duach. The people of the town feared a smiting by Duach if I remained."
+    text "Alas my heart is not dark so I could not hold my tongue. One day, as I woke from my slumber, I found myself here. Attached to the tent was a note that read, 'Never return.'"
+	text "At first I was scared but then I heard that others were now setting up shops like this one. They think that my family and I came up with this grand idea. If only they knew the truth, tee hee tee hee. They now say there is better gold to be had with this type of location."
+end
+
+topic "Who are you?"
+    text "I am Jyotis, daughter of Solana and Cronus."
+    text "My parents were banished from Arimathor also. They too are out here in the sands."
+    text "I have not had time to seek them out. If you see them, you will say hello for me?"
+end
+
+topic "Do you have anything else to say?"
+    text "Yes, now that you ask. Be careful walking North from here. The sands get deeper and strange beasts are found."
+ text "You will return later and tell me stories of your adventures, yes?"
+ end

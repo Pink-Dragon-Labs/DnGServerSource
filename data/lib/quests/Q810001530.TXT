@@ -1,0 +1,19 @@
+quest  404 #8100-01-530        # Zuzu, House of Combat, weapons, Monmouth, 6311
+
+name  "Salldii Sweatmeats"
+type  fedex
+
+proposal  "Lizard?  What lizard?  I don't stock lizards in here.  Try the general store.   Unless you meant to say Wizard?  Well why didn't you say so?  Speak up.  Don't know why people aren't taught to speak up!  I've got a book about Wizard Walther.  If you want it, you'll have to go to Leinster and fetch me some salldii sweetmeats.  Are you going or aren't you?"
+
+declined  "Better find you some weaponry to buy.  My  prices are good."
+
+accepted  "Then go."
+
+reminder   "I want some salldii sweetmeats from Leinster."
+
+completed  "Been waiting for this.  Mighty tasty, these are.  Here's your book."
+
+getItem   qSalldii
+reward   qWaltherBook 
+end
+

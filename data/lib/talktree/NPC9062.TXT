@@ -1,0 +1,25 @@
+id 9062
+#--------------- 9062 12358 winter4 male giant Viljo
+
+banner "Give me your gold. I mean.. buy something would you?"
+
+topic "Tell me about Winter Wold."
+    text "It is a place of mystery. The temple of Elphame rests a few short steps from here."
+    text "Though I am not one to follow the gods, I tend to stay away from that place in fear of her.. I mean out of respect for her..."
+    text "The best hideout is right under their noses. Ha ha ha."
+    text "Your gold purse sure looks heavy. Mind if I hold on to it for you?."
+end
+
+topic "Who are you?"
+    text "I am Markan.. err umm.. I mean my name is Viljo. I am hiding out from the law.. or I mean I am the keeper of this shop. Yes that's right.. the keeper of this shop."
+    text "Let me correct myself before you start a rumor. My name is Viljo and I own this shop. I am not wanted by the law for robbing travelers."
+    text "Just because someone may have at one time killed a few citizens or lifted a few gold coins wouldn't make me or I mean them a bad person... would it?"
+     text "You better go away, I am getting the itch to do it again."
+end
+
+topic "Goodbye!"
+    text "Wait, I'll go with you. Let me show you some of the attractions around here.."
+ text "I heard there is an endless well around in these parts. I could show it to you.. up close."
+ text "Where are you going??."
+ text "Come back.. I only want to be friends....."
+end

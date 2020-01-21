@@ -1,0 +1,19 @@
+quest  196 #6610-01-525        # Jolie, Mystic Magic, Murias, 6212
+
+name  "Brown Wrapping Paper"
+type  fedex
+
+proposal  "Oh my stars.  Whatever do you want with that?  Orcs are such nasty things.  You're not an orc in disguise, I hope.  I've got an orc amulet, as a matter of fact, and I'd be glad to get rid of it.  I don't want the thing in my shop.  I serve Mabon, myself, and don't want to offend him by having the thing around.  You can have it if you'll go over to Malina and get my supply of brown wrapping paper.  Tell her it's for Jolie.  You'll do that, won't you?"
+
+declined  "I can't wrap it for you if I don't have paper."
+
+accepted  "Hurry then.  I'd like to get rid of this."
+
+reminder   "Go find Malina and get my brown wrapping paper."
+
+completed  "I'll just wrap that Amulet and give it to you."
+
+getItem   qBrownPaper
+reward   qOrcAmulet 
+end
+

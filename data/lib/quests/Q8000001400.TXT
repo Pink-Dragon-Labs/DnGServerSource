@@ -1,0 +1,18 @@
+quest  355 #80000-01-400      #Dag, Cave of Thieves, 80000
+
+name  "Blackbird Feathers
+type  fedex
+
+proposal  "I've been hearing that some apprentices are complaining about their tasks.  You wouldn't be one of them, would you?  I've got no use for complainers.  The rule ought to be either don't take it on or keep your mouth shut.  If you want the information about lock picking mastery, you'll bring me some blackbird feathers. You'll also keep your mouth shut.  What'll it be?"
+
+declined  "You still keep your mouth shut."
+
+accepted  "I want some blackbird feathers from Asgard."
+
+reminder   "Got to Asgard and find some blackbird feathers."
+
+completed  "Yeah, I see you brought them.  Take your book."
+
+getItem   qBlackbirdFeathers
+reward    skbLockpickingIV
+end

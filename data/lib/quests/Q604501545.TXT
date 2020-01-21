@@ -1,0 +1,16 @@
+quest 38 # 6045-01-545        # Setta, Tasty Morsels, Murias, 6215
+
+name  "Delivery for Setta"
+type  fedex
+
+proposal  "Good, good.  I made a specially tasty lunch for him.  That poor giant suffers so with allergy, I was glad he wanted to eat today.  He's going to waste away to skin and bone if he doesn't eat.  You'll take it to him?"
+
+declined  "But . . .oh, never mind. I'll do it."
+
+accepted  "Here it is.  Go quickly, before he gets sick again.  Just a little joke."
+
+reminder   "Take that over to Frick and go quickly, please."
+
+reward   qFrickLunch 
+end
+

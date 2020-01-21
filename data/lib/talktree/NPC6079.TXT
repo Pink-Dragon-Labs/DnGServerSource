@@ -1,0 +1,23 @@
+id 6079
+
+banner "Greetings, Friend. Welcome to the Banshee's Wail Tavern. May I help you?"
+
+topic "Tell me about Leinster."
+        text "Leinster. Maybe you're wondering why the center of town is in ruins. The fact is that the god Duach destroyed central Leinster because of a dispute with Despothes."
+        text "I'll tell you an odd story about that night.  Just before the smiting, customers in here began arguing about the gods.  One fellow started insisting the gods don't exist, and didn't believe anybody had really seen one.  Others chimed in and the argument was off and running.  The first guy was getting so rowdy and belligerent I was ready to shut him down when BAM.  Things started happening. Noises. Flashing in the sky. Shouting. Flames.  Nobody knew what was going on then, of course, and we didn't really figure it all out until the next day."
+	text  "The fellow who started it all hasn't been back here since.  The others tell me that he won't open his mouth about the smiting or the gods.  I figure I've lost a customer which I don't really mind because he was always such a loud mouth.  Makes you wonder what's going on in his head, though."
+end
+
+topic "Who are you?"
+        text "I am Neela, owner of the Banshee's Wail."
+        text "Have you ever heard a banshee wail?  Only once I heard the sound, which is quite unforgettable I assure you.  That's why I used the name for my tavern."
+end      
+
+topic "Can I do something for you?"
+        text "No, I've nothing for you."
+end
+
+topic  "I'm looking for a gold nugget shaped like a mouse." q115:0 #q6308-01-525:0
+	quest 116 #6308-01-530
+	text  "What's the matter with you?  You already have it."
+end

@@ -1,0 +1,9 @@
+name "Tulor"
+title "Tulor's Caverns"
+worldFile "../data/lib/world/D_TULOR_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 30
+groupChance 30
+isDungeon 1
+entrance sarcophagusDoor20081-0 

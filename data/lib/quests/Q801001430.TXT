@@ -1,0 +1,19 @@
+quest  274 #8010-01-430        # Fiona, The LadySlipper tavern, Wen, 6104
+
+name  "Rennet for Fiona"
+type  fedex
+
+proposal  "You won't find a cheese any more special than mine, friend.  I came up with a special ingredient and began to share my cheese with friends and now it seems like I can't keep enough of it on hand.  You're in luck, though, because I've got some.  Would you be willing to make a jaunt to Leinster for me in trade?"
+
+declined  "You'll be sorry.  This is great cheese."
+
+accepted  "Good.  I need a supply of rennet for my cheese making.  You'll find some in Silverbrook."
+
+reminder   "You're looking for a supply of rennet, friend, in Silverbrook."
+
+completed  "Just in time, friend.  I'm just ready to make more cheese.  Meanwhile, I saved this last slab for you."
+
+getItem   qRennet
+reward   qWenCheese 
+end
+

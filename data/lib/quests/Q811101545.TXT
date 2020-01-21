@@ -1,0 +1,16 @@
+quest 325 #8111-01-545  #(Pasco, Heal Yourself, Silverbrook, 6404)
+
+name  "Mission of Mercy"
+type  fedex
+
+proposal  "You're from Miriam.  She sent word a trusted courier would come for the burn ointment.  I thank you for bringing the cheese.  I hope it wasn't too much out of your way.  The burn ointment is ready.  Are you prepared to return to Miriam with it?"
+
+declined  "I must find another courier at once."
+
+accepted  "Good, good. Take it and go swiftly on the mission of mercy.  There is great need in Leinster."
+
+reminder  "Hurry back to Miriam."
+
+getItem	qPascoCheese
+reward  qBurnOintment  
+end

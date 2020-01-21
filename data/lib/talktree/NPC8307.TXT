@@ -1,0 +1,69 @@
+id 8307
+
+banner "Greetings. Welcome to Elven Enchantment. What would you care for today?"
+
+topic "Tell me about Drune."
+        text "Drune is a town comprised mostly of elves. Elves are notorious punsters. Did you know that?"
+        text "I'll give you an example. My name is really Gracia, but everyone in Drune calls me Wanda."
+	text "Wand -- Wanda -- do you get it?"
+	text "I find this exceedingly distasteful."
+	text "I have not endeavored to alter this sobriquet.  It would not be dignified."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that Silverbrook elves live in harmony with orcs."
+        text "I can't imagine anything so horrible. I despise orcs."
+end      
+
+topic  "Do you know any limericks?"
+	text "I do not care for limericks, and I certainly don't intend to encourage this pastime."
+	text "I cannot understand this elfish mania for limericks."
+end
+
+topic "Can I do anything for you?"
+	text "Not today, but check with me again."
+end
+
+topic  "I'm interesting in learning spellcrafting."
+	banner  "Then you are wise to appear in my shop.  I teach the craft of meditation, which improves and enhances the ability to memorize spells." 
+
+	topic  "I am interested in meditation familiar skills."  s28:0  
+		quest 326 #8307-01-100
+		text "To gain personal use of these meditation skills you must study the book in your possession.  Is this now clear to you?"
+	end
+
+	topic  "I am interested in meditation proficient skills."  s28:1  
+		quest 328 #8307-01-200
+		text "You must study the book in your possession to gain personal use of these meditation skills.  Do you now understand?"
+	end
+
+	topic  "I am interested in meditation expert skills."  s28:2  
+		quest 331 #8307-01-300
+		text "None of the skills are attainable until you study the book you already possess."
+	end
+ 
+	topic  "I am interested in meditation master skills."  s28:3  
+		quest 335 #8307-01-400
+		text "Master skills can only be acquired by diligent study of the skill book you have."
+	end
+
+	topic  "I am interested in meditation grand-master skills."  s28:4  
+		quest 340 #8307-01-500
+		text "To gain personal use of these meditation skills you must study the book in your possession.  Is this now clear to you?"
+	end
+
+	topic  "What else can I learn?"  s0:5
+		text  "All other learning comes after the skill you have just perfected.  Ask of my fellow shopkeepers.  Some of them will assist you with specific skills."
+		text  "Do not even think about it until you complete the task at hand, that of perfecting meditation skills."
+	end
+end
+
+topic  "I've come for Lireen's Package." q382:0 #q80001-01-530:0
+	quest 383 #80001-01-535
+	text  "You have received it.  It is not wise to try to deceive an elf of Drune."
+end
+
+topic  "Your Gatekeeper sent me to talk to you." q317:0 #q8111-01-425:0
+	quest 318 #8111-01-430
+	text  "I already assisted you."
+end

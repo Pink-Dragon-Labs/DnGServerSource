@@ -1,0 +1,27 @@
+id 6210
+
+banner "Greetings, welcome to the Thresher's Roost. What do you want?"
+
+topic "Tell me about Murias."
+        text "I'faith, our history is quite interesting. Murias was founded as a farm cooperative to share labor among several farm families."
+        text "There was once a family who lorded over the valley of Murias, but many generations ago the people of the valley rose up and killed the family."
+        text "It is said that the blood from the lords of Murias has enriched the soil so that anything will grow here."
+end
+
+topic "Who are you?"
+        text "I am Murdoch, and you've entered my tavern. The Roost stands on the very spot where Lotta struck down Lord Murias. At least, that's what the old legends say."
+	text "Speaking of hearing tales, have you heard what they're saying about Leinster?"
+	text "The town's been half destroyed, and by the gods!  Now there is stuff of legends."
+	text "If legends are as twisted as some of the tales coming out of Leinster, then you can't take any of them at face value."
+end      
+
+topic "Can I do something for you?"
+        text "That's a kind offer. Perhaps I'll take you up on it one day. Today, I've nothing for you to do."
+end
+
+topic  "I'm in need of a Carved Salt Crystal." q110:0 #q6308-01-400:0
+	quest 111 #6308-01-425
+	text  "You got it earlier."
+end
+
+	

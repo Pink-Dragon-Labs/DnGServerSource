@@ -1,0 +1,19 @@
+quest  57 #6077-01-530        # Bikali, Food Cart, Silverbrook, 5407
+
+name  "Toasted Sunberry Seeds"
+type  fedex
+
+proposal  "Sure thing.  I have a private supply.  My sister makes it all the time.  It's a real treat, let me tell you.  An elf could get fat eating it.  I'll let you have the whole thing if you'll do an errand to Drune for me.  Will you?"
+
+declined  "Too bad."
+
+accepted  "Somewhere in Drune there're some toasted sunberry seeds.  Bring me some and the fenibretta is yours."
+
+reminder   "I want some toasted sunberry seeds."
+
+completed  "Yum.  These aren't going on my menu. These are going on my plate! Thanks, pal.  Here's the fenibretta.  Don't eat it all at once.  You'll get an ache if you do."
+
+getItem   qSunberrySeeds
+reward   qFenibretta 
+end
+

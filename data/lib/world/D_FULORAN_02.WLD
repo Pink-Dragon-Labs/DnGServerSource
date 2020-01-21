@@ -1,0 +1,1638 @@
+# Dungeonmaker World File (fuloran.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 88500
+# Dungeon last room = 88522
+# Number of objects in dungeon = 88
+# Level 0 information:
+room 88500
+	properties
+		template 32301
+		east 88506
+		flags	0
+	end
+	objects
+		object DungeonBackUp-88500-0 of DungeonBackUp
+			properties
+				x	338
+				y	228
+				loop	0
+				linkTo	sarcophagusDoor10019-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-88500-1 of Sign
+			properties
+				x	533
+				y	240
+				loop	0
+			end
+			base described
+				text	"The sign has a message written in blood: 'Turn back, you fool!  You have entered the domain of death.  There is no escape for those who disturb the master...or the others'"
+			end
+		end
+	end
+end
+room 88506
+	properties
+		template 30901
+		east 88507
+		west 88500
+		flags	200
+	end
+	objects
+		object Lich-88506-0 of Lich
+			properties
+				x	351
+				y	266
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object HellHound-88506-1 of HellHound
+			properties
+				x	503
+				y	271
+				loop	2
+				color	769
+			end
+			base character
+			end
+		end
+		object HowlingTerror-88506-2 of HowlingTerror
+			properties
+				x	224
+				y	275
+				loop	2
+				color	770
+			end
+			base character
+			end
+		end
+		object KingKilrog-88506-3 of KingKilrog
+			properties
+				x	408
+				y	272
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+		object KingKilrog-88506-4 of KingKilrog
+			properties
+				x	293
+				y	275
+				loop	2
+				color	788
+			end
+			base character
+			end
+		end
+		object Bones-88506-5 of Bones
+			properties
+				x	160
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bones-88506-6 of Bones
+			properties
+				x	538
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-7 of Skull
+			properties
+				x	186
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-8 of Skull
+			properties
+				x	145
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-9 of Skull
+			properties
+				x	161
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-10 of Skull
+			properties
+				x	184
+				y	254
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-11 of Skull
+			properties
+				x	220
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-12 of Skull
+			properties
+				x	190
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-13 of Skull
+			properties
+				x	132
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-14 of Skull
+			properties
+				x	138
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-15 of Skull
+			properties
+				x	201
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-16 of Skull
+			properties
+				x	164
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-17 of Skull
+			properties
+				x	160
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-88506-18 of Skull
+			properties
+				x	209
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88507
+	properties
+		template 30701
+		west 88506
+		flags	0
+	end
+	objects
+		object Web7-88507-0 of Web7
+			properties
+				x	444
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-88507-1 of DungeonBackDoor
+			properties
+				x	343
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-88509-5
+			end
+			base lockable
+			end
+			actions
+				vBeAnswered open DungeonBackDoor-88507-1
+			end
+			base described
+				riddleFile	"../data/riddles/riddle09.txt"
+			end
+		end
+	end
+end
+room 88509
+	properties
+		template 30805
+		east 88510
+		flags	72
+	end
+	objects
+		object CryptKeeper-88509-0 of CryptKeeper
+			properties
+				x	519
+				y	260
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-88509-1 of CryptKeeper
+			properties
+				x	205
+				y	260
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-88509-2 of Lich
+			properties
+				x	418
+				y	260
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-88509-3 of Lich
+			properties
+				x	301
+				y	263
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Fuloran-88509-4 of Fuloran
+			properties
+				x	361
+				y	265
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-88509-5 of DungeonBackDoor
+			properties
+				x	247
+				y	209
+				loop	2
+				linkTo	DungeonBackDoor-88507-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 88510
+	properties
+		template 30201
+		west 88509
+		flags	0
+	end
+	objects
+object DungeonBackDoor-88510-1 of DungeonBackDoor
+			properties
+				x	343
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-88512-5
+			end
+			base lockable
+			end
+			actions
+				vBeAnswered open DungeonBackDoor-88507-1
+			end
+			base described
+				riddleFile	"../data/riddles/riddle08.txt"
+			end
+		end
+		object Chest-88510-0 of Chest
+			properties
+				x	249
+				y	261
+				loop	2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomBelt-88510-1 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-88510-2 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88510-3 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88510-4 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88510-5 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88510-6 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88510-7 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88510-8 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88510-9 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88510-10 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88510-11 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88510-12 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-13 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-14 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-15 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-16 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-17 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-18 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-19 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-20 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-21 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88510-22 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88510-23 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88510-24 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88510-25 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88510-26 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88510-27 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88510-28 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-29 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-30 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-31 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-32 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-33 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-34 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-35 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-36 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-37 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88510-38 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-88510-39 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-88510-40 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-88510-41 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-88510-42 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-88510-43 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-88510-44 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88510-45 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88510-46 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88510-47 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88510-48 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88510-49 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88510-50 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88510-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 88512
+	properties
+		template 30805
+		east 88513
+		flags	72
+	end
+	objects
+		object Fuloran-88512-1 of Fuloran
+			properties
+				x	311
+				y	245
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object Fuloran-88512-2 of Fuloran
+			properties
+				x	361
+				y	265
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object Fuloran-88512-3 of Fuloran
+			properties
+				x	411
+				y	245
+				loop	2
+				color	794
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-88512-5 of DungeonBackDoor
+			properties
+				x	247
+				y	209
+				loop	2
+				linkTo	DungeonBackDoor-88510-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 88513
+	properties
+		template 30201
+		west 88512
+		flags	0
+	end
+	objects
+		object Chest-88513-0 of Chest
+			properties
+				x	249
+				y	261
+				loop	2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomBelt-88513-1 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-88513-2 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88513-3 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88513-4 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88513-5 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88513-6 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-88513-7 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88513-8 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88513-9 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88513-10 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88513-11 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-88513-12 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-13 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-14 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-15 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-16 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-17 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-18 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-19 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-20 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-21 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-88513-22 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88513-23 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88513-24 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88513-25 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88513-26 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88513-27 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomRing-88513-28 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-29 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-30 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-31 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-32 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-33 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-34 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-35 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-36 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-37 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-88513-38 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-88513-39 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-88513-40 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-88513-41 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-88513-42 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-88513-43 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-88513-44 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88513-45 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88513-46 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88513-47 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88513-48 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88513-49 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+		object RandomGem-88513-50 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Chest-88513-0
+			end
+			base described
+			end
+		end
+	end
+end
+
+

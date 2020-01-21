@@ -1,0 +1,19 @@
+quest 108 #6308-01-330  #(Tallie, You Name It, W. Leinster, 6033)
+
+Name  "Worms for Tallie"
+type  fedex
+
+proposal  "Candles, is it.  Candles for Eugenie.  Yes, I'll make up a package for her.  But before I give them to you, I want something.  I haven't been out of West Leinster since the Gods fought here, and I don't intend to leave now.  Will you do an errand in exchange for the candles?"
+
+declined  "You're a strange sort of person.  First you want something, then you don't."
+
+accepted  "I need a supply of worms for my compost, and the only place they're available is in East Leinster.  Find me some while I'm filling Eugenie's order."
+
+reminder  "Worms for the compost, that's what I need.  East Leinster.  Now go."
+
+completed  "I'm glad to see you back. Give me my worms and take this package of candles to Eugenie."
+
+getItem  qCompostWorms
+reward  qEugenieCandles
+end
+

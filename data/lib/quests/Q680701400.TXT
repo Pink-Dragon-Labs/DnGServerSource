@@ -1,0 +1,19 @@
+quest  200 #6807-01-400        #Georgi, Arimathor Armory, 6807
+
+name  "Shield Relic from the Dark Forest"
+type  fedex
+
+proposal  "That proves your intelligence.  I've always said the shield was underrated as a tool of combat.  Fact is, a warrior who knows all the tricks of the trade with a shield has an advantage, a distinct advantage, over all the others in the field of combat.  Proper shield use is not a simple skill to acquire, not at all. You've got to have strength and dexterity. I'm always glad to encourage warriors interested in developing shield use skills, so let's get you on the road to mastery.  Please find me a shield relic from the Dark Forest.  Will you accept this quest?"
+
+declined  "Just so."
+
+accepted  "The story I heard placed it in Drune."
+
+reminder   "Look for a shield relic from the Dark Forest.  You might find it in Drune."
+
+completed  "I'm mighty pleased to have this.  My thanks to you.  Here is the skill book you need."
+
+getItem   qShieldRelic
+reward    skbShieldUseIV
+end
+

@@ -1,0 +1,29 @@
+name "wanderingwood"
+title "Wandering Woods"
+#EMPTY worldFile "../data/lib/world/WWOOD11.WLD"
+#EMPTY worldFile "../data/lib/world/WWOOD12.WLD"
+worldFile "../data/lib/world/02_INV_WWOOD7.WLD"
+worldFile "../data/lib/world/WWOOD5.WLD"
+worldFile "../data/lib/world/WWOOD8.WLD"
+worldFile "../data/lib/world/02_INV_WWOOD10.WLD"
+worldFile "../data/lib/world/WWOOD1.WLD"
+worldFile "../data/lib/world/WWOOD2.WLD"
+worldFile "../data/lib/world/WWOOD3.WLD"
+worldFile "../data/lib/world/WWOOD4.WLD"
+worldFile "../data/lib/world/WWOOD6.WLD"
+worldFile "../data/lib/world/WWOOD9.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 18
+groupChance 50
+monster DarkFaery 40
+monster BountyHunterF 90
+monster ThiefE 25
+monster Devil 300
+monster Fury 190
+monster FlameDaemon 300
+monster SnowDaemon 300
+monster SpittingCobra 80
+monster WardenHA07 65
+# Wandering Wood	Area 07		Player Level 125-250	Alignment: Evil		Monsters/Room: 2.94

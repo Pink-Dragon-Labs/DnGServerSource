@@ -1,0 +1,16 @@
+quest  150 #6403-01-335        # Setta, Tasty Morsels, food, Murias, 6215
+
+name  "Setta's Bread"
+type  fedex
+
+proposal  "Sure, it's ready.  Fresh baked today, so you are right on time.  My bread is so good because the grain is grown here and fresh ground by me when I want it.  It's the only way to make bread, to my mind.  Are you going to take this right back to Inila?"
+
+declined  "Too bad."
+
+accepted  "Good.  And consider eating something, yourself.  You look a mite peaked."
+
+reminder   "Hurry back to Inila in Usk with that bread."
+
+reward   qGrainBread 
+end
+

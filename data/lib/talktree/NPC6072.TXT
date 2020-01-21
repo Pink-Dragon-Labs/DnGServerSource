@@ -1,0 +1,29 @@
+id 6072
+
+banner "So you need something from Cozenor, Friend? Well, you've come to the right place. Welcome to Spells of Fire."
+
+topic "Tell me about Leinster."
+        text "Leinster? It's much improved since the gods redecorated. Now it's much harder for those from West Leinster to pollute our side with their presence."
+	text "Those dang rats aren't an improvement, though.  Never had a rat problem in the town before the smiting."
+	text  "It's an ill wind that blows no good, so they say.  Due to the rats, I set my mind on the problem of pest deterrent.  I invented a nice little potion, so say the word if you ever have need."  
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that some can pass back and forth through the mists at will."
+        text "I wish I could, don't you?"
+end      
+
+topic "Can I do anything for you?"
+        text "I haven't anything today, Friend. Ask me again another day."
+end
+
+topic  "I'm looking for an Ancient Oil Lamp" q230:0 #q6815-01-400:0
+	quest 231 #6815-01-425
+	text  "You've got it."
+end
+
+topic  "I need some rat deterrent." q63:0 #q6102-01-430:0
+	quest 64 #6102-01-435
+	text  "I gave you some."
+end
+

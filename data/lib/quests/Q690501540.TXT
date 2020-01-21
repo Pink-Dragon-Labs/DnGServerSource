@@ -1,0 +1,19 @@
+quest  270 #6905-01-540        # Fiona, The Ladyslipper, tavern, Wen, 6104
+
+name  "Fiona Needs a Headache Potion"
+type  fedex
+
+proposal  "Yes, I do.  I've such an awful headache I can hardly think, but I've got so much to do I've got to keep going. Would you mind popping over to the healer for some headache potion?"
+
+declined  "Never mind."
+
+accepted  "It will be a great help, friend. I don't think I can keep going without help."
+
+reminder   "Just tell the healer to put the headache potion on my tab."
+
+completed  "May Enid bless you for this service, friend.  Here's the special order of cheese."
+
+getItem   qHeadachePotion
+reward   qWenCheese 
+end
+

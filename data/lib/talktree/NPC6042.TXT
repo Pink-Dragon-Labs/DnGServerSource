@@ -1,0 +1,26 @@
+id 6042
+
+banner "Hello. I am the healer, Birka. What is it you wish of me?"
+
+topic "Tell me about Leinster."
+        text  "Leinster's current troubles are the result of a war between Despothes and Duach. Duach became angry and tore our town apart."
+	text  "I myself worship Mabon. He's less prone to tantrums."
+	text  "We healers certainly have our work cut out for us with all this devastation."
+	text  "I don't think I've had a whole day off since the smiting."
+end
+
+topic "Have you heard any interesting rumors?"
+	text  "I don't know that they're rumors, but I've heard fascinating things about other towns in the Realm."        
+	text  "I heard that inhabitants of Asgard are very courageous, but very warlike as well."
+	text  "I hope I get a chance to travel some day."
+end      
+
+topic "Can I do anything for you?"
+        text "Not at present, Adventurer. Check with me again."
+end
+
+topic  "I need a ZKGB container for Morin." q364:0 #q80000-01-540:0
+	quest 365 #80000-01-545
+	text  "You have it.  Now scoot."
+end
+

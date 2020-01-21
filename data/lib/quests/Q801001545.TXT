@@ -1,0 +1,17 @@
+quest  282 #8010-01-545        # Inga, Food Cart, Asgard, 5910
+
+name  "Delivery to Ghoud"
+type  fedex
+
+proposal  "Ghoud is a fine friend to have, is he not?  His lunch is all packed and ready.  You'll deliver it before it gets cold, won't you?"
+
+declined  "I'll make other arrangements, then."
+
+accepted  "Thank you, friend.  Return any time."
+
+reminder   "Take the lunch to Ghoud before it cools down, please."
+
+reward   qGhoudLunch 
+end
+
+

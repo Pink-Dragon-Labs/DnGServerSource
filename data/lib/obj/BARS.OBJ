@@ -1,0 +1,219 @@
+object Bar
+	properties
+		view 58250
+		clutStart 98
+		health 400
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		wholesale
+		worthless
+	end
+
+	base carryable
+		weight 5.0
+	end
+end
+
+object Bolt
+	properties
+		view 58200
+		clutStart 58
+
+		# immune to cold
+		affect 2 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		wholesale
+		worthless
+	end
+
+	base carryable
+		weight 1.0
+	end
+end
+
+object WoodBlock
+	properties
+		view 58150
+		name "Wooden Block"
+		value 5
+		color 105
+
+		# clear fire immunity
+		caffect 1
+
+		# weak to fire
+		affect 1 3 0 -1
+
+		wholesale
+		worthless
+	end
+
+	base carryable
+		weight 5.0
+	end
+
+	base described
+		text "You see a 5 stone block of wood."
+		shopText "This is a 5 stone block of wood."
+	end
+end
+
+object IronBar of Bar
+	properties
+		name "Iron Bar"
+		value 25
+		color 104
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base described
+		text "You see a 5 stone bar of iron."
+		shopText "This is a 5 stone bar of iron."
+	end
+end
+
+object SteelBar of Bar
+	properties
+		name "Steel Bar"
+		value 100
+		color 99
+	end
+
+	base described
+		text "You see a 5 stone bar of steel."
+		shopText "Here is a 5 stone bar of steel."
+	end
+end
+
+object TemperedSteelBar of Bar
+	properties
+		name "Carbon-Steel Bar"
+		value 250
+		color 100
+	end
+
+	base described
+		text "You see a 5 stone bar of high-carbon steel."
+		shopText "Here is a 5 stone bar of high-carbon steel for use in making tempered-steel weapons and armor."
+	end
+end
+
+object MythrilBar of Bar
+	properties
+		name "Mythril Bar"
+		value 1000
+		color 83
+	end
+
+	base described
+		text "You see a 5 stone bar of mythril."
+		shopText "This is a 5 stone bar of mythril."
+	end
+end
+
+object ObsidianiteBar of Bar
+	properties
+		name "Obsidianite Block"
+		value 1500
+		color 98
+	end
+
+	base described
+		text "You see a 5 stone block of obsidianite."
+		shopText "Here is a 5 stone block of obsidianite."
+	end
+end
+
+object AdmantiumBar of Bar
+	properties
+		name "Admantium Block"
+		value 2500
+		color 54
+	end
+
+	base described
+		text "You see a 5 stone bar of admantium."
+		shopText "This is a 5 stone bar of admantium."
+	end
+end
+
+object ClothBolt of Bolt
+	properties
+		name "Bolt of Fabric"
+		value 2
+		color 83
+	end
+
+	base described
+		text "You see a bolt of plain fabric."
+		shopText "Here is a bolt of cloth."
+	end
+end
+
+object LeatherBolt of Bolt
+	properties
+		name "Bolt of Leather"
+		value 20
+		color 74
+	end
+
+	base described
+		text "You see a bolt of cured leather."
+		shopText "Here is a cured bolt of leather."
+	end
+end
+
+object TrollHideBolt of Bolt
+	properties
+		name "Bolt of Troll Hide"
+		value 35
+		color 73
+	end
+
+	base described
+		text "You see a bolt of cured troll-hide leather."
+		shopText "Just got a shipment of this in today.  Much tougher than normal leather, and only slightly more expensive."
+	end
+end
+
+object SweatBar of Bar
+	properties
+		name "Block of Sweat Time"
+		value 5000	#High price permits easy increase of value.
+		color 58
+	end
+
+	base carryable
+		weight 20.0
+	end
+	base described
+		text "You see a 20 stone bar of sweat and toil."
+		shopText "This is a 20 stone bar of sweat and toil."
+	end
+end
+
+object MagicBar of Bar
+	properties
+		name "Bar of Magical Energy"
+		value 1000	#Low price permits many bars required to make magic items without too greatly increasing value.
+		color 30
+	end
+
+	base carryable
+		weight 10.0
+	end
+	base described
+		text "You see a 10 stone bar of solidified magical energy."
+		shopText "This is a 10 stone bar of solidified magical energy."
+	end
+end

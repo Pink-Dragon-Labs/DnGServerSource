@@ -1,0 +1,152 @@
+# Dungeonmaker World File (Rend01d.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 94030
+# Dungeon last room = 94039
+# Number of objects in dungeon = 6
+# Level 0 information:
+room 94033
+	properties
+		template 30305
+		south 94031
+		flags	0
+	end
+	objects
+		object Sign-94033-0 of Sign
+			properties
+				x	179
+				y	261
+				loop	0
+			end
+			base described
+				text	"Welcome to the Rendezvous, an open dungeon with areas for explorers from 50 to 500 and, at the end, rewards worthy of a king."
+			end
+		end
+		object DungeonBackUp-94033-1 of DungeonBackUp
+			properties
+				x	283
+				y	246
+				loop	2
+				linkTo	trapDoor8307-3
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 94031
+	properties
+		template 31001
+		south 94030
+		north 94033
+		flags	0
+	end
+end
+room 94038
+	properties
+		template 32301
+		east 94037
+		flags	0
+	end
+	objects
+		object Sign-94038-0 of Sign
+			properties
+				x	389
+				y	216
+				loop	0
+			end
+			base described
+				text	"Enter the Waiting Rooms. Enjoy the company of fellow explorers as you wait your turn for a chance at the treasure."
+			end
+		end
+		object DungeonBackDoor-94038-1 of DungeonBackDoor
+			properties
+				x	287
+				y	241
+				loop	0
+				linkTo	DungeonBackDoor-26263-0
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 94037
+	properties
+		template 30901
+		east 94036
+		west 94038
+		flags	0
+	end
+end
+room 94036
+	properties
+		template 31301
+		east 94035
+		west 94037
+		flags	0
+	end
+end
+room 94035
+	properties
+		template 30906
+		east 94030
+		west 94036
+		flags	0
+	end
+end
+room 94030
+	properties
+		template 30704
+		south 94032
+		west 94035
+		north 94031
+		flags	0
+	end
+end
+room 94032
+	properties
+		template 31001
+		south 94034
+		north 94030
+		flags	0
+	end
+end
+room 94034
+	properties
+		template 32304
+		north 94032
+		flags	0
+	end
+	objects
+		object Sign-94034-0 of Sign
+			properties
+				x	366
+				y	239
+				loop	0
+			end
+			base described
+				text	"Welcome to the Rendezvous, an open dungeon with areas for explorers from 50 to 500 and, at the end, rewards worthy of a king."
+			end
+		end
+		object DungeonBackUp-94034-1 of DungeonBackUp
+			properties
+				x	453
+				y	253
+				loop	1
+				linkTo	trapDoor6403-2
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end

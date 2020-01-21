@@ -1,0 +1,15 @@
+quest  134 #6401-01-440        # Ghoud, Asgard General Goods, Asgard, 6904
+name  "Favor to Ghoud"
+type  fedex
+
+proposal  "Then you're welcome here, friend.  I've got fresh fruit.  I've got too much fresh fruit.  I can't abide seeing it go to waste.  I'll give it to you, just flat out give it to you, if you're going to put it to good use.  Are you?"
+
+declined  "Oh dear."
+
+accepted  "Good.  Then I'll make up a package for you.  It's all fresh, so mind you use it soon."
+
+reminder   "Don't let that fruit spoil."
+
+reward   qFreshFruit 
+end
+

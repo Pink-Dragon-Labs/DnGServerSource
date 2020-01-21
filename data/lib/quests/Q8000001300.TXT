@@ -1,0 +1,18 @@
+quest  351 #80000-01-300      #Dag, Cave of Thieves, 80000
+
+name  "Fossilized Scorpion
+type  fedex
+
+proposal  "OK, pal.  I heard you.  Expert lock picking is not a picnic excursion, see.  It's serious business.  I would be unhappy, very unhappy, if I took you on for this and found you were just funning.  Think it over, pal.  Most people don't like it when I'm unhappy with them.  So, what'll it be?  Do you want to continue?"
+
+declined  "Very wise."
+
+accepted  "Yeah.  Go find me a fossilized scorpion.  Try Usk."
+
+reminder   "Look in Usk for a fossilized scorpion."
+
+completed  "I've got the book you need.  You'd better be serious about this, see."
+
+getItem   qFossilScorpion
+reward    skbLockpickingIII
+end

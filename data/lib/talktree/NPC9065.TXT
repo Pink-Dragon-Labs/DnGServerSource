@@ -1,0 +1,16 @@
+id 9065
+#--------------- 9065 25188 meadows03 male giant DeSol Tib
+
+banner "Hail friend. What can I do for you today?"
+
+topic "Who are you?"
+    text "I am DeSol Tib, keeper of this fine shop in the wilderness."
+    text "I found this spot by mistake one day. Just walking around and I happened upon it. There is a nice stream that separates the sands from it."
+    text "It's pretty nice out here."
+end
+
+topic "Tell me about Drear Valley."
+    text "It is a special place. Recaptured from The Mists!"
+    text "We beat back the Minotaur invasion and that forced The Mists to retreat. Many Minotaurs were stranded by the retreat. You probably saw some of them in your trek to my shop. But they are nothing like before. Not organized, not trying to conquer us, they're just trying to survive."
+    text "The Aegiscians keep the Minotaurs pretty well under control. Odd bunch though. Never smile. Never take the time to even say hello. But that's okay I guess. They have a job to do and are doing it well."
+end

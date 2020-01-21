@@ -1,0 +1,18 @@
+quest 242 #6902-01-125 #(Gnarl, Daemon's Delight tavern, Caer Fandry, 6604)
+
+name  "Ratling Cheese for Gnarl"
+type  fedex
+
+proposal  "I suppose you're interested in Giant Gnat's Ear for some weird purpose.  You'll work for it before I hand it over.  Oh yes, I've got it.  But you don't get it until you bring me some Ratling Cheese.  I don't care if you steal it, kill it, or buy it.  Just bring it here." 
+
+accepted   "Well get going."
+
+declined   "Doesn't matter to me."
+
+reminder   "Bring me Ratling Cheese or you'll get no Gnat's Ear.  I'm not running a charity business here."
+
+completed  "Humpf.  Pretty measly portion.  Here's your ancient Giant Gnat's Ear.  Now get out of my sight."  
+
+getItem  RatlingCheese
+reward  qGnatsEar
+end

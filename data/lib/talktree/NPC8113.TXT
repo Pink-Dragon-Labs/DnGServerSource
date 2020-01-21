@@ -1,0 +1,38 @@
+id 8113
+
+banner "Well, don’t just stand there browsing. What would you like?"
+
+topic "Tell me about Usk."
+        text "Usk is the finest town of The Realm. 'Tis a giant-town for the most part, although we tolerate the lesser races."
+	text "It's well known that giants have superior intellect, and of course we are highly skilled and have extraordinary strength.  I feel sympathy for those who did not have the fortune to be born a giant."
+end
+
+topic	"Who are you?"
+	text  "Who am I?  Hmpfhh.  I suppose you've just arrived, otherwise you would know that I am Bijou, founder and proprietess of The Usk Boutique."
+	text  "Usk could not get along without my services and products.  I run a unique business here, absolutely unique.  I can say this in all modesty because it is true."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard the rumors of the aurora encantata, if that's what you're referring to so obliquely."
+        text "I hope you aren't trying to get me into trouble; there's a town ordinance against encouraging belief in the aurora encantata."
+end      
+
+topic "Can I do anything for you?"
+        text "I think not. You look a bit puny to me."
+end
+
+topic  "I'm looking for a Torn Papyrus Fragment.  Is that enough information to identify it?" q331:0 #q8307-01-300:0
+	quest 332 #8307-01-325
+	text  "You already have one, and that is all you get."
+end
+
+topic  "I need something for a giant suffering with a headache." q62:0 #q6102-01-425:0
+	quest  63 #6102-01-430
+	text  "You came for it already."
+end
+
+topic  "Do you have Hana's brush?" q394:0 #q80500-01-535:0
+	quest  395 #80500-01-540
+	text  "If you lost that brush, you'll answer to me."
+end
+

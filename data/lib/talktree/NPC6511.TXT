@@ -1,0 +1,18 @@
+id 6511
+
+banner "Welcome.  My name is Blythe, and I'm the owner of Health Helpers.  What can I do for you?"
+
+topic "Tell me about Guennor."
+        text "A healthy location to live.  The life here is good for you.  Fresh air.  Exercise.  Invigorating climate."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Curious.  Many customers are asking that.  Yes, yes I do hear rumors."
+	text "All over the Realm, the Mists are LIFTING!!  To me, this is alarming."
+end      
+
+topic "Can I do anything for you?"
+        text "For me?  No, no.  Thank you very much for asking.  But no."
+end
+
+

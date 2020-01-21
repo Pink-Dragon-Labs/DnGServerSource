@@ -1,0 +1,62 @@
+id 5075
+
+banner "Greetings, Friend. Who do you wish to visit?"
+
+topic "Tell me about West Leinster."
+        text "Oh, it's a nice place. You'll like it. Though I wouldn't recommend going over to the east side."
+	text  "I'd rather be out fighting monsters, myself.  I don't pay much attention to the rest of it."
+	text  "I guess you can just do whatever you like, huh?  Roam around, free as the breeze?  Wish I could, but I've got to work."   
+end
+
+topic "Have you heard any interesting rumors?"
+        text  "I've been hearing about some really fearsome monsters showing up in the woods.  Fighting monsters is fun.  I like fighting the Zombies, myself."
+	text "Now that you mention it, I did hear that the gods have temples all over The Realm. You just have to know where to look."
+end      
+
+topic  "I need help finding shops."
+	banner  "Sure, I can help you with West Leinster.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "Leinster Limited is up four, right four."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is up three, right three.  Good Grub Grocers is up two, right one."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Ethereal Outlet is right two."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "There are two in West Leinster.  The Cutting Edge is up two.  Anson's Armory is up five, right two."
+	end
+
+	topic  "Where can I find a general store?"
+		text "You Name It is up three, right three."
+	end
+
+	topic  "Do you have a chapel?"
+		text "It burned in the smiting.  You'll find chapels in several towns, including Wen and Asgard nearby."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text " Hard Knocks, a warrior's academy, is three up and four right.\n\n If you need a wizard's or a thief's academy then go to East Leinster and ask for directions there.\n\n If you want smithing skills then go to Kurz and ask for directions."
+	end
+
+	topic  "Where can I find a healer?"
+		text "There are two.  Natural Healing is up one, right one.  Bright Touch is up four, right three."
+	end
+
+	topic  "Do you have a flower stand?"
+		text "Yes, Anga's outdoor cart is right three."	
+	end
+
+	topic  "Where can I find a tavern?"
+		text "There are three.  Troll Bragger Inn is right one.  The Banshee's Wail is right four.  Gnarled Leg Tavern is up five, right four."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Just type in the name of the person you're visiting. You can get to any house in Leinster from here, even those on the eastern side of town."
+end

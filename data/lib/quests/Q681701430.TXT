@@ -1,0 +1,19 @@
+quest  212 #6817-01-430        # Lubitsch, Food Cart, Drune, 7308
+
+name  "Fossil Rock for Lubitsch"
+type  fedex
+
+proposal  "Sure thing.  I've got one tucked away.  I was going to give it to my Aunt Lireen.  She likes embroidered things.  She's got a ton of them though, so if you want it, OK by me.  I'd really like to have a fossil rock.  I hear there are lots in the desert, but I've never been there and who knows when I'll save enough to travel.  Would you fetch me a fossil rock in exchange for the scarf?"
+
+declined  "Maybe I'll give it to my aunt after all."
+
+accepted  "Rare!  Hurry off, friend."
+
+reminder   "Find me a fossil rock from the desert."
+
+completed  "Now that is an amazing sight.  This little thing lived millions of years ago.  I'm happy to trade the scarf."
+
+getItem   qFossilRock
+reward   qEmbroideredShawl
+ 
+end

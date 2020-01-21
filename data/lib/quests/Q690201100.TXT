@@ -1,0 +1,19 @@
+quest 241 #6902-01-100  #(Nassoula of Asgard)
+
+name  "Giant Gnat's Ear"
+type  fedex
+
+proposal   "My name is Nassoula.  I am skilled in Mysticism and can guide you from Familiar skills all the way to become a Grand Master of Mysticism.  If you wish to become an apprentice, we will begin at once.  Is it your desire to learn the spells of Mysticism?"
+
+declined  "Very well."
+
+accepted   "Very well.  You will begin studies at the level of Familiar Mystic Spells.  First, however, it will be necessary for you to do a small service for me.  I wish to receive a Giant Gnat's Ear, long extinct. When you return victoriously from this quest I will issue the first book of spells.  It is advisable to begin in Caer Fandry."
+ 
+reminder   "Do not dawdle.  Go to Caer Fandry and seek out a Giant Gnat's Ear."
+
+completed  "This is an adequate result for your first quest.   Take, then, this spell book and learn it.  Return when you are ready to proceed to the next level."
+
+getItem  qGnatsEar
+reward  skbMysticismI
+end
+

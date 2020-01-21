@@ -1,0 +1,19 @@
+quest  380 #80001-01-500      #Spidey, Cave of Thieves, 80001
+
+name  "Popping Corn"
+type  fedex
+
+proposal  "Good-O!  I've been hopin' you would come for your pick pocketing grand-mastery skills.  This is the last level and then you're gonna be one of the best in the Realm.  Feel's nice to be really good at somepin' doesn't it?  More folk would try developin' a speciality if they just knew how it feels, don't you think?  Anyhow, I just heard about the most interesting thing.  One of the elves in Drune has some corn that pops when you heat it up, and you eat the popped stuff.  Isn't that a wild idea?  I want to try it.  Would you go get some?"
+
+declined  "Aren't you curious?"
+
+accepted  "Hurry back.  I'm mighty curious about this stuff"
+
+reminder   "You're to find some popping corn in Drune."
+
+completed  "So this is it, huh.  I'm going to heat it right away.  Meanwhile, here's your last book.  If you study it hard, you'll do OK."
+
+getItem   qPoppingCorn
+reward    skbPickpocketingV 
+end
+

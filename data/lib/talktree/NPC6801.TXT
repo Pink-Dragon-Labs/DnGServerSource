@@ -1,0 +1,70 @@
+id 6801
+
+banner "Come in, come in, dearie.  Anything and Everything, that's our name and our motto.  I'm Kaliri."
+
+topic "Tell me about Arimathor."
+      	text "I've lived here all my life, dearie.  There's not much I don't know, but I mind my own business."
+	text "Folks is folks, that's what I say.  There's good folks here and bad folks here, same as anywhere."
+	text "There's a few that have nothing more to do, seemingly, than mind someone else's business, more's the pity."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "There's some as always has a tale to tell.  Talking of orcs and daemons. Tosh and twaddle, most of it, but it's a good scary tale around a camp fire."
+	text "The young ones would have you believe there's treasure to be found in the desert. That tale is stuff and nonsense to my way of thinking.  But they have fun searching, and what's the harm of that?  It's good exercise for them."
+end      
+
+topic "Can I do anything for you?"
+        text "No, dearie, I'm fine.  Old Kaliri doesn't need a thing."
+end
+
+topic  "Do you have a supply of herb seed?" q287:0 #q8021-01-225:0
+	quest 288 #8021-01-230
+	text  "Well, dearie, I already gave you some."
+end
+
+topic  "Jolie sent me about her scarf." q257:0 #q6902-01-525:0
+	quest 258 #6902-01-530
+	text  "You've got the scarf, dearie.  Take it back to her."
+end
+
+topic  "Would you have a small cactus plant?" q111:0 #q6308-01-425:0
+	quest 112 #6308-01-430
+	text  "Dearie, you got one already."
+end
+
+topic  "Do you have any desert rocks?" q336:0 #q8307-01-425:0
+	quest 337 #8307-01-430
+	text  "Well, dearie, how many do you need?  I gave you one."
+end
+
+topic  "Janria needs a packet of needles." q373:0 #q80001-01-330:0
+	quest 374 #80001-01-335
+	text  "You took them already, dearie."
+end
+
+topic  "I'm looking for a sea snail fossil." q279:0 #q8010-01-530:0
+	quest 280 #8010-01-535
+	text  "Now, dearie, I already gave it to you."
+end
+
+topic  "I'm looking for a desert rock." q263:0 #q6905-01-430:0
+	quest 264 #6905-01-435
+	text  "Now, dearie, I gave you one."
+end
+
+topic  "Sandor wants a Kaliri package." q385:0 #q80500-01-400:0
+	quest  386 #80500-01-425
+	text  "Now, dearie, don't try to fool old Kaliri.  You know we both worked hard on it already."
+end
+
+topic  "I need to find a really pretty desert rock." q46:0 #q6073-01-530:0
+	quest  47 #6073-01-535
+	text  "Do you need another, dearie?  I just gave you one."
+end
+
+topic  "Jenri wants some white thread for his fish hooks." q207:0 #q6807-01-535:0
+	quest  208 #6807-01-540
+	text  "Dearie, can you have forgotten that I gave you some for him?"
+end
+
+

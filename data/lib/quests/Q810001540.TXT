@@ -1,0 +1,16 @@
+quest  406 #8100-01-540       # Jann, Kurz Mercantile, general, Kurz, 8002
+
+name  "Delivery for Jann"
+type  fedex
+
+proposal  "Yeah, it's ready.  You going to deliver it?"
+
+declined  "Look, chum, I'm not in the mood for jokes."
+
+accepted  "Take it."
+
+reminder   "You'd better deliver that order to Good Grub Grocers."
+
+reward   qSupplies
+end
+

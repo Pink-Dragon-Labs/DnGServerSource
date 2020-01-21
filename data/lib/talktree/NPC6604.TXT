@@ -1,0 +1,46 @@
+id 6604
+
+banner "So you've entered the Daemon's Delight. What do you want?"
+
+topic "Tell me about Caer Fandry."
+        text "You want to know about Swampytown, huh. That's what I call it. At the beginning of time, my race lived in the Drear Valley. But we hated humans and the humans were encroaching, so we decided to leave. That’s right, we decided. Some humies’ll tell you we were driven out, but we chose to go, see?"
+        text "When the tribe found these swamplands, we knew we had come home. It was here that Caer Fandry was built, and so it remains until this very day."
+end
+
+topic "Who are you?"
+        text "Who am I? Who are you!"
+        text "Okay, I tell you. I am Gnarl, and I run this tavern. Now stop asking stupid questions!"
+	text "Hasn't anyone told you to beware red-headed dark elves?  Someone should have."
+	text "Dark elves don't like to be annoyed.  Red-headed dark elves REALLY don't like to be annoyed."
+	text "You're beginning to annoy me." 
+end      
+
+topic	"What can you tell me?"
+	text "A limerick, how about that?  Or are you going to say you don't want to hear one of my limericks?  Hmmmm."
+	text "There was an elf maiden of Joppa"
+	text "Who came a society cropper."
+	text "She went off to Ostend"
+	text "With a male elven friend"
+	text "And the rest of the story's improper."
+	text "That's all you're gonna get in my tavern, bud. But if you should meet me after hours, I know a few more.  Heh. Heh."
+end
+
+topic "Can I do something for you?"
+	text "Yes. Get out.  I've decided I'm tired of looking at your face."
+end
+
+topic  "I am looking for an extinct Giant Gnat's Ear." q241:0 #q6902-01-100:0
+	quest 242 #6902-01-125
+	text  "You have the Gnat's Ear."
+end
+
+topic  "I'm looking for the luck piece of an ancient warrior." q90:0 #q6211-01-400:0
+	quest 91 #6211-01-425
+	text  "You took it."
+end
+
+topic  "Do you have a special ale available." q40:0 #q6073-01-425:0
+	quest  41 #6073-01-430
+	text  "I'm not giving you any more.  Get out."
+end
+

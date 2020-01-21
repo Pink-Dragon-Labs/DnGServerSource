@@ -1,0 +1,45 @@
+id 6904
+
+banner "Greetings, Friend. Welcome to Asgard General Goods. May I help you?"
+
+topic "Tell me about Asgard."
+        text "I have lived in Asgard all my life, and believe that this is the finest town in the land."
+	text "I will fight anyone who feels differently, and so will my family and friends."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that there is treasure in the desert just lying around on the ground.  That seems a little unlikely, though."
+	text "Have you ever noticed how information gets garbled by each person who passes it on.  Why is that, I wonder?  Do you suppose people like spinning wild tales?"
+	text "I've heard a story about a huge monster that lives in Loch Dread.  Many claim to have see the Loch Dread Monster.  I'd like a glimpse myself."
+end      
+
+topic "Can I do anything for you?"
+        text "I believe you have honor. If you come back another time, I might have a task for you then."
+end
+
+topic  "I'm looking for Mara's key." q82:0 #q6205-01-425:0
+	quest 83 #6205-01-430
+	text  "Let's not start that again.  You have it, and that's the end of it."
+end
+
+topic  "I've come for Malina's supplies." q197:0 #q6610-01-530:0
+	quest 198 #6610-01-535
+	text  "You took them already.  Are you subject to forgetfulness?"
+end
+
+topic  "I'm looking for some cinnamon oil." q280:0 #q8010-01-535:0
+	quest 281 #8010-01-540
+	text  "Now, now.  You know you took it."
+end
+
+topic  "I'm looking for some fresh fruit." q133:0 #q6401-01-435:0
+	quest 134 #6401-01-440
+	text  "You took it already."
+end
+
+topic  "I need Lari's supplies." q97:0 #q6211-01-530:0
+	quest 98 #6211-01-535
+	text  "Oh, no.  Things aren't going wrong again, I hope.  You took them."
+end
+
+

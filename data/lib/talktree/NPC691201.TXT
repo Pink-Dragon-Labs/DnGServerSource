@@ -1,0 +1,26 @@
+id 691201
+
+banner "Hail noble adventurer. I am Arild, former commander of the army, now retired to what was supposed to be the peaceful life of a shopkeeper."
+
+topic "What does it mean to be a Knight of the Scepter?"
+	text "Knights of the Scepter are those that have dedicated themselves to the King of the Gods, Despothes."
+	text "A Knight of the Scepter listens to the words of the Prophet of Balance and thereby learns the will of the King of the Gods so that they may help ensure that neither goodness or evil dominates the lands."
+	text "You see, neither the Darkness nor the Light can exist without the other. There is a balance between the two that must be maintained. No mortal is ever truly evil, nor truly good, after all."
+	text "A Knight of the Scepter is permitted all things, both good and evil, as long as they are done with honor, dignity, and chivalry and provided the balance is maintained."
+	text "Honor, staying true to the respect of self and others."
+	text "Dignity, that quality whereby one is worthy of the respect and honor of others."
+	text "Chivalry, the free offer of generosity and courtesy, the gracious manner by which one interacts with others. Afterall, what fun is there in attacking the helpless? What honor is there in defeating the weak?"
+end
+
+topic "Tell me about the training grounds."
+        text "What? You haven't used them yet? Surely you know how important it is that everyone trains for that which comes."
+	text "The training grounds are a place where you can practice the skills of combat with your brethren. Just go through the door there and follow the sounds of battle."
+	text "But, of course, not everyone cares to engage in combat with their fellows. Such persons should train by hunting the creatures of the wild."
+end
+
+topic "Arild? What does your name mean?"
+        text "He he he. Aren't you the curious one?"
+        text "Arild means 'battle commander', it is a name I was honored to have bestowed upon me by my brethren back in the day when the army was strong and active."
+        text "Perhaps one day we can sit down and I'll regale you with tales of the days of glory and valor before the Mists grew near."
+end 
+

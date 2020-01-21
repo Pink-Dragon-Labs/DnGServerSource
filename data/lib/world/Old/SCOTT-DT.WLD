@@ -1,0 +1,1686 @@
+room 6801
+   properties
+      picture	4000
+      roomName	"Anything and Everything Interior"
+   end
+   atpinfo
+      2013  40 1
+      2025  143 1 8
+      2026  232 5
+      2026  338 3
+      2026  461 3
+      2026  585 3
+      2109  280 164
+      2103  533 213
+      2241  621 323
+      2241  582 333
+      2241  583 312
+      2241  629 204
+      2112  234 231
+      2244  143 167
+      2112  331 231
+      2241  115 160
+      2116  507 87
+      2160  291 231 18
+      2112  279 60
+      2124  281 182 21
+      2163  534 61
+      2163  493 76
+      2163  117 72
+      2163  575 76
+      2107  59 299
+      2136  10 315
+      2145  19 301 50
+      2122  282 167 66
+      2159  278 167 36
+      2128  279 65 24
+      7903  285 178
+      32784  -11 338
+   end
+   objects
+      object chair6801-1 of Chair
+         properties
+            x	532
+            y	176
+            loop	2
+         end
+      end
+      object Tallie6801-2 of GeneralShop
+         properties
+            x	533
+            y	196
+            loop	2
+            name	"Tallie"
+         end
+         base talk
+            talkTreeID	6801
+         end
+         base character
+            sex	1
+            properName	"Kaliri (NPC)"
+         end
+         base container
+            worn	OrangeShirt
+            worn	OrangeLongSkirt
+            worn	OrangeBelt
+            worn	OrangeBoots
+            head	1 2 2 7 0 7 0 0 2 1 13 4 
+         end
+      end
+      object plankDoor6801-3 of PlankDoor
+         properties
+            x	38
+            y	168
+            loop	0
+            link	plankDoor5801-0
+         end
+      end
+   end
+end
+room 6803
+   properties
+      picture	4000
+      roomName	"Fantastic Togs Interior"
+   end
+   atpinfo
+      2118  261 385
+      2117  125 91
+      2103  512 327
+      2101  99 216
+      2101  186 273
+      2020  170 25
+      2028  243 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  38 217 47
+      34904  702 378
+      2118  514 328 63
+      2118  404 208 3
+      34886  402 207 33
+      2553  70 141
+      2163  369 124
+      2163  438 123
+      2554  564 161
+      2109  401 206
+      2047  54 169
+      2048  511 189
+   end
+   objects
+      object Bethany6803-2 of ExoticClothesShop
+         properties
+            x	152
+            y	264
+            loop	0
+            name	"Mahn"
+         end
+         base talk
+            talkTreeID	6803
+         end
+         base character
+            sex	1
+            properName	"Janria(NPC)"
+         end
+         base container
+            worn	WhiteShirt
+            worn	WhitePants
+            worn	BlueBelt
+            worn	BlackBoots
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	1 2 0 1 1 3 0 2 6 16 11 0 
+         end
+      end
+      object plankDoor6803-3 of PlankDoor
+         properties
+            x	280
+            y	201
+            loop	2
+            link	door5803-0
+         end
+      end
+   end
+end
+room 6804
+   properties
+      picture	4000
+      roomName	"Fantastic Meals Interior"
+   end
+   atpinfo
+      2122  316 287 4
+      34890  333 177 32
+      34891  323 177
+      2141  46 289 47
+      34908  579 247 40
+      2102  524 246
+      2109  328 176
+      2111  593 117
+      2109  315 286
+      2001  574 15
+      2002  607 33
+      2013  38 40
+      2013  199 15
+      2014  111 42
+      2025  301 9
+      2025  471 9
+      2026  414 19
+      2086  171 148
+      2128  330 177 65
+      2241  139 193
+      2241  579 186
+      34910  644 118 10
+      2161  119 109
+      2161  150 103
+      2162  604 75
+      2086  32 169
+      2123  324 287 30
+      2101  112 288
+      2592  45 143
+      2592  184 122
+   end
+   objects
+      object Mary6804-1 of GeneralShop
+         properties
+            x	554
+            y	241
+            loop	1
+            name	"Astrid"
+         end
+         base talk
+            talkTreeID	6804
+         end
+         base character
+            sex	1
+            properName	"Sanria (NPC)"
+         end
+         base container
+            worn	GoldShirt
+            worn	WhiteLongSkirt
+            worn	PurpleLowBoots
+            worn	AquaBelt
+            head	1 2 0 1 1 3 0 2 6 16 11 0 
+         end
+      end
+      object plankDoor6804-2 of PlankDoor
+         properties
+            x	475
+            y	172
+            loop	2
+            link	door5804-0
+         end
+      end
+   end
+end
+room 6806
+   properties
+      picture	4000
+      roomName	"Desert Spells"
+   end
+   atpinfo
+      2107  83 169
+      2108  225 161
+      2001  594 35
+      2013  497 36
+      2001  400 27 -10
+      2013  126 9
+      2002  313 37
+      2001  222 10
+      2014  33 35
+      2147  -34 409
+      34915  625 402
+      2148  37 170 -14
+      34917  278 162 11
+      2149  -38 357
+      2153  -32 326
+      2164  140 78
+      2164  19 98
+      2165  421 110
+      2108  350 181
+      34917  401 182 -15
+      2101  466 224
+      34916  275 162 -13
+      2153  178 270 40
+      2599  179 269
+      2556  54 133 16
+      2557  257 122 12
+      2042  331 142
+      2041  42 132
+      2042  205 121
+      2557  384 143 12
+   end
+   objects
+      object chair6806-1 of Chair
+         properties
+            x	145
+            y	250
+            loop	0
+         end
+      end
+      object stool6806-2 of Stool
+         properties
+            x	177
+            y	190
+            loop	2
+         end
+      end
+      object chair6806-3 of Chair
+         properties
+            x	221
+            y	255
+            loop	1
+         end
+      end
+      object wizardAcademy6806-4 of WizardAcademy
+         properties
+            name	"Hoodani"
+            x	435
+            y	207
+            loop	2
+         end
+         base talk
+            talkTreeID	6806
+         end
+         base character
+            sex	0
+            properName	"Hoodani (NPC)"
+            title	"The Academy Trainer"
+         end
+         base container
+            worn	BlackRobe
+            worn	RedBoots
+            head	0 1 0 14 5 1 5 3 4 8 8 2 
+         end
+      end
+      object plankDoor6806-5 of PlankDoor
+         properties
+            x	592
+            y	199
+            loop	1
+            link	door5806-0
+         end
+      end
+   end
+end
+room 6807
+   properties
+      picture	4000
+      roomName	"Arimathor Armory Interior"
+   end
+   atpinfo
+      2025  183 2
+      2025  389 16
+      34989  49 172
+      2013  81 8
+      2026  477 25
+      2166  474 77
+      2109  429 183
+      2119  433 184 63
+      2120  428 183
+      2109  141 291
+      2109  279 291
+      2119  142 292 5
+      34888  283 292 60
+      2121  140 292 34
+      2121  289 292 4
+      2108  599 182
+      2001  287 7
+      2001  591 41 20
+      34907  652 183 -15
+      34905  650 183 13
+      2106  181 185
+      2043  148 115
+      2042  564 135
+      2555  183 116 16
+      2554  617 137 12
+   end
+   objects
+      object door6807-0 of Door
+         properties
+            x	284
+            y	170
+            loop	1
+            link	plankDoor5807-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6807-1 of FirePlace
+         properties
+            x	2
+            y	188
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop6807-2 of ExoticArmaments
+         properties
+            x	182
+            y	166
+            loop	2
+            name	"Melkoro"
+         end
+         base talk
+            talkTreeID	6807
+         end
+         base character
+            sex	0
+            properName	"Georgi (NPC)"
+         end
+         base container
+            worn	RedTunic
+            worn	GrayPants
+            worn	GrayBelt
+            worn	BlackLowBoots
+            head	0 1 1 4 3 4 2 8 7 11 7 0 
+         end
+      end
+   end
+end
+room 6808
+   properties
+      picture	4000
+      roomName	"The Chapel Interior"
+   end
+   atpinfo
+      2004  567 5 55
+      2026  294 4
+      2026  420 4
+      2026  172 3
+      2025  509 2 7
+      2025  148 2 8
+      2016  94 4 55
+      2043  161 55
+      2043  289 55
+      2043  424 58
+      2042  573 126
+      2082  195 126
+      2082  324 124
+      2082  457 128
+      2597  303 131 10
+      2597  436 136 10
+      2597  174 134 10
+      2558  458 63 20
+      2558  323 64 20
+      2558  195 59 20
+      2557  625 136 20
+      2163  274 62
+      2163  376 61
+      2163  525 80
+      2163  407 94
+      2163  241 94
+      2163  131 74
+      2103  325 295
+   end
+   objects
+      object simpleDoor6808-0 of SimpleDoor
+         properties
+            x	45
+            y	164
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6808-1 of Chair
+         properties
+            x	182
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-2 of Chair
+         properties
+            x	127
+            y	163
+            loop	2
+         end
+      end
+      object chair6808-3 of Chair
+         properties
+            x	149
+            y	212
+            loop	0
+         end
+      end
+      object chair6808-4 of Chair
+         properties
+            x	237
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-5 of Chair
+         properties
+            x	292
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-6 of Chair
+         properties
+            x	346
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-7 of Chair
+         properties
+            x	524
+            y	165
+            loop	2
+         end
+      end
+      object chair6808-8 of Chair
+         properties
+            x	399
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-9 of Chair
+         properties
+            x	448
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-10 of Chair
+         properties
+            x	495
+            y	205
+            loop	2
+         end
+      end
+      object chair6808-11 of Chair
+         properties
+            x	568
+            y	227
+            loop	1
+         end
+      end
+      object chair6808-12 of Chair
+         properties
+            x	612
+            y	246
+            loop	1
+         end
+      end
+      object chair6808-13 of Chair
+         properties
+            x	528
+            y	212
+            loop	1
+         end
+      end
+      object chair6808-14 of Chair
+         properties
+            x	63
+            y	247
+            loop	0
+         end
+      end
+      object chair6808-15 of Chair
+         properties
+            x	106
+            y	228
+            loop	0
+         end
+      end
+   end
+end
+room 6811
+   properties
+      picture	4000
+      roomName	"Desert Rose Interior"
+   end
+   atpinfo
+      2118  261 385
+      2164  93 113
+      2103  468 343
+      2101  208 223
+      2101  56 238
+      2020  170 28
+      2028  243 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  1 239 45
+      34904  702 378
+      2118  469 344 63
+      2136  150 224 45
+      34886  330 206 2
+      2165  609 117
+      34886  331 205 64
+      2118  330 206 33
+      2112  324 84
+      2109  328 205
+      2546  233 143 17
+      2546  424 144 17
+      2043  197 142
+      2043  389 143
+   end
+   objects
+      object door6811-0 of Door
+         properties
+            x	533
+            y	209
+            loop	1
+            link	plankDoor5811-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Christi6811-1 of ExoticClothesShop
+         properties
+            x	152
+            y	209
+            name	"Christi"
+            loop	0
+         end
+         base talk
+            talkTreeID	6811
+         end
+         base character
+            sex	1
+            properName	"Alysa (NPC)"
+         end
+         base container
+            worn	GreenShirt
+            worn	GreenLongSkirt
+            worn	BlackBelt
+            worn	Goldband
+            worn	GreenBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 2 0 6 0 1 0 13 7 3 11 0 
+         end
+      end
+   end
+end
+room 6813
+   properties
+      picture	4000
+      roomName	"Sand and Roses Interior"
+   end
+   atpinfo
+      2164  18 156 50
+      2028  442 11
+      2028  180 9
+      2127  287 128 150
+      2029  237 51
+      2005  540 115 100
+      2103  203 244
+      2112  205 254 170
+      2128  206 284 220
+      2017  76 56 40
+      2166  318 296 200
+      2221  -9 54 -99
+      2241  322 209
+      2042  497 173
+      2117  376 116 30
+      2241  108 239
+      2598  475 296
+      2018  11 114 50
+      2029  361 51
+      2006  616 121 50
+      2041  52 180
+   end
+   objects
+      object chair6813-0 of Chair
+         properties
+            x	375
+            y	289
+            loop	0
+         end
+      end
+      object chair6813-1 of Chair
+         properties
+            x	403
+            y	266
+            loop	0
+         end
+      end
+      object chair6813-2 of Chair
+         properties
+            x	567
+            y	286
+            loop	1
+         end
+      end
+      object chair6813-3 of Chair
+         properties
+            x	543
+            y	268
+            loop	1
+         end
+      end
+      object chair6813-4 of Chair
+         properties
+            x	493
+            y	264
+            loop	2
+         end
+      end
+      object chair6813-5 of Chair
+         properties
+            x	448
+            y	264
+            loop	2
+         end
+      end
+      object plankDoor6813-6 of PlankDoor
+         properties
+            x	594
+            y	219
+            loop	1
+            link	door5813-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object foodShop6813-9 of FoodShop
+         properties
+            x	204
+            y	228
+            loop	2
+            name	"Julius"
+         end
+         base talk
+            talkTreeID	6813
+         end
+         base character
+            sex	0
+            properName	"Ali-aqaba (NPC)"
+            title	"the owner"
+         end
+         base shop
+            buyMarkup	50
+            sellMarkup	100
+         end
+         base container
+            worn	BrownShirt
+            worn	BrownPants
+            worn	BlackBelt
+            worn	BlackBoots
+            object	AleJug
+            object	WineFlask
+            head	0 2 4 5 0 5 11 0 4 4 0 0 
+         end
+      end
+   end
+end
+room 6812
+   properties
+      picture	4000
+      roomName	"Desert Wind Interior"
+   end
+   atpinfo
+      2029  458 21
+      2028  135 1 25
+      2028  449 -26
+      2165  504 116 50
+      2164  69 112 30
+      2166  162 86
+      2005  545 -21
+      2028  348 3 25
+      2109  381 171
+      2127  383 172 34
+      2128  383 172 65
+      2221  579 166
+      34895  384 172 4
+      2117  25 74
+      2241  455 180
+      2029  236 20
+      2598  300 213
+      2598  187 317
+      2598  460 302
+      2017  30 27 50
+      2041  -7 121
+      2241  481 186
+   end
+   objects
+      object chair6812-0 of Chair
+         properties
+            x	222
+            y	187
+            loop	0
+         end
+      end
+      object chair6812-1 of Chair
+         properties
+            x	257
+            y	180
+            loop	2
+         end
+      end
+      object chair6812-2 of Chair
+         properties
+            x	376
+            y	280
+            loop	0
+         end
+      end
+      object chair6812-3 of Chair
+         properties
+            x	405
+            y	270
+            loop	2
+         end
+      end
+      object chair6812-4 of Chair
+         properties
+            x	370
+            y	185
+            loop	1
+         end
+      end
+      object chair6812-5 of Chair
+         properties
+            x	343
+            y	180
+            loop	2
+         end
+      end
+      object chair6812-6 of Chair
+         properties
+            x	534
+            y	280
+            loop	1
+         end
+      end
+      object chair6812-7 of Chair
+         properties
+            x	499
+            y	269
+            loop	2
+         end
+      end
+      object chair6812-8 of Chair
+         properties
+            x	285
+            y	180
+            loop	2
+         end
+      end
+      object chair6812-9 of Chair
+         properties
+            x	315
+            y	180
+            loop	2
+         end
+      end
+      object chair6812-10 of Chair
+         properties
+            x	464
+            y	269
+            loop	2
+         end
+      end
+      object chair6812-11 of Chair
+         properties
+            x	433
+            y	270
+            loop	2
+         end
+      end
+      object chair6812-12 of Chair
+         properties
+            x	108
+            y	291
+            loop	0
+         end
+      end
+      object chair6812-13 of Chair
+         properties
+            x	134
+            y	282
+            loop	2
+         end
+      end
+      object chair6812-14 of Chair
+         properties
+            x	259
+            y	293
+            loop	1
+         end
+      end
+      object chair6812-15 of Chair
+         properties
+            x	164
+            y	282
+            loop	2
+         end
+      end
+      object chair6812-16 of Chair
+         properties
+            x	193
+            y	282
+            loop	2
+         end
+      end
+      object chair6812-17 of Chair
+         properties
+            x	224
+            y	282
+            loop	2
+         end
+      end
+      object firePlace6812-18 of FirePlace
+         properties
+            x	623
+            y	183
+            loop	0
+         end
+      end
+      object bartender6812-20 of Bartender
+         properties
+            x	487
+            y	172
+            loop	2
+            name	"Thomas"
+         end
+         base talk
+            talkTreeID	6812
+         end
+         base character
+            sex	0
+            properName	"Jaqqar (NPC)"
+         end
+         base container
+            worn	OrangeRobe
+            worn	BrownBoots
+            worn	BrownBelt
+            object	AleJug
+            object	WineFlask
+            object	Ambrosia
+            head	0 3 4 2 2 7 5 0 4 0 1 1 
+         end
+      end
+      object plankDoor6812-21 of PlankDoor
+         properties
+            x	41
+            y	177
+            loop	0
+            link	door5812-0
+         end
+      end
+   end
+end
+room 6815
+   properties
+      picture	4000
+      roomName	"Desert Breeze Elixirs Interior"
+   end
+   atpinfo
+      2107  103 184
+      2013  350 20
+      2001  521 40 30
+      2013  158 19
+      2001  254 20
+      2014  69 47
+      2164  155 96
+      2164  35 117
+      2014  -2 59
+      2101  343 460
+      2142  218 406
+      34910  351 408
+      2143  56 185 -13
+      2102  365 280
+      2143  364 168 15
+      2221  593 188 15
+      2142  55 185 16
+      2014  426 21
+      2107  413 167
+      2041  65 117 -20
+      2041  320 109 -20
+      2042  477 95 -20
+      2556  77 122
+      2556  331 114
+      2557  530 104
+   end
+   objects
+      object simpleDoor6815-0 of SimpleDoor
+         properties
+            x	250
+            y	185
+            loop	1
+            link	simpleDoor5815-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6815-1 of FirePlace
+         properties
+            x	639
+            y	189
+            loop	0
+         end
+      end
+      object temple6815-2 of Temple
+         properties
+            x	377
+            y	274
+            loop	1
+            name	"Weston"
+         end
+         base talk
+            talkTreeID	6815
+         end
+         base character
+            sex	1
+            properName	"Meta (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	WhiteShirt
+            worn	BrownCowl
+            worn	BrownBelt
+            worn	WhiteLowBoots
+            worn	WhiteLongSkirt
+            worn	Goldband
+            object	HealElixir
+            head	1 2 0 6 0 1 0 8 7 3 11 0 
+         end
+      end
+   end
+end
+room 6817
+   properties
+      picture	4000
+      roomName	"Ali's Weaponry Interior"
+   end
+   atpinfo
+      2025  183 2
+      2025  389 16
+      34989  49 172
+      2013  81 8
+      2026  477 25
+      2166  181 66
+      2106  181 185
+      34905  650 183 13
+      34907  652 183 -15
+      2109  141 291
+      2109  279 291
+      2119  142 292 5
+      34888  283 292 60
+      2121  140 292 34
+      2121  289 292 4
+      2108  599 182
+      2001  287 7
+      2001  591 41 20
+      2048  250 151
+      2049  454 151
+      2558  494 124
+      2557  304 123
+      2165  598 85
+   end
+   objects
+      object door6817-0 of Door
+         properties
+            x	401
+            y	178
+            loop	2
+            link	door5817-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6817-1 of FirePlace
+         properties
+            x	2
+            y	188
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop6817-2 of ExoticArmaments
+         properties
+            x	182
+            y	166
+            loop	2
+            name	"Melkoro"
+         end
+         base talk
+            talkTreeID	6817
+         end
+         base character
+            sex	0
+            properName	"Aligar (NPC)"
+         end
+         base container
+            worn	MagentaTunic
+            worn	GrayChainCowl
+            worn	GrayPants
+            worn	BlackBelt
+            worn	MagentaLowBoots
+            head	0 1 3 2 6 0 10 1 2 1 0 1 
+         end
+      end
+   end
+end
+room 6814
+   properties
+      picture	4000
+      roomName	"True Blue Potions Interior"
+   end
+   atpinfo
+      2118  261 385
+      2103  318 328
+      2020  170 27
+      2028  243 7
+      2029  338 49
+      2028  421 8
+      2008  484 40
+      34904  702 378
+      2111  540 96
+      2112  329 116
+      2163  225 49
+      2163  434 49
+      2104  32 229
+      2125  323 329 65
+      2153  533 207 45
+      34898  249 199
+      2102  537 206
+      2124  332 117 20
+      2142  -37 230 50
+      34914  564 97 17
+      2162  617 126
+      2161  28 121
+      2129  353 204
+      2085  231 141
+      2085  423 139
+      2597  210 139
+      2597  402 137
+   end
+   objects
+      object simpleDoor6814-0 of SimpleDoor
+         properties
+            x	136
+            y	206
+            loop	0
+            link	simpleDoor5814-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object magicShop6814-1 of MagicShop
+         properties
+            x	316
+            y	301
+            loop	2
+         end
+         base talk
+            talkTreeID	6814
+         end
+         base character
+            sex	0
+            properName	"Jenri (NPC)"
+         end
+         base container
+            worn	GoldCowl
+            worn	BlueShirt
+            worn	BlueLongSkirt
+            worn	GoldBelt
+            worn	GoldBoots
+            head	0 0 4 5 4 5 12 2 4 1 8 4 
+         end
+      end
+   end
+end
+room 6800
+   properties
+      picture	4000
+      east	6802 
+      roomName	"The Scimitar Interior"
+   end
+   atpinfo
+      2127  287 128 150
+      2105  479 192
+      3  489 194
+      2103  570 205
+      2112  169 156 170
+      2365  86 94
+      2598  175 275
+      2338  -31 17 -150
+      2164  97 139 60
+      2164  20 149 60
+      3  476 193
+      2365  22 102
+      2365  105 91
+      2365  45 99
+      2365  68 96
+      2365  12 103
+      32782  -7 191
+      2338  22 18 -150
+      2109  569 85
+      2109  569 147
+      2123  578 154 40
+      2126  570 152 70
+      2122  569 92 40
+      2359  360 101 -10
+      2594  338 103
+      2359  181 99 -10
+      2594  160 101
+      2340  180 3 -150
+      2340  289 3 -150
+      2340  398 3 -150
+      2340  495 3 -150
+      2340  591 3 -150
+      2340  71 4 -150
+      3  332 157
+      7900  617 195
+      2166  443 85
+      14  481 201
+   end
+   objects
+      object foodShop6800-15 of DuachTavern
+         properties
+            x	511
+            y	215
+            loop	1
+            name	"Sandra"
+         end
+         base talk
+            talkTreeID	6800
+         end
+         base character
+            sex	0
+            properName	"Aldonzo (NPC)"
+         end
+         base shop
+            buyMarkup	50
+            sellMarkup	100
+         end
+         base container
+            worn	BlackShirt
+            worn	MagentaPants
+            worn	WhiteBelt
+            worn	Wristband
+            worn	BrownBoots
+            object	LeatherPouch
+            object	Lockpick
+            head	0 2 1 0 0 1 9 9 3 3 7 0 
+         end
+      end
+      object chair6800-1 of Chair
+         properties
+            x	74
+            y	263
+            loop	0
+         end
+      end
+      object chair6800-3 of Chair
+         properties
+            x	271
+            y	261
+            loop	1
+         end
+      end
+      object chair6800-4 of Chair
+         properties
+            x	174
+            y	240
+            loop	2
+         end
+      end
+      object chair6800-5 of Chair
+         properties
+            x	130
+            y	240
+            loop	2
+         end
+      end
+      object firePlace6800-13 of FirePlace
+         properties
+            x	11
+            y	173
+            loop	1
+         end
+      end
+      object crest6800-14 of Crest
+         properties
+            x	59
+            y	123
+            loop	0
+         end
+         base described
+            text	"Lord of Darkness,\n Fill my heart with thy black glee,\nThe battle is upon us,\nMy steel grows hungry,\nMy he"
+"
+"
+"
+"
+            art	death."
+         end
+      end
+      object simpleDoor6800-12 of SimpleDoor
+         properties
+            x	270
+            y	157
+            loop	2
+         end
+         base entry
+            room	5800
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair6800-13 of Chair
+         properties
+            x	215
+            y	240
+            loop	2
+         end
+      end
+      object shop6800-14 of Shop
+         properties
+            x	581
+            y	194
+            loop	2
+         end
+      end
+      object homeLamp6800-15 of HomeLamp
+         properties
+            x	27
+            y	53
+            loop	0
+         end
+      end
+      object homeLamp6800-16 of HomeLamp
+         properties
+            x	8
+            y	59
+            loop	0
+         end
+      end
+      object homeLamp6800-17 of HomeLamp
+         properties
+            x	85
+            y	49
+            loop	0
+         end
+      end
+      object homeLamp6800-18 of HomeLamp
+         properties
+            x	430
+            y	46
+            loop	0
+         end
+      end
+      object homeLamp6800-19 of HomeLamp
+         properties
+            x	18
+            y	51
+            loop	0
+         end
+      end
+      object homeLamp6800-20 of HomeLamp
+         properties
+            x	451
+            y	45
+            loop	0
+         end
+      end
+      object homeLamp6800-21 of HomeLamp
+         properties
+            x	95
+            y	41
+            loop	0
+         end
+      end
+      object homeLamp6800-22 of HomeLamp
+         properties
+            x	441
+            y	44
+            loop	0
+         end
+      end
+      object homeLamp6800-23 of HomeLamp
+         properties
+            x	104
+            y	44
+            loop	0
+         end
+      end
+   end
+end
+room 6802
+   properties
+      picture	4000
+      west	6800 
+      roomName	"The Scimitar Shop"
+   end
+   atpinfo
+      3  137 176
+      2340  182 9 -150
+      2127  287 128 150
+      2105  123 173
+      2109  211 100
+      2164  84 189 100
+      3  483 175
+      2338  -42 175 -10
+      2165  538 189 100
+      34898  190 107 40
+      2112  169 156 170
+      2106  316 180 -6
+      2261  39 205 80
+      34888  425 109 10
+      3  9 183
+      2166  317 89
+      2338  39 22 -150
+      2109  420 100
+      2340  280 9 -150
+      2340  376 9 -150
+      2340  473 9 -150
+      2125  231 105 10
+      35106  668 33 -150
+      2119  433 107 40
+      35106  591 22 -150
+      2104  512 173
+      3  557 168
+      3  286 178
+      3  340 179
+      2103  213 174 -12
+      2103  407 174 -10
+      2260  40 179
+      32782  -15 220
+      7900  277 174
+      7901  479 174
+   end
+   objects
+      object exoticWeaponArmorShop6802-0 of ExoticArmaments
+         properties
+            x	418
+            y	173
+            loop	2
+            name	"Melkoro"
+         end
+         base talk
+            talkTreeID	6807
+         end
+         base character
+            sex	0
+            properName	"Arcian (NPC)"
+         end
+         base container
+            worn	BlackRobe
+            worn	BlackCowl
+            worn	DarkKnightBaldric
+            worn	NightSoulHelmet
+            head	0 1 1 4 3 4 2 8 7 11 7 0 
+         end
+      end
+      object skull6802-1 of Skull
+         properties
+            x	9
+            y	192
+            loop	0
+         end
+      end
+      object skull6802-2 of Skull
+         properties
+            x	555
+            y	177
+            loop	1
+         end
+      end
+      object doorway6802-5 of Doorway
+         properties
+            x	599
+            y	178
+            loop	1
+            link	doorway6805-17
+         end
+         base described
+            text	"Enter into the Dark hall and learn of all that is darkness."
+         end
+      end
+      object homeLamp6802-6 of HomeLamp
+         properties
+            x	526
+            y	52
+            loop	0
+         end
+         base described
+            text	"A flame dances on the end of a candle."
+         end
+      end
+      object homeLamp6802-7 of HomeLamp
+         properties
+            x	92
+            y	52
+            loop	0
+         end
+         base described
+            text	"A flame dances on the end of a candle."
+         end
+      end
+      object homeLamp6802-8 of HomeLamp
+         properties
+            x	72
+            y	57
+            loop	0
+         end
+         base described
+            text	"A flame dances on the end of a candle."
+         end
+      end
+      object homeLamp6802-9 of HomeLamp
+         properties
+            x	82
+            y	48
+            loop	0
+         end
+         base described
+            text	"A flame dances on the end of a candle."
+         end
+      end
+      object homeLamp6802-10 of HomeLamp
+         properties
+            x	537
+            y	51
+            loop	0
+         end
+         base described
+            text	"A flame dances on the end of a candle."
+         end
+      end
+      object homeLamp6802-11 of HomeLamp
+         properties
+            x	547
+            y	57
+            loop	0
+         end
+         base described
+            text	"A flame dances on the end of a candle."
+         end
+      end
+      object magicShop6802-12 of MagicShop
+         properties
+            x	220
+            y	173
+            loop	2
+         end
+      end
+      object homeLamp6802-13 of HomeLamp
+         properties
+            x	304
+            y	51
+            loop	0
+         end
+      end
+      object homeLamp6802-14 of HomeLamp
+         properties
+            x	325
+            y	51
+            loop	0
+         end
+      end
+      object homeLamp6802-15 of HomeLamp
+         properties
+            x	315
+            y	47
+            loop	0
+         end
+      end
+   end
+end
+room 6805
+   properties
+      picture	4000
+      east	6816 
+      roomName	"The Dark Hall"
+   end
+   atpinfo
+      2310  179 253 -50
+      2330  34 326 220
+      2310  467 253 -50
+      2312  182 252 -60
+      2312  468 252 -60
+      2312  179 317 200
+      2312  469 317 200
+      2330  322 326 220
+      2330  609 327 220
+      2103  326 303
+      2338  -11 167
+      35106  641 162
+      2340  114 150
+      2340  195 149
+      2340  298 149
+      2340  395 149
+      2340  491 149
+      2310  362 157
+      2310  273 158
+      3  189 305
+      3  168 305
+      3  189 282
+      3  168 282
+      7900  496 166
+      3  457 306
+      3  477 306
+      3  457 282
+      3  477 282
+      7900  135 167
+      14  701 198
+      32782  -69 198
+      3  85 158
+      3  546 157
+   end
+   objects
+      object torch6805-0 of Torch
+         properties
+            x	29
+            y	193
+            loop	0
+         end
+      end
+      object torch6805-1 of Torch
+         properties
+            x	609
+            y	198
+            loop	0
+         end
+      end
+      object chair6805-2 of Chair
+         properties
+            x	415
+            y	214
+            loop	2
+         end
+      end
+      object chair6805-3 of Chair
+         properties
+            x	262
+            y	217
+            loop	2
+         end
+      end
+      object chair6805-4 of Chair
+         properties
+            x	226
+            y	217
+            loop	2
+         end
+      end
+      object chair6805-5 of Chair
+         properties
+            x	376
+            y	214
+            loop	2
+         end
+      end
+      object chair6805-6 of Chair
+         properties
+            x	522
+            y	236
+            loop	1
+         end
+      end
+      object chair6805-7 of Chair
+         properties
+            x	562
+            y	250
+            loop	1
+         end
+      end
+      object chair6805-8 of Chair
+         properties
+            x	597
+            y	263
+            loop	1
+         end
+      end
+      object chair6805-9 of Chair
+         properties
+            x	107
+            y	236
+            loop	0
+         end
+      end
+      object chair6805-10 of Chair
+         properties
+            x	71
+            y	250
+            loop	0
+         end
+      end
+      object chair6805-11 of Chair
+         properties
+            x	32
+            y	263
+            loop	0
+         end
+      end
+      object doorway6805-12 of Doorway
+         properties
+            x	318
+            y	151
+            loop	2
+         end
+         base described
+            text	"This door will lead you to the world above ground.  Spread word of the darkness and make them ready."
+         end
+      end
+   end
+end
+room 6816
+   properties
+      picture	3000
+      west	6805 
+   end
+   atpinfo
+      156  472 136
+      93  334 103
+      163  336 140
+      157  232 143
+      168  123 138
+      32936  544 132
+   end
+end

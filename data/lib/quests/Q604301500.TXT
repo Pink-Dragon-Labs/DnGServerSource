@@ -1,0 +1,19 @@
+quest 22 # 6043-01-500        # Melkoro, To The Hilt, weapons, East Leinster, 6043
+
+name  "Ancient Bone Dagger"
+type  fedex
+
+proposal  "Remember this, a dull dagger is a double danger.  It's a danger to you.  For one thing, a dull dagger is no kind of protection, and for the second, a dull dagger can give you careless habits in handling daggers, habits that will get you sliced if you handle a sharp dagger the same way.  So you've got four words to remember:  keep your daggers sharp.  Now, let's discuss dagger grand-mastery.  I've got a skill book coming for you.  You'll need to go fetch for me an ancient bone dagger that's been found.  Will you do this?" 
+
+declined  "At least remember the four important words."
+
+accepted  "Good.  I heard it was found near Monmouth."
+
+reminder   "Go to Monmouth and ask about an ancient bone dagger."
+
+completed  "A nicely done tool, very nice.  Here's the last skill book you need.  Study diligently."
+
+getItem   qBoneDagger
+reward    skbDaggerV
+end
+

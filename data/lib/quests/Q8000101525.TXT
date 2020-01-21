@@ -1,0 +1,19 @@
+quest  381 #80001-01-525        # Ygior, Sundries World, Drune, general, 8310
+
+name  "Ointment for Ygior's Knee"
+type  fedex
+
+proposal  "News certainly travels fast.  It wasn't that long ago that I discovered it.  Did you hear the story?  I was in a great hurry, which usually brings me to no good, I must admit.  I tripped myself up, dropped all my packages, and they went every which way.  I was busy moaning over my banged-up knee, which still hurts, when suddenly I hear a lot of popping.  Well, now, I nearly jumped out of my elf-skin, I assure you.  When I looked around white puffs were flying everywhere to the sound of popping.  Yipes, is what I thought to myself.  I limped over to the fire to see what was popping and it was the corn!  Well, I forgot all about my knee, at least for while.  I picked one up and decided to taste it, which I've been scolded for as a questionable practice since it could have poisoned me, but taste it I did, and I'm glad.   And now you're here for some of my popping corn.  Would you be a good chappie and go to our healer for some ointment for my knee?  I'll give you the corn if you'll only do this for me.  Will you?"  
+
+declined  "My poor knee will never be the same."
+
+accepted  "Enid will bless you for your kind actions, friend."
+
+reminder   "My poor knee.  You were going to fetch some ointment from the healer for me."
+
+completed  "You're a kind person, you are.  Take the popping corn.  Tell people about it, too."
+
+getItem   qKneeOintment
+reward   qPoppingCorn 
+end
+

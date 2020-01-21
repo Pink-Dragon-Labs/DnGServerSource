@@ -1,0 +1,16 @@
+quest  330 #8307-01-230        # Talu, Cloth and More, Monmouth, 6302
+
+name  "Courier Duty"
+type  fedex
+
+proposal  "Bless me, so you have.  They've been ready many a day, and I'm glad to see you've arrived.  I did have word from her she was looking for a way to collect them.  Such a pretty pair of boots.  I've no doubt she will be mighty pleased to see them.  You will take them back to her, won't you?"
+
+declined  "She'll just have to wait."
+
+accepted  "Good, good.  I've got them all ready."
+
+reminder   "Hadn't you better take those boots back to Minka?"
+
+reward qBlytheBoots 
+end
+

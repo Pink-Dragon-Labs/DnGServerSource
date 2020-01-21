@@ -1,0 +1,21 @@
+id 9053
+#---------------	9053	1606	wwood11	female	giant	Adelyte
+#---------------	Personality: Major Traits (Excessive, Sincere, Happy) Minor Traits (Proper, Stupid)
+#---------------		Excessive - daffy, obsessive
+#---------------		Sincere - loyal, wholehearted
+#---------------		Happy - fanciful, lighthearted
+#---------------			Proper - well-mannered, ethical 
+#---------------			Stupid - confounded, thickheaded
+banner "Come in! Come in! Buy something from me!"
+
+topic "Who are you?"
+    text "I am Adelyte, keeper of this fine shop out in the wilderness."
+    text "I heard about others setting up shops outside of town, I couldn't pass the chance up!"
+    text "I have always wanted a shop out in the middle of nowhere. I was wandering around and found this spot. A pretty good location don't ya think?"
+    text "Somehow I thought there would be more business."
+end
+
+topic "Don't you worry about all the beasts roaming around your tent?"
+    text "Not really. I only had a problem once with a devil walking in here for some ale. After I got done chasing him with my club, the word spread that I'm not one to be messed with."
+     text "Since then I have not had any problems. Buy something from me, will you?"
+end

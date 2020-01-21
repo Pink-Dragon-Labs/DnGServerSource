@@ -1,0 +1,19 @@
+id 6806
+
+banner "Welcome to Desert Spells. I'm Hoodani the Magician.  How may I help you?"
+
+topic "Tell me about Arimathor."
+        text "I wish I knew more, myself.  The old tales say that Arimathor has not always been surrounded by desert.  Once the countryside was green farmland, so the tale goes, but a wandering powerful wizard turned the area into a desert.  And then a holy man came through and caused underground springs to surface and flow without ceasing to provide water for our needs.  It is certainly true that our springs never run dry."
+	text "No one is able to explain the wizard's motive, though.  I'm not altogether convinced that any one wizard has the power to turn farmland into desert."
+	text  "Hearing the tales out of Leinster, has shaken my certainty that such things cannot happen.  Perhaps the old wizard was a wandering god with his own purpose."
+	text "Life becomes more puzzling as one grows older, does it not?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "No.  We deal in literature here."
+        text "I hope you are here to browse our selection.  We had a very fine stock."
+end      
+
+topic "Can I do anything for you?"
+        text "Thank you, friend, but not today."
+end

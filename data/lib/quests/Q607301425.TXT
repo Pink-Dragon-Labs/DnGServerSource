@@ -1,0 +1,20 @@
+quest  40 #6073-01-425       # Kombal, Filthy Beggar tavern, Kurz, 8020
+
+name  "Special Ale for Kombal"
+type  fedex
+
+proposal  "I've some fragments.  Don't bother to ask where I got 'em.  The point is, what's it worth to you?  You can have one if you'll fetch me some special ale from Caer Fandry.  One o' the dark elves has an under the counter business. What about it?"
+
+declined  "Dang!"
+
+accepted  "I've been too nerv---, er, that is to say, too busy to go myself."
+
+reminder   "You're fetching me some special ale from Caer Fandry."
+
+completed  "Take your fragment and get out of Kurz.  My advice is to stay out."
+
+getItem   qSpecialAle
+reward   qToolFragment 
+end
+
+

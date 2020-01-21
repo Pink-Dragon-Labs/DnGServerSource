@@ -1,0 +1,19 @@
+quest  292 #8021-01-330        #Troels, Valhalla Inn, Asgard, 6911
+
+name  "Loch Dread Driftwood"
+type  fedex
+
+proposal  "I have a little carved castle.  Why on earth do you want that?  It's not worth much.  Whoa, now.  If you want it, then it is worth something.  Let's just find out.  If I said I would trade it for a piece of driftwood from Loch Dread, would you do it?"  
+
+declined  "I didn't think so."
+
+accepted  "You would, huh.  OK by me.  I like to carve things, and I want a small bit of driftwood.  There's a shop in Leinster as keeps a supply.  Pick out a nice shape for me."
+
+reminder   "Loch Dread driftwood is the price for the carved castle."
+
+completed  "Nice piece of wood.  Good potential there.  Here's the carved castle.  Sure wish I knew why you want it."
+
+getItem   qDriftwood
+reward   qCarvedCastle 
+end
+

@@ -1,0 +1,811 @@
+#------------------------------------------------------------
+object MazeCreature of NPC
+# Base NPC for Maze characters
+	properties
+		name "Maze Creature"
+		view 100
+		special
+
+		clutStart 104
+		color 84
+
+		alignment 127
+
+		minLevel 800
+		maxLevel 1400
+
+		minDamage 100
+		maxDamage 800
+
+		intelligence 30
+		strength 80
+		endurance 25
+		dexterity 25
+		quickness 25
+
+		soundGroup 16
+
+		damageType 1
+		armorType 3
+		treasure 4
+
+#		girth 125
+#		height 125
+
+		# see invisible
+		affect 17 0 0 -1
+		# free will
+		affect 86 0 0 -1
+		# retention
+		affect 65 0 0 -1
+	end
+
+	base character
+		# grandmaster weapons
+		skill 0 5
+		skill 1 5
+		skill 2 5
+		skill 3 5
+		skill 4 5
+		skill 5 5
+		skill 6 5
+		skill 7 5
+		skill 8 5
+		skill 10 5
+
+		# grandmaster acrobatics
+		skill 9 5
+
+		# grandmaster sorcery
+		skill 11 5
+
+		# grandmaster elementalism
+		skill 12 5
+
+		# grandmaster mysticism
+		skill 13 5
+
+		# grandmaster thaumaturgy
+		skill 14 5
+
+		# grandmaster necromancy
+		skill 15 5
+	end
+
+	base described
+		text "Maze Creature"
+	end
+end
+
+#------------------------------------------------------------
+#------------------------------------------------------------
+object mwMazeNullsword of mwNullsword
+# Designed for use by Maze Master's and Harlequins
+	properties
+		name "Sword of the Maze"
+		color 89 #63
+		special
+		# do normal damage
+		affect 0 0 0 -1
+		# do experience damage
+		affect 8 0 0 -1
+		# do fire damage
+		affect 1 0 0 -1
+		# Free Will
+		affect 86 0 0 -1
+		# Retention
+		affect 65 0 0 -1
+	end
+
+
+	base carryable
+		weight 590.0
+	end
+
+	base weapon
+		minDamage 800
+		maxDamage 5000
+	end
+	base described
+		text "You see Maze Master's sword."
+		idText "A mighty weapon for the Master of the Maze."
+		shopText "This weapon does not belong in the mortal world."
+	end
+end
+#------------------------------------------------------------
+# --------------Definition for Skincolor Belts and Haircolor rings
+
+object bGreenskin of Belt
+	properties
+		special
+		name "Belt of Green Skin"
+		value 5500
+		health 150
+		color -1
+	end
+
+	actions
+		#  Green Skin
+		vBePutOn setAffect dobj 94 0 0 -1
+		vBeTakenOff clearAffect dobj 94 0 0
+	end
+
+	base described
+		idText "Belt for green skin."
+	end
+end
+
+object bYellowskin of Belt
+	properties
+		special
+		name "Belt of Yellow Skin"
+		value 5500
+		health 150
+		color -1
+	end
+
+	actions
+		#  Yellow Skin
+		vBePutOn setAffect dobj 95 0 0 -1
+		vBeTakenOff clearAffect dobj 95 0 0
+	end
+
+	base described
+		idText "Belt for yellow skin."
+	end
+end
+
+object bGreyskin of Belt
+	properties
+		special
+		name "Belt of Grey Skin"
+		value 5500
+		health 150
+		color -1
+	end
+
+	actions
+		#  Grey Skin
+		vBePutOn setAffect dobj 96 0 0 -1
+		vBeTakenOff clearAffect dobj 96 0 0
+	end
+
+	base described
+		idText "Belt for grey skin."
+	end
+end
+
+object rWhitehair of Ring
+	properties
+		special
+		name "Ring of White Hair"
+		value 5500
+		health 150
+		color -1
+	end
+
+	actions
+		#  White Hair
+		vBePutOn setAffect dobj 97 0 0 -1
+		vBeTakenOff clearAffect dobj 97 0 0
+	end
+
+	base described
+		idText "Ring for white hair."
+	end
+end
+
+object rBlackhair of Ring
+	properties
+		special
+		name "Ring of Black Hair"
+		value 5500
+		health 150
+		color -1
+	end
+
+	actions
+		#  Black Hair
+		vBePutOn setAffect dobj 98 0 0 -1
+		vBeTakenOff clearAffect dobj 98 0 0
+	end
+
+	base described
+		idText "Ring for black hair."
+	end
+end
+
+# ----------------------End of Greenskin belt ----------------
+
+
+object HarlequinEvil of MazeCreature
+	properties
+		name "Harlequin"
+		view 100
+		alignment 0
+		strength 200
+		special
+	end
+
+	base npc
+		code tulor
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 0 3 0 0 0 0 12 13 9 11 0 7 2 
+		#head 0 3 5 6 7 8 12 10 8 11 11 5 2 
+		worn RandomLeatherPants
+		worn RandomShirt
+		worn RandomLeatherBoots
+		worn RandomIdiotHat
+		worn RandomPack
+		worn mwMazeNullsword 
+		worn aCombat
+		object RandomMegaMoney
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+		object RandomRareHelmet 
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		#vBeBorn changeGoodMDMMod self 300
+	end
+
+	base described
+		text "Harlequin\n One of the Elite Guards of the Maze who hope to entrap those that enter for all time.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object HarlequinNeutral of MazeCreature
+	properties
+		name "Harlequin"
+		view 100
+		alignment 128
+		strength 200
+		special
+	end
+
+	base npc
+		code tulor
+	end
+
+	base container
+		head 0 3 0 0 0 0 12 13 9 11 0 7 2 
+		worn RandomLeatherPants
+		worn RandomShirt
+		worn RandomLeatherBoots
+		worn RandomIdiotHat
+		worn RandomPack
+		worn mwMazeNullsword 
+		worn aCombat
+		object RandomMegaMoney
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+		object RandomRareHelmet 
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		#vBeBorn changeEvilMDMMod self 300
+	end
+
+	base described
+		text "Harlequin\n One of the Elite Guards of the Maze who hope to entrap those that enter for all time.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object HarlequinGood of MazeCreature
+	properties
+		name "Harlequin"
+		view 100
+		alignment 255
+		strength 200
+		special
+	end
+
+	base npc
+		code tulor
+	end
+
+	base container
+		head 0 3 0 0 0 0 12 13 9 11 0 7 2 
+		worn RandomLeatherPants
+		worn RandomShirt
+		worn RandomLeatherBoots
+		worn RandomIdiotHat
+		worn RandomPack
+		worn mwMazeNullsword 
+		worn aCombat
+		object RandomMegaMoney
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+		object RandomRareHelmet 
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		#vBeBorn changeEvilMDMMod self 300
+	end
+
+	base described
+		text "Harlequin\n One of the Elite Guards of the Maze who hope to entrap those that enter for all time.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object GremlinEvil of MazeCreature
+	properties
+		name "Gremlin"
+		view 100
+		alignment 0
+		special
+
+		minLevel 300
+		maxLevel 700
+
+		girth 45		# was 110
+		height 45		# was 110
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 0 1 2 2 0 1 -1 14 7 5 6 2 3 
+		worn SlicingBlade
+		worn RandomLeatherPants
+		worn RandomLeatherShirt
+		worn RandomChainCowl
+		worn RandomLeatherBoots
+		worn Bandanna
+		worn BlackPack
+		worn bGreenskin
+		worn rWhitehair
+		object  RandomMegaTreasure
+	end
+
+	base npc
+		code tulor
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		#vBeBorn changeGoodMDMMod self 300
+	end
+
+	base described
+		text "Gremlin\nLittle Brigand of the Maze.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object GremlinNeutral of MazeCreature
+	properties
+		name "Gremlin"
+		view 100
+		alignment 128
+		special
+
+		minLevel 300
+		maxLevel 700
+
+		girth 45		# was 110
+		height 45		# was 110
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base container
+		head 0 1 2 2 0 1 -1 14 7 5 6 2 3 
+		worn SlicingBlade
+		worn RandomLeatherPants
+		worn RandomLeatherShirt
+		worn RandomChainCowl
+		worn RandomLeatherBoots
+		worn Bandanna
+		worn BlackPack
+		worn bGreenskin 
+		worn rWhitehair
+		object  RandomMegaTreasure
+	end
+
+	base npc
+		code tulor
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		#vBeBorn changeGoodMDMMod self 300
+	end
+
+	base described
+		text "Gremlin\nLittle Brigand of the Maze.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object GremlinGood of MazeCreature
+	properties
+		name "Gremlin"
+		view 100
+		alignment 255
+		special
+
+		minLevel 300
+		maxLevel 700
+
+		girth 45		# was 110
+		height 45		# was 110
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base container
+		head 0 1 2 2 0 1 -1 14 7 5 6 2 3 
+		worn SlicingBlade
+		worn RandomLeatherPants
+		worn RandomLeatherShirt
+		worn RandomChainCowl
+		worn RandomLeatherBoots
+		worn Bandanna
+		worn BlackPack
+		worn bGreenskin 
+		worn rWhitehair
+		object  RandomMegaTreasure
+	end
+
+	base npc
+		code tulor
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		#vBeBorn changeGoodMDMMod self 300
+	end
+
+	base described
+		text "Gremlin\nLittle Brigand of the Maze.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+#Text: Synonyms SCAMP, devil, enfant terrible, limb, mischief, rascal, rogue, scalawag, skeezicks, villain
+
+object RapscallionEvil of MazeCreature
+	properties
+		name "Rapscallion"
+		view 100
+		alignment 0
+		special
+
+		girth 100
+		height 70
+
+		intelligence 100
+		strength 200
+		endurance 20
+		dexterity 20
+		quickness 50
+
+		minLevel 500
+		maxLevel 700
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base container
+		head 0 1 0 2 0 6 0 11 0 0 1 1 3
+		worn mwSpecialNullsword 
+		worn RandomLeatherPants
+		worn RandomLeatherBoots
+		worn bGreenskin         # for green skin
+		worn rWhitehair			# for white hair
+		worn RandomPack
+		worn aCombat
+		object RandomMonsterMegaTreasure
+		object RandomMegaMoney
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+	end
+
+	base npc
+		code tulor
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#vBeBorn changeEvilMDMMod self 300
+	end
+
+	base described
+		text "Rapscallion\nTorturer of the Maze.\n\n"
+	end
+
+end
+
+#------------------------------------------------------------
+object RapscallionNeutral of MazeCreature
+	properties
+		name "Rapscallion"
+		view 100
+		alignment 128
+		special
+
+		girth 100
+		height 70
+
+		intelligence 100
+		strength 200
+		endurance 20
+		dexterity 20
+		quickness 50
+
+		minLevel 500
+		maxLevel 700
+
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base container
+		head 0 1 0 2 0 6 0 11 0 0 1 1 3
+		worn mwSpecialNullsword 
+		worn RandomLeatherPants
+		worn RandomLeatherBoots
+		worn bGreenskin         # for green skin
+		worn rWhitehair			# for white hair
+		worn RandomPack
+		worn aCombat
+		object RandomMonsterMegaTreasure
+		object RandomMegaMoney
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+	end
+
+	base npc
+		code tulor
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#vBeBorn changeEvilMDMMod self 300
+	end
+
+	base described
+		text "Rapscallion\nTorturer of the Maze.\n\n"
+	end
+
+end
+
+#------------------------------------------------------------
+object RapscallionGood of MazeCreature
+	properties
+		name "Rapscallion"
+		view 100
+		alignment 255
+		special
+
+		girth 100
+		height 70
+
+		intelligence 100
+		strength 200
+		endurance 20
+		dexterity 20
+		quickness 50
+
+		minLevel 500
+		maxLevel 700
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base container
+		head 0 1 0 2 0 6 0 11 0 0 1 1 3
+		worn mwSpecialNullsword 
+		worn RandomLeatherPants
+		worn RandomLeatherBoots
+		worn bGreenskin         # for green skin
+		worn rWhitehair			# for white hair
+		worn RandomPack
+		worn aCombat
+		object RandomMonsterMegaTreasure
+		object RandomMegaMoney
+		object RandomMazeTreasure
+		object RandomMazeTreasure
+	end
+
+	base npc
+		code tulor
+	end
+
+	actions
+		vBeBorn changeSDM self 100 0 1 2 3 4
+		vBeBorn changeSpellResistance self 50 2 4
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		#vBeBorn changeEvilMDMMod self 300
+	end
+
+	base described
+		text "Rapscallion\nTorturer of the Maze.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object MazeMaster of MazeCreature
+	properties
+		name "Master of the Maze"
+		view 100
+		alignment 0
+		minLevel 1600
+		maxLevel 1600
+
+		minDamage 1000
+		maxDamage 5000
+
+		girth 130
+		height 120
+
+		intelligence 300
+		strength 300
+		endurance 50
+		dexterity 20
+		quickness 50
+
+		# Invul Shield
+		affect 42 0 0 -1
+
+		# Greater Shield
+		affect 43 0 0 -1
+
+		# Regeneration
+		affect 44 0 0 -1
+
+		# Magic Immunity
+		affect 49 0 0 -1
+
+		# damage +fire
+		affect 1 0 0 -1
+
+		# damage +experience
+		affect 8 0 0 -1
+
+		# fire immolation
+		affect 23 0 0 -1
+
+		# weak to cold damange
+		affect 2 3 0 -1
+
+		# immune to poison
+		affect 5 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		special
+	end
+
+	base container
+		#HeadNo. = 1-Sex, 2-SkinColor, 3-HeadNo, 4-BrowNo, 5-EyeClr, 6-EyeNo,  
+		#          7-FaceHairNo, 8-HairNo, 9-HairClr, 10-Nose, 11-Mouth, 12-Ear, 13-Race,   
+		head 0 3 0 0 0 0 12 13 9 11 0 7 2 
+		#head 0 3 5 6 7 8 12 10 8 11 11 5 2 
+		worn RandomLeatherPants
+		worn RandomLeatherBoots
+		worn RandomShirt
+		worn RandomCowl
+		worn NightmareHelmet
+		worn RandomPack
+		worn MazeMasterBaldric2
+		worn bGreenskin         # for green skin and white hair
+		worn rWhitehair
+		worn mwMazeNullsword
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomMonsterMegaTreasure
+		object RandomRareHelmet 
+		object MazeMasterBaldric2    # new special award for killing the Maze Master
+#                                            temporarily suspended to raise rarity
+	end
+
+	actions
+		vBeBorn changeSDM self 500 2 3		#increase Myst and Thau power
+		vBeBorn changeSpellResistance self 100 2	#100% Resist Myst
+		vBeBorn changeSpellResistance self 75 1 4	#75% Resist Elem, Necro
+#		vBeBorn changeEvilMDMMod self 300			#+300% melee vs Evil
+#		vBeBorn changeGoodMDMMod self 300			#+300% melee vs Good
+	end
+
+	base npc
+		code tulor
+	end
+
+	base described
+		text "Master of the Maze\n He reigns supreme in this Labyrinth of horror.  Beware, a single blow from his mighty weapon can spell death.\n\n"
+	end
+end

@@ -1,0 +1,10 @@
+object Dng10Meat of Meat
+	properties
+		special
+		name "Fatty's Leg"
+	end
+
+	base described
+		text "You see the remains of the giant rat Fatty."
+	end
+end

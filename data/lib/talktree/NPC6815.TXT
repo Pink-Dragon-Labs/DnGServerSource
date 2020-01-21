@@ -1,0 +1,58 @@
+id 6815
+
+banner "Welcome to Desert Breeze Exilirs.  My name is Meta.  What may I do for you this fine day?"
+
+topic "Tell me about Arimathor."
+      	text "My father brought the family here before I was born for my mother's health.  She got better at once from the desert climate.  I named my shop 'Desert Breeze Exilirs' as a salute to the desert. My daughter named her shop 'Desert Rose.'"
+	text "I take care of Arimathor's health.  I've been interested in healing all my life.  From the cradle I heard Mum talk about the value of good health."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors?  Well, now, my daughter Alysa told me she heard that the Gods fought in the town of Leinster and destroyed it.  I don't like to think that's true."
+	text "Most people come in here concerned about their health.  They're not interested in idle talk, usually."
+end      
+
+topic "Can I do anything for you?"
+        text "If you hear of any interesting cure in your travels I'd be glad to receive word of it."
+end
+
+topic  "I'm interested in learning spellcrafting."
+	banner  "I'm always pleased to see people taking such an interest.  If the healing arts appeal to you, I can be of help." 
+
+	topic  "I am interested in Healing Familiar skills."  s23:0  
+		quest 220 #6815-01-100
+		text  "You have the skill book.  Now you must study it."
+	end
+
+	topic  "I am interested in Healing Proficient skills."  s23:1  
+		quest 222 #6815-01-200
+		text  "You must study the skill book you already have."
+	end
+
+	topic  "I am interested in Healing Expert skills."  s23:2  
+		quest 226 #6815-01-300
+		text  "To become expert you must study the skill book you already possess."
+	end
+ 
+	topic  "I am interested in Healing Master skills."  s23:3  
+		quest 230 #6815-01-400
+		text  "You have the skill book.  You'll gain master skills by studying it."
+	end
+
+	topic  "I am interested in Healing Grand-Master skills."  s23:4  
+		quest 235 #6815-01-500
+		text  "You have the skill book.  Grand-mastery comes when you master the skills in the book."
+	end
+
+	topic  "Can you teach me more about healing?"  s23:5
+		text  "I have taken you all the way to grand-mastery.  However, if you are also interested in the ability to use magical artifacts, let me refer you to Wonduri of Silverbrook."
+		text  "I urge you to complete your healing studies before taking on additional study."
+	end
+end
+
+topic  "Ratt needs help for his back." q361:0 #q80000-01-525:0
+	quest 362 #80000-01-530
+	text  "You told me that already.  You didn't lose the remedy I hope."
+end
+
+

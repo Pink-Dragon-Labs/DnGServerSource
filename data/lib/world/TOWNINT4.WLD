@@ -1,0 +1,299 @@
+room 6049
+   properties
+      picture	4000
+      roomName  "Where Clothes?"
+   end
+   atpinfo
+      2118  261 385
+      2117  69 85
+      2103  512 327
+      2101  99 216
+      2101  186 273
+      2020  170 25
+      2028  243 6
+      2029  346 49
+      2028  421 8
+      2008  484 40
+      2136  38 217 47
+      34904  702 378
+      2118  514 328 63
+      2080  53 124 -20
+      2592  54 137
+      2593  594 151
+      2081  630 137 -20
+      2082  240 118 -20
+      2082  421 118 -20
+      2594  219 135
+      2594  400 135
+      2241  225 208
+      2241  431 207
+      2163  277 122
+      2163  383 121
+      2109  328 206
+      2118  329 207 3
+      34886  330 207 33
+   end
+   objects
+      object simpleDoor6049-0 of SimpleDoor
+         properties
+            x	522
+            y	207
+            loop	1
+            linkTo	simpleDoor5049-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Bethany6049-2 of ExoticClothesShop
+         properties
+            x	152
+            y	264
+            loop	0
+            name	"Bethany"
+         end
+         base character
+            sex	1
+            properName	"Bethany (NPC)"
+         end
+         base container
+            worn	PinkChainTunic
+            worn	PinkPants
+            worn	PinkCowl
+            worn	BlackBelt
+            worn	BlackBoots
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	1 2 8 10 10 7 5 8 8 1 2 2 
+         end
+      end
+   end
+end
+room 6045
+   properties
+      picture	4000
+      roomName	"Cutting Edge Interior"
+   end
+   atpinfo
+      2013  280 23
+      2025  383 17
+      2221  571 175
+      2013  91 24
+      2014  15 49
+      2026  477 27
+      2119  316 316 32
+      34888  429 192 58
+      34887  308 316 2
+      2139  4 198 47
+      2117  271 63
+      2164  111 94
+      2164  16 108
+      2041  31 128 -20
+      2043  391 105 -20
+      2544  43 132
+      2546  428 109
+      2106  401 191
+      2106  458 191
+      2109  311 315
+      2101  72 197
+      2001  187 23
+      2105  288 193
+   end
+   objects
+      object door6045-0 of Door
+         properties
+            x	183
+            y	187
+            loop	1
+            linkTo	door5045-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6045-1 of FirePlace
+         properties
+            x	616
+            y	192
+            loop	0
+         end
+      end
+      object exoticWeaponArmorShop6045-2 of ExoticArmaments
+         properties
+            x	322
+            y	186
+            loop	1
+            name "Randa"
+         end
+         base talk
+                talkTreeID 6045
+         end
+         base character
+            sex 1
+            properName "Randa (NPC)"
+         end
+         base container
+            worn GoldBelt
+            worn BlueChainTunic
+            worn BluePants
+            worn GoldBoots
+            head 1 3 2 4 1 3 14 7 8 5 2 3
+         end
+      end
+   end
+end
+room 6073
+   properties
+      picture	4000
+      roomName	"The Forge Interior"
+   end
+   atpinfo
+      2013  280 23
+      2025  381 15
+      2221  580 171
+      2013  89 23
+      2014  15 97 50
+      2026  494 24
+      2109  427 179
+      34887  427 180 2
+      34888  431 180 58
+      2119  434 180 31
+      2164  116 89
+      2164  13 305 200
+      2109  533 280
+      2109  52 269
+      2120  310 236 58
+      34887  530 281 2
+      2119  65 270 2
+      2121  540 281 34
+      2121  59 270 34
+      2103  304 235
+      2041  256 142
+      2166  373 68
+      2166  490 67
+      2001  185 23
+      2041  33 152
+   end
+   objects
+      object door6073-0 of Door
+         properties
+            x	181
+            y	187
+            loop	1
+            linkTo	door5073-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6073-1 of FirePlace
+         properties
+            x	625
+            y	188
+            loop	0
+         end
+      end
+      object Randa6073-2 of RareWeaponArmorShop
+         properties
+            x	304
+            y	219
+            loop	0
+            name "Titania"
+         end
+         base talk
+                talkTreeID 6073
+         end
+         base character
+            sex 1
+            properName "Titania (NPC)"
+         end
+         base container
+            worn BlueShirt
+            worn WhiteShortSkirt
+            worn GreenBelt
+            worn GreenBoots
+            head 1 2 8 7 7 11 0 12 8 15 12 4
+         end
+      end
+   end
+end
+room 6084
+   properties
+      picture	4000
+      roomName	"Slice And Dice Interior"
+   end
+   atpinfo
+      2025  179 7
+      2013  77 13
+      2025  383 22
+      34989  58 172
+      2026  486 32
+      2119  296 286 3
+      34888  293 287 58
+      34907  654 185 12
+      2043  354 91 -40
+      2043  446 89 -40
+      2546  390 116
+      2546  481 114
+      2112  430 148
+      2166  434 87
+      2108  599 184
+      2107  71 268
+      2137  149 371
+      2137  154 406
+      2545  299 141 20
+      2109  289 286
+      34889  288 287 34
+      34905  651 184 -16
+      2137  19 269 13
+      2139  18 269 -13
+      2138  431 149 16
+      2001  283 13
+      2001  596 48 20
+      2042  247 132
+   end
+   objects
+      object door6084-0 of Door
+         properties
+            x	179
+            y	170
+            loop	2
+            linkTo      door5084-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace6084-1 of FirePlace
+         properties
+            x	12
+            y	188
+            loop	1
+         end
+      end
+      object Randa6084-2 of ExoticArmaments
+         properties
+            x   286
+            y   260
+            loop        2
+            name "That other Randa"
+         end
+         base character
+            sex 1
+            properName "That other Randa (NPC)"
+         end
+         base container
+            worn PinkChainTunic
+            worn PinkPants
+            worn PinkCowl
+            worn BlackBelt
+            worn BlackBoots
+            object Goldband
+            object LongSword
+            object RoundShield
+            head 1 2 8 10 10 7 5 8 8 1 2 2
+         end
+      end
+   end
+end

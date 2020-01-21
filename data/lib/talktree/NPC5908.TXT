@@ -1,0 +1,67 @@
+id 5908
+
+banner "Hello, Adventurer. Whose home do you wish to visit?"
+
+topic "Tell me about Asgard."
+        text "Asgard is a town in which bravery and strength are greatly admired. Most Asgarders honor the god Finvarra for this reason."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that there is a place in The Realm called Tourney Grove, where fighters train with no danger of being killed."
+	text "Certainly I would have no need of going there, but perhaps you would like directions. It is northeast of Leinster."
+end      
+
+topic  "I need help finding shops."
+	banner  "Certainly.  Which shop are you seeking?"
+
+	topic  "Where can I find a clothing store?"
+		text "The Fashion Statement is left one."
+	end
+
+	topic  "Where can I find a food store?"
+		text "The Food Cart is left one, down one.  Finvarra's Foods is up one, left three."
+	end
+
+	topic  "Where can I find a magic shop?"
+		text "Magic and More is up one, left two."
+	end
+
+	topic  "Where can I find a weapons shop?"
+		text "Northland Weaponry is left three."
+	end
+
+	topic  "Where can I find a general store?"
+		text "Asgard General Goods is up one."
+	end
+
+	topic  "Do you have a chapel?"
+		text "Yes, there is a fine one here.  Go up one, left one."
+	end
+
+	topic  "Where can I find a skills academy?"
+		text "The Institute of Warfare, a warrior's academy, is one down and two left."
+	end
+
+	topic  "Where can I find a healer?"
+		text "Feel Your Best is left two."
+	end
+
+	topic  "Where can I find a tavern?"
+		text " There are two in town.\n The Pig and Kettle is up one, left four.\n The famous Valhalla Inn is down one."
+	end
+end
+
+topic "How do I get to someone's house?"
+        text "Simply type the name of the person you wish to visit. I'll do the rest."
+end
+
+topic  "I'm seeking Pulverized Wasp's Belly" q306:0 #q8111-01-100:0
+	quest 307 #8111-01-125
+	text  "You already have some, friend."
+end
+
+topic  "Have you heard of pulverized wasp belly?" q121:0 #q6311-01-430:0
+	quest 122 #6311-01-435
+	text  "I gave it to you already, friend."
+end
+

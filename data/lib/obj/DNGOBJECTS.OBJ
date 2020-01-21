@@ -1,0 +1,421 @@
+#
+# This file contains several decorative dungeon objects.
+#
+
+#
+# This section of the file contains a bunch of pretty, green crystals.
+#
+
+object GreenCrystalA
+	properties
+		name "Green Crystal"
+		view 2800
+		action 0
+	end
+end
+
+object GreenCrystalB
+	properties
+		name "Green Crystal"
+		view 2801
+		action 0
+	end
+end
+
+object GreenCrystalC
+	properties
+		name "Green Crystal"
+		view 2802
+		action 0
+	end
+end
+
+object GreenCrystalD
+	properties
+		name "Green Crystal"
+		view 2803
+		action 0
+	end
+end
+
+object GreenCrystalE
+	properties
+		name "Green Crystal"
+		view 2804
+		action 0
+	end
+end
+
+object GreenCrystalF
+	properties
+		name "Green Crystal"
+		view 2805
+		action 0
+	end
+end
+
+object GreenCrystalG
+	properties
+		name "Green Crystal"
+		view 2806
+		action 0
+	end
+end
+
+#
+# This section of the file contains neat-o cellular floor tiles.
+#
+
+object CellFloorA
+	properties
+		name "Floor Tile"
+		view 2880
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorB
+	properties
+		name "Floor Tile"
+		view 2881
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorC
+	properties
+		name "Floor Tile"
+		view 2882
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorD
+	properties
+		name "Floor Tile"
+		view 2883
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorE
+	properties
+		name "Floor Tile"
+		view 2884
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorF
+	properties
+		name "Floor Tile"
+		view 2980
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorG
+	properties
+		name "Floor Tile"
+		view 2981
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorH
+	properties
+		name "Floor Tile"
+		view 2982
+		action 0
+		makePolygon 0
+	end
+end
+
+object CellFloorI
+	properties
+		name "Floor Tile"
+		view 2983
+		action 0
+		makePolygon 0
+	end
+end
+
+#
+# This section of the file contains nifty green water.
+#
+
+object GreenWaterA
+	properties
+		name "Green Water"
+		view 2892
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object GreenWaterB
+	properties
+		name "Green Water"
+		view 2893
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object GreenWaterC
+	properties
+		name "Green Water"
+		view 2894
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object GreenWaterD
+	properties
+		name "Green Water"
+		view 2899
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+#
+# This section contains lava.
+#
+
+object LavaA 
+	properties
+		name "Lava"
+		view 2992
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object LavaB 
+	properties
+		name "Lava"
+		view 2993
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object LavaC 
+	properties
+		name "Lava"
+		view 2994
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object LavaD 
+	properties
+		name "Lava"
+		view 2999
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object LavaE 
+	properties
+		name "Lava"
+		view 2835
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object LavaF 
+	properties
+		name "Lava"
+		view 2836
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+object LavaG 
+	properties
+		name "Lava"
+		view 2838
+		action 0
+		noscale
+	end
+
+	base cycler
+	end
+end
+
+#
+# This section contains some mushrooms.
+#
+
+object YellowShroomA
+	properties
+		name "Yellow Mushroom"
+		view 2813
+		action 0
+	end
+end
+
+object YellowShroomB
+	properties
+		name "Yellow Mushroom"
+		view 2814
+		action 0
+	end
+end
+
+object YellowShroomC
+	properties
+		name "Yellow Mushroom"
+		view 2815
+		action 0
+	end
+end
+
+object YellowShroomD
+	properties
+		name "Yellow Mushroom"
+		view 2816
+		action 0
+	end
+end
+
+#
+# This section contains new statue objects.
+#
+
+object EnidStatue
+	properties
+		name "Statue of Enid"
+		view 3289
+		action 0
+	end
+end
+
+object DuachStatue
+	properties
+		name "Statue of Duach"
+		view 3269
+		action 0
+	end
+end
+
+#
+# This section contains new door objects.
+#
+
+object EnidBackArch of Doorway
+	properties
+		view 2833
+		action 0
+	end
+end
+
+object EnidBackDoor of DungeonBackDoor
+	properties
+		view 62450
+	end
+end
+
+#
+# This section contains some test rings.
+#
+
+object rDuachMark of Ring
+	properties
+		special
+	end
+end
+
+object rEnidMark of Ring
+	properties
+		special
+	end
+end
+
+object rEnidCurse of Ring
+	properties
+		special
+	end
+end
+
+object rDuachCurse of Ring
+	properties
+		special
+	end
+end
+
+object DespothesStatue
+	properties
+		name "Statue of Despothes"
+		view 3259
+		action 0
+	end
+end
+
+object ElphameStatue
+	properties
+		name "Statue of Elphame"
+		view 3279
+		action 0
+	end
+end
+
+object FinvarraStatue
+	properties
+		name "Statue of Finvarra"
+		view 3299
+		action 0
+	end
+end
+
+object MabonStatue
+	properties
+		name "Statue of Mabon"
+		view 3309
+		action 0
+	end
+end

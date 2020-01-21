@@ -1,0 +1,18 @@
+name "winterwood"
+title "Winter Wold"
+worldFile "../data/lib/world/WINTER1.WLD"
+worldFile "../data/lib/world/WINTER2.WLD"
+worldFile "../data/lib/world/WINTER3.WLD"
+worldFile "../data/lib/world/WINTER4.WLD"
+worldFile "../data/lib/world/WINTER5.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 9
+# Winter Wold		Area 09		Player Level 250-400	Alignment: Mixed	Monsters/Room: 3.02
+groupChance 100
+monster DarkFaery 22
+monster Kilrog 220
+monster KingCobra 220
+monster PaladinB 220
+monster WardenHA09 100

@@ -1,0 +1,19 @@
+quest  387 #80500-01-430        # Fiona, The Ladyslipper, Wen, 6104
+
+name  "Misha's Good Bread"
+type  fedex
+
+proposal  "For Sandor?  He's a good fellow, he is.  I've known him since he was knee-high to a grasshopper, and he's always liked my special cheese.  I'm glad Kaliri thought of me.  I'll send her some of the best, and I've got another idea.  We'll add some of Misha's good bread.  She's got a variety that keeps well.  Just run over and ask her for some, will you?"  
+
+declined  "Now, that's no way to behave."
+
+accepted  "Be sure and tell her what Kaliri's doing."
+
+reminder   "Hurry over to Misha and ask for some of her good bread."
+
+completed  "Look at all this!  Won't Kaliri be pleased?  Sandor's going to have a treat.  I'll add my special cheese to the basket."
+
+getItem   qMishaBread
+reward   qFionaCheese 
+end
+

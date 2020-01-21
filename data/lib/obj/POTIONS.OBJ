@@ -1,0 +1,749 @@
+#
+# magical potions
+#
+
+object Potion of Drink
+	properties
+		name "Potion"
+		basicName "potion"
+		view 51550
+		clutStart 68
+		level 0
+		color -1
+		health 200
+		skill alchemy
+
+		# immune to lightning
+		affect 3 2 0 -1
+
+		# immune to acid
+		affect 4 2 0 -1
+
+		# immune to rust
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "You see some type of potion."
+		idText "You see a bottle of water.  It will quench your thirst."
+		shopText "It's a bottle of water I think."
+	end
+
+	base carryable
+		weight 0.8
+	end
+end
+
+object pWater of Potion
+	properties
+		name "Potion of Purified Water"
+		value 5
+		color 98
+		wholesale
+	end
+
+	base described
+		idText "You see a bottle of purified water."
+		shopText "Yes, a bottle of purified water.  Coming right up."
+	end
+end
+
+object pSwampWater of Potion
+	properties
+		name "Bottle of Swamp Water"
+		wholesale
+		value 5
+		color 79
+	end
+
+	actions
+		vBeConsumed damage dobj 5 5 25
+	end
+
+	base described
+		idText "You see a bottle of swamp water."
+		shopText "Dunno what you want this for, but here ya go."
+	end
+end
+
+object pClumsiness of Potion
+	properties
+		name "Potion of Clumsiness"
+		value 50
+		level 3
+		strength 1
+	end
+
+	actions
+		vBeConsumed castSpell 76 dobj
+	end
+
+	components
+		Tobac
+		Pigweed
+	end
+
+	base described
+		idText "You see a potion of clumsiness.  This potion will lower your dexterity for awhile."
+		shopText "This potion has fine muscle relaxing properties but it will make you slightly clumsy.  Don't operate any heavy machinery after you drink it."
+	end
+end
+
+object pCurePoison of Potion
+	properties
+		name "Potion of Cure Poison"
+		value 500
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 84 dobj
+	end
+
+	components
+		Goldenberries
+		Silvergrass
+		Sulfur
+		ElderOak
+	end
+
+	base described
+		idText "You see a potion of Cure Poison.  This potion will remove all poison from your body."
+		shopText "This is the same brand used in the Royal Court."
+	end
+end
+
+object pDexterity of Potion
+	properties
+		name "Potion of Dexterity"
+		value 150
+		level 3
+		strength 1
+	end
+
+	actions
+		vBeConsumed castSpell 77 dobj
+	end
+
+	components
+		Goldenberries
+		Pigweed
+	end
+
+	base described
+		idText "You see a potion of Dexterity.  This potion will increase your dexterity for a time."
+		shopText "This wonderful potion will increase your accuracy and speed in combat."
+	end
+end
+
+object pGreaterHealth of Potion
+	properties
+		name "Potion of Greater Health"
+		value 350
+		level 10
+		strength 4
+	end
+
+	actions
+		vBeConsumed castSpell 86 dobj
+	end
+
+	components
+		Silvergrass
+		Corbalite
+	end
+
+	base described
+		idText "You see a Potion of Greater Health.  This potion will heal you."
+		shopText "This does what a Healing Potion does--only better."
+	end
+end
+
+object pHealth of Potion
+	properties
+		name "Potion of Health"
+		value 150
+		level 6
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 81 dobj
+	end
+
+	components
+		ElderOak
+		Goldenberries
+		Crystal
+	end
+
+	base described
+		idText "You see a vial of Healing Elixir.  Quaffing this potion will heal you."
+		shopText "This drink knits broken bones and restores torn flesh."
+	end
+end
+
+object pInvisibility of Potion
+	properties
+		name "Potion of Invisibility"
+		value 350
+		level 4
+		strength 4
+	end
+
+	actions
+		vBeConsumed castSpell 14 dobj
+	end
+
+	components
+		DaemonGuano
+		Devilweed
+	end
+
+	base described
+		idText "You see a potion of Invisibility.  Drinking this will render you invisible to others."
+		shopText "This magical drink will render the imbiber invisible to others."
+	end
+end
+
+
+object pPain of Potion
+	properties
+		name "Potion of Pain"
+		value 50
+		level 1
+		strength 1
+	end
+
+	actions
+		vBeConsumed damage dobj 4 1 50
+	end
+
+	components
+		Pigweed
+		Basalt
+	end
+
+	base described
+		idText "You see a potion of Pain.  Consuming it will cause you to take damage."
+		shopText "Mix a little of this in your enemy's drink."
+	end
+end
+
+object pPoison of Potion
+	properties
+		name "Potion of Poison"
+		value 50
+		level 1
+		strength 1
+	end
+
+	actions
+		vBeConsumed damage dobj 5 1 100
+	end
+
+	components
+		RatGuano
+		RatGuano
+		pSwampWater
+		Pigweed
+	end
+
+	base described
+		idText "You see a vile Potion of Poison.  Don't drink it, it is very poisonous."
+		shopText "This potion is a must for would-be assasins."
+	end
+end
+
+object pRegeneration of Potion
+	properties
+		name "Potion of Regeneration"
+		value 750
+		level 15
+		strength 5
+	end
+
+	actions
+		vBeConsumed castSpell 86 dobj
+		vBeConsumed castSpell 84 dobj
+	end
+
+	components
+		Silvergrass
+		Silvergrass
+		Goldenberries
+	end
+
+	base described
+		idText "You see a Potion of Regeneration.  This potion will completely heal the consumer."
+		shopText "This wonderful potion will fix you up no matter what ails you."
+	end
+end
+
+object pSeeInvisibility of Potion
+	properties
+		name "Potion of See Invisible"
+		value 100
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 12 dobj
+	end
+
+	components
+		Pigweed
+		Pigweed
+		Tobac
+		ElderOak
+	end
+
+	base described
+		idText "You see a potion of See Invisible.  It will allow you to sense invisible players and creatures."
+		shopText "Drinking one of these will allow you to sense invisible creatures."
+	end
+end
+
+object pStrength of Potion
+	properties
+		name "Potion of Strength"
+		value 150
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 78 dobj
+	end
+
+	components
+		Goldenberries
+		Pigweed
+		Sulfur
+		Basalt
+	end
+
+	base described
+		idText "You see a potion of strength.  It will make you stronger for a time."
+		shopText "This rare brew will make you stronger for a time."
+	end
+end
+
+object pWeakness of Potion
+	properties
+		name "Potion of Weakness"
+		value 50
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 79 dObj
+	end
+
+	components
+		Sulfur
+		Basalt
+	end
+
+	base described
+		idText "You see a potion of Weakness.  It will lower your strength for a duration."
+		shopText "This potion will help you relax."
+	end
+end
+
+
+#object pIntelligence of Potion
+#	properties
+#		name "Potion of Intelligence"
+#		value 150
+#		level 2
+#	end
+#
+#	actions
+#		vBeConsumed castSpell 79 dobj
+#	end
+#
+#	components
+#		Crystal
+#		Marble
+#		Sulfur
+#	end
+#
+#	base described
+#		idText "You see a potion of Intelligence.  It will make you somewhat smarter for a time."
+#		shopText "This potion will raise your intelligence for awhile."
+#	end
+#end
+
+
+#object pStupidity of Potion
+#	properties
+#		name "Potion of Stupidity"
+#		value 50
+#		level 2
+#	end
+#
+#	actions
+#		vBeConsumed castSpell 79 dobj
+#	end
+#
+#	components
+#		Pigweed
+#		RatGuano
+#		RatGuano
+#		Tobac
+#	end
+#
+#	base described
+#		idText "You see a potion of Stupidity.  It will lower your intelligence for a duration."
+#		shopText "This potion will make you quite dull."
+#	end
+#end
+
+object pAcidShield of Potion
+	properties
+		name "Potion of Acid Shield"
+		value 350
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 130 dobj
+	end
+
+	components
+		Silvergrass
+		ElderOak
+		Aquamarine
+	end
+
+	base described
+		idText "You see a potion of Acid Shield.  Drinking this potion will render you immune to the effects of acid for a duration."
+		shopText "This potion will make you immune to the effects of acid for a duration."
+	end
+end
+
+
+object pColdShield of Potion
+	properties
+		name "Potion of Cold Shield"
+		value 350
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 96 dobj
+	end
+
+	components
+		Silvergrass
+		ElderOak
+		Marble
+	end
+
+	base described
+		idText "You see a potion of Cold Shield.  Drinking this potion will render you immune to the effects of cold for a duration."
+		shopText "This potion will make you immune to the effects of cold for a duration."
+	end
+end
+
+
+object pPoisonShield of Potion
+	properties
+		name "Potion of Poison Shield"
+		value 350
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 129 dobj
+	end
+
+	components
+		Silvergrass
+		ElderOak
+		Basalt
+		Crystal
+	end
+
+	base described
+		idText "You see a potion of Poison Shield.  Drinking this potion will render you immune to the effects of poison for a duration."
+		shopText "This potion will make you immune to the effects of poison for a duration."
+	end
+end
+
+object pLightningShield of Potion
+	properties
+		name "Potion of Lightning Shield"
+		value 350
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 97 dobj
+	end
+
+	components
+		Silvergrass
+		ElderOak
+		Crystal
+		Crystal
+	end
+
+	base described
+		idText "You see a potion of Lightning Shield.  Drinking this potion will render you immune to the effects of lightning for a duration."
+		shopText "This potion will make you immune to the effects of lightning for a duration."
+	end
+end
+
+object pFireShield of Potion
+	properties
+		name "Potion of Fire Shield"
+		value 350
+		level 3
+		strength 3
+	end
+
+	actions
+		vBeConsumed castSpell 95 dobj
+	end
+
+	components
+		Silvergrass
+		ElderOak
+		Sulfur
+		Tobac
+	end
+
+	base described
+		idText "You see a potion of Fire Shield.  Drinking this potion will render you immune to the effects of fire for a duration."
+		shopText "This potion will make you immune to the effects of fire for a duration."
+	end
+end
+
+
+
+object pAcidCurse of Potion
+	properties
+		name "Potion of Acid Curse"
+		value 50
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 128 dobj
+	end
+
+	components
+		RatGuano
+		Sulfur
+	end
+
+	base described
+		idText "You see a potion of Acid Curse.  Drinking this potion will render you vulnerable to the effects of acid for a duration."
+		shopText "This potion will make you vulnerable to the effects of acid for a duration."
+	end
+end
+
+
+object pColdCurse of Potion
+	properties
+		name "Potion of Cold Curse"
+		value 50
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 90 dobj
+	end
+
+	components
+		Pigweed
+		Sulfur
+	end
+
+	base described
+		idText "You see a potion of Cold Curse.  Drinking this potion will render you vulnerable to the effects of cold for a duration."
+		shopText "This potion will make you vulnerable to the effects of cold for a duration."
+	end
+end
+
+
+object pPoisonCurse of Potion
+	properties
+		name "Potion of Poison Curse"
+		value 50
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 127 dobj
+	end
+
+	components
+		Tobac
+		RatGuano
+		RatGuano
+		Basalt
+	end
+
+	base described
+		idText "You see a potion of Poison Curse.  Drinking this potion will render you vulnerable to the effects of poison for a duration."
+		shopText "This potion will make you vulnerable to the effects of poison for a duration."
+	end
+end
+
+object pLightningCurse of Potion
+	properties
+		name "Potion of Lightning Curse"
+		value 50
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 91 dobj
+	end
+
+	components
+		Crystal
+		pSwampWater
+	end
+
+	base described
+		idText "You see a potion of Lightning Curse.  Drinking this potion will render you vulnerable to the effects of lightning for a duration."
+		shopText "This potion will make you vulnerable to the effects of lightning for a duration."
+	end
+end
+
+object pFireCurse of Potion
+	properties
+		name "Potion of Fire Curse"
+		value 50
+		level 2
+		strength 2
+	end
+
+	actions
+		vBeConsumed castSpell 89 dobj
+	end
+
+	components
+		RatGuano
+		Sulfur
+	end
+
+	base described
+		idText "You see a potion of Fire Curse.  Drinking this potion will render you vulnerable to the effects of fire for a duration."
+		shopText "This potion will make you vulnerable to the effects of fire for a duration."
+	end
+end
+
+object pInvulnerability of Potion
+	properties
+		name "Potion of Invulnerability"
+		value 500
+		level 2
+		strength 5
+	end
+
+	actions
+		vBeConsumed castSpell 101 dobj
+	end
+
+	components
+	AmberRod
+	SilverGrass
+	end
+
+	base described
+		idText "You see a potion of Invulnerability.  Drinking this potion will protect you from physical harm for a duration."
+		shopText "This potion will make you nearly invulnerable to physical attacks."
+	end
+end
+
+
+object pShift of Potion
+	properties
+		name "Potion of Shifting"
+		value 150
+		level 2
+		strength 5
+	end
+
+	actions
+		vBeConsumed castSpell 13 dobj
+	end
+
+	components
+		ZombieFinger
+		Sulfur
+		Crystal
+	end
+
+	base described
+		idText "You see a potion of Shifting.  Drinking this potion will make you more difficult to harm with melee attacks."
+		shopText "This potion will make you more difficult to harm with melee attacks."
+	end
+end
+
+object pGreaterInvisibility of Potion
+	properties
+		name "Potion of Greater Invisibility"
+		value 750
+		level 2
+		strength 5
+	end
+
+	actions
+		vBeConsumed castSpell 20 dobj
+	end
+
+	components
+		DaemonGuano
+		Devilweed
+		Jet
+		Sulfur
+	end
+
+	base described
+		idText "You see a potion of Greater Invisibility.  Drinking this potion will make you invisible for a duration, and will not wear off if you attack."
+		shopText "This potion will make you quite hard to see."
+	end
+end
+
+
+object pDeath of Potion
+	properties
+		name "Potion of Death"
+		value 100
+		level 2
+		strength 4
+	end
+
+	actions
+		vBeConsumed damage dobj 5 1 1000
+	end
+
+	components
+		Sulfur
+		RatGuano
+		Basalt
+		Pigweed
+	end
+
+	base described
+		idText "You see a potion of Death.  Drinking this potion will cause you to take a horrible amount of damage."
+		shopText "This potion is quite deadly."
+	end
+end

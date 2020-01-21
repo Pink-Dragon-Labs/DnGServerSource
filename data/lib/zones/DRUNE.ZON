@@ -1,0 +1,9 @@
+name "drune"
+title "Drune"
+worldFile "../data/lib/world/DRUNEX.WLD"
+worldFile "../data/lib/world/DRUNEINT.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 7
+midiFile 9

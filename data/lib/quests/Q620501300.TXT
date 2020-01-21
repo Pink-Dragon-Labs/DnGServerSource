@@ -1,0 +1,19 @@
+quest  77 #6205-01-300        #Xolina, Goddess Dreams, magic, Murias, 6205
+
+name  "Petrified Wood of Wen"
+type  fedex
+
+proposal  "Ah, you come to Xolina for assistance in the Expert skills of Thaumaturgy.  You are wise, for I am one of the best at this.  I will require of you a piece of Petrified Wood from Wen.   Are you prepared to do this for me?"
+
+declined  "No?  How extremely peculiar."
+
+accepted  "Excellent choice.  Be on your way."
+
+reminder   "You are on a quest for a piece of Petrified Wood from Wen."
+
+completed  "You have done well.  The spellbook for Expert Thaumaturgy skills is yours."
+
+getItem   qPetrifiedWood
+reward   skbThaumaturgyIII
+end
+

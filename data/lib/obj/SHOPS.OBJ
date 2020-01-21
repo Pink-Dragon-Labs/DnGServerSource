@@ -1,0 +1,1974 @@
+#
+# SHOP definition file
+#
+object Shop of Character
+	properties
+		level 3
+		makePolygon 0
+		action 1
+
+		## display crap
+		view 100
+		clutStart 104
+
+		value 500
+
+		## name and the like
+		name "Generic Shopkeeper"
+
+		## attributes
+		dexterity 24
+		endurance 24
+
+		minLevel 90
+		maxLevel 100
+
+		armor 35
+	end
+
+	base character
+		# unarmed combat grandmaster
+		skill 7 5
+
+		# acrobatics grandmaster
+		skill 9 5
+
+		title "The Shopkeeper"
+	end
+
+	base npc
+		code shopkeeper
+	end
+
+	base shop
+		inventory
+			testCategory "Testing Items"
+				object baExperiencePlus1
+				object baExperienceMinus1
+				object baExperiencePlus10
+				object baExperienceMinus10
+				object bCarrying
+				object aDexterity
+				object aEndurance
+				object aIntelligence
+				object aStrength
+				object rDexterity
+				object rEndurance
+				object rEternalNourishment
+				object rIntelligence
+				object rStrength
+				object mwUruzDagger
+				object mwWrath
+			end
+		end
+	end
+
+	base talk
+		file "../data/rumors/info.txt"
+	end
+end
+
+object ClothesShop of Shop
+	properties
+		name "Clothes Shopkeeper"
+	end
+
+	base described
+		text "You see the clothes shopkeeper."
+	end
+
+	base character
+		title "the Clothes Shopkeeper"
+	end
+
+	base shop
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Dyes" 51583
+				object dOlive
+				object dLime
+				object dBlue
+				object dAzure
+				object dRed
+				object dPink
+				object dGold
+				object dYellow
+				object dViolet
+				object dMagenta
+				object dBrown
+				object dTan
+				object dAqua
+				object dTeal
+				object dGreen
+				object dJade
+				object dOrange
+				object dAmber
+				object dRoyal
+				object dPurple
+				object dBlack
+				object dGray
+				object dWhite
+				object dLightOrange
+				object dFlesh
+				object dLightFlesh
+			end
+
+			category "Clothing" 10533
+				object GrayPants
+				object GrayShirt
+				object GrayTunic
+				object GrayShortSkirt
+				object GrayLongSkirt
+				object GrayRobe
+				object GrayBoots
+				object GrayLowBoots
+				object GrayCowl
+				object BlackBelt
+			end
+
+			category "Baldrics"  10933
+				object BlueBaldric      #level 03
+				object RedBaldric       #level 07
+				object BrownBaldric     #level 15
+				object GrayBaldric      #level 25
+				object GoldBaldric      #level 50
+				#object VioletBaldric
+				#object WhiteBaldric
+				#object RealPurpleBaldric
+				#object PinkBaldric
+			end
+		end
+	end
+end
+
+object ExoticClothesShop of ClothesShop
+end
+
+
+object RareClothesShop of ClothesShop
+end
+
+
+object WeaponArmorShop of Shop
+	properties
+		name "Weapons&Armor Shopkeeper"
+	end
+
+	base described
+		text "You see the weapons&armor shopkeeper."
+	end
+
+	base character
+	   title "the Armorer"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Weapons" 15133
+				category "Single-Handed Weapons" 15233
+					object IronDagger
+					object IronClaw
+					object IronShortSword
+					object IronLongSword
+					object IronBroadSword
+					object SteelDagger
+					object SteelClaw
+					object SteelShortSword
+					object SteelLongSword
+					object SteelBroadSword
+				end
+
+				category "Two-Handed Weapons" 15933
+					object WoodenClub
+					object WoodenMaul
+					object IronTwoHandSword
+					object IronMace
+					object IronAxe
+					object SteelClub
+					object SteelMaul
+					object SteelTwoHandSword
+					object SteelMace
+					object SteelAxe
+				end
+
+				category "Throwing Weapons" 15333
+					object IronThrowingDagger
+					object SteelThrowingDagger
+				end
+			end
+
+			category "Armor" 13633
+				category "Leather Armor" 10433
+					object LeatherBoots
+					object LeatherLowBoots
+					object LeatherCowl
+					object LeatherPants
+					object LeatherLongSkirt
+					object LeatherShortSkirt
+					object LeatherShirt
+					object LeatherTunic
+				end
+
+				category "Troll Leather Armor" 10433
+					object TrollBoots
+					object TrollLowBoots
+					object TrollCowl
+					object TrollPants
+					object TrollLongSkirt
+					object TrollShortSkirt
+					object TrollShirt
+					object TrollTunic
+				end
+
+				category "Iron Armor" 13633
+					object IronHelmet
+					object IronLegionHelmet
+					object IronMinervaHelmet
+					object IronSollerets
+					object IronCowl
+					object IronChainPants
+					object IronPlatePants
+					object IronChainTunic
+					object IronPlateTunic
+					object Ironband
+				end
+
+				category "Steel Armor" 13733
+					object SteelHelmet
+					object SteelLegionHelmet
+					object SteelMinervaHelmet
+					object SteelSollerets
+					object SteelCowl
+					object SteelChainPants
+					object SteelPlatePants
+					object SteelChainTunic
+					object SteelPlateTunic
+					object Steelband
+				end
+
+				category "Shields" 16533
+					object WoodRoundShield
+					object IronRoundShield
+					object SteelRoundShield
+					object WoodLargeShield
+					object IronLargeShield
+					object SteelLargeShield
+				end
+			end
+		end
+	end
+end
+
+object ExoticArmaments of WeaponArmorShop
+end
+
+object RareWeaponArmorShop of Shop
+	properties
+		name "Exotic Armorer"
+	end
+
+	base described
+		text "You see the exotic weapons & armor shopkeeper."
+	end
+
+	base character
+	   title "Armorer Exotique"
+	end
+
+	base shop
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Weapons" 15133
+				category "Single-Handed Weapons" 15233
+					object TemperedSteelDagger
+					object TemperedSteelClaw
+					object TemperedSteelShortSword
+					object TemperedSteelLongSword
+					object TemperedSteelBroadSword
+					object MythrilDagger
+					object MythrilClaw
+					object MythrilShortSword
+					object MythrilLongSword
+					object MythrilBroadSword
+				end
+
+				category "Two-Handed Weapons" 15933
+					object TemperedSteelClub
+					object TemperedSteelMaul
+					object TemperedSteelTwoHandSword
+					object TemperedSteelMace
+					object TemperedSteelAxe
+					object MythrilClub
+					object MythrilMaul
+					object MythrilTwoHandSword
+					object MythrilMace
+					object MythrilAxe
+				end
+
+				category "Throwing Weapons" 15333
+					object TemperedSteelThrowingDagger
+					object MythrilThrowingDagger
+				end
+			end
+
+			category "Armor" 13633
+				category "Tempered-Steel Armor" 13633
+					object TemperedSteelHelmet
+					object TemperedSteelLegionHelmet
+					object TemperedSteelMinervaHelmet
+					object TemperedSteelSollerets
+					object TemperedSteelCowl
+					object TemperedSteelChainPants
+					object TemperedSteelPlatePants
+					object TemperedSteelChainTunic
+					object TemperedSteelPlateTunic
+					object TemperedSteelband
+				end
+
+				category "Mythril Armor" 13733
+					object MythrilHelmet
+					object MythrilLegionHelmet
+					object MythrilMinervaHelmet
+					object MythrilSollerets
+					object MythrilCowl
+					object MythrilChainPants
+					object MythrilPlatePants
+					object MythrilChainTunic
+					object MythrilPlateTunic
+					object Mythrilband
+				end
+
+				category "Shields" 16533
+					object TemperedSteelRoundShield
+					object MythrilRoundShield
+					object TemperedSteelLargeShield
+					object MythrilLargeShield
+				end
+			end
+		end
+	end
+end
+
+
+object MagicShop of Shop
+	properties
+		name "Magic Shopkeeper"
+	end
+
+	base described
+		text "You see the magic shopkeeper."
+
+	end
+
+	base character
+		title "the Magic Shopkeeper"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Mana Crystals" 50883
+				mana
+			end
+
+			category "Potions" 51583
+				object eLife
+				object ePurify
+				object pHealth
+				object pCurePoison
+				object pSeeInvisibility
+				object pDexterity
+				object pGreaterHealth
+				object pStrength
+				object pAcidShield
+				object pColdShield
+				object pLightningShield
+				object pFireShield
+				object pPoisonShield
+				object pInvulnerability
+				object pShift
+				object pGreaterInvisibility
+			end
+
+			category "Scrolls" 51033
+				object sIdentify
+				object sImmolation
+				object sMissileResistance
+				object sResistCold
+				object sResistFire
+				object sResistLightning
+				object sShield
+				object sGreaterShield
+				object sMonsterSummoningI
+				object sMonsterSummoningII
+			end
+
+			category "Spells"
+				category "Sorcery" 51083
+					object spbHome
+					object spbKillStar
+					object spbDispelMagic
+					object spbEngrave
+					object spbMultiBlade
+					object spbGatherTheFellowship
+					object spbCornucopia
+					object spbImproveArmor
+					object spbTeleport
+					object spbExtension
+					object spbSeeInvisibility
+					object spbShift
+					object spbInvisibility
+					object spbCombatTeleport
+					object spbTeleportGroup
+					object spbPermanency
+					object spbRust
+					object spbWraithform
+					object spbImprovedInvisibility
+					object spbEnchantItem
+					object spbMassRust
+				end
+
+				category "Elementalism" 51083
+					object spbFireGrasp
+					object spbFlameOrb
+					object spbArticGrasp
+					object spbIceOrb
+					object spbIncinerate
+					object spbImmolation
+					object spbFlameBlade
+					object spbArticCharge
+					object spbColdSteel
+					object spbSpark
+					object spbIceStorm
+					object spbStoning
+					object spbFireball
+					object spbLightningBolt
+					object spbFreeze
+					object spbCrushingBoulder
+					object spbElectricFury
+					object spbColdSnap
+					object spbEarthquake
+				end
+
+				category "Mysticism" 51083
+					object spbHoldMonster
+					object spbPsychicOrb
+					object spbIdentify
+					object spbConfusion
+					object spbMindShackle
+					object spbBerserk
+					object spbStun
+					object spbLoyaltyShift
+					object spbWarpMind
+					object spbSpellBlast
+					object spbMassHold
+					object spbFear
+					object spbIronChains
+					object spbMassBerserk
+					object spbMassStun
+					object spbMassLoyaltyShift
+				end
+
+				category "Thaumaturgy" 51083
+					object spbLightDart
+					object spbNimbility
+					object spbEmpower
+					object spbMissileResistance
+					object spbHeal
+					object spbSummonPixie
+					object spbPurify
+					object spbCurePoison
+					object spbGreaterHeal
+					object spbRemoveCurse
+					object spbSummonFaery
+					object spbShield
+					object spbGreaterShield
+					object spbWrathOfTheGods
+					object spbFireShield
+					object spbColdShield
+					object spbLightningShield
+					object spbPoisonShield
+					object spbAcidShield
+					object spbSummonNymph
+					object spbRegeneration
+					object spbIndestruction
+					object spbInvulnerability
+					object spbBanishment
+					object spbSummonFaeryQueen
+				end
+
+				category "Necromancy" 51083
+					object spbAcidSphere
+					object spbVenomousTouch
+					object spbClumsiness
+					object spbPoisonBolt
+					object spbEnfeeble
+					object spbDrainLife
+					object spbSummonZombie
+					object spbVenom
+					object spbSummonUndead
+					object spbAcidRain
+					object spbPoisonCurse
+					object spbAcidCurse
+					object spbFireCurse
+					object spbColdCurse
+					object spbElectricCurse
+					object spbNightFriends
+					object spbStealLife
+					object spbDeathTouch
+					object spbBanish
+					object spbShadowWarrior
+					object spbSummonDaemon
+					object spbDeathWish
+					object spbMassDrain
+				end
+			end
+		end
+	end
+end
+
+
+object GeneralShop of Shop
+	properties
+		name "General Shopkeeper"
+	end
+
+	base described
+		text "You see the general shopkeeper."
+	end
+
+	base character
+		title "the Shopkeeper"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Equipment" 50233
+				object BackPack
+				object LeatherPouch
+				object WeaponsmithTool
+				object ArmorerTool
+				object AlchemyTool
+				object Lockpick
+				object Mirror
+				object Bowl
+				object Chalice
+				object Mug
+				object Candle
+				object Plate
+			end
+
+			category "Mementos" 54583
+				object WhiteRose
+				object Statue
+			end
+
+			category "Food" 52033
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object RatlingCheese
+				object WaterBottle
+			end
+		end
+	end
+end
+
+
+object FoodShop of Shop
+	properties
+		name "Food Shopkeeper"
+	end
+
+	base described
+		text "You see the Food shopkeeper."
+	end
+
+	base character
+	   title "the Food Service Employee"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Food" 52033
+				object Meat
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object RatlingCheese
+			end
+
+			category "Drink" 52233
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+
+			category "Eggs"  62683
+   				object OliveEasterEgg
+   				object LimeEasterEgg
+   				object ExtraLimeEasterEgg
+   				object LimeBlueEasterEgg
+   				object BlueEasterEgg
+   				object AzureEasterEgg
+   				object LightAzureEasterEgg
+   				object BlueRedEasterEgg
+   				object RedEasterEgg
+   				object PinkEasterEgg
+   				object HotPinkEasterEgg
+   				object PinkGoldEasterEgg
+   				object GoldEasterEgg
+   				object YellowEasterEgg
+   				object LightYellowEasterEgg
+   				object YellowVioletEasterEgg
+   				object VioletEasterEgg
+   				object MagentaEasterEgg
+   				object LightMagentaEasterEgg
+   				object BrownEasterEgg
+   				object TanEasterEgg
+   				object LightTanEasterEgg
+   				object TanAquaEasterEgg
+   				object AquaEasterEgg
+   				object TealEasterEgg
+   				object LightTealEasterEgg
+   				object TealGreenEasterEgg
+   				object GreenEasterEgg
+   				object JadeEasterEgg
+   				object OrangeEasterEgg
+   				object AmberEasterEgg
+   				object RoyalEasterEgg
+   				object PurpleEasterEgg
+   				object LightPurpleEasterEgg
+   				object PurpleBlackEasterEgg
+   				object BlackEasterEgg
+   				object GrayEasterEgg
+   				object WhiteEasterEgg
+   			end
+		end
+	end
+end
+
+object FlowerCart of Shop
+	properties
+		name "Flower Vendor"
+	end
+
+	base described
+		text "You see the Flower Cart vendor."
+	end
+
+	base character
+		title "the Flower Vendor"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Flowers" 54583
+				object RedRose
+				object WhiteRose
+				object Chrysanthenum
+				object Daisy
+			end
+
+			category "Mementos" 54733
+				object Statue
+				object Mirror
+				object WineFlask
+				object Ambrosia
+				object rCopper
+				object rEngagement
+				object rWedding
+				object rWedding2
+			end
+		end
+	end
+end
+
+object MusicCart of Shop
+	properties
+		name "Music Vendor"
+	end
+
+	base described
+		text "You see the Music Cart shopkeeper."
+	end
+
+	base character
+		title "the Music Vendor"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			object Drum
+			object Strynx
+			object Flute
+			object Lyre
+			object Lute
+		end
+	end
+end
+
+object WarriorAcademy of Shop
+	properties
+		name "Academy Trainer"
+		value 750
+	end
+
+	base character
+		title "the Academy trainer"
+	end
+
+	base described
+		text "You see the Academy trainer."
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Daggers" 51083
+				object skbDaggerI
+				object skbDaggerII
+				object skbDaggerIII
+				object skbDaggerIV
+				object skbDaggerV
+			end
+			category "Short Swords" 51083
+				object skbShortSwordI
+				object skbShortSwordII
+				object skbShortSwordIII
+				object skbShortSwordIV
+				object skbShortSwordV
+			end
+			category "Long Swords" 51083
+				object skbLongSwordI
+				object skbLongSwordII
+				object skbLongSwordIII
+				object skbLongSwordIV
+				object skbLongSwordV
+			end
+			category "Two Handed Swords" 51083
+				object skbTwoHandedSwordI
+				object skbTwoHandedSwordII
+				object skbTwoHandedSwordIII
+				object skbTwoHandedSwordIV
+				object skbTwoHandedSwordV
+			end
+			category "Clubs" 51083
+				object skbClubI
+				object skbClubII
+				object skbClubIII
+				object skbClubIV
+				object skbClubV
+			end
+			category "Maces" 51083
+				object skbMaceI
+				object skbMaceII
+				object skbMaceIII
+				object skbMaceIV
+				object skbMaceV
+			end
+			category "Axes" 51083
+				object skbAxeI
+				object skbAxeII
+				object skbAxeIII
+				object skbAxeIV
+				object skbAxeV
+			end
+			category "Mauls" 51083
+				object skbMaulI
+				object skbMaulII
+				object skbMaulIII
+				object skbMaulIV
+				object skbMaulV
+			end
+			category "Throwing Weapons" 51083
+				object skbThrowingWeaponI
+				object skbThrowingWeaponII
+				object skbThrowingWeaponIII
+				object skbThrowingWeaponIV
+				object skbThrowingWeaponV
+			end
+			category "Shield Usage" 51083
+				object skbShieldUseI
+				object skbShieldUseII
+				object skbShieldUseIII
+				object skbShieldUseIV
+				object skbShieldUseV
+			end
+		end
+	end
+end
+
+object WizardAcademy of Shop
+	properties
+		name "Academy Trainer"
+		value 1750
+	end
+
+	base described
+		text "You see the Academy trainer."
+	end
+
+	base character
+		title "the Academy trainer"
+	end
+
+	base shop
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Daggers" 51083
+				object skbDaggerI
+				object skbDaggerII
+				object skbDaggerIII
+				object skbDaggerIV
+				object skbDaggerV
+			end
+			category "Sorcery" 51083
+				object skbSorceryI
+				object skbSorceryII
+				object skbSorceryIII
+				object skbSorceryIV
+				object skbSorceryV
+			end
+			category "Elementalism" 51083
+				object skbElementalismI
+				object skbElementalismII
+				object skbElementalismIII
+				object skbElementalismIV
+				object skbElementalismV
+			end
+			category "Mysticism" 51083
+				object skbMysticismI
+				object skbMysticismII
+				object skbMysticismIII
+				object skbMysticismIV
+				object skbMysticismV
+			end
+			category "Thaumaturgy" 51083
+				object skbThaumaturgyI
+				object skbThaumaturgyII
+				object skbThaumaturgyIII
+				object skbThaumaturgyIV
+				object skbThaumaturgyV
+			end
+			category "Necromancy" 51083
+				object skbNecromancyI
+				object skbNecromancyII
+				object skbNecromancyIII
+				object skbNecromancyIV
+				object skbNecromancyV
+			end
+			category "Theurgism" 51083
+				object skbTheurgismI
+				object skbTheurgismII
+				object skbTheurgismIII
+				object skbTheurgismIV
+				object skbTheurgismV
+			end
+			category "Meditation" 51083
+				object skbMeditationI
+				object skbMeditationII
+				object skbMeditationIII
+				object skbMeditationIV
+				object skbMeditationV
+			end
+		end
+	end
+end
+
+object ThiefAcademy of Shop
+	properties
+		name "Academy Trainer"
+		value 1500
+	end
+
+	base described
+		text "You see the Academy trainer."
+	end
+
+	base character
+		title "the Academy trainer"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			category "Pickpocketing" 51083
+				object skbPickpocketingI
+				object skbPickpocketingII
+				object skbPickpocketingIII
+				object skbPickpocketingIV
+				object skbPickpocketingV
+			end
+			category "Trap Detection" 51083
+				object skbTrapsI
+				object skbTrapsII
+				object skbTrapsIII
+				object skbTrapsIV
+				object skbTrapsV
+			end
+			category "Lock picking" 51083
+				object skbLockpickingI
+				object skbLockpickingII
+				object skbLockpickingIII
+				object skbLockpickingIV
+				object skbLockpickingV
+			end
+			category "Unarmed Combat" 51083
+				object skbUnarmedCombatI
+				object skbUnarmedCombatII
+				object skbUnarmedCombatIII
+				object skbUnarmedCombatIV
+				object skbUnarmedCombatV
+			end
+			category "Acrobatics" 51083
+				object skbAcrobaticI
+				object skbAcrobaticII
+				object skbAcrobaticIII
+				object skbAcrobaticIV
+				object skbAcrobaticV
+			end
+
+			category "Critical Striking" 51083
+				object skbCriticalStrikingI
+				object skbCriticalStrikingII
+				object skbCriticalStrikingIII
+				object skbCriticalStrikingIV
+				object skbCriticalStrikingV
+			end
+		end
+	end
+end
+
+object AdvAcademy of Shop
+	properties
+		name "Academy Trainer"
+		value 4000
+	end
+
+	base described
+		text "You see the Academy trainer."
+	end
+
+	base character
+		title "the Academy trainer"
+	end
+
+	base shop
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+#			category "Tracking" 51083
+#				object skbTrackingI
+#				object skbTrackingII
+#				object skbTrackingIII
+#				object skbTrackingIV
+#				object skbTrackingV
+#			end
+#			category "Healing" 51083
+#				object skbHealingI
+#				object skbHealingII
+#				object skbHealingIII
+#				object skbHealingIV
+#				object skbHealingV
+#			end
+			category "Meditation" 51083
+				object skbMeditationI
+				object skbMeditationII
+				object skbMeditationIII
+				object skbMeditationIV
+				object skbMeditationV
+			end
+			category "Theurgism" 51083
+				object skbTheurgismI
+				object skbTheurgismII
+				object skbTheurgismIII
+				object skbTheurgismIV
+				object skbTheurgismV
+			end
+			category "Alchemy" 51083
+				object skbAlchemyI
+				object skbAlchemyII
+				object skbAlchemyIII
+				object skbAlchemyIV
+				object skbAlchemyV
+			end
+			category "Weapon Smithing" 51083
+				object skbWeaponsmithingI
+				object skbWeaponsmithingII
+				object skbWeaponsmithingIII
+				object skbWeaponsmithingIV
+				object skbWeaponsmithingV
+			end
+			category "Armor Smithing" 51083
+				object skbArmorcraftingI
+				object skbArmorcraftingII
+				object skbArmorcraftingIII
+				object skbArmorcraftingIV
+				object skbArmorcraftingV
+			end
+		end
+	end
+end
+
+object Temple of Shop
+	properties
+		name "Temple Healer"
+		value 450
+	end
+
+	base described
+		text "You see the Temple Healer"
+	end
+
+	base character
+	   title "the Healer"
+	end
+
+	base shop
+
+		buyMarkup  50
+		sellMarkup 100
+
+		inventory
+			object eLife
+			object ePurify
+			object pHealth
+			object pCurePoison
+		end
+	end
+end
+
+object Bartender of Shop
+	properties
+		name "Bartender"
+
+		value 450
+	end
+
+	base described
+		text "This person is here to serve you food and drink"
+	end
+
+	base shop
+
+		buyMarkup   50
+		sellMarkup 100
+
+		inventory
+			category "Food" 52133
+				object Meat
+				object Cheese
+				object Bread
+				object Veggies
+			end
+
+			category "Drink" 52233
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+		end
+	end
+end
+
+object TentShop of Shop
+	properties
+		name "Wilderness Shopkeeper"
+	end
+
+	base described
+		text "You see a wilderness shopkeeper offering convenient premium goods at premium prices."
+	end
+
+	base character
+	   title "the Wilderness Shopkeeper"
+	end
+
+	base shop
+		buyMarkup  45
+		sellMarkup 105
+
+		inventory
+			category "Mana Crystals" 50883
+				mana
+			end
+
+			category "Potions" 51583
+				object eLife
+				object ePurify
+				object pHealth
+				object pCurePoison
+				object pSeeInvisibility
+				object pDexterity
+				object pGreaterHealth
+				object pStrength
+				object pAcidShield
+				object pColdShield
+				object pLightningShield
+				object pFireShield
+				object pPoisonShield
+				object pInvulnerability
+				object pShift
+				object pGreaterInvisibility
+			end
+
+			category "Weapons" 15133
+				category "Single-Handed Weapons" 15233
+					object IronDagger
+					object IronClaw
+					object IronShortSword
+					object IronLongSword
+					object IronBroadSword
+					object SteelDagger
+					object SteelClaw
+					object SteelShortSword
+					object SteelLongSword
+					object SteelBroadSword
+					object TemperedSteelDagger
+					object TemperedSteelClaw
+					object TemperedSteelShortSword
+					object TemperedSteelLongSword
+					object TemperedSteelBroadSword
+					object MythrilDagger
+					object MythrilClaw
+					object MythrilShortSword
+					object MythrilLongSword
+					object MythrilBroadSword
+				end
+
+				category "Two-Handed Weapons" 15933
+					object WoodenClub
+					object WoodenMaul
+					object IronTwoHandSword
+					object IronMace
+					object IronAxe
+					object SteelClub
+					object SteelMaul
+					object SteelTwoHandSword
+					object SteelMace
+					object SteelAxe
+					object TemperedSteelClub
+					object TemperedSteelMaul
+					object TemperedSteelTwoHandSword
+					object TemperedSteelMace
+					object TemperedSteelAxe
+					object MythrilClub
+					object MythrilMaul
+					object MythrilTwoHandSword
+					object MythrilMace
+					object MythrilAxe
+				end
+
+				category "Throwing Weapons" 15333
+					object IronThrowingDagger
+					object SteelThrowingDagger
+					object TemperedSteelThrowingDagger
+					object MythrilThrowingDagger
+				end
+			end
+
+			category "Armor" 13633
+				category "Leather Armor" 10433
+					object LeatherBoots
+					object LeatherLowBoots
+					object LeatherCowl
+					object LeatherPants
+					object LeatherLongSkirt
+					object LeatherShortSkirt
+					object LeatherShirt
+					object LeatherTunic
+				end
+
+				category "Troll Leather Armor" 10433
+					object TrollBoots
+					object TrollLowBoots
+					object TrollCowl
+					object TrollPants
+					object TrollLongSkirt
+					object TrollShortSkirt
+					object TrollShirt
+					object TrollTunic
+				end
+
+				category "Iron Armor" 13633
+					object IronHelmet
+					object IronLegionHelmet
+					object IronMinervaHelmet
+					object IronSollerets
+					object IronCowl
+					object IronChainPants
+					object IronPlatePants
+					object IronChainTunic
+					object IronPlateTunic
+					object Ironband
+				end
+
+				category "Steel Armor" 13733
+					object SteelHelmet
+					object SteelLegionHelmet
+					object SteelMinervaHelmet
+					object SteelSollerets
+					object SteelCowl
+					object SteelChainPants
+					object SteelPlatePants
+					object SteelChainTunic
+					object SteelPlateTunic
+					object Steelband
+				end
+
+				category "Tempered-Steel Armor" 13633
+					object TemperedSteelHelmet
+					object TemperedSteelLegionHelmet
+					object TemperedSteelMinervaHelmet
+					object TemperedSteelSollerets
+					object TemperedSteelCowl
+					object TemperedSteelChainPants
+					object TemperedSteelPlatePants
+					object TemperedSteelChainTunic
+					object TemperedSteelPlateTunic
+					object TemperedSteelband
+				end
+
+				category "Mythril Armor" 13733
+					object MythrilHelmet
+					object MythrilLegionHelmet
+					object MythrilMinervaHelmet
+					object MythrilSollerets
+					object MythrilCowl
+					object MythrilChainPants
+					object MythrilPlatePants
+					object MythrilChainTunic
+					object MythrilPlateTunic
+					object Mythrilband
+				end
+
+				category "Shields" 16533
+					object WoodRoundShield
+					object IronRoundShield
+					object SteelRoundShield
+					object WoodLargeShield
+					object IronLargeShield
+					object SteelLargeShield
+					object TemperedSteelRoundShield
+					object MythrilRoundShield
+					object TemperedSteelLargeShield
+					object MythrilLargeShield
+				end
+			end
+
+			category "Equipment" 50233
+				object BackPack
+				object LeatherPouch
+				object WeaponsmithTool
+				object ArmorerTool
+				object AlchemyTool
+				object Lockpick
+				object Mirror
+				object Bowl
+				object Chalice
+				object Mug
+				object Candle
+				object Plate
+			end
+
+			category "Food" 52033
+				object Meat
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object RatlingCheese
+			end
+
+			category "Drink" 52233
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+
+			category "Dyes" 51583
+				object dOlive
+				object dLime
+				object dBlue
+				object dAzure
+				object dRed
+				object dPink
+				object dGold
+				object dYellow
+				object dViolet
+				object dMagenta
+				object dBrown
+				object dTan
+				object dAqua
+				object dTeal
+				object dGreen
+				object dJade
+				object dOrange
+				object dAmber
+				object dRoyal
+				object dPurple
+				object dBlack
+				object dGray
+				object dWhite
+				object dLightOrange
+				object dFlesh
+				object dLightFlesh
+			end
+		end			# End Inventory
+	end				# End Shop
+end					# End Object
+
+object GuildShop of Shop
+	properties
+		name "Guild Shopkeeper"
+	end
+
+	base described
+		text "The shopkeep of the Guild."
+	end
+
+	base character
+		title "the Guild Merchant"
+	end
+
+	base shop
+
+		buyMarkup   50
+		sellMarkup 100
+
+		inventory
+			category "Stuff" 50233
+				category "Regular Stuff" 50233
+					object BackPack
+					object LeatherPouch
+					object Lockpick
+					object Candle
+					object Hammer
+					object Chalice
+					object Mug
+					object Plate
+					object Bowl
+				end
+
+				category "Food and Drink" 52133
+					object Meat
+					object RatlingMeat
+					object Bread
+					object Veggies
+					object Cheese
+					object RatlingCheese
+					object WaterBottle
+					object AleJug
+					object WineFlask
+					object Ambrosia
+				end
+
+				category "Mementos" 54733
+					object RedRose
+					object WhiteRose
+					object Chrysanthenum
+					object Daisy
+					object Statue
+					object Mirror
+					object Ring
+				end
+
+				category "Musical Instruments" 54033
+					object Drum
+					object Strynx
+					object Flute
+					object Lyre
+					object Lute
+				end
+			end
+
+			category "Clothing" 10533
+				object GrayPants
+				object GrayShirt
+				object GrayTunic
+				object GrayShortSkirt
+				object GrayLongSkirt
+				object GrayRobe
+				object GrayBoots
+				object GrayLowBoots
+				object GrayCowl
+				object BlackBelt
+			end
+
+			category "Dyes" 51583
+				object dOlive
+				object dLime
+				object dBlue
+				object dAzure
+				object dRed
+				object dPink
+				object dGold
+				object dYellow
+				object dViolet
+				object dMagenta
+				object dBrown
+				object dTan
+				object dAqua
+				object dTeal
+				object dGreen
+				object dJade
+				object dOrange
+				object dAmber
+				object dRoyal
+				object dPurple
+				object dBlack
+				object dGray
+				object dWhite
+				object dLightOrange
+				object dFlesh
+				object dLightFlesh
+			end
+
+			category "Baldrics"  10933
+				object BlueBaldric
+				object RedBaldric
+				object RealPurpleBaldric
+			end
+		end			# End Inventory
+	end				# End Shop
+end					# End Object
+
+object GMShop of Shop
+	properties
+		name "In-Game Staff's Shopkeeper"
+	end
+
+	base described
+		text "The shopkeep of the In-Game Staff's Retreat."
+	end
+
+	base character
+		title "the In-Game Staff's Shopkeeper"
+	end
+
+	base shop
+
+		buyMarkup 0
+		sellMarkup 0
+
+		inventory
+			category "Miscellaneous" 50233
+				object BackPack
+				object LeatherPouch
+			end
+
+			category "Food and Drink" 52133
+				object Meat
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object RatlingCheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+
+			category "Dyes" 51583
+				object dOlive
+				object dLime
+				object dBlue
+				object dAzure
+				object dRed
+				object dPink
+				object dGold
+				object dYellow
+				object dViolet
+				object dMagenta
+				object dBrown
+				object dTan
+				object dAqua
+				object dTeal
+				object dGreen
+				object dJade
+				object dOrange
+				object dAmber
+				object dRoyal
+				object dPurple
+				object dBlack
+				object dGray
+				object dWhite
+			end
+
+			category "Clothes"  10133
+				category "Baldrics"  10933
+					object BlueBaldric
+					object RedBaldric
+					object VioletBaldric
+					object WhiteBaldric
+					object RealPurpleBaldric
+					object PinkBaldric
+				end
+
+				category "Pants" 10533
+					object OlivePants
+					object LimePants
+					object BluePants
+					object AzurePants
+					object RedPants
+					object PinkPants
+					object GoldPants
+					object YellowPants
+					object VioletPants
+					object MagentaPants
+					object BrownPants
+					object TanPants
+					object AquaPants
+					object TealPants
+					object GreenPants
+					object JadePants
+					object OrangePants
+					object AmberPants
+					object RoyalPants
+					object PurplePants
+					object BlackPants
+					object GrayPants
+					object WhitePants
+				end
+
+				category "Long Skirts" 21033
+					object OliveLongSkirt
+					object LimeLongSkirt
+					object BlueLongSkirt
+					object AzureLongSkirt
+					object RedLongSkirt
+					object PinkLongSkirt
+					object GoldLongSkirt
+					object YellowLongSkirt
+					object VioletLongSkirt
+					object MagentaLongSkirt
+					object BrownLongSkirt
+					object TanLongSkirt
+					object AquaLongSkirt
+					object TealLongSkirt
+					object GreenLongSkirt
+					object JadeLongSkirt
+					object OrangeLongSkirt
+					object AmberLongSkirt
+					object RoyalLongSkirt
+					object PurpleLongSkirt
+					object BlackLongSkirt
+					object GrayLongSkirt
+					object WhiteLongSkirt
+				end
+
+				category "Short Skirts" 21533
+					object OliveShortSkirt
+					object LimeShortSkirt
+					object BlueShortSkirt
+					object AzureShortSkirt
+					object RedShortSkirt
+					object PinkShortSkirt
+					object GoldShortSkirt
+					object YellowShortSkirt
+					object VioletShortSkirt
+					object MagentaShortSkirt
+					object BrownShortSkirt
+					object TanShortSkirt
+					object AquaShortSkirt
+					object TealShortSkirt
+					object GreenShortSkirt
+					object JadeShortSkirt
+					object OrangeShortSkirt
+					object AmberShortSkirt
+					object RoyalShortSkirt
+					object PurpleShortSkirt
+					object BlackShortSkirt
+					object GrayShortSkirt
+					object WhiteShortSkirt
+				end
+
+				category "Shirts" 10133
+					object OliveShirt
+					object LimeShirt
+					object BlueShirt
+					object AzureShirt
+					object RedShirt
+					object PinkShirt
+					object GoldShirt
+					object YellowShirt
+					object VioletShirt
+					object MagentaShirt
+					object BrownShirt
+					object TanShirt
+					object AquaShirt
+					object TealShirt
+					object GreenShirt
+					object JadeShirt
+					object OrangeShirt
+					object AmberShirt
+					object RoyalShirt
+					object PurpleShirt
+					object BlackShirt
+					object GrayShirt
+					object WhiteShirt
+				end
+
+				category "Tunics" 10433
+					object OliveTunic
+					object LimeTunic
+					object BlueTunic
+					object AzureTunic
+					object RedTunic
+					object PinkTunic
+					object GoldTunic
+					object YellowTunic
+					object VioletTunic
+					object MagentaTunic
+					object BrownTunic
+					object TanTunic
+					object AquaTunic
+					object TealTunic
+					object GreenTunic
+					object JadeTunic
+					object OrangeTunic
+					object AmberTunic
+					object RoyalTunic
+					object PurpleTunic
+					object BlackTunic
+					object GrayTunic
+					object WhiteTunic
+				end
+
+				category "Robes" 11533
+					object OliveRobe
+					object LimeRobe
+					object BlueRobe
+					object AzureRobe
+					object RedRobe
+					object PinkRobe
+					object GoldRobe
+					object YellowRobe
+					object VioletRobe
+					object MagentaRobe
+					object BrownRobe
+					object TanRobe
+					object AquaRobe
+					object TealRobe
+					object GreenRobe
+					object JadeRobe
+					object OrangeRobe
+					object AmberRobe
+					object RoyalRobe
+					object PurpleRobe
+					object BlackRobe
+					object GrayRobe
+					object WhiteRobe
+				end
+
+				category "High Boots" 10633
+					object OliveBoots
+					object LimeBoots
+					object BlueBoots
+					object AzureBoots
+					object RedBoots
+					object PinkBoots
+					object GoldBoots
+					object YellowBoots
+					object VioletBoots
+					object MagentaBoots
+					object BrownBoots
+					object TanBoots
+					object AquaBoots
+					object TealBoots
+					object GreenBoots
+					object JadeBoots
+					object OrangeBoots
+					object AmberBoots
+					object RoyalBoots
+					object PurpleBoots
+					object BlackBoots
+					object GrayBoots
+					object WhiteBoots
+				end
+
+				category "Low Boots" 20733
+					object OliveLowBoots
+					object LimeLowBoots
+					object BlueLowBoots
+					object AzureLowBoots
+					object RedLowBoots
+					object PinkLowBoots
+					object GoldLowBoots
+					object YellowLowBoots
+					object VioletLowBoots
+					object MagentaLowBoots
+					object BrownLowBoots
+					object TanLowBoots
+					object AquaLowBoots
+					object TealLowBoots
+					object GreenLowBoots
+					object JadeLowBoots
+					object OrangeLowBoots
+					object AmberLowBoots
+					object RoyalLowBoots
+					object PurpleLowBoots
+					object BlackLowBoots
+					object GrayLowBoots
+					object WhiteLowBoots
+				end
+
+				category "Belts"  10233
+					object OliveBelt
+					object BlueBelt
+					object RedBelt
+					object GoldBelt
+					object VioletBelt
+					object BrownBelt
+					object AquaBelt
+					object GreenBelt
+					object OrangeBelt
+					object RoyalBelt
+					object BlackBelt
+					object GrayBelt
+					object WhiteBelt
+				end
+
+				category "Cowls"  10033
+					object OliveCowl
+					object LimeCowl
+					object BlueCowl
+					object AzureCowl
+					object RedCowl
+					object PinkCowl
+					object GoldCowl
+					object YellowCowl
+					object VioletCowl
+					object MagentaCowl
+					object BrownCowl
+					object TanCowl
+					object AquaCowl
+					object TealCowl
+					object GreenCowl
+					object JadeCowl
+					object OrangeCowl
+					object AmberCowl
+					object RoyalCowl
+					object PurpleCowl
+					object BlackCowl
+					object GrayCowl
+					object WhiteCowl
+				end
+
+				category "Wristbands"  10333
+					object Steelband
+				end
+			end
+
+			category "Weapons" 15033
+				object SteelLongSword
+				object SteelBroadSword
+				object SteelTwoHandSword
+				object SteelShortSword
+				object NewbieSword
+				object SteelDagger
+				object SteelThrowingDagger
+				object NewbieDagger
+				object SteelAxe
+				object SteelMace
+				object NewbieMace
+				object SteelMaul
+				object SteelClub
+			end
+
+			category "GM Eggs"  62683
+   				object GMOliveEasterEgg
+   				object GMLimeEasterEgg
+   				object GMExtraLimeEasterEgg
+   				object GMLimeBlueEasterEgg
+   				object GMBlueEasterEgg
+   				object GMAzureEasterEgg
+   				object GMLightAzureEasterEgg
+   				object GMBlueRedEasterEgg
+   				object GMRedEasterEgg
+   				object GMPinkEasterEgg
+   				object GMHotPinkEasterEgg
+   				object GMPinkGoldEasterEgg
+   				object GMGoldEasterEgg
+   				object GMYellowEasterEgg
+   				object GMLightYellowEasterEgg
+   				object GMYellowVioletEasterEgg
+   				object GMVioletEasterEgg
+   				object GMMagentaEasterEgg
+   				object GMLightMagentaEasterEgg
+   				object GMBrownEasterEgg
+   				object GMTanEasterEgg
+   				object GMLightTanEasterEgg
+   				object GMTanAquaEasterEgg
+   				object GMAquaEasterEgg
+   				object GMTealEasterEgg
+   				object GMLightTealEasterEgg
+   				object GMTealGreenEasterEgg
+   				object GMGreenEasterEgg
+   				object GMJadeEasterEgg
+   				object GMOrangeEasterEgg
+   				object GMAmberEasterEgg
+   				object GMRoyalEasterEgg
+   				object GMPurpleEasterEgg
+   				object GMLightPurpleEasterEgg
+   				object GMPurpleBlackEasterEgg
+   				object GMBlackEasterEgg
+   				object GMGrayEasterEgg
+   				object GMWhiteEasterEgg
+   			end
+			category "Hats"  62683
+				object IdiotHat
+				object CourtierHat
+			end
+		end
+	end
+end
+
+object DuachTavern of Shop
+	properties
+		name "Bartender"
+
+		value 450
+	end
+
+	base described
+		text "This person is here to serve you food and drink"
+	end
+
+	base shop
+
+		buyMarkup   50
+		sellMarkup 100
+
+		inventory
+			category "Food" 52133
+				object Meat
+				object Cheese
+				object Bread
+				object Veggies
+			end
+
+			category "Drink" 52233
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+			category "Baldrics"  10933
+				object DarkKnightBaldric 
+			end
+		end
+	end
+end
+
+object DespothesTavern of Shop
+	properties
+		name "Bartender"
+
+		value 450
+	end
+
+	base described
+		text "This person is here to serve you food and drink"
+	end
+
+	base shop
+
+		buyMarkup   50
+		sellMarkup 100
+
+		inventory
+			category "Food" 52133
+				object Meat
+				object Cheese
+				object Bread
+				object Veggies
+			end
+
+			category "Drink" 52233
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+			category "Baldrics"  10933
+				object ScepterKnightBaldric
+			end
+		end
+	end
+end
+
+object EnidTavern of Shop
+	properties
+		name "Bartender"
+		value 450
+	end
+
+	base described
+		text "This person is here to serve you food and drink"
+	end
+
+	base shop
+
+		buyMarkup   50
+		sellMarkup 100
+
+		inventory
+			category "Food" 52133
+				object Meat
+				object Cheese
+				object Bread
+				object Veggies
+			end
+
+			category "Drink" 52233
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+			category "Baldrics"  10933
+				object EnidKnightBaldric
+			end
+		end
+	end
+end
+

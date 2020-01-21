@@ -1,0 +1,14 @@
+quest  345 #8307-01-545        # Fiona, The Ladyslipper, tavern, Wen, 6104
+
+name  "The Druid of Peace"
+type  fedex
+
+proposal  "Certainly, friend.  I am Fiona, Druid of Peace.  As a follower of Enid I am always pleased to give a token of Enid for the asking.  Will you freely accept this token of Enid?"
+
+declined  "Go in peace."
+
+accepted  "Take this token, and live your life in peace."
+
+reward   qEnidToken 
+end
+

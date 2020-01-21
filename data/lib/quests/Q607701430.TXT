@@ -1,0 +1,19 @@
+quest  51 #6077-01-430        # Morgana, Bloodforge, weapons, Kurz, 8003
+
+name  "Morgana's Stolen Dagger"
+type  fedex
+
+proposal  "I did pick up a scroll that bears his image.  I don't follow Duach, though, so it doesn't mean much to me.  I'll give it to you in trade for finding my favorite dagger.  Some foul miscreant stole it, and I have a report that it turned up in Caer Fandry.  Will you seek it?"
+
+declined  "Scared of Caer Fandry, are you?"
+
+accepted  "Good."
+
+reminder   "Look for my lost dagger in Caer Fandry."
+
+completed  "Look at that nick.  Danged lowlifes.  Don't even know how to care for blades they steal.  Thanks anyway.  Here's that scroll of Duach's image."
+
+getItem   qMorganaDagger
+reward   qDuachImage 
+end
+

@@ -1,0 +1,8 @@
+name "D_Storage"
+title "Storage Chambers"
+worldFile "../data/lib/world/D_STORAGE.WLD"
+allowCombat 0
+#resetInterval 120
+midiFile 29
+isDungeon 1
+entrance trapDoor2017-0

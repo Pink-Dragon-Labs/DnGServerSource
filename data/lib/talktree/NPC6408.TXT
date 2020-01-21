@@ -1,0 +1,40 @@
+id 6408
+
+banner "Welcome to Look Your Best. I am Ninosk. How may I serve you?"
+
+topic "Tell me about Silverbrook."
+        text  "Most Silverbrookers are fairly fashion-conscious, and I do a pretty good business."
+	text  "Maybe I could interest you in a new outfit or two?"
+	text  "I always think a new outfit perks up the spirit."
+	text  "Although I must admit my brothers would rather sclupp around in old clothes."
+	text  "They say they're more comfortable that way."
+	text  "Of course, it means they're always ready to go fishing, too!"
+	text  "I wonder if human males and giant males are like that?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that Caer Fandry is an evil town, full of all sorts of goblins and dark elves."
+	text "Still I'd like to visit Caer Fandry someday, with all my brothers of course.  I'd be safe with them."
+	text "I like to see new places.  Someday I'm going to make it to the desert."
+end      
+
+topic  "Do you like limericks?"
+	text  "Hah.  Even my most fish-crazy brother likes limericks."
+	text  "My current favorite is this one."
+	text  "No matter how grouchy you're feeling,"
+	text  "You'll find that a limerick is healing."
+	text  "It grows in a wreath"
+	text  "All around the front teeth,"
+	text  "Thus preserving the face from congealing."
+	text  "Not bad, huh."
+end
+
+topic "Can I do anything for you?"
+        text "Not today, thanks. Perhaps tomorrow, if you will check back."
+end
+
+topic  "I'm seeking the Sash of the Unnamed Hero." q81000-01-400:0
+	quest 81000-01-425
+	text  "You received it from me already."
+end
+

@@ -1,0 +1,40 @@
+name "drear-valley"
+title "Drear Valley"
+worldFile "../data/lib/world/DREAR01.WLD"
+worldFile "../data/lib/world/DREAR02.WLD"
+worldFile "../data/lib/world/DREAR03.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 17
+groupChance 40
+
+monster MinotaurWarriorA 40
+monster MinotaurWarriorB 35
+monster MinotaurWarriorC 30
+monster MinotaurWarriorD 25
+monster MinotaurMageA 25
+monster MinotaurMageB 20
+monster MinotaurMageC 15
+monster MinotaurMageD 10
+
+monsterGroup 4 2 MinotaurWarriorA 1 MinotaurMageA
+monsterGroup 4 2 MinotaurWarriorB 1 MinotaurMageB
+monsterGroup 4 2 MinotaurWarriorC 1 MinotaurMageC
+monsterGroup 4 2 MinotaurWarriorD 1 MinotaurMageD
+monsterGroup 4 2 MinotaurWarriorE 1 MinotaurMageE
+
+monsterGroup 4 1 MinotaurWarriorC 1 MinotaurWarriorB 1 MinotaurWarriorA
+monsterGroup 4 1 MinotaurWarriorC 2 MinotaurWarriorB
+monsterGroup 4 1 MinotaurWarriorC 2 MinotaurWarriorB 1 MinotaurMageB
+
+monsterGroup 3 1 MinotaurWarriorE 1 MinotaurWarriorD 1 MinotaurWarriorC
+monsterGroup 3 1 MinotaurWarriorE 2 MinotaurWarriorD
+
+monsterGroup 2 2 MinotaurWarriorE 2 MinotaurWarriorD
+monsterGroup 2 1 MinotaurWarriorD 3 MinotaurWarriorE
+
+monster WardenHA10 50
+monster MinotaurGuard 50
+
+# Drear Valley	Area 12		Player Level 300-500	Alignment: Mixed	Monsters/Room: 

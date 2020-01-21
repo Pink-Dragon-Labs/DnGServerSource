@@ -1,0 +1,33 @@
+id 6901
+
+banner "Greetings, Adventurer. Welcome to Finvarra's Foods. What strikes your fancy, eh?"
+
+topic "Tell me about Asgard."
+        text "You might have noticed that my shop is named after Finvarra. Finvarra, as you probably know, is the god of courage, honor, strategy and war."
+	text "Asgarders honor him because he savors the art of war, and is willing to spill blood when it is warranted."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "In fact, Adventurer, I have heard that Finvarra has spread many artifacts of war throughout The Realm."
+        text "If you are a devoted follower of Finvarra, he will reward you by allowing their discovery."
+end      
+
+topic "Can I do anything for you?"
+        text "Simply fight the good fight, Adventurer, and may Finvarra be with you."
+end
+
+topic  "I'm here to get the cheese for Pasco" q321:0 #q8111-01-525:0  
+	quest 322 #8111-01-530
+	text  "I told you it was stolen.  Take that broken amulet to Usk and seek information. "     
+end
+
+topic  "Troels send me for his snack." q128:0 #q6311-01-540:0
+	quest 129 #6311-01-545
+	text  "You're teasing me.  You know you have it."
+end
+
+topic  "I'm seeking the talisman of Freddie the Mellow." q215:0 #q6817-01-500:0
+	quest 216 #6817-01-525
+	text  "You have it."
+end
+

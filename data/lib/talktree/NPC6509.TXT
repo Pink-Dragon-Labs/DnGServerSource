@@ -1,0 +1,18 @@
+id 6509
+
+banner "Come on in, friend.  You want good eats, Jake's is the place.  What'll you have?"
+
+topic "Tell me about Guennor."
+        text "Guennor's a mountain town, with mountain people."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Sure have.  For instance, one group through here talked about a city with water roads through town.  Folks travel around by boat instead of by foot.  Can you beat that?  Not sure I believe 'em, but they swore up and down it's true."
+	text "Another place I've heard of, the city is in the tree tops.  Seems you get there by climbing up ropes.  If you can believe that.  Pretty far fetched, if you ask me."
+	text "I'll take Guennor any day.  Good mountain air and fires in the grate.  That's my style."
+end      
+
+topic "Can I do anything for you?"
+        text "Nope.  Nothing.  Can't think of anything I need.  Thanks, anyway."
+end
+

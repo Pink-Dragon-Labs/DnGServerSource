@@ -1,0 +1,204 @@
+#-------------------------Entrance Room----------------------------
+room 27088
+   properties
+      picture	3000
+      north	27077 
+   end
+   atpinfo
+      32945  643 103
+      32945  139 103
+      114  12 335
+      190  177 108
+      32958  462 106
+      2536  143 105
+      2539  313 105
+      2536  519 105
+      96  -12 102
+      190  763 171
+      16  498 133
+      32784  126 136
+      7906  64 273
+      7906  604 299
+      7906  555 216
+      32958  -132 150
+      7906  9 315
+      7906  633 315
+      7906  38 289
+      7906  87 209
+      7906  106 174
+      7906  126 141
+      7906  143 120
+      7906  222 123
+      7906  578 257
+      7906  531 187
+      7906  510 158
+      7906  488 140
+      7906  401 119
+      3  82 300
+      3  98 281
+      3  111 262
+      3  123 238
+      3  135 219
+      3  143 200
+      3  156 180
+      3  169 162
+      3  179 146
+      3  190 129
+      3  210 118
+      3  231 118
+      3  255 117
+      3  573 305
+      3  558 290
+      3  542 270
+      3  532 247
+      3  522 226
+      3  508 208
+      3  492 185
+      3  478 169
+      3  465 153
+      3  453 134
+      3  437 115
+      3  416 116
+      3  393 116
+      3  370 117
+      3  64 308
+      3  41 308
+      3  57 287
+      3  35 285
+      3  20 305
+      3  16 283
+      3  3 303
+      3  58 265
+      3  61 241
+      3  40 240
+      3  41 261
+      3  596 305
+      3  619 305
+      3  632 304
+      3  579 289
+      3  602 288
+      3  626 288
+      3  585 269
+      3  607 269
+      3  629 269
+      3  587 250
+      3  606 251
+      3  630 251
+      3  79 277
+      3  18 263
+      3  17 240
+      3  10 277
+      3  74 263
+      3  6 253
+      3  94 262
+      3  565 270
+   end
+   objects
+
+      object sign-27088-0 of Sign
+         properties
+            x	122
+            y	307
+            loop	0
+         end
+         base described
+            text	"You have come too far. Your foolishness will be costly."
+         end
+      end
+      object sign-27088-1 of Sign
+         properties
+            x	414
+            y	257
+            loop	0
+         end
+         base described
+            text	"Escape while you can. Death lies beyond."
+         end
+      end
+      object sign-27088-2 of Sign
+         properties
+            x	214
+            y	174
+            loop	0
+         end
+         base described
+            text	"Your time in this world is short."
+         end
+      end
+      object sign-27088-3 of Sign
+         properties
+            x	360
+            y	134
+            loop	0
+         end
+         base described
+            text	"Last chance to save your miserable life."
+         end
+      end
+      object bones-27088-4 of Bones
+         properties
+            x	431
+            y	166
+            loop	0
+         end
+         base described
+            text	"You see the remains of an unfortunate adventurer. He managed to escape only this far."
+         end
+      end
+      object torch27088-5 of Torch
+         properties
+            x	290
+            y	122
+            loop	0
+         end
+         base described
+            text	"A torch to hold back the darkness."
+         end
+      end
+      object torch27088-6 of Torch
+         properties
+            x	334
+            y	123
+            loop	1
+         end
+         base described
+            text	"A torch to hold back the darkness."
+         end
+      end
+      object torch27088-7 of Torch
+         properties
+            x	26
+            y	285
+            loop	0
+         end
+         base described
+            text	"A torch to hold back the darkness."
+         end
+      end
+      object torch27088-8 of Torch
+         properties
+            x	608
+            y	310
+            loop	1
+         end
+         base described
+            text	"A torch to hold back the darkness."
+         end
+      end
+# **************************************teleport back to Winter Wold
+      object Altar-27088-9 of Altar
+         properties
+            x	400
+            y	200
+            loop	0
+         end
+         actions
+            vBeUsed teleport dobj 7300
+         end
+         base described
+            text	"Escape back to the normal world."
+         end
+      end
+# ***********************************************************
+   end
+end

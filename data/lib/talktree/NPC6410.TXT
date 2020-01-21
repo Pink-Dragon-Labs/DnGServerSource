@@ -1,0 +1,42 @@
+id 6410
+
+banner "Greetings, Friend. Welcome to Litula's Sundries. May I help you?"
+
+topic "Tell me about Silverbrook."
+        text "Silverbrook was founded by orcs, but the elves took it from them during the Continuum War."
+	text "Orcs who surrendered were allowed to remain, but those who resisted were dealt with most ruthlessly."
+	text  "There aren't any orcs around here now, but some very young elf children still have nightmares about orcs.  I remember having a few myself."
+	text  "I don't think orcs exist anywhere now, but I'm really not sure about that.  I wish I were."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard of a gargoyle statue which is not a statue at all, but an orcan god frozen in place."
+	text "He must never be released, or he will wreak vengeance on all the residents of Silverbrook."
+end      
+
+topic  "Are you interested in limericks?"
+	text  "My friend, to live in Silverbrook without an interest in limericks would be hard."
+	text  "Besides, limericks really are fun."
+	text  "Here's one I like."	
+	text  "A duck whom I happened to hear"	
+	text  "Was complaining quite sadly, 'Oh, dear!"	
+	text  "Our picnic's today"	
+	text  "But the weather-elves say"	
+	text  "That the skies will be sunny and clear.'"
+	text  "I think that one's quite clever."
+end
+
+topic "Can I do anything for you?"
+        text "No, thank you kindly. Perhaps another day."
+end
+
+topic  "Holiph sent me." q86:0 #q6205-01-525:0
+	quest 87 #6205-01-530
+	text  "Don't play games.  You already said this to me."
+end
+
+topic  "I'm looking for some small clay pots." q25:0 #q6043-01-535:0
+	quest 26 #6043-01-540
+	text  "But you already came for them."
+end
+

@@ -1,0 +1,19 @@
+quest  232 #6815-01-430        # Inila, Ambrosia of Usk, food, 8104
+
+name  "Wen Cheese for Inila"
+type  fedex
+
+proposal  "This is the right place to seek, friend.  Our jellied berries are famous throughout the Realm.  We have people coming by here from all over asking for them.  You've arrived while the berries are in season, and an excellent vintage is available.  I wonder if you would consent to a trade, friend.  I should very much like to have some special cheese that is made in Wen.  Would you get me a supply in exchange for the jellied berries? 
+
+declined  "Maybe another time."
+
+accepted  "Good.  I'm not sure where you will find the cheese, but it is the special cheese of Wen I want."
+
+reminder   "Special cheese from Wen is what I want."
+
+completed  "Ah, I can see you found the exact cheese I've been dreaming about!  Here are some specially good jellied berries."
+
+getItem   qWenCheese
+reward   qJelliedBerries 
+end
+

@@ -1,0 +1,19 @@
+quest  266 #6905-01-500        #Nattan, Northlander Weaponry, Asgard, 6905
+
+name  "Fragment of Club from Battleground of Gods"
+type  fedex
+
+proposal  "Excellent.  I'm glad to see a fellow advocate of the club ready for grand-mastery skills.  You will never regret the time you spend acquiring this level.  Skill with a club is something not enough warriors develop, to their regret.  I've seen the times when the warrior with a club saved the bacon of those with blades.  Please seek for me a club fragment from the battleground of the gods.  I'd like to have it for a little memento.  Will you do this?"
+
+declined  "If you change you mind, come back."
+
+accepted  "Good. Leinster is probably a good place to look."
+
+reminder   "Your quest is for a bit of club fragment from the battleground of the gods."
+
+completed  "Glad to see you back, apprentice.  Thanks for your efforts, and here is your skill book."
+
+getItem   qClubFragment
+reward    skbClubV
+end
+

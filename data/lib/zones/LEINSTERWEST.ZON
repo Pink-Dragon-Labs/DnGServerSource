@@ -1,0 +1,12 @@
+name "West Leinster"
+title "West Leinster"
+worldFile "../data/lib/world/LEINWEST.WLD"
+worldFile "../data/lib/world/TAVERN1.WLD"
+worldFile "../data/lib/world/TAVERN4.WLD"
+worldFile "../data/lib/world/TAVERN5.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+homeTown 2
+midiFile 23
+monster Mouse 3

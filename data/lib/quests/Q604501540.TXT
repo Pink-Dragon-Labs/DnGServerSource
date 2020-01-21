@@ -1,0 +1,19 @@
+quest  37 # 6045-01-540        # Frick, Frick's General Store, Murias, 6206
+
+name  "Frick's Lunch"
+type  fedex
+
+proposal  "I can supply you with all you need, friend.  I've got them right here.  I've just been organizing my stock since I feel pretty good today.  You wouldn't believe what I suffer with my allergy.  And why I'm so much better today I don't know, but I praise all the gods that are listening.  Is that sacrilege?  I hope not.  I wouldn't want any of them mad at me.  I've troubles enough just coping with allergies. Haven't wanted to eat lately, but today I feel so good I ordered some lunch. Would you be good enough to pick up my lunch while I package some nuggets of clove for you?"
+
+declined  "Perhaps I shouldn't have asked."
+
+accepted  "Thanks." 
+
+reminder   "You were going to pick up my lunch, remember?"
+
+completed  "Here you are.  Dab. Now I'b gettig stuffed up agaid.  Dab nab id!"
+
+getItem   qFrickLunch
+reward   qCloveNuggets 
+end
+

@@ -1,0 +1,12 @@
+quest  109 #6308-01-335   #(Andala, East Leinster Food Cart, 5028)
+
+name  "Compost Worms"
+type  fedex
+
+proposal  "So you're here for Tallie's compost worms.  Good.  Fresh vegetables are hard to come by, so I grow my own.  Compost is the only way to go, and I finally convinced Tallie.  She needs a supply of worms, which I've packaged carefully for her.  Go straight back, and they will survive."
+
+reminder  "Better get those worms back to Tallie in West Leinster.  I don't want them to die."
+
+reward  qCompostWorms
+end
+

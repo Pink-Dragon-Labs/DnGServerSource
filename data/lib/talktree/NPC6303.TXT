@@ -1,0 +1,44 @@
+id 6303
+
+banner "You must be starved after all that adventuring! Welcome to the Food Emporium."
+
+topic "Tell me about Monmouth."
+        text "People eat a lot here. Of course, they frequent my shop because all my wares are so very fresh."
+	text "Monmouth is surrounded by farming country, which means fresh supplies."
+	text "I wouldn't want to live anywhere else."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Hmmmm.  I did hear that . . . but no, I won't repeat that one."
+        text "But you know, I did hear that there are zombies out in the countryside.  Brrrrr.  I would not care to meet one myself."
+end      
+
+topic "Can I do anything for you?"
+        text "Oh, no, that's all right. Not today, thank you kindly."
+end
+
+topic  "I'm here for an order of smoked stripe." q187:0 #q6610-01-325:0
+	quest 188 #6610-01-330
+	text  "You picked it up already.  You wouldn't be trying to pull a fast one on me?"
+end
+
+topic  "Do you have any vanilla coffee beans." q375:0 #q80001-01-400:0
+	quest 376 #80001-01-425
+	text  "You took them before, friend.  You didn't lose them, did you?"
+end
+
+topic  "Do you have an order for Doforth?" q268:0 #q6905-01-530:0
+	quest 269 #6905-01-535
+	text  "I wouldn't really blame you if you tossed it away, but you know you came for it."
+end
+
+topic  "I'm looking for smoked stripe." q96:0 #q6211-01-525:0
+	quest 97 #6211-01-530
+	text  "You took them, friend."
+end
+
+topic  "Do you have smoked stripe.  Inila said to tell you Kaliri is making up a package for Sandor." q389:0 #q80500-01-440:0
+	quest  390 #80500-01-445
+	text  "You go on.  You know you have it."
+end
+

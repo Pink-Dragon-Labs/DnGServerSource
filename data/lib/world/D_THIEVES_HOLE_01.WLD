@@ -1,0 +1,1312 @@
+# Dungeonmaker World File (thiefd.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 87000
+# Dungeon last room = 87153
+# Number of objects in dungeon = 129
+# Level 0 information:
+room 87000
+	properties
+		template 30304
+		south 87001
+		flags	0
+	end
+	objects
+		object ThiefA-87000-0 of ThiefA
+			properties
+				x	444
+				y	260
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-87000-1 of DungeonBackUp
+			properties
+				x	330
+				y	232
+				loop	2
+				linkTo	movingRock3122-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FountainA-87000-2 of FountainA
+			properties
+				x	182
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87001
+	properties
+		template 31004
+		south 87002
+		north 87000
+		flags	0
+	end
+	objects
+		object ThiefC-87001-0 of ThiefC
+			properties
+				x	128
+				y	270
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefB-87001-1 of ThiefB
+			properties
+				x	302
+				y	262
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefA-87001-2 of ThiefA
+			properties
+				x	207
+				y	245
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87002
+	properties
+		template 31006
+		south 87005
+		north 87001
+		flags	0
+	end
+	objects
+		object ThiefB-87002-0 of ThiefB
+			properties
+				x	258
+				y	273
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefE-87002-1 of ThiefE
+			properties
+				x	91
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-87002-2 of ThiefD
+			properties
+				x	193
+				y	234
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefE-87002-3 of ThiefE
+			properties
+				x	115
+				y	258
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87005
+	properties
+		template 32305
+		east 87003
+		north 87002
+		flags	0
+	end
+	objects
+		object ThiefB-87005-0 of ThiefB
+			properties
+				x	234
+				y	202
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-87005-1 of ThiefD
+			properties
+				x	211
+				y	250
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87003
+	properties
+		template 30701
+		west 87005
+		flags	0
+	end
+	objects
+		object ThiefD-87003-0 of ThiefD
+			properties
+				x	122
+				y	249
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-87003-1 of DungeonBackDoor
+			properties
+				x	277
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-87012-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 87009
+	properties
+		template 30101
+		east 87008
+		flags	0
+	end
+end
+room 87008
+	properties
+		template 30703
+		east 87007
+		west 87009
+		flags	0
+	end
+end
+room 87007
+	properties
+		template 31101
+		south 87010
+		east 87006
+		west 87008
+		flags	0
+	end
+end
+room 87006
+	properties
+		template 30201
+		west 87007
+		flags	0
+	end
+	objects
+		object ThiefA-87006-0 of ThiefA
+			properties
+				x	325
+				y	269
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefE-87006-1 of ThiefE
+			properties
+				x	286
+				y	246
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-87006-2 of ThiefD
+			properties
+				x	187
+				y	247
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87010
+	properties
+		template 31001
+		south 87011
+		north 87007
+		flags	0
+	end
+	objects
+		object ThiefE-87010-0 of ThiefE
+			properties
+				x	139
+				y	271
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87062
+	properties
+		template 30301
+		flags	0
+	end
+end
+room 87012
+	properties
+		template 30805
+		east 87011
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-87012-0 of DungeonBackDoor
+			properties
+				x	245
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-87003-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 87011
+	properties
+		template 32303
+		south 87013
+		west 87012
+		north 87010
+		flags	0
+	end
+	objects
+		object ThiefE-87011-0 of ThiefE
+			properties
+				x	382
+				y	212
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-87011-1 of ThiefD
+			properties
+				x	471
+				y	213
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefC-87011-2 of ThiefC
+			properties
+				x	233
+				y	259
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefB-87011-3 of ThiefB
+			properties
+				x	99
+				y	266
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefA-87011-4 of ThiefA
+			properties
+				x	167
+				y	252
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87013
+	properties
+		template 31005
+		south 87015
+		east 87014
+		north 87011
+		flags	0
+	end
+	objects
+		object ThiefD-87013-0 of ThiefD
+			properties
+				x	148
+				y	287
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefC-87013-1 of ThiefC
+			properties
+				x	503
+				y	239
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87014
+	properties
+		template 32403
+		east 87022
+		west 87013
+		flags	0
+	end
+	objects
+		object ThiefD-87014-0 of ThiefD
+			properties
+				x	376
+				y	228
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87022
+	properties
+		template 31104
+		south 87023
+		west 87014
+		flags	0
+	end
+end
+room 87016
+	properties
+		template 30501
+		south 87017
+		east 87015
+		flags	0
+	end
+	objects
+		object ThiefB-87016-0 of ThiefB
+			properties
+				x	476
+				y	239
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 87015
+	properties
+		template 31303
+		west 87016
+		north 87013
+		flags	0
+	end
+end
+room 87023
+	properties
+		template 31001
+		south 87024
+		north 87022
+		flags	0
+	end
+end
+room 87026
+	properties
+		template 30303
+		south 87025
+		flags	0
+	end
+	objects
+		object ThiefE-87026-0 of ThiefE
+			properties
+				x	267
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-87026-1 of ThiefD
+			properties
+				x	176
+				y	241
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-87026-2 of DungeonBackDoor
+			properties
+				x	478
+				y	226
+				loop	2
+				linkTo	DungeonBackDoor-87021-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Embers-87026-3 of Embers
+			properties
+				x	149
+				y	280
+				loop	1
+			end
+			base described
+			end
+		end
+		object Embers-87026-4 of Embers
+			properties
+				x	151
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-87026-5 of Embers
+			properties
+				x	159
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-87026-6 of Fire2
+			properties
+				x	149
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke3-87026-7 of Smoke3
+			properties
+				x	91
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-87026-8 of SmokeA
+			properties
+				x	145
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87017
+	properties
+		template 30403
+		north 87016
+		flags	0
+	end
+	objects
+		object TrapDoor-87017-0 of TrapDoor
+			properties
+				x	206
+				y	255
+				loop	0
+				linkTo	DungeonBackUp-87031-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 87024
+	properties
+		template 30801
+		east 87025
+		north 87023
+		flags	0
+	end
+end
+room 87025
+	properties
+		template 32601
+		west 87024
+		north 87026
+		flags	0
+	end
+end
+room 87029
+	properties
+		template 30301
+		south 87030
+		flags	0
+	end
+	objects
+		object LockedChest-87029-0 of LockedChest
+			properties
+				x	475
+				y	263
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object ThiefD-87029-1 of ThiefD
+			properties
+				x	558
+				y	288
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefE-87029-2 of ThiefE
+			properties
+				x	255
+				y	277
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Spring-87029-3 of Spring
+			properties
+				x	35
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-87029-4 of Shroom3
+			properties
+				x	98
+				y	308
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-87029-5 of Shroom1
+			properties
+				x	98
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-87029-6 of Shroom2
+			properties
+				x	65
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-87029-7 of Shroom3
+			properties
+				x	65
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-87029-8 of Shroom3
+			properties
+				x	50
+				y	272
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-87029-9 of Shroom3
+			properties
+				x	15
+				y	327
+				loop	0
+			end
+			base described
+			end
+		end
+		object Strynx-87029-10 of Strynx
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	ThiefD-87029-1
+			end
+			base described
+			end
+		end
+		object Mirror-87029-11 of Mirror
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	ThiefE-87029-2
+			end
+			base described
+			end
+		end
+		object RandomAmulet-87029-12 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-87029-13 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-87029-14 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomRing-87029-15 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-87029-16 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomBauble-87029-17 of RandomBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-87029-18 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomWand-87029-19 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterBauble-87029-20 of RandomMonsterBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterRing-87029-21 of RandomMonsterRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterOrb-87029-22 of RandomMonsterOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterAmulet-87029-23 of RandomMonsterAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomWand-87029-24 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterWand-87029-25 of RandomMonsterWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomChainCowl-87029-26 of RandomChainCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+		object RandomRichThiefWeapon-87029-27 of RandomRichThiefWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87029-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87021
+	properties
+		template 30805
+		east 87020
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-87021-0 of DungeonBackDoor
+			properties
+				x	245
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-87026-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-87021-1 of Torch
+			properties
+				x	155
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-87021-2 of Stalagmite3
+			properties
+				x	34
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-87021-3 of Stalagmite1
+			properties
+				x	94
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-87021-4 of Rock1
+			properties
+				x	73
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-87021-5 of Rock2
+			properties
+				x	621
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87020
+	properties
+		template 30909
+		south 87027
+		west 87021
+		flags	0
+	end
+	objects
+		object Torch-87020-0 of Torch
+			properties
+				x	299
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-87020-1 of Web3
+			properties
+				x	481
+				y	123
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fountain-87020-2 of Fountain
+			properties
+				x	408
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-87020-3 of Stool
+			properties
+				x	308
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87031
+	properties
+		template 30101
+		east 87030
+		flags	0
+	end
+	objects
+		object ThiefA-87031-0 of ThiefA
+			properties
+				x	479
+				y	232
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-87031-1 of DungeonBackUp
+			properties
+				x	92
+				y	223
+				loop	2
+				linkTo	TrapDoor-87017-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Stalagmite1-87031-2 of Stalagmite1
+			properties
+				x	166
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-87031-3 of Stalagmite2
+			properties
+				x	199
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87030
+	properties
+		template 31303
+		west 87031
+		north 87029
+		flags	0
+	end
+end
+room 87028
+	properties
+		template 30501
+		east 87027
+		flags	0
+	end
+	objects
+		object LockedChest-87028-0 of LockedChest
+			properties
+				x	347
+				y	277
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Bed-87028-1 of Bed
+			properties
+				x	240
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-87028-2 of Embers
+			properties
+				x	491
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire3-87028-3 of Fire3
+			properties
+				x	484
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-87028-4 of SmokeA
+			properties
+				x	481
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-87028-5 of Stool
+			properties
+				x	411
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-87028-6 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object RandomJunk-87028-7 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object RandomJunk-87028-8 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-87028-9 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object RandomBoots-87028-10 of RandomBoots
+			properties
+				x	268
+				y	288
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-87028-11 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object RandomPants-87028-12 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-87028-13 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object AnimalHide-87028-14 of AnimalHide
+			properties
+				x	479
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-87028-15 of AnimalHide
+			properties
+				x	153
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object AnimalHide-87028-16 of AnimalHide
+			properties
+				x	176
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object WolfPelt-87028-17 of WolfPelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+		object Mug-87028-18 of Mug
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-87028-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 87027
+	properties
+		template 32701
+		west 87028
+		north 87020
+		flags	0
+	end
+	objects
+		object Torch-87027-0 of Torch
+			properties
+				x	88
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

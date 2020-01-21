@@ -1,0 +1,40 @@
+id 8314
+
+banner "Welcome to the Emerald Forest Tavern, hon. How can Dark Jana help you?"
+
+topic "Tell me about Drune."
+        text "Certainly, hon. Drune is populated primarily by elves, though other races are certainly welcome."
+        text "It is said that our village is one of the most beautiful in the entire realm. If you are interested in elven religion, you should definitely visit the forests around Drune. Many of the older elves worship only in the forests."
+end
+
+topic "Who are you?"
+        text "I am called Dark Jana, though I cannot say how it started. I am elven, and have lived in Drune all my life."
+        text "We elves are a religious race. Most of our elders worship the old gods, but many of us younger elves celebrate Enid as our first deity."
+end      
+
+topic   "Do you like limericks?"
+	text "That I do, hon, that I do."
+	text "Here's a good one."
+	text "There was an elf living at Rhine"
+	text "Who was asked at what hour he would dine."
+	text "He replied, 'At eleven,"
+	text "Two, four, six and seven."
+	text "Not to mention a quarter to nine.'"
+	text "You did ask, you know."
+	text "Usually makes me think of eating, too!"
+end
+
+topic "Can I do something for you?"
+        text "Thank you, hon, but I haven't anything for you to do today. Perhaps tomorrow."
+end
+
+topic  "I'm looking for a green glass globe." q235:0 #q6815-01-500:0
+	quest 236 #6815-01-525
+	text  "You already carried it away, hon."
+end
+
+topic  "I'm seeking a shield relic from the Dark Forest." q200:0 #q6807-01-400:0
+	quest  201 #6807-01-425
+	text  "Don't you recall?  I gave one to you for the boot bottle."
+end
+

@@ -1,0 +1,2793 @@
+object Skillbook of Book
+	properties
+		level 0
+		view 51150
+		clutStart 83
+		color -1
+	end
+
+	base described
+		text "You see a skillbook."
+		shopText "This skillbook will teach you many things."
+	end
+
+	base teach
+		skill -1
+		bp 0
+	end
+end
+
+object skbBasketWeaving of Book
+	properties
+		name "The Basics of Basketweaving"
+		value 25
+	end
+
+	base described
+		text "You see an interesting book about making baskets."
+		shopText "Ahh.... I'm sure you'd love to learn to make baskets."
+	end
+end
+
+object skbPsychology of Book
+	properties
+		name "Psychology of a Realm Player"
+		value 25
+	end
+
+	base described
+		text "You see an interesting discourse on psychology."
+		shopText "This book contains vital information about psychology."
+	end
+end
+
+object skbFriends of Book
+	properties
+		name "Making Friends and Being Polite in the Realm"
+		value 25
+	end
+
+	base described
+		text "You see a book about etiquette."
+		shopText "You can learn many things from this book."
+	end
+end
+
+object skbShortSword of Skillbook
+	base teach
+		skill 0
+		objectRequired ShortSword
+	end
+end
+
+object skbShortSwordI of skbShortSword
+	properties
+		name "Familiarity with Short Swords"
+		level 1
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of using a short sword."
+		shopText "This book will teach you the basics of using a short sword."
+	end
+end
+
+object skbShortSwordII of skbShortSword
+	properties
+		name "Short Sword Proficiency"
+		level 2
+		value 200
+		strength 1
+		dexterity 2
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Memorizing this manual will make you proficient with short swords."
+		shopText "Memorizing this manual will make you proficient with short swords."
+	end
+end
+
+object skbShortSwordIII of skbShortSword
+	properties
+		name "Short Sword Expertise"
+		level 3
+		value 400
+		strength 2
+		dexterity 3
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Reading this book will make you an expert with short swords."
+		shopText "Reading this book will make you an expert with short swords."
+	end
+end
+
+object skbShortSwordIV of skbShortSword
+	properties
+		name "The Master's Book of Short Swords"
+		level 4
+		value 750
+		strength 4
+		dexterity 5
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will make you a short sword combat master."
+		shopText "Reading this book will make you a short sword combat master."
+	end
+end
+
+object skbShortSwordV of skbShortSword
+	properties
+		name "Short Sword Grand-Mastery"
+		level 5
+		value 1000
+		strength 5
+		dexterity 6
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Understanding this treatment will make you a grand-master of short sword combat."
+		shopText "Understanding this treatment will make you a grand-master of short sword combat."
+	end
+end
+
+object skbLongSword of Skillbook
+	base teach
+		skill 1
+		objectRequired LongSword
+	end
+end
+
+object skbLongSwordI of skbLongSword
+	properties
+		name "Familiarity with Long Swords"
+		level 1
+		strength 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of using a long sword."
+		shopText "This book will teach you the basics of using a long sword."
+	end
+end
+
+object skbLongSwordII of skbLongSword
+	properties
+		name "Long Sword Proficiency"
+		level 2
+		value 200
+		strength 4
+		dexterity 2
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with long swords."
+		shopText "Reading this book will make you proficient with long swords."
+	end
+end
+
+object skbLongSwordIII of skbLongSword
+	properties
+		name "Expertise with Long Swords"
+		level 3
+		value 400
+		strength 5
+		dexterity 3
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book can make you an expert with long swords."
+		shopText "This book can make you an expert with long swords."
+	end
+end
+
+object skbLongSwordIV of skbLongSword
+	properties
+		name "Long Sword Mastery"
+		level 4
+		value 750
+		strength 6
+		dexterity 4
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will make you a master with long sword combat techniques."
+		shopText "Reading this book will make you a master with long sword combat techniques."
+	end
+end
+
+object skbLongSwordV of skbLongSword
+	properties
+		name "Long Sword Grand-Mastery"
+		level 5
+		value 1000
+		strength 7
+		dexterity 6
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Understanding this treatment will make you a grand-master of long sword combat."
+		shopText "Understanding this treatment will make you a grand-master of long sword combat."
+	end
+end
+
+object skbTwoHandedSword of Skillbook
+	base teach
+		skill 2
+		objectRequired TwoHandSword
+	end
+end
+
+object skbTwoHandedSwordI of skbTwoHandedSword
+	properties
+		name "Familiarity with Two-Handed Swords"
+		level 1
+		strength 3
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of using a two-handed sword."
+		shopText "This book will teach you the basics of using a two-handed sword."
+	end
+end
+
+object skbTwoHandedSwordII of skbTwoHandedSword
+	properties
+		name "Two-Handed Sword Proficiency"
+		level 2
+		value 200
+		strength 5
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with two-handed swords."
+		shopText "Reading this book will make you proficient with two-handed swords."
+	end
+end
+
+object skbTwoHandedSwordIII of skbTwoHandedSword
+	properties
+		name "Expertise with Two-Handed Swords"
+		level 3
+		value 400
+		strength 8
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book can make you an expert with two-handed swords."
+		shopText "This book can make you an expert with two-handed swords."
+	end
+end
+
+object skbTwoHandedSwordIV of skbTwoHandedSword
+	properties
+		name "Two-Handed Sword Mastery"
+		level 4
+		value 750
+		strength 12
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will make you a master with two-handed sword combat."
+		shopText "Reading this book will make you a master with two-handed sword combat."
+	end
+end
+
+object skbTwoHandedSwordV of skbTwoHandedSword
+	properties
+		name "Two-Handed Sword Grand-Mastery"
+		level 5
+		value 1000
+		strength 15
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Understanding this treatment will make you a grand-master of two-handed sword combat."
+		shopText "Understanding this treatment will make you a grand-master of two-handed sword combat."
+	end
+end
+
+object skbDagger of Skillbook
+	base teach
+		skill 3
+		objectRequired Dagger
+	end
+end
+
+object skbDaggerI of skbDagger
+	properties
+		name "Familiarity with Daggers"
+		level 1
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you rudimentary dagger combat."
+		shopText "This book will teach you rudimentary dagger combat."
+	end
+end
+
+object skbDaggerII of skbDagger
+	properties
+		name "Dagger Proficiency"
+		level 2
+		value 200
+		dexterity 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with daggers."
+		shopText "Reading this book will make you proficient with daggers."
+	end
+end
+
+object skbDaggerIII of skbDagger
+	properties
+		name "Expertise with Daggers"
+		level 3
+		value 400
+		dexterity 5
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book can make you an expert with dagger combat."
+		shopText "This book can make you an expert with dagger combat."
+	end
+end
+
+object skbDaggerIV of skbDagger
+	properties
+		name "Dagger Mastery"
+		level 4
+		value 750
+		dexterity 7
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book can make you a master in dagger combat."
+		shopText "This book can make you a master in dagger combat."
+	end
+end
+
+object skbDaggerV of skbDagger
+	properties
+		name "Dagger Grand-Mastery"
+		level 5
+		value 1000
+		dexterity 9
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Understanding this treatment will make you a grand-master of daggercombat."
+		shopText "Understanding this treatment will make you a grand-master of dagger combat."
+	end
+end
+
+object skbAxe of Skillbook
+	base teach
+		skill 4
+		objectRequired Axe
+	end
+end
+
+object skbAxeI of skbAxe
+	properties
+		name "Familiarity with Axes"
+		level 1
+		strength 3
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of combat with axes."
+		shopText "This book will teach you the basics of combat with axes."
+	end
+end
+
+object skbAxeII of skbAxe
+	properties
+		name "Axe Proficiency"
+		level 2
+		value 200
+		strength 6
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with axes."
+		shopText "Reading this book will make you proficient with axes."
+	end
+end
+
+object skbAxeIII of skbAxe
+	properties
+		name "Expertise with Axes"
+		level 3
+		value 400
+		strength 9
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Understanding this book will make you an expert with axe combat techniques."
+		shopText "Understanding this book will make you an expert with axe combat techniques."
+	end
+end
+
+object skbAxeIV of skbAxe
+	properties
+		name "Axe Mastery"
+		level 4
+		value 750
+		strength 12
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book can make you a master in axe combat."
+		shopText "This book can make you a master in axe combat."
+	end
+end
+
+object skbAxeV of skbAxe
+	properties
+		name "Axe Grand-Mastery"
+		level 5
+		value 1000
+		strength 16
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will make you a grand-master of axe combat techniques."
+		shopText "Reading this book will make you a grand-master of axe combat techniques."
+	end
+end
+
+object skbClub of Skillbook
+	base teach
+		skill 5
+		objectRequired Club
+	end
+end
+
+object skbClubI of skbClub
+	properties
+		name "Familiarity with Clubs"
+		level 1
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you rudimentary combat techniques with clubs."
+		shopText "This book will teach you rudimentary combat techniques with clubs."
+	end
+end
+
+object skbClubII of skbClub
+	properties
+		name "Club Proficiency"
+		level 2
+		value 200
+		strength 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with using clubs in combat."
+		shopText "Reading this book will make you proficient with using clubs in combat."
+	end
+end
+
+object skbClubIII of skbClub
+	properties
+		name "Expertise with Clubs"
+		level 3
+		value 400
+		strength 6
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Understanding this book will make you an expert combatant with clubs."
+		shopText "Understanding this book will make you an expert combatant with clubs."
+	end
+end
+
+object skbClubIV of skbClub
+	properties
+		name "Club Mastery"
+		level 4
+		value 750
+		strength 10
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book can make you a master in combat techniques with clubs."
+		shopText "This book can make you a master in combat techniques with clubs."
+	end
+end
+
+object skbClubV of skbClub
+	properties
+		name "Club Grand-Mastery"
+		level 5
+		value 1000
+		strength 13
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will make you a grand-master of club combat techniques."
+		shopText "Reading this book will make you a grand-master of club combat techniques."
+	end
+end
+
+
+object skbMace of Skillbook
+	base teach
+		skill 6
+		objectRequired Mace
+	end
+end
+
+object skbMaceI of skbMace
+	properties
+		name "Familiarity with Maces"
+		level 1
+		strength 2
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you rudimentary combat techniques with maces."
+		shopText "This book will teach you rudimentary combat techniques with maces."
+	end
+end
+
+object skbMaceII of skbMace
+	properties
+		name "Mace Proficiency"
+		level 2
+		value 200
+		strength 4
+		dexterity 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with using maces in combat."
+		shopText "Reading this book will make you proficient with using maces in combat."
+	end
+end
+
+object skbMaceIII of skbMace
+	properties
+		name "Expertise with Maces"
+		level 3
+		value 400
+		strength 5
+		dexterity 4
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Understanding this book will make you an expert with mace combat techniques."
+		shopText "Understanding this book will make you an expert with mace combat techniques."
+	end
+end
+
+object skbMaceIV of skbMace
+	properties
+		name "Mace Mastery"
+		level 4
+		value 750
+		strength 7
+		dexterity 5
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book can make you a master in combat techniques with maces."
+		shopText "This book can make you a master in combat techniques with maces."
+	end
+end
+
+object skbMaceV of skbMace
+	properties
+		name "Mace Grand-Mastery"
+		level 5
+		value 1000
+		strength 8
+		dexterity 6
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will make you a grand-master of mace combat techniques."
+		shopText "Reading this book will make you a grand-master of mace combat techniques."
+	end
+end
+
+
+object skbUnarmedCombat of Skillbook
+	base teach
+		skill 7
+	end
+end
+
+object skbUnarmedCombatI of skbUnarmedCombat
+	properties
+		name "Familiarity with Unarmed Combat"
+		level 1
+		strength 2
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you basic hand-to-hand combat skills."
+		shopText "This book will teach you basic hand-to-hand combat skills."
+	end
+end
+
+object skbUnarmedCombatII of skbUnarmedCombat
+	properties
+		name "Unarmed Combat Proficiency"
+		level 2
+		value 200
+		strength 3
+		dexterity 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with hand-to-hand combat techniques."
+		shopText "Reading this book will make you proficient with hand-to-hand combat techniques."
+	end
+end
+
+object skbUnarmedCombatIII of skbUnarmedCombat
+	properties
+		name "Expertise with Unarmed Combat"
+		level 3
+		value 400
+		strength 4
+		dexterity 4
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Understanding this book will make you an expert with unarmed combat techniques."
+		shopText "Understanding this book will make you an expert with unarmed combat techniques."
+	end
+end
+
+object skbUnarmedCombatIV of skbUnarmedCombat
+	properties
+		name "Unarmed Combat Mastery"
+		level 4
+		value 750
+		strength 5
+		dexterity 5
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book can make you a master in unarmed combat techniques."
+		shopText "This book can make you a master in unarmed combat techniques."
+	end
+end
+
+object skbUnarmedCombatV of skbUnarmedCombat
+	properties
+		name "Unarmed Combat Grand-Mastery"
+		level 5
+		value 1000
+		strength 6
+		dexterity 8
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will make you a grand-master of unarmed combat techniques."
+		shopText "Reading this book will make you a grand-master of unarmed combat techniques."
+	end
+end
+
+object skbThrowingWeapon of Skillbook
+	base teach
+		skill 8
+		objectRequired ThrowingWeapon
+	end
+end
+
+object skbThrowingWeaponI of skbThrowingWeapon
+	properties
+		name "Familiarity with Throwing Weapons"
+		level 1
+		dexterity 3
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of weapon-throwing."
+		shopText "This book will teach you the basics of weapon-throwing."
+	end
+end
+
+object skbThrowingWeaponII of skbThrowingWeapon
+	properties
+		name "Throwing Weapon Proficiency"
+		level 2
+		value 200
+		dexterity 6
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with throwing weapon techniques."
+		shopText "Reading this book will make you proficient with throwing weapon techniques."
+	end
+end
+
+object skbThrowingWeaponIII of skbThrowingWeapon
+	properties
+		name "Expertise with Throwing Weapons"
+		level 3
+		value 400
+		dexterity 9
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Understanding this book will make you an expert with throwing weapons."
+		shopText "Understanding this book will make you an expert with throwing weapons."
+	end
+end
+
+object skbThrowingWeaponIV of skbThrowingWeapon
+	properties
+		name "Throwing Weapon Mastery"
+		level 4
+		value 750
+		dexterity 12
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Understanding this book will make you a master with throwing weapons."
+		shopText "Understanding this book will make you a master with throwing weapons."
+	end
+end
+
+object skbThrowingWeaponV of skbThrowingWeapon
+	properties
+		name "Throwing Weapon Grand-Mastery"
+		level 5
+		value 1000
+		dexterity 15
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will make you a grand-master of combat with throwing weapons."
+		shopText "Reading this book will make you a grand-master of combat with throwing weapons."
+	end
+end
+
+
+object skbAcrobatic of Skillbook
+	base teach
+		skill 9
+	end
+end
+
+object skbAcrobaticI of skbAcrobatic
+	properties
+		name "Familiarity with Acrobatics"
+		level 1
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of dodging and acrobatics."
+		shopText "This book will teach you the basics of dodging and acrobatics."
+	end
+end
+
+object skbAcrobaticII of skbAcrobatic
+	properties
+		name "Acrobatic Proficiency"
+		level 2
+		value 200
+		intelligence 3
+		dexterity 4
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of dodging and acrobatics."
+		shopText "This book will teach you proficiencies of dodging and acrobatics."
+	end
+end
+
+object skbAcrobaticIII of skbAcrobatic
+	properties
+		name "Expertise with Acrobatics"
+		level 3
+		value 400
+		intelligence 4
+		dexterity 6
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Reading this book can make you an expert acrobat."
+		shopText "Reading this book can make you an expert acrobat."
+	end
+end
+
+object skbAcrobaticIV of skbAcrobatic
+	properties
+		name "Acrobatic Mastery"
+		level 4
+		value 750
+		intelligence 5
+		dexterity 8
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book can make you a master acrobat."
+		shopText "Reading this book can make you a master acrobat."
+	end
+end
+
+object skbAcrobaticV of skbAcrobatic
+	properties
+		name "Acrobatic Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 6
+		dexterity 10
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will teach you grand-master techniques of dodging and acrobatics."
+		shopText "Reading this book will teach you grand-master techniques of dodging and acrobatics."
+	end
+end
+
+
+object skbMaul of Skillbook
+	base teach
+		skill 10
+		objectRequired Maul
+	end
+end
+
+object skbMaulI of skbMaul
+	properties
+		name "Familiarity with Mauls"
+		level 1
+		strength 4
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of combat with mauls."
+		shopText "This book will teach you the basics of combat with mauls."
+	end
+end
+
+object skbMaulII of skbMaul
+	properties
+		name "Maul Proficiency"
+		level 2
+		value 200
+		strength 7
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "Reading this book will make you proficient with maul combat techniques."
+		shopText "Reading this book will make you proficient with maul combat techniques."
+	end
+end
+
+object skbMaulIII of skbMaul
+	properties
+		name "Expertise with Mauls"
+		level 3
+		value 400
+		strength 10
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "Understanding this book will make you an expert with maul combat."
+		shopText "Understanding this book will make you an expert with maul combat."
+	end
+end
+
+object skbMaulIV of skbMaul
+	properties
+		name "Maul Mastery"
+		level 4
+		value 750
+		strength 13
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Understanding this book will make you a master with maul combat."
+		shopText "Understanding this book will make you a master with maul combat."
+	end
+end
+
+object skbMaulV of skbMaul
+	properties
+		name "Maul Grand-Mastery"
+		level 5
+		value 1000
+		strength 18
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "Reading this book will make you a grand-master of combat with mauls."
+		shopText "Reading this book will make you a grand-master of combat with mauls."
+	end
+end
+
+object skbSorcery of Skillbook
+	base teach
+		skill 11
+	end
+end
+
+object skbSorceryI of skbSorcery
+	properties
+		name "Familiar Sorceries"
+		level 1
+		intelligence 4
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundamentals of sorcery."
+		shopText "This book will teach you the fundamentals of sorcery."
+	end
+end
+
+object skbSorceryII of skbSorcery
+	properties
+		name "Sorcery Proficiencies"
+		level 2
+		value 200
+		intelligence 7
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This manual will instruct you on sorcery proficiencies."
+		shopText "This manual will instruct you on sorcery proficiencies."
+	end
+end
+
+object skbSorceryIII of skbSorcery
+	properties
+		name "Expert Sorceries"
+		level 3
+		value 400
+		intelligence 10
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you to become an expert sorcerer."
+		shopText "This book will teach you to become an expert sorcerer."
+	end
+end
+
+object skbSorceryIV of skbSorcery
+	properties
+		name "Sorcery Mastery"
+		level 4
+		value 750
+		intelligence 13
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book will teach you master-level techniques of sorcery."
+		shopText "This book will teach you master-level techniques of sorcery."
+	end
+end
+
+object skbSorceryV of skbSorcery
+	properties
+		name "Sorcery Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 16
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you to become a sorcery grand-master."
+		shopText "This book will teach you to become a sorcery grand-master."
+	end
+end
+
+object skbElementalism of Skillbook
+	base teach
+		skill 12
+	end
+end
+
+object skbElementalismI of skbElementalism
+	properties
+		name "Familiar Elemental Spells"
+		level 1
+		intelligence 4
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundamentals of elementalism."
+		shopText "This book will teach you the fundamentals of elementalism."
+	end
+end
+
+object skbElementalismII of skbElementalism
+	properties
+		name "Elementalism Proficiencies"
+		level 2
+		value 200
+		intelligence 7
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This manual will instruct you on elementalism proficiencies."
+		shopText "This manual will instruct you on elementalism proficiencies."
+	end
+end
+
+object skbElementalismIII of skbElementalism
+	properties
+		name "Expert Elemental Spells"
+		level 3
+		value 400
+		intelligence 10
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you to become an expert elementalist."
+		shopText "This book will teach you to become an expert elementalist."
+	end
+end
+
+object skbElementalismIV of skbElementalism
+	properties
+		name "Elementalism Mastery"
+		level 4
+		value 750
+		intelligence 13
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book will teach you master-level techniques of elementalism."
+		shopText "This book will teach you master-level techniques of elementalism."
+	end
+end
+
+object skbElementalismV of skbElementalism
+	properties
+		name "Elementalism Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 16
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you to become a elementalism grand-master."
+		shopText "This book will teach you to become a elementalism grand-master."
+	end
+end
+
+object skbMysticism of Skillbook
+	base teach
+		skill 13
+	end
+end
+
+object skbMysticismI of skbMysticism
+	properties
+		name "Familiar Mystic Spells"
+		level 1
+		intelligence 4
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundamentals of mysticism."
+		shopText "This book will teach you the fundamentals of mysticism."
+	end
+end
+
+object skbMysticismII of skbMysticism
+	properties
+		name "Mysticism Proficiencies"
+		level 2
+		value 200
+		intelligence 7
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This manual will instruct you on mysticism proficiencies."
+		shopText "This manual will instruct you on mysticism proficiencies."
+	end
+end
+
+object skbMysticismIII of skbMysticism
+	properties
+		name "Expert Mystic Spells"
+		level 3
+		value 400
+		intelligence 10
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you to become an expert mysticist."
+		shopText "This book will teach you to become an expert mysticist."
+	end
+end
+
+object skbMysticismIV of skbMysticism
+	properties
+		name "Mysticism Mastery"
+		level 4
+		value 750
+		intelligence 13
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book will teach you master-level techniques of mysticism."
+		shopText "This book will teach you master-level techniques of mysticism."
+	end
+end
+
+object skbMysticismV of skbMysticism
+	properties
+		name "Mysticism Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 16
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you to become a grand-master of mysticism."
+		shopText "This book will teach you to become a grand-master of mysticism."
+	end
+end
+
+object skbThaumaturgy of Skillbook
+	base teach
+		skill 14
+	end
+end
+
+object skbThaumaturgyI of skbThaumaturgy
+	properties
+		name "Familiar Thaumaturgical Spells"
+		level 1
+		intelligence 4
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundamentals of thaumaturgy."
+		shopText "This book will teach you the fundamentals of thaumaturgy."
+	end
+end
+
+object skbThaumaturgyII of skbThaumaturgy
+	properties
+		name "Thaumaturgy Proficiencies"
+		level 2
+		value 200
+		intelligence 7
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This manual will instruct you on thaumaturgy proficiencies."
+		shopText "This manual will instruct you on thaumaturgy proficiencies."
+	end
+end
+
+object skbThaumaturgyIII of skbThaumaturgy
+	properties
+		name "Expert Thaumaturgical Spells"
+		level 3
+		value 400
+		intelligence 10
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you to become an expert thaumaturgist."
+		shopText "This book will teach you to become an expert thaumaturgist."
+	end
+end
+
+object skbThaumaturgyIV of skbThaumaturgy
+	properties
+		name "Thaumaturgy Mastery"
+		level 4
+		value 750
+		intelligence 13
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book will teach you master-level techniques of thaumaturgy."
+		shopText "This book will teach you master-level techniques of thaumaturgy."
+	end
+end
+
+object skbThaumaturgyV of skbThaumaturgy
+	properties
+		name "Thaumaturgy Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 16
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you to become a grand-master of thaumaturgy."
+		shopText "This book will teach you to become a grand-master of thaumaturgy."
+	end
+end
+
+object skbNecromancy of Skillbook
+	base teach
+		skill 15
+	end
+end
+
+object skbNecromancyI of skbNecromancy
+	properties
+		name "Familiar Necromancy Spells"
+		level 1
+		intelligence 4
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundamentals of necromancy."
+		shopText "This book will teach you the fundamentals of necromancy."
+	end
+end
+
+object skbNecromancyII of skbNecromancy
+	properties
+		name "Necromancy Proficiencies"
+		level 2
+		value 200
+		intelligence 7
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This manual will instruct you on necromancy proficiencies."
+		shopText "This manual will instruct you on necromancy proficiencies."
+	end
+end
+
+object skbNecromancyIII of skbNecromancy
+	properties
+		name "Expert Necromancy Spells"
+		level 3
+		value 400
+		intelligence 10
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you to become an expert necromancer."
+		shopText "This book will teach you to become an expert necromancer."
+	end
+end
+
+object skbNecromancyIV of skbNecromancy
+	properties
+		name "Necromancy Mastery"
+		level 4
+		value 750
+		intelligence 13
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This book will teach you master-level techniques of necromancy."
+		shopText "This book will teach you master-level techniques of necromancy."
+	end
+end
+
+object skbNecromancyV of skbNecromancy
+	properties
+		name "Necromancy Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 16
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you to become a grand-master of necromancy."
+		shopText "This book will teach you to become a grand-master of necromancy."
+	end
+end
+
+object skbTheurgism of Skillbook
+	base teach
+		skill 16
+	end
+end
+
+object skbTheurgismI of skbTheurgism
+	properties
+		name "Familiar Theurgism"
+		level 1
+		intelligence 2
+		dexterity 1
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of using magical items."
+		shopText "This book will teach you the basics of using magical items."
+	end
+end
+
+object skbTheurgismII of skbTheurgism
+	properties
+		name "Theurgism Proficiencies"
+		level 2
+		value 200
+		intelligence 3
+		dexterity 1
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of theurgism."
+		shopText "This book will teach you proficiencies of theurgism."
+	end
+end
+
+object skbTheurgismIII of skbTheurgism
+	properties
+		name "Theurgism Expertise"
+		level 3
+		value 400
+		intelligence 5
+		dexterity 1
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert-level methods of theurgism."
+		shopText "This book will teach you expert-level methods of theurgism."
+	end
+end
+
+object skbTheurgismIV of skbTheurgism
+	properties
+		name "Theurgism Mastery"
+		level 4
+		value 750
+		intelligence 7
+		dexterity 1
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of theurgism."
+		shopText "This manual will instruct you on the mastery of theurgism."
+	end
+end
+
+object skbTheurgismV of skbTheurgism
+	properties
+		name "Theurgism Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 10
+		dexterity 1
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of theurgism."
+		shopText "This book will teach you grandmastery of theurgism."
+	end
+end
+
+object skbAlchemy of Skillbook
+	base teach
+		skill 17
+		objectRequired AlchemyTools
+	end
+end
+
+object skbAlchemyI of skbAlchemy
+	properties
+		name "Familiar Alchemy"
+		level 1
+		intelligence 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of making potions.  You will need a alchemy tool to use the skill. "
+		shopText "This book will teach you how to follow trails.  You will need a alchemy tool to use the skill. "
+	end
+end
+
+object skbAlchemyII of skbAlchemy
+	properties
+		name "Alchemy Proficiencies"
+		level 2
+		value 200
+		intelligence 4
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of alchemy."
+		shopText "This book will teach you proficiencies of alchemy."
+	end
+end
+
+object skbAlchemyIII of skbAlchemy
+	properties
+		name "Alchemy Expertise"
+		level 3
+		value 400
+		intelligence 7
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert-level methods of alchemy."
+		shopText "This book will teach you expert-level methods of alchemy."
+	end
+end
+
+object skbAlchemyIV of skbAlchemy
+	properties
+		name "Alchemy Mastery"
+		level 4
+		value 750
+		intelligence 10
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of alchemy."
+		shopText "This manual will instruct you on the mastery of alchemy."
+	end
+end
+
+object skbAlchemyV of skbAlchemy
+	properties
+		name "Alchemy Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 13
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of alchemy."
+		shopText "This book will teach you grandmastery of alchemy."
+	end
+end
+
+object skbWeaponsmithing of Skillbook
+	base teach
+		skill 18
+		objectRequired WeaponsmithingTools
+	end
+end
+
+object skbWeaponsmithingI of skbWeaponsmithing
+	properties
+		name "Familiar Weaponsmithing"
+		level 1
+		strength 2
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of crafting fine weapons.  You will need a weaponsmithing tool to use the skill."
+		shopText "This book will teach you the basics of crafting fine weapons.  You will need a weaponsmithing tool to use the skill."
+	end
+end
+
+object skbWeaponsmithingII of skbWeaponsmithing
+	properties
+		name "Weaponsmithing Proficiencies"
+		level 2
+		value 200
+		strength 4
+		dexterity 4
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of weaponsmithing."
+		shopText "This book will teach you proficiencies of weaponsmithing."
+	end
+end
+
+object skbWeaponsmithingIII of skbWeaponsmithing
+	properties
+		name "Expert Weaponsmithing"
+		level 3
+		value 400
+		strength 6
+		dexterity 6
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert-level methods of weaponsmithing."
+		shopText "This book will teach you expert-level methods of weaponsmithing."
+	end
+end
+
+object skbWeaponsmithingIV of skbWeaponsmithing
+	properties
+		name "Weaponsmithing Mastery"
+		level 4
+		value 750
+		strength 8
+		dexterity 8
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of weaponsmithing."
+		shopText "This manual will instruct you on the mastery of weaponsmithing."
+	end
+end
+
+object skbWeaponsmithingV of skbWeaponsmithing
+	properties
+		name "Weaponsmithing Grand-Mastery"
+		level 5
+		value 1000
+		strength 9
+		dexterity 9
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of weaponsmithing."
+		shopText "This book will teach you grandmastery of weaponsmithing."
+	end
+end
+
+object skbArmorcrafting of Skillbook
+	base teach
+		skill 19
+		objectRequired ArmorcraftingTools
+	end
+end
+
+object skbArmorcraftingI of skbArmorcrafting
+	properties
+		name "Familiar Armorcrafting"
+		level 1
+		strength 2
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of crafting armor.  You will need a armorer tool to use the skill."
+		shopText "This book will teach you the basics of crafting armor.  You will need a armorer tool to use the skill."
+	end
+end
+
+object skbArmorcraftingII of skbArmorcrafting
+	properties
+		name "Armorcrafting Proficiencies"
+		level 2
+		value 200
+		strength 4
+		dexterity 4
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of armorcrafting."
+		shopText "This book will teach you proficiencies of armorcrafting."
+	end
+end
+
+object skbArmorcraftingIII of skbArmorcrafting
+	properties
+		name "Expert Armorcrafting"
+		level 3
+		value 400
+		strength 6
+		dexterity 6
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert-level methods of armorcrafting."
+		shopText "This book will teach you expert-level methods of armorcrafting."
+	end
+end
+
+object skbArmorcraftingIV of skbArmorcrafting
+	properties
+		name "Armorcrafting Mastery"
+		level 4
+		value 750
+		strength 8
+		dexterity 8
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of armorcrafting."
+		shopText "This manual will instruct you on the mastery of armorcrafting."
+	end
+end
+
+object skbArmorcraftingV of skbArmorcrafting
+	properties
+		name "Armorcrafting Grand-Mastery"
+		level 5
+		value 1000
+		strength 9
+		dexterity 9
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of armorcrafting."
+		shopText "This book will teach you grandmastery of armorcrafting."
+	end
+end
+
+
+object skbTracking of Skillbook
+	base teach
+		skill 22
+		objectRequired TrackingTools
+	end
+end
+
+object skbTrackingI of skbTracking
+	properties
+		name "Familiar Tracking"
+		level 1
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you how to follow trails.  You will need a tracking tool to use the skill."
+		shopText "This book will teach you how to follow trails.  You will need a tracking tool to use the skill."
+	end
+end
+
+object skbTrackingII of skbTracking
+	properties
+		name "Tracking Proficiencies"
+		level 2
+		value 200
+		intelligence 3
+	end
+
+	base teach
+		bp 2
+	end
+
+	base described
+		text "This book will teach you proficiencies of tracking."
+		shopText "This book will teach you proficiencies of tracking."
+	end
+
+end
+
+object skbTrackingIII of skbTracking
+	properties
+		name "Tracking Expertise"
+		level 3
+		value 400
+		intelligence 5
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you expert-level tracking."
+		shopText "This book will teach you expert-level tracking."
+	end
+end
+
+object skbTrackingIV of skbTracking
+	properties
+		name "Tracking Mastery"
+		level 4
+		value 750
+		intelligence 7
+	end
+
+	base teach
+		bp 4
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of tracking."
+		shopText "This manual will instruct you on the mastery of tracking."
+	end
+end
+
+object skbTrackingV of skbTracking
+	properties
+		name "Tracking Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 9
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you grandmastery of tracking."
+		shopText "This book will teach you grandmastery of tracking."
+	end
+end
+
+object skbHealing of Skillbook
+	base teach
+		skill 23
+		objectRequired HealingTools
+	end
+end
+
+object skbHealingI of skbHealing
+	properties
+		name "Familiar Healing"
+		level 1
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of binding wounds.  You will need a healer tool to use the skill."
+		shopText "This book will teach you the basics of binding wounds.  You will need a healer tool to use the skill."
+	end
+end
+
+object skbHealingII of skbHealing
+	properties
+		name "Healing Proficiencies"
+		level 2
+		value 200
+		intelligence 2
+		dexterity 2
+	end
+
+	base teach
+		bp 2
+	end
+
+	base described
+		text "This book will teach you proficiencies of healing."
+		shopText "This book will teach you proficiencies of healing."
+	end
+end
+
+object skbHealingIII of skbHealing
+	properties
+		name "Healing Expertise"
+		level 3
+		value 400
+		intelligence 4
+		dexterity 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you expert methods of healing."
+		shopText "This book will teach you expert methods of healing."
+	end
+end
+
+object skbHealingIV of skbHealing
+	properties
+		name "Healing Mastery"
+		level 4
+		value 750
+		intelligence 6
+		dexterity 4
+	end
+
+	base teach
+		bp 4
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of healing."
+		shopText "This manual will instruct you on the mastery of healing."
+	end
+end
+
+object skbHealingV of skbHealing
+	properties
+		name "Healing Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 7
+		dexterity 6
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you grandmastery of healing."
+		shopText "This book will teach you grandmastery of healing."
+	end
+end
+
+object skbPickpocketing of Skillbook
+	base teach
+		skill 25
+	end
+end
+
+object skbPickpocketingI of skbPickpocketing
+	properties
+		name "Familiar Pickpocketing"
+		level 1
+		dexterity 3
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of picking pockets."
+		shopText "This book will teach you the basics of picking pockets."
+	end
+end
+
+object skbPickpocketingII of skbPickpocketing
+	properties
+		name "Pickpocketing Proficiencies"
+		level 2
+		value 200
+		dexterity 6
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of picking pockets."
+		shopText "This book will teach you proficiencies of picking pockets."
+	end
+end
+
+object skbPickpocketingIII of skbPickpocketing
+	properties
+		name "Pickpocketing Expertise"
+		level 3
+		value 400
+		dexterity 9
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert methods of picking pockets."
+		shopText "This book will teach you expert methods of picking pockets."
+	end
+end
+
+object skbPickpocketingIV of skbPickpocketing
+	properties
+		name "Pickpocketing Mastery"
+		level 4
+		value 750
+		dexterity 12
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of picking pockets."
+		shopText "This manual will instruct you on the mastery of picking pockets."
+	end
+end
+
+object skbPickpocketingV of skbPickpocketing
+	properties
+		name "Pickpocketing Grand-Mastery"
+		level 5
+		value 1000
+		dexterity 15
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of pickpocketing."
+		shopText "This book will teach you grandmastery of pickpocketing."
+	end
+end
+
+object skbTraps of Skillbook
+	base teach
+		skill 26
+		objectRequired TrapTools
+	end
+end
+
+object skbTrapsI of skbTraps
+	properties
+		name "Basics of Trap Detection and Disarming"
+		level 1
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of detecting and disarming traps.  You will need thieves' tools to use the skill."
+		shopText "This book will teach you the basics of detecting and disarming traps.  You will need thieves' tools to use the skill."
+	end
+end
+
+object skbTrapsII of skbTraps
+	properties
+		name "Proficient Trap Manipulation"
+		level 2
+		value 200
+		dexterity 4
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of trap detection and disarming."
+		shopText "This book will teach you proficiencies of trap detection and disarming."
+	end
+end
+
+object skbTrapsIII of skbTraps
+	properties
+		name "Expert Discourse on Traps"
+		level 3
+		value 400
+		dexterity 7
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert methods of trap detection and disarming."
+		shopText "This book will teach you expert methods of trap detection and disarming."
+	end
+end
+
+object skbTrapsIV of skbTraps
+	properties
+		name "Mastery of Traps"
+		level 4
+		value 750
+		dexterity 9
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of trap detection and disarming."
+		shopText "This manual will instruct you on the mastery of trap detection and disarming."
+	end
+end
+
+object skbTrapsV of skbTraps
+	properties
+		name "Disarming Traps: A Grand-Master Treatment"
+		level 5
+		value 1000
+		dexterity 12
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of trap detection and disarming."
+		shopText "This book will teach you grandmastery of trap detecion and disarming."
+	end
+end
+
+object skbLockpicking of Skillbook
+	base teach
+		skill 27
+		objectRequired LockpickingTools
+	end
+end
+
+object skbLockpickingI of skbLockpicking
+	properties
+		name "Basics of Lockpicking"
+		level 1
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the basics of picking locks.  You will need a set of lockpicks to use the skill."
+		shopText "This book will teach you the basics of picking locks.  You will need a set of lockpicks to use the skill."
+	end
+end
+
+object skbLockpickingII of skbLockpicking
+	properties
+		name "Lockpicking Proficiency"
+		level 2
+		value 200
+		dexterity 3
+		intelligence 2
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficiencies of lockpicking."
+		shopText "This book will teach you proficiencies of lockpicking."
+	end
+end
+
+object skbLockpickingIII of skbLockpicking
+	properties
+		name "Expert Lockpicking"
+		level 3
+		value 400
+		dexterity 5
+		intelligence 3
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert-level methods of lockpicking."
+		shopText "This book will teach you expert-level methods of lockpicking."
+	end
+end
+
+object skbLockpickingIV of skbLockpicking
+	properties
+		name "Picking Masterful Locks"
+		level 4
+		value 750
+		dexterity 7
+		intelligence 5
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "This manual will instruct you on the mastery of picking locks."
+		shopText "This manual will instruct you on the mastery of picking locks."
+	end
+end
+
+object skbLockpickingV of skbLockpicking
+	properties
+		name "Lockpicking Grand-Mastery"
+		level 5
+		value 1000
+		dexterity 9
+		intelligence 6
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This book will teach you grandmastery of lockpicking."
+		shopText "This book will teach you grandmastery of lockpicking."
+	end
+end
+
+object skbMeditation of Skillbook
+	base teach
+		skill 28
+		objectRequired MeditationTools
+	end
+end
+
+object skbMeditationI of skbMeditation
+	properties
+		name "The Basics of Meditation"
+		level 1
+		intelligence 3
+		endurance 3
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundimentals of meditation."
+		shopText "This book will teach you the fundimentals of meditation."
+	end
+end
+
+object skbMeditationII of skbMeditation
+	properties
+		name "Becoming Proficient in Meditation"
+		level 2
+		value 200
+		intelligence 5
+		endurance 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you to become a proficient meditator."
+		shopText "This book will teach you to become a proficient meditator."
+	end
+end
+
+object skbMeditationIII of skbMeditation
+	properties
+		name "Meditation: Revelations of an Expert"
+		level 3
+		value 400
+		intelligence 8
+		endurance 3
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert meditation techniques."
+		shopText "This book will teach you expert meditation techniques."
+	end
+end
+
+object skbMeditationIV of skbMeditation
+	properties
+		name "Mastering Meditation"
+		level 4
+		value 750
+		intelligence 11
+		endurance 3
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will teach you master meditation."
+		shopText "Reading this book will teach you master meditation."
+	end
+end
+
+object skbMeditationV of skbMeditation
+	properties
+		name "Meditation Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 13
+		endurance 3
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This manual will teach you grand-master meditation."
+		shopText "This manual will teach you grand-master meditation."
+	end
+end
+
+object skbCriticalStriking of Skillbook
+	base teach
+		skill 29
+	end
+end
+
+object skbCriticalStrikingI of skbCriticalStriking
+	properties
+		name "The Basics of Critical Striking"
+		level 1
+		intelligence 2
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundimentals of critical striking."
+		shopText "This book will teach you the fundimentals of critical striking."
+	end
+end
+
+object skbCriticalStrikingII of skbCriticalStriking
+	properties
+		name "Critical Striking Proficiencies"
+		level 2
+		value 200
+		intelligence 3
+		dexterity 4
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficient techniques of critical striking."
+		shopText "This book will teach you proficient techniques of critical striking."
+	end
+end
+
+object skbCriticalStrikingIII of skbCriticalStriking
+	properties
+		name "Critical Striking: An Expert Discourse"
+		level 3
+		value 400
+		intelligence 4
+		dexterity 5
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert critical striking techques."
+		shopText "This book will teach you expert critical striking techniques."
+	end
+end
+
+object skbCriticalStrikingIV of skbCriticalStriking
+	properties
+		name "Mastery of Critical Striking"
+		level 4
+		value 750
+		intelligence 5
+		dexterity 7
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will teach you master critical striking."
+		shopText "Reading this book will teach you master critical striking."
+	end
+end
+
+object skbCriticalStrikingV of skbCriticalStriking
+	properties
+		name "Critical Striking Grand-Mastery"
+		level 5
+		value 1000
+		intelligence 6
+		dexterity 9
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This manual will teach you grand-master critical striking."
+		shopText "This manual will teach you grand-master critical striking."
+	end
+end
+
+
+object skbShieldUse of Skillbook
+	base teach
+		skill 30
+	end
+end
+
+object skbShieldUseI of skbShieldUse
+	properties
+		name "The Basics of Shield Usage"
+		level 1
+		strength 2
+		dexterity 2
+	end
+
+	base teach
+		bp 1
+	end
+
+	base described
+		text "This book will teach you the fundimentals of using shields in combat."
+		shopText "This book will teach you the fundimentals of using shields in combat."
+	end
+end
+
+object skbShieldUseII of skbShieldUse
+	properties
+		name "Proficiencies in Shield Usage"
+		level 2
+		value 200
+		strength 4
+		dexterity 3
+	end
+
+	base teach
+		bp 3
+	end
+
+	base described
+		text "This book will teach you proficient techniques of using shields."
+		shopText "This book will teach you proficient techniques of using shields."
+	end
+end
+
+object skbShieldUseIII of skbShieldUse
+	properties
+		name "Using Your Shield: An Expert Discourse"
+		level 3
+		value 400
+		strength 4
+		dexterity 5
+	end
+
+	base teach
+		bp 5
+	end
+
+	base described
+		text "This book will teach you expert shield usage techniques."
+		shopText "This book will teach you expert shield usage techniques."
+	end
+end
+
+object skbShieldUseIV of skbShieldUse
+	properties
+		name "Mastering the Shield"
+		level 4
+		value 750
+		strength 7
+		dexterity 6
+	end
+
+	base teach
+		bp 7
+	end
+
+	base described
+		text "Reading this book will teach you master blocking techniques."
+		shopText "Reading this book will teach you master blocking techniques."
+	end
+end
+
+object skbShieldUseV of skbShieldUse
+	properties
+		name "Shields: Defense by a Grand-Master"
+		level 5
+		value 1000
+		strength 9
+		dexterity 8
+	end
+
+	base teach
+		bp 9
+	end
+
+	base described
+		text "This manual will teach you grand-master blocking techniques."
+		shopText "This manual will teach you grand-master blocking techniques."
+	end
+end

@@ -1,0 +1,19 @@
+quest  31 # 6045-01-435        # Vigo, Weaponry of Drune, elf, 8305
+
+name  "Birch Bark for Vigo"
+type  fedex
+
+proposal  "A fine blade, really fine piece of elf work.  Always a pleasure to work on it.  It's ready, but I want to put a final polish on it.  Would you run a quick errand for me in the meantime?"
+
+declined  "No?"
+
+accepted  "Just over to Silverbrook, it is.  I'm in need of more birch bark, and I like their type best.  Just trek over there for me."
+
+reminder   "Birch bark from Silverbrook.  You needn't mention an elf from Drune wants it."
+
+completed  "Thanks.  No trouble, I hope.  Faldora's carving knife is ready to go."
+
+getItem   qBirchBark
+reward   qCarvingKnife 
+end
+

@@ -1,0 +1,45 @@
+id 6033
+
+banner "Greetings, Friend. Welcome to You Name It General Store. What can I do for you?"
+
+topic "Tell me about Leinster."
+        text "Leinster? Which half of Leinster? For I find that those in the East are much different from those of us in the West."
+	text "Those of East Leinster tend to support the god who struck the city apart in a fit of rage. I would say his name, but I don't wish to invite him."
+end
+
+topic  "Who are you?"
+	text  "I'm Tallie, proprietess.  I named my shop so customers would know I'll try to get whatever they need or want."
+	text  "There are lots of 'needs' in the world, but I think maybe there are more 'wants.'"
+	text  "I do a good business.  Of course, I really enjoy my work so that helps."
+	text  "I'd rather be here than anywhere else in the Realm."
+end  
+
+topic "Have you heard any interesting rumors?"
+        text "There is a rumor going around which I found very interesting. It is said that there are towns predominantly elven."
+        text "I think that would be fascinating, seeing a town full of elves. Me, I've never been out of Leinster."
+end      
+
+topic "Can I do anything for you?"
+        text "Someday you must tell me of your travels."
+end
+
+topic  "I need a piece of Loch Dread driftwood." q292:0 #q8021-01-330:0
+	quest 293 #8021-01-335
+	text  "You've already been here and asked that."
+end
+
+topic  "I want some candles for Eugenie?" q107:0 #q6308-01-325:0
+	quest 108 #6308-01-330
+	text  "You have her candles."
+end
+
+topic  "I'm looking for some carving wood for Pasco." q238:0 #q6815-01-535:0
+	quest 239 #6815-01-540
+	text  "You took it already, friend."
+end
+
+topic  "I'm looking for Mellie's scented tallow candles." q213:0 #q6817-01-435:0
+	quest 214 #6817-01-440
+	text  "I gave them to you."
+end
+

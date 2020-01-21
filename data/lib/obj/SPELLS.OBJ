@@ -1,0 +1,667 @@
+#
+# objects that represent spell components
+#
+
+object SpellComponent
+	properties
+		view 57800
+		name "Spell Component"
+		basicName "spell component"
+		health 50
+
+		# immune to rust
+		affect 11 2 0 -1
+
+		# it's a wholesale item
+		wholesale
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base described
+		text "You see a spell component here."
+		shopText "Hmmmm... I did not think that we had any of those in stock..."
+	end
+end
+
+#
+# define different tooth types
+#
+
+object Tooth of SpellComponent
+	properties
+		view 57800
+		name "Tooth"
+		basicName "tooth"
+		value 3
+		health 100
+
+		# immune to fire
+		affect 1 2 0 -1
+
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a tooth."
+		shopText "Hmmm... how did that tooth get on my shelf?"
+	end
+end
+
+object DaemonTooth of Tooth
+	properties
+		name "Daemon Tooth"
+		basicName "daemon tooth"
+		value 2000
+	end
+
+	base carryable
+		weight 0.8
+	end
+
+	base described
+		text "That is a daemon's tooth."
+		shopText "This daemon's tooth is of the utmost quality.  I get them fresh daily from my 'dental' specialists... if you catch my meaning."
+	end
+end
+
+#
+# define different finger types
+#
+
+object Finger of SpellComponent
+	properties
+		view 57850
+		name "Finger"
+		basicName "finger"
+
+		# immune to cold
+		affect 2 2 0 -1
+	end
+
+	base described
+		text "That is a severed finger... yummy."
+		shopText "A severed finger?  In my shop? I'm so embarassed..."
+	end
+end
+
+object ZombieFinger of Finger
+	properties
+		name "Zombie Finger"
+		basicName "zombie finger"
+		value 50
+	end
+
+	base described
+		text "You see a severed zombie finger... yummy."
+		shopText "This shop is well known for it's superior zombie fingers.  Accept no substitutes!"
+	end
+end
+
+#
+# define different nugget types
+#
+
+object Nugget of SpellComponent
+	properties
+		view 50950
+		name "Nugget"
+		basicName "nugget"
+		value 1
+		health 100
+
+		# clear rust immunity
+		caffect 11
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You are looking at a nugget of something you can't identify."
+		shopText "I carry all kinds of nuggets... but this one I can not identify.  I'll sell it real cheap!"
+	end
+end
+
+object GoldNugget of Nugget
+	properties
+		name "Gold Nugget"
+		basicName "gold nugget"
+		value 75
+	end
+
+	base described
+		text "That is a precious gold nugget... shiny and pretty."
+		shopText "Gold nuggets are pretty rare so you'd better stock up now!"
+	end
+end
+
+#
+# define different guano types
+#
+
+object Guano of SpellComponent
+	properties
+		view 57750
+		clutStart 73
+		name "Ball of Guano"
+		basicName "guano"
+		value 1
+		health 35
+		# immune to cold
+		affect 2 2 0 -1
+	end
+
+	base described
+		text "You smell something foul."
+		shopText "Found this under my cabinets.  Here, you can have it cheap."
+	end
+end
+
+object ImpGuano of Guano
+	properties
+		name "Imp Guano"
+		basicName "imp guano"
+		value 100
+		color 58
+	end
+
+	base described
+		text "You stare at the pile of imp guano but nothing happens."
+		shopText "I'm selling this *special* imp guano at a bargain price."
+	end
+end
+
+object RatGuano of Guano
+	properties
+		name "Rat Guano"
+		basicName "rat guano"
+		value 1
+		color 98
+	end
+
+	base described
+		text "You see a pile of rat droppings."
+		shopText "Heh heh... you want what?"
+	end
+end
+
+object DaemonGuano of Guano
+	properties
+		name "Daemon Guano"
+		basicName "daemon guano"
+		value 250
+		color 107
+	end
+
+	base described
+		text "You see a smoking pile of daemon guano."
+		shopText "You better keep this stuff sealed up in a jar."
+	end
+end
+
+#
+# define different jawbone types
+#
+
+object JawBone of SpellComponent
+	properties
+		view 57900
+		name "Jaw Bone"
+		basicName "jaw bone"
+		value 100
+		health 80
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "That is a pretty nasty looking jaw bone... I wonder if it's owner misses it or not."
+		shopText "Oh my, yes.  You can't afford to be without one of my special jaw bones.  They come straight from the mouths of my customers!"
+	end
+end
+
+#
+# define different eyeball types
+#
+
+object Eyeball of SpellComponent
+	properties
+		view 57950
+		name "Eye"
+		basicName "eye"
+		value 1
+	end
+
+	base described
+		text "You stare at the eyeball... and it stares back."
+		shopText "This eyeball came in with the last shipment of ratling meat.  I'm sure it's something to someone, but not me.  You can have it for cheap."
+	end
+end
+
+object KilrogEyeball of Eyeball
+	properties
+		name "Eye of Kilrog"
+		basicName "eye of kilrog"
+		value 1000
+		color 58
+	end
+end
+
+object OgreEyeball of Eyeball
+	properties
+		name "Ogre Eye"
+		basicName "ogre eye"
+		value 200
+		color 58
+	end
+end
+
+object Rock of SpellComponent
+	properties
+		view 58000
+		clutStart 48
+		name "Pebble"
+		basicName "pebble"
+		health 100
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base described
+		text "You see a pebble."
+	end
+end
+
+object Leaf of SpellComponent
+	properties
+		view 58050
+		clutStart 83
+		name "Oak Leaf"
+		basicName "oak leaf"
+		# weak to fire
+		affect 1 3 0 -1
+	end
+
+	base carryable
+		weight 0.1
+	end
+
+	base described
+		text "You see a common oak leaf."
+	end
+end
+
+object Clump of SpellComponent
+	properties
+		view 58100
+		clutStart 83
+		name "Clump of Grass"
+		basicName "clump of grass"
+		# weak to fire
+		affect 1 3 0 -1
+	end
+
+	base carryable
+		weight 0.2
+	end
+
+	base described
+		text "You see a clump of common grass."
+	end
+end
+
+object AmberRod of SpellComponent
+	properties
+		view 51400
+		name "Amber Rod"
+		basicName "amber rod"
+		value 200
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 1.0
+	end
+
+	base described
+		text "You see an rod made of amber."
+		shopText "Here is just what you need for those nasty lightning bolt magics."
+	end
+end
+
+object ObsidianDust of SpellComponent
+	properties
+		view 50450
+		name "Bag of Obsidian Dust"
+		basicName "obsidian dust"
+		value 750
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see a small bag of obsidian dust."
+		shopText "This dust is fantastic for stabilizing enchantments, I hear."
+	end
+end
+
+object Silvergrass of Clump
+	properties
+		name "Silvergrass"
+		basicName "silvergrass"
+		color 100
+		value 200
+	end
+
+	base described
+		text "You see a clump of silvergrass."
+		shopText "Oh, did you want a clump of silvergrass? Just got some in today, as a matter of fact."
+	end
+end
+
+object Goldenberries of Clump
+	properties
+		name "Goldenberries"
+		basicName "goldenberries"
+		color 63
+		value 80
+	end
+
+	base described
+		text "You see a clump of goldenberries."
+		shopText "These goldenberries were just harvested yesterday."
+	end
+end
+
+object Pigweed of Clump
+	properties
+		name "Pigweed"
+		basicName "pigweed"
+		color 106
+		value 35
+	end
+
+	base described
+		text "You see a clump of pigweed."
+		shopText "Why, yes... I do have some pigweed as a matter of fact."
+	end
+end
+
+object Devilweed of Clump
+	properties
+		name "Devilweed"
+		basicName "devilweed"
+		color 58
+		value 150
+	end
+
+	base described
+		text "You see a clump of devilweed."
+		shopText "You aren't one of those types, are you?"
+	end
+end
+
+
+object Corbalite of Rock
+	properties
+		name "Corbalite Rock"
+		basicName "corbalite rock"
+		color 53
+		value 130
+	end
+
+	base described
+		text "You see a corbalite rock."
+		shopText "Here is a small piece of corbalite.  This magical ore generates a good deal of natural heat for some reason, so don't let it burn a hole in your pocket."
+	end
+end
+
+object Basalt of Rock
+	properties
+		name "Basalt Rock"
+		basicName "basalt rock"
+		color 98
+		value 15
+	end
+
+	base described
+		text "You see a chip of basalt."
+		shopText "I've got plenty more where this came from."
+	end
+end
+
+object Sulfur of Rock
+	properties
+		name "Sulfur Rock"
+		basicName "sulfur"
+		color 63
+		value 35
+	end
+
+	base described
+		text "You see a small piece of sulfur."
+		shopText "This stuff smells real bad.  Hold your nose!"
+	end
+end
+
+object Marble of Rock
+	properties
+		name "Chip of Marble"
+		basicName "chip of marble"
+		color 100
+		value 60
+	end
+
+	base described
+		text "You see a small chip of hard marble."
+		shopText "I accidently broke my marble statue today, so you can have these marble chips cheap."
+	end
+end
+
+
+object ElderOak of Leaf
+	properties
+		name "Elder Oak Leaf"
+		basicName "Elder Oak Leaf"
+		color 58
+		value 6
+	end
+
+	base described
+		text "You see a leaf from an elder oak tree."
+		shopText "A old peddler pawned this to me the other day - said it had some magical properties.  I didn't believe him but I felt sorry for him and gave him a gold for his trouble."
+	end
+end
+
+object Silverthorn of Leaf
+	properties
+		name "Silverthorn Leaf"
+		basicName "leaf of silverthorn"
+		color 100
+		value 225
+	end
+
+	base described
+		text "You see a leaf of the silverthorn plant."
+		shopText "Here is a leaf of the rare silverthorn bush.  Be careful, the leaf is highly toxic and the poisons can absorb through skin."
+	end
+end
+
+object Tobac of Leaf
+	properties
+		name "Tobac Leaf"
+		basicName "leaf of tobac"
+		color 104
+		value 2
+	end
+
+	base described
+		text "You see a leaf of tobac."
+		shopText "Can't see why people chew this stuff - it makes me quite sick."
+	end
+end
+
+object PerfectRose of RedRose
+	properties
+		name "Perfect Rose"
+		value 5000
+		# immmune to fire, cold, lightning
+		affect 1 2 0 -1
+		affect 2 2 0 -1
+		affect 3 2 0 -1
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see a beautiful red flower!  It must be the perfect rose!"
+	end
+
+	base use
+		uses 1
+		usesMax 1
+		spell 102
+	end
+end
+
+object DespothesScepter of SpellComponent
+	properties
+		name "Despothes' Scepter"
+		view 57000
+		value 5000
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see Despothes' Scepter!  You look around, hoping not to see the god nearby."
+	end
+
+	base use
+		uses 1
+		usesMax 1
+		spell 50
+   end
+end
+
+object DuachsCrystal of SpellComponent
+	properties
+		name "Duach's Crystal"
+		view 57100
+		value 5000
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see Duach's Crystal!  You resist throwing yourself to the ground in reverence."
+	end
+
+	base use
+		uses 1
+		usesMax 1
+		spell 124
+   end
+end
+
+
+#object ElphamesScales of SpellComponent
+#	properties
+#		name "Elphame's Scales"
+#		view 57250
+#		value 5000
+#		# immune to fire
+#		affect 1 2 0 -1
+#		# immune to cold
+#		affect 2 2 0 -1
+#		# immune to lightning
+#		affect 3 2 0 -1
+#		# immune to acid
+#		affect 4 2 0 -1
+#	end
+#
+#	base described
+#		text "You see Elphame's Scales of Justice!  Your jaw drops."
+#	end
+#
+#	base use
+#		uses 1
+#		usesMax 1
+#		spell 23
+#   end
+#end
+
+object MabonsStaff of SpellComponent
+	properties
+		name "Mabon's Staff"
+		view 57400
+		value 5000
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+	end
+
+	base described
+		text "You see Mabon's Staff!  Just looking at it fills you with wonder."
+	end
+
+	base use
+		uses 1
+		usesMax 1
+		spell 72
+	end
+end

@@ -1,0 +1,306 @@
+#
+# Banshees and Ghosts
+#
+
+object Ghost of NPC
+	properties
+		name "Ghost"
+		view 40000
+		clutStart -1
+		color 31
+
+		alignment 0
+
+		minLevel 30
+		maxLevel 50
+
+		endurance 8
+		intelligence 15
+
+		minDamage 15
+		maxDamage 25
+
+		## do normal damage by default
+		affect 0 0 0 -1
+
+		## etherial creature
+		affect 20 2 0 -1
+
+		## immune to acid damage
+		affect 4 2 0 -1
+
+		## immune to poison damage
+		affect 5 2 0 -1
+
+		damageType 1
+		armorType 3
+
+		soundGroup 1
+		range 2
+		quickness 14
+		treasure 6
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics familiar
+		skill 9 1
+
+		## elementalism grandmaster 
+		skill 12 5
+
+		## necromancy grandmaster
+		skill 15 5
+		sex 1
+	end
+
+	actions 
+		vBeBorn changeSDM self 75 0 1 2 3 4
+		vBeBorn changeSpellResistance self 100 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeSpellResistance self 25 1
+		vBeBorn changeMeleePhase self 50
+	end
+
+	base npc
+		code fury
+	end
+
+	base described
+		text "Ghost -- 100% necromancy resistance, 50% mysticism resistance, 50% out of phase, 25% elementalism resistance, 15 - 25 melee damage.\n\n"
+	end
+end
+
+
+object Shade of Ghost
+	properties
+		name "Shade"
+
+		color 29
+
+		alignment 128
+		minLevel 50
+		maxLevel 70
+
+		minDamage 25
+		maxDamage 35
+
+		# do electrical + normal damage
+		affect 3 0 0 -1
+	end
+
+	base character
+		## acrobatics proficient
+		skill 9 2
+
+		## elementalism grandmaster 
+		skill 12 5
+
+		## necromancy grandmaster
+		skill 15 5
+
+		## meditation proficent
+		skill 28 2
+	end
+
+	actions 
+		vBeBorn changeSDM self 25 0 1 2 3 4  # +50% SDM
+	end
+
+	base described
+		text "Shade -- 100% necromancy resistance, 50% mysticism resistance, 50% out of phase, 25% elementalism resistance, 25 - 35 melee damage.\n\n"
+	end
+end
+
+
+object Banshee of NPC
+	properties
+		name "Banshee"
+		view 40000
+
+		alignment 0
+		intelligence 20
+
+		minLevel 70
+		maxLevel 90
+
+		minDamage 35
+		maxDamage 45
+
+		## do poison + electrical damage by default
+		affect 5 0 0 -1
+		affect 3 0 0 -1
+
+		## etherial creature
+		affect 20 2 0 -1
+
+		## immune to acid/poison/cold damage
+		affect 4 2 0 -1
+		affect 5 2 0 -1
+		affect 2 2 0 -1
+
+		soundGroup 1
+		treasure 6
+
+		damageType 0
+		armorType 2
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics expert
+		skill 9 3
+
+		## elementalism grandmaster 
+		skill 12 5
+
+		## necromancy grandmaster
+		skill 15 5
+
+		## meditation  expert
+		skill 28 3
+
+		sex 1
+	end
+
+	base npc
+		code fury
+	end
+
+	actions 
+		vBeBorn changeSDM self 125 0 1 2 3 4
+		vBeBorn changeSpellResistance self 100 4
+		vBeBorn changeSpellResistance self 50 2
+		vBeBorn changeSpellResistance self 25 1
+		vBeBorn changeMeleePhase self 50
+	end
+
+	base container
+		object RandomCommonHelmet 
+	end
+
+	base described
+		text "Banshee -- 100% necromancy resistance, 50% mysticism resistance, 50% out of phase, 25% elementalism resistance, 35 - 45 melee damage.\n\n"
+	end
+end
+
+
+object Fury of Banshee
+	properties
+		name "Fury"
+
+		clutStart -1
+		color 30
+
+		armor 40
+
+		alignment 128
+
+		intelligence 25
+
+		minLevel 100
+		maxLevel 150
+
+		minDamage 50
+		maxDamage 75
+
+		# do normal + fire + electrical + poison
+		affect 0 0 0 -1
+		affect 1 0 0 -1
+		affect 3 0 0 -1
+		affect 5 0 0 -1
+
+		# immune to fire
+		affect 1 2 0 -1
+	end
+
+	base character
+		## unarmed combat grandmaster
+		skill 7 5
+
+		## acrobatics master
+		skill 9 4
+
+		## elementalism grandmaster 
+		skill 12 5
+
+		## necromancy grandmaster
+		skill 15 5
+
+		## meditation grandmaster
+		skill 28 5
+	end
+
+	actions 
+		vBeBorn changeSDM self 100 0 1 2 3 4  # +200% SDM
+	end
+
+	base described
+		text "Fury -- 100% necromancy resistance, 50% mysticism resistance, 50% out of phase, 25% elementalism resistance, 50 - 75 melee damage.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object TutorGhost of NPC
+	properties
+		name "Weakened Ghost"
+		view 40000
+		clutStart -1
+		color 31
+        special
+
+		alignment 128
+
+		level 2
+
+		endurance 2
+		intelligence 5
+
+		minDamage 3
+		maxDamage 10
+
+		## do normal damage by default
+		affect 0 0 0 -1
+
+		damageType 1
+		armorType 0
+
+		soundGroup 1
+		range 2
+		quickness 1
+		treasure 6
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## acrobatics familiar
+		skill 9 1
+
+		## elementalism familiar
+		skill 12 1
+
+		## necromancy familiar
+		skill 15 1
+		sex 1
+	end
+
+	actions 
+		vBeBorn changeMeleePhase self 50
+	end
+
+	base npc
+		code fury
+	end
+
+	base described
+		text "Weakened Ghost. You may be able to defeat this Ghost but do not be fooled into thinking her brethern are so easy.\n\n"
+	end
+end
+
+#------------------------------------------------------------

@@ -1,0 +1,19 @@
+quest  52 # 6077-01-435        # Szumi, Take It or Leave It, Caer Fandry, dark elf, 6601
+
+name  "Dragonlizard Oil"
+type  fedex
+
+proposal  "Yecch!  Ugly piece of work.  Can't think why anyone would want to own it.  Can't think why anyone would want to steal it.   Don't know why you would bother looking for it.  Do better to get a weapon from the dark elves.  We know our skill, we do.  Still, if you want that old dagger of Morgana's, I'll turn it to my advantage, don't think I won't.  Get me some dragonlizard oil and the dagger is yours.  Will you?"
+
+declined  "No skin off my nose."
+
+accepted  "Should be some in the desert."
+
+reminder   "Dragonlizard oil from the desert.  Fetch it here."
+
+completed  "So you came back.  Take the old dagger and be gone."
+
+getItem   qDragonlizardOil
+reward   qMorganaDagger 
+end
+

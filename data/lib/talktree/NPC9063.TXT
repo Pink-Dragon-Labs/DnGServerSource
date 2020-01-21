@@ -1,0 +1,23 @@
+id 9063
+#--------------- 9063 16583 down2 female human Fabienne
+
+banner "Welcome noble one. How may I serve you?"
+
+topic "Tell me about The Downs."
+    text "I'm not sure what you wish to know. I don't know much about the area. I am to busy working my shop."
+    text "Many travelers come and go from this area. It's the best location I have ever owned."
+    text "Though some people tend to stand around here all day and chit chat.. sort of like you are doing now."
+ text "Perhaps you will buy something when we are done talking?"
+end
+
+topic "Who are you?"
+    text "I am Fabienne, keeper of this Wilderness Shop."
+    text "I have the lowest prices in all the lands."
+    text "That's mostly because I get so much business. Then again, there is nothing nearby for you to compare me to.. so I could say anything and you wouldn't know the difference.. Would you?"
+end
+
+topic "Is this all you will be selling?"
+    text "Perhaps. I may, in the future, offer something more. That is.. if I am properly compensated to do so."
+ text "Keep that between you and I."
+ text "Promise?"
+end

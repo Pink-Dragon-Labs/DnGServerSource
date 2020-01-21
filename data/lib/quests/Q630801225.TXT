@@ -1,0 +1,18 @@
+quest 104 #6308-01-225  #(Benoit, Remedies and Cures, Kurz, 8014)
+
+name  "Grandmother's Letter"
+type  fedex
+
+proposal  "Greetings.  When it's ready I'll be glad to give it to you.  But first, could you do me a favor?"
+
+declined  "I trust you understand that you don't get Wirkkala's remedy until you do me a favor."
+
+accepted  "Go find my cousin Georgi, and pick up a letter from my grandmother.  Last I heard he was in Arimathor."
+
+reminder  "I'm not ready for you yet.  You should go to Arimathor and find Georgi.  I'll want that letter before I give you the remedy for Wirkkala."
+
+completed  "I see you found Georgi.  Good work and thanks for the letter.  This is the remedy Wirkkala ordered."
+
+getItem  qGrandmothersLetter
+reward  qWirkkalaRemedy
+end

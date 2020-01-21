@@ -1,0 +1,1098 @@
+room 5035
+   properties
+      picture	3500
+      north	5020 
+      south	5050 
+      east	5036 
+      west	5034 
+   end
+   atpinfo
+      35481  114 5 -99
+      2749  -97 6 -99
+      2749  292 8 -99
+      2505  490 10
+      2506  536 48
+      2506  634 64
+      2714  601 71
+      35482  697 70
+      2712  390 9 -99
+      2711  532 201
+      2717  37 165
+      2548  501 170 30
+      2548  616 183 30
+      3  477 196
+      2712  354 2 -99
+      2557  502 154 20
+      2557  617 167 20
+      2951  24 140
+      2954  70 112
+      2958  644 229
+      35481  429 78
+      2958  569 213
+      2958  703 228
+      2713  57 1 -99
+      3  435 188
+      3  456 193
+      3  498 202
+      3  521 205
+      3  541 210
+      3  563 212
+      3  583 216
+      3  604 216
+      3  628 218
+   end
+end
+room 5037
+   properties
+      picture	3500
+      east	5038 
+      west	5036 
+      roomName	"Gregory's Metalworks"
+   end
+   atpinfo
+      2501  52 37
+      2501  134 50
+      2502  105 61
+      2602  102 48
+      2602  177 59
+      2520  275 32
+      35370  303 58
+      2504  380 -13
+      35369  566 153
+      2521  609 142
+      2504  380 9
+      2544  202 189 20
+      2541  191 185
+      2542  70 164
+      2542  156 175
+      2545  69 179 20
+      2545  156 190 20
+      2712  558 230
+      2695  135 210 100
+      2737  268 120
+      2748  -100 7 -99
+      35369  632 100
+      2542  455 165
+      2545  454 181 20
+      3  483 210
+      3  484 223
+      3  621 210
+      3  621 225
+   end
+   objects
+      object door5037-0 of Door
+         properties
+            x	325
+            y	199
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5040
+   properties
+      picture	3500
+      east	5041 
+      west	5039 
+   end
+   atpinfo
+      2501  84 44
+      2602  141 37
+      2520  226 30
+      2528  378 5
+      2528  561 4
+      2529  473 43
+      2748  496 2 -99
+      2748  -54 2 -99
+      2541  246 170
+      2543  382 149
+      2543  444 149
+      2543  505 149
+      2543  565 149
+      2553  256 171 17
+      2555  381 150 8
+      2555  443 150 8
+      2555  504 150 8
+      2555  564 150 8
+      2717  255 219
+      2717  330 210
+      2717  416 205
+      2717  -13 24 -90
+      2717  591 3 -99
+      2717  181 226
+      35481  519 72
+      35481  19 57
+      2713  494 66
+      35481  343 77
+      2714  423 74
+      2541  184 182
+      2553  196 183 16
+      2626  19 32
+      3  136 214
+      3  472 190
+   end
+   objects
+      object fountain5040-1 of Fountain
+         properties
+            x	338
+            y	223
+            loop	0
+         end
+      end
+      object door5040-2 of Door
+         properties
+            x	80
+            y	209
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+         base lockable
+            isLocked	1
+         end
+      end
+   end
+end
+room 5041
+   properties
+      picture	3500
+      north	5026 
+      east	5042 
+      west	5040 
+      roomName	"The Chapel"
+   end
+   atpinfo
+      2718  144 42 -99
+      2717  151 54 -99
+      2716  -32 93
+      2528  562 23
+      2528  516 23
+      2520  364 46
+      2501  221 64
+      2613  268 77
+      2529  534 62
+      2748  499 21 -99
+      2748  -133 130
+      2748  86 34 -99
+      2501  180 58
+      2502  196 75
+      2541  288 194
+      2541  365 99
+      2580  367 172
+      2582  539 166
+      2582  469 167
+      2543  503 75
+      2543  575 73
+      2558  502 89 20
+      2558  574 87 20
+      2556  299 198 20
+      2556  376 104 20
+      2595  378 179 20
+      2597  482 173 20
+      2597  552 172 20
+      2716  -45 66
+      154  -22 83
+      154  617 1 -99
+      32922  -5 51
+      154  626 3 -99
+      2716  -10 21
+   end
+   objects
+      object simpleDoor5041-0 of SimpleDoor
+         properties
+            x	194
+            y	225
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+
+room 5039
+   properties
+      picture	3500
+      south	5054 
+      east	5040 
+      west	5038 
+   end
+   atpinfo
+      2606  161 91 150
+      2527  194 144 150
+      2501  97 111 100
+      2513  289 83 70
+      2602  146 127 100
+      35370  263 116 90
+      2606  199 163 120
+      2711  249 147 -50
+      35479  131 145 -50
+      2580  260 144
+      2581  66 123 -20
+      2595  271 152 20
+      2504  343 26 45
+      35369  514 122
+      2521  571 113
+      2748  -61 5 -99
+      2748  515 7 -99
+      2717  187 205
+      35485  539 197
+      2717  506 195
+      2718  186 187
+      2713  -8 45 -80
+      2596  83 129
+      2712  539 4 -69
+      3  88 173
+      3  97 187
+      3  290 171
+      3  283 189
+      3  592 185
+      3  459 183
+   end
+   objects
+      object simpleDoor5039-0 of SimpleDoor
+         properties
+            x	374
+            y	175
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+         base lockable
+            isLocked	1
+         end
+      end
+      object gargoyleFountain5039-1 of GargoyleFountain
+         properties
+            x	452
+            y	159
+            loop	0
+         end
+      end
+   end
+end
+room 5034
+   properties
+      picture	3500
+      east	5035 
+      west	5033 
+      roomName	"The School of Hard Knocks"
+   end
+   atpinfo
+      2528  337 66
+      2528  542 49
+      2528  95 53
+      2517  439 60
+      2505  208 64
+      2528  300 66
+      2529  317 104
+      2543  95 206
+      2543  92 58
+      2543  543 202
+      2543  543 60
+      2543  308 149 90
+      2746  560 12 -99
+      2746  -60 13 -98
+      2549  95 208
+      2549  93 60
+      2549  543 61
+      2549  543 203
+      2549  309 160 100
+      2718  214 244
+      35484  327 246
+      2716  273 245
+      2713  554 5 -99
+      2701  442 173 80
+      2710  437 108 60
+      2543  306 189 -20
+      2549  307 211
+      45  25 7 -99
+      32813  631 8 -99
+      2716  212 239
+   end
+   objects
+      object fountain5034-0 of Fountain
+         properties
+            x	541
+            y	247
+            loop	0
+         end
+      end
+      object fountain5034-1 of Fountain
+         properties
+            x	94
+            y	250
+            loop	0
+         end
+      end
+      object simpleDoor5034-2 of SimpleDoor
+         properties
+            x	440
+            y	243
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5031
+   properties
+      picture	3500
+      north	5016 
+      east	5032 
+      west	5030 
+      roomName	"Wizard's Wash Pub"
+   end
+   atpinfo
+      2516  155 7
+      2524  47 192 150
+      2525  213 32
+      2525  412 32
+      2527  321 84 80
+      2586  53 140 -41
+      2588  169 176
+      2588  377 175
+      2597  185 148
+      2597  393 147
+      2595  28 163
+      35377  -42 211 150
+      2607  -23 141
+      2611  403 55
+      2611  228 63
+      2612  321 165 100
+      2749  570 113
+      35484  313 211
+      2716  238 194
+      2715  296 210
+      35481  279 217 25
+      35484  379 190
+      2715  610 122
+      2713  647 133 30
+      35484  13 201
+      2717  625 128
+      2700  294 109 41
+      2713  472 107 30
+      2749  208 31 -80
+      3  207 194
+      3  231 194
+      3  250 194
+      3  264 194
+      3  281 195
+      3  297 195
+      3  317 195
+      3  334 195
+      3  353 195
+      3  372 195
+      3  388 195
+      3  231 208
+      3  247 208
+      3  263 209
+      3  282 208
+      3  300 209
+      3  319 208
+      3  340 208
+      3  362 209
+      3  8 211
+      3  254 226
+      3  277 227
+      3  299 227
+      3  322 227
+      3  344 227
+      3  408 195
+      3  384 209
+      3  365 228
+   end
+   objects
+      object door5031-0 of Door
+         properties
+            x	117
+            y	196
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5033
+   properties
+      picture	3500
+      north	5018 
+      east	5034 
+      west	5032 
+      roomName	"You Name It"
+   end
+   atpinfo
+      2749  233 2 -99
+      2749  610 5 -99
+      2501  14 43
+      2513  209 32
+      2602  51 67
+      35370  157 103 50
+      2717  304 19 -90
+      2717  660 23 -90
+      2598  548 192
+      2598  216 292
+      2715  485 2 -90
+      2714  492 29 -60
+      2598  482 297
+      86  357 143 50
+      2955  499 22 -75
+      85  354 142
+      2513  112 48
+      35370  71 66
+      2514  159 51
+      2954  -18 222
+      2241  99 222
+      2244  133 218
+      2737  118 128
+      2954  259 1 -58
+      3  7 214
+      3  9 202
+      3  29 217
+      3  50 217
+   end
+   objects
+      object chair5033-0 of Chair
+         properties
+            x	126
+            y	272
+            loop	0
+         end
+      end
+      object chair5033-1 of Chair
+         properties
+            x	466
+            y	171
+            loop	0
+         end
+      end
+      object chair5033-2 of Chair
+         properties
+            x	303
+            y	277
+            loop	1
+         end
+      end
+      object chair5033-3 of Chair
+         properties
+            x	610
+            y	176
+            loop	1
+         end
+      end
+      object chair5033-4 of Chair
+         properties
+            x	174
+            y	254
+            loop	2
+         end
+      end
+      object chair5033-5 of Chair
+         properties
+            x	218
+            y	255
+            loop	2
+         end
+      end
+      object chair5033-6 of Chair
+         properties
+            x	265
+            y	256
+            loop	2
+         end
+      end
+      object chair5033-7 of Chair
+         properties
+            x	394
+            y	278
+            loop	0
+         end
+      end
+      object chair5033-8 of Chair
+         properties
+            x	567
+            y	278
+            loop	1
+         end
+      end
+      object chair5033-9 of Chair
+         properties
+            x	442
+            y	260
+            loop	0
+         end
+      end
+      object chair5033-10 of Chair
+         properties
+            x	532
+            y	261
+            loop	1
+         end
+      end
+      object chair5033-11 of Chair
+         properties
+            x	486
+            y	261
+            loop	2
+         end
+      end
+      object chair5033-12 of Chair
+         properties
+            x	501
+            y	164
+            loop	2
+         end
+      end
+      object chair5033-13 of Chair
+         properties
+            x	542
+            y	164
+            loop	2
+         end
+      end
+      object chair5033-14 of Chair
+         properties
+            x	583
+            y	165
+            loop	2
+         end
+      end
+      object simpleDoor5033-15 of SimpleDoor
+         properties
+            x	205
+            y	196
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Jeremy5033-16 of Bartender
+         properties
+            x	362
+            y	141
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Jeremy (NPC)"
+            title	"the Serving Boy"
+         end
+         base container
+            worn	LeatherTunic
+            worn	LeatherPants
+            worn	RedBoots
+            worn	Wristband
+            worn	BlackBelt
+            worn	RedCowl
+            object	AleJug
+            object	WineFlask
+            head	0 3 6 10 4 6 2 6 8 0 8 0 
+         end
+      end
+   end
+end
+room 5036
+   properties
+      picture	3500
+      south	5051 
+      east	5037 
+      west	5035 
+      roomName	"The Soothers"
+   end
+   atpinfo
+      2528  148 26
+      2712  452 1 -99
+      2529  242 63
+      2528  359 25
+      2749  347 11 -99
+      2713  199 63
+      2714  298 64
+      2714  78 68
+      2714  18 64
+      35481  305 107 30
+      2713  278 207 38
+      2714  258 172 60
+      2714  181 138 60
+      2703  94 62 -15
+      2715  245 206
+      2712  579 12 -99
+      2711  237 218
+      2549  171 159
+      2549  336 159
+      2558  335 156
+      2517  45 35
+      2558  170 156
+   end
+   objects
+      object simpleDoor5036-0 of SimpleDoor
+         properties
+            x	44
+            y	218
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5038
+   properties
+      picture	3500
+      north	5023 
+      east	5039 
+      west	5037 
+      roomName	"Light Breeze Eatery"
+   end
+   atpinfo
+      2521  33 117
+      2521  99 105
+      2522  57 123
+      35369  29 117
+      35370  -42 129
+      35485  458 87
+      2749  9 87
+      2749  393 80
+      2717  99 40
+      2717  590 88
+      2598  170 287
+      2598  376 191
+      2598  533 283
+      86  545 154 50
+      85  542 153
+      35722  73 194
+      2955  274 111 48
+      2953  214 112
+      3  149 165
+      3  149 183
+   end
+   objects
+      object fountain5038-0 of Fountain
+         properties
+            x	31
+            y	212
+            loop	0
+         end
+      end
+      object chair5038-1 of Chair
+         properties
+            x	296
+            y	167
+            loop	0
+         end
+      end
+      object chair5038-2 of Chair
+         properties
+            x	88
+            y	264
+            loop	0
+         end
+      end
+      object chair5038-3 of Chair
+         properties
+            x	455
+            y	258
+            loop	0
+         end
+      end
+      object chair5038-4 of Chair
+         properties
+            x	446
+            y	171
+            loop	1
+         end
+      end
+      object chair5038-5 of Chair
+         properties
+            x	257
+            y	262
+            loop	1
+         end
+      end
+      object chair5038-6 of Chair
+         properties
+            x	606
+            y	257
+            loop	1
+         end
+      end
+      object chair5038-7 of Chair
+         properties
+            x	336
+            y	167
+            loop	2
+         end
+      end
+      object chair5038-8 of Chair
+         properties
+            x	375
+            y	167
+            loop	2
+         end
+      end
+      object chair5038-9 of Chair
+         properties
+            x	412
+            y	168
+            loop	2
+         end
+      end
+      object chair5038-10 of Chair
+         properties
+            x	130
+            y	254
+            loop	2
+         end
+      end
+      object chair5038-11 of Chair
+         properties
+            x	171
+            y	255
+            loop	2
+         end
+      end
+      object chair5038-12 of Chair
+         properties
+            x	214
+            y	255
+            loop	2
+         end
+      end
+      object chair5038-13 of Chair
+         properties
+            x	487
+            y	249
+            loop	2
+         end
+      end
+      object chair5038-14 of Chair
+         properties
+            x	526
+            y	250
+            loop	2
+         end
+      end
+      object chair5038-15 of Chair
+         properties
+            x	568
+            y	250
+            loop	2
+         end
+      end
+      object Jeremy5038-16 of Bartender
+         properties
+            name	"Jeremy 2"
+            x	548
+            y	150
+            loop	2
+         end
+         base character
+            sex	0
+            properName	"Jeremy 2 (NPC)"
+            title	"the Serving Boy"
+         end
+         base container
+            worn	LeatherTunic
+            worn	LeatherPants
+            worn	RedBoots
+            worn	Wristband
+            worn	BlackBelt
+            worn	RedCowl
+            object	AleJug
+            object	WineFlask
+            head	0 3 6 10 4 6 2 6 8 0 8 0 
+         end
+         base described
+            text	"Jeremy 2 is exactly like Jeremy except he isn't."
+         end
+      end
+   end
+end
+room 5043
+   properties
+      picture	3500
+      south	5058 
+      east	5044 
+      west	5042 
+      roomName	"To The Hilt"
+   end
+   atpinfo
+      2606  186 50
+      2527  187 6
+      2501  83 26
+      2513  291 28
+      2602  114 35
+      35370  246 37
+      2606  190 52
+      2711  372 190
+      35479  218 196
+      2581  56 153
+      2596  73 160 20
+      2504  343 -20
+      35369  512 137
+      2521  574 128
+      2528  69 -5
+      2748  489 100
+      2717  438 208
+      35485  627 208
+      35485  527 217
+      2718  444 150 -50
+      2717  130 204
+      2718  17 185
+      2717  4 186
+      2695  340 116
+      2708  330 65
+      2504  345 15 20
+      2582  154 146 -10
+      2597  168 161 20
+      2711  615 73
+      2711  596 58
+      35479  551 75
+      2711  519 61
+      3  9 161
+      3  4 175
+      3  387 191
+      3  410 198
+      3  617 199
+      3  531 209
+   end
+   objects
+      object door5043-0 of Door
+         properties
+            x	290
+            y	191
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5042
+   properties
+      picture	3500
+      south	5057 
+      east	5043 
+      west	5041 
+      roomName	"Holistic Healers"
+   end
+   atpinfo
+      2528  309 12
+      2526  188 39
+      2526  418 39
+      2501  69 26
+      2525  442 34
+      2525  170 34
+      2513  567 24
+      2608  130 41
+      35376  507 50
+      2611  430 63
+      2611  185 108 50
+      2612  311 172 150
+      2548  86 144
+      2549  386 144
+      2549  210 144
+      2549  302 44
+      2555  385 141
+      2555  209 141
+      2555  301 41
+      2554  86 138
+      2703  423 92
+      2737  512 108
+      2748  -58 21 -80
+      2748  489 18 -80
+      2712  372 203
+      2712  244 201
+      2514  540 28 -10
+      2712  320 210
+      35480  387 200
+      2712  0 19 -77
+      2712  629 15 -77
+      3  180 194
+      3  455 195
+   end
+   objects
+      object simpleDoor5042-0 of SimpleDoor
+         properties
+            x	566
+            y	190
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5030
+   properties
+      picture	3500
+      north	5015 
+      south	5045 
+      east	5031 
+   end
+   atpinfo
+      2524  583 144 100
+      2511  446 165 150
+      2509  487 133
+      2509  412 122
+      2510  385 142 -47
+      2534  -19 324
+      2534  -19 163
+      2607  532 143
+      2607  487 136
+      35377  505 215 150
+      2749  163 7 -99
+      2748  -68 104
+      2713  344 102
+      2717  218 113
+      2717  285 111
+      2716  419 190
+      2716  381 179
+      2716  486 201
+      2718  22 110 -99
+      2717  17 211
+      2717  594 220
+      2714  628 179
+      2715  619 200
+      2516  715 6
+      85  256 155
+      2159  259 155 50
+      3  536 212
+      3  630 202
+   end
+   objects
+      object flowerCart5030-0 of FlowerCart
+         properties
+            x	262
+            name	"Anga"
+            y	153
+            loop	2
+         end
+         base character
+            sex	1
+            properName	"Anga (NPC)"
+         end
+         base container
+            worn	GreenShirt
+            worn	BlackPants
+            worn	BlackCowl
+            worn	GreenLowBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 3 0 0 2 4 5 9 4 3 1 2 
+         end
+      end
+   end
+end
+room 5032
+   properties
+      picture	3500
+      north	5017 
+      south	5047 
+      east	5033 
+      west	5031 
+   end
+   atpinfo
+      2525  357 62
+      2526  466 67
+      2525  583 63
+      2605  357 67
+      2631  357 81
+      2633  462 82
+      2633  579 81
+      2605  480 66
+      2605  571 64
+      2748  150 48 -99
+      2748  -91 144
+      2715  22 146
+      2715  215 128
+      2714  28 152 20
+      2713  244 128
+      35485  240 156
+      35485  -4 159
+      2717  14 174
+      2954  377 234
+      2954  495 233
+      2954  611 234
+      3  151 140
+      3  66 146
+      3  290 205
+      3  290 224
+      3  627 194
+      3  632 227
+      3  631 210
+   end
+end
+room 5044
+   properties
+      picture	3500
+      north	5029 
+      south	5059 
+      east	3018 
+      west	5043 
+      roomName	"Straight Off The Loom"
+   end
+   atpinfo
+      2513  143 59
+      2513  182 55
+      2514  166 67
+      35379  277 68
+      2525  281 49
+      2592  150 167
+      2587  38 185
+      2586  175 185
+      2593  27 166
+      2691  441 126
+      2535  708 331
+      2535  709 176
+      2745  680 15 -99
+      2713  535 103
+      2716  66 211
+      35484  660 112
+      35484  664 115
+      2716  664 113
+      35484  165 224
+      2716  13 211
+      2716  -87 215
+      2503  38 28
+      35377  102 79
+      2588  247 187
+      2594  263 159
+      35484  129 218
+      35484  219 209
+      2535  635 335 165
+      2535  627 385
+      35377  439 80
+      2503  377 32
+      2513  483 58
+      3  12 214
+      3  277 210
+      3  93 227
+   end
+   objects
+      object simpleDoor5044-0 of SimpleDoor
+         properties
+            x	383
+            y	220
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end

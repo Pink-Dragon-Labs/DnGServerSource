@@ -1,0 +1,3221 @@
+# Dungeonmaker World File (DNG12.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 75500
+# Dungeon last room = 76579
+# Number of objects in dungeon = 276
+# Level 0 information:
+room 75685
+	properties
+		template 30502
+		south 75684
+		east 75686
+		flags	0
+	end
+	objects
+		object Torch-75685-0 of Torch
+			properties
+				x	461
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75686
+	properties
+		template 32403
+		east 75687
+		west 75685
+		flags	0
+	end
+	objects
+		object Pixie-75686-0 of Pixie
+			properties
+				x	247
+				y	220
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end
+room 75687
+	properties
+		template 30901
+		east 75688
+		west 75686
+		flags	0
+	end
+	objects
+		object Torch-75687-0 of Torch
+			properties
+				x	145
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75687-1 of RandomStuff
+			properties
+				x	127
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75688
+	properties
+		template 31105
+		south 75689
+		east 75690
+		west 75687
+		flags	0
+	end
+	objects
+		object RandomStuff-75688-0 of RandomStuff
+			properties
+				x	505
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75690
+	properties
+		template 30901
+		east 75691
+		west 75688
+		flags	8
+	end
+	objects
+		object Pixie-75690-0 of Pixie
+			properties
+				x	248
+				y	270
+				loop	1
+				color	74
+			end
+			base character
+			end
+		end
+		object Pixie-75690-1 of Pixie
+			properties
+				x	135
+				y	285
+				loop	1
+				color	74
+			end
+			base character
+			end
+		end
+		object SmokeA-75690-2 of SmokeA
+			properties
+				x	503
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75691
+	properties
+		template 30906
+		east 75692
+		west 75690
+		flags	0
+	end
+	objects
+		object Torch-75691-0 of Torch
+			properties
+				x	432
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75692
+	properties
+		template 30201
+		west 75691
+		flags	0
+	end
+	objects
+		object Pixie-75692-0 of Pixie
+			properties
+				x	276
+				y	264
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-75692-1 of DungeonBackDoor
+			properties
+				x	179
+				y	236
+				loop	2
+				linkTo	DungeonBackDoor-75662-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object SmokeA-75692-2 of SmokeA
+			properties
+				x	521
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75684
+	properties
+		template 32304
+		north 75685
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75684-0 of DungeonBackDown
+			properties
+				x	417
+				y	241
+				loop	2
+				linkTo	DungeonBackUp-75520-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75689
+	properties
+		template 30403
+		north 75688
+		flags	0
+	end
+	objects
+		object Pixie-75689-0 of Pixie
+			properties
+				x	233
+				y	269
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end
+room 75662
+	properties
+		template 30805
+		east 75661
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75662-0 of DungeonBackDoor
+			properties
+				x	252
+				y	211
+				loop	2
+				linkTo	DungeonBackDoor-75692-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75661
+	properties
+		template 30601
+		south 75660
+		west 75662
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75661-0 of DungeonBackDoor
+			properties
+				x	328
+				y	229
+				loop	2
+				linkTo	DungeonBackDoor-75697-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75661-1 of Torch
+			properties
+				x	213
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75521
+	properties
+		template 30805
+		east 75520
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75521-0 of DungeonBackDown
+			properties
+				x	250
+				y	210
+				loop	2
+				linkTo	DungeonBackUp-75683-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75520
+	properties
+		template 30703
+		east 75519
+		west 75521
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75520-0 of DungeonBackUp
+			properties
+				x	314
+				y	229
+				loop	2
+				linkTo	DungeonBackDown-75684-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75520-1 of Torch
+			properties
+				x	183
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75519
+	properties
+		template 32302
+		south 75518
+		west 75520
+		flags	0
+	end
+	objects
+		object DesertRat-75519-0 of DesertRat
+			properties
+				x	389
+				y	300
+				loop	0
+				color	41
+			end
+			base character
+			end
+		end
+	end
+end
+room 75515
+	properties
+		template 30501
+		south 75514
+		east 75516
+		flags	72
+	end
+	objects
+		object WoodRat-75515-0 of WoodRat
+			properties
+				x	263
+				y	305
+				loop	2
+				color	40
+			end
+			base character
+			end
+		end
+		object WoodRat-75515-1 of WoodRat
+			properties
+				x	421
+				y	278
+				loop	0
+				color	40
+			end
+			base character
+			end
+		end
+	end
+end
+room 75516
+	properties
+		template 30201
+		west 75515
+		flags	0
+	end
+	objects
+		object WoodRat-75516-0 of WoodRat
+			properties
+				x	313
+				y	279
+				loop	0
+				color	40
+			end
+			base character
+			end
+		end
+		object RandomStuff-75516-1 of RandomStuff
+			properties
+				x	493
+				y	277
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-75516-2 of RandomJunk
+			properties
+				x	454
+				y	271
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cheese-75516-3 of Cheese
+			properties
+				x	373
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75660
+	properties
+		template 31006
+		south 75659
+		north 75661
+		flags	0
+	end
+end
+room 75697
+	properties
+		template 30805
+		east 75696
+		flags	0
+	end
+	objects
+		object FatColumn-75697-0 of FatColumn
+			properties
+				x	63
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75697-1 of Column
+			properties
+				x	20
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-75697-2 of DungeonBackDoor
+			properties
+				x	248
+				y	206
+				loop	2
+				linkTo	DungeonBackDoor-75661-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75696
+	properties
+		template 31104
+		south 75695
+		west 75697
+		flags	0
+	end
+	objects
+		object Faery-75696-0 of Faery
+			properties
+				x	266
+				y	289
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-75696-1 of Torch
+			properties
+				x	116
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75518
+	properties
+		template 30401
+		north 75519
+		flags	0
+	end
+end
+room 75514
+	properties
+		template 32304
+		north 75515
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75514-0 of DungeonBackUp
+			properties
+				x	399
+				y	240
+				loop	1
+				linkTo	DungeonBackDown-75508-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75659
+	properties
+		template 30402
+		south 75654
+		north 75660
+		flags	0
+	end
+	objects
+		object Torch-75659-0 of Torch
+			properties
+				x	154
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75695
+	properties
+		template 31004
+		south 75694
+		north 75696
+		flags	0
+	end
+	objects
+		object Torch-75695-0 of Torch
+			properties
+				x	193
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75683
+	properties
+		template 30305
+		south 75682
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75683-0 of DungeonBackUp
+			properties
+				x	286
+				y	245
+				loop	2
+				linkTo	DungeonBackDown-75521-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75653
+	properties
+		template 30501
+		south 75652
+		east 75654
+		flags	0
+	end
+	objects
+		object DarkFaery-75653-0 of DarkFaery
+			properties
+				x	250
+				y	270
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75653-1 of DarkFaery
+			properties
+				x	219
+				y	293
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 75654
+	properties
+		template 32102
+		east 75655
+		west 75653
+		north 75659
+		flags	0
+	end
+	objects
+		object RandomStuff-75654-0 of RandomStuff
+			properties
+				x	327
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75655
+	properties
+		template 30602
+		south 75656
+		west 75654
+		flags	0
+	end
+	objects
+		object Spring-75655-0 of Spring
+			properties
+				x	322
+				y	160
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-75655-1 of Spring
+			properties
+				x	378
+				y	190
+				loop	0
+			end
+			base described
+			end
+		end
+		object Spring-75655-2 of Spring
+			properties
+				x	413
+				y	207
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75655-3 of Column
+			properties
+				x	433
+				y	110
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75694
+	properties
+		template 31401
+		south 75693
+		east 75699
+		north 75695
+		flags	0
+	end
+end
+room 75699
+	properties
+		template 30901
+		east 75700
+		west 75694
+		flags	0
+	end
+	objects
+		object WoodNymph-75699-0 of WoodNymph
+			properties
+				x	298
+				y	270
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Torch-75699-1 of Torch
+			properties
+				x	147
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75700
+	properties
+		template 30201
+		west 75699
+		flags	0
+	end
+	objects
+		object Button-75700-0 of Button
+			properties
+				x	406
+				y	275
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75714 0 
+				vBeDeactivated teleport dobj 75714 0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75682
+	properties
+		template 31006
+		south 75681
+		north 75683
+		flags	0
+	end
+	objects
+		object Torch-75682-0 of Torch
+			properties
+				x	402
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75509
+	properties
+		template 32301
+		east 75507
+		flags	0
+	end
+	objects
+		object SwampRat-75509-0 of SwampRat
+			properties
+				x	433
+				y	271
+				loop	0
+				color	47
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-75509-1 of DungeonBackDown
+			properties
+				x	506
+				y	204
+				loop	2
+				linkTo	DungeonBackUp-75510-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Shroom1-75509-2 of Shroom1
+			properties
+				x	336
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75507
+	properties
+		template 31301
+		east 75506
+		west 75509
+		flags	0
+	end
+	objects
+		object Button-75507-0 of Button
+			properties
+				x	504
+				y	303
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75518 0 
+				vBeDeactivated teleport dobj 75518 0 
+			end
+			base described
+			end
+		end
+		object Web3-75507-1 of Web3
+			properties
+				x	262
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-75507-2 of Torch
+			properties
+				x	86
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75506
+	properties
+		template 30903
+		south 75505
+		east 75508
+		west 75507
+		flags	200
+	end
+	objects
+		object Faery-75506-0 of Faery
+			properties
+				x	232
+				y	273
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Pixie-75506-1 of Pixie
+			properties
+				x	340
+				y	262
+				loop	2
+				color	74
+			end
+			base character
+			end
+		end
+		object Faery-75506-2 of Faery
+			properties
+				x	436
+				y	266
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Fountain-75506-3 of Fountain
+			properties
+				x	336
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75508
+	properties
+		template 30701
+		west 75506
+		flags	0
+	end
+	objects
+		object DarkFaery-75508-0 of DarkFaery
+			properties
+				x	227
+				y	256
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75508-1 of DarkFaery
+			properties
+				x	246
+				y	274
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-75508-2 of DungeonBackDown
+			properties
+				x	389
+				y	203
+				loop	2
+				linkTo	DungeonBackUp-75514-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75508-3 of Torch
+			properties
+				x	278
+				y	204
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75657
+	properties
+		template 32301
+		east 75652
+		flags	0
+	end
+	objects
+		object Sign-75657-0 of Sign
+			properties
+				x	421
+				y	229
+				loop	0
+			end
+			base described
+				text	"The sign reads: "Magic Crossing - One Way Only""
+			end
+		end
+		object Lever-75657-1 of Lever
+			properties
+				x	329
+				y	268
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75508 0 
+				vBeDeactivated teleport dobj 75508 0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75652
+	properties
+		template 32502
+		west 75657
+		north 75653
+		flags	0
+	end
+	objects
+		object Torch-75652-0 of Torch
+			properties
+				x	319
+				y	222
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75656
+	properties
+		template 31001
+		south 75658
+		north 75655
+		flags	0
+	end
+	objects
+		object Torch-75656-0 of Torch
+			properties
+				x	156
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75693
+	properties
+		template 31001
+		south 75698
+		north 75694
+		flags	0
+	end
+	objects
+		object Torch-75693-0 of Torch
+			properties
+				x	157
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75681
+	properties
+		template 32304
+		north 75682
+		flags	8
+	end
+	objects
+		object DarkFaery-75681-0 of DarkFaery
+			properties
+				x	157
+				y	251
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75681-1 of DarkFaery
+			properties
+				x	265
+				y	260
+				loop	3
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75681-2 of DarkFaery
+			properties
+				x	214
+				y	267
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 75505
+	properties
+		template 31006
+		south 75504
+		north 75506
+		flags	0
+	end
+	objects
+		object CaveRat-75505-0 of CaveRat
+			properties
+				x	154
+				y	306
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 75658
+	properties
+		template 32304
+		north 75656
+		flags	0
+	end
+	objects
+		object DungeonBackDown-75658-0 of DungeonBackDown
+			properties
+				x	418
+				y	246
+				loop	2
+				linkTo	DungeonBackUp-75698-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75698
+	properties
+		template 30803
+		north 75693
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75698-0 of DungeonBackUp
+			properties
+				x	477
+				y	217
+				loop	2
+				linkTo	DungeonBackDown-75658-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FatColumn-75698-1 of FatColumn
+			properties
+				x	630
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75698-2 of Column
+			properties
+				x	631
+				y	283
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75714
+	properties
+		template 30805
+		east 75713
+		flags	0
+	end
+end
+room 75713
+	properties
+		template 30909
+		south 75711
+		west 75714
+		flags	0
+	end
+	objects
+		object WoodNymph-75713-0 of WoodNymph
+			properties
+				x	288
+				y	305
+				loop	1
+				color	83
+			end
+			base character
+			end
+		end
+	end
+end
+room 75510
+	properties
+		template 31002
+		south 75511
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75510-0 of DungeonBackUp
+			properties
+				x	291
+				y	217
+				loop	2
+				linkTo	DungeonBackDown-75509-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75510-1 of Torch
+			properties
+				x	153
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75504
+	properties
+		template 31003
+		south 75503
+		north 75505
+		flags	0
+	end
+	objects
+		object Torch-75504-0 of Torch
+			properties
+				x	435
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75500
+	properties
+		template 30301
+		south 75501
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75500-0 of DungeonBackUp
+			properties
+				x	258
+				y	258
+				loop	0
+				linkTo	movingRock4037-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75651
+	properties
+		template 30301
+		south 75650
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75651-0 of DungeonBackDoor
+			properties
+				x	354
+				y	244
+				loop	0
+				linkTo	DungeonBackDoor-75676-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75711
+	properties
+		template 31001
+		south 75712
+		north 75713
+		flags	0
+	end
+	objects
+		object Pixie-75711-0 of Pixie
+			properties
+				x	275
+				y	287
+				loop	1
+				color	74
+			end
+			base character
+			end
+		end
+		object Torch-75711-1 of Torch
+			properties
+				x	156
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75512
+	properties
+		template 30101
+		east 75513
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75512-0 of DungeonBackDoor
+			properties
+				x	474
+				y	218
+				loop	2
+				linkTo	DungeonBackDoor-75675-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75512-1 of Torch
+			properties
+				x	97
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75512-2 of RandomStuff
+			properties
+				x	102
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75513
+	properties
+		template 30906
+		east 75511
+		west 75512
+		flags	0
+	end
+	objects
+		object Pixie-75513-0 of Pixie
+			properties
+				x	217
+				y	267
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end
+room 75511
+	properties
+		template 32601
+		west 75513
+		north 75510
+		flags	0
+	end
+end
+room 75503
+	properties
+		template 30801
+		east 75502
+		north 75504
+		flags	0
+	end
+	objects
+		object Faery-75503-0 of Faery
+			properties
+				x	230
+				y	275
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Silvergrass-75503-1 of Silvergrass
+			properties
+				x	512
+				y	266
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75502
+	properties
+		template 30905
+		south 75632
+		east 75501
+		west 75503
+		flags	0
+	end
+	objects
+		object Torch-75502-0 of Torch
+			properties
+				x	430
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75501
+	properties
+		template 32701
+		west 75502
+		north 75500
+		flags	0
+	end
+	objects
+		object Pixie-75501-0 of Pixie
+			properties
+				x	163
+				y	262
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+		object Torch-75501-1 of Torch
+			properties
+				x	78
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75501-2 of Column
+			properties
+				x	491
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75650
+	properties
+		template 31001
+		south 75637
+		north 75651
+		flags	0
+	end
+	objects
+		object Pixie-75650-0 of Pixie
+			properties
+				x	195
+				y	275
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+	end
+end
+room 75676
+	properties
+		template 32301
+		east 75677
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75676-0 of DungeonBackDoor
+			properties
+				x	511
+				y	204
+				loop	2
+				linkTo	DungeonBackDoor-75651-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75676-1 of Torch
+			properties
+				x	396
+				y	216
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75677
+	properties
+		template 32403
+		east 75678
+		west 75676
+		flags	0
+	end
+	objects
+		object cryptBat-75677-0 of cryptBat
+			properties
+				x	461
+				y	274
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object Button-75677-1 of Button
+			properties
+				x	121
+				y	277
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75707 0 
+				vBeDeactivated teleport dobj 75707 0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75678
+	properties
+		template 30602
+		south 75679
+		west 75677
+		flags	8
+	end
+	objects
+		object cryptBat-75678-0 of cryptBat
+			properties
+				x	503
+				y	278
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-75678-1 of cryptBat
+			properties
+				x	394
+				y	263
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object CaveRat-75678-2 of CaveRat
+			properties
+				x	212
+				y	275
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object Torch-75678-3 of Torch
+			properties
+				x	91
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+		object Clump-75678-4 of Clump
+			properties
+				x	78
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75712
+	properties
+		template 31004
+		south 75710
+		north 75711
+		flags	0
+	end
+	objects
+		object DarkFaery-75712-0 of DarkFaery
+			properties
+				x	263
+				y	279
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75712-1 of DarkFaery
+			properties
+				x	230
+				y	246
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 75632
+	properties
+		template 31004
+		south 75633
+		north 75502
+		flags	0
+	end
+end
+room 75637
+	properties
+		template 30402
+		south 75636
+		north 75650
+		flags	0
+	end
+	objects
+		object Torch-75637-0 of Torch
+			properties
+				x	151
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75679
+	properties
+		template 30402
+		south 75680
+		north 75678
+		flags	0
+	end
+	objects
+		object cryptBat-75679-0 of cryptBat
+			properties
+				x	287
+				y	307
+				loop	3
+				color	73
+			end
+			base character
+			end
+		end
+	end
+end
+room 75709
+	properties
+		template 30805
+		east 75710
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75709-0 of DungeonBackDoor
+			properties
+				x	248
+				y	214
+				loop	2
+				linkTo	DungeonBackDoor-75680-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomStuff-75709-1 of RandomStuff
+			properties
+				x	76
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75710
+	properties
+		template 32502
+		west 75709
+		north 75712
+		flags	0
+	end
+	objects
+		object Torch-75710-0 of Torch
+			properties
+				x	313
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Clump-75710-1 of Clump
+			properties
+				x	107
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-75710-2 of Smoke1
+			properties
+				x	367
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75675
+	properties
+		template 30805
+		east 75674
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75675-0 of DungeonBackDoor
+			properties
+				x	250
+				y	210
+				loop	2
+				linkTo	DungeonBackDoor-75512-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75675-1 of Torch
+			properties
+				x	149
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-75675-2 of Web1
+			properties
+				x	572
+				y	64
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-75675-3 of Web2
+			properties
+				x	596
+				y	59
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-75675-4 of Web6
+			properties
+				x	563
+				y	178
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web7-75675-5 of Web7
+			properties
+				x	520
+				y	129
+				loop	0
+			end
+			base described
+			end
+		end
+		object Silvergrass-75675-6 of Silvergrass
+			properties
+				x	327
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75674
+	properties
+		template 31301
+		east 75672
+		west 75675
+		flags	0
+	end
+	objects
+		object WoodNymph-75674-0 of WoodNymph
+			properties
+				x	205
+				y	275
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+	end
+end
+room 75672
+	properties
+		template 31105
+		south 75671
+		east 75673
+		west 75674
+		flags	8
+	end
+	objects
+		object WoodNymph-75672-0 of WoodNymph
+			properties
+				x	230
+				y	314
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-75672-1 of WoodNymph
+			properties
+				x	207
+				y	292
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Torch-75672-2 of Torch
+			properties
+				x	173
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75673
+	properties
+		template 30201
+		west 75672
+		flags	0
+	end
+end
+room 75633
+	properties
+		template 30803
+		east 75634
+		north 75632
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75633-0 of DungeonBackDoor
+			properties
+				x	477
+				y	220
+				loop	2
+				linkTo	DungeonBackDoor-75644-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75633-1 of Torch
+			properties
+				x	320
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75634
+	properties
+		template 31301
+		east 75635
+		west 75633
+		flags	0
+	end
+end
+room 75635
+	properties
+		template 30703
+		east 75636
+		west 75634
+		flags	0
+	end
+	objects
+		object Pixie-75635-0 of Pixie
+			properties
+				x	306
+				y	273
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+		object Torch-75635-1 of Torch
+			properties
+				x	182
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75636
+	properties
+		template 31201
+		south 75638
+		west 75635
+		north 75637
+		flags	0
+	end
+end
+room 75649
+	properties
+		template 31002
+		south 75648
+		flags	0
+	end
+	objects
+		object Button-75649-0 of Button
+			properties
+				x	297
+				y	234
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75704 0 
+				vBeDeactivated teleport dobj 75704 0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75680
+	properties
+		template 30401
+		north 75679
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-75680-0 of DungeonBackDoor
+			properties
+				x	106
+				y	234
+				loop	2
+				linkTo	DungeonBackDoor-75709-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75671
+	properties
+		template 31001
+		south 75670
+		north 75672
+		flags	0
+	end
+	objects
+		object RandomStuff-75671-0 of RandomStuff
+			properties
+				x	172
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75638
+	properties
+		template 31001
+		south 75639
+		north 75636
+		flags	0
+	end
+	objects
+		object Faery-75638-0 of Faery
+			properties
+				x	343
+				y	304
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-75638-1 of Torch
+			properties
+				x	155
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75648
+	properties
+		template 31006
+		south 75647
+		north 75649
+		flags	0
+	end
+	objects
+		object Faery-75648-0 of Faery
+			properties
+				x	249
+				y	298
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-75648-1 of Torch
+			properties
+				x	402
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75670
+	properties
+		template 31004
+		south 75669
+		north 75671
+		flags	0
+	end
+	objects
+		object DarkFaery-75670-0 of DarkFaery
+			properties
+				x	269
+				y	281
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75670-1 of DarkFaery
+			properties
+				x	242
+				y	312
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-75670-2 of DungeonBackDown
+			properties
+				x	194
+				y	233
+				loop	2
+				linkTo	DungeonBackUp-75668-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75670-3 of Torch
+			properties
+				x	436
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75645
+	properties
+		template 30805
+		east 75644
+		flags	0
+	end
+end
+room 75644
+	properties
+		template 30703
+		east 75643
+		west 75645
+		flags	8
+	end
+	objects
+		object Pixie-75644-0 of Pixie
+			properties
+				x	444
+				y	253
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+		object Pixie-75644-1 of Pixie
+			properties
+				x	208
+				y	257
+				loop	0
+				color	74
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-75644-2 of DungeonBackDoor
+			properties
+				x	314
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-75633-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-75644-3 of Torch
+			properties
+				x	182
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75643
+	properties
+		template 31301
+		east 75642
+		west 75644
+		flags	0
+	end
+end
+room 75642
+	properties
+		template 30909
+		south 75641
+		west 75643
+		flags	0
+	end
+	objects
+		object Faery-75642-0 of Faery
+			properties
+				x	260
+				y	310
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-75642-1 of Torch
+			properties
+				x	296
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75642-2 of RandomStuff
+			properties
+				x	206
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75639
+	properties
+		template 32402
+		south 75640
+		east 75646
+		north 75638
+		flags	0
+	end
+end
+room 75646
+	properties
+		template 30906
+		east 75647
+		west 75639
+		flags	0
+	end
+	objects
+		object Torch-75646-0 of Torch
+			properties
+				x	203
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75647
+	properties
+		template 32601
+		west 75646
+		north 75648
+		flags	0
+	end
+	objects
+		object DesertRat-75647-0 of DesertRat
+			properties
+				x	361
+				y	285
+				loop	1
+				color	41
+			end
+			base character
+			end
+		end
+	end
+end
+room 75707
+	properties
+		template 31002
+		south 75706
+		flags	0
+	end
+	objects
+		object Button-75707-0 of Button
+			properties
+				x	297
+				y	234
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75704 0 
+				vBeDeactivated teleport dobj 75704 0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75669
+	properties
+		template 30403
+		north 75670
+		flags	8
+	end
+	objects
+		object CaveRat-75669-0 of CaveRat
+			properties
+				x	232
+				y	270
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object DesertRat-75669-1 of DesertRat
+			properties
+				x	289
+				y	284
+				loop	1
+				color	41
+			end
+			base character
+			end
+		end
+		object Torch-75669-2 of Torch
+			properties
+				x	400
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75641
+	properties
+		template 30802
+		east 75640
+		north 75642
+		flags	0
+	end
+	objects
+		object Faery-75641-0 of Faery
+			properties
+				x	368
+				y	270
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object Fountain-75641-1 of Fountain
+			properties
+				x	231
+				y	279
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75640
+	properties
+		template 32602
+		west 75641
+		north 75639
+		flags	0
+	end
+	objects
+		object Torch-75640-0 of Torch
+			properties
+				x	565
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-75640-1 of Stool
+			properties
+				x	257
+				y	203
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-75640-2 of Embers
+			properties
+				x	294
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-75640-3 of FireB
+			properties
+				x	284
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-75640-4 of Smoke1
+			properties
+				x	280
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75706
+	properties
+		template 31402
+		south 75705
+		east 75708
+		north 75707
+		flags	0
+	end
+	objects
+		object Torch-75706-0 of Torch
+			properties
+				x	364
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75706-1 of RandomStuff
+			properties
+				x	427
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75708
+	properties
+		template 30201
+		west 75706
+		flags	0
+	end
+	objects
+		object DesertRat-75708-0 of DesertRat
+			properties
+				x	165
+				y	267
+				loop	1
+				color	41
+			end
+			base character
+			end
+		end
+		object Button-75708-1 of Button
+			properties
+				x	406
+				y	275
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75700 0 
+				vBeDeactivated teleport dobj 75700 0 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75664
+	properties
+		template 31002
+		south 75665
+		flags	0
+	end
+	objects
+		object DungeonBackUp-75664-0 of DungeonBackUp
+			properties
+				x	299
+				y	218
+				loop	2
+				linkTo	DungeonBackDown-75701-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75704
+	properties
+		template 31002
+		south 75703
+		flags	0
+	end
+	objects
+		object Button-75704-0 of Button
+			properties
+				x	297
+				y	234
+				loop	0
+			end
+			actions
+				vBeActivated teleport dobj 75649 0 
+				vBeDeactivated teleport dobj 75649 0 
+			end
+			base described
+			end
+		end
+		object Torch-75704-1 of Torch
+			properties
+				x	154
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75705
+	properties
+		template 30401
+		north 75706
+		flags	0
+	end
+	objects
+		object Torch-75705-0 of Torch
+			properties
+				x	212
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+		object Lever-75705-1 of Lever
+			properties
+				x	152
+				y	268
+				loop	0
+			end
+			actions
+				vBeActivated unlock TrapDoor-75702-1 
+				vBeDeactivated lock TrapDoor-75702-1 
+			end
+			base described
+			end
+		end
+	end
+end
+room 75668
+	properties
+		template 30805
+		east 75667
+		flags	0
+	end
+	objects
+		object WoodNymph-75668-0 of WoodNymph
+			properties
+				x	266
+				y	290
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Faery-75668-1 of Faery
+			properties
+				x	212
+				y	270
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-75668-2 of DungeonBackUp
+			properties
+				x	412
+				y	232
+				loop	2
+				linkTo	DungeonBackDown-75670-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Column-75668-3 of Column
+			properties
+				x	279
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75668-4 of Column
+			properties
+				x	206
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75668-5 of Column
+			properties
+				x	611
+				y	152
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-75668-6 of Column
+			properties
+				x	526
+				y	121
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75668-7 of RandomStuff
+			properties
+				x	107
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75667
+	properties
+		template 31202
+		south 76030
+		east 75666
+		west 75668
+		flags	0
+	end
+	objects
+		object Torch-75667-0 of Torch
+			properties
+				x	173
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-75667-1 of RandomStuff
+			properties
+				x	245
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75666
+	properties
+		template 30703
+		east 75665
+		west 75667
+		flags	0
+	end
+	objects
+		object Shroom2-75666-0 of Shroom2
+			properties
+				x	295
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-75666-1 of Shroom1
+			properties
+				x	340
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-75666-2 of Smoke1
+			properties
+				x	222
+				y	315
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75665
+	properties
+		template 32502
+		west 75666
+		north 75664
+		flags	0
+	end
+	objects
+		object Faery-75665-0 of Faery
+			properties
+				x	307
+				y	282
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object Torch-75665-1 of Torch
+			properties
+				x	312
+				y	224
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75701
+	properties
+		template 32301
+		east 75702
+		flags	8
+	end
+	objects
+		object DarkFaery-75701-0 of DarkFaery
+			properties
+				x	323
+				y	317
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75701-1 of DarkFaery
+			properties
+				x	299
+				y	290
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-75701-2 of DarkFaery
+			properties
+				x	276
+				y	267
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DungeonBackDown-75701-3 of DungeonBackDown
+			properties
+				x	531
+				y	207
+				loop	2
+				linkTo	DungeonBackUp-75664-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object FireB-75701-4 of FireB
+			properties
+				x	85
+				y	320
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-75701-5 of Fire2
+			properties
+				x	112
+				y	296
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fire2-75701-6 of Fire2
+			properties
+				x	81
+				y	303
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-75701-7 of Fire2
+			properties
+				x	146
+				y	299
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-75701-8 of Smoke1
+			properties
+				x	98
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireB-75701-9 of FireB
+			properties
+				x	83
+				y	318
+				loop	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 75702
+	properties
+		template 31301
+		east 75703
+		west 75701
+		flags	0
+	end
+	objects
+		object Torch-75702-0 of Torch
+			properties
+				x	79
+				y	229
+				loop	0
+			end
+			base described
+			end
+		end
+		object TrapDoor-75702-1 of TrapDoor
+			properties
+				x	359
+				y	275
+				loop	0
+				linkTo	DungeonBackUp-75921-4
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 75703
+	properties
+		template 32701
+		west 75702
+		north 75704
+		flags	0
+	end
+	objects
+		object Shroom3-75703-0 of Shroom3
+			properties
+				x	486
+				y	284
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite1-75703-1 of Stalagmite1
+			properties
+				x	623
+				y	296
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76030
+	properties
+		template 32304
+		north 75667
+		flags	0
+	end
+	objects
+		object DungeonBackDown-76030-0 of DungeonBackDown
+			properties
+				x	477
+				y	252
+				loop	1
+				linkTo	DungeonBackUp-76031-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75921
+	properties
+		template 30805
+		east 75922
+		flags	0
+	end
+	objects
+		object Faery-75921-0 of Faery
+			properties
+				x	297
+				y	260
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object WoodNymph-75921-1 of WoodNymph
+			properties
+				x	302
+				y	270
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-75921-2 of WoodNymph
+			properties
+				x	236
+				y	279
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object Faery-75921-3 of Faery
+			properties
+				x	208
+				y	269
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-75921-4 of DungeonBackUp
+			properties
+				x	253
+				y	209
+				loop	2
+				linkTo	TrapDoor-75702-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 75922
+	properties
+		template 32403
+		east 75923
+		west 75921
+		flags	8
+	end
+	objects
+		object Seraph-75922-0 of Seraph
+			properties
+				x	226
+				y	236
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Faery-75922-1 of Faery
+			properties
+				x	258
+				y	282
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object WoodNymph-75922-2 of WoodNymph
+			properties
+				x	204
+				y	258
+				loop	1
+				color	83
+			end
+			base character
+			end
+		end
+		object Pixie-75922-3 of Pixie
+			properties
+				x	285
+				y	264
+				loop	1
+				color	74
+			end
+			base character
+			end
+		end
+		object Clump-75922-4 of Clump
+			properties
+				x	130
+				y	237
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-75922-5 of Smoke1
+			properties
+				x	481
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 75923
+	properties
+		template 30701
+		west 75922
+		flags	8
+	end
+	objects
+		object Seraph-75923-0 of Seraph
+			properties
+				x	333
+				y	255
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Faery-75923-1 of Faery
+			properties
+				x	279
+				y	288
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object WoodNymph-75923-2 of WoodNymph
+			properties
+				x	188
+				y	267
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-75923-3 of WoodNymph
+			properties
+				x	230
+				y	252
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object WoodNymph-75923-4 of WoodNymph
+			properties
+				x	276
+				y	271
+				loop	0
+				color	83
+			end
+			base character
+			end
+		end
+		object FaeryQueen-75923-5 of FaeryQueen
+			properties
+				x	225
+				y	279
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object RandomMegaTreasure-75923-6 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Seraph-75923-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 76031
+	properties
+		template 30805
+		east 76032
+		flags	0
+	end
+	objects
+		object DungeonBackUp-76031-0 of DungeonBackUp
+			properties
+				x	252
+				y	215
+				loop	2
+				linkTo	DungeonBackDown-76030-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 76032
+	properties
+		template 30201
+		west 76031
+		flags	0
+	end
+	objects
+		object Stand-76032-0 of Stand
+			properties
+				x	180
+				y	257
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-76032-1 of Torch
+			properties
+				x	421
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object Sign-76032-2 of Sign
+			properties
+				x	343
+				y	257
+				loop	0
+			end
+			base described
+				text	"Welcome to Goodwin's Magical Rarities Shoppe."
+			end
+		end
+		object Sign-76032-3 of Sign
+			properties
+				x	173
+				y	263
+				loop	0
+			end
+			base described
+				text	"Sorry, Goodwin's is currently closed for business.  Have a nice day!"
+			end
+		end
+	end
+end

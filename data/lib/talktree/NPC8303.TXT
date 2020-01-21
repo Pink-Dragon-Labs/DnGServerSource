@@ -1,0 +1,66 @@
+id 8303
+
+banner "Welcome to Healing Magic. I'm Lireen. May I help you?"
+
+topic "Tell me about Drune."
+        text "Drune? You may have guessed that we are a town predominantly of elves. We tolerate those of other races, with the exception of orcs."
+	text "We dislike orcs with the white-hot intensity of a thousand suns."
+	text  "I am the only healer in Drune and I stay busy, what with the young of all races trying to learn fighting skills."
+	text  "Myself, I'd much prefer to practice healing than the arts of war."
+	text  "My friend Meta, the healer in Arimathor, doesn't see as many weaponry wounds as I do.  She does have bites of desert creatures to deal with, though."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard of orcan dungeons below Drune, but I believe it is only legend."
+        text "If it is true, those who have gone in haven't returned, for I'd have heard something of it."
+end      
+
+topic "Do you know any limericks?"
+      text "There's one I like because it is about healing, in a way."
+	text "There was a faith healer from Beal"
+	text "Who said, 'although pain is not real"
+	text "When stuck with a pin"
+	text "And it punctures my skin"
+	text "I dislike what I fancy I feel."
+	text "That one always makes me grin."
+end
+
+topic "Can I do anything for you?"
+        text "Thank you, but I have no tasks for you today. Perhaps you should ask me again another day."
+end
+
+topic  "Meta sent me." q220:0 #q6815-01-100:0
+	quest 221 #6815-01-125
+	text  "You already have the potion holder."
+end
+
+topic  "Ygior needs some knee ointment." q381:0 #q80001-01-525:0
+	quest 382 #80001-01-530
+	text  "I gave it to you, friend."
+end
+
+topic  "Meta needs help on the Elfa Project." q362:0 #q80000-01-530:0
+	quest 363 #80000-01-535
+	text  "You told me that."
+end
+
+topic  "Ygior wants some knee ointment." q164:0 #q6501-01-435:0
+	quest 165 #6501-01-440
+	text  "He only gets one supply today, and you already took it."
+end
+
+topic  "I need some Elf Soothing Cream." q126:0 #q6311-01-530:0
+	quest 127 #6311-01-535
+	text  "You took it with you, friend."
+end
+
+topic  "Ygior's knee hurts." q19:0 #q6043-01-430:0
+	quest 20 #6043-01-435
+	text  "You took the potion already."
+end
+
+topic  "Alysa sent me for the present." q136:0 #q6401-01-525:0
+	quest 137 #6401-01-530
+	text  "Don't cause me a fright like that.  I gave it to you."
+end
+

@@ -1,0 +1,780 @@
+room 39000
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 2100 65 210
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39000-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39000-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39000-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39001
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 1484 417 220
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39001-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39001-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39001-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39002
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 1374 81 191
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39002-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39002-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39002-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39003
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 4470 160 169
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39003-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39003-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39003-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39004
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 12117 129 180
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39004-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39004-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39004-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39005
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 3132 313 196
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39005-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39005-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39005-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39006
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 3343 143 216
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39006-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39006-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39006-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39007
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 3335 87 219
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39007-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39007-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39007-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39008
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 3334 341 223
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39008-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39008-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39008-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39009
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 20007 199 261
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39009-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39009-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39009-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39010
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 12300 9 255
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39010-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39010-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39010-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39011
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 12301 240 203
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39011-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39011-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39011-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39012
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 12302 342 301
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39012-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39012-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39012-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39013
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 2900 104 252  
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39013-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39013-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39013-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39014
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 2900 25 234
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39014-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39014-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39014-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39015
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 2905 38 254
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39015-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39015-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39015-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39016
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 2190 340 234
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39016-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39016-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39016-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39017
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 1019 417 220
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39017-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39017-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39017-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39018
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 2190 340 234
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39018-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39018-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39018-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 39019
+   properties
+      picture	4001
+      roomName	"Tent Interior"
+      south 1019 417 220
+   end
+   atpinfo
+      2599  159 284
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      2159  152 286 43
+      2158  172 285 43
+   end
+   objects
+      object stool39019-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool39019-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool39019-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+   end
+end

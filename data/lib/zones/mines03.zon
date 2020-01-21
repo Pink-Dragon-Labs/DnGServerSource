@@ -1,0 +1,9 @@
+name "mines03"
+title "Yours Is Mine"
+worldFile "../data/lib/world/mine03.wld"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 29
+groupChance 30
+monster Miner 10

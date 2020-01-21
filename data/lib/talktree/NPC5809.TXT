@@ -1,0 +1,30 @@
+id 5809
+
+banner "Greetings, Traveller. I'm called Linez. May I help you?"
+
+topic "Tell me about Arimathor."
+        text "Most folks are interested to see such a beautiful oasis paradise in the desert.  We don't get rain, but the natural springs fill our needs plenteously."
+	text "A long time back an evil man turned us into a desert in anger. But Melkior is great and good and sent us the natural springs for our comfort and relief."
+	text "If you haven't ventured into the desert, do so.  It is full of beauty for those who have eyes to see."
+	text "Exercise reasonable caution and you will be fine."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "Could be just rumor, but I hear the Mists started disappearing just when the gods destroyed Leinster!  Why would that be?"
+        text "I wish I knew more about the Mists, and that's a fact."
+end      
+
+topic "Can I do anything for you?"
+        text "No, thanks.  Wait a minute.  Maybe you should check back with me later."
+end
+
+topic  "Do you have the dill for Sanria?" q338:0 #q8307-01-435:0
+	quest 339 #8307-01-440
+	text  "You already have it."
+end
+
+topic  "I've come for Aldonzo's lunch." q53:0 #q6077-01-440:0
+	quest 54 #6077-01-445
+	text  "You bewilder me.  I gave it to you."
+end
+

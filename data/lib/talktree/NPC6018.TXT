@@ -1,0 +1,25 @@
+id 6018
+
+banner "Greetings, Friend. You've entered Bright Touch. I am Miriam, the healer. May I help you?"
+
+topic "Tell me about Leinster."
+        text "You must be wondering about the ruins in the center of what was once Leinster. One of the gods decided to destroy our town, for it is favored by another god with whom he is feuding."
+	text "I don't like to mention it, for I fear both of them, and pray that Mabon will protect us from their wrath."
+	text  "I am still dealing with injuries, aches and pains from the smiting.  I would gladly forgo the business if we could have our Leinster whole again, but, alas, that will never be, I fear."
+	text  "One of the destroyed structures was built by my great grandfather.  He planned for it to last six generations.  He built to withstand any disaster, but how does a mortal build to withstand the wrath of the gods?  And who would have thought we needed to?  I'm glad he's not here to see these troubled times."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that there are some in East Leinster who resent those of us in the western part of the city."
+	text "I cannot imagine why they would feel that way, since we have suffered every bit as much as they."
+end      
+
+topic "Can I do anything for you?"
+        text "No, thank you, Friend. Perhaps some other time."
+end
+
+topic  "I seek the Mystical Black Diamond" q320:0 #q8111-01-500:0
+	quest 321 #8111-01-525
+	text  "But, traveler, you already gained the Mystical Black Diamond."
+end
+

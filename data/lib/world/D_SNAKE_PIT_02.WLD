@@ -1,0 +1,1345 @@
+# Dungeonmaker World File (SnakeP2.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 86000
+# Dungeon last room = 86142
+# Number of objects in dungeon = 179
+# Level 0 information:
+room 86001
+	properties
+		template 31002
+		south 86002
+		flags	0
+	end
+	objects
+		object SpittingCobra-86001-0 of SpittingCobra
+			properties
+				x	288
+				y	294
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 86005
+	properties
+		template 30305
+		south 86004
+		flags	0
+	end
+	objects
+		object SpittingCobra-86005-0 of SpittingCobra
+			properties
+				x	299
+				y	300
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 86027
+	properties
+		template 30305
+		south 86026
+		flags	32
+	end
+	objects
+		object BabyDragon-86027-0 of BabyDragon
+			properties
+				x	290
+				y	304
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object RandomAmulet-86027-1 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86027-0
+			end
+			base described
+			end
+		end
+		object RandomShield-86027-2 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86027-0
+			end
+			base described
+			end
+		end
+		object RandomBand-86027-3 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86027-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-86027-4 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86027-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 86002
+	properties
+		template 31401
+		south 86008
+		east 86003
+		north 86001
+		flags	0
+	end
+	objects
+		object Cobra-86002-0 of Cobra
+			properties
+				x	592
+				y	281
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 86003
+	properties
+		template 31301
+		east 86004
+		west 86002
+		flags	0
+	end
+	objects
+		object DungeonBackUp-86003-0 of DungeonBackUp
+			properties
+				x	329
+				y	226
+				loop	2
+				linkTo	movingRock20110-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-86003-1 of Sign
+			properties
+				x	405
+				y	226
+				loop	0
+				color	1
+			end
+			base described
+				text	"Beware - venomous snakes.\n Proceed at your own risk!"
+			end
+		end
+	end
+end
+room 86004
+	properties
+		template 31201
+		south 86044
+		west 86003
+		north 86005
+		flags	0
+	end
+	objects
+		object Cobra-86004-0 of Cobra
+			properties
+				x	135
+				y	290
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 86026
+	properties
+		template 31001
+		south 86025
+		north 86027
+		flags	0
+	end
+end
+room 86008
+	properties
+		template 31001
+		south 86009
+		north 86002
+		flags	0
+	end
+	objects
+		object KingCobra-86008-0 of KingCobra
+			properties
+				x	280
+				y	302
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 86044
+	properties
+		template 31003
+		south 86013
+		north 86004
+		flags	0
+	end
+	objects
+		object KingCobra-86044-0 of KingCobra
+			properties
+				x	318
+				y	296
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 86025
+	properties
+		template 31003
+		south 86024
+		north 86026
+		flags	48
+	end
+	objects
+		object BabyDragon-86025-0 of BabyDragon
+			properties
+				x	420
+				y	296
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-86025-1 of BabyDragon
+			properties
+				x	311
+				y	258
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-86025-2 of BabyDragon
+			properties
+				x	245
+				y	284
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 86009
+	properties
+		template 31004
+		south 86141
+		north 86008
+		flags	56
+	end
+	objects
+		object LavaSerpent-86009-0 of LavaSerpent
+			properties
+				x	287
+				y	286
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86009-1 of LavaSerpent
+			properties
+				x	390
+				y	289
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86009-2 of LavaSerpent
+			properties
+				x	488
+				y	285
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 86013
+	properties
+		template 31003
+		south 86021
+		north 86044
+		flags	56
+	end
+	objects
+		object LavaSerpent-86013-0 of LavaSerpent
+			properties
+				x	235
+				y	300
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86013-1 of LavaSerpent
+			properties
+				x	336
+				y	304
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86013-2 of LavaSerpent
+			properties
+				x	368
+				y	273
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 86024
+	properties
+		template 31402
+		south 86108
+		east 86028
+		north 86025
+		flags	0
+	end
+end
+room 86028
+	properties
+		template 31301
+		east 86029
+		west 86024
+		flags	0
+	end
+end
+room 86029
+	properties
+		template 32302
+		south 86030
+		west 86028
+		flags	0
+	end
+end
+room 86020
+	properties
+		template 30102
+		south 86022
+		east 86019
+		flags	0
+	end
+end
+room 86019
+	properties
+		template 32403
+		east 86141
+		west 86020
+		flags	0
+	end
+	objects
+		object LavaSerpent-86019-0 of LavaSerpent
+			properties
+				x	286
+				y	307
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 86141
+	properties
+		template 32502
+		west 86019
+		north 86009
+		flags	0
+	end
+end
+room 86021
+	properties
+		template 32305
+		east 86106
+		north 86013
+		flags	0
+	end
+end
+room 86106
+	properties
+		template 32403
+		east 86108
+		west 86021
+		flags	0
+	end
+end
+room 86108
+	properties
+		template 32601
+		west 86106
+		north 86024
+		flags	0
+	end
+end
+room 86030
+	properties
+		template 30803
+		east 86031
+		north 86029
+		flags	0
+	end
+end
+room 86031
+	properties
+		template 32302
+		south 86032
+		west 86030
+		flags	160
+	end
+	objects
+		object BabyDragon-86031-0 of BabyDragon
+			properties
+				x	213
+				y	278
+				loop	1
+				color	817
+			end
+			base character
+				properName	"Keeper"
+				title	"of the Orbs"
+			end
+		end
+		object RandomOrb-86031-1 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86031-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-86031-2 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86031-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-86031-3 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86031-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-86031-4 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86031-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-86031-5 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86031-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-86031-6 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	BabyDragon-86031-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 86022
+	properties
+		template 31003
+		south 86023
+		north 86020
+		flags	0
+	end
+end
+room 86032
+	properties
+		template 31003
+		south 86033
+		north 86031
+		flags	48
+	end
+	objects
+		object RockGuardian-86032-0 of RockGuardian
+			properties
+				x	369
+				y	308
+				loop	2
+				color	100
+			end
+			base character
+			end
+		end
+		object RockGuardian-86032-1 of RockGuardian
+			properties
+				x	251
+				y	309
+				loop	2
+				color	100
+			end
+			base character
+			end
+		end
+		object Bones-86032-2 of Bones
+			properties
+				x	409
+				y	270
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 86023
+	properties
+		template 32305
+		east 86000
+		north 86022
+		flags	16
+	end
+	objects
+		object HellSnake-86023-0 of HellSnake
+			properties
+				x	262
+				y	277
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86000
+	properties
+		template 31301
+		east 86006
+		west 86023
+		flags	0
+	end
+	objects
+		object LavaSerpent-86000-0 of LavaSerpent
+			properties
+				x	349
+				y	288
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86000-1 of LavaSerpent
+			properties
+				x	450
+				y	258
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86000-2 of LavaSerpent
+			properties
+				x	392
+				y	281
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86000-3 of LavaSerpent
+			properties
+				x	425
+				y	270
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 86006
+	properties
+		template 30703
+		east 86007
+		west 86000
+		flags	0
+	end
+end
+room 86007
+	properties
+		template 30901
+		east 86010
+		west 86006
+		flags	0
+	end
+end
+room 86010
+	properties
+		template 31103
+		south 86012
+		east 86011
+		west 86007
+		flags	0
+	end
+	objects
+		object LavaSerpent-86010-0 of LavaSerpent
+			properties
+				x	375
+				y	272
+				loop	1
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 86011
+	properties
+		template 30201
+		west 86010
+		flags	0
+	end
+	objects
+		object HellSnake-86011-0 of HellSnake
+			properties
+				x	142
+				y	276
+				loop	1
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86033
+	properties
+		template 31003
+		south 86034
+		north 86032
+		flags	48
+	end
+	objects
+		object BabyDragon-86033-0 of BabyDragon
+			properties
+				x	304
+				y	290
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+	end
+end
+room 86012
+	properties
+		template 31006
+		south 86014
+		north 86010
+		flags	0
+	end
+	objects
+		object KingCobra-86012-0 of KingCobra
+			properties
+				x	330
+				y	271
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 86034
+	properties
+		template 30803
+		east 86035
+		north 86033
+		flags	80
+	end
+	objects
+		object HellSnake-86034-0 of HellSnake
+			properties
+				x	479
+				y	274
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86035
+	properties
+		template 30703
+		east 86036
+		west 86034
+		flags	192
+	end
+	objects
+		object Kilrog-86035-0 of Kilrog
+			properties
+				x	343
+				y	244
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object FlameDaemon-86035-1 of FlameDaemon
+			properties
+				x	443
+				y	282
+				loop	2
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-86035-2 of FlameDaemon
+			properties
+				x	235
+				y	284
+				loop	2
+				color	789
+			end
+			base character
+			end
+		end
+		object HellSnake-86035-3 of HellSnake
+			properties
+				x	330
+				y	278
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86036
+	properties
+		template 32302
+		south 86037
+		west 86035
+		flags	160
+	end
+	objects
+		object LavaSerpent-86036-0 of LavaSerpent
+			properties
+				x	367
+				y	312
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object SpittingCobra-86036-1 of SpittingCobra
+			properties
+				x	178
+				y	305
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object HellSnake-86036-2 of HellSnake
+			properties
+				x	255
+				y	291
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86014
+	properties
+		template 32402
+		south 86016
+		east 86015
+		north 86012
+		flags	0
+	end
+	objects
+		object KingCobra-86014-0 of KingCobra
+			properties
+				x	299
+				y	285
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 86015
+	properties
+		template 30201
+		west 86014
+		flags	128
+	end
+	objects
+		object HellSnake-86015-0 of HellSnake
+			properties
+				x	257
+				y	275
+				loop	1
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86037
+	properties
+		template 31006
+		south 86038
+		north 86036
+		flags	0
+	end
+end
+room 86016
+	properties
+		template 30402
+		south 86017
+		north 86014
+		flags	0
+	end
+	objects
+		object KingCobra-86016-0 of KingCobra
+			properties
+				x	272
+				y	278
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-86016-1 of KingCobra
+			properties
+				x	359
+				y	277
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-86016-2 of KingCobra
+			properties
+				x	186
+				y	279
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+	end
+end
+room 86042
+	properties
+		template 30502
+		south 86043
+		east 86041
+		flags	96
+	end
+	objects
+		object HellSnake-86042-0 of HellSnake
+			properties
+				x	361
+				y	313
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+		object HellSnake-86042-1 of HellSnake
+			properties
+				x	397
+				y	307
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+		object HellSnake-86042-2 of HellSnake
+			properties
+				x	432
+				y	297
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+		object HellSnake-86042-3 of HellSnake
+			properties
+				x	465
+				y	283
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+	end
+end
+room 86041
+	properties
+		template 30901
+		east 86040
+		west 86042
+		flags	0
+	end
+end
+room 86040
+	properties
+		template 30901
+		east 86039
+		west 86041
+		flags	0
+	end
+end
+room 86039
+	properties
+		template 31301
+		east 86038
+		west 86040
+		flags	0
+	end
+end
+room 86038
+	properties
+		template 32602
+		west 86039
+		north 86037
+		flags	0
+	end
+end
+room 86017
+	properties
+		template 30803
+		east 86018
+		north 86016
+		flags	0
+	end
+end
+room 86018
+	properties
+		template 30703
+		east 86045
+		west 86017
+		flags	192
+	end
+	objects
+		object SpittingCobra-86018-0 of SpittingCobra
+			properties
+				x	247
+				y	289
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object SpittingCobra-86018-1 of SpittingCobra
+			properties
+				x	431
+				y	279
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object SpittingCobra-86018-2 of SpittingCobra
+			properties
+				x	343
+				y	280
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 86045
+	properties
+		template 30901
+		east 86043
+		west 86018
+		flags	0
+	end
+end
+room 86043
+	properties
+		template 32303
+		south 86046
+		west 86045
+		north 86042
+		flags	32
+	end
+	objects
+		object DarkFaery-86043-0 of DarkFaery
+			properties
+				x	532
+				y	248
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object Fury-86043-1 of Fury
+			properties
+				x	494
+				y	257
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+		object Shade-86043-2 of Shade
+			properties
+				x	423
+				y	219
+				loop	1
+				color	29
+			end
+			base character
+			end
+		end
+		object Lich-86043-3 of Lich
+			properties
+				x	447
+				y	207
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-86043-4 of Lich
+			properties
+				x	503
+				y	220
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 86046
+	properties
+		template 30803
+		east 86047
+		north 86043
+		flags	80
+	end
+	objects
+		object BabyDragon-86046-0 of BabyDragon
+			properties
+				x	341
+				y	291
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object BabyDragon-86046-1 of BabyDragon
+			properties
+				x	372
+				y	288
+				loop	2
+				color	817
+			end
+			base character
+			end
+		end
+		object HellSnake-86046-2 of HellSnake
+			properties
+				x	309
+				y	294
+				loop	2
+				color	1584
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86046-3 of LavaSerpent
+			properties
+				x	406
+				y	285
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object LavaSerpent-86046-4 of LavaSerpent
+			properties
+				x	442
+				y	282
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 86047
+	properties
+		template 30201
+		west 86046
+		flags	128
+	end
+	objects
+		object StoneGuardian-86047-0 of StoneGuardian
+			properties
+				x	558
+				y	275
+				loop	2
+				color	100
+			end
+			base character
+				properName	"Stone Guardian"
+			end
+		end
+		object StoneGuardian-86047-1 of StoneGuardian
+			properties
+				x	479
+				y	290
+				loop	2
+				color	100
+			end
+			base character
+				properName	"Stone Guardian"
+			end
+		end
+		object LockedChest-86047-2 of LockedChest
+			properties
+				x	479
+				y	270
+				loop	0
+			end
+			actions 
+				vBeAnswered unlock self
+				vBeAnswered open self
+			end
+			base lockable
+				isLocked	1
+				autoLock	1
+			end
+			base described
+				riddleFile	"../data/riddles/riddle04.txt"
+			end
+		end
+		object RandomMegaTreasure-86047-3 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-86047-4 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-86047-5 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+		object RandomMonsterWand-86047-6 of RandomMonsterWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+		object RandomMonsterMegaTreasure-86047-7 of RandomMonsterMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-86047-8 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+		object RandomMegaMoney-86047-9 of RandomMegaMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-86047-2
+			end
+			base described
+			end
+		end
+	end
+end

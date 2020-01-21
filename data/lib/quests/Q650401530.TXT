@@ -1,0 +1,19 @@
+quest  178 #6504-01-530        # Midlothian, Cures and Curses, magic, Wen, 6113
+
+name  "A New Lotion to Try"
+type  fedex
+
+proposal  "Pewter polish?  Yes, I've got some around here.  Not a lot of call for it.  Actually, while I hunt it up, would you do an errand for me in exchange?  I need some lotion from Murias.  Will you go for it?"
+
+declined  "No pewter polish for you, then."
+
+accepted  "Somewhere in Murias there's a shopkeeper with a new lotion for dry skin.  I want to try it.  I might handle it if it's good enough."
+
+reminder   "Find a supply of new lotion for dry skin in Murias."
+
+completed  "Hmmmm.  Thanks.  I'll have to study this.  Here's a supply of pewter polish."
+
+getItem   qNewLotion
+reward   qPewterPolish 
+end
+

@@ -1,0 +1,8 @@
+name "D_Holy_Caves"
+title "Holy Caves"
+worldFile "../data/lib/world/D_HOLY_CAVES_01.WLD"
+allowCombat 3
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock12007-0

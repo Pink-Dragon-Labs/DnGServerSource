@@ -1,0 +1,17 @@
+quest 16 #300
+	name "Paying For Garon's Boots" 
+	type fedex
+
+	proposal "Indeed I do have Garon's Boots here.  Let's see now... what was the payment arrangement?  Oh, yes.  Now I remember.  Garon said that he would give me a Lyre for this repair.  Bring me one and you can have the boots."
+
+	accepted "Good, I'll be glad to rid myself of these boots.  Get me a Lyre so I can give them to you."
+
+	declined "It really makes no difference to me.  I've got the boots."
+	
+	reminder "I said that I need to have a Lyre as payment for the boots.  Go off and get one."
+
+	completed "Thank you for the payment.  Here are the boots."
+
+	getItem Lyre 
+	reward GaronBoots 
+end

@@ -1,0 +1,19 @@
+quest  191 #6610-01-425        # Ciobhan, Ethereal Outlet, magic, Leinster West, 6077
+
+name  "Thick Metal Shielding"
+type  fedex
+
+proposal  "Yipes!  Don't breathe that name aloud again.  Those creatures are malevolent.  If you ever get close enough for a daemon to see you, you're doomed.  You do NOT want to draw their attention to you, believe me.  I suppose you're here on a quest.  I can't think of any other reason a sane person would seek for the thing we won't mention again.  I'll help you because I feel sympathy for your plight.  I know how to package the thing so it cannot be detected.  That's the only safe way to carry it.  I'll need some thick metal shielding.  Go to Kyluri in Kurz.  She should have some.  Tell her I sent you.  You'll do that, won't you?" 
+
+declined  "I can't package the thing without it."
+
+accepted  "Tell her Ciobhan needs it.  She'll understand."
+
+reminder   "Go to Kyluri in Kurz and ask for metal shielding."
+
+completed  "Excellent.  Just give me a moment and your package will be ready.  Take care in your travels, friend."
+
+getItem   qMetalShielding
+reward   qDaemonToken 
+end
+

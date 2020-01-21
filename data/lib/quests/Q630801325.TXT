@@ -1,0 +1,19 @@
+quest 107 #6308-01-325  #(Eugenie, The Ebony Crystal, E. Leinster, 6012)
+
+name  "Eugenie's Candles" 
+type  fedex
+
+proposal  "You are from Wirkkala, I feel sure.  She sent word that a trusted apprentice would approach me.  We will not speak aloud of your quest.  Duach has ears everywhere, and these creatures serve him.  I have one small inkling of an idea. Are you prepared to go further with this quest?"
+
+declined  "As you wish."
+
+accepted  "I want you to go to Tallie in West Leinster.  Ask for candles for me.  Just candles for me, you understand.  And keep your ears open."
+
+reminder  "You're to go to Tallie in West Leinster for candles.
+
+completed  "Good, you brought the candles.  Our efforts have been successful.  The visits you made produced results behind the scenes.  I have in this parcel the item you seek.  Do not say the name aloud in Leinster.  Just take it to Wirkkala.  Do not tarry."
+
+getItem  qEugenieCandles
+reward  qFenriTuft
+end
+

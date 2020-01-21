@@ -1,0 +1,19 @@
+quest   205 #6807-01-525        # Zuzu, House of Combat, Monmouth, 6311
+
+name  "Fenibretta for Zuzu"
+type  fedex
+
+proposal  "What's that you say?  Cocky?  Cocky!  I'll thank you to have a little respect.  Oh, a copy.  Why can't you speak up?  I suppose you mean that little copy of the shield of Despothes.  It's a nice piece, a nice little piece.  It's worth something, too, that it is.  I'd let you have it though, if you would bring me a supply of that fenibretta the elves make.  Would you do that, heh?"    
+
+declined  "No spunk any more."
+
+accepted  "I had me some once when I was in Silverbrook."  
+
+reminder   "Find be some elven fenibretta."
+
+completed  "Ah hah!  Time for my elven elevensies.  Take your bit piece and go."
+
+getItem   qFenibretta
+reward   qMiniatureShield 
+end
+

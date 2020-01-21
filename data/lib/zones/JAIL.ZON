@@ -1,0 +1,7 @@
+name "JailHouse"
+title "Jail House"
+worldFile "../data/lib/world/JAIL.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 23

@@ -1,0 +1,19 @@
+id 5041
+
+banner "Hello friend."
+
+topic "Tell me about yourself?"
+	text "I have traveled far with my two brothers, Sion & Sinclair.   I have toiled mightily to get this place cleaned up, in preparation for my new shop.  But I am delighted to be here.  The people here are friendly, happy and so helpful in carting away the rubbish piles for me.  Anyhow, I have dreams of getting my permanent shop up and running, but until then all I can offer is my dyes.  I hope that my styling talents will be useful to all when I get my shop."
+end
+
+topic "What brings you to Leinster?"
+	text "Not so long ago, a gentleman came to our lands desperately desiring a new styling of his hair.  My brothers and I came back with him as fast as we could when he told us of all his friends who also wanted a new look."
+end
+
+topic "Can I do anything for you?"
+	text "Spread the word about my brothers and I and our wonderful hair care products.  And if you know a good carpenter, send him my way.  I would like to get my shop ready for the first haircut as fast as humanly possible."
+end      
+
+topic "What happened last night?"
+	text "Wow, you felt it too.  The earth moved and rolled.  Have you been around here.  The trash and rubble is gone.  Man, I hid under the table while it was going on."
+end

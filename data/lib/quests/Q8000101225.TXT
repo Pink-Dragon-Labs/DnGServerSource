@@ -1,0 +1,19 @@
+quest  369 #80001-01-225        # Geezer, Potions, Guennor, 6510
+
+name  "Ale for the Geezer"
+type  fedex
+
+proposal  "Look no more, then, look no more.  Ye'll hear it said what old Geezer can't tell ye about fishing  tain't worth knowing.  Tain't braggin' neither 'cause it be no more than truth.  Ye've got to know what kind of fish ye be after.  The big ones, now, they be after takin' a sturdy line. But the little ones be needin' a fine line.   And if ye be not certain, and I kin see ye be in this state of mind, then there be but one choice, which I'll be showin' ye.  In fact, I'll be givin' ye the very item ye need if ye'll do me a favor.  Hike over to yon tavern and fetch me a bit of ale, and the fishing line'll be waiting here for ye.  How about it?"
+
+declined  "That be disappointing."
+
+accepted  "Be sure ye find me friend, Brindal.  Don't ye be goin' to the place run by the female.  I don't hold with women runnin' taverns.  Tain't proper.  And don't be swarmin' all over me with opinions.  I don't be wantin' opinions of ye nor others.  Got me own opinions, and they be good enough for me.  Get ye gone for my ale."  
+
+reminder   "Fetch me some ale from me friend Brindal."
+
+completed  "Here be the line ye be wantin."
+
+getItem   qGeezerAle
+reward   qFishLine 
+end
+

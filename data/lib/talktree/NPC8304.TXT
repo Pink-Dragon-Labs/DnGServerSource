@@ -1,0 +1,34 @@
+id #8304
+
+banner "Hello, Friend. I am Alfric, the proprietor. How may I serve you?"
+
+topic "Tell me about Drune."
+        text "Elves settled here so long ago our beginnings are lost in the Mists."
+	text "I myself suspect that the revered elf lord Majestroni selected the site.  I'm seeking confirmation of this in ancient texts."
+	text "I've just heard of a new treasure trove of old books, so I'm hoping to find evidence in them."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors?  No, no, can't say that I have."
+        text "I've been so involved in my research, I may not have paid attention.  I'm afraid I'm guilty of that too often."
+end      
+
+topic "Can you tell me anything?"
+	text "I've just found a tome of limericks from an ancient.  If I decipher the script correctly, the name is Nrev Yelsmirg.  Let's see what you think."
+	text "An elf when attacked by a bat"
+	text "Caught the bat in his cloth elfin hat"
+	text "Then he gobbled it down"
+	text "From its toes to its crown"
+	text "But he fed both its wings to his cat."
+	text "Here's another."
+	text "A girl elf when chased by a banshee"
+	text "Came up with the following plan: she"
+	text "Tripped him up with a stick"
+	text "And carved him up quick"
+	text "For a snack which she served up quite fancy." 
+	text "Rather amusing, don't you think?  And from a historical perscpective really fascinating.  These must come from before the Mists ever descended.  Our ancesters obviously dealt with bats and banshees in their lives.  Also limericks.  Fascinating."
+end
+
+topic "Can I do anything for you?"
+        text "Not today, but it's kind of you to ask."
+end

@@ -1,0 +1,551 @@
+room 8009
+   properties
+      picture	4000
+      roomName	"Bloodspot Lobby"
+   end
+   atpinfo
+      2117  243 60 -69
+      2028  500 10
+      2028  176 10
+      2127  287 128 150
+      2029  231 51
+      2005  597 115 100
+      2028  335 9
+      2103  195 244
+      2112  335 54 -61
+      2128  336 152 55
+      2017  71 14
+      2241  530 210
+      2029  439 52
+      2018  3 63
+      2164  98 140 20
+      2600  444 304
+      2082  508 149
+      2082  447 149
+      2082  161 149
+      2082  223 149
+      2080  29 164
+   end
+   objects
+      object chair8009-0 of Chair
+         properties
+            x	314
+            y	293
+            loop	0
+         end
+      end
+      object chair8009-1 of Chair
+         properties
+            x	340
+            y	275
+            loop	0
+         end
+      end
+      object chair8009-2 of Chair
+         properties
+            x	561
+            y	288
+            loop	1
+         end
+      end
+      object chair8009-3 of Chair
+         properties
+            x	534
+            y	274
+            loop	1
+         end
+      end
+      object chair8009-4 of Chair
+         properties
+            x	415
+            y	270
+            loop	2
+         end
+      end
+      object chair8009-5 of Chair
+         properties
+            x	373
+            y	269
+            loop	2
+         end
+      end
+      object door8009-6 of Door
+         properties
+            x	595
+            y	212
+            loop	1
+            linkTo	door7009-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair8009-7 of Chair
+         properties
+            x	459
+            y	270
+            loop	2
+         end
+      end
+      object chair8009-8 of Chair
+         properties
+            x	499
+            y	271
+            loop	2
+         end
+      end
+      object bartender8009-11 of Bartender
+         properties
+            x	192
+            y	227
+            loop	2
+            name	"Nanz"
+         end
+         base talk
+            talkTreeID	8009
+         end
+         base character
+            sex	1
+            properName	"Nanz (NPC)"
+         end
+         base container
+            worn	PurpleCowl
+            worn	GrayShirt
+            worn	PurpleLongSkirt
+            worn	BrownLowBoots
+            head	1 1 6 5 8 11 10 0 2 2 3 2 
+         end
+      end
+   end
+end
+room 8010
+   properties
+      picture	4000
+      roomName	"Weapons of Thunder Interior"
+   end
+   atpinfo
+      2025  180 33
+      2025  382 17
+      34989  310 175
+      2013  79 38
+      2101  48 303
+      2026  463 27
+      2109  562 276
+      2119  567 277 2
+      2119  570 277 65
+      2139  -15 304 45
+      2043  147 145
+      2121  570 277 32
+      2103  444 186
+      2163  385 83
+      2163  442 69
+      2163  496 83
+      2014  13 62
+      2161  115 108
+      2161  11 126
+      2120  445 186 55
+      2001  569 43 20
+      2002  625 45
+      2041  28 163
+      2544  39 167 20
+      2546  182 151 20
+   end
+   objects
+      object door8010-0 of Door
+         properties
+            x	583
+            y	188
+            loop	1
+            linkTo	door7010-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace8010-1 of FirePlace
+         properties
+            x	263
+            y	192
+            loop	1
+         end
+      end
+      object weaponArmorShop8010-2 of WeaponArmorShop
+         properties
+            x	561
+            y	257
+            loop	2
+            name	"Oberon"
+         end
+         base talk
+            talkTreeID	8010
+         end
+         base character
+            sex	0
+            properName	"Oberon (NPC)"
+            title	"Chief Forger"
+         end
+         base container
+            worn	GrayChainTunic
+            worn	GrayPants
+            worn	GrayChainCowl
+            worn	LeatherBoots
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	0 2 2 1 7 0 10 6 9 9 5 1 
+         end
+      end
+   end
+end
+room 8011
+   properties
+      picture	4000
+      roomName	"Certified Leechers Interior"
+   end
+   atpinfo
+      2107  161 159
+      2108  471 152
+      2013  358 21 20
+      2001  455 16 20
+      2013  167 1
+      2002  504 17
+      2001  263 20 20
+      2014  88 26
+      2164  192 75
+      2164  107 88
+      2014  19 37
+      2101  384 263
+      2142  262 354 -40
+      34910  361 398
+      2143  119 160 17
+      2102  203 263
+      34911  515 153 15
+      2165  480 71
+      2221  597 171
+      2101  384 412
+      2086  325 131
+      2087  307 134
+      2592  338 105
+      2593  248 109
+   end
+   objects
+      object simpleDoor8011-0 of SimpleDoor
+         properties
+            x	43
+            y	184
+            loop	0
+            linkTo	simpleDoor7011-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace8011-1 of FirePlace
+         properties
+            x	643
+            y	186
+            loop	0
+         end
+      end
+      object temple8011-2 of Temple
+         properties
+            x	334
+            y	259
+            loop	0
+            name	"Mattson"
+         end
+         base talk
+            talkTreeID	8011
+         end
+         base character
+            sex	0
+            properName	"Mattson (NPC)"
+            title	"the Leecher"
+         end
+         base container
+            worn	RedCowl
+            worn	BlueShirt
+            worn	GoldPants
+            worn	RedBelt
+            worn	GrayLowBoots
+#           object      HealElixir
+            head	0 3 3 2 7 1 11 7 9 9 6 1 
+         end
+      end
+   end
+end
+room 8012
+   properties
+      picture	4000
+      roomName	"Spiked Glove Interior"
+   end
+   atpinfo
+      2025  180 33
+      2025  382 17
+      34989  308 175
+      2013  79 38
+      2101  91 221
+      2026  463 27
+      2109  563 282
+      2119  571 283 3
+      2119  571 283 65
+      2139  21 222 45
+      2043  147 145
+      2121  573 283 32
+      2103  420 282
+      2163  385 83
+      2163  442 69
+      2163  496 83
+      2014  13 62
+      2161  115 108
+      2161  11 126
+      2120  434 283 60
+      2001  569 43 20
+      2002  625 45
+      2041  28 163
+      2103  447 200
+   end
+   objects
+      object door8012-0 of Door
+         properties
+            x	583
+            y	188
+            loop	1
+            linkTo	door7012-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace8012-1 of FirePlace
+         properties
+            x	263
+            y	192
+            loop	1
+         end
+      end
+      object exoticWeaponArmorShop8012-2 of ExoticArmaments
+         properties
+            x	443
+            y	184
+            loop	2
+            name	"Corea"
+         end
+         base character
+            sex	0
+            properName	"Corea (NPC)"
+         end
+	 base talk
+	     talkTreeID  8012
+	 end
+         base container
+            worn	BlueChainTunic
+            worn	RedPants
+            worn	RedCowl
+            worn	BlackBoots
+            worn	BlackBelt
+            object	Goldband
+            object	LongSword
+            object	RoundShield
+            head	0 0 0 3 6 5 6 6 2 4 7 4 2 
+         end
+      end
+   end
+end
+room 8013
+   properties
+      picture	4000
+      roomName	"Dirty Dagger Lobby"
+   end
+   atpinfo
+      2164  86 169 50
+      2028  443 8
+      2028  174 8 8
+      2127  287 128 150
+      2029  235 35 -61
+      2005  538 114 100
+      2006  624 121 50
+      2103  234 237
+      2112  182 71 -25
+      2128  178 78 1
+      2017  72 16
+      2166  398 149 26
+      2221  -9 54 -99
+      2241  337 235
+      2081  643 174
+      2105  138 236 10
+      2029  350 51
+      2018  22 63
+      2599  156 287
+      34914  147 238 65
+      34913  169 237 70
+      2082  440 74 -86
+      2082  357 80 -81
+      2080  14 170
+      2599  487 290
+   end
+   objects
+      object chair8013-0 of Chair
+         properties
+            x	59
+            y	286
+            loop	0
+         end
+      end
+      object chair8013-1 of Chair
+         properties
+            x	124
+            y	273
+            loop	0
+         end
+      end
+      object chair8013-2 of Chair
+         properties
+            x	579
+            y	290
+            loop	1
+         end
+      end
+      object chair8013-3 of Chair
+         properties
+            x	256
+            y	286
+            loop	1
+         end
+      end
+      object chair8013-4 of Chair
+         properties
+            x	456
+            y	269
+            loop	2
+         end
+      end
+      object chair8013-5 of Chair
+         properties
+            x	186
+            y	270
+            loop	2
+         end
+      end
+      object door8013-6 of Door
+         properties
+            x	541
+            y	208
+            loop	1
+            linkTo	door7013-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bartender8013-9 of Bartender
+         properties
+            x	232
+            y	212
+            loop	2
+            name	"Muir"
+         end
+         base talk
+            talkTreeID	8013
+         end
+         base character
+            sex	0
+            properName	"Muir (NPC)"
+         end
+         base container
+            worn	AquaTunic
+            worn	LeatherPants
+            worn	GrayCowl
+            worn	GrayBelt
+            worn	AquaLowBoots
+            head	0 2 5 5 8 8 9 18 2 2 3 2 
+         end
+      end
+      object chair8013-10 of Chair
+         properties
+            x	400
+            y	280
+            loop	0
+         end
+      end
+      object chair8013-11 of Chair
+         properties
+            x	515
+            y	269
+            loop	1
+         end
+      end
+   end
+end
+room 8014
+   properties
+      picture	4000
+      roomName	"Remedies and Cures Interior"
+   end
+   atpinfo
+      2107  160 165
+      2108  470 151
+      2013  358 21 20
+      2001  455 16 20
+      2013  165 6
+      2002  504 17
+      2001  262 21 20
+      2014  89 31
+      2164  192 75
+      2164  107 88
+      2014  -3 46
+      2101  343 460
+      2142  262 354 -40
+      34910  361 398
+      2143  113 166 17
+      34911  518 152 14
+      2165  480 71
+      2221  598 169
+      2103  227 278
+      2086  327 133
+      2087  304 134
+      2592  340 107
+      2593  245 109
+   end
+   objects
+      object simpleDoor8014-0 of SimpleDoor
+         properties
+            x	38
+            y	191
+            loop	0
+            linkTo	simpleDoor7014-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object firePlace8014-1 of FirePlace
+         properties
+            x	643
+            y	186
+            loop	0
+         end
+      end
+      object temple8014-2 of Temple
+         properties
+            x	226
+            y	261
+            loop	2
+            name	"Benoit"
+         end
+         base talk
+            talkTreeID	8014
+         end
+         base character
+            sex	0
+            properName	"Benoit (NPC)"
+            title	"the Healer"
+         end
+         base container
+            worn	BlueRobe
+            worn	LeatherLowBoots
+            head	0 0 4 4 7 2 12 8 10 10 8 2 
+         end
+      end
+   end
+end

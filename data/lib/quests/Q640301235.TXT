@@ -1,0 +1,15 @@
+quest  146 #6403-01-235        # Ygior, Sundries World, Drune, elf 8310
+
+name  "Ygior Responds"
+type  fedex
+
+proposal  "Yipes!  I'll bet Fenemi is jumping.  For that matter, I'll jump myself.  It's never a good idea to cross Stench.  If I get it, will you take it back over to Fenemi?"
+
+declined  "I better close up shop and take it."
+
+accepted  "Good.  Here it is.  You better go now."
+
+reminder   "Take the fembrel wrench to Fenemi, quickly!"
+
+reward   qFembrelWrench 
+end

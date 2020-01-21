@@ -1,0 +1,19 @@
+id 6508
+
+banner "Welcome to the Avalanche, Friend. May I help you?"
+
+topic "Tell me about Guennor."
+        text "Guennor was founded by Nivea for the mountain tribes who worship here. Most Guennorians are descended from the ancient ones, and we have been in this region since before time's counting."
+        text "During the War, Guennor maintained neutrality. Because the war was fought between Faerie and the new human tribes, many of the ancient peoples tried not to get pulled into the fighting."
+        text "Our town was lucky, for our little corner of the world was not overrun with the new people. Besides, Guennorians have always harmoniously coexisted with Faerie."
+end
+
+topic "Who are you?"
+        text "I am Bristol, proprietor of the Avalanche, which has been voted Best Tavern of Guennor three years running. We are, in fact, the most frequented eaterie -- and drinkerie -- in all of Guennor."
+end      
+
+topic "Can I do something for you?"
+        text  "You are kind to offer, Friend. You can do nothing for me today; perhaps tomorrow. Come back then and ask me."
+end
+
+

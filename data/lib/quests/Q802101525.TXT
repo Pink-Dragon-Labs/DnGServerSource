@@ -1,0 +1,18 @@
+quest  301 #8021-01-525        #Geezer, Monmouth, Potions, 6xxx
+
+name  "Geezer's Note"
+type  fedex
+
+proposal  "Happens I do.  Not in Monmouth, though.  Ye got a bum steer from someone there.  But old Geezer kin set you straight.  I'll tell ye what I know, and I'll give it to ye in writin' lest ye forget.  But first, how about lookin' in on me old friend, Brindal, over at his establishment and bringing me a drop to slake me thirst.   Can't leave me shop, but I could sure do with a drop of ale.  Will ye do it?" 
+
+declined  "Be off with ye then."
+
+accepted  "Well, then, hustle.  Time's a wastin'."
+
+reminder   "Fetch me a drop of ale from over to me friend Brindal's place. 
+
+completed  "Ahhhhh, that be a fine ale.  Yessiree.  And here be yer writin' which says Gnarled Leg Tavern with me name put to it.   You go talk to this bloke in Leinster.  Mebbe you best hand him me note, by way of introduction."
+
+getItem  qGeezerAle
+reward   qGeezerNote 
+end

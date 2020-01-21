@@ -1,0 +1,15 @@
+quest  80 #6205-01-335        #Pali, All Things Useful, general, East Leinster, 6056
+
+name  "Delivery for Pali"
+type  fedex
+
+proposal  "Well, it's about time.  I was afraid that Bidosk meant to leave me holding the bag.  I wasn't any too sure about dealing with elves, especially dark elves.  Our contract said I get paid after delivery is made, so the sooner you take it the better.  Will you deliver the order to Caer Fandry?" 
+
+declined  "Now what will I do?"
+
+accepted  "Good.  Make delivery as soon as possible, so I'll get paid."
+
+reminder   "Take that special order back to Bidosk in Caer Fandry."
+
+reward   qSpecialOrder 
+end

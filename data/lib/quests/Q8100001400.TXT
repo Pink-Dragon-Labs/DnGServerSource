@@ -1,0 +1,19 @@
+quest  81000-01-400       #Sarge, Dungeon, 81000
+
+name  "Sash of Unnamed Hero"
+type  fedex
+
+proposal  "You've come to the right place.  Unarmed combat is my specialty.  I'm mighty pleased to see you take an interest.  It's underrated in some warrior's minds.  It should be the first, the very first, skill a warrior develops.  Weapons are not always in easy reach or in good repair, but your body is there with you.  If you know how to use your body as a weapon, you're never without your best weapon.  I'll ask you to perform a service before I give you the necessary skill book.  I want you to bring the Sash of the Unnamed Hero.  Will you do this?"
+
+declined  "Maybe I was wrong about you."
+
+accepted  "Start looking in Silverbrook."
+
+reminder   "Look in Silverbrook for the Sash of the Unnamed Hero."
+
+completed  "Good work.  Here's the book you need to study."
+
+getItem   qHeroSash
+reward    skbUnarmedCombatIV 
+end
+

@@ -1,0 +1,17 @@
+quest  48 #6073-01-540        # Sanria, Fantastic Meals, Arimathor, 6804
+
+name  "Delivery for Sanria"
+type  fedex
+
+proposal  "Perfect timing.  The cinnamon rolls are just out of the oven.  I always save some for her.  She would be disappointed in me if I didn't.  You'll take them to her?"
+
+declined  "I need a break anyway."
+
+accepted  "Dear old Kaliri does love her treat.  She's a great lady, and I'm very fond of her."
+
+reminder   "Take those rolls to Kaliri while they're fresh, please."
+
+reward   qKaliriRolls 
+end
+
+

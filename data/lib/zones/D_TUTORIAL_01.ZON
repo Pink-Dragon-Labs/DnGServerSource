@@ -1,0 +1,9 @@
+name "Tutorial"
+title "Tutorial Dungeon"
+worldFile "../data/lib/world/D_TUTORIAL_01.WLD"
+allowCombat 3
+midiFile 29
+groupChance 100
+isDungeon 1
+entrance trapDoor3006-0
+

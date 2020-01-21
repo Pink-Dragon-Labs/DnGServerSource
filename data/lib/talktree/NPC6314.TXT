@@ -1,0 +1,30 @@
+id 6314
+
+banner "Greetings, Friend. Welcome to Volzer's Weapons. May I help you?"
+
+topic "Tell me about Monmouth."
+        text "I don't really know much about Monmouth. I am not originally from here, but from Bath. I left Bath because I found it a brutal place."
+	text "Bath has evil secrets, and my family and I had to get away before they took my children."
+	text "It's peaceful here in Monmouth. There is evil here, too, but it doesn’t involve my family."
+	text "We feel safe here, which is a welcome change.  We can let the children have more freedom."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that Luna demands dreadful demonstrations of devotion.  I'm not sure just what, and don't plan to inquire."
+        text "I'd stay away from the astral displays if I were you."
+end      
+
+topic "Can I do anything for you?"
+        text "No, not today. Perhaps another time."
+end
+
+topic  "I'm looking for Faldora's jeweled dagger." q141:0 #q6403-01-125:0
+	quest 142 #6403-01-130
+	text  "What's this?  I gave it to you already."
+end
+
+topic  "I'm seeking oil of mimosa." q137:0 #q6401-01-530:0
+	quest 138 #6401-01-535
+	text  "You took it with you."
+end
+

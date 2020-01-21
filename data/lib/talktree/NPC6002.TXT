@@ -1,0 +1,24 @@
+id 6002
+
+banner "Greetings, Friend. Welcome to Anson's Armory. I am Anson, the overworked proprietor. May I help you?"
+
+topic "Tell me about Leinster."
+        text "I can tell you nothing of Leinster. I don’t get out of my shop very often. I’m always here, you see, working myself to death."
+	text "All right, my children do all the work on the armor and weapons, but I have to sell it, day in and day out. It’s brutal, difficult work, but I do it for my family. Everything I do I do for them."
+	text  "My wife has it easy, just taking care of the children.  They mostly look after each other, there're so many of them.  There's Angela, Anson Jr., Andrea, Andrew, Andonia and Antonio, the oldest set of twins, but I don't need to go on, do I?  You get the picture."
+	text  "I need a vacation."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I tell you, Friend, I've heard nothing. I'm far too busy slaving away."
+end      
+
+topic "Can I do anything for you?"
+        text "Thank you, Friend, but I've nothing for you today. Check again another time, won't you?"
+end
+
+topic  "Have you heard of a scrap of decrepit scabbard?" q272:0 #q8010-01-400:0
+	quest 273 #8010-01-425
+	text  "Now, friend, you know you took it already."
+end
+

@@ -1,0 +1,160 @@
+#
+# KEYS for the Realm
+#
+object IronKey of Key
+	properties 	
+		name "Iron Key"
+		view 54450
+		value	50
+	end
+
+	base key
+		lockValue   2
+		unlockValue 2
+	end
+
+	base described
+		text "You see an iron key."
+		shopText "This is a fine key, why don't you purchase it today?"
+	end
+		
+end
+
+object SteelKey of Key
+	properties 	
+		name "Steel Key"
+		view 54450
+		value	120
+	end
+
+	base key
+		lockValue   12
+		unlockValue 12
+	end
+
+	base described
+		text "You see a steel key."
+		shopText "This key is made of the best steel and is certain to open many a lock!"
+	end
+		
+end
+
+object BronzeKey of Key
+	properties 	
+		name "Bronze Key"
+		view 54450
+		value	340
+	end
+
+	base key
+		lockValue   22
+		unlockValue 22
+	end
+
+	base described
+		text "You see a bronze key."
+		shopText "Look at the bronze in this key, where else can you find this here?"
+	end
+		
+end
+
+object BrassKey of Key
+	properties 	
+		name "Brass Key"
+		view 54450
+		value	550
+	end
+
+	base key
+		lockValue   32
+		unlockValue 32
+	end
+
+	base described
+		text "You see a brass key."
+		shopText "See the shimmer of the brass. This key will open important locks!"
+	end
+		
+end
+
+object JeweledKey of Key
+	properties 	
+		name "Jeweled Key"
+		view 54450
+		value	850
+	end
+
+	base key
+		lockValue   50
+		unlockValue 50
+	end
+
+	base described
+		text "You see a jeweled key."
+	end
+		
+end
+
+object RustySkeletonKey of Key
+	properties 	
+		name "Rusty Skeleton Key"
+		view 54450
+		value	950
+	end
+
+	base key
+		skeletonLock   32
+		skeletonUnlock 32
+	end
+
+	base described
+		text "You see a rusty, old skeleton key. Wonder if it still works?"
+	end
+end
+
+object SilverSkeletonKey of Key
+	properties 	
+		name "Silver Skeleton Key"
+		view 54450
+		value	1500
+	end
+
+	base key
+		skeletonLock   49
+		skeletonUnlock 49
+	end
+
+	base described
+		text "You see a silver skeleton key."
+	end
+end
+
+object GoldSkeletonKey of Key
+	properties 	
+		name "Gold Skeleton Key"
+		view 54450
+		value	2500
+	end
+
+	base key
+		skeletonLock 255
+		skeletonUnlock 255
+	end
+
+	base described
+		text "You see a gold skeleton key. This could open up anything!"
+	end
+end
+
+object Lockpick of Key
+	properties 	
+                name "Lockpicks"
+                view 52550
+		value	175
+	end
+
+	base described
+                text "You see a set of lockpicks."
+                shopText "An essential component of every thief's ensemble."
+	end
+end

@@ -1,0 +1,19 @@
+quest 23 # 6043-01-525        # Geezer, Potions, Guennor, 6510
+
+name  "Private Stock for Geezer"
+type  fedex
+
+proposal  "Knowed it, dang me, knowed it!  Me friend, Brindal, 'e got that old bone in a blind wager, and nigh on tossed it to the canine so taken with disgust 'e was.  But old Geezer, which be me, sees the thing and says to Brindal, toss 'er here, which 'e did.  'If ye see use to that old bone,' sez he, 'it be yours.'  Stowed it in me pack, casual-like, I did, carted it to me establishment and commenced to cogitate.  It come to me thoughts clear as clear that bit of old bone did appear to be carved, though by amateur, and there be value in odd bits and pieces, so to yon shelf it went.  Now here ye be wantin' yon bone and me with a great yearnin' which ye'll be fillin' and no mistake.  Ye'll take a trek to Leinster in exchange for the bit of bone, won't ye?"  
+
+declined  "Reckon patience'll do the trick."
+
+accepted  "Fetch me some ale, and not just house ale, neither.  Some Leinster shopkeeper makes a private stock.  Fetch enough for two.  After I've had me fun with Brindal, we'll share the boon for that old bone."
+
+reminder   "Get over to Leinster and fetch me a bit of private stock ale."
+
+completed  "Been waitin' for ye.  It works up a powerful thirst, this waiting.  Here be the old bone."
+
+getItem   qPrivateAle
+reward qBoneDagger
+end
+

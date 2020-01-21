@@ -1,0 +1,8 @@
+name "snakepit"
+title "Snake Pit"
+worldFile "../data/lib/world/D_SNAKE_PIT_02.WLD"
+allowCombat 3
+midiFile 31
+groupChance 30
+isDungeon 1
+entrance movingRock20110-0

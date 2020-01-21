@@ -1,0 +1,370 @@
+#
+# magical scrolls
+#
+
+object Scroll
+	properties
+		view 51000
+		clutStart 107
+		name "Scroll"
+		basicName "scroll"
+		value 10
+		color -1
+		health 300
+
+		# weakness to fire
+		affect 1 3 0 -1
+
+		# immune to cold damage
+		affect 2 2 0 -1
+
+		# immune to rust damage
+		affect 11 2 0 -1
+	end
+
+	base described
+		text "It looks like some type of scroll."
+		idText "It seems to be a blank scroll."
+		shopText "It's just a piece of paper."
+	end
+
+	base carryable
+		weight 0.3
+	end
+
+	base use
+		uses 1
+		usesMax 1
+		useCost 0
+	end
+end
+
+object sPaper of Scroll
+	properties
+		name "Scroll of Paper"
+	end
+end
+
+object sDamnation of Scroll
+	properties
+		name "Scroll of Damnation"
+		value 150
+	end
+
+	actions
+		vBeUsed damn dobj
+	end
+
+	base described
+		idText "You see a scroll of Damnation.  You don't want to read it."
+		shopText "I don't really know what this scroll does - I've never read it myself."
+	end
+end
+
+object sDisguise of Scroll
+	properties
+		name "Scroll of Disguise"
+		value 1000
+	end
+
+	actions
+		vBeUsed setAffect dobj 71 0 2 5
+	end
+
+	base described
+		idText "You see a scroll of disguise.  It will randomize your features for awhile if you read it."
+		shopText "A must for those of the thief profession, the spell on this scroll will make you look completely different!"
+	end
+end
+
+object sEscape of Scroll
+	properties
+		name "Scroll of Escape"
+		value 2000
+	end
+
+	actions
+		vBeUsed castSpell 0 dobj
+	end
+
+	base described
+		idText "You see a scroll of Escape.  Reading it will teleport you home even when engaged in combat."
+		shopText "A wonderful spell in a pinch, this scroll will teleport the reader to his house, even in combat!"
+	end
+end
+
+object sGreaterIdentify of Scroll
+	properties
+		name "Scroll of Greater Identify"
+		value 1000
+	end
+
+	base use
+		spell 132
+	end
+
+	base described
+		idText "You see a scroll of Greater Identify.  Reading this scroll will give you extensive knowledge of items."
+		shopText "Read this scroll and you will gain complete knowledge of an item you have with you!"
+	end
+end
+
+object sGreaterShield of Scroll
+	properties
+		name "Scroll of Greater Shield"
+		value 1000
+		level 4
+	end
+
+	base use
+		spell 93
+	end
+
+	base described
+		idText "You see a scroll of Greater Shield.  It will impart magical protection equivalent to a set of plate mail when read."
+		shopText "The spell on this scroll will protect you from harm."
+	end
+end
+
+object sIdentify of Scroll
+	properties
+		name "Scroll of Identify"
+		value 100
+	end
+
+	base use
+		spell 57
+	end
+
+	base described
+		idText "That is a scroll of Identify.  It will give you information about a specific item that you have."
+		shopText "Read this scroll to gain knowledge about any artifact that you might have."
+	end
+end
+
+object sImmolation of Scroll
+	properties
+		name "Scroll of Immolation"
+		value 500
+	end
+
+	base use
+		spell 31
+	end
+
+	base described
+		idText "You see a scroll of Immolation.  The spell on this scroll will surround you with a firey aura that will damage anyone who attacks you with a melee weapon."
+		shopText "The reader of this scroll will be surrounded by a firey aura that will do damage to attacking opponents."
+	end
+end
+
+object sLostThought of Scroll
+	properties
+		name "Scroll of Lost Thought"
+		value 150
+	end
+
+	base use
+		spell 55
+	end
+
+	base described
+		idText "You see a scroll of lost thought.  Reading this scroll will cause you to permanently forget a spell that you have learned."
+		shopText "I once read that scroll, but I don't remember what it does."
+	end
+end
+
+
+object sMissileResistance of Scroll
+	properties
+		name "Scroll of Missile Resistance"
+		value 500
+		level 2
+	end
+
+	base use
+		spell 80
+	end
+
+	base described
+		idText "You see a scroll of Missile Resistance.  Upon reading this scroll you will be immune to missile weapons for awhile."
+		shopText "This scroll will protect the reader from missile weapons."
+	end
+end
+
+
+object sMonsterSummoningI of Scroll
+	properties
+		name "Scroll of Monster Summoning I"
+		value 500
+	end
+
+	base use
+		spell 133
+#		spell 82
+	end
+
+	base described
+		idText "You see a Scroll of Monster Summoning I.  The spell on this scroll will summon creatures to aid you in combat."
+		shopText "This scroll will summon creatures to aid you in combat."
+	end
+end
+
+object sMonsterSummoningII of Scroll
+	properties
+		name "Scroll of Monster Summoning II"
+		value 1500
+	end
+
+	base use
+#		spell 98
+		spell 134
+	end
+
+	base described
+		idText "You see a Scroll of Monster Summoning II.  The spell on this scroll will summon creatures to aid you in combat."
+		shopText "This scroll will summon creatures to aid you in combat."
+	end
+end
+
+object sMonsterSummoningIII of Scroll
+	properties
+		name "Scroll of Monster Summoning III"
+		value 2500
+	end
+
+	base use
+		spell 135
+#		spell 123
+	end
+
+	base described
+		idText "You see a Scroll of Monster Summoning III.  The spell on this scroll will summon creatures to aid you in combat."
+		shopText "This scroll will summon creatures to aid you in combat."
+	end
+end
+
+object sResistCold of Scroll
+	properties
+		name "Scroll of Resist Cold"
+		value 1000
+		level 4
+	end
+
+	base use
+		spell 96
+	end
+
+	base described
+		idText "You see a scroll of Resist Cold.  Reading this scroll will make you immune to cold damage for a duration."
+		shopText "This scroll will make the reader immune to effects of cold."
+	end
+end
+
+object sResistFire of Scroll
+	properties
+		name "Scroll of Resist Fire"
+		value 1000
+		level 4
+	end
+
+	base use
+		spell 95
+	end
+
+	base described
+		idText "You see a scroll of Resist Fire.  Reading this scroll will make you immune to fire damage for a duration."
+		shopText "This scroll will make the reader immune to effects of fire."
+	end
+end
+
+object sResistLightning of Scroll
+	properties
+		name "Scroll of Resist Lightning"
+		value 1000
+		level 4
+	end
+
+	base use
+		spell 97
+	end
+
+	base described
+		idText "You see a scroll of Resist Lightning.  Reading this scroll will make you immune to electrical damage for a duration."
+		shopText "This scroll will make the reader immune to effects of lightning."
+	end
+end
+
+object sRusting of Scroll
+	properties
+		name "Scroll of Rusting"
+		value 150
+		level 4
+	end
+
+	base use
+		spell 18
+	end
+
+	base described
+		idText "You see a scroll of Rusting.  The spell on this scroll will cause all of your metal items to rust."
+		shopText "This scroll will give your weapons and armor a nice reddish-brown tinge."
+	end
+end
+
+object sShield of Scroll
+	properties
+		name "Scroll of Shielding"
+		value 250
+	end
+
+	base use
+		spell 92
+	end
+
+	base described
+		idText "You see a scroll of shielding.  You will recieve magical protection equivalent to a set of chain mail when reading this scroll."
+		shopText "This scroll will protect the reader from harm."
+	end
+end
+
+object sWraithform of Scroll
+	properties
+		name "Scroll of Defenslessness"
+		value 3000
+	end
+
+	base use
+		spell 19
+	end
+
+	base described
+		idText "That is a scroll of Defenslessness."
+		shopText "This fine scroll will reduce your opponents armor when read."
+	end
+end
+
+
+#
+# Strange scroll - teleports the user to the Event Staff's winners circle (6070).
+#
+
+object sStrange of Scroll
+	properties
+		name "Strange Scroll"
+		color 29	# satori green
+		value 5
+		special
+	end
+
+	actions
+		vBeUsed teleport dobj 6070
+	end
+
+	base described
+		text "You see a very odd looking scroll."
+		idText "You see a strange looking scroll, and wonder what it could do."
+		shopText "This is one strange scroll, I haven't a clue what it does."
+	end
+end
+

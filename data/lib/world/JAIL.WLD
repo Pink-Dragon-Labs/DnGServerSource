@@ -1,0 +1,156 @@
+room 6051
+   properties
+      picture	4000
+#      roomName	"Jail Cell Number 1"
+		flags 256
+   end
+   atpinfo
+      2598  218 270
+   end
+   objects
+      object stool6051-0 of Stool
+         properties
+            x	480
+            y	165
+            loop	0
+         end
+      end
+      object stool6051-1 of Stool
+         properties
+            x	207
+            y	229
+            loop	0
+         end
+      end
+      object stool6051-2 of Stool
+         properties
+            x	250
+            y	229
+            loop	0
+         end
+      end
+      object mouse6051-4 of Mouse
+         properties
+            x   320
+            y   200
+         end
+      end
+   end
+end
+room 6052
+   properties
+      picture	4000
+#      roomName	"Jail Cell Number 2"
+		flags 256
+   end
+   atpinfo
+      2598  218 270
+   end
+   objects
+      object stool6052-0 of Stool
+         properties
+            x	480
+            y	165
+            loop	0
+         end
+      end
+      object stool6052-1 of Stool
+         properties
+            x	207
+            y	229
+            loop	0
+         end
+      end
+      object stool6052-2 of Stool
+         properties
+            x	250
+            y	229
+            loop	0
+         end
+      end
+      object mouse6052-4 of Mouse
+         properties
+            x   320
+            y   200
+         end
+      end
+   end
+end
+room 6053
+   properties
+      picture	4000
+#      roomName	"Jail Cell Number 3"
+		flags 256
+   end
+   atpinfo
+      2598  218 270
+   end
+   objects
+      object stool6053-0 of Stool
+         properties
+            x	480
+            y	165
+            loop	0
+         end
+      end
+      object stool6053-1 of Stool
+         properties
+            x	207
+            y	229
+            loop	0
+         end
+      end
+      object stool6053-2 of Stool
+         properties
+            x	250
+            y	229
+            loop	0
+         end
+      end
+      object mouse6053-4 of Mouse
+         properties
+            x   320
+            y   200
+         end
+      end
+   end
+end
+room 6054
+   properties
+      picture	4000
+#      roomName	"Jail Cell Number 4"
+		flags 256
+   end
+   atpinfo
+      2598  218 270
+   end
+   objects
+      object stool6054-0 of Stool
+         properties
+            x	480
+            y	165
+            loop	0
+         end
+      end
+      object stool6054-1 of Stool
+         properties
+            x	207
+            y	229
+            loop	0
+         end
+      end
+      object stool6054-2 of Stool
+         properties
+            x	250
+            y	229
+            loop	0
+         end
+      end
+      object mouse6054-4 of Mouse
+         properties
+            x   320
+            y   200
+         end
+      end
+   end
+end

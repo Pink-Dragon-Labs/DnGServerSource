@@ -1,0 +1,9 @@
+name "TheAnvil"
+title "The Anvil"
+worldFile "../data/lib/world/D_ANVIL_01.WLD"
+allowCombat 3
+midiFile 29
+groupChance 100
+isDungeon 1
+entrance sarcophagusDoor21016-0
+

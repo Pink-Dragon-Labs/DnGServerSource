@@ -1,0 +1,24 @@
+id 6615
+
+banner "A good day to ye. I'm Farmer Ollie. What can I be doin' for ye?"
+
+topic "Who are you?"
+	text "Ahh... ye heard of me 'ave ye? Yeah, tis true. I was quite the adventurer in me day. Now I's juz a humble 'ol farmer. Lost me leg, I did, ye see?"
+	text "T'weren't even dur'n my adventur'n neither. T'was a few Harv'ez O' Soales ago. I was sampil'n a fresh batch 'o ale at me favorite pub one night... ye know the one, the Farthing Inn? It was good batch, that's fer sure. Hearty-stout, good body, jus a touch of bite to 'er on the finish." 
+	text "Oh, yea, okay. Ye be wanting to hear about me leg, not the fine art o' ale tast'n. Okay, so I's did me a good 'n thorough job o' test'n me buddy Holiph's new brew and he thanked me, as he always do, and helped me out the door, not that I needed it mind you but Holiph 'n me are buddies 'n we watches out for one 'n otherz, see?"
+	text "Anyways, I tooks me a lil walk, jus to get some air, and ended up in this patch 'o wild pumpkins. But they weren't, ye see? Pumpkins I mean. They was somethin' supernatural they was. I did'n take notice right away through, I wasn't adventur'n ye see, I was just out get'n me some air. So's this pumpkin, that wasn't a pumpkin, was able to sneak up on me, ye see, 'n I was walk'n and I put me foot down it was wait'n."
+	text "Well, it opened up a mouth wider 'n the gates of hell and latch'd on to me foot good 'n tight. It would'n let go fer nuttin neither, no matter how hard I kicked and fought. It jus held me ankle tight in it's gape'n maw, use'n it's supernatural strength ye see, 'n I knew there were only one way I was ever gonna git away."
+	text "Now I's always been able to take a lot 'o pain. I don't complain 'bout nuttin. So's I was hardly feel'n any hurt from the critter's bite, see, 'n since I'd had me some 'o Holiph's good ale I figured... that's what a good adventurer does ye know, ya's gotta be able ta think as much as fight... so's I figured if I was gonna git away the only way to do it was to let the critter have what he were after, right?"
+	text "And, well, he was want'n me leg. So's I took me knife out 'n proceeded ta let him 'ave it. It hurt a might, I gotta admit, but I gots it cut off aw right 'n made it back to Holiph's place. We's buddies, ye know, 'n he fixed me up right good."
+	text "Anyways, that's hows I lost me leg. Some folks don't be believ'n me ye know. But then some folks ain't seen what we adventurers 'ave seen, right? But a one-leg'd adventurer.. that ain't no good. So's I had me a forced retirement, ye see? 'N I opened up this here pumpkin farm, see'n as how they's the ones that put me into retirement I figured they owed me and they should be the ones to take care 'o me. They do'n pretty good too. I get by."
+end
+
+topic "Have you heard anything about the old Gregory's Metalworks?"
+	text "Ah, dun be sayin' that name 'round me. Tis a cursed place, it is. They be sayin' that durin the nights, them ghosts that be hauntin tha place be pullin' people in."
+end
+
+topic "Will you carve my pumpkin for me?"
+	quest 410
+	text "Didn't ah make ye one already?"
+end
+

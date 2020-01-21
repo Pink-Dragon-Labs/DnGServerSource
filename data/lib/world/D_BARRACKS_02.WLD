@@ -1,0 +1,2106 @@
+# Dungeonmaker World File (Barcks02.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 77000
+# Dungeon last room = 77039
+# Number of objects in dungeon = 305
+# Level 0 information:
+room 77000
+	properties
+		template 30304
+		south 77001
+		flags	32
+	end
+	objects
+		object Guardian-77000-0 of Guardian
+			properties
+				x	425
+				y	251
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77000-1 of Guardian
+			properties
+				x	219
+				y	246
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-77000-2 of DungeonBackUp
+			properties
+				x	319
+				y	232
+				loop	0
+				linkTo	tent12363-0
+			end
+			actions
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 77001
+	properties
+		template 31003
+		south 77002
+		north 77000
+		flags	0
+	end
+	objects
+		object SeraphQueen-77001-0 of SeraphQueen
+			properties
+				x	559
+				y	297
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object Guardian-77001-1 of Guardian
+			properties
+				x	497
+				y	288
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77001-2 of Guardian
+			properties
+				x	182
+				y	294
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77002
+	properties
+		template 31402
+		south 77005
+		east 77003
+		north 77001
+		flags	0
+	end
+	objects
+		object Kilrog-77002-0 of Kilrog
+			properties
+				x	190
+				y	289
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+		object Guardian-77002-1 of Guardian
+			properties
+				x	407
+				y	253
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77002-2 of Guardian
+			properties
+				x	329
+				y	252
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Sign-77002-3 of Sign
+			properties
+				x	117
+				y	292
+				loop	0
+			end
+			actions
+			end
+			base described
+				text	"Armory to the South, Weaponry to the East."
+			end
+		end
+	end
+end
+room 77003
+	properties
+		template 30703
+		east 77004
+		west 77002
+		flags	0
+	end
+	objects
+		object SeraphQueen-77003-0 of SeraphQueen
+			properties
+				x	347
+				y	250
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77003-1 of SeraphWarrior
+			properties
+				x	291
+				y	274
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77003-2 of SeraphWarrior
+			properties
+				x	405
+				y	272
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+	end
+end
+room 77004
+	properties
+		template 30905
+		south 77011
+		east 77012
+		west 77003
+		flags	64
+	end
+	objects
+		object SeraphThaumaturgist-77004-0 of SeraphThaumaturgist
+			properties
+				x	538
+				y	268
+				loop	1
+				color	814
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77004-1 of SeraphWarrior
+			properties
+				x	490
+				y	243
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77004-2 of SeraphWarrior
+			properties
+				x	469
+				y	267
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77004-3 of SeraphWarrior
+			properties
+				x	498
+				y	291
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+	end
+end
+room 77012
+	properties
+		template 30906
+		east 77015
+		west 77004
+		flags	0
+	end
+	objects
+		object Guardian-77012-0 of Guardian
+			properties
+				x	255
+				y	261
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77012-1 of Guardian
+			properties
+				x	382
+				y	253
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77012-2 of Guardian
+			properties
+				x	322
+				y	260
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77012-3 of Guardian
+			properties
+				x	196
+				y	249
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77015
+	properties
+		template 30901
+		east 77016
+		west 77012
+		flags	0
+	end
+	objects
+		object Guardian-77015-0 of Guardian
+			properties
+				x	569
+				y	279
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77015-1 of Guardian
+			properties
+				x	548
+				y	246
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77016
+	properties
+		template 30907
+		south 77017
+		east 77020
+		west 77015
+		flags	0
+	end
+	objects
+		object SeraphQueen-77016-0 of SeraphQueen
+			properties
+				x	317
+				y	232
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77016-1 of SeraphQueen
+			properties
+				x	276
+				y	257
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77016-2 of SeraphWarrior
+			properties
+				x	392
+				y	282
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77016-3 of SeraphWarrior
+			properties
+				x	316
+				y	277
+				loop	2
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77016-4 of SeraphWarrior
+			properties
+				x	226
+				y	287
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77016-5 of SeraphQueen
+			properties
+				x	354
+				y	255
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object Sign-77016-6 of Sign
+			properties
+				x	83
+				y	225
+				loop	0
+			end
+			base described
+				text	"Weaponry to the East, Jail to the South"
+			end
+		end
+	end
+end
+room 77020
+	properties
+		template 30703
+		east 77021
+		west 77016
+		flags	0
+	end
+end
+room 77021
+	properties
+		template 30902
+		south 77022
+		east 77031
+		west 77020
+		flags	64
+	end
+	objects
+		object Guardian-77021-0 of Guardian
+			properties
+				x	475
+				y	258
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77021-1 of Guardian
+			properties
+				x	241
+				y	256
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object LavaSerpent-77021-2 of LavaSerpent
+			properties
+				x	360
+				y	291
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+	end
+end
+room 77031
+	properties
+		template 31301
+		east 77032
+		west 77021
+		flags	0
+	end
+	objects
+		object Guardian-77031-0 of Guardian
+			properties
+				x	553
+				y	233
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77031-1 of Guardian
+			properties
+				x	569
+				y	251
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77031-2 of Guardian
+			properties
+				x	584
+				y	271
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77031-3 of Guardian
+			properties
+				x	601
+				y	295
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77032
+	properties
+		template 31104
+		south 77033
+		west 77031
+		flags	0
+	end
+	objects
+		object Guardian-77032-0 of Guardian
+			properties
+				x	526
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77005
+	properties
+		template 31006
+		south 77006
+		north 77002
+		flags	0
+	end
+	objects
+		object Guardian-77005-0 of Guardian
+			properties
+				x	470
+				y	216
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77005-1 of Guardian
+			properties
+				x	169
+				y	227
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77005-2 of Guardian
+			properties
+				x	322
+				y	286
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77005-3 of SeraphQueen
+			properties
+				x	336
+				y	284
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphThaumaturgist-77005-4 of SeraphThaumaturgist
+			properties
+				x	444
+				y	215
+				loop	2
+				color	814
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77005-5 of SeraphWarrior
+			properties
+				x	194
+				y	227
+				loop	2
+				color	813
+			end
+			base character
+			end
+		end
+	end
+end
+room 77011
+	properties
+		template 30402
+		south 77010
+		north 77004
+		flags	0
+	end
+	objects
+		object Guardian-77011-0 of Guardian
+			properties
+				x	360
+				y	253
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77011-1 of Guardian
+			properties
+				x	208
+				y	252
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77017
+	properties
+		template 31001
+		south 77018
+		north 77016
+		flags	0
+	end
+	objects
+		object Guardian-77017-0 of Guardian
+			properties
+				x	379
+				y	296
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77017-1 of Guardian
+			properties
+				x	319
+				y	277
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77017-2 of Guardian
+			properties
+				x	255
+				y	279
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77017-3 of Guardian
+			properties
+				x	196
+				y	296
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77022
+	properties
+		template 31006
+		south 77023
+		north 77021
+		flags	0
+	end
+	objects
+		object Guardian-77022-0 of Guardian
+			properties
+				x	505
+				y	234
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77022-1 of Guardian
+			properties
+				x	445
+				y	235
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77022-2 of Guardian
+			properties
+				x	210
+				y	242
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77022-3 of Guardian
+			properties
+				x	146
+				y	243
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77033
+	properties
+		template 31004
+		south 77034
+		north 77032
+		flags	0
+	end
+end
+room 77006
+	properties
+		template 31003
+		south 77007
+		north 77005
+		flags	48
+	end
+	objects
+		object Guardian-77006-0 of Guardian
+			properties
+				x	534
+				y	296
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77006-1 of Guardian
+			properties
+				x	157
+				y	303
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-77006-2 of Paladin
+			properties
+				x	449
+				y	270
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-77006-3 of Paladin
+			properties
+				x	222
+				y	262
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Priestess-77006-4 of Priestess
+			properties
+				x	487
+				y	283
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Priestess-77006-5 of Priestess
+			properties
+				x	188
+				y	273
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77010
+	properties
+		template 31004
+		south 77009
+		north 77011
+		flags	0
+	end
+	objects
+		object Guardian-77010-0 of Guardian
+			properties
+				x	174
+				y	304
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object SittingMushroom-77010-1 of SittingMushroom
+			properties
+				x	100
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-77010-2 of SittingMushroom
+			properties
+				x	135
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object SittingMushroom-77010-3 of SittingMushroom
+			properties
+				x	170
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-77010-4 of Chair
+			properties
+				x	246
+				y	265
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-77010-5 of Chair
+			properties
+				x	303
+				y	258
+				loop	2
+			end
+			base described
+			end
+		end
+		object Chair-77010-6 of Chair
+			properties
+				x	367
+				y	259
+				loop	2
+			end
+			base described
+			end
+		end
+		object Chair-77010-7 of Chair
+			properties
+				x	417
+				y	270
+				loop	1
+			end
+			base described
+			end
+		end
+		object Fountain-77010-8 of Fountain
+			properties
+				x	329
+				y	301
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 77018
+	properties
+		template 30802
+		east 77019
+		north 77017
+		flags	0
+	end
+end
+room 77019
+	properties
+		template 30907
+		south 77024
+		east 77023
+		west 77018
+		flags	64
+	end
+	objects
+		object SeraphQueen-77019-0 of SeraphQueen
+			properties
+				x	349
+				y	275
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77019-1 of SeraphQueen
+			properties
+				x	260
+				y	276
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object Guardian-77019-2 of Guardian
+			properties
+				x	308
+				y	291
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77019-3 of Guardian
+			properties
+				x	376
+				y	281
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77019-4 of Guardian
+			properties
+				x	232
+				y	284
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Kilrog-77019-5 of Kilrog
+			properties
+				x	260
+				y	306
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+		object Kilrog-77019-6 of Kilrog
+			properties
+				x	351
+				y	304
+				loop	2
+				color	787
+			end
+			base character
+			end
+		end
+	end
+end
+room 77023
+	properties
+		template 32701
+		west 77019
+		north 77022
+		flags	0
+	end
+end
+room 77034
+	properties
+		template 31003
+		south 77035
+		north 77033
+		flags	0
+	end
+end
+room 77007
+	properties
+		template 30801
+		east 77008
+		north 77006
+		flags	0
+	end
+	objects
+		object Guardian-77007-0 of Guardian
+			properties
+				x	608
+				y	289
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77007-1 of Guardian
+			properties
+				x	574
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77007-2 of Guardian
+			properties
+				x	170
+				y	289
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77007-3 of Guardian
+			properties
+				x	200
+				y	259
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77008
+	properties
+		template 32401
+		south 77013
+		east 77009
+		west 77007
+		flags	0
+	end
+	objects
+		object SeraphWarrior-77008-0 of SeraphWarrior
+			properties
+				x	152
+				y	279
+				loop	1
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphWarrior-77008-1 of SeraphWarrior
+			properties
+				x	482
+				y	280
+				loop	0
+				color	813
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77008-2 of SeraphQueen
+			properties
+				x	500
+				y	264
+				loop	0
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77008-3 of SeraphQueen
+			properties
+				x	320
+				y	284
+				loop	2
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77008-4 of SeraphQueen
+			properties
+				x	134
+				y	256
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+	end
+end
+room 77009
+	properties
+		template 32701
+		west 77008
+		north 77010
+		flags	0
+	end
+	objects
+		object SeraphQueen-77009-0 of SeraphQueen
+			properties
+				x	65
+				y	258
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77009-1 of SeraphQueen
+			properties
+				x	53
+				y	231
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object SeraphQueen-77009-2 of SeraphQueen
+			properties
+				x	52
+				y	279
+				loop	1
+				color	815
+			end
+			base character
+			end
+		end
+		object Guardian-77009-3 of Guardian
+			properties
+				x	311
+				y	205
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77009-4 of Guardian
+			properties
+				x	249
+				y	206
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77009-5 of Guardian
+			properties
+				x	373
+				y	205
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77024
+	properties
+		template 31003
+		south 77025
+		north 77019
+		flags	32
+	end
+	objects
+		object Guardian-77024-0 of Guardian
+			properties
+				x	409
+				y	229
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77024-1 of Guardian
+			properties
+				x	321
+				y	281
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77024-2 of Guardian
+			properties
+				x	228
+				y	224
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77035
+	properties
+		template 30802
+		east 77036
+		north 77034
+		flags	64
+	end
+	objects
+		object KingKilrog-77035-0 of KingKilrog
+			properties
+				x	308
+				y	267
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object KingKilrog-77035-1 of KingKilrog
+			properties
+				x	250
+				y	274
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object Guardian-77035-2 of Guardian
+			properties
+				x	298
+				y	250
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77035-3 of Guardian
+			properties
+				x	239
+				y	253
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77036
+	properties
+		template 31301
+		east 77037
+		west 77035
+		flags	64
+	end
+	objects
+		object Guardian-77036-0 of Guardian
+			properties
+				x	516
+				y	261
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77036-1 of Guardian
+			properties
+				x	561
+				y	255
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77036-2 of Guardian
+			properties
+				x	559
+				y	278
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77036-3 of Guardian
+			properties
+				x	543
+				y	290
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77036-4 of Guardian
+			properties
+				x	516
+				y	276
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77036-5 of Guardian
+			properties
+				x	544
+				y	235
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77036-6 of Guardian
+			properties
+				x	479
+				y	271
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77037
+	properties
+		template 30201
+		west 77036
+		flags	0
+	end
+	objects
+		object LockedChest-77037-0 of LockedChest
+			properties
+				x	479
+				y	271
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object LockedChest-77037-1 of LockedChest
+			properties
+				x	317
+				y	249
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-77037-2 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-1
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-77037-3 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-0
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-77037-4 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-1
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-77037-5 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-0
+			end
+			base described
+			end
+		end
+		object AdmantiumRoundShield-77037-6 of AdmantiumRoundShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-1
+			end
+			base described
+			end
+		end
+		object AdmantiumLargeShield-77037-7 of AdmantiumLargeShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-0
+			end
+			base described
+			end
+		end
+		object AdmantiumChainPants-77037-8 of AdmantiumChainPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-1
+			end
+			base described
+			end
+		end
+		object AdmantiumChainPants-77037-9 of AdmantiumChainPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-0
+			end
+			base described
+			end
+		end
+		object AdmantiumChainTunic-77037-10 of AdmantiumChainTunic
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-1
+			end
+			base described
+			end
+		end
+		object AdmantiumChainTunic-77037-11 of AdmantiumChainTunic
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-0
+			end
+			base described
+			end
+		end
+		object Admantiumband-77037-12 of Admantiumband
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-1
+			end
+			base described
+			end
+		end
+		object Admantiumband-77037-13 of Admantiumband
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77037-0
+			end
+			base described
+			end
+		end
+		object Sign-77037-14 of Sign
+			properties
+				x	118
+				y	232
+				loop	0
+			end
+			base described
+				text	"The Armory"
+			end
+		end
+	end
+end
+room 77013
+	properties
+		template 30402
+		south 77014
+		north 77008
+		flags	32
+	end
+	objects
+		object KingCobra-77013-0 of KingCobra
+			properties
+				x	387
+				y	310
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object KingCobra-77013-1 of KingCobra
+			properties
+				x	115
+				y	315
+				loop	2
+				color	93
+			end
+			base character
+			end
+		end
+		object Guardian-77013-2 of Guardian
+			properties
+				x	130
+				y	274
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77013-3 of Guardian
+			properties
+				x	375
+				y	254
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77013-4 of Guardian
+			properties
+				x	409
+				y	273
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-77013-5 of Cleric
+			properties
+				x	163
+				y	258
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77027
+	properties
+		template 30101
+		east 77026
+		flags	0
+	end
+	objects
+		object Guardian-77027-0 of Guardian
+			properties
+				x	331
+				y	273
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77027-1 of Guardian
+			properties
+				x	384
+				y	282
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77027-2 of Guardian
+			properties
+				x	350
+				y	284
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77027-3 of Guardian
+			properties
+				x	362
+				y	257
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77027-4 of Guardian
+			properties
+				x	387
+				y	259
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77027-5 of Guardian
+			properties
+				x	401
+				y	272
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-77027-6 of DungeonBackDoor
+			properties
+				x	93
+				y	225
+				loop	2
+				linkTo	DungeonBackDoor-77029-7
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-77027-7 of Sign
+			properties
+				x	468
+				y	222
+				loop	0
+			end
+			base described
+				text	"Guard Room"
+			end
+		end
+	end
+end
+room 77026
+	properties
+		template 30703
+		east 77025
+		west 77027
+		flags	0
+	end
+	objects
+		object Guardian-77026-0 of Guardian
+			properties
+				x	218
+				y	264
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77026-1 of Guardian
+			properties
+				x	187
+				y	284
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77025
+	properties
+		template 32601
+		west 77026
+		north 77024
+		flags	0
+	end
+	objects
+		object Guardian-77025-0 of Guardian
+			properties
+				x	295
+				y	258
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77025-1 of Guardian
+			properties
+				x	328
+				y	264
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77025-2 of Guardian
+			properties
+				x	308
+				y	289
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77025-3 of Guardian
+			properties
+				x	343
+				y	292
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 77014
+	properties
+		template 30401
+		north 77013
+		flags	16
+	end
+	objects
+		object LockedChest-77014-0 of LockedChest
+			properties
+				x	536
+				y	275
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object KingKilrog-77014-1 of KingKilrog
+			properties
+				x	200
+				y	287
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object KingKilrog-77014-2 of KingKilrog
+			properties
+				x	219
+				y	260
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object Guardian-77014-3 of Guardian
+			properties
+				x	110
+				y	265
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77014-4 of Guardian
+			properties
+				x	85
+				y	286
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77014-5 of Guardian
+			properties
+				x	132
+				y	283
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Guardian-77014-6 of Guardian
+			properties
+				x	162
+				y	268
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object mwNullsword-77014-7 of mwNullsword
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77014-0
+			end
+			base described
+			end
+		end
+		object mwNullsword-77014-8 of mwNullsword
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-77014-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 77029
+	properties
+		template 31002
+		south 77028
+		flags	32
+	end
+	objects
+		object ThiefA-77029-0 of ThiefA
+			properties
+				x	122
+				y	298
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefC-77029-1 of ThiefC
+			properties
+				x	95
+				y	307
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefB-77029-2 of ThiefB
+			properties
+				x	455
+				y	308
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefE-77029-3 of ThiefE
+			properties
+				x	408
+				y	263
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-77029-4 of ThiefD
+			properties
+				x	145
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object ThiefD-77029-5 of ThiefD
+			properties
+				x	434
+				y	285
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Sign-77029-6 of Sign
+			properties
+				x	165
+				y	235
+				loop	0
+			end
+			base described
+				text	"The Jail"
+			end
+		end
+		object DungeonBackDoor-77029-7 of DungeonBackDoor
+			properties
+				x	288
+				y	219
+				loop	2
+				linkTo	DungeonBackDoor-77027-6
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 77030
+	properties
+		template 30101
+		east 77028
+		flags	0
+	end
+	objects
+		object DaemonKing-77030-0 of DaemonKing
+			properties
+				x	230
+				y	279
+				loop	0
+				color	784
+			end
+			base character
+			end
+		end
+		object KingKilrog-77030-1 of KingKilrog
+			properties
+				x	202
+				y	291
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object KingKilrog-77030-2 of KingKilrog
+			properties
+				x	259
+				y	261
+				loop	0
+				color	788
+			end
+			base character
+			end
+		end
+		object EarthElemental-77030-3 of EarthElemental
+			properties
+				x	109
+				y	294
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object WaterElemental-77030-4 of WaterElemental
+			properties
+				x	157
+				y	284
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object FireElemental-77030-5 of FireElemental
+			properties
+				x	120
+				y	289
+				loop	0
+				color	100
+			end
+			base character
+			end
+		end
+		object JeweledKey-77030-6 of JeweledKey
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	WaterElemental-77030-4
+			end
+			base described
+			end
+		end
+		object SteelKey-77030-7 of SteelKey
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EarthElemental-77030-3
+			end
+			base described
+			end
+		end
+		object BronzeKey-77030-8 of BronzeKey
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	EarthElemental-77030-3
+			end
+			base described
+			end
+		end
+	end
+end
+room 77028
+	properties
+		template 32602
+		west 77030
+		north 77029
+		flags	128
+	end
+	objects
+		object Fury-77028-0 of Fury
+			properties
+				x	457
+				y	292
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-77028-1 of Fury
+			properties
+				x	306
+				y	250
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-77028-2 of Fury
+			properties
+				x	376
+				y	280
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+	end
+end

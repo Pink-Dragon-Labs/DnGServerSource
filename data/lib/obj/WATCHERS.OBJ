@@ -1,0 +1,43 @@
+object Watcher of NPC
+	properties
+		name "Watcher"
+		view 42100
+		affect 12 0 3 -1
+		affect 17 0 3 -1
+	end
+
+	base described
+		text "You see a floating eye here.  It seems to be examining everything it can see."
+	end
+
+	base npc
+		code watcher
+	end
+end
+
+object BabyWatcher of Watcher
+	properties
+		view 42050
+		name "Sentinel"
+	end
+
+	base described
+		text "This is a sentinel."
+	end
+end
+
+object HellSoul of NPC
+	properties
+		name "Hell Soul"
+		view 42000
+		dexterity 75
+	end
+
+	base npc
+		code hellsoul
+	end
+
+	base described
+		text "This is a Hell Soul."
+	end
+end

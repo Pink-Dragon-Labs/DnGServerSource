@@ -1,0 +1,19 @@
+quest  124 #6311-01-500        #Zuzu, House of Combat, Monmouth, 6311
+
+name  "A Scarab for Zuzu"
+type  fedex
+
+proposal  "Ha!  Think you're grand-master material, do you?  I'm the best judge of that.  The two-handed sword is a fine tool, the finest.  Warriors with that skill are the top.  The top I say.  And you want to try, do you?  I'll see.  First you go get me a scarab.  I want a perfect one, mind you.  Are you going to do it?"
+
+declined  "Ninny!"
+
+accepted  "Go to that desert town.  It's called Airy-something.  Folks just don't speak clear these days.  Mutter, that's what they do."
+
+reminder   "Go get me a scarab from that desert town.  I want a good one, too."
+
+completed  "Not bad, not bad.  Here's your book."
+
+getItem   qScarab
+reward   skbTwoHandedSwordV 
+end
+

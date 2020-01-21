@@ -1,0 +1,1411 @@
+# Dungeonmaker World File (D_NAKTOS_MORGUE.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 72500
+# Dungeon last room = 72822
+# Number of objects in dungeon = 120
+# Level 0 information:
+room 72522
+	properties
+		template 30501
+		south 72519
+		east 72523
+		flags	0
+	end
+	objects
+		object CaveRat-72522-0 of CaveRat
+			properties
+				x	491
+				y	270
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object Sarcophagus-72522-1 of Sarcophagus
+			properties
+				x	243
+				y	278
+				loop	0
+			end
+			actions
+				vBeOpened summon 72522 1 1 Skeleton 243 288 2 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomStuff-72522-2 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72522-1
+			end
+			base described
+			end
+		end
+		object RandomStuff-72522-3 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72522-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-72522-4 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72522-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 72523
+	properties
+		template 30908
+		south 72520
+		east 72524
+		west 72522
+		flags	0
+	end
+	objects
+		object Sarcophagus-72523-0 of Sarcophagus
+			properties
+				x	288
+				y	276
+				loop	0
+			end
+			base lockable
+			end
+			base openable
+				isOpen	1
+			end
+			base described
+			end
+		end
+		object Shroom3-72523-1 of Shroom3
+			properties
+				x	113
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBoots-72523-2 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72523-0
+			end
+			base described
+			end
+		end
+		object RandomPants-72523-3 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72523-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-72523-4 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72523-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-72523-5 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72523-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 72524
+	properties
+		template 31104
+		south 72521
+		west 72523
+		flags	0
+	end
+	objects
+		object CaveRat-72524-0 of CaveRat
+			properties
+				x	408
+				y	301
+				loop	2
+				color	808
+			end
+			base character
+			end
+		end
+		object Sarcophagus-72524-1 of Sarcophagus
+			properties
+				x	282
+				y	257
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Web3-72524-2 of Web3
+			properties
+				x	378
+				y	213
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-72524-3 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72524-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-72524-4 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72524-1
+			end
+			base described
+			end
+		end
+		object RandomWeapon-72524-5 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72524-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 72519
+	properties
+		template 31402
+		south 72517
+		east 72520
+		north 72522
+		flags	0
+	end
+	objects
+		object Sarcophagus-72519-0 of Sarcophagus
+			properties
+				x	373
+				y	256
+				loop	0
+			end
+			actions
+				vBeOpened summon 72519 1 1 LostSailor 372 266 2 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-72519-1 of Torch
+			properties
+				x	641
+				y	321
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 72520
+	properties
+		template 31503
+		south 72516
+		east 72521
+		west 72519
+		north 72523
+		flags	0
+	end
+	objects
+		object Sarcophagus-72520-0 of Sarcophagus
+			properties
+				x	181
+				y	275
+				loop	0
+			end
+			actions
+				vBeOpened summon 72520 1 1 Skeleton 231 285 1 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-72520-1 of Sarcophagus
+			properties
+				x	507
+				y	274
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-72520-2 of Sarcophagus
+			properties
+				x	466
+				y	180
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-72520-3 of Sarcophagus
+			properties
+				x	186
+				y	178
+				loop	0
+			end
+			actions
+				vBeOpened summon 72520 1 1 DamnedOne 202 192 2 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Column-72520-4 of Column
+			properties
+				x	19
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-72520-5 of Column
+			properties
+				x	638
+				y	190
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-72520-6 of Torch
+			properties
+				x	3
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-72520-7 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-3
+			end
+			base described
+			end
+		end
+		object RandomShirt-72520-8 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-2
+			end
+			base described
+			end
+		end
+		object RandomShirt-72520-9 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-72520-10 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-0
+			end
+			base described
+			end
+		end
+		object RandomPants-72520-11 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-2
+			end
+			base described
+			end
+		end
+		object RandomPants-72520-12 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-1
+			end
+			base described
+			end
+		end
+		object RandomPants-72520-13 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-0
+			end
+			base described
+			end
+		end
+		object RandomPants-72520-14 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-72520-15 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-72520-16 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-1
+			end
+			base described
+			end
+		end
+		object RandomStuff-72520-17 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-72520-18 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-2
+			end
+			base described
+			end
+		end
+		object RandomBelt-72520-19 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-1
+			end
+			base described
+			end
+		end
+		object RandomBoots-72520-20 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-1
+			end
+			base described
+			end
+		end
+		object skbNecromancyII-72520-21 of skbNecromancyII
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72520-3
+			end
+			base described
+			end
+		end
+	end
+end
+room 72521
+	properties
+		template 30704
+		south 72518
+		west 72520
+		north 72524
+		flags	0
+	end
+	objects
+		object Sarcophagus-72521-0 of Sarcophagus
+			properties
+				x	269
+				y	265
+				loop	0
+			end
+			actions
+				vBeOpened summon 72521 1 1 DamnedOne 269 275 2 
+				vBeOpened clearActions self vBeOpened 
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 72517
+	properties
+		template 30803
+		east 72516
+		north 72519
+		flags	0
+	end
+	objects
+		object CaveRat-72517-0 of CaveRat
+			properties
+				x	239
+				y	271
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 72516
+	properties
+		template 30804
+		south 72515
+		east 72518
+		west 72517
+		north 72520
+		flags	0
+	end
+	objects
+		object Sarcophagus-72516-0 of Sarcophagus
+			properties
+				x	244
+				y	270
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Web5-72516-1 of Web5
+			properties
+				x	157
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-72516-2 of Torch
+			properties
+				x	134
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomShirt-72516-3 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-72516-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 72518
+	properties
+		template 31303
+		west 72516
+		north 72521
+		flags	0
+	end
+	objects
+		object CaveRat-72518-0 of CaveRat
+			properties
+				x	428
+				y	280
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 72515
+	properties
+		template 30402
+		north 72516
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-72515-0 of DungeonBackDoor
+			properties
+				x	288
+				y	348
+				loop	3
+				linkTo	DungeonBackDoor-72506-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 72531
+	properties
+		template 30101
+		east 72532
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-72531-0 of DungeonBackDoor
+			properties
+				x	476
+				y	218
+				loop	2
+				linkTo	DungeonBackDoor-72528-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 72532
+	properties
+		template 30601
+		south 72535
+		west 72531
+		flags	8
+	end
+	objects
+		object Ghoul-72532-0 of Ghoul
+			properties
+				x	188
+				y	260
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Bones-72532-1 of Bones
+			properties
+				x	511
+				y	306
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-72532-2 of Bones
+			properties
+				x	426
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skeleton-72532-3 of Skeleton
+			properties
+				x	298
+				y	257
+				loop	1
+				color	37
+			end
+			base character
+			end
+		end
+		object Tooth-72532-4 of Tooth
+			properties
+				x	394
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object JawBone-72532-5 of JawBone
+			properties
+				x	420
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-72532-6 of Skull
+			properties
+				x	415
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite1-72532-7 of Stalagmite1
+			properties
+				x	477
+				y	284
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-72532-8 of Web3
+			properties
+				x	539
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPants-72532-9 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72532-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-72532-10 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72532-1
+			end
+			base described
+			end
+		end
+		object RandomShirt-72532-11 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72532-2
+			end
+			base described
+			end
+		end
+		object RandomPants-72532-12 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72532-2
+			end
+			base described
+			end
+		end
+		object RandomBand-72532-13 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72532-2
+			end
+			base described
+			end
+		end
+		object RandomWeapon-72532-14 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Skeleton-72532-3
+			end
+			base described
+			end
+		end
+	end
+end
+room 72535
+	properties
+		template 30403
+		north 72532
+		flags	8
+	end
+	objects
+		object Ghoul-72535-0 of Ghoul
+			properties
+				x	153
+				y	244
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-72535-1 of UndeadNecromancer
+			properties
+				x	230
+				y	233
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Bones-72535-2 of Bones
+			properties
+				x	520
+				y	293
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-72535-3 of Bones
+			properties
+				x	299
+				y	278
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-72535-4 of Bones
+			properties
+				x	-1
+				y	275
+				loop	1
+			end
+			base described
+			end
+		end
+		object Bones-72535-5 of Bones
+			properties
+				x	547
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-72535-6 of Skull
+			properties
+				x	20
+				y	256
+				loop	0
+			end
+			base described
+			end
+		end
+		object Skull-72535-7 of Skull
+			properties
+				x	536
+				y	302
+				loop	1
+			end
+			base described
+			end
+		end
+		object JawBone-72535-8 of JawBone
+			properties
+				x	288
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-72535-9 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72535-3
+			end
+			base described
+			end
+		end
+		object RandomShirt-72535-10 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72535-3
+			end
+			base described
+			end
+		end
+		object RandomPants-72535-11 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72535-3
+			end
+			base described
+			end
+		end
+		object skbNecromancyII-72535-12 of skbNecromancyII
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72535-3
+			end
+			base described
+			end
+		end
+		object RandomStuff-72535-13 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-72535-3
+			end
+			base described
+			end
+		end
+		object skbNecromancyIII-72535-14 of skbNecromancyIII
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	UndeadNecromancer-72535-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 72505
+	properties
+		template 30501
+		south 72504
+		east 72506
+		flags	0
+	end
+end
+room 72506
+	properties
+		template 30906
+		east 72527
+		west 72505
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-72506-0 of DungeonBackDoor
+			properties
+				x	178
+				y	231
+				loop	2
+				linkTo	DungeonBackDoor-72515-0
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+		object Sign-72506-1 of Sign
+			properties
+				x	299
+				y	246
+				loop	0
+			end
+			base described
+				text	"The Crypt"
+			end
+		end
+	end
+end
+room 72527
+	properties
+		template 30703
+		east 72528
+		west 72506
+		flags	0
+	end
+	objects
+		object CaveRat-72527-0 of CaveRat
+			properties
+				x	415
+				y	273
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-72527-1 of CaveRat
+			properties
+				x	236
+				y	261
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 72528
+	properties
+		template 30201
+		west 72527
+		flags	0
+	end
+	objects
+		object Sign-72528-0 of Sign
+			properties
+				x	272
+				y	251
+				loop	0
+			end
+			base described
+				text	"Bone Pit"
+			end
+		end
+		object DungeonBackDoor-72528-1 of DungeonBackDoor
+			properties
+				x	181
+				y	234
+				loop	2
+				linkTo	DungeonBackDoor-72531-0
+			end
+			base lockable
+				isLocked	1
+			end
+			base described
+			end
+		end
+	end
+end
+room 72504
+	properties
+		template 31008
+		south 72501
+		north 72505
+		flags	0
+	end
+end
+room 72508
+	properties
+		template 30101
+		east 72500
+		flags	0
+	end
+	objects
+		object DungeonBackUp-72508-0 of DungeonBackUp
+			properties
+				x	348
+				y	242
+				loop	0
+				linkTo	sarcophagusDoor4046-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-72508-1 of Sign
+			properties
+				x	446
+				y	237
+				loop	0
+			end
+			base described
+				text	"Turn Back!  Only the dead walk here!"
+			end
+		end
+	end
+end
+room 72500
+	properties
+		template 30906
+		east 72501
+		west 72508
+		flags	72
+	end
+	objects
+		object UndeadNecromancer-72500-0 of UndeadNecromancer
+			properties
+				x	363
+				y	266
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 72501
+	properties
+		template 31201
+		south 72502
+		west 72500
+		north 72504
+		flags	0
+	end
+	objects
+		object CaveRat-72501-0 of CaveRat
+			properties
+				x	493
+				y	282
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+		object Sign-72501-1 of Sign
+			properties
+				x	130
+				y	239
+				loop	0
+			end
+			base described
+				text	"Crypts - North.  Morgue - South."
+			end
+		end
+	end
+end
+room 72525
+	properties
+		template 30101
+		east 72526
+		flags	64
+	end
+	objects
+		object Skeleton-72525-0 of Skeleton
+			properties
+				x	280
+				y	268
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-72525-1 of DungeonBackDoor
+			properties
+				x	475
+				y	222
+				loop	2
+				linkTo	DungeonBackDoor-72507-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 72526
+	properties
+		template 30201
+		west 72525
+		flags	8
+	end
+	objects
+		object Skeleton-72526-0 of Skeleton
+			properties
+				x	122
+				y	256
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-72526-1 of UndeadNecromancer
+			properties
+				x	253
+				y	272
+				loop	1
+				color	84
+			end
+			base character
+				properName	"Naktos"
+				title	"the Necromancer"
+			end
+		end
+		object Torch-72526-2 of Torch
+			properties
+				x	182
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Chair-72526-3 of Chair
+			properties
+				x	190
+				y	249
+				loop	1
+			end
+			base described
+			end
+		end
+		object Lever-72526-4 of Lever
+			properties
+				x	470
+				y	284
+				loop	0
+			end
+			actions
+				vBeActivated unlock DungeonBackDoor-72506-0 
+				vBeDeactivated unlock DungeonBackDoor-72528-1 
+			end
+			base described
+			end
+		end
+		object skbNecromancyI-72526-5 of skbNecromancyI
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	UndeadNecromancer-72526-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 72502
+	properties
+		template 31003
+		south 72503
+		north 72501
+		flags	0
+	end
+end
+room 72503
+	properties
+		template 30803
+		east 72507
+		north 72502
+		flags	0
+	end
+end
+room 72507
+	properties
+		template 30201
+		west 72503
+		flags	0
+	end
+	objects
+		object Torch-72507-0 of Torch
+			properties
+				x	425
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object StoneBench-72507-1 of StoneBench
+			properties
+				x	85
+				y	256
+				loop	0
+			end
+			actions
+				vBeSatOn unlock DungeonBackDoor-72507-3 
+				vBeSatOn open DungeonBackDoor-72507-3 
+				vBeStoodUpOn close DungeonBackDoor-72507-3 
+			end
+			base described
+			end
+		end
+		object Sign-72507-2 of Sign
+			properties
+				x	277
+				y	248
+				loop	0
+			end
+			base described
+				text	"The Doctor is currently busy.  Please have a seat."
+			end
+		end
+		object DungeonBackDoor-72507-3 of DungeonBackDoor
+			properties
+				x	180
+				y	237
+				loop	2
+				linkTo	DungeonBackDoor-72525-1
+			end
+			base lockable
+				isLocked	1
+				unlockValue	-1
+			end
+			base described
+			end
+		end
+		object skbPsychology-72507-4 of skbPsychology
+			properties
+				x	342
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end

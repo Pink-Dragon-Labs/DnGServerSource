@@ -1,0 +1,19 @@
+quest  81000-01-425        # Ninosk, Look Your Best, Silverbrook, 6408
+
+name  "Elven Broach of Birch Leaves"
+type  fedex
+
+proposal  "Good, I'm glad somebody is looking for it. It came to me through a strange circumstance and I do not think it is a proper item for casual adornment.  If you will see that it is treated with respect, I will let you have it.  However, I will ask for a favor first.  Will you honor both requests?"
+
+declined  "Then it will stay with me."
+
+accepted  "That is satisfactory.  The favor I ask is that you fetch me an elven broach in the shape of birch leaves.  Seek in Caer Fandry." 
+
+reminder   "Seek an elven broach of birch leaves in Caer Fandry."
+
+completed  "Very satisfactory.  Take the Sash and treat it with honor and respect."
+
+getItem   qElvenBroach
+reward    qHeroSash 
+end
+

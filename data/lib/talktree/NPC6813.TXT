@@ -1,0 +1,29 @@
+id 6813
+
+banner "Welcome to the Sand and Roses Tavern. What is your wish?"
+
+topic "Tell me about Arimathor."
+        text "So you are curious. That is natural. Arimathor is an interesting place, and Arimatheans are interesting people."
+        text "Arimatheans are a reverent people; we've learned through the ages that certain things are inexplicable in earthly terms, and must simply be taken on faith."
+        text "That does not mean, however, that we share a faith; we do not. We have learned not what to believe, but rather the importance of having something in which one believes."
+end
+
+topic "Who are you?"
+        text "You are quite nosy. However, I will answer your questions. I am Ali-aqaba, and the Sand and Roses Tavern belongs to me."
+        text "It belonged to my father, but my brothers and I didn't think he was a good manager, so we took over. We were going to be equal partners, but unfortunately, my brothers didn't work out either."
+end      
+
+topic "Can I do something for you?"
+        text "Yes. You can stop badgering me with all of these personal questions. I'm too busy to trouble myself with you."
+end
+
+topic  "I'm seeking a Wasp Wing in good condition." q186:0 #q6610-01-300:0
+	quest 187 #6610-01-325
+	text  "You already came in here for it, friend."
+end
+
+topic  "I'm looking for a vial of Ascetos Desert sand." q55:0 #q6077-01-500:0
+	quest 56 #6077-01-525
+	text  "I gave you one, and that's enough."
+end
+

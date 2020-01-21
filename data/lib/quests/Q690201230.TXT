@@ -1,0 +1,16 @@
+quest 246 #6902-01-230   #Talu, Cloth and More, Monmouth, 6302 (formerly Eleni, House of Eleni, Guennor, 6506)
+
+name  "Gift to Geezer"
+type  fedex
+
+proposal "So old Geezer sent you to procure a warm coat.  That old fox, he's a sly one, and he likes nothing better than a good bargain.  I've got a coat that's a perfect size for him.  Furthermore, I have a soft spot in my heart for the old scamp.  I'll give you the coat.  You just deliver it and allow him to think he bamboozled us all.  It'll please him."  
+
+declined  "Just as you wish."
+
+accepted  "This is kind of you."
+
+reminder   "Return to old Geezer in Potions with the coat."
+
+reward  qGiftCoat
+end
+

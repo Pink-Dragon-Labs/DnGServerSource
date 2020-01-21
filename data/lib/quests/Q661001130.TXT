@@ -1,0 +1,14 @@
+quest  183 #6610-01-130        # Mattson, Certified Leechers, healer, Kurz, 8011
+
+name  "Completed Deal"
+type  fedex
+
+proposal  "Not much call for that, friend, but I do have a small supply.  I can let you have some for experiental purposes.  If you get any interesting results, let me know.  Deal?"  
+
+declined  "Fine with me."
+
+accepted  "Always glad to meet a fellow scientist."
+
+reward   qDinglebean 
+end
+

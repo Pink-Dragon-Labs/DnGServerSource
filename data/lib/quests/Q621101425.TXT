@@ -1,0 +1,19 @@
+quest  91 #6211-01-425        # Gnarl, Daemon's Delight tavern, Caer Fandry, 6604
+
+name  "Troll Sacred Stone"
+type  fedex
+
+proposal  "It's going to be a luck piece for me at any rate, because I don't hand it over until I get what I want, exactly what I want.  And what I want is a troll sacred stone.  That's my price.  Do you think you've enough spunk to find it?"
+
+declined  "Doesn't surprise me."
+
+accepted  "We'll see.  Look in Kurz."
+
+reminder   "Go to Kurz and find me a troll sacred stone."
+
+completed  "So you did it.  Here's the luck piece."
+
+getItem   qTrollStone
+reward   qLuckPiece 
+end
+

@@ -1,0 +1,28 @@
+id 5910
+
+banner "Greetings, Friend. My name is Inga. May I help you?"
+
+topic "Tell me about Asgard."
+        text "Asgard is the home of the most courageous of The Realm."
+	text "The god Finvarra blesses us and makes us strong."
+end	
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard of a town in the desert regions in which water constantly flows."
+	text "Is that not strange? Water in the middle of a desert."
+end      
+
+topic "Can I do anything for you?"
+        text "Thank you, but I have nothing for you to do. I may tomorrow, however."
+end
+
+topic  "I'm looking for a Hieroglyphic from Ancient Asgard" q326:0 #q8307-01-100:0
+	quest 327 #8307-01-125
+	text  "You have it, my friend."
+end
+
+topic  "Ghoud asked me to pick up his lunch." q281:0 #q8010-01-540:0
+	quest 282 #8010-01-545
+	text  "You have collected it.  Are you perhaps unwell, that you have forgotten?"
+end
+

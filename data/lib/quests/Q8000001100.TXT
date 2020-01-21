@@ -1,0 +1,19 @@
+quest  346 #80000-01-100      #Dag, Cave of Thieves, 80000
+
+name  "Magic Rock of Kurz"
+type  fedex
+
+proposal  "Look, pal, lock picking skills require dexterity and intelligence.  So if you don't have both, not just one or the other but both, do us a favor and don't even start.  OK?  So what'll it be?  Do you think you can handle it?
+
+declined  "Yeah.  Probably a good choice. See'ya around."
+
+accepted  "Let's hope you're right.  I hate to waste my time.  You'll need to find me a magic rock of Kurz, see.  Not that I think it's magic, 'cause I don't.  I want to examine it for myself, see?  So you've got to go get it."
+
+reminder   "You're supposed to be looking for a magic rock of Kurz.  So what's keepin' you here, pal?  Get going."
+
+completed  "Magic rock, huh?  We'll see about that.  Here's the book on the basics of lock picking.  You've got to study it, see.  Go somewhere private and study it."
+
+getItem   qMagicRock
+reward    skbLockpickingI
+end
+

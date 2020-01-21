@@ -1,0 +1,17 @@
+quest  356 #80000-01-425        # The Pig and Kettle, Asgard, 6900
+name  "A Driftwood Frame for Faldora"
+type  fedex
+
+proposal  "Blackbird feathers!  Do you know what you ask, I wonder?  No, I think not.  You ask for blackbird feathers, and blackbird feathers are what you want.  Just that and no more.  You are fortunate that I am perceptive.  If I thought you were asking for blackbird feathers for a foul ritual, I would throw you out.  As it is, I will assist you.  But I would ask a boon of you.  My mother, and her mother before her . . . why are you sniggering?  I see, "foul" ritual sounded like "fowl" ritual.  That is amusing.  The boon I ask of you is to journey to Wen for a driftwood frame.  I wish to use it with the likeness of my grandmother.  Will you do this?"
+
+declined  "Were you trying to mock me, stranger?"
+
+accepted  "Thank you."
+
+reminder   "Go to Wen for a driftwood frame."
+
+completed  "You have done well, very well.  I've packaged a selection of blackbird feathers for you."
+
+getItem   qDriftwoodFrame
+reward   qBlackbirdFeathers  
+end

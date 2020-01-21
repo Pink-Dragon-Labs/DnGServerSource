@@ -1,0 +1,44 @@
+id 5407
+
+banner "Greetings, Friend. I am Bikali. May I help you?"
+
+topic "Tell me about Silverbrook."
+        text "There's nothing much to tell, pal. It's populated by elves for the most part, though we tolerate other races."
+	text "I enjoy living here. It's nice and green, and there's plenty of game in the nearby forest."
+	text "There's good fishing, too, if you like that."  
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard that there is a town in The Realm which worships Luna."
+	text "Unfortunately for unsuspecting visitors, Luna requires blood sacrifices. That makes the town a very dangerous place."
+end      
+
+topic	"Do you have a limerick?"
+	text  "Pal, I've always got a limerick.  Here's my current favorite."
+	text  "A very young elfling called Emma"
+	text  "Was seized with a terrible tremma."
+	text  "She had swallowed a spider"
+	text  "Which spun webs inside her."
+	text  "Gadzooks, what an awful dilemma!"
+	text  "Hey, pal, if you don't like limericks, don't ask for one."
+end
+
+topic "Can I do anything for you?"
+        text "I've nothing today, pal, but try me again soon."
+end
+
+topic  "I'm looking for some rennet." q274:0 #q8010-01-430:0
+	quest 275 #8010-01-435
+	text  "I already gave you some."
+end
+
+topic  "I'm looking for fenibretta." q56:0 #q6077-01-525:0
+	quest 57 #6077-01-530
+	text  "You took all I had."
+end
+
+topic  "I'm hoping to find some fenibretta." q205:0 #q6807-01-525:0
+	quest  206 #6807-01-530
+	text  "You wiped me out when you were here before, pal."
+end
+

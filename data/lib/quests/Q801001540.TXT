@@ -1,0 +1,19 @@
+quest  281 #8010-01-540        # Ghoud, Asgard General Goods, Asgard, 6904
+
+name  "Ghoud's Lunch"
+type  fedex
+
+proposal  "Come in, come in.  Always glad to see a friendly face.  Cinnamon oil is one of my special items.  I try to have a regular supply of it, and I've got some now.  I'll even give it to you, if you'll be so good as to go for my lunch.  Would you do that?"
+
+declined  "Never mind.  I can always run over there myself."
+
+accepted  "Good, good.  Inga has it ready for me.
+
+reminder   "Run and get my lunch from Inga."
+
+completed  "Thank you very kindly.  Here's your cinnamon oil, friend."
+
+getItem   qGhoudLunch
+reward   qCinnamonOil 
+end
+

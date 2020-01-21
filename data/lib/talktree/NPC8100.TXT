@@ -1,0 +1,50 @@
+id 8100
+
+banner "You've entered Excellent Weaponry of Usk. I'm Monji, the owner."
+
+topic "Tell me about Usk."
+        text "Generally Usk has standards--we won't speak to those below a certain standard."
+	text "But since you're a customer, I'll make an exception this time."
+	text "There I go again.  I get a headache and then I get crabby.  Didn't mean to take it out on you. Apologies and all that."
+	text "To answer your question seriously, Usk is a good town.  It's my home town.  I used to travel in my youth, but I came back here to settle down."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Have you heard of the aurora incantata? I was told that at times if you look at the sky over Usk, a light will pass overhead which will shower you with the power of enchantment."
+        text "I don't believe it.  At least it never happened to me."
+	text "But it's a good rumor, as rumors go, isn't it?"
+end      
+
+topic "Can I do anything for you?"
+        text "I've got half a mind to take you up on that offer."
+	text "But I won't, since I can't spare half a mind."
+	text "Heh Heh"
+end
+
+topic  "Do you recognize this broken Amulet?" q322:1 #q8111-01-530:1  
+	quest 323 #8111-01-535
+	text  "I already told you about it." 
+end
+
+topic  "I want to learn the ways of war." c6:5
+	banner  "You've come to the right place if skills in the mace interest you.  I'll only take on apprentices who've completed the expert level of skill, though. I just teach master and grand-master skills in the mace." 
+
+	topic  "How do I get to be an expert?" c6:3
+		text  "Buy the skill books and practice.  Find a book store selling them.  Learning Emporium here in Usk has them."
+	end
+
+	topic  "I'm interested in mace master skills."  s6:3  
+		quest 396 #8100-01-400
+		text "That skill book you've got won't do you any good unless you study it."
+	end
+
+	topic  "I'm interested in mace grand-master skills."  s6:4  
+		quest 402 #8100-01-500
+		text "It's not enough to have the skill book, you've got to study it to gain the skills."
+	end
+
+	topic  "What else can I learn from you?"  s6:5
+		text  "Just mace.  But if you're interested in the maul as well, go talk to Siei in Murias.  One of the best, she is, but you wouldn't know it to look at her."
+		text  "You better finish learning the mace before you talk about other skills."
+	end
+end

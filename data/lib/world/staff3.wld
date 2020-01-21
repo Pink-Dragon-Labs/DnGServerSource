@@ -1,0 +1,1686 @@
+room 1050
+   properties
+      picture	4000
+      north	1051 335 318 
+      south	1053 
+      east	1052 30 256 
+      west	1054 590 256 
+      roomName	"Norseman Square"
+   end
+   atpinfo
+      2997  55 206 -20
+      2997  313 199 -20
+      2997  100 188 -20
+      2997  222 169 -20
+      2711  56 150
+      2339  464 140
+      21  636 225 -10
+      32789  108 147
+      32791  519 104
+      21  639 125
+      32789  544 98
+      32789  27 108
+      2997  379 227 -20
+      21  409 279 -10
+      63  496 161 -10
+      23  351 107
+      22  224 113
+      35765  222 230 -25
+      63  243 259
+      2340  72 140
+      2997  611 191 -20
+      21  192 196 -10
+      21  471 192 -10
+      35078  418 187
+      2340  580 129
+      2340  502 129
+      63  554 168 -10
+      35078  176 182
+      32790  253 231 -10
+      22  471 216 -10
+      2358  562 140 30
+      35765  212 139 -20
+      2997  240 190 -20
+      22  29 196 -10
+      32790  -31 146
+      21  486 125
+      2359  562 140 20
+      21  90 262
+      2956  224 216
+      32791  75 235
+      22  274 168
+      2997  18 200 -20
+      43  11 147
+      63  326 260
+      2997  197 177 -20
+      2338  129 137
+      2997  278 155 -20
+      2358  60 141 30
+      22  639 172
+      2340  -15 140
+      21  281 121 -10
+      63  439 156 -5
+      63  278 270
+      2997  307 177 -20
+      63  590 175 -10
+      35765  351 191 -20
+      35765  372 183 -20
+      2358  60 141 70
+      21  316 198 -10
+      21  598 156
+      2956  384 215
+      63  625 183 -10
+      63  517 163 -10
+      2997  642 204 -20
+      22  421 177 -10
+      21  625 202 -10
+      22  490 160
+      2997  365 163 -20
+      2997  458 165 -20
+      63  606 188
+      2997  382 145 -20
+      2997  171 202 -20
+      32790  387 242 -10
+      35765  247 216 -20
+      23  561 274
+      2997  328 126 -20
+      32790  205 276
+      21  544 251 -10
+      63  574 171 -10
+      63  79 180
+      63  97 176
+      63  306 252
+      63  57 179 -5
+      63  294 273
+      63  255 266
+      63  137 170
+      2381  296 119 -30
+      63  455 159 -5
+      63  197 135
+      63  535 174
+      63  475 158 -10
+      2997  372 245 -20
+      2358  60 141 50
+      63  8 189
+      63  329 267
+      63  29 187
+      63  157 164
+      63  118 170 -5
+      2358  562 140 50
+      2360  562 140 90
+      63  268 254
+      2997  502 199 -20
+      63  314 272
+      2359  60 141 20
+      2997  554 176 -20
+      2997  517 191 -20
+      21  109 71 -10
+      21  61 64 -10
+      2711  571 148
+      2360  60 141 90
+      43  205 147 10
+      43  372 146 10
+      2711  101 150
+      2711  15 150
+      2711  142 150
+      2711  609 146
+      2711  510 149
+      2711  466 148
+      2358  562 142 72
+      43  613 144
+      43  494 145
+      43  115 147
+      7900  105 153
+      7900  475 151
+      7908  633 151
+      3  241 122
+      3  347 121
+      3  241 98
+      3  241 74
+      3  241 51
+      3  241 27
+      3  241 5
+      3  347 97
+      3  347 75
+      3  347 51
+      3  347 28
+      3  347 8
+      3  241 137
+      3  240 142
+      3  347 134
+      3  347 144
+   end
+   objects
+      object fountain1050-0 of Fountain
+         properties
+            x	292
+            y	265
+            loop	0
+         end
+      end
+   end
+end
+room 1051
+   properties
+      picture	4000
+      south	1050 292 165 
+      roomName	"Gateway Hall"
+   end
+   atpinfo
+      2340  527 157 -20
+      2340  33 157 -20
+      2339  694 172 -20
+      2390  250 238 200
+      2392  -1 171 120
+      2395  350 238 200
+      2391  649 198 145
+      2340  131 157 -20
+      2338  -54 170 -20
+      2395  150 238 200
+      2350  108 364
+      2340  622 157 -20
+      2390  99 238 200
+      2390  544 238 200
+      2340  225 157 -20
+      2340  324 157 -20
+      2340  426 157 -20
+      2390  446 238 200
+      2395  534 238 200
+   end
+   objects
+      object doorway1051-0 of Doorway
+         properties
+            x	115
+            y	183
+            loop	2
+            linkTo	doorway1055-0
+         end
+         base described
+            text	"To Prophet's Hall. PRIVATE! Prophets only!"
+         end
+      end
+      object doorway1051-1 of Doorway
+         properties
+            x	218
+            y	183
+            loop	2
+            linkTo	doorway1056-0
+         end
+         base described
+            text	"To Sentinel's Hall. PRIVATE! Sentinels only!"
+         end
+      end
+      object doorway1051-2 of Doorway
+         properties
+            x	315
+            y	183
+            loop	2
+            linkTo	doorway1057-0
+         end
+         base described
+            text	"To Implementor's Hall. PRIVATE! Implementors only!"
+         end
+      end
+      object doorway1051-3 of Doorway
+         properties
+            x	415
+            y	183
+            loop	2
+            linkTo	doorway1058-0
+         end
+         base described
+            text	"To Mentor's Hall. PRIVATE! Mentors only!"
+         end
+      end
+      object doorway1051-4 of Doorway
+         properties
+            x	517
+            y	183
+            loop	2
+            linkTo	doorway1059-0
+         end
+         base described
+            text	"To Event Host's Hall. PRIVATE! Event Hosts only!"
+         end
+      end
+   end
+end
+room 1052
+   properties
+      picture	3000
+      west	1050 590 256 
+      roomName	"East Commons"
+   end
+   atpinfo
+      175  679 102
+      2997  154 271 -20
+      104  179 149
+      32978  102 129
+      32789  443 261
+      63  628 240
+      104  163 195
+      20  465 245
+      32969  166 182
+      212  25 128
+      115  147 148
+      104  121 194
+      121  30 251
+      127  573 223
+      165  -49 126
+      32788  617 265
+      168  537 139
+      62  13 258
+      63  12 268
+      115  146 195
+      32789  341 276
+      32789  442 240
+      61  135 130
+      21  629 264
+      32788  482 271
+      32883  227 147
+      32880  34 268
+      200  19 325
+      176  146 103
+      115  380 319
+      32880  51 159
+      114  510 172
+      20  317 264
+      165  70 112
+      43  541 142
+      43  526 229
+      43  498 171
+      127  608 180
+      20  384 246
+      32788  551 250
+      183  570 233
+      32978  170 128
+      107  595 230
+      35765  23 278 -20
+      63  505 178
+      205  362 104
+      172  382 101
+      247  322 121
+      212  235 127
+      104  232 129
+      63  274 131
+      7900  130 160
+      7900  492 160
+      7900  328 160
+      104  142 189
+   end
+   objects
+      object movingRock1052-0 of MovingRock
+         properties
+            x	145
+            y	192
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object stoneBench1052-1 of StoneBench
+         properties
+            x	601
+            y	286
+            loop	1
+         end
+      end
+      object stoneBench1052-2 of StoneBench
+         properties
+            x	336
+            y	282
+            loop	0
+         end
+      end
+      object stoneBench1052-3 of StoneBench
+         properties
+            x	405
+            y	266
+            loop	2
+         end
+      end
+      object stoneBench1052-4 of StoneBench
+         properties
+            x	552
+            y	266
+            loop	2
+         end
+      end
+      object embers1052-5 of Embers
+         properties
+            x	484
+            y	298
+            loop	0
+         end
+      end
+      object stoneBench1052-6 of StoneBench
+         properties
+            x	478
+            y	263
+            loop	2
+         end
+      end
+      object fireA1052-7 of FireA
+         properties
+            x	476
+            y	290
+            loop	0
+         end
+         base described
+            text	"For roasting marshmellows, not players."
+         end
+      end
+   end
+end
+room 1054
+   properties
+      picture	3000
+      east	1050 30 256 
+      roomName	"West Commons"
+   end
+   atpinfo
+      111  116 117
+      35485  37 127 -20
+      183  427 135
+      49  6 118 20
+      1305  167 108
+      35485  82 115
+      2714  146 212 100
+      2714  178 201 100
+      22  119 94
+      32790  -13 122 -10
+      171  676 76
+      2954  35 112
+      2954  63 116
+      7900  9 130
+      183  622 151
+      2714  40 210 100
+      32790  9 101
+      32790  36 121
+      171  407 88
+      63  317 272
+      64  185 283
+      204  426 128 -8
+      21  136 111 -10
+      21  111 114 -20
+      211  631 113
+      63  325 289
+      63  227 288
+      63  259 294
+      63  275 291
+      63  275 268
+      32832  322 269
+      64  195 278
+      32832  372 287
+      64  224 291
+      32832  300 267
+      64  255 266
+      183  409 282
+      1303  186 104
+      1304  589 112
+      1305  423 110
+      1306  442 92
+      210  228 106
+      211  307 107
+      212  386 108
+      213  523 111
+      212  469 109
+      211  586 112
+      113  135 155
+      114  180 126
+      112  121 138
+      183  17 152
+      211  153 105
+      211  63 112
+      211  -3 111
+      197  363 92
+      32965  202 87 5
+      197  332 88
+      7900  511 136
+      7900  258 136
+      1305  608 112
+      183  160 286
+      64  233 265
+      64  279 290
+      63  234 272
+      32832  362 279
+      63  303 294
+      20  83 149
+      35485  380 118
+      35485  297 118
+      35485  205 114
+      35485  475 118
+      35485  569 119
+      35485  639 118
+      183  136 303
+      183  429 307
+      183  384 265
+      183  178 265
+      183  244 247
+      183  311 247
+      183  206 314
+      112  231 303
+      112  353 302
+      115  241 296
+      183  45 202
+      183  311 156
+      32883  310 296
+      183  353 314
+   end
+   objects
+      object stoneBench1054-0 of StoneBench
+         properties
+            x	416
+            y	303
+            loop	1
+         end
+      end
+      object fountain1054-1 of Fountain
+         properties
+            x	277
+            y	287
+            loop	0
+         end
+      end
+      object stoneBench1054-2 of StoneBench
+         properties
+            x	384
+            y	262
+            loop	2
+         end
+      end
+      object stoneBench1054-3 of StoneBench
+         properties
+            x	318
+            y	245
+            loop	2
+         end
+      end
+      object stoneBench1054-4 of StoneBench
+         properties
+            x	243
+            y	245
+            loop	2
+         end
+      end
+      object stoneBench1054-5 of StoneBench
+         properties
+            x	144
+            y	300
+            loop	0
+         end
+      end
+      object stoneBench1054-6 of StoneBench
+         properties
+            x	175
+            y	262
+            loop	2
+         end
+      end
+      object hollowTree1054-7 of HollowTree
+         properties
+            x	85
+            y	141
+            loop	0
+            linkTo	hollowTree1062-0
+         end
+         base openable
+            isOpen	1
+         end
+         base described
+            text	"You see a grand oak leading up into the clouds! Climb it and take a look around."
+         end
+      end
+   end
+end
+room 1055
+   properties
+      picture	4000
+      roomName	"Prophet's Hall"
+   end
+   atpinfo
+      2358  487 169 30
+      2340  495 146 -20
+      2390  146 157 130
+      2340  386 146 -20
+      2105  407 210
+      2358  244 170 50
+      2340  301 147 -20
+      2391  601 183
+      2359  244 164 15
+      2350  108 364
+      2104  596 189 -20
+      2358  487 170 50
+      2358  487 170 70
+      2355  617 166 31
+      2358  149 170 70
+      2358  149 170 50
+      2359  149 160 12
+      2340  83 147 -20
+      2340  192 147 -20
+      2358  244 170 70
+      2145  561 203 50
+      2358  384 170 50
+      2338  -1 162 -20
+      2390  180 157 130
+      2359  384 164 15
+      2103  489 222
+      2392  54 183 144
+      2390  383 157 130
+      2358  384 169 30
+      2358  244 169 30
+      2390  492 157 130
+      2358  149 169 30
+      2354  617 180 72
+      2354  617 179 52
+      2358  384 170 70
+      2391  596 185 145
+      2390  283 157 130
+      2599  155 239
+      2359  487 160 12
+      2339  646 159 -20
+      2361  149 160 80
+      2361  244 160 80
+      2361  384 160 80
+      2361  487 160 80
+      2390  152 170
+      2390  303 170
+      2392  54 183
+      2357  617 170 80
+      2395  234 170
+      7900  500 181
+      7908  246 178
+      7908  174 178
+      32782  -14 209
+      14  704 210
+      3  141 166
+      3  547 166
+      3  265 166
+      3  205 167
+      3  580 216
+      3  603 216
+      3  627 216
+      3  558 216
+   end
+   objects
+      object doorway1055-0 of Doorway
+         properties
+            x	315
+            y	176
+            loop	2
+         end
+         base described
+            text	"To the Common Hall."
+         end
+      end
+      object clothesShop1055-1 of ClothesShop
+         properties
+            x	488
+            y	204
+            loop	2
+            name	"Amanda"
+         end
+         base talk
+            talkTreeID	1060
+         end
+         base character
+            sex	1
+            properName	"Amanda (NPC)"
+         end
+         base described
+            #acceptText	"The current total of souls released is:\n\nDespothes %d\nDuach %d\nEnid %d"
+         end
+         base container
+            worn	WhiteShirt
+            worn	BlackBelt
+            worn	GrayPants
+            worn	BrownBoots
+            head	1 0 5 6 0 1 -1 2 10 14 9 2 
+         end
+      end
+      object chair1055-2 of Chair
+         properties
+            x	83
+            y	224
+            loop	0
+         end
+      end
+      object chair1055-3 of Chair
+         properties
+            x	226
+            y	223
+            loop	1
+         end
+      end
+      object chair1055-4 of Chair
+         properties
+            x	130
+            y	218
+            loop	2
+         end
+      end
+      object chair1055-5 of Chair
+         properties
+            x	185
+            y	217
+            loop	2
+         end
+      end
+      object firePlace1055-6 of FirePlace
+         properties
+            x	0
+            y	189
+            loop	1
+         end
+      end
+      object torch1055-7 of Torch
+         properties
+            x	193
+            y	169
+            loop	0
+         end
+      end
+      object torch1055-8 of Torch
+         properties
+            x	434
+            y	173
+            loop	0
+         end
+      end
+   end
+end
+room 1056
+   properties
+      picture	4000
+      roomName	"Sentinel's Hall"
+   end
+   atpinfo
+      2241  0 231
+      2340  490 147 -20
+      2390  146 157 130
+      2360  244 151 80
+      2383  584 160 -20
+      2358  244 157 50
+      2340  291 147 -20
+      2598  148 305
+      2359  244 149 15
+      2350  108 364
+      2104  183 205
+      2358  487 157 50
+      2358  487 158 70
+      2355  618 180 31
+      2358  149 157 70
+      2598  495 250
+      2387  4 169 -20
+      2340  83 147 -20
+      2340  192 147 -20
+      2384  56 161 -20
+      2388  236 153 -19
+      2358  391 156 50
+      2338  -3 151 -20
+      2390  180 157 130
+      2360  391 149 80
+      3  151 206
+      2392  51 184 144
+      2390  383 157 130
+      2358  391 156 30
+      2358  244 156 30
+      2390  492 157 130
+      2386  639 168 -20
+      2354  618 173 72
+      2354  618 172 52
+      2358  391 158 70
+      2391  596 186 145
+      2390  283 157 130
+      2354  618 173 33
+      2359  487 148 12
+      2339  641 151 -20
+      2385  489 149 -20
+      2358  487 156 30
+      2385  153 149 -20
+      2340  386 146 -20
+      2388  401 150 -19
+      2359  392 151 15
+      2360  149 148 80
+      2358  244 158 70
+      2110  40 158 60
+      2145  7 163 80
+      2103  74 213
+      2359  149 148 12
+      2358  149 156 30
+      2358  149 156 50
+      2360  487 149 80
+      2356  618 162 80
+      7901  60 216
+      7900  494 174
+      14  682 206
+      32782  125 215
+      3  308 165
+      3  536 167
+   end
+   objects
+      object doorway1056-0 of Doorway
+         properties
+            x	315
+            y	183
+            loop	2
+         end
+         base described
+            text	"To the Common Hall."
+         end
+      end
+#      object clothesShop1056-1 of GMShop
+#         properties
+#            x	97
+#            y	202
+#            loop	2
+#            name	"Scottie"
+#         end
+#         base talk
+#            talkTreeID	1054
+#         end
+#         base character
+#            sex	0
+#            properName	"Scottie (NPC)"
+#         end
+#         base container
+#            worn	YellowTunic
+#            worn	BlackBelt
+#            worn	GrayPants
+#            worn	BrownBoots
+#            head	0 2 0 5 2 6 -1 13 10 3 0 2
+#         end
+#      end
+      object chair1054-2 of Chair
+         properties
+            x	47
+            y	296
+            loop	0
+         end
+      end
+      object chair1054-3 of Chair
+         properties
+            x	402
+            y	226
+            loop	0
+         end
+      end
+      object chair1054-4 of Chair
+         properties
+            x	236
+            y	293
+            loop	1
+         end
+      end
+      object chair1054-5 of Chair
+         properties
+            x	587
+            y	229
+            loop	1
+         end
+      end
+      object chair1054-6 of Chair
+         properties
+            x	120
+            y	275
+            loop	2
+         end
+      end
+      object chair1054-7 of Chair
+         properties
+            x	166
+            y	274
+            loop	2
+         end
+      end
+      object chair1054-8 of Chair
+         properties
+            x	465
+            y	216
+            loop	2
+         end
+      end
+      object chair1054-9 of Chair
+         properties
+            x	513
+            y	216
+            loop	2
+         end
+      end
+   end
+end
+room 1057
+   properties
+      picture	4000
+      roomName	"Implementor's Hall"
+   end
+   atpinfo
+      2269  220 184 20
+      7900  266 194
+      2340  482 156 -20
+      2390  135 238 200
+      2151  105 322 50
+      2391  391 170 -10
+      34897  83 323
+      2262  368 181
+      7900  471 195
+      2125  70 324 50
+      2350  108 364
+      2279  256 188 20
+      2358  495 187 50
+      2358  495 187 70
+      2133  132 323 50
+      14  694 219
+      2111  600 173 80
+      2299  333 183 20
+      2340  277 172
+      2340  131 157 -20
+      2262  257 181
+      2392  241 168 -10
+      2262  296 181
+      2340  33 157 -20
+      2390  488 179
+      2361  495 198 100
+      2391  392 156 120
+      2289  406 186 20
+      2390  282 181 150
+      2309  370 185 20
+      2128  39 308 50
+      2390  489 167 130
+      2392  240 157 120
+      2134  124 315 50
+      2339  433 125 -50
+      2262  220 181
+      2391  592 195 145
+      2390  50 238 200
+      2132  69 323 50
+      2359  495 180 15
+      2339  637 172 -20
+      2262  331 181
+      2358  495 186 30
+      2262  403 181
+      2340  341 172
+      2390  347 181 150
+      2598  77 307 -20
+      7901  -49 195
+      34918  26 323 50
+      2251  536 198 80
+      34913  632 178 100
+      2338  187 156 -20
+      2598  470 286
+      2259  297 186 20
+   end
+   objects
+      object doorway1057-0 of Doorway
+         properties
+            x	87
+            y	186
+            loop	2
+         end
+         base described
+            text	"To the Common Hall."
+         end
+      end
+      object chair1057-1 of Chair
+         properties
+            x	379
+            y	266
+            loop	0
+         end
+      end
+      object chair1057-2 of Chair
+         properties
+            x	558
+            y	268
+            loop	1
+         end
+      end
+      object chair1057-3 of Chair
+         properties
+            x	444
+            y	255
+            loop	2
+         end
+      end
+      object chair1057-4 of Chair
+         properties
+            x	489
+            y	255
+            loop	2
+         end
+      end
+      object firePlace1057-5 of FirePlace
+         properties
+            x	638
+            y	196
+            loop	0
+         end
+      end
+      object torch1057-6 of Torch
+         properties
+            x	454
+            y	183
+            loop	0
+         end
+      end
+      object torch1057-7 of Torch
+         properties
+            x	173
+            y	183
+            loop	1
+         end
+      end
+#     object lever1057-8 of Lever
+#        properties
+#            x	327
+#            y	226
+#            loop	0
+#         end
+#         base described
+#            text "Lever to Lock/Unlock Farmer's Market Entry Door in 8115. Activate to Unlock. Deactivate to Lock."
+#         end
+#         actions
+#            vBeActivated unlock door7103-1
+#            vBeDeactivated close door7103-1
+#            vBeDeactivated lock door7103-1
+#         end
+#      end
+   end
+end
+room 1058
+   properties
+      picture	4000
+      roomName	"Mentor's Hall"
+   end
+   atpinfo
+      2241  4 218
+      2340  490 147 -20
+      2390  146 157 130
+      2359  149 148 12
+      2102  532 228
+      2390  491 174
+      2340  291 147 -20
+      3  141 186
+      2390  229 174
+      2350  108 364
+      2350  16 163 30
+      2358  487 157 50
+      2358  487 158 70
+      2355  618 180 31
+      2358  149 157 70
+      2598  138 289
+      2360  487 149 80
+      2340  83 147 -20
+      2340  192 147 -20
+      2358  149 156 50
+      7901  442 185
+      2352  16 162 80
+      2338  -3 151 -20
+      2390  180 157 130
+      2350  16 166 50
+      7900  145 185
+      2392  51 184 144
+      2390  383 157 130
+      2390  173 174
+      2391  596 186
+      2390  492 157 130
+      3  494 180
+      2354  618 173 72
+      2354  618 172 52
+      2350  16 169 70
+      2391  596 186 145
+      2390  283 157 130
+      2354  618 173 33
+      2359  487 148 12
+      2339  641 151 -20
+      32782  -8 225
+      2358  487 156 30
+      2356  618 162 80
+      2340  386 147 -20
+      14  643 219
+      2390  404 174
+      2360  149 148 80
+      2358  149 156 30
+      2392  52 186
+      2390  149 174
+      2351  16 156 12
+      2106  611 247
+   end
+   objects
+      object doorway1058-0 of Doorway
+         properties
+            x	315
+            y	179
+            loop	2
+         end
+         base described
+            text	"To the Common Hall."
+         end
+      end
+#      object clothesShop1058-1 of GMShop
+#         properties
+#            x	312
+#            y	190
+#            loop	2
+#            name	"Scottie"
+#         end
+#         base talk
+#            talkTreeID	1058
+#         end
+#         base character
+#            sex	0
+#            properName	"Scottie (NPC)"
+#         end
+#         base container
+#            worn	YellowTunic
+#            worn	BlackBelt
+#            worn	GrayPants
+#            worn	BrownBoots
+#            head	0 2 0 5 2 6 -1 13 10 3 0 2
+#         end
+#      end
+      object chair1058-2 of Chair
+         properties
+            x	38
+            y	275
+            loop	0
+         end
+      end
+      object chair1058-3 of Chair
+         properties
+            x	235
+            y	275
+            loop	1
+         end
+      end
+      object chair1058-4 of Chair
+         properties
+            x	99
+            y	259
+            loop	2
+         end
+      end
+      object chair1058-5 of Chair
+         properties
+            x	141
+            y	259
+            loop	2
+         end
+      end
+      object torch1058-6 of Torch
+         properties
+            x	240
+            y	176
+            loop	0
+         end
+      end
+      object torch1058-7 of Torch
+         properties
+            x	387
+            y	176
+            loop	0
+         end
+      end
+      object chair1058-8 of Chair
+         properties
+            x	177
+            y	259
+            loop	2
+         end
+      end
+   end
+end
+room 1060
+   properties
+      picture	3071
+      roomName	"Training Chamber"
+   end
+   atpinfo
+      7903  183 324
+      7903  506 321
+      7903  689 308
+      7903  17 323
+      7903  -52 307
+      14  596 227
+      14  659 243
+      14  526 213
+      32782  -19 243
+      32782  114 213
+   end
+   objects
+      object fatColumn1060-0 of FatColumn
+         properties
+            x	46
+            y	228
+            loop	0
+         end
+      end
+      object fatColumn1060-1 of FatColumn
+         properties
+            x	584
+            y	223
+            loop	0
+         end
+      end
+      object fatColumn1060-2 of FatColumn
+         properties
+            x	133
+            y	206
+            loop	0
+         end
+      end
+      object fatColumn1060-3 of FatColumn
+         properties
+            x	497
+            y	205
+            loop	0
+         end
+      end
+      object fatColumn1060-4 of FatColumn
+         properties
+            x	249
+            y	192
+            loop	0
+         end
+      end
+      object fatColumn1060-5 of FatColumn
+         properties
+            x	399
+            y	192
+            loop	0
+         end
+      end
+      object enidBackArch1060-6 of EnidBackArch
+         properties
+            x	318
+            y	198
+            loop	0
+            linkTo	movingRock1052-0
+         end
+      end
+      object torch1060-7 of Torch
+         properties
+            x	240
+            y	200
+            loop	1
+         end
+      end
+      object torch1060-8 of Torch
+         properties
+            x	401
+            y	199
+            loop	0
+         end
+      end
+      object torch1060-9 of Torch
+         properties
+            x	48
+            y	231
+            loop	0
+         end
+      end
+      object torch1060-10 of Torch
+         properties
+            x	588
+            y	225
+            loop	1
+         end
+      end
+      object stoneBench1060-11 of StoneBench
+         properties
+            x	36
+            y	260
+            loop	2
+         end
+      end
+      object stoneBench1060-12 of StoneBench
+         properties
+            x	105
+            y	244
+            loop	2
+         end
+      end
+      object stoneBench1060-13 of StoneBench
+         properties
+            x	172
+            y	231
+            loop	2
+         end
+      end
+      object stoneBench1060-14 of StoneBench
+         properties
+            x	237
+            y	220
+            loop	2
+         end
+      end
+      object stoneBench1060-15 of StoneBench
+         properties
+            x	604
+            y	258
+            loop	2
+         end
+      end
+      object stoneBench1060-16 of StoneBench
+         properties
+            x	538
+            y	244
+            loop	2
+         end
+      end
+      object stoneBench1060-17 of StoneBench
+         properties
+            x	472
+            y	229
+            loop	2
+         end
+      end
+      object stoneBench1060-18 of StoneBench
+         properties
+            x	407
+            y	215
+            loop	2
+         end
+      end
+      object lavaC1060-19 of LavaC
+         properties
+            x	155
+            y	319
+            loop	0
+         end
+      end
+      object lavaD1060-20 of LavaD
+         properties
+            x	45
+            y	319
+            loop	0
+         end
+      end
+      object lavaD1060-21 of LavaD
+         properties
+            x	593
+            y	319
+            loop	1
+         end
+      end
+      object lavaC1060-22 of LavaC
+         properties
+            x	485
+            y	320
+            loop	0
+         end
+      end
+      object lavaD1060-23 of LavaD
+         properties
+            x	247
+            y	340
+            loop	0
+         end
+      end
+      object lavaD1060-24 of LavaD
+         properties
+            x	404
+            y	343
+            loop	1
+         end
+      end
+      object altar1060-25 of Altar
+         properties
+            x	325
+            y	309
+            loop	0
+         end
+      end
+      object skull1060-26 of Skull
+         properties
+            x	310
+            y	316
+            loop	0
+         end
+      end
+      object skull1060-27 of Skull
+         properties
+            x	345
+            y	316
+            loop	1
+         end
+      end
+      object greenCrystalA1060-28 of GreenCrystalA
+         properties
+            x	325
+            y	312
+            loop	0
+         end
+      end
+   end
+end
+room 1061
+   properties
+      picture	3000
+      north	1053 335 318 
+      roomName	"Lake Gratitude"
+   end
+   atpinfo
+      952  282 102
+      951  593 102
+      951  93 102
+      951  93 174
+      951  593 174
+      952  406 213
+      952  405 175
+      951  93 248
+      951  513 244
+      952  282 175
+      952  279 213
+      952  408 102
+      952  411 136
+      952  282 143
+      952  338 255
+      952  254 255
+      952  328 297
+      952  264 293
+   end
+end
+room 1062
+   properties
+      picture	3000
+      roomName	"Cloud Nine"
+   end
+   atpinfo
+      94  334 2 -100
+      240  347 312 30
+      240  550 228 20
+      240  285 279 20
+      240  573 317 20
+      240  346 251 20
+      240  387 331 20
+      240  368 281 20
+      240  615 287 20
+      240  433 275 20
+      240  410 309 20
+      240  389 205 20
+      240  208 323 20
+      7900  512 212
+      241  364 239
+      240  402 206
+      2714  216 230
+      243  356 52
+      244  417 196
+      240  504 252 20
+      246  176 116
+      240  117 528 250
+      240  537 262 20
+      241  452 283
+      141  201 164
+      141  311 163
+      141  286 163
+      141  318 161
+      141  372 159
+      141  233 163
+      141  393 162
+      142  393 172
+      142  406 168
+      21  424 166
+      21  356 165
+      21  280 165
+      21  206 166
+      34074  382 199
+      1307  360 122
+      1304  56 183
+      1306  73 203
+      34074  272 204
+      240  588 205
+      7900  -25 211
+      1306  597 196
+      21  554 135
+      21  509 136
+      21  446 138
+      21  468 147
+      240  548 118 20
+      240  237 50 20
+      243  523 75
+      21  345 138
+      21  281 139
+      21  216 139
+      21  173 145
+      21  144 138
+      240  573 200 20
+      32965  62 143
+      141  239 179
+      141  536 145
+      141  596 142
+      240  16 318 20
+      240  317 87
+      240  498 276 20
+      240  445 273 20
+      240  345 275 20
+      240  97 236 20
+      2713  274 98
+      2714  183 135
+      33008  85 87 20
+      1306  674 191
+      1306  42 138
+      240  175 220 20
+      2714  253 179
+      2714  192 426 200
+      2714  116 393 200
+      34075  -32 130 -10
+      2714  109 309 200
+      2714  45 345 200
+      2714  65 429 150
+      2714  144 484 200
+      7900  239 211
+      1303  535 145
+      1303  366 150
+      1303  190 128 -20
+      1305  407 142
+      1307  464 137
+      1307  169 123 -10
+      240  85 505 250
+      141  201 154
+      141  227 153
+      141  256 161
+      141  419 161
+      141  408 157
+      141  431 171
+      141  593 146
+      141  518 162
+      141  492 166
+      141  463 167
+      141  445 165
+      141  297 157
+      141  318 188
+      141  308 178
+      141  264 179
+      141  136 148
+      141  245 187
+      141  152 141
+      141  276 183
+      141  195 191
+      141  269 156
+      141  175 163
+      141  194 163
+      141  173 178
+      142  280 173
+      142  214 183
+      142  513 150
+   end
+   objects
+      object hollowTree1062-0 of HollowTree
+         properties
+            x	82
+            y	306
+            loop	0
+         end
+         base openable
+            isOpen	1
+         end
+         base described
+            text	"You see the canopy of a grand oak reaching through the clouds!"
+         end
+      end
+   end
+end
+room 1059
+   properties
+      picture	4000
+      roomName	"Event Hosts' Hall"
+   end
+   atpinfo
+      2358  487 169 30
+      2340  495 146 -20
+      2390  146 157 130
+      2340  386 146 -20
+      2105  407 210
+      2358  244 170 50
+      2340  301 147 -20
+      2391  601 183
+      2359  244 164 15
+      2350  108 364
+      2104  596 189 -20
+      2358  487 170 50
+      2358  487 170 70
+      2355  617 166 31
+      2358  149 170 70
+      2358  149 170 50
+      2359  149 160 12
+      2340  83 147 -20
+      2340  192 147 -20
+      2358  244 170 70
+      2145  561 203 50
+      2358  384 170 50
+      2338  -1 162 -20
+      2390  180 157 130
+      2359  384 164 15
+      2103  489 222
+      2392  54 183 144
+      2390  383 157 130
+      2358  384 169 30
+      2358  244 169 30
+      2390  492 157 130
+      2358  149 169 30
+      2354  617 180 72
+      2354  617 179 52
+      2358  384 170 70
+      2391  596 185 145
+      2390  283 157 130
+      2599  155 239
+      2359  487 160 12
+      2339  646 159 -20
+      2361  149 160 80
+      2361  244 160 80
+      2361  384 160 80
+      2361  487 160 80
+      2390  152 170
+      2390  303 170
+      2392  54 183
+      2357  617 170 80
+      2395  234 170
+      7900  500 181
+      7908  246 178
+      7908  174 178
+      32782  -14 209
+      14  704 210
+      3  141 166
+      3  547 166
+      3  265 166
+      3  205 167
+      3  580 216
+      3  603 216
+      3  627 216
+      3  558 216
+   end
+   objects
+      object doorway1059-0 of Doorway
+         properties
+            x	315
+            y	176
+            loop	2
+         end
+      end
+      object clothesShop1059-1 of ClothesShop
+         properties
+            x	488
+            y	204
+            loop	2
+         end
+      end
+      object chair1059-2 of Chair
+         properties
+            x	83
+            y	224
+            loop	0
+         end
+      end
+      object chair1059-3 of Chair
+         properties
+            x	226
+            y	223
+            loop	1
+         end
+      end
+      object chair1059-4 of Chair
+         properties
+            x	130
+            y	218
+            loop	2
+         end
+      end
+      object chair1059-5 of Chair
+         properties
+            x	185
+            y	217
+            loop	2
+         end
+      end
+      object firePlace1059-6 of FirePlace
+         properties
+            x	0
+            y	189
+            loop	1
+         end
+      end
+      object torch1059-7 of Torch
+         properties
+            x	193
+            y	169
+            loop	0
+         end
+      end
+      object torch1059-8 of Torch
+         properties
+            x	434
+            y	173
+            loop	0
+         end
+      end
+   end
+end
+room 1053
+   properties
+      picture	3000
+      north	1050 335 318 
+      south	1061 
+      roomName	"Staff Beach"
+   end
+   atpinfo
+      1594  467 165
+      1590  1 159
+      1591  79 166
+      1592  389 161
+      1593  556 214
+      1594  59 182
+      1594  619 171
+      1594  264 164
+      1594  191 185
+      1594  68 161
+      951  99 196 -50
+      951  546 203 -50
+      951  304 199 -50
+      1593  75 206
+      1594  323 206
+      1594  593 192
+      1594  383 181
+   end
+end

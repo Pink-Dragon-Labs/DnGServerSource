@@ -1,0 +1,19 @@
+quest  206 #6807-01-530        # Bikali, Food Cart, Silverbrook, 5407
+
+name  "Fish Hooks for Bikali"
+type  fedex
+
+proposal  "I've got some my sister made.  She's very good at it.  Great stuff, but I understand humans and giants don't go in for it much.  I'll give you a supply if you'll be a pal and make a run to the desert for me.  What do you say? Deal?"
+
+declined  "No harm in trying."
+
+accepted  "I'm needing more fish hooks, and I like the kind a guy there makes.  Kind of strange to find a guy making fish hooks in the desert, but hey, if they work, they work."
+
+reminder   "Get me some fish hooks from Arimathor."
+
+completed  "These are the ones, all right.  Bait 'em with a little cheese and the fish go for 'em like elfcakes.  Here's some fenibretta." 
+
+getItem   qFishHooks
+reward   qFenibretta 
+end
+

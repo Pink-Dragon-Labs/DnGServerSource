@@ -1,0 +1,15 @@
+quest  318 #8111-01-430   #(Wanda, Elven Enchantment, 8307)
+
+name  "Seeking Authorization"
+type  fedex
+
+proposal  "Surian notified me you would be coming.  The Ancient Rune from Devon is an important artifact.  We must be very careful to whom we entrust it.  I would like to refer you to another.  Will you go speak to Vigo and carry this authorization to him?"
+
+declined  "As you wish."
+
+accepted  "Vigo owns Weaponry of Drune.
+
+reminder  "Vigo is at Weaponry of Drune.  Go talk to him."
+
+reward	qAuthorization
+end

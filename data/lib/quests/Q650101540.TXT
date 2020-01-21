@@ -1,0 +1,14 @@
+quest  170 #6501-01-540        # Bray, Treachery Weapons, Caer Fandry, 6609
+
+name  "Delivery for Bray"
+type  fedex
+
+proposal  "It's here, friend.  It's been done for awhile.  I was beginning to wonder if it wasn't wanted after all, though since it was paid for, I could have lived with it.  But I always want a special order to be handled properly.  Will you take it back to this Pasco?"
+
+declined  "Then why did you bring it up!"
+
+accepted  "Tell this Pasco to treat it well.  It's an excellent small tool."
+
+reward   qPascoKnife 
+end
+

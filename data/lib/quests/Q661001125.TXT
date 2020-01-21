@@ -1,0 +1,19 @@
+quest  182 #6610-01-125        # Mundar, Bloated Swine Tavern, East Leinster, 6058
+
+name  "Dinglebean Extract"
+type  fedex
+
+proposal  "Nasty stuff, that.  I've heard some stories about people who experimented with it.  I'm not squeamish, but I draw the line there.  If it's all packaged carefully I might just hand it off, but no more than that!  Nosiree!  Since you're so all-fired gung-ho for it, maybe you'll want to do me a favor to get some.  I need a special ingredient for a little business I have on the side.  I need some dinglebean extract.  A fellow in Kurz will do special orders for it.  How about a trade, huh?  Dinglebean extract for powdered imp?"   
+
+declined  "Smart move, probably."
+
+accepted  "It's your lookout.  Go to it."
+
+reminder   "Get me some dinglebean extract from Kurz."
+
+completed  "The trouble I had getting powdered imp, you wouldn't believe!  Take it and go."
+
+getItem   qDinglebean
+reward   qPowderedImp 
+end
+

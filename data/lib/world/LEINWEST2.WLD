@@ -1,0 +1,2766 @@
+room 5000
+   properties
+      picture	3500
+      south	5015 
+      east	5001 
+   end
+   atpinfo
+      2534  2 324
+      2534  3 328 163
+      2536  375 95 -50
+      2536  587 94 -50
+      113  548 202
+      2712  583 158
+      121  524 198
+      2712  417 156
+      22  699 188
+      32790  307 125
+      32788  139 13 -150
+      21  48 246
+      32790  -6 220
+      32789  13 6 -150
+      22  273 10 -140
+      112  512 200
+      32790  527 124
+      21  627 147
+      32789  392 142
+      32789  521 160
+      21  47 193
+      22  575 154
+      32791  88 277
+      2513  155 2
+      2513  62 17
+      2514  106 19
+      2536  453 87
+      2536  376 87
+      2536  741 87
+      2713  348 96
+      2713  635 114
+      2714  443 107
+      2714  548 93
+      2714  240 89
+      2712  265 154
+      2713  68 79
+      45  215 170
+      113  219 171
+      45  621 254
+      32789  566 195
+      22  310 290 -140
+      22  674 233
+      113  625 255
+   end
+   objects
+      object simpleDoor5000-0 of SimpleDoor
+         properties
+            x	119
+            y	168
+            loop	0
+         end
+      end
+      object sign5000-1 of Sign
+         properties
+            x	51
+            y	187
+            loop	0
+         end
+			base described
+				text	"Zoo Entrance.\nPlease do not feed the animals."
+			end
+      end
+      object stoneBench5000-2 of StoneBench
+         properties
+            x	343
+            y	170
+            loop	2
+         end
+      end
+      object stoneBench5000-3 of StoneBench
+         properties
+            x	553
+            y	231
+            loop	1
+         end
+      end
+   end
+end
+room 5003
+   properties
+      picture	3500
+      north	2048 
+      east	5004 
+      west	5002 
+   end
+   atpinfo
+      2521  36 107
+      2521  113 96
+      2522  93 109
+      35369  50 114
+      35370  -48 125
+      35383  500 205 150
+      2516  716 44 40
+      2613  532 142
+      2524  583 144 100
+      2511  446 165 150
+      2509  487 133
+      2509  412 122
+      2613  477 134
+      2510  381 189
+      2536  57 63
+      2536  442 2 75
+      35724  567 205
+      2536  450 58
+      2742  245 57
+      2742  3 1 -99
+      2586  649 167
+      2595  624 167 18
+      2717  100 205
+      35485  324 56
+      2717  65 186
+      2717  4 195
+      2717  133 177
+      2715  92 171
+      2714  125 174 25
+      2717  169 61
+      32889  457 118
+      2718  139 95
+      35304  409 97
+      35304  19 102
+      2717  323 109
+      2717  141 110
+   end
+end
+room 5004
+   properties
+      picture	3500
+      east	5005 
+      west	5003 
+      roomName	"Gnarled Leg Tavern"
+   end
+   atpinfo
+      2516  150 16
+      2613  -47 169
+      35383  -46 206 150
+      2524  47 192 150
+      2525  207 32
+      2617  229 52
+      2525  412 32
+      2617  400 46
+      2527  309 55 50
+      2618  308 93 50
+      2588  169 176
+      2588  377 175
+      2597  185 148
+      2597  393 147
+      2717  415 206
+      2955  28 211
+      2700  280 237 150
+      2713  488 179 80
+      2715  453 198
+      2714  452 178 30
+      2714  24 233 30
+      2715  15 209
+      2717  200 204
+      2536  602 59
+      2717  306 210
+      2713  499 239 80
+   end
+   objects
+      object door5004-0 of Door
+         properties
+            x	103
+            y	205
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5002
+   properties
+      picture	3500
+      south	5017 50 150 
+      east	5003 
+      west	5001 
+      roomName	"Anson's Armory"
+   end
+   atpinfo
+      2501  40 14
+      2501  135 29
+      2502  107 39
+      2602  103 29
+      2602  171 40
+      2520  276 11
+      2504  381 37 50
+      35369  566 129
+      2521  610 120
+      2737  239 116
+      2708  346 53
+      2695  352 151 50
+      2548  125 145
+      2548  474 146
+      2548  26 130
+      2554  474 146 6
+      2554  125 145 6
+      2554  26 130 6
+      35480  191 196
+      2712  572 197
+      35369  557 104
+      2956  394 172
+      45  614 98
+   end
+   objects
+      object door5002-0 of Door
+         properties
+            x	300
+            y	184
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5001
+   properties
+      picture	3500
+      south	5016 
+      east	5002 
+      west	5000 
+   end
+   atpinfo
+      2516  122 22
+      2936  310 290 -173
+      2505  196 32
+      2517  273 31
+      2518  357 53
+      2517  547 2 10
+      2518  456 38
+      2501  641 11
+      2602  684 54
+      2712  186 221
+      2548  677 135
+      2547  37 191
+      2547  282 182
+      2547  368 169
+      2547  453 156
+      2553  54 191 27
+      2553  299 182 27
+      2553  385 169 27
+      2553  470 156 27
+      35480  590 180
+      2601  -6 110
+      121  194 210
+   end
+end
+room 5016
+   properties
+      picture	3500
+      north	5001 
+      south	5031 
+      east	5017 
+      west	5015 
+   end
+   atpinfo
+      21  80 208
+      32791  73 243
+      32789  551 278
+      35516  79 36
+      21  75 275
+      2711  233 154
+      43  158 287
+      233  314 261
+      2711  338 153
+      7903  418 158
+      22  239 128
+      32790  396 129
+      23  563 246
+      32789  557 211
+      43  111 265
+      35479  287 154
+      43  485 159
+      43  166 150
+      43  208 310
+      43  61 248
+      43  472 153
+      64  292 158
+      64  311 159
+      64  246 158
+      32832  361 158
+      32832  307 160
+      64  381 159
+      64  349 158
+      64  229 158
+      64  366 157
+      64  261 158
+      32832  479 158
+      64  181 158
+      64  196 158
+      64  164 158
+      32832  461 158
+      64  145 158
+      64  414 157
+      32832  246 157
+      64  397 157
+      32832  496 158
+      43  149 161
+      32789  252 136
+      21  405 135
+      21  87 1
+      32789  549 1
+      32814  33 54
+      46  619 46
+      21  218 274
+      32789  434 279
+      32791  163 241
+      23  481 244
+      7902  260 158
+      2711  190 152
+      35479  446 156
+      2711  406 155
+      35479  384 155
+      43  14 248
+      43  619 261
+      43  576 264
+      43  533 281
+      43  498 303
+      43  453 324
+      32832  69 280
+      32832  612 279
+      64  414 314
+      64  591 45
+      202  185 151
+      202  462 154
+      203  234 141
+      32971  414 142
+      202  325 151
+      32971  271 142
+      203  367 145
+   end
+end
+room 5017
+   properties
+      picture	3500
+      north	5002 
+      south	5032 
+      east	5018 
+      west	5016 
+   end
+   atpinfo
+      35382  576 96 100
+      2530  585 23
+      2520  434 58
+      2501  291 91
+      2501  158 69
+      2613  338 101
+      2613  241 135 50
+      2502  219 93
+      2547  410 195
+      2549  589 159
+      2544  427 168
+      2546  590 156
+      2715  312 247
+      2714  334 248 30
+      2713  262 161
+      2717  260 259
+      2717  510 238
+      3  625 219
+      2745  163 10 -80
+      35481  109 33 -60
+      2936  310 290 -33
+      2718  503 231
+      2955  451 236
+      2956  589 216
+      3  210 241
+      3  338 254
+   end
+   objects
+      object gargoyleFountain5017-0 of GargoyleFountain
+         properties
+            x	181
+            y	193
+            loop	0
+         end
+      end
+   end
+end
+room 5018
+   properties
+      picture	3500
+      south	5033 
+      east	5019 
+      west	5017 
+      roomName	"Bright Touch Healers"
+   end
+   atpinfo
+      2528  597 47
+      2529  493 86
+      2529  371 85
+      2529  250 84
+      2527  502 144 100
+      2527  311 144 100
+      2618  311 171 90
+      2618  501 172 90
+      2549  310 177 -3
+      2549  502 176 -3
+      2546  311 177
+      2546  503 176
+      2703  169 99 15
+      2528  213 46
+      2717  -70 218
+      2717  204 241
+      2717  603 245
+      35483  407 234
+      2714  423 236
+      2715  599 220
+      35485  410 254
+      2713  257 215
+      2715  209 214
+      35482  598 222
+      2505  121 92 50
+      2528  7 131 100
+      35485  5 222
+      3  627 225
+      35483  10 201
+      2714  7 205
+   end
+   objects
+      object simpleDoor5018-0 of SimpleDoor
+         properties
+            x	103
+            y	223
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5015
+   properties
+      picture	3500
+      north	5000 
+      south	5030 
+      east	5016 
+      west	1017 
+   end
+   atpinfo
+      2534  -4 337
+      2534  -19 121
+      24  545 18
+      32792  113 20
+      46  536 64
+      46  630 64
+      32814  582 68
+      46  49 69
+      32814  92 72
+      32814  149 68
+      46  215 69
+      46  428 65
+      46  483 64
+      2956  515 81
+      2749  383 49
+      35515  265 40
+      2748  2 40
+      21  230 10
+      32789  408 11
+      2955  159 80
+      32998  593 181
+      233  314 3
+      33001  325 2
+      20  463 196
+      23  574 213
+      112  90 303
+      113  506 257
+      2714  630 260
+      2713  93 304
+      2713  628 294
+      2712  523 247
+      2712  591 247
+      2712  643 249
+      23  547 273
+      7901  157 82
+      7901  485 77
+      7908  50 82
+      7908  611 77
+      2714  604 370
+      2715  54 303
+      21  101 278
+   end
+end
+room 5019
+   properties
+      picture	3500
+      east	5020 
+      west	5018 
+      roomName	"Leinster Clothing Ltd."
+   end
+   atpinfo
+      2615  201 126 150
+      2593  266 197
+      2528  21 15
+      2508  162 40
+      2513  313 58
+      2601  358 128 20
+      2501  284 98
+      35381  268 82
+      35381  384 81
+      2629  368 118
+      2548  169 160
+      2545  169 154
+      2549  16 144
+      2546  17 141
+      3  258 243
+      2587  277 216
+      35482  194 234
+      35483  224 231
+      2717  211 259
+      2717  18 218
+      35485  183 245
+      2691  575 197 15
+      2501  464 104 -20
+      2520  604 107
+      2626  376 129 10
+      2601  510 152 20
+      2708  568 165 20
+      35723  77 212
+      2586  580 191 -50
+      2592  555 191 -32
+      2587  450 244
+      2945  436 69
+      3  47 206
+      2601  400 136 20
+      3  166 246
+      3  132 229
+      2593  439 225
+      2502  370 125
+      2629  429 128
+   end
+   objects
+      object door5019-0 of Door
+         properties
+            x	367
+            y	272
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5030
+   properties
+      picture	3500
+      north	5015 
+      south	5045 
+      east	5031 
+   end
+   atpinfo
+      43  423 102
+      2534  5 323
+      21  626 135
+      32996  574 148
+      227  421 122
+      43  364 101
+      2534  5 327 163
+      233  300 262
+      2714  118 115
+      2711  616 318
+      23  576 90
+      43  625 164
+      32789  376 99
+      35483  127 107
+      21  526 98
+      2955  227 42
+      32790  404 25
+      43  580 160
+      22  161 26
+      43  482 106
+      232  293 8
+      43  536 133
+      23  585 223
+      24  483 257
+      32792  165 260
+      32789  558 22
+      22  441 51
+      32790  409 66
+      113  134 112
+      111  101 106
+      2716  110 96
+      50  614 315
+      32792  369 1
+      32790  132 1
+      22  133 49
+      32790  97 83
+      200  95 270
+      64  177 285
+      64  440 280
+      2955  497 271
+      32788  71 117
+      113  245 284
+      2954  586 39
+      35722  454 38
+      2954  409 35
+      35722  165 33
+      35722  97 37
+      2  249 15
+      2  329 14
+      32790  532 59
+   end
+   objects
+      object sittingRock5030-0 of SittingRock
+         properties
+            x	74
+            y	264
+            loop	0
+         end
+      end
+      object sittingRock5030-1 of SittingRock
+         properties
+            x	81
+            y	141
+            loop	0
+         end
+      end
+   end
+end
+room 5032
+   properties
+      picture	3500
+      north	5017 
+      south	5047 
+      east	5033 
+      west	5031 
+   end
+   atpinfo
+      2525  357 62
+      2526  466 67
+      2525  583 63
+      2605  357 67
+      2631  357 81
+      2633  462 82
+      2633  579 81
+      2605  480 66
+      2605  571 64
+      2748  150 48 -99
+      2920  -84 144
+      2715  22 146
+      2715  215 128
+      2714  28 152 20
+      2713  244 128
+      35485  240 156
+      35485  -4 159
+      2717  14 174
+      2954  377 234
+      2954  495 233
+      2954  611 234
+      3  151 140
+      3  66 146
+      35680  -47 169 34
+      7909  313 225
+      3  627 194
+      3  633 229
+      3  631 210
+      2946  -25 180
+   end
+end
+
+room 6022
+   properties
+      picture	4001
+      roomName	"Sinclair's Barbershop"
+      south	5035 270 260 
+   end
+   atpinfo
+      2599  165 287
+      2128  382 242 65
+      2131  439 190 -50
+      2106  385 241
+      2106  527 282
+      14  564 258
+      7901  322 226
+      32782  90 258
+      32782  -58 309
+      14  715 309
+   end
+   objects
+      object stool6022-0 of Stool
+         properties
+            x	258
+            y	259
+            loop	2
+         end
+      end
+      object stool6022-1 of Stool
+         properties
+            x	569
+            y	307
+            loop	1
+         end
+      end
+      object stool6022-2 of Stool
+         properties
+            x	83
+            y	312
+            loop	0
+         end
+      end
+      object Sinclair6022-1 of Shop
+         properties
+            name	"Sinclair"
+            x	526
+            y	266
+            loop	2
+            girth	120
+            height	120
+         end
+         base character
+            sex	0
+            properName	"Sinclair (NPC)"
+         end
+         base described
+            text	"You see the barber - Sinclair."
+         end
+         base talk
+            talkTreeID	5035
+         end
+         base container
+            worn	BluePants
+            worn	BlueCowl
+            worn	Wristband
+            worn	TanLowBoots
+            head	0 1 0 0 0 0 0 0 17 0 0 0 
+         end
+         base shop
+            buyMarkup	50
+            sellMarkup	100
+			inventory
+				category "Hair Dyes" 51583
+					object hdLightRed
+					object hdRed
+					object hdLightGrey 
+					object hdGrey 
+					object hdDarkGrey 
+					object hdOrange 
+					object hdLightOrange 
+					object hdReddishBrown
+					object hdBrown 
+					object hdLightYellow 
+					object hdYellow 
+					object hdOlive
+					object hdLightOlive 
+					object hdDarkBrown 
+					object hdLightBrown
+					object hdPaleBrown 
+					object hdPalePaleBrown 
+				end
+			end
+         end
+      end
+   end
+end
+room 5045
+   properties
+      picture	3500
+      north	5030 
+      south	5060 
+      east	5046 
+      roomName	"The Cutting Edge"
+   end
+   atpinfo
+      2501  65 35
+      2501  133 46
+      2502  88 53
+      2602  108 58 10
+      2602  170 57
+      2520  276 27
+      35370  313 198 100
+      2542  109 140 -20
+      2542  441 149
+      2718  475 184 -20
+      2717  428 205
+      35485  498 207
+      2696  131 111
+      2545  108 177 20
+      2545  441 165 20
+      2541  195 175
+      2544  207 179 20
+      2712  83 184 -20
+      2737  272 119
+      2534  -19 324
+      2534  -21 164
+      2503  411 7
+      35370  474 144 100
+      2513  516 34
+      2510  316 26 -25
+      35480  510 32 -70
+      3  553 190
+      3  382 186
+   end
+   objects
+      object door5045-0 of Door
+         properties
+            x	318
+            y	197
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5046
+   properties
+      picture	3500
+      east	5047 
+      west	5045 
+      roomName	"Good Grub Grocers"
+   end
+   atpinfo
+      2718  80 147 -20
+      2606  161 91 150
+      2527  194 142 150
+      2501  97 11
+      2513  288 83 70
+      2602  117 41
+      35370  276 130 90
+      2606  199 163 120
+      2718  375 146 -20
+      2711  170 168 -20
+      35479  215 169 -20
+      2526  452 9
+      2526  530 9
+      2525  386 4
+      2525  572 4
+      2582  413 123
+      2582  529 121
+      2597  426 129 20
+      2597  541 127 20
+      2717  -16 188
+      2717  87 187
+      2717  418 176
+      2717  569 175
+      2605  557 22
+      2605  441 24
+      2697  173 165 99
+      2748  -19 6 -99
+      2748  527 3 -99
+      3  130 175
+      3  618 166
+      2582  161 144 10
+      2597  174 150 30
+      2711  640 2 -65
+      2711  37 3 -65
+      7907  196 195
+      3  5 175
+   end
+   objects
+      object simpleDoor5046-0 of SimpleDoor
+         properties
+            x	291
+            y	177
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5060
+   properties
+      picture	3500
+      north	5045 
+      south	5075 
+      east	5061 
+      west	1035 
+   end
+   atpinfo
+      2513  600 100
+      2514  618 107
+      35382  576 96 100
+      2595  583 206
+      2596  388 194
+      2596  484 208
+      2587  495 167 -60
+      2587  399 213
+      2586  608 224
+      2534  -18 373
+      2534  -22 135
+      2745  54 99
+      2745  145 50 -50
+      2717  73 114
+      2717  174 112
+      2718  124 103
+      2717  492 272
+      35485  408 258
+      2508  450 82
+      2745  379 53 -50
+      35369  553 111
+      35370  644 62
+      2717  383 249
+      35485  440 264
+      2714  363 1 -99
+      2955  71 50
+      3  214 102
+      3  358 232
+      3  543 265
+   end
+end
+room 5062
+   properties
+      picture	3500
+      north	5047 
+      east	5063 
+      west	5061 
+   end
+   atpinfo
+      2501  44 80
+      2615  201 126 150
+      2586  234 195
+      2586  150 208
+      2595  209 177
+      2595  125 190
+      2587  28 208
+      2596  17 189
+      2745  508 1 -99
+      2745  598 1 -99
+      2717  478 107
+      2717  506 8 -99
+      2718  456 103
+      2717  301 9 -99
+      2520  187 62
+      2601  97 91
+      2745  280 1 -99
+      2602  0 47
+      2713  305 7 -99
+      2717  419 242
+      2717  42 258
+      2717  252 243
+      2955  193 237
+      2953  639 166
+      2717  509 256
+      2717  563 234
+      3  92 248
+      3  280 227
+      3  6 235
+      7907  30 257
+   end
+   objects
+      object fountain5062-0 of Fountain
+         properties
+            x	507
+            y	236
+            loop	0
+         end
+      end
+      object stool5062-1 of Stool
+         properties
+            x	560
+            y	190
+            loop	0
+         end
+      end
+      object stool5062-2 of Stool
+         properties
+            x	393
+            y	206
+            loop	0
+         end
+      end
+      object stool5062-3 of Stool
+         properties
+            x	507
+            y	184
+            loop	0
+         end
+      end
+      object stool5062-4 of Stool
+         properties
+            x	453
+            y	195
+            loop	0
+         end
+      end
+      object stool5062-5 of Stool
+         properties
+            x	615
+            y	197
+            loop	0
+         end
+      end
+   end
+end
+room 5061
+   properties
+      picture	3500
+      east	5062 
+      west	5060 
+      roomName	"Natural Healing"
+   end
+   atpinfo
+      2513  47 78
+      2525  144 71
+      2525  502 72
+      2526  255 77
+      2501  605 79
+      2526  384 77
+      2703  161 136
+      2604  282 293 200
+      2604  7 292 200
+      2604  408 295 200
+      2604  555 294 200
+      2601  658 411 300
+      35369  -5 408 300
+      2604  153 92
+      2737  121 157
+      35485  541 244
+      2717  259 357
+      2717  140 243
+      2596  584 198
+      2954  275 247
+      35722  344 219
+      2954  415 242
+      35723  544 231
+      2588  234 214
+      2588  367 185 -30
+      2587  595 217
+      2597  250 186
+      2597  383 185
+      3  182 230
+      3  185 239
+      3  507 242
+      3  505 226
+   end
+   objects
+      object simpleDoor5061-0 of SimpleDoor
+         properties
+            x	44
+            y	244
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5065
+   properties
+      picture	3500
+      north	5050 
+      south	5080 
+      east	5066 
+      west	5064 
+   end
+   atpinfo
+      45  33 122
+      45  111 119
+      45  14 341
+      45  591 99
+      45  527 118
+      45  458 120
+      22  113 29
+      32790  524 21
+      22  539 48
+      32790  95 54
+      22  106 79
+      45  186 119
+      32790  525 75
+      32790  79 106
+      22  554 99
+      32790  583 117
+      22  61 128
+      60  623 171
+      60  575 171
+      60  518 170
+      2711  466 167
+      32790  533 138
+      60  624 270
+      60  570 271
+      60  517 271
+      2711  460 271
+      24  610 267
+      24  626 241
+      25  439 259
+      26  90 265
+      32877  611 121
+      15  587 139
+      15  614 320
+      63  631 173
+      200  13 116
+      7900  54 121
+      7900  577 170
+      32832  126 154
+      43  146 137
+      43  77 149
+      7902  553 273
+   end
+end
+room 5075
+   properties
+      picture	3500
+      north	5060 
+      east	5076 
+   end
+   atpinfo
+      2606  161 91 150
+      2513  396 124 70
+      35370  348 153 90
+      2534  -8 223 -99
+      2711  167 227
+      35479  131 224
+      2534  -10 159
+      2748  504 20 -99
+      2748  -2 35 -80
+      2717  -32 114
+      2717  562 131
+      2714  581 106
+      2715  553 105
+      2711  201 223
+      2711  223 224
+      2713  -2 5 -80
+      2594  158 223 65
+      2582  261 183 15
+      3  260 222
+      3  106 218
+      2605  272 268 200
+      2525  290 61
+      2526  196 215 149
+      2605  217 228 160
+      2605  164 227 160
+      2525  147 60
+      2588  142 222 36
+      2712  73 1 -80
+      2712  98 32 -80
+      2724  297 219
+      7903  271 234
+   end
+   objects
+      object simpleDoor5075-0 of SimpleDoor
+         properties
+            x	397
+            y	218
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object gateKeeper5075-1 of GateKeeper
+         properties
+            x	297
+            y	205
+            loop	2
+         end
+         base talk
+            talkTreeID	5075
+         end
+         base character
+            sex	0
+            properName	"Mirkotto (NPC)"
+         end
+         base container
+            worn	RedShirt
+            worn	BlackPants
+            worn	WhiteBelt
+            worn	LeatherBoots
+            head	0 1 1 2 5 3 3 6 8 3 8 2 
+         end
+      end
+   end
+end
+room 5078
+   properties
+      picture	3500
+      north	5063 
+      south	4003 
+      east	5079 
+      west	5077 
+   end
+   atpinfo
+      2521  36 107
+      2521  87 100
+      2522  72 113
+      2749  80 82 -20
+      2749  471 104
+      2711  25 190
+      2718  238 115
+      2717  256 115 -10
+      35485  185 88 -20
+      35485  560 181 -20
+      35303  240 466
+      2535  482 469
+      35303  532 469
+      2535  189 466
+      2715  577 191
+      2714  603 156
+      2717  526 206
+      2717  329 108
+      2717  105 182
+      35375  7 121
+      85  258 141
+      2159  261 142 50
+      2535  561 477
+      2535  110 475
+      35303  160 475
+      35303  612 477
+      35303  81 473
+      2535  30 473
+      35303  4 472
+      2535  637 475
+      3  169 317
+      3  97 318
+      3  57 315
+      3  216 309
+      3  18 317
+      3  505 310
+      3  549 320
+      3  586 319
+      3  623 320
+      3  67 177
+      35479  121 77
+      2711  81 66
+      2531  596 1 1
+      2543  614 28
+      2555  612 30 9
+      3  156 172
+   end
+   objects
+      object flowerCart5078-0 of FlowerCart
+         properties
+            x	264
+            y	134
+            loop	2
+         end
+         base character
+            sex	1
+            properName	"Anga (NPC)"
+         end
+         base talk
+            talkTreeID	5078
+         end
+         base shop
+			inventory
+				category "Gift Boxes" 62783
+					object GiftBox
+					object GiftBox1
+					object GiftBox2
+					object GiftBox3
+					object GiftBox4
+					object GiftBox5
+					object GiftBox6
+					object GiftBox7
+					object GiftBox8
+					object GiftBox9
+					object GiftBox10
+					object GiftBox11
+					object GiftBox12
+					object GiftBox13
+					object TallGiftBox
+					object TallGiftBox1
+					object TallGiftBox2
+					object FlatGiftBox
+					object FlatGiftBox1
+					object FlatGiftBox2
+				end
+			end
+         end
+         base container
+            worn	GreenShirt
+            worn	BlackPants
+            worn	BlackCowl
+            worn	GreenLowBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 3 0 0 2 4 5 9 4 3 1 2 
+         end
+      end
+   end
+end
+room 5076
+   properties
+      picture	3500
+      east	5077 
+      west	5075 
+      roomName	"Troll Bragger Inn"
+   end
+   atpinfo
+      2516  155 14
+      2613  -47 169
+      35383  -54 204 150
+      2524  47 192 150
+      2525  214 29
+      2617  230 51
+      2525  412 30
+      2617  400 49
+      2527  309 53 50
+      2618  309 92 50
+      2586  52 185
+      2588  270 175
+      2588  377 175
+      2597  286 147
+      2597  393 147
+      2595  27 167
+      2749  437 20 -80
+      2715  7 202
+      2714  27 202
+      2714  528 156
+      2715  484 188
+      2700  283 54
+      35485  332 205
+      2717  432 206
+      2717  -15 203 -30
+      2717  218 203
+      35485  637 139 -90
+      2508  706 56
+      3  575 99
+      3  555 101
+      3  537 104
+      2531  586 1 1
+      2532  480 5
+      3  31 216
+      3  172 194
+      3  633 225
+      3  617 207
+   end
+   objects
+      object door5076-0 of Door
+         properties
+            x	117
+            y	204
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+#         base lockable
+#            isLocked	1
+#         end
+      end
+   end
+end
+room 5077
+   properties
+      picture	3500
+      east	5078 
+      west	5076 
+      roomName	"The Ethereal Outlet"
+   end
+   atpinfo
+      2513  157 59
+      2513  182 55
+      2514  164 68
+      2611  275 72
+      2525  281 49
+      2521  574 160
+      35375  524 221 50
+      2587  27 176
+      2586  191 181
+      35375  122 81
+      2508  6 40
+      2596  16 157
+      2595  166 163
+      2712  56 229
+      2694  124 228 90
+      2504  345 25
+      2710  115 188 90
+      35375  646 151
+      2588  244 185
+      2597  260 157
+      2956  479 250 24
+      35724  291 238 29
+      2522  632 161
+      3  11 218
+      3  109 224
+   end
+   objects
+      object simpleDoor5077-0 of SimpleDoor
+         properties
+            x	381
+            y	218
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5080
+   properties
+      picture	3500
+      north	5065 
+      east	5081 
+      west	5079 
+   end
+   atpinfo
+      2525  49 106 50
+      2633  41 58
+      2605  61 67 20
+      2715  108 225
+      21  154 70 -5
+      32790  78 201
+      35516  174 105 -1
+      2713  148 267 60
+      2714  119 55 -70
+      2717  43 228
+      2711  101 236
+      2748  485 105 -1
+      32789  511 79 -5
+      32789  604 82 -5
+      2714  570 55 -70
+      2714  639 54 -70
+      32791  126 22 -60
+      24  197 1
+      32792  458 1
+      233  295 57 50
+      43  258 51
+      43  370 56
+      43  418 53
+      43  211 54
+      43  470 52
+      43  171 57
+      32792  603 3
+      26  250 35
+      32794  398 36
+      25  418 68 -20
+      32793  248 67 -20
+      2956  184 98
+      35724  471 94
+      7903  150 99
+      7903  580 107
+   end
+end
+room 5047
+   properties
+      picture	3500
+      north	5032 
+      south	5062 
+      east	5048 
+      west	5046 
+   end
+   atpinfo
+      7902  568 330
+      63  393 63
+      7901  320 107
+      63  256 64
+      35485  42 146
+      63  302 65
+      63  278 65
+      2617  480 52 80
+      35485  632 293
+      2748  500 66
+      35516  125 75
+      2715  39 99
+      2715  593 97
+      2714  623 106
+      2713  82 99
+      32881  87 309
+      2748  226 104
+      35516  419 103
+      63  375 64
+      63  357 64
+      63  334 66
+      63  315 65
+      22  610 46
+      32790  7 54
+      21  43 81
+      32789  586 72
+      21  71 275
+      32789  549 275
+      2955  561 289
+      32789  281 99
+      22  328 70
+      21  363 98
+      2955  391 106
+      35723  255 105
+      21  200 287
+      32789  467 287
+      2717  15 288
+      35723  81 288
+      7902  633 66
+      7902  -15 73
+      7902  102 330
+      2599  324 230
+   end
+   objects
+      object chair5047-0 of Chair
+         properties
+            x	275
+            y	208
+            loop	0
+         end
+      end
+      object chair5047-1 of Chair
+         properties
+            x	233
+            y	236
+            loop	0
+         end
+      end
+      object chair5047-2 of Chair
+         properties
+            x	325
+            y	205
+            loop	2
+         end
+      end
+      object chair5047-3 of Chair
+         properties
+            x	415
+            y	237
+            loop	1
+         end
+      end
+      object chair5047-4 of Chair
+         properties
+            x	377
+            y	212
+            loop	1
+         end
+      end
+   end
+end
+room 5033
+   properties
+      picture	3500
+      north	5018 
+      south	5048 
+      east	5034 
+      west	5032 
+      roomName	"You Name It"
+   end
+   atpinfo
+      2749  233 2 -99
+      2749  610 5 -99
+      2501  14 43
+      2513  209 32
+      2602  51 67
+      35370  157 103 50
+      2717  304 19 -90
+      2717  660 23 -90
+      2598  548 192
+      2598  216 292
+      2715  485 2 -90
+      2714  492 29 -60
+      2598  482 297
+      86  357 143 50
+      2955  499 22 -75
+      85  354 142
+      2513  112 48
+      35370  71 66
+      2514  159 51
+      2954  -18 222
+      2241  99 222
+      2244  133 218
+      2737  118 128
+      2954  259 1 -58
+      7907  4 226
+      3  9 202
+   end
+   objects
+      object chair5033-0 of Chair
+         properties
+            x	126
+            y	272
+            loop	0
+         end
+      end
+      object chair5033-1 of Chair
+         properties
+            x	466
+            y	171
+            loop	0
+         end
+      end
+      object chair5033-2 of Chair
+         properties
+            x	303
+            y	277
+            loop	1
+         end
+      end
+      object chair5033-3 of Chair
+         properties
+            x	610
+            y	176
+            loop	1
+         end
+      end
+      object chair5033-4 of Chair
+         properties
+            x	174
+            y	254
+            loop	2
+         end
+      end
+      object chair5033-5 of Chair
+         properties
+            x	218
+            y	255
+            loop	2
+         end
+      end
+      object chair5033-6 of Chair
+         properties
+            x	265
+            y	256
+            loop	2
+         end
+      end
+      object chair5033-7 of Chair
+         properties
+            x	394
+            y	278
+            loop	0
+         end
+      end
+      object chair5033-8 of Chair
+         properties
+            x	567
+            y	278
+            loop	1
+         end
+      end
+      object chair5033-9 of Chair
+         properties
+            x	433
+            y	268
+            loop	2
+         end
+      end
+      object chair5033-10 of Chair
+         properties
+            x	524
+            y	266
+            loop	2
+         end
+      end
+      object chair5033-11 of Chair
+         properties
+            x	480
+            y	267
+            loop	2
+         end
+      end
+      object chair5033-12 of Chair
+         properties
+            x	501
+            y	164
+            loop	2
+         end
+      end
+      object chair5033-13 of Chair
+         properties
+            x	542
+            y	164
+            loop	2
+         end
+      end
+      object chair5033-14 of Chair
+         properties
+            x	583
+            y	165
+            loop	2
+         end
+      end
+      object simpleDoor5033-15 of SimpleDoor
+         properties
+            x	205
+            y	196
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object bartender5033-16 of Bartender
+         properties
+            x	362
+            y	141
+            loop	2
+         end
+         base talk
+            talkTreeID	5033
+         end
+         base character
+            sex	0
+            properName	"Jeremy (NPC)"
+            title	"the Serving Boy"
+         end
+         base container
+            worn	LeatherTunic
+            worn	LeatherPants
+            worn	RedBoots
+            worn	Wristband
+            worn	BlackBelt
+            worn	RedCowl
+            object	AleJug
+            object	WineFlask
+            head	0 3 6 10 4 6 2 6 8 0 8 0 
+         end
+      end
+   end
+end
+room 5034
+   properties
+      picture	3500
+      south	5049 
+      east	5035 
+      west	5033 
+      roomName	"The School of Hard Knocks"
+   end
+   atpinfo
+      2528  337 66
+      2528  542 49
+      2528  95 53
+      2517  439 60
+      2505  208 64
+      2528  300 66
+      2529  317 104
+      2543  95 206
+      2543  92 58
+      2543  543 202
+      2543  543 60
+      2543  308 149 90
+      2746  560 12 -99
+      2746  -60 13 -98
+      2549  95 208
+      2549  93 60
+      2549  543 61
+      2549  543 203
+      2549  309 160 100
+      2718  214 244
+      35484  327 246
+      2716  273 245
+      2713  554 5 -99
+      2701  442 173 80
+      2710  437 108 60
+      2543  306 189 -20
+      2549  307 211
+      45  25 7 -99
+      32813  631 8 -99
+      2716  212 239
+   end
+   objects
+      object fountain5034-0 of Fountain
+         properties
+            x	541
+            y	247
+            loop	0
+         end
+      end
+      object fountain5034-1 of Fountain
+         properties
+            x	94
+            y	250
+            loop	0
+         end
+      end
+      object simpleDoor5034-2 of SimpleDoor
+         properties
+            x	440
+            y	243
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5035
+   properties
+      picture	3500
+      north	5020 
+      south	5050 
+      east	5036 
+      west	5034 
+      roomName	"Sinclair the Stylist"
+   end
+   objects
+      object tent5035-0 of Tent
+         properties
+            x	290
+            y	133
+            loop	0
+         end
+         base described
+            text	"This is the tent of Barber Sinclair."
+         end
+         base entry
+            room	6022
+            startingLoop	0
+            endingLoop	0
+            startingX	300
+            startingY	500
+            endingX	300
+            endingY	300
+         end
+      end
+   end
+   atpinfo
+      2714  55 393
+      2714  609 380
+      21  411 31
+      21  204 23
+      22  245 65
+      32790  332 71
+      32790  308 102
+      22  266 100
+      21  359 131
+      32789  220 130
+      2718  26 154
+      233  97 60
+      33001  472 73
+      21  33 58
+      21  581 65
+      228  378 134
+      32996  201 131
+      232  101 24
+      33000  474 34
+      20  286 147
+      33001  289 169
+      233  289 171
+      22  453 185
+      32790  128 188
+      23  83 128
+      32791  482 132
+      22  77 187
+      32790  518 186
+      21  582 120
+      21  38 118
+      32789  140 212
+      21  435 214
+      21  580 95
+      21  34 84
+      22  104 23
+      32790  515 30
+      230  64 167
+      131  90 165
+      2711  214 155
+      35479  367 153
+      121  596 111
+      229  532 163
+      32789  23 221
+      21  589 215
+      22  543 245
+      32790  104 248
+      21  59 279
+      21  589 276
+      32790  99 276
+      22  463 258
+      22  477 284
+      103  206 79
+      128  641 130
+      109  405 86
+      60  200 130
+      60  372 128
+      60  160 321
+      60  404 320
+      60  197 223
+      60  383 222
+      60  185 272
+      60  388 270
+      60  95 223
+      60  503 223
+      60  614 222
+      60  -6 226
+      7900  294 128
+      15  203 112
+      32783  361 112
+      233  313 247
+      33001  261 243
+      33001  297 249
+      7903  90 326
+      7902  499 321
+      7  136 45
+      7  162 42
+      7  188 40
+      7  214 37
+      7  239 35
+      7  267 39
+      7  297 40
+      7  322 42
+      7  346 44
+      7  371 46
+      7  391 48
+      7  415 51
+      7  423 55
+   end
+end
+room 5005
+   properties
+      picture	3500
+      south	5020 
+      east	5006 
+      west	5004 
+      roomName	"Swap 'n Shop"
+   end
+   atpinfo
+      2536  176 38 -20
+      2536  529 38 -20
+      2536  432 38 -20
+      2501  41 90 20
+      2520  183 71 20
+      2503  279 44 20
+      2513  379 48
+      2614  75 191 100
+      2614  117 53
+      35382  416 92 50
+      35382  334 156 100
+      2513  474 53 20
+      64  99 251
+      2642  330 217
+      2641  421 115
+      2649  330 68
+      2649  416 54
+      2642  421 201
+      2642  509 152
+      2641  509 184
+      2641  330 130
+      2641  87 172 -50
+      32832  517 208 10
+      2641  87 174
+      2662  79 213
+      64  30 250
+      2642  267 211
+      2642  267 108
+      2668  269 217
+      2668  19 238
+      2626  -46 111 30
+      2668  -22 231
+      2649  166 205 -20
+      2649  96 208 -30
+      2649  330 216
+      2649  409 202
+      2580  109 191
+      2586  149 199
+      2581  -3 193
+      2587  22 198
+      2580  348 169
+      2580  442 153
+      2586  388 175
+      2586  482 159
+      21  554 5 -50
+      21  36 201 -20
+      32791  519 13 -50
+      2737  224 122 50
+      32782  398 248
+      32782  329 259
+      21  177 183 -30
+      21  394 168 -30
+      21  485 25 -150
+      2711  22 232
+      21  310 290 -50
+      2595  123 196 15
+      2596  11 196 15
+      2595  362 173 15
+      2595  456 157 15
+      60  90 248
+      60  21 246
+      63  182 232
+      63  142 239
+      63  300 224
+      63  321 228
+      63  584 63
+      64  496 202 10
+      64  149 236
+      20  251 205
+      20  223 222
+      20  264 230
+      7901  92 258
+      2956  298 217
+      21  75 206 -30
+      7901  351 241
+      21  310 290 -50
+      2715  527 169
+      2714  555 187 50
+      3  543 203
+      2956  324 220
+      7901  590 178
+      3  543 182
+   end
+   objects
+      object sign5005-1 of Sign
+         properties
+            x	145
+            y	237
+            loop	0
+         end
+         base described
+            text	"SOLD! This property has been sold. Coming Soon: Swap 'n Shop, your one-of-kind speciality store."
+         end
+      end
+      object door5005-0 of Door
+         properties
+            x	221
+            y	221
+            loop	0
+         end
+         base described
+            text	"Welcome to Swap 'n Shop"
+         end
+         base entry
+            room	6041
+            startingLoop	1
+            endingLoop	1
+            startingX	49
+            startingY	165
+            endingX	81
+            endingY	186
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5063
+   properties
+      picture	3500
+      north	5048 
+      south	5078 
+      east	5064 
+      west	5062 
+      roomName	"Tranquil Square"
+   end
+   atpinfo
+      3  91 100
+      2745  629 100
+      2712  525 15 -99
+      35485  363 170
+      2717  460 167
+      2717  451 194
+      2745  505 1 -99
+      2745  208 1 -99
+      2745  54 1 -99
+      2745  310 290 -99
+      2953  1 162
+      2745  310 290 -99
+      2712  157 107
+      2956  198 226
+      35724  306 177
+      2956  290 201
+      35724  169 191
+      2956  573 293
+      2717  366 194
+      2717  138 226
+      35485  245 195
+      2956  149 196
+      2956  398 163
+      2718  568 290
+      2717  238 225
+      2745  310 290 -99
+      2745  310 290 -99
+   end
+   objects
+      object fountain5063-0 of Fountain
+         properties
+            x	210
+            y	200
+            loop	0
+         end
+      end
+      object fountain5063-1 of Fountain
+         properties
+            x	415
+            y	171
+            loop	0
+         end
+      end
+      object stool5063-2 of Stool
+         properties
+            x	488
+            y	242
+            loop	1
+         end
+      end
+      object stool5063-3 of Stool
+         properties
+            x	446
+            y	219
+            loop	2
+         end
+      end
+      object stool5063-4 of Stool
+         properties
+            x	151
+            y	158
+            loop	0
+         end
+      end
+      object stool5063-5 of Stool
+         properties
+            x	202
+            y	137
+            loop	2
+         end
+      end
+      object stool5063-6 of Stool
+         properties
+            x	272
+            y	256
+            loop	0
+         end
+      end
+      object stool5063-7 of Stool
+         properties
+            x	392
+            y	214
+            loop	2
+         end
+      end
+      object stool5063-8 of Stool
+         properties
+            x	429
+            y	277
+            loop	2
+         end
+      end
+      object stool5063-9 of Stool
+         properties
+            x	363
+            y	279
+            loop	2
+         end
+      end
+      object stool5063-10 of Stool
+         properties
+            x	253
+            y	151
+            loop	1
+         end
+      end
+      object stool5063-11 of Stool
+         properties
+            x	330
+            y	232
+            loop	2
+         end
+      end
+   end
+end
+room 5079
+   properties
+      picture	3500
+      north	5064 
+      east	5080 
+      west	5078 
+      roomName	"The Banshee's Wail"
+   end
+   atpinfo
+      2525  588 73
+      3  537 234
+      2633  487 75
+      2633  578 77
+      2605  580 91 20
+      2749  238 9 -80
+      35480  51 86
+      2717  299 53 -50
+      35485  80 108
+      2717  320 262
+      2717  -29 115
+      2717  -26 240
+      2718  0 230
+      35515  134 88
+      2513  435 90
+      2514  468 95
+      2513  489 82
+      2580  470 199
+      2503  331 67
+      35371  404 149 60
+      2622  536 79
+      2630  389 97
+      2713  328 248
+      2715  302 245
+      3  299 251
+      35480  590 242
+      2699  309 123
+      2847  356 243
+      3  631 234
+      2714  339 21 -78
+      2714  443 17 -78
+      2582  567 195
+      7901  41 92
+      7901  329 88
+   end
+   objects
+      object door5079-0 of Door
+         properties
+            x	432
+            y	254
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+   end
+end
+room 5048
+   properties
+      picture	3500
+      north	5033 
+      south	5063 
+      east	5049 
+      west	5047 
+   end
+   atpinfo
+      35517  303 72
+      22  547 7
+      32790  544 31
+      22  556 72
+      32790  600 81
+      2712  621 61
+      2712  523 58
+      45  591 100
+      21  242 44
+      21  131 60
+      21  66 64
+      2715  35 90
+      2715  151 82
+      2714  65 91
+      2713  202 88
+      7902  129 70
+      7909  270 70
+      7902  588 65
+      2598  235 272
+      22  675 102
+      32790  546 47
+      32968  607 128
+      63  26 96
+      63  160 79
+      63  123 100
+      32789  554 280
+      32790  622 251
+      21  82 278
+      2712  55 226
+      2712  97 212
+      35480  292 196
+      60  599 320
+      60  386 206
+      60  626 304
+      2712  156 198
+      35480  367 199
+      60  397 223
+      22  86 170
+      32790  251 161
+      22  48 191
+      20  398 214
+      32790  21 215
+      21  41 242
+      2712  211 197
+      2712  26 229
+      22  253 284
+      2715  16 313
+      2714  46 316
+      7908  -5 478
+      7902  163 338
+      7903  591 335
+      7902  236 193
+      7903  88 193
+      7909  394 219
+   end
+   objects
+      object chair5048-4 of Chair
+         properties
+            x	154
+            y	252
+            loop	0
+         end
+      end
+      object chair5048-5 of Chair
+         properties
+            x	305
+            y	258
+            loop	1
+         end
+      end
+      object chair5048-6 of Chair
+         properties
+            x	235
+            y	238
+            loop	2
+         end
+      end
+      object chair5048-7 of Chair
+         properties
+            x	270
+            y	238
+            loop	2
+         end
+      end
+      object chair5048-8 of Chair
+         properties
+            x	193
+            y	240
+            loop	2
+         end
+      end
+   end
+end
+room 5050
+   properties
+      picture	3500
+      north	5035 
+      south	5065 
+      east	5051 
+      west	5049 
+   end
+   atpinfo
+      22  534 29
+      32790  108 36
+      21  395 168
+      32789  249 169
+      23  248 152
+      32791  390 152
+      32790  351 201
+      22  286 199
+      22  340 134
+      32790  297 125
+      20  230 150
+      23  101 159
+      32788  445 176
+      20  400 152
+      32788  352 141
+      32788  285 140
+      20  192 170
+      32788  448 203
+      32788  417 221
+      20  176 200
+      20  213 214
+      32791  532 156
+      32790  533 43
+      22  113 62
+      32789  534 99
+      21  180 99
+      21  62 177
+      32789  572 172
+      32789  258 93
+      21  425 94
+      22  580 71
+      32790  70 72
+      32790  483 283
+      21  70 106
+      32789  565 103
+      228  159 100
+      32996  478 97
+      229  52 150
+      230  650 147
+      45  29 142
+      32788  357 226
+      20  286 226
+      45  98 125
+      45  165 99
+      45  619 139
+      45  553 129
+      45  491 102
+      45  320 134
+      21  92 213
+      32789  533 205
+      32789  458 238
+      21  229 235
+      32789  50 262
+      32789  600 266
+      32790  352 60
+      22  329 46
+      232  404 60
+      33000  234 49
+      227  213 248
+      32995  440 250
+      229  608 242
+      230  62 239
+      233  294 273
+      33001  366 269
+      22  360 242
+      22  292 266
+      32790  415 266
+      22  188 282
+      43  577 218
+      43  545 237
+      43  519 209
+      43  128 219
+      43  66 234
+      43  88 208
+      60  31 327
+      60  607 326
+      43  55 131
+      45  16 343
+      45  630 344
+      43  574 139
+      7902  140 341
+      7902  523 340
+      7902  76 80
+      7902  561 80
+   end
+   objects
+      object fountain5050-0 of Fountain
+         properties
+            x	323
+            y	195
+            loop	0
+         end
+      end
+      object stool5050-1 of Stool
+         properties
+            x	198
+            y	196
+            loop	0
+         end
+      end
+      object stool5050-2 of Stool
+         properties
+            x	440
+            y	191
+            loop	1
+         end
+      end
+      object stool5050-3 of Stool
+         properties
+            x	356
+            y	158
+            loop	2
+         end
+      end
+      object stool5050-4 of Stool
+         properties
+            x	297
+            y	156
+            loop	2
+         end
+      end
+      object stool5050-5 of Stool
+         properties
+            x	409
+            y	170
+            loop	2
+         end
+      end
+      object stool5050-6 of Stool
+         properties
+            x	244
+            y	170
+            loop	2
+         end
+      end
+      object stool5050-7 of Stool
+         properties
+            x	211
+            y	232
+            loop	0
+         end
+      end
+      object stool5050-8 of Stool
+         properties
+            x	423
+            y	231
+            loop	1
+         end
+      end
+   end
+end
+room 5031
+   properties
+      picture	3500
+      north	5016 
+      east	5032 
+      west	5030 
+      roomName	"Nursery"
+   end
+   atpinfo
+      24  546 247
+      32792  114 245
+      43  166 163
+      43  619 165
+      112  89 177
+      43  433 148
+      43  396 131
+      2711  31 156
+      60  205 322
+      60  531 319
+      32828  453 321
+      35482  595 381
+      2714  43 379
+      233  313 54
+      225  301 121
+      230  102 181
+      32998  529 164
+      112  591 166
+      43  518 165
+      113  618 164
+      112  621 203
+      21  590 4
+      22  459 1
+      112  530 163
+      2956  410 50
+      22  456 247
+      112  179 174
+      2955  427 311
+      35723  203 306
+      15  613 95
+      60  128 325
+      23  567 35
+      21  82 8
+      32793  45 156
+      32790  164 3
+      32789  158 33
+      23  526 218
+      22  167 132
+      20  362 272
+      63  92 173
+      63  496 161
+      63  39 174
+      63  545 165
+      228  233 136
+      32996  425 133
+      232  319 4
+      63  308 203
+      63  372 101
+      32831  366 202
+      63  285 199
+      32831  379 196
+      63  267 104
+      32831  295 193
+      35479  619 145
+      63  340 202
+      22  351 178
+      2711  330 196
+      32831  363 192
+      43  209 155
+      43  363 75
+      43  279 76
+      43  474 157
+      32783  39 93
+      112  44 217
+      32881  239 163
+      113  409 150
+      63  146 169
+      63  454 150
+      21  84 50
+      32789  450 32
+      32790  543 92
+      22  557 70
+      22  99 106
+      22  561 120
+      32789  62 82
+      21  247 73
+      32790  179 104
+      22  486 112
+      32789  408 72
+      22  342 44
+      20  328 130
+      20  298 275
+      22  119 204
+      22  574 187
+      22  294 198
+      32789  413 211
+      32789  123 237
+      32789  252 232
+      43  238 139
+      43  117 170
+      43  67 173
+      43  11 176
+      43  567 165
+      32789  445 128
+      63  598 165
+      63  412 139
+      63  191 162
+      63  227 150
+      43  261 113
+      43  374 109
+      63  390 122
+      63  249 132
+      32783  96 121
+      32783  147 88
+      32783  202 73
+      15  537 90
+      15  449 88
+      15  507 123
+      32783  36 306
+      32783  613 306
+      7902  143 323
+      7902  426 323
+      7907  580 315
+      7900  132 136
+      7900  516 136
+   end
+end
+room 5064
+   properties
+      picture	3500
+      north	5049 
+      south	5079 195 76 
+      east	5065 
+      west	5063 
+      roomName	"Fountain Spring"
+   end
+   atpinfo
+      22  478 262
+      32790  540 242
+      21  602 277
+      21  382 248
+      32790  402 285
+      45  524 245
+      22  125 259
+      22  117 286
+      32790  250 288
+      32789  129 239
+      226  276 292
+      233  233 205
+      22  536 216
+      32790  381 215
+      32790  546 191
+      32790  352 194
+      32790  538 167
+      45  622 314
+      45  584 268
+      45  457 232
+      22  94 11
+      32790  527 3
+      22  536 26
+      32790  70 37
+      22  46 59
+      32790  577 46
+      43  472 57
+      43  524 73
+      43  573 85
+      43  622 83
+      43  16 94
+      43  65 83
+      43  116 80
+      43  158 58
+      7903  93 46
+      7903  545 46
+      35485  383 307
+      35485  420 317
+      35485  419 334
+      60  25 298
+      2951  37 318
+      60  91 276
+      204  366 293
+      204  450 292
+      200  400 285
+      7903  90 346
+      7902  585 221
+      7902  496 348
+      3  340 288
+      3  357 296
+      3  364 308
+      3  361 273
+      3  453 282
+      3  431 283
+      3  493 300
+      3  475 289
+      3  506 310
+   end
+   objects
+      object fountain5064-0 of Fountain
+         properties
+            x	414
+            y	294
+            loop	0
+         end
+      end
+      object spring5064-1 of Spring
+         properties
+            x	431
+            y	307
+            loop	0
+         end
+      end
+      object spring5064-2 of Spring
+         properties
+            x	467
+            y	319
+            loop	0
+         end
+      end
+      object spring5064-3 of Spring
+         properties
+            x	455
+            y	312
+            loop	0
+         end
+      end
+      object chair5064-4 of Chair
+         properties
+            x	558
+            y	299
+            loop	1
+         end
+      end
+      object chair5064-5 of Chair
+         properties
+            x	516
+            y	272
+            loop	1
+         end
+      end
+      object chair5064-6 of Chair
+         properties
+            x	467
+            y	254
+            loop	2
+         end
+      end
+      object spring5064-7 of Spring
+         properties
+            x	484
+            y	333
+            loop	0
+         end
+      end
+      object spring5064-8 of Spring
+         properties
+            x	482
+            y	317
+            loop	0
+         end
+      end
+   end
+end
+room 5020
+   properties
+      picture	3500
+      north	5005 
+      south	5035 
+      east	5021 
+      west	5019 
+   end
+   atpinfo
+      2504  2 6
+      2521  229 140
+      2521  323 124
+      2522  283 141
+      35369  179 145
+      2621  319 141
+      2624  237 143 -10
+      35369  268 131
+      2593  20 149
+      2587  31 168
+      60  217 222
+      60  263 216
+      60  305 208
+      60  344 203
+      35479  160 217
+      35479  373 123 -50
+      60  374 198
+      22  62 190
+      35723  -3 200
+      15  347 78
+      103  335 115
+      22  344 1
+      32790  353 30
+      22  318 118
+      21  384 63
+      32789  337 92
+   end
+end

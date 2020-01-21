@@ -1,0 +1,19 @@
+quest  197 #6610-01-530        # Malina, Gatekeeper, Murias, 5200
+
+name  "Supplies for Malina"
+type  fedex
+
+proposal  "Jolie always seems to have something that needs a plain brown paper wrapper.  I don't know if she really has odd objects or if she just thinks she does.  Come to think of it, I don't even want to know, probably.  She's so nervous she uses me as a shipping address.  We ordered supplies together last week and they haven't come yet.  If you want the brown paper, perhaps you would go pick up our order.  Will you do this?"   
+
+declined  "Never mind, then."
+
+accepted  "We order from Ghoud in Asgard.  I'll send word asking him to hold it for pick-up."
+
+reminder   "Pick up our order from Ghoud in Asgard."
+
+completed  "Thanks.  I'll just slip Jolie's brown paper out of here so you can take it to her."
+
+getItem   qMalinaSupplies
+reward   qBrownPaper 
+end
+

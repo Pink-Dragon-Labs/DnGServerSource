@@ -1,0 +1,11 @@
+name "StaffComplex"
+title "StaffComplex"
+#worldFile "../data/lib/world/GAMEMASTERS.WLD"
+#worldFile "../data/lib/world/IMPLEMENTORS.WLD"
+#worldFile "../data/lib/world/EVENTSTA.WLD"
+worldFile "../data/lib/world/staff_complex.wld"
+worldFile "../data/lib/world/GAMEROOM.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 17

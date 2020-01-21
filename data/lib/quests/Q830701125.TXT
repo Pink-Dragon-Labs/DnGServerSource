@@ -1,0 +1,14 @@
+quest  327 #8307-01-125        # Inga, FoodCart, Asgard, 5910
+
+name  "Inga's Bestowal"
+type  fedex
+
+proposal  "My friend, it is the will of Finvarra that you have come to me, for I am able to help you.  The Hieroglyphic has been in my possession for some months.   I had instruction to offer it to a certain stranger who requests it of me.  You fill all the qualifications.  Will you take it with the blessings of the god Finvarra?"
+
+declined  "I would that you reconsider, my friend."
+
+accepted  "It is well, my friend.  Go forth and flourish."
+
+reward   qAsgardHieroglyphic 
+end
+

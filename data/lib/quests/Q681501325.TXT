@@ -1,0 +1,17 @@
+quest  227 #6815-01-325        # Lompoc, What Ails You, Murias, healer, 6216
+name  "Black Mushrooms"
+type  fedex
+
+proposal  "You'll be from Meta, then.  I sent word when I found it because I knew she would want it.  She returns the favor by watching for fossils in the desert for me.  I need a favor from you, though.  Before I give you the stone, I need you to go to Monmouth and get a supply of black mushrooms.  These aren't for healing, by the way.  I want the edible kind.  My whole family enjoys them, and I want a supply for a celebration we have scheduled.  What about it?"    
+
+declined  "Perhaps I'll go myself."
+
+accepted  "Good.  Monmouth always has a good supply.  You should be able to find some."
+
+reminder   "Go to Monmouth and find some black mushrooms."
+
+completed  "Excellent.  My thanks.  I've packed the stone for Meta."
+
+getItem   qBlackMushrooms
+reward   qPolishedStone 
+end

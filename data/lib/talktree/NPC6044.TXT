@@ -1,0 +1,26 @@
+id 6044
+
+banner "Greetings, Friend. Welcome to Straight Off the Loom. What might I do for you?"
+
+topic "Tell me about Leinster."
+        text "Leinster has been a victim of the battle between Duach and Despothes."
+	text "Their fight to determine who will rule as king of the gods has all but ruined Leinster."
+	text  "This was such a beautiful and peaceful town.  Now look at it.  Divided by more than the devastation in the middle."
+	text  "Now there is East Leinster and West Leinster, and many inhabitants are not friendly to each other."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that somewhere in the Realm are dungeons filled with wealth beyond one's wildest dreams."
+        text "That is a sight I would dearly love to see."
+	text "Although I'm not sure I'd want to go into a dungeon to see it.  Ugh."
+end      
+
+topic "Can I do anything for you?"
+        text "I have nothing at present. I hope that you check with me again."
+end
+
+topic  "I'm looking for the Amulet of Romen the Marvelous" q151:0 #q6403-01-400:0
+	quest 152 #6403-01-425
+	text  "You already received it."
+end
+

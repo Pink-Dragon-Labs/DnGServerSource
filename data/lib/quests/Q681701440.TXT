@@ -1,0 +1,16 @@
+quest  214 #6817-01-440       # Tallie, You Name It, West Leinster, 6033
+
+name  "Delivery for Tallie"
+type  fedex
+
+proposal  "I'm so glad.  I know she wanted these badly, and couldn't come for them. You're a good sort to do this favor.  You will take them to her, won't you?"
+
+declined  "Too bad."
+
+accepted  "They're ready to go."
+
+reminder   "Aren't you going to take those candles back to Mellie?"
+
+reward   qScentedCandles 
+end
+

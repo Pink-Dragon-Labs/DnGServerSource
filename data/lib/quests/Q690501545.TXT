@@ -1,0 +1,17 @@
+quest  271 #6905-01-545        # Legotia, The Soothing Touch, healer, Wen, 6111
+
+name  "Delivery for Legotia"
+type  fedex
+
+proposal  "Certainly, certainly.  She works so many hours.  I wish she could have a rest.  I'll have it ready in a jiff.  You'll take it back to her?"
+
+declined  "Never mind."
+
+accepted  "Here it is, then."
+
+reminder   "Hadn't you better take that headache potion back to Fiona?"
+
+reward   qHeadachePotion 
+end
+
+

@@ -1,0 +1,2081 @@
+# Dungeonmaker World File (wardng.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 83000
+# Dungeon last room = 83310
+# Number of objects in dungeon = 169
+# Level 0 information:
+room 83000
+	properties
+		template 31201
+		flags	0
+	end
+	objects
+		object WarriorA-83000-0 of WarriorA
+			properties
+				x	425
+				y	235
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-83000-1 of DungeonBackDoor
+			properties
+				x	86
+				y	232
+				loop	0
+				linkTo	DungeonBackDoor-83027-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DungeonBackDoor-83000-2 of DungeonBackDoor
+			properties
+				x	503
+				y	245
+				loop	1
+				linkTo	DungeonBackDoor-83009-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Column-83000-3 of Column
+			properties
+				x	9
+				y	282
+				loop	1
+			end
+			base described
+			end
+		end
+		object Rock1-83000-4 of Rock1
+			properties
+				x	482
+				y	325
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-83000-5 of Torch
+			properties
+				x	349
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object DungeonBackUp-83000-6 of DungeonBackUp
+			properties
+				x	270
+				y	228
+				loop	2
+				linkTo	tent3198-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83020
+	properties
+		template 30101
+		east 83019
+		flags	0
+	end
+	objects
+		object WarriorA-83020-0 of WarriorA
+			properties
+				x	483
+				y	238
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-83020-1 of DungeonBackDoor
+			properties
+				x	88
+				y	223
+				loop	2
+				linkTo	DungeonBackDoor-83029-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83019
+	properties
+		template 30906
+		east 83018
+		west 83020
+		flags	0
+	end
+	objects
+		object WarriorE-83019-0 of WarriorE
+			properties
+				x	182
+				y	247
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83018
+	properties
+		template 30602
+		south 83017
+		west 83019
+		flags	8
+	end
+	objects
+		object WarriorC-83018-0 of WarriorC
+			properties
+				x	499
+				y	297
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorC-83018-1 of WarriorC
+			properties
+				x	458
+				y	270
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorC-83018-2 of WarriorC
+			properties
+				x	406
+				y	253
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83017
+	properties
+		template 31001
+		south 83007
+		north 83018
+		flags	0
+	end
+	objects
+		object WarriorA-83017-0 of WarriorA
+			properties
+				x	140
+				y	289
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83008
+	properties
+		template 30102
+		south 83021
+		east 83007
+		flags	40
+	end
+	objects
+		object WarriorB-83008-0 of WarriorB
+			properties
+				x	243
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83008-1 of WarriorD
+			properties
+				x	498
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83008-2 of WarriorE
+			properties
+				x	328
+				y	303
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-83008-3 of Cleric
+			properties
+				x	192
+				y	290
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorC-83008-4 of WarriorC
+			properties
+				x	295
+				y	286
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83007
+	properties
+		template 32202
+		east 83006
+		west 83008
+		north 83017
+		flags	136
+	end
+	objects
+		object WarriorE-83007-0 of WarriorE
+			properties
+				x	469
+				y	230
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83007-1 of WarriorD
+			properties
+				x	307
+				y	232
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-83007-2 of Torch
+			properties
+				x	177
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83006
+	properties
+		template 30906
+		east 83005
+		west 83007
+		flags	0
+	end
+end
+room 83005
+	properties
+		template 30905
+		south 83010
+		east 83002
+		west 83006
+		flags	32
+	end
+	objects
+		object WarriorC-83005-0 of WarriorC
+			properties
+				x	130
+				y	274
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-83005-1 of Torch
+			properties
+				x	336
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83002
+	properties
+		template 30906
+		east 83003
+		west 83005
+		flags	0
+	end
+	objects
+		object Torch-83002-0 of Torch
+			properties
+				x	431
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83003
+	properties
+		template 31301
+		east 83004
+		west 83002
+		flags	0
+	end
+end
+room 83004
+	properties
+		template 32401
+		south 83012
+		east 83009
+		west 83003
+		flags	8
+	end
+	objects
+		object WarriorC-83004-0 of WarriorC
+			properties
+				x	209
+				y	251
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83004-1 of WarriorD
+			properties
+				x	317
+				y	237
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-83004-2 of Torch
+			properties
+				x	83
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83009
+	properties
+		template 30701
+		west 83004
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-83009-0 of DungeonBackDoor
+			properties
+				x	276
+				y	214
+				loop	2
+				linkTo	DungeonBackDoor-83000-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-83009-1 of Torch
+			properties
+				x	89
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83021
+	properties
+		template 31006
+		south 83022
+		north 83008
+		flags	40
+	end
+	objects
+		object WarriorC-83021-0 of WarriorC
+			properties
+				x	518
+				y	296
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83021-1 of WarriorD
+			properties
+				x	504
+				y	259
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83021-2 of WarriorE
+			properties
+				x	145
+				y	293
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorC-83021-3 of WarriorC
+			properties
+				x	210
+				y	262
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorB-83021-4 of WarriorB
+			properties
+				x	130
+				y	254
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorA-83021-5 of WarriorA
+			properties
+				x	86
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83010
+	properties
+		template 30402
+		south 83011
+		north 83005
+		flags	40
+	end
+	objects
+		object WarriorD-83010-0 of WarriorD
+			properties
+				x	401
+				y	290
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83010-1 of WarriorE
+			properties
+				x	188
+				y	266
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83012
+	properties
+		template 31006
+		south 83309
+		north 83004
+		flags	0
+	end
+end
+room 83022
+	properties
+		template 31003
+		south 83023
+		north 83021
+		flags	40
+	end
+	objects
+		object Paladin-83022-0 of Paladin
+			properties
+				x	200
+				y	301
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83022-1 of WarriorE
+			properties
+				x	484
+				y	306
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83011
+	properties
+		template 30401
+		north 83010
+		flags	8
+	end
+	objects
+		object Cleric-83011-0 of Cleric
+			properties
+				x	129
+				y	253
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Bones-83011-1 of Bones
+			properties
+				x	520
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object BountyHunterF-83011-2 of BountyHunterF
+			properties
+				x	388
+				y	271
+				loop	3
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-83011-3 of Paladin
+			properties
+				x	149
+				y	279
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83011-4 of WarriorE
+			properties
+				x	206
+				y	254
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object RandomArmorShirt-83011-5 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-83011-6 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomWeapon-83011-7 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomShield-83011-8 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomPlateBoots-83011-9 of RandomPlateBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomPlateCowl-83011-10 of RandomPlateCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomPoorWarriorWeapon-83011-11 of RandomPoorWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+		object RandomStuff-83011-12 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83011-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 83014
+	properties
+		template 30101
+		east 83309
+		flags	0
+	end
+	objects
+		object WarriorA-83014-0 of WarriorA
+			properties
+				x	486
+				y	249
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-83014-1 of Torch
+			properties
+				x	321
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83309
+	properties
+		template 32101
+		east 83015
+		west 83014
+		north 83012
+		flags	0
+	end
+end
+room 83015
+	properties
+		template 30703
+		east 83016
+		west 83309
+		flags	72
+	end
+	objects
+		object Cleric-83015-0 of Cleric
+			properties
+				x	572
+				y	261
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83015-1 of WarriorE
+			properties
+				x	417
+				y	275
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83015-2 of WarriorE
+			properties
+				x	317
+				y	245
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83016
+	properties
+		template 30701
+		west 83015
+		flags	0
+	end
+	objects
+		object LockedChest-83016-0 of LockedChest
+			properties
+				x	288
+				y	269
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-83016-1 of Torch
+			properties
+				x	80
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83025
+	properties
+		template 30805
+		east 83023
+		flags	0
+	end
+	objects
+		object Bones-83025-0 of Bones
+			properties
+				x	133
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Cyclops-83025-1 of Cyclops
+			properties
+				x	444
+				y	257
+				loop	0
+				color	1536
+			end
+			base character
+			end
+		end
+		object Medusa-83025-2 of Medusa
+			properties
+				x	374
+				y	276
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Devil-83025-3 of Devil
+			properties
+				x	248
+				y	231
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-83025-4 of Torch
+			properties
+				x	421
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Embers-83025-5 of Embers
+			properties
+				x	293
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireC-83025-6 of FireC
+			properties
+				x	285
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeA-83025-7 of SmokeA
+			properties
+				x	282
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-83025-8 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+		object RandomLeatherShirt-83025-9 of RandomLeatherShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+		object RandomLeatherBoots-83025-10 of RandomLeatherBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+		object RandomLeatherPants-83025-11 of RandomLeatherPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-83025-12 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+		object RandomPoorWarriorWeapon-83025-13 of RandomPoorWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-83025-14 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83025-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83023
+	properties
+		template 32102
+		east 83024
+		west 83025
+		north 83022
+		flags	0
+	end
+end
+room 83024
+	properties
+		template 32302
+		south 83026
+		west 83023
+		flags	168
+	end
+	objects
+		object Cleric-83024-0 of Cleric
+			properties
+				x	58
+				y	273
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83024-1 of WarriorD
+			properties
+				x	121
+				y	264
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83024-2 of WarriorE
+			properties
+				x	445
+				y	299
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-83024-3 of BountyHunterF
+			properties
+				x	236
+				y	259
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Rock1-83024-4 of Rock1
+			properties
+				x	381
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object SmokeB-83024-5 of SmokeB
+			properties
+				x	357
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83026
+	properties
+		template 32304
+		north 83024
+		flags	0
+	end
+	objects
+		object WarriorA-83026-0 of WarriorA
+			properties
+				x	108
+				y	271
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object LockedChest-83026-1 of LockedChest
+			properties
+				x	447
+				y	271
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomChainCowl-83026-2 of RandomChainCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomChainPants-83026-3 of RandomChainPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomChainShirt-83026-4 of RandomChainShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomBracers-83026-5 of RandomBracers
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomPoorWarriorWeapon-83026-6 of RandomPoorWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomLeatherBoots-83026-7 of RandomLeatherBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-83026-8 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomRing-83026-9 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomBelt-83026-10 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomPlatePants-83026-11 of RandomPlatePants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomPlateCowl-83026-12 of RandomPlateCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomPlateShirt-83026-13 of RandomPlateShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomPlateBoots-83026-14 of RandomPlateBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-83026-15 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomBracers-83026-16 of RandomBracers
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomShield-83026-17 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomBelt-83026-18 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+		object RandomMonsterMegaTreasure-83026-19 of RandomMonsterMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83026-1
+			end
+			base described
+			end
+		end
+	end
+end
+room 83027
+	properties
+		template 30805
+		east 83028
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-83027-0 of DungeonBackDoor
+			properties
+				x	243
+				y	216
+				loop	2
+				linkTo	DungeonBackDoor-83000-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83028
+	properties
+		template 30901
+		east 83041
+		west 83027
+		flags	0
+	end
+	objects
+		object WarriorC-83028-0 of WarriorC
+			properties
+				x	170
+				y	250
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83041
+	properties
+		template 30906
+		east 83034
+		west 83028
+		flags	0
+	end
+end
+room 83034
+	properties
+		template 30905
+		south 83035
+		east 83040
+		west 83041
+		flags	8
+	end
+	objects
+		object WarriorE-83034-0 of WarriorE
+			properties
+				x	455
+				y	277
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorB-83034-1 of WarriorB
+			properties
+				x	356
+				y	269
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83040
+	properties
+		template 30201
+		west 83034
+		flags	0
+	end
+end
+room 83029
+	properties
+		template 30303
+		south 83030
+		flags	8
+	end
+	objects
+		object WarriorD-83029-0 of WarriorD
+			properties
+				x	545
+				y	286
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorA-83029-1 of WarriorA
+			properties
+				x	470
+				y	244
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object DungeonBackDoor-83029-2 of DungeonBackDoor
+			properties
+				x	134
+				y	239
+				loop	0
+				linkTo	DungeonBackDoor-83020-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83035
+	properties
+		template 31004
+		south 83036
+		north 83034
+		flags	8
+	end
+	objects
+		object WarriorB-83035-0 of WarriorB
+			properties
+				x	191
+				y	303
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object BountyHunterF-83035-1 of BountyHunterF
+			properties
+				x	440
+				y	267
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorA-83035-2 of WarriorA
+			properties
+				x	350
+				y	249
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Paladin-83035-3 of Paladin
+			properties
+				x	292
+				y	264
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorC-83035-4 of WarriorC
+			properties
+				x	104
+				y	298
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Fountain-83035-5 of Fountain
+			properties
+				x	194
+				y	259
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83030
+	properties
+		template 31003
+		south 83031
+		north 83029
+		flags	0
+	end
+end
+room 83039
+	properties
+		template 30805
+		east 83036
+		flags	0
+	end
+	objects
+		object WarriorD-83039-0 of WarriorD
+			properties
+				x	487
+				y	272
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83036
+	properties
+		template 31302
+		south 83037
+		east 83038
+		west 83039
+		north 83035
+		flags	0
+	end
+	objects
+		object WarriorE-83036-0 of WarriorE
+			properties
+				x	360
+				y	268
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83038
+	properties
+		template 30701
+		west 83036
+		flags	8
+	end
+	objects
+		object Paladin-83038-0 of Paladin
+			properties
+				x	207
+				y	258
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-83038-1 of Cleric
+			properties
+				x	344
+				y	246
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83038-2 of WarriorD
+			properties
+				x	73
+				y	278
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83038-3 of WarriorE
+			properties
+				x	91
+				y	232
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83031
+	properties
+		template 30802
+		east 83032
+		north 83030
+		flags	8
+	end
+	objects
+		object WarriorE-83031-0 of WarriorE
+			properties
+				x	277
+				y	277
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorD-83031-1 of WarriorD
+			properties
+				x	215
+				y	252
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83032
+	properties
+		template 31301
+		east 83033
+		west 83031
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-83032-0 of DungeonBackDoor
+			properties
+				x	356
+				y	226
+				loop	2
+				linkTo	DungeonBackDoor-83047-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83033
+	properties
+		template 30201
+		west 83032
+		flags	8
+	end
+	objects
+		object Ghoul-83033-0 of Ghoul
+			properties
+				x	188
+				y	278
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83033-1 of Ghoul
+			properties
+				x	162
+				y	246
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83033-2 of Ghoul
+			properties
+				x	128
+				y	264
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object CryptKeeper-83033-3 of CryptKeeper
+			properties
+				x	258
+				y	256
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-83033-4 of Lich
+			properties
+				x	404
+				y	281
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-83033-5 of Lich
+			properties
+				x	366
+				y	262
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83037
+	properties
+		template 30403
+		north 83036
+		flags	0
+	end
+	objects
+		object Priestess-83037-0 of Priestess
+			properties
+				x	236
+				y	240
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Altar-83037-1 of Altar
+			properties
+				x	247
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83044
+	properties
+		template 30501
+		south 83045
+		east 83043
+		flags	0
+	end
+	objects
+		object WarriorE-83044-0 of WarriorE
+			properties
+				x	471
+				y	245
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83043
+	properties
+		template 30906
+		east 83042
+		west 83044
+		flags	0
+	end
+end
+room 83042
+	properties
+		template 32302
+		south 83046
+		west 83043
+		flags	0
+	end
+	objects
+		object Fury-83042-0 of Fury
+			properties
+				x	444
+				y	296
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+	end
+end
+room 83047
+	properties
+		template 30805
+		east 83045
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-83047-0 of DungeonBackDoor
+			properties
+				x	246
+				y	210
+				loop	2
+				linkTo	DungeonBackDoor-83032-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83045
+	properties
+		template 32502
+		west 83047
+		north 83044
+		flags	8
+	end
+	objects
+		object screechingHorror-83045-0 of screechingHorror
+			properties
+				x	283
+				y	236
+				loop	2
+				color	99
+			end
+			base character
+			end
+		end
+		object Bat-83045-1 of Bat
+			properties
+				x	105
+				y	325
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-83045-2 of Bat
+			properties
+				x	436
+				y	207
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object cryptBat-83045-3 of cryptBat
+			properties
+				x	286
+				y	341
+				loop	3
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-83045-4 of cryptBat
+			properties
+				x	224
+				y	258
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object StormBat-83045-5 of StormBat
+			properties
+				x	442
+				y	300
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object Bat-83045-6 of Bat
+			properties
+				x	338
+				y	265
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 83046
+	properties
+		template 30402
+		south 83048
+		north 83042
+		flags	0
+	end
+end
+room 83048
+	properties
+		template 30402
+		south 83308
+		north 83046
+		flags	0
+	end
+	objects
+		object Paladin-83048-0 of Paladin
+			properties
+				x	414
+				y	302
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83050
+	properties
+		template 30805
+		east 83308
+		flags	8
+	end
+	objects
+		object BountyHunterF-83050-0 of BountyHunterF
+			properties
+				x	297
+				y	256
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83050-1 of WarriorE
+			properties
+				x	400
+				y	255
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-83050-2 of Cleric
+			properties
+				x	117
+				y	272
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Cleric-83050-3 of Cleric
+			properties
+				x	151
+				y	248
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83050-4 of WarriorE
+			properties
+				x	435
+				y	280
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83050-5 of WarriorE
+			properties
+				x	475
+				y	243
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 83308
+	properties
+		template 32202
+		east 83051
+		west 83050
+		north 83048
+		flags	0
+	end
+end
+room 83051
+	properties
+		template 30701
+		west 83308
+		flags	8
+	end
+	objects
+		object WarriorE-83051-0 of WarriorE
+			properties
+				x	324
+				y	278
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83051-1 of WarriorE
+			properties
+				x	249
+				y	249
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83051-2 of WarriorE
+			properties
+				x	299
+				y	217
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83051-3 of WarriorE
+			properties
+				x	206
+				y	288
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object WarriorE-83051-4 of WarriorE
+			properties
+				x	119
+				y	255
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end

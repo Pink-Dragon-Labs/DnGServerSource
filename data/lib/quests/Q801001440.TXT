@@ -1,0 +1,14 @@
+quest  276 #8010-01-440        # Mikial, Shop of Defense, Silverbrook, 6401
+
+name  "Pick up from Mikial"
+type  fedex
+
+proposal  "I had planned to deliver it when I took a food break, but I'll let you take it to him.  Will you?
+
+declined  "I'll do it then."
+
+accepted  "Here it is.  It's a good knife."
+
+reward   qCarvingKnife 
+end
+

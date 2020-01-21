@@ -1,0 +1,12 @@
+id 300
+
+banner "Greetings!  Welcome to my shop.  How can I help you?"
+
+topic "Who are you?"
+	text "My name is Bethany.  I own and operate this wonderful shop."
+end
+
+topic "Garon's Boots" q15:0 #q200:0 
+	quest 16 #300
+	text "I've already given you those boots."
+end

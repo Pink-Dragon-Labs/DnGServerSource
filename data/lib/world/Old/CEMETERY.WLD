@@ -1,0 +1,63 @@
+room 21361
+   properties
+      picture	3405
+      north	21353 
+      south	21369 
+      east	21362 
+      west	21360 
+   end
+   atpinfo
+      1600  14 101
+      34369  626 102
+      34364  363 198
+      1597  339 185
+      1596  275 205
+      1591  423 124
+      1597  307 187
+      1593  341 110
+      1593  281 94
+      1597  375 192
+      34364  385 201
+      1594  27 94
+      1597  375 188
+      1593  158 94
+      1596  276 191
+      1593  524 93
+      1593  214 110
+      1596  271 199
+      1593  607 95
+      1588  330 201
+      1593  403 95
+      34365  242 193
+   end
+   objects
+      object fireC21361-0 of FireC
+         properties
+            x	327
+            y	202
+            loop	0
+         end
+      end
+      object fireB21361-1 of FireB
+         properties
+            x	312
+            y	206
+            loop	1
+         end
+      end
+      object fireB21361-2 of FireB
+         properties
+            x	336
+            y	203
+            loop	0
+         end
+      end
+      object fireC21361-3 of FireC
+         properties
+            x	324
+            y	207
+            loop	1
+         end
+      end
+   end
+end

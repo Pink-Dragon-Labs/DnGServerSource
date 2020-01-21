@@ -1,0 +1,7 @@
+name "DunTemplate"
+title "dungeon templates"
+worldFile "../data/lib/world/DUNTEMPL.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 0
+midiFile 9

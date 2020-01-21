@@ -1,0 +1,19 @@
+quest  68 #6102-01-525        # Aligar, Ali's Weaponry, Arimathor, 6817
+
+name  "Blue Globe"
+type  fedex
+
+proposal  "I happen to have one here, friend.  Fellow tossed it in to a barter deal.  If you really want it, I'll make a barter of my own.  You can have the belt if you'll make a trek to Kurz for me.  There's a special item I want for my niece.  What about it?"
+
+declined  "Enjoy the desert while you're in town."
+
+accepted  "Good, good.  I've been keeping an ear to the ground to find a blue globe, and I've heard of one in Kurz.  Try to find it for me."
+
+reminder   "Go to Kurz and look for a blue globe.
+
+completed  "Ah, very nice.  This will please her.  Here's the belt you wanted."
+
+getItem   qBlueGlobe
+reward   qBraidedBelt 
+end
+

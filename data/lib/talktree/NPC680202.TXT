@@ -1,0 +1,28 @@
+id 680202
+
+banner "Looks like you could use some new armor, or maybe some additional weapons. You'll find none better in any shop in the land."
+
+topic "What does it mean to be a Knight of Darkness?"
+	text "A Knight of Darkness is one who has dedicated themselves to the god Duach, the Lord of Darkness and the Heart of Evil."
+	text "A Knight of Darkness listens to the words of the Dark Lord's Prophet and thereby learns the will of Duach so that they may help ensure that evil thrives throughout the lands."
+	text "A Knight of Darkness pursues the Dark Arts with honor, dignity, and chivalry. Some folks sometimes get confused about what that means. It's easy really."
+	text "Honor, staying true to the respect of self and others."
+	text "Dignity, that quality whereby one is worthy of the respect and honor of others."
+	text "Chivalry, the free offer of generosity and courtesy, the gracious manner by which one interacts with others. Afterall, what fun is there in attacking the helpless? What honor is there in defeating the weak?"
+end
+
+topic "Tell me about the training grounds."
+        text "What? You haven't used them yet? Surely you know how important it is that everyone trains for that which comes."
+	text "The training grounds are a place where you can practice the skills of combat with your brethren. Just go through the door there and follow the sounds of battle."
+	text "But, of course, not everyone cares to engage in combat with their fellows. Such persons should train by hunting the creatures of the wild."
+end
+
+topic "Barin? What does your name mean?"
+        text "It means Noble Warrior. But don't count on that to keep me from teaching you a lesson in manners out on the Training Grounds."
+end 
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors? Is that how you spend your time? Spreading gossip and listening to rumors?"
+	text "By Duach, I'll give you a rumor! My blade against your skills. Now's there's a rumor for you to worry about!"
+end      
+

@@ -1,0 +1,23 @@
+name "Rend01ab"
+title "The Rendezvous"
+worldFile "../data/lib/world/D_REND_01b.WLD"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 29
+groupChance 30
+noAlignmentChange
+monster Kilrog 4
+monster HellSnake 2
+monster Devil 2
+monster FlameDaemon 2
+monster KingCobra 2
+ambushInterval 10
+ambush 45 Devil
+ambush 45 LavaSerpent
+ambush 45 SpittingCobra
+ambush 80 FlameDaemon 
+ambush 30 Kilrog
+ambush 60 KingCobra
+ambush 70 HellSnake
+ambush 16 Guardian

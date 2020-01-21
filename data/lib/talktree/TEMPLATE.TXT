@@ -1,0 +1,15 @@
+id *
+
+banner "Greetings, Friend. Welcome to my food court. May I help you?"
+
+topic "Tell me about *town."
+        text "*"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "*"
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, but call again."
+end

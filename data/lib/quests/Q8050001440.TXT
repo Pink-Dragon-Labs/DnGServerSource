@@ -1,0 +1,19 @@
+quest  389 #80500-01-440        #Inila, Ambrosia, Usk, 8104
+
+name  "Smoked Stripe for Inila"
+type  fedex
+
+proposal  "Kaliri is a grand human.  She helped me out once, and she didn't even know me at the time.  Some humans are wary of giants, but Kaliri has a heart big enough for everyone.  I haven't met her grandson, but I know she sets great store by him.  Let's do one thing more for her.  While I get the jellied berries ready, you can make a jaunt to Monmouth.  This time of year is the best season for smoked stripe .  Let's get some for Kaliri.  You'll do that, won't you?"
+
+declined  "Hmmm."
+
+accepted  "Good.  Mention Kaliri, now."
+
+reminder   "Fetch some smoked stripe from Monmouth."
+
+completed  "Lari sent her best, didn't she.  I'll just add my jellied berries to the basket."  
+
+getItem   qLariStripe
+reward   qInilaBerries
+end
+

@@ -1,0 +1,19 @@
+quest  96 #6211-01-525      # Geezer, Potions, Guennor, 6510
+
+name  "Smoked Stripe for Geezer"
+type  fedex
+
+proposal  "Cast yer eyes on yonder shelf whilst ye hear me yarn.  Feller came into me shop t'other day, regallin' me with tales o' seein' Finvarra himself.  Yep, sez he woke from sound sleep whilst campin' far from anythin' to see the god Finvarra passing, saw yon chip fall, and when his knees quit their clatterin' he collected the bit and skedaddled.  He told 'is tale, tossed that bit down, and took off. Old Geezer, which be me, do like a nice tight bargain, but foolin' about with the gods tain't fer me.  Mebbe true, mebbe not.  Ye've heard me yarn.  If ye want yon bit, it be yours for fetchin' me a mess 'o smoked stripe."
+
+declined  "If ye be thinkin' me daft, ye be far from truth, fer 'tis not a tale to win me heart nor head.  Mebbe."
+
+accepted  "Fetch some smoked stripe."
+
+reminder   "If ye want yon bit, ye'll fetch me smoked stripe. It be a Monmouth treat."
+
+completed  "Smoked stripe be a good feed.  Settle me nerves.  Take yon bit, and get going."
+
+getItem   qSmokedStripe
+reward   qFinvarraSpike 
+end
+

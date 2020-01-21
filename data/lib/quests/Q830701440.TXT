@@ -1,0 +1,16 @@
+quest  339 #8307-01-440        # Linez, Food Cart, Arimathor, 5809
+
+name  "Package from Linez"
+type  fedex
+
+proposal  "Yes, of course.  I'm glad she will get this dill while it is fresh.  You will take it back to her, won't you?"
+
+declined  "I must have misunderstood you."
+
+accepted  "It's all packaged."
+
+reminder   "You will remember to deliver the dill to Sanria, won't you."
+
+reward   qSanriaDill 
+end
+

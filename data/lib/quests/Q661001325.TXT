@@ -1,0 +1,19 @@
+quest  187 #6610-01-325       # Ali-aqaba, Sand and Roses tavern, Arimathor, 6813
+
+name  "Smoked Stripe"
+type  fedex
+
+proposal  "That's what I like about being in business.  Supply and demand.  I was just offered a supply of wasp's wings, so I took them with the idea that there would be demand.  And here you are, demanding, so to speak.   Barter is a way of life here, and this is my offer.  I'll give you the very best of all these wasp wings if you will make a journey to Monmouth for me.  Will you?"
+
+declined  "It's your choice."
+
+accepted  "A busy shopkeeper can't just travel across the Realm at will.  I've got an order of smoked stripe waiting for me in Monmouth."
+
+reminder   "Go to Monmouth and fetch my order of smoked stripe."
+
+completed  "I've been hungering for a taste of this.  It's well worth one of these wasp wings."
+
+getItem   qSmokedStripe
+reward   qWaspWing 
+end
+

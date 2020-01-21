@@ -1,0 +1,152 @@
+#
+# skill tools
+#
+
+object WeaponsmithTool of Hammer
+	properties
+		name "Weaponsmithing Hammer"
+		value 500
+		health 200
+		skill weaponsmith
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base mix
+		skillLevel familiar
+	end
+
+	base described
+		text "You see a weaponsmithing tool."
+		shopText "Here is a fine weaponsmithing hammer."
+	end
+end
+
+object ArmorerTool of Hammer
+	properties
+		name "Armorsmithing Hammer"
+		value 500
+		health 200
+		skill armorer
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base mix
+		skillLevel familiar
+	end
+
+	base described
+		text "You see a armorsmithing tool."
+		shopText "Here is a fine armorsmithing hammer."
+	end
+end
+
+object AlchemyTool of Bowl
+	properties
+		name "Alchemy Tool"
+		value 500
+		health 200
+		color 99
+		skill alchemy
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 12.0
+	end
+
+	base mix
+		skillLevel familiar
+	end
+
+	base described
+		text "You see a alchemy bowl."
+		shopText "Here is a fine alchemy bowl, perfect to mix potions with."
+	end
+end
+
+object HealerTool of Bowl
+	properties
+		name "Healer Tool"
+		value 100
+		health 200
+		color 104
+		skill healer
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base mix
+		skillLevel familiar
+	end
+
+	base described
+		text "You see a healer tool."
+		shopText "Here is a fine healer's tool."
+	end
+end
+
+object TrackingTool
+	properties
+		name "Tracking Tool"
+		basicName "tool"
+		value 100
+		health 200
+		skill tracking
+		view 58700
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+	end
+
+	base carryable
+		weight 0.5
+	end
+
+	base mix
+		skillLevel familiar
+	end
+
+	base described
+		text "You see a tracker's compass."
+		shopText "Here is a tracker's compass."
+	end
+end

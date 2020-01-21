@@ -1,0 +1,45 @@
+id 7308
+
+banner "Hello, Adventurer. I am Lubitsch. What would you like from me?"
+
+topic "Tell me about Drune."
+        text "Drune? It's a great place. Sorta rustic. We're mostly elves here, you know. And those who aren't are a decent sort in spite of it."
+	text  "There's good hunting in the forests nearby.  Lots of challenges."
+	text  "I like a good bit of fishing now and then, myself."  
+
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I don't put much stock in rumors. They're seldom true."
+	text "Though I must admit, I didn't believe the one about the Mayor having a fling with the Vice-Mayor, and it turned out to be true."
+end      
+
+topic "How about a limerick?"
+	text  "Sure thing.  How about this one."
+	text  "The bottle of perfume that Willie sent"
+	text  "Was highly displeasing to Millicent."
+	text  "Her thanks were so cold"
+	text  "That they quarreled, I'm told,"
+	text  "Through that silly scent Willie sent Millicent."
+	text  "I don't write 'em.  I just collect 'em."
+	text  "Don't ask for 'em if you don't like 'em."
+end
+
+topic "Can I do anything for you?"
+        text "Nothing today, thanks anyway. I do have tasks from time to time, so check with me another time."
+end
+
+topic  "I'm here for Meego's cheese." q88:0 #q6205-01-535:0
+	quest 89 #6205-01-540
+	text  "I gave it to you."
+end
+
+topic  "Would you know anything about an embroidered shawl with a peacock." q211:0 #q6817-01-425:0
+	quest 212 #6817-01-430
+	text  "Cripes, how many do you need?  I gave you one."
+end
+
+topic  "Vigo sent me for his lunch." q284:0 #q8021-01-125:0
+	quest 285 #8021-01-130
+	text  "You already took it."
+end

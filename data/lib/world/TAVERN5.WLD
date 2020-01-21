@@ -1,0 +1,115 @@
+room 6079
+   properties
+      picture	4000
+      roomName	"The Banshee's Wail Interior"
+   end
+   atpinfo
+      2164  94 155 50
+      2028  454 6
+      2028  177 7
+      2127  287 128 150
+      2029  249 49
+      2005  551 111 100
+      2103  228 247
+      2128  233 206 68
+      2017  71 111 100
+      2166  316 302 200
+      2241  331 180 -20
+      2081  559 147
+      2105  138 215 -20
+      2109  231 203
+      2106  330 247
+      2166  150 140 40
+      2117  389 116 20
+      2029  363 49
+      2018  7 113 54
+      2599  488 291
+      2006  617 113 50
+      2082  233 139
+      2080  18 157
+   end
+   objects
+      object chair6079-0 of Chair
+         properties
+            x	402
+            y	296
+            loop	0
+         end
+      end
+      object chair6079-1 of Chair
+         properties
+            x	446
+            y	272
+            loop	0
+         end
+      end
+      object chair6079-2 of Chair
+         properties
+            x	575
+            y	295
+            loop	1
+         end
+      end
+      object chair6079-3 of Chair
+         properties
+            x	533
+            y	273
+            loop	1
+         end
+      end
+      object chair6079-4 of Chair
+         properties
+            x	141
+            y	202
+            loop	2
+         end
+      end
+      object chair6079-5 of Chair
+         properties
+            x	488
+            y	269
+            loop	2
+         end
+      end
+      object door6079-8 of Door
+         properties
+            x	597
+            y	210
+            loop	1
+            linkTo	door5079-0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object Anga6079-11 of FlowerCart
+         properties
+            x	229
+            y	233
+            loop	2
+            name	"Neela"
+         end
+	   base talk
+			talkTreeID 6079
+		end
+         base character
+            sex	1
+            properName	"Neela (NPC)"
+         end
+         base container
+            worn	GreenShirt
+            worn	BlackPants
+            worn	BlackCowl
+            worn	GreenLowBoots
+            object	LeatherPouch
+            object	Mirror
+            object	Lockpick
+            head	1 3 0 0 2 4 5 9 4 3 1 2 
+         end
+         base described
+            text	"When Anga's feet get tired, she slips in here for a cold one.  She always brings some merchandise with her."
+         end
+      end
+   end
+end
+

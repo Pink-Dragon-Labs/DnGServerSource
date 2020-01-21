@@ -1,0 +1,16 @@
+quest  259 #6902-01-535        #Sanria, Arimathor Fantastic Meals, 6804
+
+name  "Food Basket"
+type  fedex
+
+proposal  "Yes, indeed.  Such a dear old soul, she is.  The grandson is a fine fellow, but he may not like her fussing over him.  I don't know, mind you, but I wonder.  It is certain that she means well, Old Kaliri does.  And she's not to be trifled with, either.  She's very wise.  On second thought, the grandson may well appreciate her efforts.  In fact, if he does not, he is a foolish lad.  Not such a lad, really, since he is a man.  Oh, well, I will get you the basket if you plan to deliver it."
+
+declined  "You will disappoint Old Kaliri."
+
+accepted  "Here it is, then.  And watch out for cobras in the desert.  They are not friendly, not at all."
+
+reminder   "Take the food basket to the desert.  Kaliri's grandson is in a cave hereabouts."
+
+reward   qFoodBasket  
+end
+

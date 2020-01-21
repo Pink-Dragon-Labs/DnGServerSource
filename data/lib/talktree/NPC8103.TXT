@@ -1,0 +1,53 @@
+id 8103
+
+banner "Hello, Friend. Welcome to Marvelous Armory. I'm Lopier, chief armorer."
+
+topic "Tell me about Usk."
+        text "It's my understanding that Usk was founded by giants from Bath who no longer wished to live there."
+	text "I gather Bath is a pretty tough town. I'd never go there."
+	text "My whole family comes from around here.  I'm the only one who took up a business and settled in, though."
+	text "The rest of them are rovers.  I'd say you're roving about the Realm, too, by the looks of you." 
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors are so insidious. Would you believe I heard that Monji of Excellent Weaponry uses aluminum to forge his weapons, claims they're steel, and charges top price for them."
+	text "You should nip that one if you hear it. I know Monji and he would never demean himself like that.  Rumors are disgusting!"
+end      
+
+topic "Can I do anything for you?"
+        text "If ever you have evidence of whoever is spreading rumors about Monji, tell me. I'd gladly pay for that sort of information."
+end
+
+topic  "I need a gravestone chip from Usk." q184:0 #q6610-01-200:0
+	quest 185 #6610-01-225
+	text  "I only had one, and I gave it to you."
+end
+
+topic  "I'm looking for an ancient troll knife." q17:0 # q6043-01-400:0
+	quest 18 #6043-01-425
+	text  "I only had the one, and I gave it to you."
+end
+
+topic  "I'm interested in learning warcraft." c1:5
+	banner  "Long Swords are my specialty.  If you already have expert status in the Long Sword, I can help you with master and grand-master skills."
+
+	topic  "How do I get to expert status?" c1:3
+		text  "You've got to buy the skill books and study them.  Parker's Learning Emporium here in Usk carries them."
+	end
+
+	topic  "I am interested in Long Sword master skills."  s1:3  
+		quest 161 #6501-01-400  #Leaving Guennor number, 6501, to avoid changing whole chain of quest numbers.
+		text "You've got the skill book but you've got to study it to gain the skill."
+	end
+
+	topic  "I am interested in Long Sword grand-master skills."  s1:4  
+		quest 166 #6501-01-500
+		text "You're going to have to study that skill book you have to gain the skill."
+	end
+
+	topic  "What else can I learn from you?" s1:5
+		text "Nothing more from me. If you want to learn unarmed combat, go find Sarge.  He's in one of the dungeons."
+		text "Finish what you started with Long Sword.  That's my advice."
+	end
+end
+ 

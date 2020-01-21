@@ -1,0 +1,176 @@
+
+room 8000
+   properties
+      picture	3300
+   end
+   atpinfo
+      2001  595 35
+      2001  457 14
+      2001  222 21
+      2002  527 38
+      2013  363 14
+      2013  318 21
+      2013  125 19
+      2014  346 30
+      2014  37 45
+      2087  617 147 -25
+      2593  558 147
+      2086  104 133 -26
+      2592  117 133
+      2116  294 101
+      2599  367 270
+      2164  295 94
+      2165  529 102
+      2467  214 179 45
+      34989  -81 232
+      2111  217 177
+      2111  217 178 25
+      34989  41 46 -140
+      2131  210 179 12
+   end
+   objects
+      object plankDoor8000-0 of PlankDoor
+         properties
+            x	461
+            y	181
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object plankDoor8000-1 of PlankDoor
+         properties
+            x	348
+            y	181
+            loop	0
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair8000-2 of Chair
+         properties
+            x	325
+            y	252
+            loop	0
+         end
+      end
+      object chair8000-3 of Chair
+         properties
+            x	367
+            y	249
+            loop	2
+         end
+      end
+      object chair8000-4 of Chair
+         properties
+            x	409
+            y	251
+            loop	1
+         end
+      end
+      object chair8000-5 of Chair
+         properties
+            x	151
+            y	189
+            loop	0
+         end
+      end
+      object chair8000-6 of Chair
+         properties
+            x	610
+            y	209
+            loop	1
+         end
+      end
+      object firePlace8000-7 of FirePlace
+         properties
+            x	65530
+            y	203
+            loop	1
+         end
+      end
+   end
+end
+room 8001
+   properties
+      picture	3300
+   end
+   atpinfo
+      2001  595 83
+      2002  521 85
+      2013  36 55
+      2086  -2 170 -26
+      2592  11 170
+      2165  614 158
+      2467  154 215 25
+      2221  423 213
+      2002  428 71
+      2425  265 218 30
+      2421  288 219 3
+      2427  221 218 35
+      2025  316 52
+      2026  199 62
+      2166  331 140
+      2599  109 276
+      2025  138 52
+      2112  135 209
+      2088  152 163 -15
+      2594  131 162
+   end
+   objects
+      object plankDoor8001-0 of PlankDoor
+         properties
+            x	548
+            y	242
+            loop	1
+         end
+         base openable
+            isOpen	0
+         end
+      end
+      object chair8001-1 of Chair
+         properties
+            x	68
+            y	251
+            loop	0
+         end
+      end
+      object chair8001-2 of Chair
+         properties
+            x	113
+            y	253
+            loop	2
+         end
+      end
+      object chair8001-3 of Chair
+         properties
+            x	165
+            y	258
+            loop	1
+         end
+      end
+      object chair8001-4 of Chair
+         properties
+            x	321
+            y	268
+            loop	0
+         end
+      end
+      object chair8001-5 of Chair
+         properties
+            x	406
+            y	269
+            loop	1
+         end
+      end
+      object bed8001-6 of Bed
+         properties
+            x	294
+            y	217
+            loop	2
+         end
+      end
+   end
+end

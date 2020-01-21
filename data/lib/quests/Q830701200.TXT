@@ -1,0 +1,19 @@
+quest   328 #8307-01-200        #Wanda, Elven Enchantment, Drune, 8307
+
+name  "Ancient Faerie Parchment"
+type  fedex
+
+proposal  "Ah, apprentice of meditation, I perceive you are indeed ready to receive instruction in the Proficient skills of Meditation.  The acumen you show in seeking instruction from me, Gracia (also known as Wanda) is noteworthy.  Without further ado, I hereby send you forth on a quest for an Ancient Faerie Parchment.  I am making a study of these ancient artifacts.  Do you accept your assignment?"
+
+declined  "I feel distress at your refusal."
+
+accepted  "I am pleased.  Begin your quest in Asgard."
+
+reminder   "Seek for an Ancient Faerie Parchment in Asgard."
+
+completed  "You have done well.  I now bestow upon you the spellbook for Meditation Proficiency."
+
+getItem   qFaerieParchment
+reward   skbMeditationII 
+end
+

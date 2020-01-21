@@ -1,0 +1,35 @@
+id 8101
+
+banner "I was just going to take a break. Oh, all right, I'll wait if you hurry up."
+
+topic "Tell me about Usk."
+        text "Are you a historian or something? I don't know anything about Usk. I just work here."
+	text "It's a town, a town full of giants."
+	text "What's with all the questions about Usk?"
+	text "For this I postponed my break?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I did hear that it is illegal to believe in the Mendulan Armada sightings."
+        text "But I don't believe in anything at all, so that doesn't affect me."
+end      
+
+topic "Can I do anything for you?"
+        text "I don't think so. You don't look like you could accomplish very much."
+end
+
+topic  "Do you have the wool skeins for Alysa?" q153:0 #q6403-01-430:0
+	quest 154 #6403-01-435
+	text  "I gave them to you!"
+end
+
+topic  "I'm looking for the Amulet of Blue Steel." q277:0 #q8010-01-500:0
+	quest 278 #8010-01-525
+	text  "Let's not go through that again!"
+end
+
+topic  "I've come for Bekka's shoes." q59:0 #q6077-01-540:0
+	quest 60 #6077-01-545
+	text  "You took them, nitwit."
+end
+

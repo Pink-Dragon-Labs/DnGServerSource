@@ -1,0 +1,18 @@
+quest  89 #6205-01-540       #Lubitsch, Food Cart of Drune, 7308
+
+name  "Meego's Cheese
+type  fedex
+
+proposal  "Sure thing.  I've got a package for him.  The boss just gave it to me.   Say, what's the big deal about cheese, anyway?  This Meego sure must be somebody special, the way the boss was going on about this.  I don't know why I ask you.  You won't tell me anything.  Nobody tells me anything.  I'm supposed to ask, will you to be careful with it?" 
+
+declined  "Then you don't get the package."
+
+accepted  "Ok.  Here it is.  I hope you know what you're doing.  I sure don't.  Sheesh, it's just cheese!"
+
+reminder   "You're supposed to take that package right back to Meego."
+
+reward   qMeegoCheese 
+end
+
+
+

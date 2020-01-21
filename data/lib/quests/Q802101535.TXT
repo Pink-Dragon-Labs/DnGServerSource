@@ -1,0 +1,18 @@
+quest 303 #8021-01-535    #Skon, Gnarled Leg Tavern, West Leinster, 6004
+
+name  "Skon's Deal"
+type  fedex
+
+proposal  "Geezer sent you, did he?  It's true enough the odd part of different creatures is to be had around here.  That battle between Despothes and Duach left many bits and pieces.  It's true, too, that I've come by many of those pieces.  But a wolf's tail?  That's a good one.  I'd hate to let old Geezer down, though.  Let me think a minute.  OK.  Tell you what.  I want to follow up on something.  Why don't you go over to Andrea at Leinster Limited and pick up my scarf.  She sent word that I dropped it when I was in there.  By the time you're back, I may have something.  How about it?"  
+
+declined  "Why would you abandon the quest now?"
+
+accepted  "Come straight back."
+
+reminder   "Andrea has my scarf at Leinster Limited."
+
+completed  "I've got a lead for you.  Crow at the Troll Spit Tavern and I have a little arrangement.  You take this package over to him, and tell him I sent you."
+
+getItem	qSkonScarf
+reward   qSkonPackage 
+end

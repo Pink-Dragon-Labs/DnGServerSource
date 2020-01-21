@@ -1,0 +1,19 @@
+id #6300
+
+banner "Welcome to Monmouth Archives."
+
+topic "Tell me about Monmouth."
+        text "Our people have been tillers of the soil since long before the Mists.  This is one reason the population is so mellow in temperament.  Working with the soil in the beauty of nature helps develop a tranquil attitude."
+	text "Monmouthers like good food.  We have many specialties.  Growing fresh fruit and grain has accustomed us to quality ingredients."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Have you heard the one about the giant bird, larger than a house, who flies only when there is no moon?  That's a good one."
+        text "Or how about this one.  There is supposed to be a lurker in the swamps around Caer Fandry so fearsome that the mere sight of it causes instant death."
+	text "Perhaps my favorite recent one is that a mountain of ice is on the march and will devour everything in it's path."
+	text "My advice is not to believe anything you hear or read unless you have a second source, preferably one you know is reliable."
+end      
+
+topic "Can I do anything for you?"
+        text "Maybe another time, but not now.  Thank you for asking."
+end

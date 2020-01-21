@@ -1,0 +1,45 @@
+id 6906
+
+banner "Welcome to Feel Your Best Healers. I am Minka. What troubles you?"
+
+topic "Tell me about Asgard."
+        text "Asgard provides me with much business since many warriors fight at the least excuse."
+	text "I've become a rich woman by providing healing potions to Asgard warriors."
+	text "In truth I'd rather have less wealth and fewer wounds to treat, but I fear that is a dream"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "No, I have little use for gossip."
+        text "You'll find that Asgarders consider discussion of their private lives a good excuse for a fight."
+	text "I did hear a tale that might make a good story, though, about a little girl who gets caught up in a storm and lands behind a rainbow."
+end      
+
+topic "Can I do anything for you?"
+        text "Remember, honor is key. Defend it with swordplay."
+	text "Then buy your healing potions at Feel Your Best."
+end
+
+topic  "Ghoud needs a headache cure." q83:0 #q6205-01-430:0
+	quest 84 #6205-01-435
+	text  "I gave it to you."
+end
+
+topic  "Have you any cinnamon oil?  It's for Ghoud." q198:0 #q6610-01-535:0
+	quest 199 #6610-01-540
+	text  "You're kidding me, aren't you?  You already came for it."
+end
+
+topic  "Troels needs a poultice for a cut on his hand." q400:0 #q8100-01-440:0
+	quest 401 #8100-01-445
+	text  "You took it to him.  Don't jest over this."
+end
+
+topic  "I'm looking for lemon balm for Lompoc." q179:0 #q6504-01-535:0
+	quest 180 #6504-01-540
+	text  "You took it already."
+end
+
+topic  "I'm looking for an Ancient Faerie Parchment." q328:0 #q8307-01-200:0
+	quest 329 #8307-01-225
+	text  "You're trying to kid me, aren't you?  You already took it."
+end

@@ -1,0 +1,28 @@
+id 611502
+
+banner "Greetings fair traveller. I am Elisia, Devotee of Nature and Faithful of Enid."
+
+topic "Tell me about the Light in the Forest Inn."
+        text "As you can see, it's the best inn of all the land."
+	text "Wen has been chosen by the Goddess of Peace and Nature as the place her followers will make their stand against the invasion from the Mists. The Light in the Forest Inn is the center of preparations."
+	text "If the worst should happen and the invasion cannot be stopped, The Light in the Forest will serve as the place for our final stand. We are stockpiling everything we may need to withstand a siege."
+	text "It is said the invasion will come from both the north and the east. I know I am relieved to see that this place is being fortified."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Some call it rumor but I know it is a fact. The Goddess frowns upon any who harm her faeries or in any way despoils nature."
+end
+
+topic "Elisia? What does your name mean?"
+        text "Elisia is a name of ancient tradition."
+        text "It means She Who is Devoted."
+        text "And I guess it's true. I am devoted to the goddess and all she represents."
+end 
+
+topic "What are you doing when you get out of work?"
+        text "Are you asking me out?"
+        text "It's sweet of you to ask. I'm truly flattered."
+        text "But... ummm... I have to wash my hair today."
+        text "Maybe some other time?"
+end
+

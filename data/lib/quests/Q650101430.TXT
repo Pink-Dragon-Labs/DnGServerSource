@@ -1,0 +1,19 @@
+quest  163 #6501-01-430        #Lalana, The Last Call, Monmouth, 6304  (formerly Trion, the Happy Corpse, tavern, Monmouth, 6305)
+
+name  "Popping Corn for Lalana"
+type  fedex
+
+proposal  "Yech!  Why do you come here looking for such a thing.  I would think this should be the last place to look for a troll toenail.  Disgusting thought.  However, I have connections.  I could get you one.  Would you do a journey to Drune for me if I get you the toenail?"
+
+declined  "Fine."
+
+accepted  "Really want the thing, huh?  Ok, go to Drune and find me some popping corn.  I've heard they have it.  Weird idea, popping corn, but I'd like to try some.  And if you handle many toes, you wash your hands first, hear?"
+
+reminder   "I want some popping corn from Drune."
+
+completed  "This doesn't look like much.  I suppose it will look better when it pops.  I found you a troll toe complete with toenail.  Take it out of my sight."
+
+getItem   qPoppingCorn
+reward   qTrollToenail 
+end
+

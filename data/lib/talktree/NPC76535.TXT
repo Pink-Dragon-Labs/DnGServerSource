@@ -1,0 +1,30 @@
+id 76535
+
+banner "Why, hello there.  Would ya like some ratling meat?"
+
+topic "Who are you?"
+	text "My name is Jobo... I been livin' in this cell for more'n thirty year I think..."
+	text "but I'm na' sure exactly.  There's na' many ways to tell time down 'ere."
+end
+
+topic "What are you doing in this cell?"
+	text "Oh... I live here.  I wandered in this dungeon soon after they closed it down."
+	text "Accidently locked myself in 'ere, I did... luckily for me plenty o' rats live down 'ere as well."
+	text "An' I got a nice pool o' water ta drink over there under me bed."
+end
+
+topic "Don't you want to leave this place?"
+	text "Naah... don't mind me sonny.  It's nice 'n peaceful around here, it is."
+	text "'cept for you adventurer types who come around 'ere hunting undead."
+end
+
+topic "Don't the undead walking around here bother you?"
+	text "Nope.  They leave me alone as long as I keep me door locked - them undead types don't have much for brains, I 'spect."
+	text "They do make a lot o' noise, though.  If you wanna exterminate 'em be my guest."
+end
+
+topic "Is there anything I can do to help you out?"
+	quest 13 #76535-01
+	text "Nope... ain't got nuthin else for ya.  Thanks anyway."
+end
+

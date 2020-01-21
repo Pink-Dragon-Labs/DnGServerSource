@@ -1,0 +1,9 @@
+name "D_Thieves_Hole"
+title "Thieve's Hole"
+worldFile "../data/lib/world/D_THIEVES_HOLE_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock3122-0

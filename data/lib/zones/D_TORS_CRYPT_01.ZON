@@ -1,0 +1,8 @@
+name "D_Tors"
+title "Tor's Crypt"
+worldFile "../data/lib/world/D_TORS_CRYPT_01.WLD"
+#resetInterval 120
+allowCombat 3
+midiFile 29
+isDungeon 1
+entrance sarcophagusDoor4027-0

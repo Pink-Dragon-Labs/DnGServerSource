@@ -1,0 +1,18 @@
+quest 114 #6308-01-500  #(Wirkkala, Magical Monmouth, 6308)
+
+name  "Scrap of Faerie Mantle"
+type  fedex
+
+proposal  "I knew I would see you soon, ready for Elementalism Grand-Mastery.  Wonderful work you're doing, and you've been a help to me, too.  This last errand is tricky.  I only have sketchy information, but I've heard that there is a Scrap of Faerie Mantle to be had.  Will you undertake this quest?" 
+
+declined  "I'm truly sorry about that."
+
+accepted  "There's Giant in Kurz who may know something.  Good luck."
+
+reminder  "All I heard is that a Giant in Kurz knows something of a Scrap of Faerie Mantle.
+
+completed  "Great work!  I knew you would do it.  And here is the final book of spells you need to become a Grand Master in Elementalism."  
+
+getItem  qFaerieScrap
+reward  skbElementalismV
+end

@@ -1,0 +1,19 @@
+quest  141 #6403-01-125        # Faldora, The Pig and Kettle Tavern, Asgard, 6900
+
+name  "Faldora's Jeweled Dagger"
+type  fedex
+
+proposal  "It is well that you entered here, Stranger, for I know something of this.  My mother, and her mother before her, honor the memory of Tamen the Mighty.   The Amulet is a worthy treasure for a quest, which I perceive is your current activity.   I will assist.  In return, I would ask that you travel to Monmouth and retrieve my jeweled dagger.  It belonged to my great grandmother, and required special skill to repair."
+
+declined  "You amaze me."
+
+accepted  "Giants are excellent at weapon restoration and Monmouth is home to one of the best."
+
+reminder   "My jeweled dagger is being repaired in Monmouth."
+
+completed  "What exquisite work Volzer does.  My thanks, Stranger.  I bestow upon you the Amulet of Tamen the Mighty."
+
+getItem   qJeweledDagger
+reward   qAmuletTamen 
+end
+

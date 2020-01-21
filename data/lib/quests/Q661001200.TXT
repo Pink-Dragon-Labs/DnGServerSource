@@ -1,0 +1,19 @@
+quest  184 #6610-01-200        #Rant, Vlador's Tavern, Caer Fandry, dark elf, 6610
+
+name  "Gravestone Chip from Usk"
+type  fedex
+
+proposal  "You're in luck, dolt-head.  I happen to need a fast delivery.  If you'll make a pick-up for me and get it right back here, I'll give you the second detecting traps book.  But you'll have to do it fast.  Will you?"
+
+declined  "Dolt!  Get out of here."
+
+accepted  "I need a Gravestone Chip from Usk.  Now move!"
+
+reminder   "Get a Gravestone Chip from Usk, and do it now!"
+
+completed  "Here's your book.  Get out."
+
+getItem   qGravestoneChip
+reward   skbTrapsII 
+end
+

@@ -1,0 +1,1911 @@
+# Dungeonmaker World File (D_FENRIS_CAVE_01.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 71500
+# Dungeon last room = 71692
+# Number of objects in dungeon = 164
+# Level 0 information:
+room 71514
+	properties
+		template 30501
+		south 71513
+		east 71515
+		flags	72
+	end
+	objects
+		object Wolf-71514-0 of Wolf
+			properties
+				x	392
+				y	292
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object RabidWolf-71514-1 of RabidWolf
+			properties
+				x	271
+				y	295
+				loop	2
+				color	83
+			end
+			base character
+			end
+		end
+	end
+end
+room 71515
+	properties
+		template 30906
+		east 71516
+		west 71514
+		flags	8
+	end
+	objects
+		object Wolf-71515-0 of Wolf
+			properties
+				x	445
+				y	283
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Wolf-71515-1 of Wolf
+			properties
+				x	427
+				y	265
+				loop	1
+				color	104
+			end
+			base character
+			end
+		end
+		object AlphaWolf-71515-2 of AlphaWolf
+			properties
+				x	253
+				y	270
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object RandomStuff-71515-3 of RandomStuff
+			properties
+				x	310
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71515-4 of RandomStuff
+			properties
+				x	523
+				y	260
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71515-5 of RandomStuff
+			properties
+				x	109
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-71515-6 of RandomSkillbook
+			properties
+				x	342
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomScroll-71515-7 of RandomScroll
+			properties
+				x	202
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBand-71515-8 of RandomBand
+			properties
+				x	580
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+		object Meat-71515-9 of Meat
+			properties
+				x	549
+				y	275
+				loop	0
+			end
+			base described
+			end
+		end
+		object RatlingMeat-71515-10 of RatlingMeat
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	AlphaWolf-71515-2
+			end
+			base described
+			end
+		end
+		object RatlingMeat-71515-11 of RatlingMeat
+			properties
+				x	125
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71516
+	properties
+		template 31104
+		south 71517
+		west 71515
+		flags	136
+	end
+	objects
+		object RabidWolf-71516-0 of RabidWolf
+			properties
+				x	339
+				y	291
+				loop	2
+				color	83
+			end
+			base character
+			end
+		end
+		object Wolf-71516-1 of Wolf
+			properties
+				x	233
+				y	304
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 71536
+	properties
+		template 30502
+		south 71535
+		east 71537
+		flags	0
+	end
+	objects
+		object Fenris-71536-0 of Fenris
+			properties
+				x	401
+				y	313
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object YoungFenris-71536-1 of YoungFenris
+			properties
+				x	262
+				y	301
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71537
+	properties
+		template 30906
+		east 71538
+		west 71536
+		flags	0
+	end
+	objects
+		object Smoke1-71537-0 of Smoke1
+			properties
+				x	311
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71538
+	properties
+		template 30201
+		west 71537
+		flags	0
+	end
+	objects
+		object Bones-71538-0 of Bones
+			properties
+				x	237
+				y	261
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fenris-71538-1 of Fenris
+			properties
+				x	164
+				y	281
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object YoungFenris-71538-2 of YoungFenris
+			properties
+				x	390
+				y	284
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Smoke1-71538-3 of Smoke1
+			properties
+				x	570
+				y	317
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-71538-4 of Rock1
+			properties
+				x	270
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-71538-5 of Rock2
+			properties
+				x	243
+				y	248
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBelt-71538-6 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71538-7 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71538-8 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71538-9 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71538-10 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-71538-11 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomPants-71538-12 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomShirt-71538-13 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71538-14 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomBand-71538-15 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomRing-71538-16 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-71538-17 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71538-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71513
+	properties
+		template 31006
+		south 71502
+		north 71514
+		flags	0
+	end
+	objects
+		object Wolf-71513-0 of Wolf
+			properties
+				x	250
+				y	279
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 71517
+	properties
+		template 30402
+		south 71503
+		north 71516
+		flags	0
+	end
+end
+room 71535
+	properties
+		template 30402
+		south 71531
+		north 71536
+		flags	0
+	end
+	objects
+		object SittingMushroom-71535-0 of SittingMushroom
+			properties
+				x	184
+				y	295
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71502
+	properties
+		template 30803
+		east 71500
+		north 71513
+		flags	0
+	end
+	objects
+		object Wolf-71502-0 of Wolf
+			properties
+				x	333
+				y	270
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+	end
+end
+room 71500
+	properties
+		template 30908
+		south 71501
+		east 71503
+		west 71502
+		flags	0
+	end
+	objects
+		object DungeonBackUp-71500-0 of DungeonBackUp
+			properties
+				x	467
+				y	229
+				loop	2
+				linkTo	movingRock2177-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 71503
+	properties
+		template 31303
+		west 71500
+		north 71517
+		flags	0
+	end
+end
+room 71530
+	properties
+		template 30502
+		south 71529
+		east 71531
+		flags	0
+	end
+	objects
+		object RandomStuff-71530-0 of RandomStuff
+			properties
+				x	174
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71531
+	properties
+		template 30702
+		east 71532
+		west 71530
+		north 71535
+		flags	0
+	end
+	objects
+		object BloodFenris-71531-0 of BloodFenris
+			properties
+				x	223
+				y	274
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 71532
+	properties
+		template 30202
+		south 71533
+		west 71531
+		flags	8
+	end
+	objects
+		object Bat-71532-0 of Bat
+			properties
+				x	493
+				y	269
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-71532-1 of Bat
+			properties
+				x	201
+				y	262
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-71532-2 of Bat
+			properties
+				x	314
+				y	291
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object vampireBat-71532-3 of vampireBat
+			properties
+				x	392
+				y	257
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object FlyingRat-71532-4 of FlyingRat
+			properties
+				x	278
+				y	263
+				loop	0
+				color	89
+			end
+			base character
+			end
+		end
+		object cryptBat-71532-5 of cryptBat
+			properties
+				x	344
+				y	240
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object Altar-71532-6 of Altar
+			properties
+				x	318
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+		object Column-71532-7 of Column
+			properties
+				x	284
+				y	117
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-71532-8 of Rock2
+			properties
+				x	323
+				y	101
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71532-9 of Shroom3
+			properties
+				x	272
+				y	180
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71532-10 of Shroom3
+			properties
+				x	491
+				y	198
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web4-71532-11 of Web4
+			properties
+				x	299
+				y	189
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-71532-12 of Web3
+			properties
+				x	252
+				y	119
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web5-71532-13 of Web5
+			properties
+				x	228
+				y	221
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-71532-14 of Web2
+			properties
+				x	209
+				y	118
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71532-15 of RandomStuff
+			properties
+				x	106
+				y	262
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71532-16 of RandomPotion
+			properties
+				x	123
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71501
+	properties
+		template 31003
+		south 71504
+		north 71500
+		flags	0
+	end
+	objects
+		object YoungFenris-71501-0 of YoungFenris
+			properties
+				x	289
+				y	296
+				loop	3
+				color	768
+			end
+			base character
+			end
+		end
+		object Rock3-71501-1 of Rock3
+			properties
+				x	561
+				y	290
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71529
+	properties
+		template 31006
+		south 71528
+		north 71530
+		flags	8
+	end
+	objects
+		object YoungFenris-71529-0 of YoungFenris
+			properties
+				x	197
+				y	262
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object YoungFenris-71529-1 of YoungFenris
+			properties
+				x	405
+				y	265
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object Fenris-71529-2 of Fenris
+			properties
+				x	306
+				y	306
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71533
+	properties
+		template 30401
+		north 71532
+		flags	0
+	end
+	objects
+		object YoungFenris-71533-0 of YoungFenris
+			properties
+				x	203
+				y	254
+				loop	3
+				color	768
+			end
+			base character
+			end
+		end
+		object Fenris-71533-1 of Fenris
+			properties
+				x	266
+				y	266
+				loop	3
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71505
+	properties
+		template 30501
+		south 71506
+		east 71504
+		flags	0
+	end
+	objects
+		object Stalagmite2-71505-0 of Stalagmite2
+			properties
+				x	222
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71505-1 of RandomStuff
+			properties
+				x	222
+				y	250
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71504
+	properties
+		template 31007
+		south 71507
+		east 71508
+		west 71505
+		north 71501
+		flags	0
+	end
+	objects
+		object YoungFenris-71504-0 of YoungFenris
+			properties
+				x	494
+				y	304
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71508
+	properties
+		template 30601
+		south 71509
+		west 71504
+		flags	8
+	end
+	objects
+		object YoungFenris-71508-0 of YoungFenris
+			properties
+				x	193
+				y	273
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object YoungFenris-71508-1 of YoungFenris
+			properties
+				x	224
+				y	298
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71528
+	properties
+		template 31005
+		south 71519
+		east 71534
+		north 71529
+		flags	0
+	end
+end
+room 71534
+	properties
+		template 30901
+		east 71527
+		west 71528
+		flags	0
+	end
+end
+room 71527
+	properties
+		template 30602
+		south 71526
+		west 71534
+		flags	8
+	end
+	objects
+		object vampireBat-71527-0 of vampireBat
+			properties
+				x	409
+				y	307
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-71527-1 of cryptBat
+			properties
+				x	464
+				y	274
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-71527-2 of cryptBat
+			properties
+				x	400
+				y	286
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-71527-3 of cryptBat
+			properties
+				x	363
+				y	304
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object FireB-71527-4 of FireB
+			properties
+				x	523
+				y	212
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71527-5 of RandomStuff
+			properties
+				x	270
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71543
+	properties
+		template 30102
+		south 71544
+		east 71506
+		flags	8
+	end
+	objects
+		object cryptBat-71543-0 of cryptBat
+			properties
+				x	420
+				y	307
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object cryptBat-71543-1 of cryptBat
+			properties
+				x	216
+				y	305
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object Fenris-71543-2 of Fenris
+			properties
+				x	317
+				y	308
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object YoungFenris-71543-3 of YoungFenris
+			properties
+				x	253
+				y	293
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71506
+	properties
+		template 30804
+		south 71512
+		east 71507
+		west 71543
+		north 71505
+		flags	0
+	end
+	objects
+		object Fenris-71506-0 of Fenris
+			properties
+				x	373
+				y	251
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71507
+	properties
+		template 31008
+		south 71511
+		east 71509
+		west 71506
+		north 71504
+		flags	8
+	end
+	objects
+		object YoungFenris-71507-0 of YoungFenris
+			properties
+				x	421
+				y	286
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Fenris-71507-1 of Fenris
+			properties
+				x	188
+				y	277
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71509
+	properties
+		template 31302
+		south 71510
+		east 71518
+		west 71507
+		north 71508
+		flags	0
+	end
+end
+room 71518
+	properties
+		template 30906
+		east 71519
+		west 71509
+		flags	0
+	end
+end
+room 71519
+	properties
+		template 30704
+		south 71520
+		west 71518
+		north 71528
+		flags	0
+	end
+end
+room 71526
+	properties
+		template 31004
+		south 71525
+		north 71527
+		flags	8
+	end
+	objects
+		object YoungFenris-71526-0 of YoungFenris
+			properties
+				x	289
+				y	302
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object Fenris-71526-1 of Fenris
+			properties
+				x	260
+				y	283
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71544
+	properties
+		template 31001
+		south 71545
+		north 71543
+		flags	0
+	end
+end
+room 71512
+	properties
+		template 30803
+		east 71511
+		north 71506
+		flags	0
+	end
+	objects
+		object Bones-71512-0 of Bones
+			properties
+				x	451
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fenris-71512-1 of Fenris
+			properties
+				x	220
+				y	273
+				loop	2
+				color	768
+			end
+			base character
+			end
+		end
+		object Skull-71512-2 of Skull
+			properties
+				x	441
+				y	258
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web6-71512-3 of Web6
+			properties
+				x	459
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71512-4 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71512-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71512-5 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71512-0
+			end
+			base described
+			end
+		end
+		object RandomWeapon-71512-6 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71512-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71511
+	properties
+		template 30702
+		east 71510
+		west 71512
+		north 71507
+		flags	0
+	end
+	objects
+		object Bones-71511-0 of Bones
+			properties
+				x	578
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web3-71511-1 of Web3
+			properties
+				x	582
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web1-71511-2 of Web1
+			properties
+				x	515
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Web2-71511-3 of Web2
+			properties
+				x	539
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-71511-4 of Shroom3
+			properties
+				x	548
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomBand-71511-5 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71511-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-71511-6 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71511-0
+			end
+			base described
+			end
+		end
+		object RandomShield-71511-7 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71511-0
+			end
+			base described
+			end
+		end
+		object RandomBoots-71511-8 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71511-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71510
+	properties
+		template 31303
+		west 71511
+		north 71509
+		flags	0
+	end
+	objects
+		object Fenris-71510-0 of Fenris
+			properties
+				x	337
+				y	278
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Shroom3-71510-1 of Shroom3
+			properties
+				x	528
+				y	255
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71520
+	properties
+		template 31005
+		south 71521
+		east 71524
+		north 71519
+		flags	0
+	end
+	objects
+		object RandomStuff-71520-0 of RandomStuff
+			properties
+				x	505
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71524
+	properties
+		template 30703
+		east 71525
+		west 71520
+		flags	0
+	end
+	objects
+		object YoungFenris-71524-0 of YoungFenris
+			properties
+				x	287
+				y	272
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71525
+	properties
+		template 31303
+		west 71524
+		north 71526
+		flags	0
+	end
+end
+room 71545
+	properties
+		template 30402
+		south 71546
+		north 71544
+		flags	0
+	end
+end
+room 71521
+	properties
+		template 31003
+		south 71522
+		north 71520
+		flags	0
+	end
+	objects
+		object BloodFenris-71521-0 of BloodFenris
+			properties
+				x	289
+				y	312
+				loop	3
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 71546
+	properties
+		template 30803
+		east 71547
+		north 71545
+		flags	0
+	end
+end
+room 71547
+	properties
+		template 30703
+		east 71549
+		west 71546
+		flags	0
+	end
+	objects
+		object YoungFenris-71547-0 of YoungFenris
+			properties
+				x	221
+				y	283
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71549
+	properties
+		template 30906
+		east 71542
+		west 71547
+		flags	0
+	end
+end
+room 71542
+	properties
+		template 30703
+		east 71541
+		west 71549
+		flags	8
+	end
+	objects
+		object Fenris-71542-0 of Fenris
+			properties
+				x	421
+				y	285
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+		object Fenris-71542-1 of Fenris
+			properties
+				x	291
+				y	272
+				loop	1
+				color	768
+			end
+			base character
+			end
+		end
+	end
+end
+room 71541
+	properties
+		template 30906
+		east 71522
+		west 71542
+		flags	0
+	end
+end
+room 71522
+	properties
+		template 30702
+		east 71523
+		west 71541
+		north 71521
+		flags	72
+	end
+	objects
+		object Fenris-71522-0 of Fenris
+			properties
+				x	206
+				y	283
+				loop	0
+				color	768
+			end
+			base character
+			end
+		end
+		object HellHound-71522-1 of HellHound
+			properties
+				x	354
+				y	282
+				loop	0
+				color	769
+			end
+			base character
+			end
+		end
+		object Fenris-71522-2 of Fenris
+			properties
+				x	258
+				y	277
+				loop	3
+				color	768
+			end
+			base character
+			end
+		end
+		object BloodFenris-71522-3 of BloodFenris
+			properties
+				x	133
+				y	274
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object RandomStuff-71522-4 of RandomStuff
+			properties
+				x	161
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 71523
+	properties
+		template 30201
+		west 71522
+		flags	8
+	end
+	objects
+		object Bones-71523-0 of Bones
+			properties
+				x	391
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object HowlingTerror-71523-1 of HowlingTerror
+			properties
+				x	139
+				y	244
+				loop	1
+				color	770
+			end
+			base character
+			end
+		end
+		object HowlingTerror-71523-2 of HowlingTerror
+			properties
+				x	182
+				y	281
+				loop	1
+				color	770
+			end
+			base character
+			end
+		end
+		object HellHound-71523-3 of HellHound
+			properties
+				x	131
+				y	273
+				loop	1
+				color	769
+			end
+			base character
+			end
+		end
+		object Rock3-71523-4 of Rock3
+			properties
+				x	436
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock1-71523-5 of Rock1
+			properties
+				x	416
+				y	267
+				loop	0
+			end
+			base described
+			end
+		end
+		object Rock2-71523-6 of Rock2
+			properties
+				x	424
+				y	278
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomJunk-71523-7 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71523-8 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71523-9 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71523-10 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomPants-71523-11 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomShirt-71523-12 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomCowl-71523-13 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomBoots-71523-14 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-71523-15 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomBand-71523-16 of RandomBand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomOrb-71523-17 of RandomOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71523-18 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71523-19 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomPotion-71523-20 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-71523-21 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-71523-22 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71523-23 of RandomStuff
+			properties
+				x	260
+				y	264
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-71523-24 of RandomStuff
+			properties
+				x	500
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomWand-71523-25 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-71523-0
+			end
+			base described
+			end
+		end
+	end
+end

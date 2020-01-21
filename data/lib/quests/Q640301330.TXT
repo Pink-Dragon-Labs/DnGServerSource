@@ -1,0 +1,19 @@
+quest   149 #6403-01-330        # Inila, Ambrosia of Usk, food, 8104
+
+name  "Grain Bread of Murias"
+type  fedex
+
+proposal  "You've come to the right spot, then.  Our jellied berries are famous in the Realm.  People come from all corners just to get a supply.  As it happens, though, I need something, too.  I'm out of the special grain bread made in Murias.  Could we arrange a trade?  In exchange for the jellied berries would you go to Murias and bring me my supply of bread from their special grain?"
+
+declined  "I'm sure somebody will."
+
+accepted  "Good.  I'll be waiting."
+
+reminder   "Go to Murias for my supply of their special grain bread."
+
+completed  "Oh excellent traveler.  My thanks.  Here's a good supply of jellied berries."
+
+getItem   qGrainBread
+reward   qJelliedBerries 
+end
+

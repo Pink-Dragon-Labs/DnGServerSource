@@ -1,0 +1,9 @@
+name "D_Trolls_Haven"
+title "Troll's Haven"
+worldFile "../data/lib/world/D_TROLLS_HAVEN_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock2273-0

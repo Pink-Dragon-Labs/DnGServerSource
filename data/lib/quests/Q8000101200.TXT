@@ -1,0 +1,19 @@
+quest  368 #80001-01-200      #Spidey, Cave of Thieves, 80001
+
+name  "Spool of Fishing Line"
+type  fedex
+
+proposal  "Yeah, proficient skills'll be next for you.  I guess you can try.  You did OK on the basics.  You're gonna go do things as my apprentice, see.  I send you out and you do things and when you get back, I give you the next book.  That's how it works, in case you didn't know.  Everybody who wants to learn has gotta do the same thing.  I want a spool of fishline.  That's the next thing for you to do.  Go find me some fishline.  You've gotta accept, though.  Do you?" 
+
+declined  "You really outta try it."
+
+accepted  "The best stuff is in Monmouth."  
+
+reminder   "Get me some a spool of fishline.  Try Monmouth."
+
+completed  "That's good stuff.  Thanks.  Here's the book to study."
+
+getItem   qFishLine
+reward   skbPickpocketingII 
+end
+

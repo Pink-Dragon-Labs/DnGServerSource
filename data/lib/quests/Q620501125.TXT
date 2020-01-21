@@ -1,0 +1,18 @@
+quest  73 #6205-01-125        #Paresi, Gatekeeper, Kurz, 7000
+
+name  "Paresi's Trade Deal"
+type  fedex
+
+proposal  "Ratling Toenail?  Odd thing, but I just found one.   I'll trade it to you for a bottle of water.  What do you say?"
+
+declined  "Ok."
+
+accepted  "Good.  Seems like I'm always thirsty."  
+
+reminder   "Bring me a bottle of water and I'll trade for the Ratling Toenail."
+
+completed  "Thanks.  Use caution if you plan to stay long in Kurz."
+
+getItem   WaterBottle
+reward   qRatlingToenail 
+end

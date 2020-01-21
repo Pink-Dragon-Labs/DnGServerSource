@@ -1,0 +1,52 @@
+name "Rend01cd"
+title "The Rendezvous"
+worldFile "../data/lib/world/D_REND_01c.WLD"
+resetInterval 1000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 29
+groupChance 30
+noAlignmentChange
+monster BountyHunterF 4
+monster Fury 2
+monster CryptKeeper 2
+monster SnowDaemon 2
+monster FlameDaemon 2
+ambushInterval 15
+ambush 1 BountyHunterD
+ambush 2 WarriorC
+ambush 1 WarriorD
+ambush 1 ThiefC
+ambush 1 ThiefD
+ambush 5 Cleric
+ambush 2 Cyclops
+ambush 5 Shade
+ambush 4 Ghost
+ambush 10 Lich
+ambush 3 ImpGuard
+ambush 8 ImpKing
+ambush 10 ImpNecromancer
+ambush 10 ImpSlaveMaster
+ambush 4 ImpThaumaturgist
+ambush 5 ImpWarrior
+ambush 4 Ogre
+ambush 2 OgreChief
+ambush 2 OgreMage
+ambush 2 UglyOgre
+ambush 4 TrollArmsman
+ambush 2 TrollElementalist
+ambush 1 TrollKing
+ambush 2 TrollSorcerer
+ambush 2 TrollWarrior
+ambush 1 WaspQueen
+ambush 60 BountyHunterE
+ambush 50 BountyHunterF
+ambush 15 ThiefE
+ambush 21 Daemon
+ambush 16 FlameDaemon
+ambush 16 SnowDaemon
+ambush 50 Fury
+ambush 50 Cobra
+ambush 23 Medusa
+ambush 27 CryptKeeper
+ambush 45 Guardian

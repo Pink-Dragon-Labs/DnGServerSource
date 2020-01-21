@@ -1,0 +1,28 @@
+id 8020
+
+banner "You're in the Filthy Beggar Tavern. How can I help you?"
+
+topic "Tell me about Kurz."
+        text "Kurz? it's evil, just evil! When I moved here several seasons ago, I had no idea just how BAD everyone is here."
+        text "Everyone in Kurz is bad, everyone around Kurz is bad ... I only stay here because I'm a-scared to leave!"
+end
+
+topic "Who are you?"
+        text "I'm Kombal, originally from Leinster. I left there when I heard Duach was planning to smite the town. Others didn't believe me, but then, sure enough, WHAM. He let Leinster have it."
+        text "Fortunately, I made it out safely. But now here I am, stuck in Kurz!"
+end      
+
+topic "Can I do something for you?"
+        text "You mean like get me out of here? Oh, you mean some silly quest where you do something and then I reward you. No, I don't have a thing for you, thank you very much."
+end
+
+topic  "I'd like to get some of your private stock." q248:0 #q6902-01-325:0
+	quest 249 #6902-01-330
+	text  "I already gave you some of my private stock."
+end
+
+topic  "I need a fragment of a primitive tool." q39:0 #q6073-01-400:0
+	quest  40 #6073-01-425
+	text  "Don't try to con me.  You took it."
+end
+

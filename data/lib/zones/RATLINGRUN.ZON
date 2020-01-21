@@ -1,0 +1,18 @@
+name "ratlingrun"
+title "Ratling Run"
+worldFile "../data/lib/world/TOPRAT.WLD"
+worldFile "../data/lib/world/FOR3.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 2
+midiFile 13
+groupChance 5
+monster Ratling 90
+monster WoodRat 60
+monster DesertRat 30
+monster Bat 50
+monster FlyingRat 25
+monster Zombie 20
+monster Pixie 30
+# Ratling Run		Area 00		Player Levels 1-5	Alignment: Mixed	Monsters/Room: 3.91
+

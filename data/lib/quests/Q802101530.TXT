@@ -1,0 +1,15 @@
+quest  302 #8021-01-530        #Brindal, The Avalanche tavern, Guennor, 6508
+
+name  "The Rewards of Checkers"
+type  fedex
+
+proposal  "Hah.  The old goat wants his ale, does he.  Well, he gets it this time, but just wait.  Bested me at checkers, he did, with a bit of ale being the prize, so to speak.  No harm in that.  All among friends.  But I'll get my own back, just you wait and see. You'll carry the ale back to him, I take it?"
+
+declined  "Then he waits."
+
+accepted  "Take it then.  Let him enjoy it while he can."
+
+reminder   "Take that ale back to the Geezer."
+
+reward   qGeezerAle 
+end

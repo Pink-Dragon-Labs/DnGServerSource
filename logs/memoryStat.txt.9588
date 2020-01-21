@@ -1,0 +1,53 @@
+uptime = 414051.888333
+
+dungeons spawned = 0
+
+memory taken = 657088 bytes  (#3205) > 219728 dif 34
+
+file handles = 0
+objects = 0
+affected objects = 0
+
+houses = 0/0
+
+players = 0  NPCs = 0
+
+
+Line	file	Size	Alloc	Free
+24	/home/realm/realm/source/roommgr/main.cpp	68	1	0
+21	/home/realm/realm/source/global/sparse.cpp	556	1	0
+143	/home/realm/realm/source/global/memorypool.cpp	76	8	0
+38	/home/realm/realm/source/roommgr/datamgrclient.cpp	164	1	0
+1974	/home/realm/realm/source/roommgr/main.cpp	68	1	0
+21	/home/realm/realm/source/global/sparse.cpp	219764	1	0
+2048	/home/realm/realm/source/roommgr/main.cpp	236	1000	0
+126	/home/realm/realm/source/roommgr/channel.cpp	40	1000	6
+102	/home/realm/realm/source/global/configmgr.cpp	48	3	0
+103	/home/realm/realm/source/global/configmgr.cpp	44	2	0
+103	/home/realm/realm/source/global/configmgr.cpp	48	2	0
+102	/home/realm/realm/source/global/configmgr.cpp	44	4	0
+103	/home/realm/realm/source/global/configmgr.cpp	40	1	0
+103	/home/realm/realm/source/global/configmgr.cpp	36	2	0
+137	/home/realm/realm/source/roommgr/channel.cpp	56	1001	6
+126	/home/realm/realm/source/roommgr/channel.cpp	44	4	0
+137	/home/realm/realm/source/roommgr/channel.cpp	140	1	0
+126	/home/realm/realm/source/roommgr/channel.cpp	48	1	0
+137	/home/realm/realm/source/roommgr/channel.cpp	80	1	0
+126	/home/realm/realm/source/roommgr/channel.cpp	52	1	0
+137	/home/realm/realm/source/roommgr/channel.cpp	144	1	0
+137	/home/realm/realm/source/roommgr/channel.cpp	112	1	0
+137	/home/realm/realm/source/roommgr/channel.cpp	76	1	0
+2079	/home/realm/realm/source/roommgr/main.cpp	1676	1	0
+22	/home/realm/realm/source/global/player.cpp	68	1	0
+21	/home/realm/realm/source/global/hash.cpp	8228	1	0
+22	/home/realm/realm/source/global/hash.cpp	8228	1	0
+2083	/home/realm/realm/source/roommgr/main.cpp	52	1	0
+69	/home/realm/realm/source/global/tools.cpp	60	7	6
+2481	/home/realm/realm/source/roommgr/worldlib.cpp	940	86	0
+757	/home/realm/realm/source/roommgr/zone.cpp	44	86	0
+113	/home/realm/realm/source/global/file.cpp	64	1	0
+113	/home/realm/realm/source/global/file.cpp	56	1	1
+24	/home/realm/realm/source/global/string.cpp	81956	42	42
+
+
+

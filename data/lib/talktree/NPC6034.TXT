@@ -1,0 +1,15 @@
+id 6034
+
+banner "Welcome to my academy!  Please, make yourself comfortable and learn something."
+
+topic "Tell me about Leinster"
+        text "Leinster is in poor shape, ever since Duach smote it with that huge fireball.  Life will never be the same here again."
+end
+
+topic "Have you heard any interesting rumors?"
+	text "Rumors? Hmmm. I have heard that a mind is a terrible thing to waste.  Good thing I'm here for you, eh?"
+end      
+
+topic "Can I do anything for you?"
+	text "I've got nothing for you to do right now, try again later."
+end

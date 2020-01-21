@@ -1,0 +1,4556 @@
+# Dungeonmaker World File (unddng.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 83000
+# Dungeon last room = 84122
+# Number of objects in dungeon = 372
+# Level 0 information:
+room 83000
+	properties
+		template 30302
+		south 83001
+		flags	246
+	end
+	objects
+		object Zombie-83000-1 of Zombie
+			properties
+				x	134
+				y	258
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83000-2 of Zombie
+			properties
+				x	216
+				y	252
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-83000-3 of UndeadNecromancer
+			properties
+				x	423
+				y	274
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DungeonBackUp-83000-4 of DungeonBackUp
+			properties
+				x	326
+				y	233
+				loop	2
+				linkTo	sarcophagusDoor4137-0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-83000-5 of Torch
+			properties
+				x	468
+				y	246
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83001
+	properties
+		template 31006
+		south 83002
+		north 83000
+		flags	246
+	end
+	objects
+		object CryptKeeper-83001-0 of CryptKeeper
+			properties
+				x	513
+				y	284
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object SarcophagusDoor-83001-1 of SarcophagusDoor
+			properties
+				x	160
+				y	279
+				loop	0
+				linkTo	SarcophagusDoor-83005-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83002
+	properties
+		template 30403
+		north 83001
+		flags	246
+	end
+	objects
+		object Ghost-83002-0 of Ghost
+			properties
+				x	212
+				y	274
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object FireC-83002-1 of FireC
+			properties
+				x	343
+				y	331
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-83002-2 of Smoke1
+			properties
+				x	340
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83005
+	properties
+		template 30805
+		east 83004
+		flags	246
+	end
+	objects
+		object Zombie-83005-0 of Zombie
+			properties
+				x	359
+				y	240
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object SarcophagusDoor-83005-1 of SarcophagusDoor
+			properties
+				x	174
+				y	251
+				loop	0
+				linkTo	SarcophagusDoor-83001-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-83005-2 of Torch
+			properties
+				x	414
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fire2-83005-3 of Fire2
+			properties
+				x	49
+				y	336
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-83005-4 of Smoke1
+			properties
+				x	48
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83004
+	properties
+		template 30907
+		south 83006
+		east 83003
+		west 83005
+		flags	246
+	end
+	objects
+		object UndeadNecromancer-83004-0 of UndeadNecromancer
+			properties
+				x	340
+				y	240
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83004-1 of Ghoul
+			properties
+				x	256
+				y	268
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83004-2 of Zombie
+			properties
+				x	191
+				y	285
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83004-3 of Zombie
+			properties
+				x	145
+				y	256
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83003
+	properties
+		template 30701
+		west 83004
+		flags	246
+	end
+	objects
+		object Wraith-83003-0 of Wraith
+			properties
+				x	173
+				y	250
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-83003-1 of Wraith
+			properties
+				x	195
+				y	279
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Lich-83003-2 of Lich
+			properties
+				x	252
+				y	254
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83003-3 of Torch
+			properties
+				x	92
+				y	225
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83006
+	properties
+		template 31004
+		south 83007
+		north 83004
+		flags	246
+	end
+	objects
+		object DarkFaery-83006-0 of DarkFaery
+			properties
+				x	267
+				y	255
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Ghoul-83006-1 of Ghoul
+			properties
+				x	132
+				y	279
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83011
+	properties
+		template 30304
+		south 83010
+		flags	246
+	end
+	objects
+		object ImpSlaveMaster-83011-0 of ImpSlaveMaster
+			properties
+				x	406
+				y	270
+				loop	1
+				color	16
+			end
+			base character
+			end
+		end
+		object ImpWarrior-83011-1 of ImpWarrior
+			properties
+				x	328
+				y	261
+				loop	2
+				color	21
+			end
+			base character
+			end
+		end
+		object ImpNecromancer-83011-2 of ImpNecromancer
+			properties
+				x	132
+				y	294
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object ImpNecromancer-83011-3 of ImpNecromancer
+			properties
+				x	225
+				y	258
+				loop	1
+				color	18
+			end
+			base character
+			end
+		end
+		object ImpNecromancer-83011-4 of ImpNecromancer
+			properties
+				x	144
+				y	267
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object Torch-83011-5 of Torch
+			properties
+				x	221
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83008
+	properties
+		template 30502
+		south 83009
+		east 83007
+		flags	246
+	end
+	objects
+		object Skeleton-83008-0 of Skeleton
+			properties
+				x	314
+				y	278
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+		object Skeleton-83008-1 of Skeleton
+			properties
+				x	250
+				y	292
+				loop	0
+				color	37
+			end
+			base character
+			end
+		end
+		object Torch-83008-2 of Torch
+			properties
+				x	454
+				y	235
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83007
+	properties
+		template 32602
+		west 83008
+		north 83006
+		flags	246
+	end
+	objects
+		object EntombedOne-83007-0 of EntombedOne
+			properties
+				x	365
+				y	260
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83190
+	properties
+		template 30502
+		south 83020
+		east 83036
+		flags	246
+	end
+	objects
+		object Skeleton-83190-0 of Skeleton
+			properties
+				x	440
+				y	259
+				loop	2
+				color	37
+			end
+			base character
+			end
+		end
+		object baAcid-83190-1 of baAcid
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Skeleton-83190-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83036
+	properties
+		template 30909
+		south 83035
+		west 83190
+		flags	246
+	end
+	objects
+		object Torch-83036-0 of Torch
+			properties
+				x	211
+				y	236
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83010
+	properties
+		template 30803
+		east 83009
+		north 83011
+		flags	246
+	end
+	objects
+		object ImpNecromancer-83010-0 of ImpNecromancer
+			properties
+				x	123
+				y	273
+				loop	0
+				color	18
+			end
+			base character
+			end
+		end
+		object Torch-83010-1 of Torch
+			properties
+				x	474
+				y	217
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83009
+	properties
+		template 32303
+		south 83012
+		west 83010
+		north 83008
+		flags	246
+	end
+	objects
+		object Zombie-83009-0 of Zombie
+			properties
+				x	467
+				y	204
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83009-1 of Zombie
+			properties
+				x	94
+				y	242
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83009-2 of Ghoul
+			properties
+				x	445
+				y	254
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83019
+	properties
+		template 30102
+		south 83018
+		east 83020
+		flags	246
+	end
+	objects
+		object Bat-83019-0 of Bat
+			properties
+				x	294
+				y	281
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 83020
+	properties
+		template 31303
+		west 83019
+		north 83190
+		flags	246
+	end
+	objects
+		object DamnedOne-83020-0 of DamnedOne
+			properties
+				x	476
+				y	278
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83020-1 of Torch
+			properties
+				x	160
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83035
+	properties
+		template 31004
+		south 83034
+		north 83036
+		flags	246
+	end
+	objects
+		object FlameDaemon-83035-0 of FlameDaemon
+			properties
+				x	364
+				y	305
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-83035-1 of FlameDaemon
+			properties
+				x	414
+				y	285
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-83035-2 of FlameDaemon
+			properties
+				x	339
+				y	267
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object FlameDaemon-83035-3 of FlameDaemon
+			properties
+				x	495
+				y	282
+				loop	0
+				color	789
+			end
+			base character
+			end
+		end
+		object Kilrog-83035-4 of Kilrog
+			properties
+				x	461
+				y	322
+				loop	0
+				color	787
+			end
+			base character
+			end
+		end
+		object Sarcophagus-83035-5 of Sarcophagus
+			properties
+				x	190
+				y	309
+				loop	1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object DamnedOne-83035-6 of DamnedOne
+			properties
+				x	379
+				y	271
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object SarcophagusDoor-83035-7 of SarcophagusDoor
+			properties
+				x	247
+				y	260
+				loop	0
+				linkTo	SarcophagusDoor-83081-4
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomBelt-83035-8 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomBoots-83035-9 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomCowl-83035-10 of RandomCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomWeapon-83035-11 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomPotion-83035-12 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomPants-83035-13 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomBracers-83035-14 of RandomBracers
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object RandomZombieWeapon-83035-15 of RandomZombieWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+		object baFire-83035-16 of baFire
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	DamnedOne-83035-6
+			end
+			base described
+			end
+		end
+		object mwDefender-83035-17 of mwDefender
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83035-5
+			end
+			base described
+			end
+		end
+	end
+end
+room 83080
+	properties
+		template 30303
+		flags	246
+	end
+	objects
+		object Lich-83080-0 of Lich
+			properties
+				x	513
+				y	303
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-83080-1 of UndeadNecromancer
+			properties
+				x	168
+				y	244
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object TeleportAltar-83080-2 of TeleportAltar
+			properties
+				x	320
+				y	295
+				loop	0
+			end
+			actions
+				vBeUsed  teleport dobj 83032 
+			end
+			base described
+			end
+		end
+	end
+end
+room 83012
+	properties
+		template 31001
+		south 83013
+		north 83009
+		flags	0
+	end
+end
+room 83015
+	properties
+		template 30501
+		south 83016
+		east 83018
+		flags	246
+	end
+	objects
+		object Ghoul-83015-0 of Ghoul
+			properties
+				x	163
+				y	300
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83015-1 of Torch
+			properties
+				x	319
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83018
+	properties
+		template 32502
+		west 83015
+		north 83019
+		flags	246
+	end
+	objects
+		object Bat-83018-0 of Bat
+			properties
+				x	244
+				y	266
+				loop	3
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-83018-1 of Bat
+			properties
+				x	458
+				y	260
+				loop	1
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-83018-2 of Bat
+			properties
+				x	85
+				y	255
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object screechingHorror-83018-3 of screechingHorror
+			properties
+				x	509
+				y	294
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-83018-4 of StormBat
+			properties
+				x	216
+				y	341
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object vampireBat-83018-5 of vampireBat
+			properties
+				x	369
+				y	351
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-83018-6 of cryptBat
+			properties
+				x	127
+				y	346
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object FlyingRat-83018-7 of FlyingRat
+			properties
+				x	487
+				y	206
+				loop	1
+				color	89
+			end
+			base character
+			end
+		end
+		object Bat-83018-8 of Bat
+			properties
+				x	335
+				y	232
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 83034
+	properties
+		template 31001
+		south 83033
+		north 83035
+		flags	246
+	end
+end
+room 83013
+	properties
+		template 30802
+		east 83096
+		north 83012
+		flags	246
+	end
+	objects
+		object Zombie-83013-0 of Zombie
+			properties
+				x	279
+				y	260
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83013-1 of Zombie
+			properties
+				x	250
+				y	271
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83013-2 of Torch
+			properties
+				x	261
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83096
+	properties
+		template 32403
+		east 83016
+		west 83013
+		flags	246
+	end
+	objects
+		object CaveRat-83096-0 of CaveRat
+			properties
+				x	307
+				y	272
+				loop	1
+				color	808
+			end
+			base character
+			end
+		end
+	end
+end
+room 83016
+	properties
+		template 32303
+		south 83017
+		west 83096
+		north 83015
+		flags	246
+	end
+	objects
+		object Mouse-83016-0 of Mouse
+			properties
+				x	326
+				y	188
+				loop	1
+				color	2088
+			end
+			base character
+			end
+		end
+		object EntombedOne-83016-1 of EntombedOne
+			properties
+				x	129
+				y	249
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-83016-2 of UndeadNecromancer
+			properties
+				x	446
+				y	260
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83016-3 of Torch
+			properties
+				x	531
+				y	280
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83033
+	properties
+		template 30801
+		east 83032
+		north 83034
+		flags	246
+	end
+	objects
+		object DarkFaery-83033-0 of DarkFaery
+			properties
+				x	248
+				y	286
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-83033-1 of DarkFaery
+			properties
+				x	280
+				y	263
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-83033-2 of DarkFaery
+			properties
+				x	288
+				y	250
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-83033-3 of DarkFaery
+			properties
+				x	294
+				y	232
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-83033-4 of Torch
+			properties
+				x	268
+				y	223
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83032
+	properties
+		template 30602
+		south 83031
+		west 83033
+		flags	246
+	end
+	objects
+		object Column-83032-0 of Column
+			properties
+				x	413
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite3-83032-1 of Stalagmite3
+			properties
+				x	387
+				y	304
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite2-83032-2 of Stalagmite2
+			properties
+				x	409
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object Rock1-83032-3 of Rock1
+			properties
+				x	386
+				y	310
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83081
+	properties
+		template 30101
+		east 83082
+		flags	246
+	end
+	objects
+		object CryptKeeper-83081-0 of CryptKeeper
+			properties
+				x	339
+				y	253
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83081-1 of Ghoul
+			properties
+				x	105
+				y	271
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83081-2 of Ghoul
+			properties
+				x	141
+				y	240
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DamnedOne-83081-3 of DamnedOne
+			properties
+				x	205
+				y	270
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object SarcophagusDoor-83081-4 of SarcophagusDoor
+			properties
+				x	477
+				y	261
+				loop	0
+				linkTo	SarcophagusDoor-83035-7
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83082
+	properties
+		template 30201
+		west 83081
+		flags	246
+	end
+	objects
+		object UndeadNecromancer-83082-0 of UndeadNecromancer
+			properties
+				x	457
+				y	274
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object TeleportAltar-83082-1 of TeleportAltar
+			properties
+				x	355
+				y	279
+				loop	0
+			end
+			actions
+				vBeUsed teleport dobj 83080 
+			end
+			base described
+			end
+		end
+	end
+end
+room 83017
+	properties
+		template 31001
+		south 83022
+		north 83016
+		flags	0
+	end
+end
+room 83031
+	properties
+		template 30402
+		south 83079
+		north 83032
+		flags	0
+	end
+end
+room 83053
+	properties
+		template 32301
+		east 83052
+		flags	246
+	end
+	objects
+		object Bones-83053-0 of Bones
+			properties
+				x	365
+				y	272
+				loop	0
+			end
+			base described
+			end
+		end
+		object Fury-83053-1 of Fury
+			properties
+				x	533
+				y	282
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object Fury-83053-2 of Fury
+			properties
+				x	489
+				y	246
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+		object RandomSteelMonsterWeapon-83053-3 of RandomSteelMonsterWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterBoots-83053-4 of RandomMonsterBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+		object RandomFemaleMonsterPants-83053-5 of RandomFemaleMonsterPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+		object RandomFemaleMonsterShirt-83053-6 of RandomFemaleMonsterShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-83053-7 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-83053-8 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-83053-9 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83053-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83052
+	properties
+		template 30703
+		east 83038
+		west 83053
+		flags	246
+	end
+	objects
+		object Sarcophagus-83052-0 of Sarcophagus
+			properties
+				x	305
+				y	262
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Ghost-83052-1 of Ghost
+			properties
+				x	468
+				y	280
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Torch-83052-2 of Torch
+			properties
+				x	178
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-83052-3 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83052-0
+			end
+			base described
+			end
+		end
+		object RandomWand-83052-4 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83052-0
+			end
+			base described
+			end
+		end
+		object RandomZombieRobe-83052-5 of RandomZombieRobe
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83052-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterBoots-83052-6 of RandomMonsterBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83052-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83038
+	properties
+		template 31102
+		south 83097
+		east 83022
+		west 83052
+		flags	246
+	end
+	objects
+		object Ghoul-83038-0 of Ghoul
+			properties
+				x	182
+				y	260
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object FaeryQueen-83038-1 of FaeryQueen
+			properties
+				x	474
+				y	287
+				loop	1
+				color	100
+			end
+			base character
+			end
+		end
+		object Sarcophagus-83038-2 of Sarcophagus
+			properties
+				x	356
+				y	276
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Torch-83038-3 of Torch
+			properties
+				x	252
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomArmorShirt-83038-4 of RandomArmorShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomArmorPants-83038-5 of RandomArmorPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomWeapon-83038-6 of RandomWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomChainCowl-83038-7 of RandomChainCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomLeatherBoots-83038-8 of RandomLeatherBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomSmallMoney-83038-9 of RandomSmallMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-83038-10 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomRing-83038-11 of RandomRing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomStuff-83038-12 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+		object RandomJunk-83038-13 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Sarcophagus-83038-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 83022
+	properties
+		template 32202
+		east 83023
+		west 83038
+		north 83017
+		flags	246
+	end
+	objects
+		object Zombie-83022-0 of Zombie
+			properties
+				x	436
+				y	226
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-83022-1 of UndeadNecromancer
+			properties
+				x	106
+				y	236
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83022-2 of Torch
+			properties
+				x	162
+				y	226
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83023
+	properties
+		template 30703
+		east 83024
+		west 83022
+		flags	246
+	end
+	objects
+		object Ghoul-83023-0 of Ghoul
+			properties
+				x	236
+				y	258
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83023-1 of Ghoul
+			properties
+				x	414
+				y	255
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Ghoul-83023-2 of Ghoul
+			properties
+				x	324
+				y	241
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83023-3 of Torch
+			properties
+				x	511
+				y	239
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83024
+	properties
+		template 30904
+		south 83025
+		east 83037
+		west 83023
+		flags	246
+	end
+	objects
+		object UndeadNecromancer-83024-0 of UndeadNecromancer
+			properties
+				x	184
+				y	237
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83024-1 of Torch
+			properties
+				x	276
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+		object Altar-83024-2 of Altar
+			properties
+				x	304
+				y	273
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83037
+	properties
+		template 31301
+		east 83079
+		west 83024
+		flags	246
+	end
+	objects
+		object Ghoul-83037-0 of Ghoul
+			properties
+				x	252
+				y	226
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83037-1 of Zombie
+			properties
+				x	466
+				y	267
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83037-2 of Zombie
+			properties
+				x	122
+				y	250
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83037-3 of Zombie
+			properties
+				x	395
+				y	229
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83037-4 of Zombie
+			properties
+				x	143
+				y	279
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83037-5 of Torch
+			properties
+				x	377
+				y	220
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83079
+	properties
+		template 31302
+		south 83029
+		east 83078
+		west 83037
+		north 83031
+		flags	246
+	end
+	objects
+		object Zombie-83079-0 of Zombie
+			properties
+				x	475
+				y	274
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83079-1 of Zombie
+			properties
+				x	450
+				y	308
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-83079-2 of Lich
+			properties
+				x	562
+				y	244
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83079-3 of Torch
+			properties
+				x	147
+				y	276
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-83079-4 of Torch
+			properties
+				x	450
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+		object OrbOfHealing-83079-5 of OrbOfHealing
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Lich-83079-2
+			end
+			base described
+			end
+		end
+	end
+end
+room 83078
+	properties
+		template 30901
+		east 83077
+		west 83079
+		flags	246
+	end
+	objects
+		object Torch-83078-0 of Torch
+			properties
+				x	353
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83077
+	properties
+		template 30602
+		south 83076
+		west 83078
+		flags	246
+	end
+	objects
+		object Shroom3-83077-0 of Shroom3
+			properties
+				x	389
+				y	245
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom1-83077-1 of Shroom1
+			properties
+				x	437
+				y	269
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom2-83077-2 of Shroom2
+			properties
+				x	395
+				y	300
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-83077-3 of Shroom3
+			properties
+				x	398
+				y	319
+				loop	0
+			end
+			base described
+			end
+		end
+		object Shroom3-83077-4 of Shroom3
+			properties
+				x	424
+				y	282
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom1-83077-5 of Shroom1
+			properties
+				x	360
+				y	276
+				loop	1
+			end
+			base described
+			end
+		end
+		object Shroom3-83077-6 of Shroom3
+			properties
+				x	341
+				y	294
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83097
+	properties
+		template 31001
+		south 83041
+		north 83038
+		flags	0
+	end
+end
+room 83025
+	properties
+		template 31004
+		south 83051
+		north 83024
+		flags	0
+	end
+end
+room 83029
+	properties
+		template 31006
+		south 83028
+		north 83079
+		flags	246
+	end
+	objects
+		object Wraith-83029-0 of Wraith
+			properties
+				x	62
+				y	297
+				loop	0
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-83029-1 of Wraith
+			properties
+				x	415
+				y	304
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Wraith-83029-2 of Wraith
+			properties
+				x	382
+				y	289
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+		object Lich-83029-3 of Lich
+			properties
+				x	172
+				y	257
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-83029-4 of UndeadNecromancer
+			properties
+				x	91
+				y	264
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object LockedChest-83029-5 of LockedChest
+			properties
+				x	239
+				y	252
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Altar-83029-6 of Altar
+			properties
+				x	161
+				y	286
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomStuff-83029-7 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomStuff-83029-8 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomStuff-83029-9 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomScroll-83029-10 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomPotion-83029-11 of RandomPotion
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomMonsterAmulet-83029-12 of RandomMonsterAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomMonsterBauble-83029-13 of RandomMonsterBauble
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-83029-14 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object Stool-83029-15 of Stool
+			properties
+				x	402
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-83029-16 of Stool
+			properties
+				x	506
+				y	263
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-83029-17 of Stool
+			properties
+				x	481
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-83029-18 of Stool
+			properties
+				x	543
+				y	291
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-83029-19 of Stool
+			properties
+				x	439
+				y	281
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stool-83029-20 of Stool
+			properties
+				x	375
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object RandomTome-83029-21 of RandomTome
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomNecromancyI-83029-22 of RandomNecromancyI
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+		object RandomNecromancyII-83029-23 of RandomNecromancyII
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	LockedChest-83029-5
+			end
+			base described
+			end
+		end
+	end
+end
+room 83076
+	properties
+		template 30803
+		east 83075
+		north 83077
+		flags	0
+	end
+	objects
+		object Torch-83076-0 of Torch
+			properties
+				x	322
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83075
+	properties
+		template 30909
+		south 83074
+		west 83076
+		flags	246
+	end
+	objects
+		object Ghost-83075-0 of Ghost
+			properties
+				x	194
+				y	293
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+	end
+end
+room 83040
+	properties
+		template 30102
+		south 83042
+		east 83041
+		flags	246
+	end
+	objects
+		object cryptBat-83040-0 of cryptBat
+			properties
+				x	123
+				y	383
+				loop	0
+				color	73
+			end
+			base character
+			end
+		end
+		object StormBat-83040-1 of StormBat
+			properties
+				x	404
+				y	264
+				loop	2
+				color	64
+			end
+			base character
+			end
+		end
+		object vampireBat-83040-2 of vampireBat
+			properties
+				x	221
+				y	369
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object StormBat-83040-3 of StormBat
+			properties
+				x	332
+				y	367
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object screechingHorror-83040-4 of screechingHorror
+			properties
+				x	134
+				y	298
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object StormBat-83040-5 of StormBat
+			properties
+				x	278
+				y	296
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object vampireBat-83040-6 of vampireBat
+			properties
+				x	194
+				y	278
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-83040-7 of cryptBat
+			properties
+				x	422
+				y	377
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object Bat-83040-8 of Bat
+			properties
+				x	516
+				y	305
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+	end
+end
+room 83041
+	properties
+		template 31303
+		west 83040
+		north 83097
+		flags	0
+	end
+	objects
+		object Torch-83041-0 of Torch
+			properties
+				x	152
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-83041-1 of Torch
+			properties
+				x	522
+				y	242
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83050
+	properties
+		template 30102
+		south 83049
+		east 83051
+		flags	0
+	end
+end
+room 83051
+	properties
+		template 32201
+		east 83027
+		west 83050
+		north 83025
+		flags	0
+	end
+	objects
+		object Torch-83051-0 of Torch
+			properties
+				x	318
+				y	238
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83027
+	properties
+		template 30906
+		east 83028
+		west 83051
+		flags	246
+	end
+	objects
+		object Banshee-83027-0 of Banshee
+			properties
+				x	224
+				y	273
+				loop	0
+				color	104
+			end
+			base character
+			end
+		end
+		object Torch-83027-1 of Torch
+			properties
+				x	431
+				y	251
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83028
+	properties
+		template 32502
+		west 83027
+		north 83029
+		flags	0
+	end
+end
+room 83074
+	properties
+		template 31003
+		south 83073
+		north 83075
+		flags	246
+	end
+	objects
+		object Wraith-83074-0 of Wraith
+			properties
+				x	461
+				y	311
+				loop	1
+				color	7
+			end
+			base character
+			end
+		end
+	end
+end
+room 83054
+	properties
+		template 30101
+		east 83042
+		flags	246
+	end
+	objects
+		object Medusa-83054-0 of Medusa
+			properties
+				x	482
+				y	238
+				loop	2
+				color	104
+			end
+			base character
+				title	"Hapto's wife"
+			end
+		end
+		object Devil-83054-1 of Devil
+			properties
+				x	339
+				y	266
+				loop	0
+				color	104
+			end
+			base character
+				properName	"Hapto Ralumon"
+				title	"Evil Disciple"
+			end
+		end
+		object Torch-83054-2 of Torch
+			properties
+				x	322
+				y	243
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-83054-3 of SarcophagusDoor
+			properties
+				x	174
+				y	269
+				loop	0
+				linkTo	SarcophagusDoor-83091-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83042
+	properties
+		template 32303
+		south 83043
+		west 83054
+		north 83040
+		flags	246
+	end
+	objects
+		object Ghost-83042-0 of Ghost
+			properties
+				x	97
+				y	273
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object DamnedOne-83042-1 of DamnedOne
+			properties
+				x	501
+				y	309
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DamnedOne-83042-2 of DamnedOne
+			properties
+				x	447
+				y	288
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Sarcophagus-83042-3 of Sarcophagus
+			properties
+				x	410
+				y	239
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83049
+	properties
+		template 31005
+		south 83048
+		north 83050
+		flags	246
+	end
+	objects
+		object LostSailor-83049-0 of LostSailor
+			properties
+				x	521
+				y	253
+				loop	1
+				color	39
+			end
+			base character
+			end
+		end
+		object Skeleton-83049-1 of Skeleton
+			properties
+				x	415
+				y	250
+				loop	1
+				color	37
+			end
+			base character
+			end
+		end
+		object Torch-83049-2 of Torch
+			properties
+				x	411
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83072
+	properties
+		template 30102
+		south 83071
+		east 83073
+		flags	246
+	end
+	objects
+		object StormBat-83072-0 of StormBat
+			properties
+				x	200
+				y	302
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+	end
+end
+room 83073
+	properties
+		template 32602
+		west 83072
+		north 83074
+		flags	0
+	end
+	objects
+		object FatColumn-83073-0 of FatColumn
+			properties
+				x	526
+				y	268
+				loop	0
+			end
+			base described
+			end
+		end
+		object Stalagmite2-83073-1 of Stalagmite2
+			properties
+				x	443
+				y	326
+				loop	1
+			end
+			base described
+			end
+		end
+		object Stalagmite4-83073-2 of Stalagmite4
+			properties
+				x	446
+				y	323
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83093
+	properties
+		template 30305
+		south 83092
+		flags	246
+	end
+	objects
+		object Wraith-83093-0 of Wraith
+			properties
+				x	372
+				y	271
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Torch-83093-1 of Torch
+			properties
+				x	372
+				y	247
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-83093-2 of SarcophagusDoor
+			properties
+				x	227
+				y	269
+				loop	0
+				linkTo	SarcophagusDoor-83086-1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83043
+	properties
+		template 30803
+		east 83044
+		north 83042
+		flags	246
+	end
+	objects
+		object Ghoul-83043-0 of Ghoul
+			properties
+				x	479
+				y	241
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83043-1 of Torch
+			properties
+				x	314
+				y	241
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83044
+	properties
+		template 30602
+		south 83045
+		west 83043
+		flags	246
+	end
+	objects
+		object Stalagmite1-83044-0 of Stalagmite1
+			properties
+				x	386
+				y	369
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83048
+	properties
+		template 32402
+		south 83047
+		east 83058
+		north 83049
+		flags	0
+	end
+end
+room 83058
+	properties
+		template 31202
+		east 83059
+		west 83048
+		flags	246
+	end
+	objects
+		object Skeleton-83058-0 of Skeleton
+			properties
+				x	414
+				y	248
+				loop	1
+				color	37
+			end
+			base character
+			end
+		end
+		object DamnedOne-83058-1 of DamnedOne
+			properties
+				x	177
+				y	238
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83058-2 of Torch
+			properties
+				x	254
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83059
+	properties
+		template 31104
+		south 83060
+		west 83058
+		flags	246
+	end
+	objects
+		object Ghost-83059-0 of Ghost
+			properties
+				x	162
+				y	271
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Torch-83059-1 of Torch
+			properties
+				x	214
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83071
+	properties
+		template 31003
+		south 83070
+		north 83072
+		flags	246
+	end
+	objects
+		object Fury-83071-0 of Fury
+			properties
+				x	464
+				y	300
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+	end
+end
+room 83092
+	properties
+		template 31005
+		south 83094
+		east 83091
+		north 83093
+		flags	246
+	end
+	objects
+		object UndeadNecromancer-83092-0 of UndeadNecromancer
+			properties
+				x	144
+				y	291
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83092-1 of Zombie
+			properties
+				x	166
+				y	265
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Zombie-83092-2 of Zombie
+			properties
+				x	185
+				y	243
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Lich-83092-3 of Lich
+			properties
+				x	491
+				y	250
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83092-4 of Torch
+			properties
+				x	407
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83091
+	properties
+		template 30701
+		west 83092
+		flags	246
+	end
+	objects
+		object CryptKeeper-83091-0 of CryptKeeper
+			properties
+				x	133
+				y	248
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83091-1 of Torch
+			properties
+				x	93
+				y	228
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-83091-2 of SarcophagusDoor
+			properties
+				x	326
+				y	240
+				loop	0
+				linkTo	SarcophagusDoor-83054-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83045
+	properties
+		template 30802
+		east 83046
+		north 83044
+		flags	246
+	end
+	objects
+		object DarkFaery-83045-0 of DarkFaery
+			properties
+				x	137
+				y	282
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object DarkFaery-83045-1 of DarkFaery
+			properties
+				x	170
+				y	266
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Wraith-83045-2 of Wraith
+			properties
+				x	384
+				y	262
+				loop	0
+				color	7
+			end
+			base character
+			end
+		end
+		object UndeadNecromancer-83045-3 of UndeadNecromancer
+			properties
+				x	201
+				y	262
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-83045-4 of EntombedOne
+			properties
+				x	249
+				y	275
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83046
+	properties
+		template 31301
+		east 83047
+		west 83045
+		flags	246
+	end
+	objects
+		object Torch-83046-0 of Torch
+			properties
+				x	90
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+		object Torch-83046-1 of Torch
+			properties
+				x	583
+				y	230
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83047
+	properties
+		template 31201
+		south 83055
+		west 83046
+		north 83048
+		flags	246
+	end
+	objects
+		object Lich-83047-0 of Lich
+			properties
+				x	465
+				y	273
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object DarkFaery-83047-1 of DarkFaery
+			properties
+				x	123
+				y	240
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-83047-2 of Torch
+			properties
+				x	349
+				y	240
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83060
+	properties
+		template 30801
+		east 83061
+		north 83059
+		flags	246
+	end
+	objects
+		object vampireBat-83060-0 of vampireBat
+			properties
+				x	160
+				y	287
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-83060-1 of vampireBat
+			properties
+				x	188
+				y	262
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object DemonRat-83060-2 of DemonRat
+			properties
+				x	227
+				y	267
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+		object Torch-83060-3 of Torch
+			properties
+				x	244
+				y	232
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83061
+	properties
+		template 30906
+		east 83069
+		west 83060
+		flags	246
+	end
+	objects
+		object Torch-83061-0 of Torch
+			properties
+				x	192
+				y	234
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83069
+	properties
+		template 32401
+		south 83068
+		east 83070
+		west 83061
+		flags	246
+	end
+	objects
+		object Lich-83069-0 of Lich
+			properties
+				x	291
+				y	291
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Torch-83069-1 of Torch
+			properties
+				x	320
+				y	231
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83070
+	properties
+		template 32601
+		west 83069
+		north 83071
+		flags	246
+	end
+	objects
+		object cryptBat-83070-0 of cryptBat
+			properties
+				x	161
+				y	275
+				loop	2
+				color	73
+			end
+			base character
+			end
+		end
+		object StormBat-83070-1 of StormBat
+			properties
+				x	355
+				y	287
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object StormBat-83070-2 of StormBat
+			properties
+				x	295
+				y	275
+				loop	1
+				color	64
+			end
+			base character
+			end
+		end
+		object screechingHorror-83070-3 of screechingHorror
+			properties
+				x	392
+				y	272
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-83070-4 of Torch
+			properties
+				x	256
+				y	253
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83094
+	properties
+		template 32304
+		north 83092
+		flags	246
+	end
+	objects
+		object EntombedOne-83094-0 of EntombedOne
+			properties
+				x	377
+				y	270
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+	end
+end
+room 83055
+	properties
+		template 31003
+		south 83056
+		north 83047
+		flags	0
+	end
+end
+room 83068
+	properties
+		template 31003
+		south 83067
+		north 83069
+		flags	246
+	end
+	objects
+		object DemonRat-83068-0 of DemonRat
+			properties
+				x	464
+				y	309
+				loop	1
+				color	771
+			end
+			base character
+			end
+		end
+		object DarkFaery-83068-1 of DarkFaery
+			properties
+				x	456
+				y	307
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+	end
+end
+room 83086
+	properties
+		template 30805
+		east 83087
+		flags	246
+	end
+	objects
+		object Ghost-83086-0 of Ghost
+			properties
+				x	442
+				y	273
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object SarcophagusDoor-83086-1 of SarcophagusDoor
+			properties
+				x	196
+				y	258
+				loop	0
+				linkTo	SarcophagusDoor-83093-2
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83087
+	properties
+		template 30602
+		south 83088
+		west 83086
+		flags	246
+	end
+	objects
+		object Skeleton-83087-0 of Skeleton
+			properties
+				x	447
+				y	300
+				loop	1
+				color	37
+			end
+			base character
+			end
+		end
+		object Skeleton-83087-1 of Skeleton
+			properties
+				x	449
+				y	267
+				loop	1
+				color	37
+			end
+			base character
+			end
+		end
+		object DamnedOne-83087-2 of DamnedOne
+			properties
+				x	308
+				y	286
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Stalagmite1-83087-3 of Stalagmite1
+			properties
+				x	389
+				y	358
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83056
+	properties
+		template 30802
+		east 83057
+		north 83055
+		flags	0
+	end
+end
+room 83057
+	properties
+		template 30909
+		south 83063
+		west 83056
+		flags	0
+	end
+	objects
+		object Torch-83057-0 of Torch
+			properties
+				x	405
+				y	244
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83067
+	properties
+		template 31006
+		south 83066
+		north 83068
+		flags	246
+	end
+	objects
+		object Bones-83067-0 of Bones
+			properties
+				x	469
+				y	302
+				loop	0
+			end
+			base described
+			end
+		end
+		object CryptKeeper-83067-1 of CryptKeeper
+			properties
+				x	83
+				y	306
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object EntombedOne-83067-2 of EntombedOne
+			properties
+				x	107
+				y	260
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object Fury-83067-3 of Fury
+			properties
+				x	392
+				y	302
+				loop	1
+				color	30
+			end
+			base character
+			end
+		end
+		object Sarcophagus-83067-4 of Sarcophagus
+			properties
+				x	468
+				y	264
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-83067-5 of Sarcophagus
+			properties
+				x	122
+				y	286
+				loop	1
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sarcophagus-83067-6 of Sarcophagus
+			properties
+				x	180
+				y	237
+				loop	0
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object RandomShirt-83067-7 of RandomShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomPants-83067-8 of RandomPants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomBoots-83067-9 of RandomBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-83067-10 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-83067-11 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-83067-12 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomStuff-83067-13 of RandomStuff
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomJunk-83067-14 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomJunk-83067-15 of RandomJunk
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomAmulet-83067-16 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomShield-83067-17 of RandomShield
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+		object RandomRichThiefWeapon-83067-18 of RandomRichThiefWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83067-0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83083
+	properties
+		template 32301
+		east 83084
+		flags	246
+	end
+	objects
+		object Shade-83083-0 of Shade
+			properties
+				x	378
+				y	265
+				loop	0
+				color	29
+			end
+			base character
+			end
+		end
+		object Ghost-83083-1 of Ghost
+			properties
+				x	559
+				y	267
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Ghost-83083-2 of Ghost
+			properties
+				x	568
+				y	252
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+		object Ghost-83083-3 of Ghost
+			properties
+				x	571
+				y	234
+				loop	0
+				color	31
+			end
+			base character
+			end
+		end
+	end
+end
+room 83084
+	properties
+		template 31104
+		south 83085
+		west 83083
+		flags	246
+	end
+	objects
+		object CryptKeeper-83084-0 of CryptKeeper
+			properties
+				x	499
+				y	296
+				loop	1
+				color	84
+			end
+			base character
+			end
+		end
+		object Medusa-83084-1 of Medusa
+			properties
+				x	171
+				y	264
+				loop	2
+				color	104
+			end
+			base character
+				title	"Mother Ralumon"
+			end
+		end
+		object Torch-83084-2 of Torch
+			properties
+				x	219
+				y	233
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-83084-3 of SarcophagusDoor
+			properties
+				x	390
+				y	267
+				loop	0
+				linkTo	SarcophagusDoor-83063-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83088
+	properties
+		template 31402
+		south 83089
+		east 83191
+		north 83087
+		flags	246
+	end
+	objects
+		object Ghost-83088-0 of Ghost
+			properties
+				x	534
+				y	307
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+		object Ghost-83088-1 of Ghost
+			properties
+				x	552
+				y	269
+				loop	1
+				color	31
+			end
+			base character
+			end
+		end
+		object Banshee-83088-2 of Banshee
+			properties
+				x	223
+				y	261
+				loop	2
+				color	104
+			end
+			base character
+			end
+		end
+		object Fury-83088-3 of Fury
+			properties
+				x	190
+				y	312
+				loop	0
+				color	30
+			end
+			base character
+			end
+		end
+	end
+end
+room 83191
+	properties
+		template 30909
+		south 83090
+		west 83088
+		flags	246
+	end
+	objects
+		object Devil-83191-0 of Devil
+			properties
+				x	249
+				y	296
+				loop	1
+				color	104
+			end
+			base character
+				properName	"Hedra Ralumon"
+				title	"Evil Disciple"
+			end
+		end
+		object Devil-83191-1 of Devil
+			properties
+				x	188
+				y	269
+				loop	1
+				color	104
+			end
+			base character
+				properName	"Dracus Ralumon"
+				title	"Evil Disciple"
+			end
+		end
+	end
+end
+room 83063
+	properties
+		template 30801
+		east 83064
+		north 83057
+		flags	246
+	end
+	objects
+		object EntombedOne-83063-0 of EntombedOne
+			properties
+				x	316
+				y	288
+				loop	0
+				color	84
+			end
+			base character
+			end
+		end
+		object DarkFaery-83063-1 of DarkFaery
+			properties
+				x	483
+				y	294
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object Torch-83063-2 of Torch
+			properties
+				x	265
+				y	227
+				loop	0
+			end
+			base described
+			end
+		end
+		object SarcophagusDoor-83063-3 of SarcophagusDoor
+			properties
+				x	262
+				y	264
+				loop	0
+				linkTo	SarcophagusDoor-83084-3
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 83064
+	properties
+		template 30906
+		east 83065
+		west 83063
+		flags	246
+	end
+	objects
+		object DamnedOne-83064-0 of DamnedOne
+			properties
+				x	558
+				y	239
+				loop	2
+				color	84
+			end
+			base character
+			end
+		end
+		object Wraith-83064-1 of Wraith
+			properties
+				x	184
+				y	248
+				loop	2
+				color	7
+			end
+			base character
+			end
+		end
+		object Torch-83064-2 of Torch
+			properties
+				x	435
+				y	249
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83065
+	properties
+		template 30901
+		east 83066
+		west 83064
+		flags	0
+	end
+	objects
+		object Torch-83065-0 of Torch
+			properties
+				x	352
+				y	252
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83066
+	properties
+		template 32701
+		west 83065
+		north 83067
+		flags	246
+	end
+	objects
+		object Devil-83066-0 of Devil
+			properties
+				x	115
+				y	245
+				loop	2
+				color	104
+			end
+			base character
+				properName	"Goth Ralumon"
+				title	"Do Gooder's Bane"
+			end
+		end
+	end
+end
+room 83085
+	properties
+		template 30403
+		north 83084
+		flags	246
+	end
+	objects
+		object Devil-83085-0 of Devil
+			properties
+				x	362
+				y	278
+				loop	1
+				color	104
+			end
+			base character
+				properName	"Ginza Ralumon"
+				title	"Ralumon Dictator"
+			end
+		end
+		object Devil-83085-1 of Devil
+			properties
+				x	167
+				y	274
+				loop	0
+				color	104
+			end
+			base character
+				properName	"Kurpo Ralumon"
+				title	"Ralumon Dictator"
+			end
+		end
+		object Fire3-83085-2 of Fire3
+			properties
+				x	408
+				y	337
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke1-83085-3 of Smoke1
+			properties
+				x	404
+				y	330
+				loop	0
+			end
+			base described
+			end
+		end
+		object FireA-83085-4 of FireA
+			properties
+				x	101
+				y	289
+				loop	0
+			end
+			base described
+			end
+		end
+		object Smoke2-83085-5 of Smoke2
+			properties
+				x	103
+				y	285
+				loop	0
+			end
+			base described
+			end
+		end
+	end
+end
+room 83089
+	properties
+		template 30801
+		east 83090
+		north 83088
+		flags	246
+	end
+	objects
+		object CaveRat-83089-0 of CaveRat
+			properties
+				x	236
+				y	253
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object CaveRat-83089-1 of CaveRat
+			properties
+				x	294
+				y	241
+				loop	0
+				color	808
+			end
+			base character
+			end
+		end
+		object PlagueRat-83089-2 of PlagueRat
+			properties
+				x	432
+				y	272
+				loop	0
+				color	82
+			end
+			base character
+			end
+		end
+		object FlameRat-83089-3 of FlameRat
+			properties
+				x	427
+				y	289
+				loop	0
+				color	1
+			end
+			base character
+			end
+		end
+		object ArcticRat-83089-4 of ArcticRat
+			properties
+				x	432
+				y	259
+				loop	0
+				color	2
+			end
+			base character
+			end
+		end
+		object DemonRat-83089-5 of DemonRat
+			properties
+				x	224
+				y	268
+				loop	0
+				color	771
+			end
+			base character
+			end
+		end
+	end
+end
+room 83090
+	properties
+		template 32502
+		west 83089
+		north 83191
+		flags	246
+	end
+	objects
+		object Bones-83090-0 of Bones
+			properties
+				x	404
+				y	282
+				loop	0
+			end
+			base described
+			end
+		end
+		object Bat-83090-1 of Bat
+			properties
+				x	255
+				y	362
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object Bat-83090-2 of Bat
+			properties
+				x	483
+				y	353
+				loop	0
+				color	98
+			end
+			base character
+			end
+		end
+		object vampireBat-83090-3 of vampireBat
+			properties
+				x	187
+				y	353
+				loop	2
+				color	48
+			end
+			base character
+			end
+		end
+		object vampireBat-83090-4 of vampireBat
+			properties
+				x	339
+				y	348
+				loop	0
+				color	48
+			end
+			base character
+			end
+		end
+		object cryptBat-83090-5 of cryptBat
+			properties
+				x	92
+				y	321
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object StormBat-83090-6 of StormBat
+			properties
+				x	229
+				y	273
+				loop	0
+				color	64
+			end
+			base character
+			end
+		end
+		object screechingHorror-83090-7 of screechingHorror
+			properties
+				x	422
+				y	233
+				loop	1
+				color	99
+			end
+			base character
+			end
+		end
+		object screechingHorror-83090-8 of screechingHorror
+			properties
+				x	89
+				y	240
+				loop	0
+				color	99
+			end
+			base character
+			end
+		end
+		object cryptBat-83090-9 of cryptBat
+			properties
+				x	456
+				y	277
+				loop	1
+				color	73
+			end
+			base character
+			end
+		end
+		object Bat-83090-10 of Bat
+			properties
+				x	337
+				y	277
+				loop	2
+				color	98
+			end
+			base character
+			end
+		end
+		object RandomAmulet-83090-11 of RandomAmulet
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomScroll-83090-12 of RandomScroll
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomSkillbook-83090-13 of RandomSkillbook
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomWand-83090-14 of RandomWand
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomMegaTreasure-83090-15 of RandomMegaTreasure
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomGem-83090-16 of RandomGem
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomPlateCowl-83090-17 of RandomPlateCowl
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomPlateBoots-83090-18 of RandomPlateBoots
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomRichWarriorWeapon-83090-19 of RandomRichWarriorWeapon
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomPlateShirt-83090-20 of RandomPlateShirt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomPlatePants-83090-21 of RandomPlatePants
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomBracers-83090-22 of RandomBracers
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomZombieTreasureI-83090-23 of RandomZombieTreasureI
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomMoreMoney-83090-24 of RandomMoreMoney
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomMonsterOrb-83090-25 of RandomMonsterOrb
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomMaterial-83090-26 of RandomMaterial
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+		object RandomBelt-83090-27 of RandomBelt
+			properties
+				x	-200
+				y	-200
+				loop	0
+			end
+			base carryable
+				owner	Bones-83090-0
+			end
+			base described
+			end
+		end
+	end
+end

@@ -1,0 +1,35 @@
+id 6114
+
+banner "Greetings, Friend. Welcome to The Light in the Forest Tavern. May I help you?"
+
+topic "Tell me about Wen."
+        text "Certainly, I always enjoy discussing the town of my birth. Wen is rural, and is smaller than many Realm towns."
+        text "Many Wenners follow Enid, goddess of nature and peace. I myself am not a religious man, but I've seen evidence of Enid's powers, so neither do I scoff at such things."
+	text "Sounds like the gods around Leinster really cut loose and did some damage there."
+	text "If a person were selecting a god to follow, Enid would be the one to choose.  I'll say that for her."
+end
+
+topic "Who are you?"
+        text "I am Xondor, owner and operator of the Light in the Forest Tavern."
+        text "I was born here in Wen, have lived here all my life, and will no doubt die here. But better later than sooner, eh? Ha-ha!"
+end      
+
+topic "Can I do something for you?"
+        text "Not at present, Friend. Perhaps another time."
+end
+
+topic  "I seek the Amulet of Nemor the Noble" q147:0 #q6403-01-300:0
+	quest 148 #6403-01-325
+	text  "You sought before, friend, and you got it."
+end
+
+topic  "I'm looking for an emerald of Enid." q217:0 #q6817-01-530:0
+	quest 218 #6817-01-535
+	text  "You got it."
+end
+
+topic  "I'm looking for Inila's supplies." q35:0 #q6045-01-530:0
+	quest 36 #6045-01-535
+	text  "Don't be silly. You took them."
+end
+

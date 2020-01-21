@@ -1,0 +1,353 @@
+/*
+	global system message definitions
+	author: Stephen Nichols
+*/
+
+#ifndef _MSGS_HPP_
+#define _MSGS_HPP_
+
+#include "new.hpp"
+#include "malloc.hpp"
+#include "ipcclient.hpp"
+#include "ipcmsg.hpp"
+#include <time.h>
+
+enum {
+	_ACCT_TYPE_12MONTH,
+	_ACCT_TYPE_30DAY,
+	_ACCT_TYPE_90DAY,
+	_ACCT_TYPE_INVALID,
+	_ACCT_TYPE_IN_USE,
+	_ACCT_TYPE_DOWN,
+	_ACCT_TYPE_MAX
+};
+
+// caution!! Do not go below -1 or exceed 1024 without changing the 
+// values in ipc.cpp for _type in "read".
+
+enum {
+	_IPC_TERMINATED		 				= -1,
+
+	_IPC_CLIENT_SEND					=	0,
+	_IPC_CLIENT_CONNECTED,				//	1
+	_IPC_CLIENT_HUNG_UP,				//	2
+	_IPC_SERVER_SEND,					//	3
+	_IPC_SERVER_CONNECTED,				//	4
+	_IPC_SERVER_HUNG_UP,				//	5
+	_IPC_OLD_PATCH_REQUEST,				//	6
+	_IPC_OLD_PATCH_BLOCK,				//	7
+	_IPC_OLD_PATCH_INFO,				//	8
+
+	_IPC_ROUTE_INFO						=	10,
+	_IPC_PATCH_REQUEST,					//	11
+	_IPC_PATCH_BLOCK,					//	12
+	_IPC_PATCH_INFO,					//	13
+
+	_IPC_PLAYER_CHECK_LOGIN          = 14,
+	_IPC_SECURITY,						//	15
+	_IPC_INN_LOGIN,               // 16
+	_IPC_SERVER_PING,					//	17
+	_IPC_PLAYER_QUERY_CHARACTERS,		//	18
+
+	_IPC_OLD_INN_LOGIN						=	20,
+	_IPC_PLAYER_LOGIN,               // 21
+	_IPC_PLAYER_LOGOUT,					//	22
+	_IPC_PLAYER_PAGE,					//	23
+	_IPC_PLAYER_SYSTEM_MSG,				//	24
+	_IPC_PLAYER_ACK,					//	25
+	_IPC_PLAYER_NAK,					//	26
+	_IPC_PLAYER_ADD_ROOM,				//	27
+	_IPC_PLAYER_READ_ROOM,				//	28
+	_IPC_PLAYER_UPDATE_ROOM,			//	29
+	_IPC_PLAYER_DELETE_ROOM,			//	30
+	_IPC_PLAYER_UNLINK_ROOM,			//	31
+	_IPC_PLAYER_CHANGE_ROOM,			//	32
+	_IPC_PLAYER_NEW_ROOM,				//	33
+	_IPC_PLAYER_INVALIDATE_ROOMS,		//	34
+	_IPC_PLAYER_ENTERED_GAME,			//	35
+	_IPC_PLAYER_EXITED_GAME,			//	36
+	_IPC_PLAYER_ROOM_CHAT,				//	37
+	_IPC_PLAYER_TEXT,					//	38
+	_IPC_PLAYER_CREATE_OBJ,				//	39
+	_IPC_PLAYER_OBJ_INFO,				//	40
+	_IPC_PLAYER_MOVIE,					//	41
+	_IPC_PLAYER_MOVIE_DATA,				//	42
+	_IPC_PLAYER_CHAT,					//	43
+	_IPC_PLAYER_SERVID,					//	44
+	_IPC_PLAYER_DESTROY_OBJECT,			//	45
+	_IPC_OLD_SERVER_PING,					//	46
+	_IPC_CLIENT_PING,					//	47
+	_IPC_PLAYER_CREATE_CHARACTER,		//	48
+	_IPC_PLAYER_DESTROY_CHARACTER,		//	49
+	_IPC_PLAYER_OLD_QUERY_CHARACTERS,		//	50
+	_IPC_PLAYER_REQUEST_SERVID,			//	51
+	_IPC_PLAYER_SHIFT_ROOM,				//	52
+	_IPC_PLAYER_CHARACTER_INFO,			//	53
+	_IPC_PLAYER_OLD_CHARACTER_LOGIN,	//	54
+	_IPC_PLAYER_GET_BIOGRAPHY,			//	55
+	_IPC_PLAYER_SET_BIOGRAPHY,			//	56
+	_IPC_PLAYER_GET_DESCRIPTION,		//	57
+	_IPC_PLAYER_GET_EXTENDED_PROPS,		//	58
+	_IPC_PLAYER_SET_HEAD_DATA,			//	59
+	_IPC_PLAYER_GET_CHAR_INFO,			//	60
+	_IPC_PLAYER_WHO,					//	61
+	_IPC_PLAYER_OLD_CHECK_LOGIN,			//	62
+	_IPC_ATTACH_EFFECT,					//	63
+	_IPC_REMOVE_EFFECT,					//	64
+	_IPC_PLAYER_EFFECT_DATA,			//	65
+	_IPC_SET_PROP,						//	66
+	_IPC_COMBAT_BEGIN,					//	67
+	_IPC_COMBAT_MOVE,					//	68
+	_IPC_COMBAT_EXIT,					//	69
+	_IPC_COMBAT_FLEE,					//	70
+	_IPC_GET_SHOP_INFO,					//	71
+	_IPC_SHOP_BUY,						//	72
+	_IPC_SHOP_EXAMINE,					//	73
+	_IPC_SHOP_SELL,						//	74
+	_IPC_SHOP_GET_PRICE,				//	75
+	_IPC_MONEY_DROP,					//	76
+	_IPC_MONEY_PUT,						//	77
+	_IPC_MONEY_GIVE,					//	78
+	_IPC_MONEY_TAKE,					//	79
+	_IPC_CAST_SPELL,					//	80
+	_IPC_PLAYER_INFO,					//	81
+	_IPC_GET_BOOK_INFO,					//	82
+	_IPC_GET_BOOK_PAGE,					//	83
+	_IPC_FATAL_DATA,					//	84
+	_IPC_LOCK_OBJ,						//	85
+	_IPC_UNLOCK_OBJ,					//	86
+	_IPC_GROUP_JOIN,					//	87
+	_IPC_GROUP_LEAVE,					//	88
+	_IPC_GROUP_KICK,					//	89
+	_IPC_GROUP_QUESTION,				//	90
+	_IPC_SECURITY_REQUEST,				//	91
+	_IPC_GET_POSN,						//	92
+	_IPC_CHANGE_PASSWORD,				//	93
+	_IPC_GET_HOUSE,						//	94
+	_IPC_GET_ENTRY_INFO,				//	95
+	_IPC_TALK,							//	96
+	_IPC_LOGIN_DONE,					//	97
+	_IPC_LOGIN_UPDATE,					//	98
+	_IPC_FOREFIT_TURN,					//	99
+	_IPC_OLD_ROUTE_INFO,				//	100
+	_IPC_SHOP_RECHARGE,					//	101
+	_IPC_SHOP_GET_RECHARGE_PRICE,		//	102
+	_IPC_SET_TITLE,						//	103
+	_IPC_TREE_GET,						//	104
+	_IPC_TREE_CHOOSE_TOPIC,				//	105
+	_IPC_TREE_GET_TEXT,					//	106
+	_IPC_TREE_BACK,						//	107
+	_IPC_QUEST_ACCEPT,					//	108
+	_IPC_QUEST_DECLINE,					//	109
+	_IPC_GET_QUEST_LIST,				//	110
+	_IPC_MIX_OBJECT,					//	111
+	_IPC_COMBAT_ACTION,					//	112
+	_IPC_CREATE_OBJECT,					//	113
+	_IPC_WHATS_NEW,						//	114
+	_IPC_SET_ENGRAVE_NAME,				//	115
+	_IPC_GET_LOOK_INFO,					//	116
+	_IPC_SELL_CRYSTALS,					//	117
+	_IPC_BULK_TAKE,						//	118
+	_IPC_BULK_DROP,						//	119
+	_IPC_BULK_PUT,						//	120
+	_IPC_BULK_GIVE,						//	121
+	_IPC_REPAIR,						//	122
+	_IPC_GET_REPAIR_PRICE,				//	123
+	_IPC_UPDATE_ATTRIBUTES,				//	124
+	_IPC_SEND_REG,						//	125
+	_IPC_MASS_SELL,						//	126
+	_IPC_MASS_BUY,						//	127
+	_IPC_GET_SELL_PRICES,				//	128
+	_IPC_CREATE_CHANNEL,				//	129
+	_IPC_PLAYER_CHARACTER_LOGIN,		//	130
+	_IPC_GET_REPAIR_PRICES,				//	131
+	_IPC_MASS_REPAIR,					//	132
+	_IPC_ROCKING,						//	133
+
+	_IPC_TRADE,							//	134
+
+	_IPC_MAIL_LIST_GET					=	135,
+	_IPC_MAIL_MESSAGE_GET,				//	136
+	_IPC_MAIL_MESSAGE_DELETE,			//	137
+	_IPC_MAIL_MESSAGE_SEND,				//	138
+	_IPC_MAIL_MESSAGE_ARCHIVE,			//	139
+	_IPC_MAIL_MESSAGE_COMPLAIN,			//	140
+
+	_IPC_WRITE_SPELLS					=	145,
+
+	_IPC_VERB_GET						=	150,
+	_IPC_VERB_DROP,						//	151
+	_IPC_VERB_PUT_IN,					//	152
+	_IPC_VERB_PUT_ON,					//	153
+	_IPC_VERB_TAKE_OFF,					//	154
+	_IPC_VERB_OPEN,						//	155
+	_IPC_VERB_CLOSE,					//	156
+	_IPC_VERB_LOCK,						//	157
+	_IPC_VERB_UNLOCK,					//	158
+	_IPC_VERB_ATTACK,					//	159
+	_IPC_VERB_ENGAGE,					//	160
+	_IPC_VERB_CONSUME,					//	161
+	_IPC_VERB_SIT,						//	162
+	_IPC_VERB_STAND,					//	163
+	_IPC_VERB_GIVE,						//	164
+	_IPC_VERB_MEMORIZE,					//	165
+	_IPC_VERB_ROB,						//	166
+	_IPC_VERB_USE,						//	167
+	_IPC_VERB_PUSH,						//	168
+	_IPC_VERB_DYE,						//	169
+	_IPC_VERB_COMBINE,					//	170
+
+	_IPC_NPC_PULSE						=	180,
+	_IPC_TIMER_PULSE,					//	181
+	_IPC_COMBAT_PULSE,					//	182
+	_IPC_ZONE_RESET_PULSE,				//	183
+	_IPC_PROCESS_AFFECT_PULSE,			//	184
+	_IPC_CHAR_DOIT_PULSE,				//	185
+	_IPC_HEAL_PULSE,					//	186
+	_IPC_PING_PULSE,					//	187
+	_IPC_MONSTER_PULSE,					//	188
+	_IPC_MAINTENANCE_PULSE,				//	189
+	_IPC_RESET_PULSE,					//	190
+	_IPC_ZONE_RESET_CMD,				//	191
+	_IPC_ADD_TO_ROOM,					//	192
+	_IPC_TOSS_DEAD_HOUSES,				//	193
+	_IPC_DUNGEON_QUEUE_PULSE,			//	194
+	_IPC_TOSS_DEAD_MAIL,				//	195
+	_IPC_AMBUSH_PULSE,					//	196
+	_IPC_SAVE_STATE,					// 197
+
+	_IPC_FILEMGR_HELLO					=	200,
+	_IPC_FILEMGR_GET,					//	201
+	_IPC_FILEMGR_PUT,					//	202
+	_IPC_FILEMGR_EXISTS,				//	203
+	_IPC_FILEMGR_ERASE,					//	204
+	_IPC_FILEMGR_APPEND,				//	205
+	_IPC_FILEMGR_EXCLUSIVE_CREATE,		//	206
+
+	_IPC_DATAMGR_LOG_PERMANENT 			=	210,
+	_IPC_DATAMGR_LOGIN,					//	211
+	_IPC_DATAMGR_LOGOUT,				//	212
+	_IPC_DATAMGR_NEW_CHAR,				//	213
+	_IPC_DATAMGR_SAVE_CHAR,				//	214
+	_IPC_DATAMGR_DEL_CHAR,				//	215
+	_IPC_DATAMGR_SUSPEND,				//	216
+	_IPC_DATAMGR_DISABLE,				//	217
+	_IPC_DATAMGR_REVOKE,				//	218
+	_IPC_DATAMGR_GAG,					//	219
+	_IPC_DATAMGR_SETPASS,				//	220
+	_IPC_DATAMGR_NEW_HOUSE,				//	221
+	_IPC_DATAMGR_WRITE_HOUSE,			//	222
+	_IPC_DATAMGR_DEL_HOUSE,				//	223
+	_IPC_DATAMGR_GET_HOUSE,				//	224
+	_IPC_DATAMGR_HELLO,					//	225
+	_IPC_DATAMGR_GET_ALL_HOUSES,		//	226
+	_IPC_DATAMGR_GET_NEXT_HOUSE,		//	227
+	_IPC_DATAMGR_LOGINMESSAGE,			//	228
+	_IPC_DATAMGR_DOWNTIMEMESSAGE,		//	229
+	_IPC_DATAMGR_SET_RIGHTS,			//	230
+	_IPC_DATAMGR_WHATS_NEW,				//	231
+	_IPC_DATAMGR_LOG_ENGRAVE,			//	232
+	_IPC_DATAMGR_MAIL,					//	233
+	_IPC_DATAMGR_COPPER,				//	234
+	_IPC_DATAMGR_CREDIT,				//	235
+	_IPC_DATAMGR_CONFIG_INFO,			//	236
+	_IPC_DATAMGR_PLACE_BOUNTY,			//	237
+
+	_IPC_DATAMGR_GAME_CRASHER			=	253,
+
+	_IPC_CLIENT_HACKED_MSG				=	254,
+
+	_IPC_MAX_MESSAGES
+};
+
+enum {
+	_TRADE_START,
+	_TRADE_QUESTION,
+	_TRADE_OPEN,
+	_TRADE_CLOSE,
+	_TRADE_CHECK_ON,
+	_TRADE_CHECK_OFF,
+	_TRADE_OBJ_LOOK,
+	_TRADE_OBJ_ADD,
+	_TRADE_OBJ_LIST
+};
+
+enum {
+	_DATAMGR_MAIL_GET_LIST	=	1,
+	_DATAMGR_MAIL_GET,
+	_DATAMGR_MAIL_DELETE,
+	_DATAMGR_MAIL_SEND,
+	_DATAMGR_MAIL_ARCHIVE,
+	_DATAMGR_MAIL_COMPLAIN,
+	_DATAMGR_MAX_MAIL
+};
+
+enum {
+	_DATAMGR_CONFIG_INFO_GET	=	1,
+	_DATAMGR_CONFIG_INFO_WRITE_QUESTS,
+	_DATAMGR_CONFIG_INFO_WRITE_CRIMES,
+	_DATAMGR_CONFIG_INFO_ADD_FRIEND,
+	_DATAMGR_CONFIG_INFO_DEL_FRIEND,
+	_DATAMGR_CONFIG_INFO_ADD_FOE,
+	_DATAMGR_CONFIG_INFO_DEL_FOE,
+	_DATAMGR_CONFIG_INFO_WRITE_SPELLS,
+	_DATAMGR_CONFIG_INFO_CHECK_FOE,
+};
+
+extern char gMsgNames[256][60];
+
+/* player/object manager message structures */
+
+class IPCPMMessage {
+public:
+	int	to;
+	int	from;
+};
+
+class IPCPMAckMsg : public IPCPMMessage {
+public:
+	int command, info;
+};
+
+class IPCPMNakMsg : public IPCPMAckMsg {};
+
+class IPCPMChatMsg : public IPCPMMessage {
+public:
+	int servID;
+};
+
+class IPCStats {
+protected:
+	int				m_nType;
+
+	clock_t			m_nExecTime;
+
+	long long		m_nInCount;
+	long long		m_nInbound;
+
+	long long		m_nOutCount;
+	long long		m_nOutbound;
+	long long		m_nAcked;
+	long long		m_nNaked;
+
+	static int		m_nSlowestMsg;
+	static clock_t	m_nSlowestTime;
+	static time_t	m_nStartTime;
+
+public:
+	IPCStats();
+
+	void			addExecTime( clock_t nTime, IPCMessage* pMsg );
+	void			addOutbound( int nSize, int* nBuf );
+					
+	char*			displayStats( int nCount );
+	char*			displaySlowest();
+
+	static char*	display();
+
+	static void		init();
+
+	static IPCStats Msgs[ _IPC_MAX_MESSAGES ];
+};
+
+#endif

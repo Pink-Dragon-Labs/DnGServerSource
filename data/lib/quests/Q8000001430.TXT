@@ -1,0 +1,19 @@
+quest  357 #80000-01-430        # Misha, Eaterie, Wen, 6101
+
+name  "Salve for Misha"
+type  fedex
+
+proposal  "I'm glad you came in, friend.  I've expanded my wares beyond food, but I haven't changed the name.  It's been Eaterie for so long I don't want to tinker with it, but it's a bit of a misnomer now.  I do have plenty of food,  I just have a sideline that is growing also.  Like my driftwood.  I have a piece that would be perfect for your purpose, just perfect. Would you do me a favor while I'm getting the driftwood out of storage?"
+
+declined  "OK"
+
+accepted  "The healer has some salve for me.  I'm afraid I strained my back lugging the driftwood around."
+
+reminder   "Go to the healer for my salve."
+
+completed  "Many thanks, friend.  I needed that.  I hope you enjoy this frame."
+
+getItem   qSalve
+reward   qDriftwoodFrame 
+end
+

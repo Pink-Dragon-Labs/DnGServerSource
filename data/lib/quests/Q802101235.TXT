@@ -1,0 +1,15 @@
+quest  289 #8021-01-235        #Sanria, Fantastic Meals, Arimathor, 6804
+
+name  "Cinnamon Rolls"
+type  fedex
+
+proposal  "Of course, of course.  She likes her daily sweet.  I've got some fresh baked cinnamon rolls and I saved some just for her.  You'll take them over to her while they're still warm?"
+
+declined  "OK"
+
+accepted  "Good.  Such an old dear, she is."  
+
+reminder   "Take those rolls to Kaliri quickly."
+
+reward   qKaliriSweet 
+end

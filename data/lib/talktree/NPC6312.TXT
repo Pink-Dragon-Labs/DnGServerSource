@@ -1,0 +1,28 @@
+id 6312
+
+banner "Luna be praised! A customer. Welcome to Monmouth Necessaries."
+
+topic "Tell me about Monmouth."
+        text "I know a bit about the town, since my family has lived here since Luna sent the moonbeam of knowledge to humanity."
+	text "Monmouth is kept clean, very clean.  You won't see litter here."
+	text "Monmouth farmers grow good crops, too.  This is the right place to live if you like fresh food."
+end
+
+topic  "Who are you?"
+	text  "I'm called Meulen, named after my grandfather.  Now there was a character for you.  Great, hulking, red-haired fellow, he was.  Folks used to say he had giant blood in his veins, he was so big."
+	text  "I don't think it was true, though.  He always just laughed at the idea.  It made his Mum fighting mad."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I don't pay attention to such things. I work this shop, worship Luna, and haven't time left over to listen to gossip."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, thank you. Perhaps you could try me again later."
+end
+
+topic  "Have you any black mushrooms?" q227:0 #q6815-01-325:0
+	quest 228 #6815-01-330
+	text  "You've got the whole supply."
+end
+

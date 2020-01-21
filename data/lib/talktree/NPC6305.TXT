@@ -1,0 +1,36 @@
+id 6305
+
+banner "Welcome to Eldest Inn, Adventurer."
+
+topic "Tell me about Monmouth."
+        text "So you're not familiar with Monmouth? Well, there is much for you to enjoy. Did you know, for instance, that it never rains in Monmouth?"
+	text  "Many wonder how our soil can be so rich without heaven's sustenance, but we nourish the soil in other ways."
+end
+
+topic "Who are you?"
+        text "I am Brindal, proprietor of the Eldest Inn.  The original building burned to the ground many years ago, and was rebuilt on the spot."
+	text  "My father purchased this tavern from a direct full-blooded descendent of the ancient ones. It is said that the descendents of the ancient ones have mystical powers."
+	text  "I don't know about that, but I do know a curious story about the name, Eldest Inn."
+	text  "My father thought to change the name when he first purchased it, but after a very strange dream he felt compelled to leave it alone.  He didn't like to talk about that dream, and usually refused to answer questions."
+	text "One day he told me a little about it, mainly to impress on me never to change the name."
+end      
+
+topic "Can I do something for you?"
+        text "You can do nothing for me, Adventurer. At least not today."
+end
+
+topic  "Geezer wants some ale." q301:0 #q8021-01-525:0
+	quest 302 #8021-01-530
+	text  "You've been here once for his ale."
+end
+
+topic  "Geezer sent me for ale." q369:0 #q80001-01-225:0
+	quest 370 #80001-01-230
+	text  "You don't catch me on that one.  I gave it to you."
+end
+
+topic  "I need an empty jar to carry a petrified snail I just acquired in Geezer's store." q349:0 #q80000-01-225:0
+	quest 350 #80000-01-230
+	text  "Oh, get out of here.  You and your empty jar and your snail.  I've seen enough of you."
+end
+

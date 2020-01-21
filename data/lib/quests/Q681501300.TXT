@@ -1,0 +1,18 @@
+quest  226 #6815-01-300        #Meta, Desert Breeze Exilirs, Arimathor, 6815
+
+name  "Highly Polished Round Stone"
+type  fedex
+
+proposal  "So you're back.  Isn't it a fine day today.  I do enjoy this desert life.  If you ever want to consider settling here, too, you'll be welcome.  You're coming along very nicely in your studies, ready for the Expert level now.  I have the proper skill book ordered.  If you will do one errand for me, your book will be here when you return.  Lompoc in Murias has a lovely highly polished round stone that I crave.  It doesn't do anything special, but I do like the look and feel of stones.  Will you do this for me?"
+
+declined  "It's a nice day to enjoy the desert."
+
+accepted  "Thank you.  I'll await your return."
+
+reminder   "Go to Lompoc in Murias for a highly polished round stone."
+
+completed  "This stone is every bit as lovely as I thought it would be.   Here is your next skill book, apprentice."
+
+getItem   qPolishedStone
+reward   skbHealingIII 
+end

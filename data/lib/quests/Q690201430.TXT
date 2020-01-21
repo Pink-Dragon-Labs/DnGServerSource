@@ -1,0 +1,19 @@
+quest 253 #6902-01-430 #(Marti, Dragontooth Clothing, Wen, 6112)
+
+name  "Marti's Lunch"
+type  fedex
+
+proposal "You've come because Iviona sent you for a parchment.  That means hair of ancient bat.   I wish you were here for a new outfit.  I could do wonders for you.  Why are people so interested in old bats?  A rhetorical question, of course.  Pay it no mind.  As for this Hair of Ancient Bat, you really want it?"  
+
+declined  "I don't blame you."
+
+accepted  "I will give you the parchment after you bring me some lunch.  I ordered it from Devo."
+
+reminder   "Bring my lunch from Devo."
+
+completed  "I thought I'd starve before you got here.  Take this parchment and return to our Gatekeeper."
+
+getItem  qMartiLunch
+reward   qMartiParchment
+end
+

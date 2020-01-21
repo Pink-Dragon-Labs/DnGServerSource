@@ -1,0 +1,20 @@
+id 691202
+
+banner "Greetings. I am Avaldamon. Since my birth they have called me the Destined One. I know not why."
+
+topic "Tell me about the Valhalla Inn."
+        text "As you can see, it's the best tavern in all the lands."
+	text "Asgard has been chosen by the Lord of the Scepter as the place his followers will make their stand against the invasion from the Mists. The Valhalla Inn is the center of preparations."
+	text "If the worst should happen and the invasion cannot be stopped, The Valhalla Inn will serve as the place for our final stand. We are stockpiling everything we may need to withstand a siege."
+	text "It is a comforting thing to see so many of our young Knights sharpening their skills in preparation for that which comes."
+end
+
+topic "Avaldamon? What does your name mean?"
+        text "I wish I knew."
+        text "Maybe then I would better understand why I am called the Destined One."
+end 
+
+topic "Have you heard any interesting rumors?"
+        text "Well, personally I find the fact that people keep calling me the Destined One to be highly interesting."
+	text "I'd give all I own to someone who could tell me why I must bear such a title and what it means."
+end      

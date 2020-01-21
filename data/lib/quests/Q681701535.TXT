@@ -1,0 +1,18 @@
+quest  218 #6817-01-535        # Xondor, Light in the Forest, Wen, 6114
+
+name  "Carved Lamp"
+type  fedex
+
+proposal  "It's true that many follow Enid here.  I neither believe or disbelieve, so I feel at liberty to bestow this emerald on you if I wish.  Yes, I do have one.  I found it a couple of months ago and hadn't decided what to do with it.  I'll give it to you in exchange for a carving of a lamp for my tavern.  Some fellow in Asgard has one, I hear.  Would you want to trade?"
+
+declined  "No harm asking."
+
+accepted  "Good."
+
+reminder   "Find a carved lamp for me.  Look in Asgard."
+
+completed  "Now that is a nice little piece.  Thanks.  Here's the emerald.  I'd suggest concealing it until you're out of Wen.  Just a precaution."
+
+getItem   qCarvedLamp
+reward   qEnidEmerald 
+end

@@ -1,0 +1,16 @@
+quest  370 #80001-01-230        # Brindal, The Avalanche, tavern, Guennor, 6508
+
+name  "Ale from Brindal"
+type  fedex
+
+proposal  "So the old goat has you runnin' his errands now, does he.  Seems like somebody is always at hand for him to send.  Wants his ale, too.  Why doesn't that surprise me?  And he knows I'll send it.  We're by way of checkers confederates.  Good games we have, too, hot and heavy.  Some I win, some he wins.  But he always manages to stay a couple of jugs of ale ahead.  Don't know how he does it.  You'll carry his winnings to him, I presume?"
+
+declined  "Serves him right for not coming himself."
+
+accepted  "Off you go, then."
+
+reminder   "Better get Geezer's ale back to him."
+
+reward   qGeezerAle 
+end
+

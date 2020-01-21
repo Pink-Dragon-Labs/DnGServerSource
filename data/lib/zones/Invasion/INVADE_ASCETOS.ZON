@@ -1,0 +1,50 @@
+name "ascetos"
+title "Ascetos Desert"
+#EMPTY worldFile "../data/lib/world/ASCETS12.WLD"
+worldFile "../data/lib/world/02_INV_ASCETS05.WLD"
+worldFile "../data/lib/world/02_INV_ASCETS11.WLD"
+worldFile "../data/lib/world/ASCETS06.WLD"
+worldFile "../data/lib/world/ASCETS07.WLD"
+worldFile "../data/lib/world/ASCETS08.WLD"
+worldFile "../data/lib/world/ASCETS09.WLD"
+worldFile "../data/lib/world/ASCETS10.WLD"
+worldFile "../data/lib/world/ASCETS13.WLD"
+worldFile "../data/lib/world/ASCETS14.WLD"
+worldFile "../data/lib/world/ASCETS15.WLD"
+worldFile "../data/lib/world/ASCETS16.WLD"
+worldFile "../data/lib/world/ASCETS17.WLD"
+worldFile "../data/lib/world/ASCETS18.WLD"
+worldFile "../data/lib/world/ASCETS19.WLD"
+worldFile "../data/lib/world/ASCETS20.WLD"
+worldFile "../data/lib/world/ASCETS23.WLD"
+worldFile "../data/lib/world/ASCETS24.WLD"
+worldFile "../data/lib/world/ASCETS27.WLD"
+#worldFile "../data/lib/world/ASCETS21.WLD"
+#worldFile "../data/lib/world/ASCETS22.WLD"
+#worldFile "../data/lib/world/ASCETS25.WLD"
+#worldFile "../data/lib/world/ASCETS28.WLD"
+#worldFile "../data/lib/world/ASCETS29.WLD"
+#worldFile "../data/lib/world/ASCETS30.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 3
+midiFile 9
+# Ascetos Desert	Area 12		Player Level 500+	Alignment: Mixed	Monsters/Room: 3.22
+groupChance 450
+monster BigWasp 200
+monster EvilBee 140
+monster FireWasp 200
+monster StingingFury 200
+monster WaspHealer 140
+monster FlameDaemon 220
+monster Kilrog 320
+monster KingKilrog 280
+monster BabyDragon 280
+monster HellSnake 280
+monster KingCobra 320
+monster BerserkerMed 100
+monster EvilMinion 150
+monster Champion 150
+monster Protector 150
+monster Servant 30
+monster WardenHA12 150

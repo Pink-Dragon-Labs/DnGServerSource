@@ -1,0 +1,19 @@
+quest  336 #8307-01-425        # Tatiana, Good Fortune Inn, Silverbrook, 6400
+
+name  "Curious Desert Rock"
+type  fedex
+
+proposal  "My brother found an odd piece while out hunting.  I wonder if that's what you want.  I imagine I could let you have it, but I'd need a return.  What have I been wanting?  Hmmm.  I've got it.  I want a rock from the Ascetos desert.  I've heard they are curiously shaped.  What about it?  I'll trade you the strange curio for a curious desert rock.  Will you do it?"
+
+declined  "Ah, now.  Don't be that way."
+
+accepted  "This is going to be fun.  Hurry back."
+
+reminder   "Find me a curiously shaped desert rock."
+
+completed  "Ho!  This is fine.  And here's the curio you wanted."
+
+getItem   qCuriousRock
+reward   qDownsCurio 
+end
+

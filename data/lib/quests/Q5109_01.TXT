@@ -1,0 +1,18 @@
+quest 17 #5109001
+
+	name "Reuniting Devo and Xondor" 
+	type fedex
+
+	proposal "If you would truly wish to help me, I have need of a certain favor. In Wen there is a tavern called The Light in the Forest. The tavernkeeper was once my friend, a man called Xondor. Years ago we had a falling out, you might say, and Xondor and I no longer speak. But recent events have shown me that we must patch things up, for time is not infinite for mortals. Will you help me in this matter?"
+
+	accepted "Thank you, Friend. As I said, his name is Xondor, and he is in the tavern called The Light in the Forest."
+
+	declined "I understand. It's a difficult thing to try to patch up such a situation after all these years."
+	
+	reminder "Have you yet spoken with Xondor? He is at The Light in the Forest Tavern here in Wen."
+
+	completed "Thank you, my Friend! This means more to me than I can say. I am in your debt."
+
+	getItem XondorNote 
+	reward 
+end

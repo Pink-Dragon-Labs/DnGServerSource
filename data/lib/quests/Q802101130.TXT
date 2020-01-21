@@ -1,0 +1,15 @@
+quest  285 #8021-01-130        #Lubitsch, Food Cart, Drune, 7308 formerly Jakerand, Jake's Eatery, Guennor, 6509
+
+name  "Take Out from Lubitsch"
+type  fedex
+
+proposal  "Oh, sure thing.  His regular fare is ready. You'll take it to him, will you?"
+
+declined  "Then why on earth did you ask for it?"
+
+accepted  "Here ya go.  Come on back if you're hungry."
+
+reminder   "You better get that lunch over to Vigo."
+
+reward   qVigoLunch 
+end

@@ -1,0 +1,22 @@
+object GaronBoots of RedSollerets
+	properties
+		name "Garon's Boots"
+	end
+
+	base described
+		text "You see a pair of red sollerets.  Inscribed on the inside is the phrase 'I belong to Garon'."
+	end
+end
+
+object CRAmulet of Amulet 
+	properties
+		name "Resist Cold Amulet"
+		view 51500
+		value 10000
+		resistCold 50
+	end
+
+	base described
+		text "You see an amulet of unusual quality.  Wearing this amulet will help protect for from magical cold."
+	end
+end

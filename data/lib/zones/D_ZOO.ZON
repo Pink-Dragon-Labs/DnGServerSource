@@ -1,0 +1,7 @@
+name "D_Zoo"
+title "The Zoo"
+worldFile "../data/lib/world/D_ZOO.WLD"
+allowCombat 0
+#resetInterval 120
+midiFile 23
+entrance tent2527-0

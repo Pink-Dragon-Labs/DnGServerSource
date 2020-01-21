@@ -1,0 +1,25 @@
+id 6113
+
+banner "Greetings, Friend. Welcome to Cures and Curses. May I help you?"
+
+topic "Tell me about Wen."
+        text "Wen? Not much of a magic town. Wennians tend to be a bit shy about using the magical arts to achieve their goals."
+	text "I can tell you're not like that, however. What would you like to purchase from me?"
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Now that you mention it, I did hear that the elves in Silverbrook are just crazy about limericks.  Isn't that interesting?"
+	text "I grew up thinking of elves as so proper and stiff."
+	text "Of course, I didn't known any elves while I was growing up."
+	text "I dare say elves grew up hearing strange stories about humans, too."
+end      
+
+topic "Can I do anything for you?"
+        text "Not currently, Friend, but check with me another time."
+end
+
+topic  "I'm looking for pewter polish." q177:0 #q6504-01-525:0
+	quest 178 #6504-01-530
+	text  "You took it."
+end
+

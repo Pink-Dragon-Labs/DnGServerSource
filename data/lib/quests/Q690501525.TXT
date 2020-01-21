@@ -1,0 +1,19 @@
+quest  267 #6905-01-525        # Skon, Gnarled Leg Tavern, West Leinster, 6004
+
+name  "Mekian Glue"
+type  fedex
+
+proposal  "Shouldn't be a bit surprised.  I've got so many bits and pieces from the battleground hereabouts that I probably have a bit of club.  Tell you what.  While I'm sorting through my collection to find it, how about you doing an errand for me in return.  I want some mekian glue and the only place I know to get it is in Monmouth. Will you do it?"
+
+declined  "Well, well.  If you change your mind, come back."
+
+accepted  "I don't know where to send you except just Monmouth."
+
+reminder   "Find me some mekian glue in Monmouth."
+
+completed  "My thanks, friend.  I found a nice bit of club fragment for you."
+
+getItem   qMekianGlue
+reward   qClubFragment 
+end
+

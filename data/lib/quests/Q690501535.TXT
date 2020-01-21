@@ -1,0 +1,19 @@
+quest  269 #6905-01-535       # Lari, Food Emporium, Monmouth, 6303
+
+name  "Wen Cheese for Lari"
+type  fedex
+
+proposal  "Dodo?  Did you fall into his clutches?  Yes, I have his order.  I don't know why I put up with him.  Fuss, fuss, fuss.  That's all he does.  You'd think he'd get tired of it, but he just gets better at fussing.  It must be all that practicing he does.  Hmmm.  Never really thought of it that way but I guess you do get better at what you practice.  Makes you think, doesn't it?  Better be careful what we practice.  Anyway, I'll package Dodo's order, but I'd really appreciate a favor from you first.  Will you?"
+
+declined  "He'll just have to wait, then."
+
+accepted  "I need a special order of Wen cheese picked up.  It should be ready for me."
+
+reminder   "Go to Wen.  There's a special order of cheese ready for me."
+
+completed  "Many thanks, friend.  Here's the order for Dodo.  It's fresh and hot, not that he'll appreciate it."
+
+getItem   qWenCheese
+reward   qDoforthFood
+end
+

@@ -1,0 +1,229 @@
+#
+# Ogre NPC declarations
+#
+
+object Ogre of NPC
+	properties
+		name "Ogre"
+		view 40200
+		alignment 128
+		clutStart -1
+		color 768
+
+		endurance 14
+		dexterity 6
+		intelligence 5
+
+		minLevel 20
+		maxLevel 40
+
+		minDamage 20
+		maxDamage 40
+
+		armor 10
+
+		# do bludgeoning damage
+		affect 13 0 0 -1
+
+		soundGroup 8
+		damageType 2
+		armorType 1
+		quickness 7
+		range 4
+    		treasure 8
+	end
+
+	base container
+#		object RandomOgreTreasureI
+		object RandomMonsterAmulet
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics proficient
+		skill 9 1
+	end
+
+	base described
+		text "Ogre -- 20 - 40 melee damage.\n\n"
+	end
+end
+
+object OgreChild of Ogre
+	properties
+		name "Ogre Child"
+		color 24
+		endurance 12
+
+		minLevel 10
+		maxLevel 20
+
+		minDamage 10
+		maxDamage 20
+
+		# do bludgeoning damage
+		affect 13 0 0 -1
+	end
+
+	base described
+		text "Ogre Child -- 10 - 20 melee damage.\n\n"
+	end
+end
+
+
+object UglyOgre of Ogre
+	properties
+		name "Ugly Ogre"
+		color 794
+
+		minLevel 40
+		maxLevel 60
+
+		minDamage 40
+		maxDamage 60
+
+		armor 20
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics proficient
+		skill 9 1
+	end
+
+	base container
+#		object RandomOgreTreasureII
+	end
+
+	base described
+		text "Ugly Ogre -- 40 - 60 melee damage.\n\n" 
+	end
+end
+
+object OgreMage of Ogre
+	properties
+		name "Ogre Mage"
+		color 793
+
+		minLevel 40
+		maxLevel 60
+
+		endurance 13
+		intelligence 8
+	end
+
+	base character
+		## unarmed combat expert
+		skill 7 3
+
+		## acrobatics proficient
+		skill 9 1
+
+		## sorcery expert
+		skill 11 3
+	end
+
+	base container
+#		object RandomOgreTreasureII
+	end
+
+	actions
+		vBeBorn changeSDM self 150 0 1 2 3 4
+		vBeBorn changeSpellResistance self 25 1 2
+	end
+
+	base described
+		text "Ogre Mage -- 25% elementalism resistance, 25% mysticism resistance, 20 - 40 melee damage.\n\n"
+	end
+
+	base npc
+		code ogreMage
+	end
+end
+
+object OgreChief of Ogre
+	properties
+		name "Ogre Chief"
+		color 792
+
+		minLevel 60
+		maxLevel 80
+
+		endurance 20
+		intelligence 10
+
+		minDamage 60
+		maxDamage 80
+
+		armor 30
+	end
+
+	base character
+		## unarmed combat master
+		skill 7 4
+
+		## acrobatics expert
+		skill 9 3
+	end
+
+	actions
+		vBeBorn changeSpellResistance self 50 2
+	end
+
+	base described
+		text "Ogre Chief -- 50% mysticism resistance, 60 - 80 melee damage.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+object TutorOgre of NPC
+	properties
+		name "Weakened Ogre"
+		view 40200
+		alignment 128
+		clutStart -1
+		color 768
+        special
+
+		level 1
+
+		dexterity 10
+		endurance 3
+		intelligence 2
+
+		minDamage 1
+		maxDamage 3
+		
+		affect 0 0 0 -1   ## do normal damage by default
+
+		quickness 10
+		treasure 0
+		soundGroup 8
+		damageType 0
+		armorType 1
+		range 4
+	end
+
+	base container
+		object RandomMonsterRing
+	end
+
+	base character
+		## unarmed combat familiar
+		skill 7 1
+
+		## familiar at acrobatics
+		skill 9 1
+	end
+
+	base described
+		text "Weakened Ogre, a good opponent for a first fight.\n\n"
+	end
+end
+
+#------------------------------------------------------------
+

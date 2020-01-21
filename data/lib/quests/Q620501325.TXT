@@ -1,0 +1,19 @@
+quest  78 #6205-01-325       #Misha, Eaterie, Wen, 6101
+
+name  "Misha's Belt"
+type  fedex
+
+proposal  "You have come to Misha for petrified wood.  It is well that you came, stranger, for I can help you in this matter.  I have some excellent pieces, and you may have one of the best if you will go to Caer Fandry for me.  Is it agreed?"  
+
+declined  "Consult the menu, then.  Let me know if you want to buy something."
+
+accepted  "I have a ordered a belt from Caer Fandry, but I've been unable to travel there for it.  Bring it to me, and the petrified wood is yours."  
+
+reminder   "Go to Caer Fandry for my belt.  Say that Misha sent you."
+
+completed  "How glad I am to receive my belt.  I picked out the best of the Petrified Wood for you."
+
+getItem   qMishaBelt
+reward    qPetrifiedWood 
+end
+

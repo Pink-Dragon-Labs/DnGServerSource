@@ -1,0 +1,24 @@
+id 6907
+
+banner "Hello, Friend. Welcome to The Fashion Statement. May I help you?"
+
+topic "Tell me about Asgard."
+        text "I don't know much. I am not from here originally, but from Munsey, in the Crystal Hills."
+	text "I left Munsey a rich man. Everyone in Munsey is rich. But I really can't say any more about that."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I have heard that Caer Fandry is a town populated by goblins."
+        text "I've always wanted to travel there, to see what a goblin town would look like. Strange, I'll warrant."
+	text "I'd like to travel to Wen, too.  There's a cheese made there that has to be tasted to be believed."
+end      
+
+topic "Can I do anything for you?"
+        text "No, Friend. I have all I need at present. But who knows what the future holds?"
+end
+
+topic  "I'm looking for the Amulet of Lemelion the Great" q340:0 #q8307-01-500:0
+	quest 341 #8307-01-525
+	text  "You have it."
+end
+

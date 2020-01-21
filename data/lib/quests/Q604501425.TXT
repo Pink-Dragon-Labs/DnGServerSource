@@ -1,0 +1,19 @@
+quest  29 # 6045-01-425        # Talu, Cloth and More, Monmouth, 6302
+
+name  "Talu Wants Fresh Fruit"
+type  fedex
+
+proposal  "Bless me.  I wondered if I would ever get rid of one of these.  I ordered a couple of samples to see if there was demand before I offered them for sale.  You're my first customer to inquire.  I wonder why.  I thought they were such a good idea.  Oh well.  Won't be the first time a good idea just didn't catch the public eye.  Would you do me a favor in exchange for this holster?  I want some fresh fruit from Asgard.  They have such a good supply just now.  Would you do that?" 
+
+declined  "Too bad."
+
+accepted  "Good."
+
+reminder   "Get some fresh fruit from Asgard."
+
+completed  "What a great selection.  My thanks.  Here's the holster."
+
+getItem   qFreshFruit
+reward   qDrinkHolster 
+end
+

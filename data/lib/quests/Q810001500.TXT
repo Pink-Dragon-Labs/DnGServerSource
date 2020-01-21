@@ -1,0 +1,19 @@
+quest  402 #8100-01-500        #Monji, Excellent Weaponry, Usk, 8100
+
+name  "A Genuine Hieroglyphic for Monji"
+type  fedex
+
+proposal  "Grand-mastery with a club is a skill only the very dedicated can develop.  I'm beginning to think you are one of the few, though.  Don't let it go to your head.  Now, go get me a hieroglyphic from Murias.  Doesn't particularly matter what it says, but it's got to be a genuine hieroglyphic.  Will you?"
+
+declined  "So be it."
+
+accepted  "Then best get started."
+
+reminder   "Find a genuine hieroglyphic in Murias."
+
+completed  "That's the ticket.  And here's your genuine skill book for mace grand-mastery."
+
+getItem   qHieroglyphic
+reward    skbMaceV
+end
+

@@ -1,0 +1,17 @@
+id 5505
+
+banner "Greetings, Friend. I am Ferdi. May I help you?"
+
+topic "Tell me about Guennor."
+        text "Great place to live.  Folks are friendly here."
+	text "Guennorians have lived here, in this very spot, since ancient times."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "I've heard a few whispers about The Mists."
+	text "Nobody seems to know many facts.  But there is an undercurrent of anxiety."
+end      
+
+topic "Can I do anything for you?"
+        text "Not today, but try me again.  I just may have a task."
+end

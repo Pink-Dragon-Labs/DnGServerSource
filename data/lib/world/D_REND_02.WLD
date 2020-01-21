@@ -1,0 +1,227 @@
+# Dungeonmaker World File (Rend02.WLD)
+# Max player level = 255
+# Dungeon reset time = 2000
+# Dungeon start room = 26260
+# Dungeon last room = 26268
+# Number of objects in dungeon = 13
+# Level 0 information:
+room 26261
+	properties
+		template 30501
+		south 26264
+		east 26265
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26261-0 of DungeonBackDoor
+			properties
+				x	103
+				y	253
+				loop	0
+				linkTo	DungeonBackDoor-94008-0
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 26265
+	properties
+		template 31301
+		east 26262
+		west 26261
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26265-0 of DungeonBackDoor
+			properties
+				x	88
+				y	231
+				loop	2
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-26265-1 of Sign
+			properties
+				x	156
+				y	227
+				loop	0
+			end
+			base described
+				text	"One of four doors to the Treasure Vault. Choose wisely."
+			end
+		end
+	end
+end
+room 26262
+	properties
+		template 31104
+		south 26266
+		west 26265
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26262-0 of DungeonBackDoor
+			properties
+				x	360
+				y	229
+				loop	2
+				linkTo	DungeonBackDoor-94018-1
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 26264
+	properties
+		template 31003
+		south 26260
+		north 26261
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26264-0 of DungeonBackDoor
+			properties
+				x	427
+				y	246
+				loop	1
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-26264-1 of Sign
+			properties
+				x	499
+				y	279
+				loop	0
+			end
+			base described
+				text	"One of four doors to the Treasure Vault. Choose wisely."
+			end
+		end
+	end
+end
+room 26266
+	properties
+		template 30402
+		south 26263
+		north 26262
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26266-0 of DungeonBackDoor
+			properties
+				x	138
+				y	253
+				loop	0
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-26266-1 of Sign
+			properties
+				x	73
+				y	293
+				loop	0
+			end
+			base described
+				text	"One of four doors to the Treasure Vault. Choose wisely."
+			end
+		end
+	end
+end
+room 26260
+	properties
+		template 30801
+		east 26267
+		north 26264
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26260-0 of DungeonBackDoor
+			properties
+				x	290
+				y	226
+				loop	0
+				linkTo	DungeonBackDoor-94028-0
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end
+room 26267
+	properties
+		template 31301
+		east 26263
+		west 26260
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26267-0 of DungeonBackDoor
+			properties
+				x	88
+				y	231
+				loop	2
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+		object Sign-26267-1 of Sign
+			properties
+				x	159
+				y	228
+				loop	0
+			end
+			base described
+				text	"One of four doors to the Treasure Vault. Choose wisely."
+			end
+		end
+	end
+end
+room 26263
+	properties
+		template 31303
+		west 26267
+		north 26266
+		flags	0
+	end
+	objects
+		object DungeonBackDoor-26263-0 of DungeonBackDoor
+			properties
+				x	501
+				y	245
+				loop	1
+				linkTo	DungeonBackDoor-94038-1
+				enchantResistance 100
+			end
+			base lockable
+			end
+			base described
+			end
+		end
+	end
+end

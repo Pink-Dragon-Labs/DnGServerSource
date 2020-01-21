@@ -1,0 +1,9 @@
+name "D_Trolls_Hideaway"
+title "Troll's Hideaway"
+worldFile "../data/lib/world/D_TROLLS_HIDEAWAY_01.WLD"
+allowCombat 3
+#resetInterval 120
+midiFile 29
+groupChance 30
+isDungeon 1
+entrance movingRock9019-0

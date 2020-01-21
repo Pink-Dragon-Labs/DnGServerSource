@@ -1,0 +1,19 @@
+quest  399 #8100-01-435        # Tatiana, good Fortune Inn, tavern, Silverbrook, elf, 6400
+
+name  "Carved Bear for Tatiana"
+type  fedex
+
+proposal  "My brother has a nice supply.  He is a real woods-elf and always has tools for living in nature.  I'm sure I could get you one.  Would you make a journey in return? My brother's naming day celebration is coming up, and I want a carved bear for him.  Would you get me one?"
+
+declined  "Too bad."
+
+accepted  "Somewhere in Asgard there's a carver."
+
+reminder   "Seek in Asgard for a carving of a bear."
+
+completed  "Perfect, just perfect.  He'll love it.  Here's the flint you want."
+
+getItem   qCarvedBear
+reward   qFlint 
+end
+

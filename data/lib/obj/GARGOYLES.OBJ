@@ -1,0 +1,13 @@
+object Gargoyle of NPC
+	properties
+		name "Gargoyle"
+		view 41800
+
+		clutStart -1
+		color 51
+	end
+
+	base described
+		text "This is a Gargoyle."
+	end
+end

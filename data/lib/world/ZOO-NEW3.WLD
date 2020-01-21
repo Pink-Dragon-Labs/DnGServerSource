@@ -1,0 +1,382 @@
+room 23022
+   properties
+      picture	3500
+      north	23146 
+      east	23021 
+      south	23023 
+      west	23150 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23023
+   properties
+      picture	3500
+      north	23022 
+      south	23024 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23024
+   properties
+      picture	3500
+      north	23023 
+      south	23025 
+      west	23160 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23025
+   properties
+      picture	3500
+      north	23024 
+      south	23026 
+      west	23170 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23026
+   properties
+      picture	3500
+      north	23025 
+      south	23027 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23027
+   properties
+      picture	3500
+      north	23026 
+      south	23028 
+      west	23176 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23028
+   properties
+      picture	3500
+      north	23027 
+      south	23029 
+      west	23180 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23029
+   properties
+      picture	3500
+      north	23028 
+      south	23030 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23030
+   properties
+      picture	3500
+      north	23029 
+      south	23031 
+      west	23186 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23150
+   properties
+      picture	3500
+      east	23022 
+      west	23151 
+      roomName	"Baby Wasp"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23151
+   properties
+      picture	3500
+      east	23150 
+      west	23152 
+      roomName	"Wasp Drone"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23152
+   properties
+      picture	3500
+      east	23151 
+      west	23153 
+      roomName	"Wasp Worker"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23153
+   properties
+      picture	3500
+      east	23152 
+      south	23154 
+      roomName	"Wasp Warrior"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23154
+   properties
+      picture	3500
+      north	23153 
+      south	23155 
+      roomName	"Wasp Queen"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23155
+   properties
+      picture	3500
+      north	23154 
+      east	23156 
+      roomName	"Wasp Healer"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23156
+   properties
+      picture	3500
+      west	23155 
+      east	23157 
+      roomName	"Evil Bee"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23157
+   properties
+      picture	3500
+      west	23156 
+      east	23158 
+      roomName	"Hornet"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23158
+   properties
+      picture	3500
+      west	23157 
+      east	23159 
+      roomName	"Fire Wasp"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23159
+   properties
+      picture	3500
+      west	23158 
+      east	23160 
+      roomName	"Stinging Fury"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23160
+   properties
+      picture	3500
+      west	23159 
+      east	23024 
+      roomName	"The Queen"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23170
+   properties
+      picture	3500
+      west	23171 
+      east	23025 
+      roomName	"Daemon"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23171
+   properties
+      picture	3500
+      east	23170 
+      west	23172 
+      roomName	"Flame Daemon"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23172
+   properties
+      picture	3500
+      east	23171 
+      south	23173 
+      roomName	"Snow Daemon"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23173
+   properties
+      picture	3500
+      north	23172 
+      south	23174 
+      roomName	"Kilrog"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23174
+   properties
+      picture	3500
+      north	23173 
+      east	23175 
+      roomName	"Daemon King"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23175
+   properties
+      picture	3500
+      west	23174 
+      east	23176 
+      roomName	"King Kilrog"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23176
+   properties
+      picture	3500
+      west	23175 
+      east	23027 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23180
+   properties
+      picture	3500
+      west	23181 
+      east	23028 
+      roomName	"Cobra"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23181
+   properties
+      picture	3500
+      east	23180 
+      west	23182 
+      roomName	"Spitting Cobra"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23182
+   properties
+      picture	3500
+      east	23181 
+      south	23183 
+      roomName	"Lava Serpent"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23183
+   properties
+      picture	3500
+      north	23182 
+      south	23184 
+      roomName	"King Cobra"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23184
+   properties
+      picture	3500
+      north	23183 
+      east	23185 
+      roomName	"Hell Snake"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23185
+   properties
+      picture	3500
+      west	23184 
+      east	23186 
+      roomName	"Baby Dragon"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+room 23186
+   properties
+      picture	3500
+      west	23185 
+      east	23030 
+      roomName	"Leinster Zoo"
+   end
+   atpinfo
+      60  30 57
+   end
+end
+

@@ -1,0 +1,27 @@
+id 6041
+
+banner "Hello. I am Eldrin, owner and operator of the Swap-N-Shop. Look over what I have to offer you, and I think you will find a few things you need for your home."
+
+topic "Tell me about the Swap-N-Shop."
+	text  "Well, I am a resident here in West Leinster, and my good friend and business neighbor Skon told me of this building for rent."
+	text  "I immediately jumped on the opportunity and opened up the Swap-N-Shop here, a one of a kind specialty store in the land."
+	text  "The items I sell here can be used to decorate your house. You can pick them up and drop them as you please in your own home."
+	text  "You will not be able to drop them outside of your home, and you cannot pick these items up from another persons home, either."
+	text  "There is also a bit of magic surrounding the items, which prevents you from losing them if you die."
+end
+
+topic "Tell me about Coppers."
+	text  "Coppers are the currency I deal in. Your gold is of no use in my shop."
+	text  "The Realm's Event Staff would be the ones that award coppers to adventurers like yourself."
+	text  "You may spend your coppers here at my store, but do not expect to be able to get them back. All sales at the Swap-N-Shop are final; there are no refunds."
+end
+
+topic "Have you heard any interesting rumors?"
+	text  "I don't know that they're rumors, but I've heard fascinating things about other towns in the Realm."
+	text  "I heard that inhabitants of Asgard are very courageous, but very warlike as well."
+	text  "I have not left West Leinster very often, except to take strolls to the park in West Havenwood."
+end
+
+topic "Can I do anything for you?"
+        text "Yes, go win some coppers and bring them back here - I will be happy to take them from your hands in trade for a lovely piece of furniture."
+end

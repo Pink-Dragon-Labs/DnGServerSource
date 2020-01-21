@@ -1,0 +1,18 @@
+quest  284 #8021-01-125        #Vigo, Weaponry of Drune, 8305 formerly K.J. Weaponry, Guennor, 6504
+
+name  "Lunch for Vigo"
+type  fedex
+
+proposal  "Odd sort of thing to want.  Conventional weaponry is a much better investment of time and money.  However, if you really want a Fenri Fang, I have a small supply.  Took them off a fella down on his luck for a dagger he needed. Been just as well if I'd given that dagger to him, for all the use I've had of those fangs.  I'll give you one if you'll go pick up my lunch from Lubitsch.  Is it a deal?" 
+
+declined  "Can't say that I blame you."
+
+accepted  "Ok.  Go get my lunch."
+
+reminder   "Weren't you going to bring my lunch from Lubitsch?"
+
+completed  "Here's the Fenri Tooth.  Hope you get some use of it."
+
+getItem  qVigoLunch
+reward   qFenriFang 
+end

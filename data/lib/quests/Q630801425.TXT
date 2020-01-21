@@ -1,0 +1,18 @@
+quest 111 #6308-01-425  #(Murdoch, Thresher's Roost tavern, Murias, 6210)
+
+Name  "Bit of Cactus"
+type  fedex
+
+proposal  "I've got the Carved Salt Crystal you need, sure enough.  Want to hear my plan?  I need a bit of the Cactus Gardens in Arimathor.  My lady friend is hankering for a bit of home.  Never hurts to keep her happy, I've found.  She's a GREAT cook, especially when she's happy, and her cooking keeps me happy. Will you try?"
+
+declined  "Too bad."
+
+accepted  "If you can figure a way to get me a bit of that cactus, I'll give you the Carved Salt Crystal and we'll all be happy.
+
+reminder  "Off to Arimathor with you, and come back with a bit of their cactus gardens."
+
+completed  "Aren't you the clever one.  This will keep the lady happy for a long time, I'm thinking.  Here's your Carved Salt Crystal.  You've earned it."
+
+getItem  qCactusBit
+reward  qCarvedSalt
+end

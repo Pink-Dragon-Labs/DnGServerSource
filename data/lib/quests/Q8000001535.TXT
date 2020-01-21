@@ -1,0 +1,19 @@
+quest  363 #80000-01-535        # Lireen, Healing Magic, Drune, 8303
+
+name  "Ginkaroo Bark"
+type  fedex
+
+proposal  "Ah.  I understand.  Let me just arrange my thoughts and consult my notes.  Yes, I think that will do very nicely.  You must go to Leinster, at once.  Find Morin.   I don't know more than a name.  Find Morin and ask for some ginkaroo bark.  You must go swiftly.  Will you do this?"
+
+declined  "Ach.  You are no help!"
+
+accepted  "Go swiftly and return as quickly as possible."
+
+reminder   "Find Morin in Leinster.  Ask for ginkaroo bark."
+
+completed  "You have done well.  Let me mix a powder which you must take to Meta." 
+
+getItem   qGinkarooBark
+reward   qElfaHelp 
+end
+

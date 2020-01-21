@@ -1,0 +1,27 @@
+object SittingStump
+	properties
+                name "Sitting Stump"
+                view 56250
+	end
+
+        base sit
+        end
+
+	base described
+                text "It's stumped.  Sit on it."
+	end
+end
+
+object SittingRock
+	properties
+                name "Sitting Rock"
+                view 56200
+	end
+
+        base sit
+        end
+
+	base described
+                text "Rock and Roll."
+	end
+end

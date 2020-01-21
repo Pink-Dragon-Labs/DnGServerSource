@@ -1,0 +1,8 @@
+name "spar"
+title "Training Ground"
+worldFile "../data/lib/world/SPAR_01.WLD"
+resetInterval 9000000 
+maximumObjectAge 0 
+allowCombat 7
+midiFile 14
+# Town screens where PvP combat is allowed.

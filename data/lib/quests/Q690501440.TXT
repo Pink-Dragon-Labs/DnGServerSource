@@ -1,0 +1,16 @@
+quest  265 #6905-01-440        # Sanria, Fantastic Meals, Arimathor, 6804
+
+name  "Delivery for Sanria"
+type  fedex
+
+proposal  "Good.  An apricot tart is just out of the oven, and I want her to have it while it's still warm.  You'll deliver it to her?"
+
+declined  "I'd better just do it."
+
+accepted  "Thanks."
+
+reminder   "Do take that tart to Kaliri."
+
+reward   qKaliriTart 
+end
+

@@ -1,0 +1,19 @@
+quest  258 #6902-01-530        #Kaliri, Arimathor general store, 6801)
+
+name  "Kaliri's Grandson
+type  fedex
+
+proposal  "Land sakes, she wouldn't be sending you all the way here just for her scarf.  You must have been asking about that Seraph Scroll Fragment. Ever since that dratted thing came into her possession it's been worrying her into frenzy.  She'd do better to be rid of it, as I've told her many a time.  But no.  She doesn't want it and she's afraid to get rid of it.  You may be an unwitting agent of Mabon himself to get it out of her hands.  Would you be willin' to run an errand to my grandson while I make arrangements?"
+
+declined  "Never mind, then."
+
+accepted  "That's settled, then. Old Kaliri will take care of this, dearie, while you find my grandson. I dare say he can take care of himself, but I'd sleep a lot easier knowin' he has some extra food at hand. Sanria made up a food basket for me so you just run over there and get it from her then go find him. He's in a cave somewhere in the desert around here."
+
+reminder   "Sanria at Fantastic Meals made up a basket for my grandson.  He's somewhere near here in a cave."
+
+completed  "What a splendid desert rock.  I'm mighty happy you found my grandson.   I knew you were a trusty person. And, dearie, your problem's all settled.  I've sent word to Jolie.  You just take this scarf back to her and she'll give you the Seraph Scroll Fragment."
+
+getItem   qDesertRock
+reward   qJolieScarf
+end
+

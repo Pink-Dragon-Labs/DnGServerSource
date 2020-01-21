@@ -1,0 +1,58 @@
+id 8305
+
+banner "Welcome, Adventurer. Feel free to browse; let me know if I can help you."
+
+topic "Tell me about Drune."
+        text "Drune? I don't know what to tell you. It's an elf-town, of course."
+	text "Elves generally prefer to fight with magic. Actually, elves prefer not to fight at all."
+	text "I wouldn't exactly describe business as booming, but that's fine with me."
+end
+
+topic "Have you heard any interesting rumors?"
+        text "Rumors, you say? I hope you aren't referring to my middle granddaughter! She's a repentant little elfling, and won't soon forget the talk we had.  It was a long talk."
+	text "I know she understood, but she also twinkled a smile at me when we finished."
+	text "Enid help me, I smiled, too!"
+ 	text "Her parents leave her with me for just a couple of days, and look what happens." 
+      	text "I wasn't this gray when they left."
+	text "And where those scamps found all that black tar, I'd like to know."
+end      
+
+topic "What about limericks?"
+	text "If you like limericks, how about this one."
+	text "There was a young elf from the city"
+	text "Who met what he thought was a kitty."
+	text "He gave it a pat"
+	text "And said, 'Nice little cat.'"
+	text "They buried his clothes out of pity."
+	text "My youngest granddaughter falls over with laughter at that one.  And here's another that makes them all crack up laughing."
+	text "What a wonderful bird is the pelican"
+	text "His beak can hold more than his belican."
+	text "He can hold in his beak"
+	text "Enough food for a week."
+	text "But I'm darned if I know how the helican."
+	text "I must admit, it's one of my favorites, too."
+end      
+
+topic "Can I do anything for you?"
+        text "No, thank you kindly. Perhaps another day."
+end
+
+topic  "Wanda sent me to talk to you." q318:1 #q8111-01-430:1
+	quest 319 #8111-01-435
+	text  "I already helped you, traveler.  Go back to our Gatekeeper."
+end
+
+topic  "I need a letter opener with a goblin head carved on it." q70:0 #q6102-01-535:0
+	quest 71 #6102-01-540
+	text  "One ought to be enough for you, and that you've got."
+end
+
+topic  "I'm looking for Faldora's carving knife." q30:0 # q6045-01-430:0
+	quest 31 #6045-01-435
+	text  "You came for it.  How could you forget?"
+end
+
+topic  "I'm looking for a Fenri Fang." q283:0 #q8021-01-100:0
+	quest 284 #8021-01-125
+	text  "I gave you one."
+end
