@@ -7466,18 +7466,17 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
 	if ( updateSkills ) {
 		switch ( character->profession() ) {
 			case _PROF_WARRIOR: {
-				int skill = _SKILL_SHORT_SWORD;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 2;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
-				bcharacter->skills[skill++] = 1;
+				bcharacter->skills[_SKILL_SHORT_SWORD] = 1;
+				bcharacter->skills[_SKILL_LONG_SWORD] = 2;
+				bcharacter->skills[_SKILL_TWOHANDED_SWORD] = 2;
+				bcharacter->skills[_SKILL_DAGGER] = 1;
+				bcharacter->skills[_SKILL_AXE] = 1;
+				bcharacter->skills[_SKILL_CLUB] = 1;
+				bcharacter->skills[_SKILL_MACE] = 1;
+				bcharacter->skills[_SKILL_UNARMED] = 1;
+				bcharacter->skills[_SKILL_THROWING] = 1;
+				bcharacter->skills[_SKILL_MAUL] = 1;
+				bcharacter->skills[_SKILL_BROADSWORD] = 1;
 				bcharacter->skills[_SKILL_SHIELD_USE] = 2;
 				bcharacter->skills[_SKILL_ACROBATICS] = 1;
 			}
@@ -7511,7 +7510,8 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
    				}
    
    				bcharacter->skills[_SKILL_ACROBATICS] = 1;
-   				bcharacter->skills[_SKILL_DAGGER] = 1;
+   				bcharacter->skills[_SKILL_SHORT_SWORD] = 1;
+				bcharacter->skills[_SKILL_THROWING] = 2;
    				bcharacter->skills[_SKILL_THEURGISM] = 1;
    			}
    
@@ -7520,6 +7520,7 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
    			case _PROF_ADVENTURER: {
    				bcharacter->skills[_SKILL_LONG_SWORD] = 2;
    				bcharacter->skills[_SKILL_ACROBATICS] = 1;
+				bcharacter->skills[_SKILL_TWOHANDED_SWORD] = 1;
    				bcharacter->skills[_SKILL_CRITICAL_STRIKING] = 1;
    				bcharacter->skills[_SKILL_SHIELD_USE] = 2;
    				bcharacter->skills[_SKILL_THEURGISM] = 1;
@@ -7531,8 +7532,8 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
    			break;
    
    			case _PROF_THIEF: {
-   				bcharacter->skills[_SKILL_THROWING] = 1;
-   				bcharacter->skills[_SKILL_SHORT_SWORD] = 2;
+   				bcharacter->skills[_SKILL_THROWING] = 2;
+   				bcharacter->skills[_SKILL_DAGGER] = 1;
    				bcharacter->skills[_SKILL_ACROBATICS] = 2;
    				bcharacter->skills[_SKILL_DAGGER] = 1;
    				bcharacter->skills[_SKILL_PICK_POCKETS] = 1;
@@ -7690,23 +7691,23 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				//	diff = 4;
 				//}
 
-				character->buildPoints = 3;
+				character->buildPoints = 3;	
 
 				switch ( character->profession ) {
 					case _PROF_WARRIOR: {
 						int skill = _SKILL_SHORT_SWORD;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 2;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[skill++] = 1;
-						character->skills[_SKILL_SHIELD_USE] = 2;
+						character->skills[_SKILL_SHORT_SWORD] = 1;
+						character->skills[_SKILL_LONG_SWORD] = 1;
+						character->skills[_SKILL_TWOHANDED_SWORD] = 1;
+						character->skills[_SKILL_DAGGER] = 1;
+						character->skills[_SKILL_AXE] = 1;
+						character->skills[_SKILL_CLUB] = 2;
+						character->skills[_SKILL_MACE] = 1;
+						character->skills[_SKILL_UNARMED] = 1;
+						character->skills[_SKILL_THROWING] = 1;
+						character->skills[_SKILL_MAUL] = 1;
+						character->skills[_SKILL_BROADSWORD] = 1;
+						character->skills[_SKILL_SHIELD_USE] = 1;
 						character->skills[_SKILL_ACROBATICS] = 1;
 
 						//if ( diff != 4 ) {
@@ -7755,8 +7756,10 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 						}
 
 						character->skills[_SKILL_ACROBATICS] = 1;
-						character->skills[_SKILL_DAGGER] = 1;
-						character->skills[_SKILL_THEURGISM] = 1;
+   						character->skills[_SKILL_SHORT_SWORD] = 1;
+						character->skills[_SKILL_THROWING] = 2;
+   						character->skills[_SKILL_THEURGISM] = 1;
+						character->skills[_SKILL_SHIELD_USE] = 1;
 
 						//if ( diff != 4 ) {
 						//	if ( ( object->strength		< minStatValues[ _PROF_WIZARD ][ race ][ _STAT_STRENGTH ] ) ||
@@ -7778,13 +7781,14 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 
 					case _PROF_ADVENTURER: {
 						character->skills[_SKILL_LONG_SWORD] = 2;
-						character->skills[_SKILL_ACROBATICS] = 1;
-						character->skills[_SKILL_CRITICAL_STRIKING] = 1;
-						character->skills[_SKILL_SHIELD_USE] = 2;
-						character->skills[_SKILL_THEURGISM] = 1;
-						character->skills[_SKILL_SORCERY] = 1;
-						character->spells[_SPELL_HOME] = 1;
-						character->spells[_SPELL_KILL_STAR] = 1;
+   						character->skills[_SKILL_ACROBATICS] = 1;
+						character->skills[_SKILL_TWOHANDED_SWORD] = 1;
+   						character->skills[_SKILL_CRITICAL_STRIKING] = 1;
+   						character->skills[_SKILL_SHIELD_USE] = 2;
+   						character->skills[_SKILL_THEURGISM] = 1;
+   						character->skills[_SKILL_SORCERY] = 1;
+   						character->spells[_SPELL_HOME] = 1;
+   						character->spells[_SPELL_KILL_STAR] = 1;
 
 						//if ( diff != 4 ) {
 						//	if ( ( object->strength		< minStatValues[ _PROF_ADVENTURER ][ race ][ _STAT_STRENGTH ] ) ||
@@ -7805,15 +7809,15 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 					break;
 
 					case _PROF_THIEF: {
-						character->skills[_SKILL_THROWING] = 1;
-						character->skills[_SKILL_SHORT_SWORD] = 2;
-						character->skills[_SKILL_ACROBATICS] = 2;
-						character->skills[_SKILL_DAGGER] = 1;
-						character->skills[_SKILL_PICK_POCKETS] = 1;
-						character->skills[_SKILL_DETECT_TRAPS] = 1;
-						character->skills[_SKILL_PICK_LOCKS] = 1;
-						character->skills[_SKILL_CRITICAL_STRIKING] = 2;
-						character->skills[_SKILL_SHIELD_USE] = 1;
+						character->skills[_SKILL_THROWING] = 2;
+   						character->skills[_SKILL_DAGGER] = 1;
+   						character->skills[_SKILL_ACROBATICS] = 2;
+   						character->skills[_SKILL_DAGGER] = 1;
+   						character->skills[_SKILL_PICK_POCKETS] = 1;
+   						character->skills[_SKILL_DETECT_TRAPS] = 1;
+   						character->skills[_SKILL_PICK_LOCKS] = 1;
+   						character->skills[_SKILL_CRITICAL_STRIKING] = 2;
+   						character->skills[_SKILL_SHIELD_USE] = 1;
 
 						//if ( diff != 4 ) {
 						//	if ( ( object->strength		< minStatValues[ _PROF_THIEF ][ race ][ _STAT_STRENGTH ] ) ||
@@ -7833,6 +7837,41 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 
 					break;
 				}
+
+
+				// Racials
+				// - Zach
+
+				//if ( _WEAR_MASK_GIANT ) {
+				//	object->addAffect ( _AFF_ENCUMBERANCE_BLESSING, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
+
+				//if ( _WEAR_MASK_ELF ) {
+				//	object->addAffect ( _AFF_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
+
+				//if ( _WEAR_MASK_HUMAN ) {
+				//	object->addAffect ( _AFF_EXTRA_ATTACK, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
+
+				// Class Bonuses
+				// - Zach
+
+				//if ( _WEAR_MASK_WARRIOR ) {
+				//	object->addAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
+
+				//if ( _WEAR_MASK_ADVENTURER ) {
+				//	object->addAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
+
+				//if ( _WEAR_MASK_THIEF ) {
+				//	object->addAffect ( _AFF_QUICKEN, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
+
+				//if ( _WEAR_MASK_WIZARD ) {
+				//	object->addAffect ( _AFF_SEE_INVISIBLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+				//}
 
 
 				//common bonuses for staff characters
@@ -10800,7 +10839,7 @@ void RMPlayer::die ( PackedData *packet, WorldObject *killer )
 				else if (oldAlign < 143) oldC = 4;
 				else if (oldAlign < 171) oldC = 5;
 				else if (oldAlign < 199) oldC = 6;
-				else if (oldAlign < 227) oldC = 7;
+				else if (oldAlign < 227) oldC = 7;    
 				else                     oldC = 8;
 	
 				//adjust the players alignment if they killed a monster
@@ -10853,6 +10892,7 @@ void RMPlayer::die ( PackedData *packet, WorldObject *killer )
 						break;
 					case 8: //Beatific
 						roomMgr->sendPlayerText ( killer->player, "|c23|Your heart rejoices in the glow of beatific love.|c43|" );
+						//character->addAffect ( _AFF_MARK_ENID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, -1, 0, NULL );
 						break;
 				}
 			}

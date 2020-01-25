@@ -55,11 +55,12 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 			{
 				if ( sex==1 ) object->addObject ( "NewbieLeatherSkirt", 1 );
 				else object->addObject ( "NewbieLeatherPants", 1 );
-
+				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
+				else object->addObject ( "NewbieLeatherBoots", 1 );	//male
+				
 				object->addObject ( "NewbieLeatherShirt", 1 );
 				object->addObject ( "NewbieSword", 1 );
 				object->addObject ( "NewbieSmallShield", 1 );
-				object->addObject ( "NewbieLeatherBoots", 1 );
 				object->addObject ( "NewbieLeatherCowl", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );
@@ -71,11 +72,13 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 
 			case _PROF_WARRIOR:
 			{
-				object->addObject ( "NewbieSword", 1 );
-				object->addObject ( "NewbieLargeShield", 1 );
+
+				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
+				else object->addObject ( "NewbieSollerets", 1 );	//male
+
+				object->addObject ( "NewbieClub", 1 );
 				object->addObject ( "NewbieChainTunic", 1 );
 				object->addObject ( "NewbieChainPants", 1 );
-				object->addObject ( "NewbieSollerets", 1 );
 				object->addObject ( "NewbieChainCowl", 1 );
 				object->addObject ( "NewbieBracers", 1 );
 				object->addObject ( 2, "Bread" );
@@ -90,11 +93,16 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 			{
 				if ( sex==1 ) object->addObject ( "NewbieSkirt", 1 );
 				else object->addObject ( "NewbieRobe", 1 );
+				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
+				else object->addObject ( "NewbieLeatherBoots", 1 );	//male
+				
 
 				object->addObject ( "NewbiePants", 1 );
 				object->addObject ( "NewbieShirt", 1 );
-				object->addObject ( "NewbieBoots", 1 );
-				object->addObject ( "NewbieDagger", 1 );
+				object->addObject ( "NewbieCowl", 1 );
+				object->addObject ( "NewbieBracers", 1 );
+				object->addObject ( "NewbieThrower", 1 );
+				object->addObject ( "NewbieSmallShield", 1 );
 				object->addObject ( 2, "Veggies" );
 				object->addObject ( 2, "WaterBottle" );
 				object->manaValue = 100;
@@ -104,12 +112,15 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 			break;
 
 			case _PROF_THIEF: {
+
+				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
+				else object->addObject ( "NewbieLeatherBoots", 1 );	//male
+
 				object->addObject ( "NewbieLeatherShirt", 1 );
 				object->addObject ( "NewbieLeatherPants", 1 );
-				object->addObject ( "NewbieLeatherBoots", 1 );
 				object->addObject ( "NewbieBracers", 1 );
 				object->addObject ( "NewbieLeatherCowl", 1 );
-				object->addObject ( "NewbieShortSword", 1 );
+				object->addObject ( "NewbieThrower", 1 );
 				object->addObject ( "NewbieSmallShield", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );

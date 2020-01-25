@@ -4798,8 +4798,11 @@ void WorldObject::calcAC ( void )
 	if ( (obj = getWornOn ( _WEAR_BANDS )) ) 
 		rating += obj->armorRating() * 0.10;		
 
+	if ( (obj = getWornOn ( _WEAR_SHIELD )) ) 
+		rating += obj->armorRating() * 0.25;	
+
 	armor = (int)rating;
-}
+} 
 
 #define _MAX_BUY_VALUE	1500
 
