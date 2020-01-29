@@ -5994,34 +5994,42 @@ SPELL ( castSHIELD )
 		return NULL;
 	}
 
-	int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
-
-	int duration = 0;
-
-	duration = calcSpellDuration ( caster, 10 * skill, packet );
-
 	caster = caster->getBaseOwner();
 
-	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
-	packet->putLong ( caster->servID );
-	packet->putByte ( _SE_SHIELD );
-	packet->putByte ( 1 );
-	packet->putLong ( target->servID );
+	if ( caster->character->profession == _PROF_WIZARD ) {
 
-	affect_t *affect = target->hasAffect ( _AFF_SHIELD );
+		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 
-	if ( affect ) {
-		affect->duration = duration;
-		affect->value = 50;
-	} else {
-		target->addAffect ( _AFF_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 50, packet );
+		int duration = 0;
+
+		duration = calcSpellDuration ( caster, 10 * skill, packet );
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_SHIELD );
+		packet->putByte ( 1 );
+		packet->putLong ( target->servID );
+
+		affect_t *affect = target->hasAffect ( _AFF_SHIELD );
+
+		if ( affect ) {
+			affect->duration = duration;
+			affect->value = 50;
+		} else {
+			target->addAffect ( _AFF_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 50, packet );
+		}
+
+		target->calcAC();
+
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "A lesser protective aura envelops %s! ", target->getName() );
+		strcat ( output, buf );
+
+	}else{ 
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   		strcat ( output, buf );
 	}
-
-	target->calcAC();
-
-	char buf[1024];
-	sprintf ( sizeof ( buf ), buf, "A protective aura surrounds %s! ", target->getName() );
-	strcat ( output, buf );
 
 	return NULL;
 }
@@ -6039,35 +6047,44 @@ SPELL ( castGREATER_SHIELD )
 		return NULL;
 	}
 
-	int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
-
-	int duration = 0;
-
-	duration = calcSpellDuration ( caster, 10 * skill, packet );
-
 	caster = caster->getBaseOwner();
 
-	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
-	packet->putLong ( caster->servID );
-	packet->putByte ( _SE_GREATER_SHIELD );
-	packet->putByte ( 1 );
-	packet->putLong ( target->servID );
+	if ( caster->character->profession == _PROF_WIZARD ) {
 
-	affect_t *affect = target->hasAffect ( _AFF_GREATER_SHIELD );
+		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 
-	if ( affect ) {
-		affect->value = 60;
-		affect->duration = duration;
-	} else {
-		target->addAffect ( _AFF_GREATER_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 60, packet );
+		int duration = 0;
+
+		duration = calcSpellDuration ( caster, 10 * skill, packet );
+
+	
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_GREATER_SHIELD );
+		packet->putByte ( 1 );
+		packet->putLong ( target->servID );
+
+		affect_t *affect = target->hasAffect ( _AFF_GREATER_SHIELD );
+
+		if ( affect ) {
+			affect->value = 60;
+			affect->duration = duration;
+		} else {
+			target->addAffect ( _AFF_GREATER_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 60, packet );
+		}
+
+		target->calcAC();
+
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "A greater protective aura envelops %s! ", target->getName() );
+		strcat ( output, buf );
+
+	}else{ 
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   		strcat ( output, buf );
 	}
-
-	target->calcAC();
-
-	char buf[1024];
-	sprintf ( sizeof ( buf ), buf, "A greater protective aura envelops %s! ", target->getName() );
-	strcat ( output, buf );
-
 	return NULL;
 }
 
@@ -6428,34 +6445,41 @@ SPELL ( castINVULNERABILITY )
 		return NULL;
 	}
 
-	int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
-	int duration = 0;
-
-	duration = calcSpellDuration ( caster, 10 * skill, packet );
-
 	caster = caster->getBaseOwner();
 
-	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
-	packet->putLong ( caster->servID );
-	packet->putByte ( _SE_INVULNERABILITY );
-	packet->putByte ( 1 );
-	packet->putLong ( target->servID );
+	if ( caster->character->profession == _PROF_WIZARD ) {
 
-	affect_t *affect = target->hasAffect ( _AFF_INVULNERABLE );
+		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
+		int duration = 0;
 
-	if ( affect ) {
-		affect->value = 70;
-		affect->duration = duration;
-	} else {
-		target->addAffect ( _AFF_INVULNERABLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 70, packet );
+		duration = calcSpellDuration ( caster, 10 * skill, packet );
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_INVULNERABILITY );
+		packet->putByte ( 1 );
+		packet->putLong ( target->servID );
+
+		affect_t *affect = target->hasAffect ( _AFF_INVULNERABLE );
+
+		if ( affect ) {
+			affect->value = 70;
+			affect->duration = duration;
+		} else {
+			target->addAffect ( _AFF_INVULNERABLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 70, packet );
+		}
+
+		target->calcAC();
+
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "A invulnerability aura surrounds %s! ", target->getName() );
+		strcat ( output, buf );
+
+	}else{ 
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   		strcat ( output, buf );
 	}
-
-	target->calcAC();
-
-	char buf[1024];
-	sprintf ( sizeof ( buf ), buf, "A invulnerability aura surrounds %s! ", target->getName() );
-	strcat ( output, buf );
-
 	return NULL;
 }
 

@@ -411,6 +411,12 @@ public:
 
 	// check to see if they are a friend already
 	bool IsFriend( char* pPlayerName );
+
+	// Race check ---
+	int CheckRace(WorldObject *object, int theRace);
+
+	// Class check ---
+	int CheckClass(WorldObject *object, int theClass);
 };
 
 extern void *playerThread ( void *arg );
@@ -435,6 +441,8 @@ int loadValidatedPlayer ( RMPlayer *player, char *login, char *password, char *b
 
 // sets the account days for account type
 int getDays ( RMPlayer *player );
+
+
 
 extern char gLoadingChar[2048];
 

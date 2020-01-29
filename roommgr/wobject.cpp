@@ -5557,6 +5557,12 @@ WorldObject *loadCharacterData ( RMPlayer *pPlayer, char *buffer, int bufferSize
 			character->addAffect ( _AFF_SEE_INVISIBLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
 		}
 
+		// Racial placeholder
+		//
+		//
+		//
+		//
+
 		int size = bufgetint ( str, &ptr, &bufferSize );
 
 		if ( (size < 0) || (size >= 10000) ) {

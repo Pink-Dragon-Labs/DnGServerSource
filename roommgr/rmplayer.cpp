@@ -7561,6 +7561,64 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
 	return retVal;
 }
 
+// Racial Passives
+
+int RMPlayer::CheckRace(WorldObject *object, int theRace)
+{
+	// Logs
+    //logDisplay("Checking value of theRace  %d", theRace);
+    
+    if ( theRace == _RACE_GIANT ) {
+        object->addAffect ( _AFF_ENCUMBERANCE_BLESSING, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+        //logDisplay ( "Giant created, applied 'Encumbrance Blessing' passive!" );
+
+    } else if ( theRace == _RACE_ELF ) {
+        object->addAffect ( _AFF_QUICKEN, _AFF_TYPE_NORMAL, _AFF_SOURCE_PERMANENT, -1, 0, NULL );
+        //logDisplay ( "Elf created, applied 'Quicken' passive!" );
+
+    } else if ( theRace == _RACE_HUMAN ) {
+        object->addAffect ( _AFF_EXTRA_ATTACK, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+        //logDisplay ( "Human created, applied 'Extra Attack' passive!" );
+
+    } else return 0;
+
+    //delete( theCharacter ); not sure yet
+    
+    return 1;
+
+}
+
+// Class Passives
+
+int RMPlayer::CheckClass(WorldObject *object, int theClass)
+{
+	//logDisplay("Checking value of theClass  %d", theClass);
+    
+    if ( theClass == _PROF_WARRIOR ) {
+        object->addAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
+        //logDisplay ( "Warrior created, applied 'Empower' passive!" );
+
+    } else if ( theClass == _PROF_ADVENTURER ) {
+        object->addAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
+        //logDisplay ( "Adventurer created, applied 'Extension' passive!" );
+
+    } else if ( theClass == _PROF_THIEF ) {
+        object->addAffect ( _AFF_EXTRA_DODGE, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
+        //logDisplay ( "Thief created, applied 'Extra Dodge' passive!" );
+
+	} else if ( theClass == _PROF_WIZARD ) {
+        object->addAffect ( _AFF_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_PERMANENT, -1, 50, NULL );
+        //logDisplay ( "Wizard created, applied 'Shield' passive!" );
+
+    } else return 0;
+
+    //delete( theCharacter ); not sure yet
+    
+    return 1;
+
+}
+
+
 int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 {
 	int retVal = 1;
@@ -7839,41 +7897,6 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				}
 
 
-				// Racials
-				// - Zach
-
-				//if ( _WEAR_MASK_GIANT ) {
-				//	object->addAffect ( _AFF_ENCUMBERANCE_BLESSING, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-				//if ( _WEAR_MASK_ELF ) {
-				//	object->addAffect ( _AFF_SHIELD, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-				//if ( _WEAR_MASK_HUMAN ) {
-				//	object->addAffect ( _AFF_EXTRA_ATTACK, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-				// Class Bonuses
-				// - Zach
-
-				//if ( _WEAR_MASK_WARRIOR ) {
-				//	object->addAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-				//if ( _WEAR_MASK_ADVENTURER ) {
-				//	object->addAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-				//if ( _WEAR_MASK_THIEF ) {
-				//	object->addAffect ( _AFF_QUICKEN, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-				//if ( _WEAR_MASK_WIZARD ) {
-				//	object->addAffect ( _AFF_SEE_INVISIBLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-				//}
-
-
 				//common bonuses for staff characters
 				if(	checkAccess( _ACCESS_IMPLEMENTOR ) || checkAccess( _ACCESS_PUBLICRELATIONS ) ||
 					checkAccess( _ACCESS_MODERATOR ) ||	checkAccess( _ACCESS_GUIDE ) || checkAccess( _ACCESS_EVENT ) )
@@ -7930,7 +7953,7 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 					character->gainExperience( 999 * 10000 );
 				}
 
-
+				
 				character->setWearMask();
 
 				object->addAffect ( _AFF_RESET, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
@@ -7946,7 +7969,10 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				object->playerControlled = 1;
 				object->writeCharacterData();
 				object->playerControlled = 0;
-			} else {
+				// apply racial and profession passives
+                CheckRace( object, race );
+				CheckClass( object, profession );
+            } else {
 				logInfo ( _LOG_DETAILED, "(%ld): NAK (could not create object)", player->servID );
 				roomMgr->sendNAK ( _IPC_PLAYER_CREATE_CHARACTER, _ERR_SERVICE_NOT_AVAILABLE, this );
 			}
@@ -10346,16 +10372,48 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 
    				if ( armor ) {
    					int armorRoll = random ( 1, 100 );
+   					//this just gets the individual piece AR modified by either IA +10 or defenselessness which is /2.
    					int armorRating = armor->armorRating();
+   					//armortype 0 = none, 1 = leather, 2 = chain, 3 = plate
    					int armorType = armor->armorType;
 
 						// apply magical piercing...
 						armorRating = attacker->ApplyMeleeArmorPierce ( armorRating );
 
    					// get the modifiers
-   					int armorMod = gArmorModTbl[weapon.damageType][armorType];
-   					int damageMod = gDamagePassTbl[weapon.damageType][armorType];
+   					//removing the armor mod table as we don't want to use it.
+   					//int armorMod = gArmorModTbl[weapon.damageType][armorType];
 
+   					//original
+   					//int damageMod = gDamagePassTbl[weapon.damageType][armorType];
+					//modified to create damage mod based on armortype only
+					int damageMod = 0;
+					//armortype 0 = none, 1 = leather, 2 = chain, 3 = plate
+					switch ( armorType ) {
+   					//the damgeMod numbers is the percent that they will take, so 90 means they take 90% of damage.
+   						case 0: {
+   							damageMod = 90;
+   						}
+   						break;
+
+   						case 1: {
+   							damageMod = 75;
+   						}
+   						break;
+   					
+   						case 2: {
+   							damageMod = 50;
+   						}
+   						break;
+   					
+   						case 3: {
+   							damageMod = 25;
+   						}
+   						break;
+   					}
+
+
+					/* removing this section since we don't want to mod the armor values.
    					if ( armorMod > 0 ) {
    						armorRating += (armorRating * armorMod) / 100;
    					} 
@@ -10363,6 +10421,7 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
    						armorMod = abs ( armorMod );
    						armorRating -= (armorRating * armorMod) / 100;
    					}
+   					*/
 
    					// we hit the armor, let's modify the damage done
    					if ( armorRoll <= armorRating ) {
@@ -10411,6 +10470,7 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
                             }
                         }
                     }
+
    				}
 			} else {
    				// handle NPC hits
@@ -10421,18 +10481,48 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 					// apply magical piercing...
 					armorRating = attacker->ApplyMeleeArmorPierce ( armorRating );
 
-   				// modify armor rating based on weapon/armor type
-   				int armorMod = gArmorModTbl[weapon.damageType][armorType];
-   				int damageMod = gDamagePassTbl[weapon.damageType][armorType];
+   			   					// get the modifiers
+   					//removing the armor mod table as we don't want to use it.
+   					//int armorMod = gArmorModTbl[weapon.damageType][armorType];
 
-   				if ( armorMod > 0 ) {
-   					armorRating += (armorRating * armorMod) / 100;
-   				} 
+   					//original
+   					//int damageMod = gDamagePassTbl[weapon.damageType][armorType];
+					//modified to create damage mod based on armortype only
+					int damageMod = 0;
+					//armortype 0 = none, 1 = leather, 2 = chain, 3 = plate
+					switch ( armorType ) {
+   						case 0: {
+   							damageMod = 90;
+   						}
+   						break;
 
-   				else if ( armorMod < 0 ) {
-   					armorMod = abs ( armorMod );
-   					armorRating -= (armorRating * armorMod) / 100;
-   				}
+   						case 1: {
+   							damageMod = 75;
+   						}
+   						break;
+   					
+   						case 2: {
+   							damageMod = 50;
+   						}
+   						break;
+   					
+   						case 3: {
+   							damageMod = 25;
+   						}
+   						break;
+   					}
+
+
+					/* removing this section since we don't want to mod the armor values.
+   					if ( armorMod > 0 ) {
+   						armorRating += (armorRating * armorMod) / 100;
+   					} 
+   					else if ( armorMod < 0 ) {
+   						armorMod = abs ( armorMod );
+   						armorRating -= (armorRating * armorMod) / 100;
+   					}
+   					*/
+
 
    				// we hit the armor, let's modify the damage done
    				if ( armorRoll <= armorRating ) {
@@ -10486,7 +10576,7 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 
    		else if ( (shieldAffect = obj->hasAffect ( _AFF_GREATER_SHIELD )) ) {
 				if ( shieldAffect->value > 0 ) {
-					shieldName = "greater shield aura";
+					shieldName = "greater shielding aura";
 					absorbedDmg = ((damage * shieldAffect->value) / 100) + 1;
 					damage -= absorbedDmg;
 					shieldAffect->value -= 5;
@@ -10510,7 +10600,7 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 						shieldFailed = 1;
 					}
 				}
-   		}
+   		} 
 
 			int averageDamage = std::max( (damage / numDamages), 1);//(damage / numDamages) >? 1;
 
