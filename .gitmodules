@@ -1,0 +1,3 @@
+[submodule "data/lib"]
+	path = data/lib
+	url = git@github.com:STRHercules/DnGLib.git

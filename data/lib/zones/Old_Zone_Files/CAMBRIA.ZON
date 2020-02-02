@@ -1,8 +1,0 @@
-name "cambria"
-title "Cambria"
-worldFile "../data/lib/world/CAMBRIAX.WLD"
-worldFile "../data/lib/world/CAMBINT.WLD"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 0
-midiFile 9

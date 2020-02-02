@@ -1,7 +1,0 @@
-name "InvadeTents"
-title "Invasion Tents"
-worldFile "../data/lib/world/04_INVADE_TENTS.WLD"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 7
-midiFile 17

@@ -1,8 +1,0 @@
-name "guennor"
-title "Guennor"
-worldFile "../data/lib/world/GUENX.WLD"
-worldFile "../data/lib/world/GUENINT.WLD"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 0
-midiFile 23
