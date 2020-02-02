@@ -158,6 +158,7 @@ int calcSpellDuration ( WorldObject *caster, int duration, PackedData *packet )
 	return duration;
 }
 
+
 int calcSpellMod ( WorldObject *caster )
 {
 	int intel = caster->calcIntelligence();
@@ -173,10 +174,42 @@ int calcSpellMod ( WorldObject *caster )
 		percent += 10 * diff; 
 	}
 
-	percent += 15 * meditation; 
+	if ( caster->player->isNPC ) {
+		
+		// Nerf monster spell damage output
+		percent += 5 * meditation; 
+		
+	} else {
+
+		// Standard player character output
+		percent += 15 * meditation; 
+
+	}
 
 	return percent;
 }
+
+// Original `calcSpellMod` Code
+
+//int calcSpellMod ( WorldObject *caster )
+//{
+//	int intel = caster->calcIntelligence();
+//
+//	int meditation = caster->getSkill ( _SKILL_MEDITATION );
+//
+//	int diff = intel-12;
+//	int percent = 100;
+//
+//	if ( diff > 0 ) {
+//		percent += 6 * diff;
+//	} else {
+//		percent += 10 * diff; 
+//	}
+//
+//	percent += 15 * meditation; 
+//
+//	return percent;
+//}
 
 
 //
@@ -276,15 +309,15 @@ int summonMonster ( int count, char *className, char *nameTxt, int special, int 
 			summonCount++;
 	}
 
-	if ( summonCount >= 10 ) {		// 5
+	if ( summonCount >= 5 ) {		// 5
 		char buf[1024];
-		sprintf ( sizeof ( buf ), buf, "|c60|The spell fails because there are already ten summoned monsters on %s's side.|c43| ", caster->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c60|The spell fails because there are already five summoned monsters on %s's side.|c43| ", caster->getName() );
 		strcat ( output, buf );
 		return ( FALSE );
 	}
 
 	// cap count
-	if ( summonCount + count > 10 ) count = 10 - summonCount;		// 5 , 5
+	if ( summonCount + count > 5 ) count = 5 - summonCount;		// 5 , 5
 
 	LinkedList monsters;
 
@@ -364,7 +397,7 @@ int summonMonster ( int count, char *className, char *nameTxt, int special, int 
 	monsters.release();
 
 	/* return whether or not we can summon additional monsters */
-	if ( summonCount >= 10 ) return ( FALSE );
+	if ( summonCount >= 5 ) return ( FALSE );
 	return ( TRUE );
 }
 
@@ -388,9 +421,9 @@ void summonMonsters ( LinkedList *classNameList, char *nameTxt, int special, int
 			summonCount++;
 	}
 
-	if ( summonCount >= 10 ) {
+	if ( summonCount >= 5 ) {
 		char buf[1024];
-		sprintf ( sizeof ( buf ), buf, "|c60|The spell fails because there are already ten summoned monsters on %s's side.|c43| ", caster->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c60|The spell fails because there are already five summoned monsters on %s's side.|c43| ", caster->getName() );
 		strcat ( output, buf );
     	return;
 	}
@@ -497,22 +530,6 @@ SPELL ( castHome )
 
 	return (affect_t *) _SPELL_NO_FAILURE;
 }
-
-//{
-//	caster = caster->getBaseOwner();
-//
-//	if ( !caster || !caster->player || caster->player->isNPC || caster->player->isTeleporting || caster->player->teleportRoomNum != -1 ) 
-//		return NULL;
-//
-//	strcat ( output, "A teleportation aura envelops " );
-//	strcat ( output, caster->getName() );
-//	strcat ( output, "." );
-//
-//	// start the teleport process
-//	teleportHouse ( caster, caster->getName() );
-//
-//	return (affect_t *) _SPELL_NO_FAILURE;
-//}
 
 //
 // castKillStar: creates 1-5 killstar projectiles that do normal damage to
@@ -928,7 +945,7 @@ SPELL ( castMultiBlade )
 	if ( !target || !target->player ) 
 		return NULL;
 	
-	int numBlades = calcSpellSkill ( caster, _SKILL_ELEMENTALISM ) * 2;
+	int numBlades = calcSpellSkill ( caster, _SKILL_SORCERY ) * 2;
 	int damage = random ( 64 * numBlades, 124 * numBlades );
 
 	numBlades = std::min(124, numBlades);//24 <? numBlades;
@@ -2170,10 +2187,10 @@ SPELL ( castFLAME_ORB )
 	}
 
 	int numOrbs = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
-	int damage = random ( 48 * numOrbs, 124 * numOrbs ); // 24 , 48
+	int damage = random ( 24 * numOrbs, 48 * numOrbs ); // 24 , 48
 
 	// cap the number of orbs
-	numOrbs = std::min(100, numOrbs);//30 <? numOrbs;
+	numOrbs = std::min(30, numOrbs);//30 <? numOrbs;
 
 	int hitOrbs = 0;
 
@@ -2256,9 +2273,9 @@ SPELL ( castICE_ORB )
 	}
 
 	int numBlades = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
-	int damage = random ( 48 * numBlades, 124 * numBlades ); // 34 , 48
+	int damage = random ( 24 * numBlades, 48 * numBlades ); 
 
-	numBlades = std::min(100, numBlades);//30 <? numBlades;
+	numBlades = std::min(30, numBlades);
 
 	caster = caster->getBaseOwner();
 
@@ -2416,7 +2433,7 @@ SPELL ( castGUST_OF_WIND )
 
 		// this guy should take damage
 		if ( distance < 4 )	{
-			damage = random ( 65 * skill, 125 * skill ); 
+			damage = random ( 48 * skill, 65 * skill ); 
 			target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
 
 			if ( !target->hasAffect ( _AFF_SLOWED ) ) {
@@ -2670,7 +2687,7 @@ SPELL ( castSAND_STORM )
 
 		// this guy should take damage
 		if ( distance < 4 )	{
-			damage = random ( 64 * skill, 105 * skill ); // 12 , 40
+			damage = random ( 48 * skill, 65 * skill ); // 12 , 40
 			target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
 			// add armor damage ?
 		}
@@ -2751,7 +2768,7 @@ SPELL ( castICE_STORM )
 
 		// this guy should take damage
 		if ( distance < 3 )	{
-			int damage = random ( skill * 32, skill * 45 );
+			int damage = random ( skill * 24, skill * 32 );
 			object->takeDamage ( _AFF_DAMAGE_COLD, caster, damage, output, packet, 1 );
 		}
 	}
@@ -2837,7 +2854,7 @@ SPELL ( castCRAWLING_CHARGE )
 
 	char numTargets = targetList.size();
 
-	unsigned short totalDamage = skill * intel * 15;
+	unsigned short totalDamage = skill * intel * 7;
 	unsigned short damageEach = totalDamage / (numTargets?numTargets:1);
 	LinkedElement* element = targetList.head();
 
@@ -2846,7 +2863,7 @@ SPELL ( castCRAWLING_CHARGE )
 		element = element->next();
 
 		///unsigned short damage = random((int)(damageEach * .9), (int)(damageEach * 1.1)); Old - Zach
-		unsigned short damage = random((int)(damageEach * 9), (int)(damageEach * 12));	// 7 , 9
+		unsigned short damage = random((int)(damageEach * .9), (int)(damageEach * 1.1));	// 7 , 9
 		if( obj ) {
 			packet->putByte ( _MOVIE_SPECIAL_EFFECT );
 			packet->putLong ( caster->servID );
@@ -2930,7 +2947,7 @@ SPELL ( castSTONING )
 		if ( distance < 3 )
 		{
 			// this guy should take damage
-			int damage = random ( 50*skill, 85*skill ); // 25 , 50
+			int damage = random ( 25*skill, 50*skill ); // 25 , 50
 			object->takeDamage ( _AFF_DAMAGE_STUN, caster, damage, output, packet, 1 );
 		}
 	}
@@ -2988,7 +3005,7 @@ SPELL ( castFIREBALL )
 				packet->putLong ( object->servID );
 			} else {
 				// this guy should take damage
-				int damage = random ( 35*skill, 52*skill );	// 20 , 35
+				int damage = random ( 20*skill, 35*skill );	// 20 , 35
 				object->takeDamage ( _AFF_DAMAGE_FIRE, caster, damage, output, packet, 1 );
 			}
 		}
@@ -3019,7 +3036,7 @@ SPELL ( castLIGHTNING_BOLT )
 	packet->putByte ( 1 );
 	packet->putLong ( target->servID );
 
-	int damage = random ( 50 * skill, 90 * skill ); // 18 , 38
+	int damage = random ( 18 * skill, 38 * skill ); // 18 , 38
 	target->takeDamage ( _AFF_DAMAGE_LIGHTNING, caster, damage, output, packet, 1 );
 
 	return NULL;
@@ -3102,7 +3119,7 @@ SPELL ( castCRUSHING_BOULDER )
 
 	int skill = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
 
-	int damage = random ( skill * 48, skill * 65 ); // 28 , 35
+	int damage = random ( skill * 28, skill * 35 ); // 28 , 35
 
 	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
 	packet->putLong ( caster->servID );
@@ -3169,7 +3186,7 @@ SPELL ( castELECTRIC_FURY )
 		}
 
 		if ( !nResisted ) {
-			int damage = random ( skill * 48, skill * 65 ); // 28 , 35
+			int damage = random ( skill * 28, skill * 35 ); // 28 , 35
 			target->takeDamage ( _AFF_DAMAGE_LIGHTNING, caster, damage, output, packet, 1 );
 		}
 	}
@@ -3231,7 +3248,7 @@ SPELL ( castCOLD_SNAP )
 		}
 
 		if ( !nResisted ) {
-			int damage = random ( skill * 30, skill * 51 ); // 28 , 35
+			int damage = random ( skill * 28, skill * 35 ); // 28 , 35
 			target->takeDamage ( _AFF_DAMAGE_COLD, caster, damage, output, packet, 1 );
 		}
 
@@ -3282,10 +3299,10 @@ SPELL ( castEARTHQUAKE )
 			packet->putByte ( 1 );
 			packet->putLong ( object->servID );
 
-			int damage = random ( skill * 35, skill * 48 ); // 18 , 28
+			int damage = random ( skill * 20, skill * 30 ); // 18 , 28
 			object->takeDamage ( WorldObject::_DAMAGE_EARTHQUAKE, caster, damage, output, packet, 1 );
 		} else {
-			int damage = random ( skill * 48, skill * 64 ); // 21 , 34
+			int damage = random ( skill * 21, skill * 34 ); // 21 , 34
 			object->takeDamage ( WorldObject::_DAMAGE_EARTHQUAKE, caster, damage, output, packet, 1 );
 		}
 	}
@@ -3504,9 +3521,9 @@ SPELL ( castPSYCHIC_ORB )
 	}
 
 	int numBlades = calcSpellSkill ( caster, _SKILL_MYSTICISM );
-	int damage = random ( 50 * numBlades, 125 * numBlades ); // 24 , 48
+	int damage = random ( 24 * numBlades, 48 * numBlades ); // 24 , 48
 
-	numBlades = std::min(100, numBlades);//30 <? numBlades;
+	numBlades = std::min(30, numBlades);//30 <? numBlades;
 
 	caster = caster->getBaseOwner();
 
@@ -4771,10 +4788,10 @@ SPELL(castILLUSIONARY_FOE)
             if (object->summoned)
                 ++summonCount;
         }
-    if (summonCount >= 10)
+    if (summonCount >= 5)
     {
         char buf[1024];
-        sprintf(sizeof(buf), buf, "|c60|The spell fails because there are already ten summoned monsters on %s's side.|c43| ", caster->getName());
+        sprintf(sizeof(buf), buf, "|c60|The spell fails because there are already five summoned monsters on %s's side.|c43| ", caster->getName());
         strcat(output, buf);
         return(NULL);
     }
@@ -5028,9 +5045,9 @@ SPELL ( castLIGHT_DART )
 	}
 
 	int numBlades = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
-	int damage = random ( 48 * numBlades, 124 * numBlades );  // 24 , 40
+	int damage = random ( 24 * numBlades, 48 * numBlades );  // 24 , 40
 
-	numBlades = std::min(50, numBlades);//30 <? numBlades;
+	numBlades = std::min(30, numBlades);//30 <? numBlades;
 
 	if ( target->coarseAlignment() == _ALIGN_EVIL )
 		damage *= 2;
@@ -5996,7 +6013,7 @@ SPELL ( castSHIELD )
 
 	caster = caster->getBaseOwner();
 
-	if ( caster->character->profession == _PROF_WIZARD ) {
+	//if ( caster->character->profession == _PROF_WIZARD ) {
 
 		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 
@@ -6025,11 +6042,11 @@ SPELL ( castSHIELD )
 		sprintf ( sizeof ( buf ), buf, "A lesser protective aura envelops %s! ", target->getName() );
 		strcat ( output, buf );
 
-	}else{ 
-		char buf[1024];
-		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
-   		strcat ( output, buf );
-	}
+	//}else{ 
+	//	char buf[1024];
+	//	sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   	//	strcat ( output, buf );
+	//}
 
 	return NULL;
 }
@@ -6049,7 +6066,7 @@ SPELL ( castGREATER_SHIELD )
 
 	caster = caster->getBaseOwner();
 
-	if ( caster->character->profession == _PROF_WIZARD ) {
+	//if ( caster->character->profession == _PROF_WIZARD ) {
 
 		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 
@@ -6080,11 +6097,11 @@ SPELL ( castGREATER_SHIELD )
 		sprintf ( sizeof ( buf ), buf, "A greater protective aura envelops %s! ", target->getName() );
 		strcat ( output, buf );
 
-	}else{ 
-		char buf[1024];
-		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
-   		strcat ( output, buf );
-	}
+	//}else{ 
+	//	char buf[1024];
+	//	sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   	//	strcat ( output, buf );
+	//}
 	return NULL;
 }
 
@@ -6171,7 +6188,7 @@ SPELL ( castWRATH_OF_THE_GODS )
 			}
 	
 			if ( !nResisted ) {
-				int damage = random ( 64 * skill, 85 * skill ); // 48 , 64
+				int damage = random ( 48 * skill, 65 * skill ); // 48 , 64
 
 				if ( object->coarseAlignment() == _ALIGN_EVIL )
 					damage *= 2.5;
@@ -6652,9 +6669,9 @@ SPELL ( castACID_SPHERE )
 	}
 
 	int numBlades = calcSpellSkill ( caster, _SKILL_NECROMANCY );
-	int damage = random ( 48 * numBlades, 64 * numBlades );		// 24 , 48
+	int damage = random ( 24 * numBlades, 48 * numBlades );		// 24 , 48
 
-	numBlades = std::min(124, numBlades);//24 <? numBlades;
+	numBlades = std::min(24, numBlades);//24 <? numBlades;
 
 	caster = caster->getBaseOwner();
 
@@ -6773,9 +6790,9 @@ SPELL ( castPOISON_BOLT )
 	if ( !numBlades )
 		numBlades = 10;
 
-	int damage = random ( 48 * numBlades, 124 * numBlades ); // 24 , 48
+	int damage = random ( 24 * numBlades, 48 * numBlades ); // 24 , 48
 
-	numBlades = std::min(50, numBlades);//40 <? numBlades;
+	numBlades = std::min(40, numBlades);//40 <? numBlades;
 
 	caster = caster->getBaseOwner();
 
@@ -6830,7 +6847,7 @@ SPELL ( cast109 )
 		if ( distance < 5 ) {
 
 			// this guy should take damage
-			int damage = random ( 10*skill, 25*skill );
+			int damage = random ( 8*skill, 19*skill );
 			if(object->player->isNPC) object->takeDamage ( _AFF_DAMAGE_NORMAL, caster, damage, output, packet, 1 );
 			
 		}
@@ -6853,7 +6870,7 @@ SPELL ( castDRAIN_LIFE )
 	}
 
 	int skill = calcSpellSkill ( caster, _SKILL_NECROMANCY );
-	int damage = random ( 38 * skill, 64 * skill );		// 21 , 32
+	int damage = random ( 21 * skill, 34 * skill );		// 21 , 32
 
 	caster = caster->getBaseOwner();
 	int distance = getDistance ( caster->combatX, caster->combatY, target->combatX, target->combatY );
@@ -6920,7 +6937,7 @@ SPELL ( castACID_CLOUD )
 
 	char skill = caster->getSkill( _SKILL_NECROMANCY );
 	char intel = caster->intelligence;
-	unsigned short totalDamage = (unsigned short)(skill * intel * 12 * 2); // 15 , 2.5
+	unsigned short totalDamage = (unsigned short)(skill * intel * 8 * 1.2); // 15 , 2.5
 	unsigned short damageEach = totalDamage / (numTargets?numTargets:1);
 	LinkedElement* element = targetList.head();
 
@@ -6928,7 +6945,7 @@ SPELL ( castACID_CLOUD )
 		WorldObject* obj = (WorldObject*)element->ptr();
 		element = element->next();
 
-		unsigned short damage = random((int)(damageEach * 4), (int)(damageEach * 10)); // 8 , 14
+		unsigned short damage = random((int)(damageEach * 2), (int)(damageEach * 5)); // 8 , 14
 
 		if( obj ) {
 			if( strcmp("minotaur", obj->basicName ) ) {
@@ -7163,7 +7180,7 @@ SPELL ( castACID_RAIN )
 		if ( distance < 3 )
 		{
 			// this guy should take damage
-			int damage = random ( 42*skill, 60*skill );		// 21 , 41
+			int damage = random ( 21*skill, 41*skill );		// 21 , 41
 			object->takeDamage ( _AFF_DAMAGE_ACID, caster, damage, output, packet, 1 );
 		}
 	}
@@ -7235,7 +7252,7 @@ SPELL ( castSTEAL_LIFE )
 
 	int skill = calcSpellSkill ( caster, _SKILL_NECROMANCY );
 	//int damage = 40 * skill; 
-	int damage = random ( 42*skill, 60*skill );
+	int damage = random ( 26*skill, 48*skill );
 
 	
 	caster = caster->getBaseOwner();
@@ -7264,7 +7281,7 @@ SPELL ( castSTEAL_LIFE )
 }
 
 //
-// cast118
+// cast118 (Crawling Charge)
 //
 
 SPELL ( cast118 )
@@ -7316,7 +7333,7 @@ SPELL ( cast118 )
 
 	char numTargets = targetList.size();
 
-	unsigned short totalDamage = skill * intel * 20;	// 15
+	unsigned short totalDamage = skill * intel * 14;	// 15
 	unsigned short damageEach = totalDamage / (numTargets?numTargets:1);
 	LinkedElement* element = targetList.head();
 
@@ -7390,10 +7407,10 @@ SPELL(castSUMMON_DOPPELGANGER)
         ++summonCount;
     }
   }
-  if (summonCount >= 10)
+  if (summonCount >= 5)
   {
     char buf[1024];
-    sprintf(sizeof(buf), buf, "|c60|The spell fails because there are already ten summoned monsters on %s's side.|c43| ", caster->getName());
+    sprintf(sizeof(buf), buf, "|c60|The spell fails because there are already five summoned monsters on %s's side.|c43| ", caster->getName());
     strcat(output, buf);
     return(NULL);
   }
@@ -7561,7 +7578,7 @@ SPELL ( castDEATH_TOUCH )
 
 	if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
 		//int damage = 40 * skill;
-		int damage = random ( 42*skill, 55*skill );
+		int damage = random ( 42*skill, 46*skill );
 
 		if ( target->coarseAlignment() == _ALIGN_GOOD ) {
 			damage *= 2.5;
@@ -7658,7 +7675,7 @@ SPELL ( castDUACHS_VENGEANCE )
 	packet->putLong ( target->servID );
 
 	//int damage = random ( skill * 45, skill * 65 );
-	int damage = random ( skill * 125, skill * 180 ); // 90 , 152
+	int damage = random ( skill * 85, skill * 125 ); // 90 , 152
 	target->takeDamage ( _AFF_DAMAGE_FIRE, caster, damage, output, packet, 1 );
 
 	return NULL;
@@ -7690,10 +7707,10 @@ SPELL ( castDEATH_WISH )
 
 	if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
 		//int damage = 35 * skill;
-		int damage = random ( skill * 42, skill * 55 );
+		int damage = random ( skill * 42, skill * 48 );
 
 		if ( target->coarseAlignment() == _ALIGN_GOOD ) {
-			damage *= 2.5;
+			damage *= 3;
 		}
 
 		target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
@@ -7758,7 +7775,7 @@ SPELL ( castMASS_DRAIN )
 		}
 	
 		if ( !nResisted ) {
-			int damage = random ( skill * 21, skill * 42 );		// 21 , 32
+			int damage = random ( skill * 21, skill * 32 );		// 21 , 32
 			drainTotal += damage;
 			target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
 		}
@@ -7983,7 +8000,7 @@ SPELL ( castREPEL )
 		bool repelSuccess = false;
 
 		short repelAffectDistance = 6; //we only affect combatants within this range of me
-		short repelDistance = 10; //we push them back so they are this far away
+		short repelDistance = 12; //we push them back so they are this far away //10
 		
 		float dist = sqrt( ((float)(casterX - combatantX)*(casterX - combatantX)) + ((float)(casterY - combatantY)*(casterY - combatantY)) );
 		if( dist > repelDistance ) {
@@ -8551,7 +8568,7 @@ SPELL ( castIMMOLATION_COLD )
 
 	int duration = 0;
 
-	duration = calcSpellDuration ( caster, 5 * skill, packet );
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
 
 	caster = caster->getBaseOwner();
 
@@ -8598,7 +8615,7 @@ SPELL ( castIMMOLATION_ACID )
 
 	int duration = 0;
 
-	duration = calcSpellDuration ( caster, 5 * skill, packet );
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
 
 	caster = caster->getBaseOwner();
 
@@ -8643,7 +8660,7 @@ SPELL ( castIMMOLATION_POISON )
 
 	int duration = 0;
 
-	duration = calcSpellDuration ( caster, 7 * skill, packet );
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
 
 	caster = caster->getBaseOwner();
 
@@ -8689,7 +8706,7 @@ SPELL ( castIMMOLATION_LIGHTNING )
 
 	int duration = 0;
 
-	duration = calcSpellDuration ( caster, 5 * skill, packet );
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
 
 	caster = caster->getBaseOwner();
 

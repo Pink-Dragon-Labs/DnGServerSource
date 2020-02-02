@@ -1934,6 +1934,33 @@ mlhellsoul.cpp.s:
 	cd /home/realm/cmake/source && $(MAKE) -f roommgr/CMakeFiles/roommgr.dir/build.make roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.s
 .PHONY : mlhellsoul.cpp.s
 
+mlhousepet.o: mlhousepet.cpp.o
+
+.PHONY : mlhousepet.o
+
+# target to build an object file
+mlhousepet.cpp.o:
+	cd /home/realm/cmake/source && $(MAKE) -f roommgr/CMakeFiles/roommgr.dir/build.make roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o
+.PHONY : mlhousepet.cpp.o
+
+mlhousepet.i: mlhousepet.cpp.i
+
+.PHONY : mlhousepet.i
+
+# target to preprocess a source file
+mlhousepet.cpp.i:
+	cd /home/realm/cmake/source && $(MAKE) -f roommgr/CMakeFiles/roommgr.dir/build.make roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.i
+.PHONY : mlhousepet.cpp.i
+
+mlhousepet.s: mlhousepet.cpp.s
+
+.PHONY : mlhousepet.s
+
+# target to generate assembly for a file
+mlhousepet.cpp.s:
+	cd /home/realm/cmake/source && $(MAKE) -f roommgr/CMakeFiles/roommgr.dir/build.make roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.s
+.PHONY : mlhousepet.cpp.s
+
 mlhunter.o: mlhunter.cpp.o
 
 .PHONY : mlhunter.o
@@ -3413,6 +3440,9 @@ help:
 	@echo "... mlhellsoul.o"
 	@echo "... mlhellsoul.i"
 	@echo "... mlhellsoul.s"
+	@echo "... mlhousepet.o"
+	@echo "... mlhousepet.i"
+	@echo "... mlhousepet.s"
 	@echo "... mlhunter.o"
 	@echo "... mlhunter.i"
 	@echo "... mlhunter.s"

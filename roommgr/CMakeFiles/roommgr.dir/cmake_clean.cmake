@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/roommgr.dir/mlbandit.cpp.o"
   "CMakeFiles/roommgr.dir/mltraveller.cpp.o"
   "CMakeFiles/roommgr.dir/mlxerxes.cpp.o"
+  "CMakeFiles/roommgr.dir/mlhousepet.cpp.o"
   "CMakeFiles/roommgr.dir/mlcastleboss.cpp.o"
   "CMakeFiles/roommgr.dir/mlcthief.cpp.o"
   "CMakeFiles/roommgr.dir/mlcwiz.cpp.o"

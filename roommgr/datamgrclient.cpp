@@ -8,10 +8,12 @@
 #include <algorithm>
 #include "roommgr.hpp"
 #include "datamgrclient.hpp"
-#include "../global/datamgrdefs.hpp"
+#include "datamgrdefs.hpp"
 #include "globals.hpp"
 
 #include "callbacks.hpp"
+
+#include "bcharacter.hpp"
 
 // external functions...
 extern void createMailFile ( char *name );
@@ -167,6 +169,20 @@ void DataMgrClient::handleMessage ( IPCMessage *msg )
 
 							if ( !charObj->hasAffect ( _AFF_RESET_A, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT ) )
 								charObj->addAffect ( _AFF_RESET_A, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
+
+							if ( charObj->character->profession == _PROF_WARRIOR && !charObj->hasAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT ) )
+							{
+								// add the effect
+								logDisplay ( "Warrior loaded, applied 'Empower' passive!" );
+								charObj->addAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
+							}	
+
+							if ( charObj->character->profession == _PROF_ADVENTURER && !charObj->hasAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT ) )
+							{
+								// add the effect
+								logDisplay ( "Adventurer loaded, applied 'Extension' passive!" );
+								charObj->addAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
+							}
 
 							// attach the character to the player
 							bplayer->addCharacter ( charObj );

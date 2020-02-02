@@ -129,9 +129,33 @@ roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o.provides: roommgr/CMakeFiles/roomm
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o.provides.build: roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o
 
 
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlhousepet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o"
+	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlhousepet.cpp.o -c /home/realm/cmake/source/roommgr/mlhousepet.cpp
+
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/roommgr.dir/mlhousepet.cpp.i"
+	cd /home/realm/cmake/source/roommgr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/realm/cmake/source/roommgr/mlhousepet.cpp > CMakeFiles/roommgr.dir/mlhousepet.cpp.i
+
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/roommgr.dir/mlhousepet.cpp.s"
+	cd /home/realm/cmake/source/roommgr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/realm/cmake/source/roommgr/mlhousepet.cpp -o CMakeFiles/roommgr.dir/mlhousepet.cpp.s
+
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.requires:
+
+.PHONY : roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.requires
+
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.provides: roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.requires
+	$(MAKE) -f roommgr/CMakeFiles/roommgr.dir/build.make roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.provides.build
+.PHONY : roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.provides
+
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.provides.build: roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o
+
+
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlcastleboss.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlcastleboss.cpp.o -c /home/realm/cmake/source/roommgr/mlcastleboss.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.i: cmake_force
@@ -155,7 +179,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o.provides.build: roommgr/CMakeF
 
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlcthief.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlcthief.cpp.o -c /home/realm/cmake/source/roommgr/mlcthief.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.i: cmake_force
@@ -179,7 +203,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlcwiz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlcwiz.cpp.o -c /home/realm/cmake/source/roommgr/mlcwiz.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.i: cmake_force
@@ -203,7 +227,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlcguard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlcguard.cpp.o -c /home/realm/cmake/source/roommgr/mlcguard.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.i: cmake_force
@@ -227,7 +251,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlgonan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlgonan.cpp.o -c /home/realm/cmake/source/roommgr/mlgonan.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.i: cmake_force
@@ -251,7 +275,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlgonanpet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlgonanpet.cpp.o -c /home/realm/cmake/source/roommgr/mlgonanpet.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.i: cmake_force
@@ -275,7 +299,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mldragon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mldragon.cpp.o -c /home/realm/cmake/source/roommgr/mldragon.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.i: cmake_force
@@ -299,7 +323,7 @@ roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlbmystic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlbmystic.cpp.o -c /home/realm/cmake/source/roommgr/mlbmystic.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.i: cmake_force
@@ -323,7 +347,7 @@ roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlswashbuckler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o -c /home/realm/cmake/source/roommgr/mlswashbuckler.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.i: cmake_force
@@ -347,7 +371,7 @@ roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o.provides.build: roommgr/CMak
 
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlgodprot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlgodprot.cpp.o -c /home/realm/cmake/source/roommgr/mlgodprot.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.i: cmake_force
@@ -371,7 +395,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlgodsewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlgodsewer.cpp.o -c /home/realm/cmake/source/roommgr/mlgodsewer.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.i: cmake_force
@@ -395,7 +419,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object roommgr/CMakeFiles/roommgr.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object roommgr/CMakeFiles/roommgr.dir/main.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/main.cpp.o -c /home/realm/cmake/source/roommgr/main.cpp
 
 roommgr/CMakeFiles/roommgr.dir/main.cpp.i: cmake_force
@@ -419,7 +443,7 @@ roommgr/CMakeFiles/roommgr.dir/main.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/bcarry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bcarry.cpp.o -c /home/realm/cmake/source/roommgr/bcarry.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.i: cmake_force
@@ -443,7 +467,7 @@ roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/bcontain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bcontain.cpp.o -c /home/realm/cmake/source/roommgr/bcontain.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.i: cmake_force
@@ -467,7 +491,7 @@ roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/bplayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bplayer.cpp.o -c /home/realm/cmake/source/roommgr/bplayer.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.i: cmake_force
@@ -491,7 +515,7 @@ roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/bhead.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bhead.cpp.o -c /home/realm/cmake/source/roommgr/bhead.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.i: cmake_force
@@ -515,7 +539,7 @@ roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/bwear.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bwear.cpp.o -c /home/realm/cmake/source/roommgr/bwear.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.i: cmake_force
@@ -539,7 +563,7 @@ roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/bopen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bopen.cpp.o -c /home/realm/cmake/source/roommgr/bopen.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.i: cmake_force
@@ -563,7 +587,7 @@ roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/bdescribed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bdescribed.cpp.o -c /home/realm/cmake/source/roommgr/bdescribed.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.i: cmake_force
@@ -587,7 +611,7 @@ roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/bcycle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bcycle.cpp.o -c /home/realm/cmake/source/roommgr/bcycle.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.i: cmake_force
@@ -611,7 +635,7 @@ roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/bcharacter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bcharacter.cpp.o -c /home/realm/cmake/source/roommgr/bcharacter.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.i: cmake_force
@@ -635,7 +659,7 @@ roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object roommgr/CMakeFiles/roommgr.dir/block.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object roommgr/CMakeFiles/roommgr.dir/block.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/block.cpp.o -c /home/realm/cmake/source/roommgr/block.cpp
 
 roommgr/CMakeFiles/roommgr.dir/block.cpp.i: cmake_force
@@ -659,7 +683,7 @@ roommgr/CMakeFiles/roommgr.dir/block.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/bkey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bkey.cpp.o -c /home/realm/cmake/source/roommgr/bkey.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.i: cmake_force
@@ -683,7 +707,7 @@ roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/bweapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bweapon.cpp.o -c /home/realm/cmake/source/roommgr/bweapon.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.i: cmake_force
@@ -707,7 +731,7 @@ roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/bentry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bentry.cpp.o -c /home/realm/cmake/source/roommgr/bentry.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.i: cmake_force
@@ -731,7 +755,7 @@ roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/bshop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bshop.cpp.o -c /home/realm/cmake/source/roommgr/bshop.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.i: cmake_force
@@ -755,7 +779,7 @@ roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/bnpc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bnpc.cpp.o -c /home/realm/cmake/source/roommgr/bnpc.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.i: cmake_force
@@ -779,7 +803,7 @@ roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/bconsume.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bconsume.cpp.o -c /home/realm/cmake/source/roommgr/bconsume.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.i: cmake_force
@@ -803,7 +827,7 @@ roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/bpassword.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bpassword.cpp.o -c /home/realm/cmake/source/roommgr/bpassword.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.i: cmake_force
@@ -827,7 +851,7 @@ roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/bgate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bgate.cpp.o -c /home/realm/cmake/source/roommgr/bgate.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.i: cmake_force
@@ -851,7 +875,7 @@ roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/bsit.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bsit.cpp.o: roommgr/bsit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bsit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bsit.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bsit.cpp.o -c /home/realm/cmake/source/roommgr/bsit.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bsit.cpp.i: cmake_force
@@ -875,7 +899,7 @@ roommgr/CMakeFiles/roommgr.dir/bsit.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/bscroll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bscroll.cpp.o -c /home/realm/cmake/source/roommgr/bscroll.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.i: cmake_force
@@ -899,7 +923,7 @@ roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/btalk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/btalk.cpp.o -c /home/realm/cmake/source/roommgr/btalk.cpp
 
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.i: cmake_force
@@ -923,7 +947,7 @@ roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/buse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object roommgr/CMakeFiles/roommgr.dir/buse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object roommgr/CMakeFiles/roommgr.dir/buse.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/buse.cpp.o -c /home/realm/cmake/source/roommgr/buse.cpp
 
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.i: cmake_force
@@ -947,7 +971,7 @@ roommgr/CMakeFiles/roommgr.dir/buse.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/bmix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bmix.cpp.o -c /home/realm/cmake/source/roommgr/bmix.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.i: cmake_force
@@ -971,7 +995,7 @@ roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/bswitch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bswitch.cpp.o -c /home/realm/cmake/source/roommgr/bswitch.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.i: cmake_force
@@ -995,7 +1019,7 @@ roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/btreasure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/btreasure.cpp.o -c /home/realm/cmake/source/roommgr/btreasure.cpp
 
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.i: cmake_force
@@ -1019,7 +1043,7 @@ roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/bdye.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bdye.cpp.o -c /home/realm/cmake/source/roommgr/bdye.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.i: cmake_force
@@ -1043,7 +1067,7 @@ roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/bspellbag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bspellbag.cpp.o -c /home/realm/cmake/source/roommgr/bspellbag.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.i: cmake_force
@@ -1067,7 +1091,7 @@ roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/talktree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/talktree.cpp.o -c /home/realm/cmake/source/roommgr/talktree.cpp
 
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.i: cmake_force
@@ -1091,7 +1115,7 @@ roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/wobject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/wobject.cpp.o -c /home/realm/cmake/source/roommgr/wobject.cpp
 
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.i: cmake_force
@@ -1115,7 +1139,7 @@ roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/rmparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/rmparser.cpp.o -c /home/realm/cmake/source/roommgr/rmparser.cpp
 
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.i: cmake_force
@@ -1139,7 +1163,7 @@ roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/rmroom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/rmroom.cpp.o -c /home/realm/cmake/source/roommgr/rmroom.cpp
 
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.i: cmake_force
@@ -1163,7 +1187,7 @@ roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/rmplayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/rmplayer.cpp.o -c /home/realm/cmake/source/roommgr/rmplayer.cpp
 
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.i: cmake_force
@@ -1187,7 +1211,7 @@ roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/timesys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/timesys.cpp.o -c /home/realm/cmake/source/roommgr/timesys.cpp
 
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.i: cmake_force
@@ -1211,7 +1235,7 @@ roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/worldlib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/worldlib.cpp.o -c /home/realm/cmake/source/roommgr/worldlib.cpp
 
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.i: cmake_force
@@ -1235,7 +1259,7 @@ roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/zone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object roommgr/CMakeFiles/roommgr.dir/zone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object roommgr/CMakeFiles/roommgr.dir/zone.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/zone.cpp.o -c /home/realm/cmake/source/roommgr/zone.cpp
 
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.i: cmake_force
@@ -1259,7 +1283,7 @@ roommgr/CMakeFiles/roommgr.dir/zone.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/misc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object roommgr/CMakeFiles/roommgr.dir/misc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object roommgr/CMakeFiles/roommgr.dir/misc.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/misc.cpp.o -c /home/realm/cmake/source/roommgr/misc.cpp
 
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.i: cmake_force
@@ -1283,7 +1307,7 @@ roommgr/CMakeFiles/roommgr.dir/misc.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/tables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object roommgr/CMakeFiles/roommgr.dir/tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object roommgr/CMakeFiles/roommgr.dir/tables.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/tables.cpp.o -c /home/realm/cmake/source/roommgr/tables.cpp
 
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.i: cmake_force
@@ -1307,7 +1331,7 @@ roommgr/CMakeFiles/roommgr.dir/tables.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/dice.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/dice.cpp.o: roommgr/dice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object roommgr/CMakeFiles/roommgr.dir/dice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object roommgr/CMakeFiles/roommgr.dir/dice.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/dice.cpp.o -c /home/realm/cmake/source/roommgr/dice.cpp
 
 roommgr/CMakeFiles/roommgr.dir/dice.cpp.i: cmake_force
@@ -1331,7 +1355,7 @@ roommgr/CMakeFiles/roommgr.dir/dice.cpp.o.provides.build: roommgr/CMakeFiles/roo
 
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/wobjectbase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/wobjectbase.cpp.o -c /home/realm/cmake/source/roommgr/wobjectbase.cpp
 
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.i: cmake_force
@@ -1355,7 +1379,7 @@ roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o.provides.build: roommgr/CMakeFi
 
 roommgr/CMakeFiles/roommgr.dir/properties.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/properties.cpp.o: roommgr/properties.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object roommgr/CMakeFiles/roommgr.dir/properties.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object roommgr/CMakeFiles/roommgr.dir/properties.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/properties.cpp.o -c /home/realm/cmake/source/roommgr/properties.cpp
 
 roommgr/CMakeFiles/roommgr.dir/properties.cpp.i: cmake_force
@@ -1379,7 +1403,7 @@ roommgr/CMakeFiles/roommgr.dir/properties.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/characters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object roommgr/CMakeFiles/roommgr.dir/characters.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object roommgr/CMakeFiles/roommgr.dir/characters.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/characters.cpp.o -c /home/realm/cmake/source/roommgr/characters.cpp
 
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.i: cmake_force
@@ -1403,7 +1427,7 @@ roommgr/CMakeFiles/roommgr.dir/characters.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/house.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object roommgr/CMakeFiles/roommgr.dir/house.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object roommgr/CMakeFiles/roommgr.dir/house.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/house.cpp.o -c /home/realm/cmake/source/roommgr/house.cpp
 
 roommgr/CMakeFiles/roommgr.dir/house.cpp.i: cmake_force
@@ -1427,7 +1451,7 @@ roommgr/CMakeFiles/roommgr.dir/house.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/actions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object roommgr/CMakeFiles/roommgr.dir/actions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object roommgr/CMakeFiles/roommgr.dir/actions.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/actions.cpp.o -c /home/realm/cmake/source/roommgr/actions.cpp
 
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.i: cmake_force
@@ -1451,7 +1475,7 @@ roommgr/CMakeFiles/roommgr.dir/actions.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/combat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object roommgr/CMakeFiles/roommgr.dir/combat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object roommgr/CMakeFiles/roommgr.dir/combat.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/combat.cpp.o -c /home/realm/cmake/source/roommgr/combat.cpp
 
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.i: cmake_force
@@ -1475,7 +1499,7 @@ roommgr/CMakeFiles/roommgr.dir/combat.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/magic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object roommgr/CMakeFiles/roommgr.dir/magic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object roommgr/CMakeFiles/roommgr.dir/magic.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/magic.cpp.o -c /home/realm/cmake/source/roommgr/magic.cpp
 
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.i: cmake_force
@@ -1499,7 +1523,7 @@ roommgr/CMakeFiles/roommgr.dir/magic.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/rmtools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/rmtools.cpp.o -c /home/realm/cmake/source/roommgr/rmtools.cpp
 
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.i: cmake_force
@@ -1523,7 +1547,7 @@ roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/npc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object roommgr/CMakeFiles/roommgr.dir/npc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object roommgr/CMakeFiles/roommgr.dir/npc.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/npc.cpp.o -c /home/realm/cmake/source/roommgr/npc.cpp
 
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.i: cmake_force
@@ -1547,7 +1571,7 @@ roommgr/CMakeFiles/roommgr.dir/npc.cpp.o.provides.build: roommgr/CMakeFiles/room
 
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlmarvin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlmarvin.cpp.o -c /home/realm/cmake/source/roommgr/mlmarvin.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.i: cmake_force
@@ -1571,7 +1595,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlseraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlseraph.cpp.o -c /home/realm/cmake/source/roommgr/mlseraph.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.i: cmake_force
@@ -1595,7 +1619,7 @@ roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlguardian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlguardian.cpp.o -c /home/realm/cmake/source/roommgr/mlguardian.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.i: cmake_force
@@ -1619,7 +1643,7 @@ roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlfaery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlfaery.cpp.o -c /home/realm/cmake/source/roommgr/mlfaery.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.i: cmake_force
@@ -1643,7 +1667,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlmagis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlmagis.cpp.o -c /home/realm/cmake/source/roommgr/mlmagis.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.i: cmake_force
@@ -1667,7 +1691,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mltulor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mltulor.cpp.o -c /home/realm/cmake/source/roommgr/mltulor.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.i: cmake_force
@@ -1691,7 +1715,7 @@ roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mldemon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mldemon.cpp.o -c /home/realm/cmake/source/roommgr/mldemon.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.i: cmake_force
@@ -1715,7 +1739,7 @@ roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlmonstr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlmonstr.cpp.o -c /home/realm/cmake/source/roommgr/mlmonstr.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.i: cmake_force
@@ -1739,7 +1763,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlgood.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlgood.cpp.o -c /home/realm/cmake/source/roommgr/mlgood.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.i: cmake_force
@@ -1763,7 +1787,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mleelem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mleelem.cpp.o -c /home/realm/cmake/source/roommgr/mleelem.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.i: cmake_force
@@ -1787,7 +1811,7 @@ roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlfelem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlfelem.cpp.o -c /home/realm/cmake/source/roommgr/mlfelem.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.i: cmake_force
@@ -1811,7 +1835,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlwelem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlwelem.cpp.o -c /home/realm/cmake/source/roommgr/mlwelem.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.i: cmake_force
@@ -1835,7 +1859,7 @@ roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlaelem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlaelem.cpp.o -c /home/realm/cmake/source/roommgr/mlaelem.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.i: cmake_force
@@ -1859,7 +1883,7 @@ roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlnecro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlnecro.cpp.o -c /home/realm/cmake/source/roommgr/mlnecro.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.i: cmake_force
@@ -1883,7 +1907,7 @@ roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlogrema.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlogrema.cpp.o -c /home/realm/cmake/source/roommgr/mlogrema.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.i: cmake_force
@@ -1907,7 +1931,7 @@ roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mltroll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mltroll.cpp.o -c /home/realm/cmake/source/roommgr/mltroll.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.i: cmake_force
@@ -1931,7 +1955,7 @@ roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object roommgr/CMakeFiles/roommgr.dir/channel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object roommgr/CMakeFiles/roommgr.dir/channel.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/channel.cpp.o -c /home/realm/cmake/source/roommgr/channel.cpp
 
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.i: cmake_force
@@ -1955,7 +1979,7 @@ roommgr/CMakeFiles/roommgr.dir/channel.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/squirmy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/squirmy.cpp.o -c /home/realm/cmake/source/roommgr/squirmy.cpp
 
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.i: cmake_force
@@ -1979,7 +2003,7 @@ roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/quest.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/quest.cpp.o: roommgr/quest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object roommgr/CMakeFiles/roommgr.dir/quest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object roommgr/CMakeFiles/roommgr.dir/quest.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/quest.cpp.o -c /home/realm/cmake/source/roommgr/quest.cpp
 
 roommgr/CMakeFiles/roommgr.dir/quest.cpp.i: cmake_force
@@ -2003,7 +2027,7 @@ roommgr/CMakeFiles/roommgr.dir/quest.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/recipe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/recipe.cpp.o -c /home/realm/cmake/source/roommgr/recipe.cpp
 
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.i: cmake_force
@@ -2027,7 +2051,7 @@ roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mllich.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mllich.cpp.o -c /home/realm/cmake/source/roommgr/mllich.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.i: cmake_force
@@ -2051,7 +2075,7 @@ roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlimp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlimp.cpp.o -c /home/realm/cmake/source/roommgr/mlimp.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.i: cmake_force
@@ -2075,7 +2099,7 @@ roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlthief.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlthief.cpp.o -c /home/realm/cmake/source/roommgr/mlthief.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.i: cmake_force
@@ -2099,7 +2123,7 @@ roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlsmarty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlsmarty.cpp.o -c /home/realm/cmake/source/roommgr/mlsmarty.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.i: cmake_force
@@ -2123,7 +2147,7 @@ roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlhunter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlhunter.cpp.o -c /home/realm/cmake/source/roommgr/mlhunter.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.i: cmake_force
@@ -2147,7 +2171,7 @@ roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlmouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlmouse.cpp.o -c /home/realm/cmake/source/roommgr/mlmouse.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.i: cmake_force
@@ -2171,7 +2195,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlfury.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlfury.cpp.o -c /home/realm/cmake/source/roommgr/mlfury.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.i: cmake_force
@@ -2195,7 +2219,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlpaladi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlpaladi.cpp.o -c /home/realm/cmake/source/roommgr/mlpaladi.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.i: cmake_force
@@ -2219,7 +2243,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlcleric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlcleric.cpp.o -c /home/realm/cmake/source/roommgr/mlcleric.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.i: cmake_force
@@ -2243,7 +2267,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mllwiz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mllwiz.cpp.o -c /home/realm/cmake/source/roommgr/mllwiz.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.i: cmake_force
@@ -2267,7 +2291,7 @@ roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlstorm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlstorm.cpp.o -c /home/realm/cmake/source/roommgr/mlstorm.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.i: cmake_force
@@ -2291,7 +2315,7 @@ roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlaction.cpp.o -c /home/realm/cmake/source/roommgr/mlaction.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.i: cmake_force
@@ -2315,7 +2339,7 @@ roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlpwiz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlpwiz.cpp.o -c /home/realm/cmake/source/roommgr/mlpwiz.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.i: cmake_force
@@ -2339,7 +2363,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o.provides.build: roommgr/CMakeFiles/r
 
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/bountylist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/bountylist.cpp.o -c /home/realm/cmake/source/roommgr/bountylist.cpp
 
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.i: cmake_force
@@ -2363,7 +2387,7 @@ roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/tracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/tracking.cpp.o -c /home/realm/cmake/source/roommgr/tracking.cpp
 
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.i: cmake_force
@@ -2387,7 +2411,7 @@ roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o.provides.build: roommgr/CMakeFiles
 
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/audit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object roommgr/CMakeFiles/roommgr.dir/audit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object roommgr/CMakeFiles/roommgr.dir/audit.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/audit.cpp.o -c /home/realm/cmake/source/roommgr/audit.cpp
 
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.i: cmake_force
@@ -2411,7 +2435,7 @@ roommgr/CMakeFiles/roommgr.dir/audit.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/globals.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/globals.cpp.o: roommgr/globals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object roommgr/CMakeFiles/roommgr.dir/globals.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object roommgr/CMakeFiles/roommgr.dir/globals.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/globals.cpp.o -c /home/realm/cmake/source/roommgr/globals.cpp
 
 roommgr/CMakeFiles/roommgr.dir/globals.cpp.i: cmake_force
@@ -2435,7 +2459,7 @@ roommgr/CMakeFiles/roommgr.dir/globals.cpp.o.provides.build: roommgr/CMakeFiles/
 
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/callbacks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/callbacks.cpp.o -c /home/realm/cmake/source/roommgr/callbacks.cpp
 
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.i: cmake_force
@@ -2459,7 +2483,7 @@ roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/login.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object roommgr/CMakeFiles/roommgr.dir/login.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object roommgr/CMakeFiles/roommgr.dir/login.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/login.cpp.o -c /home/realm/cmake/source/roommgr/login.cpp
 
 roommgr/CMakeFiles/roommgr.dir/login.cpp.i: cmake_force
@@ -2483,7 +2507,7 @@ roommgr/CMakeFiles/roommgr.dir/login.cpp.o.provides.build: roommgr/CMakeFiles/ro
 
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/datamgrclient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/datamgrclient.cpp.o -c /home/realm/cmake/source/roommgr/datamgrclient.cpp
 
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.i: cmake_force
@@ -2507,7 +2531,7 @@ roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o.provides.build: roommgr/CMake
 
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlwatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlwatcher.cpp.o -c /home/realm/cmake/source/roommgr/mlwatcher.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.i: cmake_force
@@ -2531,7 +2555,7 @@ roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlhellsoul.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlhellsoul.cpp.o -c /home/realm/cmake/source/roommgr/mlhellsoul.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.i: cmake_force
@@ -2555,7 +2579,7 @@ roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlberserk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlberserk.cpp.o -c /home/realm/cmake/source/roommgr/mlberserk.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.i: cmake_force
@@ -2579,7 +2603,7 @@ roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlmistwiz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlmistwiz.cpp.o -c /home/realm/cmake/source/roommgr/mlmistwiz.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.i: cmake_force
@@ -2603,7 +2627,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/ambushgroup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/ambushgroup.cpp.o -c /home/realm/cmake/source/roommgr/ambushgroup.cpp
 
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.i: cmake_force
@@ -2627,7 +2651,7 @@ roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o.provides.build: roommgr/CMakeFi
 
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/friendmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/friendmgr.cpp.o -c /home/realm/cmake/source/roommgr/friendmgr.cpp
 
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.i: cmake_force
@@ -2651,7 +2675,7 @@ roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/scriptmgr.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/scriptmgr.cpp.o: roommgr/scriptmgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object roommgr/CMakeFiles/roommgr.dir/scriptmgr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object roommgr/CMakeFiles/roommgr.dir/scriptmgr.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/scriptmgr.cpp.o -c /home/realm/cmake/source/roommgr/scriptmgr.cpp
 
 roommgr/CMakeFiles/roommgr.dir/scriptmgr.cpp.i: cmake_force
@@ -2675,7 +2699,7 @@ roommgr/CMakeFiles/roommgr.dir/scriptmgr.cpp.o.provides.build: roommgr/CMakeFile
 
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/zonescripts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/zonescripts.cpp.o -c /home/realm/cmake/source/roommgr/zonescripts.cpp
 
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.i: cmake_force
@@ -2699,7 +2723,7 @@ roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o.provides.build: roommgr/CMakeFi
 
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/playerstate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/playerstate.cpp.o -c /home/realm/cmake/source/roommgr/playerstate.cpp
 
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.i: cmake_force
@@ -2723,7 +2747,7 @@ roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o.provides.build: roommgr/CMakeFi
 
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlminotaur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlminotaur.cpp.o -c /home/realm/cmake/source/roommgr/mlminotaur.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.i: cmake_force
@@ -2747,7 +2771,7 @@ roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o.provides.build: roommgr/CMakeFil
 
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlminotaurguard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o -c /home/realm/cmake/source/roommgr/mlminotaurguard.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.i: cmake_force
@@ -2771,7 +2795,7 @@ roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o.provides.build: roommgr/CMa
 
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/CMakeFiles/roommgr.dir/flags.make
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlpumpkindropper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o"
 	cd /home/realm/cmake/source/roommgr && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o -c /home/realm/cmake/source/roommgr/mlpumpkindropper.cpp
 
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.i: cmake_force
@@ -2798,6 +2822,7 @@ roommgr_OBJECTS = \
 "CMakeFiles/roommgr.dir/mlbandit.cpp.o" \
 "CMakeFiles/roommgr.dir/mltraveller.cpp.o" \
 "CMakeFiles/roommgr.dir/mlxerxes.cpp.o" \
+"CMakeFiles/roommgr.dir/mlhousepet.cpp.o" \
 "CMakeFiles/roommgr.dir/mlcastleboss.cpp.o" \
 "CMakeFiles/roommgr.dir/mlcthief.cpp.o" \
 "CMakeFiles/roommgr.dir/mlcwiz.cpp.o" \
@@ -2916,6 +2941,7 @@ roommgr_EXTERNAL_OBJECTS =
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o
+bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o
@@ -3031,7 +3057,7 @@ bin/roommgr: roommgr/CMakeFiles/roommgr.dir/build.make
 bin/roommgr: lib/libglobal.a
 bin/roommgr: /usr/lib/i386-linux-gnu/libmysqlclient.so
 bin/roommgr: roommgr/CMakeFiles/roommgr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Linking CXX executable ../bin/roommgr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/realm/cmake/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Linking CXX executable ../bin/roommgr"
 	cd /home/realm/cmake/source/roommgr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roommgr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -3042,6 +3068,7 @@ roommgr/CMakeFiles/roommgr.dir/build: bin/roommgr
 roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o.requires
 roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o.requires
 roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o.requires
+roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o.requires
 roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o.requires
 roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o.requires
 roommgr/CMakeFiles/roommgr.dir/requires: roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o.requires

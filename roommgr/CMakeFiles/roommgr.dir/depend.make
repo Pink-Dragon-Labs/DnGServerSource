@@ -101,6 +101,7 @@ roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/actions.cpp.o: roommgr/mllich.hpp
@@ -266,6 +267,7 @@ roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o: roommgr/mllich.hpp
@@ -431,6 +433,7 @@ roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/audit.cpp.o: roommgr/mllich.hpp
@@ -595,6 +598,7 @@ roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o: roommgr/mllich.hpp
@@ -759,6 +763,7 @@ roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o: roommgr/mllich.hpp
@@ -923,6 +928,7 @@ roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o: roommgr/mllich.hpp
@@ -1087,6 +1093,7 @@ roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o: roommgr/mllich.hpp
@@ -1251,6 +1258,7 @@ roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o: roommgr/mllich.hpp
@@ -1415,6 +1423,7 @@ roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o: roommgr/mllich.hpp
@@ -1579,6 +1588,7 @@ roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o: roommgr/mllich.hpp
@@ -1743,6 +1753,7 @@ roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o: roommgr/mllich.hpp
@@ -1907,6 +1918,7 @@ roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o: roommgr/mllich.hpp
@@ -2071,6 +2083,7 @@ roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o: roommgr/mllich.hpp
@@ -2235,6 +2248,7 @@ roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o: roommgr/mllich.hpp
@@ -2399,6 +2413,7 @@ roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/block.cpp.o: roommgr/mllich.hpp
@@ -2563,6 +2578,7 @@ roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o: roommgr/mllich.hpp
@@ -2727,6 +2743,7 @@ roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o: roommgr/mllich.hpp
@@ -2891,6 +2908,7 @@ roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o: roommgr/mllich.hpp
@@ -3055,6 +3073,7 @@ roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o: roommgr/mllich.hpp
@@ -3219,6 +3238,7 @@ roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o: roommgr/mllich.hpp
@@ -3383,6 +3403,7 @@ roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o: roommgr/mllich.hpp
@@ -3547,6 +3568,7 @@ roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o: roommgr/mllich.hpp
@@ -3711,6 +3733,7 @@ roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o: roommgr/mllich.hpp
@@ -3969,6 +3992,7 @@ roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o: roommgr/mllich.hpp
@@ -4133,6 +4157,7 @@ roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o: roommgr/mllich.hpp
@@ -4297,6 +4322,7 @@ roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o: roommgr/mllich.hpp
@@ -4461,6 +4487,7 @@ roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o: roommgr/mllich.hpp
@@ -4625,6 +4652,7 @@ roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/buse.cpp.o: roommgr/mllich.hpp
@@ -4789,6 +4817,7 @@ roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o: roommgr/mllich.hpp
@@ -4953,6 +4982,7 @@ roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o: roommgr/mllich.hpp
@@ -5119,6 +5149,7 @@ roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o: roommgr/mllich.hpp
@@ -5283,6 +5314,7 @@ roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/channel.cpp.o: roommgr/mllich.hpp
@@ -5447,6 +5479,7 @@ roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/characters.cpp.o: roommgr/mllich.hpp
@@ -5611,6 +5644,7 @@ roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: roommgr/mllich.hpp
@@ -5678,7 +5712,6 @@ roommgr/CMakeFiles/roommgr.dir/combat.cpp.o: /usr/include/mysql/typelib.h
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/array.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/configmgr.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/counter.hpp
-roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/datamgrdefs.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/debug.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/fatal.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/file.hpp
@@ -5777,6 +5810,7 @@ roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: roommgr/mllich.hpp
@@ -5840,6 +5874,7 @@ roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: /usr/include/mysql/mysql_com
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: /usr/include/mysql/mysql_time.h
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: /usr/include/mysql/mysql_version.h
 roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: /usr/include/mysql/typelib.h
+roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o: global/datamgrdefs.hpp
 
 roommgr/CMakeFiles/roommgr.dir/dice.cpp.o: global/array.hpp
 roommgr/CMakeFiles/roommgr.dir/dice.cpp.o: global/configmgr.hpp
@@ -5992,6 +6027,7 @@ roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o: roommgr/mllich.hpp
@@ -6211,6 +6247,7 @@ roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/house.cpp.o: roommgr/mllich.hpp
@@ -6376,6 +6413,7 @@ roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/login.cpp.o: roommgr/mllich.hpp
@@ -6541,6 +6579,7 @@ roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/magic.cpp.o: roommgr/mllich.hpp
@@ -6708,6 +6747,7 @@ roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/main.cpp.o: roommgr/mllich.hpp
@@ -6872,6 +6912,7 @@ roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/misc.cpp.o: roommgr/mllich.hpp
@@ -7036,6 +7077,7 @@ roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o: roommgr/mllich.hpp
@@ -7200,6 +7242,7 @@ roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o: roommgr/mllich.hpp
@@ -7364,6 +7407,7 @@ roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o: roommgr/mllich.hpp
@@ -7528,6 +7572,7 @@ roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o: roommgr/mllich.hpp
@@ -7692,6 +7737,7 @@ roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o: roommgr/mllich.hpp
@@ -7856,6 +7902,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o: roommgr/mllich.hpp
@@ -8020,6 +8067,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o: roommgr/mllich.hpp
@@ -8184,6 +8232,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o: roommgr/mllich.hpp
@@ -8348,6 +8397,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o: roommgr/mllich.hpp
@@ -8512,6 +8562,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o: roommgr/mllich.hpp
@@ -8676,6 +8727,7 @@ roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o: roommgr/mllich.hpp
@@ -8840,6 +8892,7 @@ roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o: roommgr/mllich.hpp
@@ -9004,6 +9057,7 @@ roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o: roommgr/mllich.hpp
@@ -9168,6 +9222,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o: roommgr/mllich.hpp
@@ -9332,6 +9387,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o: roommgr/mllich.hpp
@@ -9496,6 +9552,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o: roommgr/mllich.hpp
@@ -9660,6 +9717,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o: roommgr/mllich.hpp
@@ -9824,6 +9882,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o: roommgr/mllich.hpp
@@ -9988,6 +10047,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o: roommgr/mllich.hpp
@@ -10152,6 +10212,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o: roommgr/mllich.hpp
@@ -10316,6 +10377,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlgood.cpp
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o: roommgr/mllich.hpp
@@ -10480,6 +10542,7 @@ roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlguardian.cpp
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o: roommgr/mllich.hpp
@@ -10644,6 +10707,7 @@ roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlhellsoul.cpp
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: roommgr/mllich.hpp
@@ -10707,6 +10771,171 @@ roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: /usr/include/mysql/mysql_com.h
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: /usr/include/mysql/mysql_time.h
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: /usr/include/mysql/mysql_version.h
 roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o: /usr/include/mysql/typelib.h
+
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/array.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/configmgr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/counter.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/debug.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/fatal.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/file.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/filemgrdefs.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/generator.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/hash.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipc.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipcclient.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipcencryption.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipcmsg.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipcmsghandler.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipcpollmgr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/ipcserver.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/list.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/listobj.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/logmgr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/malloc.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/memorypool.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/msgs.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/new.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/packdata.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/packmsg.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/player.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/script.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/sparse.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/sql.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/string.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/stringcache.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/system.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/tools.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/tree.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/types.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/validate.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: global/window.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/actions.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bases.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bcarry.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bcharacter.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bconsume.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bcontain.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bcycle.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bdescribed.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bdye.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bentry.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bgate.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bhead.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bkey.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/block.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bmix.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bnpc.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bopen.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bountylist.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bpassword.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bplayer.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bscroll.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bshop.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bsit.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bspellbag.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bswitch.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/btalk.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/btreasure.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/buse.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bweapon.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/bwear.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/channel.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/characters.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/combat.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/datamgrclient.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/dice.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/filemgr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/globals.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/house.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/login.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/magic.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/misc.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlaction.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlbandit.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlberserk.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlbmystic.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlcastleboss.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlcguard.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlcleric.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlcthief.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlcwiz.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mldemon.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mldragon.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlelem.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlfaery.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlfury.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlgodprot.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlgodsewer.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlgonan.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlgonanpet.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlgood.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlguardian.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlhousepet.cpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlhousepet.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlhunter.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlimp.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mllich.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mllwiz.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlmagis.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlmarvin.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlminotaur.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlminotaurguard.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlmistwiz.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlmonstr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlmouse.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlnecro.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlogrema.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlpaladi.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlpumpkindropper.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlpwiz.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlseraph.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlsmarty.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlstorm.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlswashbuckler.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlthief.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mltraveller.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mltroll.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mltulor.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlwatcher.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/mlxerxes.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/npc.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/npcs.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/playerstate.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/properties.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/quest.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/recipe.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/rmparser.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/rmplayer.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/rmroom.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/rmtools.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/roommgr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/scriptmgr.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/skills.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/special.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/squirmy.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/tables.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/talktree.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/timesys.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/tracking.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/verbs.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/wobject.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/wobjectbase.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/worldlib.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: roommgr/zone.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/binary_log_types.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/my_alloc.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/my_command.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/my_list.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql/client_plugin.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql/plugin_auth_common.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql/psi/psi_base.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql/psi/psi_memory.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql_com.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql_time.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/mysql_version.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o: /usr/include/mysql/typelib.h
 
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: global/array.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: global/configmgr.hpp
@@ -10807,6 +11036,7 @@ roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlhunter.cpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o: roommgr/mlimp.hpp
@@ -10971,6 +11201,7 @@ roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlimp.cpp
 roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o: roommgr/mlimp.hpp
@@ -11135,6 +11366,7 @@ roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o: roommgr/mllich.cpp
@@ -11299,6 +11531,7 @@ roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o: roommgr/mllich.hpp
@@ -11463,6 +11696,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o: roommgr/mllich.hpp
@@ -11627,6 +11861,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o: roommgr/mllich.hpp
@@ -11791,6 +12026,7 @@ roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o: roommgr/mllich.hpp
@@ -11955,6 +12191,7 @@ roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o: roommgr/mllich.hpp
@@ -12119,6 +12356,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o: roommgr/mllich.hpp
@@ -12283,6 +12521,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o: roommgr/mllich.hpp
@@ -12447,6 +12686,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o: roommgr/mllich.hpp
@@ -12611,6 +12851,7 @@ roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o: roommgr/mllich.hpp
@@ -12775,6 +13016,7 @@ roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o: roommgr/mllich.hpp
@@ -12939,6 +13181,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o: roommgr/mllich.hpp
@@ -13103,6 +13346,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o: roommgr/mllich.hpp
@@ -13267,6 +13511,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o: roommgr/mllich.hpp
@@ -13431,6 +13676,7 @@ roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o: roommgr/mllich.hpp
@@ -13595,6 +13841,7 @@ roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o: roommgr/mllich.hpp
@@ -13759,6 +14006,7 @@ roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o: roommgr/mllich.hpp
@@ -13923,6 +14171,7 @@ roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o: roommgr/mllich.hpp
@@ -14087,6 +14336,7 @@ roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o: roommgr/mllich.hpp
@@ -14251,6 +14501,7 @@ roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o: roommgr/mllich.hpp
@@ -14415,6 +14666,7 @@ roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o: roommgr/mllich.hpp
@@ -14579,6 +14831,7 @@ roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o: roommgr/mllich.hpp
@@ -14743,6 +14996,7 @@ roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o: roommgr/mllich.hpp
@@ -14907,6 +15161,7 @@ roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o: roommgr/mllich.hpp
@@ -15071,6 +15326,7 @@ roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o: roommgr/mllich.hpp
@@ -15235,6 +15491,7 @@ roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/npc.cpp.o: roommgr/mllich.hpp
@@ -15399,6 +15656,7 @@ roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o: roommgr/mllich.hpp
@@ -15616,6 +15874,7 @@ roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o: roommgr/mllich.hpp
@@ -15781,6 +16040,7 @@ roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o: roommgr/mllich.hpp
@@ -15948,6 +16208,7 @@ roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o: roommgr/mllich.hpp
@@ -16112,6 +16373,7 @@ roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o: roommgr/mllich.hpp
@@ -16276,6 +16538,7 @@ roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o: roommgr/mllich.hpp
@@ -16477,6 +16740,7 @@ roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o: roommgr/mllich.hpp
@@ -16641,6 +16905,7 @@ roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/tables.cpp.o: roommgr/mllich.hpp
@@ -16805,6 +17070,7 @@ roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o: roommgr/mllich.hpp
@@ -16969,6 +17235,7 @@ roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o: roommgr/mllich.hpp
@@ -17133,6 +17400,7 @@ roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o: roommgr/mllich.hpp
@@ -17297,6 +17565,7 @@ roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o: roommgr/mllich.hpp
@@ -17461,6 +17730,7 @@ roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o: roommgr/mllich.hpp
@@ -17626,6 +17896,7 @@ roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o: roommgr/mllich.hpp
@@ -17791,6 +18062,7 @@ roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/zone.cpp.o: roommgr/mllich.hpp
@@ -17956,6 +18228,7 @@ roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlgonanpet.hpp
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlgood.hpp
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlguardian.hpp
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlhellsoul.hpp
+roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlhousepet.hpp
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlhunter.hpp
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mlimp.hpp
 roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o: roommgr/mllich.hpp
