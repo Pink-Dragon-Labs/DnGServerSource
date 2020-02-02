@@ -6,4 +6,4 @@ cd -
 ./copyBinariesToLive.sh
 ./copyLibsToLive.sh
 cd $REALMFOLDER
-./startRealm.sh
+./startContainer.sh
