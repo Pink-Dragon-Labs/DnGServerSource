@@ -62,10 +62,11 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 				object->addObject ( "NewbieSword", 1 );
 				object->addObject ( "NewbieSmallShield", 1 );
 				object->addObject ( "NewbieLeatherCowl", 1 );
+				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );
-				object->manaValue = 50;
-				object->value = 750;
+				object->manaValue = 20;
+				object->value = 2400;
 			}
 
 			break;
@@ -81,10 +82,11 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 				object->addObject ( "NewbieChainPants", 1 );
 				object->addObject ( "NewbieChainCowl", 1 );
 				object->addObject ( "NewbieBracers", 1 );
+				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );
-				object->manaValue = 0;
-				object->value = 1000;
+				object->manaValue = 20;
+				object->value = 2400;
 			}
 
 			break;
@@ -103,10 +105,11 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 				object->addObject ( "NewbieBracers", 1 );
 				object->addObject ( "NewbieThrower", 1 );
 				object->addObject ( "NewbieSmallShield", 1 );
+				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Veggies" );
 				object->addObject ( 2, "WaterBottle" );
-				object->manaValue = 100;
-				object->value = 500;
+				object->manaValue = 250;
+				object->value = 1250;
 			}
 
 			break;
@@ -122,10 +125,11 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 				object->addObject ( "NewbieLeatherCowl", 1 );
 				object->addObject ( "NewbieThrower", 1 );
 				object->addObject ( "NewbieSmallShield", 1 );
+				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );
-				object->manaValue = 0;
-				object->value = 1000;
+				object->manaValue = 20;
+				object->value = 2400;
 			}
 
 			break;

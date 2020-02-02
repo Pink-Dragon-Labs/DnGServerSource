@@ -102,6 +102,7 @@ roommgr/CMakeFiles/roommgr.dir/actions.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -267,6 +268,7 @@ roommgr/CMakeFiles/roommgr.dir/ambushgroup.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -432,6 +434,7 @@ roommgr/CMakeFiles/roommgr.dir/audit.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -596,6 +599,7 @@ roommgr/CMakeFiles/roommgr.dir/bcarry.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -760,6 +764,7 @@ roommgr/CMakeFiles/roommgr.dir/bcharacter.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -924,6 +929,7 @@ roommgr/CMakeFiles/roommgr.dir/bconsume.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -1088,6 +1094,7 @@ roommgr/CMakeFiles/roommgr.dir/bcontain.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -1252,6 +1259,7 @@ roommgr/CMakeFiles/roommgr.dir/bcycle.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -1416,6 +1424,7 @@ roommgr/CMakeFiles/roommgr.dir/bdescribed.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -1580,6 +1589,7 @@ roommgr/CMakeFiles/roommgr.dir/bdye.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -1744,6 +1754,7 @@ roommgr/CMakeFiles/roommgr.dir/bentry.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -1908,6 +1919,7 @@ roommgr/CMakeFiles/roommgr.dir/bgate.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -2072,6 +2084,7 @@ roommgr/CMakeFiles/roommgr.dir/bhead.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -2236,6 +2249,7 @@ roommgr/CMakeFiles/roommgr.dir/bkey.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -2400,6 +2414,7 @@ roommgr/CMakeFiles/roommgr.dir/block.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -2564,6 +2579,7 @@ roommgr/CMakeFiles/roommgr.dir/bmix.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -2728,6 +2744,7 @@ roommgr/CMakeFiles/roommgr.dir/bnpc.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -2892,6 +2909,7 @@ roommgr/CMakeFiles/roommgr.dir/bopen.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -3056,6 +3074,7 @@ roommgr/CMakeFiles/roommgr.dir/bountylist.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -3220,6 +3239,7 @@ roommgr/CMakeFiles/roommgr.dir/bpassword.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -3384,6 +3404,7 @@ roommgr/CMakeFiles/roommgr.dir/bplayer.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -3548,6 +3569,7 @@ roommgr/CMakeFiles/roommgr.dir/bscroll.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -3712,6 +3734,7 @@ roommgr/CMakeFiles/roommgr.dir/bshop.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -3970,6 +3993,7 @@ roommgr/CMakeFiles/roommgr.dir/bspellbag.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -4134,6 +4158,7 @@ roommgr/CMakeFiles/roommgr.dir/bswitch.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -4298,6 +4323,7 @@ roommgr/CMakeFiles/roommgr.dir/btalk.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -4462,6 +4488,7 @@ roommgr/CMakeFiles/roommgr.dir/btreasure.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -4626,6 +4653,7 @@ roommgr/CMakeFiles/roommgr.dir/buse.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -4790,6 +4818,7 @@ roommgr/CMakeFiles/roommgr.dir/bweapon.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -4954,6 +4983,7 @@ roommgr/CMakeFiles/roommgr.dir/bwear.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -5120,6 +5150,7 @@ roommgr/CMakeFiles/roommgr.dir/callbacks.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -5284,6 +5315,7 @@ roommgr/CMakeFiles/roommgr.dir/channel.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -5448,6 +5480,7 @@ roommgr/CMakeFiles/roommgr.dir/characters.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -5612,6 +5645,7 @@ roommgr/CMakeFiles/roommgr.dir/combat.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -5679,7 +5713,6 @@ roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o
  /home/realm/cmake/source/global/array.hpp
  /home/realm/cmake/source/global/configmgr.hpp
  /home/realm/cmake/source/global/counter.hpp
- /home/realm/cmake/source/global/datamgrdefs.hpp
  /home/realm/cmake/source/global/debug.hpp
  /home/realm/cmake/source/global/fatal.hpp
  /home/realm/cmake/source/global/file.hpp
@@ -5778,6 +5811,7 @@ roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -5841,6 +5875,7 @@ roommgr/CMakeFiles/roommgr.dir/datamgrclient.cpp.o
  /usr/include/mysql/mysql_time.h
  /usr/include/mysql/mysql_version.h
  /usr/include/mysql/typelib.h
+ global/datamgrdefs.hpp
 roommgr/CMakeFiles/roommgr.dir/dice.cpp.o
  /home/realm/cmake/source/global/array.hpp
  /home/realm/cmake/source/global/configmgr.hpp
@@ -5993,6 +6028,7 @@ roommgr/CMakeFiles/roommgr.dir/friendmgr.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -6212,6 +6248,7 @@ roommgr/CMakeFiles/roommgr.dir/house.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -6377,6 +6414,7 @@ roommgr/CMakeFiles/roommgr.dir/login.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -6542,6 +6580,7 @@ roommgr/CMakeFiles/roommgr.dir/magic.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -6709,6 +6748,7 @@ roommgr/CMakeFiles/roommgr.dir/main.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -6873,6 +6913,7 @@ roommgr/CMakeFiles/roommgr.dir/misc.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -7037,6 +7078,7 @@ roommgr/CMakeFiles/roommgr.dir/mlaction.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -7201,6 +7243,7 @@ roommgr/CMakeFiles/roommgr.dir/mlaelem.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -7365,6 +7408,7 @@ roommgr/CMakeFiles/roommgr.dir/mlbandit.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -7529,6 +7573,7 @@ roommgr/CMakeFiles/roommgr.dir/mlberserk.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -7693,6 +7738,7 @@ roommgr/CMakeFiles/roommgr.dir/mlbmystic.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -7857,6 +7903,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcastleboss.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -8021,6 +8068,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcguard.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -8185,6 +8233,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcleric.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -8349,6 +8398,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcthief.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -8513,6 +8563,7 @@ roommgr/CMakeFiles/roommgr.dir/mlcwiz.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -8677,6 +8728,7 @@ roommgr/CMakeFiles/roommgr.dir/mldemon.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -8841,6 +8893,7 @@ roommgr/CMakeFiles/roommgr.dir/mldragon.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9005,6 +9058,7 @@ roommgr/CMakeFiles/roommgr.dir/mleelem.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9169,6 +9223,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfaery.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9333,6 +9388,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfelem.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9497,6 +9553,7 @@ roommgr/CMakeFiles/roommgr.dir/mlfury.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9661,6 +9718,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgodprot.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9825,6 +9883,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgodsewer.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -9989,6 +10048,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgonan.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -10153,6 +10213,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgonanpet.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -10317,6 +10378,7 @@ roommgr/CMakeFiles/roommgr.dir/mlgood.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -10481,6 +10543,7 @@ roommgr/CMakeFiles/roommgr.dir/mlguardian.cpp.o
  /home/realm/cmake/source/roommgr/mlguardian.cpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -10645,6 +10708,172 @@ roommgr/CMakeFiles/roommgr.dir/mlhellsoul.cpp.o
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.cpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
+ /home/realm/cmake/source/roommgr/mlhunter.hpp
+ /home/realm/cmake/source/roommgr/mlimp.hpp
+ /home/realm/cmake/source/roommgr/mllich.hpp
+ /home/realm/cmake/source/roommgr/mllwiz.hpp
+ /home/realm/cmake/source/roommgr/mlmagis.hpp
+ /home/realm/cmake/source/roommgr/mlmarvin.hpp
+ /home/realm/cmake/source/roommgr/mlminotaur.hpp
+ /home/realm/cmake/source/roommgr/mlminotaurguard.hpp
+ /home/realm/cmake/source/roommgr/mlmistwiz.hpp
+ /home/realm/cmake/source/roommgr/mlmonstr.hpp
+ /home/realm/cmake/source/roommgr/mlmouse.hpp
+ /home/realm/cmake/source/roommgr/mlnecro.hpp
+ /home/realm/cmake/source/roommgr/mlogrema.hpp
+ /home/realm/cmake/source/roommgr/mlpaladi.hpp
+ /home/realm/cmake/source/roommgr/mlpumpkindropper.hpp
+ /home/realm/cmake/source/roommgr/mlpwiz.hpp
+ /home/realm/cmake/source/roommgr/mlseraph.hpp
+ /home/realm/cmake/source/roommgr/mlsmarty.hpp
+ /home/realm/cmake/source/roommgr/mlstorm.hpp
+ /home/realm/cmake/source/roommgr/mlswashbuckler.hpp
+ /home/realm/cmake/source/roommgr/mlthief.hpp
+ /home/realm/cmake/source/roommgr/mltraveller.hpp
+ /home/realm/cmake/source/roommgr/mltroll.hpp
+ /home/realm/cmake/source/roommgr/mltulor.hpp
+ /home/realm/cmake/source/roommgr/mlwatcher.hpp
+ /home/realm/cmake/source/roommgr/mlxerxes.hpp
+ /home/realm/cmake/source/roommgr/npc.hpp
+ /home/realm/cmake/source/roommgr/npcs.hpp
+ /home/realm/cmake/source/roommgr/playerstate.hpp
+ /home/realm/cmake/source/roommgr/properties.hpp
+ /home/realm/cmake/source/roommgr/quest.hpp
+ /home/realm/cmake/source/roommgr/recipe.hpp
+ /home/realm/cmake/source/roommgr/rmparser.hpp
+ /home/realm/cmake/source/roommgr/rmplayer.hpp
+ /home/realm/cmake/source/roommgr/rmroom.hpp
+ /home/realm/cmake/source/roommgr/rmtools.hpp
+ /home/realm/cmake/source/roommgr/roommgr.hpp
+ /home/realm/cmake/source/roommgr/scriptmgr.hpp
+ /home/realm/cmake/source/roommgr/skills.hpp
+ /home/realm/cmake/source/roommgr/special.hpp
+ /home/realm/cmake/source/roommgr/squirmy.hpp
+ /home/realm/cmake/source/roommgr/tables.hpp
+ /home/realm/cmake/source/roommgr/talktree.hpp
+ /home/realm/cmake/source/roommgr/timesys.hpp
+ /home/realm/cmake/source/roommgr/tracking.hpp
+ /home/realm/cmake/source/roommgr/verbs.hpp
+ /home/realm/cmake/source/roommgr/wobject.hpp
+ /home/realm/cmake/source/roommgr/wobjectbase.hpp
+ /home/realm/cmake/source/roommgr/worldlib.hpp
+ /home/realm/cmake/source/roommgr/zone.hpp
+ /usr/include/mysql/binary_log_types.h
+ /usr/include/mysql/my_alloc.h
+ /usr/include/mysql/my_command.h
+ /usr/include/mysql/my_list.h
+ /usr/include/mysql/mysql.h
+ /usr/include/mysql/mysql/client_plugin.h
+ /usr/include/mysql/mysql/plugin_auth_common.h
+ /usr/include/mysql/mysql/psi/psi_base.h
+ /usr/include/mysql/mysql/psi/psi_memory.h
+ /usr/include/mysql/mysql_com.h
+ /usr/include/mysql/mysql_time.h
+ /usr/include/mysql/mysql_version.h
+ /usr/include/mysql/typelib.h
+roommgr/CMakeFiles/roommgr.dir/mlhousepet.cpp.o
+ /home/realm/cmake/source/global/array.hpp
+ /home/realm/cmake/source/global/configmgr.hpp
+ /home/realm/cmake/source/global/counter.hpp
+ /home/realm/cmake/source/global/debug.hpp
+ /home/realm/cmake/source/global/fatal.hpp
+ /home/realm/cmake/source/global/file.hpp
+ /home/realm/cmake/source/global/filemgrdefs.hpp
+ /home/realm/cmake/source/global/generator.hpp
+ /home/realm/cmake/source/global/hash.hpp
+ /home/realm/cmake/source/global/ipc.hpp
+ /home/realm/cmake/source/global/ipcclient.hpp
+ /home/realm/cmake/source/global/ipcencryption.hpp
+ /home/realm/cmake/source/global/ipcmsg.hpp
+ /home/realm/cmake/source/global/ipcmsghandler.hpp
+ /home/realm/cmake/source/global/ipcpollmgr.hpp
+ /home/realm/cmake/source/global/ipcserver.hpp
+ /home/realm/cmake/source/global/list.hpp
+ /home/realm/cmake/source/global/listobj.hpp
+ /home/realm/cmake/source/global/logmgr.hpp
+ /home/realm/cmake/source/global/malloc.hpp
+ /home/realm/cmake/source/global/memorypool.hpp
+ /home/realm/cmake/source/global/msgs.hpp
+ /home/realm/cmake/source/global/new.hpp
+ /home/realm/cmake/source/global/packdata.hpp
+ /home/realm/cmake/source/global/packmsg.hpp
+ /home/realm/cmake/source/global/player.hpp
+ /home/realm/cmake/source/global/script.hpp
+ /home/realm/cmake/source/global/sparse.hpp
+ /home/realm/cmake/source/global/sql.hpp
+ /home/realm/cmake/source/global/string.hpp
+ /home/realm/cmake/source/global/stringcache.hpp
+ /home/realm/cmake/source/global/system.hpp
+ /home/realm/cmake/source/global/tools.hpp
+ /home/realm/cmake/source/global/tree.hpp
+ /home/realm/cmake/source/global/types.hpp
+ /home/realm/cmake/source/global/validate.hpp
+ /home/realm/cmake/source/global/window.hpp
+ /home/realm/cmake/source/roommgr/actions.hpp
+ /home/realm/cmake/source/roommgr/bases.hpp
+ /home/realm/cmake/source/roommgr/bcarry.hpp
+ /home/realm/cmake/source/roommgr/bcharacter.hpp
+ /home/realm/cmake/source/roommgr/bconsume.hpp
+ /home/realm/cmake/source/roommgr/bcontain.hpp
+ /home/realm/cmake/source/roommgr/bcycle.hpp
+ /home/realm/cmake/source/roommgr/bdescribed.hpp
+ /home/realm/cmake/source/roommgr/bdye.hpp
+ /home/realm/cmake/source/roommgr/bentry.hpp
+ /home/realm/cmake/source/roommgr/bgate.hpp
+ /home/realm/cmake/source/roommgr/bhead.hpp
+ /home/realm/cmake/source/roommgr/bkey.hpp
+ /home/realm/cmake/source/roommgr/block.hpp
+ /home/realm/cmake/source/roommgr/bmix.hpp
+ /home/realm/cmake/source/roommgr/bnpc.hpp
+ /home/realm/cmake/source/roommgr/bopen.hpp
+ /home/realm/cmake/source/roommgr/bountylist.hpp
+ /home/realm/cmake/source/roommgr/bpassword.hpp
+ /home/realm/cmake/source/roommgr/bplayer.hpp
+ /home/realm/cmake/source/roommgr/bscroll.hpp
+ /home/realm/cmake/source/roommgr/bshop.hpp
+ /home/realm/cmake/source/roommgr/bsit.hpp
+ /home/realm/cmake/source/roommgr/bspellbag.hpp
+ /home/realm/cmake/source/roommgr/bswitch.hpp
+ /home/realm/cmake/source/roommgr/btalk.hpp
+ /home/realm/cmake/source/roommgr/btreasure.hpp
+ /home/realm/cmake/source/roommgr/buse.hpp
+ /home/realm/cmake/source/roommgr/bweapon.hpp
+ /home/realm/cmake/source/roommgr/bwear.hpp
+ /home/realm/cmake/source/roommgr/channel.hpp
+ /home/realm/cmake/source/roommgr/characters.hpp
+ /home/realm/cmake/source/roommgr/combat.hpp
+ /home/realm/cmake/source/roommgr/datamgrclient.hpp
+ /home/realm/cmake/source/roommgr/dice.hpp
+ /home/realm/cmake/source/roommgr/filemgr.hpp
+ /home/realm/cmake/source/roommgr/globals.hpp
+ /home/realm/cmake/source/roommgr/house.hpp
+ /home/realm/cmake/source/roommgr/login.hpp
+ /home/realm/cmake/source/roommgr/magic.hpp
+ /home/realm/cmake/source/roommgr/misc.hpp
+ /home/realm/cmake/source/roommgr/mlaction.hpp
+ /home/realm/cmake/source/roommgr/mlbandit.hpp
+ /home/realm/cmake/source/roommgr/mlberserk.hpp
+ /home/realm/cmake/source/roommgr/mlbmystic.hpp
+ /home/realm/cmake/source/roommgr/mlcastleboss.hpp
+ /home/realm/cmake/source/roommgr/mlcguard.hpp
+ /home/realm/cmake/source/roommgr/mlcleric.hpp
+ /home/realm/cmake/source/roommgr/mlcthief.hpp
+ /home/realm/cmake/source/roommgr/mlcwiz.hpp
+ /home/realm/cmake/source/roommgr/mldemon.hpp
+ /home/realm/cmake/source/roommgr/mldragon.hpp
+ /home/realm/cmake/source/roommgr/mlelem.hpp
+ /home/realm/cmake/source/roommgr/mlfaery.hpp
+ /home/realm/cmake/source/roommgr/mlfury.hpp
+ /home/realm/cmake/source/roommgr/mlgodprot.hpp
+ /home/realm/cmake/source/roommgr/mlgodsewer.hpp
+ /home/realm/cmake/source/roommgr/mlgonan.hpp
+ /home/realm/cmake/source/roommgr/mlgonanpet.hpp
+ /home/realm/cmake/source/roommgr/mlgood.hpp
+ /home/realm/cmake/source/roommgr/mlguardian.hpp
+ /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.cpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -10808,6 +11037,7 @@ roommgr/CMakeFiles/roommgr.dir/mlhunter.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.cpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
@@ -10972,6 +11202,7 @@ roommgr/CMakeFiles/roommgr.dir/mlimp.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.cpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
@@ -11136,6 +11367,7 @@ roommgr/CMakeFiles/roommgr.dir/mllich.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.cpp
@@ -11300,6 +11532,7 @@ roommgr/CMakeFiles/roommgr.dir/mllwiz.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -11464,6 +11697,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmagis.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -11628,6 +11862,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmarvin.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -11792,6 +12027,7 @@ roommgr/CMakeFiles/roommgr.dir/mlminotaur.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -11956,6 +12192,7 @@ roommgr/CMakeFiles/roommgr.dir/mlminotaurguard.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -12120,6 +12357,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmistwiz.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -12284,6 +12522,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmonstr.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -12448,6 +12687,7 @@ roommgr/CMakeFiles/roommgr.dir/mlmouse.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -12612,6 +12852,7 @@ roommgr/CMakeFiles/roommgr.dir/mlnecro.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -12776,6 +13017,7 @@ roommgr/CMakeFiles/roommgr.dir/mlogrema.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -12940,6 +13182,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpaladi.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -13104,6 +13347,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpumpkindropper.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -13268,6 +13512,7 @@ roommgr/CMakeFiles/roommgr.dir/mlpwiz.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -13432,6 +13677,7 @@ roommgr/CMakeFiles/roommgr.dir/mlseraph.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -13596,6 +13842,7 @@ roommgr/CMakeFiles/roommgr.dir/mlsmarty.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -13760,6 +14007,7 @@ roommgr/CMakeFiles/roommgr.dir/mlstorm.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -13924,6 +14172,7 @@ roommgr/CMakeFiles/roommgr.dir/mlswashbuckler.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -14088,6 +14337,7 @@ roommgr/CMakeFiles/roommgr.dir/mlthief.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -14252,6 +14502,7 @@ roommgr/CMakeFiles/roommgr.dir/mltraveller.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -14416,6 +14667,7 @@ roommgr/CMakeFiles/roommgr.dir/mltroll.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -14580,6 +14832,7 @@ roommgr/CMakeFiles/roommgr.dir/mltulor.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -14744,6 +14997,7 @@ roommgr/CMakeFiles/roommgr.dir/mlwatcher.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -14908,6 +15162,7 @@ roommgr/CMakeFiles/roommgr.dir/mlwelem.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -15072,6 +15327,7 @@ roommgr/CMakeFiles/roommgr.dir/mlxerxes.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -15236,6 +15492,7 @@ roommgr/CMakeFiles/roommgr.dir/npc.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -15400,6 +15657,7 @@ roommgr/CMakeFiles/roommgr.dir/playerstate.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -15617,6 +15875,7 @@ roommgr/CMakeFiles/roommgr.dir/recipe.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -15782,6 +16041,7 @@ roommgr/CMakeFiles/roommgr.dir/rmparser.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -15949,6 +16209,7 @@ roommgr/CMakeFiles/roommgr.dir/rmplayer.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -16113,6 +16374,7 @@ roommgr/CMakeFiles/roommgr.dir/rmroom.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -16277,6 +16539,7 @@ roommgr/CMakeFiles/roommgr.dir/rmtools.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -16478,6 +16741,7 @@ roommgr/CMakeFiles/roommgr.dir/squirmy.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -16642,6 +16906,7 @@ roommgr/CMakeFiles/roommgr.dir/tables.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -16806,6 +17071,7 @@ roommgr/CMakeFiles/roommgr.dir/talktree.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -16970,6 +17236,7 @@ roommgr/CMakeFiles/roommgr.dir/timesys.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -17134,6 +17401,7 @@ roommgr/CMakeFiles/roommgr.dir/tracking.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -17298,6 +17566,7 @@ roommgr/CMakeFiles/roommgr.dir/wobject.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -17462,6 +17731,7 @@ roommgr/CMakeFiles/roommgr.dir/wobjectbase.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -17627,6 +17897,7 @@ roommgr/CMakeFiles/roommgr.dir/worldlib.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -17792,6 +18063,7 @@ roommgr/CMakeFiles/roommgr.dir/zone.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp
@@ -17957,6 +18229,7 @@ roommgr/CMakeFiles/roommgr.dir/zonescripts.cpp.o
  /home/realm/cmake/source/roommgr/mlgood.hpp
  /home/realm/cmake/source/roommgr/mlguardian.hpp
  /home/realm/cmake/source/roommgr/mlhellsoul.hpp
+ /home/realm/cmake/source/roommgr/mlhousepet.hpp
  /home/realm/cmake/source/roommgr/mlhunter.hpp
  /home/realm/cmake/source/roommgr/mlimp.hpp
  /home/realm/cmake/source/roommgr/mllich.hpp

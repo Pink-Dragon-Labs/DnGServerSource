@@ -1,7 +1,8 @@
 #ifndef _RMPLAYER_HPP_
 #define _RMPLAYER_HPP_
 
-#define _MAX_GROUP_SIZE 10
+//#define _MAX_GROUP_SIZE 10
+#define _MAX_GROUP_SIZE 6
 #define _MAX_NPC_GROUP_SIZE 12
 #define _MAX_CHAR_NAME 17
 #define _SECURITY_BUF_SIZE 32

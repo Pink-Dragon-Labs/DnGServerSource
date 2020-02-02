@@ -36,6 +36,7 @@
 #include "mlgodsewer.hpp"
 #include "mlgodprot.hpp"
 #include "mlxerxes.hpp"
+#include "mlhousepet.hpp"
 #include "mlcastleboss.hpp"
 #include "mlcthief.hpp"
 #include "mlcwiz.hpp"

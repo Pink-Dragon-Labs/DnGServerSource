@@ -135,6 +135,12 @@ NPC *makeNPC ( WorldObject *obj )
 				player = new Xerxes;
 
 //	---------------------------------------------------------------------
+//	House Pet Logic
+
+			else if ( !strcmp ( npcCode, "housepet" ) )
+				player = new HousePet;
+
+//	---------------------------------------------------------------------
 //	Dragon Logic
 
 			else if ( !strcmp ( npcCode, "Dragon" ) )

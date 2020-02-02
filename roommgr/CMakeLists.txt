@@ -18,6 +18,7 @@ set(SRC_ROOMMGR
     ${FILEPATH_ROOMMGR}/mlbandit.cpp
     ${FILEPATH_ROOMMGR}/mltraveller.cpp
     ${FILEPATH_ROOMMGR}/mlxerxes.cpp
+    ${FILEPATH_ROOMMGR}/mlhousepet.cpp
     ${FILEPATH_ROOMMGR}/mlcastleboss.cpp
     ${FILEPATH_ROOMMGR}/mlcthief.cpp
     ${FILEPATH_ROOMMGR}/mlcwiz.cpp

@@ -823,12 +823,14 @@ roommgr.hpp
 /home/realm/cmake/source/roommgr/roommgr.hpp
 datamgrclient.hpp
 /home/realm/cmake/source/roommgr/datamgrclient.hpp
-../global/datamgrdefs.hpp
-/home/realm/cmake/source/global/datamgrdefs.hpp
+datamgrdefs.hpp
+/home/realm/cmake/source/roommgr/datamgrdefs.hpp
 globals.hpp
 /home/realm/cmake/source/roommgr/globals.hpp
 callbacks.hpp
 /home/realm/cmake/source/roommgr/callbacks.hpp
+bcharacter.hpp
+/home/realm/cmake/source/roommgr/bcharacter.hpp
 
 /home/realm/cmake/source/roommgr/datamgrclient.hpp
 
@@ -1166,6 +1168,14 @@ roommgr.hpp
 npc.hpp
 /home/realm/cmake/source/roommgr/npc.hpp
 
+/home/realm/cmake/source/roommgr/mlhousepet.cpp
+roommgr.hpp
+/home/realm/cmake/source/roommgr/roommgr.hpp
+
+/home/realm/cmake/source/roommgr/mlhousepet.hpp
+mlsmarty.hpp
+/home/realm/cmake/source/roommgr/mlsmarty.hpp
+
 /home/realm/cmake/source/roommgr/mlhunter.cpp
 roommgr.hpp
 /home/realm/cmake/source/roommgr/roommgr.hpp
@@ -1495,6 +1505,8 @@ mlgodprot.hpp
 /home/realm/cmake/source/roommgr/mlgodprot.hpp
 mlxerxes.hpp
 /home/realm/cmake/source/roommgr/mlxerxes.hpp
+mlhousepet.hpp
+/home/realm/cmake/source/roommgr/mlhousepet.hpp
 mlcastleboss.hpp
 /home/realm/cmake/source/roommgr/mlcastleboss.hpp
 mlcthief.hpp
@@ -1887,4 +1899,6 @@ my_command.h
 /usr/include/mysql/typelib.h
 my_alloc.h
 /usr/include/mysql/my_alloc.h
+
+global/datamgrdefs.hpp
 
