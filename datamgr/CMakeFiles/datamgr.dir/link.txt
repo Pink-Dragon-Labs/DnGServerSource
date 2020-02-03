@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/datamgr.dir/datamgr.cpp.o CMakeFiles/datamgr.dir/main.cpp.o  -o ../bin/datamgr -rdynamic ../lib/libglobal.a -lmysqlclient 
+/usr/bin/c++    -rdynamic CMakeFiles/datamgr.dir/datamgr.cpp.o CMakeFiles/datamgr.dir/main.cpp.o  -o ../bin/datamgr ../lib/libglobal.a -lmysqlclient 
