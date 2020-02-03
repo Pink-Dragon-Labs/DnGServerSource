@@ -1,4 +1,4 @@
-FROM cmhulbert/dwarvesandgiants:1.1
+FROM cmhulbert/dwarvesandgiants:1.3
 
 RUN apt install -y gcc g++ make cmake libstdc++5:i386
 
