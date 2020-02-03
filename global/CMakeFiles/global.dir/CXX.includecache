@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/realm/cmake/source/global/array.cpp
+/home/realmserver/cmake/source/global/array.cpp
 stdlib.h
 -
 array.hpp
-/home/realm/cmake/source/global/array.hpp
+/home/realmserver/cmake/source/global/array.hpp
 fatal.hpp
-/home/realm/cmake/source/global/fatal.hpp
+/home/realmserver/cmake/source/global/fatal.hpp
 logmgr.hpp
-/home/realm/cmake/source/global/logmgr.hpp
+/home/realmserver/cmake/source/global/logmgr.hpp
 
-/home/realm/cmake/source/global/array.hpp
+/home/realmserver/cmake/source/global/array.hpp
 stdio.h
 -
 stdlib.h
@@ -24,13 +24,13 @@ stdlib.h
 string.h
 -
 debug.hpp
-/home/realm/cmake/source/global/debug.hpp
+/home/realmserver/cmake/source/global/debug.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/cencryptionstring.cpp
+/home/realmserver/cmake/source/global/cencryptionstring.cpp
 stdlib.h
 -
 stdio.h
@@ -42,13 +42,13 @@ crypt.h
 rpc/des_crypt.h
 -
 cencryptionstring.hpp
-/home/realm/cmake/source/global/cencryptionstring.hpp
+/home/realmserver/cmake/source/global/cencryptionstring.hpp
 
-/home/realm/cmake/source/global/cencryptionstring.hpp
+/home/realmserver/cmake/source/global/cencryptionstring.hpp
 sql.hpp
-/home/realm/cmake/source/global/sql.hpp
+/home/realmserver/cmake/source/global/sql.hpp
 
-/home/realm/cmake/source/global/cgi.cpp
+/home/realmserver/cmake/source/global/cgi.cpp
 stdio.h
 -
 stdlib.h
@@ -56,39 +56,39 @@ stdlib.h
 string.h
 -
 cgi.hpp
-/home/realm/cmake/source/global/cgi.hpp
+/home/realmserver/cmake/source/global/cgi.hpp
 
-/home/realm/cmake/source/global/cgi.hpp
+/home/realmserver/cmake/source/global/cgi.hpp
 
-/home/realm/cmake/source/global/configmgr.cpp
+/home/realmserver/cmake/source/global/configmgr.cpp
 ctype.h
 -
 logmgr.hpp
-/home/realm/cmake/source/global/logmgr.hpp
+/home/realmserver/cmake/source/global/logmgr.hpp
 configmgr.hpp
-/home/realm/cmake/source/global/configmgr.hpp
+/home/realmserver/cmake/source/global/configmgr.hpp
 tools.hpp
-/home/realm/cmake/source/global/tools.hpp
+/home/realmserver/cmake/source/global/tools.hpp
 fatal.hpp
-/home/realm/cmake/source/global/fatal.hpp
+/home/realmserver/cmake/source/global/fatal.hpp
 file.hpp
-/home/realm/cmake/source/global/file.hpp
+/home/realmserver/cmake/source/global/file.hpp
 
-/home/realm/cmake/source/global/configmgr.hpp
+/home/realmserver/cmake/source/global/configmgr.hpp
 
-/home/realm/cmake/source/global/counter.cpp
+/home/realmserver/cmake/source/global/counter.cpp
 counter.hpp
-/home/realm/cmake/source/global/counter.hpp
+/home/realmserver/cmake/source/global/counter.hpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/counter.hpp
+/home/realmserver/cmake/source/global/counter.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/crash.cpp
+/home/realmserver/cmake/source/global/crash.cpp
 signal.h
 -
 stdlib.h
@@ -96,13 +96,13 @@ stdlib.h
 stdio.h
 -
 crash.hpp
-/home/realm/cmake/source/global/crash.hpp
+/home/realmserver/cmake/source/global/crash.hpp
 
-/home/realm/cmake/source/global/crash.hpp
+/home/realmserver/cmake/source/global/crash.hpp
 
-/home/realm/cmake/source/global/debug.hpp
+/home/realmserver/cmake/source/global/debug.hpp
 
-/home/realm/cmake/source/global/fatal.cpp
+/home/realmserver/cmake/source/global/fatal.cpp
 stdio.h
 -
 stdlib.h
@@ -112,15 +112,15 @@ stdarg.h
 unistd.h
 -
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/fatal.hpp
+/home/realmserver/cmake/source/global/fatal.hpp
 
-/home/realm/cmake/source/global/file.cpp
+/home/realmserver/cmake/source/global/file.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/file.hpp
+/home/realmserver/cmake/source/global/file.hpp
 stdlib.h
 -
 stdio.h
@@ -136,47 +136,47 @@ sys/stat.h
 sys/mman.h
 -
 types.hpp
-/home/realm/cmake/source/global/types.hpp
+/home/realmserver/cmake/source/global/types.hpp
 counter.hpp
-/home/realm/cmake/source/global/counter.hpp
+/home/realmserver/cmake/source/global/counter.hpp
 debug.hpp
-/home/realm/cmake/source/global/debug.hpp
+/home/realmserver/cmake/source/global/debug.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/generator.cpp
+/home/realmserver/cmake/source/global/generator.cpp
 generator.hpp
-/home/realm/cmake/source/global/generator.hpp
+/home/realmserver/cmake/source/global/generator.hpp
 
-/home/realm/cmake/source/global/generator.hpp
+/home/realmserver/cmake/source/global/generator.hpp
 sql.hpp
-/home/realm/cmake/source/global/sql.hpp
+/home/realmserver/cmake/source/global/sql.hpp
 tools.hpp
-/home/realm/cmake/source/global/tools.hpp
+/home/realmserver/cmake/source/global/tools.hpp
 string.h
 -
 stdio.h
 -
 
-/home/realm/cmake/source/global/hash.cpp
+/home/realmserver/cmake/source/global/hash.cpp
 hash.hpp
-/home/realm/cmake/source/global/hash.hpp
+/home/realmserver/cmake/source/global/hash.hpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/hash.hpp
+/home/realmserver/cmake/source/global/hash.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 debug.hpp
-/home/realm/cmake/source/global/debug.hpp
+/home/realmserver/cmake/source/global/debug.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/html.cpp
+/home/realmserver/cmake/source/global/html.cpp
 stdio.h
 -
 stdlib.h
@@ -188,13 +188,13 @@ ctype.h
 time.h
 -
 html.hpp
-/home/realm/cmake/source/global/html.hpp
+/home/realmserver/cmake/source/global/html.hpp
 
-/home/realm/cmake/source/global/html.hpp
+/home/realmserver/cmake/source/global/html.hpp
 stdarg.h
 -
 
-/home/realm/cmake/source/global/ipc.cpp
+/home/realmserver/cmake/source/global/ipc.cpp
 stdio.h
 -
 stdlib.h
@@ -208,9 +208,9 @@ limits.h
 sys/time.h
 -
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/ipc.hpp
+/home/realmserver/cmake/source/global/ipc.hpp
 sys/types.h
 -
 sys/stat.h
@@ -230,167 +230,167 @@ stropts.h
 poll.h
 -
 tools.hpp
-/home/realm/cmake/source/global/tools.hpp
+/home/realmserver/cmake/source/global/tools.hpp
 window.hpp
-/home/realm/cmake/source/global/window.hpp
+/home/realmserver/cmake/source/global/window.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 msgs.hpp
-/home/realm/cmake/source/global/msgs.hpp
+/home/realmserver/cmake/source/global/msgs.hpp
 counter.hpp
-/home/realm/cmake/source/global/counter.hpp
+/home/realmserver/cmake/source/global/counter.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 memorypool.hpp
-/home/realm/cmake/source/global/memorypool.hpp
+/home/realmserver/cmake/source/global/memorypool.hpp
 ipcmsg.hpp
-/home/realm/cmake/source/global/ipcmsg.hpp
+/home/realmserver/cmake/source/global/ipcmsg.hpp
 ipcmsghandler.hpp
-/home/realm/cmake/source/global/ipcmsghandler.hpp
+/home/realmserver/cmake/source/global/ipcmsghandler.hpp
 ipcclient.hpp
-/home/realm/cmake/source/global/ipcclient.hpp
+/home/realmserver/cmake/source/global/ipcclient.hpp
 ipcencryption.hpp
-/home/realm/cmake/source/global/ipcencryption.hpp
+/home/realmserver/cmake/source/global/ipcencryption.hpp
 ipcserver.hpp
-/home/realm/cmake/source/global/ipcserver.hpp
+/home/realmserver/cmake/source/global/ipcserver.hpp
 ipcpollmgr.hpp
-/home/realm/cmake/source/global/ipcpollmgr.hpp
+/home/realmserver/cmake/source/global/ipcpollmgr.hpp
 
-/home/realm/cmake/source/global/ipcclient.cpp
+/home/realmserver/cmake/source/global/ipcclient.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/ipcclient.hpp
+/home/realmserver/cmake/source/global/ipcclient.hpp
 ipcmsghandler.hpp
-/home/realm/cmake/source/global/ipcmsghandler.hpp
+/home/realmserver/cmake/source/global/ipcmsghandler.hpp
 
-/home/realm/cmake/source/global/ipcencryption.cpp
+/home/realmserver/cmake/source/global/ipcencryption.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/ipcencryption.hpp
+/home/realmserver/cmake/source/global/ipcencryption.hpp
 
-/home/realm/cmake/source/global/ipcmsg.cpp
+/home/realmserver/cmake/source/global/ipcmsg.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/ipcmsg.hpp
+/home/realmserver/cmake/source/global/ipcmsg.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 memorypool.hpp
-/home/realm/cmake/source/global/memorypool.hpp
+/home/realmserver/cmake/source/global/memorypool.hpp
 
-/home/realm/cmake/source/global/ipcmsghandler.hpp
+/home/realmserver/cmake/source/global/ipcmsghandler.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 
-/home/realm/cmake/source/global/ipcpollmgr.cpp
+/home/realmserver/cmake/source/global/ipcpollmgr.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/ipcpollmgr.hpp
+/home/realmserver/cmake/source/global/ipcpollmgr.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 
-/home/realm/cmake/source/global/ipcserver.cpp
+/home/realmserver/cmake/source/global/ipcserver.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/ipcserver.hpp
+/home/realmserver/cmake/source/global/ipcserver.hpp
 counter.hpp
-/home/realm/cmake/source/global/counter.hpp
+/home/realmserver/cmake/source/global/counter.hpp
 
-/home/realm/cmake/source/global/list.cpp
+/home/realmserver/cmake/source/global/list.cpp
 stdlib.h
 -
 stdio.h
 -
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 types.hpp
-/home/realm/cmake/source/global/types.hpp
+/home/realmserver/cmake/source/global/types.hpp
 
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 listobj.hpp
-/home/realm/cmake/source/global/listobj.hpp
+/home/realmserver/cmake/source/global/listobj.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 memorypool.hpp
-/home/realm/cmake/source/global/memorypool.hpp
+/home/realmserver/cmake/source/global/memorypool.hpp
 
-/home/realm/cmake/source/global/listobj.hpp
+/home/realmserver/cmake/source/global/listobj.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 
-/home/realm/cmake/source/global/logmgr.cpp
+/home/realmserver/cmake/source/global/logmgr.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 stdarg.h
 -
 
-/home/realm/cmake/source/global/logmgr.hpp
+/home/realmserver/cmake/source/global/logmgr.hpp
 ipc.hpp
-/home/realm/cmake/source/global/ipc.hpp
+/home/realmserver/cmake/source/global/ipc.hpp
 window.hpp
-/home/realm/cmake/source/global/window.hpp
+/home/realmserver/cmake/source/global/window.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 msgs.hpp
-/home/realm/cmake/source/global/msgs.hpp
+/home/realmserver/cmake/source/global/msgs.hpp
 hash.hpp
-/home/realm/cmake/source/global/hash.hpp
+/home/realmserver/cmake/source/global/hash.hpp
 debug.hpp
-/home/realm/cmake/source/global/debug.hpp
+/home/realmserver/cmake/source/global/debug.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/malloc.cpp
+/home/realmserver/cmake/source/global/malloc.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/memorypool.cpp
+/home/realmserver/cmake/source/global/memorypool.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/memorypool.hpp
+/home/realmserver/cmake/source/global/memorypool.hpp
 stdio.h
 -
 stdlib.h
 -
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/msgs.cpp
+/home/realmserver/cmake/source/global/msgs.cpp
 msgs.hpp
-/home/realm/cmake/source/global/msgs.hpp
+/home/realmserver/cmake/source/global/msgs.hpp
 
-/home/realm/cmake/source/global/msgs.hpp
+/home/realmserver/cmake/source/global/msgs.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 ipcclient.hpp
-/home/realm/cmake/source/global/ipcclient.hpp
+/home/realmserver/cmake/source/global/ipcclient.hpp
 ipcmsg.hpp
-/home/realm/cmake/source/global/ipcmsg.hpp
+/home/realmserver/cmake/source/global/ipcmsg.hpp
 time.h
 -
 
-/home/realm/cmake/source/global/new.cpp
+/home/realmserver/cmake/source/global/new.cpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 stdio.h
 -
 stdlib.h
@@ -398,95 +398,95 @@ stdlib.h
 string.h
 -
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/packdata.cpp
+/home/realmserver/cmake/source/global/packdata.cpp
 packdata.hpp
-/home/realm/cmake/source/global/packdata.hpp
+/home/realmserver/cmake/source/global/packdata.hpp
 logmgr.hpp
-/home/realm/cmake/source/global/logmgr.hpp
+/home/realmserver/cmake/source/global/logmgr.hpp
 
-/home/realm/cmake/source/global/packdata.hpp
+/home/realmserver/cmake/source/global/packdata.hpp
 stdarg.h
 -
 array.hpp
-/home/realm/cmake/source/global/array.hpp
+/home/realmserver/cmake/source/global/array.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 
-/home/realm/cmake/source/global/packmsg.hpp
+/home/realmserver/cmake/source/global/packmsg.hpp
 packdata.hpp
-/home/realm/cmake/source/global/packdata.hpp
+/home/realmserver/cmake/source/global/packdata.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 
-/home/realm/cmake/source/global/player.cpp
+/home/realmserver/cmake/source/global/player.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/player.hpp
+/home/realmserver/cmake/source/global/player.hpp
 ipc.hpp
-/home/realm/cmake/source/global/ipc.hpp
+/home/realmserver/cmake/source/global/ipc.hpp
 hash.hpp
-/home/realm/cmake/source/global/hash.hpp
+/home/realmserver/cmake/source/global/hash.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 
-/home/realm/cmake/source/global/script.cpp
+/home/realmserver/cmake/source/global/script.cpp
 script.hpp
-/home/realm/cmake/source/global/script.hpp
+/home/realmserver/cmake/source/global/script.hpp
 tools.hpp
-/home/realm/cmake/source/global/tools.hpp
+/home/realmserver/cmake/source/global/tools.hpp
 
-/home/realm/cmake/source/global/script.hpp
+/home/realmserver/cmake/source/global/script.hpp
 listobj.hpp
-/home/realm/cmake/source/global/listobj.hpp
+/home/realmserver/cmake/source/global/listobj.hpp
 
-/home/realm/cmake/source/global/sparse.cpp
+/home/realmserver/cmake/source/global/sparse.cpp
 sparse.hpp
-/home/realm/cmake/source/global/sparse.hpp
+/home/realmserver/cmake/source/global/sparse.hpp
 
-/home/realm/cmake/source/global/sparse.hpp
+/home/realmserver/cmake/source/global/sparse.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 
-/home/realm/cmake/source/global/sql.cpp
+/home/realmserver/cmake/source/global/sql.cpp
 errmsg.h
 -
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 sql.hpp
-/home/realm/cmake/source/global/sql.hpp
+/home/realmserver/cmake/source/global/sql.hpp
 
-/home/realm/cmake/source/global/sql.hpp
+/home/realmserver/cmake/source/global/sql.hpp
 mysql.h
 -
 
-/home/realm/cmake/source/global/string.cpp
+/home/realmserver/cmake/source/global/string.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 stdio.h
 -
 stdlib.h
 -
 
-/home/realm/cmake/source/global/string.hpp
+/home/realmserver/cmake/source/global/string.hpp
 stdarg.h
 -
 
-/home/realm/cmake/source/global/stringcache.cpp
+/home/realmserver/cmake/source/global/stringcache.cpp
 stringcache.hpp
-/home/realm/cmake/source/global/stringcache.hpp
+/home/realmserver/cmake/source/global/stringcache.hpp
 logmgr.hpp
-/home/realm/cmake/source/global/logmgr.hpp
+/home/realmserver/cmake/source/global/logmgr.hpp
 fatal.hpp
-/home/realm/cmake/source/global/fatal.hpp
+/home/realmserver/cmake/source/global/fatal.hpp
 
-/home/realm/cmake/source/global/stringcache.hpp
+/home/realmserver/cmake/source/global/stringcache.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 stdarg.h
 -
 stdio.h
@@ -508,57 +508,57 @@ string.h
 errno.h
 -
 array.hpp
-/home/realm/cmake/source/global/array.hpp
+/home/realmserver/cmake/source/global/array.hpp
 configmgr.hpp
-/home/realm/cmake/source/global/configmgr.hpp
+/home/realmserver/cmake/source/global/configmgr.hpp
 counter.hpp
-/home/realm/cmake/source/global/counter.hpp
+/home/realmserver/cmake/source/global/counter.hpp
 fatal.hpp
-/home/realm/cmake/source/global/fatal.hpp
+/home/realmserver/cmake/source/global/fatal.hpp
 file.hpp
-/home/realm/cmake/source/global/file.hpp
+/home/realmserver/cmake/source/global/file.hpp
 hash.hpp
-/home/realm/cmake/source/global/hash.hpp
+/home/realmserver/cmake/source/global/hash.hpp
 ipc.hpp
-/home/realm/cmake/source/global/ipc.hpp
+/home/realmserver/cmake/source/global/ipc.hpp
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 logmgr.hpp
-/home/realm/cmake/source/global/logmgr.hpp
+/home/realmserver/cmake/source/global/logmgr.hpp
 msgs.hpp
-/home/realm/cmake/source/global/msgs.hpp
+/home/realmserver/cmake/source/global/msgs.hpp
 packdata.hpp
-/home/realm/cmake/source/global/packdata.hpp
+/home/realmserver/cmake/source/global/packdata.hpp
 packmsg.hpp
-/home/realm/cmake/source/global/packmsg.hpp
+/home/realmserver/cmake/source/global/packmsg.hpp
 player.hpp
-/home/realm/cmake/source/global/player.hpp
+/home/realmserver/cmake/source/global/player.hpp
 tools.hpp
-/home/realm/cmake/source/global/tools.hpp
+/home/realmserver/cmake/source/global/tools.hpp
 types.hpp
-/home/realm/cmake/source/global/types.hpp
+/home/realmserver/cmake/source/global/types.hpp
 window.hpp
-/home/realm/cmake/source/global/window.hpp
+/home/realmserver/cmake/source/global/window.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 sparse.hpp
-/home/realm/cmake/source/global/sparse.hpp
+/home/realmserver/cmake/source/global/sparse.hpp
 tree.hpp
-/home/realm/cmake/source/global/tree.hpp
+/home/realmserver/cmake/source/global/tree.hpp
 string.hpp
-/home/realm/cmake/source/global/string.hpp
+/home/realmserver/cmake/source/global/string.hpp
 generator.hpp
-/home/realm/cmake/source/global/generator.hpp
+/home/realmserver/cmake/source/global/generator.hpp
 validate.hpp
-/home/realm/cmake/source/global/validate.hpp
+/home/realmserver/cmake/source/global/validate.hpp
 
-/home/realm/cmake/source/global/tools.cpp
+/home/realmserver/cmake/source/global/tools.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/tools.hpp
+/home/realmserver/cmake/source/global/tools.hpp
 sys/sysinfo.h
 -
 sys/types.h
@@ -580,43 +580,43 @@ string.h
 poll.h
 -
 list.hpp
-/home/realm/cmake/source/global/list.hpp
+/home/realmserver/cmake/source/global/list.hpp
 debug.hpp
-/home/realm/cmake/source/global/debug.hpp
+/home/realmserver/cmake/source/global/debug.hpp
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 memorypool.hpp
-/home/realm/cmake/source/global/memorypool.hpp
+/home/realmserver/cmake/source/global/memorypool.hpp
 sql.hpp
-/home/realm/cmake/source/global/sql.hpp
+/home/realmserver/cmake/source/global/sql.hpp
 
-/home/realm/cmake/source/global/tree.cpp
+/home/realmserver/cmake/source/global/tree.cpp
 system.hpp
-/home/realm/cmake/source/global/system.hpp
+/home/realmserver/cmake/source/global/system.hpp
 
-/home/realm/cmake/source/global/tree.hpp
+/home/realmserver/cmake/source/global/tree.hpp
 
-/home/realm/cmake/source/global/types.hpp
+/home/realmserver/cmake/source/global/types.hpp
 
-/home/realm/cmake/source/global/validate.cpp
+/home/realmserver/cmake/source/global/validate.cpp
 validate.hpp
-/home/realm/cmake/source/global/validate.hpp
+/home/realmserver/cmake/source/global/validate.hpp
 
-/home/realm/cmake/source/global/validate.hpp
+/home/realmserver/cmake/source/global/validate.hpp
 ctype.h
-/home/realm/cmake/source/global/ctype.h
+/home/realmserver/cmake/source/global/ctype.h
 string.h
-/home/realm/cmake/source/global/string.h
+/home/realmserver/cmake/source/global/string.h
 malloc.hpp
-/home/realm/cmake/source/global/malloc.hpp
+/home/realmserver/cmake/source/global/malloc.hpp
 
-/home/realm/cmake/source/global/window.hpp
+/home/realmserver/cmake/source/global/window.hpp
 stdarg.h
 -
 new.hpp
-/home/realm/cmake/source/global/new.hpp
+/home/realmserver/cmake/source/global/new.hpp
 
 /usr/include/mysql/binary_log_types.h
 

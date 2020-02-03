@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/updatesrv.dir/main.cpp.o  -o ../bin/updatesrv -rdynamic ../lib/libglobal.a -lmysqlclient 
+/usr/bin/c++    -rdynamic CMakeFiles/updatesrv.dir/main.cpp.o  -o ../bin/updatesrv ../lib/libglobal.a -lmysqlclient 

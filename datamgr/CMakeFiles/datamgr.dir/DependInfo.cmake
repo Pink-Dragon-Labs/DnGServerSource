@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/realm/cmake/source/datamgr/datamgr.cpp" "/home/realm/cmake/source/datamgr/CMakeFiles/datamgr.dir/datamgr.cpp.o"
-  "/home/realm/cmake/source/datamgr/main.cpp" "/home/realm/cmake/source/datamgr/CMakeFiles/datamgr.dir/main.cpp.o"
+  "/home/realmserver/cmake/source/datamgr/datamgr.cpp" "/home/realmserver/cmake/source/datamgr/CMakeFiles/datamgr.dir/datamgr.cpp.o"
+  "/home/realmserver/cmake/source/datamgr/main.cpp" "/home/realmserver/cmake/source/datamgr/CMakeFiles/datamgr.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
