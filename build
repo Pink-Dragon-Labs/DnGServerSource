@@ -1,6 +1,6 @@
 ./clean
 rm ./bin/*
-cmake .
+cmake . -DCMAKE_CXX_FLAGS=-m32 -DCMAKE_C_FLAGS=-m32
 make
 
 cp ./router/router.conf ./bin

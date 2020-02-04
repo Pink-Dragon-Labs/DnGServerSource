@@ -1,6 +1,7 @@
-FROM cmhulbert/dwarvesandgiants:1.4
+FROM cmhulbert/dwarvesandgiants:1.5
 
-RUN apt install -y gcc g++ make cmake libstdc++5:i386
+RUN apt install -y gcc g++ gcc-multilib g++-multilib make cmake gdb valgrind git 
+#libstdc++5:i386
 
 ENV SERVER_SOURCE /root/serversource
 ENV SERVER_BUILD $SERVER_SOURCE/bin
