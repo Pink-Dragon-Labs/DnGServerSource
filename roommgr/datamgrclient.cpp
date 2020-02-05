@@ -173,14 +173,14 @@ void DataMgrClient::handleMessage ( IPCMessage *msg )
 							if ( charObj->character->profession == _PROF_WARRIOR && !charObj->hasAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT ) )
 							{
 								// add the effect
-								logDisplay ( "Warrior loaded, applied 'Empower' passive!" );
+								// logDisplay ( "Warrior loaded, applied 'Empower' passive!" ); // No longer needed. Tested and working.
 								charObj->addAffect ( _AFF_EMPOWER, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
 							}	
 
 							if ( charObj->character->profession == _PROF_ADVENTURER && !charObj->hasAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT ) )
 							{
 								// add the effect
-								logDisplay ( "Adventurer loaded, applied 'Extension' passive!" );
+								//logDisplay ( "Adventurer loaded, applied 'Extension' passive!" ); // No longer needed. Tested and working.
 								charObj->addAffect ( _AFF_EXTENSION, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
 							}
 

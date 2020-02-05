@@ -3598,10 +3598,12 @@ void RMPlayer::castSpell ( spell_info *spell, WorldObject *pCaster, long targetS
 
 			doSpell = 0;
 		}
+		// Added Heal, GHeal, Cure Poison, Empower and Nimbility to global 'ignore spell resistance' list
+		if ( (spell != &gSpellTable[_SPELL_HOME]) && (spell != &gSpellTable[_SPELL_TELEPORT]) && (spell != &gSpellTable[_SPELL_GATHER_THE_FELLOWSHIP]) && (spell != &gSpellTable[_SPELL_SHIFT]) && (spell != &gSpellTable[_SPELL_GREATER_HEAL]) && (spell != &gSpellTable[_SPELL_HEAL]) && (spell != &gSpellTable[_SPELL_EMPOWER]) && (spell != &gSpellTable[_SPELL_NIMBILITY]) && (spell != &gSpellTable[_SPELL_CURE_POISON]) ) {
+			// Removed Cast resistance - Zach
 
-		if ( (spell != &gSpellTable[_SPELL_HOME]) && (spell != &gSpellTable[_SPELL_TELEPORT]) && (spell != &gSpellTable[_SPELL_GATHER_THE_FELLOWSHIP]) && (spell != &gSpellTable[_SPELL_SHIFT]) ) {
 			// check for spell circle denial...
-			if ( doSpell && casterOwner->character && casterOwner->character->TestCastResistance ( spell->skillType - _SKILL_SORCERY ) ) {
+			/*if ( doSpell && casterOwner->character && casterOwner->character->TestCastResistance ( spell->skillType - _SKILL_SORCERY ) ) {
   				if ( pCaster && pCaster->player && !pCaster->player->isNPC )
   					pCaster->changeMana ( -manaCost, packet );
 
@@ -3614,22 +3616,33 @@ void RMPlayer::castSpell ( spell_info *spell, WorldObject *pCaster, long targetS
 				packet->putByte ( 0 );
 				packet->putByte ( 1 );
 				packet->putLong ( casterOwner->servID );
-			}
+			}*/
 
 			// check for spell resistance  on the target...
 			if ( doSpell && targetObj && targetObj->character && targetObj->character->TestSpellResistance ( spell->skillType - _SKILL_SORCERY ) ) {
-  				if ( pCaster && pCaster->player && !pCaster->player->isNPC )
+				
+				// if the caster is a player, and target is not an NPC, ignore magic resistances
+				if ( pCaster && pCaster->player && !pCaster->player->isNPC && !targetObj->player->isNPC ){
+					char buf[1024];
+					sprintf ( sizeof ( buf ), buf, "|c21|%s broke through %s magic resistance! ", pCaster->getName(), pCaster->getPronoun (_PRONOUN_HIS ) );
+					strcat ( output, buf );
+					pCaster->changeMana ( -manaCost, packet );
+					doSpell = 1;
+
+				// if the caster is player, and the target is an NPC, calculate magic resistances
+				} else if ( pCaster && pCaster->player && targetObj->player->isNPC ){
   					pCaster->changeMana ( -manaCost, packet );
 
-				strcat ( output,  "|c248|Target resists!" );
-				doSpell = 0;
+					strcat ( output,  "|c248|Target resists!" );
+					doSpell = 0;
 
-				packet->putByte ( _MOVIE_SPECIAL_EFFECT );
-				packet->putLong ( targetObj->servID );
-				packet->putByte ( _SE_SPELL_BLAST );
-				packet->putByte ( 0 );
-				packet->putByte ( 1 );
-				packet->putLong ( targetObj->servID );
+					packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+					packet->putLong ( targetObj->servID );
+					packet->putByte ( _SE_SPELL_BLAST );
+					packet->putByte ( 0 );
+					packet->putByte ( 1 );
+					packet->putLong ( targetObj->servID );
+				}
 			}
 		}
 
@@ -3831,7 +3844,7 @@ void RMPlayer::castProc ( spell_info *spell, WorldObject *pCaster, long targetSe
         if ( (spell != &gSpellTable[_SPELL_HOME]) && (spell != &gSpellTable[_SPELL_TELEPORT]) && (spell != &gSpellTable[_SPELL_GATHER_THE_FELLOWSHIP]) && (spell != &gSpellTable[_SPELL_SHIFT]) )
         {
             // check for spell circle denial...
-            if ( doSpell && casterOwner->character && casterOwner->character->TestCastResistance ( spell->skillType - _SKILL_SORCERY ) )
+            /*if ( doSpell && casterOwner->character && casterOwner->character->TestCastResistance ( spell->skillType - _SKILL_SORCERY ) )
             {
              //   if ( pCaster && pCaster->player && !pCaster->player->isNPC )
                //     pCaster->changeMana ( -manaCost, packet );
@@ -3845,7 +3858,7 @@ void RMPlayer::castProc ( spell_info *spell, WorldObject *pCaster, long targetSe
                 packet->putByte ( 0 );
                 packet->putByte ( 1 );
                 packet->putLong ( casterOwner->servID );
-            }
+            }*/
 
             // check for spell resistance  on the target...
             if ( doSpell && targetObj && targetObj->character && targetObj->character->TestSpellResistance ( spell->skillType - _SKILL_SORCERY ) )
@@ -10395,22 +10408,26 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 					switch ( armorType ) {
    					//the damgeMod numbers is the percent that they will take, so 90 means they take 90% of damage.
    						case 0: {
-   							damageMod = 90;
+							int roll = random ( 80, 90 );
+   							damageMod = roll;
    						}
    						break;
 
    						case 1: {
-   							damageMod = 75;
+							int roll = random ( 65, 75 );
+   							damageMod = roll;
    						}
    						break;
    					
    						case 2: {
-   							damageMod = 50;
+							int roll = random ( 40, 50 );
+   							damageMod = roll;
    						}
    						break;
    					
    						case 3: {
-   							damageMod = 25;
+							int roll = random ( 15, 25 );
+   							damageMod = roll;
    						}
    						break;
    					}
@@ -10495,22 +10512,26 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 					//armortype 0 = none, 1 = leather, 2 = chain, 3 = plate
 					switch ( armorType ) {
    						case 0: {
-   							damageMod = 90;
+							int roll = random ( 80, 90 );
+   							damageMod = roll;
    						}
    						break;
 
    						case 1: {
-   							damageMod = 75;
+							int roll = random ( 65, 75 );
+   							damageMod = roll;
    						}
    						break;
    					
    						case 2: {
-   							damageMod = 50;
+							int roll = random ( 40, 50 );
+   							damageMod = roll;
    						}
    						break;
    					
    						case 3: {
-   							damageMod = 25;
+							int roll = random ( 15, 25 );
+   							damageMod = roll;
    						}
    						break;
    					}
@@ -10536,6 +10557,7 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
    					movie->putByte ( _ATTACK_HIT_ARMOR );
    					obj->damageArmor ( _AFF_DAMAGE_NORMAL, character, theWeapon, NULL, output, movie );
    					hitArmor = 1;
+					//logDisplay ( "Struck armor! Reducing outgoing damage!" );
    				}
    			}
    		}
@@ -10548,12 +10570,51 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 			}
 
 			if ( criticalHit ) {
-				if ( !hitArmor ) {
-					damage *= 2;
-					sprintf ( sizeof ( output ), output, "|c8|%s lands a critical strike!|c43| ", getName() );
-				} else {
-					sprintf ( sizeof ( output ), output, "|c13|%s hits armor with their critical strike!|c43| ", getName() );
+					switch ( random ( 0, ( character->getSkill ( _SKILL_CRITICAL_STRIKING ) ) ) )
+				{
+					case 0:
+						// no skill = no crit bonus
+						damage = damage;
+						sprintf ( sizeof ( output ), output, "|c60|%s almost had a critical strike!|c43| ", getName() );
+						//logDisplay ( "Failed Crit - No bonus" );
+					break;
+					
+					case 1:
+						// level one = small bonus
+						damage *= 1.5;
+						sprintf ( sizeof ( output ), output, "|c8|%s lands a critical strike!|c43| ", getName() );
+						//logDisplay ( "Level One Crit - x1.5" );
+					break;
+
+					case 2:
+						// level 2 = small bonus
+						damage *= 1.5;
+						sprintf ( sizeof ( output ), output, "|c8|%s lands a critical strike!|c43| ", getName() );
+						//logDisplay ( "Level Two Crit - x1.5" );
+					break;
+
+					case 3:
+						// level 3 = increased damage
+						damage *= 2;
+						sprintf ( sizeof ( output ), output, "|c12|%s lands a moderate critical strike!|c43| ", getName() ); 
+						//logDisplay ( "Level Three Crit - x2" );
+					break;
+
+					case 4:
+						// level 4 = increased damage
+						damage *= 2;
+						sprintf ( sizeof ( output ), output, "|c12|%s lands a moderate critical strike!|c43| ", getName() ); 
+						//logDisplay ( "Level Four Crit - x2" );
+					break;
+
+					case 5:
+						// level 5 = maximum damage
+						damage *= 3;
+						sprintf ( sizeof ( output ), output, "|c14|%s lands a heavy critical strike!|c43| ", getName() ); 
+						//logDisplay ( "Level Five Crit - x3" );
+					break;
 				}
+				
 			}
 
    		// see if all the damage is passed through to a shield affect or not
