@@ -1,6 +1,6 @@
 # Dwarves and Giants (a Sacred Temple Fork) Server Source Code
 
-This contains the source code for the private server Sacred Temple, adapted to be used with Dwarves and Giants. This is currently a private project, and as such the code should not be distributed any way other than through this private GitHub repository. 
+This contains the source code for the private server Sacred Temple, adapted to be used with Dwarves and Giants. This is currently a private project, and as such the code should not be distributed any way other than through this private GitLab repository. 
 
 ### Directory Structure
 * data - Directory that contains separately generated data files for items, npcs, worlds, etc. Generally maintained in a separate repo with stock objects here.
