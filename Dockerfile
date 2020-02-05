@@ -1,4 +1,4 @@
-FROM cmhulbert/dwarvesandgiants:1.5
+FROM cmhulbert/dwarvesandgiants:latest
 
 RUN apt install -y gcc g++ gcc-multilib g++-multilib make cmake gdb valgrind git 
 #libstdc++5:i386
