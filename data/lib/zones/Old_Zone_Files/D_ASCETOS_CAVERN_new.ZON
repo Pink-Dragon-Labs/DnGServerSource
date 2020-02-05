@@ -1,9 +1,0 @@
-name "D_Ascetos_Cavern"
-title "Ascetos Caverns"
-worldFile "../data/lib/world/D_ASCETOS_CAVERN.WLD"
-allowCombat 0
-maximumObjectAge 0
-resetInterval 9000000
-midiFile 29
-isDungeon 2
-entrance movingRock22126-0

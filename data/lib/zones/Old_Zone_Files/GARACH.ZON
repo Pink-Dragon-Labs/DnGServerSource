@@ -1,8 +1,0 @@
-name "garach"
-title "Garach"
-worldFile "../data/lib/world/GARACHX.WLD"
-worldFile "../data/lib/world/GARACINT.WLD"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 0
-midiFile 9

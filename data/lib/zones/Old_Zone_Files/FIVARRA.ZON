@@ -1,9 +1,0 @@
-name "Fivarra's Cave"
-title "Fivarra's Cave"
-worldFile "../data/lib/world/FIVARRA.WLD"
-allowCombat 0
-#resetInterval 120
-midiFile 29
-groupChance 30
-isDungeon 1
-#entrance sarcophagusDoor21506-0

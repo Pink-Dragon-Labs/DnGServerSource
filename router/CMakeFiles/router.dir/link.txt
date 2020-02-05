@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/router.dir/main.cpp.o  -o ../bin/router -rdynamic ../lib/libglobal.a -lmysqlclient 
+/usr/bin/c++    -rdynamic CMakeFiles/router.dir/main.cpp.o  -o ../bin/router ../lib/libglobal.a -lmysqlclient 

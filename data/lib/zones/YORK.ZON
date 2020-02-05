@@ -1,7 +1,0 @@
-name "York"
-title "Ancient York"
-worldFile "../data/lib/world/YORK.WLD"
-resetInterval 9000000 
-maximumObjectAge 0 
-allowCombat 0
-midiFile 29
