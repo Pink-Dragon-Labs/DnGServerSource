@@ -1,19 +1,25 @@
 *.log
 *.o
+*.exe
+*.out
+*.la
+*.a
+*.lib
+*.so
 *~
 *.dir
 source.zip
 source/logs/duplicaterooms.txt
 source/logs/roommgr.log
 
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
+**/CMakeCache.txt
+**/CMakeFiles/
+**/CMakeScripts
 Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
+**/Makefile
+**/cmake_install.cmake
+**/install_manifest.txt
+**/compile_commands.json
 CTestTestfile.cmake
 
 /.vscode
@@ -27,3 +33,10 @@ data/lib/world/Tutorial.WLD.tok~SpellZerkTest
 data/lib/world/Tutorial.WLD.tok~HEAD
 bin/router.conf~SpellZerkTest
 bin/router.conf~HEAD
+bin/roommgr
+bin/router
+bin/datamgr
+bin/updatesrv
+bin/tokenize
+
+*.tok
