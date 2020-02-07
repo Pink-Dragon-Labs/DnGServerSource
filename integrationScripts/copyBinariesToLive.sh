@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cp $SERVER_BUILD/router $REALMFOLDER/dngrouter
+cp -rf $SERVER_BUILD/router $REALMFOLDER/router/dngrouter
 chmod +x $REALMFOLDER/router
-cp $SERVER_BUILD/updatesrv $REALMFOLDER/dngupdate
+cp -rf $SERVER_BUILD/updatesrv $REALMFOLDER/update/dngupdate
 chmod +x $REALMFOLDER/update
-cp $SERVER_BUILD/datamgr $REALMFOLDER/dngdatamgr
+cp -rf $SERVER_BUILD/datamgr $REALMFOLDER/datamgr/dngdatamgr
 chmod +x $REALMFOLDER/datamgr
-cp $SERVER_BUILD/roommgr $REALMFOLDER/dawn/bin/main
+cp -rf $SERVER_BUILD/roommgr $REALMFOLDER/dawn/bin/main
 chmod +x $REALMFOLDER/dawn/bin/main
