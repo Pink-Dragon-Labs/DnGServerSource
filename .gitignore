@@ -8,6 +8,7 @@
 *.so
 *~
 *.dir
+*Makefile
 source.zip
 source/logs/duplicaterooms.txt
 source/logs/roommgr.log
