@@ -23,5 +23,5 @@ set(SRC_DATAMGR
 
 add_executable(datamgr ${SRC_DATAMGR} )
 #add_executable(datamgr.conf ${SRC_DATAMGR} )
-TARGET_LINK_LIBRARIES( datamgr ${CMAKE_SOURCE_DIR}/lib/libglobal.a ${MYSQL_CLIENT_LIBS} )
+TARGET_LINK_LIBRARIES( datamgr ${LIBRARY_OUTPUT_PATH}/libglobal.a ${MYSQL_CLIENT_LIBS} )
 

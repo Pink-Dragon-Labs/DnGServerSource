@@ -18,4 +18,4 @@ set(SRC_UPDATE
  ) 
  add_executable(updatesrv ${SRC_UPDATE} ) 
 # add_executable(update.conf ${SRC_UPDATE} ) 
- TARGET_LINK_LIBRARIES( updatesrv ${CMAKE_SOURCE_DIR}/lib/libglobal.a ${MYSQL_CLIENT_LIBS} )
+ TARGET_LINK_LIBRARIES( updatesrv ${LIBRARY_OUTPUT_PATH}/libglobal.a ${MYSQL_CLIENT_LIBS} )

@@ -133,6 +133,6 @@ set(SRC_ROOMMGR
   )
 
 add_executable(roommgr ${SRC_ROOMMGR} )
-TARGET_LINK_LIBRARIES( roommgr ${CMAKE_SOURCE_DIR}/lib/libglobal.a ${MYSQL_CLIENT_LIBS} )
+TARGET_LINK_LIBRARIES( roommgr ${LIBRARY_OUTPUT_PATH}/libglobal.a ${MYSQL_CLIENT_LIBS} )
 
  

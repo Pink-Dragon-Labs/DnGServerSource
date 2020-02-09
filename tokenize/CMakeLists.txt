@@ -21,4 +21,4 @@ set(SRC_TOKENIZE
 
 
 add_executable(tokenize ${SRC_TOKENIZE} )
-TARGET_LINK_LIBRARIES( tokenize ${CMAKE_SOURCE_DIR}/lib/libglobal.a ${MYSQL_CLIENT_LIBS} )
+TARGET_LINK_LIBRARIES( tokenize ${LIBRARY_OUTPUT_PATH}/libglobal.a ${MYSQL_CLIENT_LIBS} )

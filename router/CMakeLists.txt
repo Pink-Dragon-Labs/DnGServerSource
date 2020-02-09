@@ -24,7 +24,7 @@ add_executable(router ${SRC_ROUTER} )
 
 
 #add_executable(router.conf ${SRC_ROUTER} )
-TARGET_LINK_LIBRARIES( router ${CMAKE_SOURCE_DIR}/lib/libglobal.a ${MYSQL_CLIENT_LIBS} )
+TARGET_LINK_LIBRARIES( router ${LIBRARY_OUTPUT_PATH}/libglobal.a ${MYSQL_CLIENT_LIBS} )
 
 add_custom_command(TARGET router.conf
                         POST_BUILD
