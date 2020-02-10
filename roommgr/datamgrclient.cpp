@@ -1123,7 +1123,7 @@ void DataMgrClient::loadHouse ( char *name, hlcallback_t callback, int context )
 {
 	PackedData packet;
 	packet.putLong ( context );
-	packet.putLong ( (int)callback );
+	packet.putLong ( (intptr_t)callback );
 	packet.putString ( name );
 	
 	send ( _IPC_DATAMGR_GET_HOUSE, &packet );

@@ -7,6 +7,6 @@ cp ./router/router.conf ./bin
 cp ./updates/update.conf ./bin
 cp ./datamgr/datamgr.conf ./bin
 cp ./roommgr/roommgr.conf ./bin
-
-cd data/lib
+#
+#cd data/lib
 ./compile

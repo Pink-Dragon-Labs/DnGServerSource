@@ -1037,7 +1037,7 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 		door->tempID = id++;
 
 		// fix the invalid house files that have no links!
-		if ( ( (int) door->linkTo ) == -1 ) {
+		if ( ( (intptr_t) door->linkTo ) == -1 ) {
 			logInfo ( _LOG_ALWAYS, "(%s) house had an unlinked door!", _owner );
 
 			switch ( door->x ) {
@@ -1091,7 +1091,7 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 		WorldObject *door = (WorldObject *)element->ptr();
 		element = element->next();
 
-		if ( ((int)door->linkTo) < 10000 ) {
+		if ( ((intptr_t)door->linkTo) < 10000 ) {
 			door->linkTo = NULL;
 		}
 	}

@@ -15,235 +15,246 @@ char *serverList;
 // class RouteInfo: Simple data holding class for representing the IP and port
 // of a server.
 //
-class RouteInfo : public ListObject
-{
+class RouteInfo : public ListObject {
 public:
-	char *ip, *port;
+    char *ip, *port;
 
-	RouteInfo ( char *theIP, char *thePort ) { 
-		ip = strdup ( theIP ); 
-		port = strdup ( thePort ); 
-	};
+    RouteInfo(char *theIP, char *thePort) {
+        ip = strdup (theIP);
+        port = strdup (thePort);
+    };
 
-	virtual ~RouteInfo() {};
+    virtual ~RouteInfo() {};
 };
+
 RouteInfo *info = NULL;
 
 // 
 // Definition of the RoutingServer.
 //
 
-class RoutingServer : public IPCServer 
-{
+class RoutingServer : public IPCServer {
 public:
-	void handleMessage ( IPCMessage *message );
+    void handleMessage(IPCMessage *message);
 };
 
-void RoutingServer::handleMessage ( IPCMessage *message )
-{
-	switch ( message->type() ) {
-		case _IPC_ROUTE_INFO: {
-			PackedData packet ( message->data(), message->size() );
-			unsigned char cmd = packet.getByte();
+void log_server_list();
 
-			switch ( cmd ) {
-				case 0: {
-					PackedMsg response;
-					response.putACKInfo ( message->type() );
-					response.putString ( info->ip );
-					response.putString ( info->port );
+void RoutingServer::handleMessage(IPCMessage *message) {
+    switch (message->type()) {
+        case _IPC_ROUTE_INFO: {
+            PackedData packet(message->data(), message->size());
+            unsigned char cmd = packet.getByte();
 
-					send (
-						_IPC_PLAYER_ACK,
-						(char *)response.data(),
-						response.size(),
-						(IPCClient *)message->from()
-					);
-				}
+            switch (cmd) {
+                case 0: {
+                    PackedMsg response;
+                    response.putACKInfo(message->type());
+                    response.putString(info->ip);
+                    response.putString(info->port);
 
-				break;
+                    send(
+                            _IPC_PLAYER_ACK,
+                            (char *) response.data(),
+                            response.size(),
+                            (IPCClient *) message->from()
+                    );
+                }
 
-				case 1: {
-					// ask the SQL database for the most recent list of game servers
-					SQLResponse *servers = gSQL->query ( "select name, isUp, userCount, ip, port from %s where active='yes'", serverList );
+                    break;
 
-					if ( servers ) {
-						PackedMsg response;
-						response.putACKInfo ( message->type()  );
-						response.putByte ( servers->rows );
+                case 1: {
+                    // ask the SQL database for the most recent list of game servers
+                    SQLResponse *servers = gSQL->query(
+                            "select name, isUp, userCount, ip, port from %s where active='yes'", serverList);
 
-						for ( int r=0; r<servers->rows; r++ ) {
-							for ( int i=0; i<5; i++ )
-								response.putString ( servers->table ( r, i ) );
-						}
+                    if (servers) {
+                        PackedMsg response;
+                        response.putACKInfo(message->type());
+                        response.putByte(servers->rows);
 
-						send (
-							_IPC_PLAYER_ACK,
-							(char *)response.data(),
-							response.size(),
-							(IPCClient *)message->from()
-						);
+                        for (int r = 0; r < servers->rows; r++) {
+                            for (int i = 0; i < 5; i++)
+                                response.putString(servers->table(r, i));
+                        }
 
-						delete servers;
-					}
-				}
-		
-				break;
-			}
-		}
+                        send(
+                                _IPC_PLAYER_ACK,
+                                (char *) response.data(),
+                                response.size(),
+                                (IPCClient *) message->from()
+                        );
 
-		break;
+                        delete servers;
+                    }
+                }
 
-		case _IPC_OLD_ROUTE_INFO: {
-			PackedData packet ( message->data(), message->size() );
-			char *cmd = packet.getString();
+                    break;
+            }
+        }
 
-			logDisplay( "Old client has connected...");
+            break;
 
-			if ( strstr ( cmd, "updates " ) ) {
-				PackedMsg response;
-				response.putACKInfo ( message->type() );
-				response.putString ( info->ip );
-				response.putString ( info->port );
+        case _IPC_OLD_ROUTE_INFO: {
+            PackedData packet(message->data(), message->size());
+            char *cmd = packet.getString();
 
-				send (
-					_IPC_PLAYER_ACK,
-					(char *)response.data(),
-					response.size(),
-					(IPCClient *)message->from()
-				);
-			}
+            logDisplay("Old client has connected...");
 
-			else if ( strstr ( cmd, "gamelist " ) ) {
-				// ask the SQL database for the most recent list of game servers
-				SQLResponse *servers = gSQL->query ( "select name, isUp, userCount, ip, port from %s where active='yes'", serverList );
+            if (strstr(cmd, "updates ")) {
+                PackedMsg response;
+                response.putACKInfo(message->type());
+                response.putString(info->ip);
+                response.putString(info->port);
 
-				if ( servers ) {
-					PackedMsg response;
-					response.putACKInfo ( message->type()  );
-					response.putByte ( servers->rows );
+                send(
+                        _IPC_PLAYER_ACK,
+                        (char *) response.data(),
+                        response.size(),
+                        (IPCClient *) message->from()
+                );
+            } else if (strstr(cmd, "gamelist ")) {
+                // ask the SQL database for the most recent list of game servers
+                SQLResponse *servers = gSQL->query("select name, isUp, userCount, ip, port from %s where active='yes'",
+                                                   serverList);
 
-					for ( int r=0; r<servers->rows; r++ ) {
-						for ( int i=0; i<5; i++ )
-							response.putString ( servers->table ( r, i ) );
-					}
+                if (servers) {
+                    PackedMsg response;
+                    response.putACKInfo(message->type());
+                    response.putByte(servers->rows);
 
-					send (
-						_IPC_PLAYER_ACK,
-						(char *)response.data(),
-						response.size(),
-						(IPCClient *)message->from()
-					);
+                    for (int r = 0; r < servers->rows; r++) {
+                        for (int i = 0; i < 5; i++)
+                            response.putString(servers->table(r, i));
+                    }
 
-					delete servers;
-				}
-			}
+                    send(
+                            _IPC_PLAYER_ACK,
+                            (char *) response.data(),
+                            response.size(),
+                            (IPCClient *) message->from()
+                    );
 
-			// old router handling...
-			else if ( strstr ( cmd, "roommgr " ) ) {
-				// ask the SQL database for the most recent list of game servers
-				SQLResponse *servers = gSQL->query ( "select ip, port from %S where id=0", serverList );
+                    delete servers;
+                }
+            }
 
-				if ( servers ) {
-					PackedMsg response;
-					response.putACKInfo ( message->type()  );
-					response.putString ( servers->table ( 0, 0 ) );
-					response.putString ( servers->table ( 0, 1 ) );
-	
-					send (
-						_IPC_PLAYER_ACK,
-						(char *)response.data(),
-						response.size(),
-						(IPCClient *)message->from()
-					);
+                // old router handling...
+            else if (strstr(cmd, "roommgr ")) {
+                // ask the SQL database for the most recent list of game servers
+                SQLResponse *servers = gSQL->query("select ip, port from %S where id=0", serverList);
 
-					delete servers;
-				}
-			}
+                if (servers) {
+                    PackedMsg response;
+                    response.putACKInfo(message->type());
+                    response.putString(servers->table(0, 0));
+                    response.putString(servers->table(0, 1));
 
-			if ( cmd )
-				free ( cmd );
-		}
+                    send(
+                            _IPC_PLAYER_ACK,
+                            (char *) response.data(),
+                            response.size(),
+                            (IPCClient *) message->from()
+                    );
 
-		break;
+                    delete servers;
+                }
+            }
 
-		case _IPC_CLIENT_CONNECTED: {
-			IPCServer::handleMessage ( message );
+            if (cmd)
+                free (cmd);
+        }
 
-			IPCClient *client = (IPCClient *)message->from();
-			client->maxMsgSize = 127;
-			}
+            break;
 
-			break;
+        case _IPC_CLIENT_CONNECTED: {
+            IPCServer::handleMessage(message);
 
-		case _IPC_CLIENT_HUNG_UP:
-			IPCServer::handleMessage ( message );
-			break;
-	}
+            IPCClient *client = (IPCClient *) message->from();
+            client->maxMsgSize = 127;
+        }
+
+            break;
+
+        case _IPC_CLIENT_HUNG_UP:
+            IPCServer::handleMessage(message);
+            break;
+    }
 }
 
-int main ( int argc, char **argv )
-{
-	logDisplay("Starting routing server...\n");
-	if ( argc != 2 ) {
-		logDisplay ( "usage: %s [config file]", argv[0] );
-		return 1;
-	}
+int main(int argc, char **argv) {
+    logDisplay("Starting routing server...\n");
+    if (argc != 2) {
+        logDisplay("usage: %s [config file]", argv[0]);
+        return 1;
+    }
 
-	// load all of the config information
-	ConfigMgr config;
-	config.load ( argv[1] );
+    // load all of the config information
+    ConfigMgr config;
+    config.load(argv[1]);
 
-	// get SQL database info
-	char *sqlServer = config.get ( "sqlServer" );
-	char *sqlDB = config.get ( "sqlDB" );
-	char *sqlUser = config.get ( "sqlUser" );
-	char *sqlPW = config.get ( "sqlPW" );
-    serverList = config.get ( "serverList" );
+    // get SQL database info
+    char *sqlServer = config.get("sqlServer");
+    char *sqlDB = config.get("sqlDB");
+    char *sqlUser = config.get("sqlUser");
+    char *sqlPW = config.get("sqlPW");
+    serverList = config.get("serverList");
 
-	gSQL = new SQLDatabase ( sqlServer, sqlUser, sqlPW, sqlDB );
+    gSQL = new SQLDatabase(sqlServer, sqlUser, sqlPW, sqlDB);
 
-	// get the port name of listen on
-	char *port = config.get ( "port" );
+    // get the port name of listen on
+    char *port = config.get("port");
 
-	char *ip = config.get ( "updateIP", 0 );
+    char *ip = config.get("updateIP", 0);
 
-	if ( ip ) {
+    if (ip) {
 
-		char *port = config.get ( "updatePort", 0 );
+        char *port = config.get("updatePort", 0);
 
-		if ( port ) {
+        if (port) {
 
-			logDisplay ( "Routing to update server at %s:%s", ip, port );
-			info = new RouteInfo ( ip, port );
-		}
-		else{
-			logDisplay( "Please specify an updatePort in your config file...");
-		}
-	}
-	else{
-		logDisplay( "Please specify an updateIP in your config file...");
-	}
-		
-	
-	struct rlimit limit;
+            logDisplay("Routing to update server at %s:%s", ip, port);
+            info = new RouteInfo(ip, port);
+        } else {
+            logDisplay("Please specify an updatePort in your config file...");
+        }
+    } else {
+        logDisplay("Please specify an updateIP in your config file...");
+    }
 
-	getrlimit ( RLIMIT_NOFILE, &limit );
-	limit.rlim_cur = limit.rlim_max;
-	setrlimit ( RLIMIT_NOFILE, &limit );
+    log_server_list();
 
-	sysLogLevel = _LOG_ALWAYS;
-	sysLogDisplay = 1;
+    struct rlimit limit;
 
-	RoutingServer *server = new RoutingServer;
-	server->init ( port );
+    getrlimit(RLIMIT_NOFILE, &limit);
+    limit.rlim_cur = limit.rlim_max;
+    setrlimit(RLIMIT_NOFILE, &limit);
 
-	logDisplay ( "\nRouting server listening for messages..." );
+    sysLogLevel = _LOG_ALWAYS;
+    sysLogDisplay = 1;
 
-	for ( ;; ) {
-		gIPCPollMgr.doit();
-		server->doit();
-	}
+    RoutingServer *server = new RoutingServer;
+    server->init(port);
 
-	return -1;
+    logDisplay("\nRouting server listening for messages...");
+
+    for (;;) {
+        gIPCPollMgr.doit();
+        server->doit();
+    }
+
+    return -1;
+}
+
+void log_server_list() {
+    SQLResponse *servers = gSQL->query("select name, isUp, userCount, ip, port from %s where active='yes'", serverList);
+    if (servers) {
+        for (int r = 0; r < servers->rows; r++) {
+            char *serverName = servers->table(r, 0);
+            char *serverIp = servers->table(r, 3);
+            char *serverPort = servers->table(r, 4);
+            char *serverIsUp = servers->table(r, 1);
+            logDisplay("Routing to game server (%s) at %s:%s (%s)", serverName, serverIp, serverPort, serverIsUp);
+        }
+    }
 }

@@ -7445,9 +7445,9 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
 	}
 
 	BCharacter *bcharacter = (BCharacter *)obj->getBase ( _BCHARACTER );
-	if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+    if( (intptr_t) character  == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
-	if ( !bcharacter ) {
+    if ( !bcharacter ) {
 		return retVal;
 	}
 
@@ -7736,7 +7736,7 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				object->player = this;
 
 				BCharacter *character = (BCharacter *)object->getBase ( _BCHARACTER );
-				if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+				if( (intptr_t) character  == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 				// set the character's properties
 				strcpy ( character->properName, properName );

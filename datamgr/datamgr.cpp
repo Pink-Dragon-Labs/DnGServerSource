@@ -837,12 +837,12 @@ void DataMgr::handleMessage ( IPCMessage *msg ) {
 			char* pName = packet.getString();
 
 			// get the loginID from the login name
-			int loginID = -1;
+			intptr_t loginID = -1;
 
 			TreeNode *node = loginTree.find ( loginName );
 
 			if ( node ) {
-				loginID = (int)node->data;	
+				loginID = (intptr_t)node->data;
 			} else {
 				result = sql->query ( "insert into loginNames set id=0, name='%s'", loginName );
 
@@ -860,12 +860,12 @@ void DataMgr::handleMessage ( IPCMessage *msg ) {
 			}
 
 			// get the charID from the character name
-			int charID = -1;
+			intptr_t charID = -1;
 
 			node = characterTree.find ( charName );
 
 			if ( node ) {
-				charID = (int)node->data;	
+				charID = (intptr_t)node->data;
 			} else {
 				result = sql->query ( "insert into characterNames set id=0, name='%s'", charName );
 
@@ -931,12 +931,12 @@ void DataMgr::handleMessage ( IPCMessage *msg ) {
 				text = strdup ( "" );
 
 			// get the loginID from the login name
-			int loginID = -1;
+			intptr_t loginID = -1;
 
 			TreeNode *node = loginTree.find ( loginName );
 
 			if ( node ) {
-				loginID = (int)node->data;	
+				loginID = (intptr_t)node->data;
 			} else {
 				result = sql->query ( "insert into loginNames set id=0, name='%s'", loginName );
 
@@ -954,12 +954,12 @@ void DataMgr::handleMessage ( IPCMessage *msg ) {
 			}
 
 			// get the charID from the character name
-			int charID = -1;
+			intptr_t charID = -1;
 
 			node = characterTree.find ( charName );
 
 			if ( node ) {
-				charID = (int)node->data;	
+				charID = (intptr_t)node->data;
 			} else {
 				result = sql->query ( "insert into characterNames set id=0, name='%s'", charName );
 

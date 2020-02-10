@@ -2847,7 +2847,7 @@ SPELL ( castCRAWLING_CHARGE )
 				WorldObject* obj = roomMgr->getObject( servID );
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			} 
 		}
 	}
@@ -6928,7 +6928,7 @@ SPELL ( castACID_CLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			}
 		}
 	}
@@ -7326,7 +7326,7 @@ SPELL ( cast118 )
 				WorldObject* obj = roomMgr->getObject( servID );
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			} 
 		}
 	}
@@ -8109,7 +8109,7 @@ SPELL( castBURNING_MISTCLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			}
 		}
 	}
@@ -8219,7 +8219,7 @@ SPELL( castNAUSEATING_MISTCLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			}
 		}
 	}
@@ -8342,7 +8342,7 @@ SPELL( castDEADLY_MISTCLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			}
 		}
 	}
@@ -8482,7 +8482,7 @@ SPELL( castAREA_LIGHTNING )
 				WorldObject* obj = roomMgr->getObject( servID );
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
 			} 
 		}
 	}

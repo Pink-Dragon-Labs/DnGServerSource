@@ -349,7 +349,7 @@ int BCarryable::beGivenTo ( WorldObject *object, int override )
 
 	WorldObject *baseOwner = object->getBaseOwner();
 	BCharacter *character = (BCharacter *)baseOwner->getBase ( _BCHARACTER );
-	if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+	if( (intptr_t) character == 0x21 ) { logInfo(_LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 	if ( character ) 
 		self->makeVisible ( 0 );

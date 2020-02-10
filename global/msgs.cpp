@@ -355,7 +355,7 @@ char* IPCStats::display() {
 
 	time_t	endTime = time( NULL );
 
-	sprintf( buf, "\n\tTotal)\t%lld\t%lld\t%f\t%f\t%lld\t%lld\t%lld\t%lld\n\nSlowest Msg #%d took % 8.6f seconds.\nTotal process time = % 8.6f\nTotal run time = % 14d", nInCount, nInbound, msgTime, msgTime / nInCount, nOutCount, nOutbound, nAcked, nNaked, m_nSlowestMsg, ( m_nSlowestTime / 1000000000.0 ), (double) ( (double) clock() / CLOCKS_PER_SEC ), ( endTime - m_nStartTime ) );
+	sprintf( buf, "\n\tTotal)\t%lld\t%lld\t%f\t%f\t%lld\t%lld\t%lld\t%lld\n\nSlowest Msg #%d took % 8.6f seconds.\nTotal process time = % 8.6f\nTotal run time = % 14ld", nInCount, nInbound, msgTime, msgTime / nInCount, nOutCount, nOutbound, nAcked, nNaked, m_nSlowestMsg, ( m_nSlowestTime / 1000000000.0 ), (double) ( (double) clock() / CLOCKS_PER_SEC ), ( endTime - m_nStartTime ) );
 	strcat ( MsgStr, buf );
 
 	return (char*) & MsgStr;

@@ -568,7 +568,7 @@ void htmlPrintBold ( char *format, ... ) {
 
 	printf ( "<strong>\n" );
 	htmlSimplePrint ( output );
-	printf ( "\n</strong>\n", output );
+	printf ( "\n</strong>\n");
 }
 
 // this is called to print something in italic
@@ -959,14 +959,14 @@ void htmlHeading( int nLevel, char* pAlign, char* pFormat, ... ) {
 	vsprintf ( output, pFormat, args );
 	va_end ( args );
 	
-	printf( output );
+	printf( "%s", output );
 
 	printf( "</h%d>", nLevel );
 }
 
 // this closes heading
 void htmlEndHeading( int nLevel ) {
-	printf( "</h%s>", nLevel );
+	printf( "</h%d>", nLevel );
 }
 
 // this function encodes the passed string for use in a query string
