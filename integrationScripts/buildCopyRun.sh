@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#cd ../
-#./build
-#cd -
+cd ../
+./build
+cd -
 ./copyBinariesToLive.sh
 ./copyLibsToLive.sh
 cd $REALMFOLDER
