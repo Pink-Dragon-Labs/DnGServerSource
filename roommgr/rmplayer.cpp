@@ -3599,9 +3599,10 @@ void RMPlayer::castSpell ( spell_info *spell, WorldObject *pCaster, long targetS
 			doSpell = 0;
 		}
 		// Added Heal, GHeal, Cure Poison, Empower and Nimbility to global 'ignore spell resistance' list
+		// This will allow NPCS like Pixie, Warden etc to cast buffs on fully magic protected players out of combat.
 		if ( (spell != &gSpellTable[_SPELL_HOME]) && (spell != &gSpellTable[_SPELL_TELEPORT]) && (spell != &gSpellTable[_SPELL_GATHER_THE_FELLOWSHIP]) && (spell != &gSpellTable[_SPELL_SHIFT]) && (spell != &gSpellTable[_SPELL_GREATER_HEAL]) && (spell != &gSpellTable[_SPELL_HEAL]) && (spell != &gSpellTable[_SPELL_EMPOWER]) && (spell != &gSpellTable[_SPELL_NIMBILITY]) && (spell != &gSpellTable[_SPELL_CURE_POISON]) ) {
-			// Removed Cast resistance - Zach
-
+			
+			// Removed Cast Resistance - Zach
 			// check for spell circle denial...
 			/*if ( doSpell && casterOwner->character && casterOwner->character->TestCastResistance ( spell->skillType - _SKILL_SORCERY ) ) {
   				if ( pCaster && pCaster->player && !pCaster->player->isNPC )
@@ -7445,9 +7446,9 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
 	}
 
 	BCharacter *bcharacter = (BCharacter *)obj->getBase ( _BCHARACTER );
-    if( (intptr_t) character  == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+	if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
-    if ( !bcharacter ) {
+	if ( !bcharacter ) {
 		return retVal;
 	}
 
@@ -7736,7 +7737,7 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				object->player = this;
 
 				BCharacter *character = (BCharacter *)object->getBase ( _BCHARACTER );
-				if( (intptr_t) character  == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+				if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 				// set the character's properties
 				strcpy ( character->properName, properName );
@@ -8530,7 +8531,7 @@ int RMPlayer::process_IPC_PLAYER_CHANGE_ROOM ( IPCMessage *message )
 			roomMgr->sendPlayerInfo ( this, "Server Uptime: %f days.\n", daysUp );
 		else
 			roomMgr->sendPlayerInfo ( this, "Server Uptime: %f hours.\n", hoursUp );
-			roomMgr->sendPlayerInfo ( this, "Dwarves and Giants v0.1\n" );
+			roomMgr->sendPlayerInfo ( this, "The Realms of Serenia v0.23\n" );
 			roomMgr->sendPlayerInfo ( this, "Expboost: %.2f times normal.", gExpBoost );
 			roomMgr->sendPlayerInfo ( this, "Lootboost: %d times normal.", gLootBoost );
 
@@ -10566,7 +10567,10 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 		if ( damage ) { 
 			// damage the weapon if we did not hit the armor...
 			if ( !hitArmor ) {
+				sprintf ( sizeof ( output ), output, "|c248|Didn't strike Armor!|c43| " );
 				obj->damageArmor ( _AFF_DAMAGE_NORMAL, character, theWeapon, theWeapon, output, movie );
+			}else if ( hitArmor ) {
+				sprintf ( sizeof ( output ), output, "|c60|Struck Armor!|c43| " );
 			}
 
 			if ( criticalHit ) {
@@ -10574,44 +10578,92 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 				{
 					case 0:
 						// no skill = no crit bonus
-						damage = damage;
-						sprintf ( sizeof ( output ), output, "|c60|%s almost had a critical strike!|c43| ", getName() );
+						//damage = damage;
+						//sprintf ( sizeof ( output ), output, "|c248|%s almost had a critical strike!|c43| ", getName() );
 						//logDisplay ( "Failed Crit - No bonus" );
+
+						if ( !hitArmor ) {
+							damage = damage;
+							sprintf ( sizeof ( output ), output, "|c248|%s didn't strike armor and almost had a critical strike!|c43| ", getName() );
+						}else if ( hitArmor ) {
+							damage = damage;
+							sprintf ( sizeof ( output ), output, "|c60|%s struck armor and almost had a critical strike!|c43| ", getName() );
+						}
 					break;
 					
 					case 1:
 						// level one = small bonus
-						damage *= 1.5;
-						sprintf ( sizeof ( output ), output, "|c8|%s lands a critical strike!|c43| ", getName() );
+						//damage *= 1.5;
+						//sprintf ( sizeof ( output ), output, "|c12|%s lands a critical strike! x1.5|c43| ", getName() );
 						//logDisplay ( "Level One Crit - x1.5" );
+
+						if ( !hitArmor ) {
+							damage *= 1.5;
+							sprintf ( sizeof ( output ), output, "|c248|%s didn't strike armor, but landed a critical strike! x1.5|c43| ", getName() );
+						}else if ( hitArmor ) {
+							damage *= 1.5;
+							sprintf ( sizeof ( output ), output, "|c60|%s struck armor and landed a critical strike! x1.5|c43| ", getName() );
+						}
 					break;
 
 					case 2:
 						// level 2 = small bonus
-						damage *= 1.5;
-						sprintf ( sizeof ( output ), output, "|c8|%s lands a critical strike!|c43| ", getName() );
+						//damage *= 1.5;
+						//sprintf ( sizeof ( output ), output, "|c12|%s lands a critical strike! x1.5|c43| ", getName() );
 						//logDisplay ( "Level Two Crit - x1.5" );
+
+						if ( !hitArmor ) {
+							damage *= 1.5;
+							sprintf ( sizeof ( output ), output, "|c248|%s didn't strike armor, but landed a critical strike! x1.5|c43| ", getName() );
+						}else if ( hitArmor ) {
+							damage *= 1.5;
+							sprintf ( sizeof ( output ), output, "|c60|%s struck armor and landed a critical strike! x1.5|c43| ", getName() );
+						}
 					break;
 
 					case 3:
 						// level 3 = increased damage
-						damage *= 2;
-						sprintf ( sizeof ( output ), output, "|c12|%s lands a moderate critical strike!|c43| ", getName() ); 
+						//damage *= 2;
+						//sprintf ( sizeof ( output ), output, "|c14|%s lands a moderate critical strike! x2|c43| ", getName() ); 
 						//logDisplay ( "Level Three Crit - x2" );
+
+						if ( !hitArmor ) {
+							damage *= 2;
+							sprintf ( sizeof ( output ), output, "|c248|%s didn't strike armor, but landed a moderate critical strike! x2|c43| ", getName() );
+						}else if ( hitArmor ) {
+							damage *= 2;
+							sprintf ( sizeof ( output ), output, "|c60|%s struck armor and landed a moderate critical strike! x2|c43| ", getName() );
+						}
 					break;
 
 					case 4:
 						// level 4 = increased damage
-						damage *= 2;
-						sprintf ( sizeof ( output ), output, "|c12|%s lands a moderate critical strike!|c43| ", getName() ); 
+						//damage *= 2;
+						//sprintf ( sizeof ( output ), output, "|c14|%s lands a moderate critical strike! x2|c43| ", getName() ); 
 						//logDisplay ( "Level Four Crit - x2" );
+
+						if ( !hitArmor ) {
+							damage *= 2;
+							sprintf ( sizeof ( output ), output, "|c248|%s didn't strike armor, but landed a moderate critical strike! x2|c43| ", getName() );
+						}else if ( hitArmor ) {
+							damage *= 2;
+							sprintf ( sizeof ( output ), output, "|c60|%s struck armor and landed a moderate critical strike! x2|c43| ", getName() );
+						}
 					break;
 
 					case 5:
 						// level 5 = maximum damage
-						damage *= 3;
-						sprintf ( sizeof ( output ), output, "|c14|%s lands a heavy critical strike!|c43| ", getName() ); 
+						//damage *= 3;
+						//sprintf ( sizeof ( output ), output, "|c60|%s lands a heavy critical strike! x3|c43| ", getName() ); 
 						//logDisplay ( "Level Five Crit - x3" );
+
+						if ( !hitArmor ) {
+							damage *= 3;
+							sprintf ( sizeof ( output ), output, "|c248|%s didn't strike armor, but landed a heavy critical strike! x3|c43| ", getName() );
+						}else if ( hitArmor ) {
+							damage *= 3;
+							sprintf ( sizeof ( output ), output, "|c60|%s struck armor and landed a heavy critical strike! x3|c43| ", getName() );
+						}
 					break;
 				}
 				

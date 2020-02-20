@@ -341,6 +341,7 @@ SkillEntry skillLevelTable[] = {
 	{"expert", _SKILL_LVL_EXPERT},
 	{"master", _SKILL_LVL_MASTER},
 	{"grandMaster", _SKILL_LVL_GRAND_MASTER},
+	{"paragon", _SKILL_LVL_PARAGON},
 	{NULL, -1}
 };
 

@@ -182,17 +182,17 @@ Building *makeTemplateHouse ( char *name, char *password, int firstCreation )
   	livingRoom->addATP ( 34989, 48, 193, 0 );
   	livingRoom->addATP ( 2131, 213, 165, 0 );
 
-//  	if ( source ) 
-// 		livingRoom->addObject ( "Crest", 295, 162 );
 
   	sprintf ( sizeof ( title ), title, "%s's Livingroom", name );
   	livingRoom->setTitle ( title ); 
 
   	// create the doors that belong in the livingroom
-  	WorldObject *entryDoorA, *entryDoorB, *bedroomDoorA, *bedroomDoorB;
+  	WorldObject *entryDoorA, *entryDoorB, *bedroomDoorA, *bedroomDoorB, *basementEntry, *basementExit;
 
   	entryDoorA = livingRoom->addObject ( "PlankDoor", 461, 181, 1 );
   	bedroomDoorA = livingRoom->addObject ( "PlankDoor", 348, 181, 0 );
+	// basement trap door add
+	basementEntry = livingRoom->addObject ( "TrapDoor", 73, 294, 0 );
 
   	// we need some chairs
   	livingRoom->addObject ( "Chair", 325, 252, 0 );
@@ -202,6 +202,67 @@ Building *makeTemplateHouse ( char *name, char *password, int firstCreation )
 
   	// and a fireplace
   	livingRoom->addObject ( "FirePlace", 1, 210, 1 );
+
+
+	// Attempt to create a basement
+	RMRoom *basement = new RMRoom;
+  	basement->picture =4000 ;
+  	house->addRoom ( basement );
+
+	basement->addATP ( 2340, 314, 46, -100 );
+  	basement->addATP ( 2339, 468, 61, -100 );
+  	basement->addATP ( 2338, 164, 63, -100 );
+  	basement->addATP ( 2340, 106, 63, -100 );
+  	basement->addATP ( 2340, 513, 61, -100 );
+  	basement->addATP ( 63, 13, 181, 0 );
+  	basement->addATP ( 64, 23, 183, 10 );
+  	basement->addATP ( 64, 70, 174, 10 );
+  	basement->addATP ( 63, 54, 188, 15 );
+  	basement->addATP ( 64, 49, 177, 10 );
+  	basement->addATP ( 63, 21, 176, 0 );
+  	basement->addATP ( 2340, 4, 113, -50 );
+  	basement->addATP ( 2340, 617, 111, -50 );
+  	basement->addATP ( 6, 78, 184, 15 );
+  	basement->addATP ( 7900, 314, 165, 0 );
+  	basement->addATP ( 3, 164, 171, 0 );
+  	basement->addATP ( 3, 461, 171, 0 );
+  	basement->addATP ( 7900, 18, 182, 0 );
+  	basement->addATP ( 7900, 606, 182, 0 );
+  	basement->addATP ( 32782, 164, 188, 0 );
+  	basement->addATP ( 14, 469, 1888, 0 );
+	basement->addATP ( 3, 139, 255, 0 );
+	basement->addATP ( 3, 496, 257, 0 );
+	basement->addATP ( 3, 151, 265, 0 );
+	basement->addATP ( 3, 490, 271, 0 );
+	basement->addATP ( 3, 151, 288, 0 );
+	basement->addATP ( 3, 490, 293, 0 );
+	basement->addATP ( 3, 151, 312, 0 );
+	basement->addATP ( 3, 490, 314, 0 );
+	basement->addATP ( 3, 139, 255, 0 );
+  	basement->addATP ( 32784, 7, 388, 0 );
+  	basement->addATP ( 16, 635, 340, 0 );
+	basement->addATP ( 2737, 420, 69, 0 );
+	basement->addATP ( 35505, 209, 69, 0 );
+	basement->addATP ( 2599, 514, 265, 0 );
+
+	// name basement
+	sprintf ( sizeof ( title ), title, "%s's Basement", name );
+  	basement->setTitle ( title ); 
+
+	// link door
+	basementExit = basement->addObject ( "PlankDoor", 308, 153, 2 );
+
+	
+	// add chairs
+  	basement->addObject ( "Chair", 453, 257, 0 );
+  	basement->addObject ( "Chair", 578, 257, 1 );
+  	basement->addObject ( "Chair", 515, 243, 2 );
+	// add fireplaces
+	basement->addObject ( "FirePlace", 462, 165, 0 );
+	basement->addObject ( "FirePlace", 174, 168, 1 );  
+
+	
+
 
   	// create the bedroom
   	RMRoom *bedroom = new RMRoom;
@@ -295,9 +356,6 @@ Building *makeTemplateHouse ( char *name, char *password, int firstCreation )
   	entryRoom->addATP ( 2717, 48, 204, 0 );
   	entryRoom->addATP ( 2717, 439, 193, 0 );
 
-//  	if ( source )
-//  		entryRoom->addObject ( "Crest", 274, 151 );
-
   	// put a door on the house
   	entryDoorB = entryRoom->addObject ( "PWDoor", 328, 178, 0 ); 
 
@@ -305,22 +363,38 @@ Building *makeTemplateHouse ( char *name, char *password, int firstCreation )
 
   	if ( base ) 
   		sprintf ( sizeof ( base->password ), base->password, "%s", password );
-
+	
+	// add strongboxes
   	WorldObject *strongBox = bedroom->addObject ( "StrongBox", 320, 250, 0 );
+	base = (BPassword *)strongBox->getBase ( _BPASSWORD );
 
-  	base = (BPassword *)strongBox->getBase ( _BPASSWORD );
+  	if ( base ) 
+  		sprintf ( sizeof ( base->password ), base->password, "%s", password );
+	
+
+	WorldObject *bigStrongBox1 = basement->addObject ( "BigStrongBox", 116, 187, 0 );
+	base = (BPassword *)bigStrongBox1->getBase ( _BPASSWORD );
+
+  	if ( base ) 
+  		sprintf ( sizeof ( base->password ), base->password, "%s", password );
+	WorldObject *bigStrongBox2 = basement->addObject ( "BigStrongBox", 27, 209, 0 );
+	base = (BPassword *)bigStrongBox2->getBase ( _BPASSWORD );
+
+  	if ( base ) 
+  		sprintf ( sizeof ( base->password ), base->password, "%s", password );
+	WorldObject *bigStrongBox3 = basement->addObject ( "BigStrongBox", 72, 198, 0 );
+	base = (BPassword *)bigStrongBox3->getBase ( _BPASSWORD );
 
   	if ( base ) 
   		sprintf ( sizeof ( base->password ), base->password, "%s", password );
 
-//  	object->roomNumber = livingRoom->number;
-//  	object->x = 320;
-//  	object->y = 200;
-//  	object->loop = 2;
+	
 
   	// link the doors
   	entryDoorA->linkWith ( entryDoorB );
   	bedroomDoorA->linkWith ( bedroomDoorB );
+	// link basement
+	basementEntry->linkWith ( basementExit );
 
   	house->setOwnerName ( name );
 

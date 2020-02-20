@@ -142,7 +142,7 @@ public:
 	void writeCrimes();
 	CrimeData* getCrimeData();
 
-	intptr_t accountID;
+	int accountID;
 	CombatAction *combatAction, *nextAction;
 	char *engraveName, *accountTypeStr;
 	int billingDate;

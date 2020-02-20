@@ -682,6 +682,7 @@ SPELL ( castDispelMagic )
 						  _AFF_MEMORY,
 						  _AFF_POS_DEX_MOD,
 						  _AFF_POS_END_MOD,
+						  _AFF_POS_INT_MOD,
 						  _AFF_RETENTION,
 						  _AFF_NOURISHED,
 						  _AFF_DISGUISED,
@@ -2847,7 +2848,7 @@ SPELL ( castCRAWLING_CHARGE )
 				WorldObject* obj = roomMgr->getObject( servID );
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			} 
 		}
 	}
@@ -6928,7 +6929,7 @@ SPELL ( castACID_CLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			}
 		}
 	}
@@ -7326,7 +7327,7 @@ SPELL ( cast118 )
 				WorldObject* obj = roomMgr->getObject( servID );
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			} 
 		}
 	}
@@ -8109,7 +8110,7 @@ SPELL( castBURNING_MISTCLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			}
 		}
 	}
@@ -8219,7 +8220,7 @@ SPELL( castNAUSEATING_MISTCLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			}
 		}
 	}
@@ -8342,7 +8343,7 @@ SPELL( castDEADLY_MISTCLOUD )
 				
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_POISON - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			}
 		}
 	}
@@ -8482,7 +8483,7 @@ SPELL( castAREA_LIGHTNING )
 				WorldObject* obj = roomMgr->getObject( servID );
 				if( obj && obj->character )
 					targetList.add( obj );
-				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (intptr_t)obj, obj?(intptr_t)obj->character:0 );
+				else logDisplay( "%s:%d castAREA_LIGHTNING - target error. servid %d, obj %d  obj->character %d", __FILE__, __LINE__, servID, (int)obj, obj?(int)obj->character:0 );
 			} 
 		}
 	}
@@ -8598,10 +8599,10 @@ SPELL ( castIMMOLATION_COLD )
 }
 
 //
-// castIMMOLATION_ACID
+// castVITALITY
 //
 
-SPELL ( castIMMOLATION_ACID )
+SPELL ( castVITALITY )
 {
 	WorldObject *target = roomMgr->findObject ( targetServID );
 
@@ -8611,33 +8612,33 @@ SPELL ( castIMMOLATION_ACID )
 	}
 
 	char buf[1024];
-	int skill = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
+	int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 
 	int duration = 0;
 
-	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
+	duration = calcSpellDuration ( caster, 3 * skill, packet );
 
 	caster = caster->getBaseOwner();
 
 	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
 	packet->putLong ( caster->servID );
-	packet->putByte ( _SE_IMMOLATION );
+	packet->putByte ( _SE_INDESTRUCTION );
 	packet->putByte ( 1 );
 	packet->putLong ( target->servID );
 
-	affect_t *affect = target->hasAffect ( _AFF_IMMOLATION_ACID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
+	affect_t *affect = target->hasAffect ( _AFF_POS_END_MOD, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
 
 	if ( affect ) {
 		affect->duration = duration;
 	} else {
-		affect = target->addAffect ( _AFF_IMMOLATION_ACID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, skill, packet );
+		affect = target->addAffect ( _AFF_POS_END_MOD, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, skill, packet );
 	}
 
 	if ( !target->player ) {
-		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by toxic acid for a moment. ", target->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by a mystical aura! ", target->getName() );
 		strcat ( output, buf );
 	} else {
-		sprintf ( sizeof ( buf ), buf, "%s drips toxic acid!", target->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c12|%s has been blessed with Endurance! ", target->getName() );
 		strcat ( output, buf );
 	}
 
@@ -8645,10 +8646,10 @@ SPELL ( castIMMOLATION_ACID )
 }
 
 //
-// castIMMOLATION_POISON
+// castENLIGHTENMENT
 //
 
-SPELL ( castIMMOLATION_POISON )
+SPELL ( castENLIGHTENMENT )
 {
 	WorldObject *target = roomMgr->findObject ( targetServID );
 
@@ -8660,7 +8661,7 @@ SPELL ( castIMMOLATION_POISON )
 
 	int duration = 0;
 
-	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
+	duration = calcSpellDuration ( caster, 3 * skill, packet );
 
 	caster = caster->getBaseOwner();
 
@@ -8682,7 +8683,7 @@ SPELL ( castIMMOLATION_POISON )
 		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by a mystical aura! ", target->getName() );
 		strcat ( output, buf );
 	} else {
-		sprintf ( sizeof ( buf ), buf, "%s has been blessed with Intelligence! ", target->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c12|%s has been blessed with Intelligence! ", target->getName() );
 		strcat ( output, buf );
 	}	
 	return affect;
@@ -11025,13 +11026,13 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		FALSE
 	},
 	{
-		// _SPELL_IMMOLATION_ACID
-		castIMMOLATION_ACID,
-		_SKILL_ELEMENTALISM,
+		// _SPELL_VITALITY
+		castVITALITY,
+		_SKILL_THAUMATURGY,
 		_SKILL_GRAND_MASTER,
 		_TARGET_NONE,
-		"Aceed tul ershealkn!",
-		250,
+		"Ylis vitl yuhma!",
+		1500,
 		_SPELL_MEDIUM,
 		_BOTH_SPELL,
 		0,
@@ -11039,12 +11040,12 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		FALSE
 	},
 	{
-		// _SPELL_IMMOLATION_POISON
-		castIMMOLATION_POISON,
+		// _SPELL_ENLIGHTENMENT
+		castENLIGHTENMENT,
 		_SKILL_THAUMATURGY,
 		_SKILL_GRAND_MASTER,
 		_TARGET_NONE,
-		"Ylis speln yuhma!", //"Poise tul ershealkn!",
+		"Ylis speln yuhma!",
 		1500,
 		_SPELL_MEDIUM,
 		_BOTH_SPELL,

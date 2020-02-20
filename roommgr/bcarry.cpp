@@ -176,7 +176,7 @@ int BCarryable::beTakenBy ( WorldObject *object )
 		// save character if not npc
 		if(!owner()->player->isNPC)
 		{
-			logInfo ( _LOG_ALWAYS, "Object taken by character. Writing character %s", owner()->getName() );
+			logInfo ( _LOG_ALWAYS, "%s taken by character. Writing character %s", object->getName(), owner()->getName() );
 			owner()->writeCharacterData();
 		}
 
@@ -349,7 +349,7 @@ int BCarryable::beGivenTo ( WorldObject *object, int override )
 
 	WorldObject *baseOwner = object->getBaseOwner();
 	BCharacter *character = (BCharacter *)baseOwner->getBase ( _BCHARACTER );
-	if( (intptr_t) character == 0x21 ) { logInfo(_LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+	if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 	if ( character ) 
 		self->makeVisible ( 0 );

@@ -103,13 +103,13 @@ modifier_t professionModifierTable[_MAX_PROFESSION] = {
 	{ 0, 0 },
 
 	// warrior
-	{ 4, -2 },
+	{ 0, 0 },
 
 	// wizard
-	{ -2, 4 },
+	{ 0, 0 },
 
 	// thief
-	{ 1, 0 },
+	{ 0, 0 },
 };
 
 char *gTrapNames[_TRAP_MAX] = {
@@ -355,7 +355,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.2},				// proficient
 		{60, 2.8},				// expert
 		{80, 3.4},				// master
-		{100, 4.0} 				// grand master
+		{100, 4.0}, 			// grand master
+		{120, 6.0}	 			// paragon
 	},
 
 	// long sword
@@ -365,7 +366,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.2},				// proficient
 		{60, 2.8},				// expert
 		{80, 3.4},				// master
-		{100, 4.0} 				// grand master
+		{100, 4.0}, 			// grand master
+		{120, 6.0}	 			// paragon
 	},
 
 	// two-handed sword
@@ -375,7 +377,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 1.8},				// proficient
 		{60, 2.2},				// expert
 		{80, 2.6},				// master
-		{100, 3.0} 				// grand master
+		{100, 3.0}, 			// grand master
+		{120, 5.0} 				// paragon
 	},
 
 	// dagger 
@@ -385,7 +388,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.0},				// proficient
 		{60, 3.0},				// expert
 		{80, 4.0},				// master
-		{100, 5.0}				// grand master
+		{100, 8.0}, 			// grand master
+		{120, 10.0} 			// paragon
 	},
 
 	// axe 
@@ -395,7 +399,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 1.6},				// proficient
 		{60, 2.2},				// expert
 		{80, 2.8},				// master
-		{100, 3.0} 				// grand master
+		{100, 3.0}, 			// grand master
+		{120, 5.0}	 			// paragon
 	},
 
 	// club 
@@ -405,7 +410,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.2},				// proficient
 		{60, 2.8},				// expert
 		{80, 3.4},				// master
-		{100, 4.0} 				// grand master
+		{100, 4.0}, 			// grand master
+		{120, 6.0}	 			// paragon
 	},
 
 	// mace 
@@ -415,7 +421,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.2},				// proficient
 		{60, 2.8},				// expert
 		{80, 3.4},				// master
-		{100, 4.0} 				// grand master
+		{100, 4.0}, 			// grand master
+		{120, 6.0}	 			// paragon
 	},
 
 	// unarmed 
@@ -425,7 +432,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.0},				// proficient
 		{60, 3.0},				// expert
 		{80, 4.0},				// master
-		{100, 5.0}				// grand master
+		{100, 5.0}, 			// grand master
+		{120, 7.0}	 			// paragon
 	},
 
 	// throwing 
@@ -435,7 +443,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.0},				// proficient
 		{60, 3.0},				// expert
 		{80, 4.0},				// master
-		{100, 5.0}				// grand master
+		{100, 5.0}, 			// grand master
+		{120, 7.0}	 			// paragon
 	},
 
 	// acrobatics 
@@ -445,7 +454,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{20, 2.0},				// proficient
 		{30, 3.0},				// expert
 		{40, 4.0},				// master
-		{50, 5.0}				// grand master
+		{50, 4.0}, 				// grand master
+		{65, 5.0}	 			// paragon
 	},
 
 	// maul 
@@ -455,7 +465,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 1.6},				// proficient
 		{60, 2.2},				// expert
 		{80, 2.8},				// master
-		{100, 3.0} 				// grand master
+		{100, 3.0}, 			// grand master
+		{120, 5.0}	 			// paragon
 	},
 	// sorcery 
 	{
@@ -464,7 +475,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{0, 3},				// proficient
 		{0, 4},				// expert
 		{0, 5},				// master
-		{0, 0}				// grand master
+		{0, 0},				// grand master
+		{0, 0}				// paragon
 	},
 
 	// elementalism 
@@ -474,7 +486,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{0, 3},				// proficient
 		{0, 4},				// expert
 		{0, 5},				// master
-		{0, 0}				// grand master
+		{0, 0},				// grand master
+		{0, 0}				// paragon
 	},
 
 	// mysticism 
@@ -484,7 +497,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{0, 3},				// proficient
 		{0, 4},				// expert
 		{0, 5},				// master
-		{0, 0}				// grand master
+		{0, 0},				// grand master
+		{0, 0}				// paragon
 	},
 
 	// thaumaturgy 
@@ -494,7 +508,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{0, 3},				// proficient
 		{0, 4},				// expert
 		{0, 5},				// master
-		{0, 0}				// grand master
+		{0, 0},				// grand master
+		{0, 0}				// paragon
 	},
 
 	// necromancy 
@@ -504,87 +519,96 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{0, 3},				// proficient
 		{0, 4},				// expert
 		{0, 5},				// master
-		{0, 0}				// grand master
+		{0, 0},				// grand master
+		{0, 0}				// paragon
 	},
 
 	// theurgism 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 0},				// familiar
 		{35, 0},				// proficient
 		{55, 0},				// expert
 		{75, 0},				// master
-		{90, 0}				// grand master
+		{90, 0},				// grand master
+		{90, 0}					// paragon
 	},
 
 	// alchemy 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 7},				// familiar
 		{30, 7},				// proficient
 		{45, 6},				// expert
 		{70, 5},				// master
-		{85, 4}				// grand master
+		{85, 4},				// grand master
+		{85, 4}					// paragon
 	},
 
 	// weaponsmith 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 7},				// familiar
 		{30, 7},				// proficient
 		{45, 6},				// expert
 		{70, 5},				// master
-		{85, 4}				// grand master
+		{85, 4},				// grand master
+		{85, 4}					// paragon
 	},
 
 	// armorer 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 7},				// familiar
 		{30, 7},				// proficient
 		{45, 6},				// expert
 		{70, 5},				// master
-		{85, 4}				// grand master
+		{85, 4},				// grand master
+		{85, 4}					// paragon
 	},
 
 	// leatherworker 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 7},				// familiar
 		{30, 7},				// proficient
 		{45, 6},				// expert
 		{70, 5},				// master
-		{85, 4}				// grand master
+		{85, 4},				// grand master
+		{85, 4}					// paragon
 	},
 
 	// seamster 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 5},				// familiar
 		{30, 5},				// proficient
 		{50, 4},				// expert
 		{75, 4},				// master
-		{90, 3}				// grand master
+		{90, 3},				// grand master
+		{90, 3}					// paragon
 	},
 
 	// tracking 
 	{
-		{0, 0},				// ignorant
-		{50, 10},			// familiar
-		{60, 10},			// proficient
+		{0, 0},					// ignorant
+		{50, 10},				// familiar
+		{60, 10},				// proficient
 		{70, 9},				// expert
 		{80, 9},				// master
-		{90, 8}				// grand master
+		{90, 8},				// grand master
+		{90, 8}					// paragon
 	},
 
 	// healing 
 	{
-		{0, 0},				// ignorant
-		{25, 10},			// familiar
+		{0, 0},					// ignorant
+		{25, 10},				// familiar
 		{35, 9},				// proficient
 		{45, 8},				// expert
 		{55, 7},				// master
-		{65, 6}				// grand master
+		{65, 6},				// grand master
+		{65, 6}					// paragon
 	},
 
 	// broadsword
@@ -594,37 +618,41 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{40, 2.2},				// proficient
 		{60, 2.8},				// expert
 		{80, 3.4},				// master
-		{100, 4.0} 				// grand master
+		{100, 4.0}, 			// grand master
+		{120, 6.0}	 			// paragon
 	},
 
 	// pick pocket 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{10, 7},				// familiar
 		{25, 7},				// proficient
 		{40, 6},				// expert
 		{55, 5},				// master
-		{70, 4}				// grand master
+		{70, 4},				// grand master
+		{70, 4}					// paragon
 	},
 
 	// detect traps 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 7},				// familiar
 		{33, 7},				// proficient
 		{55, 6},				// expert
 		{70, 5},				// master
-		{90, 4}				// grand master
+		{90, 4},				// grand master
+		{90, 4}					// paragon
 	},
 
 	// pick locks 
 	{
-		{0, 0},				// ignorant
+		{0, 0},					// ignorant
 		{15, 7},				// familiar
 		{33, 7},				// proficient
 		{55, 6},				// expert
 		{70, 5},				// master
-		{90, 4}				// grand master
+		{90, 4},				// grand master
+		{90, 3}					// paragon
 	},
 
 	// meditation
@@ -633,7 +661,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{25, 0},
 		{50, 0},
 		{70, 0},
-		{90, 0}
+		{90, 0},
+		{90, 0}					// paragon
 	},
 
 	// critical striking
@@ -643,7 +672,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{10, 0},
 		{15, 0},
 		{20, 0},
-		{25, 0}
+		{25, 0}, 				// grand master
+		{35, 0}	 				// paragon
 	},
 
 	// shield use 
@@ -653,7 +683,8 @@ skill_t gSkillInfo[_SKILL_MAX][_SKILL_LVL_MAX] = {
 		{20, 2.0},				// proficient
 		{30, 3.0},				// expert
 		{40, 4.0},				// master
-		{50, 5.0}				// grand master
+		{50, 5.0},				// grand master
+		{50, 5.0}				// paragon
 	}
 };
 

@@ -646,7 +646,7 @@ WorldObjectBase *WorldObject::addBase ( int type )
 		case _BCHARACTER:
 			retVal = new BCharacter ( this );
 			character = (BCharacter *)retVal;
-			if( (intptr_t) character == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+			if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 			break;
 
 		case _BLOCK:
@@ -837,7 +837,7 @@ void WorldObject::buildPacket ( PackedData *packet, int override )
 		}
 
 		BCharacter *bcharacter = (BCharacter *)getBase ( _BCHARACTER );
-		if( (intptr_t) character  == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+		if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 		// if this object is a character, put that here
 		if ( bcharacter ) {
@@ -3254,7 +3254,7 @@ void WorldObject::heal ( void )
 
 	if ( room && !combatGroup && health > 0 ) {
 		BCharacter *character = (BCharacter *)getBase ( _BCHARACTER );
-		if( (intptr_t)character == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+		if( reinterpret_cast< int>( character ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 		if ( stamina < 250 ) {
 			stamina++;
@@ -4037,12 +4037,12 @@ int WorldObject::processActions ( int verb, PackedData *packet )
 	int retVal = _WO_ACTION_HANDLED;
 
 	// check for invalid actions
-	if ( (intptr_t)actions == -1 ) {
+	if ( (int)actions == -1 ) {
 		logInfo ( _LOG_ALWAYS, "actions pointer == -1 (%d)", isValidPtr ( this ) );
 		return retVal;
 	}
 
-	if ( (intptr_t) actions & 0x00000003 ) {
+	if ( (int) actions & 0x00000003 ) {
 		logInfo ( _LOG_ALWAYS, "actions pointer is mis-aligned this %d ptr %d", isValidPtr( this ), isValidPtr( actions ) );
 		return retVal;
 	}

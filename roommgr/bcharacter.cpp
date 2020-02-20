@@ -10,34 +10,34 @@ int minStatValues[ _MAX_PROFESSION ][ _MAX_RACE ][ 4 ] = {
 
 	// Adventurer
 	{
-		{ 10, 10, 10, 10 },			//	Human
-		{  0,  0,  0,  0 },			//	Dwarf
-		{ 14,  6,  6, 14 },			//	Giant
-		{  7, 14, 13,  6 },			//	Elf
+		{ 7, 6, 6, 6 },			//	Human
+		{ 7, 6, 6, 6 },			//	Dwarf
+		{ 7, 6, 6, 6 },			//	Giant
+		{ 7, 6, 6, 6 },			//	Elf
 	},
 
 	// Warrior
 	{
-		{ 12, 11,  6, 11 },			//	Human
-		{  0,  0,  0,  0 },			//	Dwarf
-		{ 16,  7,  2, 15 },			//	Giant
-		{  9, 15,  9,  7 },			//	Elf  
+		{ 9, 7,  2, 7 },			//	Human
+		{ 9, 7,  2, 7 },			//	Dwarf
+		{ 9, 7,  2, 7 },			//	Giant
+		{ 9, 7,  2, 7 },			//	Elf  
 	},
 
 	// Wizard
 	{
-		{  6, 11, 14,  9 },			//	Human
-		{  0,  0,  0,  0 },			//	Dwarf
-		{ 10,  7, 10, 13 },			//	Giant
-		{  3, 15, 17,  5 },			//	Elf  
+		{  3, 7, 10,  5 },			//	Human
+		{  3, 7, 10,  5 },			//	Dwarf
+		{  3, 7, 10,  5 },			//	Giant
+		{  3, 7, 10,  5 },			//	Elf  
 	},
 
 	// Thief
 	{
-		{  9, 13,  8, 10 },			//	Human
-		{  0,  0,  0,  0 },			//	Dwarf
-		{ 13,  9,  4, 14 },			//	Giant
-		{  6, 17, 11,  6 },			//	Elf  
+		{  6, 9,  4, 6 },			//	Human
+		{  6, 9,  4, 6 },			//	Dwarf
+		{  6, 9,  4, 6 },			//	Giant
+		{  6, 9,  4, 6 },			//	Elf  
 	}
 };
 
@@ -138,9 +138,9 @@ void BCharacter::setWearMask ( void )
 // gain positive or negative experience points
 void BCharacter::gainExperience ( int exp, PackedData *movie )
 {
-	// Dwarves and Giants change
-	// int maxLevel = 10000;
-	int maxLevel = 100;
+	// Serenia change
+	// int maxLevel = 100;
+	int maxLevel = 10000;
 
 	if ( !self->player || self->player->isNPC )
 		return;

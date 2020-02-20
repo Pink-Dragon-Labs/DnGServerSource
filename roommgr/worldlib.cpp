@@ -2099,7 +2099,7 @@ int ObjectInfoParser::processTokenList ( void )
 
 					case _BCHARACTER: {
 						BCharacter *bcharacter = (BCharacter *)base;
-						if( (intptr_t)bcharacter  == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
+						if( reinterpret_cast< int>( bcharacter ) == 0x21 ) { logInfo( _LOG_ALWAYS, "%s:%d - BCharacter value corrupted", __FILE__, __LINE__ ); }
 
 						if ( !strcmp ( text, "profession" ) ) 
 							retVal = getInteger ( &bcharacter->profession );	

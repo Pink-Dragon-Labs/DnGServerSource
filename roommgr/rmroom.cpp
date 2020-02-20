@@ -943,8 +943,8 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 	// get the number of rooms in the house
 	int numRooms = bufgetint ( str, &ptr, &bufferSize );
 
-	if ( numRooms != 3 )
-		isFunkHouse = 1;
+	/*if ( numRooms != 4 )
+		isFunkHouse = 1;*/
 
 	while ( !isFunkHouse && numRooms > 0 ) {
 		RMRoom *room = new RMRoom;
@@ -1037,7 +1037,7 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 		door->tempID = id++;
 
 		// fix the invalid house files that have no links!
-		if ( ( (intptr_t) door->linkTo ) == -1 ) {
+		if ( ( (int) door->linkTo ) == -1 ) {
 			logInfo ( _LOG_ALWAYS, "(%s) house had an unlinked door!", _owner );
 
 			switch ( door->x ) {
@@ -1091,12 +1091,12 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 		WorldObject *door = (WorldObject *)element->ptr();
 		element = element->next();
 
-		if ( ((intptr_t)door->linkTo) < 10000 ) {
+		if ( ((int)door->linkTo) < 10000 ) {
 			door->linkTo = NULL;
 		}
 	}
 
-	RMRoom *room = (RMRoom *)rooms.at ( 2 );
+	RMRoom *room = (RMRoom *)rooms.at ( 3 );
 		
 	if ( room ) { 
 		room->south = -2;
