@@ -23,7 +23,7 @@ void teleportHouse ( WorldObject *obj, char *name )
 
 		// if not owner, default to front yard
 		if ( strcasecmp ( obj->getName(), house->_owner ) )
-			roomIdx = 2;
+			roomIdx = 3;
 
 		RMRoom *room = (RMRoom *)house->rooms.at ( roomIdx );
 		int roomNumber = room? room->number : random ( 5000, 5089 );
@@ -68,7 +68,7 @@ void cbTeleportHouse ( int result, int context, int houseID, int accountID, char
 
 			// if not owner, default to front yard
 			if ( strcasecmp ( obj? obj->getName() : "", house->_owner ) )
-				roomIdx = 2;
+				roomIdx = 3;
 
 			RMRoom *room = (RMRoom *)house->rooms.at ( roomIdx );
 			int roomNumber = room? room->number : random ( 5000, 5089 );

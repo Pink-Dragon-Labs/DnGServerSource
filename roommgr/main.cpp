@@ -2061,7 +2061,7 @@ int main ( int argc, char **argv )
 	appCrashHandler = handleCrash;
 
 	printf ( "-------------------------------------------\n" );
-	printf ( "Dwarves and Giants - Server v0.1\n" );
+	printf ( "The Realms of Serenia - Server v0.23\n" );
 	printf ( "startup mode: %s server.\n", IsThisATestServer() ? "\bTEST" : "MAIN" );
 	printf ( "-------------------------------------------\n\n" );
 
@@ -2092,7 +2092,7 @@ int main ( int argc, char **argv )
 	gShutdownMessage[0] = 0;
 
 	gChannels[4]->setName ( "General" );
-	gChannels[4]->setTopic ( "|c85|Welcome to Dwarves and Giants! (Name not final)" );
+	gChannels[4]->setTopic ( "|c85|Welcome to The Realms of Serenia!" );
 	gChannels[4]->isSystem = 1;
 
 	//gChannels[0]->setName ( "Help" );
@@ -2159,7 +2159,7 @@ int main ( int argc, char **argv )
 	}
 
 	if ( argc > 2 && !strcmp ( argv[2], "-items" ) ) {
-		LinkedList itemLists[_SKILL_MAX][5];
+		LinkedList itemLists[_SKILL_MAX][6];
 		LinkedElement *element = roomMgr->_classes.head();
 
 		while ( element ) {
@@ -2188,7 +2188,7 @@ int main ( int argc, char **argv )
 		}
 
 		for ( int i=0; i<_SKILL_MAX; i++ ) {
-			for ( int j=0; j<5; j++ ) {
+			for ( int j=0; j<6; j++ ) {
 				if ( itemLists[i][j].size() ) {
 					element = itemLists[i][j].head();
 

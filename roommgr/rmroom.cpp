@@ -943,8 +943,8 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 	// get the number of rooms in the house
 	int numRooms = bufgetint ( str, &ptr, &bufferSize );
 
-	if ( numRooms != 3 )
-		isFunkHouse = 1;
+	/*if ( numRooms != 4 )
+		isFunkHouse = 1;*/
 
 	while ( !isFunkHouse && numRooms > 0 ) {
 		RMRoom *room = new RMRoom;
@@ -1096,7 +1096,7 @@ int Building::loadHouseData ( char *buffer, int bufferSize )
 		}
 	}
 
-	RMRoom *room = (RMRoom *)rooms.at ( 2 );
+	RMRoom *room = (RMRoom *)rooms.at ( 3 );
 		
 	if ( room ) { 
 		room->south = -2;

@@ -3306,7 +3306,7 @@ void cmdLearned ( LinkedList *tokens, char *str, RMPlayer *player )
 		int i;
 
 		for ( i=0; i<_SKILL_MAX; ++i ) 
-			bchar->skills[i] = _SKILL_LVL_GRAND_MASTER;
+			bchar->skills[i] = _SKILL_LVL_PARAGON;		// _SKILL_LVL_GRAND_MASTER;
 
 		for ( i=0; i < _SPELL_MAX; ++i )
 			if ( i != _SPELL_HEAD_OF_DEATH || target->checkAccess( _ACCESS_IMPLEMENTOR ) )  // do not grant head of death.
@@ -3937,7 +3937,7 @@ void cmdStatus ( LinkedList *tokens, char *str, RMPlayer *player )
 
 	char output[10240];
 	
-	sprintf ( sizeof(output), output, "Dwarves and Giants Server v0.1\nBuild Date: %s %s\n----------------------------------\nuptime = %.2d:%.2d:%.2d\n\ndungeons active = %d\ndungeons disposing = %d\ndungeons in error = %d\n\nmemory taken\n #%d allocations for %d bytes\nlargest single %d current allocs %d\n\nfile handles = %d\nobjects = %d\naffected objects = %d\n\nhouses -  %d total, %d disposing\n\nplayers = %d  NPCs = %d", __DATE__, __TIME__, upHours, upMinutes, upSeconds, dungeonCount_active, dungeonCount_shuttingDown, dungeonCount_error, gAllocCount, gAllocSize, gLargestAllocSize, g_nAllocations, gFileHandles.val(), roomMgr->_objects.size(), gAffectedObjects.size(), gBuildings.size(), gEmptyBuildings.size(), nPlayers, nNPCs );
+	sprintf ( sizeof(output), output, "The Realms of Serenia Server v0.23\nBuild Date: %s %s\n----------------------------------\nuptime = %.2d:%.2d:%.2d\n\ndungeons active = %d\ndungeons disposing = %d\ndungeons in error = %d\n\nmemory taken\n #%d allocations for %d bytes\nlargest single %d current allocs %d\n\nfile handles = %d\nobjects = %d\naffected objects = %d\n\nhouses -  %d total, %d disposing\n\nplayers = %d  NPCs = %d", __DATE__, __TIME__, upHours, upMinutes, upSeconds, dungeonCount_active, dungeonCount_shuttingDown, dungeonCount_error, gAllocCount, gAllocSize, gLargestAllocSize, g_nAllocations, gFileHandles.val(), roomMgr->_objects.size(), gAffectedObjects.size(), gBuildings.size(), gEmptyBuildings.size(), nPlayers, nNPCs );
 
 	char filename [ 1024 ];
 	sprintf ( sizeof ( filename ), filename, "../logs/memoryStat.txt.%d", getpid() );
@@ -3969,7 +3969,7 @@ void cmdState ( LinkedList *tokens, char *str, RMPlayer *player )
 	if ( player && player->character && player->character->character ) {
 		BCharacter *pChar = player->character->character;
 		
-		roomMgr->sendSystemMsg ( "Your State", player, "|c13|Build Points: %d\nMelee Armor Pierce: %d\nEvil MDM Mod: %d\nGood MDM Mod: %d\nCast Resistance: S:%d E:%d M:%d T:%d N:%d\nSpell Resistance: S:%d E:%d M:%d T:%d N:%d\nSDM: S:%d E:%d M:%d T:%d N:%d\nPlayer Kills: %d\nNPC Kills: %d\n",  pChar->buildPoints, pChar->m_nMeleeArmorPiercing, pChar->m_nEvilMDMMod, pChar->m_nGoodMDMMod, pChar->m_anCastResistance[0], pChar->m_anCastResistance[1], pChar->m_anCastResistance[2], pChar->m_anCastResistance[3], pChar->m_anCastResistance[4], pChar->m_anSpellResistance[0], pChar->m_anSpellResistance[1], pChar->m_anSpellResistance[2], pChar->m_anSpellResistance[3], pChar->m_anSpellResistance[4], pChar->m_anSDM[0], pChar->m_anSDM[1], pChar->m_anSDM[2], pChar->m_anSDM[3], pChar->m_anSDM[4], pChar->playerKills, pChar->npcKills  );
+		roomMgr->sendSystemMsg ( "Your State", player, "|c1|Current Level: %d\n|c22|Build Points: %d\n\n|c248|Armor Rating: %d\n|c13|Armor Pierce: %d\n|c60|Evil MDM Mod: %d\n|c67|Good MDM Mod: %d\n\n|c55|Spell Resistance: S:%d E:%d M:%d T:%d N:%d\n|c20|SDM: S:%d E:%d M:%d T:%d N:%d\n\n|c107|Player Kills: %d\nNPC Kills: %d",  pChar->topLevel, pChar->buildPoints, pChar->m_nMeleeArmorPiercing, pChar->m_nEvilMDMMod, pChar->m_nGoodMDMMod, pChar->m_anSpellResistance[0], pChar->m_anSpellResistance[1], pChar->m_anSpellResistance[2], pChar->m_anSpellResistance[3], pChar->m_anSpellResistance[4], pChar->m_anSDM[0], pChar->m_anSDM[1], pChar->m_anSDM[2], pChar->m_anSDM[3], pChar->m_anSDM[4], pChar->playerKills, pChar->npcKills  );
 	}
 }
 

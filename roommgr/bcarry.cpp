@@ -176,7 +176,7 @@ int BCarryable::beTakenBy ( WorldObject *object )
 		// save character if not npc
 		if(!owner()->player->isNPC)
 		{
-			logInfo ( _LOG_ALWAYS, "Object taken by character. Writing character %s", owner()->getName() );
+			logInfo ( _LOG_ALWAYS, "%s taken by character. Writing character %s", object->getName(), owner()->getName() );
 			owner()->writeCharacterData();
 		}
 
