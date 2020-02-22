@@ -6465,7 +6465,7 @@ SPELL ( castINVULNERABILITY )
 
 	caster = caster->getBaseOwner();
 
-	if ( caster->character->profession == _PROF_WIZARD ) {
+	//if ( caster->character->profession == _PROF_WIZARD ) {
 
 		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 		int duration = 0;
@@ -6493,11 +6493,11 @@ SPELL ( castINVULNERABILITY )
 		sprintf ( sizeof ( buf ), buf, "A invulnerability aura surrounds %s! ", target->getName() );
 		strcat ( output, buf );
 
-	}else{ 
+	/*}else{ 
 		char buf[1024];
 		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
    		strcat ( output, buf );
-	}
+	}*/
 	return NULL;
 }
 
@@ -8795,6 +8795,82 @@ SPELL ( castSUMMON_DRAGON )
 	return NULL;
 }
 
+SPELL ( castSUMMON_MIST )
+{
+	caster = caster->getBaseOwner();
+
+	switch ( random ( 0, 5 ) )
+	{
+		case 0:
+			summonMonster ( 1, "EvilMinion", "evil minion", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+		case 1:
+			summonMonster ( 1, "Champion", "champion", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+		break;
+		case 2:
+			summonMonster ( 1, "Protector", "protector", _SE_SUMMON_NIGHT_FRIENDS, targetX, targetY, caster, output, packet );
+		break;
+		case 3:
+			summonMonster ( 1, "GoodWizard", "ancient one", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+		break;
+		case 4:
+			summonMonster ( 1, "EvilWizard", "warlock", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+		case 5:
+			summonMonster ( 1, "NeutralWizard", "mist mage", _SE_SUMMON_NIGHT_FRIENDS, targetX, targetY, caster, output, packet );
+		break;
+	}
+
+	return NULL;
+}
+
+SPELL ( castIMP_INVULNERABILITY )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target || !target->player ) {
+		strcat ( output, "Nothing happens. " );
+		return NULL;
+	}
+
+	caster = caster->getBaseOwner();
+
+	if ( caster->character->profession == _PROF_WIZARD ) {
+
+		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
+		int duration = 0;
+
+		duration = calcSpellDuration ( caster, 15 * skill, packet );	// 10
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_INVULNERABILITY );
+		packet->putByte ( 1 );
+		packet->putLong ( target->servID );
+
+		affect_t *affect = target->hasAffect ( _AFF_INVULNERABLE );
+
+		if ( affect ) {
+			affect->value = 140;	// 70
+			affect->duration = duration;
+		} else {
+			target->addAffect ( _AFF_INVULNERABLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 140, packet );	// 70
+		}
+
+		target->calcAC();
+
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c21|An improved invulnerability aura surrounds %s! ", target->getName() );
+		strcat ( output, buf );
+
+	}else{ 
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   		strcat ( output, buf );
+	}
+	return NULL;
+}
+
 spell_info gSpellTable[_SPELL_MAX] = {
 	{
 		// _SPELL_HOME
@@ -11063,6 +11139,34 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		250,
 		_SPELL_MEDIUM,
 		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_IMP_INVULNERABILITY
+		castIMP_INVULNERABILITY,
+		_SKILL_THAUMATURGY,
+		_SKILL_GRAND_MASTER,
+		_TARGET_NONE,
+		"Estructos odomniu improvn!",
+		115,
+		_SPELL_FAST,	// SLOW
+		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_SUMMON_MIST
+		castSUMMON_MIST,
+		_SKILL_NECROMANCY,
+		_SKILL_GRAND_MASTER,
+		_TARGET_NONE,
+		"Arise, servant of the mists..",
+		500,
+		_SPELL_FAST,
+		_COMBAT_SPELL,
 		0,
 		FALSE,
 		FALSE
