@@ -11147,7 +11147,7 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_IMP_INVULNERABILITY
 		castIMP_INVULNERABILITY,
 		_SKILL_THAUMATURGY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Estructos odomniu improvn!",
 		115,
@@ -11160,8 +11160,8 @@ spell_info gSpellTable[_SPELL_MAX] = {
 	{
 		// _SPELL_SUMMON_MIST
 		castSUMMON_MIST,
-		_SKILL_NECROMANCY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_MYSTICISM,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Arise, servant of the mists..",
 		500,
