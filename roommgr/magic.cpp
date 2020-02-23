@@ -11105,7 +11105,7 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_VITALITY
 		castVITALITY,
 		_SKILL_THAUMATURGY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Ylis vitl yuhma!",
 		1500,
@@ -11119,7 +11119,7 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_ENLIGHTENMENT
 		castENLIGHTENMENT,
 		_SKILL_THAUMATURGY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Ylis speln yuhma!",
 		1500,
