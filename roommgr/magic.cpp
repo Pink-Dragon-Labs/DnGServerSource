@@ -5468,11 +5468,11 @@ SPELL ( castHEAD_OF_DEATH )
 
 		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
 		packet->putLong ( caster->servID );
-		packet->putByte ( _SE_HEAD_OF_DEATH );
+		packet->putByte ( _SE_DUACHS_VENGEANCE );		// _SE_HEAD_OF_DEATH
 		packet->putByte ( 1 );
 		packet->putLong ( target->servID );
 
-		target->takeDamage ( BWeapon::_DAMAGE_LIGHTNING, caster, damage, output, packet, 1 );
+		target->takeDamage ( BWeapon::_DAMAGE_NORMAL, caster, damage, output, packet, 1 );
 	}
 
 	return NULL;
@@ -6137,12 +6137,10 @@ SPELL ( castWRATH_OF_THE_GODS )
 		}
 	}
 
-	// if you're no good, you take damage
-
-	//MIKE-ALIGNMENT - changed to reflect alignment table
-	//if ( caster->alignment <= 175 )
+	/* if you're no good, you take damage
 	if ( caster->alignment < 171 )
 		wrathedList.add ( caster );
+	*/
 
 	// build effect packet and damage creatures
 
@@ -6465,7 +6463,7 @@ SPELL ( castINVULNERABILITY )
 
 	caster = caster->getBaseOwner();
 
-	if ( caster->character->profession == _PROF_WIZARD ) {
+	//if ( caster->character->profession == _PROF_WIZARD ) {
 
 		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
 		int duration = 0;
@@ -6493,11 +6491,11 @@ SPELL ( castINVULNERABILITY )
 		sprintf ( sizeof ( buf ), buf, "A invulnerability aura surrounds %s! ", target->getName() );
 		strcat ( output, buf );
 
-	}else{ 
+	/*}else{ 
 		char buf[1024];
 		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
    		strcat ( output, buf );
-	}
+	}*/
 	return NULL;
 }
 
@@ -7706,18 +7704,91 @@ SPELL ( castDEATH_WISH )
   	packet->putByte ( 1 );
   	packet->putLong ( target->servID );
 
-	if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
-		//int damage = 35 * skill;
-		int damage = random ( skill * 42, skill * 48 );
 
-		if ( target->coarseAlignment() == _ALIGN_GOOD ) {
-			damage *= 3;
-		}
+	// Zach - 1/5 chance for Death Wish to backfire
+	switch ( random ( 0, 4 ) )
+	{
+		case 0:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
 
-		target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
-  	} else {
- 		sprintf ( sizeof ( buf ), buf, "%s is unaffected by the death wish! ", target->getName() );
-		strcat ( output, buf );
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 1:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 2:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 3:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 4:
+			if ( !caster->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( caster->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				caster->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+				sprintf ( sizeof ( buf ), buf, "|c60|Duach is displeased with %s, Death Wish backfired! ", caster->getName() );
+				strcat ( output, buf );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", caster->getName() );
+				strcat ( output, buf );
+			}
+		break;
 	}
 
 	return NULL;
@@ -8794,6 +8865,178 @@ SPELL ( castSUMMON_DRAGON )
 
 	return NULL;
 }
+
+SPELL ( castSUMMON_MIST )
+{
+	caster = caster->getBaseOwner();
+
+	switch ( random ( 0, 5 ) )
+	{
+		case 0:
+			summonMonster ( 1, "EvilMinion", "evil minion", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+		case 1:
+			summonMonster ( 1, "Champion", "champion", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+		break;
+		case 2:
+			summonMonster ( 1, "Protector", "protector", _SE_SUMMON_NIGHT_FRIENDS, targetX, targetY, caster, output, packet );
+		break;
+		case 3:
+			summonMonster ( 1, "GoodWizard", "ancient one", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+		break;
+		case 4:
+			summonMonster ( 1, "EvilWizard", "warlock", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+		case 5:
+			summonMonster ( 1, "NeutralWizard", "mist mage", _SE_SUMMON_NIGHT_FRIENDS, targetX, targetY, caster, output, packet );
+		break;
+	}
+
+	return NULL;
+}
+
+SPELL ( castIMP_INVULNERABILITY )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target || !target->player ) {
+		strcat ( output, "Nothing happens. " );
+		return NULL;
+	}
+
+	caster = caster->getBaseOwner();
+
+	if ( caster->character->profession == _PROF_WIZARD ) {
+
+		int skill = calcSpellSkill ( caster, _SKILL_THAUMATURGY );
+		int duration = 0;
+
+		duration = calcSpellDuration ( caster, 15 * skill, packet );	// 10
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_INVULNERABILITY );
+		packet->putByte ( 1 );
+		packet->putLong ( target->servID );
+
+		affect_t *affect = target->hasAffect ( _AFF_INVULNERABLE );
+
+		if ( affect ) {
+			affect->value = 140;	// 70
+			affect->duration = duration;
+		} else {
+			target->addAffect ( _AFF_INVULNERABLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 140, packet );	// 70
+		}
+
+		target->calcAC();
+
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c21|An improved invulnerability aura surrounds %s! ", target->getName() );
+		strcat ( output, buf );
+
+	}else{ 
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c60|Your class cannot use this spell!" );
+   		strcat ( output, buf );
+	}
+	return NULL;
+}
+
+SPELL ( castDAMNATION )
+{
+	caster = caster->getBaseOwner();
+
+	if ( !caster || !caster->opposition || !caster->opposition->size() )
+		return NULL;
+
+	LinkedList wrathedList;
+
+	/* build affected list */
+	int skill = calcSpellSkill ( caster, _SKILL_NECROMANCY );
+
+	// don't take out your own team!
+	LinkedElement *element = caster->opposition->head();
+
+	while ( element )
+	{
+		WorldObject *target = (WorldObject *)element->ptr();
+		element = element->next();
+
+		/* target is good... add to the wrath list */
+		if ( target->health > 0 && target->alignment > 171 )
+		{
+			wrathedList.add ( target );
+		}
+	}
+
+	/* if you're good, you take damage
+	if ( caster->alignment > 171 )
+		wrathedList.add ( caster );
+	*/
+
+	// build effect packet and damage creatures
+
+	if ( !wrathedList.size() ) 
+		strcat ( output, "Nothing happens. " );
+	else
+	{
+		WorldObject *object;
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_WRATH_OF_THE_GODS );
+		packet->putByte ( 1 );
+		packet->putByte ( wrathedList.size() );
+
+		element = wrathedList.head();
+
+		while ( element ) {
+			object = (WorldObject *)element->ptr();
+			packet->putLong ( object->servID );
+			element = element->next();
+		}
+
+		//  now damage wrathed creatures
+		element = wrathedList.head();
+		while ( element )
+		{
+			object = (WorldObject *)element->ptr();
+
+			CPlayerState *pPlayerState = object->character;
+			int nResisted = 0;
+	
+			if ( pPlayerState ) {
+				if ( pPlayerState->TestSpellResistance ( _SKILL_THAUMATURGY - _SKILL_SORCERY ) ) {
+					nResisted = 1;
+	
+					packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+					packet->putLong ( caster->servID );
+					packet->putByte ( _SE_SPELL_BLAST );
+					packet->putByte ( 0 );
+					packet->putByte ( 1 );
+					packet->putLong ( object->servID );
+				}
+			}
+	
+			if ( !nResisted ) {
+				int damage = random ( 48 * skill, 65 * skill ); // 48 , 64
+
+				if ( object->coarseAlignment() == _ALIGN_GOOD )
+					damage *= 2.5;
+
+				object->takeDamage ( WorldObject::_DAMAGE_PSYCHIC, caster, damage, output, packet, 1 );
+			}
+
+			element = element->next();
+		}
+
+	}
+
+	wrathedList.release();
+
+	return NULL;
+}
+
 
 spell_info gSpellTable[_SPELL_MAX] = {
 	{
@@ -10766,9 +11009,9 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_HEAD_OF_DEATH
 		castHEAD_OF_DEATH,
 		_SKILL_ELEMENTALISM,
-		_SKILL_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
-		"Head of painful, instantaneous, and unstoppable death.",
+		"Die, mortal!",
 		1,
 		_SPELL_FAST,
 		_BOTH_SPELL,
@@ -11029,7 +11272,7 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_VITALITY
 		castVITALITY,
 		_SKILL_THAUMATURGY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Ylis vitl yuhma!",
 		1500,
@@ -11043,7 +11286,7 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_ENLIGHTENMENT
 		castENLIGHTENMENT,
 		_SKILL_THAUMATURGY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Ylis speln yuhma!",
 		1500,
@@ -11066,6 +11309,48 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		0,
 		FALSE,
 		FALSE
+	},
+	{
+		// _SPELL_IMP_INVULNERABILITY
+		castIMP_INVULNERABILITY,
+		_SKILL_THAUMATURGY,
+		_SKILL_PARAGON,
+		_TARGET_NONE,
+		"Estructos odomniu improvn!",
+		115,
+		_SPELL_FAST,	// SLOW
+		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_SUMMON_MIST
+		castSUMMON_MIST,
+		_SKILL_MYSTICISM,
+		_SKILL_PARAGON,
+		_TARGET_NONE,
+		"Arise, servant of the mists..",
+		500,
+		_SPELL_FAST,
+		_COMBAT_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_DAMNATION
+		castDAMNATION,
+		_SKILL_NECROMANCY,
+		_SKILL_MASTER,
+		_TARGET_NONE,
+		"Uhlumni ehm ahnious palon!",
+		15,
+		_SPELL_SLOW,
+		_COMBAT_SPELL,
+		0,
+		FALSE,
+		TRUE
 	}
 };
 
