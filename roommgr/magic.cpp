@@ -5468,11 +5468,11 @@ SPELL ( castHEAD_OF_DEATH )
 
 		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
 		packet->putLong ( caster->servID );
-		packet->putByte ( _SE_HEAD_OF_DEATH );
+		packet->putByte ( _SE_DUACHS_VENGEANCE );		// _SE_HEAD_OF_DEATH
 		packet->putByte ( 1 );
 		packet->putLong ( target->servID );
 
-		target->takeDamage ( BWeapon::_DAMAGE_LIGHTNING, caster, damage, output, packet, 1 );
+		target->takeDamage ( BWeapon::_DAMAGE_FIRE, caster, damage, output, packet, 1 );
 	}
 
 	return NULL;
@@ -8871,6 +8871,52 @@ SPELL ( castIMP_INVULNERABILITY )
 	return NULL;
 }
 
+SPELL ( castAPOCALYPSE )
+{
+	caster = caster->getBaseOwner();
+
+	if ( !caster || !caster->opposition || !caster->opposition->size() )
+		return NULL;
+
+	int skill = calcSpellSkill ( caster, _SKILL_NECROMANCY );
+
+	char buf[1024];
+	sprintf ( sizeof ( buf ), buf, "|c248|%s calls down an Apocalypse on the battlefield!! ", caster->getName());
+	strcat ( output, buf );
+
+	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+	packet->putLong ( caster->servID );
+	packet->putByte ( _SE_DUACHS_VENGEANCE );
+	packet->putByte ( 1 );
+	packet->putByte ( caster->opposition->size() );
+
+	LinkedElement *element = caster->opposition->head();
+
+	// build effect
+	while ( element )
+	{
+		WorldObject *target = (WorldObject *)element->ptr();
+		element = element->next();
+
+		packet->putLong ( target->servID );
+	}
+
+	// handle meteors
+	element = caster->opposition->head();
+
+	while ( element ) {
+		WorldObject *target = (WorldObject *)element->ptr();
+		element = element->next();
+
+		CPlayerState *pPlayerState = target->character;
+
+		int damage = random ( skill * 90, skill * 140 );
+		target->takeDamage ( _AFF_DAMAGE_FIRE, caster, damage, output, packet, 1 );
+	}
+
+	return NULL;
+}
+
 spell_info gSpellTable[_SPELL_MAX] = {
 	{
 		// _SPELL_HOME
@@ -10842,9 +10888,9 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_HEAD_OF_DEATH
 		castHEAD_OF_DEATH,
 		_SKILL_ELEMENTALISM,
-		_SKILL_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
-		"Head of painful, instantaneous, and unstoppable death.",
+		"Die.",
 		1,
 		_SPELL_FAST,
 		_BOTH_SPELL,
@@ -11170,6 +11216,20 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		0,
 		FALSE,
 		FALSE
+	},
+	{
+		// _SPELL_APOCALYPSE
+		castAPOCALYPSE,
+		_SKILL_NECROMANCY,
+		_SKILL_PARAGON,
+		_TARGET_NONE,
+		"Destruction..",
+		2000,
+		_SPELL_SLOW,
+		_COMBAT_SPELL,
+		0,
+		FALSE,
+		TRUE
 	}
 };
 
