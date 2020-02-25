@@ -5472,7 +5472,7 @@ SPELL ( castHEAD_OF_DEATH )
 		packet->putByte ( 1 );
 		packet->putLong ( target->servID );
 
-		target->takeDamage ( BWeapon::_DAMAGE_FIRE, caster, damage, output, packet, 1 );
+		target->takeDamage ( BWeapon::_DAMAGE_NORMAL, caster, damage, output, packet, 1 );
 	}
 
 	return NULL;
@@ -6137,12 +6137,10 @@ SPELL ( castWRATH_OF_THE_GODS )
 		}
 	}
 
-	// if you're no good, you take damage
-
-	//MIKE-ALIGNMENT - changed to reflect alignment table
-	//if ( caster->alignment <= 175 )
+	/* if you're no good, you take damage
 	if ( caster->alignment < 171 )
 		wrathedList.add ( caster );
+	*/
 
 	// build effect packet and damage creatures
 
@@ -7706,18 +7704,91 @@ SPELL ( castDEATH_WISH )
   	packet->putByte ( 1 );
   	packet->putLong ( target->servID );
 
-	if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
-		//int damage = 35 * skill;
-		int damage = random ( skill * 42, skill * 48 );
 
-		if ( target->coarseAlignment() == _ALIGN_GOOD ) {
-			damage *= 3;
-		}
+	// Zach - 1/5 chance for Death Wish to backfire
+	switch ( random ( 0, 4 ) )
+	{
+		case 0:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
 
-		target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
-  	} else {
- 		sprintf ( sizeof ( buf ), buf, "%s is unaffected by the death wish! ", target->getName() );
-		strcat ( output, buf );
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 1:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 2:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 3:
+			if ( !target->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( target->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				target->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", target->getName() );
+				strcat ( output, buf );
+			}
+		break;
+
+		case 4:
+			if ( !caster->hasAffect ( _AFF_MARK_ENID ) ) {
+				//int damage = 35 * skill;
+				int damage = random ( skill * 42, skill * 48 );
+
+				if ( caster->coarseAlignment() == _ALIGN_GOOD ) {
+					damage *= 3;
+				}
+
+				caster->takeDamage ( _AFF_DAMAGE_STEAL_LIFE, caster, damage, output, packet, 1 );
+				sprintf ( sizeof ( buf ), buf, "|c60|Duach is displeased with %s, Death Wish backfired! ", caster->getName() );
+				strcat ( output, buf );
+  			} else {
+ 				sprintf ( sizeof ( buf ), buf, "|c12|The Goddess Enid protected %s from Death Wish! ", caster->getName() );
+				strcat ( output, buf );
+			}
+		break;
 	}
 
 	return NULL;
@@ -8871,51 +8942,101 @@ SPELL ( castIMP_INVULNERABILITY )
 	return NULL;
 }
 
-SPELL ( castAPOCALYPSE )
+SPELL ( castDAMNATION )
 {
 	caster = caster->getBaseOwner();
 
 	if ( !caster || !caster->opposition || !caster->opposition->size() )
 		return NULL;
 
+	LinkedList wrathedList;
+
+	/* build affected list */
 	int skill = calcSpellSkill ( caster, _SKILL_NECROMANCY );
 
-	char buf[1024];
-	sprintf ( sizeof ( buf ), buf, "|c248|%s calls down an Apocalypse on the battlefield!! ", caster->getName());
-	strcat ( output, buf );
-
-	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
-	packet->putLong ( caster->servID );
-	packet->putByte ( _SE_DUACHS_VENGEANCE );
-	packet->putByte ( 1 );
-	packet->putByte ( caster->opposition->size() );
-
+	// don't take out your own team!
 	LinkedElement *element = caster->opposition->head();
 
-	// build effect
 	while ( element )
 	{
 		WorldObject *target = (WorldObject *)element->ptr();
 		element = element->next();
 
-		packet->putLong ( target->servID );
+		/* target is good... add to the wrath list */
+		if ( target->health > 0 && target->alignment > 171 )
+		{
+			wrathedList.add ( target );
+		}
 	}
 
-	// handle meteors
-	element = caster->opposition->head();
+	/* if you're good, you take damage
+	if ( caster->alignment > 171 )
+		wrathedList.add ( caster );
+	*/
 
-	while ( element ) {
-		WorldObject *target = (WorldObject *)element->ptr();
-		element = element->next();
+	// build effect packet and damage creatures
 
-		CPlayerState *pPlayerState = target->character;
+	if ( !wrathedList.size() ) 
+		strcat ( output, "Nothing happens. " );
+	else
+	{
+		WorldObject *object;
 
-		int damage = random ( skill * 90, skill * 140 );
-		target->takeDamage ( _AFF_DAMAGE_FIRE, caster, damage, output, packet, 1 );
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_WRATH_OF_THE_GODS );
+		packet->putByte ( 1 );
+		packet->putByte ( wrathedList.size() );
+
+		element = wrathedList.head();
+
+		while ( element ) {
+			object = (WorldObject *)element->ptr();
+			packet->putLong ( object->servID );
+			element = element->next();
+		}
+
+		//  now damage wrathed creatures
+		element = wrathedList.head();
+		while ( element )
+		{
+			object = (WorldObject *)element->ptr();
+
+			CPlayerState *pPlayerState = object->character;
+			int nResisted = 0;
+	
+			if ( pPlayerState ) {
+				if ( pPlayerState->TestSpellResistance ( _SKILL_THAUMATURGY - _SKILL_SORCERY ) ) {
+					nResisted = 1;
+	
+					packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+					packet->putLong ( caster->servID );
+					packet->putByte ( _SE_SPELL_BLAST );
+					packet->putByte ( 0 );
+					packet->putByte ( 1 );
+					packet->putLong ( object->servID );
+				}
+			}
+	
+			if ( !nResisted ) {
+				int damage = random ( 48 * skill, 65 * skill ); // 48 , 64
+
+				if ( object->coarseAlignment() == _ALIGN_GOOD )
+					damage *= 2.5;
+
+				object->takeDamage ( WorldObject::_DAMAGE_PSYCHIC, caster, damage, output, packet, 1 );
+			}
+
+			element = element->next();
+		}
+
 	}
+
+	wrathedList.release();
 
 	return NULL;
 }
+
 
 spell_info gSpellTable[_SPELL_MAX] = {
 	{
@@ -10890,7 +11011,7 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		_SKILL_ELEMENTALISM,
 		_SKILL_PARAGON,
 		_TARGET_NONE,
-		"Die.",
+		"Die, mortal!",
 		1,
 		_SPELL_FAST,
 		_BOTH_SPELL,
@@ -11218,13 +11339,13 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		FALSE
 	},
 	{
-		// _SPELL_APOCALYPSE
-		castAPOCALYPSE,
+		// _SPELL_DAMNATION
+		castDAMNATION,
 		_SKILL_NECROMANCY,
-		_SKILL_PARAGON,
+		_SKILL_MASTER,
 		_TARGET_NONE,
-		"Destruction..",
-		2000,
+		"Uhlumni ehm ahnious palon!",
+		15,
 		_SPELL_SLOW,
 		_COMBAT_SPELL,
 		0,
