@@ -5764,26 +5764,76 @@ SPELL ( castMONSTER_SUMMONING_I )
 {
 	caster = caster->getBaseOwner();
 
-	switch (random (0, 4) )
+	switch ( random ( 0, 8 ) )
 	{
 		case 0:
-			summonMonster ( 1, "Pixie", "pixie", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			/* summon a Lost Bog Dragon */
+            summonMonster ( 1, "SummonAncientSoul", "Ancient Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 1:
-			summonMonster ( 1, "DesertRat", "desert ratling", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			/* summon a Mire Dragon */
+            summonMonster ( 1, "SummonEarthSoul", "Earth Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 2:
-			summonMonster ( 1, "FlyingRat", "flying rat", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			/* summon a Bog Dragon */
+            summonMonster ( 1, "SummonFierySoul", "Fiery Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 3:
-			summonMonster ( 1, "Skeleton", "skeleton", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			/* summon an Elder Dragon */
+            summonMonster ( 1, "SummonDemonicSoul", "Demonic Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 4:
-			summonMonster ( 1, "Ghoul", "ghoul", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			/* summon a Legendary Lava Dragon */
+            summonMonster ( 1, "SummonGhostSoul", "Ghost Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 5:
+			/* summon a Legendary Wyrm */
+            summonMonster ( 1, "SummonRoyalSoul", "Royal Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 6:
+			/* summon a Legendary Obsidian Dragon */
+            summonMonster ( 1, "SummonInsaneSoul", "Insane Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 7:
+			/* summon a GOOD Dragon Wiz */
+            summonMonster ( 1, "SummonCorruptSoul", "Corrupt Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 8:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "SummonCorruptEarthSoul", "Corrupt Earth Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 9:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "SummonHateSoul", "Hate Filled Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 10:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "SummonEternalFlameSoul", "Eternal Flame", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 11:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "SummonPurgedSoul", "Purged Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 12:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "SummonInfantSoul", "Infant Soul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 13:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "SummonHardenedSoul", "HardenedSoul", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 	}
 
@@ -8659,10 +8709,57 @@ SPELL ( castIMMOLATION_COLD )
 	}
 
 	if ( !target->player ) {
-		sprintf ( sizeof ( buf ), buf, "The %s is surrounded in magical ice for a moment. ", target->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c8|The %s is surrounded in magical ice for a moment. ", target->getName() );
 		strcat ( output, buf );
 	} else {
-		sprintf ( sizeof ( buf ), buf, "%s ices over!", target->getName() );
+		sprintf ( sizeof ( buf ), buf, "|c8|%s ices over!", target->getName() );
+		strcat ( output, buf );
+	}
+
+	return affect;
+}
+
+//
+// castIMMOLATION_LIGHTNING
+//
+
+SPELL ( castIMMOLATION_LIGHTNING )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target ) {
+		strcat ( output, "Nothing happens." );
+		return NULL;
+	}
+
+	char buf[1024];
+	int skill = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
+
+	int duration = 0;
+
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
+
+	caster = caster->getBaseOwner();
+
+	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+	packet->putLong ( caster->servID );
+	packet->putByte ( _SE_ELECTRIC_CHARGE );
+	packet->putByte ( 1 );
+	packet->putLong ( target->servID );
+
+	affect_t *affect = target->hasAffect ( _AFF_IMMOLATION_LIGHTNING, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
+
+	if ( affect ) {
+		affect->duration = duration;
+	} else {
+		affect = target->addAffect ( _AFF_IMMOLATION_LIGHTNING, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, skill, packet );
+	}
+
+	if ( !target->player ) {
+		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by electricity for a moment. ", target->getName() );
+		strcat ( output, buf );
+	} else {
+		sprintf ( sizeof ( buf ), buf, "|c21|%s crackles with electricity!", target->getName() );
 		strcat ( output, buf );
 	}
 
@@ -8757,53 +8854,6 @@ SPELL ( castENLIGHTENMENT )
 		sprintf ( sizeof ( buf ), buf, "|c12|%s has been blessed with Intelligence! ", target->getName() );
 		strcat ( output, buf );
 	}	
-	return affect;
-}
-
-//
-// castIMMOLATION_LIGHTNING
-//
-
-SPELL ( castIMMOLATION_LIGHTNING )
-{
-	WorldObject *target = roomMgr->findObject ( targetServID );
-
-	if ( !target ) {
-		strcat ( output, "Nothing happens." );
-		return NULL;
-	}
-
-	char buf[1024];
-	int skill = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
-
-	int duration = 0;
-
-	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
-
-	caster = caster->getBaseOwner();
-
-	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
-	packet->putLong ( caster->servID );
-	packet->putByte ( _SE_ELECTRIC_CHARGE );
-	packet->putByte ( 1 );
-	packet->putLong ( target->servID );
-
-	affect_t *affect = target->hasAffect ( _AFF_IMMOLATION_LIGHTNING, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
-
-	if ( affect ) {
-		affect->duration = duration;
-	} else {
-		affect = target->addAffect ( _AFF_IMMOLATION_LIGHTNING, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, skill, packet );
-	}
-
-	if ( !target->player ) {
-		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by electricity for a moment. ", target->getName() );
-		strcat ( output, buf );
-	} else {
-		sprintf ( sizeof ( buf ), buf, "%s crackles with electricity!", target->getName() );
-		strcat ( output, buf );
-	}
-
 	return affect;
 }
 
@@ -9035,6 +9085,144 @@ SPELL ( castDAMNATION )
 	wrathedList.release();
 
 	return NULL;
+}
+
+//
+// castIMMOLATION_ACID
+//
+
+SPELL ( castIMMOLATION_ACID )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target ) {
+		strcat ( output, "Nothing happens." );
+		return NULL;
+	}
+
+	char buf[1024];
+	int skill = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
+
+	int duration = 0;
+
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
+
+	caster = caster->getBaseOwner();
+
+	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+	packet->putLong ( caster->servID );
+	packet->putByte ( _SE_ACID_CURSE );
+	packet->putByte ( 1 );
+	packet->putLong ( target->servID );
+
+	affect_t *affect = target->hasAffect ( _AFF_IMMOLATION_ACID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
+
+	if ( affect ) {
+		affect->duration = duration;
+	} else {
+		affect = target->addAffect ( _AFF_IMMOLATION_ACID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, skill, packet );
+	}
+
+	if ( !target->player ) {
+		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by acid for a moment. ", target->getName() );
+		strcat ( output, buf );
+	} else {
+		sprintf ( sizeof ( buf ), buf, "|c21|%s drips with acidic goo!", target->getName() );
+		strcat ( output, buf );
+	}
+
+	return affect;
+}
+
+//
+// castIMMOLATION_POISON
+//
+
+SPELL ( castIMMOLATION_POISON )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target ) {
+		strcat ( output, "Nothing happens." );
+		return NULL;
+	}
+
+	char buf[1024];
+	int skill = calcSpellSkill ( caster, _SKILL_ELEMENTALISM );
+
+	int duration = 0;
+
+	duration = calcSpellDuration ( caster, 6.5 * skill, packet );
+
+	caster = caster->getBaseOwner();
+
+	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+	packet->putLong ( caster->servID );
+	packet->putByte ( _SE_VENOM );
+	packet->putByte ( 1 );
+	packet->putLong ( target->servID );
+
+	affect_t *affect = target->hasAffect ( _AFF_IMMOLATION_POISON, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
+
+	if ( affect ) {
+		affect->duration = duration;
+	} else {
+		affect = target->addAffect ( _AFF_IMMOLATION_POISON, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, skill, packet );
+	}
+
+	if ( !target->player ) {
+		sprintf ( sizeof ( buf ), buf, "|c21|The %s is surrounded by poison for a moment. ", target->getName() );
+		strcat ( output, buf );
+	} else {
+		sprintf ( sizeof ( buf ), buf, "|c21|%s drips toxic poison!", target->getName() );
+		strcat ( output, buf );
+	}
+
+	return affect;
+}
+
+SPELL ( castACID_BLADE )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target || target->player ) {
+		strcat ( output, "Nothing happens. " );
+		return NULL;
+	}
+
+	int skill = calcSpellSkill (caster, _SKILL_NECROMANCY );
+
+	int duration = 0;
+
+	duration = calcSpellDuration ( caster, 10 * skill, packet );
+
+	caster = caster->getBaseOwner();
+
+	packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+	packet->putLong ( caster->servID );
+	packet->putByte ( _SE_VENOM );
+	packet->putByte ( 1 );
+	packet->putLong ( target->getBaseOwner()->servID );
+
+	affect_t *affect = NULL;
+
+	if ( target->getBase ( _BWEAPON ) ) {
+		affect = target->hasAffect ( _AFF_DAMAGE_ACID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL );
+
+		if ( affect ) {
+			affect->duration = duration;
+		} else {
+			affect = target->addAffect ( _AFF_DAMAGE_ACID, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, 15, packet );
+		}
+
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "A disgusting acid aura surrounds the %s. ", target->basicName );
+		strcat ( output, buf );
+	} else {
+		strcat ( output, "Nothing happens. " );
+	}
+
+	return affect;
 }
 
 
@@ -11038,11 +11226,11 @@ spell_info gSpellTable[_SPELL_MAX] = {
 	{
 		// _SPELL_MONSTER_SUMMONING_I
 		castMONSTER_SUMMONING_I,
-		_SKILL_ELEMENTALISM,
-		_SKILL_MASTER,
+		_SKILL_NECROMANCY,
+		_SKILL_GRAND_MASTER,
 		_TARGET_NONE,
-		"Monster Summoning I",
-		10,
+		"Exlrihlm hell astro ixjhu!",
+		150,
 		_SPELL_FAST,
 		_COMBAT_SPELL,
 		0,
@@ -11351,6 +11539,48 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		0,
 		FALSE,
 		TRUE
+	},
+	{
+		// _SPELL_IMMOLATION_ACID
+		castIMMOLATION_ACID,
+		_SKILL_ELEMENTALISM,
+		_SKILL_GRAND_MASTER,
+		_TARGET_NONE,
+		"Acciid tul ershealkn!",
+		250,
+		_SPELL_MEDIUM,
+		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_IMMOLATION_POISON
+		castIMMOLATION_POISON,
+		_SKILL_ELEMENTALISM,
+		_SKILL_GRAND_MASTER,
+		_TARGET_NONE,
+		"Poiis tul ershealkn!",
+		250,
+		_SPELL_MEDIUM,
+		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_ACID_BLADE
+		castACID_BLADE,
+		_SKILL_NECROMANCY,
+		_SKILL_PROFICIENT,
+		_TARGET_NONE,
+		"Kultahk aciid por!",
+		3,
+		_SPELL_MEDIUM,
+		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
 	}
 };
 

@@ -2899,8 +2899,13 @@ void WorldObject::changeHealth ( int delta, WorldObject *killer, int othersSee, 
 	}
 }
 
-void WorldObject::changeStamina ( int delta, int othersSee, int egoSees, PackedData *movie )
+void WorldObject::changeStamina ( int delta, PackedData *movie )
 {
+	stamina += delta;
+
+	movie->putByte ( _MOVIE_CHANGE_STAMINA );
+	movie->putLong ( servID );
+	movie->putLong ( delta );
 }
 
 // return the cumulative poison level of this object
@@ -5821,13 +5826,17 @@ int WorldObject::takeDamage ( int type, WorldObject *damager, int amount, char *
 		break;
 	
 		case _AFF_DAMAGE_FIRE: {
-			sprintf ( sizeof ( str ), str, "|c14|%s is burned for %dHP! ", getName(), amount );
+			sprintf ( sizeof ( str ), str, "|c14|%s is singed for %dHP! ", getName(), amount );
 		}
 
 		break;
 
 		case _AFF_DAMAGE_COLD: {
 			sprintf ( sizeof ( str ), str, "|c20|%s is chilled for %dHP! ", getName(), amount );
+		}
+
+		case _AFF_DAMAGE_ACID: {
+			sprintf ( sizeof ( str ), str, "|c50|%s is acid burned for %dHP! ", getName(), amount );
 		}
 
 		break;

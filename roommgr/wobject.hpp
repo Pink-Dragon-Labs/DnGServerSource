@@ -807,7 +807,7 @@ public:
 	void deleteFromRoom ( int notify = 1 );
 	int isMoney ( void ) { return physicalState & _STATE_MONEY? 1 : 0; };
 	void changeHealth ( int delta, WorldObject *killer, int othersSee = 0, int egoSees = 0, PackedData *movie = NULL );
-	void changeStamina ( int delta, int othersSee = 0, int egoSees = 0, PackedData *movie = NULL );
+	void changeStamina ( int delta, PackedData *movie );
 	int poisonLevel ( int source = -2 );
 	void removeVolatileAffects ( PackedData *packet );
 

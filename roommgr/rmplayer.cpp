@@ -2249,10 +2249,13 @@ int RMPlayer::process_IPC_CREATE_OBJECT ( IPCMessage *message )
 			}
 
 			//calculate the stamina cost
-			int staminaCost = object->strength;
+			int staminaCost = ( object->strength *= skillLevel );
 
-			if ( diff > 0 )
+			if ( diff > 1 )
 				staminaCost *= (diff + 1);
+
+			if ( diff < 1 )
+				staminaCost *= 1;
 
 			LinkedList items, components;
 
@@ -2315,7 +2318,7 @@ int RMPlayer::process_IPC_CREATE_OBJECT ( IPCMessage *message )
 				roomMgr->sendSystemMsg ( "Missing Components", this, "You can not create the %s because you do not have all of the necessary components.  You still need to get %s before you can create that object.", object->name, missingText );
 			} else {
 
-				if( tool->skill != _SKILL_WEAPONSMITH && tool->skill != _SKILL_ARMORER ) {
+				/*if( tool->skill != _SKILL_WEAPONSMITH && tool->skill != _SKILL_ARMORER ) {
 					int theDiff = character->stamina - staminaCost;
 					
 					if ( theDiff < 0 ) {
@@ -2326,7 +2329,7 @@ int RMPlayer::process_IPC_CREATE_OBJECT ( IPCMessage *message )
 					}
 
 					character->stamina -= staminaCost;
-				}
+				}*/
 
 				element = components.head();
 
@@ -2363,6 +2366,8 @@ int RMPlayer::process_IPC_CREATE_OBJECT ( IPCMessage *message )
 				putMovieText ( character, &response, "|c43|%s makes one %s.\n", getName(), object->getName() );	
 
   				bchar->gainExperience ( random ( 15 * object->strength, 40 * object->strength ), &response );
+
+				character->stamina -= staminaCost;
 
 				if ( !random ( 0, 1 ) ) {
 					int pctTbl[] = { 1, 2, 5, 7, 10, 20 };
@@ -5244,14 +5249,14 @@ void RMPlayer::rob ( WorldObject *directObject, PackedData *movie )
 
    	if ( affect && !character->hasAffect ( _AFF_DAMAGE_FIRE, _AFF_TYPE_RESISTANCE ) )
    	{
-   		// burn the poor thief's fingers.
+   		// singe the poor thief's fingers.
    		int theDamage = random ( 1, 6 ) + (affect->value / 2);
 
    		theDamage = character->takeDamage ( _AFF_DAMAGE_FIRE, character, theDamage, NULL, movie, 1 );
 
    		if ( theDamage > 0 )
    		{
-   			putMovieText (character, movie, "|c60|%s's fingers are burned while trying to pick %s's pockets!|c43|", getName(), directObject->getName() );
+   			putMovieText (character, movie, "|c60|%s's fingers are singed while trying to pick %s's pockets!|c43|", getName(), directObject->getName() );
 //   		pickedPocket = 0;
    			gotCaught = 1;
    		}
@@ -5289,6 +5294,58 @@ void RMPlayer::rob ( WorldObject *directObject, PackedData *movie )
    			gotCaught = 1;
    		}
    	}
+
+	//Zach - acid immolation addition
+	affect = directObject->hasAffect (_AFF_IMMOLATION_ACID, _AFF_TYPE_NORMAL);
+	
+   	if ( affect && !character->hasAffect ( _AFF_DAMAGE_ACID, _AFF_TYPE_RESISTANCE ) )
+   	{
+   		// acid burn the poor thief's fingers.
+		//note this is the standard immolation formula
+   		int theDamage = random ( 1, 6 ) + (affect->value / 2);
+   		theDamage = character->takeDamage ( _AFF_DAMAGE_ACID, character, theDamage, NULL, movie, 1 );
+	
+   		if ( theDamage > 0 )
+   		{
+   			putMovieText (character, movie, "|c50|%s's fingers are burned by acid while trying to pick %s's pockets!|c43|", getName(), directObject->getName() );
+   			gotCaught = 1;
+   		}
+   	}
+
+	//Zach - Poison immolation addition
+	affect = directObject->hasAffect (_AFF_IMMOLATION_POISON, _AFF_TYPE_NORMAL);
+	
+   	if ( affect && !character->hasAffect ( _AFF_DAMAGE_POISON, _AFF_TYPE_RESISTANCE ) )
+   	{
+   		// poison the poor thief
+		//note this is the standard immolation formula
+   		int theDamage = random ( 1, 6 ) + (affect->value / 2);
+   		theDamage = character->takeDamage ( _AFF_DAMAGE_POISON, character, theDamage, NULL, movie, 1 );
+	
+   		if ( theDamage > 0 )
+   		{
+   			putMovieText (character, movie, "|c23|%s is poisoned while trying to pick %s's pockets!|c43|", getName(), directObject->getName() );
+   			gotCaught = 1;
+   		}
+   	}
+	
+	/* Zach - thorns
+	affect = directObject->hasAffect (_AFF_IMMOLATION_RUST, _AFF_TYPE_NORMAL);
+	
+   	if ( affect && !character->hasAffect ( _AFF_DAMAGE_NORMAL, _AFF_TYPE_RESISTANCE ) )
+   	{
+   		// prickthe poor thief
+		//note this is the standard immolation formula
+   		int theDamage = random ( 1, 6 ) + (affect->value / 2);
+   		theDamage = character->takeDamage ( _AFF_DAMAGE_NORMAL, character, theDamage, NULL, movie, 1 );
+	
+   		if ( theDamage > 0 )
+   		{
+   			putMovieText (character, movie, "|c62|%s is pricked while trying to pick %s's pockets!|c43|", getName(), directObject->getName() );
+   			gotCaught = 1;
+   		}
+   	}*/
+
 
 	int moneyTaken = 0, manaTaken = 0, robResult = 0;
 
@@ -10839,6 +10896,27 @@ int RMPlayer::attack ( WorldObject *obj, PackedData *movie, int retaliate, int c
 			{
    				int theDamage = random ( 1, 6 ) + (affect->value / 2);
    				theDamage = character->takeDamage ( _AFF_DAMAGE_LIGHTNING, character, theDamage, output, movie );
+   				immolateDamage += theDamage;
+   			}
+
+			if ( (affect = obj->hasAffect ( _AFF_IMMOLATION_ACID )) )
+			{
+   				int theDamage = random ( 1, 6 ) + (affect->value / 2);
+   				theDamage = character->takeDamage ( _AFF_DAMAGE_ACID, character, theDamage, output, movie );
+   				immolateDamage += theDamage;
+   			}
+
+			if ( (affect = obj->hasAffect ( _AFF_IMMOLATION_POISON )) )
+			{
+   				int theDamage = random ( 1, 6 ) + (affect->value / 2);
+   				theDamage = character->takeDamage ( _AFF_DAMAGE_POISON, character, theDamage, output, movie );
+   				immolateDamage += theDamage;
+   			}
+
+			if ( (affect = obj->hasAffect ( _AFF_IMMOLATION_RUST)) )
+			{
+   				int theDamage = random ( 1, 6 ) + (affect->value / 2);
+   				theDamage = character->takeDamage ( _AFF_DAMAGE_NORMAL, character, theDamage, output, movie );
    				immolateDamage += theDamage;
    			}
 
