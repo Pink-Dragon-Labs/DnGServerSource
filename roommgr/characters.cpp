@@ -12,7 +12,7 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 	if ( profession < 0 || profession >= _MAX_PROFESSION )
 		return NULL;
 
-	if ( race == _RACE_DWARF || race < 0 || race >= _MAX_RACE )
+	if ( race < 0 || race >= _MAX_RACE )
 		return NULL;
 
 	if ( sex < 0 || sex > _MAX_SEX )
@@ -53,15 +53,15 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 		switch ( profession ) {
 			case _PROF_ADVENTURER:
 			{
-				if ( sex==1 ) object->addObject ( "NewbieLeatherSkirt", 1 );
-				else object->addObject ( "NewbieLeatherPants", 1 );
-				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
-				else object->addObject ( "NewbieLeatherBoots", 1 );	//male
+				if ( sex==1 ) object->addObject ( "ChainLowBoots", 1 ); //female
+				else object->addObject ( "ChainHighBoots", 1 );	//male
 				
-				object->addObject ( "NewbieLeatherShirt", 1 );
-				object->addObject ( "NewbieSword", 1 );
-				object->addObject ( "NewbieSmallShield", 1 );
-				object->addObject ( "NewbieLeatherCowl", 1 );
+				object->addObject ( "ChainmailTunic", 1 );
+				object->addObject ( "RustyLongSword", 1 );
+				object->addObject ( "RustyRoundShield", 1 );
+				object->addObject ( "BaseChainCowl", 1 );
+				object->addObject ( "ChainBands", 1 );
+				object->addObject ( "ChainLeggings", 1 );
 				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );
@@ -74,14 +74,14 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 			case _PROF_WARRIOR:
 			{
 
-				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
-				else object->addObject ( "NewbieSollerets", 1 );	//male
+				if ( sex==1 ) object->addObject ( "PlateLowBoots", 1 ); //female
+				else object->addObject ( "PlateHighBoots", 1 );	//male
 
-				object->addObject ( "NewbieClub", 1 );
-				object->addObject ( "NewbieChainTunic", 1 );
-				object->addObject ( "NewbieChainPants", 1 );
-				object->addObject ( "NewbieChainCowl", 1 );
-				object->addObject ( "NewbieBracers", 1 );
+				object->addObject ( "RottenClub", 1 );
+				object->addObject ( "ChestPlate", 1 );
+				object->addObject ( "PlateLeggings", 1 );
+				object->addObject ( "PlateCowl", 1 );
+				object->addObject ( "PlateBands", 1 );
 				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );
@@ -93,18 +93,18 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 
 			case _PROF_WIZARD:
 			{
-				if ( sex==1 ) object->addObject ( "NewbieSkirt", 1 );
-				else object->addObject ( "NewbieRobe", 1 );
-				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
-				else object->addObject ( "NewbieLeatherBoots", 1 );	//male
+				if ( sex==1 ) object->addObject ( "BeginnerLongSkirt", 1 );
+				else object->addObject ( "BeginnerRobe", 1 );
+				if ( sex==1 ) object->addObject ( "ClothLowBoots", 1 ); //female
+				else object->addObject ( "ClothHighBoots", 1 );	//male
 				
 
-				object->addObject ( "NewbiePants", 1 );
-				object->addObject ( "NewbieShirt", 1 );
-				object->addObject ( "NewbieCowl", 1 );
-				object->addObject ( "NewbieBracers", 1 );
-				object->addObject ( "NewbieThrower", 1 );
-				object->addObject ( "NewbieSmallShield", 1 );
+				object->addObject ( "ClothLeggings", 1 );
+				object->addObject ( "ClothShirt", 1 );
+				object->addObject ( "ClothCowl", 1 );
+				object->addObject ( "ClothBands", 1 );
+				object->addObject ( "RustyThrowingDagger", 1 );
+				object->addObject ( "WoodShield", 1 );
 				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Veggies" );
 				object->addObject ( 2, "WaterBottle" );
@@ -116,15 +116,15 @@ WorldObject *makeTemplateCharacter ( int profession, int race, int sex, char *na
 
 			case _PROF_THIEF: {
 
-				if ( sex==1 ) object->addObject ( "NewbieBoots", 1 ); //female
-				else object->addObject ( "NewbieLeatherBoots", 1 );	//male
+				if ( sex==1 ) object->addObject ( "RaggedLeatherLowBoots", 1 ); //female
+				else object->addObject ( "RaggedLeatherHighBoots", 1 );	//male
 
-				object->addObject ( "NewbieLeatherShirt", 1 );
-				object->addObject ( "NewbieLeatherPants", 1 );
-				object->addObject ( "NewbieBracers", 1 );
-				object->addObject ( "NewbieLeatherCowl", 1 );
-				object->addObject ( "NewbieThrower", 1 );
-				object->addObject ( "NewbieSmallShield", 1 );
+				object->addObject ( "LeatherArmor", 1 );
+				object->addObject ( "LeatherLeggings", 1 );
+				object->addObject ( "LeatherBands", 1 );
+				object->addObject ( "BaseLeatherCowl", 1 );
+				object->addObject ( "RustyDagger", 1 );
+				object->addObject ( "WoodShield", 1 );
 				object->addObject ( "BackPack", 1 );
 				object->addObject ( 2, "Bread" );
 				object->addObject ( 2, "WaterBottle" );

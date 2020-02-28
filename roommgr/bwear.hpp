@@ -12,6 +12,7 @@
 #define _WEAR_MASK_MALE				(1 << 0)
 #define _WEAR_MASK_FEMALE			(1 << 1)
 #define _WEAR_MASK_HUMAN			(1 << 2)
+#define _WEAR_MASK_ORC				(1 << 12)
 #define _WEAR_MASK_GIANT			(1 << 3)
 #define _WEAR_MASK_ELF				(1 << 4)
 #define _WEAR_MASK_GOOD				(1 << 5)

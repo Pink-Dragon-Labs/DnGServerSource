@@ -1769,6 +1769,11 @@ int ObjectInfoParser::processTokenList ( void )
 							head->isVisible = 1;
 
 							switch ( bhead->race ) {
+								case _RACE_ORC: 
+									object->height = 110;
+									object->girth = 110;
+									break;
+
 								case _RACE_GIANT: 
 									object->height = 110;
 									object->girth = 110;

@@ -200,6 +200,7 @@ MaskEntry maskTable[] = {
 	{"male",		_WEAR_MASK_MALE},
 	{"female",		_WEAR_MASK_FEMALE},
 	{"human",		_WEAR_MASK_HUMAN},
+	{"orc",			_WEAR_MASK_ORC},
 	{"giant",		_WEAR_MASK_GIANT},
 	{"elf",			_WEAR_MASK_ELF},
 	{"good",		_WEAR_MASK_GOOD},

@@ -14,7 +14,7 @@ int sexWearMaskTable[] = {
 // this is the conversion table for race values to wear masks
 int raceWearMaskTable[] = {
 	_WEAR_MASK_HUMAN,
-	0,	//dwarf
+	_WEAR_MASK_ORC,	
 	_WEAR_MASK_GIANT,
 	_WEAR_MASK_ELF
 };
@@ -41,7 +41,7 @@ char *characterClassTable[_MAX_PROFESSION][_MAX_RACE][_MAX_SEX] = {
 		// human
 		{"MaleAdventurer", "FemaleAdventurer"},
 
-		// dwarf
+		// Orc
 		{"MaleAdventurer", "FemaleAdventurer"},
 
 		// giant
@@ -56,7 +56,7 @@ char *characterClassTable[_MAX_PROFESSION][_MAX_RACE][_MAX_SEX] = {
 		// human
 		{"MaleWarrior", "FemaleWarrior"},
 
-		// dwarf
+		// Orc
 		{"MaleWarrior", "FemaleWarrior"},
 
 		// giant
@@ -71,7 +71,7 @@ char *characterClassTable[_MAX_PROFESSION][_MAX_RACE][_MAX_SEX] = {
 		// human
 		{"MaleWizard", "FemaleWizard"},
 
-		// dwarf
+		// Orc
 		{"MaleWizard", "FemaleWizard"},
 
 		// giant
@@ -86,7 +86,7 @@ char *characterClassTable[_MAX_PROFESSION][_MAX_RACE][_MAX_SEX] = {
 		// human
 		{"MaleThief", "FemaleThief"},
 
-		// dwarf
+		// Orc
 		{"MaleThief", "FemaleThief"},
 
 		// giant

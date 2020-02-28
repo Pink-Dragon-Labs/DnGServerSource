@@ -441,10 +441,10 @@ void WorldObject::validScale ( void )
 				if ( height < 90 || height > 110 ) height = 100;
 			}
 			break;
-			case 1: // dwarf
+			case 1: // Orc
 			{
-				if ( girth < 70 || girth > 90 ) girth = 80;
-				if ( height < 70 || height > 90 ) height = 80;
+				if ( girth < 100 || girth > 120 ) girth = 110;
+				if ( height < 95 || height > 115 ) height = 105;
 			}
 			break;
 			case 2:	// giant

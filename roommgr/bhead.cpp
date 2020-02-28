@@ -39,7 +39,7 @@ int BHead::valid ( void )
 	if ( sex != _SEX_MALE && sex != _SEX_FEMALE )
 		return 0;
 
-	if ( race == _RACE_DWARF || (race < 0) || (race >= _MAX_RACE) ) 
+	if ( race < 0 || race >= _MAX_RACE ) 
 		return 0;
 
 	return 1;

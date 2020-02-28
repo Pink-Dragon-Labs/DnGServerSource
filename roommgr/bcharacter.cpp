@@ -11,7 +11,7 @@ int minStatValues[ _MAX_PROFESSION ][ _MAX_RACE ][ 4 ] = {
 	// Adventurer
 	{
 		{ 7, 6, 6, 6 },			//	Human
-		{ 7, 6, 6, 6 },			//	Dwarf
+		{ 7, 6, 6, 6 },			//	Orc
 		{ 7, 6, 6, 6 },			//	Giant
 		{ 7, 6, 6, 6 },			//	Elf
 	},
@@ -19,7 +19,7 @@ int minStatValues[ _MAX_PROFESSION ][ _MAX_RACE ][ 4 ] = {
 	// Warrior
 	{
 		{ 9, 7,  2, 7 },			//	Human
-		{ 9, 7,  2, 7 },			//	Dwarf
+		{ 9, 7,  2, 7 },			//	Orc
 		{ 9, 7,  2, 7 },			//	Giant
 		{ 9, 7,  2, 7 },			//	Elf  
 	},
@@ -27,7 +27,7 @@ int minStatValues[ _MAX_PROFESSION ][ _MAX_RACE ][ 4 ] = {
 	// Wizard
 	{
 		{  3, 7, 10,  5 },			//	Human
-		{  3, 7, 10,  5 },			//	Dwarf
+		{  3, 7, 10,  5 },			//	Orc
 		{  3, 7, 10,  5 },			//	Giant
 		{  3, 7, 10,  5 },			//	Elf  
 	},
@@ -35,7 +35,7 @@ int minStatValues[ _MAX_PROFESSION ][ _MAX_RACE ][ 4 ] = {
 	// Thief
 	{
 		{  6, 9,  4, 6 },			//	Human
-		{  6, 9,  4, 6 },			//	Dwarf
+		{  6, 9,  4, 6 },			//	Orc
 		{  6, 9,  4, 6 },			//	Giant
 		{  6, 9,  4, 6 },			//	Elf  
 	}

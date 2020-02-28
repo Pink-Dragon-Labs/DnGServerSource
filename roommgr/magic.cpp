@@ -5764,7 +5764,7 @@ SPELL ( castMONSTER_SUMMONING_I )
 {
 	caster = caster->getBaseOwner();
 
-	switch ( random ( 0, 8 ) )
+	switch ( random ( 0, 13 ) )
 	{
 		case 0:
 			/* summon a Lost Bog Dragon */
@@ -5846,26 +5846,61 @@ SPELL ( castMONSTER_SUMMONING_II )
 {
 	caster = caster->getBaseOwner();
 
-	switch (random (0, 3) )
+	switch ( random ( 0, 10 ) )
 	{
 		case 0:
-			summonMonster ( 1, "LostSailor", "lost sailor", _SE_SUMMON_ZOMBIE, targetX, targetY, caster, output, packet );
+			/* summon a Lost Bog Dragon */
+            summonMonster ( 1, "MinotaurWarriorA", "Dolus Thrall", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 1:
-			summonMonster ( 1, "WaspWorker", "wasp worker", _SE_SUMMON_ZOMBIE, targetX, targetY, caster, output, packet );
+			/* summon a Mire Dragon */
+            summonMonster ( 1, "MinotaurWarriorB", "Uplander Drudge", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 2:
-			summonMonster ( 1, "Wolf", "wolf", _SE_SUMMON_ZOMBIE, targetX, targetY, caster, output, packet );
+			/* summon a Bog Dragon */
+            summonMonster ( 1, "MinotaurWarriorC", "Kamirian Invader", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 3:
-			summonMonster ( 1, "UndeadNecromancer", "undead necromancer", _SE_SUMMON_ZOMBIE, targetX, targetY, caster, output, packet );
+			/* summon an Elder Dragon */
+            summonMonster ( 1, "MinotaurWarriorD", "Avalonian", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 4:
-			summonMonster ( 1, "CryptBat", "crypt bat", _SE_SUMMON_ZOMBIE, targetX, targetY, caster, output, packet );
+			/* summon a Legendary Lava Dragon */
+            summonMonster ( 1, "MinotaurWarriorE", "Saurilian WArrior", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 5:
+			/* summon a Legendary Wyrm */
+            summonMonster ( 1, "MinotaurMageA", "Dolus Acolyte", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 6:
+			/* summon a Legendary Obsidian Dragon */
+            summonMonster ( 1, "MinotaurMageB", "Drudge Cleric", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 7:
+			/* summon a GOOD Dragon Wiz */
+            summonMonster ( 1, "MinotaurMageC", "Kamirian Druid", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+        case 8:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "MinotaurMageD", "Avalonian Wizard", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 9:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "MinotaurMageE", "Saurilian Necromancer", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+		break;
+
+		case 10:
+			/* summon a EVIL Dragon Wiz */
+            summonMonster ( 1, "MinotaurGuard", "Aegiscian", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 	}
 
@@ -5877,38 +5912,14 @@ SPELL ( castMONSTER_SUMMONING_III )
 {
 	caster = caster->getBaseOwner();
 
-	switch (random (0, 7) )
+	switch (random (0, 1) )
 	{
 		case 0:
-			summonMonster ( 1, "FlameRat", "flame ratling", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			summonMonster ( 1, "SummonWatcher", "Watcher", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 
 		case 1:
-			summonMonster ( 1, "StormBat", "storm bat", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
-		break;
-
-		case 2:
-			summonMonster ( 1, "WoodNymph", "wood nymph", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
-		break;
-
-		case 3:
-			summonMonster ( 1, "DarkFaery", "dark faery", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
-		break;
-
-		case 4:
-			summonMonster ( 1, "YoungFenris", "young fenris", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
-		break;
-
-		case 5:
-			summonMonster ( 1, "DamnedOne", "damned one", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
-		break;
-
-		case 6:
-			summonMonster ( 1, "WaspWarrior", "wasp warrior", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
-		break;
-
-		case 7:
-			summonMonster ( 1, "EntombedOne", "entombed one", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			summonMonster ( 1, "SummonBabyWatcher", "Sentinel", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
 		break;
 	}
 
@@ -9225,6 +9236,89 @@ SPELL ( castACID_BLADE )
 	return affect;
 }
 
+//
+// castSUMMON_SNAKE
+//
+
+SPELL ( castSUMMON_SNAKE )
+{
+	int skill = caster->getSkill ( _SKILL_NECROMANCY );
+	caster = caster->getBaseOwner();
+
+	{
+		switch ( random ( 1, skill ) )
+		{
+
+			case 1:
+            	summonMonster ( 1, "Cobra", "Cobra", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			break;
+
+			case 2:
+            	summonMonster ( 1, "SpittingCobra", "Spitting Cobra", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			break;
+
+			case 3:
+            	summonMonster ( 1, "LavaSerpent", "Lava Serpent", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			break;
+
+			case 4:
+            	summonMonster ( 1, "KingCobra", "King Cobra", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			break;
+
+			case 5:
+            	summonMonster ( 1, "HellSnake", "Hellsnake", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			break;
+
+			case 6:
+            	summonMonster ( 1, "Baby Dragon", "Baby Dragon", _SE_SUMMON_DAEMON, targetX, targetY, caster, output, packet );
+			break;
+		}
+	}
+
+	return NULL;
+}
+
+//
+// castSUMMON_HOLY_WARRIOR
+//
+
+SPELL ( castSUMMON_HOLY_WARRIOR )
+{
+	int skill = caster->getSkill ( _SKILL_THAUMATURGY );
+	caster = caster->getBaseOwner();
+
+	{
+		switch ( random ( 1, skill ) )
+		{
+			case 1:
+            	summonMonster ( 1, "Cleric", "Cleric", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			break;
+
+			case 2:
+            	summonMonster ( 1, "LightWiz", "Wizard of Light", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			break;
+
+			case 3:
+            	summonMonster ( 1, "Priestess", "Priestess", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			break;
+
+			case 4:
+            	summonMonster ( 1, "Guardian", "Guardian", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			break;
+
+			case 5:
+            	summonMonster ( 1, "PaladinA", "Paladin", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			break;
+
+			case 6:
+            	summonMonster ( 1, "PaladinB", "Paladin", _SE_SUMMON_PIXIE, targetX, targetY, caster, output, packet );
+			break;
+		}
+	}
+
+	return NULL;
+}
+
 
 spell_info gSpellTable[_SPELL_MAX] = {
 	{
@@ -11227,10 +11321,10 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_MONSTER_SUMMONING_I
 		castMONSTER_SUMMONING_I,
 		_SKILL_NECROMANCY,
-		_SKILL_GRAND_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
 		"Exlrihlm hell astro ixjhu!",
-		150,
+		200,
 		_SPELL_FAST,
 		_COMBAT_SPELL,
 		0,
@@ -11241,11 +11335,11 @@ spell_info gSpellTable[_SPELL_MAX] = {
 	{
 		// _SPELL_MONSTER_SUMMONING_II
 		castMONSTER_SUMMONING_II,
-		_SKILL_ELEMENTALISM,
-		_SKILL_MASTER,
+		_SKILL_MYSTICISM,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
-		"Monster Summoning II",
-		20,
+		"Exhilmni Avaaa lohni!",
+		200,
 		_SPELL_FAST,
 		_COMBAT_SPELL,
 		0,
@@ -11257,10 +11351,10 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		// _SPELL_MONSTER_SUMMONING_III
 		castMONSTER_SUMMONING_III,
 		_SKILL_ELEMENTALISM,
-		_SKILL_MASTER,
+		_SKILL_PARAGON,
 		_TARGET_NONE,
-		"Monster Summoning III",
-		30,
+		"Wihxm watcha ilehxi!",
+		300,
 		_SPELL_FAST,
 		_COMBAT_SPELL,
 		0,
@@ -11578,6 +11672,34 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		3,
 		_SPELL_MEDIUM,
 		_BOTH_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_SUMMON_SNAKE
+		castSUMMON_SNAKE,
+		_SKILL_NECROMANCY,
+		_SKILL_FAMILIAR,
+		_TARGET_NONE,
+		"Clactous serpentas!",
+		25,
+		_SPELL_SLOW,
+		_COMBAT_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_SUMMON_HOLY_WARRIOR
+		castSUMMON_HOLY_WARRIOR,
+		_SKILL_THAUMATURGY,
+		_SKILL_FAMILIAR,
+		_TARGET_NONE,
+		"Clactous exhili wari!",
+		25,
+		_SPELL_SLOW,
+		_COMBAT_SPELL,
 		0,
 		FALSE,
 		FALSE

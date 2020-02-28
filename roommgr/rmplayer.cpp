@@ -7537,81 +7537,73 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
 	if ( updateSkills ) {
 		switch ( character->profession() ) {
 			case _PROF_WARRIOR: {
-				bcharacter->skills[_SKILL_SHORT_SWORD] = 1;
-				bcharacter->skills[_SKILL_LONG_SWORD] = 2;
-				bcharacter->skills[_SKILL_TWOHANDED_SWORD] = 2;
-				bcharacter->skills[_SKILL_DAGGER] = 1;
-				bcharacter->skills[_SKILL_AXE] = 1;
 				bcharacter->skills[_SKILL_CLUB] = 1;
-				bcharacter->skills[_SKILL_MACE] = 1;
-				bcharacter->skills[_SKILL_UNARMED] = 1;
-				bcharacter->skills[_SKILL_THROWING] = 1;
-				bcharacter->skills[_SKILL_MAUL] = 1;
-				bcharacter->skills[_SKILL_BROADSWORD] = 1;
-				bcharacter->skills[_SKILL_SHIELD_USE] = 2;
-				bcharacter->skills[_SKILL_ACROBATICS] = 1;
+				bcharacter->skills[_SKILL_CRITICAL_STRIKING] = 1;
+				bcharacter->skills[_SKILL_SORCERY] = 1;
+				//bcharacter->spells[_SPELL_HOME] = 1;
 			}
 			break;
 	
    			case _PROF_WIZARD: {
-   				switch ( obj->coarseAlignment() ) {
+
+				bcharacter->skills[_SKILL_THROWING] = 1;
+				bcharacter->skills[_SKILL_SHIELD_USE] = 1;
+				bcharacter->skills[_SKILL_SORCERY] = 1;
+				bcharacter->skills[_SKILL_MYSTICISM] = 1;
+				bcharacter->skills[_SKILL_NECROMANCY] = 1;
+				bcharacter->skills[_SKILL_THAUMATURGY] = 1;
+				bcharacter->skills[_SKILL_ELEMENTALISM] = 1;
+				//bcharacter->spells[_SPELL_HOME] = 1;
+
+   				/*switch ( obj->coarseAlignment() ) {
    					case _ALIGN_GOOD: 
    						bcharacter->skills[_SKILL_THAUMATURGY] = 2;
-   						bcharacter->skills[_SKILL_SORCERY] = 1;
-   						bcharacter->spells[_SPELL_HEAL] = 1;
-   						bcharacter->spells[_SPELL_LIGHT_DART] = 1;
-   						bcharacter->spells[_SPELL_HOME] = 1;
+						bcharacter->skills[_SKILL_MYSTICISM] = 1;
+   						//bcharacter->spells[_SPELL_HOLD_MONSTER] = 1;
+   						//bcharacter->spells[_SPELL_SUMMON_PIXIE] = 1;
+   						//bcharacter->spells[_SPELL_LIGHT_DART] = 1;
    						break;
    
    					case _ALIGN_NEUTRAL:
    						bcharacter->skills[_SKILL_ELEMENTALISM] = 2;
-   						bcharacter->skills[_SKILL_SORCERY] = 1;
-   						bcharacter->spells[_SPELL_FLAME_ORB] = 1;
-   						bcharacter->spells[_SPELL_IMMOLATION] = 1;
-   						bcharacter->spells[_SPELL_HOME] = 1;
+						bcharacter->skills[_SKILL_MYSTICISM] = 1;
+   						//bcharacter->spells[_SPELL_HOLD_MONSTER] = 1;
+   						//bcharacter->spells[_SPELL_FLAME_ORB] = 1;
+   						//bcharacter->spells[_SPELL_SPARK] = 1;
    						break;
    
    					case _ALIGN_EVIL:
    						bcharacter->skills[_SKILL_NECROMANCY] = 2;
    						bcharacter->skills[_SKILL_MYSTICISM] = 1;
-   						bcharacter->spells[_SPELL_HOLD_MONSTER] = 1;
-   						bcharacter->spells[_SPELL_ACID_SPHERE] = 1;
-   						bcharacter->spells[_SPELL_SUMMON_ZOMBIE] = 1;
+   						//bcharacter->spells[_SPELL_HOLD_MONSTER] = 1;
+   						//bcharacter->spells[_SPELL_ACID_SPHERE] = 1;
+   						//bcharacter->spells[_SPELL_SUMMON_ZOMBIE] = 1;
    						break;
-   				}
-   
-   				bcharacter->skills[_SKILL_ACROBATICS] = 1;
-   				bcharacter->skills[_SKILL_SHORT_SWORD] = 1;
-				bcharacter->skills[_SKILL_THROWING] = 2;
-   				bcharacter->skills[_SKILL_THEURGISM] = 1;
+   				}*/
    			}
    
    			break;
    
    			case _PROF_ADVENTURER: {
-   				bcharacter->skills[_SKILL_LONG_SWORD] = 2;
-   				bcharacter->skills[_SKILL_ACROBATICS] = 1;
-				bcharacter->skills[_SKILL_TWOHANDED_SWORD] = 1;
-   				bcharacter->skills[_SKILL_CRITICAL_STRIKING] = 1;
-   				bcharacter->skills[_SKILL_SHIELD_USE] = 2;
-   				bcharacter->skills[_SKILL_THEURGISM] = 1;
-   				bcharacter->skills[_SKILL_SORCERY] = 1;
-   				bcharacter->spells[_SPELL_HOME] = 1;
-   				bcharacter->spells[_SPELL_KILL_STAR] = 1;
+   				bcharacter->skills[_SKILL_LONG_SWORD] = 1;
+   				bcharacter->skills[_SKILL_SHIELD_USE] = 1;
+				bcharacter->skills[_SKILL_ELEMENTALISM] = 1;
+				bcharacter->spells[_SPELL_FLAME_ORB] = 1;
+				bcharacter->skills[_SKILL_SORCERY] = 1;
+   				//bcharacter->spells[_SPELL_HOME] = 1;
+   				
    			}
    
    			break;
    
    			case _PROF_THIEF: {
-   				bcharacter->skills[_SKILL_THROWING] = 2;
-   				bcharacter->skills[_SKILL_DAGGER] = 1;
-   				bcharacter->skills[_SKILL_ACROBATICS] = 2;
    				bcharacter->skills[_SKILL_DAGGER] = 1;
    				bcharacter->skills[_SKILL_PICK_POCKETS] = 1;
    				bcharacter->skills[_SKILL_DETECT_TRAPS] = 1;
    				bcharacter->skills[_SKILL_PICK_LOCKS] = 1;
-   				bcharacter->skills[_SKILL_CRITICAL_STRIKING] = 2;
    				bcharacter->skills[_SKILL_SHIELD_USE] = 1;
+				bcharacter->skills[_SKILL_SORCERY] = 1;
+				//bcharacter->spells[_SPELL_HOME] = 1;
    			}
    
    			break;
@@ -7650,6 +7642,10 @@ int RMPlayer::CheckRace(WorldObject *object, int theRace)
     } else if ( theRace == _RACE_HUMAN ) {
         object->addAffect ( _AFF_EXTRA_ATTACK, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
         //logDisplay ( "Human created, applied 'Extra Attack' passive!" );
+
+	} else if ( theRace == _RACE_ORC ) {
+        object->addAffect ( _AFF_IMMOLATION_FIRE, _AFF_TYPE_NORMAL, _AFF_SOURCE_GIFT, -1, 0, NULL );
+        //logDisplay ( "Orc created, applied 'Fire Immolation' passive!" );
 
     } else return 0;
 
@@ -7819,91 +7815,55 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				//	diff = 4;
 				//}
 
-				character->buildPoints = 3;	
+				character->buildPoints = 6;		// 3
 
 				switch ( character->profession ) {
 					case _PROF_WARRIOR: {					
 						character->skills[_SKILL_CLUB] = 1;
-						character->spells[_SPELL_HOME] = 1;
-						//character->skills[_SKILL_SHIELD_USE] = 1;
-						//character->skills[_SKILL_ACROBATICS] = 1;
-						//character->skills[_SKILL_SHORT_SWORD] = 1;
-						//character->skills[_SKILL_LONG_SWORD] = 1;
-						//character->skills[_SKILL_TWOHANDED_SWORD] = 1;
-						//character->skills[_SKILL_DAGGER] = 1;
-						//character->skills[_SKILL_AXE] = 1;
-						//character->skills[_SKILL_CLUB] = 2;
-						//character->skills[_SKILL_MACE] = 1;
-						//character->skills[_SKILL_UNARMED] = 1;
-						//character->skills[_SKILL_THROWING] = 1;
-						//character->skills[_SKILL_MAUL] = 1;
-						//character->skills[_SKILL_BROADSWORD] = 1;
-
-						//if ( diff != 4 ) {
-						//	if ( ( object->strength		< minStatValues[ _PROF_WARRIOR ][ race ][ _STAT_STRENGTH ] ) ||
-						//		( object->dexterity		< minStatValues[ _PROF_WARRIOR ][ race ][ _STAT_DEXTERITY ] ) ||
-						//		( object->intelligence	< minStatValues[ _PROF_WARRIOR ][ race ][ _STAT_INTELLIGENCE ] ) ||
-						//		( object->endurance		< minStatValues[ _PROF_WARRIOR ][ race ][ _STAT_ENDURANCE ] ) ) {
-						//			gDataMgr->logPermanent ( base->login, properName, _DMGR_PLOG_IMPCMD, "had hacked stats of S:%d D:%d I:%d E:%d", object->strength, object->dexterity, object->intelligence, object->endurance );
-						//			logHack( "2) Account %s - character %s had hacked stats of S:%d D:%d I:%d E:%d", base->login, properName, object->strength, object->dexterity, object->intelligence, object->endurance );
-						//
-						//			object->strength = 1;
-						//			object->dexterity = 1;
-						//			object->intelligence = 1;
-						//			object->endurance = 1;
-						//	}
-						//}
+                        character->skills[_SKILL_CRITICAL_STRIKING] = 1;
+						character->skills[_SKILL_SORCERY] = 1;
+						object->addObject( "spbHome", 1 );
+						//character->spells[_SPELL_HOME] = 1;
 					}
 
 					break;
 
 					case _PROF_WIZARD: {
-						switch ( object->coarseAlignment() ) {
+						character->skills[_SKILL_THROWING] = 1;				
+						character->skills[_SKILL_SHIELD_USE] = 1;
+						character->skills[_SKILL_SORCERY] = 1;
+						character->skills[_SKILL_MYSTICISM] = 1;
+						character->skills[_SKILL_NECROMANCY] = 1;
+						character->skills[_SKILL_THAUMATURGY] = 1;
+						character->skills[_SKILL_ELEMENTALISM] = 1;
+						object->addObject( "spbHome", 1 );
+						//character->spells[_SPELL_HOME] = 1;
+
+						/*switch ( object->coarseAlignment() ) {
 							case _ALIGN_GOOD: 
 								character->skills[_SKILL_THAUMATURGY] = 2;
-								character->skills[_SKILL_SORCERY] = 1;
-								character->spells[_SPELL_HEAL] = 1;
-								character->spells[_SPELL_LIGHT_DART] = 1;
+						        character->skills[_SKILL_MYSTICISM] = 1;
+   						        //character->spells[_SPELL_HOLD_MONSTER] = 1;
+   						        //character->spells[_SPELL_SUMMON_PIXIE] = 1;
+   						        //character->spells[_SPELL_LIGHT_DART] = 1;
 								break;
 
 							case _ALIGN_NEUTRAL:
 								character->skills[_SKILL_ELEMENTALISM] = 2;
-								character->skills[_SKILL_SORCERY] = 1;
-								character->spells[_SPELL_FLAME_ORB] = 1;
-								character->spells[_SPELL_IMMOLATION] = 1;
+						        character->skills[_SKILL_MYSTICISM] = 1;
+   						        //character->spells[_SPELL_HOLD_MONSTER] = 1;
+   						        //character->spells[_SPELL_FLAME_ORB] = 1;
+   						        //character->spells[_SPELL_SPARK] = 1;
 								break;
 
 							case _ALIGN_EVIL:
 								character->skills[_SKILL_NECROMANCY] = 2;
-								character->skills[_SKILL_MYSTICISM] = 1;
-								character->spells[_SPELL_HOLD_MONSTER] = 1;
-								character->spells[_SPELL_ACID_SPHERE] = 1;
-								character->spells[_SPELL_SUMMON_ZOMBIE] = 1;
+   						        character->skills[_SKILL_MYSTICISM] = 1;
+   						        //character->spells[_SPELL_HOLD_MONSTER] = 1;
+   						        //character->spells[_SPELL_ACID_SPHERE] = 1;
+   						        //character->spells[_SPELL_SUMMON_ZOMBIE] = 1;
 								break;
-						}
-
-						
-						character->skills[_SKILL_THROWING] = 1;						
-						character->skills[_SKILL_SHIELD_USE] = 1;
-						character->spells[_SPELL_HOME] = 1;
-						//character->skills[_SKILL_THROWING] = 2;
-   						//character->skills[_SKILL_THEURGISM] = 1;
-						//character->skills[_SKILL_ACROBATICS] = 1;
-
-						//if ( diff != 4 ) {
-						//	if ( ( object->strength		< minStatValues[ _PROF_WIZARD ][ race ][ _STAT_STRENGTH ] ) ||
-						//		( object->dexterity		< minStatValues[ _PROF_WIZARD ][ race ][ _STAT_DEXTERITY ] ) ||
-						//		( object->intelligence	< minStatValues[ _PROF_WIZARD ][ race ][ _STAT_INTELLIGENCE ] ) ||
-						//		( object->endurance		< minStatValues[ _PROF_WIZARD ][ race ][ _STAT_ENDURANCE ] ) ) {
-						//			gDataMgr->logPermanent ( base->login, properName, _DMGR_PLOG_IMPCMD, "had hacked stats of S:%d D:%d I:%d E:%d", object->strength, object->dexterity, object->intelligence, object->endurance );
-						//			logHack( "3) Account %s - character %s had hacked stats of S:%d D:%d I:%d E:%d", base->login, properName, object->strength, object->dexterity, object->intelligence, object->endurance );
-						//
-						//			object->strength = 1;
-						//			object->dexterity = 1;
-						//			object->intelligence = 1;
-						//			object->endurance = 1;
-						//	}
-						//}
+						}	*/				
 					}
 
 					break;
@@ -7911,60 +7871,24 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 					case _PROF_ADVENTURER: {
 						character->skills[_SKILL_LONG_SWORD] = 1; 						 						
 						character->skills[_SKILL_SHIELD_USE] = 1;  						
-   						character->skills[_SKILL_SORCERY] = 1;
-   						character->spells[_SPELL_HOME] = 1;
-   						character->spells[_SPELL_KILL_STAR] = 1;
-						//character->skills[_SKILL_SHIELD_USE] = 2;
-						//character->skills[_SKILL_THEURGISM] = 1;
-						//character->skills[_SKILL_ACROBATICS] = 1;
-						//character->skills[_SKILL_LONG_SWORD] = 2;  						
-						//character->skills[_SKILL_TWOHANDED_SWORD] = 1;
-   						//character->skills[_SKILL_CRITICAL_STRIKING] = 1; 
-
-						//if ( diff != 4 ) {
-						//	if ( ( object->strength		< minStatValues[ _PROF_ADVENTURER ][ race ][ _STAT_STRENGTH ] ) ||
-						//		( object->dexterity		< minStatValues[ _PROF_ADVENTURER ][ race ][ _STAT_DEXTERITY ] ) ||
-						//		( object->intelligence	< minStatValues[ _PROF_ADVENTURER ][ race ][ _STAT_INTELLIGENCE ] ) ||
-						//		( object->endurance		< minStatValues[ _PROF_ADVENTURER ][ race ][ _STAT_ENDURANCE ] ) ) {
-						//			gDataMgr->logPermanent ( base->login, properName, _DMGR_PLOG_IMPCMD, "had hacked stats of S:%d D:%d I:%d E:%d", object->strength, object->dexterity, object->intelligence, object->endurance );
-						//			logHack( "4) Account %s - character %s had hacked stats of S:%d D:%d I:%d E:%d", base->login, properName, object->strength, object->dexterity, object->intelligence, object->endurance );
-						//
-						//			object->strength = 1;
-						//			object->dexterity = 1;
-						//			object->intelligence = 1;
-						//			object->endurance = 1;
-						//	}
-						//}
+                        character->skills[_SKILL_ELEMENTALISM] = 1;
+                        character->spells[_SPELL_FLAME_ORB] = 1;
+						character->skills[_SKILL_SORCERY] = 1;
+						object->addObject( "spbHome", 1 );
+   						//character->spells[_SPELL_HOME] = 1;
 					}
 
 					break;
 
 					case _PROF_THIEF: {
-						character->skills[_SKILL_THROWING] = 1;			   						
+						character->skills[_SKILL_DAGGER] = 1;			   						
    						character->skills[_SKILL_PICK_POCKETS] = 1;
    						character->skills[_SKILL_DETECT_TRAPS] = 1;
    						character->skills[_SKILL_PICK_LOCKS] = 1;
    						character->skills[_SKILL_SHIELD_USE] = 1;
-						character->spells[_SPELL_HOME] = 1;
-						//character->skills[_SKILL_THROWING] = 2;
-						//character->skills[_SKILL_CRITICAL_STRIKING] = 2;
-						//character->skills[_SKILL_DAGGER] = 1;
-   						//character->skills[_SKILL_ACROBATICS] = 2;
-
-						//if ( diff != 4 ) {
-						//	if ( ( object->strength		< minStatValues[ _PROF_THIEF ][ race ][ _STAT_STRENGTH ] ) ||
-						//		( object->dexterity		< minStatValues[ _PROF_THIEF ][ race ][ _STAT_DEXTERITY ] ) ||
-						//		( object->intelligence	< minStatValues[ _PROF_THIEF ][ race ][ _STAT_INTELLIGENCE ] ) ||
-						//		( object->endurance		< minStatValues[ _PROF_THIEF ][ race ][ _STAT_ENDURANCE ] ) ) {
-						//			gDataMgr->logPermanent ( base->login, properName, _DMGR_PLOG_IMPCMD, "had hacked stats of S:%d D:%d I:%d E:%d", object->strength, object->dexterity, object->intelligence, object->endurance );
-						//			logHack( "5) Account %s - character %s had hacked stats of S:%d D:%d I:%d E:%d", base->login, properName, object->strength, object->dexterity, object->intelligence, object->endurance );
-						//
-						//			object->strength = 1;
-						//			object->dexterity = 1;
-						//			object->intelligence = 1;
-						//			object->endurance = 1;
-						//	}
-						//}
+						character->skills[_SKILL_SORCERY] = 1;
+						object->addObject( "spbHome", 1 );
+						//character->spells[_SPELL_HOME] = 1;
 					}
 
 					break;
@@ -7977,9 +7901,9 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 				{
 
 					object->addAffect ( _AFF_SEE_INVISIBLE, _AFF_TYPE_NORMAL, _AFF_SOURCE_ARTIFACT, -1, 0, NULL );
-					object->addObject( "rEternalNourishment", 1 );
 					object->addObject( "bCarrying", 1 );
 
+					/*
 					character->skills[ _SKILL_SORCERY ] = 5;
 					character->skills[ _SKILL_THAUMATURGY ] = 5;
 					character->skills[ _SKILL_MEDITATION ] = 5;
@@ -7998,11 +7922,15 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 					character->spells[ _SPELL_REMOVE_CURSE ] = 1;
 					character->spells[ _SPELL_CURE_POISON ] = 1;
 					character->spells[ _SPELL_INVULNERABILITY ] = 1;
+					*/
 				}
 
 				if ( checkAccess( _ACCESS_IMPLEMENTOR ) ) {
-					object->addObject ( "ImplementorBaldric", 1 );
-					object->addObject ( "RareCrown", 1 );
+					//object->addObject ( "ImplementorBaldric", 1 );
+					object->addObject ( "GameMasterToolbox", 1 );
+					// Implementors will gain max level (10k)
+					//character->gainExperience( 9999 * 10000 );
+					//object->addObject ( "RareCrown", 1 );
 
 				} else if ( checkAccess( _ACCESS_PUBLICRELATIONS ) ) {
 					object->addObject( "CRBaldric", 1 );

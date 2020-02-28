@@ -40,7 +40,7 @@ enum {
 // race types
 enum {
 	_RACE_HUMAN,
-	_RACE_DWARF,
+	_RACE_ORC,
 	_RACE_GIANT,
 	_RACE_ELF,
 	_MAX_RACE
