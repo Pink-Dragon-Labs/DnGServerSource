@@ -4260,10 +4260,10 @@ char * WorldObject::describeAffects ( void )
 
 		switch ( affect->source ) {
 			case _AFF_SOURCE_PERMANENT: 
-				strcat( str, "Permed with " );
+				strcat( str, "\nPermed with " );
 				break;
 			case _AFF_SOURCE_WEARER:
-				strcat( str, "Enchanted with " );
+				strcat( str, "\nEnchanted with " );
 				break;
 			default:
 				break;
@@ -4273,10 +4273,10 @@ char * WorldObject::describeAffects ( void )
 		switch ( affect->type ) {
 
 			case _AFF_TYPE_WEAKNESS:
-				strcat( str, "Weak to " );
+				strcat( str, "\nWeak to " );
 				break;
 			case _AFF_TYPE_RESISTANCE: 
-				strcat( str, "Resistant to " );
+				strcat( str, "\nResistant to " );
 				break;
 			default:
 				break;
