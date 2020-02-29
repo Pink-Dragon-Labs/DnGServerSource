@@ -9319,6 +9319,74 @@ SPELL ( castSUMMON_HOLY_WARRIOR )
 	return NULL;
 }
 
+//
+// castRage: Orc -ONLY- self-cast spell that will self-zerk
+//
+
+SPELL ( castRage )
+{
+	WorldObject *target = roomMgr->findObject ( targetServID );
+
+	if ( !target || !target->player ) {
+		strcat ( output, "Nothing happens." );
+		return NULL;
+	}
+
+	caster = caster->getBaseOwner();
+
+	if ( caster->character->race == _RACE_ORC ) {
+
+		char buf[1024];
+		int skill = calcSpellSkill ( caster, _SKILL_MYSTICISM );
+
+		int duration = CalcMystSpellDuration ( caster, 3.0 );
+		duration = 3;
+
+		packet->putByte ( _MOVIE_SPECIAL_EFFECT );
+		packet->putLong ( caster->servID );
+		packet->putByte ( _SE_BERSERK );
+		packet->putByte ( 1 );
+		packet->putByte ( 1 );
+		packet->putLong ( targetServID );
+
+		// get the target's player state
+		CPlayerState *pPlayerState = target->character;
+		int nMystImmunity = 0;
+
+		if ( pPlayerState ) {
+			nMystImmunity = pPlayerState->GetMystImmunityCount();
+		}
+
+		affect_t *affect = target->hasAffect ( _AFF_BERSERK );
+
+		if ( nMystImmunity ) {
+			sprintf ( sizeof ( buf ), buf, "|c22|Nothing happens, immune for %d round(s)! ", nMystImmunity );
+			strcat ( output, buf );
+		}
+
+		else if ( affect ) {
+			strcat ( output, "|c22|Nothing happens, already enraged! " );
+		} 
+
+		else {
+			// increase the myst immunity...
+			if ( pPlayerState ) {
+				pPlayerState->ChangeMystImmunityCount ( duration * 2 );
+			}
+
+			target->addAffect ( _AFF_BERSERK, _AFF_TYPE_NORMAL, _AFF_SOURCE_SPELL, duration, caster->calcIntelligence(), packet );
+
+			sprintf ( sizeof ( buf ), buf, "|c60|%s is enraged for %d round(s)! ", target->getName(), duration );
+			strcat ( output, buf );
+		}
+	}else{ 
+		char buf[1024];
+		sprintf ( sizeof ( buf ), buf, "|c60|Your race cannot use this spell!" );
+   		strcat ( output, buf );
+	}
+	return NULL;
+}
+
 
 spell_info gSpellTable[_SPELL_MAX] = {
 	{
@@ -11700,6 +11768,20 @@ spell_info gSpellTable[_SPELL_MAX] = {
 		25,
 		_SPELL_SLOW,
 		_COMBAT_SPELL,
+		0,
+		FALSE,
+		FALSE
+	},
+	{
+		// _SPELL_RAGE
+		castRage,
+		_SKILL_MYSTICISM,
+		_SKILL_LVL_FAMILIAR,
+		_TARGET_NONE,
+		"|c60|For Konge!!|c57|",
+		0,
+		_SPELL_FAST,
+		_BOTH_SPELL,
 		0,
 		FALSE,
 		FALSE

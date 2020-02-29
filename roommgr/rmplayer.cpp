@@ -7588,7 +7588,7 @@ int RMPlayer::process_IPC_UPDATE_ATTRIBUTES ( IPCMessage *message )
    				bcharacter->skills[_SKILL_LONG_SWORD] = 1;
    				bcharacter->skills[_SKILL_SHIELD_USE] = 1;
 				bcharacter->skills[_SKILL_ELEMENTALISM] = 1;
-				bcharacter->spells[_SPELL_FLAME_ORB] = 1;
+				//bcharacter->spells[_SPELL_FLAME_ORB] = 1;
 				bcharacter->skills[_SKILL_SORCERY] = 1;
    				//bcharacter->spells[_SPELL_HOME] = 1;
    				
@@ -7817,6 +7817,10 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 
 				character->buildPoints = 6;		// 3
 
+				if ( character->race == _RACE_ORC ){
+					character->spells[_SPELL_RAGE] = 1;
+				}
+
 				switch ( character->profession ) {
 					case _PROF_WARRIOR: {					
 						character->skills[_SKILL_CLUB] = 1;
@@ -7872,7 +7876,7 @@ int RMPlayer::process_IPC_PLAYER_CREATE_CHARACTER ( IPCMessage *message )
 						character->skills[_SKILL_LONG_SWORD] = 1; 						 						
 						character->skills[_SKILL_SHIELD_USE] = 1;  						
                         character->skills[_SKILL_ELEMENTALISM] = 1;
-                        character->spells[_SPELL_FLAME_ORB] = 1;
+                        //character->spells[_SPELL_FLAME_ORB] = 1;
 						character->skills[_SKILL_SORCERY] = 1;
 						object->addObject( "spbHome", 1 );
    						//character->spells[_SPELL_HOME] = 1;
